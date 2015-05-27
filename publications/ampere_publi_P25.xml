@@ -1,0 +1,317 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:m="http://www.w3.org/1998/Math/MathML" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Publications d'André-Marie Ampère - P25</title>
+                <author key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/">
+          <forename>André-Marie</forename>
+                    <surname>Ampère</surname>
+        </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>AZENTIS</name>
+                    <resp>OCRisation et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+                        <addrLine>27 rue Damesme </addrLine>
+                        <addrLine>75013 Paris</addrLine>
+                    </address>
+                <distributor>
+                    <name>Centre de calcul de l'IN2P3</name>
+                    <address>
+                        <addrLine>Domaine scientifique de la Doua</addrLine>
+                        <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+                        <addrLine>69622 Villeurbanne Cedex</addrLine>
+                    </address>
+                </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date>2013</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:id="ampere_publi_P1812-A" xml:lang="fra" type="Article_de_périodique">
+                    <analytic>
+                        <title level="a">Mémoire sur l'origine de la génération du pouvoir
+                            électrique tant dans les frottements que dans la pile de <persName>Volta</persName>, lu à la
+                            classe des Sciences physiques et mathématiques de l'<orgName>Institut</orgName> le <date when="1811-09-23">23
+                            septembre 1811</date> par M. <persName>Dessaignes</persName>.</title>
+                        <author>
+              <persName>
+                <supplied>
+                  <surname>Ampère</surname>
+                  <forename>André-Marie</forename>
+                </supplied>
+              </persName>
+            </author>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Bulletin des sciences par la Société philomathique de
+                            Paris</title>
+                        <imprint>
+                            <biblScope type="pp">p. 40-44.</biblScope>
+                            <biblScope type="vol">vol. 3 (1812-1813)</biblScope>
+                            <biblScope type="issue">n°54</biblScope>
+                            <date when="1812">1812</date>
+                        </imprint>
+                    </monogr>
+
+                    <idno type="url_pdf">http://www.ampere.cnrs.fr/bibliographies/pdf/1812-P025.pdf</idno>
+                    <idno type="url_bio">http://www.biodiversitylibrary.org/item/24787#44 </idno>
+                <idno type="old">P25</idno>
+        </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>mars 2014</date>
+                <name>AZENTIS</name>
+            </change>
+            <change>
+                <date>avril 2014</date>
+                <name>Aude Coustumer</name>
+                <name>Philippe Pons</name>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text decls="#ampere_publi_P1812-A" type="publications">
+
+
+        <front>
+            <docTitle>
+                <titlePart rend="center">
+          <title>NOUVEAU BULLETIN<lb/> DES SCIENCES, <lb/> PAR LA
+                        <orgName>SOCIÉTÉ PHILOMATIQUE</orgName>, <lb/> DE. <placeName>PARIS</placeName>. </title>
+        </titlePart>
+            </docTitle>
+            <docEdition>TOME III<hi rend="sup">e</hi>. 5<hi rend="sup">e</hi>. ANNEE.</docEdition>
+            <docImprint>
+        <placeName>PARIS</placeName>, <lb/> <persName>J. KLOSTERMANN fils</persName>,
+                <address>
+          <addrLine>Libraire de l’<orgName>École<lb/>Impériale Polytechnique</orgName>, rue du Jardinet, n°. 13.</addrLine>
+        </address>
+      </docImprint>
+            <docDate>
+        <date when-iso="1812">M. DCCC. XII</date>
+      </docDate>
+        </front>
+        <body>
+            <pb n="40"/>
+            <div>
+                <head>P H Y S I Q U E<lb/>
+          <hi rend="it">Mémoire sur l'origine et la génération du
+                        pouvoir électrique ;<lb/> tant dans les <choice>
+                            <sic>frottemens</sic>
+                            <corr>frottements</corr>
+                        </choice> que dans la pile de <persName>Volta</persName>, lu à<lb/> la Classe des sciences
+                        physiques et mathématiques de l'<orgName>Ins<lb rend="hyphen"/>titut</orgName>, le <date when="1811-09-23">23
+                        septembre 1811</date>
+          </hi>, <hi rend="it">par M.</hi>
+                    <hi rend="sc">Dessaignes</hi>
+        </head>
+                <p/>
+                <p>JOURNAL DE PHYS.<lb/> <date when-iso="1811">1811</date>. C<hi rend="sc">E</hi> Mémoire
+                    auquel l’auteur a donné un supplément dans une lettre<pb n="41"/>à M. de
+                    <persName>Lamétherie</persName>, insérée dans le journal de <date when-iso="1811-12">décembre 1811</date>, con<lb rend="hyphen"/>tient un grand nombre de faits d’où il résulte que la température<lb/> des
+                    appareils, et <choice>
+                        <sic>sur-tout</sic>
+                        <corr>surtou</corr>
+                    </choice>t la différente température des diverses parties de<lb/> ces appareils,
+                    a la plus grande influence sur la production de l’électricité,<lb/> Nous
+                    réunissons ici dans un même article le mémoire et son supplément. </p>
+                <p>L'ambre, le soufre, le verre et la cire d’<placeName>Espagne</placeName> ne donnent aucun<lb/> signe
+                    d’électricité quand on les plonge, même brusquement, dans le mer<lb rend="hyphen"/>cure, lorsque leur température est égale à celle de ce
+                    métal, et moindre<lb/> que 10° centigr. L’auteur a fait ses expériences en
+                    commençant à la tem<lb rend="hyphen"/>pérature de — 180. L’ambre commence à
+                    devenir électrique par ce pro<lb rend="hyphen"/>cédé à 11° ; le soufre et
+                    la cire d’<placeName>Espagne</placeName> à 15°; le verre à 20° : tous<lb/> cessent de l’être entre
+                    6o° et 8o°, et ne le redeviennent plus à des tem<lb rend="hyphen"/>pératures
+                    plus élevées. Ces corps ne deviennent jamais électriques, lors<lb rend="hyphen"/>qu’au lieu de les plonger dans ce liquide, on les en retire lentement,
+                    en<lb/> supposant toujours que le degré de chaleur est le même ; mais
+                    lorsque<lb/> les corps idio-électriques dont nous venons de parler sont plus
+                    chauds<lb/> que le mercure, ils s'électrisent constamment, et par immersion, et
+                    par<lb/> émersion. Un seul degré de différence dans la température suffit
+                    pour<lb/> produire cet effet, qui est en général d'autant plus sensible que la
+                        diffé<lb rend="hyphen"/>rence est plus grande, on observe cependant qu’un
+                    cylindre de verre à<lb/> 100° plongé dans du mercure à — 18°, n’y devient
+                    électrique que quand<lb/> il se fêle, mais il l’est alors à un haut degré. Quand
+                    c’est le mercure qui<lb/> est plus chaud que le corps qu’on y plonge, ou qu’on
+                    en retire, l’élec<lb rend="hyphen"/>tricité est beaucoup plus faible pour une
+                    même différence de tempéra<lb rend="hyphen"/>ture, parce que le mercure
+                    refroidit beaucoup moins promptement<lb/> dans ce cas que ne le fait le corps
+                    idio-électrique lorsqu’il est le plus<lb/> chaud.</p>
+                <p>Le soufre s’électrise positivement dans tous ces cas, quel que soit l’état<lb/>
+                    de l’atmosphère ; mais le verre, l’ambre, la cire, le papier, le coton,
+                    la<lb/> soie et la laine, prennent <choice>
+                        <sic>constament</sic>
+                        <corr>constamment</corr>
+                    </choice> une électricité positive quand le<lb/> baromètre est bas, et que l’air
+                    pousse au chaud, et une électricité, néga<lb rend="hyphen"/>tive lorsque le
+                    baromètre est haut, et que l’air pousse au froid. Il arrive<lb/> souvent que
+                    l’électricité est positive dans du mercure allié d’étain, et né<lb rend="hyphen"/>gative dans du mercure pur. La nature de l’électricité change aussi, sui<lb rend="hyphen"/>vant l'intervalle plus ou moins grand des deux
+                    températures ; on peut<lb/> l’observer positive pour un intervalle de peu
+                    de degrés, et négative pour<lb/> une plus grande différence.</p>
+                <p>En frottant les mêmes corps sur la laine, au lieu de les plonger dans<lb/> le
+                    mercure, on observe également qu’il ne se produit d’électricité que<lb/> dans
+                    des températures qui ne sont ni trop basses ni trop élevées, et que<lb/> la
+                    nature de l’électricité dépend du degré de chaleur ; ce qu’avait déjà<lb/>
+                    observé <persName>Bergman</persName>.</p>
+                <pb n="42"/>
+                <p>Le simple contact du mercure ne produit d’électricité dans les mêmes<lb/> corps
+                    que quand sa température est différente de la leur, et qu'elles ne<lb/> sont
+                    toutes deux ni inférieures à 0°, ni supérieures à 75°. On observe<lb/> encore
+                    ici que l’électricité est ordinairement positive pour une petite<lb/> différence
+                    dans le degré de chaleur, et négative quand cette différence<lb/> est plus
+                    grande.</p>
+                <p>Des disques métalliques isolés perdent aussi la faculté de devenir élec<lb rend="hyphen"/>triques par frottement, à une température très-basse. Ils
+                    reprennent<lb/> promptement cette faculté en les chauffant un peu dans la main.
+                        L’élec<lb rend="hyphen"/>tricité est d’abord négative ; elle augmente
+                    d’abord, et diminue ensuite,<lb/> à mesure que la température augmente, en
+                    continuant de chauffer le<lb/> métal, il redevient non excitable et ensuite
+                    positif.</p>
+                <p>L’électricité positive que donnent les métaux chauffés au soleil, de<lb rend="hyphen"/>vient en un instant négative par un courant d’air froid, ou
+                    en les<lb/> plongeant dans du mercure froid.</p>
+                <p>Les métaux ne deviennent électriques au soleil que parce qu’ils s’y<lb/>
+                    échauffent plus rapidement que le support qui les isole ; ils cessent<lb/>
+                    de l’être lorsqu’on les y laisse assez <choice>
+                        <sic>longtems</sic>
+                        <corr>longtemps</corr>
+                    </choice> pour que le support y<lb/> prenne la même température. Lorsque les
+                    disques métalliques sont na<lb rend="hyphen"/>turellement négatifs, on les rend
+                    positifs l’hiver, et quand l’air pousse au<lb/> froid, en refroidissant le
+                    support, et l’été, par un vent de sud ; et quand<lb/> le baromètre est bas,
+                    en chauffant le support. S’ils étaient positifs, on<lb/> les rendrait
+                    négatifs ; dans le premier cas, en chauffant le support, et<lb/> dans le
+                    second en le refroidissant.</p>
+                <p>M. <persName>Dessaignes</persName> joint à ces faits, qui sont <choice>
+                        <sic>indépendans</sic>
+                        <corr>indépendants</corr>
+                    </choice> de la nature du<lb/> métal dont les disques qu’on électrise sont
+                    composés, d'autres résul<lb rend="hyphen"/>tats relatifs aux divers
+                    métaux ; il a trouvé qu’à l’exception de l’étain et<lb/> de l’antimoine,
+                    qui sont toujours négatifs, tous les métaux sont naturel<lb rend="hyphen"/>rellement variables du positif au négatif ; que le pouvoir des pointes<lb/>
+                    pour faire naître l’état négatif est très-grand sur le zinc, un peu moindre<lb/>
+                    sur l'argent, très-faible sur les autres métaux, et nul sur le
+                    bismuth ;<lb/> que quand les métaux ne sont pas excitables, et qu’ils le
+                    deviennent lors<lb rend="hyphen"/>qu’on les expose au soleil, l’électricité se
+                    manifeste d'abord dans ceux qui<lb/> sont meilleurs conducteurs du calorique,
+                    l’argent étant au premier rang,<lb/> et le plomb au dernier.</p>
+                <p>Les métaux où l’électricité a le plus d’intensité, sont l’argent et l’étain,<lb/>
+                    puis viennent le cuivre et le zinc, ensuite le platine et l'or, enfin, le<lb/>
+                    plomb, l’antimoine, le fer et le bismuth.</p>
+                <p>Lorsque le baromètre est très-haut, le fer et le bismuth sont toujours<lb/>
+                    positifs, quelque froid qu’il fasse ; les autres métaux deviennent posi<lb rend="hyphen"/>tifs quand il ne fait pas trop froid dans l’ordre
+                    suivant : l’argent, l’or,<lb/> le platine, le cuivre, le zinc et le plomb.
+                    L’antimoine et l’étain ne le<lb/> deviennent jamais. Le froid fait repasser ceux
+                    qui en sont susceptibles, <pb n="43"/>à l'état négatif dans l’ordre inverse, le
+                    plomb, le zinc, le cuivre, le pla<lb rend="hyphen"/>tine, l’or et l'argent.
+                    Quand le baromètre est bas, et la température<lb/> très élevée, ils deviennent
+                    tous négatifs dans cet ordre : l’argent, l’or, le<lb/> platine, le fer, le
+                    bismuth, le plomb, le cuivre et le zinc, et repassent à<lb/> l'état positif,
+                    quand la température baisse ; mais ce changement arrive<lb/> toujours dans
+                    le même ordre, l’argent, le premier, et le zinc, le der<lb rend="hyphen"/>nier,
+                    en sorte que l’ordre ne devient point inverse comme il arrive dans<lb/> les <choice>
+                        <sic>changemens</sic>
+                        <corr>changements</corr>
+                    </choice> qui ont lieu lors des grandes élévations du baromètre. </p>
+                <p>M. <persName>Dessaignes</persName> termine le mémoire que nous analysons par des
+                        expé<lb rend="hyphen"/>riences <choice>
+                        <sic>tendantes</sic>
+                        <corr>tentantes</corr>
+                    </choice> à prouver que l’action galvanique d’un disque de zinc posé<lb/> sur un
+                    disque de cuivre, et celle d’une pile montée à l’ordinaire, disparaissent<lb/>
+                    lorsqu’on les plonge dans un mélange frigorifique ; il avait cru d’abord
+                    que<lb/> cette action augmentait avec la température du liquide environnant,
+                        quoi<lb rend="hyphen"/>qu’il eût observé un cas où elle avait cessé dans
+                    l’eau bouillante. C’est sur cette<lb/> dernière partie de son mémoire qu’il est
+                    revenu dans sa lettre du 18 novembre<lb/> à l’auteur du Journal de
+                    physique : il résulte des expériences qu’il y décrit,<lb/> <list>
+            <item n="1"> qu’on fait
+                    disparaître également l’action galvanique par un froid de 18° cen<lb rend="hyphen"/>tigrades au-dessous de zéro, et par la chaleur de l’eau
+                    bouillante, pourvu<lb/> que cette température ; très-basse ou <choice>
+                        <sic>très-élevée</sic>
+                        <corr>très élevée</corr>
+                    </choice>, soit précisément la même<lb/> à tous les points de
+                    l’instrument ;</item> <item n="2"> que l’action reparaît quand la tempéra<lb rend="hyphen"/>ture cesse d’être partout la même, par exemple, lorsqu’une des
+                    extrémités<lb/> d’une pile voltaïque est plus chaude que l’autre, et que cette
+                    action a<lb/> d’autant plus d’intensité que la température est plus inégale aux
+                    deux ex<lb rend="hyphen"/>trémités de la pile.</item>
+          </list> Enfin, l’auteur rapporte
+                    quelques expériences qu’il a<lb/> faites sur l’électricité qu’on excite par le
+                    contact de deux branches métal<lb rend="hyphen"/>liques homogènes, mais de
+                    températures différentes. Il a produit, par<lb/> exemple, des contractions <choice>
+                        <sic>très-vives</sic>
+                        <corr>très vive</corr>
+                    </choice> dans les muscles d’une grenouille,<lb/> en les plaçant sur le manche
+                    d'une <choice>
+            <sic>cuiller</sic> <corr>cuillère</corr>
+          </choice> d’argent pleine d’éther, et<lb/> refroidie par l’évaporation de ce
+                    liquide, puis en établissant une com<lb rend="hyphen"/>munication avec un fil
+                    du même métal entre cette <choice>
+            <sic>cuiller</sic> <corr>cuillère</corr>
+          </choice> et une se<lb rend="hyphen"/>conde <choice>
+            <sic>cuiller</sic> <corr>cuillère</corr>
+          </choice>
+                    vide et en contact avec les nerfs moteurs de ces muscles.<lb/> En mettant aussi
+                    de l’éther dans la <choice>
+            <sic>cuiller</sic> <corr>cuillère</corr>
+          </choice> qui touche les nerfs, on voit<lb/> l’action
+                    galvanique diminuer et cesser en même <choice>
+                        <sic>tems</sic>
+                        <corr>temps</corr>
+                    </choice> que la différence de<lb/> température des deux cuillers. Plusieurs des
+                    expériences dont nous<lb/> venons de rendre compte, avaient été faites <choice>
+                        <sic>longtems</sic>
+                        <corr>longtemps</corr>
+                    </choice> avant M. <persName>Des<lb rend="hyphen"/>saignes</persName> en
+                    <placeName>Allemagne</placeName> et en <placeName>Italie</placeName>, lors de la discussion élevée entre<lb/> <persName>Galvani</persName> et <persName>Volta</persName>
+                    sur la cause des phénomènes galvaniques, que le savant<lb/> dont ils ont
+                    conservé le nom, attribuait aux propriétés des organes mus<lb rend="hyphen"/>culaires, et <persName>Volta</persName> à l’hétérogénéité des métaux employés dans l’arc exci<lb rend="hyphen"/>tateur. M. <persName>de Humboldt</persName>, dont les
+                    travaux sur la théorie naissante du<lb/> galvanisme, ont fait connaître à cette
+                    époque un grand nombre de faits<lb/> nouveaux et <choice>
+                        <sic>intéressans</sic>
+                        <corr>intéressants</corr>
+                    </choice>, examina <choice>
+                        <sic>sur-tout</sic>
+                        <corr>surtout</corr>
+                    </choice> avec attention l’influence de la<lb/> diversité de température sur la
+                    production de l’électricité galvanique. <pb n="44"/>Ses observations et ses
+                    expériences sur cette branche de la physique<lb/> sont réunies dans l’ouvrage
+                    qu’il publia en <placeName>Allemagne</placeName> avant son dé<lb rend="hyphen"/>part pour l’<placeName>Amérique</placeName>,
+                    et dont le premier volume a été traduit en Français,<lb/> et imprimé
+                        <placeName>chez <persName>Fuchs</persName>
+          </placeName> en <date when-iso="1799">1799</date>, sous ce titre : <title>Expériences
+                    sur le galva<lb rend="hyphen"/>nisme, et en général sur l’irritation des fibres
+                    musculaires et nerveuses</title>. A. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

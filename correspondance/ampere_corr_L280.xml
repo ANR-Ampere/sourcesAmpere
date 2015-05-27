@@ -1,0 +1,475 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 280</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+               <forename>André-Marie</forename>
+               <surname>Ampère</surname>
+            </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des sciences</affiliation>
+               </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+               <name>Centre de calcul de l'IN2P3</name>
+               <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+            </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1805-11-02-A">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Bibliothèque nationale de France</institution>
+                  <repository>N.A.F.</repository>
+                  <idno>ms. 14605, f. 24-31. [note d'André ROBINET]</idno>
+               <altIdentifier>
+              <idno type="old">L280</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+               
+            </msDesc>
+            <listWit>
+               <witness xml:id="L280edition">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>Maine de Biran</surname>
+                           <forename>Pierre</forename>
+                        </author>
+                        <author role="dir">
+                           <surname>Robinet</surname>
+                           <forename>André</forename>
+                        </author>
+                        <title>Oeuvres, XIII-1 : Correspondance philosophique avec Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>J. Vrin</publisher>
+                           <date when="1993">1993</date>
+                           <biblScope type="pp">p. 12-15</biblScope>
+                        </imprint>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness xml:id="L280edition2">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>Barthélémy-Saint-Hilaire</surname>
+                           <forename>Jules</forename>
+                        </author>
+                        <title>Philosophie des deux Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Didier et Cie</publisher>
+                           <date when="1866">1866</date>
+                           <biblScope type="pp">p. 197</biblScope>
+                        </imprint>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness>
+                  <biblStruct xml:id="L280edition3">
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                        </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 290-291-292</biblScope>
+                        </imprint>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness xml:id="L280manuscrit2">
+                  <msDesc type="copie">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 261 [note d'André ROBINET]</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Copie Naville [note d'André ROBINET]</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+               <witness xml:id="L280manuscrit3">
+                  <msDesc type="copie">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 274</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Copie par Jean-Jacques Ampère, partielle. [note d'André ROBINET] Copie de
+                           la main d'un secrétaire.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1805-11-02">2 novembre
+                           1805</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Maine de Biran, Pierre</persName>
+        </correspAction>
+        <note type="noteDelaunay">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+            <date when="2014-07">juillet 2014</date>
+            <name>Philippe Pons</name>
+            <name>Aude Coustumer</name>
+         </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1805-11-02-A">
+      <body>
+         <div>
+            <opener>
+          <pb n=""/>
+               <placeName ref="#pl_L2">Lyon</placeName> le
+               <date when="1805-11-02">2 <choice>
+              <abbr>9bre</abbr>
+              <expan>novembre</expan>
+            </choice>
+            <lb/>
+                  1805 ?</date>
+            </opener>
+            <p>Vous avez sans doute été surpris,<lb/> Monsieur et cher ami, de n'avoir<lb/> point
+               encore reçu de réponse<lb/> à la lettre que vous m'avez<lb/> fait l'honneur de
+               m'écrire.<lb/> Un petit voyage que j'ai fait dans le <placeName>Forez</placeName>, le
+               jour<lb/> même où je l'avais reçue, et<lb/> dont je ne suis revenu que<lb/> ce matin,
+               en est la cause.</p>
+            <p>Je l'ai lue deux fois avec<lb/> la plus grande attention,<lb/> j'ai discuté une
+               partie des<lb/> réflexions qui y sont contenues<lb/> avec deux hommes que je<lb/>
+               regarde comme assez forts<lb/> en métaphysique. L'un <add>d'eux, </add>genevois<lb/>
+               et grand partisan de <persName ref="#pers_K328">Kant</persName>,<pb n=""/> qu'il ne
+               suit pas pourtant<lb/> en tout, est celui dont<lb/> les idées se rapprochent<lb/> le
+               plus des vôtres ; et<lb/> d'après cette discussion et<lb/> ce que vous me dites
+               dans<lb/> votre lettre, je vois qu'il n'y<lb/> a plus entre nous que<lb/> des
+               questions de mots.<lb/> Nous sommes d'accord, à<lb/> ce qu'il me semble :<lb/>
+          <list>
+                  <item n="1"> Que divers <choice>
+                        <sic>mouvemens</sic>
+                        <corr>mouvements</corr>
+                     </choice>,<lb/> tels que ceux qui ont<lb/> lieu lors de la sensation,<lb/>
+                     pourraient s'exécuter<lb/> dans les organes sensitifs<lb/> ou le cerveau sans
+                     que<lb/> l'âme en fut nullement<lb/> modifiée ; mais alors, ce<lb/> serait pour
+                     elle absolument<pb n=""/> comme s'ils n'avaient pas lieu ;</item>
+                  <lb/>
+                  <item n="2"> Que l'âme, sans avoir<lb/> agi, ni avoir, par conséquent,<lb/> en
+                     aucune sorte, le<lb/> sentiment du Moi, est<lb/> modifiée par ces <choice>
+                        <sic>mouvemens</sic>
+                        <corr>mouvements</corr>
+                     </choice>,<lb/> en affections et en<lb/> images distinctes et<lb/>
+                     coordonnées ;</item>
+                  <lb/>
+                  <item n="3"> Que ces affections, et<lb/> plus encore les images,<lb/> sont
+                     l'occasion à l'âme<lb/> d'agir volontairement,<lb/> et de sentir ce que<lb/>
+                           j'<choice>
+                <sic>appèle</sic>
+                        <corr>appelle</corr>
+              </choice> le Moi phénoménal.<lb/> C'est là une
+                     impression<lb/> bien différente de toutes<lb/> les autres, en ce qu'elle est<pb n=""/> la seule immédiatement<lb/> produite par la volonté.<lb/> Cette
+                     impression se place<lb/> hors des images déjà<lb/> existantes, comme
+                     celles<lb/>ci se sont placées hors<lb/> les unes hors des autres ; et ce<lb/>
+                     n'est qu'en considérant<lb/> les choses de cette manière<lb/> que l'on peut
+                     expliquer<lb/> comment, toutes nos<lb/> impressions existant<lb/> réellement
+                     dans le<lb/> Moi nouménal, ou dans<lb/> l'âme qui n'est connue<lb/> que par une
+                     hypothèse<lb/> explicative, il arrive que<lb/> toutes nos impressions sont
+                     <lb/> placées hors du Moi phénoménal.<pb n=""/> Il me paraît que vous<lb/>
+                     aviez d'abord confondu<lb/> les deux premiers <subst>
+                <del type="illisible"/>
+                <lb/>
+                        <add>des trois états que je viens de décrire,</add>
+              </subst>
+              <lb/> et que
+                     c'est pour cela<lb/> qu'il vous <subst>
+                <del type="illisible"/>
+                        <add>arrive encore souvent</add>
+              </subst> de faire<lb/> abstraction du second,<lb/>
+                     <subst>
+                <del type="illisible"/>
+                        <add>celui où</add>
+              </subst> l'âme éprouve<lb/> des affections et des
+                     images<lb/> sans sentir d'effort,<lb/> parce qu'elle n'en exerce<lb/> pas
+                     encore.</item>
+               </list>
+            </p>
+            <p> Or, il me semble évident<lb/> qu'il est contradictoire<lb/> que l'âme arrive au<lb/>
+               3me état sans passer<lb/> par le second, qui est<lb/> composé des circonstances<lb/>
+               intellectuelles préalablement<lb/> nécessaires à l'exercice de<lb/> la volonté et,
+               par conséquent,<lb/> à la conscience. Je crois<lb/> donc que vous devez mettre<lb/>
+               tous vos soins à signaler<lb/> ce second état, qui est<lb/> celui de
+               l'entendement<lb/> des animaux, et à le<lb/> distinguer avec autant<lb/> de soin du
+               premier état<lb/> que du troisième.</p>
+            <p>N'est-ce pas maintenant<lb/> une question de mots<lb/> de savoir si l'on doit<lb/>
+               appeler connaissance<lb/> ce second état, le<lb/> premier où l'âme soit<lb/>
+               modifiée ? Cela ne dépend<lb/>il pas uniquement de<lb/>
+               <del type="illisible"/> la définition<pb n=""/> qu'on donnera de ce mot<lb/>
+               <hi rend="underline">connaissance</hi> ?</p>
+            <p>M. <persName ref="#pers_R502">Roux</persName>,<lb/>
+               <add>ce genevois dont je viens de vous parler,</add>
+          <lb/> est à cet égard de
+               votre<lb/> avis ; il dit qu'il se passe<lb/> un si grand changement<lb/> dans l'âme à
+               l'instant<lb/> de la naissance du Moi<lb/> phénoménal, que cela<lb/> l'élève tant
+               dans l'échelle<lb/> de l'intelligence, que<lb/> l'on doit n'appeler nos modifications<lb/>
+               <hi rend="underline">connaissances</hi> qu'à dater <lb/> de cette époque. Mais<lb/>
+               il pense comme moi<lb/> qu'il est indispensable<lb/> de fixer avec le plus grand<lb/>
+               soin les circonstances<lb/> intellectuelles qui la précèdent ;<pb n=""/> ces
+               circonstances sont<lb/> aussi importantes au<lb/> moins, et aussi nécessaires<lb/>
+               pour la production du<lb/> sentiment d'effort, que<lb/> les circonstances
+               organiques,<lb/> les seules que vous eussiez<lb/> d'abord considérées.</p>
+            <p>La nécessité où vous êtes<lb/> (si vous voulez ne pas<lb/> continuer à faire
+               sortir<lb/> ce sentiment de pures<lb/> circonstances organiques<lb/> qui sont
+               évidemment<lb/> insuffisantes) de parler de<lb/> l'état de l'âme où, avant<lb/> le
+               Moi, elle se trouve<lb/> identifiée avec des affections<lb/> ou des images, exige
+                  que<pb n=""/> vous disiez que, dans ce<lb/> cas, ces images son<lb/>
+               t<hi rend="underline">
+            <choice>
+              <sic>apperçues</sic> <corr>aperçues</corr>
+            </choice>
+          </hi>
+               par l'âme,<lb/> quoique, n'ayant pas de<lb/>
+               <hi rend="underline">Moi</hi>, elle ne sache pas<lb/> elle-même qu'elle les<lb/>
+               <hi rend="underline">
+            <choice>
+              <sic>apperçoit</sic> <corr>aperçoit</corr>
+            </choice>
+          </hi>.
+               Sans cela,<lb/> vous confondrez cet état<lb/> avec celui où l'âme ne<lb/> serait
+               nullement modifiée<lb/> par les <choice>
+            <sic>mouvemens</sic>
+                  <corr>mouvements</corr>
+          </choice> cérébraux,<lb/> et vous retomberiez<lb/> dans le
+               cercle vicieux<lb/> où vous vous étiez placé<lb/> dans votre premier<lb/>
+               mémoire.</p>
+            <p>M. <persName ref="#pers_R502">Roux</persName>, qui admet comme<lb/> vous qu'avant le
+               Moi, les<lb/> images ne sont pas des<lb/> connaissances, n'a pas<lb/> voulu me croire
+               quand<lb/> je lui ai dit que vous<lb/> répugniez à dire que ces<lb/> images étaient,
+               avant le<lb/> Moi,
+               <hi rend="underline">
+            <choice>
+              <sic>apperçues</sic> <corr>aperçues</corr>
+            </choice>
+          </hi>
+               par l'âme.<lb/> Tous ceux que j'ai <choice>
+            <sic>consulté</sic>
+                  <corr>consultés</corr>
+          </choice>
+          <lb/> à cet égard, comme si<lb/> c'était moi qui
+               avais là<lb/>dessus quelques difficultés, ont<lb/> tous pensé que, dans le<lb/> sens
+               donné universellement<lb/> au mot
+               <hi rend="underline">
+            <choice>
+              <sic>appercevoir</sic> <corr>apercevoir</corr>
+            </choice>
+          </hi>, l'âme<lb/>
+               <hi rend="underline">
+            <choice>
+              <sic>apperçoit</sic> <corr>aperçoit</corr>
+            </choice>
+          </hi>
+               les images qui<lb/> lui sont présentes, avant<lb/> qu'elle
+               <hi rend="underline">
+            <choice>
+              <sic>apperçoive</sic> <corr>aperçoive</corr>
+            </choice>
+          </hi>
+               en outre<lb/> son Moi. Il y a donc des choses<pb n=""/>
+               <choice>
+                  <sic>apperçue</sic>
+                  <corr>aperçues</corr>
+               </choice> par l'âme sans l'être par le Moi.<lb/> Il est évident que dans<lb/> le même
+               cas, on doit<lb/> dire que l'âme <hi rend="underline">exerce</hi> la<lb/> faculté de
+               sentir, quoiqu'elle<lb/> ne puisse pas savoir qu'elle<lb/>
+               <hi rend="underline">l'exerce</hi>, parce que le<lb/> Moi ne peut naître que<lb/> par
+               l'exercice d'une autre<lb/> de ses facultés, celle de<lb/>
+               <hi rend="underline">vouloir</hi>.</p>
+            <p>Vous me dites que l'idée<lb/> du Moi ne diffère pas de<lb/> celle de
+               <hi rend="underline">causalité</hi>. N'auriez<lb/>vous point confondu ces<lb/> deux
+               mots <hi rend="underline">cause</hi> et <hi rend="underline">causalité</hi> ?<lb/> Le
+               Moi est senti comme<lb/>
+               <hi rend="underline">cause</hi> ; la causalité n'est<lb/> que le rapport de<pb n=""/>
+               dépendance <choice>
+                  <sic>apperçu</sic>
+                  <corr>aperçu</corr>
+               </choice> entre<lb/> les deux termes auxquels nous<lb/> donnons, en vertu de<lb/>
+               cette dépendance, les noms<lb/> de causes et d'effets ; l'effort<lb/> est donc la
+               <hi rend="underline">cause</hi> et non<lb/> la
+               <hi rend="underline">causalité</hi>.</p>
+            <p>La permanence du Moi<lb/> n'exige pas un
+               <hi rend="underline">effort<lb/>
+                  permanent</hi> senti ; il
+               suffirait<lb/> que cette impression laissât<lb/> un souvenir, que l'habitude<lb/> de
+               l'éprouver souvent rendrait<lb/> extrêmement familier.<lb/> Cela m'expliquerait
+               comment<lb/> il arrive que je <choice>
+            <sic>perds</sic>
+                  <corr>perde</corr>
+          </choice> le<lb/> Moi toutes les fois que je<lb/> m'applique
+               fortement à<lb/> des idées abstraites. Ce que<pb n=""/> j'ai vérifié encore
+               plusieurs<lb/> fois depuis que je suis ici, ce<lb/> souvenir cédant comme<lb/> tout
+               autre à la forte<lb/> attention que je donne<lb/> alors à d'autres idées.</p>
+            <p>Voilà une lettre déjà bien<lb/> longue, et que la métaphysique<lb/> a toute remplie ;
+               j'espérais<lb/> que quelques pages du moins<lb/> en seraient employées d'une<lb/>
+               manière moins sèche, mais<lb/> comme j'espère vous embrasser<lb/> dans quinze jours,
+               puisqu'il<lb/> faut que je sois à l'école au<lb/> plus tard le
+               <date when="1805-11-22">1r. frimaire</date>, je<lb/> remets quoiqu'à regret à
+               cette<lb/> époque de vous témoigner toute<lb/> la reconnaissance que je<lb/> ressens
+               de l'amitié que vous<pb n=""/> voulez bien avoir pour moi.<lb/> Celle que vous m'avez
+               inspirée<lb/> dès que j'ai eu le bonheur de<lb/> vous connaître me donne<lb/> des
+               droits à la vôtre, je désire<lb/> indéfiniment que l'occasion<lb/> se présente de
+               vous aider<lb/> dans l'impression de votre<lb/> ouvrage, mais je crois qu'il<lb/>
+               vaudrait mieux pour lui<lb/> donner un plus haut degré<lb/> de perfection, que vous
+               pussiez<lb/> en revoir vous-même les épreuves.<lb/> Vous verrez qu'il y a
+               toujours<lb/> quelques mots à changer,<lb/> et il n'y a que l'auteur qui<lb/> puisse
+               faire ces <choice>
+                  <sic>changemens</sic>
+                  <corr>changements</corr>
+               </choice>.<lb/> Au reste nous en parlerons<lb/> à loisir quand je serai<lb/> à
+               <placeName ref="#pl_P6">Paris</placeName>, ce qui ne saurait<pb n=""/> beaucoup
+               tarder. Je suis<lb/> sûr qu'il nous suffira de<lb/> quelques conversations pour<lb/>
+               être parfaitement d'accord<lb/> sur tout. J'ai aussi apporté<lb/> quelques
+               modifications à la<lb/> manière dont j'arrangeais<lb/> les <choice>
+                  <sic>élémens</sic>
+                  <corr>éléments</corr>
+               </choice> de l'intelligence<lb/> et de l'activité de
+               l'hom<supplied>me,</supplied>
+          <lb/> d'après mes discussions
+               av<supplied>ec</supplied>
+          <lb/> les métaphysiciens dont je<lb/>
+               <supplied>vous</supplied> parlais tout à l'heure, e<supplied>t ils</supplied>
+          <lb/>
+               nous ont je crois encore<lb/> rapprochés. Au reste cette
+               le<supplied>ttre</supplied>
+          <lb/> n'est déjà que trop long<supplied>ue,
+               et</supplied>
+          <lb/> nous en parlerons quand<lb/> je serai à
+               <placeName ref="#pl_P6">Paris</placeName>. J'ai trouvé<lb/> tout ce qui m'intéressait
+               ici en<lb/> bonne santé, mais je me<lb/> convaincs tous les jours par<lb/>
+               expérience, que notre<pb n=""/> bonheur dépend de nos propres<lb/> dispositions, et
+               celles où je me<lb/> trouve à l'aspect de ce pays<lb/> sont bien pénibles.
+               J'aspire<lb/> à présent à retourner à <placeName ref="#pl_P6">Paris</placeName>,<lb/>
+               surtout dans l'espérance de vous<lb/> y retrouver. Votre ami pour la vie,<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName>
+            </p>
+            <closer>A <choice>
+                  <sic>Monsieur,<lb/> Monsieur</sic>
+                  <corr>Monsieur</corr>
+               </choice>
+               <persName ref="#pers_M372">Maine Biran</persName>,<lb/> Conseiller de préfecture du
+               département de<lb/>
+               <placeName>Périgueux</placeName>,<lb/> rue Mazarine n°20<lb/> à
+               <placeName>Paris</placeName>.</closer>
+         </div>
+      </body>
+      <back>
+         <div>
+            <note xml:id="corresp1">(1) D'après la <title>Philosophie des deux Ampère</title>, p.
+               197.</note>
+            <note resp="CAK_commentaire">Cette édition est incomplète. Cette édition est incomplète.
+               Pour consulter le fac-similé de cette copie, <ref type="archives" target="#ampere_arch_chem274.xml#6">cliquer ici</ref> et naviguer dans le fonds
+               virtuel à l'aide des flèches "page suivante".</note>
+         </div>
+      </back>
+   </text>
+</TEI>

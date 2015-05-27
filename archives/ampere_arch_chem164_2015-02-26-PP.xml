@@ -1,0 +1,806 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Archives André-Marie Ampère - Chemise 164</title>
+                <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+                    <forename>André-Marie</forename>
+                    <surname>Ampère</surname>
+                </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                            sciences</affiliation>
+                    </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+               <addrLine>27 rue Damesme</addrLine>
+               <addrLine>75013 Paris</addrLine>
+            </address>
+                <distributor>
+                    <name>Centre de calcul de l'IN2P3</name>
+                    <address>
+                  <addrLine>Domaine scientifique de la Doua</addrLine>
+                  <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+                  <addrLine>69622 Villeurbanne Cedex</addrLine>
+               </address>
+                </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier xml:id="ampere_arch_chem164">
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>Chemise 164</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Mémoire lu le 26 décembre 1820 sur les attractions</summary>
+                        <msItem xml:id="ampere_arch_chem164_1">
+                            <title>Exposition du moyen par lequel il est facile de s'assurer directement … de l'exactitude de la loi des attractions et répulsions des courants électriques communiquée à l'Académie …</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <handNote corresp="#AMA">
+                                <name type="person" key="Ampère, André-Marie (1775-1836)">
+                                    <forename>André-Marie</forename>
+                                    <surname>Ampère</surname>
+                                </name>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <additional>
+                        <listBibl>
+                            <bibl>
+                                <title>Catalogue du Fonds André-Marie Ampère, Électricité et
+                                    magnétisme, Carton VIII, Chemise 164</title>
+                                <biblScope type="pp">p. 16</biblScope>
+                                <publisher>éd. Archives de l'Académie des Sciences</publisher>,
+                                    <date when-iso="1937">1937</date>.
+                                    <idno>http://www.ampere.cnrs.fr/manuscrits/catalogueAS.pdf</idno>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date when="2013-10">octobre 2013</date>
+                <name>Aude Coustumer</name>
+                <name>Philippe Pons</name>
+            </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date when="2014-08">août 2014</date>
+                <date when="2015-02">février 2015</date>
+                <name>Philippe Pons</name>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="images_ch164_1" corresp="#ch164_1">
+        <graphic url="ACAS_CRHST_AMP_08_164_0001_r.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_08_164_0002_r.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_08_164_0003_v.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_08_164_0004_r.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_08_164_0005_v.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_08_164_0006_r.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_08_164_0007_v.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_08_164_0008_r.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_08_164_0009_v.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_08_164_0010_r.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_08_164_0011_v.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_08_164_0012_r.jpg"/>
+    </facsimile>
+    <text decls="#ampere_arch_chem164" type="archives">
+        <group>
+            <text decls="#ampere_arch_chem164_1">
+                <body>
+                    <div>
+                        <pb n="1" facs="#ACAS_CRHST_AMP_08_164_0001_r.jpg"/>
+                        <gap reason="illisible"/>
+                        <pb n="2" facs="#ACAS_CRHST_AMP_08_164_0002_r.jpg"/>
+                        <head>
+              <handShift new="#AMA"/>Mémoire lu le <date when="1820-12-26">26 <choice>
+                                    <abbr>Xbre</abbr>
+                                    <expan>décembre</expan>
+                                </choice>
+              </date>.</head>
+                        <p>§1 Exposition du moyen par lequel il est facile<lb/>
+                            <del type="illisible"/> de s'assurer directement<lb/> et par des
+                            expériences précises,<lb/> de l'exactitude de la loi des
+                            attractions<lb/> et répulsions des <choice>
+                                <sic>courans</sic>
+                                <corr>courants</corr>
+                            </choice> électriques<lb/> communiquée à
+                            l'<orgName>Académie royale<lb/>
+                                des Sciences</orgName>
+                            dans la séance du<lb/>
+                            <date when="1820-11-06">6 novembre 1820</date>, suivie de quelques<lb/>
+                            observations sur cette loi.</p>
+                        <p>Comme c'est de cette loi que j'ai<lb/> déduit l'expression
+                            analytique<lb/> de l'action mutuelle de deux<lb/> portions infiniment
+                            petites de<lb/>
+                            <choice>
+                                <sic>courans</sic>
+                                <corr>courants</corr>
+                            </choice> électriques, dont il est<lb/> aisé de conclure par les
+                            méthodes<lb/> ordinaires d'intégration toutes<lb/> les circonstances de
+                            cette action<lb/> pour des <choice>
+                                <sic>courans</sic>
+                                <corr>courants</corr>
+                            </choice> de grandeur<lb/> finie, soit à l'égard de ceux<lb/> qu'on
+                            produit avec une pile<lb/> de <persName>Volta</persName>, soit à l'égard
+                            de ceux<lb/> qui <subst>
+                                <del>agissent</del>
+                                <add>disposés</add>
+                            </subst> dans les <choice>
+                                <sic>aimans</sic>
+                                <corr>aimants</corr>
+                            </choice> de<lb/> la manière que j'ai expliquée<lb/> dans le mémoire
+                            précédent<lb/> rendent raison de tous les <pb n="3" facs="#ACAS_CRHST_AMP_08_164_0003_v.jpg"/> phénomènes qu'ils
+                            présentent,<lb/> j'ai dû chercher le moyen de<lb/> s'assurer directement
+                            et par des<lb/> expériences susceptibles de précision<lb/> l'exactitude
+                            de cette loi. C'est<lb/> l'objet du mémoire que j'ai l'honneur<lb/> de
+                            présenter à l'<orgName>Académie</orgName>.</p>
+                        <p>D'après l'énoncé que j'ai donné<lb/> de cette loi, il est aisé de
+                            voir<lb/> qu'elle se réduit à ceci :<lb/> si l'on fixe sur la
+                            direction<lb/> d'un courant électrique deux<lb/> points infiniment
+                            rapprochés,<lb/> et qu'on substitue à la petite<lb/> portion du courant
+                            comprise<lb/> entre ces points une autre<lb/> portion de ce même
+                            courant<lb/> suivant une <del type="illisible"/> ligne brisée<lb/> ou
+                            contournée d'une manière<lb/> quelconque mais se terminant<lb/> toujours
+                            aux mêmes points,<lb/> sans s'en écarter en aucun de<lb/> ses points à
+                            une distance finie,<lb/> cette substitution ne changera<lb/> en
+                                a<supplied>u</supplied>cune manière l'action<lb/> exercée <add>dans
+                                quelque direction que ce soit</add> par la petite portion<lb/> de
+                            courant que l'on considère sur<lb/> une autre portion de courant
+                            électrique qui en est <pb n="4" facs="#ACAS_CRHST_AMP_08_164_0004_r.jpg"/> éloignée d'une quantité finie.</p>
+                        <p>Je remarquerai <subst>
+                                <del>en supposant qu'il</del>
+                                <add>en passant qu'il n'en</add>
+                            </subst>
+              <lb/>
+                            <del>s'en suit que</del> est ainsi que parce que<lb/> tous ses points
+                            sont censés <supplied>être</supplied> à la<lb/> même distance de celui
+                            sur lequel<lb/> elle agit. Qu'il s'en suit que<lb/> l'action d'un
+                            circuit fermé<lb/> infiniment petit serait nulle<lb/> par la
+                            compensation qui aurait<lb/> toujours lieu entre l'attraction<lb/>
+                            exercée par une de ses moitiés,<lb/> et la répulsion exercée par<lb/>
+                            l'autre, et qu'enfin si un circuit<lb/> d'une grandeur finie produit des
+                            attractions<lb/> ou des répulsions, c'est uniquement<lb/> parce que
+                            l'action diminuant<lb/> en raison inverse du carré<lb/> de la distance,
+                            il n'y a plus<lb/> entre les <del>parties</del> actions produites<lb/>
+                            par ses diverses portions, qui se<lb/> trouvent à différentes
+                            distances<lb/> du <del>point</del> courant ou de l'aimant<lb/> sur
+                            lequel il agit, la même<lb/> compensation qui aurait lieu<lb/>
+                            nécessairement, si elles en<lb/> étaient toutes à la même<lb/>
+                            distance.</p>
+                        <p>
+              <pb n="5" facs="#ACAS_CRHST_AMP_08_164_0005_v.jpg"/> Pour m'assurer
+                            directement<lb/> de l'exactitude de cette loi, je<lb/> fais construire
+                            un instrument<lb/> dont je dois d'abord donner<lb/> la description.</p>
+                        <p>Il se compose de deux tablettes<lb/> horizontales AB, CD, supportées<lb/>
+                            par le pied vertical M qui<lb/> se termine au-dessus de la<lb/> tablette
+                            supérieure CD par<lb/> un <subst>
+                                <del type="illisible"/>
+                                <add>support</add>
+                            </subst> N <del type="illisible"/> auquel<lb/> on peut suspendre un
+                            aimant<lb/> ou un conducteur mobile,<lb/> et qu'on peut fixer à
+                            volonté<lb/> à différentes hauteurs au-dessus<lb/> de cette tablette au
+                            moyen<lb/> de la vis de pression P.</p>
+                        <p>Sur la tablette inférieure AB sont fixées<lb/> deux coupes R, S, où l'on
+                            met du<lb/> mercure pour établir les communications<lb/> avec les deux
+                            extrémités de la pile.<lb/> La tablette supérieure CD est percée<lb/> de
+                            deux trous E, F, situés dans<lb/> les verticales passant par le
+                            centre<lb/> de ces deux coupes et <del>auquel</del>
+              <lb/>
+                            <subst>
+                                <del>
+                  <del type="illisible"/> dans la direction <lb/> de ces
+                                    verticales, deux tubes<lb/> de verre <del type="illisible"/>
+                </del>
+                                <add> dans lesquels sont placés deux tubes de verre</add>
+                            </subst>
+                            <pb n="6" facs="#ACAS_CRHST_AMP_08_164_0006_r.jpg"/> EG, FH, qui sont<lb/>
+                            <figure/> aussi attachés<lb/> à la tablette<lb/> inférieure<lb/> par les
+                            supports<lb/> K, L, pour en<lb/>
+                            <del type="illisible"/>
+              <lb/>
+                            <subst>
+                                <del type="illisible"/>
+                                <add>prévenir</add>
+                            </subst> la<lb/> flexion quand<lb/>
+                            <supplied>on</supplied> y fait passer les<lb/>
+                            <del type="illisible"/>
+              <lb/> parties rectilignes<lb/> de <choice>
+                                <sic>différens</sic>
+                                <corr>différents</corr>
+                            </choice> conducteurs<lb/> dont la partie intermédiaire<lb/> se loge
+                            dans <subst>
+                                <del type="illisible"/>
+                                <add>une</add>
+                            </subst> rainure<lb/> assez étroite pour que sa largeur puisse être regardée<lb/>
+                            <del type="illisible"/>
+              <lb/> comme infiniment petite et qui est
+                            creusée<lb/> sur la tablette supérieure entre les<lb/> trous E, F. <del type="illisible"/>
+              <lb/> Les extrémités de ces<lb/> conducteurs
+                            viennent au<lb/> sortir des tubes plonger<lb/> dans le mercure des
+                            coupes<lb/> R, S.</p>
+                        <p>Il y a <subst>
+                                <del type="illisible"/>
+                                <add>plusieurs</add>
+                            </subst> conducteurs pour<lb/> chaque <choice>
+                                <sic>rainures</sic>
+                                <corr>rainure</corr>
+                            </choice>, qu'on y place<lb/> alternativement. L'un peut suivre<lb/>
+                            exactement la ligne de thalweg<lb/> de la rainure, les autres être <pb n="7" facs="#ACAS_CRHST_AMP_08_164_0007_v.jpg"/> pliés et contournés
+                                <add>de diverses manières</add> à chacun de<lb/> ses points, mais
+                            sur des longueurs<lb/> assez petites pour qu'ils puissent entrer<lb/>
+                            partout dans la rainure.</p>
+                        <p>La vérification de la loi dont<lb/> je viens de parler consiste<lb/>
+                            <del type="illisible"/>
+                            <lb/> à s'assurer que la substitution<lb/> d'un de ces conducteurs
+                            à<lb/> l'autre dans une même<lb/> rainure ne change rien<lb/> à l'action
+                            exercée par<lb/> exemple sur un petit aimant<lb/> suspendu en N. On peut
+                            faire<lb/> une sorte de contre épreuve de cette expérience<lb/>
+                            <del type="illisible"/> en plaçant deux <choice>
+                                <sic>courans</sic>
+                                <corr>courants</corr>
+                            </choice> dirigés<lb/> en sens <subst>
+                                <del>inverse</del>
+                                <add>contraire</add>
+                            </subst> dans la même<lb/> rainure, séparés par une lame<lb/> de papier
+                            en <add>se</add> servant pour<lb/> cela d'un même fil conducteur<lb/>
+                            <del>dont </del>dont <del type="illisible"/> une extrémité<del>s</del>
+                            <lb/> arriverait pas le tube EG, par<lb/> exemple, et l'autre
+                            reviendrait<lb/> en l'entourant de quelques<lb/> spires se rendre dans
+                            la<lb/> coupe à mercure V située<lb/> près de la coupe R, et qui
+                            remplacerait<lb/> alors l'autre coupe S, il n'y<lb/> aurait aucune
+                            action sensible.</p>
+                        <pb n="8" facs="#ACAS_CRHST_AMP_08_164_0008_r.jpg"/>
+                        <p>Cette <add>dernière</add> expérience ne serait au reste<lb/> que celle
+                            que j'ai faite sur un<lb/> conducteur rectiligne enfermé<lb/> dans un
+                            tube de verre, et qui<lb/> revenait ensuite autour de<lb/> ce tube en
+                            l'entourant de ses<lb/> spires, expérience dont<lb/> j'ai déduit la loi
+                            dont il est<lb/> ici question, avec cette seule<lb/> différence qu'au
+                            lieu d'un fil<lb/>
+                            <add>conducteur plié en</add> hélice on peut <add>en</add> employer
+                            un<lb/> qui soit contourné d'une manière<lb/> quelconque.</p>
+                        <p>Dès que cet instrument sera<lb/> achevé, je ferai les expériences<lb/>
+                            auquel il est destiné. L'ensemble<lb/> de tous les faits que j'ai
+                            observés<lb/> jusqu'à présent ne me permet<lb/> pas de douter qu'elles
+                            confirmeront<lb/> complètement <del type="illisible"/> la loi dont<lb/>
+                            j'ai fait dépendre tous ces<lb/> phénomènes. Cette loi deviendra<lb/>
+                            ainsi un simple énoncé général<lb/> des faits donnés par
+                            l'observation<lb/> et la formule analytique<lb/> que j'en ai déduite
+                                <del type="illisible"/> l'expression<lb/> de ces faits.</p>
+                        <pb n="9" facs="#ACAS_CRHST_AMP_08_164_0009_v.jpg"/>
+                        <p>J'ai fait voir dans le mémoire<lb/> que j'ai lu à
+                            l'<orgName>Académie</orgName> le <date when="1820-12-04">4 <choice>
+                                    <abbr>xbre</abbr>
+                                    <expan>décembre</expan>
+                                </choice>
+              </date>
+              <lb/> qu'en nommant g, h, les intensités<lb/>
+                            d'action de deux portions<lb/> infiniment petites de <choice>
+                                <sic>courans</sic>
+                                <corr>courants</corr>
+                            </choice>
+              <lb/> électriques <add>et conservant aussi les autres<lb/>
+                                dénominations employées dans ce mémoire</add> il suivait de
+                            cette<lb/> loi que leur action mutuelle<lb/> ne pouvait être que<lb/>
+                            <formula notation="MathML">
+                                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mfrac>
+                                            <mrow>
+                                                <mi>g</mi>
+                                                <mi>h</mi>
+                                            </mrow>
+                                            <mrow>
+                                                <msup>
+                                                  <mi>r</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                            </mrow>
+                                        </mfrac>
+                                        <mo>(</mo>
+                                        <mi>sin</mi>
+                                        <mi>α</mi>
+                                        <mi>sin</mi>
+                                        <mi>β</mi>
+                                        <mi>cos</mi>
+                                        <mi>γ</mi>
+                                        <mo>+</mo>
+                                        <mfrac>
+                                            <mi>n</mi>
+                                            <mi>m</mi>
+                                        </mfrac>
+                                        <mi>cos</mi>
+                                        <mi>α</mi>
+                                        <mi>cos</mi>
+                                        <mi>β</mi>
+                                        <mo>)</mo>
+                                    </mrow>
+                                </math>
+                            </formula>. <lb/> Dans le cas de la nature cette<lb/> expression se
+                            réduit, ainsi<lb/> que je l'ai établi depuis, à<lb/>
+                            <formula notation="MathML">
+                                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mfrac>
+                                            <mrow>
+                                                <mi>g</mi>
+                                                <mi>h</mi>
+                                                <mi>sin</mi>
+                                                <mi>α</mi>
+                                                <mi>sin</mi>
+                                                <mi>β</mi>
+                                                <mi>cos</mi>
+                                                <mi>γ</mi>
+                                            </mrow>
+                                            <mrow>
+                                                <msup>
+                                                  <mi>r</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                            </mrow>
+                                        </mfrac>
+                                    </mrow>
+                                </math>
+                            </formula>.<lb/> Comme les intensités d'action<lb/> des petites portions
+                            de <choice>
+                                <sic>courans</sic>
+                                <corr>courants</corr>
+                            </choice>
+              <lb/> électriques sont nécessairement<lb/> proportionnelles à
+                            leurs longueurs<lb/> qui sont représentées par dx et dz,<lb/> lorsqu'on
+                            nomme x et z leurs<lb/> distances mesurées lorsqu'il est<lb/> question
+                            de deux <choice>
+                                <sic>courans</sic>
+                                <corr>courants</corr>
+                            </choice>
+              <lb/> rectilignes de grandeur finie,<lb/> sur les directions de
+                            ces <choice>
+                                <sic>courans</sic>
+                                <corr>courants</corr>
+                            </choice>
+                            <pb n="10" facs="#ACAS_CRHST_AMP_08_164_0010_r.jpg"/> depuis la
+                            perpendiculaire commune<lb/> qui en mesure la plus courte<lb/> distance
+                            que j'ai faite =a, en<lb/> représentant en outre par b, l'angle<lb/> de
+                            ces deux directions, il faudra<lb/> faire <formula notation="MathML">
+                                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>g</mi>
+                                        <mo>=</mo>
+                                        <mi>k</mi>
+                                        <mi>d</mi>
+                                        <mi>x</mi>
+                                    </mrow>
+                                </math>
+                            </formula>, <formula notation="MathML">
+                                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>h</mi>
+                                        <mo>=</mo>
+                                        <mi>i</mi>
+                                        <mi>d</mi>
+                                        <mi>z</mi>
+                                    </mrow>
+                                </math>
+                            </formula>, et comme<lb/> on aura <formula notation="MathML">
+                                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>r</mi>
+                                        <mo>=</mo>
+                                        <msqrt>
+                                            <mrow>
+                                                <msup>
+                                                  <mi>a</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mo>+</mo>
+                                                <msup>
+                                                  <mi>x</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mo>+</mo>
+                                                <msup>
+                                                  <mi>y</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mo>−</mo>
+                                                <mn>2</mn>
+                                                <mi>x</mi>
+                                                <mi>z</mi>
+                                                <mi>cos</mi>
+                                                <mi>b</mi>
+                                            </mrow>
+                                        </msqrt>
+                                    </mrow>
+                                </math>
+                            </formula>,<lb/>
+                            <formula notation="MathML">
+                                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>sin</mi>
+                                        <mi>α</mi>
+                                    </mrow>
+                                    <mo>=</mo>
+                                    <mfrac>
+                                        <mrow>
+                                            <msqrt>
+                                                <msup>
+                                                  <mi>a</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mo>+</mo>
+                                                <msup>
+                                                  <mi>z</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <msup>
+                                                  <mi>sin</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mi>b</mi>
+                                            </msqrt>
+                                        </mrow>
+                                        <mrow>
+                                            <msqrt>
+                                                <msup>
+                                                  <mi>a</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mo>+</mo>
+                                                <msup>
+                                                  <mi>x</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mo>+</mo>
+                                                <msup>
+                                                  <mi>z</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mo>−</mo>
+                                                <mn>2</mn>
+                                                <mi>x</mi>
+                                                <mi>z</mi>
+                                                <mi>cos</mi>
+                                                <mi>b</mi>
+                                            </msqrt>
+                                        </mrow>
+                                    </mfrac>
+                                </math>
+                            </formula>, <lb/>
+                            <formula notation="MathML">
+                                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>sin</mi>
+                                        <mi>β</mi>
+                                    </mrow>
+                                    <mo>=</mo>
+                                    <mfrac>
+                                        <mrow>
+                                            <msqrt>
+                                                <msup>
+                                                  <mi>a</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mo>+</mo>
+                                                <msup>
+                                                  <mi>x</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <msup>
+                                                  <mi>sin</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mi>b</mi>
+                                            </msqrt>
+                                        </mrow>
+                                        <mrow>
+                                            <msqrt>
+                                                <msup>
+                                                  <mi>a</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mo>+</mo>
+                                                <msup>
+                                                  <mi>x</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mo>+</mo>
+                                                <msup>
+                                                  <mi>z</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mo>−</mo>
+                                                <mn>2</mn>
+                                                <mi>x</mi>
+                                                <mi>z</mi>
+                                                <mi>cos</mi>
+                                                <mi>b</mi>
+                                            </msqrt>
+                                        </mrow>
+                                    </mfrac>
+                                </math>
+                            </formula>, <lb/>
+                            <formula notation="MathML">
+                                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>cos</mi>
+                                        <mi>γ</mi>
+                                    </mrow>
+                                    <mo>=</mo>
+                                    <mfrac>
+                                        <mrow>
+                                            <msup>
+                                                <mi>a</mi>
+                                                <mn>2</mn>
+                                            </msup>
+                                            <mi>cos</mi>
+                                            <mi>b</mi>
+                                            <mo>+</mo>
+                                            <mi>x</mi>
+                                            <mi>z</mi>
+                                            <msup>
+                                                <mi>sin</mi>
+                                                <mn>2</mn>
+                                            </msup>
+                                            <mi>b</mi>
+                                        </mrow>
+                                        <mrow>
+                                            <msqrt>
+                                                <msup>
+                                                  <mi>a</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mo>+</mo>
+                                                <msup>
+                                                  <mi>x</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <msup>
+                                                  <mi>sin</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mi>b</mi>
+                                            </msqrt>
+                                            <msqrt>
+                                                <msup>
+                                                  <mi>a</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mo>+</mo>
+                                                <msup>
+                                                  <mi>z</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <msup>
+                                                  <mi>sin</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mi>b</mi>
+                                            </msqrt>
+                                        </mrow>
+                                    </mfrac>
+                                </math>
+                            </formula>, <lb/> il viendra<lb/>
+                            <formula notation="MathML">
+                                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mfrac>
+                                            <mrow>
+                                                <mi>g</mi>
+                                                <mi>h</mi>
+                                                <mi>sin</mi>
+                                                <mi>α</mi>
+                                                <mi>sin</mi>
+                                                <mi>β</mi>
+                                                <mi>cos</mi>
+                                                <mi>γ</mi>
+                                            </mrow>
+                                            <mrow>
+                                                <msup>
+                                                  <mi>r</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                            </mrow>
+                                        </mfrac>
+                                        <mo>=</mo>
+                                        <mfrac>
+                                            <mrow>
+                                                <mi>i</mi>
+                                                <mi>k</mi>
+                                                <mo>(</mo>
+                                                <msup>
+                                                  <mi>a</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mi>cos</mi>
+                                                <mi>b</mi>
+                                                <mo>+</mo>
+                                                <mi>x</mi>
+                                                <mi>z</mi>
+                                                <msup>
+                                                  <mi>sin</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mi>b</mi>
+                                                <mo>)</mo>
+                                            </mrow>
+                                            <mrow>
+                                                <msup>
+                                                  <mrow>
+                                                  <mo>(</mo>
+                                                  <msup>
+                                                  <mi>a</mi>
+                                                  <mn>2</mn>
+                                                  </msup>
+                                                  <mo>+</mo>
+                                                  <msup>
+                                                  <mi>x</mi>
+                                                  <mn>2</mn>
+                                                  </msup>
+                                                  <mo>+</mo>
+                                                  <msup>
+                                                  <mi>z</mi>
+                                                  <mn>2</mn>
+                                                  </msup>
+                                                  <mo>−</mo>
+                                                  <mn>2</mn>
+                                                  <mi>x</mi>
+                                                  <mi>z</mi>
+                                                  <mi>cos</mi>
+                                                  <mi>b</mi>
+                                                  <mo>)</mo>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <mn>2</mn>
+                                                  </mrow>
+                                                </msup>
+                                            </mrow>
+                                        </mfrac>
+                                        <mi>d</mi>
+                                        <mi>x</mi>
+                                        <mi>d</mi>
+                                        <mi>z</mi>
+                                    </mrow>
+                                </math>
+                            </formula>
+                            <lb/> qu'il ne s'agira plus que d'intégrer<lb/> convenablement pour
+                            avoir<lb/> l'action de deux <choice>
+                                <sic>courans</sic>
+                                <corr>courants</corr>
+                            </choice> rectilignes<lb/> d'une grandeur quelconque.<lb/> Cette
+                            dernière formule peut<lb/> aussi s'appliquer au calcul de<lb/> l'action
+                            mutuelle de deux <choice>
+                                <sic>courans</sic>
+                                <corr>courants</corr>
+                            </choice>
+                            <pb n="11" facs="#ACAS_CRHST_AMP_08_164_0011_v.jpg"/> non rectilignes,
+                            mais alors<lb/> a et b deviennent comme x et<lb/> z des fonctions
+                            variables des<lb/> coordonnées.</p>
+                        <p>Je terminerai ce que je viens de dire par<lb/> deux observations, la
+                            première c'est<lb/> que l'effet des <choice>
+                                <sic>courans</sic>
+                                <corr>courants</corr>
+                            </choice>
+                            <add>de l'intérieur</add> d'un aimant<lb/> doit d'après cette loi, être
+                            le même<lb/>
+                            <del type="illisible"/> soit qu'ils suivent des courbes<lb/> parallèles
+                            à sa surface où des lignes<lb/> tracées d'une autre manière dans<lb/>
+                            les plans perpendiculaires à son axe,<lb/> pourvu que les sections
+                            faites <del>dans</del>
+              <lb/> par ses plans dans l'aimant, <choice>
+                                <sic>soit</sic>
+                                <corr>soient</corr>
+                            </choice>
+              <lb/> uniformément couvertes de <choice>
+                                <sic>courans</sic>
+                                <corr>courants</corr>
+                            </choice>
+              <lb/> électriques.</p>
+                        <p>La seconde est que si les attractions<lb/> et répulsions des <choice>
+                                <sic>courans</sic>
+                                <corr>courants</corr>
+                            </choice>
+                            <add>électriques</add> sont<lb/> produites par un mouvement<lb/>
+                            quelconque excité dans l'éther<lb/> par la série de décharges
+                            électriques<lb/> dont se <choice>
+                                <sic>compose</sic>
+                                <corr>composent</corr>
+                            </choice> ces <choice>
+                                <sic>courans</sic>
+                                <corr>courants</corr>
+                            </choice>, la<lb/> loi que <del>nous venons</del> j'ai déduite<lb/> de
+                            l'expérience, devient une<lb/> suite nécessaire des lois
+                                <unclear>connues</unclear> du <pb n="12" facs="#ACAS_CRHST_AMP_08_164_0012_r.jpg"/> mouvement puisque
+                            l'impulsion<lb/> donnée dans la direction <del>d'une</del>
+              <lb/> où ces
+                            décharges ont lieu, est<lb/> la résultante des décharges pareilles<lb/>
+                            qui auraient lieu dans <del type="illisible"/> trois<lb/> projections
+                                <add>rectangulaires</add> de cette direction, en<lb/> supposant que
+                            les nombres des<lb/> décharges <subst>
+                                <del>dans</del>
+                                <add>suivant</add>
+                            </subst> chaque projection<lb/> fussent au nombre de celles qui ont<lb/>
+                            réellement lieu, comme les longueurs<lb/> de ces
+                                proje<supplied>c</supplied>tions à la longueur de la<lb/> ligne
+                            projetée, ce qui donne évidemment<lb/> la loi <del type="illisible"/>
+                            dont nous nous<lb/> occupons.</p>
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

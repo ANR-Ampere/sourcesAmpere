@@ -1,0 +1,193 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 123</title>
+            <author>Carron-Ampère, Julie (1ère femme d'Ampère)</author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1802-05-12-B">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">I.</biblScope>
+                     <biblScope type="pp">p. 147-148</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L123</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L123manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 332</idno>
+                     </msIdentifier>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_C129">Carron-Ampère, Julie (1ère femme
+                        d'Ampère)</persName>
+          <date when-iso="1802-05-12">12 mai 1802</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_A366">Ampère,
+                        André-Marie</persName>
+        </correspAction>
+        <note type="noteDelaunay">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1802-05-12-B">
+      <body>
+         <div>
+            <opener>
+          <date when="1802-05-12">Mercredi matin [12 mai 1802]</date>
+        </opener>
+            <p>
+          <gap reason="lacune_CGA"/> J'étais trop pressée, lorsque j'écrivis vendredi,
+               pour te conter que <persName ref="#pers_D181">François de Lorme</persName> <ref>(2)</ref> a été arrêté comme conscrit, que toute la
+               famille a été dans la désolation et que le pauvre garçon est parti avant-hier sans
+               qu'on aie la permission de le faire remplacer <gap reason="lacune_CGA"/>
+               Tout en faisant des démarches pour <persName ref="#pers_D181">François</persName>, j'ai fait connaissance avec un nommé M.
+               <persName>Picard</persName>, dessinateur et membre de l'<orgName>Athénée</orgName>. Nous avons parlé du désir que tu aurais
+               d'occuper une place dans le lycée de <placeName>Lyon</placeName>. Il m'a dit que, lorsqu'il serait question
+               de quelque chose, il saurait bien élever la voix pour toi. Il me parla du préfet et
+               je crois qu'il pourra nous être bien utile parce qu'il connaît toutes les autorités.
+               M. <persName ref="#pers_B33">Ballanche</persName> a dû écrire à M. <persName ref="#pers_D272">Degérando</persName> et M. <persName ref="#pers_C162">Couppier</persName> aussi. L'un et l'autre pensent
+               que le parti que tu as pris d'envoyer ton ouvrage à M. <persName ref="#pers_R501">Roux</persName> ne peut pas être
+               dangereux. <persName ref="#pers_D181">Françoise</persName> est venue de son pays ; elle est restée plusieurs jours. Quoique
+               guérie, à ce qu'il paraît, j'ai eu le chagrin de lui dire de ne pas toucher le petit
+               et de chercher une place. Cette pauvre fille est bien triste, bien reconnaissante de
+               ce que nous l'avons gardée pour faire des remèdes. <persName ref="#pers_D181">François</persName> aussi était un chagrin de
+               plus pour elle ; car, quoiqu'elle ne soit pas susceptible d'un amour bien violent, je
+               crois qu'elle ne voulait point de mal à ce garçon et qu'ils auraient été fort bien
+               ensemble. <gap reason="lacune_CGA"/> J'ai oublié de te dire que nous avons
+               été à la <placeName>Comédie</placeName> samedi dernier. C'est ma cousine Périsse qui nous y mena. On jouait
+               <title>Nanine</title> et <title>La Fausse Agnès</title> de <persName ref="#pers_D192">Destouches</persName>. <title>Nanine</title> fut très mal rendue et <title>la Fausse
+               Agnès</title> fort bien. Cette dernière nous fit tous beaucoup rire et moi aux éclats <gap reason="lacune_CGA"/>
+        </p>
+         </div>
+      </body>
+      <back>
+         <div>
+            <note xml:id="corresp1">(1) Quelques lignes ont été publiées par Mme <persName>Cheuvreux</persName>. p. 200
+               et 201. (2) Fils de leur fermier. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

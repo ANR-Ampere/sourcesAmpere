@@ -1,0 +1,5780 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:m="http://www.w3.org/1998/Math/MathML" xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Publications d'André-Marie Ampère - P192</title>
+    <author key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/">
+     <forename>André-Marie</forename>
+     <surname>Ampère</surname>
+    </author>
+    <editor>Christine Blondel</editor>
+    <editor>Marco Segala</editor>
+
+    <funder>ANR Corpus 2012</funder>
+    <respStmt>
+     <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+     </name>
+     <resp>Gestion de bases de données</resp>
+    </respStmt>
+    <respStmt>
+     <name>AZENTIS</name>
+     <resp>OCRisation et encodage en XML/TEI P5</resp>
+    </respStmt>
+    <respStmt>
+     <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+     </name>
+     <resp>Relecture et encodage en XML/TEI P5</resp>
+    </respStmt>
+    <respStmt>
+     <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+     </name>
+     <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+    <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+    <address>
+                        <addrLine>27 rue Damesme </addrLine>
+                        <addrLine>75013 Paris</addrLine>
+                    </address>
+    <distributor>
+     <name>Centre de calcul de l'IN2P3</name>
+     <address>
+                        <addrLine>Domaine scientifique de la Doua</addrLine>
+                        <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+                        <addrLine>69622 Villeurbanne Cedex</addrLine>
+                    </address>
+    </distributor>
+    <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+    <date>2013</date>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct xml:id="ampere_publi_P1836-A" xml:lang="fra" type="Article_de_périodique">
+     <analytic>
+      <title level="a">Mémoire sur les équations générales du mouvement</title>
+      <author>
+       <persName>
+                <surname>Ampère</surname>
+                <forename>André-Marie</forename>
+              </persName>
+      </author>
+     </analytic>
+     <monogr>
+      <title level="j">Journal de mathématiques pures et appliquées</title>
+      <imprint>
+       <biblScope type="pp">p. 211-228</biblScope>
+       <biblScope type="vol">1</biblScope>
+       <date when="1836">1836</date>
+      </imprint>
+     </monogr>
+
+     <idno type="url_pdf">http://www.ampere.cnrs.fr/bibliographies/pdf/1836-P192.pdf</idno>
+     <idno type="url_gallica">http://gallica.bnf.fr/ark:/12148/bpt6k16380x.image.f217.langfr</idno>
+     <idno type="old">P192</idno>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra">Français</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <change>
+    <date>mars 2014</date>
+    <name>AZENTIS</name>
+   </change>
+   <change>
+    <date>avril 2014</date>
+    <name>Aude Coustumer</name>
+    <name>Philippe Pons</name>
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text decls="#ampere_publi_P1836-A" type="publications">
+  <front>
+   <docTitle>
+    <titlePart rend="center">
+     <title>JOURNAL<lb/>
+      <hi rend="sc">de</hi>
+            <lb/> MATHEMATIQUES<lb/> PURES ET APPLIQUÉES,<lb/>
+      <hi rend="sc">ou</hi>
+            <lb/> RECUEIL MENSUEL<lb/> DE MÉMOIRES SUR LES DIVERSES PARTIES DES
+      MATHÉMATIQUES.</title>
+    </titlePart>
+   </docTitle>
+   <docAuthor>Publié<lb/> PAR <persName>JOSEPH LIOUVILLE</persName>,<lb/> Ancien Élève de
+    l’<orgName>École Polytechnique</orgName>, répétiteur d'Analyse à cette École.</docAuthor>
+   <docEdition>TOME PREMIER.<lb/>
+    <date when-iso="1836">ANNÉE 1836.</date>
+   </docEdition>
+   <docImprint>
+    <placeName>PARIS</placeName>,<lb/>
+    <persName>BACHELIER</persName>, IMPRIMEUR-LIBRAIRE
+    <address>
+          <addrLine>
+            <hi rend="sc">de l’<orgName>école polytechnique</orgName>, du bureau des longitudes, etc.</hi>
+<lb/>
+<hi rend="sc">quai des augustins, n° 55.</hi>
+          </addrLine>
+        </address>
+   </docImprint>
+   <docDate>
+    <date when-iso="1836">1836</date>
+   </docDate>
+   <docImprint>KRAUS
+    REPRINT<address>
+          <addrLine>
+            <placeName>Nendeln</placeName> / <placeName>Liechtenstein</placeName>
+          </addrLine>
+        </address>
+   </docImprint>
+   <docDate>
+    <date when-iso="1979">1979</date>
+   </docDate>
+  </front>
+  <body>
+   <pb n="211"/>
+   <div>
+    <head>
+     <title>MÉMOIRE<lb/>
+      <hi rend="it">Sur les Équations générales du Mouvement</hi>
+      <ref xml:id="note-P192-1836_AMA1" target="#P192-1836_AMA1">(*)</ref>,<lb/>
+      <hi rend="sc">Par</hi> A. M. <persName>AMPÈRE</persName>.</title>
+    </head>
+    <div>
+     <head>I.</head>
+     <p>Quand un point matériel <hi rend="it">m</hi> est soumis à l’action d’une force
+      exté<lb rend="hyphen"/>rieure constante ou variable, ou, ce qui est la même chose, à
+      l’action<lb/> de plusieurs forces extérieures qu’on peut toujours réduire à une<lb/> seule
+      résultante, on sait que les trois composantes de cette résultante<lb/> parallèlement à trois
+      axes coordonnés rectangulaires <hi rend="it">ox, oy, oz</hi> sont
+      pro<lb rend="hyphen"/>portionnelles aux différentielles secondes, prises par rapport au
+      temps,<lb/> des coordonnées <hi rend="it">x,
+       y, z</hi>, du point mobile. Lorsque le
+      mouvement est<lb/> rectiligne uniforme, ces trois différentielles sont égales à zéro, et
+      cela<lb/> doit être en effet, puisque le mouvement rectiligne uniforme est
+      pré<lb rend="hyphen"/>cisément celui d’un mobile sur lequel les forces extérieures ont
+      cessé<lb/> d’agir. Lorsque le mouvement au contraire est varié, en nommant<lb/> X, Y, Z, les
+      trois composantes de la force extérieure, <hi rend="it">t</hi> le temps, et<lb/>
+      <hi rend="it">m</hi> la masse du point mobile, on a les équations connues<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mi>m</mi>
+         <mfrac>
+          <mrow>
+           <msup>
+            <mi>d</mi>
+            <mn>2</mn>
+           </msup>
+           <mi>x</mi>
+          </mrow>
+          <mrow>
+           <mi>d</mi>
+           <msup>
+            <mi>t</mi>
+            <mn>2</mn>
+           </msup>
+          </mrow>
+         </mfrac>
+         <mo>=</mo>
+         <mi>X</mi>
+        </mrow>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>m</mi>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>y</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mi>Y</mi>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>m</mi>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>z</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mi>Z</mi>
+       </math>
+      </formula>,<lb/> lesquelles servent à deux fins, 1°. à faire connaître X, Y, Z lorsque<pb n="212"/>
+      <hi rend="it">x, y, z</hi>, sont des quantités connues en fonction du temps ; 2°. à faire<lb/>
+      connaître <hi rend="it">x, y, z</hi>, lorsque les données de la question sont X, Y, Z.</p>
+     <p>Les trois équations fondamentales que nous venons de rappeler sont<lb/> admises par tous les
+      géomètres, et le principe qui les contient est<lb/> connu sous le nom de
+      <hi rend="it">principe des forces accélératrices.</hi> Mais si l’on<lb/> s’accorde
+      généralement à en reconnaître l’exactitude, on est au con<lb rend="hyphen"/>traire loin de
+      s’entendre sur la manière dont on doit les démontrer,<lb/> puisque les uns regardent avec
+      Laplace le principe des forces accélé<lb rend="hyphen"/>ratrices comme déduit d’un résultat
+      d'expérience, tandis que d’autres au<lb/> contraire, parmi lesquels figure
+      <persName>Euler</persName>, ont essayé d’en établir la vérité<lb/>
+      <hi rend="it">à priori.</hi> Cette dissidence entre les premiers géomètres indique assez<lb/>
+      les difficultés du sujet. Toutefois, en examinant attentivement la<lb/> question, il nous a
+      semblé qu’elle se trouvait résolue sans beaucoup de<lb/> peine, pourvu que l'on se fît une
+      idée bien nette de l’inertie de la<lb/> matière et de la force que cette inertie produit
+      lorsque l’on vient à<lb/> altérer le mouvement d’un mobile par l’action d’une cause
+      extérieure<lb/> quelconque. Il est visible, en effet, que cette force est nulle dans<lb/> le
+      mouvement rectiligne uniforme ; et que dans un mouvement varié,<lb/> elle est toujours égale
+      et directement opposée à la force extérieure qui<lb/> sollicite le mobile, et qui altère
+      l’intensité ou le sens de sa vitesse. On<lb/> voit donc que pour établir le principe des
+      forces accélératrices, il suffit<lb/> de déterminer la direction et l’intensité de la force
+      produite par l’iner<lb rend="hyphen"/>tie, ce qui paraît beaucoup plus facile, et ce que nous
+      avons essayé de<lb/> faire dans ce mémoire dont l’idée fondamentale nous est connue
+      depuis<lb/> plus de vingt ans. Il est clair que dans notre démonstration, nous
+      se<lb rend="hyphen"/>rons contraints d’admettre quelque chose du principe des mouvements<lb/>
+      relatifs de <persName>Laplace</persName>, que ce grand géomètre a pris comme une donnée<lb/>
+      de l'observation et dont il a déduit celui des forces accélératrices ; mais<lb/> tandis que ce
+      principe considéré en lui-même et dans toute sa généra<lb rend="hyphen"/>lité, est loin d'être
+      évident, nous croyons n'en avoir conservé que ce<lb/> qui est d’une évidence manifeste, à peu
+      près comme pour démontrer le<lb/> parallélogramme des forces, 0n part du cas très simple où
+      les forces<lb/> sont de même grandeur et où la direction de la résultante est connue
+      <hi rend="it">à<lb/> priori,</hi> puisqu’elle partage alors leur angle en deux parties
+      égales.</p>
+    </div>
+    <pb n="213"/>
+    <div>
+     <head>II.</head>
+     <p>Considérons un point mobile M qui, par l’action d’une cause quel<lb rend="hyphen"/>conque,
+      décrive une ligne droite ou courbe AMB <ref xml:id="note-P192-1836_AMA2" target="#P192-1836_AMA2">(*)</ref> Pour lui faire<lb/> décrire cette ligne on peut imaginer
+      que le mobile soit placé dans une<lb/> petite cavité sphérique, au centre d’un parallélépipède
+      solide qui l’en<lb rend="hyphen"/>veloppe et dont les arêtes demeurent constamment parallèles
+      à elles<lb rend="hyphen"/>mêmes pendant que le centre décrit la ligne AMB, et que
+      l'enveloppe<lb/> se meuve eu entraînant le point matériel M sur cette ligne AMB que l'on<lb/>
+      veut faire décrire à celui-ci. Cela posé, examinons les deux cas distincts<lb/> qui peuvent se
+      présenter, celui du mouvement rectiligne uniforme<lb/> et celui du mouvement varié
+      quelconque.</p>
+     <p>Si le mouvement est rectiligne uniforme, ce qui exige que le
+      paral<lb rend="hyphen"/>lélépipède enveloppe et la molécule matérielle aient reçu à la fois
+      et<lb/> conservent le même mouvement, il n'y aura aucune raison pour que<lb/> la molécule
+      exerce une pression contre l’enveloppe. Si au contraire<lb/> on fait prendre au
+      parallélépipède un mouvement rectiligne varié ou<lb/> un mouvement quelconque sur une courbe AMB<lb/>
+      <figure>
+       <graphic url="1836-P192_fig001.jpg"/>
+      </figure>
+      <lb/>et que de cette manière on amène forcément la molécule de M en M'<lb/> au lieu de la
+      laisser aller de M en M' sur la tangente MT, comme cela <pb n="214"/>arriverait si elle était
+      libre, il est incontestable qu’en vertu de la ten<lb rend="hyphen"/>dance quelle a à conserver
+      son mouvement suivant MT, c’est-à-dire en<lb/> vertu de l’inertie de la matière, elle pressera
+      l’enveloppe qui l’entraîne. </p>
+     <p>Or, nous nous proposons présentement de déterminer: 1°. la
+      <hi rend="it">direc<lb rend="hyphen"/>tion</hi> de cette force produite par l’inertie. 2°. Son
+      <hi rend="it">intensité.</hi>
+     </p>
+    </div>
+    <div>
+     <head>III.</head>
+     <head>
+      <hi rend="sc">Première question. </hi>-
+      <hi rend="it">Direction de la force produite par
+       l’inertie.</hi>
+     </head>
+     <p>Pour voir dans quelle direction s’exerce en un point quelconque M<lb/> de la courbe la
+      pression du mobile contre l’enveloppe, il faut sup<lb rend="hyphen"/>poser que tout à coup
+      l’enveloppe devienne perméable en M et cher<lb rend="hyphen"/>cher dans quel sens elle serait
+      alors percée par le point mobile devenu<lb/> libre. Cette notion de la direction de la force
+      nous paraît la plus<lb/> simple et la plus exacte de toutes ; et nous croyons qu’on devrait
+      l’in<lb rend="hyphen"/>troduire même en statique. Ainsi pour déterminer la direction
+      d’une<lb/> force P appliquée à un point M, il faut, suivant nous, renfermer
+      d’a<lb rend="hyphen"/>bord ce point dans une enveloppe solide ; l’effet de la force P est<lb/>
+      alors de presser l’enveloppe dans le sens même où elle tire ; si mainte<lb rend="hyphen"/>nant
+      on rend l’enveloppe perméable, il est clair que le point M se met<lb rend="hyphen"/>tra en
+      mouvement et au premier instant la percera dans une direction<lb/> déterminée qui est la
+      direction de la force P. Dans ce cas, l’enveloppe<lb/> est immobile, mais cela est indifférent
+      pour notre définition ; qu’elle<lb/> soit en mouvement ou en repos, on ne peut s’empêcher de
+      regarder<lb/> la direction dans laquelle le mobile la perce lorsqu’elle devient
+      per<lb rend="hyphen"/>méable, comme la direction suivant laquelle il la pressait
+      lorsqu'elle<lb/> était solide. </p>
+     <p>Après cette digression, revenons à l’examen du mouvement sur une<lb/> courbe AMB ; et au
+      moment où le mobile est en M, rendons l’enve<lb rend="hyphen"/>loppe perméable et cherchons
+      dans quel sens alors elle doit être péné<lb rend="hyphen"/>trée. Or le mobile, devenu libre,
+      s’échappera par la tangente MT et<lb/> viendra en M' sur cette tangente, tandis que
+      l’enveloppe continuant<lb/> son mouvement transportera eu M" le point où il se trouvait
+      d’abord.<lb/> On comprend d’après cela que les deux points M', M" appartiennent à<lb/> la
+      courbe que le mobile a tracée dans le parallélépipède enveloppe,<lb/> et comme il nous faut
+      seulement la direction du premier élément de <pb n="215"/>cette courbe, il est clair que pour
+      l’obtenir, nous devrons joindre les<lb/> points M', M" par une ligne droite et chercher ce que
+      cette droite de<lb rend="hyphen"/>viendra à la limite, lorsque l’on rendra infiniment petit ou
+      nul le temps<lb/> employé à parcourir MM'. La droite MR limite de M'M" sera la
+      direc<lb rend="hyphen"/>tion de la force produite par l’inertie. </p>
+     <p>En appelant θ le temps que le mobile devenu libre emploie à se<lb/> transporter, d’un
+      mouvement uniforme, de M en M' sur la tangente<lb/> MT, désignant de plus par
+      <hi rend="it">x,
+       y, z</hi> et <hi rend="it">x', y',</hi>
+      <hi rend="it">z'</hi>, les coordonnées res<lb rend="hyphen"/>pectives des points M, M', et
+      observant enfin que <hi rend="it">x, y, z</hi> sont des<lb/> fonctions
+      <hi rend="it">f</hi>(<hi rend="it">t</hi>), f(<hi rend="it">t</hi>), F(<hi rend="it">t</hi>)
+      du temps <hi rend="it">t</hi> qui répond au point M, on a<lb/> par les propriétés connues du
+      mouvement uniforme,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mi>x</mi>
+         <mo>′</mo>
+        </msup>
+        <mo>=</mo>
+        <mi>x</mi>
+        <mo>+</mo>
+        <mi>θ</mi>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>x</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mi>ƒ</mi>
+        <mrow>
+         <mo>(</mo>
+         <mi>t</mi>
+         <mo>)</mo>
+        </mrow>
+        <mo>+</mo>
+        <mi>θ</mi>
+        <msup>
+         <mi>ƒ</mi>
+         <mo>′</mo>
+        </msup>
+        <mrow>
+         <mo>(</mo>
+         <mi>t</mi>
+         <mo>)</mo>
+        </mrow>
+       </math>
+      </formula>,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mi>y</mi>
+         <mo>′</mo>
+        </msup>
+        <mo>=</mo>
+        <mi>y</mi>
+        <mo>+</mo>
+        <mi>θ</mi>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>y</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mi>f</mi>
+        <mrow>
+         <mo>(</mo>
+         <mi>t</mi>
+         <mo>)</mo>
+        </mrow>
+        <mo>+</mo>
+        <mi>θ</mi>
+        <msup>
+         <mi>f</mi>
+         <mo>′</mo>
+        </msup>
+        <mrow>
+         <mo>(</mo>
+         <mi>t</mi>
+         <mo>)</mo>
+        </mrow>
+       </math>
+      </formula>, <lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mi>z</mi>
+         <mo>′</mo>
+        </msup>
+        <mo>=</mo>
+        <mi>z</mi>
+        <mo>+</mo>
+        <mi>θ</mi>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>z</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mi>F</mi>
+        <mrow>
+         <mo>(</mo>
+         <mi>t</mi>
+         <mo>)</mo>
+        </mrow>
+        <mo>+</mo>
+        <mi>θ</mi>
+        <msup>
+         <mi>F</mi>
+         <mo>′</mo>
+        </msup>
+        <mrow>
+         <mo>(</mo>
+         <mi>t</mi>
+         <mo>)</mo>
+        </mrow>
+       </math>
+      </formula>.<lb/>Les coordonnées <hi rend="it">x", y",</hi>
+      <hi rend="it">z"</hi>, du point M" où se transporte pendant le<lb/> même temps θ le centre du
+      parallélépipède sont également faciles à<lb/> obtenir ; en effet, comme l’enveloppe continue à
+      se mouvoir sur la<lb/> courbe AMB de la même manière qu’auparavant, il est évident que<lb/>
+      <hi rend="it">x", y", z"</hi>, sont des fonctions de <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>t</mi>
+        <mo>+</mo>
+        <mi>θ</mi>
+       </math>
+      </formula> absolument composées en <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>t</mi>
+        <mo>+</mo>
+        <mi>θ</mi>
+       </math>
+      </formula>
+      <lb/> comme <hi rend="it">x, y, z</hi>, en <hi rend="it">t</hi>, de sorte que l’on a, par le
+      théorème de <persName>Taylor</persName>,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mi>x</mi>
+         <mo>″</mo>
+        </msup>
+        <mo>=</mo>
+        <mi>ƒ</mi>
+        <mrow>
+         <mo>(</mo>
+         <mi>t</mi>
+         <mo>)</mo>
+        </mrow>
+        <mo>+</mo>
+        <mi>θ</mi>
+        <msup>
+         <mi>ƒ</mi>
+         <mo>′</mo>
+        </msup>
+        <mrow>
+         <mo>(</mo>
+         <mi>t</mi>
+         <mo>)</mo>
+        </mrow>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>θ</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+         <mn>2</mn>
+        </mfrac>
+        <msup>
+         <mi>ƒ</mi>
+         <mo>″</mo>
+        </msup>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>t</mi>
+          <mo>+</mo>
+          <mi>ξ</mi>
+          <mi>θ</mi>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+       </math>
+      </formula>,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mi>y</mi>
+         <mo>″</mo>
+        </msup>
+        <mo>=</mo>
+        <mi>f</mi>
+        <mrow>
+         <mo>(</mo>
+         <mi>t</mi>
+         <mo>)</mo>
+        </mrow>
+        <mo>+</mo>
+        <mi>θ</mi>
+        <msup>
+         <mi>f</mi>
+         <mo>′</mo>
+        </msup>
+        <mrow>
+         <mo>(</mo>
+         <mi>t</mi>
+         <mo>)</mo>
+        </mrow>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>θ</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+         <mn>2</mn>
+        </mfrac>
+        <msup>
+         <mi>f</mi>
+         <mo>″</mo>
+        </msup>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>t</mi>
+          <mo>+</mo>
+          <mi>η</mi>
+          <mi>θ</mi>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+       </math>
+      </formula>,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mi>z</mi>
+         <mo>″</mo>
+        </msup>
+        <mo>=</mo>
+        <mi>F</mi>
+        <mrow>
+         <mo>(</mo>
+         <mi>t</mi>
+         <mo>)</mo>
+        </mrow>
+        <mo>+</mo>
+        <mi>θ</mi>
+        <msup>
+         <mi>F</mi>
+         <mo>′</mo>
+        </msup>
+        <mrow>
+         <mo>(</mo>
+         <mi>t</mi>
+         <mo>)</mo>
+        </mrow>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>θ</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+         <mn>2</mn>
+        </mfrac>
+        <msup>
+         <mi>F</mi>
+         <mo>″</mo>
+        </msup>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>t</mi>
+          <mo>+</mo>
+          <mi>ζ</mi>
+          <mi>θ</mi>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+       </math>
+      </formula> ;<lb/>développements où l’on sait que ξ, η, ζ, sont des nombres plus petits<lb/>
+      que l’unité. On déduit de là,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mi>x</mi>
+         <mo>″</mo>
+        </msup>
+        <mo>−</mo>
+        <msup>
+         <mi>x</mi>
+         <mo>′</mo>
+        </msup>
+        <mo>=</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>θ</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+         <mn>2</mn>
+        </mfrac>
+        <msup>
+         <mi>ƒ</mi>
+         <mo>″</mo>
+        </msup>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>t</mi>
+          <mo>+</mo>
+          <mi>ξ</mi>
+          <mi>θ</mi>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+       </math>
+      </formula>,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mi>y</mi>
+         <mo>″</mo>
+        </msup>
+        <mo>−</mo>
+        <msup>
+         <mi>y</mi>
+         <mo>′</mo>
+        </msup>
+        <mo>=</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>θ</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+         <mn>2</mn>
+        </mfrac>
+        <msup>
+         <mi>f</mi>
+         <mo>″</mo>
+        </msup>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>t</mi>
+          <mo>+</mo>
+          <mi>η</mi>
+          <mi>θ</mi>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+       </math>
+      </formula>,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mi>z</mi>
+         <mo>″</mo>
+        </msup>
+        <mo>−</mo>
+        <msup>
+         <mi>z</mi>
+         <mo>′</mo>
+        </msup>
+        <mo>=</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>θ</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+         <mn>2</mn>
+        </mfrac>
+        <msup>
+         <mi>F</mi>
+         <mo>″</mo>
+        </msup>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>t</mi>
+          <mo>+</mo>
+          <mi>ζ</mi>
+          <mi>θ</mi>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+       </math>
+      </formula>.<pb n="216"/>Si nous tirons à présent la droite M'M", et si nous observons que<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mi>x</mi>
+         <mo>″</mo>
+        </msup>
+        <mo>−</mo>
+        <msup>
+         <mi>x</mi>
+         <mo>′</mo>
+        </msup>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mi>y</mi>
+         <mo>″</mo>
+        </msup>
+        <mo>−</mo>
+        <msup>
+         <mi>y</mi>
+         <mo>′</mo>
+        </msup>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mi>z</mi>
+         <mo>″</mo>
+        </msup>
+        <mo>−</mo>
+        <msup>
+         <mi>z</mi>
+         <mo>′</mo>
+        </msup>
+       </math>
+      </formula>, sont les trois projections de <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mi>M</mi>
+         <mo>′</mo>
+        </msup>
+        <msup>
+         <mi>M</mi>
+         <mo>″</mo>
+        </msup>
+        <mo>=</mo>
+        <mi>λ</mi>
+       </math>
+      </formula>
+      <lb/> sur <hi rend="it">ox, oy, oz</hi>, en nommant λ, μ, ν, les angles de cette droite
+      avec<lb/> ces mêmes axes, nous aurons<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>k</mi>
+        <mi>cos</mi>
+        <mi>λ</mi>
+        <mo>=</mo>
+        <msup>
+         <mi>x</mi>
+         <mo>′</mo>
+        </msup>
+        <mo>−</mo>
+        <msup>
+         <mi>x</mi>
+         <mo>″</mo>
+        </msup>
+       </math>
+      </formula>,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>k</mi>
+        <mi>cos</mi>
+        <mi>μ</mi>
+        <mo>=</mo>
+        <msup>
+         <mi>y</mi>
+         <mo>′</mo>
+        </msup>
+        <mo>−</mo>
+        <msup>
+         <mi>y</mi>
+         <mo>″</mo>
+        </msup>
+       </math>
+      </formula>,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>k</mi>
+        <mi>cos</mi>
+        <mi>ν</mi>
+        <mo>=</mo>
+        <msup>
+         <mi>z</mi>
+         <mo>′</mo>
+        </msup>
+        <mo>−</mo>
+        <msup>
+         <mi>z</mi>
+         <mo>″</mo>
+        </msup>
+       </math>
+      </formula>,<lb/>c'est-à-dire<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>k</mi>
+        <mi>cos</mi>
+        <mi>λ</mi>
+        <mo>=</mo>
+        <mo>−</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>θ</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+         <mn>2</mn>
+        </mfrac>
+        <msup>
+         <mi>ƒ</mi>
+         <mo>″</mo>
+        </msup>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>t</mi>
+          <mo>+</mo>
+          <mi>ξ</mi>
+          <mi>θ</mi>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+       </math>
+      </formula>,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>k</mi>
+        <mi>cos</mi>
+        <mi>μ</mi>
+        <mo>=</mo>
+        <mo>−</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>θ</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+         <mn>2</mn>
+        </mfrac>
+        <msup>
+         <mi>f</mi>
+         <mo>″</mo>
+        </msup>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>t</mi>
+          <mo>+</mo>
+          <mi>η</mi>
+          <mi>θ</mi>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+       </math>
+      </formula>,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>k</mi>
+        <mi>cos</mi>
+        <mi>ν</mi>
+        <mo>=</mo>
+        <mo>−</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>θ</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+         <mn>2</mn>
+        </mfrac>
+        <msup>
+         <mi>F</mi>
+         <mo>″</mo>
+        </msup>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>t</mi>
+          <mo>+</mo>
+          <mi>ζ</mi>
+          <mi>θ</mi>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+       </math>
+      </formula>,<lb/>le signe - provenant de ce que nous cherchons les angles formés par<lb/> la
+      partie de la droite M'M" dirigée de M" vers M'. </p>
+     <p>Faisant la somme des <choice>
+       <sic>quarrés</sic>
+       <corr>carrés</corr>
+      </choice> de ces trois équations, on obtient<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mi>k</mi>
+         <mo>=</mo>
+         <mfrac>
+          <mrow>
+           <msup>
+            <mi>θ</mi>
+            <mn>2</mn>
+           </msup>
+          </mrow>
+          <mn>2</mn>
+         </mfrac>
+         <msqrt>
+          <mrow>
+           <msup>
+            <mi>f</mi>
+            <mo>″</mo>
+           </msup>
+           <msup>
+            <mrow>
+             <mo stretchy="false">(</mo>
+             <mi>t</mi>
+             <mo>+</mo>
+             <mi>ξ</mi>
+             <mi>θ</mi>
+             <mo stretchy="false">)</mo>
+            </mrow>
+            <mn>2</mn>
+           </msup>
+           <mo>+</mo>
+           <msup>
+            <mi>f</mi>
+            <mo>″</mo>
+           </msup>
+           <msup>
+            <mrow>
+             <mo stretchy="false">(</mo>
+             <mi>t</mi>
+             <mo>+</mo>
+             <mi>η</mi>
+             <mi>θ</mi>
+             <mo stretchy="false">)</mo>
+            </mrow>
+            <mn>2</mn>
+           </msup>
+           <mo>+</mo>
+           <msup>
+            <mi>F</mi>
+            <mo>″</mo>
+           </msup>
+           <msup>
+            <mrow>
+             <mo stretchy="false">(</mo>
+             <mi>t</mi>
+             <mo>+</mo>
+             <mi>ξ</mi>
+             <mi>θ</mi>
+             <mo stretchy="false">)</mo>
+            </mrow>
+            <mn>2</mn>
+           </msup>
+          </mrow>
+         </msqrt>
+        </mrow>
+       </math>
+      </formula>,<lb/>d'où résulte<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mi>cos</mi>
+         <mi>λ</mi>
+         <mo>=</mo>
+         <mo>−</mo>
+         <mfrac>
+          <mrow>
+           <msup>
+            <mi>f</mi>
+            <mo>″</mo>
+           </msup>
+           <mo stretchy="false">(</mo>
+           <mi>t</mi>
+           <mo>+</mo>
+           <mi>ξ</mi>
+           <mi>θ</mi>
+           <mo stretchy="false">)</mo>
+          </mrow>
+          <mrow>
+           <msqrt>
+            <mrow>
+             <msup>
+              <mi>f</mi>
+              <mo>″</mo>
+             </msup>
+             <msup>
+              <mrow>
+               <mo stretchy="false">(</mo>
+               <mi>t</mi>
+               <mo>+</mo>
+               <mi>ξ</mi>
+               <mi>θ</mi>
+               <mo stretchy="false">)</mo>
+              </mrow>
+              <mn>2</mn>
+             </msup>
+             <mo>+</mo>
+             <msup>
+              <mi>f</mi>
+              <mo>″</mo>
+             </msup>
+             <msup>
+              <mrow>
+               <mo stretchy="false">(</mo>
+               <mi>t</mi>
+               <mo>+</mo>
+               <mi>η</mi>
+               <mi>θ</mi>
+               <mo stretchy="false">)</mo>
+              </mrow>
+              <mn>2</mn>
+             </msup>
+             <mo>+</mo>
+             <msup>
+              <mi>F</mi>
+              <mo>″</mo>
+             </msup>
+             <msup>
+              <mrow>
+               <mo stretchy="false">(</mo>
+               <mi>t</mi>
+               <mo>+</mo>
+               <mi>ζ</mi>
+               <mi>θ</mi>
+               <mo stretchy="false">)</mo>
+              </mrow>
+              <mn>2</mn>
+             </msup>
+            </mrow>
+           </msqrt>
+          </mrow>
+         </mfrac>
+        </mrow>
+       </math>
+      </formula>,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mi>cos</mi>
+         <mi>μ</mi>
+         <mo>=</mo>
+         <mo>−</mo>
+         <mfrac>
+          <mrow>
+           <msup>
+            <mi>f</mi>
+            <mo>″</mo>
+           </msup>
+           <mo stretchy="false">(</mo>
+           <mi>t</mi>
+           <mo>+</mo>
+           <mi>η</mi>
+           <mi>θ</mi>
+           <mo stretchy="false">)</mo>
+          </mrow>
+          <mrow>
+           <msqrt>
+            <mrow>
+             <msup>
+              <mi>f</mi>
+              <mo>″</mo>
+             </msup>
+             <msup>
+              <mrow>
+               <mo stretchy="false">(</mo>
+               <mi>t</mi>
+               <mo>+</mo>
+               <mi>ξ</mi>
+               <mi>θ</mi>
+               <mo stretchy="false">)</mo>
+              </mrow>
+              <mn>2</mn>
+             </msup>
+             <mo>+</mo>
+             <msup>
+              <mi>f</mi>
+              <mo>″</mo>
+             </msup>
+             <msup>
+              <mrow>
+               <mo stretchy="false">(</mo>
+               <mi>t</mi>
+               <mo>+</mo>
+               <mi>η</mi>
+               <mi>θ</mi>
+               <mo stretchy="false">)</mo>
+              </mrow>
+              <mn>2</mn>
+             </msup>
+             <mo>+</mo>
+             <msup>
+              <mi>F</mi>
+              <mo>″</mo>
+             </msup>
+             <msup>
+              <mrow>
+               <mo stretchy="false">(</mo>
+               <mi>t</mi>
+               <mo>+</mo>
+               <mi>ζ</mi>
+               <mi>θ</mi>
+               <mo stretchy="false">)</mo>
+              </mrow>
+              <mn>2</mn>
+             </msup>
+            </mrow>
+           </msqrt>
+          </mrow>
+         </mfrac>
+        </mrow>
+       </math>
+      </formula>,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mi>cos</mi>
+         <mi>ν</mi>
+         <mo>=</mo>
+         <mo>−</mo>
+         <mfrac>
+          <mrow>
+           <msup>
+            <mi>F</mi>
+            <mo>″</mo>
+           </msup>
+           <mo stretchy="false">(</mo>
+           <mi>t</mi>
+           <mo>+</mo>
+           <mi>ζ</mi>
+           <mi>θ</mi>
+           <mo stretchy="false">)</mo>
+          </mrow>
+          <mrow>
+           <msqrt>
+            <mrow>
+             <msup>
+              <mi>f</mi>
+              <mo>″</mo>
+             </msup>
+             <msup>
+              <mrow>
+               <mo stretchy="false">(</mo>
+               <mi>t</mi>
+               <mo>+</mo>
+               <mi>ξ</mi>
+               <mi>θ</mi>
+               <mo stretchy="false">)</mo>
+              </mrow>
+              <mn>2</mn>
+             </msup>
+             <mo>+</mo>
+             <msup>
+              <mi>f</mi>
+              <mo>″</mo>
+             </msup>
+             <msup>
+              <mrow>
+               <mo stretchy="false">(</mo>
+               <mi>t</mi>
+               <mo>+</mo>
+               <mi>η</mi>
+               <mi>θ</mi>
+               <mo stretchy="false">)</mo>
+              </mrow>
+              <mn>2</mn>
+             </msup>
+             <mo>+</mo>
+             <msup>
+              <mi>F</mi>
+              <mo>″</mo>
+             </msup>
+             <msup>
+              <mrow>
+               <mo stretchy="false">(</mo>
+               <mi>t</mi>
+               <mo>+</mo>
+               <mi>ζ</mi>
+               <mi>θ</mi>
+               <mo stretchy="false">)</mo>
+              </mrow>
+              <mn>2</mn>
+             </msup>
+            </mrow>
+           </msqrt>
+          </mrow>
+         </mfrac>
+        </mrow>
+       </math>
+      </formula>.<lb/>Mais pour que ces valeurs conviennent à la droite MR, il faut passer<lb/> à la
+      limite et <hi rend="it">y</hi> faire <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>θ</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+       </math>
+      </formula> ; si donc on désigne par W le radical<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <msqrt>
+          <mrow>
+           <msup>
+            <mi>f</mi>
+            <mo>″</mo>
+           </msup>
+           <msup>
+            <mrow>
+             <mo stretchy="false">(</mo>
+             <mi>t</mi>
+             <mo stretchy="false">)</mo>
+            </mrow>
+            <mn>2</mn>
+           </msup>
+           <mo>+</mo>
+           <msup>
+            <mi>f</mi>
+            <mo>″</mo>
+           </msup>
+           <msup>
+            <mrow>
+             <mo stretchy="false">(</mo>
+             <mi>t</mi>
+             <mo stretchy="false">)</mo>
+            </mrow>
+            <mn>2</mn>
+           </msup>
+           <mo>+</mo>
+           <msup>
+            <mi>F</mi>
+            <mo>″</mo>
+           </msup>
+           <msup>
+            <mrow>
+             <mo stretchy="false">(</mo>
+             <mi>t</mi>
+             <mo stretchy="false">)</mo>
+            </mrow>
+            <mn>2</mn>
+           </msup>
+          </mrow>
+         </msqrt>
+        </mrow>
+       </math>
+      </formula>,<lb/>on aura<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mi>cos</mi>
+         <mi>λ</mi>
+         <mo>=</mo>
+         <mo>−</mo>
+         <mfrac>
+          <mrow>
+           <msup>
+            <mi>f</mi>
+            <mo>″</mo>
+           </msup>
+           <mo stretchy="false">(</mo>
+           <mi>t</mi>
+           <mo stretchy="false">)</mo>
+          </mrow>
+          <mi>W</mi>
+         </mfrac>
+         <mo>=</mo>
+         <mo>−</mo>
+         <mfrac>
+          <mn>1</mn>
+          <mi>W</mi>
+         </mfrac>
+         <mo>.</mo>
+         <mfrac>
+          <mrow>
+           <msup>
+            <mi>d</mi>
+            <mn>2</mn>
+           </msup>
+           <mi>x</mi>
+          </mrow>
+          <mrow>
+           <mi>d</mi>
+           <msup>
+            <mi>t</mi>
+            <mn>2</mn>
+           </msup>
+          </mrow>
+         </mfrac>
+        </mrow>
+       </math>
+      </formula>,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mi>cos</mi>
+         <mi>μ</mi>
+         <mo>=</mo>
+         <mo>−</mo>
+         <mfrac>
+          <mrow>
+           <msup>
+            <mi>f</mi>
+            <mo>″</mo>
+           </msup>
+           <mo stretchy="false">(</mo>
+           <mi>t</mi>
+           <mo stretchy="false">)</mo>
+          </mrow>
+          <mi>W</mi>
+         </mfrac>
+         <mo>=</mo>
+         <mo>−</mo>
+         <mfrac>
+          <mn>1</mn>
+          <mi>W</mi>
+         </mfrac>
+         <mo>.</mo>
+         <mfrac>
+          <mrow>
+           <msup>
+            <mi>d</mi>
+            <mn>2</mn>
+           </msup>
+           <mi>y</mi>
+          </mrow>
+          <mrow>
+           <mi>d</mi>
+           <msup>
+            <mi>t</mi>
+            <mn>2</mn>
+           </msup>
+          </mrow>
+         </mfrac>
+        </mrow>
+       </math>
+      </formula>,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mi>cos</mi>
+         <mi>ν</mi>
+         <mo>=</mo>
+         <mo>−</mo>
+         <mfrac>
+          <mrow>
+           <msup>
+            <mi>F</mi>
+            <mo>″</mo>
+           </msup>
+           <mo stretchy="false">(</mo>
+           <mi>t</mi>
+           <mo stretchy="false">)</mo>
+          </mrow>
+          <mi>W</mi>
+         </mfrac>
+         <mo>=</mo>
+         <mo>−</mo>
+         <mfrac>
+          <mn>1</mn>
+          <mi>W</mi>
+         </mfrac>
+         <mo>.</mo>
+         <mfrac>
+          <mrow>
+           <msup>
+            <mi>d</mi>
+            <mn>2</mn>
+           </msup>
+           <mi>z</mi>
+          </mrow>
+          <mrow>
+           <mi>d</mi>
+           <msup>
+            <mi>t</mi>
+            <mn>2</mn>
+           </msup>
+          </mrow>
+         </mfrac>
+        </mrow>
+       </math>
+      </formula> ;<pb n="217"/>pour les valeurs des cosinus des angles que la force produite par
+      l'inertie<lb/> fait à chaque instant avec les axes <hi rend="it">ox, oy, oz</hi>. Il reste
+      encore à calculer<lb/> l'intensité de cette force.</p>
+    </div>
+    <div>
+     <head>IV.</head>
+     <head>
+      <hi rend="sc">Seconde question</hi>. -
+      <hi rend="it">Intensité de la force produite par
+       l’inertie.</hi>
+     </head>
+     <p>Rappelons d’abord une propriété commune aux courbes planes et<lb/> aux courbes à double
+      courbure, dont nous aurons besoin dans ce qui<lb/> va suivre. En menant aux divers points
+      d’une courbe quelconque des<lb/> plans normaux consécutifs, on forme parleurs intersections
+      succes<lb rend="hyphen"/>sives une surface développable, sur laquelle on peut tracer une
+      infi<lb rend="hyphen"/>nité de développées de la courbe proposée. Ainsi, il est permis
+      d'ima<lb rend="hyphen"/>giner que le point matériel M décrive la courbe AMB d’après la
+      loi<lb/> que voici : </p>
+     <p>Soit A'M'B' une quelconque des développées de AMB ; il suffit<lb/> pour faire décrire au
+      point M la courbe AMB de concevoir ce<lb/> point mobile renfermé dans un tube cylindrique
+      infiniment étroit et<lb/> attaché à un fil flexible constamment dirigé suivant l’axe du
+      tube,<lb/> dont une des extrémités est fixée au point donné A'. On peut
+      égale<lb rend="hyphen"/>ment supposer que le point mobile est retenu dans le tube par une<lb/>
+      cloison perpendiculaire à son axe, et que dans l’une ou l’autre hy<lb rend="hyphen"/>pothèse
+      le tube roule sur la courbe A'M'B' à laquelle il demeure cons<lb rend="hyphen"/>tamment
+      tangent. </p>
+     <p>Tant que la cloison sera fixe, la longueur A'M'M sera constante et<lb/> le point mobile
+      parcourra la courbe AMB.<lb/>
+      <figure>
+       <graphic url="1836-P192_fig002.jpg"/>
+      </figure>
+      <lb/>Mais si l’on suppose que la cloison glisse dans le tube suivant une<pb n="218"/>loi
+      quelconque, le point mobile décrira une autre courbe ; et l'on<lb/> aura la direction de la
+      force produite par l'inertie dans ce nouveau<lb/> mouvement, en mettant dans les valeurs de <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mi>cos</mi>
+         <mtext> </mtext>
+         <mi>λ</mi>
+        </mrow>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mi>cos</mi>
+         <mtext> </mtext>
+         <mi>μ</mi>
+        </mrow>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mi>cos</mi>
+         <mtext> </mtext>
+         <mi>ν</mi>
+        </mrow>
+       </math>
+      </formula>, les<lb/> fonctions dérivées du second ordre des coordonnées de la nouvelle<lb/>
+      courbe à la place des dérivées du second ordre des coordonnées de la<lb/> première.</p>
+     <p>Ayant ainsi la direction de la force produite par l’inertie, si on la<lb/> décompose suivant
+      deux directions rectangulaires entre elles, l'une<lb/> perpendiculaire au tube et l’autre à la
+      cloison, on aura les pressions<lb/> exercées respectivement par le point mobile sur la matière
+      qui les<lb/> compose. Or, parmi tous les mouvements qu’on peut supposer à la<lb/> cloison dans
+      le tube, il y en aura un pour lequel la pression exercée<lb/> contre cette cloison sera
+      nulle ; et il est clair qu’on le déterminera en<lb/> égalant à zéro la valeur de la pression
+      exercée contre la cloison, celle<lb rend="hyphen"/>ci donc n’ayant plus aucune action contre
+      le point mobile, on pourra<lb/> alors la supprimer ; d’où il suit qu’en nommant
+      <hi rend="it">ε</hi> l’angle que la direction<lb/> de la force d'inertie fait avec l’axe du
+      tube, la courbe décrite par le<lb/> point mobile quand la cloison est supprimée, s’obtiendra
+      eu combi<lb rend="hyphen"/>nant l’équation <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>ε</mi>
+        <mo>=</mo>
+        <mn>100</mn>
+        <mo>°</mo>
+       </math>
+      </formula> avec les équations qui déterminent la po<lb rend="hyphen"/>sition du tube à chaque
+      instant. </p>
+     <p>Maintenant la démonstration vers laquelle nous tendons, exige que<lb/> nous cherchions cosε,
+      cosinus qui est nul lorsque <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>ε</mi>
+        <mo>=</mo>
+        <mn>100</mn>
+        <mo>°</mo>
+       </math>
+      </formula>. Afin de<lb/> comprendre en une seule analyse tous les cas distincts dont nous
+      ve<lb rend="hyphen"/>nons de nous occuper, nous ferons l'hypothèse la plus générale,
+      sa<lb rend="hyphen"/>voir celle qui consiste à regarder la longueur A'M'M comme variable,<lb/>
+      bien que cette longueur demeure constante lorsqu’on admet une<lb/> cloison fixe ; et en effet
+      pour passer du cas général à ce cas particu<lb rend="hyphen"/>lier, il suffira d’égaler à zéro
+      les différentielles de A'M'M. </p>
+     <p>Cela posé, pour plus d’ordre, nous désignerons par des lettres ac<lb rend="hyphen"/>centuées
+      tout ce qui se rapporte à la développée, et par les mêmes let<lb rend="hyphen"/>tres sans
+      accent ce qui sera relatif à la développante. Nous ferons<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>A</mi>
+        <mi>M</mi>
+        <mo>=</mo>
+        <mi>s</mi>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mi>A</mi>
+         <mo>′</mo>
+        </msup>
+        <msup>
+         <mi>M</mi>
+         <mo>′</mo>
+        </msup>
+        <mo>=</mo>
+        <msup>
+         <mi>s</mi>
+         <mo>′</mo>
+        </msup>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mi>A</mi>
+         <mo>′</mo>
+        </msup>
+        <msup>
+         <mi>M</mi>
+         <mo>′</mo>
+        </msup>
+        <mo>+</mo>
+        <msup>
+         <mi>M</mi>
+         <mo>′</mo>
+        </msup>
+        <mi>M</mi>
+        <mo>=</mo>
+        <mi>r</mi>
+       </math>
+      </formula>, d'où <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>M</mi>
+        <msup>
+         <mi>M</mi>
+         <mo>′</mo>
+        </msup>
+        <mo>=</mo>
+        <mi>r</mi>
+        <mo>−</mo>
+        <msup>
+         <mi>s</mi>
+         <mo>′</mo>
+        </msup>
+       </math>
+      </formula>.<lb/>Les coordonnées du point M étant <hi rend="it">x, y, z</hi>, celles du point
+      M' seront<lb/>
+      <hi rend="it">x', y', z'</hi> ; les cosinus des angles formés par la droite MM' avec les<lb/>
+      axes auront donc pour valeurs, <pb n="219"/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <mi>x</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>x</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <mi>y</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>y</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <mi>z</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>z</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>.<lb/>Mais la force P produite par l’inertie fait avec les axes des angles dont<lb/>
+      les cosinus ont été trouvés égaux à<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mo>−</mo>
+        <mfrac>
+         <mn>1</mn>
+         <mi>W</mi>
+        </mfrac>
+        <mo>.</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>x</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mo>−</mo>
+        <mfrac>
+         <mn>1</mn>
+         <mi>W</mi>
+        </mfrac>
+        <mo>.</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>y</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mo>−</mo>
+        <mfrac>
+         <mn>1</mn>
+         <mi>W</mi>
+        </mfrac>
+        <mo>.</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>z</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula> ;<lb/>donc on aura<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>cos</mi>
+        <mi>ε</mi>
+        <mo>=</mo>
+        <mo>−</mo>
+        <mfrac>
+         <mn>1</mn>
+         <mi>W</mi>
+        </mfrac>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mfrac>
+           <mrow>
+            <mi>x</mi>
+            <mo>−</mo>
+            <msup>
+             <mi>x</mi>
+             <mo>′</mo>
+            </msup>
+           </mrow>
+           <mrow>
+            <mi>r</mi>
+            <mo>−</mo>
+            <msup>
+             <mi>s</mi>
+             <mo>′</mo>
+            </msup>
+           </mrow>
+          </mfrac>
+          <mo>.</mo>
+          <mfrac>
+           <mrow>
+            <msup>
+             <mi>d</mi>
+             <mn>2</mn>
+            </msup>
+            <mi>x</mi>
+           </mrow>
+           <mrow>
+            <mi>d</mi>
+            <msup>
+             <mi>t</mi>
+             <mn>2</mn>
+            </msup>
+           </mrow>
+          </mfrac>
+          <mo>+</mo>
+          <mfrac>
+           <mrow>
+            <mi>y</mi>
+            <mo>−</mo>
+            <msup>
+             <mi>y</mi>
+             <mo>′</mo>
+            </msup>
+           </mrow>
+           <mrow>
+            <mi>r</mi>
+            <mo>−</mo>
+            <msup>
+             <mi>s</mi>
+             <mo>′</mo>
+            </msup>
+           </mrow>
+          </mfrac>
+          <mo>.</mo>
+          <mfrac>
+           <mrow>
+            <msup>
+             <mi>d</mi>
+             <mn>2</mn>
+            </msup>
+            <mi>y</mi>
+           </mrow>
+           <mrow>
+            <mi>d</mi>
+            <msup>
+             <mi>t</mi>
+             <mn>2</mn>
+            </msup>
+           </mrow>
+          </mfrac>
+          <mo>+</mo>
+          <mfrac>
+           <mrow>
+            <mi>z</mi>
+            <mo>−</mo>
+            <msup>
+             <mi>z</mi>
+             <mo>′</mo>
+            </msup>
+           </mrow>
+           <mrow>
+            <mi>r</mi>
+            <mo>−</mo>
+            <msup>
+             <mi>s</mi>
+             <mo>′</mo>
+            </msup>
+           </mrow>
+          </mfrac>
+          <mo>.</mo>
+          <mfrac>
+           <mrow>
+            <msup>
+             <mi>d</mi>
+             <mn>2</mn>
+            </msup>
+            <mi>z</mi>
+           </mrow>
+           <mrow>
+            <mi>d</mi>
+            <msup>
+             <mi>t</mi>
+             <mn>2</mn>
+            </msup>
+           </mrow>
+          </mfrac>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+       </math>
+      </formula>.<lb/>Pour transformer cette expression, <choice>
+       <sic>différentions</sic>
+       <corr>différencions</corr>
+      </choice> les deux membres<lb/> de l'égalité évidente<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mi>x</mi>
+           <mo>−</mo>
+           <msup>
+            <mi>x</mi>
+            <mo>′</mo>
+           </msup>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+        <mo>+</mo>
+        <msup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mi>y</mi>
+           <mo>−</mo>
+           <msup>
+            <mi>y</mi>
+            <mo>′</mo>
+           </msup>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+        <mo>+</mo>
+        <msup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mi>z</mi>
+           <mo>−</mo>
+           <msup>
+            <mi>z</mi>
+            <mo>′</mo>
+           </msup>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+        <mo>=</mo>
+        <msup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mi>r</mi>
+           <mo>−</mo>
+           <msup>
+            <mi>s</mi>
+            <mo>′</mo>
+           </msup>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+       </math>
+      </formula>.<lb/> en y regardant <hi rend="it">x, y, z, x', y', z',</hi> comme des fonctions du
+      temps <hi rend="it">t</hi>,<lb/> ce qui nous donnera<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mtable columnalign="left">
+          <mtr>
+           <mtd>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mi>x</mi>
+              <mo>−</mo>
+              <msup>
+               <mi>x</mi>
+               <mo>′</mo>
+              </msup>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+            <mfrac>
+             <mrow>
+              <mi>d</mi>
+              <mi>x</mi>
+             </mrow>
+             <mrow>
+              <mi>d</mi>
+              <mi>t</mi>
+             </mrow>
+            </mfrac>
+            <mo>+</mo>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mi>y</mi>
+              <mo>−</mo>
+              <msup>
+               <mi>y</mi>
+               <mo>′</mo>
+              </msup>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+            <mfrac>
+             <mrow>
+              <mi>d</mi>
+              <mi>y</mi>
+             </mrow>
+             <mrow>
+              <mi>d</mi>
+              <mi>t</mi>
+             </mrow>
+            </mfrac>
+            <mo>+</mo>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mi>z</mi>
+              <mo>−</mo>
+              <msup>
+               <mi>z</mi>
+               <mo>′</mo>
+              </msup>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+            <mfrac>
+             <mrow>
+              <mi>d</mi>
+              <mi>z</mi>
+             </mrow>
+             <mrow>
+              <mi>d</mi>
+              <mi>t</mi>
+             </mrow>
+            </mfrac>
+           </mtd>
+          </mtr>
+          <mtr>
+           <mtd>
+            <mo>−</mo>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mi>x</mi>
+              <mo>−</mo>
+              <msup>
+               <mi>x</mi>
+               <mo>′</mo>
+              </msup>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+            <mfrac>
+             <mrow>
+              <mi>d</mi>
+              <msup>
+               <mi>x</mi>
+               <mo>′</mo>
+              </msup>
+             </mrow>
+             <mrow>
+              <mi>d</mi>
+              <mi>t</mi>
+             </mrow>
+            </mfrac>
+            <mo>−</mo>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mi>y</mi>
+              <mo>−</mo>
+              <msup>
+               <mi>y</mi>
+               <mo>′</mo>
+              </msup>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+            <mfrac>
+             <mrow>
+              <mi>d</mi>
+              <msup>
+               <mi>y</mi>
+               <mo>′</mo>
+              </msup>
+             </mrow>
+             <mrow>
+              <mi>d</mi>
+              <mi>t</mi>
+             </mrow>
+            </mfrac>
+            <mo>−</mo>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mi>z</mi>
+              <mo>−</mo>
+              <msup>
+               <mi>z</mi>
+               <mo>′</mo>
+              </msup>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+            <mfrac>
+             <mrow>
+              <mi>d</mi>
+              <msup>
+               <mi>z</mi>
+               <mo>′</mo>
+              </msup>
+             </mrow>
+             <mrow>
+              <mi>d</mi>
+              <mi>t</mi>
+             </mrow>
+            </mfrac>
+           </mtd>
+          </mtr>
+         </mtable>
+         <mo>}</mo>
+        </mrow>
+        <mo>=</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>−</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>. <ref>(1)</ref>
+      <lb/>Or, on pourrait voir à <hi rend="it">priori</hi>, et il est facile de démontrer
+      directement<lb/> que les parties négatives provenant de la différentiation des lettres<lb/>
+      primées sont égales dans chaque membre. </p>
+     <p>En effet, la droite MM' étant tangente à A'M'B' en M', les cosinus<lb/> des angles qu’elle
+      fait avec les axes sont égaux à <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>x</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>y</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>z</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>, et l’on<lb/> peut égaler ces expressions à celles que nous avons obtenues
+      précé<lb rend="hyphen"/>demment pour les mêmes cosinus, d’où résulte<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <mi>x</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>x</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>x</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <mi>y</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>y</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>y</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <mi>z</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>z</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>z</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>,<lb/> égalités desquelles on conclut aisément<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>x</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>x</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>x</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>y</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>y</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>y</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>z</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>z</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>
+      <lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mo>=</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mrow>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mi>x</mi>
+              <mo>−</mo>
+              <msup>
+               <mi>x</mi>
+               <mo>′</mo>
+              </msup>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+          <mo>+</mo>
+          <msup>
+           <mrow>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mi>y</mi>
+              <mo>−</mo>
+              <msup>
+               <mi>y</mi>
+               <mo>′</mo>
+              </msup>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+          <mo>+</mo>
+          <msup>
+           <mrow>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mi>z</mi>
+              <mo>−</mo>
+              <msup>
+               <mi>z</mi>
+               <mo>′</mo>
+              </msup>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>.</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mo>.</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>,<lb/>ce qu’il fallait démontrer.</p>
+     <pb n="220"/>
+     <p>L'équation <ref>(1)</ref> se réduit donc à<lb/>
+      <ref>(2)</ref>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>x</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>x</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>x</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>y</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>y</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>y</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>z</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>z</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>z</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>s</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula> ;<lb/> et en la <choice>
+       <sic>différentiant</sic>
+       <corr>différenciant</corr>
+      </choice> de nouveau, en faisant attention que <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>x</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>
+      <lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>y</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>z</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mfrac>
+           <mrow>
+            <mi>d</mi>
+            <mi>s</mi>
+           </mrow>
+           <mrow>
+            <mi>d</mi>
+            <mi>t</mi>
+           </mrow>
+          </mfrac>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+       </math>
+      </formula>, on a<lb/>
+      <ref>(3)</ref>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>x</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>x</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>x</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>y</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>y</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>y</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>z</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>z</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>z</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>
+      <lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mo>+</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mfrac>
+           <mrow>
+            <mi>d</mi>
+            <mi>s</mi>
+           </mrow>
+           <mrow>
+            <mi>d</mi>
+            <mi>t</mi>
+           </mrow>
+          </mfrac>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mo>−</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>x</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>.</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>x</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>−</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>y</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>.</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>y</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>−</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>z</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>.</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>z</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>
+      <lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mo>=</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mfrac>
+           <mrow>
+            <mi>d</mi>
+            <mi>r</mi>
+           </mrow>
+           <mrow>
+            <mi>d</mi>
+            <mi>t</mi>
+           </mrow>
+          </mfrac>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mo>−</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>.</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>.</p>
+     <p>Cette équation se simplifie encore parce que les termes affectes du<lb/> signe - sont égaux
+      dans les deux membres. </p>
+     <p>En effet en substituant les valeurs de <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>x</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>y</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>r</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>, qui se déduisent<lb/> immédiatement de celles de <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>x</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>y</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>r</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>, trouvés plus haut, il vient<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>x</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>.</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>x</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>y</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>.</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>y</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>.</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>r</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mo>=</mo>
+        <mfrac>
+         <mn>1</mn>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>.</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>.</mo>
+        <mrow>
+         <mo>[</mo>
+         <mrow>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mi>x</mi>
+            <mo>−</mo>
+            <msup>
+             <mi>x</mi>
+             <mo>′</mo>
+            </msup>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+          <mfrac>
+           <mrow>
+            <mi>d</mi>
+            <mi>x</mi>
+           </mrow>
+           <mrow>
+            <mi>d</mi>
+            <mi>t</mi>
+           </mrow>
+          </mfrac>
+          <mo>+</mo>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mi>y</mi>
+            <mo>−</mo>
+            <msup>
+             <mi>y</mi>
+             <mo>′</mo>
+            </msup>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+          <mfrac>
+           <mrow>
+            <mi>d</mi>
+            <mi>y</mi>
+           </mrow>
+           <mrow>
+            <mi>d</mi>
+            <mi>t</mi>
+           </mrow>
+          </mfrac>
+          <mo>+</mo>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mi>z</mi>
+            <mo>−</mo>
+            <msup>
+             <mi>z</mi>
+             <mo>′</mo>
+            </msup>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+          <mfrac>
+           <mrow>
+            <mi>d</mi>
+            <mi>z</mi>
+           </mrow>
+           <mrow>
+            <mi>d</mi>
+            <mi>t</mi>
+           </mrow>
+          </mfrac>
+         </mrow>
+         <mo>]</mo>
+        </mrow>
+       </math>
+      </formula>,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mo>=</mo>
+        <mfrac>
+         <mn>1</mn>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>.</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>.</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>.</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>.</p>
+     <p>Cela étant, l'équation <ref>(3)</ref> deviendra<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>x</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>x</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>x</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>y</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>y</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>y</mi>
+         </mrow>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>z</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>z</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>z</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mo>=</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <msup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mi>d</mi>
+             <mi>r</mi>
+            </mrow>
+            <mrow>
+             <mi>d</mi>
+             <mi>t</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+        <mo>−</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mfrac>
+           <mrow>
+            <mi>d</mi>
+            <mi>s</mi>
+           </mrow>
+           <mrow>
+            <mi>d</mi>
+            <mi>t</mi>
+           </mrow>
+          </mfrac>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+       </math>
+      </formula> ;<lb/> ou bien, en divisant par <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mi>r</mi>
+         <mo>−</mo>
+         <msup>
+          <mi>s</mi>
+          <mo>′</mo>
+         </msup>
+        </mrow>
+       </math>
+      </formula>,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mfrac>
+          <mrow>
+           <mi>x</mi>
+           <mo>−</mo>
+           <msup>
+            <mi>x</mi>
+            <mo>′</mo>
+           </msup>
+          </mrow>
+          <mrow>
+           <mi>r</mi>
+           <mo>−</mo>
+           <msup>
+            <mi>s</mi>
+            <mo>′</mo>
+           </msup>
+          </mrow>
+         </mfrac>
+         <mo>.</mo>
+         <mfrac>
+          <mrow>
+           <msup>
+            <mi>d</mi>
+            <mn>2</mn>
+           </msup>
+           <mi>x</mi>
+          </mrow>
+          <mrow>
+           <mi>d</mi>
+           <msup>
+            <mi>t</mi>
+            <mn>2</mn>
+           </msup>
+          </mrow>
+         </mfrac>
+         <mo>+</mo>
+         <mfrac>
+          <mrow>
+           <mi>y</mi>
+           <mo>−</mo>
+           <msup>
+            <mi>y</mi>
+            <mo>′</mo>
+           </msup>
+          </mrow>
+          <mrow>
+           <mi>r</mi>
+           <mo>−</mo>
+           <msup>
+            <mi>s</mi>
+            <mo>′</mo>
+           </msup>
+          </mrow>
+         </mfrac>
+         <mo>.</mo>
+         <mfrac>
+          <mrow>
+           <msup>
+            <mi>d</mi>
+            <mn>2</mn>
+           </msup>
+           <mi>y</mi>
+          </mrow>
+          <mrow>
+           <mi>d</mi>
+           <msup>
+            <mi>t</mi>
+            <mn>2</mn>
+           </msup>
+          </mrow>
+         </mfrac>
+         <mo>+</mo>
+         <mfrac>
+          <mrow>
+           <mi>z</mi>
+           <mo>−</mo>
+           <msup>
+            <mi>z</mi>
+            <mo>′</mo>
+           </msup>
+          </mrow>
+          <mrow>
+           <mi>r</mi>
+           <mo>−</mo>
+           <msup>
+            <mi>s</mi>
+            <mo>′</mo>
+           </msup>
+          </mrow>
+         </mfrac>
+         <mo>.</mo>
+         <mfrac>
+          <mrow>
+           <msup>
+            <mi>d</mi>
+            <mn>2</mn>
+           </msup>
+           <mi>z</mi>
+          </mrow>
+          <mrow>
+           <mi>d</mi>
+           <msup>
+            <mi>t</mi>
+            <mn>2</mn>
+           </msup>
+          </mrow>
+         </mfrac>
+        </mrow>
+       </math>
+      </formula>,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mo>=</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mfrac>
+         <mn>1</mn>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mrow>
+         <mo>[</mo>
+         <mrow>
+          <msup>
+           <mrow>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mfrac>
+               <mrow>
+                <mi>d</mi>
+                <mi>r</mi>
+               </mrow>
+               <mrow>
+                <mi>d</mi>
+                <mi>t</mi>
+               </mrow>
+              </mfrac>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+          <mo>−</mo>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mfrac>
+             <mrow>
+              <mi>d</mi>
+              <mi>s</mi>
+             </mrow>
+             <mrow>
+              <mi>d</mi>
+              <mi>t</mi>
+             </mrow>
+            </mfrac>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+         </mrow>
+         <mo>]</mo>
+        </mrow>
+       </math>
+      </formula>,<pb n="221"/>ce qui donne la valeur de cos ε ; car il suffit pour l’obtenir de
+      mul<lb rend="hyphen"/>tiplier par <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mo>−</mo>
+        <mfrac>
+         <mn>1</mn>
+         <mi>W</mi>
+        </mfrac>
+       </math>
+      </formula> la quantité précédente. </p>
+     <p>Pour transformer d’une autre manière la valeur de ce cosinus, ob<lb rend="hyphen"/>servons
+      que le point matériel renfermé dans le tube qui se meut en res<lb rend="hyphen"/>tant
+      constamment tangent à A'M'B' doit décrire une trajectoire placée<lb/> tout entière sur la
+      surface développable que le tube engendre dans<lb/>
+      <figure>
+       <graphic url="1836-P192_fig003.jpg"/>
+      </figure>son mouvement. Or, si nous considérons un sec<lb rend="hyphen"/>teur infiniment petit
+      MM'M, dont la base est l’arc<lb/>
+      <hi rend="it">ds</hi> de cette trajectoire, et que du point M'<lb/> comme centre avec MM' pour
+      rayon, nous dé<lb rend="hyphen"/>crivions l’arc de cercle MQ, nous aurons <lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>M</mi>
+        <msub>
+         <mi>M</mi>
+         <mn>1</mn>
+        </msub>
+        <mo>=</mo>
+        <mi>d</mi>
+        <mi>s</mi>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mi>M</mi>
+         <mn>1</mn>
+        </msub>
+        <mi>Q</mi>
+        <mo>=</mo>
+        <mi>d</mi>
+        <mi>r</mi>
+       </math>
+      </formula>,<lb/>et, en nommant <hi rend="it">ω</hi> l’angle du secteur développé,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>M</mi>
+        <mi>Q</mi>
+        <mo>=</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mi>d</mi>
+        <mi>ω</mi>
+       </math>
+      </formula>.<lb/>Mais<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>M</mi>
+        <msub>
+         <mi>M</mi>
+         <mn>1</mn>
+        </msub>
+        <mo>=</mo>
+        <msqrt>
+         <mrow>
+          <msup>
+           <mrow>
+            <mover accent="true">
+             <mrow>
+              <msub>
+               <mi>M</mi>
+               <mn>1</mn>
+              </msub>
+              <mi>Q</mi>
+             </mrow>
+             <mo stretchy="true">¯</mo>
+            </mover>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+          <mo>+</mo>
+          <msup>
+           <mrow>
+            <mover accent="true">
+             <mrow>
+              <mi>M</mi>
+              <mi>Q</mi>
+             </mrow>
+             <mo stretchy="true">¯</mo>
+            </mover>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </msqrt>
+       </math>
+      </formula> ;<lb/>donc<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>d</mi>
+        <mi>s</mi>
+        <mo>=</mo>
+        <msqrt>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>r</mi>
+           <mn>2</mn>
+          </msup>
+          <mo>+</mo>
+          <msup>
+           <mrow>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mi>r</mi>
+              <mo>−</mo>
+              <msup>
+               <mi>s</mi>
+               <mo>′</mo>
+              </msup>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+          <mi>d</mi>
+          <msup>
+           <mi>ω</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </msqrt>
+       </math>
+      </formula>,<lb/>et<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mi>d</mi>
+             <mi>s</mi>
+            </mrow>
+            <mrow>
+             <mi>d</mi>
+             <mi>t</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+        <mo>=</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mfrac>
+           <mrow>
+            <mi>d</mi>
+            <mi>r</mi>
+           </mrow>
+           <mrow>
+            <mi>d</mi>
+            <mi>t</mi>
+           </mrow>
+          </mfrac>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mo>+</mo>
+        <msup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mi>r</mi>
+           <mo>−</mo>
+           <msup>
+            <mi>s</mi>
+            <mo>′</mo>
+           </msup>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+        <msup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mi>d</mi>
+             <mi>ω</mi>
+            </mrow>
+            <mrow>
+             <mi>d</mi>
+             <mi>t</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+       </math>
+      </formula> ;<lb/>d'où<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mn>1</mn>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mrow>
+         <mo>[</mo>
+         <mrow>
+          <msup>
+           <mrow>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mfrac>
+               <mrow>
+                <mi>d</mi>
+                <mi>r</mi>
+               </mrow>
+               <mrow>
+                <mi>d</mi>
+                <mi>t</mi>
+               </mrow>
+              </mfrac>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+          <mo>−</mo>
+          <msup>
+           <mrow>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mfrac>
+               <mrow>
+                <mi>d</mi>
+                <mi>s</mi>
+               </mrow>
+               <mrow>
+                <mi>d</mi>
+                <mi>t</mi>
+               </mrow>
+              </mfrac>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+         <mo>]</mo>
+        </mrow>
+        <mo>=</mo>
+        <mo>−</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <msup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mi>d</mi>
+             <mi>ω</mi>
+            </mrow>
+            <mrow>
+             <mi>d</mi>
+             <mi>t</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+       </math>
+      </formula>.<lb/>Donc<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>cos</mi>
+        <mi>ε</mi>
+        <mo>=</mo>
+        <mo>−</mo>
+        <mfrac>
+         <mn>1</mn>
+         <mi>W</mi>
+        </mfrac>
+        <mrow>
+         <mo>[</mo>
+         <mrow>
+          <msup>
+           <mrow>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mfrac>
+               <mrow>
+                <mi>d</mi>
+                <mi>r</mi>
+               </mrow>
+               <mrow>
+                <mi>d</mi>
+                <mi>t</mi>
+               </mrow>
+              </mfrac>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+          <mo>−</mo>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mi>r</mi>
+            <mo>−</mo>
+            <msup>
+             <mi>s</mi>
+             <mo>′</mo>
+            </msup>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+          <msup>
+           <mrow>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mfrac>
+               <mrow>
+                <mi>d</mi>
+                <mi>ω</mi>
+               </mrow>
+               <mrow>
+                <mi>d</mi>
+                <mi>t</mi>
+               </mrow>
+              </mfrac>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+         <mo>]</mo>
+        </mrow>
+       </math>
+      </formula>.</p>
+     <p>La quantité que nous venons d’écrire fournit le cosinus de l’angle<lb/> que fait avec l’axe
+      du tube la direction de la force produite par l’inertie.<lb/> Mais il y a, ainsi que nous
+      l’avons dit à l’avance, deux cas différents à<lb/> examiner. En effet, lorsque
+      <hi rend="it">r</hi> est variable, il faut en faire usage sous<pb n="222"/> la forme
+      précédente ; mais lorsque le point matériel M est arrêté dans<lb/> le tube par une cloison
+      imperméable, la distance <hi rend="it">r</hi> est constante et<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mi>d</mi>
+         <mn>2</mn>
+        </msup>
+        <mi>r</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+       </math>
+      </formula> ; on a alors<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>cos</mi>
+        <mi>ε</mi>
+        <mo>=</mo>
+        <mfrac>
+         <mn>1</mn>
+         <mi>W</mi>
+        </mfrac>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mfrac>
+           <mrow>
+            <mi>d</mi>
+            <mi>ω</mi>
+           </mrow>
+           <mrow>
+            <mi>d</mi>
+            <mi>t</mi>
+           </mrow>
+          </mfrac>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+       </math>
+      </formula>.</p>
+     <p>Lorsque la cloison est supprimée et que le mobile se meut libre<lb rend="hyphen"/>ment dans
+      le tube, on a l’égalité <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>ε</mi>
+        <mo>=</mo>
+        <mn>100</mn>
+        <mo>°</mo>
+       </math>
+      </formula>, ou <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>cos</mi>
+        <mi>ε</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+       </math>
+      </formula>, ainsi que<lb/> nous l’avons démontré ailleurs ; il est visible en outre que dans
+      ce cas,<lb/>
+      <hi rend="it">r</hi> est une quantité variable. De l’équation <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>cos</mi>
+        <mi>ε</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+       </math>
+      </formula>, nous tirons donc<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <msup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mi>d</mi>
+             <mi>ω</mi>
+            </mrow>
+            <mrow>
+             <mi>d</mi>
+             <mi>t</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+       </math>
+      </formula>.</p>
+     <p>Or, supposons que le point mobile ait été d’abord assujetti à par<lb rend="hyphen"/>courir
+      la développante AMB <hi rend="it">(Voyez</hi> la fig., pag. 217) et qu'il soit
+      par<lb rend="hyphen"/>venu en M au bout du temps <hi rend="it">t</hi> puis concevons qu’à cet
+      instant, la<lb/> cloison qui le forçait à parcourir AMB soit devenue perméable ; alors le<lb/>
+      point mobile se trouvant libre de se mouvoir le long du tube, décrira<lb/> une nouvelle
+      trajectoire MV pour laquelle l’équation<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <msup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mi>d</mi>
+             <mi>ω</mi>
+            </mrow>
+            <mrow>
+             <mi>d</mi>
+             <mi>t</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+       </math>
+      </formula>
+      <lb/> aura lieu.</p>
+     <p>Désignons par <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <msub>
+          <mi>r</mi>
+          <mi>o</mi>
+         </msub>
+        </mrow>
+       </math>
+      </formula> la valeur de A'M'M au moment où la cloison est<lb/> devenue perméable ; après un
+      instant <hi rend="it">θ</hi> cette valeur sera par le<lb/> théorème de <persName>Taylor</persName>
+      <lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>r</mi>
+        <mo>=</mo>
+        <msub>
+         <mi>r</mi>
+         <mi>o</mi>
+        </msub>
+        <mo>=</mo>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msub>
+           <mi>r</mi>
+           <mi>o</mi>
+          </msub>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mi>θ</mi>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <msub>
+           <mi>r</mi>
+           <mi>o</mi>
+          </msub>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>.</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>θ</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+         <mn>2</mn>
+        </mfrac>
+        <mo>+</mo>
+        <mn>........</mn>
+       </math>
+      </formula>,<lb/>Mais quelle que soit la nouvelle trajectoire MV qui, après la
+      per<lb rend="hyphen"/>méabilité de la cloison, aura succédé à la première AMB, les deux<lb/>
+      courbes devront nécessairement avoir la même tangente en M ; car<lb/> la vitesse ne peut
+      changer brusquement ni en grandeur, ni en di<lb rend="hyphen"/>rection. De là il suit que la
+      dérivée première <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msub>
+           <mi>r</mi>
+           <mi>o</mi>
+          </msub>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>, doit être la même<lb/> pour les courbes AMB et MV ; donc <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <msub>
+           <mi>r</mi>
+           <mi>o</mi>
+          </msub>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mn>0</mn>
+       </math>
+      </formula>, sans que, les dérivées<lb/> suivantes soient zéro. Donc l’enfoncement dans la
+      direction du tube<pb n="223"/>à travers la cloison devenue perméable est<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>r</mi>
+        <mo>−</mo>
+        <msub>
+         <mi>r</mi>
+         <mi>o</mi>
+        </msub>
+        <mo>=</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <msub>
+           <mi>r</mi>
+           <mi>o</mi>
+          </msub>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>.</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>θ</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+         <mn>2</mn>
+        </mfrac>
+        <mo>+</mo>
+        <mn>........</mn>
+       </math>
+      </formula>
+      <lb/>Cet enfoncement est un résultat de la pression que la cloison
+      éprou<lb rend="hyphen"/>vait au moment où elle a été rendue perméable, et cette pression
+      à<lb/> son tour était représentée par la composante <hi rend="it">p</hi> de la force P
+      produite<lb/> par l’inertie prise suivant l’axe du tube à l’instant dont nous parlons.<lb/>
+      D’après ce qui a été dit plus haut, il est évident que<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>p</mi>
+        <mo>=</mo>
+        <mi>P</mi>
+        <mi>cos</mi>
+        <mi>ε</mi>
+       </math>
+      </formula>,<lb/> cos ε ayant pour valeur<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>cos</mi>
+        <mi>ε</mi>
+        <mo>=</mo>
+        <mfrac>
+         <mn>1</mn>
+         <mi>W</mi>
+        </mfrac>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <msub>
+           <mi>r</mi>
+           <mi>o</mi>
+          </msub>
+          <mo>−</mo>
+          <msub>
+           <msup>
+            <mi>s</mi>
+            <mo>′</mo>
+           </msup>
+           <mi>o</mi>
+          </msub>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mfrac>
+           <mrow>
+            <mi>d</mi>
+            <msub>
+             <mi>ω</mi>
+             <mi>o</mi>
+            </msub>
+           </mrow>
+           <mrow>
+            <mi>d</mi>
+            <mi>t</mi>
+           </mrow>
+          </mfrac>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+       </math>
+      </formula>,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <msub>
+          <mi>s'</mi>
+          <mi>o</mi>
+         </msub>
+        </mrow>
+       </math>
+      </formula> et <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <msub>
+          <mi>ω</mi>
+          <mi>o</mi>
+         </msub>
+        </mrow>
+       </math>
+      </formula> étant ce que deviennent <hi rend="it">s'</hi> et <hi rend="it">ω</hi> pour <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>r</mi>
+        <mo>=</mo>
+        <msub>
+         <mi>r</mi>
+         <mi>o</mi>
+        </msub>
+       </math>
+      </formula>. Maintenant il<lb/> est facile d’exprimer <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>r</mi>
+        <mo>−</mo>
+        <msub>
+         <mi>r</mi>
+         <mi>o</mi>
+        </msub>
+       </math>
+      </formula>, au moyen des forces P, <hi rend="it">p</hi>, il suffit
+      d’ob<lb rend="hyphen"/>server que le mobile étant devenu libre, on a<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <msub>
+           <mi>r</mi>
+           <mi>o</mi>
+          </msub>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <msub>
+           <mi>r</mi>
+           <mi>o</mi>
+          </msub>
+          <mo>−</mo>
+          <msub>
+           <msup>
+            <mi>s</mi>
+            <mo>′</mo>
+           </msup>
+           <mi>o</mi>
+          </msub>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <msup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mi>d</mi>
+             <msub>
+              <mi>ω</mi>
+              <mi>o</mi>
+             </msub>
+            </mrow>
+            <mrow>
+             <mi>d</mi>
+             <mi>t</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+        <mo>=</mo>
+        <mfrac>
+         <mrow>
+          <mi>W</mi>
+          <mi>p</mi>
+         </mrow>
+         <mi>P</mi>
+        </mfrac>
+       </math>
+      </formula>
+      <lb/> donc<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>r</mi>
+        <mo>−</mo>
+        <msub>
+         <mi>r</mi>
+         <mi>o</mi>
+        </msub>
+        <mo>=</mo>
+        <mfrac>
+         <mrow>
+          <mi>W</mi>
+          <mi>p</mi>
+         </mrow>
+         <mi>P</mi>
+        </mfrac>
+        <mo>.</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>θ</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+         <mn>2</mn>
+        </mfrac>
+        <mo>+</mo>
+        <mn>........</mn>
+       </math>
+      </formula>
+      <lb/>Si nous considérons un autre point M" se mouvant sur une autre<lb/> courbe A"M"B" d’une
+      manière analogue, et que <hi rend="it">r"</hi>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <msub>
+          <mi>r"</mi>
+          <mi>o</mi>
+         </msub>
+        </mrow>
+       </math>
+      </formula>, W", <hi rend="it">p"</hi>, P"<lb/> soient pour ce mouvement, les quantités
+      correspondantes à <hi rend="it">r</hi>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <msub>
+          <mi>I</mi>
+          <mi>o</mi>
+         </msub>
+        </mrow>
+       </math>
+      </formula>, W,<lb/>
+      <hi rend="it">p</hi>, P, nous aurons de même<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mi>r</mi>
+         <mo>″</mo>
+        </msup>
+        <mo>−</mo>
+        <msub>
+         <mi>r</mi>
+         <mi>o</mi>
+        </msub>
+        <msup>
+         <mrow/>
+         <mrow>
+          <mo>′</mo>
+          <mtext>​</mtext>
+          <mo>′</mo>
+         </mrow>
+        </msup>
+        <mo>=</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>W</mi>
+           <mo>″</mo>
+          </msup>
+          <msup>
+           <mi>p</mi>
+           <mo>″</mo>
+          </msup>
+         </mrow>
+         <msup>
+          <mi>P</mi>
+          <mo>″</mo>
+         </msup>
+        </mfrac>
+        <mo>.</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>θ</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+         <mn>2</mn>
+        </mfrac>
+        <mo>+</mo>
+        <mn>........</mn>
+       </math>
+      </formula>,<lb/>d’où nous conclurons, en divisant ces quantités l’une par l’autre et<lb/>
+      passant ensuite à la limite, c’est-à-dire faisant <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>θ</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+       </math>
+      </formula>,<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <mi>r</mi>
+          <mo>−</mo>
+          <msub>
+           <mi>r</mi>
+           <mi>o</mi>
+          </msub>
+         </mrow>
+         <mrow>
+          <msup>
+           <mi>r</mi>
+           <mo>″</mo>
+          </msup>
+          <mo>−</mo>
+          <msub>
+           <msup>
+            <mi>r</mi>
+            <mo>″</mo>
+           </msup>
+           <mi>o</mi>
+          </msub>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mfrac>
+         <mrow>
+          <mfrac>
+           <mrow>
+            <mi>W</mi>
+            <mi>p</mi>
+           </mrow>
+           <mi>P</mi>
+          </mfrac>
+         </mrow>
+         <mrow>
+          <mfrac>
+           <mrow>
+            <msup>
+             <mi>W</mi>
+             <mo>″</mo>
+            </msup>
+            <msup>
+             <mi>p</mi>
+             <mo>″</mo>
+            </msup>
+           </mrow>
+           <msup>
+            <mi>P</mi>
+            <mo>″</mo>
+           </msup>
+          </mfrac>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>,<pb n="224"/>pour le rapport des <hi rend="it">enfoncements instantanés</hi>
+      produits dans les deux<lb/> mouvements par les pressions respectives <hi rend="it">p</hi> et
+      <hi rend="it">p"</hi> exercées contre les<lb/> cloisons.</p>
+     <p>Or, il est évident que si, dans un temps infiniment petit, les pres<lb rend="hyphen"/>sions
+      <hi rend="it">p, p"</hi> qu’exerçaient les deux mobiles à l’instant où les cloisons<lb/> ont
+      été rendues perméables, ont produit dans ces cloisons des enfon<lb rend="hyphen"/>cements
+      égaux, ces pressions étaient égales entre elles ; de plus,<lb/> comme les enfoncements
+      dépendent de la direction des tubes, c’est<lb rend="hyphen"/>à-dire de celle des développées
+      en nombre infini dans chacune des<lb/> deux courbes dont on a fait choix d’abord pour enrouler
+      les tubes,<lb/> ou peut supposer quelles ont été prises de manière que <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mi>r</mi>
+         <mo>−</mo>
+         <msub>
+          <mi>r</mi>
+          <mi>o</mi>
+         </msub>
+        </mrow>
+       </math>
+      </formula>, soit<lb/> égal à <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <msup>
+          <mi>r</mi>
+          <mo>″</mo>
+         </msup>
+         <mo>−</mo>
+         <msub>
+          <mi>r</mi>
+          <mi>o</mi>
+         </msub>
+        </mrow>
+       </math>
+      </formula>. En adoptant cette hypothèse, nous aurons d'après ce<lb/> que nous venons de dire, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>p</mi>
+        <mo>=</mo>
+        <msup>
+         <mi>p</mi>
+         <mo>″</mo>
+        </msup>
+       </math>
+      </formula>, d’où résulte l’égalité<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mn>1</mn>
+        <mo>=</mo>
+        <mfrac>
+         <mrow>
+          <mfrac>
+           <mi>W</mi>
+           <mi>P</mi>
+          </mfrac>
+         </mrow>
+         <mrow>
+          <mfrac>
+           <msup>
+            <mi>W</mi>
+            <mo>″</mo>
+           </msup>
+           <msup>
+            <mi>P</mi>
+            <mo>″</mo>
+           </msup>
+          </mfrac>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>
+      <lb/> puis la proportion<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>P</mi>
+        <mo>:</mo>
+        <msup>
+         <mi>P</mi>
+         <mo>″</mo>
+        </msup>
+        <mo>:</mo>
+        <mo>:</mo>
+        <mi>W</mi>
+        <mo>:</mo>
+        <msup>
+         <mi>W</mi>
+         <mo>″</mo>
+        </msup>
+       </math>
+      </formula>.</p>
+     <p>Au reste, il est bon d’observer qu’on ne peut dire que <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>p</mi>
+        <mo>=</mo>
+        <msup>
+         <mi>p</mi>
+         <mo>″</mo>
+        </msup>
+       </math>
+      </formula>, même<lb/> en faisant <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>r</mi>
+        <mo>−</mo>
+        <msub>
+         <mi>r</mi>
+         <mi>o</mi>
+        </msub>
+        <mo>=</mo>
+        <msup>
+         <mi>r</mi>
+         <mo>″</mo>
+        </msup>
+        <mo>−</mo>
+        <msub>
+         <mi>r</mi>
+         <mi>o</mi>
+        </msub>
+        <msup>
+         <mrow/>
+         <mrow>
+          <mo>′</mo>
+          <mtext>​</mtext>
+          <mo>′</mo>
+         </mrow>
+        </msup>
+       </math>
+      </formula>, que quand <hi rend="it">θ</hi> est infiniment petit et que<lb/> l’on a passé à la
+      limite en posant <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>θ</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+       </math>
+      </formula> ; car dans un temps fini <hi rend="it">θ</hi>,<lb/> nous ne savons pas quelles sont
+      les lois du mouvement des deux<lb/> points devenus libres dans ces tubes ; la seule chose
+      certaine <hi rend="it">à priori</hi>,<lb/> c’est que plus le temps <hi rend="it">θ</hi> sera
+      petit, plus (si les enfoncements des deux<lb/> points sont les mêmes) les forces
+      <hi rend="it">p, p"</hi> qui les ont produits appro<lb rend="hyphen"/>cheront d’être égales,
+      tellement que pour <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>θ</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+       </math>
+      </formula>, l’égalité <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mi>p</mi>
+         <msup>
+          <mi>p</mi>
+          <mo>″</mo>
+         </msup>
+        </mfrac>
+        <mo>=</mo>
+        <mn>1</mn>
+       </math>
+      </formula> sera<lb/>
+      <choice>
+       <sic>tout-à-fait</sic>
+       <corr>tout à fait</corr>
+      </choice> rigoureuse. </p>
+     <p>Il est donc bien prouvé par cette analyse qu’on a la proportion<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>P</mi>
+        <mo>:</mo>
+        <msup>
+         <mi>P</mi>
+         <mo>″</mo>
+        </msup>
+        <mo>:</mo>
+        <mo>:</mo>
+        <mi>W</mi>
+        <mo>:</mo>
+        <msup>
+         <mi>W</mi>
+         <mo>″</mo>
+        </msup>
+       </math>
+      </formula>. </p>
+     <p>Si nous considérons un mouvement où <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mi>W</mi>
+         <mo>″</mo>
+        </msup>
+        <mo>=</mo>
+        <mn>1</mn>
+       </math>
+      </formula>, et que nous<lb/> choisissions pour unité la force P" correspondante, la force P
+      sera égale<lb/> à W, et l’on aura<pb n="225"/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>P</mi>
+        <mo>=</mo>
+        <msqrt>
+         <mrow>
+          <msup>
+           <mrow>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mfrac>
+               <mrow>
+                <msup>
+                 <mi>d</mi>
+                 <mn>2</mn>
+                </msup>
+                <mi>x</mi>
+               </mrow>
+               <mrow>
+                <mi>d</mi>
+                <msup>
+                 <mi>t</mi>
+                 <mn>2</mn>
+                </msup>
+               </mrow>
+              </mfrac>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+          <mo>+</mo>
+          <msup>
+           <mrow>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mfrac>
+               <mrow>
+                <mi>d</mi>
+                <mi>y</mi>
+               </mrow>
+               <mrow>
+                <mi>d</mi>
+                <msup>
+                 <mi>t</mi>
+                 <mn>2</mn>
+                </msup>
+               </mrow>
+              </mfrac>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+          <mo>+</mo>
+          <msup>
+           <mrow>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mfrac>
+               <mrow>
+                <msup>
+                 <mi>d</mi>
+                 <mn>2</mn>
+                </msup>
+                <mi>z</mi>
+               </mrow>
+               <mrow>
+                <mi>d</mi>
+                <msup>
+                 <mi>t</mi>
+                 <mn>2</mn>
+                </msup>
+               </mrow>
+              </mfrac>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </msqrt>
+       </math>
+      </formula>.<lb/>Ce résultat se rapporte à l’unité de masse ; car, jusqu’à présent, nous<lb/>
+      n’avons pas tenu compte de la masse de nos mobiles que nous avons<lb/> implicitement supposée
+      être la même pour tous et égale à 1 ; nous<lb/> indiquerons dans l’article suivant, le moyen
+      de tenir compte de cet<lb/> élément nouveau. Mais auparavant, observons que, la masse étant
+      tou<lb rend="hyphen"/>jours l’unité, la quantité W" sera égale à <hi rend="it">t</hi> pour le
+      mouvement<lb/> uniforme avec l’unité de vitesse sur un cercle dont le rayon =1 ; car<lb/> en
+      prenant l’origine des coordonnées au centre de la courbe et les axes<lb/>
+      <hi rend="it">ox, oy</hi>, dans son plan, et dénotant par <hi rend="it">ω</hi> l’angle
+      M<hi rend="it">ox</hi> du rayon vec<lb rend="hyphen"/>teur avec l’axe des
+      <hi rend="it">x</hi>, on aura pour les coordonnées du point mo<lb rend="hyphen"/>bile M :<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>z</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>x</mi>
+        <mo>=</mo>
+        <mi>cos</mi>
+        <mi>ω</mi>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>y</mi>
+        <mo>=</mo>
+        <mi>sin</mi>
+        <mi>ω</mi>
+       </math>
+      </formula>
+      <lb/> donc, <lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>z</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mn>0</mn>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>x</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mo>−</mo>
+        <mi>cos</mi>
+        <mi>ω</mi>
+        <mo>.</mo>
+        <msup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mi>d</mi>
+             <mi>ω</mi>
+            </mrow>
+            <mrow>
+             <mi>d</mi>
+             <mi>t</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mi>d</mi>
+             <mi>y</mi>
+            </mrow>
+            <mrow>
+             <mi>d</mi>
+             <msup>
+              <mi>t</mi>
+              <mn>2</mn>
+             </msup>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+        <mo>=</mo>
+        <mo>−</mo>
+        <mi>sin</mi>
+        <mi>ω</mi>
+        <mo>.</mo>
+        <msup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mi>d</mi>
+             <mi>ω</mi>
+            </mrow>
+            <mrow>
+             <mi>d</mi>
+             <mi>t</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+       </math>
+      </formula>. </p>
+     <p>Nous ne mettons pas <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mfrac>
+           <mrow>
+            <msup>
+             <mi>d</mi>
+             <mn>2</mn>
+            </msup>
+            <mi>ω</mi>
+           </mrow>
+           <mrow>
+            <mi>d</mi>
+            <msup>
+             <mi>t</mi>
+             <mn>2</mn>
+            </msup>
+           </mrow>
+          </mfrac>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+       </math>
+      </formula> ; car cette différentielle seconde est nulle,<lb/> le mouvement étant uniforme.
+      Donc ici<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mi>W</mi>
+         <mo>″</mo>
+        </msup>
+        <mo>=</mo>
+        <msqrt>
+         <mrow>
+          <msup>
+           <mrow>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mfrac>
+               <mrow>
+                <msup>
+                 <mi>d</mi>
+                 <mn>2</mn>
+                </msup>
+                <mi>x</mi>
+               </mrow>
+               <mrow>
+                <mi>d</mi>
+                <msup>
+                 <mi>t</mi>
+                 <mn>2</mn>
+                </msup>
+               </mrow>
+              </mfrac>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+          <mo>+</mo>
+          <msup>
+           <mrow>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mfrac>
+               <mrow>
+                <msup>
+                 <mi>d</mi>
+                 <mn>2</mn>
+                </msup>
+                <mi>y</mi>
+               </mrow>
+               <mrow>
+                <mi>d</mi>
+                <msup>
+                 <mi>t</mi>
+                 <mn>2</mn>
+                </msup>
+               </mrow>
+              </mfrac>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+          <mo>+</mo>
+          <msup>
+           <mrow>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mfrac>
+               <mrow>
+                <msup>
+                 <mi>d</mi>
+                 <mn>2</mn>
+                </msup>
+                <mi>z</mi>
+               </mrow>
+               <mrow>
+                <mi>d</mi>
+                <msup>
+                 <mi>t</mi>
+                 <mn>2</mn>
+                </msup>
+               </mrow>
+              </mfrac>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </msqrt>
+        <mo>=</mo>
+        <msup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mi>d</mi>
+             <mi>ω</mi>
+            </mrow>
+            <mrow>
+             <mi>d</mi>
+             <mi>t</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+        <mo>=</mo>
+        <mn>1</mn>
+       </math>
+      </formula>,<lb/> puisque <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mfrac>
+          <mrow>
+           <mi>d</mi>
+           <mi>ω</mi>
+          </mrow>
+          <mrow>
+           <mi>d</mi>
+           <mi>t</mi>
+          </mrow>
+         </mfrac>
+        </mrow>
+       </math>
+      </formula> représente la vitesse que nous supposons être l’unité. La<lb/> force produite par
+      l’inertie qu’on nomme <hi rend="it">force centrifuge</hi> dans le mou<lb rend="hyphen"/>vement
+      que nous venons de considérer est donc notre unité de force,<lb/> et c’est en adoptant cette
+      unité qu’on a en général<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>P</mi>
+        <mo>=</mo>
+        <msqrt>
+         <mrow>
+          <msup>
+           <mrow>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mfrac>
+               <mrow>
+                <msup>
+                 <mi>d</mi>
+                 <mn>2</mn>
+                </msup>
+                <mi>x</mi>
+               </mrow>
+               <mrow>
+                <mi>d</mi>
+                <msup>
+                 <mi>t</mi>
+                 <mn>2</mn>
+                </msup>
+               </mrow>
+              </mfrac>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+          <mo>+</mo>
+          <msup>
+           <mrow>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mfrac>
+               <mrow>
+                <msup>
+                 <mi>d</mi>
+                 <mn>2</mn>
+                </msup>
+                <mi>y</mi>
+               </mrow>
+               <mrow>
+                <mi>d</mi>
+                <msup>
+                 <mi>t</mi>
+                 <mn>2</mn>
+                </msup>
+               </mrow>
+              </mfrac>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+          <mo>+</mo>
+          <msup>
+           <mrow>
+            <mrow>
+             <mo>(</mo>
+             <mrow>
+              <mfrac>
+               <mrow>
+                <msup>
+                 <mi>d</mi>
+                 <mn>2</mn>
+                </msup>
+                <mi>z</mi>
+               </mrow>
+               <mrow>
+                <mi>d</mi>
+                <msup>
+                 <mi>t</mi>
+                 <mn>2</mn>
+                </msup>
+               </mrow>
+              </mfrac>
+             </mrow>
+             <mo>)</mo>
+            </mrow>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </msqrt>
+        <mo>=</mo>
+        <mi>W</mi>
+       </math>
+      </formula>.</p>
+    </div>
+    <div>
+     <head>V.</head>
+     <p>Mais cette formule se rapporte à l’unité de masse ; voyons ce<pb n="226"/>qu’elle
+      deviendrait si la masse du mobile était <hi rend="it">m</hi>, et pour cela faisons<lb/> nous
+      une idée bien nette de ce qu’on doit entendre par la masse d'un<lb/> corps.</p>
+     <p>Si nous supposons qu’on prenne deux corps différents renfermés<lb/> dans des
+      parallélépipèdes, comme nous l’avons déjà vu, et qu’on les<lb/> entraîne de la même manière
+      sur une même courbe, ils presseront<lb/> les parallélépipèdes ; et les pressions exercées
+      contre ces enveloppes<lb/> pourront être égales ou différentes. De là l’idée de la masse des
+      corps ;<lb/> car si les pressions sont égales, les corps seront dits avoir des<lb/> masses
+      égales ; ils auront des masses différentes, si les pressions sont<lb/> différentes.</p>
+     <p>Si à présent on enferme dans une cavité deux, trois, quatre...<lb/> corps ayant des masses
+      égales, les pressions produites deviendront,<lb/> doubles, triples, quadruples.... En général,
+      si le nombre des points<lb/> matériels devient <hi rend="it">m</hi> fois plus grand la
+      pression et la masse devien<lb rend="hyphen"/>dront toutes deux <hi rend="it">m</hi> fois plus
+      grandes.</p>
+     <p>Si l’on applique à des masses égales des forces égales, les vitesses<lb/> produites dans le
+      même temps seront évidemment égales, et l’on voit<lb/> en outre que les forces qui imprimeront
+      le même mouvement à des<lb/> corps de masses différentes, seront entre elles comme ces
+      masses.<lb/> Observons en passant que ceci fournit un moyen très simple de
+      me<lb rend="hyphen"/>surer les masses des corps, car de l’égalité de vitesse que tous
+      dans<lb/> le même temps acquièrent dans le vide et du principe que nous
+      ve<lb rend="hyphen"/>nons d’établir il faut conclure que ces masses sont
+      proportion<lb rend="hyphen"/>nelles aux poids.</p>
+     <p>Des notions que nous venons de donner sur les masses des corps,<lb/> il résulte qu’en
+      appelant <hi rend="it">m</hi> la masse du mobile qui décrit la courbe<lb/> AMB, et conservant
+      à la quantité W sa signification, la force pro<lb rend="hyphen"/>duite par l’inertie P est
+      exprimée par la formule<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>P</mi>
+        <mo>=</mo>
+        <mi>m</mi>
+        <mi>W</mi>
+       </math>
+      </formula>,<lb/> De plus, les cosinus des angles que cette force fait avec les axes ayant<lb/>
+      pour valeurs d’après les démonstrations précédentes<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>cos</mi>
+        <mi>λ</mi>
+        <mo>=</mo>
+        <mo>−</mo>
+        <mfrac>
+         <mn>1</mn>
+         <mi>W</mi>
+        </mfrac>
+        <mo>.</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>x</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>cos</mi>
+        <mi>μ</mi>
+        <mo>=</mo>
+        <mo>−</mo>
+        <mfrac>
+         <mn>1</mn>
+         <mi>W</mi>
+        </mfrac>
+        <mo>.</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>y</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>cos</mi>
+        <mi>ν</mi>
+        <mo>=</mo>
+        <mo>−</mo>
+        <mfrac>
+         <mn>1</mn>
+         <mi>W</mi>
+        </mfrac>
+        <mo>.</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>z</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>,<pb n="227"/>on voit que les trois composantes de P suivant
+      <hi rend="it">ox, oy,
+       oz</hi>, sont<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mo>−</mo>
+        <mi>m</mi>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>x</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mo>−</mo>
+        <mi>m</mi>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>y</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mo>−</mo>
+        <mi>m</mi>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>z</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+       </math>
+      </formula>.</p>
+    </div>
+    <div>
+     <head>VI.</head>
+     <p>Il ne peut plus y avoir aucune difficulté à établir les équations du<lb/> mouvement d’un
+      point matériel ; car en appelant X, Y, Z les trois<lb/> composantes de la force extérieure qui
+      sollicite ce point et observant<lb/> que ces trois composantes doivent être égales et
+      directement oppo<lb rend="hyphen"/>sées à celles de la force produite par l’inertie, on
+      obtient les égalités :<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>m</mi>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>x</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mi>X</mi>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>m</mi>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>y</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mi>Y</mi>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>m</mi>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>z</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mi>Z</mi>
+       </math>
+      </formula>
+      <lb/>admises par tous les géomètres.</p>
+     <p>Mais pour dissiper toute obscurité reprenons la chose d’un peu<lb/> plus haut. Considérons
+      un point mobile M renfermé dans un pa<lb rend="hyphen"/>rallélépipède solide et parcourant la
+      courbe AMB sous l’influence de<lb/> ce parallélépipède. La force P produite par l’inertie du
+      mobile pres<lb rend="hyphen"/>sera ce parallélépipède dans une direction et avec une intensité
+      que<lb/> nous avons déterminées tout à l’heure. Appliquons maintenant au<lb/> mobile M une
+      force Q égale et directement opposée à P, il est évi<lb rend="hyphen"/>dent que la force Q
+      fera équilibre à la pression que supportait l’enve<lb rend="hyphen"/>loppe et l’anéantira
+      dès-lors l’enveloppe n’exerçant plus aucune ac<lb rend="hyphen"/>tion sur le point M deviendra
+      inutile et pourra être supprimée sans<lb/> qu’il cesse de décrire la courbe AMB, sous
+      l’influence de la force P,<lb/> tout comme il la décrivait sous l’influence de l’enveloppe.
+      Ainsi la<lb/> force Q est celle qu’il faut appliquer au mobile pour lui faire
+      parcou<lb rend="hyphen"/>rir la trajectoire donnée, et par suite celle dont les composantes
+      ont<lb/> été nommées X, Y, Z ; donc, ces dernières sont égales et directement<lb/> opposées
+      aux composantes de la force d’inertie, ce qui nous ramène<lb/> aux équations :<lb/>
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>m</mi>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>x</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mi>X</mi>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>m</mi>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>y</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mi>Y</mi>
+       </math>
+      </formula>, <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>m</mi>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>z</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <msup>
+           <mi>t</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mi>Z</mi>
+       </math>
+      </formula>,<pb n="228"/>qui contiennent les lois du mouvement d’un point matériel. Il est<lb/>
+      aisé de voir que par un raisonnement identique à celui qui précède,<lb/> on démontrerait
+      l'équation générale du mouvement telle quelle est<lb/> dans la mécanique analytique, où on la
+      présente comme une consé<lb rend="hyphen"/>quence de ce que l'on appelle le principe de
+      <persName>d'Alembert</persName>. Aussi à nos<lb/> yeux ce principe et celui des forces
+      accélératrices se confondent avec<lb/> le principe général de la force produite par
+      l’inertie.</p>
+    </div>
+   </div>
+  </body>
+  <back>
+   <div>
+    <note target="#note-P192-1836_AMA1" xml:id="P192-1836_AMA1">(*) Ce mémoire a été rédigé en
+     <date when-iso="1826">1826</date>, à l’occasion des leçons que je faisais sur<lb/> ce sujet au
+     <orgName>collège de
+      <placeName>France</placeName>
+          </orgName>. </note>
+    <note target="#note-P192-1836_AMA2" xml:id="P192-1836_AMA2">(*) Cette ligne est courbe dans la
+     figure, parce que c'est le cas général ; le calcul<lb/> s'applique également aux deux
+     cas.</note>
+   </div>
+  </back>
+ </text>
+</TEI>

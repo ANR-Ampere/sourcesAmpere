@@ -1,0 +1,263 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 39</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+               <forename>André-Marie</forename>
+               <surname>Ampère</surname>
+            </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des sciences</affiliation>
+               </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+               <name>Centre de calcul de l'IN2P3</name>
+               <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+            </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1800-09-00-A">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                  <idno>chemise 393 quarto</idno>
+               <altIdentifier>
+              <idno type="old">L39</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+               
+               <physDesc>
+                  <p>Quatre pages in-8°. Adresse sur la quatrième.</p>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness xml:id="L39CGA">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                        </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 056-057</biblScope>
+                        </imprint>
+                     </monogr>
+                     
+                  </biblStruct>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_A366">Ampère, André-Marie</persName>
+          <date when-iso="1800-09-00"> septembre 1800</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
+        </correspAction>
+        <note type="noteDelaunay">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+            <date when="2014-07">juillet 2014</date>
+            <name>Philippe Pons</name>
+            <name>Aude Coustumer</name>
+         </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1800-09-00-A">
+      <body>
+         <div>
+            <opener>
+               <pb n="1506" facs="ACAS_CRHST_AMP_26_393_quarto_0778_r.jpg"/>Du mardi soir
+               [<date when-iso="1800-09">Fin septembre 1800</date>]</opener>
+            <p>Avec quelle inquiétude je t'ai quittée,<lb/> ma bonne amie, malade et triste,<lb/>
+               pauvre <persName ref="#pers_C129">Julie</persName> ! Quand pourrai-je<lb/> savoir que
+               tu te portes un peu<lb/> mieux, que le petit te laisse dormir<lb/> et que tu peux en
+               profiter ! Je<lb/> ne saurai point de nouvelles de<lb/> toi peut-être de toute la semaine,<lb/>
+               <del> de huit jours, car je compte<lb/> toujours huit jours d'absence</del>
+               <lb/> et il me semble que <subst>
+                  <del>c'est</del>
+                  <add>
+                     <gap reason="illisible"/>
+                  </add>
+               </subst> encore<lb/> plus long, tandis que les deux<lb/> jours que je passe <subst>
+                  <del>de</del>
+                  <add>à</add>
+               </subst>
+               <placeName>S<ex>ain</ex>t-Germain</placeName>
+               <lb/>
+               <subst>
+                  <del>sont si</del>
+                  <add>
+                     <gap reason="illisible"/>
+                  </add>
+               </subst> vite écoulés ! Je <choice>
+                  <sic>n'ai</sic>
+                  <corr>ne</corr>
+               </choice>
+               <lb/> sais ce que je serais devenu<lb/> en venant ici ce matin<lb/> seul avec tant
+               d'inquiétudes<lb/> et de pensées affligeantes,<pb n="1507" facs="ACAS_CRHST_AMP_26_393_quarto_0779_v.jpg"/> si je n'avais pas senti en<lb/>
+               même temps que j'étais toujours<lb/> cet homme né pour être mille<lb/> fois plus
+               heureux qu'aucun<lb/> autre : si je ne l'avais pas<lb/> senti à la douce pensée
+               que<lb/> ma <persName ref="#pers_C129">Julie</persName> m'aimait toujours,<lb/> au
+               souvenir des derniers baisers<lb/> qu'elle m'a donnés. T'en ressouviens<lb/>-tu de
+               ces baisers de ce matin,<lb/> qu'ils étaient tristes à la fois<lb/> et délicieux !
+               Quand pourrai<lb/>-je en avoir encore, et puis encore et encore ; je n'en<lb/> serais
+               jamais rassasié, si je<lb/> pouvais en avoir autant que<lb/> j'en désire ; mais, ma
+               pauvre<lb/> petite, je ne veux que ceux<lb/> qui te feront plaisir à me<pb n="1508" facs="ACAS_CRHST_AMP_26_393_quarto_0780_r.jpg"/>
+               <subst>
+                  <del>donner</del>
+                  <add>me donner</add>
+               </subst>. Ma bonne amie,<lb/> ma bienfaitrice, ma bien<lb/>-aimée, je voudrais
+               pouvoir te dire<lb/> combien je t'aime aujourd'hui.<lb/>
+               <del>Je ne peux que te le laisser<lb/> deviner. Il</del> n'y a point
+               d'expression<lb/> pour le rendre, ma <persName ref="#pers_C129">Julie</persName>.
+               C'est<lb/> comme tous les jours, mais<lb/> c'est encore plus que tous les<lb/> jours,
+               parce que je pense<lb/> davantage à ce que tu as <choice>
+                  <sic>fais</sic>
+                  <corr>fait</corr>
+               </choice>
+               <lb/> pour moi. Quand je vois<lb/> tout ce qu'il t'en coûte pour<lb/> faire mon
+               bonheur et<lb/> ce qu'il t'en coûtera encore<lb/> pour faire celui du petit<lb/> être
+               qui est ton enfant<lb/> et mon enfant, il y a là<lb/> une idée bien douce. Ma
+                  <persName ref="#pers_C129">Julie</persName>,<pb n="1509" facs="ACAS_CRHST_AMP_26_393_quarto_0781_v.jpg"/>
+               <del>ma <persName ref="#pers_C129">Julie</persName>, que</del> je t'aime ! Que<lb/>
+               je voudrais être toujours près de toi !<lb/> Je n'ai pas encore vu tes cousins<lb/>
+               parce que j'ai couru tout le jour<lb/> pour savoir des nouvelles<lb/> du
+               <orgName>
+            <orgName>
+              <choice>
+                <sic>Pritanée</sic> <corr>Prytanée</corr>
+              </choice>
+            </orgName>
+          </orgName>,
+               de l'<orgName>école centrale</orgName> (2),<lb/> etc., sans en avoir rien
+               appris.<lb/> Du mercredi matin<lb/> Je comptais t'écrire aujourd'hui<lb/> plus au
+               long ; mais <persName>Louison</persName>
+               <lb/>, qui espère une occasion, ne<lb/> me <del>laisse que le <choice>
+                     <sic>temps</sic>
+                     <corr>temps</corr>
+                  </choice>
+               </del> de<lb/> t'embrasser mille fois.
+               <persName ref="#pers_A366">A. AMPÈRE</persName>
+            </p>
+            <closer>A <choice>
+                  <sic>Madame<lb/> Madame</sic>
+                  <corr>Madame<lb/>
+                  </corr>
+               </choice>
+               <persName ref="#pers_C129">Ampère</persName>
+               <lb/> la jeune, à
+               <placeName>S<ex>ain</ex>t-Germain<lb/>-au-Mont-d'Or</placeName>.</closer>
+         </div>
+      </body>
+      <back>
+         <div>
+            <note xml:id="corresp1">(1) Quatre pages in-8°. Adresse sur la quatrième.
+               <persName ref="#pers_A10">Jean-Jacques
+               Ampère</persName> est né le
+               <date when="1800-08-12">12 août 1800</date>, grande rue Mercière, n° 18, à
+               <placeName>Lyon</placeName>. <persName ref="#pers_C129">Julie</persName>, en relevant
+               de ses couches, est allée chez sa mère à <placeName>Saint-Germain</placeName>. Elle
+               était à ce moment très malade et ne se guérit jamais complètement dans la suite (voir
+               une consultation, p. 76). (2) <persName ref="#pers_A366">Ampère</persName>, ne
+               gagnant pas assez à donner des leçons particulières, cherche alors à obtenir une
+               place dans un <orgName>Prytanée</orgName> ou une <orgName>École centrale</orgName> :
+               ce qui réussit seulement en <date when-iso="1802-02">février 1802</date>. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

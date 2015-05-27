@@ -1,0 +1,957 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:m="http://www.w3.org/1998/Math/MathML" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Publications d'André-Marie Ampère - P125</title>
+                <author key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/">
+                    <forename>André-Marie</forename>
+                    <surname>Ampère</surname>
+                </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>AZENTIS</name>
+                    <resp>OCRisation et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+                        <addrLine>27 rue Damesme </addrLine>
+                        <addrLine>75013 Paris</addrLine>
+                    </address>
+                <distributor>
+                    <name>Centre de calcul de l'IN2P3</name>
+                    <address>
+                        <addrLine>Domaine scientifique de la Doua</addrLine>
+                        <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+                        <addrLine>69622 Villeurbanne Cedex</addrLine>
+                    </address>
+                </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date>2013</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:id="ampere_publi_P1824-E" xml:lang="fra" type="Article_de_périodique">
+                    <analytic>
+                        <title level="a">Description d'un appareil électro-dynamique construit par
+                            M. Ampère</title>
+                        <author>
+                            <persName>
+                <surname>Ampère</surname>
+                <forename>André-Marie</forename>
+              </persName>
+                        </author>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Annales de chimie et de physique</title>
+                        <imprint>
+                            <biblScope type="pp">p. 390-411</biblScope>
+                            <biblScope type="vol">26</biblScope>
+                            <date when="1824">1824</date>
+                        </imprint>
+                    </monogr>
+                    <idno type="issn">0365-1444</idno>
+                    <idno type="url_pdf">http://www.ampere.cnrs.fr/bibliographies/pdf/1824-P125.pdf</idno>
+                    <idno type="url_google">http://books.google.com/books?id=gIXidguZS8wC&amp;printsec=frontcover&amp;dq=editions:BSBBSB10071700&amp;lr=&amp;as_brr=1&amp;hl=fr-BR#v=onepage&amp;q=&amp;f=false </idno>
+                    <idno type="old">P125</idno>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>mars 2014</date>
+                <name>AZENTIS</name>
+            </change>
+            <change>
+                <date>avril 2014</date>
+                <name>Aude Coustumer</name>
+                <name>Philippe Pons</name>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text decls="#ampere_publi_P1824-E" type="publications">
+        <front>
+            <docTitle>
+                <titlePart rend="center">
+                    <title>ANNALES<lb/> DE<lb/> CHIMIE ET DE PHYSIQUE,
+                    </title>
+                </titlePart>
+            </docTitle>
+            <docAuthor>Par MM. <persName>GAY-LUSSAC</persName> et
+                <persName>ARAGO</persName>.</docAuthor>
+            <docEdition>TOME VINGT-SIXIÈME.</docEdition>
+            <docImprint>A
+                <placeName>PARIS</placeName>,<address>
+          <addrLine>Chez <persName>CROCHARD</persName>, Libraire, cloître Saint-Benoît, n° 16,<lb/> 
+près la rue des Mathurins.</addrLine>
+        </address>
+            </docImprint>
+            <docDate>
+                <date when-iso="1824">1824</date>
+            </docDate>
+        </front>
+        <body>
+            <pb n="390"/>
+            <div>
+                <head>
+                    <title>
+            <hi rend="sc">Description</hi>
+            <hi rend="it"> d'un Appareil <choice>
+                                <sic>électro-dynamique</sic>
+                                <corr>électrodynamique</corr>
+                            </choice>,</hi>
+            <lb/>
+                        <hi rend="sc">Par</hi> M. <hi rend="sc">
+              <persName>Ampère</persName>
+            </hi>
+                    </title>
+                </head>
+                <p>
+                    <hi rend="sc">Depuis</hi> les premières découvertes sur les propriétés de<lb/>
+                    l’électricité en mouvement, on a beaucoup diversifié la<lb/> forme des appareils
+                    destinés à la recherche ou à la dé<lb rend="hyphen"/>monstration de ces
+                    propriétés. D’abord, chaque obser<lb rend="hyphen"/>vateur a inventé des <choice>
+                        <sic>instrumens</sic>
+                        <corr>instruments</corr>
+                    </choice> pour démontrer isolé<lb rend="hyphen"/>ment les phénomènes qu’il
+                    découvrait : tels sont les<lb/> appareils avec lesquels j’ai fait mes premières
+                    expé<lb rend="hyphen"/>riences et ceux que j’ai imaginés depuis pour les <choice>
+                        <sic>diffé<lb rend="hyphen"/>rens</sic>
+                        <corr>différents</corr>
+                    </choice> cas où il se produit des <choice>
+                        <sic>mouvemens</sic>
+                        <corr>mouvements</corr>
+                    </choice> de rotation con<pb n="391" rend="hyphen"/>tinue, dès que M.
+                    <persName>Faraday</persName> eut fait connaître celui avec<lb/> lequel il a
+                    obtenu le premier exemple de cette sorte de<lb/> mouvement ; tels sont les
+                    appareils <choice>
+                        <sic>flottans</sic>
+                        <corr> flottants</corr>
+                    </choice> de MM. de la<lb/>
+                    <persName>Rive</persName> et <persName>Van der Heyden</persName>, la roue
+                    plongeante de M. <persName>Bar<lb rend="hyphen"/>low</persName>, etc. Bientôt on
+                    s’est aperçu que le nombre de<lb/> ces appareils spéciaux les rendait fort
+                    incommodes,<lb/> surtout pour la démonstration. C’est pourquoi j’ai<lb/> cherché
+                    à construire des <choice>
+                        <sic>instrumens</sic>
+                        <corr>instruments</corr>
+                    </choice> avec lesquels on<lb/> pût faire le plus grand nombre possible
+                    d’expériences,<lb/> pensant que les procédés pratiques, communs à plusieurs<lb/>
+                    d’entre elles, en abrégerait et en faciliterait l’explication,<lb/> surtout en
+                    disposant les faits d’après leur analogie. </p>
+                <p>On trouve décrit dans le
+                    <hi rend="it">Manuel d'Électricité dyna<lb rend="hyphen"/>mique</hi> de M.
+                    <persName>Demonferrand</persName>deux de ces appareils qui, en<lb/> raison des
+                    nombreuses combinaisons qu’ils présentent,<lb/> peuvent également servir, soit à
+                    reproduire les phéno<lb rend="hyphen"/>mènes <choice>
+                        <sic>électro-dynamiques</sic>
+                        <corr>électrodynamiques</corr>
+                    </choice> connus, soit à en découvrir<lb/> de nouveaux. Ces <choice>
+                        <sic>instrumens</sic>
+                        <corr>instruments</corr>
+                    </choice> sont très-commodes pour<lb/> les <choice>
+                        <sic>savans</sic>
+                        <corr>savants</corr>
+                    </choice>, qui, libres de les considérer sous toutes<lb/> leurs faces,
+                    acquièrent promptement l’habitude de les<lb/> employer : néanmoins, dans les
+                    cours publics, ils sont<lb/> difficiles à expliquer, parce que certains
+                    conducteurs<lb/> sont cachés par la table ou les uns par les autres.<lb/>
+                    Dès-lors l'attention des auditeurs est détournée des pièces<lb/> sur lesquelles
+                    opère le professeur, par les autres parties<lb/> de l’appareil qui restent
+                    exposées à leurs regards.</p>
+                <p>Pour réunir les avantages des deux espèces d’appareils<lb/> spéciaux et généraux,
+                    il fallait d’abord rendre perma<lb rend="hyphen"/>nentes les parties de
+                    l’instrument destinées à effectuer des<lb/> opérations communes à toutes les
+                    expériences, et ensuite<lb/> appliquer successivement l'action de ces parties
+                    commu <pb n="392" rend="hyphen"/>nes à des appareils spéciaux dont chacun se
+                    rattachât<lb/> isolément à l’appareil général par un même procédé.<lb/> Tel est
+                    le but que je me suis proposé d’atteindre dans<lb/> l’instrument dont je donne
+                    ici la description <ref xml:id="note-P125-1824_AMA1" target="#P125-1824_AMA1">(1)</ref>, et qui<lb/> est aujourd’hui aussi nécessaire dans un cabinet de
+                    phy<lb rend="hyphen"/>sique qu’une machine électrique ou une machine
+                    pneuma<lb rend="hyphen"/>tique, puisque ce n’est qu’en faisant, à l’aide de cet
+                    ins<lb rend="hyphen"/>trument, les expériences que nous allons décrire,
+                    qu’on<lb/> peut acquérir une idée nette de l’action mutuelle des
+                    di<lb rend="hyphen"/>verses portions du circuit voltaïque, action dont on
+                    n'a<lb/> confondu les effets avec ceux qu’on produit en faisant<lb/> agir un fil
+                    conducteur sur un aimant ou l’aimant sur le<lb/> fil, que parce que c’est la
+                    découverte faite par M. <persName>Œrsted</persName>
+                    <lb/> de l’action qui s’exerce dans ce cas, qui a été l’occasion<lb/> de celle
+                    de l’action mutuelle de deux fils conducteurs. </p>
+                <p>Dans les expériences d’électricité dynamique, une<lb/> portion du circuit
+                    voltaïque rendue mobile est soumise<lb/> à l’action d’un conducteur fixe, d’un
+                    aimant ou de la<lb/> terre. Pour que le circuit ne soit pas interrompu,
+                    celte<lb/> partie mobile doit être réunie à la masse des conducteurs<lb/> par
+                    des coupes pleines de mercure, métal dont on se<lb/> sert également pour réunir
+                    entre elles les parties de l’ap<lb rend="hyphen"/>pareil que l’on ne peut pas
+                    lier et souder invariablement.<lb/> Par la même raison, il est encore utile,
+                    chaque fois qu’on<lb/> se sert de l’appareil, de gratter les coupes, les
+                    pointes<lb/> et les couronnes des diverses pièces dont on se propose<lb/> de
+                    faire usage : sans cette précaution, il pourrait arri<lb rend="hyphen"/>ver que
+                    le courant fût intercepté, et dès-lors toute ac<lb rend="hyphen"/>tion
+                    suspendue. Enfin, s’il est indispensable d’assurer la <pb n="393"/>liberté des
+                    communications prévues, il est également im<lb rend="hyphen"/>portant d'éviter
+                    celles qui pourraient accidentellement pré<lb rend="hyphen"/>senter au fluide
+                    une route autre que celle qu'il doit suivre.<lb/> C’est pourquoi il est bon que
+                    la table <hi rend="it">gh (fig.</hi> 1) qui<lb/> porte l’appareil soit revêtue
+                    d’un vernis isolant, et il<lb/> faut éviter, avec le plus grand soin, d’y
+                    répandre de l’eau<lb/> acidulée, et surtout se débarrasser du mercure qui y
+                    tombe<lb/> lorsqu’on le verse dans les cavités et dans les rigoles
+                    creu<lb rend="hyphen"/>sées dans cette table. A cet effet, une ouverture
+                    <hi rend="it">P</hi> prati<lb rend="hyphen"/>quée vers son milieu, et
+                    communiquant avec un tiroir <hi rend="it">V</hi>,<lb/> est destinée à recevoir
+                    le métal surabondant que l’on y<lb/> conduit en le balayant avec une plume.</p>
+                <p>Quant aux suspensions, elles sont de trois espèces :<lb/>
+                    <list>
+                        <item>1°. dans deux coupes situées sur une même verticale ;</item>
+                        <lb/>
+                        <item>2°. dans deux coupes placées sur une même horizontale :<lb/> ce mode
+                            de suspension doit se placer successivement<lb/> dans tous les <choice>
+                                <sic>azimuths</sic>
+                                <corr>azimuts</corr>
+                            </choice> ;</item>
+                        <item>3°. dans une seule coupe pour<lb/> les expériences de rotation
+                            continue. Il est important,<lb/> dans la pratique, que les deux
+                            rhéophores soient fixés à<lb/> la table pendant le cours des
+                            expériences, qu’on puisse<lb/> faire plonger à volonté chacun d’eux,
+                            soit dans la ri<lb rend="hyphen"/>gole <hi rend="it">A</hi>, soit dans
+                            la rigole <hi rend="it">a, et,</hi> quand on cesse de se<lb/> servir de
+                            l’instrument, les enlever et les nettoyer : or,<lb/> c’est à quoi on
+                            réussit fort bien en les maintenant dans<lb/> ces rigoles avec une vis
+                            de pression <hi rend="it">p</hi> attachée sur le<lb/> bord de la table.
+                            Enfin, il est indispensable qu’on<lb/> puisse, par un mouvement prompt
+                            et facile, suspendre<lb/> l’action <choice>
+                                <sic>électro-dynamique</sic>
+                                <corr>électrodynamique</corr>
+                            </choice> ou en changer le sens, en<lb/> renversant la marche du
+                            courant, soit dans les conduc<lb rend="hyphen"/>teurs fixes, soit dans
+                            les conducteurs mobiles. Cette<lb/> dernière condition, qui offrait
+                            d’assez grandes difficultés <pb n="394"/>à surmonter, s'obtient aisément
+                            au moyen de la disposi<lb rend="hyphen"/>tion suivante.</item>
+                    </list>
+                    <lb/>
+                </p>
+                <p>En supposant celui qui opère placé en avant de la table<lb/> et tourné vers elle,
+                    il aura à sa droite les rhéophores R<hi rend="it">, r,</hi>
+                    <lb/> et devant lui, du même côté, deux bascules destinées à<lb/> changer la
+                    direction du courant des conducteurs fixes et<lb/> des conducteurs mobiles. Les
+                    bascules <hi rend="it">K, k,</hi> élevées d’en<lb rend="hyphen"/>viron un pouce
+                    au-dessus de la table, sont formées cha<lb rend="hyphen"/>cune de deux plaques
+                    de cuivre isolées par un morceau<lb/> de bois vernis ou d'ivoire. Sur les bords
+                    latéraux de ces<lb/> plaques on remarque huit appendices, dont quatre
+                    si<lb rend="hyphen"/>tués à droite plongent, lorsque l’on incline de ce
+                    côté<lb/> la bascule la plus rapprochée de l’opérateur, dans les
+                    ri<lb rend="hyphen"/>goles <hi rend="it">A,
+                        B</hi> et
+                    dans les deux cavités
+                    <hi rend="it">C</hi>,<hi rend="it">
+                        D ;</hi> les quatre
+                    au<lb rend="hyphen"/>tres appendices, lorsque cette bascule est inclinée à
+                    gau<lb rend="hyphen"/>che, plongent dans les mêmes rigoles <hi rend="it">A</hi>,
+                    <hi rend="it">B</hi> et dans les<lb/> cavités <hi rend="it">C',</hi>
+                    <hi rend="it">D'</hi> , mais en la maintenant dans une
+                    po<lb rend="hyphen"/>sition horizontale, toute communication métallique<lb/> est
+                    rompue entre A<hi rend="it"> et B et</hi> les cavités <hi rend="it">C</hi>,
+                    <hi rend="it">D</hi>, ou C',<lb/>
+                    <hi rend="it">D',</hi> celles-ci communiquent deux à deux, c’est-à-dire,
+                    <hi rend="it">C</hi> avec C', et <hi rend="it">D</hi> avec <hi rend="it">D</hi>'
+                    au moyen de lames de<lb/> cuivre placées en sautoir sur la table, revêtues de
+                    soie<lb/> et séparées l’une de l’autre par une pièce de bois verni.<lb/> Les
+                    cavités <hi rend="it">G</hi> et <hi rend="it">H</hi> répondent à des lames de
+                    cuivre<lb/> qui aboutissent, l’une dans la cavité C', et l’autre dans<lb/> la
+                    cavité <hi rend="it">D' ;</hi> elles sont donc aussi en communication, la<lb/>
+                    première avec <hi rend="it">C,</hi> et la seconde avec <hi rend="it">D.</hi> Une
+                    seconde bas<lb rend="hyphen"/>cule <hi rend="it">k</hi>, placée un peu plus loin
+                    de l’opérateur, et tou<lb rend="hyphen"/>jours à sa droite, sert, suivant le
+                    sens dans lequel on<lb/> l’incline, à établir ou à interrompre les
+                    communications<lb/> entre les rigoles <hi rend="it">B</hi> et
+                    <hi rend="it">a</hi> et les cavités c, <hi rend="it">d,</hi> ou c',
+                    <hi rend="it">d'</hi> Celles <pb n="395" rend="hyphen"/>ci, réunies par couples
+                    à l'aide d’un sautoir semblable an<lb/> précédent, sont disposées de manière que
+                    <hi rend="it">c</hi> et <hi rend="it">c'</hi> commu<lb rend="hyphen"/>niquent
+                    avec la coupe <hi rend="it">S</hi>, dont on règle la hauteur au<lb/> moyen de la
+                    vis <hi rend="it">z,</hi> placée au-dessous de la table, et<lb/> en même temps
+                    avec la colonne <hi rend="it">ET</hi> à l’aide du res<lb rend="hyphen"/>sort
+                    <hi rend="it">II'</hi> placé sous la table. De leur côté, <hi rend="it">d</hi>
+                    et <hi rend="it">d'</hi> com<lb rend="hyphen"/>muniquent d’abord avec deux
+                    rigoles semi-circulaires<lb/>
+                    <hi rend="it">MN</hi>, mn qui contiennent du mercure dans lequel
+                    pion<lb rend="hyphen"/>gent les deux extrémités du fil <hi rend="it">t u v</hi>
+                    d’un galvanomètre,<lb/> et par suite, avec la colonne <hi rend="it">FU</hi> et
+                    avec la cavité <hi rend="it">O</hi>. </p>
+                <p>Pour qu’on puisse voir plus facilement la disposition<lb/> de ces coupes, de ces
+                    bascules et de leurs communica<lb rend="hyphen"/>tions, on les a représentées
+                    plus en grand (<hi rend="it">fig.</hi> 2) en<lb/> indiquant les mêmes parties de
+                    l'appareil par les mêmes<lb/> lettres dans cette figure et dans la figure 1.</p>
+                <p>Les colonnes <hi rend="it">ET</hi>,<hi rend="it"> FU</hi> sont en cuivre et
+                    servent in<lb rend="hyphen"/>distinctement, suivant la position de la bascule k,
+                    l’une<lb/> à transporter le courant dans les conducteurs mobiles,<lb/> qui se
+                    suspendent dans les coupes x,<hi rend="it"> y, x', y',</hi> et<lb/> l’autre à le
+                    ramener. A cet effet, la colonne <hi rend="it">E T</hi>
+                    com<lb rend="hyphen"/>munique avec la coupe
+                    <hi rend="it">X</hi>,<hi rend="it"> et FU</hi> avec <hi rend="it">Y.</hi> Ces
+                    deux<lb/> coupes sont isolées l’une de l’autre par un tube de verre<lb/> revêtu
+                    d’une couche de laque. La première <hi rend="it">X</hi>
+                    commu<lb rend="hyphen"/>nique avec les deux coupes <hi rend="it">x</hi>,
+                    <hi rend="it">x',</hi> et la seconde <hi rend="it">Y</hi> avec
+                    <hi rend="it">y<lb/>
+                    </hi>et y. Chaque système de deux
+                    coupes <hi rend="it">x </hi>et y ou <hi rend="it">x'</hi> et
+                    <hi rend="it">y‘<lb/>
+                    </hi>fournit aux conducteurs mobiles
+                    une suspension verticale<lb/> passant par le centre des coupes, et
+                    <hi rend="it">x</hi> avec <hi rend="it">y</hi>, ou <hi rend="it">x'</hi> avec<lb/>
+                    <hi rend="it">y',</hi> une suspension horizontale qui peut se mettre dans<lb/>
+                    tous les <choice>
+                        <sic>azimuths</sic>
+                        <corr>azimuts</corr>
+                    </choice> en faisant tourner le bouton <hi rend="it">Z.</hi>
+                </p>
+                <p>Cela posé, voyons comment se font les expériences.<lb/> 1°. Pour les attractions
+                    et répulsions des <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> angu<pb n="396" rend="hyphen"/>laires, on place le rectangle redoublé <hi rend="it">MMNOP </hi>
+                    <hi rend="it">(fig. </hi> 3)<lb/> de manière que les quatre pointes
+                    <hi rend="it">L</hi>,<hi rend="it"> L, L, L,</hi> du plateau<lb/> qui le
+                    soutient entrent dans les points de repère indiqués<lb/> sur la table par la
+                    même lettre <hi rend="it">L</hi>, et que les deux extré<lb rend="hyphen"/>mités
+                    <hi rend="it">G</hi>, <hi rend="it">H</hi> plongent dans les coupes de même
+                    nom ; puis<lb/> on suspend dans les coupes <hi rend="it">x</hi> et
+                    <hi rend="it">y</hi> le conducteur mobile<lb/> (<hi rend="it">fig. </hi> 4)
+                    destiné aux actions angulaires. Alors, si <hi rend="it">R</hi> est le<lb/>
+                    rhéophore positif et que les deux bascules soient inclinées<lb/> à droite, le
+                    courant passe de <hi rend="it">A</hi> à <hi rend="it">C</hi>, puis à
+                    <hi rend="it">C</hi> et à G,<lb/> parcourt le rectangle <hi rend="it">OP</hi>
+                    dans le sens <hi rend="it">MN,</hi> revient<lb/> dans la cavité
+                    <hi rend="it">H</hi>, est transmis en <hi rend="it">D' D Bc',</hi> monte
+                    dans<lb/> la colonne <hi rend="it">E T,</hi> arrive dans les coupes
+                    <hi rend="it">X</hi> et x, parcourt<lb/> le conducteur mobile en suivant
+                    <hi rend="it">(fig.</hi> 4) direction<lb/> xa<hi rend="it">bcdefghiy,</hi>
+                    redescend par la colonne <hi rend="it">UF</hi>, traverse<lb/> le galvanomètre
+                    <hi rend="it">tuv</hi> destiné à constater que le courant est<lb/> réellement
+                    établi dans l’appareil comme il doit l’être, et se<lb/> rend dans la cavité
+                    <hi rend="it">d',</hi> puis dans la rigole a où on a plongé<lb/> le rhéophore
+                    négatif. La portion du courant électrique<lb/> qui parcourt de étant dirigée
+                    vers le sommet de l’an<lb rend="hyphen"/>gle, de même que celle qui parcourt le
+                    côté <hi rend="it">MN<lb/>
+                    </hi>du conducteur fixe, il y
+                    aura attraction, et pour chan<lb rend="hyphen"/>ger cette attraction en
+                    répulsion, il suffit d’incliner à<lb/> gauche l’une ou l’autre des bascules
+                    <hi rend="it">K</hi>,<hi rend="it"> k</hi> la pre<lb rend="hyphen"/>mière
+                    renverse le courant du rectangle, fixe, et la se<lb rend="hyphen"/>conde celui
+                    du conducteur mobile, en sorte que si on les<lb/> inclinait à la fois du même
+                    côté, l’attraction subsisterait. </p>
+                <p>Cette remarque est importante, parce que c’est elle qui<lb/> nous fournit un
+                    moyen pour ne pas confondre l’action de<lb/> la terre avec celles qu’exercent
+                    les diverses parties de l’ap<lb rend="hyphen"/>pareil. Les <choice>
+                        <sic>mouvemens</sic>
+                        <corr>mouvements</corr>
+                    </choice> auxquels celles-ci donnent nais<lb rend="hyphen"/>sance ne changent
+                    pas quand on renverse à la fois le <pb n="397"/>courant dans les conducteurs
+                    fixes et mobiles en faisant<lb/> plonger dans la rigole <hi rend="it">a</hi> le
+                    rhéophore placé d’abord dans<lb/> la rigole <hi rend="it">A,</hi> et dans cette
+                    dernière celui qui plongeait<lb/> auparavant dans la première, taudis que, dans
+                    les mêmes<lb/> circonstances, l’action des <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> du globe, dont la<lb/> direction est constante, se manifeste en
+                    faisant changer<lb/> le sens du mouvement des conducteurs mobiles (A). </p>
+                <p>Le conducteur mobile (<hi rend="it">fig.</hi> 4), et plusieurs dont il<lb/> sera
+                    bientôt question, sont <hi rend="it">asiatiques,</hi> c’est-à-dire, qu’on<lb/>
+                    les a disposés de manière à les soustraire à l’influence<lb/> que la terre
+                    exerce sur eux. Pour cela, on force le cou<lb rend="hyphen"/>rant à suivre
+                    alternativement des directions opposées, et<lb/> telles que la somme des actions
+                    exercées par le globe soit<lb/> nulle. Ainsi, dans le conducteur mobile
+                    (<hi rend="it">fig.</hi> 4), le<lb/> mouvement de l’électricité ayant lieu dans
+                    le sens<lb/>
+                    <hi rend="it">x abedefghiy,</hi> le courant est descendant dans la partie<lb/>
+                    <hi rend="it">c d,</hi> et ascendant dans la portion
+                    <hi rend="it">g
+                        h ;</hi> elles tendent donc<lb/> avec
+                    des forces égales, l’une à se diriger vers l’est et<lb/> l’autre vers l’ouest.
+                    De même aussi, dans les branches<lb/> horizontales <hi rend="it">de</hi> et
+                    <hi rend="it">hi,</hi> l’influence du globe est
+                    contre<lb rend="hyphen"/>balancée par l’action qu’il exerce sur les <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> op<lb rend="hyphen"/>posés bc, fg. Quant aux portions
+                    <hi rend="it">ab</hi> et <hi rend="it">ef,</hi> comme<lb/> elles se trouvent
+                    dans l’axe de rotation, il est inutile d’y<lb/> avoir égard. Ce conducteur
+                    mobile, suspendu aux coupes<lb/> x'<hi rend="it">, y',</hi> répond au milieu de
+                    la partie <hi rend="it">MN</hi> du rectangle<lb/> (<hi rend="it">fig.</hi> 3) ;
+                    on a alors action dans deux angles de suite :<lb/> dans l’un elle est
+                    attractive, dans l’autre répulsive ; l’effet<lb/> produit est le même que dans
+                    la disposition précédente,<lb/> mais l’intensité en est doublée.</p>
+                <p>Le conducteur mobile (<hi rend="it">fig.</hi> 5) peut être
+                    alternative<lb rend="hyphen"/>ment placé dans les coupes x et y ou
+                    <hi rend="it">x' et
+                        y'.</hi> Dans le <pb n="398"/>premier cas, le courant venant toujours par les coupes<lb/>
+                    <hi rend="it">X et x,</hi> suit la route <hi rend="it">x abcdefgliiy :</hi>
+                    dès-lors, dans les<lb/> fils <hi rend="it">c d</hi> et <hi rend="it">gh, ce</hi>
+                    courant est encore dirigé vers le som<lb rend="hyphen"/>met de l’angle que ces
+                    deux fils forment avec le conduc<lb rend="hyphen"/>teur fixe : c’est pourquoi si
+                    l’on place le conducteur mo<lb rend="hyphen"/>bile perpendiculairement au
+                    rectangle fixe, les deux por<lb rend="hyphen"/>tions <hi rend="it">cd</hi> et
+                    h<hi rend="it">g</hi> seront toutes deux attirées, ou toutes<lb/> deux
+                    repoussées, suivant le sens du courant du conduc<lb rend="hyphen"/>teur fixe.
+                    Dans le cas où il y attraction, il en résulte<lb/> un équilibre non stable ; car
+                    si l’un de ces fils est acci<lb rend="hyphen"/>dentellement un peu plus
+                    rapproché que l’autre du con<lb rend="hyphen"/>ducteur fixe, il en sera plus
+                    fortement attiré et se portera<lb/> vers lui. Si l’on change, à l’aide des
+                    bascules, la direc<lb rend="hyphen"/>tion du courant, soit dans l’un, soit dans
+                    l’autre con<lb rend="hyphen"/>ducteur, l’attraction sera changée eu répulsion,
+                    et le<lb/> conducteur mobile se placera perpendiculairement au<lb/> conducteur
+                    fixe. Ici l’équilibre est stable. </p>
+                <p>Lorsqu’on suspend le même conducteur dans les coupes<lb/>
+                    <hi rend="it">x', y',</hi> le courait suit une direction opposée à la
+                    précé<lb rend="hyphen"/>dente, et parcourt le conducteur mobile dans la
+                    direction<lb/> y<hi rend="it">ihgfedcba ;</hi> par conséquent, dans les fils <hi rend="it">edetgh,</hi>
+                    <lb/> il s’éloigne de la partie moyenne <hi rend="it">dh,</hi> en sorte que<lb/>
+                    la répulsion, d’une part, et l’attraction, de l’autre, se<lb/> font mutuellement
+                    équilibre : l’appareil reste immobile.</p>
+                <p>Le conducteur (<hi rend="it">fig.</hi> 6) ; suspendu dans les coupes <hi rend="it">x',</hi>
+                    <lb/>
+                    <hi rend="it">y',</hi> livre passage au fluide dans le sens <hi rend="it">x'abcdefgh<unclear/>
+          </hi>
+                    <lb/> si donc il coupe à angle droit le conducteur fixe M<hi rend="it"> N</hi>
+                    <lb/> (f<hi rend="it">ig.</hi> 3), il tendra à se mouvoir jusqu’à ce que la<lb/>
+                    branche <hi rend="it">de</hi> soit parallèle à <hi rend="it">MN</hi>, et que
+                    dans l’un et<lb/> l’autre conducteur, le courant soit dirigé dans le même<lb/>
+                    sens. Aussi verra-t-on celui qui est mobile faire une <pb n="399"/>demi-révolution si l'on vient à changer la direction de<lb/> l’un des <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice>. </p>
+                <p>L’appareil (<hi rend="it">fig. </hi>7) est destiné à faire voir que dans le<lb/>
+                    conducteur <hi rend="it">(fig.</hi> 6), les branches <hi rend="it">cd, ef</hi>
+                    contribuent à<lb/> l’effet produit, parce qu’il n’y a plus dans celui de la<lb/>
+                    figure 7 que les branches désignées par ces mêmes lettres<lb/> qui soient
+                    soumises à l’action du conducteur fixe <hi rend="it">(fig.</hi>3),<lb/> et que
+                    cependant le mouvement se produit encore, à la<lb/> vérité avec une force
+                    beaucoup moindre. Le même con<lb rend="hyphen"/>ducteur mobile
+                    <hi rend="it">(fig.</hi> 7) sert, en outre, ainsi que celui<lb/> de la figure
+                    13, pour les expériences relatives à l’action<lb/> mutuelle de deux <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> dont les directions forment<lb/> constamment un angle droit.</p>
+                <p>Le conducteur <hi rend="it">(fig.</hi> 8) sert à mettre en évidence<lb/> l’action
+                    qu’exercent l’un sur l’autre deux <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> pa<lb rend="hyphen"/>rallèles horizontaux. On place ce conducteur dans
+                    les<lb/> coupes <hi rend="it">x, y' ;</hi> le courant suit donc la direction
+                    <hi rend="it">xaby' :<lb/>
+                    </hi>or, <hi rend="it">ab</hi>
+                    est parallèle à <hi rend="it">MN</hi> et dans le même sens ; il y<lb/> aurait
+                    donc attraction. Changez l'un ou l’autre courant, la<lb/> répulsion succédera à
+                    l’attraction. Pour la même expé<lb rend="hyphen"/>rience sur des <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> parallèles verticaux, on se sert<lb/> de l’appareil
+                    <hi rend="it">(fig.</hi> 9), que l’on substitue au rectangle
+                    re<lb rend="hyphen"/>doublé <hi rend="it">(fig.</hi> 3). Les extrémités des fils
+                    <hi rend="it">G</hi> et <hi rend="it">H</hi> plongent<lb/> dans les deux cavités
+                    <hi rend="it">G</hi> et <hi rend="it">H</hi> (<hi rend="it">fig</hi>. 1). Alors,
+                    si le courant<lb/> arrive par <hi rend="it">H</hi>
+                    <hi rend="it">(fig.</hi> 9), il monte dans <hi rend="it">mn,</hi> descend dans
+                    <hi rend="it">o p</hi>,<hi rend="it">
+            <lb/>
+                    </hi>arrive
+                    dans la coupe <hi rend="it">G,</hi> et se porte ensuite dans le
+                    conduc<lb rend="hyphen"/>teur mobile <hi rend="it">(fig.</hi> 5) suspendu dans
+                    les coupes <hi rend="it">x ,y.</hi> Le<lb/> courant est descendant dans les
+                    branches <hi rend="it">bc</hi>, <hi rend="it">fg,</hi> ainsi que<lb/> dans le
+                    fil <hi rend="it">o p</hi> ; il y aura donc attraction. Dans cette
+                    dis<lb rend="hyphen"/>position comme dans les précédentes, on change la
+                    di<lb rend="hyphen"/>rection du courant fixe avec la bascule
+                    <hi rend="it">K</hi>, ou celle du <pb n="400"/>courant mobile avec la bascule
+                    <hi rend="it">k</hi>, et dans l’un et l'autre<lb/> cas on voit la répulsion
+                    remplacer l’attraction. </p>
+                <p>L'égalité des actions attractives et répulsives que
+                    dé<lb rend="hyphen"/>veloppent les <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> horizontaux ou verticaux qui se<lb/> meuvent dans le même sens ou dans
+                    des directions op<lb rend="hyphen"/>posées, est mise en évidence au moyen du
+                    conducteur<lb/> mobile (<hi rend="it">fig.</hi> 21) composé de deux fils garnis
+                    de soie,<lb/> et qui servent, l'un à conduire et l’autre à ramener
+                    l’é<lb rend="hyphen"/>lectricité, en sorte que si le courant est descendant
+                    dans<lb/> l’un il est ascendant dans l’autre, il devra dont rester en<lb/>
+                    repos, soit que l’on oppose sa branche verticale <hi rend="it">cd</hi> au<lb/>
+                    fil <hi rend="it">op</hi> du conducteur (<hi rend="it">fig.</hi> 9), ou sa
+                    partie horizontale<lb/> de au rectangle redoublé (<hi rend="it">fig.</hi>
+                    3).</p>
+                <p>Pour démontrer l’égalité d’action d’un conducteur<lb/> rectiligne et d’un
+                    conducteur sinueux, on retourne le<lb/> même appareil (<hi rend="it">fig.</hi>
+                    9), de manière que les extrémités<lb/>
+                    <hi rend="it">G'</hi> et <hi rend="it">H'</hi> des fils conducteurs plongent
+                    dans les coupes<lb/> de même nom. Les choses étant ainsi disposées, si le<lb/>
+                    courant entre par H', il monte par r<hi rend="it"> u,</hi> descend par le<lb/>
+                    conducteur sinueux, remonte par <hi rend="it">p o,</hi> et redescend par<lb/>
+                    <hi rend="it">nm,</hi> passe de la cavité <hi rend="it">G (fig.</hi> 1) au
+                    conducteur mobile,<lb/> est descendant dans la branche
+                    <hi rend="it">bc
+                        (fig.</hi> 5), ainsi que<lb/> dans les
+                    tiges <hi rend="it">nm et tv (fig.
+                        9),</hi> d'où
+                    résultera l’attraction<lb/> de celles-ci pour <hi rend="it">bc.</hi> Ce fil
+                    resterait donc en repos s’il était<lb/> également éloigné du conducteur sinueux
+                    <hi rend="it">tv</hi> et du fil<hi rend="it">nm</hi>  ;<lb/> mais comme il est
+                    à-peu-près impossible d’établir cette<lb/> parfaite égalité de distance, on voit
+                    le fil mobile <hi rend="it">bc</hi> se por<lb rend="hyphen"/>ter vers le
+                    conducteur fixe dont il est le plus voisin. Dans<lb/> cette expérience, il vaut
+                    donc mieux avoir recours<lb/> à la répulsion : ce que l’on fait en inclinant la
+                    bascule <hi rend="it">K<lb/>
+                    </hi>à gauche : dès-lors le
+                    courant devient ascendant dans <pb n="401"/>le conducteur fixe, tandis qu’il
+                    continue à être descen<lb rend="hyphen"/>dant dans le fil mobile, qui, par cela
+                    même, se place à<lb/> égale distance de <hi rend="it">vt</hi> et
+                    <hi rend="it">mn.</hi>
+                </p>
+                <p>On peut faire la même expérience d’une autre ma<lb rend="hyphen"/>nière, en
+                    opérant avec le conducteur mobile (<hi rend="it">fig.</hi> 22)<lb/> précisément
+                    comme nous venons de dire qu’on opérait<lb/> avec celui de la figure 21, et en
+                    constatant que les mêmes<lb/> conducteurs fixes n’exercent aussi aucune action
+                    sur lui,<lb/> quoique des deux fils dont il se compose un seul soit<lb/>
+                    rectiligne et l’autre sinueux.</p>
+                <p>Le conducteur mobile (<hi rend="it">fig.</hi> 10) formé de deux cercles<lb/>
+                    parcourus en sens contraires étant placé dans les deux<lb/> coupes
+                    <hi rend="it">x, y,</hi> et soumis à l’influence qu’exerce le courant<lb/> qui
+                    traverse le fil <hi rend="it">op (fig.</hi> 9), sera attiré ou repoussé<lb/>
+                    suivant que le courant établi dans la portion du cercle<lb/> qui est voisine de
+                    <hi rend="it">op</hi> aura lieu dans le même sens ou en<lb/> sens contraire :
+                    ainsi, l’électricité arrivant dans la coupe
+                    <hi rend="it">H,<lb/>
+                    </hi>descend par
+                    <hi rend="it">op,</hi> parvient ensuite en
+                    <hi rend="it">x
+                        (fig. 1</hi>0), et
+                    par<lb rend="hyphen"/>court les deux cercles dans la direction
+                    <hi rend="it">x abcdefgfhy.</hi> Il sera donc facile, en les plaçant
+                    convenablement, d’ob<lb rend="hyphen"/>tenir à volonté l’attraction ou la
+                    répulsion.</p>
+                <p>Pour toutes les expériences de rotation continue, on place<lb/> les trois pointes
+                    <hi rend="it">0, l, l</hi> du trépied (<hi rend="it">fig.</hi> 12) dans la
+                    ca<lb rend="hyphen"/>vité et les points de repère marqués des mêmes lettres<lb/>
+                    sur la table ; alors on pose sur ce trépied le vase de<lb/> cuivre
+                    (<hi rend="it">fig.</hi> 11), dont le pied <hi rend="it">JI</hi> vient plonger
+                    dans<lb/> la cavité I (<hi rend="it"> fig.</hi> 12) qui communique par la lame
+                    de<lb/> cuivre I O avec la cavité O (<hi rend="it">fig.</hi> 1). Ce vase est
+                    en<lb rend="hyphen"/>suite rempli d'eau acidulée, dans laquelle plonge la<lb/>
+                    partie inférieure de tous les conducteurs mobiles des<lb rend="hyphen"/>tinés à
+                    ce genre d’expériences. Le courant ne passe plus <pb n="402"/>alors dans les
+                    deux colonnes <hi rend="it">ET, FU,</hi> qui ne lui
+                    pré<lb rend="hyphen"/>sentent aucune issue, parce qu’on a eu la précaution<lb/>
+                    d’ôter les conducteurs mobiles : ainsi, après avoir par<lb rend="hyphen"/>couru
+                    le conducteur fixe, il arrive dans la rigole <hi rend="it">B</hi>, passe<lb/>
+                    dans la cavité <hi rend="it">c',</hi> en supposant la bascule h inclinée à<lb/>
+                    droite, se rend dans la coupe <hi rend="it">S</hi>, parcourt le conducteur<lb/>
+                    mobile qui y est suspendu, traverse l’eau acidulée du vase,<lb/> le vase
+                    lui-même, et se rend au rhéophore négatif par la<lb/> lame
+                    <hi rend="it">Ood'</hi>. Dans l’appareil qui vient d’être décrit, le
+                    mou<lb rend="hyphen"/>vement est produit par l’action d'une spirale placée sur
+                    le<lb/> bord du trépied, de manière à entourer le vase ; on fait<lb/> descendre
+                    le long des deux autres pieds du trépied les<lb/> deux extrémités de la lame de
+                    cuivre qui forme la spi<lb rend="hyphen"/>rale, et on les fait plonger, l’une
+                    dans <hi rend="it">G</hi>, et l’autre<lb/> dans <hi rend="it">H.</hi> Quand le
+                    mouvement doit être produit par un cou<lb rend="hyphen"/>rant rectiligne tangent
+                    au vase, on emploie le rectangle<lb/> (<hi rend="it">fig.</hi> 3) : on peut,
+                    dans ce cas, substituer au trépied armé<lb/> d’une spirale un autre support tout
+                    pareil mais qui en<lb/> soit dépourvu, ou bien continuer à se servir du
+                    premier<lb/> en ayant soin de relever les extrémités
+                    <hi rend="it">G </hi>et<hi rend="it"> H
+                        </hi>(<hi rend="it">fig.</hi>
+                    12)<lb/> de la spirale, de manière qu’elles ne plongent plus<lb/> dans les
+                    cavités correspondantes
+                    <hi rend="it">G, H (fig.
+                        1) :</hi> ce<lb/> sont alors
+                    les appendices <hi rend="it">G, H</hi> du rectangle redou<lb rend="hyphen"/>blé
+                    (<hi rend="it">fig.</hi> 3) qu’il faut y faire plonger, en retournant ce<lb/>
+                    rectangle et en plaçant les pointes <hi rend="it">L, L, L, L</hi> dans les<lb/>
+                    points de repère <hi rend="it">L',</hi>
+                    <hi rend="it">L'</hi>,<hi rend="it"> L', L' </hi>(<hi rend="it">fig.</hi> 1). </p>
+                <p>Les conducteurs mobiles (<hi rend="it">fig.</hi> 13, 14 et 15) qui<lb/> doivent
+                    alternativement être placés dans la coupe
+                    <hi rend="it">S<lb/>
+                    </hi>diffèrent en ce que le premier a
+                    deux branches verti<lb rend="hyphen"/>cales, dont l’une <hi rend="it">c d</hi>
+                    est interrompue par une petite<lb/> lame de bois <hi rend="it">gd,</hi> et dont
+                    l'autre <hi rend="it">a b</hi> fait communiquer<pb n="403"/> la couronne
+                    <hi rend="it">aedf</hi> avec la pointe <hi rend="it">s.</hi> Le second est
+                    privé<lb/> de branches ascendantes, et la couronne <hi rend="it">aedf</hi> ne
+                    com<lb rend="hyphen"/>munique avec la suspension que par le fil horizontal <hi rend="it">ac,</hi>
+                    <lb/> une petite tige de bois verni <hi rend="it">gd</hi> interceptant la
+                    commu<lb rend="hyphen"/>nication avec l’autre côté. Le troisième conducteur<lb/>
+                    (<hi rend="it">fig.</hi> 15), disposé comme le précédait, en diffère en ce<lb/>
+                    que la couronne est interrompue en a par une pièce<lb/> d’ivoire
+                    <hi rend="it">t</hi> qui rompt la continuité des communications<lb/>
+                    métalliques ; il est même nécessaire, pour compléter la<lb/> démonstration à
+                    laquelle sert cette dernière pièce, d'a<lb rend="hyphen"/>voir un quatrième
+                    conducteur dans lequel la pièce d’i<lb rend="hyphen"/>voire, au lieu d’être
+                    placée entre <hi rend="it">a</hi> et <hi rend="it">f,</hi> soit située de<lb/>
+                    l’autre côté, c’est-à-dire, entre <hi rend="it">a</hi> et <hi rend="it">e</hi>. </p>
+                <p>Ces dispositions particulières à chacun des con<lb rend="hyphen"/>ducteurs
+                    mobiles que nous venons de décrire déter<lb rend="hyphen"/>minent la direction
+                    du mouvement de rotation qui se<lb/> produit dans chaque cas, soit par l’action
+                    d’un con<lb rend="hyphen"/>ducteur rectiligne ou circulaire ; soit par celle de
+                    la<lb/> terre ou des <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> qui traversent l’eau acidulée du<lb/> vase (<hi rend="it">fig.</hi>
+                    11).</p>
+                <p>En faisant agir sur les deux appareils (<hi rend="it">fig.</hi> 13 et 14)<lb/> le
+                    courant spiral de la figure 12, ils tournent tous deux<lb/> d’un mouvement de
+                    rotation continue, dont la vitesse,<lb/> d’abord accélérée, devient ensuite
+                    constante ; lors<lb rend="hyphen"/>qu’on soumet les deux conducteurs à l’action
+                    du courant<lb/> du rectangle (<hi rend="it">fig.</hi> 3) l’appareil
+                    (<hi rend="it">fig.</hi> 14) tourne en<lb rend="hyphen"/>core d’un mouvement de
+                    rotation continue, dont la vi<lb rend="hyphen"/>tesse ne devient jamais
+                    uniforme, mais éprouve des va<lb rend="hyphen"/>riations alternatives, suivant
+                    que le rayon as se trouve, à<lb/> chaque révolution, tantôt plus près, tantôt
+                    plus loin du<lb/> rectangle. Quant à l’appareil de la figure 13, il ne tend plus
+                        <pb n="404"/>alors à tourner que par l’action de la terre, et celle du<lb/>
+                    rectangle redoublé tend à l’amener dans une situation<lb/> fixe, où le plan
+                    <hi rend="it">abcd</hi> (<hi rend="it">fig.</hi> 13) est toujours parallèle
+                    au<lb/> plan de ce rectangle, de manière que la branche <hi rend="it">ab</hi>
+                    soit<lb/> du côté d’où vient le courant établi dans <hi rend="it">M</hi> N
+                    lorsque celui<lb/> de <hi rend="it">ab</hi> est descendant, et du côté opposé
+                    quand ce dernier<lb/> est ascendant. Dans l'appareil (<hi rend="it">fig.</hi>
+                    15), l’effet produit<lb/> est dû à l’action qu’exercent sur le courant de la
+                    cou<lb rend="hyphen"/>ronne <hi rend="it">fea</hi> les <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> qui s’établissent dans l’eau aci<lb rend="hyphen"/>dulée que contient
+                    le vase <hi rend="it">(fig.</hi> 11). Enfin, en soumet<lb rend="hyphen"/>tant à
+                    la seule action de la terre l’appareil (<hi rend="it">(fig.</hi> 14),<lb/> on le
+                    voit tourner avec une vitesse constante ; mais il<lb/> n’en est pas de même de
+                    l’appareil <hi rend="it">(fig.</hi> 13) parce que,<lb/> outre l'action que la
+                    terre exerce sur la branche <hi rend="it">b s</hi> pour<lb/> la faire tourner
+                    uniformément, elle agit aussi sur la<lb/> branche verticale
+                    <hi rend="it">ab</hi> pour l’amener dans une position<lb/> fixe, à l’est quand
+                    ce courant est descendant, et à l’ouest<lb/> quand il est ascendant. </p>
+                <p>Il est essentiel de remarquer que lorsqu’on veut laisser<lb/> agir la terre ou
+                    les <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> de l’eau acidulée, il faut<lb/> faire communiquer les rigoles A,
+                    <hi rend="it">B (fig.</hi> 1) par le conduc<lb rend="hyphen"/>teur Q garni de
+                    deux appendices <hi rend="it">e ,f,</hi> et mobile autour<lb/> d’une charnière
+                    <hi rend="it">q</hi> attachée sur la table ; alors le courant<lb/> parcourt les
+                    conducteurs mobiles, soit en passant par les<lb/> deux colonnes
+                    <hi rend="it">ET</hi> ou <hi rend="it">FU,</hi> soit en se rendant dans la<lb/>
+                    coupe S, suivant que les conducteurs mobiles sont sus<lb rend="hyphen"/>pendus
+                    dans les coupes <hi rend="it">x, x', y</hi> ou dans la coupe
+                    <hi rend="it">S.</hi>
+                </p>
+                <p>Pour constater qu’un courant circulaire n’a aucune<lb/> action sur un conducteur
+                    de forme quelconque mobile<lb/> autour d’un axe passant par le centre
+                    perpendiculaire au<lb/> plan de ce courant, quand les deux extrémités du con <pb n="405" rend="hyphen"/>ducteur mobile se trouvent dans cet axe, on se sert
+                    du<lb/> conducteur spiral (fig. 12), dont les <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> sont sen<lb rend="hyphen"/>siblement circulaires ; on place le trépied
+                    qui le supporte<lb/> comme dans les expériences sur le mouvement de
+                    rota<lb rend="hyphen"/>tion continue, après en avoir ôté le vase de cuivre<lb/>
+                    <hi rend="it">(fig.</hi> 11) ; le centre de ces <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> se trouvant alors dans<lb/> la Verticale qui passe par ces deux coupes
+                    <hi rend="it">x', y',</hi> si l’on<lb/> suspend dans ces coupes l’un des
+                    conducteurs mobiles<lb/>
+                    <hi rend="it">(fig.</hi> 4, 5, 6), on remarque qu’il n’y a point d’action<lb/>
+                    exercée par le conducteur spiral quand cette condition<lb/> est exactement
+                    remplie ; mais quoique l’on y parvienne<lb/> difficilement, l’expérience n’en
+                    est pas moins concluante,<lb/> parce qu’il ne se produit jamais de mouvement de
+                    rota<lb rend="hyphen"/>tion toujours dans le même sens, mais seulement une<lb/>
+                    tendance du conducteur mobile à prendre une position<lb/> fixe, qui varie
+                    considérablement par le moindre dépla<lb rend="hyphen"/>cement des coupes
+                    <hi rend="it">x' et y',</hi> de manière à montrer que<lb/> l’action serait en
+                    effet nulle si les centres de ces coupes<lb/> se trouvaient exactement dans la
+                    verticale menée par ce<lb rend="hyphen"/>lui du conducteur spiral. </p>
+                <p>Le cercle <hi rend="it">(fig.</hi> 16) se place dans les coupes x,
+                    <hi rend="it">y</hi> ou<lb/>
+                    <hi rend="it">x', y',</hi> et comme il doit être soumis à l'action de la<lb/>
+                    terre, le conducteur recourbé <hi rend="it">Q (fig. 1)</hi> met alors en<lb/>
+                    communication les rigoles <hi rend="it">A</hi> et <hi rend="it">B</hi>, en sorte
+                    que le courant<lb/> ne peut s’établir que dans le conducteur mobile, dont
+                    la<lb/> position, toujours perpendiculaire au méridien
+                    magnéti<lb rend="hyphen"/>que, est telle que la partie dans laquelle le courant
+                    est as<lb rend="hyphen"/>cendant se dirige vers l’ouest, et celle où il est
+                    descen<lb rend="hyphen"/>dant vers l’est. Aussi peut-on, en changeant la
+                    direction<lb/> du courant établi, lui faire faire une demi-révolution.</p>
+                <p>Les <choice>
+                        <sic>mouvemens</sic>
+                        <corr>mouvements</corr>
+                    </choice> du cercle (<hi rend="it">fig.</hi> 16) sont, dans certaines<pb n="406"/>positions, gênés par le mode de suspension que nous<lb/> venons d’indiquer ;
+                    mais on peut remédier à cet inconvé<lb rend="hyphen"/>nient en le remplaçant par
+                    le conducteur mobile (<hi rend="it">fig. 1</hi>7),<lb/> L’anneau ab livre
+                    passage à la tige de métal qui supporte<lb/> la coupe <hi rend="it">S</hi> dans
+                    laquelle plonge la pointe sur laquelle<lb/> doit tourner ce conducteur. La
+                    petite coupe <hi rend="it">d</hi> qui est<lb/> opposée à la pointe
+                    <hi rend="it">S</hi> contient du mercure où plonge<lb/> un fil de cuivre
+                    <hi rend="it">d c</hi> qu’on attache, à l’aide de là pince <hi rend="it">b,</hi>
+                    <lb/> au support <hi rend="it">Y iy'</hi> de la coupe
+                    y'<hi rend="it"> (fig.</hi> 1) qui communi<lb rend="hyphen"/>que avec la colonne
+                    <hi rend="it">FU,</hi> et dans laquelle On fait plon<lb rend="hyphen"/>ger
+                    l’extrémité c (<hi rend="it"> fig. 17</hi>) de ce fil afin de compléter le<lb/>
+                    circuit. On conçoit que le cercle, ainsi suspendu,<lb/> peut librement tourner
+                    dans tous les sens, et en incli<lb rend="hyphen"/>nant à propos la bascule k, il
+                    sera même facile de lui<lb/> imprimer un mouvement de rotation continue. </p>
+                <p>Le conducteur <hi rend="it">(fig.</hi> 18), sur lequel la terre doit aussi<lb/>
+                    exercer son action, se suspend de la même façon que le<lb/> cercle
+                    (<hi rend="it">fig.</hi> 17), et, ainsi que lui, exige que la
+                    commu<lb rend="hyphen"/>nication <hi rend="it">Q</hi> soit établie entre
+                    <hi rend="it">A</hi> et <hi rend="it">B</hi>. L’action de la terre<lb/> sur les
+                    deux branches <hi rend="it">ab</hi> et <hi rend="it">cd</hi> étant égale et de
+                    signe<lb/> contraire, l’on observe uniquement l'effet produit sur la<lb/>
+                    branche <hi rend="it">bc</hi>, qui se porte à l’ouest ou à l’est, suivant
+                    que<lb/> le courant y est ascendant ou descendant.</p>
+                <p>On observe encore l’action de la terre sur la branche<lb/> horizontale
+                    <hi rend="it">a b</hi> du conducteur <hi rend="it">(fig.</hi> 8), parce que
+                    dans<lb/> les deux branches verticales les <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> sont opposés<lb/> entre eux ; mais il est essentiel d’observer que
+                    l’action<lb/> ne se manifeste qu’à l’instant où l’on complète le
+                    cir<lb rend="hyphen"/>cuit, et qu'il faut avoir soin de mettre ce
+                    conducteur<lb/> dans un plan sensiblement vertical au moyen du
+                    con<lb rend="hyphen"/>tre-poids <hi rend="it">i</hi>. Dans cette expérience la
+                    branche <hi rend="it">ab</hi> est tou<pb n="407" rend="hyphen"/>jours portée à
+                    gauche du courant avec la même force<lb/> dans quelque <choice>
+                        <sic>azimuth</sic>
+                        <corr>azimut</corr>
+                    </choice> qu’on ait placé l’appareil, résultat<lb/> conforme à ce que donne le
+                    calcul. </p>
+                <p>Les figures 19 et 20 représentent des cylindres <choice>
+                        <sic>élec<lb rend="hyphen"/>tro-dynamiques</sic>
+                        <corr>électrodynamique</corr>
+                    </choice> avec lesquels on peut imiter les <choice>
+                        <sic>ai<lb rend="hyphen"/>mans</sic>
+                        <corr>aimants</corr>
+                    </choice> : le premier se fixe à la table (<hi rend="it">fig.</hi> 1), au<lb/>
+                    moyen de la pince b, où l’on place la pièce d’ivoire
+                    <hi rend="it">b<lb/> (fig.</hi> 19) de manière que les deux appendices
+                    G,<hi rend="it"> H<lb/>
+                    </hi>plongent dans les cavités de
+                    même nom de la fi<lb rend="hyphen"/>gure 1 ; et le second
+                    (<hi rend="it">fig.</hi> 20) est suspendu dans les<lb/> coupes
+                    <hi rend="it">x</hi>,<hi rend="it"> y</hi> ou <hi rend="it">x',</hi>
+                    <hi rend="it">y',</hi> ; le courant s’établit donc dans ce<lb rend="hyphen"/>lui
+                    de la figure 19 comme il le ferait dans un autre con<lb rend="hyphen"/>ducteur
+                    fixe, et dans celui de la figure 20 comme il s’é<lb rend="hyphen"/>tablirait
+                    dans un autre conducteur mobile : or, en<lb/> présentant l’une des extrémités du
+                    premier à l’une des<lb/> extrémités du second, il y a attraction quand les
+                    extré<lb rend="hyphen"/>mités en regard sont l’une à droite et l’autre à gauche des<lb/>
+                    <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> que parcourent les fils dont ces cylindres sont<lb/> formés, et il y a
+                    au contraire répulsion lorsque les<lb/> deux extrémités des mêmes cylindres que
+                    l’on fait agir<lb/> l’une sur l’autre, sont situées du même côté de leurs<lb/>
+                    <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> respectifs, le tout conformément aux résul<lb rend="hyphen"/>tats des
+                    calculs fondés sur ma formule, comme on<lb/> peut le voir, soit dans mon Précis
+                    de la Théo<lb rend="hyphen"/>rie des phénomènes <choice>
+                        <sic>électro-dynamiques</sic>
+                        <corr>électrodynamiques</corr>
+                    </choice>, soit dans<lb/> le Mémoire de M. <persName>Savary</persName> sur
+                    l’application du calcul<lb/> aux mêmes phénomènes. En observant l’action de
+                    la,<lb/> terre sur le cylindre (<hi rend="it">fig.</hi> 20), on voit que
+                    l’extrémité<lb/> qui est à gauche de ses <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> se dirige constamment<lb/> au nord, parce que c’est dans cette
+                    situation du cylindre<lb/>
+                    <choice>
+                        <sic>électro-dynamiques</sic>
+                        <corr>électrodynamiques</corr>
+                    </choice> que les <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice>
+                    <choice>
+                        <sic>ascendans</sic>
+                        <corr>ascendants</corr>
+                    </choice> de ce cy<pb n="408" rend="hyphen"/>lindre sont du côté de l'ouest, et
+                    les <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice>
+                    <choice>
+                        <sic>descendans</sic>
+                        <corr>descendants</corr>
+                    </choice>
+                    <lb/> du côté de l’est. </p>
+                <p>Lorsqu’on remplacé, dans cette expérience, le cylin<lb rend="hyphen"/>dre
+                    (<hi rend="it">fig.</hi> 19) par un barreau aimanté, on voit le
+                    cy<lb rend="hyphen"/>lindre (<hi rend="it">fig.</hi> 20) se conduire à l’égard
+                    de l’aimant pré<lb rend="hyphen"/>cisément comme il le faisait à l’égard du
+                    premier cylin<lb rend="hyphen"/>dre, c’est-à-dire, précisément comme le ferait
+                    aussi une<lb/> aiguille sur laquelle agirait un barreau aimanté.</p>
+                <p>Si l’on remplace au contraire le cylindre <hi rend="it">(fig.</hi> 20) par<lb/>
+                    une aiguille aimantée, on verra que le cylindre (<hi rend="it">fig.</hi>
+                    19)<lb/> agira sur cette aiguille précisément comme il agissait sur<lb/> le
+                    cylindre qu’elle remplace.</p>
+                <p>Enfin, cette hélice ou cylindre <choice>
+                        <sic>électro-dynamiques</sic>
+                        <corr>électrodynamiques</corr>
+                    </choice> se<lb/> conduit à l’égard d’un fil conducteur précisément<lb/> comme
+                    M. <persName>Œrsted</persName> a découvert que le faisait un aimant :<lb/> pour
+                    s’en assurer, il faut placer le conducteur rectan<lb rend="hyphen"/>gulaire
+                    redoublé (<hi rend="it">fig.</hi> 3) comme dans la première
+                    ex<lb rend="hyphen"/>périence destinée à constater son action sur un
+                    conduc<lb rend="hyphen"/>teur rectiligne, et suspendre immédiatement
+                    au-dessus<lb/> du milieu de la portion <hi rend="it">MN</hi> de ce conducteur
+                    l’hélice<lb/> (<hi rend="it">fig.</hi> 20) en mettant ces pointes
+                    <hi rend="it">x, y</hi> dans les coupes<lb/>
+                    <hi rend="it">x</hi>', <hi rend="it">y</hi>',<hi rend="it"> (fig.</hi> 1) :
+                    quelque direction qu’ait l’hélice on la<lb/> verra, à l'instant où l’on établira
+                    les communications<lb/> avec la pile, prendre une direction perpendiculaire
+                    à<lb/> celle de la portion de courant <hi rend="it">M N' </hi>
+                    (<hi rend="it">fig.</hi> 3 ), de ma<lb rend="hyphen"/>nière que l’extrémité de
+                    l'hélice qui est à gauche de ses<lb/>
+                    <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> se porte du même côté de <hi rend="it">MN</hi> que le ferait le<lb/>
+                    pôle austral d’un aimant dans l’expérience de M.
+                    <persName>Œrsted</persName>.</p>
+                <p>Il est important, dans toutes les expériences que nous<lb/> venons de décrire,
+                    d’avoir soin d’interrompre le courant<lb/> électrique dans les conducteurs
+                    mobiles en donnant à la <pb n="409"/>bascule <hi rend="it">k</hi> une situation
+                    horizontale, toutes les fois qu’on<lb/> veut plonger les pointes de ces
+                    conducteurs dans les<lb/> coupes <hi rend="it">x, y ,x', y', S,</hi> ou les en
+                    retirer ; sans cette pré<lb rend="hyphen"/>caution, ces pointes pourraient être
+                    brûlées ou fondues<lb/> par les étincelles qui éclateraient entre elles et le
+                    mer<lb rend="hyphen"/>cure des coupés, à l'instant où les pointes seraient
+                    prêtes<lb/> à entrer dans le mercure ou à s’en séparer. Il est aussi
+                    né<lb rend="hyphen"/>cessaire, avant d’employer cet instrument aux
+                    expériences<lb/> auxquelles il est destiné, de s'assurer que le courant<lb/>
+                    passe effectivement et par le conducteur fixe et par le<lb/> conducteur mobile :
+                    on emploie pour cela une petite<lb/> pile ou même un simple couple voltaïque,
+                    quand on en<lb/> a d’une grandeur suffisante pour cette recherche
+                    préli<lb rend="hyphen"/>minaire ; on dispose un conducteur fixe et un
+                    conduc<lb rend="hyphen"/>teur mobile comme si l’on voulait faire une
+                    quelconque<lb/> des. expériences que nous venons de décrire ; on s’assura<lb/>
+                    d’abord que toutes les communications qui doivent avoir<lb/> lieu existent en
+                    effet en voyant si l’aiguille aimantée du<lb/> galvanomètre
+                    <hi rend="it">tuv (fig. 1)</hi> est déviée à l’instant où l’on<lb/> plonge les
+                    rhéophores <hi rend="it">R, r</hi> dans les rigoles <hi rend="it">A, a ;</hi>
+                    on<lb/> enlève ensuite tantôt le conducteur fixe seulement,
+                    tan<lb rend="hyphen"/>tôt le conducteur mobile, après avoir remis dans ses<lb/>
+                    points de repère le conducteur fixe. Il faut, pour que<lb/> l'instrument puisse
+                    servir, que chaque fois qu’on enlève<lb/> un de ces conducteurs, le courant soit
+                    interrompu, et<lb/> que l’aiguille aimantée du galvanomètre revienne à la
+                    si<lb rend="hyphen"/>tuation que tend à lui donner l’action de la terre. </p>
+                <p>Comme il y a deux systèmes de conducteurs mobiles,<lb/> il faut faire cet essai,
+                    d’abord avec un de ceux qui se<lb/> suspendent dans deux des quatre coupes
+                    <hi rend="it">x, y</hi>,<hi rend="it"> x', y',</hi> en<lb rend="hyphen"/>suite
+                    avec un de ceux qui portent, d’une pari, une <pb n="410"/>pointe destinée à
+                    reposer sur le fond de la coupe<hi rend="it">S</hi> , et<lb/> de l’autre, une
+                    couronne qui plonge dans l’eau acidulée<lb/> contenue dans le vase en cuivre de
+                    la figure 11 </p>
+                <p>On a supposé, dans ce qui précède, que le lecteur<lb/> connaît, l’ensemble des
+                    phénomènes que l’appareil qui<lb/> vient d'être, décrit est destiné à réaliser :
+                    ceux qui ne<lb/> seraient pas familiarisés avec cette nouvelle branche de<lb/>
+                    la physique trouveront tous, les renseignements qu'ils<lb/> pourront désirer sur
+                    les faits dont elle se compose, dans<lb/>
+                    le<hi rend="it">
+                        Manuel de l'Électricité dynamique</hi>
+                    de M. <persName>Demon<lb rend="hyphen"/>ferrand</persName> à
+                    <placeName>Paris</placeName> chez <persName>Bachelier</persName>, libraire, quai
+                    des Au<lb rend="hyphen"/>gustins, n° 55.</p>
+            </div>
+            <div>
+                <head>
+                    <title>
+            <hi rend="it">Note sur le passage de la Description précédente
+                            relatif<lb/> au caractère qui distingue les mouvements produits par
+                            l'action de ta terre de ceux qui le sont par l'action mu<lb rend="hyphen"/>tuelle des diverses parties de l'appareil. </hi>
+                    </title>
+                </head>
+                <p>(A) Pour mettre cette distinction dans tout son jour, on<lb/> place le trépied
+                    (<hi rend="it">fig</hi>. 12) comme nous l’avons expliqué,<lb/> mais en relevant
+                    les extrémités <hi rend="it">G, H</hi> du conducteur spiral<lb/> de manière
+                    qu'elles ne plongent pas dans les cavités de<lb/> la table
+                    (<hi rend="it">fig. 1)</hi> qui sont désignées par les mêmes lettres.<lb/> La
+                    communication entre les rigoles <hi rend="it">A</hi>,<hi rend="it"> B</hi> étant
+                    établie<lb/> par le conducteur <hi rend="it">Q</hi> dont les appendices
+                    <hi rend="it">e, f</hi> plongent<lb/> alors dans ces rigoles, on suspend
+                    alternativement les<lb/> deux conducteurs mobiles (<hi rend="it">fig.</hi> 14 et
+                    15) dans la coupe S<lb/> de manière que les couronnes de ces conducteurs
+                    soient<lb/> plongées dans l’eau acidulée du vase (<hi rend="it">fig.</hi> 11) ;
+                    et on constate<lb/> par l'expérience que le sens de la rotation du
+                    conducteur<lb/> mobile (<hi rend="it">fig.</hi> 14) produite par l'action de la
+                    terre, change<lb/> avec le sens du courant, soit par l’inversion des rhéophores,
+                        <pb n="411"/>soit par celle de la bascule <hi rend="it">k (fig.</hi> 1),
+                    tandis que la rotation<lb/> du conducteur mobile (<hi rend="it">fig.</hi> 15) a
+                    toujours lieu dans le même<lb/> sens, quel que soit celui du courant, parce
+                    qu’elle résulte<lb/> de l’action mutuelle des <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> de la couronne <hi rend="it">a e df</hi> et<lb/> de ceux de l’eau
+                    acidulée. On renverse alors le conducteur Q<lb/> (<hi rend="it">fig.</hi> 1),
+                    pour interrompre la communication qu'il établis<lb rend="hyphen"/>sait entre les
+                    rigoles <hi rend="it">A </hi> et <hi rend="it">B</hi>, et l'on fait plonger,
+                    dans les<lb/> cavités<hi rend="it">G, H </hi> , les extrémités du conducteur
+                    spiral (<hi rend="it">fig.</hi> 12) ;<lb/> aussitôt l'action de ce dernier
+                    conducteur sur le rayon ac<lb/> (<hi rend="it">fig.</hi> 14 et 16) des
+                    conducteurs mobiles imprime à ces con<lb rend="hyphen"/>ducteurs un mouvement de
+                    rotation beaucoup plus rapide<lb/> et qui change de sens par l’inversion de
+                    l’une des deux bas<lb rend="hyphen"/>cules K du <hi rend="it">k </hi>
+                    (<hi rend="it">fig.</hi> 1), mais qui n'en change point
+                    lors<lb rend="hyphen"/>qu'on renverse l’ordre de communication des
+                    &gt;rhéophores<lb/> en faisant plonger ; celui de la rigole <hi rend="it">A</hi>
+                    dans la rigole <hi rend="it">a,</hi>
+                    <lb/> et celui de cette dernière dans la première parce qu’alors la<lb/>
+                    direction du courant se trouve changée à la fois dans les deux<lb/> parties du
+                    circuit voltaïque qui agissent l’une sur l’autre,<lb/> savoir : le rayon
+                    <hi rend="it">a c (fig.</hi> 14 et 15) et le conducteur spiral<lb/>
+                    (<hi rend="it">fig.</hi> 12). </p>
+                <pb/>
+                <figure>
+                    <graphic url="1824-P125_fig001.jpg"/>
+                </figure>
+            </div>
+        </body>
+        <back>
+            <div>
+                <note xml:id="P125-1824_AMA1" target="#note-P125-1824_AMA1">(1) Cet instrument se
+                    trouve chez M. <persName>Pixii</persName>, <roleName>ingénieur en <choice>
+                            <sic>instrumens</sic>
+                            <corr>instruments</corr>
+                        </choice>
+                        <lb/> de physique et de mathématiques</roleName> , rue du Jardinet n°.
+                    2.</note>
+            </div>
+        </back>
+    </text>
+</TEI>

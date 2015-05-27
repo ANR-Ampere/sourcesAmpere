@@ -1,0 +1,1395 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Publications d'André-Marie Ampère - P11</title>
+    <author key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/">
+     <forename>André-Marie</forename>
+     <surname>Ampère</surname>
+    </author>
+    <editor>Christine Blondel</editor>
+    <editor>Marco Segala</editor>
+
+    <funder>ANR Corpus 2012</funder>
+    <respStmt>
+     <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+     </name>
+     <resp>Gestion de bases de données</resp>
+    </respStmt>
+    <respStmt>
+     <name>AZENTIS</name>
+     <resp>OCRisation et encodage en XML/TEI P5</resp>
+    </respStmt>
+    <respStmt>
+     <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+     </name>
+     <resp>Relecture et encodage en XML/TEI P5</resp>
+    </respStmt>
+    <respStmt>
+     <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+     </name>
+     <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+    <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+    <address>
+                        <addrLine>27 rue Damesme </addrLine>
+                        <addrLine>75013 Paris</addrLine>
+                    </address>
+    <distributor>
+     <name>Centre de calcul de l'IN2P3</name>
+     <address>
+                        <addrLine>Domaine scientifique de la Doua</addrLine>
+                        <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+                        <addrLine>69622 Villeurbanne Cedex</addrLine>
+                    </address>
+    </distributor>
+    <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+    <date>2013</date>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct xml:id="ampere_publi_P1809-A" xml:lang="fra" type="Article_de_périodique">
+     <analytic>
+      <title level="a">[Compte-rendu du] Mémoire sur la fonction dérivée, ou coefficient
+       différentiel du premier ordre, lu par M. Binet, professeur de mathématiques
+       transcendantes au lycée de Rennes</title>
+      <author>
+       <persName>
+                <surname>Ampère</surname>
+                <forename>André-Marie</forename>
+              </persName>
+      </author>
+     </analytic>
+     <monogr>
+      <title level="j">Bulletin des sciences par la Société philomathique de
+       Paris</title>
+      <imprint>
+       <biblScope type="pp">p. 275-278</biblScope>
+       <biblScope type="vol">1 (1807-1809)</biblScope>
+       <biblScope type="issue">16</biblScope>
+       <date when="1809">1809</date>
+      </imprint>
+     </monogr>
+     <idno type="issn">1164-6500</idno>
+     <idno type="url_pdf">http://www.ampere.cnrs.fr/bibliographies/pdf/1809-P011.pdf</idno>
+     <idno type="url_bio">http://www.biodiversitylibrary.org/item/24789#287 </idno>
+     <idno type="old">P11</idno>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <creation>
+    <date>mars 2014</date>
+    <name>AZENTIS</name>
+   </creation>
+   <langUsage>
+    <language ident="fra">Français</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <change>
+    <date>avril 2014</date>
+    <name>Aude Coustumer</name>
+    <name>Philippe Pons</name>
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text decls="#ampere_publi_P1809-A" type="publications">
+  <front>
+   <pb/>
+   <docTitle>
+    <titlePart>NOUVEAU BULLETIN<lb/> DES SCIENCES,<lb/> PAR LA SOCIÉTÉ PHILOMATIQUE<lb/> DE
+     <placeName>PARIS</placeName>.</titlePart>
+   </docTitle>
+   <docEdition>TOME PREMIER. II<hi rend="sup">e</hi>. A<hi rend="sc">nnée</hi>
+   </docEdition>
+   <docImprint>
+    <placeName>PARIS</placeName>,<lb/>
+    <address>
+          <addrLine>
+            <persName>BERNARD</persName>, Libraire ; quai des Augustins, n°. 25.</addrLine>
+        </address>
+    <date when-iso="1808">M. DCCC. VIII.</date>
+   </docImprint>
+   <docImprint>
+    <placeName>PARIS</placeName>, <lb/>
+    <hi rend="sc">
+     <persName>Mallet-Bachelier</persName>, gendre et successeur de <persName>Bachelier</persName>, </hi>
+    <lb/>Imprimeur-Libraire<lb/>
+    <hi rend="sc">du bureau des longitudes, de
+     l‘<orgName>école impériale polytechnique</orgName>,</hi>
+    <lb/>
+    <address>
+          <addrLine>	QUAI DES AUGUSTINS, 55.</addrLine>
+        </address>
+   </docImprint>
+  </front>
+  <body>
+   <pb n="275"/>
+   <!--<div>
+    <p>Au moyen des expressions qu’il a trouvées, pour les différences
+<lb/>partielles de <hi
+      rend="it">R</hi>, relatives à <hi rend="it"
+      >a, b, c, f, g, h,</hi> M. <persName>Lagrange</persName> démontre
+<lb/>que les variations de ces quantités ne peuvent introduire aucun terme
+<lb/>proportionnel au <choice>
+      <sic>tems</sic>
+      <corr>temps</corr>
+     </choice> et du second ordre par rapport aux masses des<lb/>
+planètes perturbatrices, dans la valeur du grand axe de la planète
+<lb/>troublée ; de sorte qu’en négligeant les quantités du troisième ordre,
+<lb/>et en faisant abstraction des inégalités périodiques, le grand axe
+<lb/>d'une planète est invariable, eu égard à la variation de ses <choice>
+      <sic>élémens</sic>
+      <corr> éléments</corr>
+     </choice>.<lb/>
+Pour <choice>
+      <sic>completter</sic>
+      <corr> compléter</corr>
+     </choice> ce théorème et l’étendre aux variations des <choice>
+      <sic>élémens</sic>
+      <corr> éléments</corr>
+     </choice><lb/>
+des planètes perturbatrices, M. <persName>Lagrange</persName> déplace l’origine des coor<lb
+      rend="hyphen"/>
+     données, qui était placée au centre du soleil, et il la transporte au<lb/>
+centre de gravité du système planétaire. Il démontre alors l’invariabilité<lb/>
+des grands axes des ellipses décrites autour de ce dernier centre, en
+<lb/>ayant égard aux variations des <choice>
+      <sic>élémens</sic>
+      <corr> éléments</corr>
+     </choice> de toutes les planètes ; il
+<lb/>fait voir ensuite que ces grands axes étant invariables, ceux des<lb/>
+ellipses décrites autour du centre du soleil, le sont aussi. On peut<lb/>
+lire dans les n<hi
+      rend="sup"
+     >os</hi>. 11 et 13 de ce <title>Bulletin</title>, ce que nous avons déjà dit<lb/>
+sur la démonstration de ce théorème.</p>
+    <p>Dans la seconde partie de son mémoire, lue à l’<orgName>Institut</orgName>, le 12<lb/>
+septembre dernier, M. <persName>Lagrange</persName> particularise les constantes a, b, c, <lb/>
+     f, g, h, qui étaient jusqu’ici des fonctions quelconques des <choice>
+      <sic>élémens</sic>
+      <corr>éléments</corr>
+     </choice><lb/>
+elliptiques : il prend pour ces constantes les <choice>
+      <sic>élémens</sic>
+      <corr>éléments</corr>
+     </choice> eux-mêmes, et<lb/>
+alors au moyen des formules connues du mouvement elliptique, il<lb/>
+calcule les valeurs des 15 quantités <formula>
+ <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mrow>
+         <mo>[</mo>
+         <mrow>
+          <mi>a</mi>
+          <mo>,</mo>
+          <mi>b</mi>
+         </mrow>
+         <mo>]</mo>
+        </mrow>
+       </mrow>
+      </math>
+     </formula>, <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mrow>
+         <mo>[</mo>
+         <mrow>
+          <mi>a</mi>
+          <mo>,</mo>
+          <mi>c</mi>
+         </mrow>
+         <mo>]</mo>
+        </mrow>
+       </mrow>
+      </math>
+     </formula>, etc., que l’on<lb/>
+sait d’avance devoir être indépendantes du <choice>
+      <sic>tems</sic>
+      <corr>temps</corr>
+     </choice>. Le résultat du calcul<lb/>
+fait voir que chacune des différences partielles <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>R</mi>
+          <mo>,</mo>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>a</mi>
+          <mo>,</mo>
+         </mrow>
+        </mfrac>
+
+       </mrow>
+      </math>
+     </formula> ; <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>d</mi>
+          <mi>R</mi>
+         </mrow>
+         <mrow>
+          <mi>d</mi>
+          <mi>b</mi>
+         </mrow>
+        </mfrac>
+
+       </mrow>
+      </math>
+     </formula>, etc., contient<lb/>
+au plus, deux des six différentielles <hi rend="it"
+      >da, db</hi>, etc., au lieu de cinq qu’elle<lb/>
+contient dans le cas général ; de sorte que l’élimination qu’il faut<lb/>
+faire pour obtenir la différentielle de chaque élément, ne présente plus<lb/>
+aucune difficulté. Les valeurs que l’on trouve de cette manière, coïn<lb
+      rend="hyphen"
+      />
+cident avec celles que M. <persName>Laplace</persName> a données dans son dernier supplément<lb/>
+à la <title>Mécanique céleste</title> et auxquelles il est parvenu par une voie toute<lb/>
+différente.</p>
+    <p>P.</p>
+   </div>-->
+   <div>
+    <note>Société philom.</note>
+    <p>
+     <hi rend="it">Mémoire sur la fonction dérivée, ou coefficient <hi rend="it">
+       <choice>
+        <sic>différenciel</sic>
+        <corr>différentiel</corr>
+       </choice>
+      </hi>
+      <lb/> du premier ordre, lu par M.</hi>
+     <persName>
+            <hi rend="sc">Binet</hi>
+          </persName>,
+     <hi rend="it">professeur de
+      ma<lb rend="hyphen"/> thématiques transcendantes au
+      <orgName>Lycée de <placeName>Rennes</placeName>
+            </orgName>.</hi>
+    </p>
+    <p>M. <persName>
+            <hi rend="sc">Binet</hi>
+          </persName> se propose de
+     démontrer d’une manière plus simple qu’on<lb/> ne l’a fait jusqu’à présent, le théorème
+     suivant, sur lequel repose toute<lb/> la théorie du calcul <choice>
+      <sic>différenciel</sic>
+      <corr>différentiel</corr>
+     </choice>.
+     <hi rend="it">
+      <formula>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mi>f</mi>
+         <mo stretchy="false">(</mo>
+         <mi>x</mi>
+         <mo stretchy="false">)</mo>
+        </mrow>
+       </math>
+      </formula>
+     </hi>
+     représentant une fonction quel<pb n="276" rend="hyphen"/>conque de <hi rend="it">x</hi>, si
+     l’on considère la quantité <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>x</mi>
+          <mo>+</mo>
+          <mi>h</mi>
+          <mo stretchy="false">)</mo>
+          <mo>−</mo>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>x</mi>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mi>h</mi>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula> qui est<lb/> évidemment une fonction de <hi rend="it">x</hi> et de
+     <hi rend="it">h</hi>, et qu’on suppose que l'on<lb/> y substitue à <hi rend="it">h</hi> des
+     valeurs de plus en plus petites, les valeurs corres<lb rend="hyphen"/>pondantes de cette
+     fonction ne pourront, si ce n’est pour des valeurs<lb/> particulières et isolées de
+     <hi rend="it">x</hi>, aller en diminuant ou en augmentant,<lb/> de manière à devenir plus
+     petites ou plus grandes que toute grandeur<lb/> donnée ; mais tendront en général vers une
+     limite déterminée, que l’on<lb/> devra considérer comme la valeur que prend cette quantité
+     lorsqu’on<lb/> fait <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>h</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+       </mrow>
+      </math>
+     </formula>, et qu’elle se présente sous la forme indéterminée <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mo>∘</mo>
+         <mo>∘</mo>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>. Cette<lb/> valeur sera nécessairement une fonction de <hi rend="it">x</hi>, puisque
+     celle de<lb/>
+     <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>x</mi>
+          <mo>+</mo>
+          <mi>h</mi>
+          <mo stretchy="false">)</mo>
+          <mo>−</mo>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>x</mi>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mi>h</mi>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>, ne dépendant en général que de <hi rend="it">x</hi> et de <hi rend="it">h</hi>,
+     ne<lb/> peut plus dépendre que de <hi rend="it">x</hi> quand on y détermine
+     <hi rend="it">h</hi> en faisant <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>h</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+       </mrow>
+      </math>
+     </formula>.<lb/> C’est, comme on sait, cette fonction qu’on nomme fonction dérivée,<lb/> ou
+     coefficient <choice>
+      <sic>différenciel</sic>
+      <corr>différentiel</corr>
+     </choice> du premier ordre de la fonction désignée<lb/> par <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>f</mi>
+        <mo stretchy="false">(</mo>
+        <mi>x</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </math>
+     </formula>. </p>
+    <p>Pour démontrer ce théorème, M. <persName>Binet</persName> examine les conséquences<lb/> qui
+     résulteraient de la supposition que la fonction de <hi rend="it">x</hi> et de
+     <hi rend="it">h</hi> qui est<lb/> égale à <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>x</mi>
+          <mo>+</mo>
+          <mi>h</mi>
+          <mo stretchy="false">)</mo>
+          <mo>−</mo>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>x</mi>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mi>h</mi>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>, pût approcher indéfiniment de o ou de <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mn>1</mn>
+         <mo>∘</mo>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>,<lb/>
+     <!-- Pour cette formule : est-ce 1/&#x2218, ou 1/0 ? --> en y supposant <hi rend="it">h</hi> de
+     plus en plus petit pour toutes les valeurs de <hi rend="it">x</hi>
+     <lb/> comprises dans un certain intervalle, depuis <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mi>a</mi>
+       </mrow>
+      </math>
+     </formula>, par exemple,<lb/> jusqu’à <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mi>a</mi>
+        <mo>+</mo>
+        <mi>b</mi>
+       </mrow>
+      </math>
+     </formula>, et arrivant dans cette hypothèse à un résultat con<lb rend="hyphen"/> tradictoire,
+     quelque petit que soit <hi rend="it">b</hi>, il en déduit cette conséquence<lb/> nécessaire,
+     que dans le cas où cela arriverait, ce ne pourrait être que<lb/> pour des valeurs particulières
+     et isolées de <hi rend="it">x</hi>, ainsi que le porte l’énoncé<lb/> du théorème.</p>
+    <p>En effet, l’on peut toujours prendre <hi rend="it">b</hi> assez petit pour que la<lb/>
+     fonction <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>f</mi>
+        <mo stretchy="false">(</mo>
+        <mi>x</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </math>
+     </formula> soit toujours croissante ou toujours décroissante depuis<lb/>
+     <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mi>a</mi>
+       </mrow>
+      </math>
+     </formula> jusqu’à <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mi>a</mi>
+        <mo>+</mo>
+        <mi>b</mi>
+       </mrow>
+      </math>
+     </formula>, et alors les valeurs de <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>x</mi>
+          <mo>+</mo>
+          <mi>h</mi>
+          <mo stretchy="false">)</mo>
+          <mo>−</mo>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>x</mi>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mi>h</mi>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>
+     <lb/> comprises dans cet intervalle seront toutes de même signe que ...<lb/>
+     <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>a</mi>
+          <mo>+</mo>
+          <mi>b</mi>
+          <mo stretchy="false">)</mo>
+          <mo>−</mo>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>a</mi>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mi>b</mi>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>, qui est positive quand <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>f</mi>
+        <mo stretchy="false">(</mo>
+        <mi>x</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </math>
+     </formula> est <choice>
+      <sic>croisssante</sic>
+      <corr>croissante</corr>
+     </choice>, et négative<lb/> dans le cas contraire. Si donc la quantité <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>x</mi>
+          <mo>+</mo>
+          <mi>h</mi>
+          <mo stretchy="false">)</mo>
+          <mo>−</mo>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>x</mi>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mi>h</mi>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula> pouvait,<lb/> pour toutes les valeurs de <hi rend="it">x</hi> comprises entre <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mi>a</mi>
+       </mrow>
+      </math>
+     </formula> et <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mi>a</mi>
+        <mo>+</mo>
+        <mi>b</mi>
+       </mrow>
+      </math>
+     </formula>,<lb/> et en donnant à <hi rend="it">h</hi> une valeur assez petite, devenir moindre
+     ou plus<lb/> grande que toute grandeur donnée, on pourrait, dans le premier cas,<lb/> prendre
+     <hi rend="it">h</hi> assez petit pour que l’on eût constamment dans cet intervalle <pb n="277"/>
+     <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>x</mi>
+          <mo>+</mo>
+          <mi>h</mi>
+          <mo stretchy="false">)</mo>
+          <mo>−</mo>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>x</mi>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mi>h</mi>
+        </mfrac>
+        <mo>&lt;</mo>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>a</mi>
+          <mo>+</mo>
+          <mi>b</mi>
+          <mo stretchy="false">)</mo>
+          <mo>−</mo>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>a</mi>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mi>b</mi>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>, et en donnant à <hi rend="it">h</hi> une valeur <lb/>encore plus petite que
+     celle-là, <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>x</mi>
+          <mo>+</mo>
+          <mi>h</mi>
+          <mo stretchy="false">)</mo>
+          <mo>−</mo>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>x</mi>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mi>h</mi>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula> serait encore plus<lb/>petit. Prenant donc <hi rend="it">n</hi> assez grand pour que <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>b</mi>
+         </mrow>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula> fût plus petit que cette<lb/> valeur, on aurait <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mo>(</mo>
+          <mi>x</mi>
+          <mo>+</mo>
+          <mfrac>
+           <mrow>
+            <mi>b</mi>
+           </mrow>
+           <mrow>
+            <mi>n</mi>
+           </mrow>
+          </mfrac>
+          <mo>)</mo>
+          <mo/>
+          <mi>f</mi>
+          <mo>(</mo>
+          <mi>x</mi>
+          <mo>)</mo>
+         </mrow>
+         <mrow>
+          <mfrac>
+           <mrow>
+            <mi>b</mi>
+           </mrow>
+           <mrow>
+            <mi>n</mi>
+           </mrow>
+          </mfrac>
+         </mrow>
+        </mfrac>
+        <mo>&lt;</mo>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mo>(</mo>
+          <mi>a</mi>
+          <mo>+</mo>
+          <mi>b</mi>
+          <mo>)</mo>
+          <mo/>
+          <mi>f</mi>
+          <mo>(</mo>
+          <mi>a</mi>
+          <mo>)</mo>
+         </mrow>
+         <mrow>
+          <mi>b</mi>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula> pour toutes<lb/> les valeurs de <hi rend="it">x</hi> entre <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mi>a</mi>
+       </mrow>
+      </math>
+     </formula> et <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mi>a</mi>
+        <mo>+</mo>
+        <mi>b</mi>
+       </mrow>
+      </math>
+     </formula>; par conséquent pour celles-ci<lb/>
+     <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mi>a</mi>
+       </mrow>
+      </math>
+     </formula>, <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mi>a</mi>
+        <mo>+</mo>
+        <mfrac>
+         <mi>b</mi>
+         <mi>n</mi>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>, <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mi>a</mi>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <mn>2</mn>
+          <mi>b</mi>
+         </mrow>
+         <mi>n</mi>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>, ... <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mi>a</mi>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <mi>n</mi>
+          <mo>−</mo>
+          <mn>1</mn>
+         </mrow>
+         <mi>n</mi>
+        </mfrac>
+        <mi>b</mi>
+       </mrow>
+      </math>
+     </formula>. Ainsi toutes les quantités<lb/>
+     <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mi>a</mi>
+            <mo>+</mo>
+            <mfrac>
+             <mi>b</mi>
+             <mi>n</mi>
+            </mfrac>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+          <mo>−</mo>
+          <mi>f</mi>
+          <mrow>
+           <mo>(</mo>
+           <mi>a</mi>
+           <mo>)</mo>
+          </mrow>
+         </mrow>
+         <mrow>
+          <mfrac>
+           <mi>b</mi>
+           <mi>n</mi>
+          </mfrac>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>, <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mi>a</mi>
+            <mo>+</mo>
+            <mfrac>
+             <mrow>
+              <mn>2</mn>
+              <mi>b</mi>
+             </mrow>
+             <mi>n</mi>
+            </mfrac>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+          <mo>−</mo>
+          <mi>f</mi>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mi>a</mi>
+            <mo>+</mo>
+            <mfrac>
+             <mi>b</mi>
+             <mi>n</mi>
+            </mfrac>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+         </mrow>
+         <mrow>
+          <mfrac>
+           <mi>b</mi>
+           <mi>n</mi>
+          </mfrac>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>, <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mi>a</mi>
+            <mo>+</mo>
+            <mfrac>
+             <mrow>
+              <mn>3</mn>
+              <mi>b</mi>
+             </mrow>
+             <mi>n</mi>
+            </mfrac>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+          <mo>−</mo>
+          <mi>f</mi>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mi>a</mi>
+            <mo>+</mo>
+            <mfrac>
+             <mrow>
+              <mn>2</mn>
+              <mi>b</mi>
+             </mrow>
+             <mi>n</mi>
+            </mfrac>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+         </mrow>
+         <mrow>
+          <mfrac>
+           <mi>b</mi>
+           <mi>n</mi>
+          </mfrac>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>, <lb/> ... <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>a</mi>
+          <mo>+</mo>
+          <mi>b</mi>
+          <mo stretchy="false">)</mo>
+          <mo>−</mo>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>a</mi>
+          <mo>+</mo>
+          <mfrac>
+           <mrow>
+            <mi>n</mi>
+            <mo>−</mo>
+            <mn>1</mn>
+           </mrow>
+           <mi>n</mi>
+          </mfrac>
+          <mi>b</mi>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mrow>
+          <mfrac>
+           <mi>b</mi>
+           <mi>n</mi>
+          </mfrac>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>, seraient plus petites que <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>a</mi>
+          <mo>+</mo>
+          <mi>b</mi>
+          <mo stretchy="false">)</mo>
+          <mo>−</mo>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>a</mi>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mi>b</mi>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>,<lb/> et comme elles sont en nombre <hi rend="it">n</hi>, leur somme serait plus
+     petite que<lb/>
+     <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>n</mi>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mi>f</mi>
+            <mo stretchy="false">(</mo>
+            <mi>a</mi>
+            <mo>+</mo>
+            <mi>b</mi>
+            <mo stretchy="false">)</mo>
+            <mo>−</mo>
+            <mi>f</mi>
+            <mo stretchy="false">(</mo>
+            <mi>a</mi>
+            <mo stretchy="false">)</mo>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+         </mrow>
+         <mi>b</mi>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>, ce qui est évidemment faux, puisque cette somme<lb/> est, en y faisant les
+     réductions qui se présentent naturellement, préci<lb rend="hyphen"/> sément égale à <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>a</mi>
+          <mo>+</mo>
+          <mi>b</mi>
+          <mo stretchy="false">)</mo>
+          <mo>−</mo>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>a</mi>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mrow>
+          <mfrac>
+           <mi>b</mi>
+           <mi>n</mi>
+          </mfrac>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>, c’est-à-dire à <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>n</mi>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mi>f</mi>
+            <mo stretchy="false">(</mo>
+            <mi>a</mi>
+            <mo>+</mo>
+            <mi>b</mi>
+            <mo stretchy="false">)</mo>
+            <mo>−</mo>
+            <mi>f</mi>
+            <mo stretchy="false">(</mo>
+            <mi>a</mi>
+            <mo stretchy="false">)</mo>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+         </mrow>
+         <mi>b</mi>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula> ;<lb/> l’hypothèse d’où l’on est parti ne peut donc être admise. Si l’on
+     suppo<lb rend="hyphen"/>sait au contraire que <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mi>x</mi>
+            <mo>+</mo>
+            <mi>h</mi>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+          <mo>−</mo>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>x</mi>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mi>h</mi>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula> pût, pour toutes les valeurs<lb/> de <hi rend="it">x</hi> comprises entre <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mi>a</mi>
+       </mrow>
+      </math>
+     </formula> et <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mi>a</mi>
+        <mo>+</mo>
+        <mi>b</mi>
+       </mrow>
+      </math>
+     </formula>, et en prenant <hi rend="it">h</hi> assez petit,<lb/> devenir plus grande que toute
+     grandeur donnée, on démontrerait de<lb/> même qu’en donnant à <hi rend="it">n</hi> une valeur
+     assez grande, on pourrait rendre toutes<lb/> les quantités <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mi>a</mi>
+            <mo>+</mo>
+            <mfrac>
+             <mi>b</mi>
+             <mi>n</mi>
+            </mfrac>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+          <mo>−</mo>
+          <mi>f</mi>
+          <mrow>
+           <mo>(</mo>
+           <mi>a</mi>
+           <mo>)</mo>
+          </mrow>
+         </mrow>
+         <mrow>
+          <mfrac>
+           <mi>b</mi>
+           <mi>n</mi>
+          </mfrac>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>, <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mi>a</mi>
+            <mo>+</mo>
+            <mfrac>
+             <mrow>
+              <mn>2</mn>
+              <mi>b</mi>
+             </mrow>
+             <mi>n</mi>
+            </mfrac>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+          <mo>−</mo>
+          <mi>f</mi>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mi>a</mi>
+            <mo>+</mo>
+            <mfrac>
+             <mi>b</mi>
+             <mi>n</mi>
+            </mfrac>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+         </mrow>
+         <mrow>
+          <mfrac>
+           <mi>b</mi>
+           <mi>n</mi>
+          </mfrac>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>, <pb n="278"/>
+     <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mi>a</mi>
+            <mo>+</mo>
+            <mfrac>
+             <mrow>
+              <mn>3</mn>
+              <mi>b</mi>
+             </mrow>
+             <mi>n</mi>
+            </mfrac>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+          <mo>−</mo>
+          <mi>f</mi>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mi>a</mi>
+            <mo>+</mo>
+            <mfrac>
+             <mrow>
+              <mn>2</mn>
+              <mi>b</mi>
+             </mrow>
+             <mi>n</mi>
+            </mfrac>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+         </mrow>
+         <mrow>
+          <mfrac>
+           <mi>b</mi>
+           <mi>n</mi>
+          </mfrac>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>...<formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mi>a</mi>
+            <mo>+</mo>
+            <mi>b</mi>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+          <mo>−</mo>
+          <mi>f</mi>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mi>a</mi>
+            <mo>+</mo>
+            <mfrac>
+             <mrow>
+              <mi>n</mi>
+              <mo>−</mo>
+              <mn>1</mn>
+             </mrow>
+             <mi>n</mi>
+            </mfrac>
+            <mi>b</mi>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+         </mrow>
+         <mrow>
+          <mfrac>
+           <mi>b</mi>
+           <mi>n</mi>
+          </mfrac>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>
+     <lb/> plus grandes que <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mo>(</mo>
+          <mi>a</mi>
+          <mo>+</mo>
+          <mi>b</mi>
+          <mo>)</mo>
+          <mo/>
+          <mi>f</mi>
+          <mo>(</mo>
+          <mi>a</mi>
+          <mo>)</mo>
+         </mrow>
+         <mrow>
+          <mi>b</mi>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>, et par conséquent leur somme plus<lb/> grande que <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>n</mi>
+          <mo>(</mo>
+          <mi>f</mi>
+          <mo>(</mo>
+          <mi>a</mi>
+          <mo>+</mo>
+          <mi>b</mi>
+          <mo>)</mo>
+          <mo/>
+          <mi>f</mi>
+          <mo>(</mo>
+          <mi>a</mi>
+          <mo>)</mo>
+          <mo>)</mo>
+         </mrow>
+         <mrow>
+          <mi>b</mi>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>, ce qui est encore impossible, puisque<lb/> cette somme est précisément égale à <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>n</mi>
+          <mo>(</mo>
+          <mi>f</mi>
+          <mo>(</mo>
+          <mi>a</mi>
+          <mo>+</mo>
+          <mi>b</mi>
+          <mo>)</mo>
+          <mo/>
+          <mi>f</mi>
+          <mo>(</mo>
+          <mi>a</mi>
+          <mo>)</mo>
+          <mo>)</mo>
+         </mrow>
+         <mrow>
+          <mi>b</mi>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>, ainsi que<lb/> nous venons de le voir. </p>
+    <p>Il est donc également absurde de supposer que <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>x</mi>
+          <mo>+</mo>
+          <mi>h</mi>
+          <mo stretchy="false">)</mo>
+          <mo>−</mo>
+          <mi>f</mi>
+          <mo stretchy="false">(</mo>
+          <mi>x</mi>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mi>h</mi>
+        </mfrac>
+       </mrow>
+      </math>
+     </formula>
+     <lb/> puisse diminuer ou augmenter indéfiniment en y faisant <hi rend="it">h</hi> de plus
+     en<lb/> plus petit pour toutes les valeurs de <hi rend="it">x</hi> depuis<formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mi>a</mi>
+       </mrow>
+      </math>
+     </formula>, jusqu'à <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mi>a</mi>
+        <mo>+</mo>
+        <mi>b</mi>
+       </mrow>
+      </math>
+     </formula>,<lb/> ce qui est précisément ce qu’il s’agissait de démontrer.</p>
+    <p>A.</p>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,705 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 78</title>
+            <author>Carron-Ampère, Julie (1ère femme d'Ampère)</author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1802-02-24-A">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                  <idno>chemise 332</idno>
+               <altIdentifier>
+              <idno type="old">L78</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+          
+            </msDesc>
+            <listWit>
+               <witness xml:id="L78CGA">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 089-090</biblScope>
+                        </imprint>
+                     </monogr>
+                     
+                  </biblStruct>
+                 </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_C129">Carron-Ampère, Julie (1ère femme
+                        d'Ampère)</persName>
+          <date when-iso="1802-02-24">24 février 1802</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_A366">Ampère,
+                           André-Marie</persName>
+        </correspAction>
+        <note type="noteDelaunay">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1802-02-24-A">
+      <body>
+         <div>
+            <opener>
+          <pb n="80" facs="#ACAS_CRHST_AMP_24_332_0080_r.jpg"/> <placeName>Lyon</placeName>, le <subst>
+            <del>mardi</del> <add>
+              <choice>
+                <sic>mercrdi</sic> <corr>mercredi</corr>
+              </choice>
+            </add>
+          </subst> soir <date when="1802-02-26">[24 février 1802]</date>
+        </opener>
+            <p>C'est <choice>
+            <sic>hyer</sic> <corr>hier</corr>
+          </choice>, mon bon ami, que j'ai reçu ta lettre que j'<choice>
+            <sic>atendais</sic> <corr>attendais</corr>
+          </choice>
+          <lb/>
+               lundi avec bien de l'impatience. J'<choice>
+            <sic>était</sic> <corr>étais</corr>
+          </choice> toute <choice>
+            <sic>enuiér</sic> <corr>ennuyée</corr>
+          </choice> de ne<lb/>
+               point avoir <choice>
+            <sic>encors</sic> <corr>encore</corr>
+          </choice> de nouvelles de ton
+               <choice>
+            <sic>voyaje</sic> <corr>voyage</corr>
+          </choice> ; <del type="illisible"/> cela<lb/>
+               me rendait bien <choice>
+            <sic>mausade</sic> <corr>maussade</corr>
+          </choice>. Ma <choice>
+            <sic>peauvre</sic> <corr>pauvre</corr>
+          </choice> maman me <del type="illisible"/>
+          <lb/>
+               <choice>
+            <sic>trenquillisait</sic> <corr>tranquillisait</corr>
+          </choice> tant qu'elle pouvait. Mais elle a été bien<lb/>
+               contente, ainsi que ta <persName ref="#pers_C129">Julie</persName>, de <choice>
+            <sic>savoire</sic> <corr>savoir</corr>
+          </choice> que tu
+               te portes bien,<lb/>
+               que tu es en pension chez quelqu'un du pays, et non pas<lb/>
+               à l'<subst>
+            <del>o</del> <add>au</add>
+          </subst>berge. Ta lettre est plus détaillée que je ne l'<choice>
+            <sic>esperait</sic> <corr>espérais</corr>
+          </choice>
+          <lb/>
+               <del>tu me dis bien des choses</del> A présent, je voudrais savoir<lb/>
+               si tu espères avoir une autre <choice>
+            <sic>perssonne</sic> <corr>personne</corr>
+          </choice> pour <choice>
+            <sic>
+              <subst>
+                <del>teder</del> <add>
+                  <gap reason="illisible"/>
+                </add>
+              </subst>
+            </sic> <corr>t'aider</corr>
+          </choice>
+          <lb/>
+               dans tes expériences, si tu penses qu'on te <subst>
+            <del>défrayerais</del> <add>
+              <choice>
+                <sic>rembourseras</sic> <corr>remboursera</corr>
+              </choice>
+            </add>
+          </subst>
+          <lb/>
+               des frais de <choice>
+            <sic>trensport</sic> <corr>transport</corr>
+          </choice> si nous nous établissons<lb/>
+               là-bas. Si tu <choice>
+            <sic>a</sic> <corr>as</corr>
+          </choice> été prendre ma lettre que j'avais<lb/>
+               <choice>
+            <sic>remis</sic> <corr>remise</corr>
+          </choice> à <persName ref="#pers_P457">Pochon</persName> pour porter chez Renaud. Si tu<lb/>
+               a retiré tes <subst>
+            <del>affaires</del> <add>effets</add>
+          </subst> qui sont à <placeName>Bourg</placeName> depuis <unclear>jeudi</unclear>
+          <lb/>
+               <del>tu ma écrit <choice>
+              <sic>dimenche</sic> <corr>dimanche</corr>
+            </choice> que tu ne les avait<lb/>
+                  pas</del>; nous avions dit à <persName ref="#pers_P457">Pochon</persName> de les garder chez<lb/>
+               lui jusqu'à ce que tu les <del>fit porter à l'<orgName>école <choice>
+                <sic>santrale</sic> <corr>centrale</corr>
+              </choice>
+            </orgName>
+          </del> <add>
+            <unclear>réclames</unclear>
+          </add>
+          <lb/>
+               Mon bon ami, tu es bien sage de me faire un<lb/>
+               journal ; je veux <choice>
+            <sic>ausi</sic> <corr>aussi</corr>
+          </choice> t'en faire un,
+               quoique je n'<choice>
+            <sic>est</sic> <corr>aie</corr>
+          </choice>
+          <lb/>
+               pas <subst>
+            <del>
+              <choice>
+                <sic>ten de</sic> <corr>tant de</corr>
+              </choice>
+            </del> <add>grand</add>
+          </subst> chose à t'apprendre. Je <subst>
+            <del>sairerais</del> <add>serrerai</add>
+          </subst> <choice>
+            <sic>cependans</sic> <corr>cependant</corr>
+          </choice>
+          <lb/>
+               plus mes <choice>
+            <sic>ligne</sic> <corr>lignes</corr>
+          </choice> que toi pour ne pas te coûter<lb/>
+               tant de port de <choice>
+            <sic>lettre</sic> <corr>lettres</corr>
+          </choice> et je <choice>
+            <sic>tenguaje</sic> <corr>t'engage</corr>
+          </choice> pour <choice>
+            <sic>ménajer</sic> <corr>ménager</corr>
+          </choice>
+          <lb/>
+               notre bourse à <add>en</add> faire <del>moin de signe et </del> <add>à</add> ne pas diminuer<pb n="81" facs="#ACAS_CRHST_AMP_24_332_0081_v.jpg"/>
+               la <choice>
+            <sic>cantitér</sic> <corr>quantité</corr>
+          </choice> de page <subst>
+            <del>comme cela</del> <add>ainsi</add>
+          </subst> je <subst>
+            <del>saver</del> <add>saurai</add>
+          </subst> plus de<lb/>
+               choses. Je t'écrivis samedi par M. Berger <add>ton élève</add>, je ne<lb/>
+               <subst>
+            <del>c'est</del> <add>sais</add>
+          </subst> si ma lettre est partie. Le <choice>
+            <sic>dimenche</sic> <corr>dimanche</corr>
+          </choice>, <choice>
+            <sic>malgrez</sic> <corr>malgré</corr>
+          </choice>
+          <lb/>
+               une grosse pluie, maman, mon petit et
+               moi<lb/>
+               fûmes dîner au Griffon <ref>(2)</ref> ; car je ne me pouvais<lb/>
+               pas souffrir dans la maison ;
+               je ne te voyais<lb/>
+               plus autour de moi venir me <choice>
+            <sic>demender</sic> <corr>demander</corr>
+          </choice> <lb/>
+               tantôt ton <choice>
+            <sic>chap<add>e</add>aus</sic> <corr>chapeau</corr>
+          </choice>, tantôt ta
+               cravate et je <subst>
+            <del type="illisible"/> <add>ne</add>
+          </subst>
+          <lb/>
+               <subst>
+            <del type="illisible"/> <add>pouvais pas</add>
+          </subst> te gronder de chercher bien loin ce qui est<lb/>
+               sous tes yeux. <choice>
+            <sic>enfain</sic> <corr>Enfin</corr>
+          </choice>, mon bon ami, j'étais triste<lb/>
+               et tu en <choice>
+            <sic>c'est</sic> <corr>sais</corr>
+          </choice> la cause. Nous <subst>
+            <del type="illisible"/> <add>revînmes</add>
+          </subst> du<lb/>
+               Griffon à la pluie <del>nous fumes chez ma sœur, nous<lb/>
+               vînmes nous coucher</del> Je ne dormi <subst>
+            <del>guaire</del> <add>
+              <choice>
+                <sic>guères</sic> <corr>guère</corr>
+              </choice>
+            </add>
+          </subst> le<lb/>
+               lundi, nous restâmes dans la chambre ; ma sœur<lb/>
+               vint et nous <subst>
+            <del>cosame</del> <add>causâmes</add>
+          </subst> de toutes leurs affaires<lb/>
+               qui <subst>
+            <del>sont prêtes à</del> <add>vont</add>
+          </subst> être signées et terminées de
+               tout<lb/>
+               point : <persName ref="#pers_P443">Marsil</persName> <choice>
+            <sic>asossié</sic> <corr>associé</corr>
+          </choice> pour tout <choice>
+            <sic>exepeté</sic> <corr>excepté</corr>
+          </choice> <subst>
+            <del>les</del> <add>pour les</add>
+          </subst>
+          <lb/>
+               deux campagnes. Il vint un <choice>
+            <sic>instent</sic> <corr>instant</corr>
+          </choice>. Il
+               était<lb/>
+               fatigué d'avoir tant de choses à conduire<lb/>
+               et <choice>
+            <sic>disois</sic> <corr>disait</corr>
+          </choice> que, si tout dépendait de
+               lui, il <choice>
+            <sic>réaliserai</sic> <corr>réaliserait</corr>
+          </choice>
+          <lb/>
+               deux cent mille livres et qu'il <choice>
+            <sic>resterois</sic> <corr>resterait</corr>
+          </choice> <choice>
+            <sic>encors</sic> <corr>encore</corr>
+          </choice> un <choice>
+            <sic>fons</sic> <corr>fonds</corr>
+          </choice> de
+               com<add>m</add>erce assez considérable pour<lb/>
+               bien les <choice>
+            <sic>aucuper</sic> <corr>occuper</corr>
+          </choice>. J'étais démontée tristement<lb/>
+               ce jour-là et, quoique j'éprouvasse du plaisir à les<pb n="82" facs="#ACAS_CRHST_AMP_24_332_0082_r.jpg"/> savoir bien, cela me faisait 
+               <subst>
+            <del> penser
+               tristement</del> <add>songer</add>
+          </subst>.<lb/>
+              <del type="bloc"> Mais, mon bon ami, à quoi <choice>
+              <sic>ser</sic> <corr>sert</corr>
+            </choice> tous <choice>
+              <sic>ce</sic> <corr>ces</corr>
+            </choice> <choice>
+              <sic>racontaje</sic> <corr>racontages</corr>
+            </choice>, je<lb/>
+                 <choice>
+              <sic>per</sic> <corr>perds</corr>
+            </choice> mon papier à
+               te dire des <choice>
+              <sic>rien</sic> <corr>riens</corr>
+            </choice> <del type="illisible"/>. Je <choice> <sic>cerois</sic> <corr>serais</corr>
+            </choice>
+            <lb/>
+                 bien <choice>
+              <sic>facher</sic> <corr>fâchée</corr>
+            </choice> si tu me répondais à ce <choice>
+              <sic>sujer</sic> <corr>sujet</corr>
+            </choice>, j'aime<lb/>
+                 mieux savoir autre chose. D'<choice>
+              <sic>allieur</sic> <corr>ailleurs</corr>
+            </choice>, si tu m'en<lb/>
+                 parlais et qu'on le vit par <choice>
+              <sic>asar</sic> <corr>hasard</corr>
+            </choice>, on croirait que<lb/>
+                 je suis jalouse <choice>
+              <sic>es</sic> <corr>et</corr>
+            </choice> tu <choice>
+              <sic>c'est</sic> <corr>sais</corr>
+            </choice> si je peux<choice>
+              <sic>lettre</sic> <corr>l'être</corr>
+            </choice> de<lb/>
+                 ma sœur et du bon <persName>Marsil</persName>
+          </del> ; il me reste à te<lb/>
+               dire que mardi je fus voir les <persName>
+            <choice>
+              <sic>dammes</sic> <corr>dames</corr>
+            </choice> Alard</persName>
+          <lb/>
+               <del>avec maman qu</del> <persName>Élise</persName> n'est pas <choice>
+            <sic>venu</sic> <corr>venue</corr>
+          </choice> ici depuis le<lb/>
+               lendemain de ton départ parce qu'elle a été un peu<lb/>
+               malade, c'est de ne pas dormir. Je lui <choice>
+            <sic>est</sic> <corr>ai</corr>
+          </choice> <choice>
+            <sic>envoyér</sic> <corr>envoyé</corr>
+          </choice>
+               de tes nouvelles ce matin, <choice>
+            <sic>insi</sic> <corr>ainsi</corr>
+          </choice> qu'a ta maman ;
+               Cette après-midi, j'ai été avec mon petit
+               chez<lb/>
+               M<ex>adame</ex> <persName>Couppier</persName> qui était venu <choice>
+            <sic>hyer</sic> <corr>hier</corr>
+          </choice> <choice>
+            <sic>savoire</sic> <corr>savoir</corr>
+          </choice> de<lb/>
+               tes nouvelles. Je n'ai point <choice>
+            <sic>trouvér</sic> <corr>trouvé</corr>
+          </choice> M. de <persName ref="#pers_L356">Lempereur</persName>,<lb/>
+               mais bien une <subst>
+            <del>viellie</del> <add>vieille</add>
+          </subst> tante à
+               qui tu <choice>
+            <sic>a</sic> <corr>as</corr>
+          </choice> tourné la<lb/>
+               tête <choice>
+            <sic>es</sic> <corr>et</corr>
+          </choice> qui voulait <subst>
+            <del>afsoliment</del> <add>absolument</add>
+          </subst> me faire chanter<lb/>
+               une <choice>
+            <sic>chenson</sic> <corr>chanson</corr>
+          </choice> que tu avais <choice>
+            <sic>fait</sic> <corr>faite</corr>
+          </choice> ; elle m'a si fort<lb/>
+               <choice>
+            <sic>arselait</sic> <corr>harcelée</corr>
+          </choice> que ton ami et sa mère en étaient <subst>
+            <del type="illisible"/> <add>inquiets</add>
+          </subst>
+          <lb/>
+               pour moi <del>elle m'a fait sué et je me suis <gap reason="illisible"/>
+            <lb/>
+               être <choice>
+              <sic>débarassé</sic> <corr>débarrassé</corr>
+            </choice> d'elle</del> j'ai trouvér M<ex>a</ex>d<ex>a</ex>me <persName>
+            <choice>
+              <sic>Coupier</sic> <corr>Couppier</corr>
+            </choice>
+          </persName> charmante.<lb/>
+               Elle a trouvé notre petit un gros <gap reason="illisible"/>
+          <lb/>
+               <gap reason="illisible"/> <choice>
+            <sic>ma</sic> <corr>m'a</corr>
+          </choice> <choice>
+            <sic>demendé</sic> <corr>demandé</corr>
+          </choice> si tu <choice>
+            <sic>tetoit</sic> <corr>t'étais</corr>
+          </choice> bien trouvé de<lb/>
+               <persName>Renard</persName>, j'ai dit que tu avais été fort heureux<pb n="83" facs="#ACAS_CRHST_AMP_24_332_0083_v.jpg"/>
+               en <choice>
+            <sic>arivent</sic> <corr>arrivant</corr>
+          </choice> de pouvoir <choice>
+            <sic>aler</sic> <corr>aller</corr>
+          </choice> chez quelqu'un <del type="illisible"/>
+          <lb/>
+              <subst>
+            <del>donete </del> <add>d'honnête</add>
+          </subst> mais que tu étais en pension ; M<ex>a</ex>d<ex>a</ex>me <persName ref="#pers_C162">Couppier</persName> <ref>(3)</ref>
+          <lb/>
+               fait beaucoup de cas de
+               M<ex>a</ex>d<ex>a</ex>me <persName>Riboud</persName>. Dis-moi bien<lb/>
+               comment tu es reçu dans cette maison, j'en suis<lb/>
+               bien curieuse si M<ex>adam</ex>e <persName>Riboud</persName> a l'air
+               toujours aussi <choice>
+            <sic>froid</sic> <corr>froide</corr>
+          </choice>. En sortant de chez M<ex>adam</ex>e <persName>
+            <choice>
+              <sic>Coupié</sic> <corr>Couppier</corr>
+            </choice>
+          </persName>,<lb/>
+               j'ai été chez M. <placeName>Deplace</placeName>, sa <choice>
+            <sic>feme</sic> <corr>femme</corr>
+          </choice> n'y était<lb/>
+               pas, elle était à la fraiche avec sa petite.<lb/>
+               M. <placeName>Deplace</placeName> m'a <choice>
+            <sic>parlér</sic> <corr>parlé</corr>
+          </choice> de toi et trouve que<lb/>
+               tu as bien mal fait de <subst>
+            <del>tenaler</del> <add>t'en aller</add>
+          </subst>. Il y en a
+               bien d'autres qui disent de même ; car presque tout<lb/>
+               le monde <subst>
+            <del>c'est</del> <add>sait</add>
+          </subst> que <subst>
+            <del>cenest</del> <add>ce n'est</add>
+          </subst> pas
+               mille écus. Je<lb/>
+               penserais comme eux si <gap reason="lacune"/> ; mais je
+               ne dis<lb/>
+               rien et le temps nous fera voir plus clair.<lb/>
+               Je t'ai bien <choice>
+            <sic>conter</sic> <corr>conté</corr>
+          </choice> toute ma vie depuis que<lb/>
+               je ne t'ai écrit je voulais ne <choice>
+            <sic>metre</sic> <corr>mettre</corr>
+          </choice> que cette<lb/>
+               feuille ; mais je n'<choice>
+            <sic>ais</sic> <corr>ai</corr>
+          </choice> pas encore dit un mot<lb/>
+               de tendresse à mon bon ami, qui <choice>
+            <sic>c'est</sic> <corr>sait</corr>
+          </choice> bien<lb/>
+               que sa femme l'aime de tout son cœur, mais<lb/>
+               qui n'est point <choice>
+            <sic>fachér</sic> <corr>fâché</corr>
+          </choice> qu'elle
+               le lui répète.<lb/>
+               Oui, mon bon ami, si tu es triste <choice>
+            <sic>loint</sic> <corr>loin</corr>
+          </choice>
+          <lb/>
+               de moi, je trouve aussi que
+               c'est tout <choice>
+            <sic>diféren</sic>
+            <corr>différent</corr>
+          </choice>
+          <lb/>
+               que lorsque j'étais à <placeName>S<ex>ain</ex>t-Germain</placeName> ; je t'<choice>
+            <sic>atendais</sic> <corr>attendais</corr>
+          </choice>
+          <lb/>
+               <choice>
+            <sic>toute</sic> <corr>toutes</corr>
+          </choice> les semaines et le temps <choice>
+            <sic>pasait</sic> <corr>passait</corr>
+          </choice> vite.<pb n="84" facs="#ACAS_CRHST_AMP_24_332_0084_r.jpg"/>
+               A présent tu es bien loin, <del>mais j'<choice>
+              <sic>orais</sic> <corr>aurai</corr>
+            </choice> de tes
+               nouvelles.</del> Je ne <subst>
+            <del type="illisible"/> <add>peux</add>
+          </subst> pas penser à t'<choice>
+            <sic>aler</sic> <corr>aller</corr>
+          </choice>
+          <lb/>
+               trouver <choice>
+            <sic>avent</sic> <corr>avant</corr>
+          </choice> d'avoir une santé plus forte ;<lb/>
+               car le <choice>
+            <sic>voyaje</sic> <corr>voyage</corr>
+          </choice> de <choice>
+            <sic>douse</sic> <corr>douze</corr>
+          </choice> <choice>
+            <sic>lieux</sic> <corr>lieues</corr>
+          </choice> me <del>pourait</del>
+          <lb/>
+               fatiguerait beaucoup ; <del>et puis</del> l'<choice>
+            <sic>apartement</sic> <corr>appartement</corr>
+          </choice> ; et
+               <persName>
+            <choice>
+              <sic>Fransoise</sic> <corr>Françoise</corr>
+            </choice>
+          </persName>
+          <lb/>
+               qui est toujours <choice>
+            <sic>demem</sic> <corr>de même</corr>
+          </choice> et que je ne peux<lb/>
+               pas me <choice>
+            <sic>desider</sic> <corr>décider</corr>
+          </choice> à renvoyer. Tout
+               cela, mon<lb/>
+               bon ami, <choice>
+            <sic>m'est</sic> <corr>met</corr>
+          </choice> mon esprit à la gêne et je suis<lb/>
+               à <choice>
+            <sic>atendre</sic> <corr>attendre</corr>
+          </choice> du temps une
+               <choice>
+            <sic>trenquilité</sic> <corr>tranquillité</corr>
+          </choice> que je <choice>
+            <sic>voudrai</sic> <corr>voudrais</corr>
+          </choice>
+          <lb/>
+               tout de suite. Ne te fatigue <choice>
+            <sic>cependans</sic> <corr>cependant</corr>
+          </choice> pas trop<lb/>
+               pour moi ! Tu <subst>
+            <del>c'est</del> <add>sais</add>
+          </subst> que maman a toujours<lb/>
+               été mon conseil favori ; elle est près de moi ;<lb/>
+               ainsi je suis <choice>
+            <sic>ausi</sic> <corr>aussi</corr>
+          </choice> bien que je peux l'être loin<lb/>
+               de celui qui m'aime de si bon cœur. Ton petit<lb/>
+               <choice>
+            <sic>et</sic> <corr>est</corr>
+          </choice> bien gentil il a goûté avec moi et me <choice>
+            <sic>di</sic> <corr>dit</corr>
+          </choice>
+          <lb/>
+               que tu <choice>
+            <sic>aportera</sic> <corr>apporteras</corr>
+          </choice> du bon demain. Adieu mon<lb/>
+               bon ami, nous <choice>
+            <sic>remetron</sic> <corr>remettrons</corr>
+          </choice> le livre à <persName ref="#pers_P457">Pochon</persName> si<lb/>
+               tu peux lui <choice>
+            <sic>remetre</sic> <corr>remettre</corr>
+          </choice> ta loquetière d'ici, avec une<lb/>
+               lettre, tu me fera<add>s</add> plaisir mais adresse tes <choice>
+            <sic>lettre</sic> <corr>lettres</corr>
+          </choice>
+          <lb/>
+               tout simplement à m<ex>a</ex>d<ex>am</ex>e <persName ref="#pers_C129">Ampère</persName> n°18 maison<lb/>
+               <persName>
+            <choice>
+              <sic>Roset</sic> <corr>Rosset</corr>
+            </choice>
+          </persName> au 1me étage, cela m'évitera des <gap reason="illisible"/>
+          <lb/>
+               avec mon beau-frère <del>pour le port des lettre<lb/>
+               <gap reason="illisible"/>
+          </del> Tu ferais bien dans ta première lettre<lb/>
+               de dire un mot pour <del type="illisible"/> tous <add>ceux</add> qui t'aime<add>nt</add> <choice>
+            <sic>bin</sic> <corr>bien</corr>
+          </choice>
+          <pb n="85" facs="#ACAS_CRHST_AMP_24_332_0085_v.jpg"/>
+               Dit moi quel jour il faut <choice>
+            <sic>mette</sic> <corr>mettre</corr>
+          </choice> <choice>
+            <sic>mais</sic> <corr>mes</corr>
+          </choice> <choice>
+            <sic>lettre</sic> <corr>lettres</corr>
+          </choice>
+          <lb/>
+               ici à la poste, si tu pouvais le savoir <choice>
+            <sic>jencerait</sic> <corr>j'en serais</corr>
+          </choice>
+          <lb/>
+               bien aise car je n'ai pas <choice>
+            <sic>put</sic> <corr>pu</corr>
+          </choice> le savoir. J'ai conjecturé<lb/>
+               que c'est demain. Je te dit mille chose pour tous<lb/>
+               tes amis mais <choice>
+            <sic>surtous</sic> <corr>surtout</corr>
+          </choice> pour la maison Périsse.
+               J'ai envoyé la lettre à M. <persName>Martin</persName> ; elle était très<lb/>
+               à propos et fort bien dite. N'oublie pas ta <choice>
+            <sic>loctière</sic> <corr>loquetière</corr>
+          </choice>
+          <lb/>
+            Adieu, adieu je t'embrasse mille <supplied>fois</supplied> et me porte bien<lb/>
+               depuis ta lettre. C'est M. <persName ref="#pers_C162">
+            <choice>
+              <sic>Coupier</sic> <corr>Couppier</corr>
+            </choice>
+          </persName> qui m'a remis la<lb/>
+            lettre que je <choice>
+            <sic>tenvoy</sic> <corr>t'envoie</corr>
+          </choice>
+        </p>
+            <closer>Au Citoyen <persName ref="#pers_A366">Ampère</persName>,<lb/>
+               chez le Citoyen<lb/>
+               <persName ref="#pers_B42">Beauregard</persName>, professeur<lb/>
+               d'histoire à l'<orgName>École
+               centrale<lb/>
+                  du département de l'Ain</orgName>, près<lb/>
+               l'<placeName>Église Notre-Dame</placeName>,<lb/>
+               à <placeName>Bourg</placeName>.</closer>
+         </div>
+      </body>
+      <back>
+         <div>
+            <note xml:id="corresp1">(1) Quelques lignes ont été publiées par Mme <persName>Cheuvreux</persName>, p. 173
+               et 174. (2) Habitation des <persName>Carron</persName>. (3) M. <persName ref="#pers_C162">Couppier</persName> était depuis longtemps en relation
+               scientifique avec <persName ref="#pers_A366">Ampère</persName> et on le voit souvent venir rendue visite à <persName ref="#pers_C129">Julie</persName> (voir p.
+               117, etc.). </note>
+         </div>
+      </back>
+   </text>
+</TEI>

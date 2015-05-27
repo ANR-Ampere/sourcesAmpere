@@ -1,0 +1,187 @@
+<?xml-model href="../../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 843</title>
+                <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+                    <forename>André-Marie</forename>
+                    <surname>Ampère</surname>
+                </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                            sciences</affiliation>
+                    </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+                    <name>Centre de calcul de l'IN2P3</name>
+                    <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+                </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="copie">
+                    <msIdentifier xml:id="ampere_corr_L1805-09-18-A">
+                        <country>France</country>
+                        <settlement>Poleymieux</settlement>
+                        <institution>musée Ampère</institution>
+                    <altIdentifier>
+              <idno type="old">L843</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+                    
+                    <physDesc>
+                        <p>Photocopie</p>
+                        <handDesc>
+                            <handNote corresp="#AMA">
+                                <name type="person" key="Ampère, André-Marie (1775-1836)">
+                                    <forename>André-Marie</forename>
+                                    <surname>Ampère</surname>
+                                </name>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <listWit>
+                    <witness xml:id="L843manuscrit">
+                        <msDesc type="original_manuscrit">
+                            <msIdentifier>
+                                <repository>inconnu</repository>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1805-09-18">18 septembre 1805</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Clerc, François</persName>
+        </correspAction>
+      </correspDesc>
+            <creation>
+                <date when="2014-07">juillet 2014</date>
+                <name>Philippe Pons</name>
+                <name>Aude Coustumer</name>
+            </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="correspondance" decls="#ampere_corr_L1805-09-18-A">
+        <body>
+            <div>
+                <opener>
+                    <persName>Ampère, André-Marie</persName>
+                    <date when="1805-09-18" calendar="revolutionary">30 fructidor [an XIII] [18 septembre 1805]</date>
+                </opener>
+                <p>Je n'ai pas répondu sur le champ, mon cher ami à la lettre que vous m'avez fait
+                    le plaisir de m'écrire. C'est que je voulais voir quel succès auraient mes
+                    démarches pour une place à <placeName>Paris</placeName>. J'ai reçu l'accueil le
+                    plus favorable de MM. <persName>Delambre</persName>,
+                    <persName>Delagrange</persName>, etc. Mais tout cela ne servira probablement à
+                    rien et je crois très probable à présent que je m'en retournerai à
+                    <placeName>Lyon</placeName> comme j'en suis venu. J'ai parlé de votre changement
+                    de lycée à Mr. <persName>Delambre</persName> mais j'ai vu tout de suite d'après
+                    sa réponse que cela était infiniment difficile vu le grand nombre de demandes du
+                    même genre, et celui des personnes par les mains de qui il faut que chaque
+                    demande passe. Je ne crois pas malgré tout l'accueil que j'ai reçu qu'il me fut
+                    possible de parvenir à une place de mathématiques transcendantes dans un lycée
+                    de province. Adieu, mon cher ami, en repassant à <placeName>Moulins</placeName>,
+                    puisque je prévois que je retournerai à Lyon comme je suis venu, je pourrai vous
+                    donner différents détails sur toutes ces affaires et sur les démarches que j'ai
+                    tentées. Je vous souhaite de bien bon cœur un meilleur succès dans celles que
+                    vous tenterez. Mes respects, s'il vous plaît, à Madame votre épouse. J'espère
+                    que vous êtes tous deux en bonne santé. Adieu, pensez quelquefois à moi et aimez
+                    moi comme je vous aime. <persName>A. Ampère</persName>
+                </p>
+                <closer>Monsieur <persName>Clerc</persName>, professeur de mathématiques au
+                    <orgName>Lycée de <placeName>Moulins</placeName>
+          </orgName>. Dépt de
+                    l’<placeName>Allier</placeName>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

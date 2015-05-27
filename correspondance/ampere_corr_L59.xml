@@ -1,0 +1,287 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 59</title>
+                <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre
+                        Koyré</affiliation>
+          </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                            sciences</affiliation>
+          </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+          <name>Centre de calcul de
+                    l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="original_manuscrit">
+                    <msIdentifier xml:id="ampere_corr_L1801-03-00-C">
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des
+                            sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 393 quarto</idno>
+                    <altIdentifier>
+              <idno type="old">L59</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+          
+                    <physDesc>
+                        <p>Quatre pages in-4° ; adresse sur la quatrième.</p>
+                    </physDesc>
+                </msDesc>
+                <listWit>
+                    <witness xml:id="L59CGA">
+                        <biblStruct>
+                            <monogr>
+                                <author>
+                                    <surname>De Launay</surname>
+                                    <forename>Louis</forename>
+                </author>
+                                <title>Correspondance du Grand Ampère</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Gauthier-Villars</publisher>
+                                    <date when="1936">1936</date>
+                                    <biblScope type="tome">I.</biblScope>
+                                    <biblScope type="pp">p. 068</biblScope>
+                                </imprint>
+                            </monogr>
+                            
+                        </biblStruct>
+                      </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_A366">Ampère, André-Marie</persName>
+          <date when-iso="1801-03-00"> mars 1801</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
+        </correspAction>
+        <note type="noteDelaunay">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+            <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+                    Coustumer</name>
+      </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="correspondance" decls="#ampere_corr_L1801-03-00-C">
+        <body>
+            <div>
+                <opener>
+          <pb n="1408" facs="#ACAS_CRHST_AMP_26_393_quarto_0680_r.jpg"/>
+          <placeName>Lyon</placeName> le <date when-iso="1801-03">lundi [mars 1801]</date>
+        </opener>
+                <p>Que je suis content, ma bonne<lb/>
+                    amie, de trouver <del>une occasion</del>
+          <lb/>
+                    de t'écrire : <del>il me semblait qu'il<lb/>
+                    me manquait quelque chose après<lb/>
+                        t'avoir quittée.</del> Nous avions été<lb/>
+                    si peu en tête <add>à tête</add>, et, <del>quand nous<lb/>
+                        y avions été, ç'avait été</del> <add>
+            <del type="illisible"/>
+          </add>, pour parler<lb/>
+                    de la pluie et du beau <choice> <sic>tems</sic> <corr>temps</corr>
+          </choice>,<lb/>
+                    du froid et du chaud. <del>Je craignais<lb/>
+                        aussi d'avoir été
+                    cause que tu<lb/>
+                        fusses mouillée. Heureusement<lb/>
+                        que le mauvais <choice>
+              <sic>tems</sic> <corr>temps</corr>
+            </choice> se contenta<lb/>
+                        de faire quelques menaces sans<lb/>
+                        effet.</del> Comme <subst>
+            <del>j'avais</del> <add>j'ai</add>
+          </subst> besoin de<lb/>
+                    me rappeler les
+                    heureux <choice>
+            <sic>momens</sic> <corr>moments</corr>
+          </choice>
+          <lb/>
+                    <del>que j'avais eus à mon réveil et que<lb/>
+                    tu avais si vite terminés.
+                    Ils avaient<lb/> bien</del> peu duré ! <del>Mais</del> je me nourris<del>sais</del>
+          <lb/>
+                    de la pensée que je les
+                    retrouverais<lb/>
+                    jeudi. Oh, tiens, si je n'allais pas
+                    <pb n="1409" facs="#ACAS_CRHST_AMP_26_393_quarto_0681_v.jpg"/>
+                    après-demain habiter avec toi la<lb/>
+                    petite maison blanche, le <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice>
+          <lb/>
+                    me durerait <subst>
+            <del>plus qu'il n'a encore<lb/>
+                    fait.</del> <add>par trop</add>
+          </subst> Je
+                    voudrais bien pouvoir<lb/>
+                    <subst>
+            <del>t'écrire</del> <add>te dire</add>
+          </subst> tout ce que je sens,<lb/>
+                    mais cela t'<choice>
+            <sic>amuserais</sic> <corr>amuserait</corr>
+          </choice> moins<lb/>
+                    que les nouvelles que je puis te<lb/>
+                    donner de ton frère, et<lb/>
+                    <del>je n'ai pas du temps
+                    pour tout.</del>
+          <lb/>
+                    J'ai vu Mlle <persName ref="#pers_C118">Jenny</persName>, arrivée de<lb/>
+                    <placeName>Paris</placeName>, <del>qui m'a dit qu'elle avait<lb/>
+                    laissé tout le monde en bonne<lb/>
+                        santé</del>, <del type="bloc">que les nouveaux hôtes<lb/>
+                    de <placeName>Paris</placeName> <ref>(2)</ref>
+                    l'avaient chargée de<lb/>
+                    tant de choses pour vous toutes,<lb/>
+                            et qu'elle mourait d'envie de<lb/>
+                            vous voir et de vous embrasser.<lb/>
+                            Mme <persName>Campredon</persName> voulait me<lb/>
+                            donner de l'argent pour<lb/>
+                            <persName ref="#pers_C125">élise</persName> de la part de Mme <persName ref="#pers_C124">Carron</persName>
+            <lb/>
+                            mais elle ne s'en trouvait pas<lb/>
+                            sur elle ; elle a dit que ce serait<pb n="1410" facs="#ACAS_CRHST_AMP_26_393_quarto_0682_r.jpg"/>
+                            pour une autre fois.</del>
+          <lb/>
+                    Tous les paquets et préparatifs<lb/>
+                    de Mme <persName>Périsse</persName> ont été suspendus<lb/>
+                    par la subite arrivée de<lb/>
+                    je ne sais combien de
+                    cousins<lb/> et de cousines de <placeName>Grenoble</placeName>,<lb/>
+                    Il faut qu'elle les mène<lb/> promener, etc. Hier
+                    au spectacle<lb/> sans <persName>Jules</persName>, bien inquiète. Que<lb/>
+                    sais-je tout ce <choice>
+            <sic>quel</sic> <corr>qu'elle</corr>
+          </choice> m'a<lb/>
+                    dit sur l'ennui qu'elle en<lb/>
+                    a éprouvé ; mais ce sont<lb/>
+                    <supplied>de</supplied> petits ennuis qui ne l'ont<lb/>
+                    fatiguée qu'en dérangeant<lb/>
+                    son voyage ; elle compte<lb/>
+                    toujours qu'il aura lieu vers<lb/>
+                    la fin de la semaine. Adieu<lb/>
+                    ma bonne, ma tant bonne<lb/>
+                    amie, si tu savais avec<lb/>
+                    quelle précipitation je<pb n="1411" facs="#ACAS_CRHST_AMP_26_393_quarto_0683_v.jpg"/>
+                    te dis adieu, <del>comme je t'embrasse<lb/> partout, excepté où</del> tu
+                    sais<lb/> <del>bien</del> ; <del>c'est un baiser réservé<lb/>
+                        à jeudi</del>. Que je t'aime, que je<lb/> voudrais être
+                    près de toi.<lb/>
+                    A mercredi. Adieu, ma <persName ref="#pers_C129">Julie</persName> !</p>
+                <closer>A ma <persName ref="#pers_C125">Julie</persName>
+          <lb/> chez <choice>
+            <sic>Madame<lb/>
+                    Madame</sic> <corr>Madame</corr>
+          </choice> <persName ref="#pers_C124">Carron</persName>,<lb/>
+                    à <placeName>S<ex>ain</ex>t-Germain<lb/>au Mont d'Or</placeName>.</closer>
+            </div>
+        </body>
+        <back>
+            <div>
+                <note xml:id="corresp1">(1) Quatre pages in-4° ; adresse sur la quatrième. (2) Le
+                    ménage <persName>Carron</persName> était à <placeName>Paris</placeName>. Voir une lettre du frère <persName ref="#pers_C127">Carron</persName> du <date when="1801-03-16">16 mars 1801</date>.
+                </note>
+            </div>
+        </back>
+    </text>
+</TEI>

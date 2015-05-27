@@ -1,0 +1,242 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 482</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+               <forename>André-Marie</forename>
+               <surname>Ampère</surname>
+            </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des sciences</affiliation>
+               </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+               <name>Centre de calcul de l'IN2P3</name>
+               <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+            </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1814-06-00-A">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+                  </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 478-479-480</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L482</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L482manuscrit">
+                  <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 340</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Six pages in-4°, sans adresse.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1814-06-00">juin 1814</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Bredin, Claude-Julien</persName>
+        </correspAction>
+        <note type="noteDelaunay">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+            <date when="2014-07">juillet 2014</date>
+            <name>Philippe Pons</name>
+            <name>Aude Coustumer</name>
+         </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1814-06-00-A">
+      <body>
+         <div>
+            <opener>
+               <date when-iso="1814-06">[Fin juin 1814]</date>
+            </opener>
+            <p>Combien ta lettre du <date when="1814-06-26">26 juin</date> que je viens de recevoir,
+               m'a douloureusement affecté ! Mon pauvre ami, cette affreuse disposition de l'âme à
+               souffrir de tout ce qui m'a tant tourmenté s'est emparée de ton âme ! Moi, du moins,
+               j'avais à me reprocher de m'être attiré mes peines ; mais toi, qu'as-tu fait pour
+               souffrir aussi ? Dans mes dernières douleurs, je maudissais mon sort ; mais je ne
+               pouvais m'indigner qu'il m'eût enlevé, pour le reste de ma vie, le bonheur de me
+               consacrer à une existence à laquelle je n'avais aucun droit. La punition était
+               affreuse sans être injuste ; mais toi !... Non, mon ami, il est affreux que les
+               égoïstes et les êtres avilis soient seuls heureux sur la terre. Je t'ai parlé
+               d'<persName>Augustin Périer</persName>... et toi aussi, <persName>Bredin</persName> !
+               Voilà ce qui m'indigne et me révolte. C'est un tourment inexprimable pour moi d'y
+               penser seulement ! Je me sens des élans vers une autre existence qui sont mêlés de
+               tant de sentiments opposés que je ne saurais dire si c'est un bien ou une peine de
+               les éprouver ; mais ils flétrissent tout ce qui adoucirait celle-ci. Comment
+               peut-elle être si longue en s'écoulant avec cette inconcevable rapidité ? Déjà plus
+               de trois mois depuis le <date when="1814-03-14">14 mars</date>, et le souvenir en est
+               toujours là ! Rien ne peut écarter ce fantôme de ma pensée ; il n'a fait que
+               traverser l'existence, et la mienne durera encore longtemps. Je voudrais savoir ce
+               que l'homme éprouve à l'entrée de la vie. Sont-ce des tourments indicibles ou des
+               jouissances dont nous ne pouvons nous faire une idée ? Une rage de dents qui me
+               déchire depuis trois jours m'ôte l'usage de la réflexion. Je m'efforce en vain de
+               travailler. <title>L'<placeName>Allemagne</placeName>
+          </title>
+               <ref type="ouvrages_mentionnes" target="#ampere_ref_P137.xml">*</ref> m'a soulagé, je
+               n'en ai lu de suite que le troisième volume. Je t'en prie, lis-le tout et parle-m'en
+               si tu peux m'écrire un peu en détail : de celui-là seulement.
+               <persName>Camille</persName> a les deux ouvrages de <persName>B. [Benjamin]
+               Constant</persName>
+               <ref type="ouvrages_mentionnes" target="#ampere_ref_P420.xml">*</ref>
+               <ref type="ouvrages_mentionnes" target="#ampere_ref_P189.xml">*</ref> ; demande-les
+               lui à emprunter, je t'en prie en grâce. <persName>Périsse</persName> te remettra deux
+               petits volumes que je me suis procurés pour que quelqu'un pût les sentir et les
+               admirer. La première personne à qui je les ai prêtés les a trouvés ennuyeux et
+               insensés. Cela m'a fait un mal inexprimable. Ils sont à toi à condition que tu les
+               lises et que tu m'en parles. Si tu peux, lis-les avec d'autres et que je sache sur
+               qui ils font une impression semblable à celle que j'ai ressentie, sur qui ils en font
+               une toute opposée. Pense, cher ami, pense qu'il serait peut-être possible que je
+               passasse cet automne quelque temps avec toi ! Cette idée est comme un baume pour les
+               blessures de mon cœur. Que je serais heureux si elle pouvait mêler quelques charmes à
+               tes peines ! Ah, cela est encore plus qu'incertain. D'ailleurs, te l'avouerai-je, je
+               ne me déterminerai à passer quelques mois loin de <placeName>Paris</placeName> que si
+               je peux faire cadrer cela avec les travaux qui me restent pour seul but de mon
+               existence. Il faut que j'aie la certitude de pouvoir y parler de psychologie, et cela
+               n'est pas facile à <placeName>Lyon</placeName>. Ce n'est plus sur le tableau, etc. Il
+               reste à présent comme il est, je ne m'en occupe plus. C'est sur ma théorie des
+               relations, de l'existence, des connaissances subjectives et objectives, et de la
+               moralité absolue que j'ai besoin de discuter comme toi, de voyager ; j'irais chercher
+               au bout du monde quelqu'un qui voulût en parler avec moi. Ainsi, si tu veux me voir
+               cet automne, il faut d'abord t'assurer d'un auditeur bénévole. C'est la condition
+                  <foreign xml:lang="lat">sine qua non</foreign> ; il faut que j'aie une certitude
+               complète d'en pouvoir parler au moins quatre après-dîners par semaine et en écrire le
+               reste du temps, avec la certitude d'être lu à mesure pour me donner le courage
+               d'écrire. J'écrirais moi-même ce que j'aurais expliqué la veille ; mais il faudrait
+               que je fusse sûr qu'après m'avoir bien compris, on pût prononcer si ce qui est écrit
+               est suffisamment clair pour être imprimé ; sans cela, je ne ferai jamais rien, et
+               cette pensée me désespère au point de désirer dans certains moments la fin de mon
+               existence pour ne plus sentir cette douleur de l'avoir sans en retirer aucun avantage
+               pour moi, ni pour les autres. Voilà, j'ai peur, la plus folle de toutes mes idées
+               d'exécution saisies avec tant d'ardeur et qui ont toujours échoué ! Mais, si tu la
+               juges telle, je m'y attache si fort, qu'il faut vite que tu m'écrives pour m'en
+               dissuader. Mes pauvres mathématiques en souffriraient peut-être sans cela autant
+               qu'elles me font souffrir. Je voudrais que le ridicule t'en frappât tellement que tu
+               en pusses bien rire pour t'égayer ; mais j'aimerais mieux que tu prisses une sorte
+               d'enthousiasme pour un projet qui me rendrait la vie, et laisserait un ouvrage
+               peut-être important sur la terre... Voilà qu'on a besoin de moi ; il faut te
+               quitter ! Adieu, adieu, <persName>Bredin</persName>, ton ami t'embrasse. écris-moi et
+               tâche de rouvrir ton âme aux impressions qui en ont fait le charme tant de fois !
+               Peut-être auprès l'un de l'autre retrouverions-nous quelques sentiments divins comme
+               ceux d'autrefois. Ah, mon ami ! quel sort impitoyable nous a ainsi séparés pour nous
+               accabler de douleurs que l'autre ne pût pas soulager en les partageant ! Adieu,
+               aime-moi comme je t'aime ! Pense à moi comme je pense sans cesse à toi, et surtout
+               écris-moi ! Je t'embrasse mille fois de toute mon âme.</p>
+         </div>
+      </body>
+      <back>
+         <div>
+            <note xml:id="corresp1">(1) Six pages in-4°, sans adresse.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

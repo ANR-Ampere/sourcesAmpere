@@ -1,0 +1,810 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:m="http://www.w3.org/1998/Math/MathML" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Publications d'André-Marie Ampère - P70</title>
+                <author key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/">
+          <forename>André-Marie</forename>
+                    <surname>Ampère</surname>
+        </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>AZENTIS</name>
+                    <resp>OCRisation et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+                        <addrLine>27 rue Damesme </addrLine>
+                        <addrLine>75013 Paris</addrLine>
+                    </address>
+                <distributor>
+                    <name>Centre de calcul de l'IN2P3</name>
+                    <address>
+                        <addrLine>Domaine scientifique de la Doua</addrLine>
+                        <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+                        <addrLine>69622 Villeurbanne Cedex</addrLine>
+                    </address>
+                </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date>2013</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:id="ampere_publi_P1821-G" xml:lang="fr" type="Article_de_périodique">
+                    <analytic>
+                        <author>
+              <persName>
+                <surname>Ampère</surname>
+                <forename>André-Marie</forename>
+              </persName>
+            </author>
+                        <title level="a">Suite de la Note sur un Appareil à l'aide duquel on peut vérifier toutes les propriétés des conducteurs de l'électricité voltaïque, découvertes par M. Ampère</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Annales de chimie et de physique</title>
+                        <imprint>
+                            <date when="1821">1821</date>
+                            <biblScope type="vol">18</biblScope>
+                            <biblScope type="pp">p. 313-333</biblScope>
+                        </imprint>
+                    </monogr>
+                    <idno type="issn">0365-1444</idno>
+                    <idno type="url_pdf">http://www.ampere.cnrs.fr/bibliographies/pdf/1821-P070.pdf</idno>
+                    <idno type="url_google">http://books.google.com/books?id=y5g5AAAAcAAJ&amp;printsec=frontcover&amp;dq=editions:0uQx72yhfVPwMl6&amp;lr=&amp;as_brr=1&amp;hl=fr-BR#v=onepage&amp;q=&amp;f=false </idno>
+                    <idno type="M">BDDprim00119</idno>
+                <idno type="old">P70</idno>
+        </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date>novembre 2014</date>
+                <name>AZENTIS</name>
+            </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>novembre 2014</date>
+                <name>Philippe Pons</name>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text decls="#ampere_publi_P1821-G" type="publications">
+        <front>
+            <docTitle>
+                <titlePart rend="center">
+          <title>ANNALES<lb/>
+DE<lb/>
+CHIMIE ET DE PHYSIQUE,
+</title>
+        </titlePart>
+            </docTitle>
+            <docAuthor>Par MM. <persName ref="#pers_G269">GAY-LUSSAC</persName> et
+                <persName ref="#pers_A20">ARAGO</persName>.</docAuthor>
+            <docEdition>TOME DIX-HUITIÈME.</docEdition>
+            <docImprint>A
+                <placeName ref="#pl_P6">PARIS</placeName>,<address>
+          <addrLine>Chez CROCHARD,
+                    Libraire, Cloître Saint-Benoît, n° 16,<lb/>
+près celle des Mathurins.
+</addrLine>
+        </address>
+      </docImprint>
+            <docDate>
+        <date when="1821">1821</date>.</docDate>
+        </front>
+        <body>
+            <div>
+                <head>
+          <pb n="313"/>
+                    <title>
+            <hi rend="sc">Suite</hi> <hi rend="it">de la Note</hi>
+            <ref target="#P070-1821_AMA1"> (1)</ref> <hi rend="it">sur un Appareil à l'aide<lb/>
+duquel on peut vérifier toutes les propriétés des<lb/>
+conducteurs de l'électricité voltaïque,</hi> <hi rend="it">décou</hi>
+            <lb rend="hyphen"/>
+            <hi rend="it">vertes par M.</hi> <hi rend="sc">
+              <persName ref="#pers_A366">Ampère</persName>
+            </hi>.
+</title>
+        </head>
+                <p>
+          <hi rend="sc">L’expérience</hi> que nous avons décrite (t. XVIII, p. 104<lb/> et
+                    105 des <title>Annales</title>) peut refaire d'une manière plus
+                    com<pb n="314" rend="hyphen"/>mode, lorsque le système des conducteurs fixes <hi rend="it">QQ'ω'ω</hi>
+          <lb/> (fig. 12) est élevé de quelques pouces au-dessus
+                    de la table<lb/>
+                    <hi rend="it">ABCD</hi>, en remplaçant le conducteur mobile de la fig. 10<lb/>
+                    par celui qui est représenté ici (pl. 3, fig. 13) ; on le
+                    dis<lb rend="hyphen"/>pose de manière que les deux pointes <hi rend="it">x</hi>,<hi rend="it"> y</hi> plongent dans<lb/> les godets <hi rend="it">M,
+                        M'</hi> (fig. 12), mais qu’une seule des<lb/> deux, la première, par
+                    exemple, atteigne le fond du<lb/> godet où elle est reçue. La longueur de ce
+                    conduc<lb rend="hyphen"/>teur mobile doit être telle que le contour mobile<lb/>
+                    <hi rend="it">bcdikl</hi> se trouvant au-dessus des conducteurs fixes<lb/>
+                    <hi rend="it">QQ'ω'ω</hi>, le contour <hi rend="it">efrgh</hi>, où le courant
+                    électrique<lb/> se meut en sens contraire, pour que l’action de la terre<lb/>
+                    soit égale et opposée sur ces deux contours, et par
+                    con<lb rend="hyphen"/>séquent nulle sur le conducteur mobile, se trouve
+                    au-<lb/>dessous : d’après cette disposition, le courant ayant la<lb/> même
+                    direction dans les quatre branches <hi rend="it">cd, ef, gh, ik<lb/>
+                    </hi>de ce conducteur, et les conducteurs fixes étant plus près<lb/> de ces
+                    branches que de bc<hi rend="it"> frg</hi> et <hi rend="it">kl,</hi> où le
+                    courant est<lb/> dirigé en sens contraire, leur action fera tourner le<lb/>
+                    conducteur mobile jusqu'à ce que son plan soit paral<lb rend="hyphen"/>lèle aux
+                    conducteurs fixes, et que le sens des <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice>
+          <lb/> soit le même dans ces conducteurs et dans lés quatre<lb/>
+                    branches c<hi rend="it">d, ef, gh,</hi>
+                    <hi rend="it">ik </hi>du conducteur mobile. L’usage<lb/> de l’appareil décrit
+                    dans cette note a aussi appris à M.
+                    <persName ref="#pers_A366">Am<lb rend="hyphen"/>père</persName> que, pour avoir
+                    des actions plus fortes dans les expé<lb rend="hyphen"/>riences relatives aux
+                    deux premiers faits, il était bon de<lb/> remplacer les conducteurs fixes
+                    représentés figures 1 et 2<lb/> (pl. 1) par des conducteurs <hi rend="it">bag,
+                        b'a'g'</hi> d’un fil beau<lb rend="hyphen"/>coup plus gros (pl. 3, fig. 17
+                    et 18). Les tubes de verre,<lb/> dans lesquels il avait d’abord renfermé ces
+                    conducteurs<lb/> pour en empêcher la flexion, deviennent alors inutiles,
+                    <pb n="315"/> pourvu que l’on fasse les parties <hi rend="it">UV, U'V'</hi> de
+                    l’appa<lb rend="hyphen"/>reil (pl. 2, fig. 12) en ivoire ou en toute autre
+                    ma<lb rend="hyphen"/>tière isolante, afin d'intercepter toute
+                    communication,<lb/> par ces parties, entre les conducteurs fixes et le
+                    reste<lb/> de l'appareil ; c’est par un moyen semblable qu’il faut<lb/>
+                    isoler le godet <hi rend="it">H</hi>de la verge en équerre <hi rend="it">EFG</hi>, sur<lb/> laquelle il repose. </p>
+                <p>IV<hi rend="sup">e</hi>
+                    <hi rend="sc">Fait</hi>. <hi rend="it">La pile elle-même agit dans ces
+                        expé<lb rend="hyphen"/>riences comme toute autre partie du circuit
+                        voltaïque,<lb/> en ayant égard à la direction du courant électrique qui<lb/>
+                        la parcourt, Dans la disposition ordinaire des piles à<lb/> auges, cette
+                        direction du courant dans la pile est du<lb/> pôle cuivre, au pôle zinc,
+                        puisqu'il revient dans le fil<lb/> conducteur du pôle zinc au pôle cuivre.
+                        Mais quand<lb/> la pile se compose d'un seul couple, le zinc enlevant<lb/>
+                        l’électricité au cuivre au point où ces deux métaux<lb/> sont en contact
+                        dans le reste du circuit, le courant va<lb/> dans la pile de la plaque de
+                        zinc à celle de cuivre.</hi>
+                </p>
+                <p>
+          <hi rend="it">Expérience.</hi> Comme cette expérience réussit très<lb/> bien avec
+                    la pile spirale à un seul couple, inventée par<lb/> M. le lieutenant-colonel du
+                    génie <persName ref="#pers_O424">W. Offerhaus</persName>, c’est<lb/> cette sorte
+                    de pile, modifiée convenablement, qu’il est<lb/> à propos d’employer. En roulant
+                    sur lui-même un des<lb/> petits côtés d’une lame de cuivre rectangulaire, on
+                    en<lb/> forme un cylindre <hi rend="it">AA'</hi> (fig. 14) d’environ 2
+                    centi<lb rend="hyphen"/>mètres de diamètre ; la largeur de cette lame doit
+                    être<lb/> égale à la hauteur qu’on veut donner à la pile, et qui doit<lb/> être
+                    plus grande que la longueur de la partie <hi rend="it">cd</hi> du<lb/>
+                    conducteur mobile de la figure 9 (pl. 1), sur laquelle<lb/> elle doit agir. </p>
+                <p>On roule ensuite ce rectangle de cuivre autour du <pb n="316"/> cylindre, en
+                    plaçant entre lui et la surface de ce cylindre en<lb/> rectangle de zinc laminé
+                        <hi rend="it">FGHI</hi> de même largeur que<lb/> celui de cuivre, mais un
+                    peu moins long, et enveloppé d’un<lb/> filet, afin que, serré d'abord entre la
+                    surface du cylin<lb rend="hyphen"/>dre et la lame de cuivre, puis entre les
+                    spires consécu<lb rend="hyphen"/>tives de cette dernière, il ne soit nulle part
+                    en contact<lb/> métallique avec elle en coupant cette lame de zinc de<lb/> la
+                    largeur convenable, on doit ménager un appendice<lb/>
+                    <hi rend="it">HKL</hi>, qu’on recourbe de manière qu'après avoir monté<lb/>
+                    verticalement de <hi rend="it">H</hi> en <hi rend="it">K</hi>, il redescend dé
+                        <hi rend="it">K</hi> en <hi rend="it">L</hi> ; la<lb/> partie
+                    descendante <hi rend="it">KL</hi> est doublée d’une petite lame<lb/> de cuivre
+                        <hi rend="it">MN</hi>, soudée avec elle depuis <hi rend="it">M</hi> jusqu’en
+                        <hi rend="it">L</hi>,<lb/> et dont l’extrémité inférieure <hi rend="it">LN</hi> est destinée à plonger<lb/> dans le mercure du godet <hi rend="it">H</hi> (pl. 2, fig. 12). C’est<lb/> dans cette soudure qu’a lieu l’action
+                    électromotrice de<lb/> l’appareil.</p>
+                <p>Après que les deux lames ont été ainsi roulées en spi<lb rend="hyphen"/>rales
+                    l'une autour de l’autre, on recourbe la tranche exté<lb rend="hyphen"/>rieure et
+                    verticale <hi rend="it">DD'</hi> (fig. 14) de la lame de cuivre<lb/>
+                    <hi rend="it">ABCD</hi>, contre cette même lame, et on l’y soude dans la<lb/>
+                    ligne <hi rend="it">DD'</hi> ; le tout est ensuite soudé à un fond en cuivre<lb/>
+                    <hi rend="it">TT'</hi>, porté sur trois pieds <hi rend="it">S</hi>,<hi rend="it"> S', S"</hi>, et auquel est sou<lb rend="hyphen"/>dée par-dessous
+                    l’extrémité <hi rend="it">P</hi> d’une petite lame de cuivre<lb/>
+                    <hi rend="it">PQR</hi>, dont l’autre extrémité <hi rend="it">R</hi> est destinée
+                    à plonger dans<lb/> le mercure de la coupe <hi rend="it">S'</hi> (fig. 12). On
+                    ajoute à la partie<lb/> supérieure de la lame de cuivre roulée en spirale
+                    autour<lb/> de celle de zinc, une lame de cuivre <hi rend="it">VX</hi> (fig.
+                    14)), dont<lb/> nous indiquerons tout-à-l’heure l’usage. Après avoir
+                    rem<lb rend="hyphen"/>pli tout l’espace compris entre les spires des deux lames,<lb/>
+                    <hi rend="it">ABCD, FGHI</hi>, d’eau acidulée qui se trouve
+                    conte<lb rend="hyphen"/>nue dans l’espèce de vase formé par la lame <hi rend="it">ABCD</hi>, <pb n="317"/> on place promptement les extrémités <hi rend="it">N</hi>, <hi rend="it">R</hi> des petites<lb/> lames de cuivre <hi rend="it">MN</hi>, <hi rend="it">PQR</hi>, dans le mercure des
+                    cou<lb rend="hyphen"/>pes où nous avons dit qu’elles devaient être
+                    placées ; on<lb/> fait communiquer la coupe <hi rend="it">S'</hi> où se
+                    rend la lame<lb/>
+                    <hi rend="it">PQR</hi> avec la coupe ε' (fig. 12), en faisant plonger la<lb/>
+                    lame Δ' dans le mercure de cette coupe ; la lame AA'<ref target="#P070-1821_AMA2">(1)</ref>
+          <lb/> communiquant à l’un des godets <hi rend="it">L</hi> ou <hi rend="it">L'</hi> on fait
+                    com<lb rend="hyphen"/>muniquer l’autre au moyen de la lame <hi rend="it">OO'</hi> avec le godet<lb/>
+                    <hi rend="it">H</hi>, où plonge l'extrémité <hi rend="it">N</hi> de la lame <hi rend="it">MN</hi> (fig. 14), et<lb/> on en écarte la lame ΓΦΦ'Φ' (fig. 12),
+                    qui s’y rend dans<lb/> la fig. 12. D’après cette disposition, le courant
+                    électrique<lb/> de la pile y est toujours descendant, puisqu’il se rend<lb/> à
+                    travers l’eau acidulée, du zinc qui communique par<lb/> en haut avec le godet
+                        <hi rend="it">H</hi>, au cuivre qui communique par<lb/> en bas avec la coupe
+                        <hi rend="it">S'</hi> ; à partir de cette coupe, il suit<lb/> là lamé
+                    Σ'Ψ'Δ', qui l’amène dans la coupe ε' ; il remonte<lb/> par la verge en
+                    équerre <hi rend="it">EFG</hi>, d’où il se rend dans le<lb/> conducteur mobile,
+                    comme dans les expériences précé<lb rend="hyphen"/>dentes ; il revient
+                    ensuite par la lame <hi rend="it">OO'</hi> dans le godet<lb/>
+                    <hi rend="it">H</hi>, qui est en communication avec l’extrémité de la<lb/> pile
+                    opposée à celle dont il est parti.</p>
+                <p>
+          <pb n="318"/> Si c’est le godet <hi rend="it">L</hi> qui reçoit la lame ΔΔ', le
+                    cou<lb rend="hyphen"/>rant arrivera dans le conducteur mobile de la figure
+                    9<lb/> par la pointe supérieure <hi rend="it">x</hi> qui communique avec ce
+                    go<lb rend="hyphen"/>det, et sera par conséquent aussi descendant dans la<lb/>
+                    partie <hi rend="it">cd</hi> de ce conducteur mobile sur lequel doit
+                    s’exer<lb rend="hyphen"/>cer l’action de la pile ; cette action doit donc
+                    être attrac<lb rend="hyphen"/>tive dans ce cas, en admettant que le courant de
+                    la<lb/> pile agit comme celui d’un fil conducteur, et c’est<lb/> en effet ce
+                    qu’on observe quand on fait l’expérience. Si,<lb/> au contraire, on fait arriver
+                    la lame ΔΔ' (fig. 12) dans<lb/> le godet <hi rend="it">L'</hi>, le courant
+                    arrivant au conducteur par la<lb/> pointe inférieure <hi rend="it">γ</hi> sera
+                    ascendant dans la branche <hi rend="it">cd<lb/>
+                    </hi>(fig. 9) de ce conducteur, d’où résulte la répulsion qu'on<lb/> observe
+                    dans ce cas. </p>
+                <p>V<hi rend="sup">e</hi>
+                    <hi rend="sc">Fait</hi>. <hi rend="it">Lorsque le conducteur mobile forme un
+                        cir<lb rend="hyphen"/>cuit presque fermé dans un plan vertical,</hi>
+                    <hi rend="it">et ne</hi>
+                    <hi rend="it">peut<lb/> que tourner autour de. la perpendiculaire à l'horizon
+                        qui<lb/> passe par son centre de gravité,</hi>
+                    <hi rend="it">il est amené, par l'ac<lb rend="hyphen"/>tion du globe terrestre,
+                        dans une situation où le plan de<lb/> ce conducteur forme un angle droit
+                        avec le méridien<lb/> magnétique, et oit la direction du courant
+                        électrique<lb/> dans sa partie inférieure est dirigée de l'est à
+                        l'ouest ;<lb/> et lorsqu'on l'écarte de cette situation, il y revient
+                        et<lb/> s'y arrête après avoir oscillé autour d'elle, précisément<lb/> comme
+                        il le ferait si l'action que la terre exerce était due<lb/> à un courant
+                        électrique situé au-dessous de sa surface,</hi>
+          <lb/>
+                    <hi rend="it">et dirigé de l'est à l'ouest perpendiculairement au
+                        méri<lb rend="hyphen"/>dien magnétique.</hi>
+                </p>
+                <p>
+          <hi rend="it">Expérience.</hi> Pour vérifier ce fait, on place les
+                    poin<lb rend="hyphen"/>tes <hi rend="it">x, y</hi> du conducteur mobile
+                    représenté figure 6, dans <pb n="319"/> les godets <hi rend="it">M</hi>, <hi rend="it">M'</hi> (fig. 12), les communications étant<lb/> établies entre
+                    ces godets et les. coupes ε', ε, comme on<lb/> le voit dans cette dernière
+                    figure ; si l’on fait commu<lb rend="hyphen"/>niquer la coupe ε' avec
+                    l’extrémité positive de la pile, et<lb/> la coupe ε avec l’extrémité négative,
+                    le courant élec<lb rend="hyphen"/>trique parcourra le conducteur de la figure 6
+                    dans la<lb/> direction <hi rend="it">xbcdc'b'y</hi> (fig. 6 ) ; et si
+                    c’est, au contraire,<lb/> entre ε ( fig. 12) et l’extrémité positive de la pile
+                    qu’on<lb/> établit la communication en faisant communiquer en<lb/> même temps ε'
+                    avec l’extrémité négative, le même cou<lb rend="hyphen"/>rant se meut dans la
+                    direction <hi rend="it">yb'c'dcbx</hi> (fig. 6).<lb/> Dans l’un et l’autre cas,
+                    et quelle que soit la situation<lb/> initiale du conducteur, on le voit tourner
+                    avec une vi<lb rend="hyphen"/>tesse graduellement accélérée autour de la
+                    verticale <hi rend="it">fd</hi>,<lb/> pour prendre la situation où il est
+                    perpendiculaire au<lb/> méridien magnétique <hi rend="it">y</hi> et où le
+                    courant est, dans sa partie<lb/> inférieure <hi rend="it">cdc'</hi>, dirigé de
+                    l’est à l’ouest ; il la dépasse<lb/> bientôt en vertu de la vitesse
+                    acquise, et son mouvement<lb/> se ralentissant peu à peu, il y est ensuite
+                    ramené, et s’y<lb/> arrête après avoir oscillé quelque temps de part et
+                    d’au<lb rend="hyphen"/>tre de cette situation ; en l’en écartant, on l'y
+                    voit re<lb rend="hyphen"/>venir de la même manière. Lorsqu'on change
+                    alternati<lb rend="hyphen"/>vement les communications des coupés ε', et ε avec
+                    les<lb/> extrémités de la pile, on voit le conducteur mobile<lb/> s'arrêter
+                    alternativement dans les deux situations où son<lb/> plan est perpendiculaire au
+                    méridien magnétique. </p>
+                <p>M. <persName ref="#pers_A366">Ampère</persName> a aussi obtenu, et de même au
+                    mois d'<date when="1820-10">oc<lb rend="hyphen"/>tobre 1820</date>, l’action de
+                    la terre sur le conducteur mo<lb rend="hyphen"/>bile correspondante à
+                    l’inclinaison de l’aiguille aimantée.<lb/> On peut se servir, pour cette
+                    expérience, de l’appa<pb n="320" rend="hyphen"/>reil décrit avec les détails
+                    nécessaires dans les <title>Annales<lb/> de Chimie et de Physique</title>, t.
+                    xv, p. 193-195. Cette expé<lb rend="hyphen"/>rience est la seule, parmi celles
+                    qui constatent les nou<lb rend="hyphen"/>veaux faits découverts par M.
+                    <persName ref="#pers_A366">Ampère</persName>, qu’on ne puisse<lb/> pas répéter
+                    avec l'instrument que nous décrivons ici ;<lb/> c’est pourquoi nous
+                    renverrons, à cet égard, à l’expé<lb rend="hyphen"/>rience décrite dans cet
+                    endroit de son Mémoire. </p>
+                <p>VI<hi rend="sup">e</hi>
+                    <hi rend="sc">Fait</hi>. <hi rend="it">Lorsqu'une aiguille aimantée est
+                        soustraite<lb/> à l'action directrice du globe terrestre, elle se
+                        place,<lb/> par l'action d'un conducteur voltaïque, dans une
+                        direc<lb rend="hyphen"/>tion qui fait un angle droit avec celle de ce
+                        conduc<lb rend="hyphen"/>teur, et où son pôle austral est à gauche du
+                        courant<lb/> qui le parcourt ; en sorte que si M.
+                        <persName ref="#pers_O423">Oersted</persName>n'a obtenu,<lb/> dans les
+                        expériences qu'il a publiées en</hi>
+                    <date when="1820">1820</date>,<hi rend="it"> que des<lb/> déviations de
+                        l'aiguille moindres qu'un angle droit en<lb/> plaçant au-dessus et
+                        au-dessous d'elle un fil conducteur<lb/> parallèle à sa direction,</hi>
+                    <hi rend="it">cela vient uniquement de ce<lb/> que l'aiguille qu'il soumettait à
+                        l'action de ce conduc<lb rend="hyphen"/>teur n'était point soustraite à
+                        cette du globe, et pre<lb rend="hyphen"/>nait par conséquent une position
+                        intermédiaire entre les<lb/> directions que tendaient à lui donner les deux
+                        forces qui<lb/> agissaient sur elle.</hi>
+                </p>
+                <p>
+          <hi rend="it">Expérience.</hi> On s’est servi de plusieurs moyens pour<lb/>
+                    soustraire une aiguille aimantée à l'action de la terre ; on<lb/> peut
+                    voir, dans le Mémoire de M. <persName ref="#pers_A366">Ampère</persName>, t. xv,
+                    p. 198<lb/> et 199 des <title>Annales</title>, celui qu’il employa d'abord,
+                    et<lb/> qui exige un appareil particulier. Un moyen plus simple,<lb/> consiste à
+                    attacher à un gros fil de laiton <hi rend="it">ABC</hi> (fig. 15),<lb/> dont la
+                    partie supérieure est recourbée, comme on le voit <pb n="321"/> dans cette
+                    figure, et porte en <hi rend="it">x</hi> une pointe d’acier très<lb/> fine, deux
+                    aiguilles aimantées d’égale force <hi rend="it">SN, S'N'</hi>,<lb/> qui ont
+                    leurs pôles en sens contraire, de manière que la<lb/> force directrice du globe
+                    sur l’une est détruite par l'action<lb/> opposée qu’il exerce sur l’autre. On
+                    donne au fil <hi rend="it">ABC<lb/>
+                    </hi>une longueur telle qu’en plaçant la pointe <hi rend="it">x</hi> dans une
+                    des<lb/> coupes <hi rend="it">M</hi> ou <hi rend="it">M'</hi> de l’appareil
+                    (fig. 12), coupe qui sert<lb/> alors seulement de support, l’aiguille inférieure
+                        <hi rend="it">NS<lb/>
+                    </hi>(fig. 15) se trouve très peu au-dessus des conducteurs<lb/> horizontaux <hi rend="it">QQ'ω'ω</hi> (fig. 12), et on commence par
+                    re<lb rend="hyphen"/>connaître si les forces magnétiques des deux aiguilles
+                    sont<lb/> en effet bien égales, en s’assurant qu’elles n’affectent<lb/> aucune
+                    direction particulière par l’action du globe. On<lb/> fait ensuite passer le
+                    courant électrique par les conduc<lb rend="hyphen"/>teurs <hi rend="it">QQ'ω'ω,</hi> et l’on voit les deux aiguilles tourner<lb/> jusqu’à ce que
+                    l’aiguille <hi rend="it">NS</hi>, sur laquelle le conduc<lb rend="hyphen"/>teur
+                    agit de plus près et par conséquent avec plus<lb/> d’intensité, prenne une
+                    direction telle que son axe<lb/> fasse exactement un angle droit avec celle des
+                    conduc<lb rend="hyphen"/>teurs <hi rend="it">QQ'ω'ω</hi>, et que son pôle
+                    austral soit à gauche<lb/> de l’observateur situé dans ces <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice>, de manière<lb/> qu’il ait les pieds du côté d’où vient le courant,
+                    et<lb/> la face tournée vers l’aiguille. Ce que M.
+                    <persName ref="#pers_A366">Ampère</persName> ex<lb rend="hyphen"/>prime, pour
+                    abréger, en disant que le pôle austral est à<lb/> gauche des <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> de ces conducteurs.</p>
+                <p>Il est à propos que les aiguilles puissent glisser à<lb/> frottement le long du
+                    fil métallique <hi rend="it">ABC</hi> ; alors on<lb/> peut les rapprocher
+                    l’une de l’autre, et les mettre à<lb/> une distance de la pointe <hi rend="it">x</hi> telle que, quand cette pointe<lb/> est dans l’un des godets <hi rend="it">M</hi> ou <hi rend="it">M'</hi> l’aiguille inférieure <pb n="322"/>
+                    <hi rend="it">NS</hi> (fig. 15) se trouve au-dessous des conducteurs <hi rend="it">QQ'<lb/> ω'ω</hi> (fig. 12), et l’autre <hi rend="it">N'S'</hi>
+                    au-dessus, toutes deux près<lb/> de ces conducteurs, alors les actions qu’ils
+                    exercent sur<lb/> elles concourent à les faire tourner dans un même sens
+                    qui<lb/> est opposé à celui de leur mouvement rotatoire dans le cas<lb/> où
+                    l’aiguille inférieure <hi rend="it">NS</hi> (fig. 15) est au-dessus des<lb/>
+                    mêmes conducteurs. Par cette disposition, on obtient<lb/> une force double, et
+                    l’expérience devient plus frappante<lb/> par la rapidité avec laquelle les deux
+                    aiguilles sont por<lb rend="hyphen"/>tées dans la situation où le pôle austral
+                    de toutes les<lb/> deux se trouve à la gauche des <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> des conducteurs<lb/>
+                    <hi rend="it">QQ'ω'ω</hi> (fig. 15), en entendant cette expression ; <hi rend="it">à<lb/> gauche des <choice>
+                            <sic>courans</sic>
+                            <corr>courants</corr>
+                        </choice>
+          </hi>, dans le sens dont nous venons de<lb/> rappeler la
+                    définition. </p>
+                <p>Réciproquement l’aimant tend à amener un conduc<lb rend="hyphen"/>teur rectiligne
+                    mobile dans la direction où il fait un angle<lb/> droit avec l’axe de l’aimant,
+                    et où le pôle austral de<lb/> celui-ci est à gauche du courant du
+                    conducteur.</p>
+                <p>
+          <hi rend="it">Expérience.</hi> On fait passer 1e courant électrique dans<lb/> le
+                    conducteur mobile représenté planche I, figure 10,<lb/> comme dans l’expérience
+                    destinée à constater le troisième<lb/> fait. En plaçant alors un aimant dans un
+                    plan horizontal<lb/> au-dessous de la partie <hi rend="it">b'c'</hi> de ce
+                    conducteur, on le voit<lb/> tourner pour que cette partie, sur laquelle l’aimant
+                    agit<lb/> principalement à cause de sa proximité, prenne la
+                    posi<lb rend="hyphen"/>tion que nous venons d’indiquer, et elle s’y arrête
+                    après<lb/> avoir oscillé autour d’elle. </p>
+                <p>VII<hi rend="sup">e</hi>
+                    <hi rend="sc">Fait</hi>. <hi rend="it">Outre l'action qu'a décrite M.
+                        <persName ref="#pers_O423">Oersted</persName>,<lb/> par laquelle le
+                        conducteur voltaïque change la direction<lb/> de l'aiguille aimantée, il en
+                        exerce une autre pour atti<pb n="323" rend="hyphen"/>rer la masse entière de
+                        celle aiguille quand elle lui est<lb/> présentée dans la direction qu'il
+                        tendrait à lui donner si<lb/> elle n'y était pas déjà, et la repousser quand
+                        elle lui est<lb/> présentée dans la direction opposée, pourvu que le<lb/>
+                        conducteur réponde perpendiculairement à un point de<lb/> l'axe de
+                        l'aiguille compris entre ses deux pôles, et non<lb/> à un point de cet axe
+                        plus éloigné de son milieu que le<lb/> pôle dont, il est le plus voisin, cas
+                        oit l'attraction se<lb/> changerait en répulsion, et la répulsion en
+                        attraction.</hi>
+                </p>
+                <p>
+          <hi rend="it">Expérience.</hi> On suspend au crochet <hi rend="it">Z</hi> (fig.
+                    12), est<lb/> un fil de soie, un petit aimant vertical portant à son
+                    ex<lb rend="hyphen"/>trémité supérieure une chape semblable à celle d’une<lb/>
+                    aiguille à coudre, de manière que cet aimant soit à une<lb/> petite distance du
+                    conducteur horizontal ωω', et que ce<lb/> conducteur soit à-peu-près vis-à-vis
+                    du milieu de l'ai<lb rend="hyphen"/>guille ; on voit alors qu'elle est
+                    attirée ou repoussée sui<lb rend="hyphen"/>vant que son pôle austral est à la
+                    gauche ou à la droite du<lb/> courant qu’on fait passer dans le conducteur on le
+                    met<lb rend="hyphen"/>tant en communication avec la pile au moyen des
+                    cou<lb rend="hyphen"/>pes <hi rend="it">T, T'</hi>, comme dans l'expérience
+                    relative au troi<lb rend="hyphen"/>sième fait.</p>
+                <p>Si l’on suspend le même petit aimant vertical dans une<lb/> situation telle que
+                    le conducteur ωω' se trouve hors de l’in<lb rend="hyphen"/>tervalle des deux
+                    plans horizontaux menés par ses deux<lb/> pôles, en sorte qu’il soit plus élevé
+                    que le pôle supé<lb rend="hyphen"/>rieur ou plus bas que l’inférieur, tous les
+                    effets seront<lb/> contraires ; on observera la répulsion dans le cas
+                    où<lb/> l'attraction avait lieu, et l’attraction dans celui où il y<lb/> avait
+                    répulsion, comme M. <persName ref="#pers_A366">Ampère</persName> a montré
+                    ailleurs <pb n="324"/> que cela devait avoir lieu d'après les lois de ce
+                    genre<lb/> d’action. </p>
+                <p>Réciproquement un aimant fixe attire ou repousse un<lb/> fil conducteur mobile
+                    dont la direction forme avec la<lb/> sienne un angle droit, suivant que le pôle
+                    austral de<lb/> l'aimant est à gauche ou à droite du courant. </p>
+                <p>
+          <hi rend="it">Expérience.</hi> On place d’abord les deux pointes <hi rend="it">x</hi>,<hi rend="it"> y<lb/>
+                    </hi>du conducteur mobile représenté planche I, figure 9,<lb/> dans les godets
+                        <hi rend="it">M, M'</hi> de l'appareil de la figure 12. On<lb/> établit le
+                    courant électrique dans ce conducteur par les<lb/> godets <hi rend="it">L,
+                        L'</hi>, ainsi qu'on l’a expliqué page 100 de cette<lb/> Note, tome <hi rend="sc">xviii</hi> des <title>Annales</title> ; en présentant ensuite
+                    au<lb/> côté <hi rend="it">cd</hi> ou <hi rend="it">c'd'</hi> du conducteur
+                    (fig. 9) une des faces d'un bar<lb rend="hyphen"/>reau aimanté dont la longueur
+                    est parallèle à la base <hi rend="it">dd'</hi> du<lb/> parallélogramme <hi rend="it">cdd'c'</hi> ; les phénomènes d'attraction et<lb/> de
+                    répulsion se manifestent comme si le conducteur mo<lb rend="hyphen"/>bile était
+                    en présence d’un conducteur fixe dont le cou<lb rend="hyphen"/>rant électrique
+                    aurait la même direction que celui que<lb/> M.
+                    <persName ref="#pers_A366">Ampère</persName> admet dans l’aimant. </p>
+                <p>C’est en comparant, d’une part, les effets qui résultent,<lb/> dans ces
+                    expériences, de l'action mutuelle d’un aimant<lb/> et du fil par lequel on fait
+                    communiquer les deux extré<lb rend="hyphen"/>mités de la pile, et d’autre part,
+                    ceux qu'on obtient en<lb/> faisant agir, dans les expériences précédentes,
+                    décrites<lb/> pages 99-1o5, deux fils conducteurs l'un sur l’autre,<lb/> que
+                    l'on constate le fait général et si remarquable que<lb/> le conducteur d’un
+                    courant électrique agit, dans tous les<lb/> cas, sur l'aiguille aimantée, comme
+                    il agirait sur une ai<lb rend="hyphen"/>guille qui ne le serait pas, mais à
+                    laquelle serait attachée,<lb/> dans un plan perpendiculaire à la ligne qui en
+                    joint les<lb/> pôles, une portion de circuit voltaïque dont le
+                    cou<pb n="325" rend="hyphen"/>rant électrique tournerait autour de l’aiguillé,
+                    relative<lb rend="hyphen"/>ment à ses pôles, dans le même sens où le soleil
+                    paraît<lb/> tourner autour de notre globe, relativement aux pôles<lb/> de la
+                    terre qui portent les mêmes noms que ceux de l’ai<lb rend="hyphen"/>mant. La
+                    force qui produit les attractions et les répul<lb rend="hyphen"/>sions ne varie
+                    qu’en intensité lorsque, dans les expé<lb rend="hyphen"/>riences relatives à
+                    l’action mutuelle de deux conducteurs<lb/> de <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> électriques, on substitue d’abord à l’un d’eux,<lb/> et ensuite à tous
+                    deux, des <choice>
+                        <sic>aimans</sic>
+                        <corr>aimants</corr>
+                    </choice> disposés de manière<lb/> que la direction du courant électrique soit
+                    la même dans<lb/> ces <choice>
+                        <sic>aimans</sic>
+                        <corr>aimants</corr>
+                    </choice> et dans les fils conducteurs qu’ils remplacent,<lb/> en sorte qu’on
+                    obtient tous les phénomènes qu’offre l’action<lb/> mutuelle d'un conducteur et
+                    d’un aimant, lorsqu’on ne<lb/> remplace par un aimant qu’un de ces deux fils, et
+                    tous ceux<lb/> que produisent deux <choice>
+                        <sic>aimans</sic>
+                        <corr>aimants</corr>
+                    </choice> l’un sur l’autre lors<lb rend="hyphen"/>qu’on les remplace tous deux
+                    par des <choice>
+                        <sic>aimans</sic>
+                        <corr>aimants</corr>
+                    </choice>. Cette<lb/> identité d’effets entre les conducteurs voltaïques et
+                    des<lb/> courbes fermées situées dans des plans perpendiculaires<lb/> à l’axe
+                    d’un aimant, que l’on considère comme douées<lb/> de toutes les propriétés de
+                    ces conducteurs, devient en<lb rend="hyphen"/>core plus frappante par
+                    l’expérience qui nous reste à<lb/> décrire.</p>
+                <p>VIII<hi rend="sup">e</hi>
+                    <hi rend="sc">Fait</hi>. <hi rend="it">On imite parfaitement toutes les
+                        circon<lb rend="hyphen"/>stances de l'action connue d'un barreau et d'une
+                        aiguille<lb/> aimantée, lorsqu'on substitue soit au barreau, soit à<lb/>
+                        l'aiguille, un fil de cuivre faisant partie d'un circuit<lb/> voltaïque,
+                        dont une portion est enfermée dans un tube<lb/> de verre, et l'autre forme
+                        une hélice qui l'entoure de ses<lb/> spires. Celle des deux extrémités du
+                        tube qui est située,</hi>
+          <lb/>
+                    <hi rend="it">relativement à la direction du courant électrique établi </hi>
+                    <pb n="326"/>
+                    <hi rend="it">dans l'hélice comme l'est le pôle austral de la terre<lb/>
+                        relativement à la direction du mouvement apparent du<lb/> soleil, agit, dans
+                        toutes les positions du tube par rap<lb rend="hyphen"/>port à l'aiguille ou
+                        au barreau aimanté qu’on lui pré<lb rend="hyphen"/>sente, précisément comme
+                        le ferait, dans les mêmes<lb/> circonstances, le pôle austral d'un
+                        aimant</hi> ; <hi rend="it">tandis que<lb/> l'extrémité opposée agit
+                        comme le pôle boréal.</hi>
+                </p>
+                <p>
+          <hi rend="it">Expérience.</hi> On place les pointes <hi rend="it">x</hi>, <hi rend="it">y</hi> du conduc<lb rend="hyphen"/>teur représenté (pl. 1, fig.
+                    11) dans les godets <hi rend="it">M</hi>, <hi rend="it">M'</hi> de<lb/>
+                    l'appareil (pl. 2, fig. 12). Ce conducteur est formé d’un<lb/> fil de cuivre
+                    dont une partie <hi rend="it">xa </hi>(fig. 11) va, de la pointe <hi rend="it">x</hi>
+          <lb/> à l’entrée d’un tube de verre <hi rend="it">abc</hi>, coudé à
+                    angle droit<lb/> en <hi rend="it">b</hi> ; il traverse ensuite l’intérieur
+                    de ce tube, d’où il<lb/> sort en <hi rend="it">c</hi>, pour former, sur sa
+                    surface extérieure, l’hé<lb rend="hyphen"/>lice <hi rend="it">cef,</hi> et se
+                    rend sur un second tube de verre <hi rend="it">a b c'<lb/>
+                    </hi>semblable au premier ; le même fil forme sur la surface de<lb/> ce
+                    second tube une hélice <hi rend="it">f'e'c'</hi> égale en tout à la
+                    pre<lb rend="hyphen"/>mière et tournée dans le même sens ; il entre en <hi rend="it">c'</hi> dans<lb/> son intérieur, et en sort en <hi rend="it">a'</hi> pour se courber, comme<lb/> on le voit, en <hi rend="it">a' γ,</hi>
+                    les tubes <hi rend="it">a b c,</hi>
+                    <hi rend="it">a'b'c'</hi> sont liés en<lb rend="hyphen"/>semble par leurs
+                    branches verticales et parallèles <hi rend="it">b a</hi>,<lb/>
+                    <hi rend="it">b a'</hi>, au moyen d’un fil de soie ou de laiton que les<lb/>
+                    tubes empêchent, dans ce dernier cas, de communiquer<lb/> avec les portions du
+                    conducteur qui y sont renfermées ;<lb/> en dehors des mêmes tubes, entre
+                    les points <hi rend="it">a</hi> et <hi rend="it">x</hi>, <hi rend="it">a'<lb/>
+                    </hi>et <hi rend="it">y</hi>, elles sont séparées, comme dans les autres
+                    conduc<lb rend="hyphen"/>teurs mobiles, par une petite pièce d’une matière
+                    iso<lb rend="hyphen"/>lante, d’ivoire par exemple. </p>
+                <p>Le conducteur <hi rend="it">xycc'</hi> étant ainsi disposé sur
+                    l’appa<lb rend="hyphen"/>reil (fig. 12), on y fait passer le courant électrique
+                    comme <pb n="327"/> il passait, dans les expériences précédentes, par les
+                    au<lb rend="hyphen"/>tres conducteurs mobiles, et l’on voit alors que ses
+                    extré<lb rend="hyphen"/>mités <hi rend="it">c</hi> et <hi rend="it">c'</hi> sont
+                    attirées et repoussées par un barreau<lb/> aimanté, comme le seraient les deux
+                    pôles d’un aimant.<lb/> Lorsque le courant électrique arrive dans ce conducteur<lb/>
+                    <hi rend="it">xcc'y</hi> par la pointe <hi rend="it">x</hi>, et que l’hélice est
+                    dans le sens<lb/> où on la voit dans la figure, c’est l’extrémité <hi rend="it">c</hi> qui se con<lb rend="hyphen"/>duit, lorsqu’on en approche le barreau,
+                    comme le pôle<lb/> austral d’une aiguille aimantée, parce qu’elle se trouve<lb/>
+                    à gauche des <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> établis dans chaque spire des hé<lb rend="hyphen"/>lices <hi rend="it">cef, fe'c'</hi> ; quand c’est, au contraire, par la pointe<lb/>
+                    <hi rend="it">y</hi> qu'on fait arriver le courant électrique, il parcourt<lb/>
+                    chaque spire dans la direction opposée, et c’est en <hi rend="it">c'</hi>
+          <lb/>
+                    qu’on observe les propriétés qui, caractérisent le pôle<lb/> austral d’un
+                    aimant. L’extrémité opposée se conduit,<lb/> dans les deux cas, comme un pôle
+                    boréal.</p>
+                <p>Le barreau aimanté qu’on fait agir, dans cette expé<lb rend="hyphen"/>rience, sur
+                    le conducteur mobile <hi rend="it">xcc'y</hi>, peut être
+                    rem<lb rend="hyphen"/>placé par le conducteur en hélice représenté planche
+                    3,<lb/> figure 16. Le fil de cuivre <hi rend="it">abcdefghkl</hi>, dont il
+                    est<lb/> composé, entre en <hi rend="it">d</hi> dans un gros tube de carton
+                    verni <hi rend="it">mn</hi>
+          <lb/> fermé à ses deux extrémités par des boudions de
+                    liège<lb/> que traverse ce fil ; il sort de ce tube en <hi rend="it">e</hi>
+                    pour former<lb/> sur sa surface l’hélice <hi rend="it">ff'g'g</hi> les deux
+                    branches <hi rend="it">dca,<lb/> ghl</hi> de ce fil sont pliées, comme on le
+                    voit dans la fi<lb rend="hyphen"/>gure, pour qu’on puisse placer le tube <hi rend="it">mn</hi> à différentes<lb/> hauteurs au-dessus de la table de
+                    l’appareil représenté<lb/> planche 2, figure 12, et le diriger à volonté, en
+                    faisant plier<lb/> plus ou moins ces branches comme on plie un ressort,
+                    sans<lb/> que leurs extrémités <hi rend="it">a, l</hi> cessent de plonger dans
+                    le mercure<lb/> des coupes <hi rend="it">S </hi>et <hi rend="it">S'</hi> (fig.
+                    12), après qu’on les a fait passer <pb n="328"/> dans les trous <hi rend="it">U', V'</hi> de la pièce d’ivoire <hi rend="it">U' V'</hi>, où<lb/> cette
+                    partie du conducteur que nous décrivons se trouve<lb/> fixée par les replis <hi rend="it">b</hi>, <hi rend="it">k</hi> (fig. 16) de ce conducteur, qui<lb/>
+                    l'empêchent de glisser dans ces trous dont ils entourent<lb/> le bord. En
+                    disposant convenablement les communi<lb rend="hyphen"/>cations, on peut alors
+                    faire passer à la fois le courant<lb/> électrique par ce conducteur et celui de
+                    la figure 11,<lb/> disposé comme nous venons de le dire ; on a ainsi
+                    deux<lb/> conducteurs voltaïques, roulés en hélice, qui agissent<lb/> l’un sur
+                    l’autre précisément comme deux <choice>
+                        <sic>aimans</sic>
+                        <corr>aimants</corr>
+                    </choice> dans<lb/> toutes les positions qu’on leur donne.</p>
+                <p>On peut enfin imiter l’action du pôle d’un aimant au<lb/> moyen du conducteur
+                    mobile à spirales (fig. 8, pl. 1),<lb/> décrit page 92 de cette Note, Ayant
+                    placé ce conducteur,<lb/> comme les <choice>
+                        <sic>précédens</sic>
+                        <corr>précédents</corr>
+                    </choice>, sur l’appareil (pl. 2, fig. 12), on lui<lb/> présente un barreau
+                    aimanté, dont l'axe est perpendiculaire<lb/> au plan des spirales <hi rend="it">bcde</hi>, <hi rend="it">b'c'd'e'</hi>, et passe par le centre <hi rend="it">b</hi>
+          <lb/> ou <hi rend="it">b'</hi> de l’une de ces
+                    spirales ; on observe alors les<lb/> attractions et répulsions
+                    très-énergiques qu’il exerce<lb/> sur ces spirales. Le barreau aimanté de cette
+                    expérience<lb/> peut être remplacé par le conducteur fixe à spirale<lb/> (pl. 1,
+                    fig. 5), mis en communication avec l’appareil<lb/> voltaïque par les fils <hi rend="it">dd', ff'</hi>, qu’on fait alors plonger<lb/> dans les coupes <hi rend="it">S S'</hi> (pl. 2, fig. 12). En présentant la<lb/> spirale <hi rend="it">abc</hi> (fig. 5) de ce conducteur fixe en face de la<lb/> spirale
+                        <hi rend="it">bcde</hi> du conducteur mobile (fig. 8), on observe<lb/> les
+                    mêmes effets que dans l'expérience précédente, ainsi<lb/> que nous l’avons déjà
+                    dit page 106 de cette Note.</p>
+                <p>C’est de l’ensemble de ces faits que M.
+                    <persName ref="#pers_A366">Ampère</persName> a con<lb rend="hyphen"/>clu que les
+                    phénomènes qu’offrent les <choice>
+                        <sic>aimans</sic>
+                        <corr>aimants</corr>
+                    </choice> sont de<lb/> purs phénomènes électriques, et qu’ils sont dus
+                    unique<pb n="329" rend="hyphen"/>ment à ce que l’électricité est disposée et se
+                    meut<lb/> autour de chaque particule d’un aimant, suivant des<lb/> courbes
+                    fermées situées dans des plans perpendiculaires<lb/> à son axe, précisément
+                    comme elle est disposée et se<lb/> meut dans le circuit voltaïque<ref target="#P070-1821_AMA3">(1)</ref>. </p>
+                <p>M. <persName ref="#pers_F239">Faraday</persName> a fait insérer, dans le
+                    <title>Journal de l'Insti<lb rend="hyphen"/>tution royale</title>, un Mémoire en
+                    date du <date when="1821-09-11">11 septembre<lb/> 1821</date>, sur de nouvelles
+                    expériences électromagnétiques ;<lb/> une des plus remarquables a pour
+                    objet de démontrer<lb/> qu'un fil métallique placé dans un circuit voltaïque
+                    se<lb/> meut toujours dans le même sens par l’action d’un
+                    ai<lb rend="hyphen"/>mant dont l’axe est perpendiculaire aux plans des
+                    cercles<lb/> que décrivent les <choice>
+                        <sic>différens</sic>
+                        <corr>différents</corr>
+                    </choice> points de ce fil. On voit, fi<lb rend="hyphen"/>gure 18, le petit
+                    appareil dont M. <persName ref="#pers_F239">Faraday</persName> s'est servi<lb/>
+                    pour cette expérience, et qu’il a fait remettre à MM.
+                    <persName ref="#pers_A366">Am<lb rend="hyphen"/>père</persName> et
+                    <persName ref="#pers_H295">Hachette</persName>, avec une lettre datée de
+                    <placeName ref="#pl_L35">Londres</placeName> le
+                    <date when="1821-10-18">18<lb/> octobre 1821</date>. </p>
+                <p>
+          <pb n="330"/> M. <persName ref="#pers_A366">Ampère</persName> a depuis imaginé un
+                    autre appareil fondé<lb/> sur le même principe que celui de M.
+                    <persName ref="#pers_F239">Faraday</persName>, et<lb/> dans lequel le mouvement
+                    d’une portion d’un conduc<lb rend="hyphen"/>teur de courant voltaïque a aussi
+                    lieu, toujours dans<lb/> le même sens, autour d’un aimant fixe. Nous allons
+                    dé<lb rend="hyphen"/>crire ces deux appareils, en commençant par celui de<lb/>
+                    M. <persName ref="#pers_F239">Faraday</persName>. </p>
+                <div>
+                    <head>
+            <title>
+              <hi rend="it">Appareil de M. <persName ref="#pers_F239">Faraday</persName>.</hi>
+            </title>
+          </head>
+                    <p>
+            <hi rend="it">G CD</hi> (fig. 19 ) est un petit tube en verre d’environ
+                        8<lb/> centimètres de longueur, fermé aux deux bouts, et
+                        traver<lb rend="hyphen"/>sé inférieurement par un petit barreau aimanté <hi rend="it">A B,</hi> de 5<lb/> centimètres de longueur, supérieurement
+                        par un fil <hi rend="it">EGP</hi>,<lb/> bouclé en <hi rend="it">E.</hi> A ce
+                        fil est suspendu un second fil <hi rend="it">EF,</hi>
+                        ter<lb rend="hyphen"/>miné en haut par un crochet qui passe dans la boucle
+                            <hi rend="it">E</hi> du<lb/> premier fil. La partie inférieure du tube
+                        est remplie de<lb/> mercure, jusqu’au niveau <hi rend="it">CD</hi>. Le fil
+                            <hi rend="it">EF</hi> rase la sur<lb rend="hyphen"/>face de l’aimant <hi rend="it">AB</hi>, et plonge un peu dans le mercure<lb/> qui entoure une
+                        portion de cet aimant. </p>
+                    <p>Aussitôt que l’aimant et les deux fils <hi rend="it">EF, EP</hi>
+                        com<lb rend="hyphen"/>muniquent par leurs extrémités <hi rend="it">A</hi> et
+                            <hi rend="it">P</hi> avec les pô<lb rend="hyphen"/>les d'un appareil
+                        voltaïque, on voit le fil <hi rend="it">EF</hi> tourner<lb/> d’un mouvement
+                        continu autour de l’aimant <hi rend="it">AB</hi>. Ainsi<lb/> la circulation
+                        de l’électricité dans un système de corps<lb/> en contact, produit une force
+                        vive, capable au moins de<lb/> vaincre les <choice>
+                            <sic>frottemens</sic>
+                            <corr>frottements</corr>
+                        </choice> d’un fil mobile, tant au point de<lb/> suspension de ce fil que
+                        dans le milieu qui reçoit l’ex<lb rend="hyphen"/>trémité du même fil. La
+                        production de la force vive par<lb/> l’action électro- motrice sera encore
+                        plus sensible dans<lb/> l’appareil suivant de M.
+                        <persName ref="#pers_A366">Ampère</persName>. </p>
+                    <p>
+            <pb n="331"/>
+                        <hi rend="it">ABCD</hi> (fig. 20) est un vase en zinc, au centre
+                        du<lb rend="hyphen"/>quel est une ouverture cylindrique dont les bords
+                        éga<lb rend="hyphen"/>lement en zinc sont terminés par une surface
+                        cylin<lb rend="hyphen"/>drique verticale, et s’élèvent dans l’intérieur du
+                        vase.<lb/> L’espace compris entre ces bords et la surface intérieure<lb/> du
+                        vase <hi rend="it">ABCD</hi> est destiné à contenir la liqueur<lb/> acide
+                        qu’on emploie pour exciter l’action électro<lb rend="hyphen"/>motrice. Le
+                        petit cylindre creux qui est placé au cen<lb rend="hyphen"/>tre du vase et
+                        qui se termine à un plan horizontal sup<lb rend="hyphen"/>porte un arc en
+                        zinc <hi rend="it">EFG</hi>, fixa à sa paroi extérieure.<lb/> Sur lé milieu
+                            <hi rend="it">F</hi> de cet arc s’élève une tige verticale en<lb/>
+                        cuivré, terminée par une capsule <hi rend="it">II</hi> destinée à
+                        contenir<lb/> du mercure, et à recevoir la pointe <hi rend="it">I</hi> d’un
+                        conducteur<lb/> mobile <hi rend="it">LOM </hi>qu'on voit à part (fig. 21 ).
+                        Ce conduc<lb rend="hyphen"/>teur est formé d’une lame de cuivre à deux
+                        branches<lb/> égales <hi rend="it">OL</hi>,<hi rend="it"> OM,</hi> soudées
+                        en <hi rend="it">L</hi> et en <hi rend="it">M</hi> à la
+                        cou<lb rend="hyphen"/>ronné de cuivre <hi rend="it">LMP</hi> qui plonge en
+                        totalité dans la<lb/> liqueur acide du vase <hi rend="it">ABCD.</hi>
+                        L’ouverture cylindrique<lb/> qui existe au centre de ce vase permet d’y
+                        attacher un<lb/> faisceau de barreaux aimantés, dont les pôles de même<lb/>
+                        nom sont dirigés du même côté. C'est autour de ce<lb/> faisceau que le
+                        conducteur mobile <hi rend="it">LOM</hi> et sa couronne<lb/> tournent d’un
+                        mouvement continu, aussitôt qu’on a<lb/> versé la liqueur acide dans le vase
+                            <hi rend="it">ABCD.</hi> On change<lb/> à volonté la direction du
+                        mouvement de rotation en<lb/> renversant les <choice>
+                            <sic>aimans</sic>
+                            <corr>aimants</corr>
+                        </choice> ce qui s’explique en considérant<lb/> les sections horizontales du
+                        faisceau aimanté, comme un<lb/> fil conducteur d’un courant électrique
+                        continu. </p>
+                    <p>Il est facile de concevoir comment on maintient les six<lb/> barreaux
+                        aimantés de l’appareil en un faisceau régu<pb n="332" rend="hyphen"/>lier.
+                        Deux plaques en cuivre de la forme qu'on voit dans<lb/> la figure 22 sont
+                        fixées l'une à l'autre, par deux baguettes<lb/>
+                        <hi rend="it">hk, mn</hi> de cuivre et d’égale longueur. L’une ou l'autre
+                        de<lb/> ces plaques s’adapte à deux crochets attaches au fond
+                        infé<lb rend="hyphen"/>rieur du vase <hi rend="it">ABCD</hi>. Les barreaux
+                        glisseraient dans les<lb/> coches des plaques, s’ils n’étaient retenus par
+                        le bas, au<lb/> moyen d’une rondelle en cuivre <hi rend="it">p q</hi>
+                        suspendue à la pla<lb rend="hyphen"/>que inférieure par deux <choice>
+                            <sic>montans</sic>
+                            <corr>montants</corr>
+                        </choice> en crochets <hi rend="it">pr, qs</hi>.
+                        Lors<lb rend="hyphen"/>qu’on renverse le faisceau d’<choice>
+                            <sic>aimans</sic>
+                            <corr>aimants</corr>
+                        </choice>, on change en même<lb/> temps la rondelle de place, pour qu’elle
+                        soit toujours<lb/> suspendue à la plaque inférieure. </p>
+                    <p>On pourrait faire le vase <hi rend="it">ABCD</hi> et son arc <hi rend="it">EFG</hi> en<lb/> cuivre, puis mettre cet arc en communication,
+                        comme<lb/> dans le cas précédent, avec le conducteur mobile <hi rend="it">LOM</hi>
+            <lb/> (fig. 21), qui serait dans ce cas en zinc. Le
+                        mouvement<lb/> de rotation aurait lieu dans un sens opposé, les <choice>
+                            <sic>aimans</sic>
+                            <corr>aimants</corr>
+                        </choice>
+            <lb/> étant disposés de la même manière ; mais il serait
+                        plus<lb/> faible à cause du peu de surface du zinc. On peut<lb/> aussi
+                        remplacer les <choice>
+                            <sic>aimans</sic>
+                            <corr>aimants</corr>
+                        </choice> par un fil ou une lame<lb/> continue, qui ferait plusieurs tours
+                        sur la surface<lb/> extérieure du vase <hi rend="it">ABCD</hi>, et dont les
+                        extrémités com<lb rend="hyphen"/>muniqueraient avec les pôles d’une pile
+                        voltaïque. </p>
+                    <p>L’appareil de M. <persName ref="#pers_A366">Ampère</persName> (fig. 20) est
+                        posé sur un<lb/> disque en bois <hi rend="it">UV</hi>, soutenu par les trois
+                        pieds <hi rend="it">X, Y, Z.<lb/>
+                        </hi>Ce savant en a fait voir les effets à la séance de
+                        l’<orgName ref="#org_A15">Aca<lb rend="hyphen"/>démie royale des Sciences</orgName>
+                        du <date when="1821-12-03">3 décembre 1821</date> ; il avait<lb/> déjà
+                        montré, dans la séance du <date when="1821-12-19">19 novembre</date>, que
+                        ces<lb/> phénomènes sont une suite nécessaire de sa théorie sur<lb/>
+                        l’action des <choice>
+                            <sic>courans</sic>
+                            <corr>courants</corr>
+                        </choice> électriques et des <choice>
+                            <sic>aimans</sic>
+                            <corr>aimants</corr>
+                        </choice>. </p>
+                    <p>En supprimant les <choice>
+                            <sic>aimans</sic>
+                            <corr>aimants</corr>
+                        </choice> et remplaçant le conduc<lb rend="hyphen"/>teur mobile par un autre
+                        conducteur représenté figure 23, <pb n="333"/> M.
+                        <persName ref="#pers_A366">Ampère</persName> a vu, par l’action de la terre,
+                        ce conduc<lb rend="hyphen"/>teur tourner lentement mais constamment, en
+                        allant de<lb/> l’est à l’ouest par le midi. Lorsqu’on en approche
+                        par-<lb/>dessous le pôle austral d’un aimant, on le fait
+                        tourner en<lb/> sens contraire ; mais il reprend son premier
+                        mouvement<lb/> dès qu’on écarte l’aimant. </p>
+                    <p>Ce nouveau fait a été communiqué à
+                        l'<orgName ref="#org_A15">Académie royale<lb/> des Sciences</orgName> dans
+                        la séance du <date when="1821-12-10">10 décembre 1821</date>. </p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div>
+                <note xml:id="P070-1821_AMA1">(1) Les planches 1 et 2 relatives à cette note sont
+                    dans le Cahier<lb/> de <date when="1821-09">septembre 1821</date> de ce
+                    <title>Journal</title>, tome XVIII de la collection. </note>
+                <note xml:id="P070-1821_AMA2">(1) Si l’on retire la lame <hi rend="it">PQR</hi>, de
+                    la coupe <hi rend="it">S'</hi>, et la lame<lb/> ΔΔ' d'un des godets <hi rend="it">L</hi> ou <hi rend="it">L'</hi>, pour placer dans ce godet,<lb/>
+                    l'extrémité <hi rend="it">V</hi> (fig. 14) de la lame <hi rend="it">VX</hi>,
+                    sans rien changer à<lb/> la communication de l’autre, godet avec la lame <hi rend="it">MN</hi>, le<lb/> courant électrique passe toujours par le
+                    conducteur mobile ;<lb/> mais celui-ci n’est plus ni attiré ni repoussé par
+                    la pile, dans<lb/> laquelle le courant est descendant dans la lame de zinc et
+                    as<lb rend="hyphen"/>cendant dans celle de cuivre, d’où il suit qu’il exerce sur
+                    ce<lb/> conducteur deux actions égales et opposées qui se détruisent. </note>
+                <note xml:id="P070-1821_AMA3">(1) Depuis que les planches qui accompagnent cette
+                    Note<lb/> ont été gravées, M. <persName ref="#pers_A366">Ampère</persName> a
+                    fait à l’instrument que nous<lb/> venons de décrire quelques <choice>
+                        <sic>changemens</sic>
+                        <corr>changements</corr>
+                    </choice> qui en rendent l’usage<lb/> plus commode, mais qui ne sont pas assez <choice>
+                        <sic>importans</sic>
+                        <corr>importants</corr>
+                    </choice> pour<lb/> exiger de nouvelles planches. Leur principal avantage
+                    consiste<lb/> en ce qu’ils donnent le moyen de varier les communications<lb/> de
+                    manière qu’il puisse servir à essayer les nouvelles
+                    expé<lb rend="hyphen"/>riences, analogues aux précédentes, que ceux qui s’en
+                    servent<lb/> peuvent imaginer. Cet instrument, ainsi perfectionné,<lb/> se
+                    trouve chez M. <persName ref="#pers_P455">Pixii</persName>, ingénieur pour les <choice>
+                        <sic>instrumens</sic>
+                        <corr>instruments</corr>
+                    </choice> de<lb/> physique et de mathématique, rue du Jardinet, près
+                    l'<orgName ref="#org_E21">Ecole<lb/> de Médecine</orgName>, n° 2, à
+                    <placeName ref="#pl_P6">Paris</placeName>. </note>
+            </div>
+        </back>
+    </text>
+</TEI>

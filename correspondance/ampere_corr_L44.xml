@@ -1,0 +1,345 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 44</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1800-10-21-A">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                  <idno>chemise 393 quarto</idno>
+               <altIdentifier>
+              <idno type="old">L44</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+          
+               <physDesc>
+                  <p>Six pages in-8° sans adresse.</p>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness xml:id="L44CGA">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 062-063</biblScope>
+                        </imprint>
+                     </monogr>
+                     
+                  </biblStruct>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_A366">Ampère, André-Marie</persName>
+          <date when-iso="1800-10-21">21 octobre 1800</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
+        </correspAction>
+        <note type="noteDelaunay">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1800-10-21-A">
+      <body>
+         <div>
+            <opener>
+          <pb n="1416" facs="ACAS_CRHST_AMP_26_393_quarto_0688_r.jpg"/>Du <date when="1800-10-21">Mardi soir [21 octobre 1800]</date>
+        </opener>
+            <p>J'ai beaucoup <choice>
+            <sic>courru</sic> <corr>couru</corr>
+          </choice> aujourd'hui,<lb/>
+               ma bonne amie, pour savoir<lb/>
+               l'adresse de M. <persName ref="#pers_C136">
+            <choice>
+              <sic>Caire</sic> <corr>Cayre</corr>
+            </choice>
+          </persName>
+               <ref>(2)</ref>. Il n'y a que<lb/>
+               M. <persName ref="#pers_R501">Roux</persName> (3) qui, je crois, puisse me<lb/>
+               la dire et il a été, jusqu'à demain<lb/>
+               ou après-demain, à la campagne.<lb/>
+               Quant à M. <persName ref="#pers_M394">Mollet</persName>, j'ai été deux<lb/>
+               fois chez lui ; mais on ne l'y trouve<lb/>
+               plus depuis qu'il est marié. Tu<lb/>
+               peux être sûre au reste que je<lb/>
+               ne retournerai à <placeName>Poleymieux</placeName> qu'après<lb/>
+               avoir fait tout ce qu'il convient<lb/>
+               à cet égard. Ta tatan m'a bien<lb/>
+               grondé, quoique je ne l'<choice>
+            <sic>aye</sic> <corr>ai</corr>
+          </choice> vue qu'un<lb/>
+               moment, de ce que je songe plus<lb/>
+               à passer quelques <choice>
+            <sic>momens</sic> <corr>moments</corr>
+          </choice> avec<lb/>
+               toi qu'à travailler pour ta tranquillité.<lb/>
+               Elle est fâchée surtout que je n'<choice>
+            <sic>aye</sic> <corr>aie</corr>
+          </choice>
+          <pb n="1417" facs="ACAS_CRHST_AMP_26_393_quarto_0689_v.jpg"/> pas fait connaissance avec <persName>Monge</persName>
+          <lb/>
+               pendant son séjour ici. Elle dit<lb/>
+               que cela aurait pu m'être utile ;<lb/>
+               mais ce qui doit nous consoler,<lb/>
+               c'est que <persName ref="#pers_D210">Dumas</persName> m'a dit positivement<lb/>
+               qu'il ne pouvait avoir aucune<lb/>
+               espèce d'influence sur les choix<lb/>
+               du <orgName>
+            <choice>
+              <sic>Prytannée</sic> <corr>Prytanée</corr>
+            </choice>
+          </orgName>. Ah, ma bonne amie,<lb/>
+               je ne me le pardonnerais jamais<lb/>
+               si j'avais à me reprocher d'avoir<lb/>
+               négligé ce qui pouvait t'être utile.<lb/>
+               Mais j'espère encore que je n'aurai<lb/>
+               pas ce reproche à me faire.<lb/>
+               <persName>Berthaud</persName> qui avait cessé de<lb/>
+               prendre des leçons, m'a fait dire<lb/>
+               qu'il recommencerait cette semaine.<lb/>
+               Que je voudrais pouvoir annoncer,<lb/>
+               du côté du profit que je fais, quelque<lb/>
+               bonne nouvelle ! On m'a encore<pb n="1418" facs="ACAS_CRHST_AMP_26_393_quarto_0690_r.jpg"/>
+               parlé d'un jeune homme qui<lb/>
+               prendra peut-être des leçons ;<lb/>
+               mais tu sais qu'il ne faut pas<lb/>
+               compter là-dessus. Ma pauvre<lb/>
+               amie, je t'entretiens bien longuement<lb/>
+               d'un sujet qui ne me semble<lb/>
+               guère intéressant, mais dont je<lb/>
+               ne sens que trop à présent<lb/>
+               la nécessité. C'est surtout depuis<lb/>
+               que j'ai parlé à ta Tatan. J'aurai<lb/>
+               toujours sur le cœur la parole<lb/>
+               qu'elle m'a dite là-dessus. Elle<lb/>
+               a dit que je te rendais malade<lb/>
+               parce que, si <choice>
+            <sic>je m'intrigais</sic> <corr>j'intriguais</corr>
+          </choice> d'avantage,<lb/>
+               j'aurais plus d'élèves ! Ma pauvre<lb/>
+               petite, se pourrait-il que je<lb/>
+               contribuasse à cette maladie qui
+               fait tant souffrir celle que j'aime !<lb/>
+               Peut-être qu'elle est à présent<pb n="1419" facs="ACAS_CRHST_AMP_26_393_quarto_0691_v.jpg"/> plus forte que
+               jamais ? L'idée de<lb/>
+               ce que tu souffres et de tout<lb/>
+               ce que tu as souffert pour moi<lb/>
+               me suit partout ; il semble qu'elle<lb/>
+               me déchire et j'aimerais mille<lb/>
+               fois mieux pour moi-même et<lb/>
+               indépendamment de ta santé,<lb/>
+               sentir tous les maux dont<lb/>
+               tu serais exempte. Quand est-ce<lb/>
+               que je pourrai recevoir de<lb/>
+               tes nouvelles ? Quand est-ce que<lb/>
+               je pourrai savoir que tu te portes<lb/>
+               mieux, et que je n'aie plus tant<lb/>
+               de raisons de me détester ? Ma<lb/>
+               bonne <persName ref="#pers_C129">Julie</persName>, tu ne saurais croire<lb/>
+               l'embarras que je trouve à t'écrire ;<lb/>
+               il me semble, à chaque phrase<lb/>
+               que je t'ennuie d'une répétition ;<lb/>
+               pardonne-moi si cela est vrai !<pb n="1420" facs="ACAS_CRHST_AMP_26_393_quarto_0692_r.jpg"/>
+               Quand on pense toujours à la même<lb/>
+               chose, peut-on faire autrement ?<lb/>
+               Ton ami pense toujours à toi, à tes<lb/>
+               peines, et quelquefois au bonheur<lb/>
+               dont il espère un jour pouvoir<lb/>
+               jouir avec toi quand notre argent<lb/>
+               et notre petit auront crû<lb/>
+               également. Pourrai-je jamais<lb/>
+               le voir, cet heureux jour, où<lb/>
+               ma <persName ref="#pers_C129">Julie</persName> sera tranquille sur<lb/>
+               son sort, et moi sur sa santé<lb/>
+               et sur le bonheur de mon enfant<lb/>
+               et du tien. Mon enfant est le<lb/>
+               tien ; je veux m'aller coucher<lb/>
+               avec cette douce pensée. Adieu,<lb/>
+               ma bonne amie, je n'ai pas<lb/>
+               besoin de te dire comme je t'embrasse<lb/>
+               et combien j'aime le petit nous.<lb/>
+               Du mercredi<lb/>
+               Je n'ai qu'un mot à te dire, ma<lb/>
+               bonne amie ; rien de nouveau dans<lb/>
+               mes affaires. Je t'aime, je suis heureux,<lb/>
+               triste et inquiet tout à la fois :<lb/>
+               sentant combien mon sort est<lb/>
+               préférable <subst>
+            <del type="illisible"/> <add>à celui
+                  des autres hommes, mais</add>
+          </subst> sentant aussi que<pb n="1421" facs="ACAS_CRHST_AMP_26_393_quarto_0693_v.jpg"/> je ne peux m'en applaudir qu'en<lb/>
+               pleurant sur tes peines. Ah, ma<lb/>
+               bonne amie, j'ai le cœur trop serré,<lb/>
+               je t'<choice>
+            <sic>atristerais</sic> <corr>attristerais</corr>
+          </choice>. Pense que je suis<lb/>
+               heureux, et mets le comble à mon<lb/>
+               bonheur en prenant soin de toi !<lb/>
+               Je te verrai peut-être après-demain ;<lb/>
+               mais cela dépend de ma visite<lb/>
+               à M. <persName ref="#pers_C136">
+            <choice>
+              <sic>Caire</sic> <corr>Cayre</corr>
+            </choice>
+          </persName>. Si tu ne me
+               voyais<lb/>
+               pas, il faudrait en conclure que<lb/>
+               je suis occupé de quelque démarche<lb/>
+               importante, et que cela va bien.<lb/>
+               Je quitte à présent la maison<lb/>
+               <persName ref="#pers_P443">Périsse</persName>, où tout le monde<lb/>
+               se porte bien et te dit mille<lb/>
+               choses.<lb/>
+               J'attendais mon élève du soir en<lb/>
+               t'écrivant quand M. <persName ref="#pers_B36">Barret</persName>
+          <lb/>
+               m'a interrompu. L'élève a encore<lb/>
+               manqué, mais cela vient apparemment<lb/>
+               d'un acteur de <placeName>Paris</placeName> qui joue<lb/>
+               une très belle pièce. Il payera tout<lb/>
+               de même. M. <persName ref="#pers_B36">Barret</persName> m'a<lb/>
+               empêché de t'écrire : il m'a tenu<lb/>
+               jusqu'<choice>
+            <sic>à</sic> <corr>au</corr>
+          </choice> souper. Je viens de
+               souper.<lb/> Je vais me coucher en faisant les<lb/>
+               plus tendres vœux pour ton repos<lb/>
+               et ta santé. Je t'embrasse comme<lb/>
+               on embrasse ce qu'on aime comme je t'aime.</p>
+         </div>
+      </body>
+      <back>
+         <div>
+            <note xml:id="corresp1">(1) Quatre pages in-8° sans adresse. (2) <persName ref="#pers_C136">Cayre</persName>, membre du Corps
+               législatif, habitait à <placeName>Paris</placeName>, rue Saint-Honoré, n° 1468 ; mais il était alors de
+               passage à <placeName>Bourg</placeName>. (3) M. <persName ref="#pers_R501">Roux</persName> qui revient assez souvent dans ces lettres n'a rien de
+               commun avec <persName ref="#pers_R502">Roux-Bordier</persName>, l'ami d'<persName ref="#pers_A366">Ampère</persName> ; C'est l'<persName ref="#pers_R501">abbé Claude-Antoine Roux</persName>,
+               secrétaire perpétuel de l'<orgName>Académie de <placeName>Lyon</placeName>
+          </orgName> et professeur au lycée de <placeName>Lyon</placeName>, qui, dès
+               <date when-iso="1788">1788</date>, avait été chargé d'examiner le premier mémoire d'<persName ref="#pers_A366">Ampère</persName> sur la quadrature du
+               cercle. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

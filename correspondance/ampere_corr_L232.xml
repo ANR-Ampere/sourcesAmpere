@@ -1,0 +1,576 @@
+<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 232</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1803-03-13-A">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                  <idno>chemises 392 et 393 quarto</idno>
+               <altIdentifier>
+              <idno type="old">L232</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+          
+               <physDesc>
+                  <p>Quatorze pages 17 x 22 ; pas d'adresse à la fin.</p>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness xml:id="L232CGA">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 249-250-251</biblScope>
+                        </imprint>
+                     </monogr>
+                     
+                  </biblStruct>
+                  
+                 </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1803-03-13">13 mars 1803</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
+        </correspAction>
+        <note type="noteDelaunay">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1803-03-13-A">
+      <body>
+         <div>
+            <opener>
+          <pb n="118" facs="#ACAS_CRHST_AMP_26_392_0118_r.jpg"/>Du <date when="1803-03-13">dimanche [13 mars 1803]</date>
+        </opener>
+            <p>
+          <add>Si cette lettre t'arrive avec<lb/>
+               une autre, lis d'abord l'autre qui est bien<lb/>
+               plus pressée.</add>
+          <lb/>
+               Tu as vu, ma bonne amie, par<lb/>
+               la lettre que je t'ai écrite ce<lb/>
+               matin, les
+               heureuses nouvelles<lb/>
+               que j'avais à t'annoncer. J'ai<lb/>
+               encore vu M. <persName>Delambre</persName> qui<lb/>
+               a fait <add>sa visite au collège </add>avec M. <persName>Villars</persName>. Il m'a<lb/>
+               dit, en voyant le cabinet<lb/>
+               bien en ordre :<cit>
+            <quote> Tout ce que<lb/>
+                  je vois de vous confirme<lb/>
+                  l'idée que j'en avais conçue.<lb/>
+                  Je vais à
+               <placeName>Paris</placeName> porter la liste<lb/>
+                  de mes observations sur ceux<lb/>
+                  qui se présentent pour les<lb/>
+                  places
+               de <orgName>Lycées</orgName>. La vôtre<lb/>
+                  est pour <placeName>Lyon</placeName>, dans l'ordre<lb/>
+                  que je vous ai déjà fait<lb/>
+                  connaître. Le gouvernement<lb/>
+                  n'a rien encore changé<lb/>
+                  dans tout ce que j'ai fait<pb n="119" facs="#ACAS_CRHST_AMP_26_392_0119_v.jpg"/>
+                  et, sûrement, il ne
+               commencera<lb/>
+                  pas par vous. D'ailleurs je<lb/>
+                  serai près du gouvernement<lb/>
+                  et je veillerai à
+               ce qu'on vous<lb/>
+                  envoie promptement votre<lb/>
+                  nomination.</quote>
+          </cit> Ce que dit<lb/>
+               M. <persName>Delambre</persName> ne varie
+               plus.<lb/>
+               Il a repoussé devant moi<lb/>
+               toutes les insinuations de<lb/>
+               M. <persName>Beauregard</persName> et, comme<lb/>
+               il ne veut point lui donner<lb/>
+               de place, il lui a constamment<lb/>
+               répondu de manière à lui<lb/>
+               ôter toute espérance. Aussi<lb/>
+               ma nomination n'est pas<lb/>
+               susceptible du plus léger doute.<lb/>
+               J'ai
+               été de là chez <persName>Pochon</persName> ;<lb/>
+               j'y ai trouvé une lettre de ma<lb/>
+               bonne amie. Ah, M. <persName>Pont</persName>
+          <lb/>
+               m'avait trompé en me<pb n="120" facs="#ACAS_CRHST_AMP_26_392_0120_r.jpg"/>
+               disant qu'<persName>Empaire</persName> t'avait<lb/>
+               trouvée prête à te lever,<lb/>
+               gaie et bien
+               portante<lb/>
+               autant qu'on peut l'être<lb/>
+               après avoir été si malade.<lb/>
+               Je m'informerai de la
+               dame<lb/>
+               dont tu me parles <ref>(2)</ref>. Plût<lb/>
+               à <persName>Dieu</persName> que ce qu'on t'a dit<lb/>
+               fût vrai et que ces eaux<lb/>
+               pussent enfin te guérir !<lb/>
+               Venons à tes réflexions ! Ah,<lb/>
+               si mon traitement continuait<lb/>
+               après le <date when="1803-03-22">premier germinal</date>,<lb/>
+               tu n'aurais pas eu besoin de<lb/>                              
+               me prêcher ; mais tout est<lb/>
+               supprimé par le même arrêté.<lb/>
+               Il est vrai qu'on parle d'un<lb/>
+               nouvel arrêté pour proroger<lb/>
+               les <orgName>écoles centrales</orgName> ; mais je<lb/>
+               ne crois pas qu'il vienne et,<lb/>
+               s'il ne vient pas,
+               resterai-je<pb n="121" facs="#ACAS_CRHST_AMP_26_392_0121_v.jpg"/>
+               à <placeName>Bourg</placeName> pour gagner 60 l<ex>ivre</ex>s par<lb/>
+               mois, et sans savoir si MM.<lb/>
+               <persName>Dupras</persName> et
+               <persName>Olivier</persName> se soucient<lb/>
+               que je reste plus <choice>
+            <sic>longtems</sic> <corr>longtemps</corr>
+          </choice> ? Ils<lb/>
+               m'avaient pris pour donner<lb/>
+               des
+               leçons jusqu'à l'examen<lb/>
+               qui vient d'avoir lieu. Qu'est-ce<lb/>
+               que ces leçons leur
+               rendront<lb/>
+               à présent ? C'est bien toujours<lb/>
+               la même amitié, les mêmes<lb/>
+               égards ; mais
+               faut-il attendre<lb/>
+               pour me retirer qu'ils aient<lb/>
+               réellement envie que je<lb/>
+               m'en aille ? Ne
+               vaut-il pas<lb/>
+               mieux prévenir ce moment<lb/>
+               par mon départ ? Si mes<lb/>
+               appointements m'étaient<lb/>
+               continués je leur offrirais<lb/>
+               de leur payer pension dès<lb/>
+               que leurs élèves n'auraient
+               plus<lb/>
+               besoin de mes soins. Mais cette<lb/>
+               supposition est sans vraisemblance.<pb n="1224" facs="#ACAS_CRHST_AMP_26_393_quarto_0496_r.jpg"/>
+               Il faut
+               nécessairement que<lb/>
+               je retourne à <placeName>Lyon</placeName>, que j'y<lb/>
+               travaille à l'ouvrage que j'ai<lb/>
+               promis à M. <persName>Delambre</persName> et<lb/>
+               dont je t'ai parlé dans ma<lb/>
+               lettre de ce matin. Je me passerai<lb/>
+               de revenus pendant deux ou<lb/>
+               trois mois ; mais il me reste<lb/>
+               336 l<ex>ivre</ex>s à recevoir pour mes<lb/>
+               deux derniers mois. Nous vivrons<lb/>
+               là-dessus jusqu'au <orgName>Lycée</orgName>. Quant<lb/>
+               à ce que tu <choice>
+            <sic>appèles</sic> <corr>appelles</corr>
+          </choice>
+               notre<lb/>
+               appartement et que tu<lb/>
+               sens bien ne nous pas<lb/>
+               convenir, surtout depuis<lb/>
+               qu'il est
+               décidé que je ne<lb/>
+               ferai probablement point<lb/>
+               d'élèves chez moi à <placeName>Lyon</placeName>,<lb/>
+               mais seulement
+               quelques-uns en ville,<lb/>
+               je crois que nous pourrions<lb/>
+               regagner ce que je gagnerais<pb n="1225" facs="#ACAS_CRHST_AMP_26_393_quarto_0497_v.jpg"/>
+               de
+               moins par une diminution<lb/>
+               sur le prix du loyer et en<lb/>
+               épargnant le feu, la lumière,<lb/>               
+               etc., qui feraient autant<lb/>
+               de dépense pour 3 ou 4 élèves<lb/>
+               que pour 20. D'ailleurs, je
+               t'ai<lb/>
+               déjà dit que les professeurs<lb/>
+               seraient logés à ce que je<lb/>
+               croyais dans les Lycées.
+               Il ne<lb/>
+               s'agit donc que de nous<lb/>
+               débarrasser de cet appartement,<lb/>
+               sauf à en louer un
+               autre<lb/>
+               de 400 l<ex>ivre</ex>s à 450 l<ex>ivre</ex>s jusqu'à l'établissement<lb/>
+               des <orgName>Lycées</orgName> : c'est-à-dire pour<lb/>
+               6
+               mois ou un an au plus. Il y en<lb/>
+               a un joli dans la <placeName>rue S<ex>ain</ex>t<lb rend="hyphen"/>Dominique, n° 69</placeName>, au
+               2d étage,<lb/>
+               à louer à présent et qui<lb/>
+               est composé de 2 pièces, 2 cabinets<lb/>
+               et
+               une soupente. Voilà bien<lb/>
+               tout ce qu'il nous faut, puisqu'il<lb/>
+               est inutile de penser aux
+               élèves<lb/>
+               et ces messieurs m'ont dit<pb n="1226" facs="#ACAS_CRHST_AMP_26_393_quarto_0498_r.jpg"/> que ma place me rendrait<lb/>
+               plus de 100 louis dès la<lb/>
+               première année, et bien davantage ensuite, sans compter<lb/>
+               le logement. Maintenant<lb/>
+               tu vas me dire comment<lb/>
+               je trouve si facile de rompre<lb/>
+               ce malheureux marché fait<lb/>
+               avec tant
+               de précipitation.<lb/>
+               Les raisons que je vais te donner<lb/>
+               ne vaudraient rien pour<lb/>
+               quelqu'un
+               qui nous connaîtrait,<lb/>
+               qui <choice>
+            <sic>saurais</sic> <corr>saurait</corr>
+          </choice> que j'obéirai toute<lb/>
+               ma vie à tes moindres volontés<lb/>
+               et que, si tu le veux absolument,<lb/>
+               je signerai ce bail ; mais<lb/>
+               ces raisons seront
+               bonnes<lb/>
+               pour le propriétaire de<lb/>
+               la maison. Il sait bien<lb/>
+               qu'il ne peut traiter qu'avec<lb/>
+               moi et que je ne suis engagé<lb/>
+               en aucune manière,<lb/>
+               ni de vive voix, ni par<pb n="1227" facs="#ACAS_CRHST_AMP_26_393_quarto_0499_v.jpg"/>
+               écrit. Je ne
+               te ferais pas<lb/>
+               ces propositions si je croyais<lb/>
+               que tu tinsses à cet appartement.<lb/>
+               Je ne
+               te parlerais pas de le<lb/>
+               dédire, mais tout doit nous porter<lb/>
+               à n'en point vouloir. La<lb/>
+               nécessité d'économiser puisque,<lb/>
+               pendant 2 mois, je ne gagnerai<lb/>
+               rien et qu'au lieu
+               de songer<lb/>
+               à prendre des élèves, il ne faudra<lb/>
+               songer qu'à préparer le cours<lb/>
+               que je
+               dois faire, et travailler<lb/>
+               à me faire une réputation<lb/>
+               qui m'assure un jour une<lb/>
+               fortune
+               brillante. M. <persName>Delambre</persName>
+          <lb/>
+               a commencé par être précepteur<lb/>
+               dans des maisons particulières ;<lb/>
+               il va quitter l'<orgName>inspection générale<lb/>
+                  de l'Instruction publique</orgName> et il<lb/>
+               lui restera quatorze mille livres<lb/>
+               pour les places de mathématiques<lb/>
+               qu'il occupe. Tu sens comme moi<pb n="1228" facs="#ACAS_CRHST_AMP_26_393_quarto_0500_r.jpg"/>
+               qu'il
+               nous convient d'autant<lb/>
+               moins<add> de prendre cet appartement</add> que, si j'avais des<lb/>
+               leçons à
+               donner, je les<lb/>
+               donnerais dans l'appartement<lb/>
+               que le gouvernement<lb/>
+               m'accorde au collège.
+               Il est<lb/>
+               sûr qu'on m'en donne un<lb/>
+               et il se confirme que<lb/>
+               le proviseur aura le droit<lb/>
+               d'autoriser les professeurs<lb/>
+               mariés à y loger <add>avec </add>leur<lb/>
+               femme, surtout lorsque<lb/>
+               l'on y
+               aura une autre<lb/>
+               entrée que celle que fréquenteront<lb/>
+               les élèves, comme cela est<lb/>
+               très
+               facile à <placeName>Lyon</placeName> où le<lb/>
+               bâtiment du collège donne<lb/>
+               sur le <placeName>quai du Rhône</placeName>. Tu<lb/>
+               peux décider à
+               ton gré de<lb/>
+               toutes mes actions ; mais,<lb/>
+               aux yeux de la loi,<pb n="1229" facs="#ACAS_CRHST_AMP_26_393_quarto_0501_v.jpg"/>
+               personne sur la terre ne<lb/>
+               peut m'engager en mon<lb/>
+               absence et à mon insu.<lb/>
+               Pour ton repos, ton bonheur,<lb/>
+               laisse-moi
+               faire usage<lb/>
+               de ce droit ! Il suffit d'envoyer<lb/>
+               au propriétaire de la maison<lb/>
+               la lettre
+               que tu trouveras<lb/>
+               ici, et nous n'entendrons<lb/>
+               plus parler de l'appartement.<lb/>
+               Il faut se dépêcher<lb/>
+               seulement pour faire au propriétaire le moins <lb/>
+               de tort possible. Tu vas<lb/>
+               répugner à cette démarche ;<lb/>
+               mais réfléchis-y bien, tu<lb/>
+               verras que c'est ton intérêt<lb/>
+               qui la commande, que nous<lb/>
+               ne lui faisons point de tort,<lb/>
+               puisque son appartement<pb n="1230" facs="#ACAS_CRHST_AMP_26_393_quarto_0502_r.jpg"/>
+               a bien le <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice> de se louer<lb/>
+               d'ici la <date>S<ex>ain</ex>t-Jean</date> ; que,<lb/>
+               quand même il aurait<lb/>
+               perdu cette bonne
+               occasion<lb/>
+               de louer dont il se vantait<lb/>
+               pour te faire donner dans<lb/>
+               le piège, ce serait
+               bien<lb/>
+               sa faute, et sa seule faute ;<lb/>
+               car, si ç'eût été un honnête<lb/>
+               homme, il t'aurait
+               dit : <lb/>
+               <cit>
+            <quote>Madame, écrivez à votre<lb/>
+                  mari et, quand vous aurez<lb/>
+                  son consentement, je<lb/>
+               recevrai votre parole.</quote>
+          </cit>
+          <lb/>
+               Je suis sorti pour voir<lb/>
+               M. <persName>Clerc</persName> qui devait avoir<lb/>
+               vu le
+               préfet au sujet des<lb/>
+               prix qu'on veut donner,<lb/>
+               suivant l'usage, aux élèves<lb/>
+               de l'école.
+               Il ne l'avait<pb n="1231" facs="#ACAS_CRHST_AMP_26_393_quarto_0503_v.jpg"/>
+               pas trouvé. Je lui ai demandé<lb/>
+               s'il pensait que les professeurs<lb/>
+               fussent
+               logés au <orgName>Lycée</orgName> avec<lb/>
+               leur ménage, ou si l'on<lb/>
+               suivrait à cet égard la loi<lb/>
+               à la lettre. Il m'a dit que<lb/>
+               tout ce qu'il en savait c'est<lb/>
+               qu'ayant demandé à M. <persName>Delambre</persName>
+          <lb/>
+               s'il
+               serait logé, lui, au <orgName>Lycée<lb/>
+                  de <placeName>Moulins</placeName>
+          </orgName>, M. <persName>Delambre</persName>
+          <lb/>
+               lui avait répondu qu'il<lb/>
+               croyait
+               que non parce que<lb/>
+               le bâtiment où l'on plaçait<lb/>
+               le <orgName>Lycée</orgName> était trop petit<lb/>
+               pour loger
+               tous les professeurs.<lb/>
+               Pèse bien cette réponse<lb/>
+               et songe à l'immensité des<lb/>
+               <choice>
+            <sic>batimens</sic> <corr>bâtiments</corr>
+          </choice> du
+               grand <orgName>collège<lb/>
+                  de <placeName>Lyon</placeName>
+          </orgName> ! Je viens à mon<lb/>
+               dernier argument. Tu me<lb/>
+               dis dans ta lettre
+               d'aujourd'hui<lb/>
+               que tu es fâchée d'avoir promis<pb n="1232" facs="#ACAS_CRHST_AMP_26_393_quarto_0504_r.jpg"/>
+               de louer. Car enfin, tant que<lb/>
+               je ne me
+               suis pas engagé,<lb/>
+               rien n'est fini. Tu ne<lb/>
+               peux donc avoir envie de<lb/>
+               l'appartement que
+               par la<lb/>
+               crainte de faire tort au<lb/>
+               propriétaire, ou par celle<lb/>
+               de l'action qu'il pourrait<lb/>
+               avoir contre nous. Eh bien,<lb/>
+               quatre mois avant mon mariage,<lb/>
+               j'avais donné parole
+               moi<lb rend="hyphen"/>même et depuis deux jours<lb/>
+               au propriétaire du petit<lb/>
+               appartement situé au coin<lb/>
+               du
+               <placeName>quai du Rhône</placeName> et de la<lb/>
+               <placeName>place du Concert</placeName>. Cet<lb/>
+               appartement ne convient plus ; ma tatan
+               vient de<lb/>
+               <placeName>Poleymieux</placeName>, dit que maman<lb/>
+               (qui avait vu l'appartement)<lb/>
+               n'en veut point et que<lb/>
+               je n'ai pas pu m'engager<pb n="1233" facs="#ACAS_CRHST_AMP_26_393_quarto_0505_v.jpg"/>
+               pour elle. Si c'était une<lb/>
+               injustice, ne m'aurait<supplied>-on</supplied> fait<lb/>
+               alors
+               aucune observation ?<lb/>
+               Le silence qu'a gardé le<lb/>
+               propriétaire prouve qu'il<lb/>
+               ne pouvait
+               rien contre<lb/>
+               nous. Si ces raisons te convainquent,<lb/>
+               je te prie en grâce de mettre<lb/>
+               l'adresse sur ma lettre et de l'envoyer<lb/>
+               sur-le-champ au propriétaire. Si tu<lb/>
+               <choice>
+            <sic>persiste</sic>
+            <corr>persistes</corr>
+          </choice>
+               dans l'envie de garder<lb/>
+               l'appartement, brûle ma lettre ; mais,<lb/>
+               de grâce, écris-moi
+               sur-le-champ<lb/>
+               ta décision ! Je l'attends avec une<lb/>
+               mortelle inquiétude. Prenons<lb/>
+               l'appartement si <supplied>tu</supplied> le veux absolument,<lb/>
+               je te promets de signer le bail<lb/>
+               et de ne
+               t'en jamais <choice>
+            <sic>parlé</sic> <corr>parler</corr>
+          </choice>. Tu<lb/>
+               as oublié de me répondre au<lb/>
+               sujet de la dédite ; je pense<lb/> que
+               tu n'en as point stipulé, et<lb/> c'est une raison de plus pour tout<lb/>
+               rompre quand cela est
+               si facile.<lb/>
+               Je pense bien que tu ne prendras<lb/>
+               pas pour toi ce que je dis au
+               propriétaire :<lb/>
+               il faut le payer de ces raisons. Je<lb/>
+               t'embrasse mille et mille fois de
+               tout mon cœur.</p>
+         </div>
+      </body>
+      <back>
+         <div>
+            <note xml:id="corresp1">(1) Quatorze pages 17 x 22 ; pas d'adresse à la fin. Mme
+               <persName>Cheuvreux</persName> a publié quatre passages, p. 295 et 296. (2) Voir la Lettre 0231. </note>
+            <note resp="CAK_commentaire">Les pages du manuscrit sont dispersées dans plusieurs
+               chemises.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

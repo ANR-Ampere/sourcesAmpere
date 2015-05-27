@@ -1,0 +1,357 @@
+<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 162</title>
+                <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre
+                        Koyré</affiliation>
+          </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                            sciences</affiliation>
+          </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+          <name>Centre de calcul de
+                    l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="original_manuscrit">
+                    <msIdentifier xml:id="ampere_corr_L1802-08-07-A">
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des
+                            sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 393 quarto</idno>
+                    <altIdentifier>
+              <idno type="old">L162</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+          
+                    <physDesc>
+                        <p>Huit pages 17 x 22. Adresse et timbre de Bourg sur la dernière.
+                            [note de Louis DE LAUNAY]</p>
+                    </physDesc>
+                </msDesc>
+                <listWit>
+                    <witness xml:id="L162CGA">
+                        <biblStruct>
+                            <monogr>
+                                <author>
+                                    <surname>De Launay</surname>
+                                    <forename>Louis</forename>
+                </author>
+                                <title>Correspondance du Grand Ampère</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Gauthier-Villars</publisher>
+                                    <date when="1936">1936</date>
+                                    <biblScope type="tome">I.</biblScope>
+                                    <biblScope type="pp">p. 187-188</biblScope>
+                                </imprint>
+                            </monogr>
+                            
+                        </biblStruct>
+                        </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_A366">Ampère, André-Marie</persName>
+          <date when-iso="1802-08-07">7 août 1802</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme
+                                d'Ampère)</persName>
+        </correspAction>
+        <note type="noteDelaunay">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+            <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+                    Coustumer</name>
+      </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="correspondance" decls="#ampere_corr_L1802-08-07-A">
+        <body>
+            <div>
+                <opener>
+          <pb n="1166" facs="#ACAS_CRHST_AMP_26_393_quarto_0438_r.jpg"/>Du <date when="1802-08-07">Samedi [7 août 1802]</date>
+        </opener>
+                <p>Ma bonne amie, je délibère<lb/>
+                    depuis avant-hier au soir,<lb/>
+                    si je t'écrirai le
+                    désagrément<lb/>
+                    que j'eus à ma leçon de <choice>
+            <sic>chymie</sic> <corr>chimie</corr>
+          </choice>.<lb/>
+                    Comme je vois qu'il n'aura<lb/>
+                    aucune
+                    suite, je me décide<lb/>
+                    à te le raconter. <del>Il n'y</del>
+          <lb/>
+                    a absolument aucun sujet<lb/>
+                    d'inquiétude. Je ne voudrais<lb/>
+                    pas t'en donner pour tout<lb/>
+                    au monde. Mais je<lb/>
+                    veux que tu saches tout.<lb/>
+                    M. <persName ref="#pers_L339">de Lalande</persName> avait<lb/>
+                    annoncé qu'il viendrait<lb/>
+                    ce jour-là à la
+                    leçon ;<lb/>
+                    je m'étais paré de mon<lb/>
+                    mieux et je craignais<lb/>
+                    d'autant moins que<pb n="1167" facs="#ACAS_CRHST_AMP_26_393_quarto_0439_v.jpg"/>
+                    l'expérience que je préparais<lb/>
+                    me jouât un mauvais tour<lb/>
+                    qu'il ne m'était encore<lb/>
+                    arrivé, depuis que j'avais<lb/>
+                    commencé la chimie,<lb/>
+                    qu'un seul petit accident<lb/>
+                    dont il ne valait pas<lb/>
+                    la peine de parler. Je<lb/>
+                    regardais, dans les tubes<lb/>
+                    de l'appareil,
+                    les progrès<lb/>
+                    de <gap reason="lacune"/> <add>l'expérience</add> quand un <lb/>
+                    bouchon sauta ; je reçus<lb/>
+                    dans l’œil droit,
+                    où je<lb/>
+                    n'ai pas le moindre mal<lb/>
+                    aujourd'hui, un peu d'eau<lb/>
+                    forte toute chaude. M.<lb/>
+                    <persName>Sylvain</persName>, médecin, qui se<lb/>
+                    trouvait là, m'arrosa<pb n="1168" facs="#ACAS_CRHST_AMP_26_393_quarto_0440_r.jpg"/>
+                    sur-le-champ l’œil<lb/>
+                    d'ammoniaque : ce qui<lb/>
+                    m'ôta sur-le-champ<lb/>
+                    la plus vive douleur<lb/>
+                    que j'aie éprouvée<lb/>
+                    depuis
+                    <choice>
+            <sic>longtems</sic> <corr>longtemps</corr>
+          </choice>. Je<lb/>
+                    me lavai l’œil dans de<lb/>
+                    l'eau fraîche, et il<lb/>
+                    fut aussi bien
+                    portant<lb/>
+                    que l'autre. Je pensai<lb/>
+                    tout de suite à mes<lb/>
+                    habits que je couvris<lb/>
+                    d'ammoniaque, en sorte<lb/>
+                    qu'il paraît qu'il y aura<lb/>
+                    très peu de mal, et il n'y<lb/>
+                    en aurait point du tout<lb/>
+                    si je n'avais pas été un<pb n="1169" facs="#ACAS_CRHST_AMP_26_393_quarto_0441_v.jpg"/>
+                    peu troublé, et si je<lb/>
+                    n'avais pas
+                    pensé d'abord<lb/>
+                    seulement à mon œil.<lb/>
+                    Je n'ai absolument<lb/>
+                    aucun mal qu'une<lb/>
+                    brûlure
+                    sur deux doigts<lb/>
+                    de la main gauche qui<lb/>
+                    sera passée demain.<lb/>
+                    Je t'assure qu'il n'y
+                    a dans<lb/>
+                    tout cela aucune<lb/>
+                    raison de t'inquiéter, que<lb/>
+                    mes habits ne seront<lb/>
+                    point gâtés et que je<lb/>
+                    ne me sentirai plus du<lb/>
+                    tout de cet accident<lb/>
+                    quand j'irai te
+                    retrouver<lb/>
+                    dans huit jours. Ma<pb n="1170" facs="#ACAS_CRHST_AMP_26_393_quarto_0442_r.jpg"/>
+                    <persName ref="#pers_C129">Julie</persName>, c'est dans huit<lb/>
+                    jours que j'espère partir.<lb/>
+                    Je suis encore obligé de<lb/>
+                    donner leçon vendredi et,<lb/>
+                    ce qui m'ennuie beaucoup,<lb/>
+                    c'est que le courrier<lb/>
+                    de <placeName>Châtillon</placeName> ne part<lb/>
+                    pas samedi, en sorte<lb/>
+                    qu'il faudra que
+                    j'attende<lb/>
+                    <choice>
+            <sic>à</sic> <corr>le</corr>
+          </choice> dimanche si je veux<lb/>
+                    profiter de ma voiture<lb/>
+                    ordinaire. Il m'en<lb/>
+                    coûterait le double<lb/>
+                    à en prendre une<lb/>
+                    autre, et cela me<lb/>
+                    décidera, si je ne puis<lb/>
+                    trouver aucun autre<lb/>
+                    expédient, à ne partir<pb n="1171" facs="#ACAS_CRHST_AMP_26_393_quarto_0443_v.jpg"/>
+                    que dimanche. C'est donc<lb/>
+                    dimanche à 5
+                    heures<lb/>
+                    du soir que je t'embrasserai<lb/>
+                    et que je baiserai le petit,<lb/>
+                    à qui je te
+                    charge de dire<lb/>
+                    que son papa l'aime<lb/>
+                    bien et l'ira bientôt voir.<lb/>
+                    Sais-tu, ma bonne
+                    amie,<lb/>
+                    qu'il y a eu hier trois<lb/>
+                    ans que tu as fait mon<lb/>
+                    bonheur ? <ref>(2)</ref> Que ces trois ans<lb/>
+                    se sont vite écoulés ! Que<lb/>
+                    tu as éprouvé de peine,<lb/>
+                    et que je t'ai rendu de fois<lb/>
+                    du mal pour le bonheur<lb/>
+                    dont tu me comblais ! Pour<lb/>
+                    finir mes <choice>
+            <sic>sotises</sic> <corr>sottises</corr>
+          </choice>, je me suis<lb/>
+                    fait sauter de l'eau forte<pb n="1172" facs="#ACAS_CRHST_AMP_26_393_quarto_0444_r.jpg"/>
+                    dans l'œil, malgré toutes<lb/>
+                    les défenses que tu m'avais<lb/>
+                    faites de me faire mal.<lb/>
+                    Pardonne-moi, ma <persName ref="#pers_C129">Julie</persName> ;<lb/>
+                    c'est la dernière fois<lb/>
+                    que je te ferai du<lb/>
+                    chagrin. Oh, oui, jamais<lb/>
+                    je ne ferai rien qui<lb/>
+                    puisse te faire de la
+                    peine.<lb/>
+                    Je te le promets en<lb/>
+                    commençant notre<lb/>
+                   <hi rend="underline">quatrième année de<lb/>
+                    mariage</hi>.<lb/>
+                    Le petit
+                    aura deux a<supplied>ns</supplied>
+          <lb/>
+                    jeudi <ref>(3)</ref>. Je te remercie, ma<lb/>
+                    bonne amie, de me l'avoir<lb/>
+                    donné. Je voudrais bien<lb/>
+                    le baiser ce jour-là. Promets<lb rend="hyphen"/>moi de le baiser jeudi matin pour
+                    moi !<pb n="1173" facs="#ACAS_CRHST_AMP_26_393_quarto_0445_v.jpg"/>
+                    Il faut que je te quitte,<lb/>
+                    ma bonne et charmante<lb/>
+                    amie, ma <persName ref="#pers_C129">Julie</persName>, bien
+                    inquiet<lb/>
+                    de ta santé. J'ai reçu ta dernière<lb/>
+                    lettre qui redouble mes<lb/>
+                    inquiétudes. J'y répondrai<lb/>
+                    par <persName ref="#pers_P457">Pochon</persName> ; car je crains<lb/>
+                    de manquer aujourd'hui<lb/>
+                    l'heure du courrier. Je t'aime<lb/>
+                    et t'embrasse. Comme j'ai<lb/>
+                    envie d'être à dimanche, de<lb/>
+                    demain en huit ! Sens-tu ce baiser ?</p>
+                <closer>A Monsieur <persName>Richard</persName>,<lb/>
+                    chez les <persName>frères Périsse</persName>,<lb/>
+                    libraires, <placeName>grande<lb/>
+                        rue Mercière,
+                    n° 15</placeName>,<lb/>
+                    pour remettre, s'il lui plaît, à Mme<lb/>
+                    <persName ref="#pers_C129">Ampère-Carron</persName>,<lb/>
+                    à <placeName>Lyon</placeName>.</closer>
+            </div>
+        </body>
+        <back>
+            <div>
+                <note xml:id="corresp1">(1) Huit pages 17 x 22. Adresse et timbre de <placeName>Bourg</placeName> sur la
+                    dernière. Mme <persName>Cheuvreux</persName> a publié, p. 252 et 253, une grande partie de cette
+                    lettre. (2) Mariage le <date when="1799-08-06">6 août 1799</date>. (3) Naissance de <persName ref="#pers_A10">Jean-Jacques Ampère</persName> le <date when="1800-08-12">12
+                    août 1800</date>. (4) Lettre du <date when="1802-08-06">6 août</date>. </note>
+            </div>
+        </back>
+    </text>
+</TEI>

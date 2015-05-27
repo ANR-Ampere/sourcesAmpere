@@ -1,0 +1,321 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 7</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+           <msDesc type="original_manuscrit"> <msIdentifier xml:id="ampere_corr_L0000-00-00-F">
+               <country>France</country>
+               <settlement>Paris</settlement>
+               <institution>Archives de l'Académie des sciences</institution>
+               <repository>Fonds André-Marie Ampère</repository>
+               <idno>chemise 392</idno>
+            <altIdentifier>
+              <idno type="old">L7</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+          
+              <physDesc>
+                 <p>Fragment de lettre formant quatre pages in-4°, déchiré.</p>
+              </physDesc>
+        </msDesc>
+            <listWit>
+               <witness xml:id="L007CGA">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 214-215</biblScope>
+                        </imprint>
+                     </monogr>                     
+                     
+                  </biblStruct>
+               </witness>
+               </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_A366">Ampère, André-Marie</persName>
+          <date when-iso="0000-00-00">s.d.</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme
+                        d'Ampère)</persName>
+        </correspAction>
+        <note type="noteDelaunay">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L0000-00-00-F">
+      <body>
+         <div>
+            <opener>s.d.</opener>
+            <p>
+               <pb n="102" facs="#ACAS_CRHST_AMP_26_392_0102_r.jpg"/> <gap reason="lacune"/> Point de lettre aujourd'hui.<lb/>
+               Je sais bien
+                  <supplied>que tu n'as pas le temps</supplied>
+          <lb/>
+               de m'écrire <gap reason="lacune"/>
+          <lb/>
+               de t'en parle<supplied>r </supplied>
+          <gap reason="lacune"/>
+          <lb/>
+               D'ailleurs, d'aujourd'hui <supplied>en huit</supplied>
+          <lb/>
+               à 6
+               heures du soir, je <supplied>serai enfin</supplied>
+          <lb/>
+               dédommagé <supplied>de
+                  l'ennui</supplied>
+          <lb/>
+               que j'éprouve d'être <supplied>loin de</supplied>
+          <lb/>
+               toi. Plus que quelques <supplied>jours</supplied>
+          <lb/>
+               et j'embrasserai <supplied>ma <persName ref="#pers_C129">Julie</persName>
+          </supplied>
+          <lb/>
+               et
+               mon petit. <supplied>Cette pensée</supplied>
+          <lb/>
+               est bien douce et <supplied>j'en ai
+                  bien</supplied>
+          <lb/>
+               besoin ; car le temps <supplied>me paraît long</supplied>
+          <lb/>
+               loin
+               d'eux. J'e<supplied>mploie</supplied>
+          <lb/>
+               mes journées à <supplied>mes leçons</supplied>.<lb/>
+               C'est toujours <gap reason="lacune"/>
+          <lb/>
+               Il n'est pas
+                  <supplied>encore arrivé</supplied>
+          <lb/>
+               le moindre <supplied>accident</supplied> à mes
+               habits <supplied>ni à moi.<lb/>
+                  Les</supplied> expériences que <supplied>j'ai faites
+                  jusqu'à</supplied>
+          <lb/>
+               ce jour ont eu <supplied>beaucoup de</supplied>
+          <lb/> succès. Tu trou<supplied>veras une lettre pour<pb n="103" facs="#ACAS_CRHST_AMP_26_392_0103_v.jpg"/> <persName ref="#pers_B59">Beuchot</persName>.</supplied> a distribué<lb/>
+               <gap reason="lacune"/> et mes<lb/>
+               <gap reason="lacune"/>te prie de<lb/>
+               <supplied>faire porter</supplied> <gap reason="lacune"/>che pour<lb/>
+               <supplied>à son a</supplied>dresse que<lb/>               
+               <gap reason="lacune"/>
+          <supplied/>'y ai joint
+                  <supplied>une</supplied> note pour lui<lb/>
+               <supplied>afin que</supplied> tu puisses
+               l'envoyer<lb/>
+               <supplied>par quelqu'un</supplied> qui ne fût <lb/>
+              <supplied> pas capable</supplied> d'explication.<lb/>
+               <supplied>Je ne vou</supplied>drais
+               pas te mettre<lb/>
+               <supplied>dans la peine</supplied> d'y aller ou d'y<lb/>
+               <supplied>envoyer 
+                  quelqu'</supplied> un qui pût<lb/>
+               <gap reason="lacune"/>.</p>
+            <p>Du dimanche
+                  [<date when-iso="12-19">19 décembre</date>]<lb/>
+               <gap reason="lacune"/> Ma bonne<lb/>
+               <supplied>amie</supplied>, je n'ai pas<lb/>
+                  <supplied>eu un</supplied> moment<lb/>
+               <supplied>de toute</supplied> la journée<lb/>
+                  <supplied>pour arriver à</supplied> finir cette<lb/>
+               <supplied>lettre et à
+                  la</supplied> faire partir.<lb/>
+               <supplied>Je pensais que la lettre</supplied> de
+               <persName ref="#pers_B59">Beuchot</persName>
+          <pb n="104" facs="#ACAS_CRHST_AMP_26_392_0104_r.jpg"/> dût déjà être partie depuis<lb/>
+               le <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice> qu'il m'a écrit. Je<lb/>
+               vais la mettre à la
+               poste en<lb/>
+               sortant pour aller à la messe.<lb/>
+               J'ai rêvé cette nuit qu'on me<lb/>
+               remettait deux
+               lettres, l'une<lb/>
+               de ma <persName ref="#pers_C129">Julie</persName> et l'autre<lb/>
+               du gouvernement adressée au<lb/>
+               professeur du <orgName>lycée
+               de <placeName>Lyon</placeName>
+          </orgName>
+          <lb/>
+               et entourée d'un cadre bleu.<lb/>
+               Ces deux lettres m'ont<lb/>
+               tant fait de plaisir que<lb/>
+               j'ai été, par mon réveil,<lb/>
+               privé de celui de les lire.<lb/>
+               Demain, par <persName ref="#pers_P457">Pochon</persName>, j'espère<lb/>
+               l'accomplissement de la moitié<lb/>
+               de mon rêve, si je n'en<lb/>
+               vois pas l'accomplissement<lb/>
+               entier. Cette moitié suffir<supplied>a</supplied>
+          <lb/>
+               pour me rendre he<supplied>ureux.</supplied>
+          <lb/>
+               Mais, je te le répè<supplied>te, bien que</supplied>
+          <lb/>
+               tes lettres soien<supplied>t toute ma</supplied>
+          <lb/>
+               vie, ne m'<supplied>en écris que quand</supplied>
+          <pb n="105" facs="#ACAS_CRHST_AMP_26_392_0105_v.jpg"/> tu en auras bien le <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice>,<lb/> et
+               que cela ne pourra pas<lb/>
+               te fatiguer. Rassuré sur la<lb/>
+               santé du petit, j'aurais encore<lb/>
+               bien des choses à savoir sur<lb/>
+               la tienne. Est-ce que rien<lb/>
+               ne paraît ? Maigris-tu ou<lb/>
+               si c'est le contraire ? As-tu<lb/>
+               vu M. <persName>Petit</persName> <ref>(2)</ref>, etc. ; car j'aurais<lb/>
+               bien d'autres questions à te<lb/>
+               faire ; mais il faut te quitter<lb/>
+               et garder le reste pour la lettre<lb/>
+               par <persName ref="#pers_P457">Pochon</persName>. Ma <persName ref="#pers_C129">Julie</persName>, pense<lb/>
+               bien que ces détails sont ce qui peut<lb/>
+               le plus contribuer au bonheur de celui qui t'aime ! </p>
+            <closer>
+          <supplied>A</supplied> <choice>
+            <sic>madame<lb/>
+               madame</sic> <corr>madame</corr>
+          </choice> <persName ref="#pers_C129">Ampère</persName>
+          <lb/>
+               <supplied>chez</supplied> madame <persName ref="#pers_B69">Carron</persName>
+          <lb/>
+               rue du Griffon, maison<lb/>
+               <persName>Simon</persName> vis-à-vis<lb/>
+               la rue terraille<lb/>
+               à <placeName>Lyon</placeName>
+            </closer>
+         </div>
+      </body>
+      <back>
+         <div>
+            <note xml:id="corresp1">(1) Ce fragment de lettre formant quatre pages in-4° avec
+               adresse à Mme <persName ref="#pers_C129">Ampère</persName>, rue du Griffon, a été déchiré et la partie droite du début en
+               est reconstituée d'après le sens. La lettre se trouve datée par l'annonce que le
+               voyage de Noël aura lieu dans huit jours. Il était déjà question de <persName ref="#pers_B59">Beuchot</persName> dans la
+               Lettre 0189.</note>
+            <note xml:id="corresp2">(2) Voir la Lettre 0177 du <date when-iso="11-26">26 novembre</date> </note>
+         </div>
+      </back>
+   </text>
+</TEI>

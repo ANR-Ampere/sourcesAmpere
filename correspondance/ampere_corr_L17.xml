@@ -1,0 +1,350 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 17</title>
+                <author>Faraday, Michael</author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre
+                        Koyré</affiliation>
+          </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                            sciences</affiliation>
+          </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+          <name>Centre de calcul de
+                    l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:id="ampere_corr_L1822-02-02-A">
+                    <monogr>
+                        <author>
+                            <surname>De Launay</surname>
+                            <forename>Louis</forename>
+            </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gauthier-Villars</publisher>
+                            <date when="1943">1943</date>
+                            <biblScope type="tome">III.</biblScope>
+                            <biblScope type="pp">p. 908-914</biblScope>
+                        </imprint>
+                    </monogr>
+                    
+                <idno type="old">L17</idno>
+        </biblStruct>
+                <listWit>
+                    <witness xml:id="L17manuscrit">
+            <msDesc type="original_manuscrit">
+                            <msIdentifier>
+                                <country>Allemagne</country>
+                                <settlement>Berlin</settlement>
+                                <institution>Staatsbibliothek</institution>
+                                <repository>Dokumentensammlung Darmstaedter</repository>
+                                <idno>BI 1-3. [note de Franck JAMES]</idno>
+                            </msIdentifier>
+                        </msDesc>
+          </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_F239">Faraday, Michael</persName>
+          <date when-iso="1822-02-02">2 février 1822</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_A366">Ampère, André-Marie</persName>
+        </correspAction>
+        <note type="noteDelaunay">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+            <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+                    Coustumer</name>
+      </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="correspondance" decls="#ampere_corr_L1822-02-02-A">
+        <body>
+            <div>
+                <opener>
+          <date when="1822-02-02">2 février 1822</date>
+        </opener>
+                <p>
+          <foreign xml:lang="eng">This letter is preserved in the <orgName>Staatsbibliothek</orgName> at <placeName>Berlin</placeName> in the <persName>Darmstaedter</persName>
+                    Collection. The letter is dated <date when="1822-02-02">February 2nd, 1821 [1822]</date>, from the <orgName>Royal
+                        Institution</orgName> ; this was the year of <persName ref="#pers_F239">Faraday</persName>'s mariage and the year that brought
+                    him international fame owing to his discovery of the electro-magnetic rotations.
+                    Professor <persName>J. A. Fleming</persName>, F.R.S., to whom the letter was submitted, is good
+                    enough to write : <cit>
+              <quote>The facts as stated by <persName ref="#pers_F239">Faraday</persName> are quite correct. He and
+                    Ampère had evidently corresponded on the discovery of the rotation of the pole
+                    of a magnet round a current. Ampère discovered that a magnet could be made to
+                    rotate round its own axis by passing a current along it and <persName ref="#pers_F239">Faraday</persName> that a part
+                    of a circuit could be made to rotate in a magnetic field, as described. Ampère
+                    seems to have thought that it afforded a means of deciding whether the Amperian
+                    currents were molecular or circulated round the magnet as a whole, but <persName ref="#pers_F239">Faraday</persName>
+                    evidently differed from him.</quote>
+            </cit> The letter is not mentioned in the important
+                    biographies of <persName ref="#pers_F239">Faraday</persName> (1) nor does it appear in the life of <persName ref="#pers_A366">Ampere</persName> (2), but
+                    there is an interesting reference to the effect upon him of <persName ref="#pers_F239">Faraday</persName>'s researches
+                    in a letter to <persName ref="#pers_B94">J. Bredin</persName>, <date when="1821-11-30">30 November, 1821</date> (3).</foreign>  <cit>
+            <quote>En arrivant ici (i.e.,
+                    l'<orgName>Institut de France</orgName>) la métaphysique remplissait ma tête, mais depuis que le
+                        mémoire (4) de M. <persName ref="#pers_F239">Faraday</persName> a paru, je ne rêve plus que courants électriques. Ce
+                    mémoire contient des faits électromagnétiques très singuliers qui confirment
+                    parfaitement ma théorie quoique l'auteur cherche à la combattre pour lui en
+                    substituer une de son invention.</quote>
+          </cit>  TRANSCRIPT <foreign xml:lang="eng">
+            <orgName>Royal Institution</orgName>, <date when="1822-02-02">February 2nd,
+                    [1822]</date>. Sir, I am very much flattered by the letter you did me the honor to send
+                    me and by the present of the Exposé for which I beg leave to return you my best
+                    thanks. Having occasion to write to M. <persName ref="#pers_H295">Hachette</persName> I have presumed to accompany my
+                    letter to him by this to you and venture a few observations on your beautiful
+                    experiment of the rotation of the magnet, etc., etc. I repeated the experiment
+                    the day after I received your letter and using <persName ref="#pers_H604">Hare</persName>'s calorimeter an instrument
+                    equivalent to a very large pair of plates instantly obtained the revolution. I
+                    found it convenient to cement a small piece of glass tube on the upper pole of
+                    the magnet which forming a cup to receive the mercury made contact very easy
+                    without the chance of touching the solid parts of the arrangement. You mention
+                    your opinion that this experiment will be competent to decide the question
+                    whether the currents of electricity assumed by your theory exist round the axis
+                    of the magnet or round each particle from which I gather that the view you take
+                    of it differs from the one I at present have, since to me it seems a
+                    modification of the revolution of a wire round a pole. I presume much in
+                    differing from yourself on this subject and more in stating the difference to
+                    you but I do not hesitate a moment in concluding that in the true spirit of
+                    philosophy you are anxious to hear (or at last willing) even the doubt of one
+                    young in the subject if there be the smallest possibility that they will either
+                    correct or confirm previous views. The rotation of the magnet seems to me to
+                    take place in consequence of the different particles of which it is composed
+                    being put into the same state by the passing current of electricity as the wire
+                    of communication between the voltaic poles, and the relative position of the
+                    magnetic pole to them. [voir figure sur le fac-similé p.910) Thus the little
+                    arrows may represent the progress of the electricity ; then any line of particles
+                    parallel to them except that line which passes as an axis through the pole
+                    (represented by a dot) will be in the situation of the revolving wire and will
+                    endeavour to revolve round the pole and as all the limes act in the same
+                    direction or tend to go one way round the pole the whole magnet revolves. That
+                    this is the way in which the magnet revolves is I think evident from the
+                    considerations above ; from the revolution being in the same direction as with
+                    the wire and from the following analysis of the experiment I took a piece of
+                    copper wire similar in form to the magnet and having floated it upright in
+                    mercury placed a little cup on the top to contain a globule of mercury and then
+                    connected the voltaic poles just as they were with the magnet then placing the
+                    pole of a strong magnet beneath the cup containing the mercury. It, when exactly
+                    in line with the axis of the wire, made it rotate slowly on its own axis (5). In
+                    this experiment it appears to me that every thing was in the same state as in
+                    the former experiment except that the pole was removed out of the revolving mass
+                    but present in the line of the axis and the rotation of the wire on its own axis
+                    seems to me an effect produced exactly in the same manner as the rotation of the
+                    magnet on its own axis. I have been thus diffuse in giving my view of the
+                    rotation because if it be the true one I do not see how the experiment
+                    determines the position of the currents more than the one in which a wire
+                    rotates round a pole : Perhaps however you have the same view of it but see
+                    explanation I do not. I regret that my deficiency in mathematical knowledge
+                    makes me dull in comprehending these subjects. I am naturally sceptical in the
+                    matter of theories and therefore you must not be angry with me for not admitting
+                    the one you have advanced immediately. The ingenuity and applications are
+                    astonishing and exact. But I cannot comprehend how the currents are produced and
+                    particularly if they be supposed to exist round each atom or particle and I wait
+                    for further proofs of their existence before I finally admit them. Permit me to
+                    express my respect for your high philosophical character and to apologise for
+                    thus intruding on your time. I am, Sir, Your obliged and Humble Servant, M.
+                        <persName ref="#pers_F239">FARADAY</persName>. M. <persName ref="#pers_A366">Ampère</persName>.</foreign> TRADUCTION Une lettre holographe de <persName ref="#pers_F239">Faraday</persName> communiquée par
+                    le Professeur <persName>L. Darmstaedter</persName> Cette lettre est conservée à la <orgName>Staatsbibliothek</orgName>
+                    de <placeName>Berlin</placeName> dans la collection <persName>Darmstaedter</persName>. Cette lettre est datée du <date when="1822-02-02">2 février
+                        1821 [1822]</date>, de la <orgName>Royal Institution</orgName>. Ce fut l'année du mariage de <persName ref="#pers_F239">Faraday</persName> et
+                    l'année qui lui apporta une célébrité internationale par la découverte des
+                    rotations électromagnétiques. Le Professeur <persName>J. A. Fleming</persName>, F.R.S., auquel cette
+                    lettre fut soumise la trouva digne d'en écrire : <cit>
+            <quote>Les faits énoncés par <persName ref="#pers_F239">Faraday</persName>
+                    sont tout à fait corrects. Lui et <persName ref="#pers_A366">Ampère</persName> ont évidemment correspondu sur la
+                    découverte de la rotation du pôle d'un aimant autour d'un courant. <persName ref="#pers_A366">Ampère</persName>
+                    découvrit qu'un aimant pouvait tourner autour de son propre axe, lorsqu'on
+                    faisait passer un courant dans sa longueur et <persName ref="#pers_F239">Faraday</persName>, de son côté, qu'une
+                    portion de circuit pouvait être amenée à tourner dans son champ magnétique,
+                    comme il l'a décrit. <persName ref="#pers_A366">Ampère</persName> semble avoir pensé que ces observations apportaient
+                    les moyens de décider de la nature des courants mis en œuvre, soit qu'ils
+                    soient moléculaires ou circulaires autour de l'aimant : mais, évidemment,
+                        <persName ref="#pers_F239">Faraday</persName> différait d'opinion.</quote>
+          </cit> Cette lettre n'est mentionnée dans aucune des
+                    importantes biographies de <persName ref="#pers_F239">Faraday</persName> (6) non plus que dans la Vie d'<persName ref="#pers_A366">Ampère</persName> (7) ;
+                    mais on trouve une intéressante répercussion de l'effet produit sur lui par les
+                    recherches de <persName ref="#pers_F239">Faraday</persName>, dans une lettre à <persName ref="#pers_B94">J. Bredin</persName>, datée du <date when="1821-11-30">30 novembre 1821</date>
+                    (8). En arrivant ici (i.e., l'<orgName>Institut de France</orgName>) la métaphysique remplissait ma
+                    tête ; mais depuis que le Mémoire (9) de M. <persName ref="#pers_F239">Faraday</persName> a paru, je ne rêve plus que
+                    courants électriques. Ce Mémoire contient des faits électromagnétiques très
+                    singuliers qui confirment parfaitement ma théorie quoique l'auteur cherche à la
+                    combattre pour lui en substituer une de son invention. " COPIE DE LA LETTRE
+                    <orgName>Royal Institution</orgName> , <date when="1822-02-02">2 février [1822]</date> Monsieur, Je suis très flatté de la lettre
+                    que vous m'avez fait l'honneur de m'envoyer et du don de l'Exposé pour lequel je
+                    vous retourne mes meilleurs <choice>
+            <sic>remercîments</sic> <corr>remerciements</corr>
+          </choice>. Ayant l'occasion d'écrire à M.
+                    <persName ref="#pers_H295">Hachette</persName>, j'ai projeté d'accompagner ma lettre à lui par celle à vous adressée
+                    et risque quelques observations sur votre magnifique expérience sur la rotation
+                    de l'aimant, etc., etc. J'ai répété cette expérience le lendemain du jour où
+                    j'ai reçu votre lettre et usant du calorimètre <persName ref="#pers_H604">Hare</persName> comme instrument équivalent
+                    à une très grande paire de plaques, j'ai instantanément obtenu la révolution.
+                    J'ai trouvé qu'il convenait de cimenter un petit tube de verre sur le pôle
+                    supérieur de l'aimant lequel, formant une coupe pour recevoir le mercure, assure
+                    un contact très facile sans risque de toucher les parties solides de ce montage.
+                    Vous exprimez votre opinion que cette expérience doit permettre de décider la
+                    question de savoir si les courants électriques supposés par votre théorie
+                    existent autour de l'axe de l'aimant ou autour de chacune de ses particules :
+                    d'où je conclus que votre opinion sur ce point diffère de celle que j'ai
+                    présentement, puisque cela me semble être une modification de la révolution d'un
+                    fil autour d'un pôle. C'est bien de la présomption de ma part que d'avoir une
+                    opinion différente de la vôtre à ce sujet et, plus encore, en développant cette
+                    différence avec votre manière de voir ; mais je n'hésite pas un moment à
+                    conclure que dans le vrai esprit philosophique où vous êtes, vous êtes curieux
+                    de connaître (et finalement désireux) même le doute d'un élève dans ce sujet,
+                    s'il y a la plus petite possibilité qu'il veuille corriger ou confirmer des
+                    points de vue antérieurs. La rotation de l'aimant me semble donc être la
+                    conséquence de ce fait que les différentes particules qui la composent, sont
+                    mises, par le passage du courant, dans le même état que le fil de communication
+                    entre les pôles de la pile et la position relative du pôle magnétique par
+                    rapport à ces derniers. Ainsi, les petites flèches indiquent le sens du courant
+                    électrique : toute ligne de particules parallèle à ces flèches (à l'exception de
+                    la ligne qui passe par les pôles suivant un axe et qui est représentée par une
+                    ligne pointillée) se trouvera donc dans la situation du fil tournant et tendra à
+                    tourner autour du pôle : comme toutes les lignes agissent dans le même sens ou
+                    tendent à suivre le même chemin autour du pôle, l'aimant entier se met à
+                    tourner. Que ceci soit le sens dans lequel tourne l'aimant, je pense que les
+                    considérations ci-dessus le montrent avec évidence. Pour savoir si la rotation
+                    était dans la même direction que celle du fil, j'en ai fait l'expérience
+                    analysée ci-après. J'ai pris un morceau de fil de cuivre de forme semblable à
+                    celle de l'aimant : je l'ai fait flotter sur la cuve à mercure après avoir fixé
+                    à son extrémité une coupelle contenant un globule de mercure ; puis j'ai fait la
+                    connexion aux pôles d'une pile exactement de la même façon qu'elle avait été
+                    réalisée avec l'aimant ; enfin, j'ai placé le pôle d'un aimant puissant
+                    au-dessous de la coupelle contenant le mercure. Si celle-ci est exactement
+                    alignée avec l'axe du fil, on obtient une lente rotation de ce dernier suivant
+                    son axe. Il m'apparaît que toutes les conditions de l'expérience antérieure
+                    étaient reproduites, sauf que le pôle était séparé de la masse tournante tout en
+                    se trouvant aligné avec l'axe ; la rotation du fil sur son axe me paraît un
+                    effet produit exactement de la même façon que la rotation de l'aimant sur son
+                    axe. J'ai été ainsi diffus en donnant mon opinion sur la rotation, car si c'est
+                    là la vérité, je ne vois pas comment cette expérience détermine la position des
+                    courants plus que celle dans laquelle le fil tourne autour d'un pôle. Peut-être
+                    avez-vous cependant la même opinion à ce sujet dont je ne vois pas
+                    l'explication. Je regrette que mon insuffisance dans les connaissances
+                    mathématiques me rende inapte à comprendre ces sujets. Je suis naturellement
+                    sceptique en matière de théories et par conséquent vous ne devez pas m'en
+                    vouloir de ne pas admettre immédiatement ce que vous avez avancé. L'ingéniosité
+                    et les applications sont surprenantes et exactes, mais je ne puis comprendre
+                    comment les courants sont produits et particulièrement s'ils sont supposés
+                    existant autour de chaque atome ou particule et j'attends de nouvelles preuves
+                    de leur existence avant de les admettre. Permettez-moi de vous exprimer mes
+                    respects pour votre haut caractère philosophique et de m'excuser pour autant
+                    abuser de votre temps. Je suis, Monsieur, votre obligé et humble serviteur, M.
+                    <persName ref="#pers_F239">FARADAY</persName> M. <persName ref="#pers_A366">Ampère</persName>.</p>
+                <closer>A Holograph letter of <persName ref="#pers_F239">Faraday</persName>
+        </closer>
+            </div>
+        </body>
+        <back>
+            <div>
+                <note xml:id="corresp1">(1) <persName>Bence Jones</persName>, Life and Letters of <persName ref="#pers_F239">Faraday</persName>, 1870. – <persName>J. H.
+                    Gladstone</persName>, <persName ref="#pers_F239">Michael Faraday</persName>, 1873. – <persName>S. P. Thomson</persName>, <persName ref="#pers_F239">Michael Faraday</persName>, his Life and
+                    Work, <date when-iso="1898">1898</date>. (2) <persName ref="#pers_A366">André-Marie Ampère</persName> et <persName ref="#pers_A10">Jean-Jacques Ampère</persName>, Correspondance et
+                    Souvenirs (de <date from-iso="1805" to-iso="1864">1805 à 1864</date>) recueillis par Mme <persName>Cheuvreux</persName>, <date when-iso="1875">1875</date>. (3) Loc. cit., i.
+                    206. (4) Quarterly Journal of Science, <date when-iso="1821-10">october 1821</date>. (5) The sketch will be
+                    found on the page of the letter reproduced on Plate XXI. (6) <persName>Bence Jones</persName>, Life
+                    and Letters of <persName ref="#pers_F239">Faraday</persName>, <date when-iso="1870">1870</date>. – <persName>J. H. Gladstone</persName>, <persName ref="#pers_F239">Michael Faraday</persName>, <date when-iso="1873">1873</date>. – S. P.
+                    Thomson, <persName ref="#pers_F239">Michael Faraday</persName>, his Life and Work, 1898. (7)<persName ref="#pers_A366"> André-Marie Ampère</persName> et
+                    <persName ref="#pers_A10">Jean-Jacques Ampère</persName>, Correspondance et Souvenirs (de <date from-iso="1805" to-iso="1864">1805 à 1864</date>) recueillis par
+                    Mme <persName>Cheuvreux</persName>, 1875. (8) Loc. cit., i. 206. (9) Quarterly Journal of Science,
+                    <date when-iso="1821-10">october 1821</date>. </note>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,478 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre L1813-06-10-A</title>
+                <author>Ampère, André-Marie</author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki <affiliation>CRHST</affiliation>
+                    </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                        sciences</affiliation>
+                    </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Mathilde Dutertre, <affiliation>École nationale des
+                        chartes</affiliation>
+                    </name>
+                    <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+                </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre Nationale de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+                    <name>Centre de calcul de
+                        l'IN2P3</name>
+                    <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+                </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="original_manuscrit">
+                    <msIdentifier xml:id="ampere_corr_L1813-06-10-A">
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 261</idno>
+                        <altIdentifier>
+                            <idno type="old">L1198</idno>
+                            <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+                        </altIdentifier>
+                    </msIdentifier>    
+                    
+                    <physDesc>
+                        <handDesc>
+                            <handNote corresp="#AMA">
+                                <name type="person" key="Ampère, André-Marie (1775-1836)">
+                                    <forename>André-Marie</forename>
+                                    <surname>Ampère</surname>
+                                </name>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <listWit>
+                    <witness xml:id="L">
+                        <biblStruct>                            
+                            <monogr>                              
+                                <author role="dir">
+                                    <surname>Robinet</surname>
+                                    <forename>André</forename>
+                                </author>
+                                <title>Œuvres, XIII-1 : Correspondance philosophique avec Ampère</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>J. Vrin</publisher>
+                                    <date when="1993">1993</date>
+                                    <biblScope type="pp">p. 387-390</biblScope>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                    </witness>                  
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisés.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender">Ampère, André-Marie</persName>
+          <date when="1813-06-10">10 juin 1813</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Maine de Biran, Pierre</persName>
+        </correspAction>
+      </correspDesc>
+            <creation>
+                <date when="2014-07">juillet 2014</date>
+                <name>Philippe Pons</name>
+                <name>Aude
+                    Coustumer</name>
+            </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="correspondance" decls="#ampere_corr_L1813-06-10-A">
+        <body>
+            <div>
+        <p>
+          <pb n="1136" facs="#61/ACAS_CRHST_AMP_15_261_bis_0670_r.jpg"/>
+                Les phénomènes du somnambulisme par là<lb/>
+                même qu'ils s'écartent du cours ordinaire<lb/>
+                des choses, doivent être expliqués en<lb/>
+                partant non pas des seuls faits primitifs,<lb/>
+                mais de l'ensemble de toutes nos<lb/>
+                connaissances en <choice>
+            <sic>psycologie</sic> <corr>psychologie</corr>
+          </choice> et même<lb/>
+                en métaphysique explicative, en un mot<lb/>
+                il faut les lier à la théorie générale<lb/>
+                qui n'est pas la base, mais le dernier<lb/>
+                résultat de la <choice>
+            <sic>psycologie</sic> <corr>psychologie</corr>
+          </choice> théorie déduite<lb/>
+                à la vérité des faits primitifs, mais<lb/>
+                <del type="illisible"/> en y joignant tout ce que<lb/>
+                le raisonnement et l'expérience extérieure<lb/>
+                <choice>
+            <sic>on</sic> <corr>ont</corr>
+          </choice> pu y ajouter</p>
+                <p>Voici suivant moi les principaux<lb/>
+                    points de cette théorie, abstraction<lb/>
+                    faite de la manière dont nous y<lb/>
+                    sommes parvenus.</p>
+                <p>
+          <list>
+            <item n="1">. Les sensations, les intuitions,<lb/>
+                l'émesthèse, toute idée ou perception<lb/>
+                <choice>
+                <sic>quelqu'elle</sic> <corr>quelle qu'elle</corr>
+              </choice> soit, sont comme le dit<lb/>
+                <persName>Arnaud</persName>, les modalités d'un <foreign xml:lang="lat">substratum</foreign>
+              <lb/>
+                commun indivisible appelé âme,<lb/>
+                entièrement inconnue dans son<lb/>
+                essence, qu'on n'est conduit à<lb/>
+                admettre qu'après qu'on est<lb/>
+                arrivé à la connaissance des<lb/>
+                noumènes extérieures, et par les<lb/>
+                mêmes moyens d'induction et<lb/>
+                d'explication.</item>
+            <lb/>
+                <item n="2">°. Ces modalités n'ont lieu dans<lb/>
+                l'âme qu'autant que des <choice>
+                <sic>mouvemens</sic> <corr>mouvements</corr>
+              </choice>
+              <lb/>
+                    <choice>
+                <sic>correspondans</sic> <corr>correspondants</corr>
+              </choice> ont lieu dans <choice>
+                <sic>le</sic> <corr/>
+              </choice>
+              <pb n="1137" facs="#ACAS_CRHST_AMP_15_261_bis_0671_v.jpg"/>
+                    l'organisme. J'entends par <hi rend="underline">organisme</hi>
+              <lb/>
+                le cerveau d'abord, puis les nerfs et<lb/>
+                les muscles.</item>
+            <lb/>
+                <item n="3">°. La réunion des phénomènes<lb/>
+                simultanés distincts, dans l'unité de<lb/>
+                représentation ou de cognition, est<lb/>
+                due à l'indivisibilité de l'âme, la<lb/>
+                distinction phénoménale de ces<lb/>
+                phénomènes dans cette unité de<lb/>
+                représentation, est due à la<lb/>
+                distinction nouménale des parties<lb/>
+                de l'organisme où se passent les<lb/>
+                <choice>
+                <sic>mouvemens</sic> <corr>mouvements</corr>
+              </choice>, agissant sur un même<lb/>
+                point de l'organisme, il ne peut<lb/>
+                résulter qu'un mouvement unique<lb/>
+                et mixte dans l'organisme, il n'en<lb/>
+                peut aussi résulter dans l'âme<lb/>
+                    qu'une modalité simple et unique,<lb/>
+                    où rien ne peut être distingué.
+                </item>
+                <item n="4">°. Les modalités de l'âme correspondant<lb/>
+                    à des <choice>
+                <sic>mouvemens</sic> <corr>mouvements</corr>
+              </choice> excités dans<lb/>
+                l'organisme par des causes matérielles<lb/>
+                sont des intuitions ou des sensations,<lb/>
+                suivant que la disposition de la<lb/>
+                partie de l'organisme où ces<lb/>
+                <choice>
+                <sic>mouvemens</sic> <corr>mouvements</corr>
+              </choice> ont lieu à la relation<lb/>
+                    de juxtaposition continue.</item>
+            <pb n="1138" facs="#ACAS_CRHST_AMP_15_261_bis_0672_r.jpg"/>
+                    <item n="5">°. La modalité de l'âme correspondante<lb/>
+                    à un mouvement excité dans l'organisme<lb/>
+                        par l'âme elle-même, est d'une<lb/>
+                        nature particulière, toute différente<lb/>
+                        de celle des intuitions et des sensations,<lb/>
+                        c'est ce que je nomme <hi rend="underline">émesthèse</hi>
+              <lb/>
+                        ou moi phénoménal, aussi différent<lb/>
+                        du moi nouménal ou âme, qui est<lb/>
+                        le <foreign xml:lang="lat">substratum</foreign> commun dont cette<lb/>
+                        <hi rend="underline">émesthèse</hi> est une modalité, que<lb/>
+                        les sensations et les intuitions sont<lb/>
+                        différentes des noumènes extérieurs<lb/>
+                        qui leur correspondent.
+                    </item>
+            <lb/>
+                    <item n="6">°. L'émesthèse est unique et<lb/>
+                        permanente tant que dure<lb/>
+                    l'état de veille. Sa permanence<lb/>
+                    constitue la personnalité, et<lb/>
+                    forme le pivot <del type="illisible"/> où s'attache<lb/>
+                    la chaîne des <choice>
+                <sic>souvenir</sic> <corr>souvenirs</corr>
+              </choice>, chaîne dont<lb/>
+                    le pivot est l'unique lien sans<lb/>
+                    lequel elle ne peut exister.</item>
+            <lb/>
+                    <item n="7">°. L'émesthèse est distincte et donnée<lb/>
+                        hors de toutes<add> les</add> autres modalités,<lb/>
+                        tant que les <choice>
+                <sic>mouvemens</sic> <corr>mouvements</corr>
+              </choice> <choice>
+                <sic>correspondans</sic> <corr>correspondants</corr>
+              </choice>
+              <lb/>
+                    à ces autres modalités ont lieu<lb/>
+                    dans des points de l'organisme<lb/>
+                    <choice>
+                <sic>différens</sic> <corr>différents</corr>
+              </choice> du centre d'action de<lb/>
+                    l'âme elle-même sur l'organisme.<lb/>
+                    Ce centre d'action est comme<lb/>
+                    le sanctuaire de l'âme, il est<lb/>
+                        seul mu dans la méditation où l'âme <pb n="1139" facs="#ACAS_CRHST_AMP_15_261_bis_0673_v.jpg"/>
+                        produit par son action sur ce<lb/>
+                        centre tout ce qui est alors<lb/>
+                        présent à l'entendement.</item>
+                    <item n="8">°. Dans les animaux l'âme n'agit<lb/>
+                        que sur des points mus en même<lb/>
+                        <choice>
+                <sic>tems</sic> <corr>temps</corr>
+              </choice> par les causes extérieures,<lb/>
+                        le mouvement mixte qui en résulte<lb/>
+                        est, suivant la loi générale n°3,<lb/>
+                        accompagné d'une modalité simple<lb/>
+                        et unique où l'émesthèse ne peut<lb/>
+                        en aucune manière se distinguer<lb/>
+                        de la sensation ainsi fondue avec<lb/>
+                        elle, il n'y a donc ni émesthèse<lb/>
+                        distincte ni personnalité possibles.
+                    </item>
+                    <item n="9">°. Quand l'homme est agité de<lb/>
+                    passions violentes, dans l'ivresse, la<lb/>
+                    folie et le délire, les <choice>
+                <sic>mouvemens</sic> <corr>mouvements</corr>
+              </choice>
+              <lb/>
+                    excités dans l'organisme par les<lb/>
+                    causes matérielles externes ou internes<lb/>
+                    se propagent jusqu'au centre<lb/>
+                    d'action, s'y confondent avec les<lb/>
+                        <choice>
+                <sic>mouvemens</sic> <corr>mouvements</corr>
+              </choice> produits par l'âme,<lb/>
+                        il n'y a encore dans l'âme qu'une<lb/>
+                        modalité <del type="illisible"/> unique et mixte,<lb/>
+                        où l'émesthèse est absorbée, et<lb/>
+                        <subst>
+                <add>la</add> <del type="illisible"/>
+              </subst> personnalité est <del type="illisible"/> encore<lb/>
+                        <choice>
+                <sic>annéantie</sic> <corr>anéantie</corr>
+              </choice>.
+                    </item>
+                    <item n="10">°. L'état du somnambule est d'après<lb/>
+                    les faits observés, absolument<lb/>
+                    différent. Les diverses époques<lb/>
+                        où cet état a existé forment<pb n="1140" facs="#ACAS_CRHST_AMP_15_261_bis_0674_r.jpg"/>
+                    une chaîne de souvenirs parfaitement<lb/>
+                    liée, l'âme libre et exerçant<lb/>
+                    ses facultés réflexives au plus<lb/>
+                    haut <choice>
+                <sic>degrés</sic> <corr>degré</corr>
+              </choice> juge les suites des<lb/>
+                    perceptions actives qu'elle se procure<lb/>
+                    sur l'état des organes internes, perceptions<lb/>
+                    <add>très </add>analogues aux intuitions musculaires<lb/>
+                        de l'état de veille <subst>
+                <del type="illisible"/> <add>et qui par leur coordination<lb/>
+                        figure ces organes</add>
+              </subst>, elle juge des<lb/>
+                        rapports moraux qu'elle continue<lb/>
+                        d'avoir, elle a la notion la plus<lb/>
+                        claire de la durée passée et future,<lb/>
+                        elle indique avec précision des<lb/>
+                        époques dans l'avenir. Voilà<lb/>
+                        <choice>
+                <sic>certe</sic> <corr>certes</corr>
+              </choice>, une personnalité active<lb/>
+                        et complète, mais en même<lb/>
+                        <choice>
+                <sic>tems</sic> <corr>temps</corr>
+              </choice> elle voit hors de ce nouveau<lb/>
+                        moi, son ancien moi comme<lb/>
+                        <choice>
+                <sic>un</sic> <corr>une</corr>
+              </choice> autre personne, elle juge<lb/>
+                        des <choice>
+                <sic>penchans</sic> <corr>penchants</corr>
+              </choice> et des erreurs de<lb/>
+                        cet autre, elle prévoit les<lb/>
+                        fausses ou injustes déterminations<lb/>
+                        que cet autre prendra dans<lb/>
+                        l'état de veille futur, etc, etc.<lb/>
+                        Tout cela ne prouve-t-il<lb/>
+                        pas que l'âme agissant alors<lb/>
+                        sur un nouveau centre, les <lb/>
+                        <choice>
+                <sic>mouvemens</sic> <corr>mouvements</corr>
+              </choice> qu'elle y produit<lb/>
+                        sont accompagnés dans l'âme<lb/>
+                        d'un nouveau moi phénoménal,<lb/>
+                        que cette action s'étendant<pb n="1141" facs="#ACAS_CRHST_AMP_15_261_bis_0675_v.jpg"/>
+                        aux nerfs et aux fibres musculaires<lb/>
+des organes internes, qui dans<lb/> 
+                        l'état de veille sont soustraits à<lb/>
+                        l'action de l'âme, y produit des<lb/>
+                        intuitions musculaires qui<lb/>
+                        <hi rend="underline">figurent</hi> ces organes, tandis que<lb/>
+                        l'âme restant liée passivement<lb/>
+                        à l'ancien centre y voit les<lb/>
+                        pensées et les déterminations<lb/>
+                        de l'état de veille comme hors<lb/>
+                        d'elle, puisque d'après la loi<lb/>
+                        générale n°3 les modalités<lb/>
+                        correspondantes à des <choice>
+                <sic>mouvemens</sic> <corr>mouvements</corr>
+              </choice>
+              <lb/>
+                        <choice>
+                <sic>existans</sic> <corr>existants</corr>
+              </choice> dans des points <choice>
+                <sic>différens</sic> <corr>différents</corr>
+              </choice>
+              <lb/>
+                        de l'organisme, sont nécessairement<lb/>
+                        <hi rend="underline">données</hi> dans l'âme hors les unes<lb/>
+                        des autres, et qu'ici les deux<lb/>
+                        <hi rend="underline">moi-phénoménal</hi> correspondent<lb/>
+                        en effet à des <choice>
+                <sic>mouvemens</sic> <corr>mouvements</corr>
+              </choice>
+              <lb/>
+                        dans deux centres d'action<lb/>
+                        <choice>
+                <sic>différens</sic> <corr>différents</corr>
+              </choice>. Mais en vertu<lb/>
+                       de la liaison passive avec<lb/>
+                        l'ancien centre, celui-ci reproduit<lb/>
+                        les <choice>
+                <sic>mouvemens</sic> <corr>mouvements</corr>
+              </choice> d'habitudes<lb/>
+                        <choice>
+                <sic>correspondans</sic> <corr>correspondants</corr>
+              </choice> aux pensées de<lb/>
+                        l'âme qui réagissent sur lui,<lb/>
+                        les mots liés par habitude à ces<lb/>
+                        pensées sont ainsi proférés<lb/>
+                        ainsi que les divers <choice>
+                <sic>mouvemens</sic> <corr>mouvements</corr>
+              </choice>
+              <pb n="1142" facs="#ACAS_CRHST_AMP_15_261_bis_0676_r.jpg"/>
+                        liés de même à ces pensées sont<lb/>
+                        exécutés. Enfin quand le réveil a<lb/>
+                        lieu, toute liaison soit active<lb/>
+                        soit passive entre l'âme et le<lb/>
+                        second centre d'action, mus dans<lb/>
+                        l'état de somnambulisme, étant<lb/>
+                        <choice>
+                <sic>annéantie</sic> <corr>anéantie</corr>
+              </choice>, il ne reste aucune<lb/>
+                        trace de cet état dans celui de<lb/>
+                        veille, quoique les traces de l'état<lb/>
+                        de veille existassent passivement<lb/>
+                        dans celui de somnambulisme.                        
+                    </item>
+                </list>                
+            </p>
+            </div>
+      <div>
+        <p>
+            <date when="1813-06-10">10 juin 1813</date>
+          <lb/>
+                Je prie monsieur <persName>de Biran</persName>,<lb/>
+                de lire cela le plus attentivement<lb/>
+                qu'il pourra, de tâcher de<lb/>
+                suppléer ce que j'ai omis,
+                <choice>
+            <sic>écivant</sic> <corr>écrivant</corr>
+          </choice> au courant de la plume,<lb/>
+                et de m'en dire son avis au<lb/>
+                dîner de demain où je me<lb/>
+                trouverai à quatre heures et demi<lb/>
+                sur la terrasse des Feuillans.<lb/>
+            </p>
+            </div>
+        </body>
+        
+    </text>
+</TEI>

@@ -1,0 +1,821 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Publications d'André-Marie Ampère - P295</title>
+                <author key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/">
+                    <forename>André-Marie</forename>
+                    <surname>Ampère</surname>
+                </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+                        <addrLine>27 rue Damesme </addrLine>
+                        <addrLine>75013 Paris</addrLine>
+                    </address>
+                <distributor>
+                    <name>Centre de calcul de l'IN2P3</name>
+                    <address>
+                        <addrLine>Domaine scientifique de la Doua</addrLine>
+                        <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+                        <addrLine>69622 Villeurbanne Cedex</addrLine>
+                    </address>
+                </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date>2013</date>
+            </publicationStmt>
+            <sourceDesc>
+              <biblStruct xml:id="ampere_publi_P1825-F" xml:lang="fr" type="Article_de_périodique">
+                    <analytic>
+                        <author>
+                            <persName>
+                                <surname>Ampère</surname>
+                                <forename>André-Marie</forename>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName>
+                                <surname>Cauchy</surname>
+                                <forename>Augustin</forename>
+                            </persName>
+                        </author>
+                        <title level="a">Analyse de la théorie des nombres par G. Libri. Extrait du
+                            rapport fait par MM. Ampère et Cauchy, à l'Académie royale des Sciences, dans
+                            la séance du 9 août 1824</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Bulletin des sciences mathématiques, astronomiques, physiques et
+                            chimiques</title>
+                        <imprint>
+                            <date when="1825">1825</date>
+                            <biblScope type="vol">3</biblScope>
+                            <biblScope type="pp">p. 77-81</biblScope>
+                        </imprint>
+                    </monogr>
+                    <idno type="M">BDDprim00406</idno>
+                <idno type="old">P295</idno>
+        </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date>janvier 2015</date>
+                <name>Philippe Pons</name>
+            </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+  <text decls="#ampere_publi_P1825-F" type="publications">
+        <front>
+            <docTitle>
+                <titlePart>
+          <pb n="77"/> <hi rend="sc">Analyse de la théorie des nombres par <persName>G. Libri</persName>.</hi> Extrait du
+                    rapport fait par MM. <persName ref="#pers_A366">Ampère</persName> et <persName>Cauchy</persName>, à l'<orgName ref="#org_A15">Académie royale des Sciences</orgName>, dans
+                    la séance du <date when="1824-08-09">9 août 1824</date>
+        </titlePart>
+            </docTitle>           
+        </front>
+        <body>
+            <div>
+        <p>
+                Ce mémoire se divise en trois articles : le premier est relatif à<lb/>
+                la résolution des équations indéterminées. On se rappelle qu'il y<lb/>
+                a quelques années, l'auteur offrit à l'<orgName ref="#org_A15">Académie</orgName> un mémoire im<lb rend="hyphen"/>primé sur quelques équations de cette espèce qu'il résolvait a<lb/>
+                l'aide de considérations nouvelles. L'un de nous, à qui l'auteur<lb/>
+                avait envoyé ce mémoire, remarqua que les équations traitées<lb/>
+                par M. <persName>Libri</persName>, et beaucoup d'autres du même genre, pouvaient<lb/>
+                être résolues à l'aide d'un principe général, dont voici l'énoncé :<lb/>
+                Étant donnée une équation indéterminée entre deux variables<lb/>
+                <hi rend="it">x y</hi>, si l'on parvient à trouver une fonction des mêmes variables
+                <pb n="78"/>
+                dont la valeur numérique ne puisse dépasser un certain maxi<lb rend="hyphen"/>mum, et demeure toujours entière quand on substitue pour<lb/>
+                <hi rend="it">x</hi> et <hi rend="it">y</hi> des nombres entiers, on calculera sans peine les divers<lb/>
+                systèmes de valeurs entières de <hi rend="it">x</hi> et <hi rend="it">y</hi>, qui vérifieront l'équation<lb/>
+                donnée, puisque chacun de ces systèmes devra satisfaire en outre<lb/>
+                à l'une des équations qu'on obtient, quand on égale successive<lb rend="hyphen"/>ment la fonction ci-dessus mentionnée, ou cette fonction prise<lb/>
+                en signe contraire à l'un des nombres entiers inférieurs à sa plus<lb/>
+                grande valeur numérique. Il est facile d'étendre ce principe au<lb/>
+                cas où l'on considère plus de deux variables. Quant à la détermi<lb rend="hyphen"/>nation d'une fonction propre à remplir les conditions énoncées,<lb/>
+                il suffit souvent pour l'opérer d'avoir recours à des <choice>
+            <sic>développe<lb rend="hyphen"/>mens</sic> <corr>développe<lb rend="hyphen"/>ments</corr>
+          </choice> en séries. L'auteur établit à ce sujet une règle qui peut être<lb/>
+                utile dans beaucoup de cas, et il indique aussi me moyen de dé<lb rend="hyphen"/>terminer la fonction cherchée relativement à certaines équations<lb/>
+                dont le premier membre est décomposable en deux facteurs ra<lb rend="hyphen"/>tionnels. Il est essentiel d'observer qu'à l'aide du principe dont<lb/>
+                nous venons de parler, on peut résoudre en nombres entiers,<lb/>
+                non-seulement des équations algébriques et rationnelles du genre<lb/>
+                de celles que M. <persName>Libri</persName> a considérées, mais encore des équations<lb/>
+                transcendantes, par exemple celle-ci :<lb/>
+                <formula>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <msup>
+                  <mn>2</mn>
+                  <mrow>
+                    <mi>x</mi>
+                    <mo>−</mo>
+                    <mi>y</mi>
+                  </mrow>
+                </msup>
+                <mo>(</mo>
+                <msup>
+                  <mi>x</mi>
+                  <mn>2</mn>
+                </msup>
+                <mo>+</mo>
+                <msup>
+                  <mi>y</mi>
+                  <mn>2</mn>
+                </msup>
+                <mo>)</mo>
+                    <mo>=</mo>
+                    <msup>
+                  <mi>x</mi>
+                  <mn>2</mn>
+                </msup>
+                <mo>+</mo>
+                    <mn>6</mn>
+                <msup>
+                  <mi>y</mi>
+                  <mn>2</mn>
+                </msup>
+              </mrow>
+            </math>
+                </formula>.<lb/>
+                En effet on tire de cette équation <formula>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                        <msup>
+                  <mn>2</mn>
+                  <mrow>
+                    <mi>x</mi>
+                    <mo>−</mo>
+                    <mi>y</mi>
+                  </mrow>
+                </msup>
+                <mo>&lt;</mo>
+                <mo>,</mo>
+                <mi>x</mi>
+                <mo>−</mo>
+                <mi>y</mi>
+                <mo>&lt;</mo>
+                        <mfrac>
+                            <mrow>
+                    <mi>l</mi>
+                    <mo>(</mo>
+                    <mn>6</mn>
+                    <mo>)</mo>
+                  </mrow>
+                            <mrow>
+                    <mi>l</mi>
+                    <mo>(</mo>
+                    <mn>2</mn>
+                    <mo>)</mo>
+                  </mrow>
+                        </mfrac>
+                <mo>=</mo>
+                <mn>2,5</mn>
+                    </mrow>
+            </math>
+                </formula>..<lb/>
+               et par suite <formula>
+                   <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mi>x</mi>
+                <mo>−</mo>
+                <mi>y</mi>
+              </mrow>
+            </math>
+               </formula> ne peut être que l'un des trois nombre 0, 1, 2 ;<lb/>
+                il est aisé d'en conclure que l'équation proposée n'admet qu'une<lb/>
+                solution, savoir, <formula>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mi>x</mi>
+                <mo>=</mo>
+                <mn>2</mn>
+              </mrow>
+            </math>
+                </formula> et <formula>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mi>y</mi>
+                <mo>=</mo>
+                <mn>1</mn>
+              </mrow>
+            </math>
+                </formula>.</p>
+                <p>M. <persName>Libri</persName> indique encore dans son premier article une méthode<lb/>
+                    propre à fournir des solutions entières d'une équation indétermi<lb rend="hyphen"/>née, lorsque les inconnues se trouvent distribuée par groupes<lb/>
+                    dans plusieurs termes, dont chacun est une fonction entière et<lb/>
+                    homogène des inconnues qu'il renferme. Cette méthode peut<lb/>
+                    être généralisée comme il suit. Si l'on suppose toutes les incon<lb rend="hyphen"/>nues comprises dans un même groupe respectivement égales aux<lb/>
+                    produits d'une même variable par des <choice>
+            <sic>coëfficiens</sic> <corr>coefficients</corr>
+          </choice> <choice>
+            <sic>constans</sic> <corr>constants</corr>
+          </choice>,<lb/>
+                    l'équation proposée prendre la forme<lb/>
+                    <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                            <mi>A</mi>
+                <msup>
+                  <mi>x</mi>
+                  <mi>a</mi>
+                </msup>
+                <mo>+</mo>
+                <mi>B</mi>
+                <msup>
+                  <mi>y</mi>
+                  <mi>b</mi>
+                </msup>
+                <mo>+</mo>
+                            <mi>C</mi>
+                <msup>
+                  <mi>z</mi>
+                  <mi>c</mi>
+                </msup>
+                <mo>+</mo>
+                <mo>..</mo>
+                <mo>−</mo>
+                <mo>..</mo>
+                <mo>=</mo>
+                <mi>N</mi>
+                <msup>
+                  <mi>t</mi>
+                  <mi>n</mi>
+                </msup>                       
+                        </mrow>
+            </math>
+                    </formula>.<lb/>
+                    Si maintenant on pose <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                            <mi>a</mi>
+                <mi>b</mi>
+                <mi>c</mi>
+                <mo>..</mo>
+                <mo>=</mo>
+                <mi>m</mi>
+                <mo>,</mo>
+                <mi>A</mi>
+                <mo>+</mo>
+                <mi>B</mi>
+                <mo>+</mo>
+                <mi>C</mi>
+                <mo>...</mo>
+                <mo>=</mo>
+                <mi>M</mi>
+                <mi>n</mi>
+                <mo>=</mo>
+                            <msup>
+                  <mi>s</mi>
+                  <mfrac>
+                    <mi>m</mi>
+                    <mi>u</mi>
+                  </mfrac>
+                </msup>
+                        </mrow>
+            </math>
+                    </formula>,
+                    <pb n="79"/>
+                    <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mi>y</mi>
+              <mo>=</mo>
+              <msup>
+                <mi>s</mi>
+                <mfrac>
+                  <mi>m</mi>
+                  <mi>b</mi>
+                </mfrac>
+              </msup>
+            </math>
+                    </formula>, <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mi>z</mi>
+                <mo>=</mo>
+                <msup>
+                  <mi>s</mi>
+                  <mfrac>
+                    <mi>m</mi>
+                    <mi>c</mi>
+                  </mfrac>
+                </msup>
+              </mrow>
+            </math>
+                    </formula>, on n'aura plus à résoudre que l'équation<lb/>
+                    <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mi>E</mi>
+                <msup>
+                  <mi>s</mi>
+                  <mi>m</mi>
+                </msup>
+                <mo>=</mo>
+                <mi>N</mi>
+                <msup>
+                  <mi>t</mi>
+                  <mi>n</mi>
+                </msup>
+              </mrow>
+            </math>
+                    </formula> ;<lb/>
+                    or on y parviendra si <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mfrac>
+                  <mi>M</mi>
+                  <mi>N</mi>
+                </mfrac>
+              </mrow>
+            </math>
+                    </formula> est une puissance rationnelle du degré<lb/>
+                    r, r désignant le plus grand diviseur entier de m et de n ; en effet,<lb/>
+                    soit<lb/>
+                    <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mfrac>
+                  <mi>M</mi>
+                  <mi>N</mi>
+                </mfrac>
+                <mo>=</mo>
+                        <mfrac>
+                  <mrow>
+                    <msup>
+                      <mi>u</mi>
+                      <mi>r</mi>
+                    </msup>
+                  </mrow>
+                        <mrow>
+                    <msup>
+                      <mi>v</mi>
+                      <mi>r</mi>
+                    </msup>
+                  </mrow>
+                </mfrac>
+              </mrow>
+            </math>
+                    </formula>
+          <lb/>
+                    on pourra satisfaire à l'équation<lb/>
+                    <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mi>p</mi>
+                <mi>m</mi>
+                <mo>=</mo>
+                <mi>q</mi>
+                <mi>n</mi>
+                <mo>+</mo>
+                <mi>r</mi>
+              </mrow>
+            </math>
+                    </formula>,<lb/>
+                    de manière que l'on ait <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mi>p</mi>
+                <mo>&lt;</mo>
+                <mi>n</mi>
+              </mrow>
+            </math>
+                    </formula>, et par suite <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mi>q</mi>
+                <mo>&lt;</mo>
+                <mi>m</mi>
+              </mrow>
+            </math>
+                    </formula>, et l'on en<lb/>
+                    conclura<lb/>
+                    <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                            <mfrac>
+                  <mi>M</mi>
+                  <mi>N</mi>
+                </mfrac>
+                <mo>=</mo>
+                <mfrac>
+                  <mrow>
+                                <msup>
+                      <mrow>
+                        <mo>(</mo>
+                        <msup>
+                          <mi>u</mi>
+                          <mi>P</mi>
+                        </msup>
+                        <msup>
+                          <mi>v</mi>
+                          <mrow>
+                            <mi>n</mi>
+                            <mo>−</mo>
+                            <mi>p</mi>
+                            <mo>)</mo>
+                          </mrow>
+                          <mi>m</mi>
+                        </msup>
+                      </mrow>
+                    </msup>  
+                            </mrow>
+                            <mrow>
+                                <mo>(</mo>
+                    <msup>
+                      <mi>u</mi>
+                      <mi>Q</mi>
+                    </msup>
+                    <msup>
+                      <mi>v</mi>
+                      <mrow>
+                        <mi>n</mi>
+                        <mo>−</mo>
+                        <mi>q</mi>
+                        <mo>)</mo>
+                      </mrow>
+                      <mi>n</mi>
+                    </msup> 
+                            </mrow>
+                </mfrac>
+                        </mrow>
+            </math>
+                    </formula>.<lb/>
+                    Donc on vérifiera l'équation entre s et t en prenant<lb/>
+                    <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                            <mi>s</mi>
+                <mo>=</mo>
+                <msup>
+                  <mi>n</mi>
+                  <mi>P</mi>
+                </msup>
+                <msup>
+                  <mi>v</mi>
+                  <mrow>
+                    <mi>n</mi>
+                    <mo>−</mo>
+                    <mi>p</mi>
+                  </mrow>
+                </msup>
+                        </mrow>
+            </math>
+                    </formula>,  <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                            <mi>t</mi>
+                <mo>=</mo>
+                <msup>
+                  <mi>n</mi>
+                  <mi>Q</mi>
+                </msup>
+                <msup>
+                  <mi>v</mi>
+                  <mrow>
+                    <mi>n</mi>
+                    <mo>−</mo>
+                    <mi>q</mi>
+                  </mrow>
+                </msup>
+                        </mrow>
+            </math>
+                    </formula>.<lb/>
+                    Dans le cas particulier où l'on suppose <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mi>r</mi>
+              <mo>=</mo>
+              <mi>1</mi>
+            </math>
+                    </formula>, la condition<lb/>
+                    à laquelle <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mfrac>
+                  <mi>M</mi>
+                  <mi>N</mi>
+                </mfrac>
+              </mrow>
+            </math>
+                    </formula> devait satisfaire, est toujours vérifiée, et l'on ob<lb rend="hyphen"/>tient l'équation traitée par M. <persName>Libri</persName>. A la fin du premier article,<lb/>
+                    l'auteur indique un moyen de résoudre en nombre rationnels<lb/>
+                    une équation dont le premier membre est une fonction homo<lb rend="hyphen"/>gène du deuxième ou du troisième degré, et le second membre un<lb/>
+                    nombre entier quelconque, lorsqu'on a une solution relative au<lb/>
+                    cas où le 2e nombre se réduit à zéro. Il arrive par ce moyen à<lb/>
+                    plusieurs théorèmes sur les formes des nombres, et particulière<lb rend="hyphen"/>ment sur celles qui se reproduisent par la multiplication. Il dé<lb rend="hyphen"/>montre par exemple, que tout nombre entier est la somme de<lb/>
+                    quatre cubes rationnels positifs.</p>
+                <p>Le second article du mémoire se rapporte à la théorie des<lb/>
+                    congruences. En partant des propriétés connues des racines de<lb/>
+                    l'équation binome, l'auteur détermine le nombre des solutions<lb/>
+                    d'une congruence en fonction de ces mêmes racines. Par ce moyen<lb/>
+                    il établit d'une manière très-simple une formule d'<persName ref="#pers_E236">Euler</persName> relative<lb/>
+                    aux diviseurs des nombres, et plusieurs formules du même genre.<lb/>
+                    Puis il démontre que les relations qui existent entre les <choice>
+            <sic>coëfficiens</sic> <corr>coefficients</corr>
+          </choice>
+                    <pb n="80"/>
+                    des équations algébriques et leurs racines, s'étendent aux con<lb rend="hyphen"/>gruences dont toutes les racines sont réelles ; et il déduit de ce<lb/>
+                    principe le théorème de <persName>Wilson</persName>, et beaucoup d'autres théorè<lb rend="hyphen"/>mes sur les nombres premiers, parmi lesquels se trouvent ceux<lb/>
+                    que M. <persName ref="#pers_P458">Poinsot</persName> a donnés dans le Journal de l'<orgName ref="#org_E4">École royale Po<lb rend="hyphen"/>lytechnique</orgName>.</p>
+                <p>Dans le 3e. article, l'auteur établit des formules analytiques,<lb/>
+                    à l'aide desquelles il exprime le nombre des solutions d'une équa<lb rend="hyphen"/>tion indéterminée et la somme des racines de cette équation en<lb/>
+                    fonction de ses <choice>
+            <sic>coëfficiens</sic> <corr>coefficients</corr>
+          </choice>. Ces formules qui renferment des<lb/>
+                    exponentielles dont les <choice>
+            <sic>exposans</sic> <corr>exposants</corr>
+          </choice> sont négatifs et proportionnels<lb/>
+                    à une constante indéterminée, sont d'autant plus exactes, que<lb/>
+                    cette constante a une plus grande valeur. Ces formules présente<lb rend="hyphen"/>raient un grand intérêt, si l'on pouvait en déduire des résultats<lb/>
+                    nouveaux relativement à la possibilité ou à l'impossibilité de ré<lb rend="hyphen"/>soudre certaines équations ; mais quoique l'auteur n'en ait pas<lb/>
+                    tiré des conséquences importantes, elles nous paraissent devoir<lb/>
+                    être remarquées sous le rapport analytique. Nous ajouterons que<lb/>
+                    l'on peut obtenir un grand nombre de formules du même genre<lb/>
+                    en s'appuyant sur une propriété de l'intégrale<lb/>
+                    <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                            <msubsup>
+                  <mo>∫</mo>
+                  <mrow>
+                    <mo>−</mo>
+                    <mi>π</mi>
+                  </mrow>
+                  <mrow>
+                    <mo>+</mo>
+                    <mi>π</mi>
+                  </mrow>
+                </msubsup>
+                <msup>
+                  <mi>cos</mi>
+                  <mi>α</mi>
+                </msup>
+                <mi>a</mi>
+                <mi>u</mi>
+                <mi>d</mi>
+                <mi>u</mi>
+                        </mrow>
+            </math>
+                    </formula>
+          <lb/>
+                    qui se réduit à <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mn>2</mn>
+              <mi>π</mi>
+            </math>
+                    </formula> toutes les fois que la constante α s'évanouit,<lb/>
+                    et devient toujours nulle dans le cas contraire, pourvu que <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mo>±</mo>
+                <mi>α</mi>
+              </mrow>
+            </math>
+                    </formula>
+          <lb/>
+                    soit un nombre entier. En partant de cette propriété, on exprime<lb/>
+                    facilement le nombre des solutions d'une équation indéterminée,<lb/>
+                    ou la somme de ses racines à l'aide d'une intégrale multiple,<lb/>
+                    dans laquelle la première intégration se rapporte à des diffé<lb rend="hyphen"/>rences infiniment petites,
+                    et l'on peut ensuite, à l'aide du théo<lb rend="hyphen"/>rème de M. <persName ref="#pers_F250">Fourier</persName>, remplacer les intégrales aux différences<lb/>
+                    finies par d'autres intégrales de même nature que la première.<lb/>
+                    On peut même, en opérant comme on vient de le dire, démontrer<lb/>
+                    les formules établies par M. <persName>Libri</persName> ; au commencement du<lb/>
+                    second article, par exemple, le nombre des solutions de l'équa<lb rend="hyphen"/>tion indéterminée,<lb/>
+                    <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mi>a</mi>
+                <mi>n</mi>
+                <mo>+</mo>
+                <mi>b</mi>
+                <mo>=</mo>
+                <mi>p</mi>
+                <mi>y</mi>
+              </mrow>
+            </math>
+                    </formula>,<lb/>
+                    sera donné par la formule :<pb n="81"/>
+                    <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                            <mfrac>
+                  <mn>1</mn>
+                  <mrow>
+                    <mn>2</mn>
+                    <mi>π</mi>
+                  </mrow>
+                </mfrac>
+                            <msubsup>
+                  <mo>∑</mo>
+                  <mi>p</mi>
+                  <mo>o</mo>
+                </msubsup>
+                            <msubsup>
+                  <mo>∑</mo>
+                  <mi>u</mi>
+                  <mo>o</mo>
+                </msubsup>
+                            <msubsup>
+                  <mo>∫</mo>
+                  <mrow>
+                    <mo>−</mo>
+                    <mi>π</mi>
+                  </mrow>
+                  <mrow>
+                    <mo>+</mo>
+                    <mi>π</mi>
+                  </mrow>
+                </msubsup>
+                            <mi>cos</mi>
+                <mo>(</mo>
+                <mi>a</mi>
+                <mi>n</mi>
+                <mo>+</mo>
+                <mi>b</mi>
+                <mo>−</mo>
+                <mi>p</mi>
+                <mi>y</mi>
+                <mo>)</mo>
+                <mi>u</mi>
+                <mi>d</mi>
+                <mi>u</mi>
+                            <mo>=</mo>
+                            <mfrac>
+                  <mn>1</mn>
+                  <mrow>
+                    <mn>2</mn>
+                    <mi>π</mi>
+                  </mrow>
+                </mfrac>
+                            <msubsup>
+                  <mo>∑</mo>
+                  <mi>p</mi>
+                  <mo>o</mo>
+                </msubsup>
+                            <msubsup>
+                  <mo>∑</mo>
+                  <mi>u</mi>
+                  <mo>o</mo>
+                </msubsup>
+                            <msubsup>
+                  <mo>∫</mo>
+                  <mrow>
+                    <mo>−</mo>
+                    <mi>π</mi>
+                  </mrow>
+                  <mrow>
+                    <mo>+</mo>
+                    <mi>π</mi>
+                  </mrow>
+                </msubsup>
+                            <msub>
+                  <mi>e</mi>
+                </msub>
+                <mo>(</mo>
+                <mi>a</mi>
+                <mi>n</mi>
+                <mo>+</mo>
+                <mi>b</mi>
+                <mo>−</mo>
+                <mi>p</mi>
+                <mi>y</mi>
+                <mo>)</mo>
+                <mi>u</mi>
+                <msub>
+                  <msqrt>
+                    <mo>−</mo>
+                    <mn>1</mn>
+                  </msqrt>
+                  <mrow>
+                    <mi>d</mi>
+                    <mi>u</mi>
+                  </mrow>
+                </msub>
+                            <mo>=</mo>
+                            <mfrac>
+                  <mn>1</mn>
+                  <mrow>
+                    <mn>2</mn>
+                    <mi>π</mi>
+                  </mrow>
+                </mfrac>
+                            <msubsup>
+                  <mo>∑</mo>
+                  <mi>p</mi>
+                  <mo>o</mo>
+                </msubsup>
+                            <msubsup>
+                  <mo>∑</mo>
+                  <mi>u</mi>
+                  <mo>o</mo>
+                </msubsup>
+                            <msubsup>
+                  <mo>∫</mo>
+                  <mrow>
+                    <mo>−</mo>
+                    <mi>π</mi>
+                  </mrow>
+                  <mrow>
+                    <mo>+</mo>
+                    <mi>π</mi>
+                  </mrow>
+                </msubsup>
+                            <mfrac>
+                                <mrow>
+                                    <msub>
+                      <mi>e</mi>
+                    </msub>
+                    <mo>(</mo>
+                    <mi>a</mi>
+                    <mi>n</mi>
+                    <mo>+</mo>
+                    <mi>b</mi>
+                    <mo>)</mo>
+                    <mi>u</mi>
+                    <msub>
+                      <msqrt>
+                        <mo>−</mo>
+                        <mn>1</mn>
+                      </msqrt>
+                      <mrow>
+                        <mi>d</mi>
+                        <mi>u</mi>
+                      </mrow>
+                    </msub>
+                                </mrow>
+                                <mrow>
+                    <msub>
+                      <mi>e</mi>
+                    </msub>
+                    <mi>p</mi>
+                    <mi>y</mi>
+                    <mi>u</mi>
+                    <msqrt>
+                      <mo>−</mo>
+                      <mn>1</mn>
+                    </msqrt>
+                  </mrow>
+                            </mfrac>
+                        </mrow>
+            </math>
+                    </formula>
+          <lb/>
+                    Et en observant que l'intégration relative à u peut être effectuée,<lb/>
+                    non entre des limites quelconques, mais entre les deux limites<lb/>
+                    <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mo>−</mo>
+                <mi>π</mi>
+              </mrow>
+            </math>
+                    </formula>, <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mo>+</mo>
+              <mi>π</mi>
+            </math>
+                    </formula>, on retrouvera précisément la formule de M. <persName>Libri</persName>.</p>
+                <p>En résumé, les commissaires pensent que l'auteur du mémoire<lb/>
+                    soumis à leur examen, a fait preuve d'instruction et de sagacité<lb/>
+                    dans ses recherches sur les questions difficiles de la théorie des<lb/>
+                    nombres. Ils proposent d'arrêter que son mémoire sera imprimé<lb/>
+                    dans le recueil des <choice>
+            <sic>savans</sic> <corr>savants</corr>
+          </choice> étrangers. L'<orgName ref="#org_A15">Académie</orgName> adopte les con<lb rend="hyphen"/>clusions de ce rapport.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,1542 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:m="http://www.w3.org/1998/Math/MathML" xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Publications d'André-Marie Ampère - P206</title>
+    <author key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/">
+     <forename>André-Marie</forename>
+     <surname>Ampère</surname>
+    </author>
+    <editor>Christine Blondel</editor>
+    <editor>Marco Segala</editor>
+
+    <funder>ANR Corpus 2012</funder>
+    <respStmt>
+     <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+     </name>
+     <resp>Gestion de bases de données</resp>
+    </respStmt>
+    <respStmt>
+     <name>AZENTIS</name>
+     <resp>OCRisation et encodage en XML/TEI P5</resp>
+    </respStmt>
+    <respStmt>
+     <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+     </name>
+     <resp>Relecture et encodage en XML/TEI P5</resp>
+    </respStmt>
+    <respStmt>
+     <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+     </name>
+     <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+    <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+    <address>
+                        <addrLine>27 rue Damesme </addrLine>
+                        <addrLine>75013 Paris</addrLine>
+                    </address>
+    <distributor>
+     <name>Centre de calcul de l'IN2P3</name>
+     <address>
+                        <addrLine>Domaine scientifique de la Doua</addrLine>
+                        <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+                        <addrLine>69622 Villeurbanne Cedex</addrLine>
+                    </address>
+    </distributor>
+    <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+    <date>2013</date>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct xml:id="ampere_publi_P1887-A" xml:lang="fra" type="Extrait_de_monographie">
+     <analytic>
+      <title level="a">Mémoire communiqué à l'Académie royale des sciences dans sa séance du 21
+       novembre 1825, faisant suite au mémoire lu dans la séance du 12 septembre</title>
+      <author>
+       <persName>
+                <surname>Ampère</surname>
+                <forename>André-Marie</forename>
+              </persName>
+      </author>
+     </analytic>
+     <monogr>
+      <editor>
+       <orgName>Société française de physique</orgName>
+      </editor>
+      <title level="m">Collection de mémoires relatifs à la physique. tome 3 : Mémoires sur
+       l'électrodynamique. 2ème partie</title>
+      <imprint>
+       <publisher>Gauthier-Villars</publisher>
+       <pubPlace>Paris</pubPlace>
+       <biblScope type="pp">p. 194-202</biblScope>
+       <date when="1887">1887</date>
+      </imprint>
+     </monogr>
+     <idno type="url_pdf">http://www.ampere.cnrs.fr/bibliographies/pdf/1885-P206.pdf</idno>
+     <idno type="url_gallica">http://gallica.bnf.fr/ark:/12148/bpt6k408588b/f197.image.r=Collection+de+m%C3%A9moires+relatifs+%C3%A0+la+physique+tome+2+.langFR</idno>
+     <note>texte publié d'après le manuscrit aux Archives de l'Académie des sciences (Fonds Ampère,
+      chemise 176)</note>
+     <idno type="old">P206</idno>
+    </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra">Français</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <change>
+    <date>décembre 2013</date>
+    <name>AZENTIS</name>
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text decls="#ampere_publi_P1887-A" type="publications">
+  <pb/>
+  <front>
+   <docTitle>
+    <titlePart rend="center">COLLECTION<lb/>
+     <hi rend="sc">de</hi>
+     <lb/>
+     <hi rend="bold">MÉMOIRES</hi>
+     <lb/>
+     <hi rend="sc">relatifs à la</hi>
+     <lb/>
+     <hi rend="bold">PHYSIQUE</hi>,<lb/> PUBLIÉS PAR<lb/> LA SOCIÉTÉ FRANÇAISE DE
+     PHYSIQUE.</titlePart>
+   </docTitle>
+   <docEdition>TOME III.</docEdition>
+   <docTitle>
+    <titlePart>
+     <hi rend="bold">MÉMOIRES SUR L'ÉLECTRODYNAMIQUE.</hi>
+     <lb/> SECONDE PARTIE. </titlePart>
+   </docTitle>
+   <docImprint>PARIS,<lb/>
+    <address>
+          <addrLine>
+GAUTHIER-VILLARS, IMPRIMEUR-LIBRAIRE<lb/> 
+DU BUREAU DES LONGITUDES, DE L'ÉCOLE POLYTECHNIQUE,<lb/> 
+Quai des Augustins, 55.
+</addrLine>
+        </address>
+   </docImprint>
+   <docDate>1887</docDate>
+   <p>(Tous droits réservés.)</p>
+  </front>
+  <body>
+   <div>
+    <pb n="194"/>
+    <head>
+     <hi rend="bold">XXXI.</hi>
+    </head>
+    <head>
+     <hi rend="bold">MÉMOIRE COMMUNIQUÉ A L’<orgName>ACADÉMIE ROYALE DES SCIENCES</orgName> DANS SA<lb/> SÉANCE DU
+      <date when="1825-11-21">21 NOVEMBRE 1825</date>, FAISANT SUITE AU MÉMOIRE LU DANS<lb/> LA SÉANCE DU <date when="1825-09-12">12 SEPTEMBRE</date> ;</hi>
+     <lb/>
+     <hi rend="sc">Par</hi> M. <persName>A. AMPÈRE</persName>
+     <ref xml:id="note-P206-1887_AMA1" target="#P206-1887_AMA1">(<hi rend="sup">1</hi>)</ref>.</head>
+
+    <p>Depuis le dernier Mémoire que j’ai eu l’honneur de commu<lb rend="hyphen"/>niquer à
+     l’<orgName>Académie</orgName>, dans sa séance du
+     <date when="1825-09-12">12 septembre dernier</date>,<lb/> j’ai été conduit à de nouvelles
+     conséquences de ma formule que<lb/> je me proposais d’exposer dans un second Mémoire ; mais,
+     d’autres<lb/> occupations ne me permettant pas de le rédiger, j’ai cru devoir,<lb/> quant à
+     présent, me borner au simple énoncé de ces conséquences.</p>
+    <p>J’ai trouvé, quel que soit l’exposant <hi rend="it">n</hi> de la puissance de la
+     dis<lb rend="hyphen"/>tance et de cet élément à laquelle leur action mutuelle est
+     réci<lb rend="hyphen"/>proquement proportionnelle quand cette distance varie seule :</p>
+    <list>
+     <item n="1">
+      <p> Que, quand les dimensions d’un circuit plan et fermé sont<lb/> assez petites pour devoir
+       être négligées relativement à la distance<lb/> où se trouve le circuit du point sur lequel il
+       agit, l’action qu’il<lb/> exerce est indépendante de sa forme et ne dépend que de sa
+       situa<lb rend="hyphen"/>tion par rapport à ce point et de l’aire qu’il circonscrit, aire
+       à<lb/> laquelle l’action qu’il produit est toujours proportionnelle.</p>
+      <p>Il suit de là que tout ce que M. <persName>Savary</persName> a démontré, le premier,<lb/>
+       sur la manière d’agir d’un assemblage de courants électriques dé<lb rend="hyphen"/>crivant de
+       très petites circonférences de cercles de même diamètre,<lb/> situées dans des plans
+       équidistants et perpendiculaires à la ligne<lb/> droite ou courbe qui passe par les centres
+       de toutes ces circon<lb rend="hyphen"/>férences, y compris la détermination qu’il a donnée de
+       la valeur<lb/> du nombre <hi rend="it">n</hi>, est également vrai à l’égard d’un assemblage
+       de<lb/> très petits circuits fermés, de même surface et situés dans des plans <pb n="195"/>
+       équidistants perpendiculaires à une ligne droite ou courbe en<lb rend="hyphen"/>tourée par
+       tous ces circuits. </p>
+      <p>L’action de cet assemblage sur un conducteur voltaïque quel<lb rend="hyphen"/>conque est
+       donc, comme celle de l’assemblage considéré par<lb/> M. <persName>Savary</persName>,
+       identique à l’action qu’exercerait sur les mêmes corps<lb/> une particule de barreau
+       aimanté ; et il n’est plus nécessaire, dans<lb/> l’explication de cette dernière action par
+       de très petits courants<lb/> électriques, de les supposer de forme circulaire.</p>
+      <p>Ce résultat de ma formule est le seul de ceux qui sont indiqués<lb/> dans cette Note dont
+       j’ai eu le temps de rédiger la démonstration.<lb/> On la trouvera à la fin du Mémoire dont
+       j’ai parlé plus haut et<lb/> que je publie en ce moment <ref xml:id="note-P206-1887_AMA2" target="#P206-1887_AMA2">(<hi rend="sup">1</hi>)</ref>.</p>
+     </item>
+     <item n="2">
+      <p> La droite que j’ai nommée normale au plan directeur de<lb/> l’action dynamique exercée par
+       un circuit fermé à un point quel<lb rend="hyphen"/>conque sur un élément d’un conducteur
+       voltaïque se trouve,<lb/> quand ce circuit est plan et très petit, dans le plan mené par
+       le<lb/> milieu de l’élément perpendiculairement à celui du circuit ; et,<lb/> lorsqu’on fait <formula>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+         <mrow>
+          <mi>n</mi>
+          <mo>=</mo>
+          <mn>2</mn>
+         </mrow>
+        </math>
+       </formula>, la direction de cette droite est telle qu’elle<lb/> forme avec la droite menée de
+       l’élément au circuit un angle<lb/> dont la cotangente est double de la tangente de l’angle
+       compris<lb/> entre la même droite et le plan du circuit, c’est-à-dire qu’elle est<lb/>
+       située, relativement à une perpendiculaire élevée sur ce plan,<lb/> comme l'est, en général,
+       la direction de l’aiguille d’inclinaison<lb/> relativement à l’axe magnétique de la
+       terre.</p>
+     </item>
+     <item n="3">
+      <p> Quand l’élément sur lequel agit le petit circuit est dans le<lb/> même plan que ce
+       circuit, la force développée est aussi dans<lb/> ce plan et proportionnelle à l’aire du
+       circuit divisée par le cube<lb/> de sa distance à l’élément. Cette force est, comme on sait,
+       tou<lb rend="hyphen"/>jours perpendiculaire à la direction de ce dernier.</p>
+     </item>
+     <item n="4">
+      <p> Quelles que soient la forme et la grandeur d’un circuit tracé<lb/> sur un plan dans lequel
+       se trouve aussi l’élément sur lequel il agit,<lb/> la force qu’il exerce, et qui est encore
+       perpendiculaire à la direc<lb rend="hyphen"/>tion de cet élément, est proportionnelle au
+       volume compris entre<lb/> l’aire du circuit, la surface du cylindre droit qui a cette aire
+       pour<lb/> base et la surface courbe dont les ordonnées verticales sont
+       réci<lb rend="hyphen"/>proquement proportionnelles aux cubes des distances de leurs <pb n="196"/> pieds au milieu de l’élément, ce qui donne un moyen très simple<lb/> de calculer
+       cette action. En l’appliquant à celle qu’exerce sur un<lb/> conducteur rectiligne le circuit
+       fermé composé d’un très petit arc<lb/> de cercle dont le centre est au milieu de ce
+       conducteur et des<lb/> rayons menés de ce centre aux deux extrémités du petit arc, on<lb/>
+       trouve sur-le-champ que cette action est proportionnelle à la dif<lb rend="hyphen"/>férence
+       des distances du milieu de l’arc aux deux extrémités du<lb/> conducteur rectiligne divisées
+       par le carré du sinus de l’angle<lb/> que forme celle-ci avec le rayon qui passe par le
+       milieu, résul<lb rend="hyphen"/>tat que j’ai obtenu d’une manière moins simple dans le
+       Mémoire<lb/> lu à l’Académie le 12 septembre dernier <ref xml:id="note-P206-1887_AMA3" target="#P206-1887_AMA3">(<hi rend="sup">1</hi>)</ref>, et qui m’a conduit<lb/> à un moyen
+       de vérifier ma formule par l’observation du nombre<lb/> d’oscillations que fait, dans un
+       temps donné, un conducteur for<lb rend="hyphen"/>mant un demi-cercle par l’action de divers
+       conducteurs en forme<lb/> de secteurs dont les rayons se coupent sous différents angles. </p>
+     </item>
+     <item n="5">
+      <p> L’action mutuelle de deux circuits plans et fermés, dont les<lb/> dimensions sont telles
+       qu’ils puissent être considérés comme infi<lb rend="hyphen"/>niment petits, et qui sont
+       situés dans un même plan, est dirigée<lb/> suivant la droite qui les joint ; elle ne dépend
+       que des aires qu’ils<lb/> circonscrivent et de la longueur de cette droite et elle est
+       propor<lb rend="hyphen"/>tionnelle au produit des deux aires divisé par la puissance <formula>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+         <mrow>
+          <mi>n</mi>
+          <mo>+</mo>
+          <mn>2</mn>
+         </mrow>
+        </math>
+       </formula>
+       <lb/> de leur distance.</p>
+     </item>
+     <item n="6">
+      <p> Quelles que soient la forme et la grandeur de deux circuits<lb/> fermés compris dans un
+       même plan, leur action mutuelle est pré<lb rend="hyphen"/>cisément la même qui aurait lieu
+       entre leurs aires respectives, si<lb/> toutes les parties de ces aires, supposées partout de
+       même densité,<lb/> s’attiraient ou se repoussaient, suivant que le courant électrique
+       les<lb/> parcourt en sens contraire ou dans le même sens, en raison
+       in<lb rend="hyphen"/>verse de la puissance <formula>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+         <mrow>
+          <mi>n</mi>
+          <mo>+</mo>
+          <mn>2</mn>
+         </mrow>
+        </math>
+       </formula> de leurs distances.</p>
+     </item>
+     <item n="7">
+      <p> Si l’on suppose que toutes les dimensions des deux circuits<lb/> augmentent ou diminuent
+       dans le même rapport, ainsi que les<lb/> distances mutuelles des points qui se correspondent
+       avant et après<lb/> ce changement, leur action mutuelle augmentera ou diminuera<lb/> comme la
+       puissance <formula>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+         <mrow>
+          <mn>2</mn>
+          <mo>−</mo>
+          <mi>n</mi>
+         </mrow>
+        </math>
+       </formula> de ce rapport, et devra, par consé<lb rend="hyphen"/>quent, rester la même si,
+       comme l’indique l’ensemble des faits, le<lb/> nombre <hi rend="it">n</hi> est égal à 2.</p>
+      <pb n="197"/>
+     </item>
+     <item n="8">
+      <p> Si l’on a dans un même plan trois circuits semblables dispo<lb rend="hyphen"/>sés de
+       manière que tous leurs points correspondants soient situés<lb/> sur les mêmes droites
+       divisées dans le même rapport, que toutes<lb/> les dimensions de celui qui est entre les deux
+       autres soient des<lb/> moyennes proportionnelles géométriques entre les dimensions<lb/>
+       homologues des deux circuits extrêmes, qu’on rende l’intermé<lb rend="hyphen"/>diaire mobile
+       dans le plan et qu’on fasse passer un même courant<lb/> électrique par les trois circuits, de
+       manière qu’il les parcoure al<lb rend="hyphen"/>ternativement en sens contraires, le circuit
+       mobile sera porté vers<lb/> le plus grand si <formula>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+         <mrow>
+          <mi>n</mi>
+          <mo>&gt;</mo>
+          <mn>2</mn>
+         </mrow>
+        </math>
+       </formula>, vers le plus petit si <formula>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+         <mrow>
+          <mi>n</mi>
+          <mo>&lt;</mo>
+          <mn>2</mn>
+         </mrow>
+        </math>
+       </formula>, et restera im<lb rend="hyphen"/>mobile dans cette situation si <formula>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+         <mrow>
+          <mi>n</mi>
+          <mo>=</mo>
+          <mn>2</mn>
+         </mrow>
+        </math>
+       </formula>. Ce résultat, qui est d’ailleurs<lb/> indépendant, comme il est aisé de le voir,
+       de la manière dont les<lb/> trois angles qui déterminent la situation respective de deux
+       élé<lb rend="hyphen"/>ments de conducteurs voltaïques entrent dans l’expression de la<lb/>
+       force qu’ils exercent l’un sur l’autre, fournit un moyen bien simple<lb/> de démontrer que
+       l’on a en effet <formula>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+         <mrow>
+          <mi>n</mi>
+          <mo>=</mo>
+          <mn>2</mn>
+         </mrow>
+        </math>
+       </formula>, par des expériences faites<lb/> directement sur des conducteurs et sans se servir
+       d’aimants, comme<lb/> on a été jusqu’à présent obligé de le faire dans les expériences<lb/>
+       dont on a conclu la valeur de <hi rend="it">n.</hi> Je décrirai ailleurs <ref xml:id="note-P206-1887_AMA4" target="#P206-1887_AMA4">(<hi rend="sup">1</hi>)</ref> un
+       instru<lb rend="hyphen"/>ment destiné à faire cette expérience avec la plus grande
+       préci<lb rend="hyphen"/>sion.</p>
+     </item>
+     <item>
+      <p> Une fois qu’on aura établi rigoureusement par ce moyen<lb/> que <formula>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+         <mrow>
+          <mi>n</mi>
+          <mo>=</mo>
+          <mn>2</mn>
+         </mrow>
+        </math>
+       </formula> dans l’action qu’exercent réellement les conducteurs<lb/> voltaïques, il faudra
+       remplacer <hi rend="it">n</hi> par 2 dans toutes les conséquences<lb/> de la formule qui
+       représente cette action. Celle de deux circuits<lb/> fermés, situés dans un même plan, dont
+       nous venons de parler,<lb/> sera, par exemple, la même que si toutes les parties des
+       aires<lb/> qu’ils circonscrivent, supposées de même densité, s’attiraient ou<lb/> se
+       repoussaient en raison inverse de la quatrième puissance de<lb/> leurs distances. On sait que
+       cette loi d’attraction ou de répulsion<lb/> a lieu entre deux très petits aimants, lorsque
+       leurs axes sont per<lb rend="hyphen"/>pendiculaires à un même plan passant par les milieux de
+       leurs lon<lb rend="hyphen"/>gueurs, suivant que leurs pôles, de noms différents, sont du
+       même<lb/> côté de ce plan ou de côtés opposés ; il est aisé d’en conclure que<lb/> deux
+       circuits fermés, situés dans un même plan, agissent l’un sur<lb/> l’autre comme le feraient
+       une infinité de très petits barreaux per<pb n="198" rend="hyphen"/>pendiculaires à ce plan et
+       situés de manière que leurs milieux y<lb/> fussent situés, qu’ils remplissent toute l’aire de
+       chacun des deux<lb/> circuits, et qu’ils fussent aimantés au même degré dans le sens<lb/> où
+       chaque circuit tendrait à rendre magnétique ceux de ces cou<lb rend="hyphen"/>rants qu’il
+       entourerait. </p>
+     </item>
+    </list>
+    <p>Ce résultat était facile à prévoir en considérant que, d’après<lb/> l’identité d’action entre
+     des circuits plans infiniment petits entou<lb rend="hyphen"/>rant des aires égales, quelle que
+     soit la forme de ces courants et<lb/> d’après la manière dont j’ai considéré les aimants, un
+     circuit plan<lb/> infiniment petit peut toujours être remplacé par un très petit
+     ai<lb rend="hyphen"/>mant dont les deux, pôles se trouvent sur une normale à un plan et<lb/> à
+     égale distance de ce plan, l’un d’un côté et l’autre de l’autre,<lb/> quel que soit d’ailleurs
+     le point de l’aire qu’entoure le circuit où<lb/> l’on suppose que la normale est élevée, point
+     qu’on peut, pour<lb/> fixer les idées, prendre au centre de gravité de la petite courbe<lb/>
+     formée par ce circuit.</p>
+    <p>Soit une surface quelconque terminée par une courbe fermée<lb/> donnée de grandeur et de
+     position dans l’espace, si l’on suppose<lb/> qu’à des points infiniment rapprochés dans toute
+     l’étendue de<lb/> cette surface on place de très petits aimants dont la longueur soit<lb/> la
+     même pour tous et du même ordre que leurs distances mutuelles,<lb/> qui aient la même intensité
+     et soient également espacés, de ma<lb rend="hyphen"/>nière que tous les pôles de même nom de
+     ces aimants soient d’un<lb/> même côté à la surface et que les droites qui joignent les
+     pôles<lb/> de chaque aimant aient leurs milieux dans celte surface et soient<lb/> dirigés
+     suivant les normales, il résulte des calculs que j’ai l'hon<lb rend="hyphen"/>neur de présenter
+     à l’<orgName>Académie</orgName> : <list>
+      <item n="1">
+       <p> Que l’action exercée par cet<lb/> assemblage d’aimants sur un pôle austral ou boréal d'un
+        autre<lb/> aimant, placé comme on le voudra relativement aux contours de la<lb/> surface,
+        est indépendante de la forme de cette surface et ne dépend<lb/> que de son contour ;</p>
+      </item>
+      <item n="2">
+       <p> Que cette action est précisément la même que celle qui ré<lb rend="hyphen"/>sulte de la
+        formule par laquelle j’ai exprimé l’action mutuelle de<lb/> deux éléments de conducteurs
+        voltaïques, entre un courant élec<lb rend="hyphen"/>trique qui parcourrait le contour de la
+        surface et l’extrémité d’un<lb/> solénoïde électrodynamique situé au point où l’on suppose
+        le pôle <pb n="199"/> sur lequel agissent tous les aimants infiniment petits normaux à<lb/>
+        la surface. </p>
+      </item>
+     </list>
+    </p>
+    <p>Je vais d’abord démontrer ces deux théorèmes en partant uni<lb rend="hyphen"/>quement de la
+     loi des attractions et des répulsions des pôles de deux<lb/> aimants infiniment petits, en
+     raison inverse du carré des distances<lb/> de ces pôles ; j’exposerai ensuite quelques autres
+     conséquences<lb/> des calculs qui m’y ont conduit.</p>
+    <p>Prenons pour origine des coordonnées <hi rend="it">x, y, z</hi> le pôle dont je<lb/> viens de
+     parler : soient <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>δ</mi>
+        <mi>p</mi>
+       </mrow>
+      </math>
+     </formula> la portion de la normale comprise entre<lb/> les deux pôles d’un des petits
+     aimants ; <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>ξ</mi>
+        <mo>,</mo>
+        <mi>η</mi>
+        <mo>,</mo>
+        <mi>ζ</mi>
+       </mrow>
+      </math>
+     </formula> les angles que cette<lb/> normale forme avec les trois axes, <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>δ</mi>
+        <mi>x</mi>
+        <mo>,</mo>
+        <mi>δ</mi>
+        <mi>y</mi>
+        <mo>,</mo>
+        <mi>δ</mi>
+        <mi>z</mi>
+       </mrow>
+      </math>
+     </formula> les différences entre<lb/> les coordonnées respectivement correspondantes aux deux
+     pôles ;<lb/> nommons enfin <hi rend="it">r</hi> la droite menée de l’origine au point dont
+     les<lb/> coordonnées sont <hi rend="it">x, y, z,</hi> et <hi rend="it">u</hi> celle qui joint
+     la même origine à<lb/> l’ordonnée verticale <hi rend="it">z,</hi> et représentons par <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>φ</mi>
+      </math>
+     </formula> l’angle que cette der<lb rend="hyphen"/>nière droite forme avec l’axe des
+     <hi rend="it">x.</hi>
+    </p>
+    <p>En représentant par µ l’intensité infiniment petite de la force<lb/> magnétique d’un des
+     petits aimants, <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mo>µ</mo>
+          <mi>z</mi>
+         </mrow>
+         <mrow>
+          <msup>
+           <mi>r</mi>
+           <mn>3</mn>
+          </msup>
+
+         </mrow>
+        </mfrac>
+
+       </mrow>
+      </math>
+     </formula> exprimera la composante<lb/> suivant l’axe des <hi rend="it">z</hi> de l’action
+     exercée à l’origine par l’un de ses<lb/> pôles et <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mo>µ</mo>
+          <mo stretchy="false">(</mo>
+          <mi>z</mi>
+          <mo>+</mo>
+          <mi>δ</mi>
+          <mi>z</mi>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mrow>
+          <msup>
+           <mrow>
+            <mo stretchy="false">(</mo>
+            <mi>r</mi>
+            <mo>+</mo>
+            <mi>δ</mi>
+            <mi>r</mi>
+            <mo stretchy="false">)</mo>
+           </mrow>
+           <mn>3</mn>
+          </msup>
+
+         </mrow>
+        </mfrac>
+
+       </mrow>
+      </math>
+     </formula> celle de l’autre ; il faudra retrancher celle-ci<lb/> de la première, puisqu’elle
+     agit en sens contraire : on aura ainsi</p>
+    <p>
+     <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mo>−</mo>
+       <mi>δ</mi>
+       <mfrac>
+        <mrow>
+         <mo>µ</mo>
+         <mi>z</mi>
+        </mrow>
+        <mrow>
+         <msup>
+          <mi>r</mi>
+          <mn>3</mn>
+         </msup>
+
+        </mrow>
+       </mfrac>
+       <mo>=</mo>
+       <mo>µ</mo>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mfrac>
+          <mrow>
+           <mn>3</mn>
+           <mi>z</mi>
+           <mi>δ</mi>
+           <mi>r</mi>
+          </mrow>
+          <mrow>
+           <msup>
+            <mi>r</mi>
+            <mn>4</mn>
+           </msup>
+
+          </mrow>
+         </mfrac>
+         <mo>−</mo>
+         <mfrac>
+          <mrow>
+           <mi>δ</mi>
+           <mi>z</mi>
+          </mrow>
+          <mrow>
+           <msup>
+            <mi>r</mi>
+            <mn>3</mn>
+           </msup>
+
+          </mrow>
+         </mfrac>
+
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </math>
+     </formula>
+    </p>
+    <p>pour la force verticale restante.</p>
+    <p>Mais on a évidemment</p>
+    <p>
+     <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>δ</mi>
+       <mi>z</mi>
+       <mo>=</mo>
+       <mi>δ</mi>
+       <mi>p</mi>
+       <mi>cos</mi>
+       <mi>ζ</mi>
+       <mo>,</mo>
+       <mi>r</mi>
+       <mi>δ</mi>
+       <mi>r</mi>
+       <mo>=</mo>
+       <mi>x</mi>
+       <mi>δ</mi>
+       <mi>x</mi>
+       <mo>+</mo>
+       <mi>y</mi>
+       <mi>δ</mi>
+       <mi>y</mi>
+       <mo>+</mo>
+       <mi>z</mi>
+       <mi>δ</mi>
+       <mi>z</mi>
+       <mo>=</mo>
+       <mo stretchy="false">(</mo>
+       <mi>x</mi>
+       <mi>cos</mi>
+       <mi>ξ</mi>
+       <mo>+</mo>
+       <mi>y</mi>
+       <mi>cos</mi>
+       <mi>η</mi>
+       <mo>+</mo>
+       <mi>z</mi>
+       <mi>cos</mi>
+       <mi>ζ</mi>
+       <mo stretchy="false">)</mo>
+       <mi>δ</mi>
+       <mi>p</mi>
+      </math>
+     </formula>,<lb/> et il est aisé de voir que <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>x</mi>
+       <mi>cos</mi>
+       <mi>ξ</mi>
+       <mo>+</mo>
+       <mi>y</mi>
+       <mi>cos</mi>
+       <mi>η</mi>
+       <mo>+</mo>
+       <mi>z</mi>
+       <mi>cos</mi>
+       <mi>ζ</mi>
+      </math>
+     </formula> est la somme<lb/> des projections de <hi rend="it">x, y, z</hi> sur la
+     perpendiculaire abaissée de l’ori<lb rend="hyphen"/>gine sur le plan tangent à la surface au
+     point dont les coordonnées<lb/> sont <hi rend="it">x, y</hi>, <hi rend="it">z ;</hi> en nommant
+     <hi rend="it">q</hi> cette perpendiculaire, on a donc </p>
+    <p>
+     <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>δ</mi>
+       <mi>r</mi>
+       <mo>=</mo>
+       <mfrac>
+        <mrow>
+         <mi>q</mi>
+         <mi>δ</mi>
+         <mi>p</mi>
+        </mrow>
+        <mi>r</mi>
+       </mfrac>
+
+      </math>
+     </formula>,</p>
+    <p>et l'expression de la force que nous calculons devient</p>
+    <p>
+     <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mo>µ</mo>
+       <mi>δ</mi>
+       <mi>p</mi>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mfrac>
+          <mrow>
+           <mn>3</mn>
+           <mi>z</mi>
+           <mi>q</mi>
+          </mrow>
+          <mrow>
+           <msup>
+            <mi>r</mi>
+            <mn>5</mn>
+           </msup>
+
+          </mrow>
+         </mfrac>
+         <mo>−</mo>
+         <mfrac>
+          <mrow>
+           <mi>cos</mi>
+           <mi>ζ</mi>
+          </mrow>
+          <mrow>
+           <msup>
+            <mi>r</mi>
+            <mn>3</mn>
+           </msup>
+
+          </mrow>
+         </mfrac>
+
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </math>
+     </formula>,</p>
+    <pb n="200"/>
+    <p> Employons la caractéristique <hi rend="it">d</hi> pour désigner les différentielles<lb/>
+     relatives au déplacement suivant la surface du point que nous<lb/> considérons ; nous aurons <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mfrac>
+        <mrow>
+         <mi>d</mi>
+         <mi>x</mi>
+         <mi>d</mi>
+         <mi>y</mi>
+        </mrow>
+        <mrow>
+         <mi>cos</mi>
+         <mi>ζ</mi>
+        </mrow>
+       </mfrac>
+
+      </math>
+     </formula> ou <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mfrac>
+        <mrow>
+         <mi>u</mi>
+         <mi>d</mi>
+         <mi>u</mi>
+         <mi>d</mi>
+         <mi>φ</mi>
+        </mrow>
+        <mrow>
+         <mi>cos</mi>
+         <mi>ζ</mi>
+        </mrow>
+       </mfrac>
+
+      </math>
+     </formula> pour l'aire élémentaire <lb/> de cette surface, et, comme les petits aimants y sont
+     également<lb/> espacés, le nombre de ceux qui se trouvent sur cette aire
+     élé<lb rend="hyphen"/>mentaire, nombre par lequel il faut multiplier la valeur que nous<lb/>
+     venons de trouver pour la force verticale, pourra être représenté<lb/> par </p>
+    <p>
+     <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mfrac>
+        <mrow>
+         <mi>u</mi>
+         <mi>d</mi>
+         <mi>u</mi>
+         <mi>d</mi>
+         <mi>φ</mi>
+        </mrow>
+        <mrow>
+         <mi>λ</mi>
+         <mi>cos</mi>
+         <mi>ζ</mi>
+        </mrow>
+       </mfrac>
+
+      </math>
+     </formula>,</p>
+    <p>
+     <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>λ</mi>
+      </math>
+     </formula> étant une constante infiniment petite du second ordre qui
+     re<lb rend="hyphen"/>présente la petite portion de surface correspondante à chaque<lb/> aimant.
+     On aura donc pour cette force, en tant qu’elle résulte de<lb/> l'aire élémentaire,</p>
+    <p>
+     <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mfrac>
+        <mrow>
+         <mo>µ</mo>
+         <mi>δ</mi>
+         <mi>p</mi>
+        </mrow>
+        <mi>λ</mi>
+       </mfrac>
+       <mi>u</mi>
+       <mi>d</mi>
+       <mi>u</mi>
+       <mi>d</mi>
+       <mi>φ</mi>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mfrac>
+          <mrow>
+           <mn>3</mn>
+           <mi>z</mi>
+           <mi>q</mi>
+          </mrow>
+          <mrow>
+           <mi>r</mi>
+           <mn>5</mn>
+           <mi>cos</mi>
+           <mi>ζ</mi>
+          </mrow>
+         </mfrac>
+         <mo>−</mo>
+         <mfrac>
+          <mn>1</mn>
+          <mrow>
+           <msup>
+            <mi>r</mi>
+            <mn>3</mn>
+           </msup>
+
+          </mrow>
+         </mfrac>
+
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </math>
+     </formula>.</p>
+    <p>Mais <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mfrac>
+        <mi>q</mi>
+        <mrow>
+         <mi>cos</mi>
+         <mi>ζ</mi>
+        </mrow>
+       </mfrac>
+
+      </math>
+     </formula> est l’ordonnée verticale du plan tangent mené par l’ori<lb rend="hyphen"/>gine, et
+     il est aisé de voir que cette ordonnée est égale à <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>z</mi>
+       <mo>−</mo>
+       <mfrac>
+        <mrow>
+         <mi>u</mi>
+         <mi>d</mi>
+         <mi>z</mi>
+        </mrow>
+        <mrow>
+         <mi>d</mi>
+         <mi>u</mi>
+        </mrow>
+       </mfrac>
+
+      </math>
+     </formula>,<lb/> puisque <hi rend="it">u</hi> et <hi rend="it">z</hi> sont les coordonnées de
+     la section faite dans la<lb/> surface par le plan vertical qui passe par l’axe des
+     <hi rend="it">z</hi> et par la<lb/> droite <hi rend="it">u</hi> ; et, comme</p>
+    <p>
+     <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>d</mi>
+       <mi>z</mi>
+       <mo>=</mo>
+       <mfrac>
+        <mrow>
+         <mi>r</mi>
+         <mi>d</mi>
+         <mi>r</mi>
+         <mo>−</mo>
+         <mi>u</mi>
+         <mi>d</mi>
+         <mi>u</mi>
+        </mrow>
+        <mi>z</mi>
+       </mfrac>
+
+      </math>
+     </formula>,</p>
+    <p>on trouvera</p>
+    <p>
+     <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mfrac>
+        <mrow>
+         <mo>µ</mo>
+         <mi>δ</mi>
+         <mi>p</mi>
+        </mrow>
+        <mi>λ</mi>
+       </mfrac>
+       <mi>u</mi>
+       <mi>d</mi>
+       <mi>φ</mi>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mfrac>
+          <mrow>
+           <mn>3</mn>
+           <mi>r</mi>
+           <mn>2</mn>
+           <mi>d</mi>
+           <mi>u</mi>
+           <mo>−</mo>
+           <mn>3</mn>
+           <mi>r</mi>
+           <mi>u</mi>
+           <mi>d</mi>
+           <mi>r</mi>
+          </mrow>
+          <mrow>
+           <msup>
+            <mi>r</mi>
+            <mn>5</mn>
+           </msup>
+
+          </mrow>
+         </mfrac>
+         <mo>−</mo>
+         <mfrac>
+          <mrow>
+           <mi>d</mi>
+           <mi>u</mi>
+          </mrow>
+          <mrow>
+           <msup>
+            <mi>r</mi>
+            <mn>3</mn>
+           </msup>
+
+          </mrow>
+         </mfrac>
+
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+       <mo>=</mo>
+       <mfrac>
+        <mrow>
+         <mo>µ</mo>
+         <mi>δ</mi>
+         <mi>p</mi>
+        </mrow>
+        <mi>λ</mi>
+       </mfrac>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mfrac>
+          <mrow>
+           <mn>2</mn>
+           <mi>u</mi>
+           <mi>d</mi>
+           <mi>u</mi>
+          </mrow>
+          <mi>r</mi>
+         </mfrac>
+         <mo>−</mo>
+         <mfrac>
+          <mrow>
+           <mn>3</mn>
+           <mi>u</mi>
+           <mn>2</mn>
+           <mi>d</mi>
+           <mi>r</mi>
+          </mrow>
+          <mrow>
+           <msup>
+            <mi>r</mi>
+            <mn>4</mn>
+           </msup>
+
+          </mrow>
+         </mfrac>
+
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+       <mi>d</mi>
+       <mi>φ</mi>
+      </math>
+     </formula>,</p>
+    <p>En substituant cette valeur dans celle de la force, elle devient</p>
+    <p>qu’il faut intégrer dans toute l’étendue de la surface au moyen de<lb/> deux intégrations
+     successives qu’on peut exécuter dans l’ordre<lb/> qu’on veut ; en commençant par celle où
+     <hi rend="it">u</hi> et <hi rend="it">r</hi> varient seuls dans<lb/> les plans verticaux
+     passant par l’axe des <hi rend="it">z</hi> pour lesquels <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>d</mi>
+       <mi>φ</mi>
+       <mo>=</mo>
+       <mn>0</mn>
+      </math>
+     </formula>,<lb/> on trouve que l’intégrale s’obtient indépendamment de la relation<lb/> entre <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>φ</mi>
+      </math>
+     </formula>, <hi rend="it">u</hi> et <hi rend="it">r</hi> que donnerait l’équation de la surface
+     rapportée<lb/> aux trois coordonnées <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>φ</mi>
+      </math>
+     </formula>, <hi rend="it">u</hi> et <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>z</mi>
+       <mo>=</mo>
+       <msqrt>
+        <mrow>
+         <msup>
+          <mi>r</mi>
+          <mn>2</mn>
+         </msup>
+         <mo>−</mo>
+         <msup>
+          <mi>u</mi>
+          <mn>2</mn>
+         </msup>
+
+        </mrow>
+       </msqrt>
+
+      </math>
+     </formula> ; dès lors cette inté<pb n="201" rend="hyphen"/>grale ne peut plus dépendre de la
+     forme de la surface, mais seu<lb rend="hyphen"/>lement des valeurs de <hi rend="it">u</hi> et
+     de <hi rend="it">r</hi> aux différents points de son con<lb rend="hyphen"/>tour qui sont donnés
+     en fonction de <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>φ</mi>
+      </math>
+     </formula> par les deux équations<lb/> entre les mêmes coordonnées qui déterminent ce contour. </p>
+    <p>On a, par cette double intégration,</p>
+    <p>
+     <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mfrac>
+        <mrow>
+         <mo>µ</mo>
+         <mi>δ</mi>
+         <mi>p</mi>
+        </mrow>
+        <mi>λ</mi>
+       </mfrac>
+       <mstyle displaystyle="true">
+        <mrow>
+         <mo>∫</mo>
+         <mrow>
+          <mi>d</mi>
+          <mi>φ</mi>
+          <mstyle displaystyle="true">
+           <mrow>
+            <mo>∫</mo>
+            <mrow>
+             <mrow>
+              <mo>(</mo>
+              <mrow>
+               <mfrac>
+                <mrow>
+                 <mn>2</mn>
+                 <mi>u</mi>
+                 <mi>d</mi>
+                 <mi>u</mi>
+                </mrow>
+                <mrow>
+                 <msup>
+                  <mi>r</mi>
+                  <mn>3</mn>
+                 </msup>
+
+                </mrow>
+               </mfrac>
+               <mo>−</mo>
+               <mfrac>
+                <mrow>
+                 <mn>3</mn>
+                 <msup>
+                  <mi>u</mi>
+                  <mn>2</mn>
+                 </msup>
+                 <mi>d</mi>
+                 <mi>r</mi>
+                </mrow>
+                <mrow>
+                 <msup>
+                  <mi>r</mi>
+                  <mn>4</mn>
+                 </msup>
+
+                </mrow>
+               </mfrac>
+
+              </mrow>
+              <mo>)</mo>
+             </mrow>
+            </mrow>
+           </mrow>
+
+          </mstyle>
+         </mrow>
+        </mrow>
+
+       </mstyle>
+       <mo>=</mo>
+       <mfrac>
+        <mrow>
+         <mo>µ</mo>
+         <mi>δ</mi>
+         <mi>p</mi>
+        </mrow>
+        <mi>λ</mi>
+       </mfrac>
+       <mstyle displaystyle="true">
+        <mrow>
+         <mo>∫</mo>
+         <mrow>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mfrac>
+             <mrow>
+              <msup>
+               <msup>
+                <mi>u</mi>
+                <mo>″</mo>
+               </msup>
+
+               <mn>2</mn>
+              </msup>
+              <mi>d</mi>
+              <mi>φ</mi>
+             </mrow>
+             <mrow>
+              <msup>
+               <msup>
+                <mi>r</mi>
+                <mo>″</mo>
+               </msup>
+
+               <mn>3</mn>
+              </msup>
+
+             </mrow>
+            </mfrac>
+            <mo>−</mo>
+            <mfrac>
+             <mrow>
+              <msup>
+               <msup>
+                <mi>u</mi>
+                <mo>′</mo>
+               </msup>
+
+               <mn>2</mn>
+              </msup>
+              <mi>d</mi>
+              <mi>φ</mi>
+             </mrow>
+             <mrow>
+              <msup>
+               <msup>
+                <mi>r</mi>
+                <mo>′</mo>
+               </msup>
+
+               <mn>3</mn>
+              </msup>
+
+             </mrow>
+            </mfrac>
+
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+         </mrow>
+        </mrow>
+
+       </mstyle>
+      </math>
+     </formula>,</p>
+    <p>en nommant <hi rend="it">u'</hi> et <hi rend="it">u", r'</hi> et <hi rend="it">r"</hi> les
+     valeurs de <hi rend="it">u</hi> et de <hi rend="it">r</hi> correspon<lb rend="hyphen"/>dantes
+     aux deux points où le contour fermé donné rencontre les<lb/> plans verticaux menés par l’axe
+     des <hi rend="it">z,</hi> qui sont les deux limites<lb/> de la première intégration et qui sont
+     nécessairement de manière<lb/> qu’il y en ait un sur chacune des deux branches dont ce
+     contour<lb/> est composé et qui sont séparées par ses points de contact avec<lb/> les deux
+     plans verticaux menés par l’axe des <hi rend="it">z,</hi> qu’il touche et<lb/> entre lesquels
+     il est situé ; <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <msup>
+        <msup>
+         <mi>u</mi>
+         <mo>″</mo>
+        </msup>
+
+        <mn>2</mn>
+       </msup>
+       <mi>d</mi>
+       <mi>φ</mi>
+      </math>
+     </formula> et <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <msup>
+        <msup>
+         <mi>u</mi>
+         <mo>′</mo>
+        </msup>
+
+        <mn>2</mn>
+       </msup>
+       <mi>d</mi>
+       <mi>φ</mi>
+      </math>
+     </formula> sont évidemment les<lb/> projections sur le plan des <hi rend="it">zy</hi> des aires
+     comprises entre un<lb/> élément du contour et les deux rayons vecteurs qui en joignent les<lb/>
+     extrémités à l’origine ; si donc on fait attention qu'en suivant<lb/> l’angle <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>φ</mi>
+      </math>
+     </formula> va en diminuant le long d’une des branches dont nous<lb/> venons de parler,
+     lorsqu’il est allé en augmentant le long de<lb/> l’autre, d’où il résulte que <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>d</mi>
+       <mi>φ</mi>
+      </math>
+     </formula> change de signe quand on passe<lb/> d’une de ces branches à l’autre, on reconnaîtra
+     aisément que</p>
+    <p>
+     <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mstyle displaystyle="true">
+        <mrow>
+         <mo>∫</mo>
+         <mrow>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mo>−</mo>
+            <mfrac>
+             <mrow>
+              <msup>
+               <msup>
+                <mi>u</mi>
+                <mo>″</mo>
+               </msup>
+
+               <mn>2</mn>
+              </msup>
+              <mi>d</mi>
+              <mi>φ</mi>
+             </mrow>
+             <mrow>
+              <msup>
+               <msup>
+                <mi>r</mi>
+                <mo>″</mo>
+               </msup>
+
+               <mn>3</mn>
+              </msup>
+
+             </mrow>
+            </mfrac>
+            <mfrac>
+             <mrow>
+              <msup>
+               <msup>
+                <mi>u</mi>
+                <mo>′</mo>
+               </msup>
+
+               <mn>2</mn>
+              </msup>
+              <mi>d</mi>
+              <mi>φ</mi>
+             </mrow>
+             <mrow>
+              <msup>
+               <msup>
+                <mi>r</mi>
+                <mo>′</mo>
+               </msup>
+
+               <mn>3</mn>
+              </msup>
+
+             </mrow>
+            </mfrac>
+
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+         </mrow>
+        </mrow>
+
+       </mstyle>
+      </math>
+     </formula>
+    </p>
+    <p>est la somme de ces projections sur le plan des <hi rend="it">xy,</hi> divisée
+     respec<lb rend="hyphen"/>tivement par les cubes des distances, somme qu’on peut écrire<lb/>
+     ainsi</p>
+    <p>
+     <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mstyle displaystyle="true">
+        <mrow>
+         <mo>∫</mo>
+         <mrow>
+          <mfrac>
+           <mrow>
+            <mi>x</mi>
+            <mi>d</mi>
+            <mi>y</mi>
+            <mo>−</mo>
+            <mi>y</mi>
+            <mi>d</mi>
+            <mi>x</mi>
+           </mrow>
+           <mrow>
+            <msup>
+             <mi>r</mi>
+             <mn>3</mn>
+            </msup>
+
+           </mrow>
+          </mfrac>
+
+         </mrow>
+        </mrow>
+
+       </mstyle>
+      </math>
+     </formula>,</p>
+    <p>et que j’ai nommée C dans le <hi rend="it">Précis de la théorie des phéno<lb rend="hyphen"/>mènes électrodynamiques</hi>
+     <ref xml:id="note-P206-1887_AMA5" target="#P206-1887_AMA5">(<hi rend="sup">1</hi>)</ref>. En
+     faisant les mêmes calculs rela<lb rend="hyphen"/>tivement aux composantes de la même force
+     suivant l’axe des <hi rend="it">x</hi> et<lb/> celui des <hi rend="it">y,</hi> et en continuant
+     de désigner par B et A les quantités<lb/>
+     <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mstyle displaystyle="true">
+        <mrow>
+         <mo>∫</mo>
+         <mrow>
+          <mfrac>
+           <mrow>
+            <mi>z</mi>
+            <mi>d</mi>
+            <mi>x</mi>
+            <mo>−</mo>
+            <mi>x</mi>
+            <mi>d</mi>
+            <mi>z</mi>
+           </mrow>
+           <mrow>
+            <msup>
+             <mi>r</mi>
+             <mn>3</mn>
+            </msup>
+
+           </mrow>
+          </mfrac>
+
+         </mrow>
+        </mrow>
+
+       </mstyle>
+      </math>
+     </formula>, <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mstyle displaystyle="true">
+        <mrow>
+         <mo>∫</mo>
+         <mrow>
+          <mfrac>
+           <mrow>
+            <mi>y</mi>
+            <mi>d</mi>
+            <mi>z</mi>
+            <mo>−</mo>
+            <mi>z</mi>
+            <mi>d</mi>
+            <mi>y</mi>
+           </mrow>
+           <mrow>
+            <msup>
+             <mi>r</mi>
+             <mn>3</mn>
+            </msup>
+
+           </mrow>
+          </mfrac>
+
+         </mrow>
+        </mrow>
+
+       </mstyle>
+      </math>
+     </formula>, les<hi rend="it"> </hi>quantités A, B, C étant aussi les <pb n="202"/> mêmes que
+     j’ai désignées par ces lettres dans mon
+     <hi rend="it">Précis de la<lb/> théorie des phénomènes
+      électrodynamiques,</hi> on trouve
+     que les<lb/> composantes suivant les trois axes des <hi rend="it">x,</hi> des
+     <hi rend="it">y</hi> et des <hi rend="it">z,</hi> sont res<lb rend="hyphen"/>pectivement </p>
+    <p>
+     <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mo>µ</mo>
+          <mi>δ</mi>
+          <mi>p</mi>
+         </mrow>
+         <mi>λ</mi>
+        </mfrac>
+        <mtext>A</mtext>
+        <mtext>,</mtext>
+        <mfrac>
+         <mrow>
+          <mo>µ</mo>
+          <mi>δ</mi>
+          <mi>p</mi>
+         </mrow>
+         <mi>λ</mi>
+        </mfrac>
+        <mtext>B</mtext>
+        <mtext>,</mtext>
+        <mfrac>
+         <mrow>
+          <mo>µ</mo>
+          <mi>δ</mi>
+          <mi>p</mi>
+         </mrow>
+         <mi>λ</mi>
+        </mfrac>
+        <mtext>C</mtext>
+        <mtext>,</mtext>
+       </mrow>
+      </math>
+     </formula>
+    </p>
+    <p>d’où il suit que le pôle de l’aimant qui est situé à l’origine est<lb/> porté par l’action de
+     la surface dans la direction de la droite qui<lb/> forme avec les trois axes des angles dont
+     les cosinus sont <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mfrac>
+        <mtext>A</mtext>
+        <mtext>D</mtext>
+       </mfrac>
+       <mo>,</mo>
+       <mfrac>
+        <mtext>B</mtext>
+        <mtext>D</mtext>
+       </mfrac>
+       <mo>,</mo>
+       <mfrac>
+        <mtext>C</mtext>
+        <mtext>D</mtext>
+       </mfrac>
+
+      </math>
+     </formula>,<lb/> en faisant toujours, pour abréger, <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>D</mi>
+       <mo>=</mo>
+       <msqrt>
+        <mrow>
+         <msup>
+          <mtext>A</mtext>
+          <mn>2</mn>
+         </msup>
+         <mo>+</mo>
+         <msup>
+          <mtext>B</mtext>
+          <mn>2</mn>
+         </msup>
+         <mo>+</mo>
+         <msup>
+          <mtext>C</mtext>
+          <mn>2</mn>
+         </msup>
+
+        </mrow>
+       </msqrt>
+
+      </math>
+     </formula>, avec une<lb/> force égale à <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mfrac>
+        <mrow>
+         <mo>µ</mo>
+         <mi>δ</mi>
+         <mi>p</mi>
+        </mrow>
+        <mi>λ</mi>
+       </mfrac>
+       <mtext>D</mtext>
+      </math>
+     </formula>, c’est-à-dire que l’action exercée sur ce<lb/> pôle est précisément celle que,
+     d’après ma formule, un circuit<lb/> voltaïque parcourant le contour de la surface doit produire
+     sur<lb/> l’extrémité d’un solénoïde, telle que je l’ai déterminé pages 25 et 30<lb/> de mon <hi rend="it">Précis de la théorie des phénomènes électrodynamiques,</hi>
+     <lb/> excepté que le coefficient constant <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mfrac>
+        <mrow>
+         <mo>µ</mo>
+         <mi>δ</mi>
+         <mi>p</mi>
+        </mrow>
+        <mi>λ</mi>
+       </mfrac>
+
+      </math>
+     </formula> y est remplacé par cette<lb/> autre constante <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mfrac>
+        <mrow>
+         <mi>π</mi>
+         <msup>
+          <mi>m</mi>
+          <mn>2</mn>
+         </msup>
+         <mi>i</mi>
+         <msup>
+          <mi>i</mi>
+          <mo>′</mo>
+         </msup>
+
+        </mrow>
+        <mrow>
+         <mn>2</mn>
+         <mi>g</mi>
+        </mrow>
+       </mfrac>
+
+      </math>
+     </formula>, ce qui n’établit aucune différence réelle<lb/> entre ces deux cas, puisque l’on
+     peut toujours supposer que les<lb/> intensités des forces magnétiques des petits aimants, d’une
+     part,<lb/> et celle des courants électriques de l’autre, sont telles que ces<lb/> constantes
+     soient égales. On sait qu’il n’est pas nécessaire, pour<lb/> arriver à ce résultat, que la
+     longueur <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>δ</mi>
+       <mi>p</mi>
+      </math>
+     </formula> d’un petit aimant, l’inten<lb rend="hyphen"/>sité µ de sa force magnétique et la
+     petite portion <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>λ</mi>
+      </math>
+     </formula> qu’il occupe sur<lb/> la surface soient toutes trois constantes dans toute l’étendue
+     de cette<lb/> surface : il suffit que les petits aimants y soient distribués de
+     ma<lb rend="hyphen"/>nière que le rapport <formula>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mfrac>
+        <mrow>
+         <mo>µ</mo>
+         <mi>δ</mi>
+         <mi>p</mi>
+        </mrow>
+        <mi>λ</mi>
+       </mfrac>
+
+      </math>
+     </formula> y ait partout la même valeur. </p>
+   </div>
+  </body>
+  <back>
+   <note xml:id="P206-1887_AMA1" target="#note-P206-1887_AMA1">
+    <p>(<hi rend="sup">1</hi>) Inédit. Publié d’après le manuscrit autographe des Archives de
+     l’<orgName>Académie<lb/> des Sciences</orgName>. D’après les procès-verbaux, la lecture a été
+     faite en réalité dans la<lb/> séance du <date when="1825-09-28">28 novembre</date>. ( J.)</p>
+   </note>
+   <note xml:id="P206-1887_AMA2" target="#note-P206-1887_AMA2">
+    <p>(<hi rend="sup">1</hi>) <hi rend="it">Voir</hi> la note de la p. 46</p>
+   </note>
+   <note xml:id="P206-1887_AMA3" target="#note-P206-1887_AMA3">
+    <p>(<hi rend="sup">1</hi>) <hi rend="it">Voir</hi> art. XXX, p. 54.</p>
+   </note>
+   <note xml:id="P206-1887_AMA4" target="#note-P206-1887_AMA4">
+    <p>(<hi rend="sup">1</hi>) <hi rend="it">Voir</hi> l'art. XXX, p. 21.</p>
+   </note>
+   <note xml:id="P206-1887_AMA5" target="#note-P206-1887_AMA5">
+    <p>(<hi rend="sup">1</hi>) <hi rend="it">Voir</hi> page 36.</p>
+   </note>
+  </back>
+ </text>
+</TEI>

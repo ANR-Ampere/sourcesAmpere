@@ -1,0 +1,606 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 1196</title>
+                <author>Ampère, André-Marie</author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                        sciences</affiliation>
+                    </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+                    <name>Centre de calcul de
+                        l'IN2P3</name>
+                    <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+                </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="original_manuscrit">
+                    <msIdentifier xml:id="ampere_corr_L1811-12-20-B">
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>N.A.F.</repository>
+                        <idno>ms 14605, f° 105-110 [note A. Robinet]</idno>
+                        <altIdentifier>
+                            <idno type="old">L1196</idno>
+                            <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+                        </altIdentifier>
+                    </msIdentifier>    
+                    
+                    <physDesc>
+                        <handDesc>
+                            <handNote corresp="#AMA">
+                                <name type="person" key="Ampère, André-Marie (1775-1836)">
+                                    <forename>André-Marie</forename>
+                                    <surname>Ampère</surname>
+                                </name>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <listWit>
+                    <witness xml:id="L1196">
+                        <biblStruct>                            
+                            <monogr>                              
+                                <author role="dir">
+                                    <surname>Robinet</surname>
+                                    <forename>André</forename>
+                                </author>
+                                <title>Œuvres, XIII-1 : Correspondance philosophique avec Ampère</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>J. Vrin</publisher>
+                                    <date when="1993">1993</date>
+                                    <biblScope type="pp">p. 237-242</biblScope>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                    </witness>                  
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender">Ampère, André-Marie</persName>
+          <date when="1811-12-20">autour du 20 décembre 1811</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Maine de Biran, Pierre</persName>
+        </correspAction>
+      </correspDesc>
+            <creation>
+                <date when="2014-07">juillet 2014</date>
+                <name>Philippe Pons</name>
+                <name>Aude
+                    Coustumer</name>
+            </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="correspondance" decls="#ampere_corr_L1811-12-20-B">
+        <body>
+            <div>
+        <p> <pb n="187"/>J'ai reçu depuis la dernière lettre que je vous<lb/>
+                ai écrite celle où vous me parlez du jeune<lb/>
+               homme qui a été examiné par M. <persName>Labey</persName>.<lb/>
+                Je l'ai vu, il a été voir de ma part M. <persName>Dinet</persName>
+          <lb/>
+                qui sera son professeur au <orgName>lycée <persName>Napoléon</persName>
+          </orgName>
+          <lb/>
+                où d'après ce que nous avons examiné ensemble<lb/>
+                sur le parti qu'il lui convenait de prendre,<lb/>
+                il s'est décidé à entrer comme externe.<lb/>
+                Nous sommes convenus qu'il viendrait me<lb/>
+                voir dans quelque <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice> et que nous causerions<lb/>
+                de ce qu'il y aurait appris, tant pour le<lb/>
+                tenir en haleine que pour m'assurer de ses<lb/>
+                progrès. Quand aux autres commissions que<lb/>
+                vous m'aviez données, je vous ai répondu tout<lb/>
+                ce que je savais là-dessus. J'ai fait quelques<lb/>
+                courses encore à l'<orgName>Université</orgName> pour y prendre<lb/>
+                des <choice>
+            <sic>renseignemens</sic> <corr>renseignements</corr>
+          </choice> qui ne m"ont rien appris<lb/>
+                de plus. Pour l'affaire de M. <persName>Desgranges</persName> il est<lb/>
+                clair qu'il faut attendre qu'on s'occupe de<lb/>
+                l'organisation définitive d'après le dernier<lb/>
+                décret sur les lycées, les collèges, etc.</p>
+                <p>Je vois qu'enfin j'aurai dans quelques mois le<lb/>
+                    plaisir de vous revoir, que nous pourrons<lb/>
+                    reprendre nos conversations et que j'aurai un<lb/>
+                    double plaisir à vous revoir puisque vous serez<lb/>
+                    accompagné d'un fils auquel je prends un<lb/>
+                    intérêt bien vif avant de le connaître.<lb/>
+                    Je vous dirai tout ce que je saurai sur le choix<lb/>
+                    que vous comptez faire d'un maître de<lb/>
+                    mathématiques pour lui, et je me promets<lb/>
+                    un grand plaisir à en causer avec lui, et à<lb/>
+                    l'examiner de <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice> en <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice>.</p>
+                <p>J'ai une grande impatience de connaître le<lb/>
+                    tableau <choice>
+            <sic>psycologique</sic> <corr>psychologique</corr>
+          </choice> dont vous me parlez.<lb/>
+                    Si vous pouviez me l'envoyer vous me feriez<lb/>
+                    un bien grand plaisir. J'espère que le <choice>
+            <sic>printems</sic> <corr>printemps</corr>
+          </choice>
+          <lb/>
+                    <choice>
+            <sic>prochaine</sic> <corr>prochain</corr>
+          </choice> nous lirons ensemble l'ouvrage où<lb/>
+                    vous refondez vos trois mémoires. Il me tarde<lb/>
+                    beaucoup que cet ouvrage puisse paraître.<lb/>
+                    Je suis sûr qu'il fera époque dans l'histoire<lb/>
+                    de la science. M. <persName>Degérando</persName> que j'ai vu<lb/>
+                    plusieurs fois dans ces derniers <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice> se porte<lb/>
+                    à merveille. Nous avons beaucoup parlé de<lb/>
+                    vous.</p>
+                <p>Il m'est assez indifférent que vous vous<lb/>
+                    écartiez de ma nomenclature pourvu<lb/>
+                    que vous en admettiez les bases sans<lb/>
+                    lesquelles je ne vois pas qu'on puisse<lb/>
+                    systématiser les faits <choice>
+            <sic>psycologiques</sic> <corr>psychologiques</corr>
+          </choice>, ni<lb/>
+                    en démontrer l'origine. Ces bases<lb/>
+                    sont la distinction du système sensitif<lb/>
+                    et des systèmes actifs, qui se divisent<lb/>
+                    naturellement en phénomènes résultant :<lb/>
+                    <list>
+            <item n="1">°. Immédiatement de l'activité, tels<lb/>
+                    que <hi rend="underline">le moi</hi>, <hi rend="underline">la réminiscence</hi>, l'attribution<lb/>
+                    des <hi rend="underline">sensations</hi> à des <hi rend="underline">causes extérieures</hi>, etc.</item>
+            <lb/>
+                    <item n="2">°. De la faculté d'<choice>
+                <sic>appercevoir</sic> <corr>apercevoir</corr>
+              </choice> les rapports<lb/>
+                    de ressemblance et d'opposition qui se<lb/>
+                    trouvent entre les diverses manières<lb/>
+                    dont nous sommes modifiés ; tels sont<lb/>
+                    <hi rend="underline">la formation</hi> <hi rend="underline">idées générales</hi> et du<lb/>
+                        <hi rend="underline">langage</hi>, et tout ce qui en dépend, les<lb/>
+                    <hi rend="underline">classifications</hi>, <hi rend="underline">combinaisons de l'imagination</hi>, etc.</item> <pb n=""/>
+                    <item n="3">°. De la faculté d'<choice>
+                <sic>appercevoir</sic> <corr>apercevoir</corr>
+              </choice> les rapports ou<lb/>
+                    <hi rend="underline">relations</hi> qui dépendent uniquement du<lb/>
+                    mode de composition ou de coordination<lb/>
+                        des <hi rend="underline">
+                <choice>
+                  <sic>élémens</sic> <corr>éléments</corr>
+                </choice>
+              </hi>, et non de la nature de ces <hi rend="underline">
+                <choice>
+                  <sic>élémens</sic> <corr>éléments</corr>
+                </choice>
+              </hi>
+              <lb/>
+                        ni de la manière agréable ou pénible dont<lb/>
+                        ils nous modifient.
+                    </item>
+          </list>
+        </p>
+                <p>Dans mon dernier tableau je vous proposais<lb/>
+                    de nommer <hi rend="underline">contuition</hi> l'acte par lequel<lb/>
+                    nous <choice>
+            <sic>appercevons</sic> <corr>apercevons</corr>
+          </choice> ces <hi rend="underline">relations</hi>. J'ai depuis<lb/>
+                    adopté pour cela le mot de <hi rend="underline">synthétopsie</hi>
+          <lb/>                    
+                    de <hi rend="underline">
+            <foreign xml:lang="grc"/>
+          </hi>, un composé, l'union de deux<lb/>
+                    ou plusieurs choses, et d'<hi rend="underline">
+            <foreign xml:lang="grc"/>, je vois</hi>.<lb/>
+                    J'aime bien à établir, même dans le<lb/>
+                    mot, de l'analogie entre ce phénomène<lb/>
+                    et <hi rend="underline">l'autopsie</hi>, car il est en quelque<lb/>
+                    sorte le complément de <hi rend="underline">l'autopsie</hi>,<lb/>
+                    comme la <hi rend="underline">comparaison</hi> est celui de<lb/>
+                    la <hi rend="underline">sensation</hi>. En effet j'ai reconnu<lb/>
+                    la vérité d'une chose que vous me<lb/>
+                    disiez à votre dernier voyage, et<lb/>
+                    que je <choice>
+            <sic>combatis</sic> <corr>combattis</corr>
+          </choice> alors. Les <hi rend="underline">idées <choice>
+              <sic>psycologiques</sic> <corr>psychologiques</corr>
+            </choice>
+          </hi>
+          <lb/>
+                    telles que celles du <hi rend="underline">jugement</hi>, de la<lb/>
+                    <hi rend="underline">causalité</hi>, de la <hi rend="underline">volonté</hi>, en un mot<lb/>
+                    toutes celles qu'expriment les mots de<lb/>
+                    mon tableau des phénomènes actifs,<lb/>
+                    sont des <hi rend="underline">idées synthétoptiques</hi>, comme <pb n=""/>
+                    je les nomme à présent, (vous les<lb/>
+                    trouverez indiquées dans le tableau sous<lb/>
+                    le nom de <hi rend="underline">notions</hi>). En effet nos<lb/>
+                    divers <hi rend="underline">
+            <choice>
+              <sic>jugemens</sic> <corr>jugements</corr>
+            </choice>
+          </hi> ne sont pas une<lb/>
+                    classe de <hi rend="underline">phénomènes</hi> qui se <hi rend="underline">ressemblent</hi>,<lb/>
+                    c'est un seul et même mode de<lb/>
+                    <hi rend="underline">coordination</hi>, toujours identique à<lb/>
+                    lui-même et dont <hi rend="underline">l'idée</hi> est<lb/>
+                    une <hi rend="underline">idée simple</hi> et <hi rend="underline">individuelle</hi>.<lb/>
+                    De même qu'entre <hi rend="underline">cinq hommes</hi>
+          <lb/>
+                    et <hi rend="underline">cinq étoiles</hi> il n'y a pas une<lb/>
+                    <hi rend="underline">ressemblance</hi> qui nous laisse <hi rend="underline">l'idée</hi>
+          <lb/>
+                    du nombre <hi rend="underline">cinq</hi>, mais un mode<lb/>
+                    de <hi rend="underline">coordination</hi>, identique <hi rend="underline">à lui-<lb/>même</hi> dans tout assemblage de<lb/>
+                    cinq phénomènes soit physiques soit<lb/>
+                    intellectuels. (J'entends <hi rend="underline">identique à<lb/>
+                    lui-même</hi> sous le point de vue <hi rend="underline">du nombre</hi>)</p>
+                <p>
+                    Je distingue donc soigneusement<lb/>
+                    la <hi rend="underline">comparaison</hi> qui laisse les <hi rend="underline">idées<lb/>
+                    générales</hi>, et les <hi rend="underline">modes de coordination</hi>
+          <lb/>
+                    <choice>
+            <sic>auquels</sic> <corr>auxquels</corr>
+          </choice> elle donne lieu, savoir<lb/>
+                    les <choice>
+            <sic>jugemens</sic> <corr>jugements</corr>
+          </choice> proprement dits, ou de <pb n=""/>
+                    comparaison, soit <hi rend="underline">simple</hi> soit <hi rend="underline">collectif</hi>,<lb/>
+                    et les <hi rend="underline">combinaisons</hi> formées dans<lb/>
+                    l'entendement à l'aide des idées générales,<lb/>
+                    je distingue tout cela <add>dis-je </add>de la <hi rend="underline">synthétopsie</hi>,<lb/>
+                    qui laisse les idées synthétoptiques ou notions, et<lb/>
+                    par laquelle on <choice>
+            <sic>apperçoit</sic> <corr>aperçoit</corr>
+          </choice> les relations<lb/>
+                    qui constituent un mode de <hi rend="underline">coordination</hi>
+          <lb/>
+                    ou qui en découlent, des <hi rend="underline">déductions</hi>
+          <lb/>
+                    soit <hi rend="underline">immédiates</hi> comme les <hi rend="underline">axiomes</hi>
+          <lb/>
+                    de la <hi rend="underline">
+            <choice>
+              <sic>psycologie</sic> <corr>psychologie</corr>
+            </choice>
+          </hi> et des <hi rend="underline">mathématiques</hi>,<lb/>
+                    soit progressives comme les <hi rend="underline">démonstrations</hi>
+          <lb/>
+                    des <hi rend="underline">théorèmes</hi>, et enfin des <hi rend="underline">
+            <choice>
+              <sic>assentimens</sic> <corr>assentiments</corr>
+            </choice>
+          </hi>.</p>
+                <p>Je voudrais <choice>
+            <sic>vou</sic> <corr>vous</corr>
+          </choice> faire senti combien<lb/>
+                    il y a de différence entre ces deux<lb/>
+                    systèmes, quoique ce soit ceux qui se<lb/>
+                    ressemblent le plus dans le point commun<lb/>
+                    des <hi rend="underline">rapports</hi> ou <hi rend="underline">relations</hi> qu'ils créent<lb/>
+                    pour nous.</p>
+                <p>Ces <hi rend="underline">relations</hi> que la <hi rend="underline">synthétopsie</hi> nous<lb/>
+                    découvre existaient dans le groupe<lb/>
+                    du moment où il était formé,<lb/>
+                    mais nous n'en avions pas la <hi rend="underline">notion</hi>
+          <lb/>
+                    à part ; la <hi rend="underline">synthétopsie</hi> nous la donne.<lb/>
+                    Ainsi dès qu'on a vu ou touché des<lb/>
+                    particules matérielles placées en ligne <pb n=""/>
+                    droite, il y a eu la <hi rend="underline">relation</hi> de <hi rend="underline">rectitude</hi>
+          <lb/>
+                    entre les sensations excitées par<lb/>
+                    ces particules, et <hi rend="underline">associées organiquement</hi>
+          <lb/>
+                    par l’œil ou le tact. Mais pour<lb/>
+                    avoir à part la <hi rend="underline">notion</hi> de cette<lb/>
+                    <hi rend="underline">rectitude</hi>, <hi rend="underline">idée <choice>
+              <sic>synthétoptique</sic> <corr>sythétoptique</corr>
+            </choice> individuelle</hi>,<lb/>
+                    il faut une <hi rend="underline">synthétopsie</hi>, pour voir<lb/>
+                    dans cette <hi rend="underline">rectitude</hi> la condition<lb/>
+                    nécessaire et suffisante de la moindre<lb/>
+                    longueur possible entre toutes les<lb/>
+                    lignes qui joignent deux points quelconques<lb/>
+                    <figure/> A et B, il faut une<lb/>
+                    seconde <hi rend="underline">synthétopsie</hi>, à<lb/>
+                    laquelle en succèdent d'autres, et<lb/>
+                    chaque <hi rend="underline">synthétopsie</hi>
+          <lb/>
+                    entraînant une <hi rend="underline">déduction immédiate</hi>,<lb/>
+                    on parcourt ainsi toute la <hi rend="underline">géométrie</hi>.<lb/>
+                    De même dès l'instant où le moi a<lb/>
+                    existé il a été <hi rend="underline">uni</hi> en <hi rend="underline">relation</hi> de<lb/>
+                    <hi rend="underline">causalité</hi>, (qui est comme la <hi rend="underline">rectitude</hi>
+          <lb/>
+                    un <hi rend="underline">monde de coordination primitif</hi>
+          <lb/>
+                    plus parfaitement distinct de tout autre<lb/>
+                    avec <hi rend="underline">l'effet</hi> produit par <hi rend="underline">l'effort</hi>. Mais<lb/>
+                    pour avoir à part la <hi rend="underline">notion</hi> de<lb/>
+                    <hi rend="underline">causalité</hi> il faut un acte de <hi rend="underline">synthétopsie</hi> <pb n=""/>
+                    pour voir que cette <hi rend="underline">cause</hi>, qui est<lb/>
+                    <hi rend="underline">nous-mêmes</hi>, est <hi rend="underline">indépendante</hi> et<lb/>
+                    <hi rend="underline">libre</hi> des <hi rend="underline">modifications passives</hi> qui<lb/>
+                    peuvent tout au plus en être<lb/>
+                    <hi rend="underline">l'occasion</hi>, il faut une seconde<lb/>
+                    <hi rend="underline">synthétopsie</hi>, et ainsi de suite<lb/>
+                    de <hi rend="underline">synthétopsie</hi> en <hi rend="underline">synthétopsie</hi> ou<lb/>
+                    de <hi rend="underline">déduction</hi> en <hi rend="underline">déduction</hi> on parcourt<lb/>
+                    toute <hi rend="underline">la <choice>
+              <sic>psycologie</sic> <corr>psychologie</corr>
+            </choice>
+          </hi>
+        </p>
+                <p>J'en étais là de ma mettre lorsque<lb/>
+                    j'ai reçu celle que vous m'avez écrite le<lb/>
+                    13 du courant, tout ce que vous m'y<lb/>
+                    dites de la génération du moi, et<lb/>
+                    des circonstances qui l'<choice>
+            <sic>accopagnent</sic> <corr>accompagnent</corr>
+          </choice>,<lb/>
+                    est tellement conforme à ma<lb/>
+                    manière de voir actuelle et que je<lb/>
+                    vous dois, qu'il n'y a pas une syllabe que<lb/>
+                    j'en voulusse retrancher. Nous voilà<lb/>
+                    sur ce point parfaitement et<lb/>
+                    entièrement d'accord. Le <hi rend="underline">système<lb/>
+                    sensitif</hi> tant qu'il n'y a pas eu<lb/>
+                    d'<hi rend="underline">effort</hi> ne peut donner que des <hi rend="underline">sensations</hi>, <pb n=""/>
+                    ou <hi rend="underline">intuitions</hi>, et les <hi rend="underline">images</hi> qu'elles laissent<lb/>
+                    après elles, pour <hi rend="underline">
+            <choice>
+              <sic>élémens</sic> <corr>éléments</corr>
+            </choice>
+          </hi> uniques de<lb/>
+                    tout ce qu'il y a de <hi rend="underline">représentatif</hi> dans<lb/>
+                    ce système. Ces <hi rend="underline">images</hi> sont des<lb/>
+                    <hi rend="underline">modifications</hi> actuelles, sans <hi rend="underline">réminiscence</hi>
+          <lb/>
+                    sans <hi rend="underline">succession</hi> comme de l'animal<lb/>
+                    qui les éprouve successivement.<lb/>
+                    Chaque instant étant <choice>
+            <sic>annéanti</sic> <corr>anéanti</corr>
+          </choice>
+          <lb/>
+                    pour lui par l'instant suivant.<lb/>
+                    Lorsqu'il y a <hi rend="underline">effort</hi> la conscience de<lb/>
+                    <hi rend="underline">l'effort</hi> ou <hi rend="underline">l'autopsie</hi>, c'est pour moi<lb/>
+                    la même chose fournit un nouvel<lb/>
+                    élément absolument différent de<lb/>
+                    tous les autres, qui s'<choice>
+            <sic>apperçoit</sic> <corr>aperçoit</corr>
+          </choice>
+          <lb/>
+                    <hi rend="underline">distinctement</hi> d'eux, mais en<lb/>
+                    combinaison avec eux. Tous les<lb/>
+                    autres <choice>
+            <sic>élémens</sic> <corr>éléments</corr>
+          </choice> se coordonnent autour<lb/>
+                    de ce centre commun, les<lb/>
+                    <hi rend="underline">effets</hi> produits par l'effort se<lb/>
+                    <hi rend="underline">coordonnent</hi> avec lui par<lb/>
+                    <hi rend="underline">causalité.</hi> Les <hi rend="underline">affections</hi> simultanées<lb/>
+                    par <hi rend="underline">attribution personnelle ou subjective</hi>.<lb/>
+                    Les <hi rend="underline">intuitions</hi>, sont en <hi rend="underline">même<lb/>
+                    causalité</hi> il faut un acte de <hi rend="underline">synthétopsi<supplied>e</supplied>
+          </hi> <pb n=""/>
+                    <hi rend="underline">attribuées</hi> à des <hi rend="underline">causes extérieures</hi>, de<lb/>
+                    plus cette <hi rend="underline">conscience de l'effort</hi> ou<lb/>
+                    autopsie laisse une trace, <hi rend="underline">l'idée du<lb/>
+                    passé</hi> ou <hi rend="underline">réminiscence</hi>, qui seul peut<lb/>
+                    établir de <hi rend="underline">succession</hi> <choice>
+            <sic>apperçue</sic> <corr>aperçue</corr>
+          </choice> et<lb/>
+                    <hi rend="underline">reconnue</hi> par l'être modifié. Chaque<lb/>
+                    <hi rend="underline">image</hi> d'une <hi rend="underline">modification</hi> précédente<lb/>
+                    lorsque celle-ci a été unie à l'autopsie,<lb/>
+                    se trouve unie à la <hi rend="underline">réminiscence</hi>,<lb/>
+                    suivant la règle générale que deux<lb/>
+                    phénomènes qui ont été <hi rend="underline">coordonnés<lb/>
+                    entre eux</hi> laissent des traces<lb/>
+          <lb/>
+                    <hi rend="underline">coordonnées entre elles</hi>. C'est cette<lb/>
+                    union d'une <hi rend="underline">image</hi> ou <hi rend="underline">idée</hi> quelconque,<lb/>
+                    avec la <hi rend="underline">réminiscence</hi> qui constitue<lb/>
+                    un <hi rend="underline">souvenir</hi>.</p>
+                <p>À l'exception de la <hi rend="underline">coordination</hi> par<lb/>
+                    <hi rend="underline">juxtaposition superficielle</hi> qui a lieu<lb/>
+                    dans le <hi rend="underline">système sensitif</hi> pour les<lb/>
+                    <hi rend="underline">impressions</hi> du tact, de la vue, et<lb/>
+                    peut-être du goût dans certains cas,<lb/>
+                    toutes les <hi rend="underline">coordinations</hi> de <hi rend="underline">causalité</hi>,<lb/>
+                    de <hi rend="underline">succession</hi>, <hi rend="underline">d'attribution</hi>, de lieu dan<supplied>s</supplied> <pb n=""/>
+                    <hi rend="underline">l'espace</hi> à <hi rend="underline">trois dimensions</hi>, etc. sont<lb/>
+                    uniquement dues à <hi rend="underline">l'autopsie</hi>. Mais<lb/>
+                    pour se faire ensuite une <hi rend="underline">idée</hi> à part<lb/>
+                    de ces diverses <hi rend="underline">relations</hi>, raisonner<lb/>
+                    sur elles, etc. il faut des actes de<lb/>
+                    <hi rend="underline">synthétopsie</hi> appartenant au quatrième<lb/>
+                    et dernier système de l'entendement.<lb/>
+                    Dans toutes  ces coordinations avant<lb/>
+                    la <hi rend="underline">synthétopsie</hi> qui met à part le<lb/>
+                    <hi rend="underline">moi </hi> et la <hi rend="underline">causalité</hi>, il y a <hi rend="underline">moi<lb/>
+                    distinct</hi>, <hi rend="underline">causalité distincte</hi>, mais<lb/>
+                    tout cela combiné avec d'autres<lb/>
+                    <choice>
+            <sic>élémens</sic> <corr>éléments</corr>
+          </choice>. Comme, (pour me servir<lb/>
+                    d'une comparaison sensible quoique<lb/>
+                    peu exacte,) chaque couleur est<lb/>
+                    distincte dans le spectre coloré,<lb/>
+                    quoique <choice>
+            <sic>que</sic> <corr/>
+          </choice> <choice>
+            <sic>coordonnées</sic> <corr>coordonnée</corr>
+          </choice> avec les<lb/>
+                    autres de manière à former<lb/>
+                    un seul tout</p>
+                <p>
+          <hi rend="underline">J'ai levé le bras</hi>, est aussi avant<lb/>
+                    la <hi rend="underline">synthétopsie</hi> dont nous parlions<lb/>
+                    tout à l'heure, un seul tout<lb/>
+                    composé de la <hi rend="underline">conscience de l'effort <add>ou autopsie</add> <pb n=""/>
+                    de la sensation ou intuition</hi> de la<lb/>
+                    contraction musculaire dans le<lb/>
+                    bras, de la vue de son déplacement, etc.<lb/>
+                    et du rapport de causalité, perçu<lb/>
+                    entre l'effort et <hi rend="underline">l'intuition</hi> musculaire<lb/>
+                    et hypothétisée entre cette <hi rend="underline">intuition</hi>
+          <lb/>
+                    ou <hi rend="underline">sensation</hi> et le déplacement<lb/>
+                    extérieur du bras. Tous ces <choice>
+            <sic>élémens</sic> <corr>éléments</corr>
+          </choice>
+          <lb/>
+                    sont distincts, sans quoi on ne pourrait<lb/>
+                    pas dire : <hi rend="underline">j'ai levé le bras</hi>, mais ils sont<lb/>
+                    coordonnés en un groupe dont <choice>
+            <sic>il</sic> <corr>ils</corr>
+          </choice>
+          <lb/>
+                    ne peuvent être <hi rend="underline">abstraits</hi> que par<lb/>
+                    un acte <hi rend="underline">synthétoptique</hi>.</p>
+                <p>Je ne sais si vous concevez tout<lb/>
+                    cet amas indigeste que j'ai écrit à<lb/>
+                    diverses reprises avec une rage <supplied>de</supplied>
+          <lb/>
+                    dents. Venez, venez donc à <placeName>Par<supplied>is</supplied>
+          </placeName>
+          <lb/>
+                    avant que j'en parte pour ma<lb/>
+                    tournée sans quoi je ne pourrai<lb/>
+                    en connaître le manuscrit ni<lb/>
+                    vous faire aucune observation avant<lb/>
+                    l'impression.</p>
+                <p>Quant à l'état de mon âme il est<lb/>
+                    à peu près le même, mais<lb/>
+                    moins <choice>
+            <sic>insuportable</sic> <corr>insupportable</corr>
+          </choice> j'ai éprouvé <pb n=""/>
+                    quelques satisfaction à des recherches<lb/>
+                    de <choice>
+            <sic>psycologie</sic> <corr>psychologie</corr>
+          </choice> et de mathématiques.<lb/>
+                    mais le fond de mon existence n'a point<lb/>
+                    changé. Adieu, mon cher ami, l'amitié<lb/>
+                    <del type="illisible"/> que vous me témoignez est<lb/>
+                    peut-être la plus grande consolation de ma vie, si<lb/>
+                    vous étiez ici, je vous verrais sans cesse<lb/>
+                    et nous élèverions enfin l'édifice de<lb/>
+                    la science dont nous avons reconnu<lb/>
+                    les mêmes bases. Je vous embrasse de toute mon âme.<lb/>
+                    <persName ref="#pers_A366">A. Ampère</persName>.<lb/>
+                    J'irai incessamment chez M. <persName>de St-Geyrat</persName>,<lb/>
+                    je vous écrirai ce qu'il m'aura dit.
+                </p>
+            </div>
+            <closer>A <choice>
+          <sic>monsieur<lb/> monsieur</sic> <corr>monsieur<lb/>
+          </corr>
+        </choice>
+            <persName>Maine <ex>de</ex> Biran</persName>
+        <lb/>
+            membre du corps<lb/>
+            législatif, auparavant<lb/>
+            sous-préfet de <placeName>Bergerac</placeName>
+        <lb/>
+            à <placeName>Bergerac</placeName>.<lb/>
+            Dép<ex>artemen</ex>t de la <placeName>Dordogne</placeName>
+      </closer>
+        </body>
+       
+    </text>
+</TEI>

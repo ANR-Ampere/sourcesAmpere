@@ -1,0 +1,671 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Correspondance d'André-Marie Ampère - Lettre 1165</title>
+        <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+        <editor>Christine Blondel</editor>
+        <editor>Marco Segala</editor>
+        <funder>ANR Corpus 2012</funder>
+        <respStmt>
+          <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+          <resp>Responsable du projet, édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+          <resp>Responsable du projet, édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+          <resp>Gestion de bases de données</resp>
+        </respStmt>
+        <respStmt>
+          <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+          <resp>Relecture et encodage en XML/TEI P5</resp>
+        </respStmt>
+        <respStmt>
+          <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+          <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+        </respStmt>
+        <respStmt>
+          <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+          <resp>Édition web</resp>
+        </respStmt>
+        <respStmt>
+          <name>Florence Greffe, <affiliation>Archives de l'Académie des sciences</affiliation>
+          </name>
+          <resp>Mise en place de la numérisation</resp>
+        </respStmt>
+        <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration
+            du schéma XML TEI et encodage</resp>
+        </respStmt>
+      </titleStmt>
+      <extent/>
+      <publicationStmt>
+        <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+        <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+        <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+        <distributor>
+          <name>Centre de calcul de l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+        <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+        <date/>
+        <idno/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc type="original_manuscrit">
+          <msIdentifier xml:id="ampere_corr_L1812-09-04-B">
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque nationale de France</institution>
+            <repository>N.A.F.</repository>
+            <idno>ms. 14605, f° 122-130 [note A. Robinet]</idno>
+            <altIdentifier>
+              <idno type="old">L1165</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+          
+          <physDesc>
+            <handDesc>
+              <handNote corresp="#AMA">
+                <name type="person" key="Ampère, André-Marie                                                   (1775-1836)">
+                  <forename>André-Marie</forename>
+                  <surname>Ampère</surname>
+                </name>
+              </handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+
+        <listWit>
+          <witness xml:id="L1165edition">
+            <biblStruct>
+              <monogr>
+                <author>
+                  <surname>Maine de Biran</surname>
+                  <forename>Pierre</forename>
+                </author>
+                <author role="dir">
+                  <surname>Robinet</surname>
+                  <forename>André</forename>
+                </author>
+                <title>Oeuvres, XIII-1 : Correspondance philosophique avec Ampère</title>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>J. Vrin</publisher>
+                  <date when="1993">1993</date>
+                  <biblScope type="pp">p. 315-322</biblScope>
+                </imprint>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="L1165manuscrit">
+            <msDesc type="copie">
+              <msIdentifier>
+                <country>France</country>
+                <settlement>Paris</settlement>
+                <institution>Archives de l'Académie des sciences</institution>
+                <idno>chemise 264</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <editorialDecl>
+        <correction>
+          <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+        </correction>
+        <hyphenation>
+          <p>Les retours à la ligne des documents originaux sont respectés.</p>
+        </hyphenation>
+        <normalization>
+          <p>L'orthographe et la ponctuation ont été normalisées.</p>
+          <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+        </normalization>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender">Ampère, André-Marie</persName>
+          <date when="1812-09-04">4 septembre 1812</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Maine de Biran, Pierre</persName>
+        </correspAction>
+      </correspDesc>
+      <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude Coustumer</name>
+      </creation>
+      <langUsage>
+        <language ident="fra">Français</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <text type="correspondance" decls="#ampere_corr_L1165">
+    <body>
+      <div>
+        <opener>
+          <pb n=""/>
+          <date when="1812-09-04">4 <choice>
+              <abbr>7bre</abbr> <expan>septembre</expan>
+            </choice> 1812</date>
+        </opener>
+        <p>J'ai reçu mon cher ami, votre dernière<lb/> lettre avec d'autant plus de plaisir que<lb/>
+          je vois que nous sommes enfin<lb/> presqu'absolument d'accord sur tous<lb/> les points. Il
+          n'y en a <del type="illisible"/> plus que<lb/> deux où nous ne sommes pas d'accord,<lb/>
+          et encore à l'égard de l'un d'eux<lb/> je crois que vous n'avez pas compris<lb/> ce que je
+          voulais <add>dire </add>, c'est par celui-là<lb/> que je vais commencer afin de<lb/>
+          réserver pour la fin la discussion<lb/> la plus longue et la plus épineuse.</p>
+        <p>Suivant moi il n'y a de <choice>
+            <sic>jugemens</sic>
+            <corr>jugements</corr>
+          </choice>
+          <lb/> que lorsqu'une nouvelle <hi rend="underline">idée</hi> ou une<lb/> nouvelle
+          <hi rend="underline">notion</hi> augmente la somme<lb/>
+          <hi rend="underline">d'<choice>
+              <sic>élémens</sic> <corr>éléments</corr>
+            </choice>
+          </hi>
+          déjà réunis en s'y joignant.<lb/> Soit dans le <hi rend="underline">jugement comparatif</hi>
+          <lb/> lorsque c'est une <hi rend="underline">idée</hi>
+          <add>de rapport </add> de <hi rend="underline">ressemblance</hi>
+          <lb/> ou de <hi rend="underline">dissemblance</hi>, <choice>
+            <sic>apperçue</sic>
+            <corr>aperçue</corr>
+          </choice> entre<lb/> deux choses indépendantes l'une de<lb/> l'autre, soit dans le
+          <hi rend="underline">jugement<lb/>
+               intuitif</hi> lorsque c'est une
+          <hi rend="underline">notion</hi>.<lb/> La <hi rend="underline">description</hi> à l'aide
+          des <hi rend="underline">signes institués</hi>
+          <lb/> d'un groupe déjà tout formé dans<lb/> l'esprit, que tant d'auteurs ont pris<lb/>
+          pour un <hi rend="underline">jugement</hi>, n'est qu'une<pb n=""/> action volontaire, un
+          emploi de<lb/> notre faculté de <hi rend="underline">vouloir</hi>, ce n'est<lb/> point
+          dans les systèmes de l'entendement<lb/> qu'elle doit trouver place, puisqu'elle<lb/>
+          n'ajoute rien à ce que nous pensions<lb/> ou sachions déjà.</p>
+        <p>Ainsi tout sera fixé par ces deux définitions :<lb/>
+          <list>
+            <item n="1">°. Il n'y a jugement que quand un nouvel<lb/>
+              <hi rend="underline">élément</hi>, <hi rend="underline">rapport</hi> ou
+              <hi rend="underline">relation</hi> vient<lb/> grossir le groupe en s'y
+              joignant.</item>
+            <lb/>
+            <item n="2">°. Si ce <hi rend="underline">rapport</hi> dépend de la nature des<lb/>
+              choses <hi rend="underline">comparées</hi>, le jugement est<lb/>
+              <hi rend="underline">comparatif</hi>, si c'est une <hi rend="underline">relation</hi>
+              <lb/> qui ait lieu en vertu du <hi rend="underline">mode</hi> de<lb/>
+              <hi rend="underline">réunion</hi> ou de <hi rend="underline">coordination</hi>,
+              quelqu'il<lb/> soit, indépendamment de la nature<lb/> des choses
+              <hi rend="underline">réunies</hi> ou <hi rend="underline">coordonnées</hi>, c'est<lb/>
+              un <hi rend="underline">jugement intuitif</hi> puisqu'il repose<lb/> sur la nature
+              même de ce mode<lb/> de coordination, et non sur celle des<lb/>
+              <hi rend="underline">
+                <choice>
+                  <sic>élémens</sic> <corr>éléments</corr>
+                </choice>
+              </hi>,
+              et que les <hi rend="underline">modes</hi> suivant<lb/> lesquels nous pouvons <hi rend="underline">coordonner</hi>
+              <lb/> sont les vraies lois de notre<lb/> intelligence.</item>
+          </list>
+        </p>
+        <p>Parmi ces modes se trouvent ceux de<lb/>
+          <hi rend="underline">l'espace</hi>, de la <hi rend="underline">causalité</hi>, de <hi rend="underline">la durée</hi>
+          <pb n=""/> etc. Celui de la <hi rend="underline">classification</hi> s'y<lb/> trouve
+          aussi, il est aussi <hi rend="underline">une loi</hi>
+          <lb/> de notre <hi rend="underline">intelligence</hi>, qui pour se<lb/> développer plus
+          tard ne lui est pas<lb/> moins essentielle. Sans elle que serions<lb/>nous ? Or pour
+          savoir ce qui dans<lb/> ce que nous savons relativement à<lb/> ce
+          <hi rend="underline">mode</hi>, dépend d'un
+          <hi rend="underline">jugement<lb/>
+               intuitif</hi>, il faut voir ce qui est<lb/>
+          <hi rend="underline">nécessaire</hi>, aussi <hi rend="underline">nécessaire</hi> que
+          les<lb/> axiomes de la <hi rend="underline">géométrie</hi>, ce qui<lb/> est
+          <hi rend="underline">évident</hi> dès qu'on l'examine<lb/> un peu, ce qui est
+          absolument<lb/> indépendant des choses <hi rend="underline">coordonnées</hi>,<lb/> et qui
+          n'est vrai par conséquent<lb/> que parce que ce mode <hi rend="underline">d'union</hi>
+          <lb/> existe en nous de cette manière.<lb/> Or les axiomes logiques :<lb/>
+          <list>
+            <item n="1">°. Ce qui est vrai du genre est vrai de<lb/> l'espèce, mais ce qui est faux
+              du<lb/> genre peut être ou n'être pas<lb/> vrai de l'espèce, et au contraire<lb/> ce
+              qui est vrai de l'espèce peut être<lb/> vrai ou faux du genre, mais ce qui est<pb n=""/> faux de l'espèce est nécessairement<lb/> faux du genre.</item>
+            <lb/>
+            <item n="2">°. Deux propositions négatives ne peuvent<lb/> entraîner aucune
+              conséquence.</item>
+            <lb/>
+            <item n="3">°. Deux propositions qui ont le<lb/> même attribut ne peuvent conduire<lb/>
+              de même à aucune conséquence.</item>
+          </list>
+          <lb/> etc. etc.</p>
+        <p>Et tant d'autres qui constituent la<lb/> théorie d'<persName>Aristote</persName> sont
+          aussi nécessaire<lb/> qu'aucune autre vérité intuitive, et<lb/> aussi indépendantes de la
+          nature<lb/> des choses qu'on a disposées arbitrairement<lb/> dans les cadres de genres et
+          d'espèces,<lb/> que les propriétés du triangle rectangle<lb/> le sont de la nature des
+          couleurs ou des<lb/> sensations tactiles disposées dans cette<lb/>
+          <unclear>forme</unclear>. Vous me dites que je suis le<lb/> premier qui ait assimilé ces
+          choses<lb/> là. Tous les métaphysiciens un peu<lb/> raisonnables l'<choice>
+            <sic>on</sic>
+            <corr>ont</corr>
+          </choice> fait. Vous trouverez<lb/> partout, excepté dans <persName>Condillac</persName> et<lb/>
+          <choice>
+            <sic>consors</sic>
+            <corr>consorts</corr>
+          </choice>, que ces lois du jugement et<lb/> du raisonnement sont de la même<lb/> nature,
+          et du même genre<lb/> d'évidence que les axiomes et les<lb/> théorèmes de la géométrie, et
+          de la<lb/> métaphysique. Aussi <persName>Kant</persName> les admets-il<lb/> parmi ses <choice>
+            <sic>jugemens</sic>
+            <corr>jugements</corr>
+          </choice> synthétiques <foreign xml:lang="lat">a priori</foreign>.<lb/> Réfléchissez un
+          peu au passage suivant :<pb n=""/>
+          <gap reason="illisible"/>
+          <pb n=""/>
+          <cit>
+            <quote>Tout le système des connaissances humaines<lb/> peut être rendu par une
+              expression plus<lb/> abrégée, et tout à fait identique :
+              <hi rend="underline">les sensations<lb/>
+                  sont des sensations</hi>.
+              Si nous pouvions, dans<lb/> toutes les sciences, suivre également la génération<lb/>
+              des idées, et saisir le vrai système des choses,<lb/> nous verrions d'une vérité
+              naître toutes les<lb/> autres, et nous trouverions l'expression<lb/> abrégée de tout
+              ce que nous saurions<lb/> dans cette proposition :
+              <hi rend="underline">le même est le<lb/>
+               même.</hi>
+            </quote>
+          </cit> (Cours d'étude, Art de penser, pag. 123)<lb/> Ce passage est cité au bas de la page
+          348 du<lb/> tome I<hi rend="sup">r</hi> de
+          l'<hi rend="underline">
+            <title>Histoire des systèmes de<lb/>
+               philosophie</title>
+          </hi>
+          par M. <persName>Degérando</persName>.</p>
+        <p>
+          <unclear>Et dites moi</unclear> en quoi cette théorie que<lb/>
+          <persName>La Romiguière</persName> répète à toutes les pages<lb/> de ses
+          <title>paradoxes</title> de <persName>Condillac</persName> diffère de ce<lb/> qu'a répété
+          <persName>Locke</persName> dans le chapitre des<lb/> propositions frivoles que je vous
+          avais cité.<lb/> On dirait que vous n'avez jamais ces<lb/> admirables
+          <title>essais sur l'entendement humain</title>,<lb/> quand vous ne faites pas attention
+          que<lb/> c'est un ouvrage partout opposé au<lb/>
+          <choice>
+            <sic>sotises</sic>
+            <corr>sottises</corr>
+          </choice> de <persName>Condillac</persName>, sur le <choice>
+            <sic>tems</sic>
+            <corr>temps</corr>
+          </choice>, sur l'espace,<lb/> sur la vue intérieure de soi-même,<lb/> sur la nature du
+          raisonnement, et surtout<lb/> sur le peu d'influence que <persName>Locke</persName>
+          donne<lb/> aux signes. Comment pouvez-vous l'accuser <lb/> de penser comme
+          <persName>Condillac</persName> en ne regardant<pb n=""/> les <choice>
+            <sic>jugemens</sic>
+            <corr>jugements</corr>
+          </choice> comme quelque chose que<lb/> quand ils sont énoncés. Tandis que <persName>Locke</persName>
+          <lb/> allant trop loin dans le sens inverse<lb/> n'accorde aux signes que l'avantage
+          de<lb/> fixer les idées, et de nous fournir le<lb/> moyen de ne pas oublier des
+          propositions<lb/> auxquelles il pense qu'on parviendrait<lb/> également sans leur secours,
+          par une<lb/> vue immédiate de ce qu'il <choice>
+            <sic>appèle</sic>
+            <corr>appelle</corr>
+          </choice> la convenance<lb/> et la disconvenance des <hi rend="underline">idées</hi>. Il
+          réunit<lb/> sous cette expression la comparaison, l'intuition<lb/> et le jugement
+          <hi rend="underline">d'extériorité</hi>. Voyez les<lb/> différences qu'il faut des <choice>
+            <sic>jugemens</sic>
+            <corr>jugements</corr>
+          </choice>, et ce<lb/> qu'il dit des trois genres de connaissances :<lb/> les
+          <hi rend="underline">intuitives</hi>, les <hi rend="underline">démonstratives</hi>, et les<lb/>
+          <hi rend="underline">hypothétiques</hi>.</p>
+        <p>Mon ami, c'est ce livre de <persName>Locke</persName> et<lb/> celui de
+          <persName>Kant</persName> que vous auriez besoin<lb/> de lire avant de mettre la
+          dernière<lb/> main à votre ouvrage. Vous n'avez<lb/> aucune idée de
+          <persName>Kant</persName> que
+          l'<title>Histoire<lb/>
+               des systèmes de philosophie</title> et
+          l'ouvrage<lb/> de <persName>Villers</persName>n'ont songé qu'à défigurer<lb/> par des
+          motifs contraires. Il s'est trompé<lb/> dans ses conséquences, mais comme il a<lb/>
+          profondément marqué les faits primitifs,<lb/> et les lois de l'intelligence humaine.
+          Vous<lb/> vous en rapportez aveuglément à son égard<pb n=""/> ce qu'en ont dit MM.
+          <persName>de Tracy</persName> et Dege<supplied>rando</supplied>
+          <lb/> qui l'ont traité comme <persName>Condillac</persName> a fait<lb/> à l'égard de
+          <persName>Descartes</persName>, et souvent de <persName>Locke</persName>,<lb/> tordre ses
+          expressions pour lui faire dire<lb/> tout le contraire de ce qu'il a dit.</p>
+        <p>J'ai été bien surpris encore quand<lb/> j'ai lu que vous croyez que les axiomes<lb/> de
+          la géométrie <choice>
+            <sic>avait</sic>
+            <corr>avaient</corr>
+          </choice> quelque chose à<lb/> démêler avec la ridicule identité. Nous les étudierons
+          ensemble, et vous verrez que<lb/> c'est là <choice>
+            <sic>quelle</sic>
+            <corr>qu'elle</corr>
+          </choice> est la moins applicable. Il y a quelques uns de ces <choice>
+            <sic>jugemens</sic>
+            <corr>jugements</corr>
+          </choice>
+          <hi rend="underline">intuitifs</hi>,<lb/> comme celui des parallèles, que
+          <persName>Kant</persName> a<lb/> mis au rang de ses <choice>
+            <sic>jugemens</sic>
+            <corr>jugements</corr>
+          </choice> synthétiques<lb/>
+          <foreign xml:lang="lat">a priori</foreign>, qu'on cherche depuis 2000 ans<lb/> à
+          démontrer, quoiqu'on en voie<lb/> intuitivement la vérité, et de l'aveu<lb/> de tous les
+          géomètres, ces malheureuses<lb/> tentatives n'ont jamais conduit<lb/> qu'au cercle
+          vicieux.</p>
+        <p>Vous me dites que vous voudriez<lb/> distinguer deux sortes
+          <hi rend="underline">d'intuitions</hi>,<lb/> l'une <hi rend="underline">extérieure</hi>,
+          l'autre <hi rend="underline">intérieure</hi>.<lb/> La première pour les vérités relatives
+          à l'espace<lb/> les autres pour celles qui le sont à notre propre<lb/>
+          <choice>
+            <sic>existance</sic>
+            <corr>existence</corr>
+          </choice>, à la causalité, à la durée, j'avais déjà<lb/> marqué cette distinction en
+          disant que<lb/>
+          <hi rend="underline">l'intuition</hi>, consistant toujours à voir le
+          <hi rend="underline">mode<pb n=""/>
+               d'union</hi> indépendamment des choses
+          <hi rend="underline">unies</hi> ou<lb/>
+          <hi rend="underline">coordonnées</hi>, se subdivise en autant de sortes<lb/> qu'il y a de
+          <hi rend="underline">systèmes</hi>. <hi rend="underline">L'intuition</hi> appliquée<lb/>
+          aux <hi rend="underline">réunions</hi> du premier <hi rend="underline">système</hi>
+          donne<lb/> toutes les <hi rend="underline">notions</hi> mathématiques de nombres, de
+          formes<lb/> etc. C'est votre <hi rend="underline">intuition</hi> extérieure.
+          <hi rend="underline">L'intuition<lb/>
+               appliquée</hi> aux
+          <hi rend="underline">réunions</hi> du 2<hi rend="sup">d</hi>
+          <hi rend="underline">système</hi> est<lb/> votre
+          <hi rend="underline">intuition intérieure</hi>, que j'appelais je crois<lb/>
+          <hi rend="underline">métaphysique</hi>.
+          <hi rend="underline">L'<choice>
+              <sic>intuion</sic>
+              <corr>intuition</corr>
+            </choice>
+          </hi>
+          appliquée aux réunions<lb/> du 3<hi rend="sup">me</hi>
+          <hi rend="underline">système</hi> que j'appelais dans la même<lb/> lettre
+          <hi rend="underline">intuition logique</hi>, n'est ni moins<lb/> remarquable que les deux
+          précédentes, ni moins<lb/> différentes de chacune d'elles qu'<choice>
+            <sic>elle</sic>
+            <corr>elles</corr>
+          </choice> le sont<lb/> entre elles, outre toute cette théorie<lb/>
+          d'<persName>Aristote</persName> qui vient en partie de cette 3<hi rend="sup">me</hi> sorte<lb/>
+          <hi rend="underline">d'intuition</hi>, et en partie de la quatrième<lb/> où
+          <hi rend="underline">l'intuition</hi>, phénomène fondamental du<lb/>
+          4<hi rend="sup">me</hi> système se replie sur ce <hi rend="sup">système</hi> lui<lb/>même.
+          <hi rend="sup">L'intuition logique</hi> est la faculté<lb/> par laquelle le langage a été
+          inventé, comme<lb/> je vous le montrerai plus en détail<lb/> quand vous serez ici, en vous
+          faisant<lb/> voir que le 3<hi rend="sup">me</hi>
+          <hi rend="underline">système</hi> suffit seul<lb/> dans l'enfant pour qu'il puisse recevoir<lb/>
+          <lb/> de ses <choice>
+            <sic>parens</sic>
+            <corr>parents</corr>
+          </choice> un langage tout fait,<lb/> mais qu'un langage ne peut être inventé<lb/> que par
+          l'application du 4<hi rend="sup">me</hi> système au 3<hi rend="sup">me</hi>.<pb n=""/>
+          Ainsi la principale différence qu'il y a entre<lb/> nous sur ce point, consiste à ce
+          que<lb/> je pense que nous nous rendons<lb/> compte par
+          <hi rend="underline">l'intuition</hi> de tous les<lb/> modes <hi rend="sup">d'unions</hi>
+          entre des <hi rend="underline">
+            <choice>
+              <sic>élémens</sic> <corr>éléments</corr>
+            </choice>
+          </hi>
+          <lb/> quelconques, quand nous voyons ces<lb/> modes indépendamment des
+          <hi rend="underline">
+            <choice>
+              <sic>élémens</sic> <corr>éléments</corr>
+            </choice>
+            <lb/>
+               unis</hi>.
+          Et que je distingue autant<lb/>
+          <hi rend="underline">d'applications</hi> différentes de <hi rend="underline">l'intuition</hi>
+          <lb/> qu'il y a de <hi rend="underline">modes d'unions</hi> absolument<lb/>
+          <choice>
+            <sic>différens</sic>
+            <corr>différents</corr>
+          </choice>, c'est à dire autant qu'il y<lb/> a de <hi rend="underline">systèmes</hi>, qu'en
+          conséquence la<lb/>
+          <hi rend="underline">notion</hi> des <hi rend="underline">genres</hi> et des
+          <hi rend="underline">espèces</hi>, considérée<lb/> indépendamment des choses classées,
+          est<lb/> du à <hi rend="underline">l'intuition</hi> comme la notion de<lb/> l'étendue et
+          de la durée, indépendante<lb/> des choses <hi rend="underline">coordonnées</hi> dans
+          l'espace<lb/> ou le <choice>
+            <sic>tems</sic>
+            <corr>temps</corr>
+          </choice>, et que les axiomes de la logique<lb/> d'<persName>Aristote</persName> qui ont
+          toute la nécessité et la généralité de ceux de la géométrie, qui<lb/> ne dépendent pas
+          plus des choses rangées<lb/> dans le <hi rend="underline">cadre</hi> d'une classification,
+          que celle<lb/> de la géométrie ne dépendent des choses<lb/> rangées dans le cadre de
+          l'étendue, ont<lb/> la même origine <hi rend="underline">l'intuition</hi>, et sont<pb n=""/> également des
+          <hi rend="underline">
+            <choice>
+              <sic>jugemens</sic> <corr>jugements</corr>
+            </choice> intuitifs</hi>,
+          qui,<lb/> lorsqu'on passe des <hi rend="underline">axiomes</hi> aux<lb/>
+          <hi rend="underline">propositions</hi> qu'il faut démontrer,)<lb/> s'enchaînent également
+          en <choice>
+            <sic>raisonnemens</sic>
+            <corr>raisonnements</corr>
+          </choice>.<lb/> Tandis que vous semblez n'admettre<lb/>
+          <hi rend="underline">l'application</hi> de <hi rend="underline">l'intuition</hi>
+          qu'aux<lb/> modes <hi rend="underline">d'unions</hi> des deux premiers<lb/> systèmes, le
+          <hi rend="underline">sensitif</hi> et <hi rend="underline">l'actif</hi>. Mais<lb/> je ne
+          vois pas comment vous pouvez<lb/> alors rendre raison de ce qui est<lb/> reconnu par tous
+          les métaphysiciens<lb/> raisonnables, savoir que les <hi rend="underline">axiomes</hi>
+          et<lb/> les <hi rend="underline">démonstrations</hi> des <hi rend="underline">formes</hi>
+          du<lb/> raisonnement déterminées par
+          <persName>
+            <choice>
+              <sic>Aristotes</sic> <corr>Aristote</corr>
+            </choice>
+          </persName>,<lb/>
+          ont toutes les propriétés des <hi rend="underline">axiomes</hi> et<lb/> des
+          <hi rend="underline">démonstrations</hi> mathématiques. Je<lb/> crois être le premier qui
+          ait vu<lb/> l'origine de cette analogie, reconnue<lb/>
+          <choice>
+            <sic>empyriquement</sic>
+            <corr>empiriquement</corr>
+          </choice> par les autres, et qui<lb/> en ait reconnu le principes commun<lb/> tout en
+          reconnaissant qu'il y a entre<lb/> ces deux sortes
+          <hi rend="underline">d'applications</hi> de <hi rend="underline">l'intuition</hi>
+          <lb/> et de la faculté de raisonner la différence<lb/> qui met nécessairement la
+          diversité<lb/> des <hi rend="underline">modes d'unions</hi> qui en sont l'objet.<lb/> Il y
+          a un autre point sur lequel<lb/> nous aurons peut-être plus de peine à nous<pb n=""/>
+          accorder, car la moindre réflexion<lb/> sur la question précédente, ne peut<lb/> manquer
+          de vous faire voir l'exactitude<lb/> de ce que je viens de vous exposer,<lb/> et que ce
+          n'est pas lorsqu'il s'agit<lb/> de cette propriété capitale de <hi rend="underline">l'intelligence</hi>
+          <lb/> humaine, de classer et de dénommer<lb/> tout ce qu'elle sent, connaît, ou<lb/>
+          imagine, que vous pouvez refuser à<lb/>
+          <hi rend="underline">l'intuition</hi> de nous faire connaître<lb/> les classes, genres,
+          espèces, et les<lb/> vérités nécessaires qui en résultent,<lb/> quelques soit la
+          classification, indépendamment<lb/> de la nature des choses classées. L'autre<lb/>
+          question qui nous reste à discuter<lb/>
+          <choice>
+            <sic>et</sic>
+            <corr>est</corr>
+          </choice> celle de l'origine de <hi rend="underline">l'étendue</hi>, que<lb/> vous semblez
+          croire possible dans<lb/> un être dépouillé de sens étendus<lb/> comme la <del type="illisible"/> rétine et la peau,<lb/> tandis qu'il me semble facile de<lb/>
+          démontrer rigoureusement que cela<lb/> est absolument impossible, et que<lb/> comme dit
+          Kant, <hi rend="underline">l'étendue</hi> est la<lb/>
+          <hi rend="underline">forme</hi> de notre <hi rend="underline">sensibilté extérieure</hi>
+          <lb/> comme la <hi rend="underline">durée</hi> est la <hi rend="underline">forme</hi>
+          de<lb/> notre <hi rend="underline">sensibilité intérieure</hi>. Il entend<pb n=""/> par
+          cette dernière expression ce que<lb/> nous nommons l'autopsie.</p>
+        <p>Il faut d'abord faire attention que<lb/>
+          <hi rend="underline">l'étendue</hi> est absolument indépendante<lb/> de
+          <hi rend="underline">l'extériorité</hi>. Car<lb/>
+          <list>
+            <item n="1">°. Dans un être <add>sentant </add>passif, et par conséquent<lb/> sans moi
+              et sans durée reconnue<lb/> par lui, qui serait doué d'un organe<lb/> tel que la
+              rétine ou la peau, il y<lb/> aurait des <hi rend="underline">représentations étendues</hi>
+              <lb/> dans lesquelles cet être sentant<lb/> serait aussi complètement confondu<lb/> et
+              identifié que la statue de<lb/>
+              <persName>Condillac</persName>, le serait avec l'odeur de<lb/> la rose. N'est ce pas
+              le cas où vous supposez<lb/> les animaux ?</item>
+            <lb/>
+            <item n="2">°. Dans un être actif au contraire<lb/> privé de sens
+              <hi rend="underline">étendus</hi>, il y aurait<lb/> non seulement un
+              <hi rend="underline">moi</hi> distinct des<lb/>
+              <hi rend="underline">sensations musculaires</hi> qu'il produirait,<lb/> mais encore
+              <hi rend="underline">connaissance</hi> d'autres<lb/>
+              <hi rend="underline">causes</hi>, ou <hi rend="underline">causes extérieures</hi>,
+              quand<lb/> il éprouverait des <hi rend="underline">sensations musculaires</hi>
+              <lb/> qu'il n'aurait pas produites. Mais ces<lb/>
+              <hi rend="underline">causes</hi> seraient à l'image de son<lb/>
+              <hi rend="underline">moi</hi>, et simples comme lui, des êtres<lb/> simples <del type="illisible"/> sont conçus hors les uns<pb n=""/> des autres sans qu'il y ait
+              pour cela<lb/>
+              <hi rend="underline">étendue</hi>. Ce qui la constitue c'est<lb/> la
+              <hi rend="underline">contiguïté</hi>, la <hi rend="underline">divisibilité</hi>
+              indéfinie<lb/> qu'il ne peut exister que dans des<lb/>
+              <hi rend="underline">sensations</hi> étendues.</item>
+          </list>
+        </p>
+        <p>Il y a plus. Vous supposez un être actif<lb/> revêtu dans tous ses membres d'une
+          peau<lb/> cornée et insensible, qui soit arrêté<lb/> dans ses <choice>
+            <sic>mouvemens</sic>
+            <corr>mouvements</corr>
+          </choice> volontaires<lb/> par <choice>
+            <sic>différens</sic>
+            <corr>différents</corr>
+          </choice> obstacles, comment<lb/> pourra-t-il seulement soupçonner<lb/> que ce sont <choice>
+            <sic>différens</sic>
+            <corr>différents</corr>
+          </choice> obstacles ? Si sa<lb/> peau était sensible il le reconnaît à<lb/> ce qu'il
+          serait tantôt arrêté par<lb/> du poli, tantôt par du rude, tantôt<lb/> par du chaud,
+          tantôt par du froid,<lb/> etc. Encore s'il n'y avait qu'un point<lb/> sensible, sa manière
+          d'être serait<lb/>
+          <choice>
+            <sic>plus tôt</sic>
+            <corr>plutôt</corr>
+          </choice> d'être arrêté par un autre<lb/> être unique et inétendu, tantôt<lb/> poli,
+          tantôt rude, etc. Car rien ne<lb/> peut lui faire distinguer le cas où<lb/> il toucherait
+          toujours le même point<lb/> avec des propriétés variables de celui où<lb/> ce serait <choice>
+            <sic>différens</sic>
+            <corr>différents</corr>
+          </choice> points <choice>
+            <sic>conservans</sic>
+            <corr>conservants</corr>
+          </choice>
+          <lb/> chacun une même propriété. Vous me<pb n=""/> parlerez peut-être de ce que M. <persName>de<lb/>
+               Tracy</persName>
+          <choice>
+            <sic>appèle</sic>
+            <corr>appelle</corr>
+          </choice> la sensation de mouvement.<lb/> Auriez-vous oublié qu'après en avoir<lb/>
+          discuté <choice>
+            <sic>longtems</sic>
+            <corr>longtemps</corr>
+          </choice> vous convîntes avec moi,<lb/> il y a quelques années, que c'était un
+          paralogisme<lb/> manifeste, ce paralogisme vient de<lb/> ce que
+          <hi rend="underline">nul ne réfléchit l'habitude</hi>, comme<lb/> vous dites au
+          commencement de votre<lb/> premier ouvrage. En effet je suis dans<lb/> l'obscurité, je
+          tiens mon bras tendu<lb/> et immobile, par l'égale contraction<lb/> des muscles
+          fléchisseurs et extenseurs,<lb/> j'éprouve une certaine sensation<lb/> musculaire, je
+          remue mon bras,<lb/> j'en éprouve une autre. Ces deux<lb/> sensations sont également hors
+          du<lb/> moi dans le <hi rend="underline">monde intérieur</hi>, (j'entends<lb/> par là
+          l'assemblage du moi et des sensations<lb/> musculaires). Je m'<choice>
+            <sic>apperçois</sic>
+            <corr>aperçois</corr>
+          </choice> également<lb/> dans les deux cas et immédiatement, que<lb/> c'est
+          <hi rend="underline">moi</hi> qui suis la cause de ces<lb/> sensations. Mais elles n'ont
+          rien<lb/> intrinsèquement et ne peuvent rien<lb/> avoir qui <del type="illisible"/> donne
+          à l'une d'elles<lb/> une propriété que l'autre n'a pas. C'est<lb/> uniquement parce que la
+          vue ou le<lb/> tact de l'autre main, ou du reste du<lb/> corps dans l'aveugle, m'ont
+          appris que<lb/> la seconde concourrait constamment<pb n=""/> avec le déplacement de mon
+          bras dans<lb/>
+          <hi rend="underline">l'étendue extérieure</hi>, et la première à<lb/> l'immobilité dans
+          cette même <hi rend="underline">étendue</hi>,<lb/> que je sais dans l'obscurité, et sans
+          toucher<lb/> mon bras avec l'autre mais, qu'il change<lb/> de lieu dans un cas et non dans
+          l'autre.</p>
+        <p> La notion du <hi rend="underline">mouvement</hi> n'est que<lb/> celle du déplacement, on
+          peut éprouver<lb/> la sensation musculaire correspondante<lb/> sans savoir qu'on se meut,
+          avant que<lb/> ces deux choses ait été liées par<lb/> l'habitude et l'expérience. Pour
+          acquérir<lb/> la <hi rend="underline">notion</hi> du mouvement, en tant<lb/> qu'il
+          consiste dans le déplacement,<lb/> et sans cela il ne pourrait faire<lb/> connaître
+          <hi rend="underline">l'étendue</hi>, et il n'y aurait<lb/> même aucun rapport, il faut
+          pour<lb/> cette <hi rend="underline">notion</hi> avoir <list>
+            <item n="1">°. Une étendue<lb/> immobile qui ne peut être donnée que<lb/> par la
+              <hi rend="underline">sensibilité extérieure</hi>, comme<lb/> dit
+              <persName>Kant</persName> ;</item>
+            <item n="2">°. Le <choice>
+                <sic>tems</sic>
+                <corr>temps</corr>
+              </choice> donné par la<lb/> perdurabilité du <hi rend="underline">moi</hi>.</item>
+            <item n="3">°. Une sensation<lb/> tactile, dans le cas où c'est la main qui<lb/> se
+              meut, qui corresponde successivement<lb/> à différentes portion de l'étendue
+              immobile.</item>
+          </list>
+          <lb/> L'aveugle de naissance n'a l'étendue que<pb n=""/> parce que des portions <hi rend="underline">d'étendue tactile</hi>
+          <lb/> égale à <supplied>la </supplied>main lui sont données chacune<lb/> en une seule
+          <hi rend="underline">contuition</hi> dont toutes les<lb/> parties sont simultanées, et
+          qu'au<lb/> moyen de <hi rend="underline">contuitions</hi> successives qui ont<lb/>
+          constamment des parties communes<lb/> ainsi <figure/>, ( en représentant chaque<lb/>
+          contuition par un des petits cercles de<lb/> ce croquis), il se forme une seule<lb/>
+          coordination de toutes ces <hi rend="underline">contuitions</hi>,<lb/> comme un
+          <hi rend="underline">raisonnement</hi> se forme<lb/> de
+          <hi rend="underline">
+            <choice>
+              <sic>jugemens</sic> <corr>jugements</corr>
+            </choice> intuitifs</hi>
+          successifs par<lb/> des termes communs, aux
+          <hi rend="underline">
+            <choice>
+              <sic>jugemens</sic> <corr>jugements</corr>
+            </choice>
+            <lb/>
+               intuitifs</hi>
+          précédant et suivant.</p>
+        <p>J'ai porté tout cela au plus haut degré<lb/> de clarté dans une explication de la<lb/>
+          manière dont les <hi rend="underline">résistances</hi> se placent<lb/> dans
+          <hi rend="underline">l'étendue</hi> qu'elles empruntent des<lb/>
+          <hi rend="underline">sensations étendues</hi> de la vue et du tact.<lb/> Sans cela les
+          <hi rend="underline">résistances</hi> seraient des<lb/>
+          <hi rend="underline">causes extérieures</hi>, inétendues comme le
+          <hi rend="underline">moi</hi>.</p>
+        <p>Je suis obligé d'aller à <placeName>Lyon</placeName>, mais je serai<lb/> de retour ici
+          avant la fin d'octobre. Écrivez<lb/> moi, je vous en prie, à M.
+          <persName>Ampère</persName>, chez<lb/> M. <persName>Bredin</persName> fils, professeur
+          d'anatomie à l'école<lb/> vétérinaire, près des portes de Vaize, à
+          <placeName>Lyon</placeName> (<placeName>Rhône</placeName>).<lb/> Adieu mon cher ami je
+          vous embrasse de toute<lb/> mon âme. <persName>A. Ampère</persName>
+        </p>
+        <p>
+          <table>
+            <row>
+              <cell>
+                <!--tableau présent dans la chemise 264, à transcrire?-->
+              </cell>
+            </row>
+          </table>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

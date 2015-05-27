@@ -1,0 +1,914 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Publications d'André-Marie Ampère - P286</title>
+                <author key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/">
+                    <forename>André-Marie</forename>
+                    <surname>Ampère</surname>
+                </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>AZENTIS</name>
+                    <resp>OCRisation et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+                        <addrLine>27 rue Damesme </addrLine>
+                        <addrLine>75013 Paris</addrLine>
+                    </address>
+                <distributor>
+                    <name>Centre de calcul de l'IN2P3</name>
+                    <address>
+                        <addrLine>Domaine scientifique de la Doua</addrLine>
+                        <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+                        <addrLine>69622 Villeurbanne Cedex</addrLine>
+                    </address>
+                </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date>2013</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:id="ampere_publi_P1885-I" xml:lang="fr" type="Article_de_périodique">
+                    <analytic>
+                        <author>
+                            <persName>
+                <surname>Ampère</surname>
+                <forename>André-Marie</forename>
+              </persName>
+                        </author>
+                        <title level="a">Extrait d'un mémoire sur les phénomènes électrodynamiques</title>
+                    </analytic>
+                    <monogr>
+                        <editor>
+                            <orgName>Société française de physique</orgName>
+                        </editor>
+                        <title level="m">Collection de mémoires relatifs à la physique. t. 2, Mémoires sur l'électrodynamique [publiés par les soins de J. Joubert] 1ère Partie</title>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gauthier-Villars</publisher>
+                            <date when="1885">1885</date>
+                            <biblScope type="pp">p. 395-410</biblScope>
+                        </imprint>
+                    </monogr>
+                    <idno type="url_pdf">http://www.ampere.cnrs.fr/bibliographies/pdf/1885-P217.pdf</idno>
+                    <idno type="url_gallica">http://gallica.bnf.fr/ark:/12148/bpt6k408587z</idno>
+                    <idno type="M"/>
+                    <idno type="old">P286_4</idno>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <date>décembre 2014</date>
+                <name>AZENTIS</name>
+            </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>janvier 2015</date>
+                <name>Philippe Pons</name>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text decls="#ampere_publi_P1885-I" type="publications">
+        <body>
+            <div>
+                <head>
+                    <pb n="395"/>
+                    <title>XXIX.<lb/> EXTRAIT D'UN MÉMOIRE SUR LES PHÉNOMÈNES ÉLECTRODYNAMIQUES ;<lb/>
+<hi rend="sc">Par</hi> M.- <persName ref="#pers_A366">A. AMPÈRE</persName>.
+</title>
+                </head>
+                <p>Présenté à l'<orgName>Académie royale des Sciences</orgName>
+                    (<orgName>Institut de France</orgName>), dans la séance<lb/> du <date when="1823-12-23">
+            <hi rend="sc">22</hi> décembre <hi rend="sc">1823</hi>
+          </date>
+                    <ref target="#P286_4-1885_AMA1">(1)</ref>. </p>
+                <p>M. <persName ref="#pers_A366">Ampère</persName>, dès l'année
+                    <date when="1820">
+            <hi rend="sc">1820</hi>
+          </date>, avait
+                    communiqué à l'<orgName>Académie</orgName>
+                    <lb/> la formule qui représente l'action de deux portions infiniment
+                    pe<lb rend="hyphen"/>tites de fils conducteurs qu'il désigne sous le nom
+                    d'<hi rend="it">éléments de<lb/> courants électriques</hi>, mais cette formule
+                    contenait un coefficient<lb/> constant, dont il n'avait pas à cette époque
+                    déterminé la valeur.<lb/> Ce coefficient est le rapport des actions qui
+                    s'exercent entre les <pb n="396"/> deux éléments supposés toujours à la même
+                    distance, dans les<lb/> deux cas où ils sont, soit dirigés tous deux suivant la
+                    droite qui<lb/> joint leurs milieux, soit tous deux perpendiculaires à cette
+                    droite<lb/> et compris dans le même plan. </p>
+                <p>Le
+                    <date when="1822-06-10">
+            <hi rend="sc">10</hi> juin <hi rend="sc">1822</hi>
+          </date>,
+                    il communiqua à l'<orgName>Académie des expériences</orgName>
+                    <lb/> qui déterminent la valeur de ce coefficient, et qui complètent<lb/> ainsi
+                    sa formule. Bientôt après, il en déduisit que, si un élément<lb/> de courant
+                    électrique est soumis à l'action d'un système de cou<lb rend="hyphen"/>rants
+                    formant des circuits fermés ou indéfinis dans les deux sens,<lb/> la force qui
+                    en résulte pour mouvoir l'élément est perpendicu<lb rend="hyphen"/>laire à la
+                    direction de cet élément. Elle ne l'est plus, d'après la<lb/> formule de M.
+                    <persName ref="#pers_A366">Ampère</persName>, lorsque les courants du système ne
+                    for<lb rend="hyphen"/>ment pas des circuits fermés ou indéfinis dans les deux
+                    sens, et<lb/> c'est en effet ce que démontre l'expérience sur la rotation
+                    d'un<lb/> cercle de cuivre autour de son centre, par l'action des courants<lb/>
+                    électriques de l'eau acidulée où il est plongé, lorsque la direction<lb/> du
+                    courant reste la même à tous les points de ce cercle, car des<lb/> forces
+                    perpendiculaires à la circonférence d'un cercle et passant,<lb/> par conséquent,
+                    par son centre ne peuvent tendre à le faire<lb/> tourner autour de ce point. M. <persName>Savary</persName>
+                    <ref target="#P286_4-1885_AMA2">(1)</ref> a, depuis, tiré de la même<lb/>
+                    formule un grand nombre de conséquences également vérifiées<lb/> par
+                    l’expérience et relatives à l’action qu’exercent des systèmes<lb/> de courants
+                    fermés ou indéfinis dans les deux sens auxquels seuls<lb/> ces conséquences sont
+                    applicables. M. <persName ref="#pers_A366">Ampère</persName> a remarqué
+                    depuis<lb/> qu’elles tiennent à ce que la résultante des forces exercées par
+                    ces<lb/> systèmes sur un élément dans un plan passant par sa direction<lb/> est,
+                    d'après sa formule, proportionnelle de la somme des aires
+                    cor<lb rend="hyphen"/>respondantes à tous les points du système, projetées sur
+                    ce plan<lb/> et divisées chacune par le cube de la distance entre l'élément d'un
+                        <pb n="397"/> des courants du système qui sert de base à cette aire et celui
+                    sur<lb/> lequel il agit. </p>
+                <p>Cette remarque l'a conduit à des procédés de calcul très
+                    sim<lb rend="hyphen"/>ples pour déterminer toutes les propriétés de l'action
+                    électrody<lb rend="hyphen"/>namique, et il en a déduit non seulement celles
+                    qu’avait obtenues<lb/> M. <persName>Savary</persName>, mais encore plusieurs
+                    autres, que l'expérience con<lb rend="hyphen"/>firme également et dont la
+                    réunion forme une théorie complète,<lb/> que M.
+                    <persName ref="#pers_A366">Ampère</persName> expose dans les cinq premiers
+                    paragraphes de son<lb/> Mémoire ; le sixième a pour objet d'examiner la nature
+                    du courant<lb/> électrique, la manière dont il est produit, soit par le contact
+                    de<lb/> deux métaux d'espèces différentes, soit par la combinaison de deux<lb/>
+                    substances dont les particules sont dans des états électriques
+                    diffé<lb rend="hyphen"/>rents, et les phénomènes qui dépendent de l'action
+                    chimique de l'élec<lb rend="hyphen"/>tricité et de la production des courants
+                    électriques par l'influence<lb/> d'autres courants, non seulement dans les
+                    métaux magnétiques,<lb/> mais, en général, dans tous les corps soumis à cette
+                    influence. </p>
+                <p n="I">M. <persName ref="#pers_A366">Ampère</persName> cherche d'abord l'action
+                    d'un système de cou<lb rend="hyphen"/>rants fermés ou indéfinis dans les deux
+                    sens, ce qui revient au<lb/> même, sur un élément du courant électrique, et il trouve :<list>
+                        <item>1° Que la résultante de toutes les actions exercées par les
+                            cou<lb rend="hyphen"/>rants du système est perpendiculaire à l'élément,
+                            comme il l'avait<lb/> déjà remarqué dans une Note lue à
+                            l'<orgName>Académie</orgName> le
+                            <date when="1822-06-24">
+                <hi rend="sc">24</hi> juin <hi rend="sc">1822</hi>
+              </date> ; </item>
+                        <item>2° Que, si l'on suppose l'élément toujours situé à un même<lb/> point
+                            donné de position à l'égard du système, qu'on lui donne<lb/>
+                            successivement diverses directions dans un plan passant par ce<lb/>
+                            point et également donné de position, et qu'on décompose la
+                            ré<lb rend="hyphen"/>sultante en une force située dans ce plan et une
+                            force qui lui soit<lb/> perpendiculaire, la première sera constante,
+                            quelle que soit la<lb/> direction de l'élément, ce qu'on vérifie à
+                            l'égard du système que<lb/> forment les courants de notre globe par une
+                            expérience décrite<lb/> dans le Mémoire ; </item>
+                        <item>3° Que cette composante est exprimée par le produit d'un<lb/>
+                            coefficient constant et de la somme des projections sur le même<lb/>
+                            plan des aires des secteurs infiniment petits, qui ont pour sommet<lb/>
+                            le point où est situé l'élément et pour base les petits arcs des
+                            cou<lb rend="hyphen"/>rants du système, divisés respectivement par les
+                            cubes des dis<lb rend="hyphen"/>tances de ce point à chacun de ces
+                            arcs ; </item>
+                        <item>
+                            <pb n="398"/> 4° Que pour un point donné de position à l'égard du
+                            système,<lb/> il y a toujours un plan et un seul plan, dont la situation
+                            est indé<lb rend="hyphen"/>pendante de la direction de l'élément qu’on
+                            suppose placé à ce<lb/> point, pour lequel la somme dont nous venons de
+                            parler est la<lb/> plus grande possible ; </item>
+                        <item>5° Que, si l’on élève au point donné une perpendiculaire à ce<lb/>
+                            plan, la même somme est nulle pour tout plan passant par cette<lb/>
+                            perpendiculaire ; </item>
+                        <item>6° Que, quelle que soit la direction de l'élément, si l'on mène<lb/>
+                            un plan par cette perpendiculaire et par la direction de l'élément,<lb/>
+                            la composante de la résultante dans ce plan est nulle, d'après ce<lb/>
+                            qu'on vient de dire, et qu’ainsi celle résultante lui est
+                            perpendi<lb rend="hyphen"/>culaire ; </item>
+                        <item>7° Qu'elle l'est donc à la fois et à la direction de l'élément,<lb/>
+                            comme on l’a déjà vu, et à celle de cette perpendiculaire. La
+                            ré<lb rend="hyphen"/>sultante est donc dans le plan sur lequel cette
+                            dernière a été éle<lb rend="hyphen"/>vée, d'où il suit que la résultante
+                            est toujours comprise dans ce<lb/> plan, que nous nommerons en
+                            conséquence
+                            <hi rend="it">plan directeur de<lb/> l'action
+                                électrodynamique au point donné</hi>,
+                            ou, plus simple<lb rend="hyphen"/>ment,
+                            <hi rend="it">plan directeur à ce
+                                point</hi> ;
+                            la perpendiculaire qui y est éle<lb rend="hyphen"/>vée sera désignée
+                            sous le nom de <hi rend="it">normale au plan directeur</hi> ;</item>
+                        <item>8° Que la résultante est proportionnelle au sinus de l'angle<lb/>
+                            formé par la direction de l'élément et la normale au plan
+                            direc<lb rend="hyphen"/>teur ; qu’elle est par conséquent nulle quand
+                            l'élément est dans<lb/> la direction de cette normale et maximum quand
+                            il lui est perpen<lb rend="hyphen"/>diculaire, c'est-à-dire quand il est
+                            situé dans le plan directeur ; </item>
+                        <item>9° Que, pour trouver la composante dans un plan quelconque<lb/>
+                            passant par la direction de l’élément, il faut multiplier l’action<lb/>
+                            maximum qui aurait lieu si l'élément était situé dans le plan
+                            direc<lb rend="hyphen"/>teur par le cosinus de l'angle des deux plans ; </item>
+                        <item>10° Que si l'on représente par A, B, C, les sommes sur trois<lb/>
+                            plans rectangulaires des projections des aires des petits secteurs<lb/>
+                            dont le sommet est au point donné, divisées respectivement par les cubes
+                            des distances, l’action maximum est exprimée par le<lb/> produit du
+                            coefficient dont nous avons parlé plus haut et de la<lb/> quantité <formula>
+                                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <msqrt>
+                                            <mrow>
+                                                <msup>
+                                                  <mi>A</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mo>+</mo>
+                                                <msup>
+                                                  <mi>B</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mo>+</mo>
+                                                <msup>
+                                                  <mi>C</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+
+                                            </mrow>
+                                        </msqrt>
+
+                                    </mrow>
+                                </math>
+                            </formula> et celle qui a lieu dans un autre plan<lb/> formant avec
+                            celui-là l'angle θ est comme <formula>
+                                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>cos</mi>
+                                        <mi>θ</mi>
+                                        <msqrt>
+                                            <mrow>
+                                                <msup>
+                                                  <mi>A</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mo>+</mo>
+                                                <msup>
+                                                  <mi>B</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mo>+</mo>
+                                                <msup>
+                                                  <mi>C</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+
+                                            </mrow>
+                                        </msqrt>
+
+                                    </mrow>
+                                </math>
+                            </formula>. </item>
+                    </list>
+                </p>
+                <p>
+                    <pb n="399"/> II. M. <persName ref="#pers_A366">Ampère</persName> calcule
+                    ensuite les trois intégrales A, B, C, dans<lb/> le cas particulier où le système
+                    se réduit, à un courant circulaire<lb/> fermé, et fait voir que ces intégrales
+                    prennent des valeurs simples<lb/> quand on suppose très petit le diamètre du
+                    cercle décrit par ce<lb/> courant. </p>
+                <p n="III">Les résultats obtenus dans les deux paragraphes précédents<lb/> sont
+                    indépendants de l’exposant de la puissance de la distance de<lb/> deux éléments
+                    de courants électriques à laquelle on suppose que<lb/> leur action mutuelle est
+                    réciproquement proportionnelle quand<lb/> on fait varier cette distance sans
+                    changer les directions des élé<lb rend="hyphen"/>ments ; ceux qui vont suivre
+                    n’ont lieu, au contraire, que quand<lb/> la même action est, dans ce cas, en
+                    raison inverse du carré de la<lb/> distance. Ces résultats appartiennent, la
+                    plupart, à M. <persName>Savary</persName>,<lb/> qui les a le premier déduits de
+                    la formule de M. <persName ref="#pers_A366">Ampère</persName>, dans un<lb/>
+                    Mémoire imprimé en
+                    <date when="1823">
+            <hi rend="sc">1823</hi>
+          </date>, chez
+                    <persName>Bachelier</persName>, sous ce titre :
+                    <title>Appli<lb rend="hyphen"/>cation du Calcul aux phénomènes électrodynamiques</title>.</p>
+                <p>M. <persName ref="#pers_A366">Ampère</persName> considère dans ce paragraphe
+                    l’action d’un système<lb/> de courants circulaires d’un très petit diamètre
+                    décrivant des<lb/> cercles égaux dans des plans équidistants normaux, à la
+                    ligne<lb/> droite ou courbe qui passe par leurs centres ; la réunion des
+                    cir<lb rend="hyphen"/>conférences qu’ils décrivent détermine une surface connue
+                    des<lb/> géomètres sous la dénomination de <hi rend="it">surface canal</hi>, ce
+                    qui a porté<lb/> M. <persName ref="#pers_A366">Ampère</persName> à nommer, pour
+                    éviter des circonlocutions fasti<lb rend="hyphen"/>dieuses, à désigner un tel
+                    système sous le nom de <hi rend="it">solénoïde</hi>, du<lb/> mot grec <foreign xml:lang="grc">σωληνοειόής</foreign>, qui a la forme d'un canal. Le
+                    solénoïde<lb/> peut être fermé, indéfini dans les deux sens, simplement
+                    indéfini,<lb/> ou défini, suivant que la ligne qui passe par tous les centres
+                    des<lb/> courants circulaires est fermée, s'étend à l’infini dans les deux
+                    sens<lb/> ou dans un seul, ou se termine à deux points déterminés que nous<lb/>
+                    nommerons, comme lui, du solénoïde, le solénoïde simplement<lb/> indéfini étant
+                    considéré comme n’ayant qu’une extrémité.<list>
+                        <item>1° Si le système de courants électriques dont on a déterminé<lb/>
+                            précédemment l’action sur un élément est un solénoïde fermé<lb/> ou
+                            indéfini dans les deux sens, cette action devient nulle lorsque<lb/>
+                            l’on prend un des nombres <hi rend="sc">2</hi> et — <hi rend="sc">1</hi>
+                            pour l'exposant de la puis<lb rend="hyphen"/>sance de la distance à
+                            laquelle l’action mutuelle de deux éléments<lb/> est réciproquement
+                            proportionnelle et elle ne peut l’être généra<pb n="400" rend="hyphen"/>lement pour d'autres valeurs de cet exposant ; comme des
+                            expé<lb rend="hyphen"/>riences directes prouvent qu'elle l'est
+                            effectivement, quelles que<lb/> soient la forme et la grandeur des
+                            courants dont l'élément fait<lb/> partie, et que, d'après l'expérience,
+                            cet exposant est positif et<lb/> plus grand que <hi rend="sc">1</hi>, il
+                            en résulte nécessairement que cette puissance<lb/> de la distance en est
+                            le carré. </item>
+                        <item>2° Si le même système est un solénoïde simplement indéfini, la<lb/>
+                            normale au plan directeur est la droite menée de son extrémité au<lb/>
+                            point où est l'élément, en sorte que la force exercée par le
+                            solé<lb rend="hyphen"/>noïde sur l'élément est à la fois perpendiculaire
+                            à cette droite et à<lb/> l'élément, ce qui suffit pour en déterminer la
+                            direction. </item>
+                        <item>3° Si l'on calcule dans ce cas la valeur de la quantité<lb/>
+                            <formula>
+                                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <msqrt>
+                                            <mrow>
+                                                <msup>
+                                                  <mi>A</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mo>+</mo>
+                                                <msup>
+                                                  <mi>B</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mo>+</mo>
+                                                <msup>
+                                                  <mi>C</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+
+                                            </mrow>
+                                        </msqrt>
+
+                                    </mrow>
+                                </math>
+                            </formula>, on trouve qu’elle est réciproquement
+                            propor<lb rend="hyphen"/>tionnelle au carré de la longueur de cette
+                            droite, d’où il suit que,<lb/> quand l’élément lui est perpendiculaire,
+                            la force que le solénoïde<lb/> exerce sur lui est en raison inverse du
+                            carré de la distance. </item>
+                        <item>4° Dans toute autre direction de l'élément, la même force est,<lb/> en
+                            outre, d'après ce qu'on a vu dans le premier paragraphe,
+                            pro<lb rend="hyphen"/>portionnelle au sinus de l'angle que forme cette
+                            direction avec la<lb/> même droite menée de l'élément à l'extrémité du
+                            solénoïde. </item>
+                        <item>5° L'action d'un solénoïde défini est la résultante des deux<lb/>
+                            forces passant par l’élément, qui seraient produites par deux
+                            solé<lb rend="hyphen"/>noides indéfinis, dont les courants seraient
+                            dirigés en sens con<lb rend="hyphen"/>traires dans ces deux solénoïdes
+                            et qui auraient chacun son extré<lb rend="hyphen"/>mité à une des
+                            extrémités du solénoïde défini ; il suffira donc, pour<lb/> avoir la
+                            direction et la grandeur de cette force, de déterminer ces<lb/> deux,
+                            composantes, d'après ce que nous venons de dire, et d'en<lb/> conclure
+                            la direction et la grandeur de leur résultante. </item>
+                    </list>
+                </p>
+                <p>M. <persName ref="#pers_A366">Ampère</persName> examine ensuite la réaction d'un
+                    élément de cou<lb rend="hyphen"/>rant électrique sur un solénoïde, qu'il suppose
+                    d’abord indéfini<lb/> dans un sens, afin de n’avoir à en considérer qu’une
+                    extrémité ; il<lb/> cherche la valeur du moment de rotation qu'imprime cette
+                    réac<lb rend="hyphen"/>tion au solénoïde autour d'une droite quelconque passant
+                    par son<lb/> extrémité, et conclut aisément de cette valeur celle de la
+                    somme<lb/> des moments de tous les éléments d'un courant électrique d'une<lb/>
+                    forme et d'une grandeur quelconques ; il montre qu'elle ne dépend<lb/> que de la
+                    situation des extrémités de ce courant, relativement à<lb/> celle du solénoïde
+                    indéfini, et que la même somme devient nulle <pb n="401"/> quand il s'agit d'un
+                    courant fermé ou indéfini dans les deux sens,<lb/> et par conséquent aussi d’un
+                    système de tels courants, quelles que<lb/> soient d'ailleurs leur forme et leur
+                    grandeur. D'où il suit que la<lb/> résultante des actions exercées par tous les
+                    éléments de ce système<lb/> sur le solénoïde passe par l'extrémité de ce
+                    dernier. Les mêmes<lb/> conséquences s'appliquent à un solénoïde défini, et il
+                    en résulte<lb/> que l'action exercée sur ce dernier par le système dont nous
+                    par<lb rend="hyphen"/>lons ne peut tendre à le faire tourner autour d'une droite
+                    passant<lb/> par ses deux extrémités, ainsi que le montre l’expérience faite
+                    en<lb/> substituant un aimant au solénoïde, cette sorte de rotation ne<lb/>
+                    pouvant, comme on sait, s’obtenir qu'en faisant agir sur l’aimant<lb/> un
+                    courant, dont une partie passe par cet aimant ou par un fil de<lb/> cuivre lié
+                    invariablement avec lui, afin que, l'action de cette partie<lb/> étant détruite
+                    par la réaction correspondante, le reste du circuit<lb/> voltaïque agisse comme
+                    un courant non fermé. </p>
+                <p n="IV">L’action exercée sur l'extrémité d’un solénoïde indéfini par<lb/> un
+                    système de courants fermés ou indéfinis dans les deux sens,<lb/> passant,
+                    d’après ce qu’on vient de voir, par l'extrémité du solé<lb rend="hyphen"/>noïde,
+                    M. <persName ref="#pers_A366">Ampère</persName> détermine la direction et la
+                    grandeur de cette<lb/> action en considérant le plan directeur relatif à ce
+                    système, pour<lb/> le point où est située l'extrémité du solénoïde, et il trouve :<list>
+                        <item>1° Que cette action est dirigée suivant la normale à ce plan<lb/>
+                            directeur ; </item>
+                        <item>2° Qu’elle est dans un rapport constant avec l'action que le<lb/> même
+                            système exercerait sur un élément de courant électrique<lb/> situé au
+                            même point que l'extrémité du solénoïde et dans le plan<lb/> directeur,
+                            et que ce rapport, indépendant de la forme et de la<lb/> grandeur des
+                            courants du système est celui de la surface des
+                            cer<lb rend="hyphen"/>cles décrits par les courants du solénoïde au
+                            produit de la dis<lb rend="hyphen"/>tance de deux de ces cercles et de
+                            la longueur de l’élément. </item>
+                    </list>
+                </p>
+                <p>Pour avoir l'action exercée sur un solénoïde défini, il suffit
+                    en<lb rend="hyphen"/>core ici de le remplacer par deux solénoïdes indéfinis dont
+                    les<lb/> courants soient dirigés en sens contraires, et qui se terminent
+                    cha<lb rend="hyphen"/>cun à une des extrémités du solénoïde défini ; on a ainsi
+                    la gran<lb rend="hyphen"/>deur et la direction des deux forces passant par ces
+                    extrémités,<lb/> dont la réunion donne l’action totale exercée sur le
+                    solénoïde<lb/> défini. </p>
+                <p>
+                    <pb n="402"/> V. Lorsque le système qui agit sur le solénoïde indéfini est
+                    lui-<lb/>même un solénoïde indéfini, il suffit d’appliquer ce qui a été dit<lb/>
+                    dans le troisième paragraphe sur la direction de la normale du<lb/> plan
+                    directeur, cette sorte de système et la valeur de la force qu'il<lb/> exerce sur
+                    un élément situé dans ce plan, à ce qui vient d'être dé<lb rend="hyphen"/>montré
+                    à la fin du paragraphe précédent, pour en conclure sur le<lb/> champ :<list>
+                        <item>1° Que l'action entre deux solénoïdes indéfinis est dirigée
+                            sui<lb rend="hyphen"/>vant la ligne qui en joint les extrémités ; </item>
+                        <item>2° Qu'elle est en raison inverse du carré de la distance de ces<lb/>
+                            deux extrémités. </item>
+                    </list>
+                </p>
+                <p>En substituant à deux solénoïdes définis des solénoïdes indéfinis<lb/>
+                    équivalents, on en conclut immédiatement que leur action
+                    mu<lb rend="hyphen"/>tuelle se compose de quatre forces dirigées suivant les
+                    quatre<lb/> droites qui joignent les deux extrémités de l'un aux deux
+                    extré<lb rend="hyphen"/>mités de l'autre, que deux de ces forces sont
+                    attractives, les deux<lb/> autres répulsives, et toutes quatre proportionnelles
+                    à une même<lb/> quantité divisée respectivement par les carrés de ces quatre
+                    dis<lb rend="hyphen"/>tances. </p>
+                <p>Pour justifier la manière dont M. <persName ref="#pers_A366">Ampère</persName> a
+                    conçu les phéno<lb rend="hyphen"/>mènes dont nous parlons, il fallait montrer,
+                    en partant de la for<lb rend="hyphen"/>mule qui représente l'action mutuelle de
+                    deux éléments de cou<lb rend="hyphen"/>rants électriques :<list>
+                        <item>1° Qu'il y a une disposition qu'affectent ces courants avant<lb/>
+                            l'aimantation et dans laquelle ils soient sans action sur d’autres<lb/>
+                            éléments de courants, quelles qu’en soient les distances et les
+                            posi<lb rend="hyphen"/>tions relatives. Nous avons vu au commencement du
+                            troisième<lb/> paragraphe de ce Mémoire que c'est, en effet, ce qui
+                            résulte de ma<lb/> formule, relativement à un solénoïde fermé et
+                            homogène, c’est-<lb/> à-dire dont tous les courants circulaires sont de
+                            même grandeur,<lb/> de même intensité et équidistants ; </item>
+                        <item>2° Que, pour une autre disposition des mêmes courants, un
+                            cer<lb rend="hyphen"/>tain système de très petits courants produisent
+                            des forces qui ne<lb/> dépendent que de la situation de deux points
+                            déterminés de ce<lb/> système, et qui jouissent relativement à ces deux
+                            points de toutes<lb/> les propriétés des forces qu'on attribue à ce
+                            qu'on appelle des<lb/> molécules de fluide austral et de fluide boréal,
+                            lorsqu’on explique<lb/> par ces deux fluides les phénomènes que
+                            présentent les aimants, <pb n="403"/> soit dans leur action mutuelle,
+                            soit dans celle qu'ils ont sur un fil<lb/> conducteur ; en sorte que,
+                            quand deux systèmes de courants élec<lb rend="hyphen"/>triques ainsi
+                            disposés agissent l'un sur l'autre, il en résulte quatre<lb/> forces,
+                            deux forces attractives et deux répulsives en raison
+                            in<lb rend="hyphen"/>verse des carrés de leurs distances respectives, et
+                            dirigées sui<lb rend="hyphen"/>vant les droites qui joignent les deux
+                            points déterminés de l'un<lb/> aux deux points déterminés de l'autre, et
+                            que l'action d'un de ces<lb/> systèmes sur un élément de courant
+                            électrique se compose de<lb/> deux forces perpendiculaires au plan
+                            passant par les deux mêmes<lb/> points du système, en raison inverse des
+                            carrés des distances de<lb/> ces points à l'élément et proportionnels
+                            aux sinus des angles que<lb/> sa direction forme avec les droites qui
+                            mesurent ces distances.<lb/> Tant qu’on attribue ces deux : espèces de
+                            forces à des molécules<lb/> d'un fluide austral et d'un fluide boréal,
+                            il est impossible de ra<lb rend="hyphen"/>mener à un seul principe ces
+                            deux espèces de forces ; mais elles se<lb/> déduisent toutes deux de sa
+                            formule, comme il résulte de ce que<lb/> nous venons de trouver et de ce
+                            qui a été démontré dans le troi<lb rend="hyphen"/>sième paragraphe,
+                            lorsqu'on substitue à l'assemblage de deux mo<lb rend="hyphen"/>lécules,
+                            l'une de fluide austral, l’autre de fluide boréal un
+                            solé<lb rend="hyphen"/>noïde homogène et non fermé, dont les extrémités,
+                            qui sont les<lb/> deux points déterminés dont dépendent les forces dont
+                            il s'agit,<lb/> soient situées précisément au même point où l'on
+                            supposerait<lb/> placées les molécules pleines des deux fluides. </item>
+                    </list>
+                </p>
+                <p>Il suit de là que tous les calculs, toutes les explications fondées<lb/> tant sur
+                    la considération des forces attractives et répulsives de ces<lb/> molécules en
+                    raison inverse des carrés des distances, que sur<lb/> celles des forces
+                    révolutives entre une de ces molécules et un<lb/> élément de courant électrique,
+                    dont je viens de rappeler la loi.<lb/> telle que M. <persName>Biot</persName>
+                    l'a déduite de ses expériences, sont nécessaire<lb rend="hyphen"/>ment les
+                    mêmes, soit qu'on adopte ma manière de concevoir les<lb/> phénomènes produits
+                    par les aimants dans ces deux cas, ou l’hy<lb rend="hyphen"/>pothèse des deux
+                    fluides, et qu’ainsi on ne peut chercher dans ces<lb/> calculs, dans ces
+                    explications, ni objections contre la théorie de<lb/> M.
+                    <persName ref="#pers_A366">Ampère</persName>, ni preuves en sa faveur. Ces
+                    preuves résultent sur<lb rend="hyphen"/>tout de ce qu'elle ramène à un principe
+                    unique trois sortes d’ac<lb rend="hyphen"/>tions que l’ensemble des phénomènes
+                    prouve être dues à une cause<lb/> commune, et qui ne peuvent y être ramenées
+                    autrement. En <placeName>Suède</placeName>,<lb/> en
+                    <placeName>Allemagne</placeName>, en <placeName>Angleterre</placeName>, on a cru
+                    pouvoir les ramener au <pb n="404"/> seul fait de l'action mutuelle de deux
+                    aimants, telle que <persName>Coulomb</persName>
+                    <lb/> l'avait déterminée ; le fait du mouvement de rotation continue est en<lb/>
+                    contradiction manifeste avec cette idée. En <placeName>France</placeName>, ceux
+                    qui n'ont<lb/> pas adopté sa théorie sont obligés de regarder comme
+                    indépendants<lb/> les trois genres d'actions que j'ai ramenés à une loi commune.<lb/>
+                    <gap reason="lacune"/>
+                    <ref target="#P286_4-1885_AMA3">(1)</ref>
+                </p>
+                <p>On peut considérer chaque particule comme une petite pile de<lb/>
+                    <persName>Volta</persName>, dont les courants, entrant par une extrémité de la
+                    particule et<lb/> en sortant par l’extrémité opposée, reviennent à travers
+                    l'espace en<lb rend="hyphen"/>vironnant à la première de ces deux extrémités,
+                    formant ainsi un so<lb rend="hyphen"/>lénoïde fermé, qui, d'après ce qui
+                    précède, ne peut exercer aucune<lb/> action tant que tous ces courants sont de
+                    même intensité et équidis<lb rend="hyphen"/>tants, comme ils doivent l'être
+                    nécessairement avant l'aimantation<lb/> de la particule. Lorsqu'un fil
+                    conducteur ou un barreau aimanté<lb/> vient à agir sur ces courants, ils doivent
+                    être déplacés et s'accumu<lb rend="hyphen"/>ler en plus grand nombre sur le côté
+                    de la particule vers lequel ils<lb/> sont portés par cette action ; alors on
+                    peut considérer le solénoïde<lb/> hétérogène qui en résulte comme un assemblage
+                    de solénoïdes ho<lb rend="hyphen"/>mogènes partiels, dont l'un soit ferme et ait
+                    pour intensité celle<lb/> du solénoïde hétérogène au point où il en a le moins,
+                    et dont les<lb/> autres ne soient pas fermés ; ces derniers agissent alors en
+                    produi<lb rend="hyphen"/>sant deux forces qu'on peut considérer comme émanant de
+                    leurs<lb/> extrémités et identiques, dans tous les cas, à celles qu’on
+                    attribue<lb/> aux molécules de fluide austral et de fluide boréal. </p>
+                <p>Mais ce qu'il faut surtout remarquer, c’est que ces points
+                    doi<lb rend="hyphen"/>vent nécessairement se disposer dans chaque particule,
+                    lors de<lb/> l’aimantation, par l’action soit d'un fil conducteur, soit
+                    d'un<lb/> aimant, de manière qu'en réunissant à un point quelconque de<lb/>
+                    l'intérieur de ce corps les actions exercées sur les courants de la<lb/>
+                    particule qui y est située, tant par le fil conducteur ou l'aimant<lb/> qui agit
+                    du dehors que par les courants des autres particules du<lb/> même corps, on
+                    trouve que la résultante de ces actions est nulle,<lb/> puisque, tant qu'elle ne
+                    l’est pas, elle doit tendre à changer la<lb/> situation des courants de la
+                    particule que l’on considère, et à dis<lb rend="hyphen"/>tribuer par conséquent
+                    autrement les points dont nous parlons. </p>
+                <p>Ce principe, semblable à celui sur lequel M. <persName>Poisson</persName> a
+                    établi <pb n="405"/> sa belle Théorie de l'Électricité, est encore celui qu'il
+                    applique à<lb/> l'hypothèse de <persName>Coulomb</persName> sur les deux fluides
+                    magnétiques, dans le<lb/> travail qu'il a annoncé à
+                    l'<orgName>Académie</orgName> le <hi rend="sc">8</hi> septembre dernier,
+                    sur<lb/> la distribution du magnétisme dans les corps qui en sont
+                    suscep<lb rend="hyphen"/>tibles, lorsqu'ils sont soumis à l'influence d'un
+                    aimant ou à celle<lb/> du globe terrestre ; on doit donc appliquer à ces
+                    formules ce que<lb/> nous avons déjà dit de tout calcul fondé sur les lois
+                    d’après lesquelles<lb/> on suppose que les molécules magnétiques agissent comme
+                    les extré<lb rend="hyphen"/>mités des solénoïdes électrodynamiques doivent agir
+                    d'après la<lb/> formule de M. <persName ref="#pers_A366">Ampère</persName>, et
+                    les conséquences qui en ont été déduites<lb/> dans ce Mémoire ; elles sont
+                    nécessairement communes aux deux<lb/> manières de concevoir les phénomènes que
+                    présentent les aimants,<lb/> et complètent également la théorie de ces
+                    phénomènes dans les<lb/> deux hypothèses. </p>
+                <p>On peut dire cependant que deux circonstances des phéno<lb rend="hyphen"/>mènes
+                    magnétiques s'expliquent mieux quand on admet que ces<lb/> phénomènes sont
+                    produits par des courants électriques, parce<lb/> qu'elles sont des conséquences
+                    nécessaires de cette manière de<lb/> concevoir l'action des aimants, et qu'elles
+                    obligent ceux qui veu<lb rend="hyphen"/>lent les expliquer, dans l'hypothèse des
+                    deux fluides, à joindre à<lb/> cette hypothèse d'autres suppositions qui ne s’en
+                    déduisent pas<lb/> nécessairement. La première de ces deux circonstances est la
+                    né<lb rend="hyphen"/>cessité d’admettre, pour rendre raison des phénomènes, que
+                    les<lb/> deux fluides magnétiques, quoique susceptibles de se séparer sans<lb/>
+                    résistance dans les particules de certains corps, tels que le fer<lb/> doux et
+                    le nickel, ne passent cependant jamais d'une particule à<lb/> l'autre, et qu’il
+                    y a par conséquent, toujours dans chaque parti<lb rend="hyphen"/>cule des
+                    quantités égales de fluide boréal et de fluide austral ; la<lb/> seconde est la
+                    différence d'intensité d’action de deux masses sem<lb rend="hyphen"/>blables des
+                    deux métaux que je viens de citer, lorsqu'ils sont<lb/> rendus magnétiques par
+                    l’influence d'une même force, ce qui<lb/> oblige d’admettre ou que les fluides
+                    auxquels le fer et le nickel<lb/> doivent la propriété d'être susceptibles
+                    d'aimantation ne sont pas<lb/> les mêmes dans ces deux métaux, ou qu'ils ne
+                    peuvent pas être<lb/> séparés dans toute l’étendue de la masse de ces derniers,
+                    mais<lb/> seulement dans des parties déterminées de cette masse. Il est
+                    évi<lb rend="hyphen"/>dent que, quand on attribue les phénomènes magnétiques à
+                    des<lb/> courants électriques propres aux particules des corps et auxquels <pb n="406"/> l'aimantation ne fait que donner une direction qui s'oppose à
+                    ce<lb/> que la résultante de toutes leurs actions sur un point quelconque<lb/>
+                    continue d'être nulle, comme je l'ai expliqué dans la lettre que
+                    j'écri<lb rend="hyphen"/>vis à M. <persName>Van Beek</persName>, au commencement
+                    de l'an <date when="1822">
+            <hi rend="sc">1822</hi>
+          </date>
+                    <ref target="#P286_4-1885_AMA4">(1)</ref>, il s'ensuit<lb/> nécessairement que
+                    les deux extrémités d'un petit solénoïde, qui<lb/> agissent comme deux
+                    molécules, l'une de fluide austral et l'autre<lb/> de fluide boréal, ne peuvent
+                    sortir de la particule où est ce solé<lb rend="hyphen"/>noïde, et que
+                    l’intensité d' l’action doit être différente dans dif<lb rend="hyphen"/>férents
+                    corps, parce que l'intensité et le diamètre des courants<lb/> circulaires
+                    produits autour des particules par une action électro<lb rend="hyphen"/>motrice
+                    propre à ces particules doivent dépendre de la nature et<lb/> de la grandeur des
+                    particules elles-mêmes. </p>
+                <p>Ce qu’il y a de plus remarquable relativement à celle force,<lb/> tantôt
+                    attractive, tantôt répulsive, qui émane des conducteurs<lb/> voltaïques, c'est
+                    que, quoique en remontant jusqu’à l’action<lb/> simple de deux éléments ; on
+                    trouve qu’elle agit, comme toutes<lb/> les forces auparavant reconnues dans la
+                    nature, suivant la droite<lb/> qui joint les milieux de ces cléments, on trouve,
+                    en même temps,<lb/> qu'elle n'est pas, comme les autres, proportionnelle à une
+                    simple<lb/> fonction de la distance ; il s’agit ici de la conséquence
+                    nécessaire<lb/> et immédiate d'un théorème rigoureusement démontré,
+                    comparée<lb/> à un fait incontestable. Il est mathématiquement démontré
+                    que,<lb/> tant que les forces élémentaires ne dépendent que des distances
+                    des<lb/> points matériels entre lesquels elles s'exercent, les points
+                    matériels<lb/> d’un système que ces forces mettent en mouvement ne peuvent<lb/>
+                    tous revenir dans la même situation avec des vitesses plus grandes<lb/> que
+                    celles qu’ils avaient en la quittant ; or il est de fait que tous les<lb/>
+                    points matériels d’une portion non fermée du fil conducteur sur<lb/> laquelle
+                    agit une autre portion du même circuit reviennent exac<lb rend="hyphen"/>tement
+                    dans la même situation relativement à tous les points de<lb/> cette dernière, et
+                    qu’ils y reviennent en vertu des forces élémen<lb rend="hyphen"/>taires qui
+                    s'exercent entre les uns et les autres, quand le courant<lb/> électrique est
+                    établi dans le circuit avec une vitesse de plus en<lb/> plus grande à chaque
+                    révolution, jusqu'à ce que les frottements<lb/> et la résistance de la portion
+                    liquide du circuit mettent un terme à<lb/> l’accroissement indéfini de cette
+                    vitesse ; rien ne manque donc à <pb n="407"/> la démonstration complète, qu'il
+                    existe dans la nature inorga<lb rend="hyphen"/>nique, entre les portions
+                    infiniment petites des fils conducteurs de<lb/> l'appareil voltaïque, une force
+                    élémentaire qui n'est pas fonction<lb/> de la seule distance des particules
+                    entre lesquelles elle s'exerce,<lb/> mais qui dépend encore des directions
+                    suivant lesquelles se fait<lb/> dans ces particules la réunion ou la séparation
+                    des deux fluides<lb/> électriques dont cette force émane. On voit, par ma
+                    formule, com<lb rend="hyphen"/>ment elle dépend des directions dont il est
+                    question, parce que<lb/> cette formule contient la seconde différentielle de la
+                    racine carrée<lb/> de la distance des deux particules, et que cette seconde
+                    différen<lb rend="hyphen"/>tielle dépend elle-même de ces directions. </p>
+                <p>Les époques où l'on a ramené à un principe unique des
+                    phéno<lb rend="hyphen"/>mènes considérés auparavant comme dus à des causes
+                    absolument<lb/> différentes, ont été presque toujours accompagnées de la
+                    décou<lb rend="hyphen"/>verte d'un grand nombre de nouveaux faits, parce qu'une
+                    nou<lb rend="hyphen"/>velle manière de concevoir les causes suggère une
+                    multitude d'ex<lb rend="hyphen"/>périences à tenter, d'explications à vérifier ;
+                    c'est ainsi que la<lb/> démonstration donnée par <persName>Volta</persName> de
+                    l'identité du galvanisme et de<lb/> l'électricité a été accompagnée de la
+                    construction de la pile, et<lb/> suivie de toutes les découvertes qu'a enfantées
+                    cet admirable instru<lb rend="hyphen"/>ment. À en juger par les résultats si
+                    inattendus des travaux de<lb/> M. <persName>Becquerel</persName> sur l'influence
+                    de l’électricité dans les combinaisons<lb/> chimiques, et de ceux de MM.
+                    <persName>Prévost</persName> et <persName>Dumas</persName> sur les causes<lb/>
+                    des contractions musculaires, on peut espérer que tant de faits<lb/> nouveaux
+                    découverts depuis quatre ans, et leur réduction à un<lb/> principe unique, aux
+                    lois des forces attractives et répulsives ob<lb rend="hyphen"/>servées entre les
+                    conducteurs des courants électriques, seront<lb/> aussi suivis d'une foule
+                    d'autres résultats qui établiront, entre la<lb/> Physique d'une part, la Chimie
+                    et même la Physiologie de l'autre,<lb/> la liaison dont on sentait le besoin
+                    sans pouvoir se flatter de par<lb rend="hyphen"/>venir de longtemps à la
+                    réaliser. </p>
+                <p n="VI">Après avoir ainsi complété, dans les cinq premiers
+                    para<lb rend="hyphen"/>graphes de ce Mémoire, la partie mathématique de la
+                    théorie élec<lb rend="hyphen"/>trodynamique, M.
+                    <persName ref="#pers_A366">Ampère</persName> s’occupe, dans le sixième, de la
+                    partie<lb/> physique de la même théorie, et il examine diverses questions
+                    qui<lb/> en dépendent ; il avait depuis longtemps réuni les principaux
+                    maté<lb rend="hyphen"/>riaux de ce paragraphe, dont il se proposait alors de
+                    faire le prin<pb n="408" rend="hyphen"/>cipal objet d'un Mémoire particulier ;
+                    nous ne pouvons indiquer<lb/> ici que d'une manière très succincte l'objet de
+                    cette partie de son<lb/> travail ; il s'est particulièrement occupé :<list>
+                        <item>1° De la nature du courant électrique, d'après la manière dont<lb/>
+                            les physiciens conçoivent les phénomènes relatifs à l'électricité
+                            en<lb/> général, comme produits par la séparation de deux fluides de
+                            na<lb rend="hyphen"/>ture opposée, dont la réunion forme le fluide
+                            neutre répandu uni<lb rend="hyphen"/>versellement dans l'espace, et des
+                            compositions et décompositions<lb/> continuelles de ce dernier fluide
+                            qui doivent en résulter à tous les<lb/> points de ce qu’on est convenu
+                            de nommer <hi rend="it">courant électrique</hi> ; </item>
+                        <item>2° De la nécessité, d'après l'attraction mutuelle des deux
+                            élec<lb rend="hyphen"/>tricités, et la répulsion des molécules
+                            électriques semblables, que<lb/> ces compositions et décompositions se
+                            propagent dans le fluide<lb/> neutre environnant, suivant des directions
+                            perpendiculaires à celle<lb/> de la propagation de cette sorte
+                            d'influence, précisément comme<lb/> les travaux de M.
+                            <persName>Fresnel</persName> sur la Lumière ont prouvé que le sont<lb/>
+                            les mouvements du fluide répandu dans l'espace d'où résultent la<lb/>
+                            lumière et la chaleur, mouvements qui rentreraient ainsi dans<lb/>
+                            l’ensemble des phénomènes produits par les deux fluides
+                            élec<lb rend="hyphen"/>triques. J'ai déjà indiqué cette manière de
+                            concevoir les choses<lb/> aux pages <hi rend="sc">172</hi> et
+                            <hi rend="sc">173</hi> de mon <title>Recueil d'observations électrody<lb rend="hyphen"/>namiques</title>
+                            <ref target="#P286_4-1885_AMA5">(1)</ref>, mais sans entrer dans aucun
+                            des détails qui auraient<lb/> été nécessaires pour la développer ; </item>
+                        <item>3° De la théorie de l'action chimique de l'électricité dont j’ai
+                            ex<lb rend="hyphen"/>posé les bases aux pages
+                            <hi rend="sc">174, 175,
+                                176</hi> et
+                            <hi rend="sc">177</hi> du même Ouvrage<ref target="#P286_4-1885_AMA6">(2)</ref>,<lb/> et qui est fondée sur ce que, les propriétés
+                            chimiques des particules<lb/> des corps se retrouvant toujours les
+                            mêmes, quelles que soient les<lb/> combinaisons où elles soient entrées,
+                            et dont on les ait dégagées,<lb/> on ne peut attribuer ces propriétés à
+                            leur état électrique, à moins<lb/> qu’on n'admette que cet état ne
+                            change jamais, et qu'ainsi une par<lb rend="hyphen"/>ticule d'oxygène,
+                            par exemple, ne cesse jamais d'être dans un état<lb/> électronégatif.
+                            Mais alors, d'après les lois de l'action mutuelle des<lb/> corps
+                            électrisés dans l’état de tension, l'électricité négative de<lb/> cette
+                            particule doit décomposer le fluide neutre environnant,
+                            re<lb rend="hyphen"/>pousser le fluide négatif qui en fait partie et
+                            s’envelopper d’une <pb n="409"/> sorte d'atmosphère d’électricité
+                            positive, jusqu’à ce que l’action<lb/> de celle-ci s'oppose à toute
+                            décomposition ultérieure du fluide<lb/> neutre, précisément comme il
+                            arrive à la surface extérieure d’une<lb/> bouteille de
+                            <persName>Leyde</persName>, quand sa surface intérieure est électrisée
+                            né<lb rend="hyphen"/>gativement ; de même, si une particule d’hydrogène
+                            est toujours et<lb/> essentiellement dans l’état positif, elle doit être
+                            entourée d’une<lb/> atmosphère d’électricité négative. La même chose
+                            doit se dire des<lb/> particules de tous les corps simples ou composés,
+                            et suivant qu’une<lb/> de ces dernières contient des nombres de
+                            particules simples, tels que<lb/> l’électricité négative ou
+                            l’électricité positive se trouve en excès,<lb/> elle doit, dans le
+                            premier cas, s’entourer d’une atmosphère posi<lb rend="hyphen"/>tive et
+                            se porter, comme l’oxygène, du côté positif de la pile, et,<lb/> dans le
+                            second, s’entourer d’une atmosphère négative et se porter<lb/> du côté
+                            négatif comme l’hydrogène. </item>
+                    </list>
+                </p>
+                <p>Lorsque deux particules sont ainsi dans deux états électriques<lb/> différents,
+                    elles tendent à s’unir quand elles sont à une assez petite<lb/> distance l’une
+                    de l’autre pour que les portions les plus voisines<lb/> des deux atmosphères se
+                    trouvant en contact se réunissent en<lb/> partie en reproduisant du fluide
+                    neutre, parce qu’alors elles ne<lb/> repoussent plus autant chacune la particule
+                    opposée que les deux<lb/> particules ne s’attirent entre elles. Lorsque ces
+                    particules s’unissent<lb/> ainsi, il y a combinaison chimique, et la particule
+                    qui résulte de<lb/> cette combinaison, n’ayant plus qu’une tension égale à la
+                    différence<lb/> des tensions des particules élémentaires dont elle est
+                    composée,<lb/> n’a besoin que d’une atmosphère électrique de l’espèce
+                    opposée,<lb/> en sorte que l’atmosphère la moins intense, devenant
+                    entièrement<lb/> libre ainsi qu’une partie équivalente de l’atmosphère opposée,
+                    le<lb/> courant électrique qui s'établit alors dans un fil métallique
+                    joi<lb rend="hyphen"/>gnant les deux particules, doit aller de l’atmosphère
+                    positive à<lb/> l’atmosphère négative, c’est-à-dire de l’acide à l’alcali, comme
+                    l’a<lb/> trouvé M. <persName>Becquerel</persName>. </p>
+                <p>Au contraire, dans le cas où les deux particules dénaturés
+                    élec<lb rend="hyphen"/>triques différentes, dont les atmosphères sont en
+                    contact, ne peu<lb rend="hyphen"/>vent se rapprocher et se combiner, parce
+                    qu’elles font partie de<lb/> corps solides, tels qu’une lame de cuivre et une
+                    lame de zinc,<lb/> M. <persName ref="#pers_A366">Ampère</persName> montre, dans
+                    son Mémoire, que le courant doit aller<lb/> en sens contraire, comme on sait que
+                    cela a lieu dans la pile de<lb/>
+                    <persName>Volta</persName> ; ainsi disparaît l’opposition jusqu’à présent
+                    inexpliquée que <pb n="410"/> présente le sens du courant dans ces deux cas. Je
+                    fais voir à ce<lb/> sujet que l'action électromotrice qui a lieu au contact de
+                    deux<lb/> métaux ne consiste pas, comme on le croyait, dans une
+                    décom<lb rend="hyphen"/>position, mais dans une composition de fluide neutre
+                    résultant de<lb/> la réunion de deux parties des atmosphères électriques en
+                    con<lb rend="hyphen"/>tact, et que la décomposition correspondante a lieu dans
+                    le fil<lb/> conducteur. C'est le contraire de ce qui se passe dans ce fil
+                    lors<lb rend="hyphen"/>qu'il y a combinaison chimique. </p>
+                <p>Dans le cas où un acide touche un métal, les deux sortes
+                    d'ac<lb rend="hyphen"/>tions ont lieu, et l'on n'observe que la différence des
+                    phénomènes<lb/> qu'elles produiraient séparément. C'est à cette cause qu'on
+                    doit<lb/> peut-être attribuer les résultats très singuliers, observés par M.
+                    <persName>Bec<lb rend="hyphen"/>querel</persName>, quand on fait agir deux
+                    acides de forces différentes sur un<lb/> même métal ou un même acide sur deux
+                    métaux différents. </p>
+                <p>De nouveaux faits, qui viennent d'être découverts par cet habile<lb/> physicien,
+                    sont expliqués par M. <persName ref="#pers_A366">Ampère</persName> à la fin de
+                    son Mémoire ;<lb/> ces faits sont relatifs à la production, par influence, de
+                    courants<lb/> électriques autour des particules de tous les corps, même les<lb/>
+                    moins conducteurs de l’électricité, courants que M.
+                    <persName ref="#pers_A366">Ampère</persName> avait<lb/> obtenus seulement dans
+                    un cercle de métal<ref target="#P286_4-1885_AMA7">(1)</ref>. Il montre que
+                    ces<lb/> faits, extrêmement remarquables, se lient à tous les autres et<lb/>
+                    fournissent encore de nouvelles preuves de la manière dont il a<lb/> considéré
+                    l'action des conducteurs voltaïques et des aimants.</p>
+            </div>
+        </body>
+        <back>
+            <div>
+                <note xml:id="P286_4-1885_AMA1">(1) Copie avec corrections et additions de la main
+                    d'<persName ref="#pers_A366">Ampère</persName>, tirée de la
+                    collec<lb rend="hyphen"/>tion appartenant à
+                        l'<orgName>Académie des Sciences</orgName>.<p>Le succès obtenu par
+                        <persName>Savary</persName> dans l'application de la formule élémentaire
+                        au<lb/> calcul des phénomènes électrodynamiques ramena
+                        <persName ref="#pers_A366">Ampère</persName> à l'idée entrevue dès<lb/>
+                        l'origine et appliquée une première fois sans succès
+                        (<hi rend="it">voir</hi> la note de la p. <hi rend="sc">135</hi>),<lb/>
+                        d'embrasser dans une même théorie mathématique tous les phénomènes de
+                        l'Élec<lb rend="hyphen"/>tricité et du Magnétisme, On trouve dans ses
+                        papiers un grand nombre d'essais<lb/> et de brouillons de Mémoires, la
+                        plupart inachevés, écrits dans la seconde moitié<lb/> de l'année
+                        <date when="1823">
+              <hi rend="sc">1823</hi>
+            </date>
+                        et témoignant de ses tentatives et de ses progrès successifs. </p>
+                    <p>Les résultats définitifs de ces recherches ont été communiqués à
+                        l'<orgName>Académie</orgName>,<lb/> dans les séances des
+                        <date when="1823-12-22">
+              <hi rend="sc">22</hi>
+            </date>
+                        et
+                        <date when="1823-12-29">
+              <hi rend="sc">29</hi> décembre <hi rend="sc">1823</hi>
+            </date>
+                        et du
+                        <date when="1824-01-05">
+              <hi rend="sc">5</hi> janvier <hi rend="sc">1824</hi>
+            </date> ;
+                        ils ont été pu<lb rend="hyphen"/>bliés dans le t. XXVI des
+                        <title>Annales de Chimie et de Physique</title>, p. <hi rend="sc">134</hi>
+                        et <hi rend="sc">296</hi>, et<lb/> dans un Opuscule qui, sauf l'addition de
+                        quelques notes, n'est qu'un tirage à part<lb/> de l'article des
+                        <title>Annales</title>, et qui a pour titre ;
+                        <title>Précis de la théorie des phéno<lb rend="hyphen"/>mènes électrodynamiques</title>,
+                        par M. <persName ref="#pers_A366">Ampère</persName>,
+                        <hi rend="it">pour
+                            servir de supplément à son<lb/>
+                            <title>Recueil d'observations électrodynamiques</title> </hi>et
+                        au <title>Manuel d'Électricité</title> de<lb/> M.
+                        <persName>Demonferrand</persName> ; <placeName>Paris</placeName>,
+                        <persName>Crochard</persName> et <persName>Bachelier</persName>,
+                        <date when="1824">
+              <hi rend="sc">1824</hi>
+            </date>. </p>
+                    <p>Nous n'avons pas jugé utile de reproduire ces divers essais, ni l'article des
+                        <title>An<lb rend="hyphen"/>nales</title>, ni le <title>Précis</title>. Tout
+                        ce que contient le <title>Précis</title> se trouve reproduit
+                        textuelle<lb rend="hyphen"/>ment dans le grand <title>Mémoire</title>,
+                        publié en
+                        <date when="1826">
+              <hi rend="sc">1826</hi>
+            </date>,
+                        dans la
+                        <title>Collection des Mémoires
+                            de<lb/> l'Académie des Sciences</title>
+                        pour
+                        <date when="1823">
+              <hi rend="sc">1823</hi>
+            </date>,
+                        et qu’on trouvera au commencement du Vo<lb rend="hyphen"/>lume suivant ;
+                        tous les passages intéressants des essais, considérations générales,<lb/>
+                        discussions, etc., ont été reproduits dans ce même Mémoire. L'extrait publié
+                        ici<lb/> est surtout intéressant par les théories exposées dans le § VI,
+                        auxquelles il est fait<lb/> plusieurs fois allusion par
+                        <persName ref="#pers_A366">Ampère</persName>, soit dans le
+                        <title>Précis</title>, soit dans le grand
+                        <title>Mé<lb rend="hyphen"/>moire</title>, et qui n'ont jamais été publiées
+                        (J.) </p>
+                </note>
+                <note xml:id="P286_4-1885_AMA2">(1) Article XXVI, p. <hi rend="sc">338</hi>.<p>Les
+                        papiers d’<persName ref="#pers_A366">Ampère</persName> témoignent maintes
+                        fois de l'importance qu’il attachait au<lb/> travail de
+                        <persName>Savary</persName>. Dans un des fragments dont il est question dans
+                        la note pré<lb rend="hyphen"/>cédente, daté du
+                        <date when="1823-11">novembre <hi rend="sc">1823</hi>
+            </date> et
+                        dont l'original appartient à la
+                        <orgName>Société fran<lb rend="hyphen"/>çaise de Physique</orgName>, on lit
+                        le passage suivant : <cit>
+                            <quote>On connaît les travaux de<lb/> MM.
+                                <persName>Demonferrand</persName> et <persName>Savary</persName> sur
+                                l'accord des résultats déduits de ma formule<lb/> et de ceux que
+                                donne l'expérience ; c'est surtout du travail plus complet de<lb/>
+                                M. <persName>Savary</persName> que je me suis aidé dans ce Mémoire,
+                                et je dois déclarer que, sans<lb/> ce secours, je n'aurais
+                                probablement pas pu tirer de ma formule toutes les
+                                consé<lb rend="hyphen"/>quences que je me propose de faire
+                                connaître</quote>
+                        </cit>. (J.) </p>
+                </note>
+                <note xml:id="P286_4-1885_AMA3">(1) Il y a ici une lacune dans le texte, une page
+                    ayant été arrachée. (J.)</note>
+                <note xml:id="P286_4-1885_AMA4">(1) Art. XVII, p. <hi rend="sc">212</hi>.</note>
+                <note xml:id="P286_4-1885_AMA5">(1) <hi rend="it">Voir</hi> la
+                    <hi rend="it">Réponse
+                        à <persName>Van Beek</persName>
+          </hi>,
+                    p. <hi rend="sc">216</hi>. (J.)</note>
+                <note xml:id="P286_4-1885_AMA6">(2) Pages <hi rend="sc">217</hi> et suivantes du
+                    présent (J.)</note>
+                <note xml:id="P286_4-1885_AMA7">(1)
+                    <title>Recueil d’observations électrodynamiques</title>, p.
+                    <hi rend="sc">285,
+                        286, 321</hi> et
+                    <hi rend="sc">322</hi>, dans<lb/> l'extrait d'un Mémoire lu à
+                    l'<orgName>Académie des Sciences</orgName>, le
+                    <date when="1822-09-16">
+            <hi rend="sc">16</hi> septembre
+                        <hi rend="sc">1822</hi>
+          </date>.
+                    (A.) <p>
+                        <hi rend="it">Voir</hi> les art. XVII, XXIV et XXV.</p>
+                </note>
+            </div>
+        </back>
+    </text>
+</TEI>

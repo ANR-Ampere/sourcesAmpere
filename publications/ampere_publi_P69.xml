@@ -1,0 +1,595 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:m="http://www.w3.org/1998/Math/MathML" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Publications d'André-Marie Ampère - P69</title>
+                <author key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/">
+                    <forename>André-Marie</forename>
+                    <surname>Ampère</surname>
+                </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>AZENTIS</name>
+                    <resp>OCRisation et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+                        <addrLine>27 rue Damesme </addrLine>
+                        <addrLine>75013 Paris</addrLine>
+                    </address>
+                <distributor>
+                    <name>Centre de calcul de l'IN2P3</name>
+                    <address>
+                        <addrLine>Domaine scientifique de la Doua</addrLine>
+                        <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+                        <addrLine>69622 Villeurbanne Cedex</addrLine>
+                    </address>
+                </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date>2013</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:id="ampere_publi_P1821-F" xml:lang="fr" type="Article_de_périodique">
+                    <analytic>
+                        <author>
+                            <persName>
+                <surname>Ampère</surname>
+                <forename>André-Marie</forename>
+              </persName>
+                        </author>
+                        <title level="a">Exposé sommaire des divers Mémoires lus par Mr. Ampère à l'Académie Royale des Sciences de Paris, sur l'action mutuelle de deux courants électriques, et sur celle qui existe entre un courant électrique et le globe terrestre ou un aimant</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Bibliothèque universelle des sciences, belles lettres et arts. Sciences et arts</title>
+                        <imprint>
+                            <date when="1821">1821</date>
+                            <biblScope type="vol">16</biblScope>
+                            <biblScope type="pp">p. 309-319</biblScope>
+                        </imprint>
+                    </monogr>
+                    <idno type="issn">0366-399X</idno>
+                    <idno type="url_pdf">http://www.ampere.cnrs.fr/bibliographies/pdf/1821-P069.pdf</idno>
+                    <idno type="url_google">http://books.google.com/books?id=uQsbAAAAYAAJ&amp;printsec=frontcover&amp;dq=editions:OCLC79442996&amp;lr=&amp;as_brr=1&amp;hl=fr-BR#v=onepage&amp;q=&amp;f=false </idno>
+                    <idno type="M">BDDprim00102</idno>
+                    <idno type="old">P69</idno>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <name>AZENTIS</name>
+                <date>novembre 2014</date>
+            </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>nomvembre 2014</date>
+                <name>Philippe Pons</name>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text decls="#ampere_publi_P1821-F" type="archives">
+        <front>
+            <docTitle>
+                <titlePart rend="center">
+                    <title>BIBLIOTHEQUE<lb/>
+UNIVERSELLE<lb/>
+DES<lb/>
+SCIENCES, BELLES-LETTRES, ET ARTS,<lb/>
+FAISANT SUITE<lb/>
+A LA BIBLIOTHEQUE BRITANNIQUE,</title>
+                </titlePart>
+            </docTitle>
+            <docAuthor>Rédigée à <placeName ref="#pl_G34">Genève</placeName>
+                <lb/> PAR LES AUTEURS DE CE DERNIER RECUEIL.</docAuthor>
+            <docEdition>TOME SEIZIÈME.<lb/>
+                <hi rend="it">Sixième année.</hi>
+                <lb/> SCIENCES ET ARTS. </docEdition>
+            <docImprint>A
+                GENÈVE,<address>
+          <addrLine>De l'Imprimerie de la <hi rend="sc">Bibliothèque Universelle</hi>.</addrLine>
+        </address>
+            </docImprint>
+            <docDate>
+                <date when="1821">1821</date>.</docDate>
+        </front>
+        <body>
+            <div>
+                <head>
+                    <pb n="309"/>
+                    <title>
+            <hi rend="sc">Exposé sommaire des divers Mémoires lus par</hi>
+            <lb/>
+Mr. <hi rend="sc">Ampère</hi> à l'<orgName ref="#org_A15">Académie Royale des Sciences</orgName> de <placeName ref="#pl_P6">Paris</placeName>,<lb/>
+sur l'action mutuelle de deux <choice>
+    <sic>courans</sic>
+    <corr>courants</corr>
+</choice> électriques, et sur<lb/>
+celle qui existe entre un courant électrique et le globe<lb/>
+terrestre ou un aimant.
+</title>
+                </head>
+                <p>
+                    <hi rend="sc">Dès</hi> que Mr.
+                    <hi rend="sc">
+            <persName ref="#pers_A366">Ampère</persName>
+          </hi>
+                    eut connaissance de la découverte<lb/> de Mr.
+                    <persName ref="#pers_O423">Oersted</persName> sur le changement de direction
+                    produit dans<lb/> une aiguille aimantée ; par le fil métallique qui établit la
+                    com<lb rend="hyphen"/>munication entre les deux extrémités d'une pile de
+                    <persName ref="#pers_V583">Volta</persName>,<lb/> il chercha d’abord à compléter
+                    par diverses expériences le<lb/> travail de l’illustre physicien danois, et il
+                    découvrit bientôt<lb/> une nouvelle sorte d'action, celle qu’exerce sur une
+                    portion<lb/> de ce fil, une autre portion du circuit voltaïque sans la
+                    pré<lb rend="hyphen"/>sence d'aucun aimant. La découverte de ce fait le
+                    conduisit<lb/> à plusieurs autres observations nouvelles qu’il a
+                    successivement<lb/> communiquées à l’<orgName ref="#org_A15">Académie</orgName>,
+                    avec les conséquences qu'il<lb/> en a tirées, et dont le but général est
+                    d’établir l’identité<lb/> de l'électricité et du magnétisme. Il est à remarquer
+                    que<lb/> l’explication donnée par Mr.
+                    <persName ref="#pers_O423">Oersted</persName> des phénomènes qu’il a<lb/>
+                    découverts, suppose au contraire des propriétés toutes
+                    dif<lb rend="hyphen"/>férentes aux fluides qui produisent les phénomènes
+                    électri<lb rend="hyphen"/>ques et magnétiques, quoique dans un ouvrage publié
+                        long<pb n="310" rend="hyphen"/>temps avant sa découverte, il eût parut porté
+                    à en admettre<lb/> l'identité, mais comme une simple conjecture. </p>
+                <p>Le travail de Mr. <persName ref="#pers_A366">Ampère</persName> se divise
+                    naturellement en trois<lb/> parties bien distinctes ; la première se compose de
+                    faits nou<lb rend="hyphen"/>veaux relatifs à l’action mutuelle de deux portions
+                    de con<lb rend="hyphen"/>ducteurs voltaïques, et à celle du globe terrestre sur
+                    un con<lb rend="hyphen"/>ducteur mobile : il imagina de disposer une portion du
+                    cir<lb rend="hyphen"/>cuit voltaïque, de manière qu'elle pût se mouvoir, sans
+                    que<lb/> ses communications avec les deux extrémités de la pile, fussent<lb/>
+                    interrompues ; et il <hi rend="it">y</hi> parvint, soit en la suspendant sur
+                    des<lb/> pointes d’acier qui plongeaient dans du mercure contenu<lb/> dans de
+                    petites coupes de fer ou de platine, soit en la faisant<lb/> porter sur des
+                    rouleaux en contact avec du mercure placé sur<lb/> des plaques de tôle entourées
+                    d’un rebord qui ne permettait<lb/> pas à ce liquide de se répandre. Il rendit
+                    ainsi cette portion<lb/> du conducteur susceptible de se mouvoir tantôt en
+                    restant<lb/> parallèle à sa première direction, tantôt en tournant autour<lb/>
+                    d’un axe vertical ou horizontal ; il observa alors les faits<lb/>
+                    <choice>
+                        <sic>suivans</sic>
+                        <corr>suivants</corr>
+                    </choice> : </p>
+                <p>
+                    <list>
+                        <item>1.° Lorsque deux conducteurs ou plutôt deux portions<lb/> d'un même
+                            conducteur voltaïque, sont l’une fixe et l’autre<lb/> mobile, et qu’on
+                            les place dans des directions à peu près<lb/> parallèles, la portion
+                            mobile est attirée par l’autre, quand les<lb/> extrémités qui
+                            communiquent avec un même pôle de la pile<lb/> sont du même côté dans
+                            toutes les deux, elles se repoussent<lb/> dans le cas où ces extrémités
+                            sont opposées.</item>
+                        <item>2.° Ces attractions et répulsions sont absolument
+                            diffé<lb rend="hyphen"/>rentes des attractions et répulsions électriques
+                            ordinaires :<lb/> celles-ci sont produites par la pile de
+                            <persName ref="#pers_V583">Volta</persName> quand le circuit<lb/> est
+                            interrompu, et que celles découvertes par Mr. <persName ref="#pers_A366">Ampère</persName>
+                            <lb/> n’existent pas ; elles cessent dès que la continuité du
+                            circuit<lb/> est établie, et c’est alors seulement que ces dernières
+                            appa<lb rend="hyphen"/>raissent. Dans les premières, il y a
+                            <hi rend="it">répulsion</hi> entre les corps <pb n="311"/> électrisés de
+                            la même manière, et <hi rend="it">attraction</hi> entre des corps<lb/>
+                            électrisés d’une manière opposée ; et quand les deux corps<lb/> qui se
+                            sont attirés viennent à se toucher, et qu'ils sont
+                            sus<lb rend="hyphen"/>ceptibles de conduire l’électricité, toute
+                            attraction cesse aussi<lb rend="hyphen"/>tôt entre eux » Dans les
+                            attractions et répulsions des fils con<lb rend="hyphen"/>ducteurs,
+                            l'attraction a lieu au contraire quand les extrémités<lb/> de ces
+                            conducteurs qui communiquent avec un même pôle<lb/> de la pile sont du
+                            même côté ; le contact ne fait point cesser<lb/> l’attraction ; et il
+                            <hi rend="it">y</hi> a répulsion quand ce sont les extrémités<lb/>
+                            d’espèces opposées qui sont du même côté. </item>
+                        <item>3.° L’action mutuelle des deux parties du conducteur
+                            voltaï<lb rend="hyphen"/>que reste la même quand dans cette expérience,
+                            on remplace<lb/> la portion fixe du fil conducteur dont on observe
+                            l'action sur<lb/> la partie mobile, par une portion du même fil qui ne
+                            diffère<lb/> de la première supposée rectiligne, qu’en ce qu'elle
+                            forme<lb/> une ligne pliée et contournée à chacun de ses points de<lb/>
+                            manière que les distances de ces points à ceux de la partie<lb/> mobile,
+                            restent sensiblement les mêmes, et que le reste du<lb/> circuit
+                            n’éprouve aucun changement. </item>
+                    </list>
+                </p>
+                <p>L’importance de ce fait dont Mr. <persName ref="#pers_A366">Ampère</persName> a
+                    déduit la loi<lb/> mathématique de ces nouvelles attractions et répulsions
+                    élec<lb rend="hyphen"/>triques, l'a engagé à le vérifier par des expériences
+                    variées ;<lb/> pour en rendre les résultats plus précis, il a suspendu la
+                    par<lb rend="hyphen"/>tie mobile à égales distances entre deux portions fixes,
+                    l’une<lb/> rectiligne et l’autre pliée et contournée comme nous venons<lb/> de
+                    le dire, il a établi les communications de manière que la<lb/> portion mobile
+                    fut repoussée par les deux autres, et qu’on<lb/> pût à volonté n'en mettre
+                    qu’une de celles-ci, ou les mettre<lb/> toutes les deux en communication avec
+                    les extrémités de la<lb/> pile. Dans le premier cas cette partie mobile a été
+                    repoussée<lb/> par l’action de la portion fixe qui faisait partie du
+                    circuit<lb/> voltaïque ; dans le second, elle est restée immobile, en équi<pb n="312" rend="hyphen"/>libre entre les actions qu'ont exercées les deux
+                    portions fixes<lb/> et dont l’égalité a été ainsi exactement déterminée. </p>
+                <p>
+                    <list>
+                        <item>4.° Lorsqu’on dispose la partie mobile du conducteur<lb/> de manière
+                            qu'elle ne puisse se mouvoir qu’en tournant autour<lb/> d’une
+                            perpendiculaire commune à sa direction, et à celle de<lb/> la portion
+                            fixe du même conducteur qui agit sur elle ; elle<lb/> tourne autour de
+                            cette perpendiculaire d'un mouvement qui<lb/> s’accélère jusqu'à-ce
+                            qu'elle arrive dans la situation où elle<lb/> est parallèle à la portion
+                            fixe, et où les deux parties du circuit<lb/> voltaïque ont celles de
+                            leurs extrémités qui sont en commu<lb rend="hyphen"/>nication avec un
+                            même pôle de la pile, tournées du même côté,<lb/> ce mouvement se <choice>
+                                <sic>rallentit</sic>
+                                <corr>ralentit</corr>
+                            </choice> dès que la portion mobile, en vertu<lb/> de la vitesse
+                            acquise, a dépassé cette situation ; elle revient<lb/> bientôt pour la
+                            dépasser de nouveau, et s'y arrête enfin après<lb/> quelques
+                            oscillations. </item>
+                        <item>5.° La pile elle-même agit dans ces expériences, comme<lb/> toute
+                            autre partie du circuit voltaïque, avec cette seule
+                            dif<lb rend="hyphen"/>férence que la disposition de l’électricité qui a
+                            lieu dans le<lb/> conducteur du pôle zinc au pôle cuivre, existe au
+                            contraire<lb/> dans la pile du pôle cuivre au pôle zinc ; c'est cette
+                            dispo<lb rend="hyphen"/>sition que Mr.
+                            <persName ref="#pers_A366">Ampère</persName> a nommé
+                            <hi rend="it">courant électrique</hi>, con<lb rend="hyphen"/>formément à
+                            l’usage établi par d’autres physiciens, mais sans<lb/> prétendre
+                            prononcer en adoptant cette expression, sur le<lb/> mode d’action de
+                            l’électricité dans le circuit voltaïque. Le<lb/> sens de cette
+                            dénomination,
+                            <hi rend="it">courant
+                                électrique</hi>,
+                            étant ainsi<lb/> défini, on peut réunir les faits relatifs à l'action de
+                            la pile<lb/> elle-même et à celle du reste du circuit voltaïque, que
+                            nous<lb/> venons d’exposer, sous ce simple énoncé ; deux <choice>
+                                <sic>courans</sic>
+                                <corr>courants</corr>
+                            </choice> élec<lb rend="hyphen"/>triques parallèles s’attirent quand ils
+                            sont dirigés dans le même<lb/> sens, et se repoussent dans le cas
+                            contraire ; deux <choice>
+                                <sic>courans</sic>
+                                <corr>courants</corr>
+                            </choice>
+                            <lb/> électriques qui ne peuvent se déplacer qu’en tournant autour<lb/>
+                            de la perpendiculaire commune qui en mesure la plus courte<lb/>
+                            distance, tendent à s’amener mutuellement dans la situation<lb/> où ils
+                            sont parallèles et dirigés dans le même sens. </item>
+
+                        <item>
+                            <pb n="313"/> 6.° Quand on dispose la pile et les fils métalliques
+                            qui<lb/> la mettent en communication avec un conducteur mobile,<lb/> de
+                            manière à ce que, d’après leurs distances et leurs
+                            direc<lb rend="hyphen"/>tions, ils ne puissent avoir d’action sensible
+                            sur lui, on ob<lb rend="hyphen"/>serve dans ce conducteur des <choice>
+                                <sic>mouvemens</sic>
+                                <corr>mouvements</corr>
+                            </choice> que Mr. <persName ref="#pers_A366">Ampère</persName>,<lb/> en
+                            plaçant successivement la pile et les conducteurs dans
+                            dif<lb rend="hyphen"/>férentes situations, a démontré ne pouvoir être
+                            attribués qu'à<lb/> une action du globe terrestre sur les corps où
+                            existe la dis<lb rend="hyphen"/>position de l’électricité qu’il a
+                            désignée sous le nom de<lb/> courant électrique. </item>
+                        <item>7.° Lorsque le conducteur mobile forme un circuit presque<lb/> fermé
+                            dans un plan vertical, et ne peut que tourner autour<lb/> de la
+                            perpendiculaire à l’horizon qui passe par son centre<lb/> de gravité, il
+                            est amené par l'action du globes terrestre dans<lb/> une situation où le
+                            plan de ce conducteur forme un angle<lb/> droit avec le méridien
+                            magnétique et où la direction du<lb/> Courant électrique dans sa partie
+                            inférieure, est dirigée de<lb/> l'est à l’ouest ; et lorsqu’on l’écarte
+                            de cette situation, il y<lb/> revient et s’y arrête après avoir oscillé
+                            autour d’elle, pré<lb rend="hyphen"/>cisément comme il le ferait si
+                            l'action que la terre exerce<lb/> était due à un courant électrique
+                            situé au-dessous, de sa<lb/> surface et dirigé de l’est à l’ouest,
+                            perpendiculairement au<lb/> méridien magnétique. </item>
+                        <item>8.° Lorsque le conducteur mobile forme un circuit presque<lb/> fermé
+                            de forme rectangulaire, qu'il est attaché à un axe<lb/> passant par son
+                            centre de gravité, et parallèle à deux des<lb/> côtés du rectangle, et
+                            que cet axe repose sur des appuis,<lb/> de manière que sa direction soit
+                            horizontale et perpendicu<lb rend="hyphen"/>laire au plan du méridien
+                            magnétique : celui des deux côtés<lb/> du rectangle qui sont parallèles
+                            à l’axe, dans lequel le courant<lb/> électrique va de l’est à l’ouest,
+                            est porté par l’action de la<lb/> terre
+                            <hi rend="it">au
+                                midi</hi> quand le plan
+                            du conducteur est <hi rend="it">vertical</hi>, et<lb/>
+                            <hi rend="it">en bas</hi> quand il
+                            est<hi rend="it">
+                            horizontal</hi> ; tandis
+                            que l’autre côté paral<pb n="314" rend="hyphen"/>lèle à l’axe où le
+                            courant se dirige alors de l'ouest à l'est,<lb/> est porté au
+                            <hi rend="it">nord</hi> dans le <hi rend="it">premier</hi> cas, et
+                            <hi rend="it">en haut</hi> dans le<lb/>
+                            <hi rend="it">second</hi>. Dans ce mouvement, le plan du conducteur
+                            mobile<lb/> oscille évidemment autour d’un plan perpendiculaire à
+                            la<lb/> direction de l’aiguille d'inclinaison ; et c’est précisément
+                            dans<lb/> ce plan qu’il s’arrête, lorsque le centre de gravité de
+                            toute<lb/> la partie mobile de l’instrument étant exactement dans
+                            l’axe,<lb/> son poids n’a aucune action pour changer la direction
+                            que<lb/> la force électromagnétique de la terre tend à lui
+                            donner.</item>
+                    </list>
+                </p>
+                <p>Il est évident que cette force est la même que celle<lb/> qui dirige l’aiguille
+                    aimantée, et on ne peut disconvenir<lb/> que l'action qu’elle exerce, soit sur
+                    un conducteur mobile<lb/> soit sur un aimant, ne soit précisément la même
+                    qu’exer<lb rend="hyphen"/>ceraient des circuits voltaïques composés des <choice>
+                        <sic>différens</sic>
+                        <corr>différents</corr>
+                    </choice> ma<lb rend="hyphen"/>tériaux de notre globe, produisant dans son
+                    intérieur des<lb/>
+                    <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> électriques dirigés de l’est à l’ouest suivant des<lb/> lignes
+                    perpendiculaires au méridien magnétique, et qui<lb/> agiraient soit sur les
+                    conducteurs mobiles, comme Mr.
+                    <persName ref="#pers_A366">Am<lb rend="hyphen"/>père</persName> a montré que les
+                    fils conjonctifs de nos piles agissent<lb/> sur eux, soit sur une aiguille
+                    aimantée comme ces fils<lb/> agissent sur cette aiguille dans les expériences de Mr.<lb/>
+                    <persName ref="#pers_O423">Oersted</persName>. C'est sur cette similitude
+                    d’effets que Mr. <persName ref="#pers_A366">Ampère</persName>
+                    <lb/> a cherché à établir que l’électricité est réellement distribuée<lb/> dans
+                    notre globe comme elle le serait dans les circuits<lb/> voltaïques dont nous
+                    venons de parler, soit que cette dis<lb rend="hyphen"/>tribution de
+                    l’électricité provienne du contact des substances<lb/> minérales de diverse
+                    nature, comme cela a lieu dans nos<lb/> piles, soit qu’elle doive s’attribuer à
+                    d’autres causes<ref target="#P069-1821_AMA1">(1)</ref>.</p>
+                <p>
+                    <pb n="315"/> La seconde partie du travail de Mr.
+                    <persName ref="#pers_A366">Ampère</persName> est relative<lb/> a l'action
+                    mutuelle des fils conducteurs et des <choice>
+                        <sic>aimans</sic>
+                        <corr>aimants</corr>
+                    </choice>, décou<lb rend="hyphen"/>verte par Mr.
+                    <persName ref="#pers_O423">Oersted</persName> ; elle se compose de quelques
+                    nou<lb rend="hyphen"/>veaux faits qui complètent les résultats obtenus par
+                    ce<lb/> grand physicien, et des conséquences que l’auteur a
+                    dé<lb rend="hyphen"/>duites de ces résultats et de ses propres expériences
+                    relativement<lb/> à l'identité de l'électricité et du magnétisme. Il a constaté
+                    à ce<lb/> sujet : </p>
+                <p>
+                    <list>
+                        <item>1.° Que si Mr. <persName ref="#pers_O423">Oersted</persName> n’avait
+                            obtenu, dans ses expé<lb rend="hyphen"/>riences, que des déviations de
+                            l'aiguille aimantée toujours<lb/> moindres qu'un angle droit, cette
+                            circonstance était unique<lb rend="hyphen"/>ment due à ce que le
+                            magnétisme terrestre continuait<lb/> d’agir sur l’aiguille qu'il
+                            employait ; en attachant une ai<lb rend="hyphen"/>guille aimantée à un
+                            axe parallèle à la direction de l’ai<lb rend="hyphen"/>guille
+                            d’inclinaison, Mr. <persName ref="#pers_A366">Ampère</persName> l’a
+                            soustraite à l’action<lb/> magnétique de la terre, et en faisant alors
+                            agir sur elle<lb/> un conducteur voltaïque, il a reconnu qu’elle prenait
+                            cons<lb rend="hyphen"/>tamment une direction exactement perpendiculaire
+                            à ce<lb/> conducteur. </item>
+                        <item>
+                            <pb n="316"/> 2.° Qu'outre l'action qu'a décrite Mr.
+                            <persName ref="#pers_O423">Oersted</persName> par laquelle<lb/> un
+                            conducteur voltaïque change la direction de l’aiguille<lb/> aimantée, il
+                            attire la masse entière de cette aiguille lors<lb rend="hyphen"/>qu’elle
+                            lin est présentée dans la direction qu’il tendrait à<lb/> lui donner, si
+                            elle n’y était pas déjà, et il la repousse quand<lb/> elle est dirigée
+                            en sens contraire. </item>
+                        <item>3.° Que le conducteur agit dans tous les cas sur l’aiguille<lb/>
+                            aimantée comme il agirait sur une aiguille qui ne le serait pas,<lb/>
+                            mais, à laquelle serait attachée, dans un plan
+                            perpendicu<lb rend="hyphen"/>laire à la ligne qui en joint les pôles,
+                            une portion de<lb/> circuit voltaïque dont le courant électrique
+                            tournerait au<lb rend="hyphen"/>tour de l’aiguille, relativement à ses
+                            pôles, dans le même<lb/> sens que le soleil parait tourner autour de
+                            notre globe, re<lb rend="hyphen"/>lativement aux pôles de la terre qui
+                            portent le même nom<lb/> que ceux de l’aiguille ; en sorte que l’action
+                            ne varie qu’en<lb/> intensité, lorsque dans les expériences relatives à
+                            l'action mutuelle<lb/> de deux fils conducteurs, on substitue d’abord à
+                            l’un d'eux,<lb/> et ensuite à tous les deux, des <choice>
+                                <sic>aimans</sic>
+                                <corr>aimants</corr>
+                            </choice> disposés de manière<lb/> que la direction du courant
+                            électrique soit la même dans<lb/> les fils conducteurs qu’ils
+                            remplacent, et dans des circuits<lb/> voltaïques, qui, comme nous venons
+                            de le dire, tourne<lb rend="hyphen"/>raient autour, de ces <choice>
+                                <sic>aimans</sic>
+                                <corr>aimants</corr>
+                            </choice>, relativement à leurs pôles<lb/> dans le sens où le soleil
+                            parait tourner autour de la terre<lb/> relativement à ses pôles, de même
+                            nom que ceux des<lb/>
+                            <choice>
+                                <sic>aimans</sic>
+                                <corr>aimants</corr>
+                            </choice>. On obtient ainsi tous les phénomènes qu’offre
+                            l’ac<lb rend="hyphen"/>tion mutuelle d’un fil conjonctif et d’un aimant,
+                            lorsqu’on<lb/> ne remplace par un aimant qu’un des deux conducteurs ;
+                            et<lb/> tous ceux que produisent deux <choice>
+                                <sic>aimans</sic>
+                                <corr>aimants</corr>
+                            </choice> l’un sur l'autre,<lb/> lorsqu’on les remplace tous les deux. </item>
+                        <item>4.° Qu’on imite parfaitement toutes les circonstances de<lb/> l’action
+                            connue d’un barreau et d’une aiguille aimantée,<lb/> lorsqu’on
+                            substitue, soit au barreau, soit à l’aiguille, un fil<lb/> de cuivre,
+                            faisant partie d’un circuit voltaïque dont une <pb n="317"/> portion est
+                            enfermée dans un tube de verre, et l'autre<lb/> forme une hélice qui
+                            l'entoure de ses spires. Celle des deux<lb/> extrémités du tube, qui est
+                            située, relativement à la direction du<lb/> courant électrique établi
+                            dans l’hélice, comme l'est, le pôle aus<lb rend="hyphen"/>tral de la
+                            terre relativement à la direction du mouvement<lb/> apparent du soleil,
+                            agit dans toutes les positions qu'on<lb/> donne au tube, ou au barreau
+                            aimanté qu'on lui présente,<lb/> précisément comme le ferait, dans les
+                            mêmes circonstances,<lb/> le pôle austral d’un aimant, et l'extrémité
+                            opposée, comme<lb/> le pôle boréal. </item>
+                    </list>
+                </p>
+                <p>C'est de l'ensemble de ces faits que Mr.
+                    <persName ref="#pers_A366">Ampère</persName> a conclu<lb/> que les phénomènes
+                    qu'offrent les <choice>
+                        <sic>aimans</sic>
+                        <corr>aimants</corr>
+                    </choice> sont de purs phé<lb rend="hyphen"/>nomènes électriques, et qu'ils sont
+                    dits uniquement à ce que<lb/> l’électricité est disposée ou se meut dans un
+                    aimant suivant<lb/> des courbes fermées tracées dans des plans
+                    perpendiculaires<lb/> à l'axe de l’aimant, précisément comme elle est
+                    dis<lb rend="hyphen"/>posée ou se meut dans le circuit voltaïque. Plusieurs
+                    physi<lb rend="hyphen"/>ciens avaient, à différentes époques, regardé comme
+                    notable<lb/> l’identité de l’électricité et du magnétisme, mais aucun<lb/>
+                    n’avait essayé de dire comment il fallait que l'électricité fut<lb/> disposée
+                    dans un aimant, pour qu’elle produisit les phé<lb rend="hyphen"/>nomènes qu’il
+                    présente ; c’est ce qu’a fait Mr. <persName ref="#pers_A366">Ampère</persName>,
+                    et<lb/> l’on ne peut disconvenir que tous les faits connus jusqu'à
+                    pré<lb rend="hyphen"/>sent ne s'accordent parfaitement avec ses idées sur ce
+                    sujet ;<lb/> elles ont contribué aux importantes découvertes de Mr. <persName ref="#pers_A20">Arago</persName>
+                    <lb/> sur l’aimantation de l’acier par l’électricité, en le portant à<lb/> plier
+                    le fil conducteur en hélice autour du barreau ou de<lb/> l’aiguille qu’il veut
+                    aimanter, et l’efficacité de ce moyen paraît<lb/> confirmer <choice>
+                        <sic>complettement</sic>
+                        <corr>complètement</corr>
+                    </choice> les vues qui en ont suggéré l'em<lb rend="hyphen"/>ploi.</p>
+                <p>Mr. <persName ref="#pers_A366">Ampère</persName> a supposé dans ses premiers
+                    mémoires que<lb/> les courbes fermées, suivant lesquelles l'électricité agit
+                    dans<lb/> l’aimant comme dans le circuit voltaïque entourent toutes <pb n="318"/> l’axe de l’aimant ; il a montré dans un Mémoire qu'il a
+                    lu<hi rend="it">
+            <lb/>
+                    d</hi>epuis à
+                    l'<orgName ref="#org_A15">Académie</orgName>, qu’on pouvait également expliquer
+                    les<lb/> faits connus en admettant que ces <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> ont lieu autour<lb/> de chaque particule du barreau ou de l'aiguille
+                    aimantée.<lb/> Comme cette question ne peut être résolue que par des
+                    ex<lb rend="hyphen"/>périences délicates qui n’ont point encore été tentées, Mr.<lb/>
+                    <persName ref="#pers_A366">Ampère</persName> n’a pas cru que le moment fut venu
+                    d’émettre sur<lb/> ce sujet une opinion positive. </p>
+                <p>La troisième partie du travail de Mr.
+                    <persName ref="#pers_A366">Ampère</persName> consiste<lb/> dans les recherches
+                    qu’il a faites sur les lois mathématiques<lb/> des attractions et répulsions de
+                    deux fils métalliques faisant<lb/> partie d’un circuit voltaïque ; il a déduit
+                    ces lois de l’égalité<lb/> des actions produites par un conducteur rectiligne,
+                    et par<lb/> un conducteur plié et contourné à chacun de ses points comme<lb/>
+                    nous, l'avons dit plus haut ; et de quelques résultats
+                    géné<lb rend="hyphen"/>raux des faits déjà connus, ou de ceux qu'il avait
+                    observés<lb/> il a conclu : </p>
+                <p>
+                    <list>
+                        <item>1.° Que l'action mutuelle de deux portions infiniment
+                            pe<lb rend="hyphen"/>tites de fils conducteurs, est en raison inverse du
+                            carré de<lb/> leur distance ; </item>
+                        <item>2.° Que si l’on considère une de ces portions infiniment<lb/> petites
+                            comme la diagonale d’un parallélépipède, son action<lb/> sur l’autre est
+                            égale à la somme des actions qu’exerceraient<lb/> sur cette dernière,
+                            trois portions du premier fil conducteur<lb/> dirigées suivant les trois
+                            arrêtes qui mesurent les trois di<lb rend="hyphen"/>mensions du
+                            parallélépipède, et de même longueur que ces<lb/> arrêtes ; </item>
+                        <item>3.° Que l'action dont nous parlons est, à distances égales<lb/>
+                            proportionnelle au produit des sinus des angles que les
+                            direc<lb rend="hyphen"/>tions des deux portions infiniment petites des
+                            fils conduc<lb rend="hyphen"/>teurs forment avec la ligne qui en joint
+                            les milieux, et du<lb/> cosinus de l’inclinaison mutuelle des plans de
+                            ces deux angles ; </item>
+                        <item>4.° Qu’il suit de celte loi que si l’on imagine deux sur<pb n="319" rend="hyphen"/>faces planes ou courbes qui, par rapport à un point
+                            <hi rend="it">m</hi> situé<lb/> hors de leur intervalle, interceptent la
+                            même portion d'une<lb/> sphère infinie ; si l’on conçoit sur ces
+                            surfaces des lignes<lb/> droites ou courbes, tracées à distances égales
+                            et infiniment<lb/> petites, et telles que les lignes tracées sur l’une
+                            de ces sur<lb rend="hyphen"/>faces soient, par rapport au point
+                            <hi rend="it">m</hi>, les projections des<lb/> lignes tracées sur
+                            l’autre ; et si l’on suppose enfin qu’il y ait<lb/> sur ces surfaces des <choice>
+                                <sic>courans</sic>
+                                <corr>courants</corr>
+                            </choice> électriques dirigés selon les<lb/> lignes ainsi tracées : les
+                            deux surfaces exerceront sur le point<lb/>
+                            <hi rend="it">m</hi> des actions égales et de même signe, quand les <choice>
+                                <sic>courans</sic>
+                                <corr>courants</corr>
+                            </choice>
+                            <lb/> seront dirigés dans le même sens sur les deux surfaces ; et<lb/>
+                            dans le cas contraire, des actions égales et de signes <choice>
+                                <sic>différens</sic>
+                                <corr>différents</corr>
+                            </choice>
+                            <lb/> qui se détruiront mutuellement si elles ont lieu en même<lb/>
+                            temps. </item>
+                    </list>
+                </p>
+                <p>Ces résultats, fondés sur des déductions nécessaires des<lb/> données de
+                    l’expérience, ne peuvent être mis en doute tant<lb/> qu’il ne s’agit que de
+                    l’action mutuelle des fils conducteurs,<lb/> découverte par Mr.
+                    <persName ref="#pers_A366">Ampère</persName> ; il les étend non seulement à<lb/>
+                    celle que Mr. <persName ref="#pers_O423">Oersted</persName> nous a fait
+                    connaître entre un fil<lb/> conducteur et un aimant, mais à celle de deux <choice>
+                        <sic>aimans</sic>
+                        <corr>aimants</corr>
+                    </choice> l’un<lb/> sur l’autre, conformément à la manière dont il conçoit
+                    que<lb/> l’électricité, disposée dans les <choice>
+                        <sic>aimans</sic>
+                        <corr>aimants</corr>
+                    </choice> comme nous l’avons dit<lb/> plus haut, produit tous les phénomènes
+                    magnétiques. Cette<lb/> extension donnée aux lois mathématiques de l’action
+                    mutuelle<lb/> des conducteurs voltaïques, décidera la question de
+                    l’identité<lb/> de l’électricité et du magnétisme ; en effet, elle se
+                    trouve<lb/> ramenée, par le travail de Mr.
+                    <persName ref="#pers_A366">Ampère</persName>, à une question qui<lb/> est
+                    uniquement du ressort de l’analyse mathématique, puis<lb rend="hyphen"/>qu’il ne
+                    s’agit plus que de calculer, d’après les formules<lb/> qu’il a données, toutes
+                    les circonstances de l’action mutuelle<lb/> de deux <choice>
+                        <sic>aimans</sic>
+                        <corr>aimants</corr>
+                    </choice> que les physiciens ont observées ou mesurées<lb/> jusqu'à présent, et
+                    de voir si les résultats de ces calculs<lb/> s’accordent constamment avec les
+                    données de l’expérience. </p>
+            </div>
+        </body>
+        <back>
+            <div>
+                <note xml:id="P069-1821_AMA1">(1) D’après la direction générale de l'est à l’ouest
+                    des courant<lb/> électriques dont Mr.
+                    <persName ref="#pers_A366">Ampère</persName> admet l’existence dans le globe
+                    ter<lb rend="hyphen"/>restre, et d’après les expériences de plusieurs,
+                    physiciens sur l’ac<lb rend="hyphen"/>tion galvanique produite par le contact de
+                    deux disques d'un <pb n="315"/> même métal dont la température est différente,
+                    il pense que le<lb/> changement successif de température qui a lieu chaque jour
+                    dans<lb/> cette direction, à mesure que le soleil passe d’un méridien à un<lb/>
+                    autre, est une des causes auxquelles on peut attribuer avec
+                    quel<lb rend="hyphen"/>que probabilité, l'existence des <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> électriques de la terre ;<lb/> peut-être aussi que l’action de la
+                    lumière n'y est pas étrangère,<lb/> s'il est vrai qu’elle communique à l’acier
+                    les propriétés magnéti<lb rend="hyphen"/>que ; et si ces propriétés, comme le
+                    croit Mr. <persName ref="#pers_A366">Ampère</persName>,
+                    dépen<lb rend="hyphen"/>dent d'une disposition semblable de l'électricité dans
+                    les <choice>
+                        <sic>aimans</sic>
+                        <corr>aimants</corr>
+                    </choice>,<lb/> lors les <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                    </choice> ne seraient qu’à la surface de la terre où la<lb/> température varie,
+                    et on ne devrait avoir recours à l'action gal<lb rend="hyphen"/>vanique des
+                    matériaux de l’intérieur de notre globe, que pour<lb/> expliquer la déclinaison
+                    de l'aiguille aimantée, et les variations<lb/> de l'inclinaison. </note>
+            </div>
+        </back>
+    </text>
+</TEI>

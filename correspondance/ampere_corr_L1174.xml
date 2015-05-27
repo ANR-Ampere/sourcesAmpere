@@ -1,0 +1,390 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 1174</title>
+                <author>Ampère, André-Marie</author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                        sciences</affiliation>
+                    </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+                    <name>Centre de calcul de
+                        l'IN2P3</name>
+                    <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+                </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="original_manuscrit">
+                    <msIdentifier xml:id="ampere_corr_L1807-08-15-A">
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>N.A.F.</repository>
+                        <idno>ms 14605, f° 40-43 [note A. Robinet]</idno>
+                        <altIdentifier>
+                            <idno type="old">L1174</idno>
+                            <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+                        </altIdentifier>
+                    </msIdentifier>    
+                    
+                    <physDesc>
+                        <handDesc>
+                            <handNote corresp="#AMA">
+                                <name type="person" key="Ampère, André-Marie (1775-1836)">
+                                    <forename>André-Marie</forename>
+                                    <surname>Ampère</surname>
+                                </name>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <listWit>
+                    <witness xml:id="L1174">
+                        <biblStruct>                            
+                            <monogr>                              
+                                <author role="dir">
+                                    <surname>Robinet</surname>
+                                    <forename>André</forename>
+                                </author>
+                                <title>Œuvres, XIII-1 : Correspondance philosophique avec Ampère</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>J. Vrin</publisher>
+                                    <date when="1993">1993</date>
+                                    <biblScope type="pp">p. 65-67</biblScope>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                    </witness>                  
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender">Ampère, André-Marie</persName>
+          <date when="1807-08-15">15 août 1807</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Maine de Biran, Pierre</persName>
+        </correspAction>
+      </correspDesc>
+            <creation>
+                <date when="2014-07">juillet 2014</date>
+                <name>Philippe Pons</name>
+                <name>Aude
+                    Coustumer</name>
+            </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="correspondance" decls="#ampere_corr_L1807-08-15-A">
+        <body>
+            <div>             
+                <p>
+          <pb n=""/>Que je vous remercie, mon cher ami,<lb/>
+                    et de votre lettre et des notes que<lb/>
+                    vous y avez jointes. Elles me<lb/>
+                    seront infiniment utiles dans<lb/>
+                    ce que je ferai par la suite en<lb/>
+                    <del type="illisible"/> psychologie si j'ai le <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice>
+          <lb/>
+                    de m'en occuper. Je suis si pressé<lb/>
+                    et j'ai tant d'autres choses à<lb/>
+                    faire dans ce moment que<lb/>
+                    je ne puis m'en occuper. J'aurais<lb/>
+                    plusieurs observations à vous faire<lb/>
+                    mais il y en a une surtout sur<lb/>
+                    une chose que je ne comprends<lb/>
+                    pas même que vous puissiez<lb/>
+                    avancer. C'est de parler d'une<lb/>
+                    action primitive au-delà de la<lb rend="hyphen"/>quelle
+                    on ne peut remonter.<lb/>
+                    Et encore une action volontaire.<lb/>
+                    C'est pardonnez-moi si je vous<lb/>
+                    parle avec la franchise de<lb/>
+                    l'amitié, une idée que vous<pb n=""/>
+                    devez laisser aux rêveurs <choice>
+            <sic>allemans</sic> <corr>allemands</corr>
+          </choice>
+          <lb/>
+                    et encore aux plus rêveurs<lb/>
+                    d'entre eux. Une action ne<lb/>
+                    peut être volontaire sans<lb/>
+                    qu'on sache d'avance ce qui<lb/>
+                    en résultera d'après l'expérience<lb/>
+                    acquise, sans avoir un désir<lb/>
+                    quelconque de cette chose,<lb/>
+                    sans y avoir trouvé du<lb/>
+                    plaisir quand on en a eu<lb/>
+                    l'intuition. En un mot le<lb/>
+                    système de modifications qui<lb/>
+                    nous est commun avec les<lb/>
+                    animaux est une <subst>
+            <del type="illisible"/> <add>condition</add>
+          </subst>
+          <lb/>
+                    <foreign xml:lang="lat">sine qua non</foreign> de tout ce<lb/>
+                    qui ajoute les facultés plus<lb/>
+                    élevées de l'homme, la réflexion<lb/>
+                    la volonté libre, en travaillant<lb/>
+                    sur les <choice>
+            <sic>élémens</sic> <corr>éléments</corr>
+          </choice> que ce premier<lb/>
+                    système leur fournit, dès<lb/>
+                    que vous l'admettez, et que<lb/>
+                    vous l'admettre parce que<pb n=""/>
+                    vous avez compris que sans<lb/>
+                    lui tout est inexplicable,<lb/>
+                    commencez donc par montrer<lb/>
+                    comment il sert de cause<lb/>
+                    occasionnelle, mais nécessaire<lb/>
+                    au <choice>
+            <sic>déployement</sic> <corr>déploiement</corr>
+          </choice> de l'activité<lb/>
+                    et de l'intelligence.</p>
+                <p>Ce qu'il y a d'important pour<lb/>
+                    la morale c'est de démontrer<lb/>
+                    l'existence de noumènes <hi rend="underline">hypothétiques</hi>
+          <lb/>
+                    que nous appelons âme. De faire<lb/>
+                    voir que quoiqu'elle ne puisse<lb/>
+                    sentir dans l'ordre actuel<lb/>
+                    sans un système nerveux, ni<lb/>
+                    avoir la conscience de son<lb/>
+                    existence sans agir par ce<lb/>
+                    système sur un système<lb/>
+                    musculaire, il existe avant<lb/>
+                    de sentir et de se connaître,<lb/>
+                    afin qu'on puisse en concevoir<lb/>
+                    l'existence quand n'ayant plus<lb/>
+                    de corps à mouvoir il ne<pb n=""/>
+                    pourra plus faire d'efforts.<lb/>
+                    Un des meilleurs moyens pour<lb/>
+                    y parvenir, <choice>
+            <sic>et</sic> <corr>est</corr>
+          </choice> de faire voir<lb/>
+                    que ce noumène sent<lb/>
+                    avant de se connaître.<lb/>
+                    En disant : pour se connaître<lb/>
+                    il faut agir et agir avec un<lb/>
+                    dessein prédéterminé, on voit<lb/>
+                    sa causalité dans la ressemblance<lb/>
+                    des suites de l'action avec<lb/>
+                    ce qu'on voulait faire. Sans<lb/>
+                    cette ressemblance point de<lb/>
+                    causalité, sans causalité<lb/>
+                    l'effort ne serait qu'une<lb/>
+                    simple sensation qui n'apprendrait<lb/>
+                    rien. <unclear>Or</unclear> pour agir de<lb/>
+                    dessein prémédité il faut<lb/>
+                    avoir sent, avoir joui et<lb/>
+                    souffert pour être susceptible<lb/>
+                    de préférence. Donc etc.<pb n=""/>
+                    Partez de là mon cher ami,<lb/>
+                    que si vous <supplied>vous </supplied>vouliez détruire<lb/>
+                    radicalement par des théories<lb/>
+                    métaphysiques celle de<lb/>
+                    l'immortalité de l'âme, vous<lb/>
+                    ne <choice>
+            <sic>pouriez</sic> <corr>pourriez</corr>
+          </choice> rien trouver de<lb/>
+                    plus propre à ce dessein que<lb/>
+                    d'établir que l'âme n'existe<lb/>
+                    que quand elle fait effort.<lb/>
+                    Cela s'<choice>
+            <sic>appelerait</sic> <corr>appellerait</corr>
+          </choice> prouver<lb/>
+                    la cessation d'existence de<lb/>
+                    l'âme à moins de recourir<lb/>
+                    à la métempsychose ou à<lb/>
+                    des hypothèques à la <persName>Bonnet</persName>.<lb/>
+                    En attendant, l'immortalité<lb/>
+                    devenant une chose dont<lb/>
+                    votre système bien loin<lb/>
+                    de prouver la nécessité, ne<lb/>
+                    pourrait admettre <subst>
+            <del type="illisible"/> <add>la vérité que</add>
+          </subst>
+          <lb/>
+                    comme une superfétation<pb n=""/>
+                    difficile à pouvoir concilier<lb/>
+                    avec le reste du système, je<lb/>
+                    ne vois pas ce que vous gagneriez<lb/>
+                    à établir celui-ci. Non qu'il<lb/>
+                    ne puisse être vrai, mais<lb/>
+                    du moins en voyant cette<lb/>
+                    tendance fâcheuse ne devons<lb/>
+                    nous pas y tenir par cet<lb/>
+                    amour pour certaines opinions<lb/>
+                    qui nous prévient en leur<lb/>
+                    faveur. L'existence de Dieu<lb/>
+                    l'immortalité de l'âme, ne<lb/>
+                    seront jamais que des<lb/>
+                    hypothèques explicatives,<lb/>
+                    de même que l'astronomie,<lb/>
+                    la <choice>
+            <sic>chymie</sic> <corr>chimie</corr>
+          </choice>, etc. Je les regarde<lb/>
+                    en conséquence, <add>ces hypothèses, </add>comme<lb/>
+                    la partie utile de la<lb/>
+                    métaphysique, et plus on<lb/>
+                    les <choice>
+            <sic>emploira</sic> <corr>emploiera</corr>
+          </choice>, on les discutera,<pb n=""/>
+                    on s'attachera à prouver qu'elles<lb/>
+                    sont pour nous le type de<lb/>
+                    la vérité, plus on <choice>
+            <sic>réconcilira</sic> <corr>réconciliera</corr>
+          </choice>
+          <lb/>
+                    la psychologie avec la morale<lb/>
+                    et les sciences, plus on la<lb/>
+                    rendra utile.</p>
+                <p>Vous me dites aussi, mon cher<lb/>
+                    ami, que M. <persName>Degérando</persName> avait<lb/>
+                    admis des <choice>
+            <sic>jugemens</sic> <corr>jugements</corr>
+          </choice> simples,<lb/>
+                    Ce n'est pas tout à fait cela.<lb/>
+                    Il a dit qu'il y avait des<lb/>
+                    <choice>
+            <sic>jugemens</sic> <corr>jugements</corr>
+          </choice> de simple association,<lb/>
+                    par opposition à ceux de<lb/>
+                    comparaison, des <choice>
+            <sic>jugemens</sic> <corr>jugements</corr>
+          </choice>
+          <lb/>
+                    primitifs par opposition aux<lb/>
+                    <choice>
+            <sic>jugemens</sic> <corr>jugements</corr>
+          </choice> dérivés, mais ces<lb/>
+                    <choice>
+            <sic>jugemens</sic> <corr>jugements</corr>
+          </choice>
+          <add> d'association</add>, ces <choice>
+            <sic>jugemens</sic> <corr>jugements</corr>
+          </choice> primitifs<lb/>
+                    tels qu'il les explique, supposent<lb/>
+                    plusieurs idées ou perceptions<lb/>
+                    réunies. Un jugement sans<pb n=""/>
+                    deux termes au moins est<lb/>
+                    une chose inintelligible, à<lb/>
+                    ce qu'il me semble.</p>
+                <p>Au reste j'ai trouvé dans les<lb/>
+                    notes que vous m'avez envoyées,<lb/>
+                    une foule de choses vraies,
+                    justes et intéressantes, je ne<lb/>
+                    vous ai parlé d'abord que des<lb/>
+                    deux les plus inadmissibles. Je<lb/>
+                    compte revenir à <placeName>Paris</placeName> au<lb/>
+                   milieu d'octobre, ainsi je vois<lb/>
+                    beaucoup de difficulté à lire<lb/>
+                    votre mémoire à <placeName>Lyon</placeName>, si<lb/>
+                    vous l'envoyez à M. <persName>Degérando</persName>
+          <lb/>
+                    il me le remettra à mon<lb/>
+                    arrivée, et j'en suivrai <lb/>
+                    l'impression.</p>
+                <p>Que j'aurais envie de vous voir<lb/>
+                    mon cher ami, pourquoi faut-il<lb/>
+                    que cela ne se puisse, deux<lb/>
+                    heures d'entretien <choice>
+            <sic>éclaircissens</sic> <corr>éclaircissent</corr>
+          </choice>
+          <lb/>
+                    plus de choses que trois lettres.<lb/>
+                    Je suis bien pressé et obligé de vous<lb/>
+                    quitter, je vous embrasse mille<lb/>
+                    fois de toute mon âme et vous écrirai plus<lb/>
+                    au long de <placeName>Lyon</placeName>. Vous avez mon adresse chez M. <persName>Ballanche</persName>.
+                    
+                </p>                
+            </div>
+        </body>
+    </text>
+</TEI>

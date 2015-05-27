@@ -1,0 +1,545 @@
+<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 241</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1803-04-09-A">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                  <idno>chemises 393 quarto et 392</idno>
+               <altIdentifier>
+              <idno type="old">L241</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+          
+               <physDesc>
+                  <p>Quatre feuillets formant 12 pages 16,5 x 22 ; adresse à la fin. Timbre
+                     Bourg 22 (22 germinal = 12 avril 1803).</p>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness xml:id="L241CGA">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 260-261-262</biblScope>
+                        </imprint>
+                     </monogr>
+                     
+                  </biblStruct>
+                 </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1803-04-09">9 avril 1803</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
+        </correspAction>
+        <note type="noteDelaunay">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1803-04-09-A">
+      <body>
+         <div>
+            <opener>
+          <pb n="1234" facs="#ACAS_CRHST_AMP_26_393_quarto_0506_r.jpg"/>Du <date when="1803-04-09">Samedi [9 avril 1803]</date>
+        </opener>
+            <p>Je viens de chez <persName>Pochon</persName>, ma<lb/>
+               bonne amie, où j'espérais trouver<lb/>
+               de tes nouvelles. J'ai
+               été trompé<lb/>
+               dans mon attente ; il venait<lb/>
+               d'arriver et tu n'avais pas su<lb/>
+               qu'il
+               partirait cette fois un jour<lb/>
+               <choice>
+            <sic>plutôt</sic> <corr>plus tôt</corr>
+          </choice> pour ne pas se trouver<lb/>
+               en voyage le jour de
+               <date>Pâques</date> <ref>(2)</ref>. J'en<lb/>
+               ai reçu mercredi par une petite<lb/>
+               lettre à laquelle je n'ai pas encore<lb/>
+               répondu <ref>(3)</ref>. Elles m'ont fait bien<lb/>
+               plaisir ; j'y vois que tu te portes<lb/>
+               un peu mieux,
+               et que je suis<lb/>
+               le seul à présent, parmi ceux<lb/>
+               que tu aimes, qui te fasse du<lb/>
+               chagrin.
+               Tu me dis de réfléchir ;<lb/>
+               je ne le fais que trop, mon<lb/>
+               esprit n'est plus libre du tout ;<lb/>
+               à peine puis-je travailler par<lb/>
+               moment à mon ouvrage ;<lb/>
+               mais le sujet dont tu me<pb n="1235" facs="#ACAS_CRHST_AMP_26_393_quarto_0507_v.jpg"/>               
+               parles ne peut être traité par<lb/>
+               lettres, il y aurait trop de choses à<lb/>
+               dire. Je regarde
+               cette démarche<lb/>
+               comme la plus importante de ma<lb/>
+                  vie ; elle va étendre son influence<lb/>
+               sur
+               le reste de mes jours. Puis-je<lb/>
+               la faire au <choice>
+            <sic>hazard</sic> <corr>hasard</corr>
+          </choice> pour vivre<lb/>
+               ensuite comme si je ne
+               l'avais<lb/>
+               pas faite ? Que je me repens pour<lb/>
+               ta tranquillité de t'en avoir parlé<lb/>
+               si tôt ! Je devais bien te le dire<lb/>
+               un jour, mais non pas avant<lb/>
+               <add>d'avoir </add>pris un parti
+               irrévocable. Combien<lb/>
+               de fois j'ai vaincu le penchant<lb/>
+               qui m'emportait à cesser de te<lb/>
+               cacher le seul secret que je<lb/>
+               t'aie jamais fait ! Peut-être<lb/>
+               ai-je quelque <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice> à me
+               reposer<lb/>
+               près de toi entre ma nomination<lb/>
+               et le commencement des leçons<lb/>
+               au <orgName>Lycée</orgName>. Tu
+               m'aurais aimé autant<lb/>
+               que cet hiver et, dans tout<lb/>
+               ce qui me reste de<pb n="1236" facs="#ACAS_CRHST_AMP_26_393_quarto_0508_r.jpg"/>
+               ma <choice>
+            <sic>vue</sic> <corr>
+              <add>vie</add>
+            </corr>
+          </choice>, il y
+               aurait eu quelques<lb/>
+               <choice>
+            <sic>instans</sic> <corr>instants</corr>
+          </choice> de bonheur pur. Maintenant<lb/>
+               j'ai comme perdu cette espérance ;<lb/>
+               tu ne m'aimeras plus comme avant<lb/>
+               mon dernier voyage à <placeName>Lyon</placeName>, et<lb/>
+               la cause de mon
+               malheur est<lb/>
+               d'avoir été pénétré d'une crainte<lb/>
+               pour ta santé, vraiment extravagante<lb/>
+               et
+               qui m'avait renversé la tête<lb/>
+               ce malheureux mardi qui fait<lb/>
+               dans ma vie une époque si<lb/>
+               douloureuse ! Tu me vis pleurer<lb/>
+               toute l'après-<choice>
+            <sic>dînée</sic> <corr>dîner</corr>
+          </choice> ; mais tu n'as<lb/>
+               point d'idée de ce
+               que je souffrais. J'ai<lb/>
+               bien pleuré hier aussi ; je finis<lb/>
+               par t'écrire une lettre que
+               j'ai<lb/>
+               déchirée ce matin parce qu'elle<lb/>
+               t'aurait affligée. Si j'étais sûr que<lb/>
+               tu
+               m'aimeras un jour autant<lb/>
+               que si j'étais resté à <placeName>Bourg</placeName>, je<lb/>
+               serais tranquille et je
+               pourrais<lb/>
+               du moins travailler à mon<pb n="1237" facs="#ACAS_CRHST_AMP_26_393_quarto_0509_v.jpg"/>
+               ouvrage ; c'est la seule chose dont<lb/>
+               je puisse
+               m'occuper ici ; car tu<lb/>
+               conviendras que ce serait<lb/>
+               bien bête, pour une fois, de donner<lb/>
+               ma confiance à quelqu'un que<lb/>
+               je ne devrais jamais revoir, sur<lb rend="hyphen"/>tout lorsque je ne vois
+               personne<lb/>
+               qui m'en inspire. Retrouverai<lb rend="hyphen"/>je dans ma vie des baisers<lb/>
+               sur tes lèvres
+               comme ceux<lb/>
+               que tu me donnas à mon<lb/>
+               arrivée à <placeName>Lyon</placeName> lors de mon<lb/>
+               voyage des jours gras et
+               tant<lb/>
+               d'autres fois ? Tu vas me trouver<lb/>
+               fou de changer ainsi d'idées ; mais<lb/>
+               ma plume
+               obéit à mon esprit<lb/>
+               tourmenté d'agitations où je<lb/>
+               ne comprends rien. Ma <persName>Julie</persName>,<lb/>
+               ma
+               <persName>Julie</persName>, penses-tu à moi<lb/>
+               à présent ?... Parlons un<lb/>
+               peu de toi ! Tu me dis dans ta<lb/>
+               dernière lettre que tu vois<lb/>
+               bien que tu ne peux pas aller<pb n="1238" facs="#ACAS_CRHST_AMP_26_393_quarto_0510_r.jpg"/>
+               à la campagne. Qu'il est
+               triste,<lb/>
+               ma bonne amie, que ta santé<lb/>
+               ne te permette pas d'en jouir dans<lb/>
+               <add>un </add>des plus
+               beaux <choice>
+            <sic>momens</sic> <corr>moments</corr>
+          </choice> de l'année !<lb/>
+               Quand j'ai mal à la tête à force<lb/>
+               de m'être tourmenté à
+               retourner<lb/>
+               de vingt façons toujours<lb/>
+               inutilement des idées désespérantes,<lb/>
+               je vais faire
+               un petit tour.<lb/>
+               Quelquefois avec une de tes lettres.<lb/>
+               Je suis <choice>
+            <sic>toute suite</sic> <corr>tout de suite</corr>
+          </choice> dans la<lb/>               
+               campagne, où je respire un<lb/>
+               air si doux. Tous les buissons<lb/>
+               sont en fleurs ; les prés
+               et les<lb/>
+               chemins sont d'un si beau vert !<lb/>
+               En allant chez <persName>Pochon</persName>, j'ai<lb/>
+               passé entre deux
+               haies embaumées<lb/>
+               de fleurs de mahaleb. Que j'aurais<lb/>
+               voulu que tu pusses les respirer<lb/>
+               aussi ! Avoue que le gouvernement<lb/>
+               avait bien eu raison de<pb n="1239" facs="#ACAS_CRHST_AMP_26_393_quarto_0511_v.jpg"/>
+               donner un peu de bon<lb/>
+               <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice> aux
+               professeurs dans ce<lb/>
+               joli mois et qu'ils ont été bien<lb/>
+               dupes de s'engager à continuer<lb/>
+               sur une vaine espérance dont<lb/>
+               ils sont tous persuadés aujourd'hui<lb/>
+               qu'ils ne tireront
+               tout au<lb/>
+               plus qu'une gratification ; car<lb/>
+               c'est l'espoir que leur donne<lb/>
+               aujourd'hui le
+               préfet, sans<lb/>
+               cependant rien promettre ; il<lb/>
+               n'est plus question du tout<lb/>
+               de la
+               prolongation du<lb/>
+               traitement. M. <persName>Clerc</persName> a<lb/>
+               fermé sa classe et donne<lb/>
+               chez lui des leçons
+               qu'il se<lb/>
+               fait payer. Les autres continuent<lb/>
+               comme machinalement. Moi,<lb/>
+               je les imite
+               parce que je l'ai<lb/>
+               annoncé à tout le monde<pb n="1240" facs="#ACAS_CRHST_AMP_26_393_quarto_0512_r.jpg"/>
+               en venant ici et qu'il serait<lb/>
+               trop
+               ridicule, après tant<lb/>
+               d'incertitudes, de changer encore<lb/>
+               de plan. Quand viendra ma<lb/>
+               nomination me donner un<lb/>
+               prétexte plausible de quitter,<lb/>
+               je dirai qu'il m'est ordonné<lb/>
+               de me rendre à mon poste<lb/>
+               et je partirai comme si<lb/>
+               le diable était à mes trousses.<lb/>
+               En attendant, pense quelquefois<lb/>
+               à moi, ma bonne amie, et<lb/>
+               écris-moi de longues lettres<lb/>
+               si
+               cela ne te fatigue, pour<lb/>
+               qu'il y ait au moins quelques<lb/>
+               doux <choice>
+            <sic>momens</sic> <corr>moments</corr>
+          </choice> dans ma vie !</p>
+            <p>
+               Du <date when="1803-04-03">jour de Pâques</date>
+          <lb/>
+               Tu jugeras, ma charmante amie,<lb/>
+               par ce que tu as déjà lu de
+               ma<lb/>
+               lettre, comme celle que je<pb n="1241" facs="#ACAS_CRHST_AMP_26_393_quarto_0513_v.jpg"/>
+               viens de recevoir de toi <ref>(4)</ref> était<lb/>
+               nécessaire à mon
+               repos. Ils<lb/>
+               reviendront donc ces <choice>
+            <sic>momens</sic> <corr>moments</corr>
+          </choice>
+          <lb/>
+                  si délicieux que tu me peins<lb/>
+               si bien ! Oh,
+               comme je voudrais<lb/>
+               que ce fût à présent ! Je suis<lb/>
+               bien résolu à ce que tu<lb/>
+               <choice>
+            <sic>continue</sic> <corr>continues</corr>
+          </choice>
+               d'exiger de moi ; mais,<lb/>
+               décidément, cela ne se peut<lb/>
+               que quand je serai à <placeName>Lyon</placeName>.<lb/>
+               Tu me connais bien, ma bonne<lb/>
+               amie ; quelque chose te <choice>
+            <sic>dis</sic> <corr>dit</corr>
+          </choice>
+          <lb/>
+               que j'adorerai toujours ma <persName>Julie</persName>,<lb/>
+               ce quelque chose n'est pas trompeur ;<lb/>
+               c'est toute mon existence de<lb/>
+               t'aimer et
+               d'espérer que rien<lb/>
+               ne nous séparera plus ; car c'est<lb/>
+               une chose bien triste d'être<lb/>
+               toujours loin de la seule personne<lb/>
+               qu'on ne voudrait jamais quitter.<pb n="122" facs="#ACAS_CRHST_AMP_26_392_0122_r.jpg"/>
+               Tout ce que tu
+               me dis relativement<lb/>
+               à la manière de penser de<lb/>
+               mon petit est bien vrai :<lb/>
+               mais j'ai
+               bien le <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice> de<lb/>
+               ranger ma tête d'ici là et<lb/>
+               sûrement je n'attendrai pas<lb/>
+               d'avoir des
+               instructions à lui<lb/>
+               donner à ce sujet, pour<lb/>
+               les suivre pour moi. Pourquoi dis<lb rend="hyphen"/>tu, ma
+               bonne amie, que ta<lb/>
+               jeunesse est passée ? Est-ce<lb/>
+               qu'elle ne t'<choice>
+            <sic>embellis</sic> <corr>embellit</corr>
+          </choice> pas de tout<lb/>
+               ce
+               qu'elle a d'<choice>
+            <sic>agrémens</sic> <corr>agréments</corr>
+          </choice> ? Il ne<lb/>
+               te manque qu'une santé moins<lb/>
+               languissante, et j'espère
+               que ce<lb/>
+               <choice>
+            <sic>printems</sic> <corr>printemps</corr>
+          </choice> te la rendra, sur<lb rend="hyphen"/>tout si nous pouvions être<lb/>
+               ensemble quelques
+               <choice>
+            <sic>momens</sic> <corr>moments</corr>
+          </choice> à<lb/>
+               la campagne. C'était le doux<lb/>
+               rêve que je faisais l'année<lb/>
+               passée pour les
+               vacances ;<pb n="123" facs="#ACAS_CRHST_AMP_26_392_0123_v.jpg"/>
+               c'est celui que je fais à présent<lb/>
+               pour le mois prochain. Serai<lb rend="hyphen"/>je trompé
+               de même ? Ah !<lb/>
+               Je le crains bien, en pensant<lb/>
+               qu'il faut y renoncer si ma<lb/>
+               nomination ne
+               vient pas<lb/>
+               d'ici là. Eh bien, tu y iras seule ;<lb/>
+               je serai loin de toi et je<lb/>
+               me
+               consolerai en pensant<lb/>
+               que tu y <choice>
+            <sic>respire</sic> <corr>respires</corr>
+          </choice> un bon<lb/>
+               air, et que tu n'as pu revoir<lb/>
+               ni le
+               petit verger, ni le<lb/>
+               bosquet du jardin d'en haut,<lb/>
+               ni l'amandier où tu m'as pleuré,<lb/>
+               ni tant d'autres endroits<lb/>
+               peuplés de souvenirs, sans songer<lb/>
+               à ton ami. Tu m'aimeras
+               toujours,<lb/>
+               voilà la ligne de ta lettre<lb/>
+               qui m'a tranquillisé, après<lb/>
+               m'avoir arraché de
+               bien douces<lb/>
+               larmes. Car, depuis que j'ai<pb n="124" facs="#ACAS_CRHST_AMP_26_392_0124_r.jpg"/> tant de choses sur le cœur,<lb/>
+               je ne lis plus
+               de lettres de ma<lb/>
+               <persName>Julie</persName> sans pleurer. Je suis bien<lb/>
+               aise que tu n'<choice>
+            <sic>aie</sic> <corr>aies</corr>
+          </choice> plus
+               d'inquiétudes<lb/>
+               sur la santé du petit. Peut-être<lb/>
+               qu'il ne serait pas si exposé<lb/>
+               à prendre
+               la rougeole dans<lb/>
+               une de nos deux campagnes<lb/>
+               puisqu'il y en a tant à <placeName>Lyon</placeName>.<lb/>
+               M. <persName>Luc</persName>, le
+               professeur d'histoire<lb/>
+               naturelle, m'a dit ce matin<lb/>
+               qu'il ne continuerait jusqu'à<lb/>
+               la fin
+               du mois. Cela me fait<lb/>
+               plaisir de les voir se démancher ;<lb/>
+               il me semble qu'ils me
+               rend<supplied>ent</supplied>
+          <lb/>
+               de la liberté ! J'ai fait des<lb/>
+               morceaux détachés pour m<supplied>on</supplied>
+          <lb/>
+               ouvrage, mais il n'est
+               pas<lb/>
+               encore commencé de suite.<lb/>
+               Il me fallait une liberté d'esprit<lb/>
+               que je n'avais plus,
+               mais que ta<lb/>
+               charmante lettre m'a rendue.<pb n="125" facs="#ACAS_CRHST_AMP_26_392_0125_v.jpg"/>
+               Comme je t'en remercie, ainsi<lb/>
+               que de la
+               lettre du petit qui<lb/>
+               m'a fait tant de plaisir ! Embrasse<lb rend="hyphen"/>le bien fort de la part de<lb/>
+               son papa qui l'aime aussi de<lb/>
+               tout son cœur. Voilà deux<lb/>
+               jours où je ne donnerai<lb/>
+               aucune leçon <ref>(5)</ref> ; je vais les employer<lb/>
+               à la rédaction de mon ouvrage.<lb/>
+               Que je serais
+               heureux s'il<lb/>
+               m'acquérait une réputation<lb/>
+               qui pût contribuer à ton bonheur !<lb/>
+               J'embrasse tout ce que j'aime, comme je t'aime.</p>
+            <closer>A <choice>
+            <sic>Madame<lb/>
+               Madame</sic> <corr>Madame</corr>
+          </choice> <persName ref="#pers_C129">Ampère</persName>,<lb/>
+               chez Mme <persName ref="#pers_B69">Carron</persName>,<lb/>
+               <placeName>rue du Griffon, n° 15</placeName>,<lb/>
+               vis-à-vis la <placeName>rue
+               Terraille</placeName>, <lb/>
+               à <placeName>Lyon</placeName>.</closer>
+         </div>
+      </body>
+      <back>
+         <div>
+            <note xml:id="corresp1">(1) Quatre feuillets formant 12 pages 16,5 x 22 ; adresse à la
+               fin. Timbre <placeName>Bourg</placeName> 22 (<date when="1803-04-12" calendar="revolutionary">22 germinal = 12 avril 1803</date>). Mme <persName>Cheuvreux</persName> a publié cinq
+               passages, p. 285, 286, 288, 289 et 291. (2) <date>Pâques</date>, <date when="1803-04-10">10 avril</date>. (3) Lettre 0239 du
+               <date when="1803-04-05">mardi 5 avril</date>. (4) Lettre 0240 du <date when="1803-04-08">8 avril</date>. (5) Dimanche et lundi de <date>Pâques</date>. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

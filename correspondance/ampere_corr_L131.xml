@@ -1,0 +1,724 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 131</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1802-05-31-A">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                  <idno>chemise 393 quarto</idno>
+               <altIdentifier>
+              <idno type="old">L131</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+          
+               <physDesc>
+                  <p>Dix-huit pages 17 x 21,5 de papier bleuâtre sans adresse.</p>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness xml:id="L131CGA">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 155-156-157-158-159</biblScope>
+                        </imprint>
+                     </monogr>
+                     
+                     
+                     
+                  </biblStruct>
+                 </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_A366">Ampère, André-Marie</persName>
+          <date when-iso="1802-05-31">31 mai 1802</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
+        </correspAction>
+        <note type="noteDelaunay">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1802-05-31-A">
+      <body>
+         <div>
+            <opener>
+          <pb n="961" facs="#ACAS_CRHST_AMP_26_393_quarto_0233_r.jpg"/> Du <date when="1802-05-31">lundi [31 mai 1802]</date>
+        </opener>
+            <p>Je t'ai donc encore quittée. Trois<lb/>
+               jours sont passés à <placeName>Lyon</placeName> comme<lb/>
+               un éclair et je me
+               retrouve<lb/>
+               à <placeName>Bourg</placeName>. Je ne sais quoi qui me<lb/>
+               pèse sur le cœur m'a fait faire<lb/>
+               de tristes
+               réflexions sur la rapidité<lb/>
+               du <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice>. J'ai reçu une lettre<lb/>
+               de ma bonne amie, arrivée<lb/>
+               ici plusieurs jours avant moi.<lb/>
+              <del> Cette lettre, écrite par ma<lb/>
+                 <persName ref="#pers_C129">Julie</persName> pour consoler l'exil
+               de<lb/>
+                 celui qui vit loin d'elle, a fait<lb/>
+                 une singulière impression sur<lb/>
+                 moi, quand j'ai
+               pensé que tu l'avais<lb/>
+                 écrite avant que je t'eusse<lb/>
+                 embrassée et que je la retrouvais<lb/>
+               après t'avoir quittée.</del> J'ai voulu<lb/>
+               la réunir aux autres après<lb/>
+               en avoir, comme tu l'as
+               <subst>
+            <del>voulu</del> <add>exigé</add>
+          </subst>
+          <lb/>
+               absolument, brûlé la première<pb n="962" facs="#ACAS_CRHST_AMP_26_393_quarto_0234_v.jpg"/>
+               page, la seule <del type="illisible"/> où il fut<lb/>
+               question de <del>mon ouvrage</del> <add>
+            <gap reason="illisible"/>
+          </add>.
+               J'ai<lb/>
+               pensé en même <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice> à y<lb/>
+               réunir cette <del>si jolie lettre</del>
+          <lb/>
+               que j'avais portée à Lyon
+               pour<lb/>
+               la relire. Cela m'a donné<lb/>
+               l'idée de chercher si tu m'en<lb/>
+               avais déjà écrit d'aussi
+               douces.<lb/>
+               Écoute ce que tu m'écrivis le<lb/>
+               lendemain de mon départ, après<lb/>
+               le voyage où je te
+               trouvai malade <ref>(2)</ref> :<lb/>
+               <cit>
+            <quote>Mon bon ami, je t'écris sur<lb/>
+                  mes genoux, auprès du feu ;<lb/>
+                  cela
+               ne me fatigue pas parce que<lb/>
+                  je suis mieux que quand tu es<lb/>
+                  parti. Mon pauvre ami, ne<lb/>
+               sois pas en peine de ta <persName ref="#pers_C129">Julie</persName>.</quote>
+          </cit>
+          <lb/>
+               ... Tu me donnes ensuite<lb/>
+               des détails sur ta santé ; tu
+               me<lb/>
+               dis qu'elle t'a permis d'aller en<lb/>
+               <placeName>Bellecour</placeName> avec le petit qui cherche<lb/>
+               partout son papa. Chaque
+               <pb n="963" facs="#ACAS_CRHST_AMP_26_393_quarto_0235_r.jpg"/>
+               ligne donne envie de pleurer<lb/>
+               d'attendrissement. Mais voilà<lb/>
+               où je n'ai pu
+               m'empêcher<lb/>
+               de pleurer de regret :<lb/>
+               <cit>
+            <quote> Mon bon ami, ce voyage me<lb/>
+                  laisse de plus doux
+               souvenirs<lb/>
+                  que l'autre ; il doit être de même<lb/>
+                  pour toi.</quote>
+          </cit> Je le sens, tu ne pourras<lb/>
+               pas m'en écrire autant du<lb/>
+               dernier. Pourquoi ai-je eu<lb/>
+               tant d'affaires ou de parties<lb/>
+               d'<choice>
+            <sic>amusemens</sic> <corr>amusements</corr>
+          </choice> ? Est-il des<lb/>
+               <choice>
+            <sic>amusemens</sic> <corr>amusements</corr>
+          </choice> qui me <choice>
+            <sic>dédommagent</sic> <corr>dédommagent</corr>
+          </choice>
+          <lb/>
+               des heureux <choice>
+            <sic>momens</sic> <corr>moments</corr>
+          </choice> que je<lb/>
+               passe quand tu me dis toutes<lb/>
+               tes pensées ? Voilà les <choice>
+            <sic>momens</sic> <corr>moments</corr>
+          </choice>
+          <lb/>
+               que je regrette toujours, et
+               dont<lb/>
+               le souvenir fait le charme<lb/>
+               de ma vie. Que je fus heureux<lb/>
+               le jour de mon arrivée ! Tu<lb/>
+               vins avec moi chercher le petit<lb/>
+               en <placeName>Bellecour</placeName>, nous y restâmes<pb n="964" facs="#ACAS_CRHST_AMP_26_393_quarto_0236_v.jpg"/>
+               après lui en
+               tête-à-tête. Il<lb/>
+               me semble sentir encore le<lb/>
+               chagrin que le<add>s</add> demoiselles<lb/>
+               <persName>Allard</persName> me
+               firent en t'interrompant<lb/>
+               tout à coup pendant que<lb/>
+               tu me parlais de ce qui t'occupait<lb/>
+               alors et de ce que je devais<lb/>
+               faire ici. Ce sont elles aussi<lb/>
+               qui m'enlevèrent la fin
+               de<lb/>
+               l'après-<choice>
+            <sic>dînée</sic> <corr>dîner</corr>
+          </choice> du lendemain,<lb/>
+               où j'avais été <choice>
+            <sic>distrais</sic> <corr>distrait</corr>
+          </choice> le matin<lb/>
+               par mille courses
+               inutiles<lb/>
+               et l'après-<choice>
+            <sic>dîné</sic> <corr>dîner</corr>
+          </choice> par <persName ref="#pers_B33">Ballanche</persName>.<lb/>
+               Ce jour <subst>
+            <del type="illisible"/> <add>compterait à peine</add>
+          </subst> dans<lb/>
+               ma vie d'amour sans le<lb/>
+               soir. Tu sais quels souvenirs<lb/>
+               ce soir a laissés gravés dans<lb/>
+               mon cœur. Ma <persName ref="#pers_C129">Julie</persName> se<lb/>
+               sacrifier pour moi ! Ah ! Sois<lb/>
+               heureuse et bien portante,<lb/>
+               ton ami sera content !<lb/>
+               Le lendemain se passa à <placeName>Belle<lb rend="hyphen"/>rive</placeName>. Le samedi devait être<pb n="965" facs="#ACAS_CRHST_AMP_26_393_quarto_0237_r.jpg"/>
+               le dernier
+               jour de ma félicité.<lb/> Il fallut voir M. <persName ref="#pers_R501">Roux</persName> et M.<lb/>
+               <persName ref="#pers_P447">Petetin</persName> ; j'accompagnai ma<lb/>
+               tatan chez M. <persName ref="#pers_D214">Dumontet</persName> ;<lb/>
+               j'allai chez M. <persName ref="#pers_B90">Brac</persName> et<lb/>
+               chez <persName ref="#pers_B33">Ballanche</persName>, où j'appris la<lb/>
+               mort du préfet. Je revenais<lb/>
+               à tes pieds, j'espérais du moins<lb/>
+               y passer mes derniers <choice>
+            <sic>momens</sic> <corr>moments</corr>
+          </choice>.<lb/>
+               Tu me fis asseoir sur la banquette ;<lb/>
+               cette banquette me fait plaisir<lb/>
+               à penser. Hélas, tu m'envoyas<lb/>
+               parler à <persName ref="#pers_P443">Marsil</persName> du préfet<lb/> 
+               avec toi ! À tous ces souvenirs<lb/> se joignent tous ceux de nos adieux d'hier matin. Ils
+               et je trouvai en revenant<lb/>
+               <persName ref="#pers_P453">Pignot</persName> et <persName>Mme Ampère</persName>
+          <lb/>
+               avec toi ! À tous ces souvenirs<lb/>
+               se joint celui de nos adieux<lb/>
+               d'hier matin. Ils m'ont<lb/>
+               distrait des pensées noires<lb/>
+               qui m'occupaient tout à<lb/>
+               l'heure. J'ai trouvé du
+               plaisir<lb/>
+               à te les retracer. Que le <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice>
+          <pb n="966" facs="#ACAS_CRHST_AMP_26_393_quarto_0238_v.jpg"/>
+               vole ! Il entraînera ma vie<lb/>
+               entière comme il
+               a entraîné<lb/>
+               ces quatre jours. Mais,<lb/>
+               jusqu'à mon dernier moment,<lb/>
+               ta présence remplira<lb/>
+               de bonheur les jours que<lb/>
+               je passerai près de toi.<lb/>
+               Tes lettres et ton souvenir<lb/>
+               m'adouciront ton absence<lb/>
+               quand tu seras loin de moi.<lb/>
+               Je voudrais te voir un seul<lb/>
+               instant aujourd'hui, te dire<lb/>
+               de loin que je t'aime. Ah !<lb/>
+               Si je pouvais t'embrasser,<lb/>
+               comme je te <choice>
+            <sic>serrerai</sic> <corr>serrerais</corr>
+          </choice>
+          <lb/>
+               contre moi ! Je te reverrai<lb/>
+               dans un mois ; peut-être<lb/>
+               seras-tu à
+               la campagne ;<lb/>
+               Du moins je n'aurai point<lb/>
+               d'affaires qui me ravissent les<lb/>
+               <choice>
+            <sic>momens</sic> <corr>moments</corr>
+          </choice> que
+               je pourrai passer<pb n="967" facs="#ACAS_CRHST_AMP_26_393_quarto_0239_r.jpg"/>
+               avec ma <persName ref="#pers_C129">Julie</persName> ! Que j'aurais<lb/>
+               encore de choses à te<lb/>
+               dire si la fatigue du<lb/>
+               voyage ne m'avait pas<lb/>
+               donné tant d'envie de<lb/>
+               dormir ! Je vais me coucher<lb/>
+               en pensant à ma bienfaitrice.<lb/>
+               Je rêverai à mon amie.<lb/>
+               Je me réveillerai pour<lb/>
+               adorer mon
+               épouse. Amie,<lb/>
+               bienfaitrice, épouse, c'est<lb/>
+               toujours toi ! Dors bien, je<lb/>
+               te souhaite une bonne nuit<lb/>
+               et au petit aussi. Je vous<lb/>
+               embrasse tous deux dans<lb/>
+               le même baiser.</p>
+            <p>Du <date when="1802-06-01">mardi [1er juin 1802]</date>
+          <lb/>
+               En relisant la lettre que je<lb/>
+               t'écrivis hier au soir, je me<lb/>
+               suis <choice>
+            <sic>apperçu</sic> <corr>aperçu</corr>
+          </choice> que je ne t'avais<lb/>
+               rien dit de la manière<lb/>
+               dont j'avais fait mon voyage.<pb n="968" facs="#ACAS_CRHST_AMP_26_393_quarto_0240_v.jpg"/>
+               Tu désires peut-être des détails<lb/>
+               sur ce sujet et ce que je<lb/>
+               t'ai écrit est si peu fait
+               pour<lb/>
+               t'intéresser que je le jetterais<lb/>
+               pour commencer une autre<lb/>
+               lettre, si je ne désirais que<lb/>
+               tu <choice>
+            <sic>vis</sic> <corr>visses</corr>
+          </choice> tout ce qui se passe<lb/>
+               dans mon cœur. Tu <subst>
+            <del type="illisible"/> <add>y verras</add>
+          </subst>
+          <lb/>
+               tout ce qui le remplissait<lb/>
+               hier. C'est à peu près la<lb/>
+               même chose tous les jours.<lb/>
+               Mais, aujourd'hui, je me sens<lb/>
+               mieux disposé à te faire le<lb/>
+               récit de mes petites <choice>
+            <sic>avantures</sic> <corr>aventures</corr>
+          </choice>.<lb/>
+               Tout fut bien jusqu'à <placeName>Trévoux</placeName>,<lb/>
+               où je dînai chez M. <persName ref="#pers_B62">Billioud</persName>
+          <lb/>
+               avec lui, sa femme, son
+               frère<lb/>
+               et son clerc. Mme <persName ref="#pers_B62">Billioud</persName> est<lb/>
+               fort jeune ; ses traits sont<lb/>
+               réguliers mais
+               durs, et il y<lb/>
+               a quelque chose de singulier<pb n="969" facs="#ACAS_CRHST_AMP_26_393_quarto_0241_r.jpg"/>
+               dans ses sourcils ; ils semblent<lb/>
+               déceler <subst>
+            <del type="illisible"/> <add>je ne sais quoi</add>
+          </subst> d'atroce,<lb/>
+               on ne peut en soutenir<lb/>
+               la vue. Sans cette expression<lb/>
+               farouche de sa physionomie,<lb/>
+               elle pourrait passer pour<lb/>
+               assez jolie. Son beau-frère<lb/>
+               m'en a fait l'éloge en chemin<lb/>
+               et je regarde ce qu'il m'en<lb/>
+               a dit comme bien contraire<lb/>
+               à l'opinion des partisans<lb/>
+               de <persName ref="#pers_L348">Lavater</persName>. On voulait, quand<lb/>
+               on vit la pluie, me garder<lb/>
+               jusqu'au lendemain. <persName ref="#pers_B62">Billioud</persName>,<lb/>
+               qui devait venir avec moi,<lb/>
+               en eut peur et resta. Au<lb/>
+               lieu d'aller à <placeName>
+            <choice>
+              <sic>Sandran</sic> <corr>Sandrans</corr>
+            </choice>
+          </placeName> chez<lb/>
+               les barons, je me décidai, vu<lb/>
+               le mauvais état des
+               chemins<lb/>
+               de traverse, à suivre la route<pb n="970" facs="#ACAS_CRHST_AMP_26_393_quarto_0242_v.jpg"/>
+               de <placeName>Châtillon</placeName>, tant que je<lb/>
+               pourrais aller <ref>(3)</ref>. On me parla<lb/>
+               alors d'une <choice>
+            <sic>cariole</sic> <corr>carriole</corr>
+          </choice> pour<lb/>
+               <placeName>Châtillon</placeName> ; je courus à<lb/>
+               l'auberge où on la prend ;<lb/>
+               elle était partie il y<lb/>
+               avait un quart d'heure. Pour trente<lb/>
+               sous j'aurais bien épargné<lb/>
+               mes pieds et mes souliers.<lb/>
+               J'eus de la pluie jusqu'à<lb/>
+               <placeName>Villeneuve</placeName>. Je voulais y<lb/>
+               coucher à la belle étoile ;<lb/>
+               mais, voyant le <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice>
+          <lb/>
+               s'éclaircir, je continuai<lb/>
+               ma route. La pluie cessa ;<lb/>
+               mais la boue de <placeName>Bresse</placeName> passait<lb/>
+               toujours par-dessus les quartiers<lb/>
+               de mes souliers, ce qui ne<lb/>
+               m'amusait guère. J'arrivai<pb n="971" facs="#ACAS_CRHST_AMP_26_393_quarto_0243_r.jpg"/>
+               à huit heures à <placeName>Châtillon</placeName> ;<lb/>
+               et je n'eus
+               que les premières<lb/>
+               gouttes d'une pluie à verse<lb/>
+               qui dura jusqu'à minuit.<lb/>
+               Elle m'aurait joliment<lb/>
+               arrangé si elle était <choice>
+            <sic>venu</sic> <corr>venue</corr>
+          </choice>
+          <lb/>
+               <choice>
+            <sic>plutôt</sic> <corr>plus tôt</corr>
+          </choice> ; et le parapluie que<lb/>
+               m'avait prêté M. <persName ref="#pers_B62">Billioud</persName>
+          <lb/>
+               aurait été bientôt percé.<lb/>
+               Me sentant le lendemain<lb/>
+               un peu refait, je voulus
+               passer<lb/>
+               au <placeName>Chapuis</placeName> pour y voir M.<lb/>
+               et Mme <persName>du Sablon</persName>. Cela<lb/>
+               allonge d'une bonne
+               demi<lb rend="hyphen"/>lieue ; mais j'espérais m'y<lb/>
+               reposer et y déjeuner.<lb/>
+               J'y arrivai à sept heures et<lb/>
+               demie du matin. On me dit qu'étant<lb/>
+               un peu indisposé, il ne se<lb/>
+               lèverait qu'à 9 heures
+               ainsi<lb/>
+               que Madame. Je partis sur<pb n="972" facs="#ACAS_CRHST_AMP_26_393_quarto_0244_v.jpg" rend="hyphen"/>le-champ et je fus rejoindre<lb/>
+               le grand chemin à
+               <placeName>Neuville</placeName>,<lb/>
+               où j'achetai une demi<lb rend="hyphen"/>livre de pain que je mangeai<lb/>
+               en marchant avec<lb/>
+               un  morceau de mon<lb/>
+               saucisson ; car je n'avais<lb/>
+               presque rien mangé depuis<lb/>
+               mon <choice>
+            <sic>dîné</sic>
+            <corr>dîner</corr>
+          </choice> de
+               <placeName>Trévoux</placeName>.<lb/>
+               Une demi-heure après,<lb/>
+               ayant encore à faire<lb/>
+               deux bonnes lieues et demie<lb/>
+               pour arriver à <placeName>Bourg</placeName>, je me<lb/>
+               sentis si las, si las, que je<lb/>
+               me couchai au pied d'un<lb/>
+               arbre sans savoir quel<lb/>
+               parti prendre. Les cinq<lb/>
+               lieues faites la veille dans<lb/>
+               la boue m'avaient coupé<lb/>
+               les jambes comme on dit<pb n="974" facs="#ACAS_CRHST_AMP_26_393_quarto_0246_v.jpg" type="deplacement"/>
+               ici. Au bout d'une demi-heure,<lb/>
+               plus incapable
+               qu'auparavant<lb/>
+               de continuer ma route,<lb/>
+               je pensais à ce que j'avais<lb/>
+               à faire, quand voici
+               venir<lb/>
+               une <choice>
+            <sic>cariole</sic> <corr>carriole</corr>
+          </choice>. Je m'approche :<lb/>
+               c'était <persName ref="#pers_G262">Gardon</persName>, <persName ref="#pers_G285">Grippière</persName>,<lb/>
+               etc., qui justement revenaient<lb/>
+               de <placeName>
+            <choice>
+              <sic>Sandran</sic> <corr>Sandrans</corr>
+            </choice>
+          </placeName>. J'ai pris leur<lb/>
+               <choice>
+            <sic>cariole</sic> <corr>carriole</corr>
+          </choice> et, comme <choice>
+            <sic>il</sic> <corr>ils</corr>
+          </choice> n'ont<lb/>
+               pas voulu que
+               j'entrasse<lb/>
+               dans les frais, je m'en<lb/>
+               suis tiré pour 15 sous d'étrennes<lb/>
+               au conducteur. Je
+               suis<lb/>
+               arrivé à midi, j'ai dormi<lb/>
+               jusqu'à deux heures et<lb/>
+               j'ai ensuite donné ma leçon à<lb/>
+               4 h<ex>eures</ex>. J'ai voulu ce matin<lb/>
+               porter à <persName ref="#pers_R500">Rousin</persName> la lettre<pb n="973" facs="#ACAS_CRHST_AMP_26_393_quarto_0245_r.jpg" type="deplacement"/>
+               de <persName ref="#pers_P443">Marsil</persName> ; mais on m'a<lb/>
+               renvoyé à demain à 9 heures.<lb/>
+               J'aurai encore le <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice> de<lb/>
+               <add>te</add> marquer sa réponse en<lb/>
+               gardant cette lettre pour<lb/>
+               <persName ref="#pers_P457">Pochon</persName>. Fais-moi le plaisir<lb/>
+               de faire payer 6 l<ex>ivre</ex>s à M.<lb/>
+               Gambier pour le thermomètre ;<lb/>
+               je l'ai reçu hier en bon<lb/>
+               état, ainsi que les deux fioles<lb/>
+               d'encre. C'est M. <persName ref="#pers_A27">Armand</persName>
+          <lb/>
+               lui-même qui les a <choice>
+            <sic>apportés</sic> <corr>apportées</corr>
+          </choice>
+          <lb/>
+               avec le baromètre et le<lb/>
+               thermomètre qui étaient pour<lb/>
+               lui et qu'il a payés ainsi<lb/>
+               que la voiture.</p>
+            <p>Du mardi soir <date when="1802-06-01">[1er juin 1802]</date>
+          <lb/>
+               M. <persName ref="#pers_R500">Rousin</persName>, ayant su que j'avais<lb/>
+               passé ce matin chez lui, m'a<lb/>
+               fait dire chez M. <persName ref="#pers_B42">Beauregard</persName>
+          <lb/>
+               que je le trouverais chez lui<lb/>
+               cette après-<choice>
+            <sic>dînée</sic> <corr>dîner</corr>
+          </choice>. Quand j'y
+               suis<pb n="975" facs="#ACAS_CRHST_AMP_26_393_quarto_0247_r.jpg"/>
+               allé, il m'a dit qu'on avait<lb/>
+               trouvé le compte de <persName ref="#pers_P443">Marsil</persName>
+          <lb/>
+               dans l'inventaire des
+               papiers<lb/>
+               de M. le Préfet ; que, jusque<lb rend="hyphen"/>là, il n'en avait eu aucune<lb/>
+               connaissance ; sans
+               quoi, <persName ref="#pers_P443">Marsil</persName>
+          <lb/>
+               aurait été payé de suite. Il m'a<lb/>
+               remis le mandat que tu<lb/>
+               trouveras ici ;
+               je l'envoie à<lb/>
+               <persName ref="#pers_P443">Marsil</persName> pour qu'il y mette<lb/>
+               son acquit ; on a exigé<lb/>
+               absolument que ton
+               cousin<lb/>
+               l'aîné le signât. On dit ici<lb/>
+               que deux associés ne peuvent<lb/>
+               faire d'affaires l'un sans l'autre,<lb/>
+               et que le mandat avec<lb/>
+               l'acquit serait refusé<lb/>
+               signé de <persName ref="#pers_P443">Marsil</persName> seul,
+               à moins<lb/>
+               que je prouvasse qu'il n'est<lb/>
+               pas associé avec son frère. Tu<lb/>
+               conçois qu'on me renverra<lb/>
+               par <persName ref="#pers_P457">Pochon</persName> l'acquit signé des<pb n="976" facs="#ACAS_CRHST_AMP_26_393_quarto_0248_v.jpg"/>
+               deux MM. <persName>Périsse</persName> et<lb/>
+               qu'alors je serai payé
+               sur<lb rend="hyphen"/>le-champ en le présentant<lb/>
+               au payeur, comme pour<lb/>
+               mes mois de professeur. Bien<lb/>
+               entendu que je ne me <choice>
+            <sic>desaisis</sic> <corr>dessaisis</corr>
+          </choice>
+          <lb/>
+               du mandat acquitté qu'après<lb/>
+               avoir reçu l'argent ; je<lb/>
+               te le ferai passer pour<lb/>
+               <persName ref="#pers_P443">Marsil</persName> à la première occasion.<lb/>
+               Je garde un ordre d'un<lb/>
+               conseiller de préfecture<lb/>
+               que je présenterai avec le<lb/>
+               mandat, et tout ira<lb/>
+               bien, pourvu que <persName ref="#pers_P457">Pochon</persName>
+          <lb/>
+               me rapporte l'acquit des<lb/>
+               deux MM. <persName>Périsse</persName> au<lb/>
+               bas du mandat que je
+               t'envoie.<lb/>
+               Comme il est stipulé en francs,<lb/>
+               <persName ref="#pers_P443">Marsil</persName> gagnera <del type="illisible"/>
+          <pb n="977" facs="#ACAS_CRHST_AMP_26_393_quarto_0249_r.jpg"/>
+               la différence des livres aux<lb/>
+               francs. J'oubliais de te dire<lb/>
+               qu'on n'a point trouvé<lb/>
+               de factures dans les papiers<lb/>
+               de M. <persName>Ozun</persName>. Si <persName ref="#pers_P443">Marsil</persName> les<lb/>
+               a, il ferait bien de me<lb/>
+               les envoyer pour en justifier<lb/>
+               s'il est nécessaire.<lb/>
+               Je craignais tant que tout ne<lb/>
+               fût pas en ordre pour ce<lb/>
+               mandat que je t'ai
+               répété<lb/>
+               deux ou trois fois les mêmes<lb/>
+               choses. Cette affaire, heureusement<lb/>
+               terminée, m'a pris tout le <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice>
+          <lb/>
+               que je comptais donner au manuscrit.<lb/>
+               Il ne pourra partir que de<lb/>
+               demain en huit. Tâche que<lb/>
+               <persName ref="#pers_B33">Ballanche</persName> aille savoir si M.<lb/>
+               <persName ref="#pers_R501">Roux</persName> a présenté mon manuscrit<lb/>
+               à la séance d'aujourd'hui. S'il<lb/>
+               ne l'a pas fait, <persName ref="#pers_B33">Ballanche</persName>
+          <lb/>
+               le priera bien de ma part<pb n=""/>
+               de le présenter ou faire<lb/>
+               présenter sans manquer<lb/>
+               à la prochaine séance. Je<lb/>
+               vais porter cette lettre à<lb/>
+               <persName ref="#pers_P457">Pochon</persName> parce que M. <persName ref="#pers_C150">Clerc</persName>
+          <lb/>
+               doit profiter de la vacance<lb/>
+               de demain pour travailler<lb/>
+               avec moi depuis 6 h<ex>eures</ex> du matin<lb/>
+               jusqu'à 1 h<ex>eure</ex> après-midi, et<lb/>
+               que cela me retiendra toute<lb/>
+               la matinée. Ne sois pas en<lb/>
+               peine, ma bonne
+               amie, de la<lb/>
+               santé de ton mari ; il se<lb/>
+               porte aussi bien qu'il se peut,<lb/>
+               <del type="illisible"/> quand on est
+               loin<lb/>
+               de tout ce qu'on aime. Si<lb/>
+               tu pouvais être en aussi bonne<lb/>
+               santé ! J'attends de tes nouvelles<lb/>
+               demain ou après-demain, et<lb/>
+               ce délai me semble bien long.<lb/>
+               Il fait un <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice> bien contraire<lb/>
+               aux remèdes. J'espère <choice>
+            <sic>qui</sic> <corr>qu'il</corr>
+          </choice> ne durera<lb/>
+               pas et que tu travailleras
+               à te guérir<lb/>
+               radicalement. Tu sais bien le nom de<lb/>
+               ceux que j'embrasse.</p>
+         </div>
+      </body>
+      <back>
+         <div>
+            <note xml:id="corresp1">(1) Dix-huit pages 17 x 21,5 de papier bleuâtre sans adresse.
+               Cette lettre a été écrite après un troisième voyage à <placeName>Lyon</placeName> du <date from="1802-05-26" to="1802-05-30">26 au 30 mai</date> (la
+               <date>Pentecôte</date>, cette année-là, ne fut que le 6 juin). Mme <persName>Cheuvreux</persName> en a publié quelques
+               passages, p. 219 à 221. (2) Lettre du <date when="1802-04-21">21 avril 1802</date> p.131. (3) Voir la planche VII :
+               Itinéraires de <placeName>Lyon</placeName> à <placeName>Bourg</placeName>. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

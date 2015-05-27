@@ -1,0 +1,201 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 54</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1801-00-00-F">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">I.</biblScope>
+                     <biblScope type="pp">p. 70-71</biblScope>
+                  </imprint>
+               </monogr>
+
+               
+            <idno type="old">L54</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L54manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 393 quarto</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Quatre pages in-8° et adresse sur la quatrième.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_A366">Ampère, André-Marie</persName>
+          <date when-iso="1801-00-00">1801</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme
+                        d'Ampère)</persName>
+        </correspAction>
+        <note type="noteDelaunay">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1801-00-00-F">
+      <body>
+         <div>
+            <opener>
+          <date when-iso="1801">Mardi [Printemps 1801]</date>
+        </opener>
+            <p>Je t'ai promis des nouvelles, ma bonne amie, et je n'en ai que de mauvaises à te
+               donner. Mlle <persName>Sarcey</persName> te les aura apprises avant qu'elle te remette ma lettre. Tu sais
+               bien si j'en ai été affecté, tu le seras de même. Tous ceux que tu aimes le sont
+               également ; j'en ai vus une partie ce matin ; quoique tristes, ils se portent
+               parfaitement bien, ta sœur particulièrement, ta tatan, <persName ref="#pers_P441">Mlle Périsse</persName>. J'ai vu chez
+               elles les <persName>demoiselles Allard</persName> dont la mère est en bonne santé ; j'ai remis les lettres
+               de ta maman et d'<persName ref="#pers_C125">élise</persName>. Ma pauvre bonne amie, songe que, si tu te faisais trop de
+               mauvais sang, tu te rendrais malade ainsi que ton petit et que je souffrirais pour
+               trois. J'ai bien assez de chagrin pour moi-même, car cet événement m'a trouvé encore
+               plus sensible que je ne croyais. Donne-moi de tes nouvelles dès que tu pourras;
+               dis-moi qu'en t'annonçant ce malheur, je n'ai pas contribué à altérer ta santé, ni
+               celle de mon petit. Ménage-toi, pour toi, pour lui, et pour moi, si je vaux la peine
+               que tu me comptes aussi. Je t'écrirai demain, ma bonne amie, plus au long ; car
+               <persName>Toinon</persName> attend avec impatience que j'aie fini. En m'ôtant le plaisir de m'entretenir
+               avec toi, elle me prive du seul que je puisse goûter aujourd'hui. Je crois avoir
+               laissé mon mouchoir de poche à <placeName>Saint-Germain</placeName> ; s'il n'est pas chez ta maman ou chez
+               Mme <persName ref="#pers_S517">Sarcey</persName>, il est à craindre que je ne l'aie perdu dans la promenade d'hier. Dis à
+               ta sœur et à ta maman tout ce que mon cœur te dit pour elles ! Le tien le devinera
+               aisément. Adieu, ma <persName ref="#pers_C129">Julie</persName>, mon épouse, mon amie, ma bienfaitrice, la mère et la
+               nourrice de mon enfant ! J'aime à répéter tous tes titres à ma reconnaissance. Adieu,
+               je t'embrasse mille fois aussi tendrement que je t'aime et mon amour, tu le sais,
+               égale autant qu'il est possible ta bonté et tes bienfaits pour moi. Adieu ma bonne
+               amie. <persName ref="#pers_A366">A. AMPÈRE</persName>
+        </p>
+            <closer>A <persName ref="#pers_C129">Madame Ampère la jeune</persName>, à <placeName>Saint-Germain</placeName>.</closer>
+         </div>
+      </body>
+      <back>
+         <div>
+            <note xml:id="corresp1">(1) Quatre pages in-8° et adresse sur la quatrième. Le deuil
+               dont il est question doit être la mort d'un frère Périsse.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

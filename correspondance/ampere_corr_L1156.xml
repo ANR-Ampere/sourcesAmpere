@@ -1,0 +1,786 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 1156</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1812-01-11-A">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <idno>chemise 261</idno>
+               <altIdentifier>
+              <idno type="old">L1156</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+               
+            </msDesc>
+            <listWit>
+               <witness xml:id="L1156edition">
+            <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>Maine de Biran</surname>
+                           <forename>Pierre</forename>
+                        </author>
+                        <author role="dir">
+                           <surname>Robinet</surname>
+                           <forename>André</forename>
+                        </author>
+                        <title>Oeuvres, XIII-1 : Correspondance philosophique avec Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>J. Vrin</publisher>
+                           <date when="1993">1993</date>
+                           <biblScope type="pp">p. 247-254</biblScope>
+                        </imprint>
+                     </monogr>
+                  </biblStruct>
+          </witness>
+               <witness xml:id="L1156manuscrit">
+            <msDesc type="copie">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <idno>chemise 261 [copie Naville, selon note A. Robinet]</idno>
+                     </msIdentifier>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_A366">Ampère, André-Marie</persName>
+          <date when-iso="1812-01-11">11 janvier 1812</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_M372">Maine de Biran, Pierre</persName>
+        </correspAction>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1812-01-11-A">
+      <body>
+         <div>
+            <opener>
+          <pb n="608" facs="#ACAS_CRHST_AMP_15_261_bis_0142_r.jpg"/>
+          <date when="1812-01-11">11 janvier [1812]</date>
+        </opener>
+            <p> Votre lettre m'a fait un grand plaisir, mon<lb/> cher ami, et j'attends votre
+               tableau avec<lb/> la plus vive impatience. Je vais en attendant<lb/> vous faire
+               quelques observations sur ce que vous<lb/> en dites.</p>
+            <p>
+          <list>
+                  <item n="1"> Vous pensez que je classe les phénomènes<lb/> d'après leurs
+                     ressemblances, à la manière<lb/> des physiciens et des naturalistes, et
+                     vous<lb/> aimez mieux les ranger d'après les facultés<lb/> qui les produisent.
+                     Je crois qu'à cet<lb/> égard j'ai fait précisément comme<lb/> vous. J'ai
+                     distingué mon premier<lb/> système (le système sensitif) par le<lb/> seul
+                     caractère de ne contenir que<lb/> des phénomènes dont on peut concevoir<lb/>
+                     l'existence sans <del>activité</del> le déploiement<lb/> de
+                     l'<hi rend="underline">activité</hi>. Les divers phénomènes<lb/> que je réunis
+                     dans ce système n'ont<lb/> que cette seule ressemblance. Ce sont<lb/> la
+                     <hi rend="underline">sensation</hi>, <hi rend="underline">l'association</hi>,
+                     <hi rend="underline">l'agrégation</hi>
+              <lb/> (comme dans les rêves et les vagues rêveries),<lb/>
+                     <hi rend="underline">l'affection</hi>,
+                     <hi rend="underline">le mouvement instinctif</hi>
+              <lb/> ou
+                     <hi rend="underline">protocinèse</hi>, <hi rend="underline">l'agitation</hi>
+                     causée par<lb/> l'espèce d'affection que
+                     <persName ref="#pers_C663">Condillac</persName> nomme<lb/>
+                     <hi rend="underline">inquiétude</hi>, et les traces que ces<lb/> phénomènes
+                     laissent après eux.<pb n="609" facs="#ACAS_CRHST_AMP_15_261_bis_0143_v.jpg"/>
+                     Je nomme ce système <hi rend="underline">sensitif</hi> par<lb rend="hyphen"/>ce
+                     que tous ces phénomènes sont produits<lb/> par les <choice>
+                        <sic>mouvemens</sic>
+                        <corr>mouvements</corr>
+                     </choice> excités dans les<lb/> organes des <hi rend="underline">sens</hi>
+                     externes ou internes.<lb/> Dans mon <hi rend="underline">second système</hi>,
+                     j'ai mis<lb/> tous les <hi rend="underline">phénomènes</hi> dont la cause<lb/>
+                     est dans le <hi rend="underline">fait primitif</hi> de la<lb/> distinction
+                     entre notre propre<lb/> existence et celle d'autres
+                     êtres,<hi rend="underline"> fait<lb/>
+                  primitif</hi> dû <subst>
+                        <del>au </del>
+                        <add>au 1r </add>
+                     </subst>
+              <hi rend="underline">déploiement</hi>, <subst>
+                        <del>de<lb/> l'activité</del>
+                        <add>dans ce premier <hi rend="underline">déploiement</hi>
+                </add>
+                     </subst>
+              <lb/> tel qu'il a lieu dans l'enfant<lb/> d'un à deux ans,
+                     <hi rend="underline">l'action</hi> se porte<lb/> généralement au
+                     <hi rend="underline">dehors</hi>, s'exerce<lb/> à mouvoir les membres, etc...
+                     Il y a<lb/> un <hi rend="underline">moi</hi> distinct mais uni aux
+                     <hi rend="underline">modifications</hi>
+              <lb/> simultanées,
+                     <hi rend="underline">cause de nos <choice>
+                  <sic>mouvemens</sic> <corr>mouvements</corr>
+                </choice>
+              </hi>
+              <lb/>
+                     sans que l'idée de <hi rend="underline">causalité</hi> soit
+                     <hi rend="underline">réfléchie</hi>
+              <lb/> et
+                     <hi rend="underline">mise à part</hi>. Ce système est celui<lb/> de
+                     <hi rend="underline">l'enfance</hi> de
+                     <hi rend="underline">l'intelligence humaine</hi>
+              <lb/> comme le précédent est
+                     celui de<lb/>
+                     <hi rend="underline">l'huître</hi>. Comment vous étonne<lb rend="hyphen"/>vous
+                     d'y voir les <hi rend="underline">croyances</hi> et les<lb/>
+                     <hi rend="underline">émotions</hi> ? Ne sommes-nous pas convenus<lb/> que dans
+                     l'être purement <hi rend="underline">passif</hi>,<pb n="610" facs="#ACAS_CRHST_AMP_15_261_bis_0144_r.jpg"/> il ne peut y avoir ni
+                     <hi rend="underline">durée</hi>, ni<lb/>
+                     <hi rend="underline">succession</hi>, ni <hi rend="underline">passé</hi>, ni
+                     <hi rend="underline">avenir</hi>, ni rien<lb/> de relatif à quelque
+                     <hi rend="underline">chose d'absent</hi>,<lb/> par conséquent ni
+                     <hi rend="underline">crainte</hi>, ni <hi rend="underline">désir</hi>,<lb/> ni
+                     <hi rend="underline">croyance</hi>, tous phénomènes dont<lb/> la
+                     <hi rend="underline">cause</hi> est dans la distinction<lb/> de notre
+                     <hi rend="underline">existence</hi> d'avec les
+                     <hi rend="underline">objets extérieurs</hi> ?<lb/> C'est donc moi qui range les
+                     <hi rend="underline">phénomènes</hi>
+              <lb/> d'après
+                     <hi rend="underline">leur cause</hi>, quand je place ceux<lb rend="hyphen"/>ci
+                     dans le <hi rend="underline">second système</hi>.<lb/> Vous trouvez quelque
+                     chose de <hi rend="underline">sensitif</hi>
+              <lb/> dans les
+                     <hi rend="underline">émotions</hi> (<hi rend="underline">désirs</hi>, <hi rend="underline">craintes</hi>,<lb/>
+                     <hi rend="underline">terreurs</hi>, etc...). Serait-ce que par<lb/>
+                     <choice>
+                        <sic>hazard</sic>
+                        <corr>hasard</corr>
+                     </choice> vous auriez lié au mot<lb/>
+                     <hi rend="underline">sensitif</hi> l'idée de <hi rend="underline">plaisir</hi>
+                     ou <hi rend="underline">douleur</hi> ?<lb/> Moi je n'y joins que l'idée
+                     d'être<lb/> causé par un <hi rend="underline">mouvement</hi> des
+                     <hi rend="underline">organes</hi>
+              <lb/> des <hi rend="underline">sens</hi>. Être
+                     <hi rend="underline">agréable</hi> ou <hi rend="underline">pénible</hi>
+                     est<lb/> une <hi rend="underline">ressemblance</hi> à la manière<lb/> des
+                     physiciens et des naturalistes, ce<lb/> n'est point d'un tel caractère que<lb/>
+                     je tiendrai jamais compte. Je range<lb/> tous les phénomènes d'après
+                     <hi rend="underline">leurs causes</hi>,<lb/> qui sont nos
+                     <hi rend="underline">facultés</hi>. On vient de<lb/> lire à un criminel sa
+                     sentence ; il<lb/> n'y a de <hi rend="underline">sensitif</hi> que les
+                     sons<lb/> qui ont frappé son oreille, et qui<pb n="611" facs="#ch_261/ACAS_CRHST_AMP_15_261_bis_0145_v.jpg"/>
+                     <hi rend="underline">sensitivement</hi> ne l'affecteraient nullement,<lb/> mais
+                     la <hi rend="underline">croyance</hi> que cette sentence<lb/> sera exécutée le
+                     lendemain, la<lb/> connaissance du <choice>
+                        <sic>tems</sic>
+                        <corr>temps</corr>
+                     </choice> futur, celle<lb/> de la puissance des autres hommes<lb/> qu'il n'a
+                     connue que par la sienne<lb/> propre, voilà ce qui produit en<lb/> lui cette
+                     épouvantable <hi rend="underline">émotion</hi>, dont<lb/> tous les
+                     <hi rend="underline">
+                <choice>
+                  <sic>élémens</sic> <corr>éléments</corr>
+                </choice>, toutes les
+               causes</hi>
+                     sont<lb/> dans le système <hi rend="underline">actif primitif</hi>.<lb/> Je
+                     sais comme vous que <hi rend="underline">l'émotion</hi>
+              <lb/> produit souvent la
+                     <hi rend="underline">croyance</hi> ;<lb/> mais plus souvent encore comme<lb/>
+                     dans le cas de ce criminel, et mille<lb/> autres, c'est la
+                     <hi rend="underline">croyance</hi> qui produit<lb/>
+                     <hi rend="underline">l'émotion</hi>. J'ai mis
+                     <hi rend="underline">l'émotion</hi> à la<lb/> suite de la
+                     <hi rend="underline">croyance</hi>, comme<lb/>
+                     <hi rend="underline">l'affection</hi> à la suite des phénomènes<lb/>
+                     <hi rend="underline">représentatifs</hi> de la
+                     <hi rend="underline">pure
+               sensation</hi>,<lb/> sans vouloir par
+                     là les regarder<lb/> comme postérieurs, mais parce que<lb/> mettant dans chaque
+                     système des<lb/>
+                     <hi rend="underline">phénomènes représentatifs</hi> et d'autres<lb/>
+                     <hi rend="underline">affectifs</hi>, il fallait bien pour<lb/> l'uniformité
+                     placer les uns toujours<lb/> les premiers, et les autres après. Le<lb/> choix à
+                     cet égard étant arbitraire,<pb n="612" facs="#ACAS_CRHST_AMP_15_261_bis_0146_r.jpg"/> je me suis conformé à l'ordre
+                     usité<lb/> généralement, sans contredire pour<lb/> cela la primauté,
+                     relativement au<lb/>
+                     <choice>
+                        <sic>tems</sic>
+                        <corr>temps</corr>
+                     </choice>, des <hi rend="underline">affections</hi> sur les
+                     <hi rend="underline">sensations</hi>.<lb/> (Observez bien que dans mon langage<lb/>
+                     <hi rend="underline">sensation</hi> veut dire la partie<lb/> non
+                     <hi rend="underline">affective</hi> des modifications<lb/> produites par les
+                     <hi rend="underline">sens</hi>. Ce n'est<lb/> qu'un abus de <choice>
+                        <sic>mot</sic>
+                        <corr>mots</corr>
+                     </choice> qui a fait<lb/> attacher au mot <hi rend="underline">sensation</hi>
+                     des<lb/> idées de peines ou de plaisirs.<lb/> Je n'ai rien compris à ce que
+                     serait<lb/> un système <hi rend="underline">sensitif composé</hi>, ni<lb/>
+                     comment on y admettrait des<lb/>
+                     <hi rend="underline">phénomènes</hi> qui supposeraient nécessairement<lb/> un
+                     développement de l'activité, et<lb/> ne seraient pas dus aux <choice>
+                        <sic>mouvemens</sic>
+                        <corr>mouvements</corr>
+                     </choice>
+              <lb/> excités dans les
+                     <hi rend="underline">organes des sens</hi>.<lb/> Je pense que vous y renoncerez
+                     quand<lb/> vous aurez réfléchi à ce que je viens<lb/> de dire, à moins que vous
+                     ne<lb/> vouliez renoncer à classer les<lb/> phénomènes par leurs causes.
+                     Au<lb/> reste ce serait précisément<lb/> mon second système où je n'<choice>
+                        <sic>admet</sic>
+                        <corr>admets</corr>
+                     </choice>
+              <lb/> rien de véritablement <hi rend="underline">réfléchi</hi>,<lb/>
+                     tout ce qui l'est devant être réservé<pb n="613" facs="#ACAS_CRHST_AMP_15_261_bis_0147_v.jpg"/> pour le 4ème système.<lb/> Si
+                     vous examinez de même mon<lb/> 3ème et mon 4ème système. Vous ne<lb/> verrez
+                     dans l'un que les phénomènes<lb/> dont la <hi rend="underline">cause</hi> est
+                     dans la <hi rend="underline">faculté</hi>
+              <lb/> d'<choice>
+                        <sic>appercevoir</sic>
+                        <corr>apercevoir</corr>
+                     </choice>
+                     <list>
+                        <item n="1"> les ressemblances et<lb/> dissemblances qui nous
+                           fournissent<lb/> les idées générales ;</item>
+                        <item n="2"> les relations<lb/> qui nous donnent les
+                           <hi rend="underline">notions</hi>.</item>
+                     </list>
+              <lb/> C'est pour cela que la <hi rend="underline">combinaison</hi>
+              <lb/>
+                     est dans les 3me systèmes, car ce<lb/> n'est qu'avec des idées générales<lb/>
+                     qu'on peut former <choice>
+                        <sic>de</sic>
+                        <corr>des</corr>
+                     </choice>
+                     <hi rend="underline">conceptions</hi>
+              <lb/> de choses qu'on n'a pas vues,
+                     le<lb/> poète, le romancier, l'artiste<lb/>
+                     <hi rend="underline">conçoivent</hi> ce qu'ils <hi rend="underline">créent</hi>
+                     avec<lb/> des <hi rend="underline">idées</hi> de cette classe que je nomme<lb/>
+                     simplement <hi rend="underline">idées</hi>.<lb/> Je n'ai pas compris comment
+                     vous<lb/> trouviez du vague dans les mots<lb/>
+                     <hi rend="underline">combinaison</hi> et <hi rend="underline">conception</hi>.
+                     Le<lb/> mot <hi rend="underline">combinaison</hi> a un sens<lb/> éminemment
+                     <hi rend="underline">actif</hi> qu'il doit<lb/> à sa racine le verbe
+                     <hi rend="underline">combiner</hi>.<lb/> Tout le monde l'emploie
+                     précisément<lb/> dans le sens que je lui donne, et<lb/> je ne sache pas qu'on
+                     n'en ait jamais<lb/> fait un autre usage. C'est proprement<pb n="614" facs="#ACAS_CRHST_AMP_15_261_bis_0148_r.jpg"/> l'action de
+                     <hi rend="underline">combiner</hi> qui se prend par<lb/> extension pour le
+                     résultat de cette<lb/> action. Quant à <hi rend="underline">conception</hi>,
+                     n'est<lb/>ce-pas proprement la <hi rend="underline">représentation</hi>
+              <lb/>
+                     d'une chose qu'on n'a pas vue, mais<lb/> qu'on a conçue d'après une
+                     <hi rend="underline">combinaison</hi> ?<lb/> Ainsi je
+                     <hi rend="underline">conçois</hi>, j'ai la
+                     <hi rend="underline">conception</hi>
+              <lb/> de la tour octogone de porcelaine
+                     qu'on<lb/> dit être à <placeName>Pékin</placeName>, mais je me souviens<lb/> du
+                     <placeName>Louvre</placeName>, c'est un <hi rend="underline">souvenir</hi>,
+                     mot<lb/> opposé en ce <hi rend="underline">sens</hi> à
+                     <hi rend="underline">conception</hi>.<lb/> Voici mon cher ami, une phrase
+                     de<lb/> votre lettre qui m'a bien autrement<lb/> surpris ?
+                     <hi rend="underline">Comment confondre en<lb/>
+                  effet ce qui est <hi rend="underline">passif</hi> avec ce qui est<lb/>
+               <hi rend="underline">actif</hi>, une sensation, par exemple,<lb/>
+                  qui s'avive d'elle-même au point de<lb/>
+                  devenir
+               exclusive, avec un mode perçu<lb/>
+                  qui s'éclaircit ou se distingue par<lb/>
+                  un acte
+               d'attention ? ...</hi>
+                     Cela serait<lb/> bon à dire à ceux qui peuvent<lb/> dire une telle sottise ?
+                     Mais comprenez<lb rend="hyphen"/>vous si mal mon tableau que vous<lb/> n'ayez
+                     pas vu que le mouvement<lb/> organique, qui avive une sensation,<pb n="615" facs="#ACAS_CRHST_AMP_15_261_bis_0149_v.jpg"/> est dans mon premier système parmi<lb/>
+                     <hi rend="underline">les
+               protocinèses</hi>, que
+                     l'<hi rend="underline">attention</hi> (mal à<lb/> propos nommée ainsi dans le
+                     cas présent)<lb/> donnée <hi rend="underline">spontanément</hi> à l'objet<lb/>
+                     qui nous effraye, est une <hi rend="underline">incitation</hi>,<lb/> que
+                     <hi rend="underline">l'attention</hi> volontaire, la seule<lb/> qu'on dût
+                     nommer <hi rend="underline">attention</hi>,<lb/> est une volition,
+                     etc...</item>
+                  <lb/>
+                  <item n="2"> Après le reproche de ne pas établir<lb/> mes divisions sur les
+                     <hi rend="underline">causes</hi> des phénomènes<lb/> que je classe, et que vous
+                     voyez par ce qui<lb/> précède venir surtout de ce que je ne<lb/> vous ai pas
+                     exposé les raisons qui placent<lb/> chaque phénomène dans sa classe, vous<lb/>
+                     passez, mon cher ami, à l'objection<lb/> de la symétrie qui règne dans<lb/> mon
+                     tableau. N'avez-vous pas<lb/> remarqué qu'elle est une suite<lb/> nécessaire de
+                     la marche que m'a<lb/> tracée cette idée sans laquelle je me<lb/> serais
+                     infailliblement égaré dans<lb/> le <choice>
+                        <sic>labirynthe</sic>
+                        <corr>labyrinthe</corr>
+                     </choice> : tout phénomène laisse<lb/> une trace de même nature que lui ;<lb/>
+                     qui doit par conséquent être placée<lb/> à côté de lui dans le même
+                     système.<lb/> Il ne peut y avoir dans un système<lb/> que le phénomène primitif
+                     de ce<lb/> système, la <hi rend="underline">trace</hi> de ce phénomène,<pb n="616" facs="#ACAS_CRHST_AMP_15_261_bis_0150_r.jpg"/> et les diverses
+                     <hi rend="underline">coordinations</hi>, soit entre<lb/> ce phénomène, soit
+                     entre sa <hi rend="underline">trace</hi> et<lb/> d'autres phénomènes du même
+                     système ou<lb/> des systèmes <choice>
+                        <sic>précédens</sic>
+                        <corr>précédents</corr>
+                     </choice>. Or ces <hi rend="underline">coordinations</hi>
+              <lb/> se forment ou à
+                     l'instant du<lb/>
+                     <hi rend="underline">phénomène</hi>, ou postérieurement entre<lb/> sa
+                     <hi rend="underline">trace</hi> et d'autres phénomènes.</item>
+               </list>
+        </p>
+            <p>Ainsi les <hi rend="underline">sensations</hi> s'unissent par<lb/> des
+               <hi rend="underline">associations</hi>, et leurs <hi rend="underline">traces</hi> (les<lb/>
+               <hi rend="underline">images</hi>) par des <hi rend="underline">agrégations</hi>.
+               L'autopsie<lb/> donne naissance aux <hi rend="underline">attributions</hi>,<lb/> la
+               <hi rend="underline">comparaison</hi> aux <choice>
+                  <sic>jugemens</sic>
+                  <corr>jugements</corr>
+               </choice>, et<lb/> le phénomène premier du 4me<lb/> système <ref target="#corresp_1">*</ref> aux <hi rend="underline">déductions</hi>. Ce n'est<lb/> que
+               postérieurement qu'ont lieu<lb/> dans le 2d système les
+               <hi rend="underline">croyances</hi>,<lb/> dans le 3ème les
+               <hi rend="underline">combinaisons</hi>, dans<lb/> le 4ème les
+               <hi rend="underline">opinions</hi>, etc...<lb/> Mais ayant remarqué que les
+               <hi rend="underline">coordinations</hi>
+          <lb/> qui s'établissent dès l'instant où le<lb/>
+               <hi rend="underline">phénomène</hi> naît, sont de deux<lb/> sortes, suivant qu'elles
+                  résultent<pb n="617" facs="#ACAS_CRHST_AMP_15_261_bis_0151_v.jpg"/> immédiatement
+               et nécessairement<lb/> de la naissance du <hi rend="underline">phénomène</hi>,
+               ou<lb/> qu'elles dépendent d'autres circonstances,<lb/> telles que des <hi rend="underline">phénomènes</hi>
+               <choice>
+                  <sic>précédens</sic>
+                  <corr>précédents</corr>
+               </choice>,<lb/> des <hi rend="underline">habitudes acquises</hi>, etc., dès lors<lb/>
+               j'ai dû subdiviser en deux par des<lb/> épithètes
+               <hi rend="underline">l'association</hi>,
+               <hi rend="underline">l'attribution</hi>,<lb/> le <hi rend="underline">jugement</hi>
+               et la <hi rend="underline">déduction</hi>.<lb/> Ce n'est donc pas moi qui
+               établis<lb/> cette symétrie. Ce n'est pas non<lb/> plus la <subst>
+                  <del type="illisible"/>
+                  <add>la nature par une sorte de</add>
+               </subst>
+          <lb/>
+               <choice>
+                  <sic>hazard</sic>
+                  <corr>hasard</corr>
+               </choice>. C'est une suite nécessaire<lb/> de ce que nous ne pouvons concevoir<lb/>
+               rien autre <subst>
+                  <del type="illisible"/>
+                  <add>dans tout ce qui est</add>
+               </subst>
+          <lb/> représentatif, que les
+               <hi rend="underline">
+            <choice>
+              <sic>élémens</sic> <corr>éléments</corr>
+            </choice>
+          </hi>
+          <lb/>
+               dont se composent toutes nos<lb/>
+               <hi rend="underline">représentations</hi> (dans le sens<lb/> général que les
+               Allemands donnent<lb/> à ce mot) et les divers modes de<lb/> coordination établis
+               entre ces<lb/>
+               <choice>
+                  <sic>élémens</sic>
+                  <corr>éléments</corr>
+               </choice> et qui ne peuvent<lb/> être qu'immédiats, ou médiats, ou<lb/> postérieurs à
+               la naissance du<lb/> phénomène.</p>
+            <p>
+          <pb n="618" facs="#ACAS_CRHST_AMP_15_261_bis_0152_r.jpg"/>Je m'exprime si mal que je
+               crains bien<lb/> de ne pas me faire entendre. C'est<lb/> cependant une idée bien
+               simple.<lb/> Nous sommes d'accord qu'il n'y a que<lb/> 4 sortes d'<choice>
+                  <sic>élémens</sic>
+                  <corr>éléments</corr>
+               </choice>, dans tout ce que<lb/> nous concevons. La
+               <hi rend="underline">sensation</hi>, <hi rend="underline">l'autopsie</hi>,<lb/> la
+               <hi rend="underline">comparaison</hi> ou perception des<lb/> rapports de
+               ressemblance, et enfin<lb/> la perception des relations que je voulais<lb/> nommer
+               <hi rend="underline">synthétopsie</hi>. Il ne peut donc<lb/> y avoir que 4 systèmes
+               dans le tableau<lb/> de l'entendement. Le premier doit<lb/> comprendre les
+               <hi rend="underline">sensations</hi>, leurs t<add>r</add>aces<lb/> et les diverses
+               manières dont elles peuvent<lb/> s'unir passivement. Le second
+               <hi rend="underline">l'autopsie</hi>
+          <lb/> et tout ce qu'elle produit en
+               s'unissant<lb/> aux phénomènes du premier système.<lb/> Ce système que je nommais
+               <hi rend="underline">autopsique</hi>,<lb/> appelons-le
+               <hi rend="underline">système mixte</hi>, et vous<lb/> ne serez plus surpris d'y voir
+               tous<lb/> les phénomènes comme la
+               <hi rend="underline">croyance,<lb/>
+                  l'émotion</hi>, etc..., qui ne
+               peuvent exister<lb/> sans le premier déploiement de<lb/> l'activité qui constitue le
+               <hi rend="underline">moi</hi> se<lb/> sentant uni à ses modifications, et<lb/> en
+               produisant de nouvelles, et donne<lb/> naissance aux idées de succession, de
+                  passé,<pb n="619" facs="#ACAS_CRHST_AMP_15_261_bis_0153_v.jpg"/> et d'avenir. Dans
+               le 3me système on<lb/> doit mettre tous les résultats de la<lb/>
+               <hi rend="underline">comparaison</hi> des <hi rend="underline">phénomènes</hi> des
+               deux<lb/> systèmes <choice>
+                  <sic>précédens</sic>
+                  <corr>précédents</corr>
+               </choice>, d'où les <hi rend="underline">idées générales</hi>
+          <lb/> tant en
+               elles-mêmes que comparées<lb/> à leur tour entre elles et aux<lb/>
+               <hi rend="underline">sensations</hi>, et y joindre les produits<lb/> de l'imagination
+               formés avec ses<lb/> idées générales, produits que j'ai nommés<lb/>
+               <hi rend="underline">combinaisons</hi>. Le <hi rend="underline">phénomène</hi>
+          <lb/>
+               caractéristique du 4me système<lb/> étant de voir dans un
+               <hi rend="underline">groupe</hi>
+          <lb/> déjà formé, les
+               <hi rend="underline">relations</hi> qu'établit<lb/> entre ses <choice>
+                  <sic>élémens</sic>
+                  <corr>éléments</corr>
+               </choice> le mode de <hi rend="underline">coordination</hi>
+          <lb/> de ces mêmes <choice>
+                  <sic>élémens</sic>
+                  <corr>éléments</corr>
+               </choice>, en vertu<lb/> d'une <hi rend="underline">attention</hi>
+               essentiellement<lb/> active fixée sur ce groupe, il faudra<lb/> comprendre dans ce
+               système toutes<lb/> nos idées de <hi rend="underline">relations</hi>, les
+               <hi rend="underline">déductions</hi>
+          <lb/> ou <choice>
+                  <sic>raisonnement</sic>
+                  <corr>raisonnements</corr>
+               </choice>
+               <choice>
+                  <sic>auxquelles</sic>
+                  <corr>auxquels</corr>
+               </choice> elles<lb/> donnent naissance exclusivement,<lb/> et toutes les conséquences
+               soit<lb/> rigoureuses, soit probables que nous<lb/> en déduisons.</p>
+            <p>
+          <add>D'après </add>cette marche si lumineuse et si<lb/> naturelle à ce qu'il me
+               semble, jointe<lb/> à ce qu'outre les 4 phénomènes élémentaires<pb n="620" facs="#ACAS_CRHST_AMP_15_261_bis_0154_r.jpg"/> de chaque système et leurs
+               <hi rend="underline">traces</hi>, il ne<lb/> peut y avoir que des
+               <hi rend="underline">coordinations</hi> entre<lb/> les uns et les autres, et que ces<lb/>
+               <hi rend="underline">coordinations</hi> ont lieu ou en même<lb/>
+               <choice>
+                  <sic>tems</sic>
+                  <corr>temps</corr>
+               </choice> que le <hi rend="underline">phénomène</hi> et par les<lb/> mêmes
+               <hi rend="underline">causes</hi>, ou en même <choice>
+                  <sic>tems</sic>
+                  <corr>temps</corr>
+               </choice> que<lb/> lui par d'autres <hi rend="underline">causes</hi>, telles que
+               des<lb/> phénomènes <choice>
+                  <sic>précédens</sic>
+                  <corr>précédents</corr>
+               </choice>, des habitudes acquises,<lb/> etc... ou enfin postérieurement au<lb/>
+               <hi rend="underline">phénomène</hi>, entre sa <hi rend="underline">trace</hi> et d'autres<lb/>
+               <hi rend="underline">phénomènes</hi>. D'après cette marche,<lb/> dis-je, on ne peut
+               être conduit<lb/> qu'à mon tableau, sauf les mots que<lb/> vous pouvez changer à
+               votre gré.</p>
+            <p>Pour que je pusse abandonner ce tableau,<lb/> où tous les phénomènes sont
+               classés<lb/> d'après <hi rend="underline">leurs
+               causes</hi>, et où le
+               nombre<lb/> de ces <hi rend="underline">phénomènes</hi> est déterminé<lb/> a
+               <hi rend="underline">priori</hi> par les premières lois de<lb/> notre entendement,
+               pour que je pusse<lb/> lui en préférer un autre, il faudrait<lb/> me faire voir <list>
+                  <item n="1"> que cet autre <hi rend="underline">système</hi>
+              <lb/> n'est pas une
+                     <hi rend="underline">classification arbitraire</hi>,<lb/> mais un
+                     <hi rend="underline">résultat immédiat</hi> des<lb/>
+                     <hi rend="underline">lois primitives</hi> de notre
+                        <hi rend="underline">entendement</hi>.<pb n="621" facs="#ACAS_CRHST_AMP_15_261_bis_0155_v.jpg"/>
+                  </item>
+                  <item n="2"> Il faudrait me montrer <hi rend="underline">a priori</hi>
+              <lb/>
+                     comment ces lois fixent le nombre<lb/> des phénomènes comme ils sont<lb/> dans
+                     cet autre système. </item>
+                  <item n="3"> Me faire<lb/> voir que mon tableau contient<lb/> des phénomènes qui
+                     peuvent être<lb/> réduits à un moindre nombre, ce<lb/> qui ne se peut puisqu'il
+                     n'y en a<lb/> aucun qui ne diffère essentiellement<lb/> de tous les
+                     autres.</item>
+                  <item n="4"> Qu'il y a quelque<lb/> chose dans l'entendement qui ne<lb/> se trouve
+                     pas dans mon tableau.<lb/> C'est ici la vraie pierre de touche<lb/> de sa
+                     vérité. Je ne connais pas le<lb/> vôtre qui est encore en route<lb/> et je suis
+                     prêt à parier qu'aucun<lb/>
+                     <choice>
+                        <sic>de</sic>
+                        <corr>des</corr>
+                     </choice> phénomènes que vous y aviez<lb/> indiqués ne rentrera pas dans
+                     un<lb/> des miens, tandis que je suis presque<lb/> sûr que vous en aurez
+                     oublié. Je vous<lb/> dirai alors où est dans votre tableau<lb/> la place de la
+                     démonstration du<lb/> carré de l'<choice>
+                        <sic>hypothénuse</sic>
+                        <corr>hypoténuse</corr>
+                     </choice>, celle du<lb/> syllogisme, celle de
+                     l'<title>
+                <choice>
+                  <sic>Illiade</sic> <corr>Iliade</corr>
+                </choice>
+              </title>,
+                     celle<lb/> de la croyance des Mahométans sur<lb/> la lune partagée en deux
+                     d'un<lb/> coup de sabre etc... Tout cela a sa<pb n="622" facs="#ACAS_CRHST_AMP_15_261_bis_0156_r.jpg"/> place marquée dans mon<lb/>
+                     tableau, tous ceux du vôtre s'y trouvent<lb/> aussi d'avance, je vous le
+                     montrerai<lb/> dès que je l'aurai reçu.</item>
+               </list>
+        </p>
+            <p>L'idée de chaque <hi rend="underline">phénomène</hi> de mon<lb/> tableau est
+               absolument indépendante<lb/> du mot dont je me sers pour le<lb/> représenter. Je ne
+               sais si vous avez<lb/> le même avantage, je lui dois de<lb/> pouvoir changer mes mots
+               à volonté<lb/> sans rien changer à mes <hi rend="underline">idées</hi>. J'aime<lb/>
+               autant <hi rend="underline">intuition intellectuelle</hi> que<lb/>
+               <hi rend="underline">synthétopsie</hi>, pourvu que vous<lb/> n'appeliez plus
+               <hi rend="underline">intuition</hi> la partie<lb/> représentative des
+               <hi rend="underline">sensations</hi>. Car<lb/> ce sont là deux phénomènes<lb/>
+               diamétralement opposés. Par<lb/>
+               <hi rend="underline">synthétopsie</hi> j'ai entendu non<lb/> pas la
+               <hi rend="underline">vue</hi> du <hi rend="underline">groupe</hi> comme<lb/> vous
+               semblez le supposer, mais<lb/>
+               <hi rend="underline">la vue</hi> du <hi rend="underline">mode d'union</hi> des<lb/>
+               <choice>
+                  <sic>élémens</sic>
+                  <corr>éléments</corr>
+               </choice> du groupe, par laquelle on<lb/> met à part la
+               <hi rend="underline">notion</hi> de ce
+               <hi rend="underline">mode<lb/>
+                  d'union</hi>, comme la
+               <hi rend="underline">causalité</hi>, le<lb/>
+               <hi rend="underline">nombre</hi>, la <hi rend="underline">forme</hi>, etc... Si vous
+               appelez<lb/> cet acte éminemment actif <hi rend="underline">intuition</hi>
+          <pb n="623" facs="#ACAS_CRHST_AMP_15_261_bis_0157_v.jpg"/>
+               <hi rend="underline">intellectuelle</hi> ce n'est qu'en regardant le<lb/> mot
+               <hi rend="underline">intuition</hi> comme exprimant
+               <hi rend="underline">l'action</hi>
+          <lb/> de voir <hi rend="underline">dans</hi> le
+               groupe, de la préposition<lb/>
+               <hi rend="underline">in</hi>
+               <hi rend="underline">dans</hi>, alors il faudrait nommer<lb/>
+               <hi rend="underline">l'autopsie</hi>, <hi rend="underline">intuition primitive</hi>,
+               <hi rend="underline">vue<lb/>
+                  en dedans du moi</hi> ; j'aimerais
+               mille fois<lb/> mieux cette expression que celle<lb/> d'<choice>
+                  <sic>apperception</sic>
+                  <corr>aperception</corr>
+               </choice>, mot aussi vague<lb/> qu'insignifiant, puisqu'on <choice>
+                  <sic>apperçoit</sic>
+                  <corr>aperçoit</corr>
+               </choice>
+          <lb/> aussi bien les <hi rend="underline">sensations</hi> et les<lb/>
+               <hi rend="underline">rapports</hi> de <hi rend="underline">ressemblance</hi> que le<lb/>
+               <hi rend="underline">moi</hi> et les <hi rend="underline">relations</hi>.</p>
+            <p>J'aimais assez l'analogie grammaticale<lb/> des mots
+               <hi rend="underline">autopsie</hi> et <hi rend="underline">synthétopsie</hi>,
+               les<lb/> deux <hi rend="underline">phénomènes</hi> qu'ils représentaient<lb/> ayant
+               une telle analogie que l'un<lb/> est comme un progrès ultérieur<lb/> de l'autre.</p>
+            <p>Comment pouvez-vous, mon cher<lb/> ami, consentir à désigner un<lb/> phénomène si
+               simple et si primitif<lb/> par cette longue périphrase :<lb/>
+               <hi rend="underline">
+            <cit>
+              <quote>aperception immédiate interne</quote>
+            </cit>
+          </hi>.<lb/>
+               Croyez-vous que l'analogie de mes<lb/> 4 systèmes et des 4 <choice>
+                  <sic>cathégories</sic>
+                  <corr>catégories</corr>
+               </choice> de<lb/>
+               <persName ref="#pers_K328">Kant</persName>, auxquelles je n'avais point songé<pb n="624" facs="#ACAS_CRHST_AMP_15_261_bis_0158_r.jpg"/> en le composant, soit
+               l'effet du <choice>
+                  <sic>hazard</sic>
+                  <corr>hasard</corr>
+               </choice> ?<lb/> N'est-ce pas plutôt un résultat des lois<lb/> de notre entendement ?
+               Avez-vous fait<lb/> attention que le nouveau <hi rend="underline">phénomène</hi>
+          <lb/>
+               qui donne naissance au <hi rend="underline">système</hi> dont<lb/> il forme le
+               premier point, se combine<lb/> avec tous les <hi rend="underline">phénomènes</hi> des
+               <hi rend="underline">systèmes<lb/>
+                  <choice>
+              <sic>précédens</sic> <corr>précédents</corr>
+            </choice>
+          </hi> ? <list>
+                  <item n="1"> Le moi enfantin du<lb/> second <hi rend="underline">système</hi> avec
+                     les
+                     <hi rend="underline">phénomènes<lb/>
+                        sensitifs</hi> ;</item>
+                  <item n="2"> La <hi rend="underline">comparaison</hi> à tous les<lb/>
+                     <hi rend="underline">phénomènes</hi> des deux
+                     <hi rend="underline">systèmes <choice>
+                  <sic>précédens</sic> <corr>précédents</corr>
+                </choice>
+              </hi>,<lb/>
+                     qu'elle nous conduit également à<lb/>
+                     <hi rend="underline">classer</hi> et à
+                     <hi rend="underline">dénommer</hi> ;</item>
+                  <item n="3">
+                     <hi rend="underline">L'intuition<lb/>
+                              intellectuelle</hi>
+                     ou <hi rend="underline">synthétopsie</hi>, à toutes les
+                     <hi rend="underline">coordinations</hi> fournies par les 3 autres<lb/>
+                     <hi rend="underline">systèmes</hi>, où elle découvre dans celles<lb/> du 1r.
+                     les <hi rend="underline">relations</hi> de nombre, de<lb/> figure et d'étendue,
+                     d'où naissent<lb/> toutes les <hi rend="underline">déductions</hi>
+                     mathématiques ;<lb/> dans celle du 2d système, les
+                     <hi rend="underline">relations</hi>
+              <lb/> de
+                     <hi rend="underline">causalité</hi>,
+                     <hi rend="underline">de
+               succession</hi>, de
+                     <hi rend="underline">substance</hi>
+              <lb/> et
+                     d'<hi rend="underline">accident</hi>, <hi rend="underline">d'existence</hi>,
+                     etc..., d'où<lb/> naissent toutes les <hi rend="underline">déductions</hi> des<lb/>
+                     <hi rend="underline">sciences métaphysiques</hi> et
+                     <hi rend="underline">morales a<lb/>
+                                 priori</hi> ;
+                     enfin dans les <hi rend="underline"> classifications</hi>
+              <pb n="625" facs="#ACAS_CRHST_AMP_15_261_bis_0159_v.jpg"/> du 3me système les relations de<lb/>
+                     <hi rend="underline">compréhension</hi>, source de toutes les<lb/>
+                     <hi rend="underline">déductions logiques</hi>, du
+                     <hi rend="underline">syllogisme</hi>, etc...</item>
+               </list>
+          <lb/> Ce n'est qu'en partant de ce point de<lb/> vue que j'ai pu me faire une
+               idée<lb/> nette de ces 3 sortes de <hi rend="underline">déductions</hi> et<lb/> des
+               nuances qui les caractérisent, sans<lb/> empêcher qu'elles découlent toutes<lb/> d'un
+               principe unique, que je<lb/> vous énoncerai dans une prochaine<lb/> lettre, et qui
+               est le fondement<lb/> de toute
+               <hi rend="underline">connaissance nécessaire</hi>,<lb/> comme la théorie des
+               <hi rend="underline">hypothè<supplied>ses</supplied>
+          </hi>
+          <lb/> explicatives est la
+               base de toute<lb/>
+               <hi rend="underline">connaissance nouménale objective</hi>.<lb/> Je suis convaincu,
+               mon cher ami,<lb/> que vous ne <hi rend="underline">connaissez</hi> bien encore<lb/>
+               ni les <hi rend="underline">principes</hi>, ni la
+               <hi rend="underline">marche<lb/>
+                  nécessaire</hi>, ni les
+               <hi rend="underline">applications</hi> de<lb/> ma théorie ou plutôt de celle<lb/> de
+               la nature même de mon<lb/>
+               <hi rend="underline">entendement</hi>, je le vois même<lb/> dans votre dernière
+               lettre. Je crois<lb/> même que sans cela vous ne me<lb/> proposeriez pas de remplacer
+               le<lb/> mot <hi rend="underline">autopsie</hi> par celui
+                  d'<hi rend="underline">
+            <choice>
+              <sic>apperception</sic> <corr>aperception</corr>
+            </choice>
+          </hi>
+          <pb n=""/>
+               <hi rend="underline">immédiate
+               interne</hi>, qui me semblerait<lb/>
+               plus propre à désigner l'application<lb/> de
+               <hi rend="underline">l'intuition
+               intellectuelle</hi> au<lb/>
+               <hi rend="underline">phénomène</hi> de <hi rend="underline">l'autopsie</hi>, et à la<lb/>
+               <hi rend="underline">causalité</hi> qu'il contient, que ce<lb/>
+               <hi rend="underline">phénomène</hi> lui-même. Cette<lb/>
+               <hi rend="underline">application</hi> est un acte de la<lb/>
+               <hi rend="underline">r<supplied>a</supplied>ison réfléchie</hi> qui ne peut<lb/>
+               appartenir qu'au 4me système.<lb/> Je ne puis vous en écrire davantage<lb/>
+               <supplied>a</supplied>vant d'avoir vu votre tableau.<lb/> S'<supplied>i</supplied>l
+               n'était pas encore parti, envo<supplied>yez</supplied>
+          <lb/>le moi de grâce et
+                  sur-le-cha<supplied>mp.</supplied>
+          <lb/> Je meurs d'impatience de le voir.<lb/>
+               Répondez-moi aussi je vous en<lb/> conjure sur tous les points que j'ai<lb/> indiqués
+               de mon mieux dans<lb/> cette longue lettre. Y a-t-il des<lb/> choses que vous
+               n'admettiez pas ?<lb/> Adieu, mon cher ami, je vous<lb/> embrasse de toute mon âme.<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName>
+            </p>
+         </div>
+      </body>
+      <back>
+         <div>
+            <note xml:id="corresp_1">Ce que je voulais nommer
+               <hi rend="underline">synthétopsie</hi>.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

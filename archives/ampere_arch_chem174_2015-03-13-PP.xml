@@ -1,0 +1,791 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Archives André-Marie Ampère - Chemise 174</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+               <forename>André-Marie</forename>
+               <surname>Ampère</surname>
+            </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des sciences</affiliation>
+               </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+               <addrLine>27 rue Damesme</addrLine>
+               <addrLine>75013 Paris</addrLine>
+            </address>
+            <distributor>
+               <name>Centre de calcul de l'IN2P3</name>
+               <address>
+                  <addrLine>Domaine scientifique de la Doua</addrLine>
+                  <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+                  <addrLine>69622 Villeurbanne Cedex</addrLine>
+               </address>
+            </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier xml:id="ampere_arch_chem174">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                  <idno>Chemise 174</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Travaux sur les courants - note sur une expérience avec
+                     Becquerel</summary>
+                  <msItem xml:id="ampere_arch_chem174_1">
+                     <title>Schémas (fait observé par M. Becquerel)</title>
+                  </msItem>
+                  <msItem xml:id="ampere_arch_chem174_2">
+                     <title>Note sur un fait communiqué à l'Académie...</title>
+                  </msItem>
+                  <msItem xml:id="ampere_arch_chem174_3">
+                     <title>Note sur les découvertes faites par Oersted, Arago et Ampère</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <handNote corresp="#AMA">
+                        <name type="person" key="Ampère, André-Marie (1775-1836)">
+                           <forename>André-Marie</forename>
+                           <surname>Ampère</surname>
+                        </name>
+                     </handNote>
+                     <handNote xml:id="MM">
+                        <name type="person" key="Mathieu Marcel">
+                           <forename>Marcel</forename>
+                           <surname>Mathieu</surname>
+                        </name>
+                     </handNote>
+                     <handNote xml:id="main_inconnue">
+                        <name type="person">scribe inconnu</name>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <additional>
+                  <listBibl>
+                     <bibl>
+                        <title>Catalogue du Fonds André-Marie Ampère, Électricité et magnétisme,
+                           Carton IX, Chemise 174</title>
+                        <biblScope type="pp">p. 16</biblScope>
+                        <publisher>éd. Archives de l'Académie des Sciences</publisher>, <date when-iso="1937">1937</date>.
+                           <idno>http://www.ampere.cnrs.fr/manuscrits/catalogueAS.pdf</idno>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="2014-01">janvier 2014</date>
+            <name>Philippe Pons</name>
+            <name>Aude Coustumer</name>
+         </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date when="2014-08">août 2014</date>
+            <name>Philippe Pons</name>
+         </change>
+         <change>
+            <date when="2015-03">mars 2015</date>
+            <name>Philippe Pons</name>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="images_ch174_1" corresp="#ch174_1">
+      <graphic url="ACAS_CRHST_AMP_09_174_0001_r.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_09_174_0002_r.jpg"/>
+   </facsimile>
+   <facsimile xml:id="images_ch174_2" corresp="#ch174_2">
+      <graphic url="ACAS_CRHST_AMP_09_174_0003_r.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_09_174_0004_v.jpg"/>
+   </facsimile>
+   <facsimile xml:id="images_ch174_3" corresp="#ch174_3">
+      <graphic url="ACAS_CRHST_AMP_09_174_0005_r.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_09_174_0006_r.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_09_174_0007_v.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_09_174_0008_r.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_09_174_0009_v.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_09_174_0010_r.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_09_174_0011_v.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_09_174_0012_r.jpg"/>
+   </facsimile>
+   <text decls="#ampere_arch_chem174" type="archives">
+      <group>
+         <text decls="#ampere_arch_chem174_1">
+            <body>
+               <div>
+                  <p>
+                     <pb n="1" facs="#ACAS_CRHST_AMP_09_174_0001_r.jpg"/>
+                     <handShift new="#MM"/>
+                  </p>
+                  <p>
+                     <pb n="2" facs="#ACAS_CRHST_AMP_09_174_0002_r.jpg"/>
+                     <handShift new="#AMA"/>1er fait observé par Mr. <persName>Becquerel</persName>
+                     qu'il a reproduit<lb/> avec Mr. <persName>Ampère</persName>.<lb/> Les courants
+                     par l'influence d'un aimant ressemblent<lb/> aux courants hydro et <gap reason="lacune"/>
+              <lb/>
+                     <figure/>
+            </p>
+                  <p> </p>
+               </div>
+            </body>
+         </text>
+         <text n="2" decls="#ampere_arch_chem174_2">
+            <body>
+               <div>
+                  <p>
+                     <pb n="3" facs="#ACAS_CRHST_AMP_09_174_0003_r.jpg"/>
+                     <del>Je crois devoir consigner <gap reason="illisible"/>
+                <lb/>
+                        <gap reason="illisible"/>
+              </del>
+                     <hi rend="underline">note sur un fait</hi>
+                     <del>que j'ai</del>
+                     <hi rend="underline">communiqué<lb/> à l'<orgName>Académie des
+                           sciences</orgName>
+              </hi>
+                     dans la séance<lb/> du <date when="1824-04-12">12 avril 1824</date>, par Mr. <persName>Ampère</persName>.<lb/>
+                     <del type="illisible"/> Comme le <del type="illisible"/> courant
+                     électrique<lb/> parcourt les <del type="illisible"/> métaux avec<lb/> une
+                     facilité presqu'infiniment grande<lb/> relativement à celle avec laquelle
+                     il<lb/> traverse <subst>
+                        <del type="illisible"/>
+                        <add>les conducteurs liquides,</add>
+                     </subst> j'ai pensé que<lb/> quand le circuit voltaïque est établi,<lb/> les
+                     plaques de zinc se chargent d'électricité<lb/> positive et les plaques de
+                     cuivre d'électricité<lb/> négative, par l'action qui s'exerce au<lb/> point où
+                        elle<supplied>s</supplied> sont en contact,<lb/> beaucoup plus rapidement
+                        <del type="illisible"/>
+              <lb/> que l'équilibre ne peut se rétablir à<lb/>
+                     travers l'eau acidulée, et qu'ainsi<lb/>
+                     <del>la tension élect</del> quand une plaque<lb/> de zinc, par exemple, <del type="illisible"/>
+                     <add>est</add> en contact<lb/> avec une plaque de cuivre qui<lb/> communique
+                     avec le réservoir<lb/> commun <subst>
+                        <add>la tension électrique de cette</add>
+                        <lb/>
+                        <del type="illisible"/>
+                        <add>plaque de zinc doit rester <del type="illisible"/> lorsqu'on</add>
+                     </subst>
+              <lb/>
+                     <del>la même lorsqu'on</del> fait plonger<lb/> ces deux plaques dans l'eau acidulée<lb/>
+                     <subst>
+                        <del>que</del>
+                        <add>à peu près la même que</add>
+                     </subst> quand la plaque de zinc est<lb/> isolée à tous les
+                        point<supplied>s</supplied> de sa surface<lb/> où elle ne touche pas le
+                     cuivre.<lb/> Les <choice>
+                        <sic>perfectionnemens</sic>
+                        <corr>perfectionnements</corr>
+                     </choice> que Mr. <persName>Becquerel</persName>
+              <lb/> a apportés à
+                     l'électromètre de<lb/>
+                     <persName>Bohenberger</persName> le rendant propre à<lb/>
+                     <subst>
+                        <del>vérifier directement cette conjecture,</del>
+                        <lb/>
+                        <add>mesurer <del type="illisible"/> la tension de la plaque de zinc dans
+                           l'un</add>
+                        <lb/>
+                        <del type="illisible"/>
+                        <lb/>
+                        <add>et l'autre cas, j'ai prié cet habile physicien</add>
+                     </subst>
+                     <pb n="4" facs="#ACAS_CRHST_AMP_09_174_0004_v.jpg"/> de voir <subst>
+                        <add>si ma conjecture</add>
+                        <del type="illisible"/>
+                     </subst> était fondée, et il s'est<lb/> assuré qu'en effet on ne diminue
+                     pas<lb/> sensiblement la tension d'une plaque<lb/> de zinc soudée <del>à un
+                        vase</del> au bord<lb/> d'un vase de cuivre dans l'intérieur<lb/> duquel
+                     elle <subst>
+                        <del type="illisible"/>
+                        <add>se trouve ainsi suspendue quand on</add>
+                     </subst> verse<lb/> de l'eau acidulée dans ce vase, lors<lb/> même que la
+                     portion de sa surface<lb/>
+                     <subst>
+                        <del>qui s'y trouve ne plonge</del>
+                        <add>plongée dans ce conducteur liquide</add>
+                     </subst> est <del type="illisible"/> très<lb/> grande relativement à <del type="illisible"/>
+              <lb/> la portion de la <del type="illisible"/> même
+                     surface<lb/> occupée par la soudure.</p>
+                  <p>IL suit de cette expérience que dans une<lb/> pile en action dont les deux
+                     extrémités sont<lb/> réunies par un fil conducteur il y a <del type="illisible"/>
+              <lb/> au moins à très peu <add>près</add> la même différence<lb/> de tension
+                     électrique <subst>
+                        <del>que quand ces deux</del>
+                        <add>entre une plaque de zinc</add>
+                     </subst>
+              <lb/> et la plaque de cuivre qui est soudée avec<lb/> elle que quand
+                     les deux extrémités sont<lb/> isolées, mais avec cette différence que<lb/>
+                     toutes les plaques de zinc ont la même<lb/> tension, et que celles de cuivre
+                        on<supplied>t</supplied> toutes<lb/> aussi une même tension inférieure<lb/>
+                     à la première.</p>
+               </div>
+            </body>
+         </text>
+         <text n="3" decls="#ampere_arch_chem174_3">
+            <body>
+               <div>
+                  <p>
+                     <pb n="5" facs="#ACAS_CRHST_AMP_09_174_0005_r.jpg"/>
+                     <handShift new="#MM"/>
+            </p>
+                  <p>
+              <pb n="6" facs="#ACAS_CRHST_AMP_09_174_0006_r.jpg"/>
+                     <handShift new="#main_inconnue"/> L'ordre dans lequel les différents faits qui
+                     se rattachent à une même branche<lb/> de la physique se présentent à ceux qui
+                     les découvrent, dépendant le plus souvent des<lb/> circonstances fortuites, il
+                     est rare que cet ordre soit celui qui convient à l'exposition méthodique<lb/>
+                     de ces faits. Cette observation s'applique particulièrement aux <subst>
+                        <del>nouvelles</del>
+                        <add>nouvelle<supplied>s</supplied> propriétés</add>
+                     </subst>
+                     <ref xml:id="note-ch174_AMA1" target="#ch174_AMA1">(I)</ref> des
+                     conducteurs<lb/> voltaïques découvertes par MM. <persName>Œrsted</persName>,
+                     <persName>Arago</persName>, <persName>Ampère</persName>, &amp; la masse des
+                     faits qu'ils<lb/> ont découverts, et de ceux qu'on peut y rapporter et qui sont
+                     dus à d'autres physiciens,<lb/> est aujourd'hui assez considérable pour qu'on
+                     puisse les présenter dans l'ordre qui<lb/> résulte naturellement de leur
+                     dépendance mutuelle ; c'est ce que nous proposons de<lb/> faire dans cet
+                     article.</p>
+                  <p>
+              <list>
+                        <item n="1">Le premier de ces faits dans l'ordre naturel nous parait être
+                           celui<lb/> que Mr. <persName>Ampère</persName> a annoncé le <date when-iso="06-24">24 juin</date> dernier à
+                           l'<orgName>Académie des
+                              sciences</orgName>
+                           comme<lb/> résultant de ses formules et qui n'a été vérifié par
+                           l'expérience qu'au mois de septembre<lb/> suivant, c'est la répulsion
+                           mutuelle de toutes les parties d'un courant électrique<lb/> rectiligne.
+                           Cette propriété semble être dans les <choice>
+                              <sic>courans</sic>
+                              <corr>courants</corr>
+                           </choice> électriques la source de<lb/> toutes les autres, et lier les
+                           phénomènes qu'ils présentent à ceux qui sont produits<lb/> par la machine
+                           électrique ordinaire, et spécialement à la répulsion qu'on observe<lb/>
+                           dans l'expérience du moulinet électrique entre les points de cet
+                           instrument et<lb/> l'air où se répand l'électricité qui sort de ces
+                           pointes. <ref xml:id="note-ch174_AMA2" target="#ch174_AMA2">(1)</ref>
+                </item>
+                        <lb/>
+                        <item n="2">Si dans ce premier fait on considère deux portions
+                           contiguës<lb/> du courant électrique entre lesquelles il y ait répulsion,
+                           comme les deux cotés<lb/> d'un angle de 180°, on conçoit qu'en faisant
+                           tourner les cotés de cet angle autour de<lb/> son sommet, le courant
+                           électrique parcourra un des cotés en s'approchant du sommet<lb/> et
+                           l'autre en s'en éloignant. On observe dans cette situation que la même
+                           répulsion<lb/> a lieu entre les deux cotés de l'angle en sorte que l'un <choice>
+                              <sic>deux</sic>
+                              <corr>d'eux</corr>
+                           </choice> étant mobile, il tourne<lb/> autour du sommet en s'éloignant de
+                           l'autre. Ce second fait prouve que la<lb/> répulsion dont il est ici
+                           question s'exerce à distance et non pas seulement<lb/>
+                           <hi rend="underline">entre les parties contiguës du courant électrique
+                              l'action infiniment petite des deux courants<lb/> est toujours dirigée
+                              suivant la ligne qui les joint (1)
+                              <ref xml:id="note-ch174_AMA3" target="#ch174_AMA3">(2)</ref>
+                  </hi>
+                </item>
+                        <pb n="7" facs="#ACAS_CRHST_AMP_09_174_0007_v.jpg"/>
+                        <item n="3">Le même effet a lieu lorsque les deux portions de courant
+                           électrique qui<lb/> agissent l'une sur l'autre sont dans des plans <choice>
+                              <sic>différens</sic>
+                              <corr>différents</corr>
+                           </choice> pourvu que l'un des <choice>
+                              <sic>courans</sic>
+                              <corr>courants</corr>
+                           </choice>
+                  <lb/> aille toujours en s'approchant et l'autre en s'éloignant
+                           de la perpendiculaire commune<lb/> qui mesure la plus courte distance de
+                           leurs directions.</item>
+                        <lb/>
+                        <item n="4">Il y a encore lieu quand l'angle formé par ces directions se
+                           réduit à zéro, c'est-à<lb rend="hyphen"/> dire quand les <choice>
+                              <sic>courans</sic>
+                              <corr>courants</corr>
+                           </choice> parcourent en sens contraires deux lignes parallèles. <ref xml:id="note-ch174_AMA4" target="#ch174_AMA4">(3)</ref>
+                </item>
+                        <lb/>
+                        <item n="5">Quand on change la direction d'un de ces <choice>
+                              <sic>courans</sic>
+                              <corr>courants</corr>
+                           </choice> dans les expériences<lb/> précédentes, la répulsion se change
+                           en une attraction égale, en sorte que deux<lb/>
+                           <choice>
+                              <sic>courans</sic>
+                              <corr>courants</corr>
+                           </choice> s'attirent, quand ils parcourent soit les deux cotés d'un angle
+                           plan ou<lb/> gauche <ref xml:id="note-ch174_AMA5" target="#ch174_AMA5">(4)</ref> en s'approchant ou en s'éloignant tous deux du sommet ou de
+                           la<lb/> perpendiculaire commune, soit deux lignes parallèles en allant
+                           dans le<lb/> même sens. <ref xml:id="note-ch174_AMA6" target="#ch174_AMA6">(5)</ref>
+                </item>
+                        <lb/>
+                        <item n="6">Il est presque inutile de remarquer que si l'on changeait à la
+                           fois<lb/> la direction des deux <choice>
+                              <sic>courans</sic>
+                              <corr>courants</corr>
+                           </choice> leur action resterait la même qu'auparavant.</item>
+                        <lb/>
+                        <item n="7">Si l'on substitue à une portion rectiligne du circuit voltaïque,
+                           une<lb/> portion <del>du circuit voltaïque</del> pliée ou contournée
+                           d'une manière quelconque et dont<lb/> les sinuosités s'éloignent très
+                           près de la direction de celle qu'elle remplace, l'action<lb/> exercée sur
+                           un conducteur mobile rectiligne sera toujours la même ; d'où il suit<lb/>
+                           que l'action d'une petite portion de courant électrique sur une autre est
+                           égale à<lb/> la somme des actions qu'exerceraient sur cette dernière les
+                           trois projections de la<lb/> première sur trois plans coordonnés. <ref xml:id="note-ch174_AMA7" target="#ch174_AMA7">(6)</ref>
+                </item>
+                        <lb/>
+                        <item n="8">Il est aisé de conclure de ces faits que lorsque un conducteur
+                           rectiligne<lb/> indéfini agit sur une petite portion d'un conducteur
+                           mobile dont la direction est<lb/> perpendiculaire à la sienne, la
+                           résultante de toutes les actions exercées par les petites<lb/> portions
+                           du conducteur indéfini, lui est parallèle et dirigée vers le coté qui
+                           communique<lb/> avec l'extrémité positive de la pile, dans le cas où le
+                           courant du conducteur<lb/> mobile va en s'approchant du conducteur
+                           indéfini, et vers le coté où la communication<lb/> a lieu avec
+                           l'extrémité négative de la pile quand le même courant va en s'en approchant<lb/>
+                           <ref xml:id="note-ch174_AMA8" target="#ch174_AMA8">(7)</ref>. C'est ce
+                           qui rend raison des <choice>
+                              <sic>différens</sic>
+                              <corr>différents</corr>
+                           </choice> phénomènes produits par cette action <pb n="8" facs="#ACAS_CRHST_AMP_09_174_0008_r.jpg"/> suivant que le conducteur
+                           mobile est assujetti à tourner autour d'un axe parallèle ou<lb/>
+                           perpendiculaire à sa direction et que dans ce dernier cas il en résulte
+                           dans le conducteur<lb/> mobile un mouvement de rotation continu toujours
+                           dans le même sens, lorsque le<lb/> conducteur rectiligne indéfini est
+                           hors de la surface du cylindre droit qui a pour<lb/> base le cercle
+                           décrit par le conducteur mobile <ref xml:id="note-ch174_AMA9" target="#ch174_AMA9">(8)</ref>.</item>
+                        <lb/>
+                        <item n="9">On voit avec la même facilité pourquoi un conducteur circulaire
+                           en<lb/> imprimant toujours le même mouvement de rotation continu au<lb/>
+                           conducteur mobile parallèle à cet axe, mais seulement quand le
+                           centre<lb/> du conducteur circulaire se trouve au dedans de la surface
+                           cylindrique dont<lb/> nous venons de parler, ainsi que le montre
+                           l'expérience. <ref xml:id="note-ch174_AMA10" target="#ch174_AMA10">(9)</ref>
+                </item>
+                        <lb/>
+                        <item n="10">La dernière conséquence qui résulte des mêmes considérations
+                           est l'action du<lb/> conducteur indéfini pour amener le conducteur mobile
+                           dans une situation où il lui est<lb/> parallèle et où les deux courants
+                           sont dirigés dans le même sens, lorsque la perpendiculaire<lb/> mobile
+                           aux directions des deux conducteurs passe par le milieu du conducteur
+                           mobile<lb/> et que celui-ci peut tourner librement autour de cette
+                           perpendiculaire <ref xml:id="note-ch174_AMA11" target="#ch174_AMA11">(10)</ref>.</item>
+                        <lb/>
+                        <item n="11">Lorsque la portion mobile du circuit voltaïque a ses deux
+                           extrémités<lb/> dans l'axe autour duquel elle peut tourner, elle
+                           n'éprouve aucune action révolutive<lb/> de la part d'un courant qui
+                           parcourt <add>dans</add> un plan perpendiculaire à cet axe un arc de<lb/>
+                           cercle dont le centre est sur le même axe <ref xml:id="note-ch174_AMA12" target="#ch174_AMA12">(11)</ref>. En combinant ce fait avec celui qui
+                           a<lb/> été décrit (Art VII) on parvient à ce résultat qu'en nommant
+                           <hi rend="underline">i</hi> et <hi rend="underline">i'</hi> les
+                           intensités<lb/> de deux <choice>
+                              <sic>courans</sic>
+                              <corr>courants</corr>
+                           </choice> électriques, <hi rend="underline">ds</hi> et
+                           <hi rend="underline">d'</hi> les longueurs de deux portions infiniment petites,<lb/>
+                           <hi rend="underline">r</hi> la distance de ces portions, K un nombre
+                           constant dont d'autres expériences montrent<lb/> que la valeur est <formula>
+                              <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                 <mrow>
+                                    <mo>−</mo>
+                                    <mfrac>
+                                       <mrow>
+                                          <mn>1</mn>
+                                       </mrow>
+                                       <mrow>
+                                          <mn>2</mn>
+                                       </mrow>
+                                    </mfrac>
+                                 </mrow>
+                              </math>
+                           </formula> ; et en représentant par <hi rend="underline">dr</hi>, la
+                           différentielle de <hi rend="underline">r</hi> relative à
+                           <hi rend="underline">ds'</hi>,<lb/> l'action mutuelle des deux portions
+                           infiniment petites,l'action qui s'exerce suivant<lb/> la ligne qui les
+                           joint est exprimée par<lb/>
+                           <formula>
+                              <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                 <mrow>
+                                    <mo>−</mo>
+                                    <mi>i</mi>
+                                    <mi>i'</mi>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mi>k</mi>
+                                    </msup>
+                                    <mi>d</mi>
+                                    <mo>(</mo>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mi>k</mi>
+                                    </msup>
+                                    <mi>d'</mi>
+                                    <mi>r</mi>
+                                    <mo>)</mo>
+                                 </mrow>
+                              </math>
+                           </formula>
+                  <lb/> ou<lb/>
+                           <formula>
+                              <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                 <mrow>
+                                    <mi>i</mi>
+                                    <mi>i'</mi>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mi>k</mi>
+                                    </msup>
+                                    <mi>d'</mi>
+                                    <mo>(</mo>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mi>k</mi>
+                                    </msup>
+                                    <mi>d</mi>
+                                    <mi>r</mi>
+                                    <mo>)</mo>
+                                 </mrow>
+                              </math>
+                           </formula>, <ref xml:id="note-ch174_AMA13" target="#ch174_AMA13">(12)</ref>.</item>
+                        <lb/>
+                        <item n="12">Un circuit métallique et isolé, placé très près d'un autre
+                           circuit <pb n="9" facs="#ACAS_CRHST_AMP_09_174_0009_v.jpg"/> parcouru par
+                           un courant électrique très intense est attiré ou repoussé par un
+                           aimant<lb/> comme s'il s'y produisait un faible courant électrique pour
+                           l'influence de l'autre<lb/> circuit <ref xml:id="note-ch174_AMA14" target="#ch174_AMA14">(13)</ref>.</item>
+                        <lb/>
+                        <item n="13">La pile voltaïque agit elle-même dans tous les cas comme un
+                           conducteur<lb/> en ayant égard à la direction que doivent avoir les <choice>
+                              <sic>courans</sic>
+                              <corr>courants</corr>
+                           </choice> produits dans l'intérieur<lb/> de la pile par l'action
+                           électro-motrice de ses <choice>
+                              <sic>élémens</sic>
+                              <corr>éléments</corr>
+                           </choice>
+                           <ref xml:id="note-ch174_AMA15" target="#ch174_AMA15">(14)</ref>.</item>
+                        <lb/>
+                        <item n="14">Le globe terrestre agit de même dans tous les cas comme s'il
+                           était<lb/> entouré de <choice>
+                              <sic>courans</sic>
+                              <corr>courants</corr>
+                           </choice> électriques allant de l'Est à l'Ouest dans des directions dont
+                           la<lb/> moyenne est parallèle à l'équateur magnétique, en sorte que tant
+                           à l'égard de<lb/> la pile qu'à l'égard de la terre, il suffit d'examiner
+                           ce qui doit résulter de<lb/> courant électriques disposés dans leur
+                           intérieur comme nous venons de le dire, pour<lb/> prévoir les effets
+                           qu'elles produisent, en attirant, repoussant ou faisant<lb/> tourner
+                           toujours dans le même sens des conducteurs mobiles <ref xml:id="note-ch174_AMA16" target="#ch174_AMA16">(15)</ref>
+                </item>
+                        <lb/>
+                        <item n="15">On reconnaît que le mouvement d'une position de circuit<lb/>
+                           voltaïque est produit par l'action de la terre et non par celle d'une
+                           autre<lb/> partie du même circuit, par ce qu'alors ce mouvement a lieu en
+                           sens contraire<lb/> quand on renverse les communications du circuit avec
+                           les extrémités de la pile ;<lb/> tandis que comme nous l'avons vu (Art
+                           VI) le même changement n'en produit<lb/> aucun dans l'action mutuelle des
+                           diverses parties du circuit <ref xml:id="note-ch174_AMA17" target="#ch174_AMA17">(16)</ref>.</item>
+                        <lb/>
+                        <item n="16">On imite tous les effets produits par le globe terrestre sur
+                           les<lb/> conducteurs au moyen d'une lame de cuivre roulée en hélice, dont
+                           une portion<lb/> revient par l'axe de cette hélice pour que le courant de
+                           cette portion<lb/> neutralise l'effet des projections parallèles à l'axe
+                           des spires de l'hélice.</item>
+                        <lb/>
+                        <item n="17">L'extrémité de cette hélice qui est placée rotativement aux<lb/>
+                           <choice>
+                              <sic>courans</sic>
+                              <corr>courants</corr>
+                           </choice> de ces spires comme le pôle austral de la terre, l'est par<lb/>
+                           rapport aux <choice>
+                              <sic>courans</sic>
+                              <corr>courants</corr>
+                           </choice> dirigés de l'Est à l'Ouest dans notre globe, agit comme<lb/> ce
+                           pôle et l'extrémité opposée de la même hélice agit comme le pôle
+                           boréal<lb/> de la terre. De là les noms de pôle austral et pôle boréal
+                           donnés aux deux <pb n="10" facs="#ACAS_CRHST_AMP_09_174_0010_r.jpg"/>
+                           extrémités de l'hélice.</item>
+                        <item n="18">Il suit des <choice>
+                              <sic>loix</sic>
+                              <corr>lois</corr>
+                           </choice> de l'action mutuelle des conducteurs<lb/> voltaïques que deux
+                           hélices doivent se repousser par les pôles de<lb/> même nom et s'attirer
+                           par les pôles de nom contraire, qu'une<lb/> hélice doit être dirigée par
+                           un conducteur rectiligne indéfini, placé<lb/> vis à vis de son milieu de
+                           manière que son axe forme un angle<lb/> droit avec la direction du
+                           conducteur et que son pôle austral soit<lb/> à gauche du courant qui le
+                           parcourt ; que dans cette situation il<lb/> attire l'hélice, et qu'il la
+                           repousse lorsque son pôle austral est à<lb/> droite du même courant que
+                           le pôle austral d'une hélice mobile autour<lb/> d'un axe vertical doit
+                           être dirigé du coté du nord par l'action des<lb/>
+                           <choice>
+                              <sic>courans</sic>
+                              <corr>courants</corr>
+                           </choice> terrestres, et le pôle boréal du coté du midi et que si la
+                           même<lb/> hélice est mobile autour d'un axe horizontal perpendiculaire
+                           au<lb/> méridien magnétique, elle doit s'incliner en portant son pôle
+                           boréal<lb/> vers la terre. Toutes ces conséquences de la théorie sont
+                           confirmées par<lb/> l'expérience <ref xml:id="note-ch174_AMA18" target="#ch174_AMA18">(17)</ref>.</item>
+                        <lb/>
+                        <item n="19">Lorsqu'on place un fil d'acier dans une hélice que<lb/>
+                           parcourt le courant électrique, on remarque que les phénomènes<lb/>
+                           présentés par l'hélice augmentent en intensité, mais restent les
+                           mêmes<lb/> à tous autres égards, et que le fil d'acier retiré ensuite de
+                           l'hélice conserve<lb/> les mêmes propriétés <ref xml:id="note-ch174_AMA19" target="#ch174_AMA19">(18)</ref>. Il suit de
+                           là qu'en appliquant aux extrémités<lb/> de ce fil les noms de pôle
+                           austral et de pôle boréal des extrémités<lb/> correspondantes de
+                           l'hélice, deux fils d'acier ainsi préparés se<lb/> repoussent par les
+                           pôles de même nom, et s'attirent par les pôles<lb/> de nom contraire,
+                           qu'un de ces fils est dirigé par un conducteur<lb/> rectiligne indéfini
+                           placé vis-à-vis de son milieu de manière que son<lb/> axe forme un angle
+                           droit avec la direction de ce conducteur, et<lb/> que son pôle austral
+                           soit à gauche du courant qui le parcourt <ref xml:id="note-ch174_AMA20" target="#ch174_AMA20">(19)</ref>
+                           <pb n="11" facs="#ACAS_CRHST_AMP_09_174_0011_v.jpg"/> que dans cette
+                           situation le conducteur indéfini attire le fil d'acier<lb/> et qu'il le
+                           repousse lorsque son pôle austral est à droite du même<lb/> courant <ref xml:id="note-ch174_AMA21" target="#ch174_AMA21">(20)</ref>, la ligne
+                           qui mesure la plus courte distance du conducteur<lb/> indéfini et de
+                           l'axe de l'aimant étant supposée rencontrer cet axe<lb/> entre les deux
+                           pôles <ref xml:id="note-ch174_AMA22" target="#ch174_AMA22">(21)</ref> ;
+                           que le pôle austral du fil d'acier est dirigé au<lb/> nord par l'action
+                           des <choice>
+                              <sic>courans</sic>
+                              <corr>courants</corr>
+                           </choice> terrestres, et son pôle boréal au midi<lb/> quand ce fil
+                           d'acier est mobile autour d'un axe vertical et qu'il s'incline<lb/> comme
+                           l'hélice quand il est autour d'un axe horizontal perpendiculaire<lb/> au
+                           méridiens magnétique. Le seul de ces faits qui ne fut pas connu<lb/>
+                           depuis <choice>
+                              <sic>longtems</sic>
+                              <corr>longtemps</corr>
+                           </choice> et celui que Mr. <persName>Œrsted</persName> a découvert en
+                           1820, et que<lb/> j'ai ramené à deux résultats généraux dans mon premier
+                           mémoire.</item>
+                        <lb/>
+                        <item n="20">Un fil d'acier qui présente ces propriétés est ce qu'on <choice>
+                              <sic>appèle</sic>
+                              <corr>appelle</corr>
+                           </choice>
+                  <lb/> un aimant ; tous les phénomènes produits par les morceaux
+                           d'acier qui<lb/> en sont doués se ramènent immédiatement aux lois de
+                           l'action mutuelle<lb/> des <choice>
+                              <sic>courans</sic>
+                              <corr>courants</corr>
+                           </choice> voltaïques lorsqu'on suppose autour des particules des<lb/>
+                           <choice>
+                              <sic>aimans</sic>
+                              <corr>aimants</corr>
+                           </choice> des <choice>
+                              <sic>courans</sic>
+                              <corr>courants</corr>
+                           </choice> électriques dans des plans qui sont comme ceux des<lb/>
+                           <choice>
+                              <sic>courans</sic>
+                              <corr>courants</corr>
+                           </choice> des hélices perpendiculaires à l'axe vers le milieu de
+                           l'aimant,<lb/> mais qui s'inclinent sur cet axe d'autant plus que les
+                           particules situées<lb/> hors de cet axe sont plus loin de son milieu.
+                              <ref xml:id="note-ch174_AMA23" target="#ch174_AMA23">(22)</ref>.</item>
+                        <lb/>
+                        <item n="21">Cette inclinaison des <choice>
+                              <sic>courans</sic>
+                              <corr>courants</corr>
+                           </choice> que tout semble devoir<lb/> faire admettre autour des
+                           particules des <choice>
+                              <sic>aimans</sic>
+                              <corr>aimants</corr>
+                           </choice> explique les légères<lb/> différences que M.
+                           <persName>Faraday</persName> a remarquées entre l'action qu'ils
+                           exercent<lb/> et celle qui est produite par les hélices, ainsi que toutes
+                           les circonstances<lb/> de l'aimantation d'un morceau d'acier par un
+                           aimant qui se trouve<lb/> ramenées de cette manière au fait indiqué
+                           précédemment de<lb/> l'aimantation par le courant électrique d'un fil
+                           conducteur. <ref xml:id="note-ch174_AMA24" target="#ch174_AMA24">(23)</ref>.</item>
+                        <lb/>
+                        <item n="22">Il semble d'abord puisqu'on rend raison de tout <pb n="12" facs="#ACAS_CRHST_AMP_09_174_0012_r.jpg"/> les phénomènes que
+                           présentent les aimants, en les considérant<lb/> comme des assemblages de <choice>
+                              <sic>courans</sic>
+                              <corr>courants</corr>
+                           </choice> électriques disposés comme nous<lb/> venons de le dire, qu'on
+                           pourrait également expliquer les phénomènes<lb/> produits par les
+                           conducteurs voltaïques, en les considérant comme<lb/> de <choice>
+                              <sic>petis</sic>
+                              <corr>petits</corr>
+                           </choice> aimants situés transversalement à leur axe, mais il n'en est
+                           pas<lb/> ainsi par ce que d'après la loi générale de l'action mutuelle de
+                           ces<lb/> conducteurs plusieurs des phénomènes qu'ils présentent ne
+                           peuvent<lb/> avoir lieu que quand ils ne forment pas de circuit fermés.
+                           Tel est entre<lb/> autre le mouvement de rotation continu toujours dans
+                           le même sens<lb/> en sorte que de quelque manière qu'on explique la
+                           propriété des<lb/> aimants qui agissent toujours comme des assemblages de
+                           circuits<lb/> voltaïques complètement fermés ce mouvement et les
+                           phénomènes<lb/> analogues ne peuvent jamais être produits par des aimants
+                           de<lb/> quelque manière qu'on les dispose <ref xml:id="note-ch174_AMA25" target="#ch174_AMA25">(24)</ref>. </item>
+                        <lb/>
+                        <item n="23">Lorsqu'on a ainsi ramené l'action des aimants<lb/> aux lois
+                           générales de celle des conducteurs voltaïques on en peut<lb/> déduire <choice>
+                              <sic>différens</sic>
+                              <corr>différents</corr>
+                           </choice> phénomènes qui ont lieu lorsqu'on fait agir<lb/> l'un sur
+                           l'autre un conducteur voltaïque et un aimant, tel que<lb/> la révolution
+                           d'un conducteur autour d'un aimant ou d'un aimant<lb/> autour d'un
+                           conducteur, la rotation d'un de ces corps sur son axe par<lb/> l'action
+                           de l'autre et toutes les autres conséquences de ce genre que<lb/>
+                           l'expérience confirme. <ref xml:id="note-ch174_AMA26" target="#ch174_AMA26">(25)</ref>
+                </item>
+                     </list>
+                  </p>
+               </div>
+            </body>
+            <back>
+               <div>
+                  <note n="1" resp="#AMA" target="#note-ch174_AMA1" xml:id="ch174_AMA1"> On sait que
+                     Mr. <persName>Œrsted</persName> a reconnu le premier de ces conducteurs sur les <choice>
+                        <sic>aimans</sic>
+                        <corr>aimants</corr>
+                     </choice>,<lb/> Mr. <persName>Arago</persName>, la propriété qu'ils ont de
+                     rendre magnétiques le fer et l'acier, et Mr. <persName>Ampère</persName>
+                     l'action<lb/> mutuelle des conducteurs voltaïques et celle qui est exercée sur
+                     eux par le globe terrestre. </note>
+                  <note n="2" resp="#AMA" target="#note-ch174_AMA2" xml:id="ch174_AMA2">Page
+                     285.</note>
+                  <note n="3" resp="#AMA" target="#note-ch174_AMA3" xml:id="ch174_AMA3">Page 80
+                     l'instrument avec lequel Mr. <persName>Ampère</persName> a observé pour la 1ere
+                     fois l'action mutuelle<lb/> de deux fils conducteurs formant un angle
+                     quelconque est décrit page 23, cette action est déjà<lb/> indiquée page 20,
+                     comme servant à ramener le phénomène qui y est décrit aux attractions<lb/> et
+                     répulsions observées entre deux <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                     </choice> parallèles.</note>
+                  <note n="4" resp="#AMA" target="#note-ch174_AMA4" xml:id="ch174_AMA4">Page. 16. 17
+                     et 18.</note>
+                  <note n="5" resp="#AMA" target="#note-ch174_AMA5" xml:id="ch174_AMA5">Nous
+                     appelons ici angle gauche par opposition à l'angle plan, celui qui est formé
+                     par deux<lb/> droites qui ne se rencontrent pas, en prenant le mot gauche dans
+                     le sens qu'on lui donne<lb/> en géométrie lorsqu'on divise le genre des
+                     surfaces réglées en ses trois espèces, le plan,<lb/> les surfaces développables
+                     et les surfaces gauches.</note>
+                  <note n="6" resp="#AMA" target="#note-ch174_AMA6" xml:id="ch174_AMA6">Pages 16,
+                     17, 18, 23, 80.</note>
+                  <note n="7" resp="#AMA" target="#note-ch174_AMA7" xml:id="ch174_AMA7">L'appareil
+                     qui a servi à faire cette expérience avec toute l'exactitude possible est
+                     décrit pag. 89 et 90.</note>
+                  <note n="8" resp="#AMA" target="#note-ch174_AMA8" xml:id="ch174_AMA8">Pag. 160,
+                     161, note de la page 240, et avec plus de détail pag. 280, 281.</note>
+                  <note n="9" resp="#AMA" target="#note-ch174_AMA9" xml:id="ch174_AMA9">Page.
+                     284.</note>
+                  <note n="10" resp="#AMA" target="#note-ch174_AMA10" xml:id="ch174_AMA10">Pag. 238,
+                     239 et 240.</note>
+                  <note n="11" resp="#AMA" target="#note-ch174_AMA11" xml:id="ch174_AMA11">Pag.
+                     20.</note>
+                  <note n="12" resp="#AMA" target="#note-ch174_AMA12" xml:id="ch174_AMA12">Pag.
+                     311,312.</note>
+                  <note n="13" resp="#AMA" target="#note-ch174_AMA13" xml:id="ch174_AMA13">Pag. 313,
+                     314 et 315.</note>
+                  <note n="14" resp="#AMA" target="#note-ch174_AMA14" xml:id="ch174_AMA14">Pag. 285,
+                     286.</note>
+                  <note n="15" resp="#AMA" target="#note-ch174_AMA15" xml:id="ch174_AMA15">Pag. 11
+                     et plus complètement dans le tome XVIII des annales de physique<lb/> et de
+                     chimie pag. 315 et suiv.</note>
+                  <note n="16" resp="#AMA" target="#note-ch174_AMA16" xml:id="ch174_AMA16">Pag. 111,
+                     et pour les détails des expériences pag. 35, 43, 44, 45, 46, 47, 55, 63,<lb/>
+                     241, 277 et suiv.</note>
+                  <note n="17" resp="#AMA" target="#note-ch174_AMA17" xml:id="ch174_AMA17">Page
+                     244.</note>
+                  <note n="18" resp="#AMA" target="#note-ch174_AMA18" xml:id="ch174_AMA18">Pag. 79
+                        <del type="illisible"/>
+            </note>
+                  <note n="19" resp="#AMA" target="#note-ch174_AMA19" xml:id="ch174_AMA19">Pag. 76
+                     et 77.</note>
+                  <note n="20" resp="#AMA" target="#note-ch174_AMA20" xml:id="ch174_AMA20">Pag. 49,
+                     50 et 51.</note>
+                  <note n="21" resp="#AMA" target="#note-ch174_AMA21" xml:id="ch174_AMA21">Pag. 51,
+                     52 et 54.</note>
+                  <note n="22" resp="#AMA" target="#note-ch174_AMA22" xml:id="ch174_AMA22">Pag.
+                     49.</note>
+                  <note n="23" resp="#AMA" target="#note-ch174_AMA23" xml:id="ch174_AMA23">Pag. 259.
+                     258. et dans la note des pages 299 et 300.</note>
+                  <note n="24" resp="#AMA" target="#note-ch174_AMA24" xml:id="ch174_AMA24">Pag.
+                     258.</note>
+                  <note n="25" resp="#AMA" target="#note-ch174_AMA25" xml:id="ch174_AMA25">Pag. 205,
+                     206.</note>
+                  <note n="26" resp="#AMA" target="#note-ch174_AMA26" xml:id="ch174_AMA26">Pag. 128.
+                     et suiv. et pag. 242 et suiv.</note>
+               </div>
+            </back>
+         </text>
+      </group>
+   </text>
+</TEI>

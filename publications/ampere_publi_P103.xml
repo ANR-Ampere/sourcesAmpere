@@ -1,0 +1,413 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Publications d'André-Marie Ampère - P103</title>
+    <author key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/">
+          <forename>André-Marie</forename>
+     <surname>Ampère</surname>
+        </author>
+    <editor>Christine Blondel</editor>
+    <editor>Marco Segala</editor>
+
+    <funder>ANR Corpus 2012</funder>
+    <respStmt>
+     <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+     <resp>Gestion de bases de données</resp>
+    </respStmt>
+    <respStmt>
+     <name>AZENTIS</name>
+     <resp>OCRisation et encodage en XML/TEI P5</resp>
+    </respStmt>
+    <respStmt>
+     <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+     <resp>Relecture et encodage en XML/TEI P5</resp>
+    </respStmt>
+    <respStmt>
+     <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+     <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+    <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+    <address>
+                        <addrLine>27 rue Damesme </addrLine>
+                        <addrLine>75013 Paris</addrLine>
+                    </address>
+    <distributor>
+     <name>Centre de calcul de l'IN2P3</name>
+     <address>
+                        <addrLine>Domaine scientifique de la Doua</addrLine>
+                        <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+                        <addrLine>69622 Villeurbanne Cedex</addrLine>
+                    </address>
+    </distributor>
+    <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+    <date>2013</date>
+   </publicationStmt>
+   <sourceDesc>
+    <biblStruct xml:id="ampere_publi_P1822-J" xml:lang="fra" type="Article_de_périodique">
+     <analytic>
+      <title level="a">Extrait d'une note additionnelle au Mémoire précédent [Mémoire sur la
+       détermination de la formule …], lue à l'Académie le 24 juin 1822</title>
+      <author>
+              <persName>
+                <surname>Ampère</surname>
+                <forename>André-Marie</forename>
+              </persName>
+            </author>
+     </analytic>
+     <monogr>
+      <title level="j">Annales de chimie et de physique</title>
+      <imprint>
+       <biblScope type="pp">p. 419-421</biblScope>
+       <biblScope type="vol">20</biblScope>
+       <date when="1822">1822</date>
+      </imprint>
+     </monogr>
+     <idno type="issn">0365-1444</idno>
+     <idno type="url_pdf">http://www.ampere.cnrs.fr/bibliographies/pdf/1822-P103.pdf</idno>
+     <idno type="url_google">http://books.google.com/books?id=yyxvrST3W98C&amp;printsec=frontcover&amp;dq=editions:0uQx72yhfVPwMl6&amp;lr=&amp;as_brr=1&amp;hl=fr-BR#v=onepage&amp;q=&amp;f=false </idno>
+    <idno type="old">P103</idno>
+        </biblStruct>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra">Français</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <change>
+    <date>avril 2014</date>
+    <name>AZENTIS</name>
+   </change>
+   <change>
+    <date>avril 2014</date>
+    <name>Aude Coustumer</name>
+    <name>Philippe Pons</name>
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text decls="#ampere_publi_P1822-J" type="publications">
+  <front>
+   
+   <docTitle>
+    <titlePart>
+          <title>
+            <pb/> ANNALES<lb/> DE<lb/> CHIMIE ET DE PHYSIQUE, </title>
+        </titlePart>
+   </docTitle>
+   <docAuthor>Par MM. <persName>GAY-LUSSAC</persName> et <persName>ARAGO</persName>.</docAuthor>
+   <docEdition>TOME VINGTIÈME.</docEdition>
+   <docImprint>A <placeName>PARIS</placeName>,<lb/> Chez <persName>CROCHARD</persName>, Libraire,
+    <address>
+          <addrLine>Cloître Saint-Benoît, n° 16,<lb/>
+près celle des Mathurins.</addrLine>
+        </address>
+      </docImprint>
+   <docDate>1822.</docDate>
+  </front>
+  <body>
+   <div>
+    <p>
+          <pb n="419"/> ou à</p>
+    <p>
+          <formula>
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mo>−</mo>
+                <mfrac>
+         <mrow>
+          <mi>i</mi>
+                    <msup>
+           <mi>i</mi>
+           <mo>′</mo>
+          </msup>
+          <msup>
+           <mi>r</mi>
+           <mi>k</mi>
+          </msup>
+          <mi>d</mi>
+                    <mi>d</mi>
+                    <mrow>
+                      <mo>(</mo>
+           <mrow>
+            <msup>
+             <mi>r</mi>
+             <mrow>
+              <mn>1</mn>
+                            <mo>+</mo>
+                            <mi>k</mi>
+             </mrow>
+            </msup> </mrow>
+           <mo>)</mo>
+                    </mrow>
+         </mrow>
+         <mrow>
+          <mn>1</mn>
+                    <mo>+</mo>
+                    <mi>k</mi>
+         </mrow>
+        </mfrac> </mrow>
+      </math>
+     </formula>
+        </p>
+    <p>Le 24 juin, je lus une note additionnelle à ce Mé<lb rend="hyphen"/>moire, où je tirai de ma
+     formule mise sous cette forme<lb/> deux résultats remarquables : le premier s’obtient en dé<lb rend="hyphen"/>composant la force que l’élément <hi rend="it">ds</hi> exerce sur l’élément<lb/>
+     <hi rend="it">ds',</hi> dans la direction de ce dernier, en la multipliant<lb/> par</p>
+    <p>
+          <formula>
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>cos</mi>
+                <mo>.</mo>
+                <mi>β</mi>
+                <mo>=</mo>
+                <mo>−</mo>
+                <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mo>′</mo>
+          </msup>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mo>′</mo>
+          </msup>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup> </mrow>
+        </mfrac> </mrow>
+      </math>
+     </formula> ;</p>
+    <p>ce qui donne</p>
+    <p>
+          <formula>
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>i</mi>
+                    <msup>
+           <mi>i</mi>
+           <mo>′</mo>
+          </msup> </mrow>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mo>′</mo>
+          </msup>
+          <mi>s</mi>
+         </mrow>
+        </mfrac>
+        <msup>
+         <mi>r</mi>
+         <mi>k</mi>
+        </msup>
+        <msup>
+         <mi>d</mi>
+         <mo>′</mo>
+        </msup>
+        <mi>r</mi>
+                <mi>d</mi>
+                <mrow>
+                  <mo>(</mo>
+         <mrow>
+          <msup>
+           <mi>r</mi>
+           <mi>k</mi>
+          </msup>
+          <msup>
+           <mi>d</mi>
+           <mo>′</mo>
+          </msup>
+          <mi>r</mi>
+         </mrow>
+         <mo>)</mo>
+                </mrow>
+       </mrow>
+      </math>
+     </formula>,</p>
+    <p>dont l’intégrale, par rapport à <hi rend="it">d,</hi> est :</p>
+    <p>
+          <formula>
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>i</mi>
+                    <mi>i</mi>
+                    <msup>
+           <mrow>
+            <mrow>
+                          <mo>(</mo>
+             <mrow>
+              <msup>
+               <mi>r</mi>
+               <mi>k</mi>
+              </msup>
+              <msup>
+               <mi>d</mi>
+               <mo>′</mo>
+              </msup>
+              <mi>r</mi>
+             </mrow>
+             <mo>)</mo>
+                        </mrow>
+           </mrow>
+           <mn>2</mn>
+          </msup> </mrow>
+         <mrow>
+          <mn>2</mn>
+          <mi>d</mi>
+          <mo>′</mo>
+          <mi>s</mi>
+          <mo>′</mo>
+         </mrow>
+        </mfrac>
+        <mo>+</mo>
+                <mi>c</mi>
+                <mo>=</mo>
+                <mfrac>
+         <mn>1</mn>
+         <mn>2</mn>
+        </mfrac>
+        <mi>i</mi>
+                <msup>
+         <mi>i</mi>
+         <mo>′</mo>
+        </msup>
+        <msup>
+         <mi>r</mi>
+         <mrow>
+          <mn>2</mn>
+                    <mi>k</mi>
+         </mrow>
+        </msup>
+        <msup>
+         <mi>d</mi>
+         <mo>′</mo>
+        </msup>
+        <msup>
+         <mi>s</mi>
+         <mo>′</mo>
+        </msup>
+        <mi>cos</mi>
+                <msup>
+         <mo>.</mo>
+         <mn>2</mn>
+        </msup>
+        <mi>β</mi>
+                <mo>+</mo>
+                <mi>c</mi>
+       </mrow>
+      </math>
+     </formula>,</p>
+    <p>qu’il faut prendre entre les limites marquées par les deux<lb/> extrémités du conducteur <hi rend="it">BM.</hi> Si ce conducteur forme<lb/> un circuit complètement fermé, les valeurs de
+      <hi rend="it">r</hi> et de<lb/> cos. <formula>
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>β</mi>
+      </math>
+     </formula> seront les mêmes aux deux limites, puisque ces li<lb rend="hyphen"/>mites se
+     trouveront au même point, et l’intégrale sera<lb/> par conséquent nulle, d’où il suit que la
+     résultante de<lb/> toutes les actions exercées par un circuit fermé sur une<lb/> petite portion
+     de conducteur est toujours perpendiculaire<lb/> à la direction de cette petite portion. Je
+     remarquai, à<lb/> ce sujet, qu’il en devait être de même d’un assemblage<lb/> quelconque de
+     circuits fermés, et par conséquent d’un<lb/> aimant, lorsqu’on le considère comme tel,
+      conformé<pb n="420" rend="hyphen"/>ment à mon opinion sur la cause des phénomènes mag<lb rend="hyphen"/>nétiques, et c'est en effet ce qui résulte de plusieurs<lb/> expériences dues à divers
+     physiciens.</p>
+    <p>Le second résultat consiste en ce que la valeur de <hi rend="it">k<lb/>
+     </hi>étant négative, l’expression de l’action mutuelle de deux<lb/> portions infiniment petites
+     de <choice>
+      <sic>courans</sic>
+      <corr>courants</corr>
+     </choice> voltaïques,</p>
+    <p>
+          <formula>
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>i</mi>
+                    <msup>
+           <mi>i</mi>
+           <mo>′</mo>
+          </msup>
+          <mrow>
+                      <mo>(</mo>
+           <mrow>
+            <mi>sin</mi>
+                        <mo>.</mo>
+                        <mi>α</mi>
+                        <mi>sin</mi>
+                        <mo>.</mo>
+                        <mi>β</mi>
+                        <mi>cos</mi>
+                        <mo>.</mo>
+                        <mi>γ</mi>
+                        <mo>+</mo>
+                        <mi>k</mi>
+                        <mi>cos</mi>
+                        <mo>.</mo>
+                        <mi>α</mi>
+                        <mi>cos</mi>
+                        <mo>.</mo>
+                        <mi>β</mi>
+           </mrow>
+           <mo>)</mo>
+                    </mrow>
+         </mrow>
+         <mrow>
+          <msup>
+           <mi>r</mi>
+           <mi>n</mi>
+          </msup> </mrow>
+        </mfrac> </mrow>
+      </math>
+     </formula>,</p>
+    <p>devient négative quand on suppose que les deux angles <formula>
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>α</mi>
+      </math>
+     </formula>
+          <lb/> et <formula>
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>β</mi>
+      </math>
+     </formula> tournés du même côté sont nuls, en sorte que les<lb/> deux petites portions doivent
+     se repousser quand elles<lb/> se trouvent sur une même droite, et qu’elles sont diri<lb rend="hyphen"/>gées vers le même point de l'espace ; j’en tirai celle con<lb rend="hyphen"/>clusion que toutes les parties d'un même courant recti<lb rend="hyphen"/>ligne se repoussent
+     mutuellement, que c’était probable<lb rend="hyphen"/>ment la cause des effets connus du
+     moulinet électrique,<lb/> qu’ainsi ces effets devaient être considérés comme le<lb/> premier
+     phénomène électro-dynamique observé, et qu’on<lb/> ne devait plus les expliquer comme on le
+     fait commu<lb rend="hyphen"/>nément.</p>
+    <p>Quoique les deux petites portions de <choice>
+      <sic>courans</sic>
+      <corr>courants</corr>
+     </choice> élec<lb rend="hyphen"/>triques ne soient alors dirigées dans le même sens<lb/> qu’en
+     apparence, et qu’on doive plutôt les considérer<lb/> comme parcourant en sens contraire les
+     deux côtés d'un<lb/> angle de 200°, la répulsion, dans ce cas, était une chose<lb/> si
+     inattendue qu’il était nécessaire de la vérifier ; j’en ai<lb/> depuis fait l’expérience avec
+     M. <persName>Auguste de La Rive</persName>, et<lb/> elle a complètement réussi.</p>
+    <p>La répulsion a lieu en effet entre un courant établi dans<lb/> le mercure, et ce même courant
+     prolongé dans un fil <pb n="421"/> conducteur flottant, soit qu’il passe du mercure dans
+     le<lb/> fil ou du fil dans le mercure, en sorte qu'il est impos<lb rend="hyphen"/>sible
+     d’attribuer ce phénomène, parfaitement semblable<lb/> à celui du moulinet électrique, excepté
+     que l’air est ici<lb/> remplacé par le mercure, aux causes auxquelles on l’a<lb/> attribué
+     jusqu’à présent dans le seul cas où on l'avait ob<lb rend="hyphen"/>servé, celui où il a lien
+     dans l’air.</p>
+   </div>
+  </body>
+ </text>
+</TEI>

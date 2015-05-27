@@ -1,0 +1,389 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 19</title>
+            <author>Carron-Ampère, Julie (1ère femme d'Ampère)</author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des sciences</affiliation>
+               </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+               <name>Centre de calcul de l'IN2P3</name>
+               <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+            </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1799-10-00-A">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                  <idno>chemise 331</idno>
+               <altIdentifier>
+              <idno type="old">L19</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+               
+               <physDesc>
+                  <p>Deux pages, avec adresse au verso.</p>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness xml:id="L19CGA">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                        </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 047</biblScope>
+                        </imprint>
+                     </monogr>
+                     
+                  </biblStruct>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_C129">Carron-Ampère, Julie (1ère
+                              femme d'Ampère)</persName>
+          <date when-iso="1799-10-00"> octobre 1799</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_A366">Ampère, André-Marie</persName>
+        </correspAction>
+        <note type="noteDelaunay">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+            <date when="2014-07">juillet 2014</date>
+            <name>Philippe Pons</name>
+            <name>Aude Coustumer</name>
+         </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1799-10-00-A">
+      <body>
+         <div>
+            <opener>
+               <date when-iso="1799">Automne 1799</date>
+            </opener>
+            <p>
+               <pb n="1" facs="ACAS_CRHST_AMP_23_331_0001_r.jpg"/>Tu es parti bien triste, mon bon
+               ami. Ta femme <choice>
+                  <sic>ce</sic>
+                  <corr>se</corr>
+               </choice>
+               <lb/> reproche d'avoir <choice>
+                  <sic>enploier</sic>
+                  <corr>employé</corr>
+               </choice> si tristement le <choice>
+                  <sic>peux</sic>
+                  <corr>peu</corr>
+               </choice> de <choice>
+                  <sic>momens</sic>
+                  <corr>moments</corr>
+               </choice>
+               <lb/> que tu étais <choice>
+                  <sic>venus</sic>
+                  <corr>venu</corr>
+               </choice> passer auprès d'elle. Mais tu veux<lb/> lire dans mon cœur, comme j'aime à <choice>
+                  <sic>conoitre</sic>
+                  <corr>connaître</corr>
+               </choice>
+               <choice>
+                  <sic>tous</sic>
+                  <corr>tout</corr>
+               </choice> ce<lb/> qui <choice>
+                  <sic>ce</sic>
+                  <corr>se</corr>
+               </choice> passe dans le tien. Je n'<choice>
+                  <sic>orait</sic>
+                  <corr>aurai</corr>
+               </choice> jamais de<lb/> plaisirs que tu ne les <choice>
+                  <sic>partage</sic>
+                  <corr>partages</corr>
+               </choice>, et nos chagrins <choice>
+                  <sic>ceront</sic>
+                  <corr>seront</corr>
+               </choice> aussi<lb/> pour tous deux. Toi <choice>
+                  <sic>est</sic>
+                  <corr>et</corr>
+               </choice> moi, ne nous en<lb/>
+               <choice>
+                  <sic>donerons</sic>
+                  <corr>donnerons</corr>
+               </choice>
+               <lb/> jamais de volontaires. J'espère que la providence ne nous<lb/> en <choice>
+                  <sic>envêras</sic>
+                  <corr>enverra</corr>
+               </choice> pas d'<choice>
+                  <sic>insuportable</sic>
+                  <corr>insupportables</corr>
+               </choice> et nous <choice>
+                  <sic>auron</sic>
+                  <corr>aurons</corr>
+               </choice>
+               <choice>
+                  <sic>toujour</sic>
+                  <corr>toujours</corr>
+               </choice>
+               <lb/> pour les <choice>
+                  <sic>adoussir</sic>
+                  <corr>adoucir</corr>
+               </choice> la tendre <choice>
+                  <sic>amitier</sic>
+                  <corr>amitié</corr>
+               </choice> et la <choice>
+                  <sic>comfience</sic>
+                  <corr>confiance</corr>
+               </choice>
+               <lb/>
+               <choice>
+                  <sic>ressiproque</sic>
+                  <corr>réciproque</corr>
+               </choice>. Mon cœur est <choice>
+                  <sic>seré</sic>
+                  <corr>serré</corr>
+               </choice> en t'<choice>
+                  <sic>écrivent</sic>
+                  <corr>écrivant</corr>
+               </choice> ; mais<lb/> je dis, comme toi, que j'y trouve du plaisir. J'en <choice>
+                  <sic>aurer</sic>
+                  <corr>aurai</corr>
+               </choice>
+               <lb/> bien à te revoir <choice>
+                  <sic>saimedi</sic>
+                  <corr>samedi</corr>
+               </choice>. Aujourd'hui je n'<choice>
+                  <sic>est</sic>
+                  <corr>ai</corr>
+               </choice> pas <choice>
+                  <corr>pu</corr>
+               </choice>
+               <lb/> aller <del type="illisible"/> à <placeName>S<ex>ain</ex>t-Germain</placeName> ;
+               il a trop <choice>
+                  <sic>plus</sic>
+                  <corr>plu</corr>
+               </choice> après-midi.<lb/> Demain <choice>
+                  <sic>matain</sic>
+                  <corr>matin</corr>
+               </choice> j'<choice>
+                  <sic>irais</sic>
+                  <corr>irai</corr>
+               </choice> revoir une <del type="illisible"/> bonne mère et<lb/> j'en <choice>
+                  <sic>quiterais</sic>
+                  <corr>quitterai</corr>
+               </choice> une qui l'est bien aussi ; elle est si paisible,<lb/> si douce qu'elle
+               inspire à ceux qui l'<choice>
+                  <sic>entoure</sic>
+                  <corr>entourent</corr>
+               </choice> la <choice>
+                  <sic>serainité</sic>
+                  <corr>sérénité</corr>
+               </choice>
+               <lb/>
+               <supplied>qui</supplied>
+               <choice>
+                  <sic>parois</sic>
+                  <corr>paraît</corr>
+               </choice> régner dans son âme. L'air de la campagne,<lb/> les <choice>
+                  <sic>amitié</sic>
+                  <corr>amitiés</corr>
+               </choice> de tes <choice>
+                  <sic>parent</sic>
+                  <corr>parents</corr>
+               </choice>, <choice>
+                  <sic>tous</sic>
+                  <corr>tout</corr>
+               </choice> cela a contribué à me<lb/> distraire. Je suis mieux qu'<choice>
+                  <sic>hyer</sic>
+                  <corr>hier</corr>
+               </choice>, bien <choice>
+                  <sic>mieus</sic>
+                  <corr>mieux</corr>
+               </choice> ; ne te<lb/> tourmente donc pas, mon bon ami ; nous nous <choice>
+                  <sic>reverons</sic>
+                  <corr>reverrons</corr>
+               </choice>
+               <lb/> samedi ; j'espère que nous <choice>
+                  <sic>pourons</sic>
+                  <corr>pourrons</corr>
+               </choice> amener maman<lb/>
+               <choice>
+                  <sic>dimenche</sic>
+                  <corr>dimanche</corr>
+               </choice> à <placeName>Lyon</placeName> ce <choice>
+                  <sic>cera</sic>
+                  <corr>sera</corr>
+               </choice> un grand plaisir pour moi<lb/> car de la voir si triste, si <choice>
+                  <sic>fatigué</sic>
+                  <corr>fatiguée</corr>
+               </choice> pour ta <persName ref="#pers_C129">Julie</persName>
+               <pb n="2" facs="ACAS_CRHST_AMP_23_331_0002_v.jpg"/> c'est un <choice>
+                  <sic>pois</sic>
+                  <corr>poids</corr>
+               </choice> bien <choice>
+                  <sic>lour</sic>
+                  <corr>lourd</corr>
+               </choice> sur mon cœur mais<lb/> j'espère la <choice>
+                  <sic>dessider</sic>
+                  <corr>décider</corr>
+               </choice> à venir passer <choice>
+                  <sic>quelque</sic>
+                  <corr>quelques</corr>
+               </choice> jours.<lb/> Adieu mon bon ami, adieu je retourne près de<lb/> ta mère, ne
+               m'écris pas je n'<choice>
+                  <sic>atan</sic>
+                  <corr>attends</corr>
+               </choice> point de lettre.<lb/> Je <choice>
+                  <sic>c'est</sic>
+                  <corr>sais</corr>
+               </choice> que tu <choice>
+                  <sic>n'a</sic>
+                  <corr>n'as</corr>
+               </choice> pas le temps je <choice>
+                  <sic>n'est</sic>
+                  <corr>n'ai</corr>
+               </choice> point de<lb/> nouvelles à te conter. Nous avons promené avec<lb/> la maman
+               dans le <del type="illisible"/>
+               <choice>
+                  <sic>quelot</sic>
+                  <corr>clos</corr>
+               </choice> et nous avons <choice>
+                  <sic>vue</sic>
+                  <corr>vu</corr>
+               </choice> que<lb/> les pommes <choice>
+                  <sic>son</sic>
+                  <corr>sont</corr>
+               </choice> en grand nombre, que nous <choice>
+                  <sic>pourons</sic>
+                  <corr>pourrons</corr>
+               </choice>
+               <lb/>
+               <choice>
+                  <sic>an</sic>
+                  <corr>en</corr>
+               </choice> avoir cet <choice>
+                  <sic>hyver</sic>
+                  <corr>hiver</corr>
+               </choice>. Adieu, adieu, mon fils, mon<lb/> mari, comme tu voudras, mais pour la vie,
+               ton<lb/> amie <persName ref="#pers_C129">Julie</persName> ; ta maman, ta tante et ta
+               sœur t'<choice>
+                  <sic>embrasse</sic>
+                  <corr>embrassent</corr>
+               </choice>.</p>
+            <closer>A Monsieur<lb/> monsieur <persName ref="#pers_A366">Ampère</persName>
+               <lb/> dans la <placeName>rue
+                  du Bât-d'Argent,<lb/> n°6</placeName>,
+               au 3e étage,<lb/> à <placeName>Lyon</placeName>.</closer>
+         </div>
+      </body>
+      <back>
+         <div>
+            <note xml:id="corresp1">(1) Deux pages, avec adresse au verso. Le ménage
+               <persName>Ampère</persName> n'a habité rue du Bât-d'Argent que jusqu'en
+               <date when-iso="1800-06">juin 1800</date>. Comme la lettre est écrite à l'automne
+               d'après l'indication des pommes, elle est forcément de
+               l'<date when-iso="1799">automne 1799</date>.
+               <persName ref="#pers_A366">Ampère</persName> a amené sa femme déjà souffrante passer
+               une semaine chez sa mère à <placeName>Poleymieux</placeName>. Lui-même, retourné à
+               <placeName>Lyon</placeName> pour ses leçons, ne pouvait plus venir auprès de
+               <persName ref="#pers_C129">Julie</persName> que le samedi.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

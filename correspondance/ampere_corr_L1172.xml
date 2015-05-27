@@ -1,0 +1,457 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 1172</title>
+                <author>Ampère, André-Marie</author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                        sciences</affiliation>
+                    </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+                    <name>Centre de calcul de
+                        l'IN2P3</name>
+                    <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+                </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="original_manuscrit">
+                    <msIdentifier xml:id="ampere_corr_L1806-01-10-A">
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>N.A.F.</repository>
+                        <idno>ms 14605, f° 32-37 [note A. Robinet]</idno>
+                        <altIdentifier>
+                            <idno type="old">L1172</idno>
+                            <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+                        </altIdentifier>
+                    </msIdentifier>    
+                    
+                    <physDesc>
+                        <handDesc>
+                            <handNote corresp="#AMA">
+                                <name type="person" key="Ampère, André-Marie (1775-1836)">
+                                    <forename>André-Marie</forename>
+                                    <surname>Ampère</surname>
+                                </name>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <listWit>
+                    <witness xml:id="L1172">
+                        <biblStruct>                            
+                        <monogr>
+                                <author>
+                                    <surname>Maine de Biran</surname>
+                                    <forename>Pierre</forename>
+                                </author>
+                                <author role="dir">
+                                    <surname>Robinet</surname>
+                                    <forename>André</forename>
+                                </author>
+                                <title>Œuvres, XIII-1 : Correspondance philosophique avec Ampère</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>J. Vrin</publisher>
+                                    <date when="1993">1993</date>
+                                    <biblScope type="pp">p. 17-20</biblScope>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                    </witness>                  
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender">Ampère, André-Marie</persName>
+          <date when="1806-01-10">10 janvier 1806</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Maine de Biran, Pierre</persName>
+        </correspAction>
+      </correspDesc>
+            <creation>
+                <date when="2014-07">juillet 2014</date>
+                <name>Philippe Pons</name>
+                <name>Aude
+                    Coustumer</name>
+            </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="correspondance" decls="#ampere_corr_L1806-01-10-A">
+        <body>
+            <div>             
+                <p>
+          <gap reason="lacune"/>
+          <pb n=""/>
+                    en tous les <choice>
+            <sic>différens</sic> <corr>différents</corr>
+          </choice> sens dans les<lb/>
+                    cas <choice>
+            <sic>correspondans</sic> <corr>correspondants</corr>
+          </choice> mais je voudrais<lb/>
+                    qu'on n'établit plus entre eux à cet<lb/>
+                    égard de différence dont on ne<lb/>
+                    rendit pas raison sans ces mots<lb/>
+                    qui ne sont bons qu'à nourrir<lb/>
+                    l'imagination d'idées vagues, comme<lb/>
+                    quand <persName>Condillac</persName> dit mettre de la<lb/>
+                    consistance entre les sensations,<lb/>
+                    comme quand d'autres métaphysiciens<lb/>
+                    supposent qu'on sent la résistance<lb/>
+                    tandis que la résistance est une<lb/>
+                    idée abstraite <add hand="#L">On sent directement la force l'aide du sens musculaire. Voyez M. <persName>Engel</persName>
+          </add> qui en suppose<lb/>
+                    beaucoup d'autres, et qui est<lb/>
+                    seulement rappelée, par une<lb/>
+                    association habituelle avec une<lb/>
+                    certaine sensation qu'on doit nommer pression <add>tant qu'il n'y a que pression il n'y a point de cause<lb/>
+                    hypothétisée. La pression est plus<lb/>
+                    immédiatement liée à l'extériorité. La force<lb/>
+                        employée à mouvoir les muscles n'a pas tout<lb/>
+                    son effet</add> lorsque l'on<lb/>
+                    éprouve cette dernière<lb/>
+                    c'est surtout la disposition<lb/>
+                    organique d'où résulte des sensations<pb n=""/>
+                    étendues qui doit être considérée<lb/>
+                    comme la cause des différences<lb/>
+                    qui existent entre les sens,<lb/>
+                    relativement à l'objet qui nous<lb/>
+                    occupe en ce moment.</p>
+                <p>À ce sujet j'ai vu dans le dernier<lb/>
+                  ou l'avant dernier n° de la <title>Bibliothèque<lb/>
+                    britannique</title>, de nouvelles expériences<lb/>
+                sur des aveugles nés à qui on a<lb/>
+                rendu la vue. Elles sont bien<lb/>
+                contraires à celles de <persName>Cheselden</persName>, et<lb/>
+                <add>extrêmement curieuse </add> quoique <del type="illisible"/> <add>les conséquences que l'auteur en tire soient</add>
+          <lb/>
+                exagérées, puisqu'on y prétend que<lb/>
+                l'enfant au premier moment<lb/>
+                a jugé des distances, ce qui est<lb/>
+                absurde, et ce qui n'est pas d'ailleurs<lb/>
+                établi par le récit puisqu'on<lb/>
+                y dit que l'enfant a dit que<lb/>
+                l'objet était un peu plus loin<lb/>
+                que ce que pouvait atteindre<pb n=""/>
+                sa main et qu'il n'est pas prouvé<lb/>
+                qu'il n'ait en effet étendu<lb/>
+                sa main de ce coté, ce qui suffirait<lb/>
+                pour tout expliquer.</p>
+                <p>Mais ce qu'il y a de vraiment<lb/>
+                    remarquable dans ces nouvelles<lb/>
+                    expériences, ce sont les formes<lb/>
+                    que l'aveugle a reconnues et<lb/>
+                    celles qu'il n'a pu reconnaître.<lb/>
+                    Un pot et un plat étant<lb/>
+                    également sans angles n'ont<lb/>
+                    point été distingués, mais il a<lb/>
+                    reconnu un de ces objets à ce<lb/>
+                    qu'il avait une anse. Parce que<lb/>
+                    l'usage de cette anse soumise<lb/>
+                    au tact, lui en avait donné<lb/>
+                    l'idée géométrique, telle que celle<lb/>
+                    qu'avait <persName>Saunderson</persName> de ses figures<lb/>
+                    et dès lors il devait la reconnaître<lb/>
+                    à l'instant où l'image en a été<lb/>
+                    tracée sur sa rétine, bien<pb n=""/>
+                    entendu que l'anse se trouvait<lb/>
+                    dans une situation telle qu'elle<lb/>
+                    se dessinait à coté du vase, et<lb/>
+                    que l'intervalle qui l'en séparait<lb/>
+                    était visible.</p>
+                <p>Il en est de même d'autres<lb/>
+                    figures que le même aveugle a<lb/>
+                    reconnues dès qu'il a ouvert les<lb/>
+                    yeux, à ce qu'elles avaient des<lb/>
+                    angles. En général d'après le<lb/>
+                    principe universel de la distinction<lb/>
+                    organique des impressions simultanées<lb/>
+                    on peut prévoir les formes qui<lb/>
+                    seront reconnues et celles qui<lb/>
+                    ne le seront pas au premier<lb/>
+                    instant de la vision. Le grand<lb/>
+                    obstacle est dans les trois dimensions<lb/>
+                    conçues dans l'espace d'après le toucher<lb/>
+                    qui se réduisent à deux dans<lb/>
+                    l'exercice de la vue. On ne voit<lb/>
+                    que la projection du corps, et<pb n=""/>
+                    comme la plupart des corps<lb/>
+                    diffèrent tout à fait de leurs<lb/>
+                    projections, on ne les reconnaîtra<lb/>
+                    qu'après une longue étude. Mais<lb/>
+                    comme il n'y a pas de différence<lb/>
+                    entre une figure plane touchée<lb/>
+                    ou présentée à l’œil en face, elle<lb/>
+                    doit être reconnue à l'instant<lb/>
+                    où l’œil est ouvert, soit que ce<lb/>
+                    soit un carré, un cercle, un<lb/>
+                    triangle, etc. La seule difficulté<lb/>
+                    qui se présente avant qu'on y ait réfléchi,<lb/>
+                    serait de savoir si le tact nous<lb/>
+                    donne des idées aussi déterminées<lb/>
+                    et précises de ces figures que la<lb/>
+                    vue, mais cela est certain<lb/>
+                    puisque des aveugles nés ont<lb/>
+                    compris toutes les démonstrations<lb/>
+                    géométriques relatives à ces figures.<lb/>
+                    Quant à la distinction des<lb/>
+                    deux idées de substance et de<lb/>
+                    force, <choice>
+            <sic>elle elle</sic> <corr>elle</corr>
+          </choice> très marquée, je<pb n=""/>
+                    n'assure pas qu'elles n'aient pas<lb/>
+                    la même origine, mais alors<lb/>
+                    il faut expliquer comment<lb/>
+                    se fait la modification que<lb/>
+                    l'une des deux éprouve, pour<lb/>
+                    ne plus renfermer que l'idée<lb/>
+                    d'existence, tandis que l'autre<lb/>
+                    contient l'idée d'une activité<lb/>
+                    productive.</p>
+                <p>Ce qui me ferait penser qu'il y<lb/>
+                    a du doute sur l'identité d'origine<lb/>
+                    c'est que ce que vous appelez<lb/>
+                    rapport d'inhérence, n'est comme<lb/>
+                    la juxtaposition et la succession<lb/>
+                    qu'un mode de coordination qui<lb/>
+                    ne suppose point une troisième<lb/>
+                    idée <choice>
+            <sic>apperçue</sic> <corr>aperçue</corr>
+          </choice> <foreign xml:lang="lat">in concreto</foreign> <add hand="#L">La coordination dans le <choice>
+              <sic>tems</sic> <corr>temps</corr>
+            </choice> diffère de celle dans le lieu<lb/>
+                    dans l'espace, en ce que la 1<hi rend="sup">re</hi> correspond une idée différente des termes<lb/>
+                    coordonnés. Tandis que l'espace est vraiment inséparable<lb/>
+                    des termes juxtaposés</add> comm<supplied>e</supplied>
+          <lb/>
+                    un rapport entre les deux termes<lb/>
+                    <choice>
+            <sic>présens</sic> <corr>présents</corr>
+          </choice> à la fois à l'entendement<lb/>
+                    en sorte que si ces modes de<lb/>
+                    coordination deviennent des idées<lb/>
+                    abstraites exprimées par ces<pb n=""/>
+                    mots inhérence, juxtaposition<lb/>
+                    succession, ce ne peut être<lb/>
+                    que par une ressemblance<lb/>
+                    <choice>
+            <sic>apperçue</sic> <corr>aperçue</corr>
+          </choice> entre les <choice>
+            <sic>différens</sic> <corr>différents</corr>
+          </choice>
+          <lb/>
+                    groupes où se trouvent ces modes<lb/>
+                    de coordination. Au contraire<lb/>
+                    la causalité est un vrai rapport<lb/>
+                    dépendant de la nature<lb/>
+                    des deux termes comparés, et<lb/>
+                    non pas seulement de la manière<lb/>
+                    dont ils sont coordonnés dans<lb/>
+                    notre esprit. <add hand="#L">D'où il suit que la causalité n'est point abstraite du sujet et<lb/>
+                        du terme d'action, mais première entr'eux <foreign xml:lang="lat">in concreto</foreign> : et que<lb/>
+                        toute idée de cause ou de force n'est point<lb/>
+                        générale mais individuelle.</add> Ce rapport<lb/>
+                    constitue une 3<hi rend="sup">me</hi> idée, celle<lb/>
+                    de l'action productive, qui est<lb/>
+                    d'abord individuelle et concrète en<lb/>
+                    ce que ce n'est pas l'idée de cette<lb/>
+                    sorte d'action en général, mais<lb/>
+                    seulement l'idée que telle chose<lb/>
+                    produit telle autre. Vous vous<lb/>
+                    rappelez que je vous ai indiqué<lb/>
+                    plusieurs fois cette distinction<lb/>
+                    entre les modes de coordinations et les rapports.<pb n=""/>
+                    Je me souviens même qu'un<lb/>
+                    jour vous en étiez très frappé. Dès<lb/>
+                    lors, il faut que le rapport de<lb/>
+                    causalité soit immédiatement<lb/>
+                    perçu entre deux termes <choice>
+            <sic>présens</sic> <corr>présents</corr>
+          </choice>
+          <lb/>
+                    à la fois, dans les circonstances<lb/>
+                    propres à cette perception, lesquelles<lb/>
+                    ne peuvent avoir lieu que dans<lb/>
+                    le cas où l'effort est senti d'une<lb/>
+                    part et l'effet de l'autre part<lb/>
+                    et où l'on apperçoit que l'un<lb/>
+                    <hi rend="underline">produit</hi> l'autre.</p>
+                <p>Au contraire de même qu'il<lb/>
+                    suffit que nous ayons la faculté<lb/>
+                    de coordonner par juxtaposition<lb/>
+                    et par succession, <add hand="#L">ceci s'accorde avec <persName>Leibnitz</persName> qui<lb/>
+                    considère l'espace comme l'ordre des choses coexistantes de même<lb/>
+                    que le <choice>
+              <sic>tems</sic> <corr/>
+            </choice> l'est des successives,<lb/>
+                        et non point comme un Être <hi rend="underline">absolu</hi>
+          </add>, pour qu'en<lb/>
+                    ôtant par abstraction les termes<lb/>
+                    juxtaposés ou successifs, après avoir<lb/>
+                    remarqué que ces modes de coordination<lb/>
+                    ne <hi rend="underline">dépendent nullement de leur<lb/>
+                    nature</hi>, <add hand="#L">c'est précisément parce que les<lb/>
+                    modes de coordination dans cet espace dépendent de la nature<lb/>
+                    des termes juxtaposés que l'espace de coordination ne forme point<lb/>
+                    une 3<hi rend="sup">me</hi> idée : au contraire pour le <hi rend="underline">
+              <choice>
+                <sic>tems</sic> <corr>temps</corr>
+              </choice>
+            </hi>
+          </add>, pour qu'il nous reste l'idée<lb/>
+                    de l'espace vide et de la durée<pb n=""/>
+                   pure. De même il me semble<lb/>
+                    qu'il suffit que nous ayons la<lb/>
+                    faculté de grouper les impressions<lb/>
+                    de divers sens par superposition,<lb/>
+                    pour qu'après avoir remarqué que<lb/>
+                    ce mode de coordination est<lb/>
+                    indépendant de la nature des<lb/>
+                    impressions superposées, nous<lb/>
+                    puissions nous élever à l'idée de<lb/>
+                    substance, <add hand="#L">cela fait voir que l'espace est la véritable substance <lb/>
+                    ou le vrai substratum de toutes les <del>idées</del> impressions que nous rapportons hors de nous</add>, comme à celle du<lb/>
+                    vide, et de la durée pure<lb/>
+                    vous voyez que je me rapproche<lb/>
+                    de <persName>Kant</persName> en prenant l'origine<lb/>
+                    de ces idées dans nos facultés<lb/>
+                    primitives de coordinations, mais<lb/>
+                    je n'en tire pas les mêmes<lb/>
+                    conséquences que lui, relativement<lb/>
+                    à la non réalité de ces idées<lb/>
+                    d'après mon principe que la<lb/>
+                    marche qui nous a conduit<lb/>
+                    à une idée, ne fait ordinairement<lb/>
+                    rien du tout à sa vérité, qui<pb n=""/>
+                    ne peut être établie qu'<foreign xml:lang="lat">a posteriori</foreign>
+          <lb/>
+                    comme hypothèque explicative. Vous<lb/>
+                    savez que c'est à l'aide de la théorie<lb/>
+                    que j'ai adoptée sur la formation<lb/>
+                    et la vérification de ces hypothèques<lb/>
+                    que je rétablis toutes les vérités<lb/>
+                    qu'ébranle l'idéalisme.</p>
+                <p>Je voudrais bien que vous vous<lb/>
+                    procurassiez le n° de la <title>Bibliothèque<lb/>
+                    britannique</title> dont je vous ai parlé,<lb/>
+                    que vous le lussiez et que vous me<lb/>
+                    disiez ce que vous en pensez,<lb/>
+                    c'est le n° qui a paru le <date when="1805-12-15">15 <choice>
+              <abbr>Xbre</abbr> <expan>décembre</expan>
+            </choice> 1805</date>
+          <lb/>
+                    ou le <date when="1806-01-01">1<hi rend="sup">r</hi> janvier 1806</date>.
+                </p>         
+                <p>
+          <handShift new="#"/>Ayant été obligé de sortir, je suis passé à votre<lb/>
+                    hôtel et l'on m'a dit que l'on n'y avait trouvé ni la boëte<lb/>
+                    d'écaille, ni le garde note de maroquin <choice>
+            <sic>verd</sic> <corr>vert</corr>
+          </choice> que vous <choice>
+            <sic>avés</sic> <corr>avez</corr>
+          </choice> proba<lb rend="hyphen"/>blement perdus dans votre voyage.</p>
+                <p>J'ai passé aussi chez <persName>Courcier</persName>, il m'a dit que votre malle<lb/>
+                    était partie le <hi rend="underline">
+            <date when="1805-12-27">sept nivôse</date>
+          </hi>. J'oubliais de vous dire que<pb n=""/>
+                    j'ai à peu près <hi rend="underline">à la même époque</hi> rendu à M. <persName>Stapfer</persName> le livre qu'il<lb/>
+                    m'avait prêté et que <persName>Courcier</persName> m'avait remis.</p>
+                <p>Depuis cette dernière sortie, je me suis trouvé assez<lb/>
+                    malade pour ne pouvoir plus me lever que pour faire faire<lb/>
+                    mon lit. Si la douleur physique ôte une partie de l'intelli<lb rend="hyphen"/>gence, elle ne diminue pas les <choice>
+            <sic>sentimens</sic> <corr>sentiments</corr>
+          </choice> de l'âme, les miens aurons<lb/>
+                    toujours pour vous la même vivacité, je vous embrasse<lb/>
+                    de tout mon cœur.<lb/>
+                    <persName ref="#pers_A366">A. Ampère</persName>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

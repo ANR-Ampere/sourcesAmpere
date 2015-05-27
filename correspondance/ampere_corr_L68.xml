@@ -1,0 +1,331 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 68</title>
+                <author>Carron-Ampère, Julie (1ère femme d'Ampère)</author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre
+                        Koyré</affiliation>
+          </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                            sciences</affiliation>
+          </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+          <name>Centre de calcul de
+                    l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="original_manuscrit">
+                    <msIdentifier xml:id="ampere_corr_L1801-10-00-A">
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des
+                            sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 331</idno>
+                    <altIdentifier>
+              <idno type="old">L68</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+          
+                    <physDesc>
+                        <p>Trois pages in-8° et une page d'adresse.</p>
+                    </physDesc>
+                </msDesc>
+                <listWit>
+                    <witness xml:id="L68CGA">
+                        <biblStruct>
+                            <monogr>
+                                <author>
+                                    <surname>De Launay</surname>
+                                    <forename>Louis</forename>
+                </author>
+                                <title>Correspondance du Grand Ampère</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Gauthier-Villars</publisher>
+                                    <date when="1936">1936</date>
+                                    <biblScope type="tome">I.</biblScope>
+                                    <biblScope type="pp">p. 078</biblScope>
+                                </imprint>
+                            </monogr>
+                            
+                        </biblStruct>
+                      </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
+          <date when-iso="1801-10-00"> octobre 1801</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_A366">Ampère, André-Marie</persName>
+        </correspAction>
+        <note type="noteDelaunay">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+            <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+                    Coustumer</name>
+      </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="correspondance" decls="#ampere_corr_L1801-10-00-A">
+        <body>
+            <div>
+                <opener>
+          <date when-iso="1801-10">[Octobre 1801]</date>
+        </opener>
+                <p>
+          <pb n="133" facs="#ACAS_CRHST_AMP_23_331_0133_r.jpg"/> Mon bon ami, tu m'<choice>
+            <sic>a</sic> <corr>as</corr>
+          </choice> <choice>
+            <sic>demandés</sic> <corr>demandé</corr>
+          </choice>
+                    de te donner de mes nouvelles<lb/>
+                    Je profite de cette occasion pour<lb/>
+                    te dire que j'ai bien dormi cette<lb/>
+                    nuit après en avoir passé une<lb/>
+                    bien mauvaise depuis toi. je voudrais<lb/>
+                    que, si tu n'as pas <choice>
+            <sic>vue</sic> <corr>vu</corr>
+          </choice> M. <persName ref="#pers_P447">Petetin</persName>
+          <lb/>
+                    pour toi, tu lui <choice>
+            <sic>demandas</sic> <corr>demandasses</corr>
+          </choice> <choice>
+            <sic>ausi</sic> <corr>aussi</corr>
+          </choice>
+          <lb/>
+                    ce qu'il pense de notre petit qui<lb/>
+                    a toujours le dévoiement depuis<lb/>
+                    2 mois et toujours le <choice>
+            <sic>vantre</sic> <corr>ventre</corr>
+          </choice> gros<lb/>
+                    sans l'avoir <choice>
+            <sic>extraimement</sic> <corr>extrêmement</corr>
+          </choice> dur.<lb/>
+                    Il tousse <choice>
+            <sic>toujour</sic> <corr>toujours</corr>
+          </choice> beaucoup et a<lb/>
+                    <choice>
+            <sic>quelque</sic> <corr>quelques</corr>
+          </choice> <choice>
+            <sic>moment</sic> <corr>moments</corr>
+          </choice> de la fièvre
+                    la<lb/>
+                    nuit. Au total, il n'est pas bien<lb/>
+                    malade ; mais sa toux lui cause<lb/>
+                    un farfalement sur la poitrine.<lb/>
+                    Tout cela est comme tu l'<choice>
+            <sic>a</sic> <corr>as</corr>
+          </choice> vu,<pb n="134" facs="#ACAS_CRHST_AMP_23_331_0134_v.jpg"/>
+                    mais je te le détaille pour<lb/>
+                    que si tu en parle à M.<lb/>
+                    <persName ref="#pers_P447">Petetin</persName> tu lui dise bien tous<lb/>
+                    ou que tu ne dise rien car<lb/>
+                    si tu le <choice>
+            <sic>metait</sic> <corr>mettait</corr>
+          </choice> dans l'<choice>
+            <sic>ereure</sic> <corr>erreur</corr>
+          </choice>
+          <lb/>
+                    ce <choice>
+            <sic>cerait</sic> <corr>serait</corr>
+          </choice> plus dangereux que<lb/>
+                    de rien faire. Ni retourne pas<lb/>
+                    si tu y est <choice>
+            <sic>aléz</sic> <corr>allé</corr>
+          </choice> pour toi cas<lb/>
+                    il <choice>
+            <sic>pourait</sic> <corr>pourrait</corr>
+          </choice> <choice>
+            <sic>ny</sic> <corr>n'y</corr>
+          </choice> pas faire <choice>
+            <sic>atansion</sic> <corr>attention</corr>
+          </choice>
+          <lb/>
+                    et <choice>
+            <sic>de laler</sic> <corr>d'aller</corr>
+          </choice> <choice>
+            <sic>enuier</sic> <corr>l'ennuyer</corr>
+          </choice> pour <choice>
+            <sic>tende</sic> <corr>tant de</corr>
+          </choice>
+          <lb/>
+                    chose le dégoûterait de nous.<lb/>
+                    <del type="illisible"/> <choice>
+            <sic>insi</sic> <corr>ainsi</corr>
+          </choice> si tu la vue je<lb/>
+                    <choice>
+            <sic>verais</sic> <corr>verrai</corr>
+          </choice> ici M. <persName>Poulin</persName> ne te<lb/>
+                    tourmente pas je te le <choice>
+            <sic>repette</sic> <corr>répète</corr>
+          </choice>,<lb/>
+                    il est comme tu la vue mais<lb/>
+                    c'est que ce <choice>
+            <sic>devoyement</sic> <corr>devoiement</corr>
+          </choice> est bien long.<lb/>
+                    Adieu mon bon ami en <choice>
+            <sic>venan</sic> <corr>venant</corr>
+          </choice>
+          <lb/>
+                    <choice>
+            <sic>aporte</sic> <corr>apporte</corr>
+          </choice> a ta femme deux<lb/>
+                    <choice>
+            <sic>petite</sic> <corr>petites</corr>
+          </choice> <choice>
+            <sic>tartelette</sic> <corr>tartelettes</corr>
+          </choice> comme les<lb/>
+                    autre et <del type="illisible"/>
+          <cb/>
+                    1/4 <gap reason="illisible"/> 1/4 biscuit et c'est <choice>
+            <sic>tous</sic> <corr>tout</corr>
+          </choice>
+          <lb/>
+                    adieu <choice>
+            <sic>encors</sic> <corr>encore</corr>
+          </choice> adieu je t'aime<lb/>
+                    bien j'ai été à la messe ; j'ai<lb/>
+                    prié pour notre
+                    petit. J'espère<lb/>
+                    que toi et lui vous <choice>
+            <sic>porterais</sic> <corr>porterez</corr>
+          </choice> bien.<lb/> Car je l'ai bien <choice>
+            <sic>demendé</sic> <corr>demandé</corr>
+          </choice>. <gap reason="illisible"/>
+          <lb/>
+                    Mon bon ami, <choice>
+            <sic>ménaje</sic> <corr>ménage</corr>
+          </choice>-toi ;<lb/>
+                    <choice>
+            <sic>pence</sic> <corr>pense</corr>
+          </choice> à ta femme ; ne goûte<lb/>
+                    point de tes <choice>
+            <sic>droge</sic> <corr>drogues</corr>
+          </choice> en
+                    fais<supplied>ant</supplied>
+          <lb/>
+                    de tes <choice>
+            <sic>expérience</sic> <corr>expériences</corr>
+          </choice>, <choice>
+            <sic>soy</sic> <corr>sois</corr>
+          </choice> bien<lb/>
+                    <choice>
+            <sic>prudans</sic> <corr>prudent</corr>
+          </choice> et <choice>
+            <sic>pence</sic> <corr>pense</corr>
+          </choice> que tu<lb/>
+                    me fais du chagrin <choice>
+            <sic>quans</sic> <corr>quand</corr>
+          </choice>
+          <lb/>
+                    tu te fais
+                    mal. Adieu adieu<lb/>
+                je t'aime et t'embrasse de <choice>
+            <sic>tous</sic> <corr>tout</corr>
+          </choice>
+          <lb/>
+                mon cœur.</p>
+                <closer>A Monsieur <persName ref="#pers_A366">Ampère</persName>, <placeName>rue Mercière</placeName>, à <placeName>Lyon</placeName>.</closer>
+            </div>
+        </body>
+        <back>
+            <div>
+                <note xml:id="corresp1">(1) Trois pages in-8° et une page d'adresse. L'enfant avait
+                    la coqueluche.</note>
+            </div>
+        </back>
+    </text>
+</TEI>

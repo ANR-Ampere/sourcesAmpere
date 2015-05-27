@@ -1,0 +1,400 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 128</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1802-05-20-A">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                  <idno>chemise 392</idno>
+               <altIdentifier>
+              <idno type="old">L128</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+          
+               <physDesc>
+                  <p>Huit pages in-4°, 17 x 25,5, sur papier bleuâtre, avec adresse à la
+                     fin.</p>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness xml:id="L128CGA">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 152-153-154</biblScope>
+                        </imprint>
+                     </monogr>
+                     
+                  </biblStruct>
+                  </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_A366">Ampère, André-Marie</persName>
+          <date when-iso="1802-05-20">20 mai 1802</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
+        </correspAction>
+        <note type="noteDelaunay">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1802-05-20-A">
+      <body>
+         <div>
+            <opener>
+          <pb n="50" facs="#ACAS_CRHST_AMP_26_392_0050_r.jpg"/>
+          <add>Mise à la poste le samedi<lb/>
+            pour arriver le dimanche.</add>Du <date when="1802-05-20"> Jeudi [20 mai 1802]</date>
+        </opener>
+            <p>Je vois, par la lettre que je viens<lb/>
+               de recevoir, ma bonne amie,<lb/>
+               que les lettres que
+               j'adresse pour<lb/>
+               toi à <persName>Richard</persName> ne sont pas rendues<lb/>
+               plus exactement que celles que<lb/>
+               je t'envoie directement. Je<lb/>
+               continuerai cependant à me<lb/>
+               servir de cette nouvelle adresse,<lb/>
+               à moins que tu ne jugeasses<lb/>
+               à propos de reprendre l'ancienne.<lb/>
+               Je crois que MM. <persName>André</persName>,<lb/>
+               <persName ref="#pers_B42">Beauregard</persName>, etc., que j'avais<lb/>
+               consultés sur le jour où il<lb/>
+               fallait mettre les lettres
+               à la<lb/>
+               poste, m'avaient induit en erreur<lb/>
+               en me disant qu'il fallait les<lb/>
+               y mettre les
+               jours impairs, ou<lb/>
+               que, depuis quelque <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice>, je<lb/>
+               prends les jours pairs pour les<lb/>
+               impairs, faute d'almanach.<pb n="51" facs="#ACAS_CRHST_AMP_26_392_0051_v.jpg"/> Car, puisque je reçois tes lettres<lb/>
+               le lendemain, je ne
+               vois pas<lb/>
+               pourquoi les miennes resteraient<lb/>
+               deux ou trois jours en route.<lb/>
+               Je les mettrai à l'avenir<lb/>
+               le samedi <add>ou le dimanche, </add>au plus tard, dans<lb/>
+               la boîte. Mais, pour
+               ne plus<lb/>
+               être dans l'erreur au sujet<lb/>
+               des jours de courrier, je<lb/>
+               prendrai aujourd'hui
+               même<lb/>
+                  des informations à la poste,<lb/>
+               et je me munirai d'un Dieu<lb/>
+               soit béni <ref type="ouvrages_mentionnes" target="#ampere_ref_P387.xml">*</ref>.</p>
+            <p>Du <date when="1802-05-22">samedi [22 mai]</date>
+          <lb/>
+               Je n'ai cessé
+               hier d'écrire sur<lb/>
+               les mathématiques. L'ouvrage<lb/>
+               que j'ai entrepris avec M.<lb/>
+               <persName ref="#pers_C150">Clerc</persName> et
+               dont je ne serais<lb/>
+               jamais venu à bout tout<lb/>
+               seul, avance tellement que<lb/>
+               j'espère qu'il sera dans un<lb/>
+               mois prêt à être imprimé.<pb n="52" facs="#ACAS_CRHST_AMP_26_392_0052_r.jpg"/> Il sera intitulé : <title>Leçons élémentaires<lb/>
+                  sur les séries, et
+               autres formules<lb/>
+                  indéfinies</title>. Tu pourras voir ce<lb/>
+               que tes cousins penseront à<lb/>
+               cet égard.
+               Nous sommes convenus<lb/>
+               que nous vendrions en commun<lb/>
+               cet ouvrage au libraire qui<lb/>
+               voudrait l'acheter, mais que,<lb/>
+               s'il s'en faisait une seconde<lb/>
+               édition, elle
+               m'appartiendrait<lb/>
+               exclusivement pourvu que<lb/>
+               ce ne fût qu'après la fin<lb/>
+               de l'an treize de
+               la République.<lb/>
+               Cet ouvrage, étant à l'usage<lb/>
+               des <choice>
+            <sic>établissemens</sic> <corr>établissements</corr>
+          </choice> d'instruction<lb/>
+               publique
+               et manquant<lb/>
+               à l'ensemble des études<lb/>
+               mathématiques, ne peut<lb/>
+               manquer d'être très
+               recherché<lb/>
+               et M. <persName ref="#pers_C150">Clerc</persName> est sûr de<lb/>
+               trouver un libraire qui l'achète,<pb n="53" facs="#ACAS_CRHST_AMP_26_392_0053_v.jpg"/> si ce n'est en
+               argent,<lb/>
+               du moins en nous promettant<lb/>
+               un certain nombre d'exemplaires.<lb/>
+               Tu conçois qu'il
+               vaut mieux<lb/>
+               que nous le vendions ainsi<lb/>
+               que de faire imprimer à<lb/>
+               frais, pertes et
+               profits communs.<lb/>
+               Je serais bien charmé que<lb/>
+               ce fussent tes cousins ; mais<lb/>
+               il ne faut
+               pas avoir l'air<lb/>
+               de le leur demander, puisqu'il<lb/>
+               est certain que ce sera une<lb/>
+               bonne
+               affaire pour le libraire<lb/>
+               qui le prendra. A l'égard<lb/>
+               du petit mémoire sur le jeu,<lb/>
+               je ne
+               trouve aucune apparence<lb/>
+               de possibilité à ce que le<lb/>
+               gouvernement le désapprouve <ref>(2)</ref>.<lb/>
+               Est-ce que la loterie royale<lb/>
+               empêchait, sous l'ancien<pb n="54" facs="#ACAS_CRHST_AMP_26_392_0054_r.jpg"/> régime, de prêcher contre le<lb/>
+               jeu ? Le gouvernement sait<lb/>
+               bien que cent mille mémoires<lb/>
+               sur cet objet n'empêcheraient<lb/>
+               pas les <choice>
+            <sic>badeaux</sic> 
+                  <corr>badauds</corr>
+          </choice> de porter<lb/>
+               leur argent dans ses bureaux.<lb/>
+               Je persiste donc à le faire<lb/>
+               imprimer à mes frais ; cela<lb/>
+               ne saurait aller à deux <choice>
+            <sic>cens</sic> <corr>cents</corr>
+          </choice>
+          <lb/>
+               francs et j'en retirerai<lb/>
+               bien toujours au moins les<lb/>
+               trois quarts en en vendant<lb/>
+               quelques-uns. Tâche de savoir<lb/>
+               au juste de <persName ref="#pers_P443">Marsil</persName> ce que<lb/>
+               pourrait coûter l'impression.<lb/>
+               Il a vu comme c'était court.<lb/>
+               Tout cela, au reste, est<lb/>
+               subordonné à la lettre de<lb/>
+               M. <persName ref="#pers_R501">Roux</persName>, qui se fait bien<lb/>
+               attendre et à son opinion<lb/>
+               que <persName ref="#pers_B33">Ballanche</persName> tâchera d'accrocher.<lb/>
+               Ce petit livre me fera<pb n="55" facs="#ACAS_CRHST_AMP_26_392_0055_v.jpg"/>
+               attribuer
+               une part de<lb/>
+               l'ouvrage qui va paraître<lb/>
+               <cit>
+            <quote>par <persName ref="#pers_A366">Ampère</persName> et <persName ref="#pers_C150">Clerc</persName>,<lb/>
+                  professeurs à l'<orgName>école
+               centrale<lb/>
+                     du département de l'<placeName>Ain</placeName>
+              </orgName>
+            </quote>
+          </cit>,<lb/>
+               tandis qu'il en aurait sans<lb/>
+               cela tout l'honneur
+               comme<lb/>
+               professeur de mathématiques.<lb/>
+               Tu pèseras, au reste, ma<lb/>
+               bonne amie, toutes les
+               raisons<lb/>
+               pour et contre et tu<lb/>
+               décideras en dernier ressort<lb/>
+               du sort des<title> Considérations
+               mathématiques sur le jeu</title>.<lb/>
+               Tu me parles encore, ma<lb/>
+               chère amie, de louer ton<lb/>
+               appartement ; je croyais<lb/>
+               que tu savais la défense<lb/>
+               de loger des femmes dans<lb/>
+               les lycées ; elle se trouve dans<lb/>
+               les <title>Moniteurs</title> que tu m'avais<pb n="56" facs="#ACAS_CRHST_AMP_26_392_0056_r.jpg"/>
+               envoyés. Je crois en conséquence<lb/>
+               qu'il n'est pas à propos de<lb/>
+               louer avant de savoir<lb/>
+               comment les choses
+               tourneront.<lb/>
+               Je crois, si la <choice>
+            <sic>barraque</sic> <corr>baraque</corr>
+          </choice> ne<lb/>
+               te gêne pas, qu'il faut<lb/>
+               la considérer sous le
+               même<lb/>
+               point de vue ; car, l'école d'ici<lb/>
+               supprimée, je me trouve de<lb/>
+               nouveau réduit à
+               donner<lb/>
+               des leçons particulières, si je<lb/>
+               manque une des 64 places<lb/>
+               de lycée. Je ne crois
+               pas, a<supplied>u</supplied>
+          <lb/>
+               reste, que nous puissio<supplied>ns</supplied> regretter ainsi à bas si tu <gap reason="lacune"/>
+          <lb/>
+               J'ai trouvé tes <title>Heures</title> 10 à<lb/>
+               12 jours après mon arrivée<lb/>
+               dans une poche ; je m'en <choice>
+            <sic>sert</sic> <corr>sers</corr>
+          </choice>
+          <lb/>
+               habituellement ; mais je te<lb/>
+               les renverrai quand tu voudras.<lb/>
+               Je n'ai pas éprouvé un
+               froid<lb/>
+               bien vif, quoiqu'il ait gelé ici<lb/>
+               deux nuits de suite : ce qui a, je crois<pb n=""/> bien
+               fait du mal, surtout aux vignes.<lb/>
+               Sais-tu si elles ont souffert au<lb rend="hyphen"/>près de <placeName>Lyon</placeName> ? Je te
+               prie en<lb/>
+               grâce, ma bonne amie, de<lb/>
+               travailler à te guérir. J'espère<lb/>
+               t'aller voir dans 15 jours, mais<lb/>
+               je n'en suis pas encore sûr.<lb/>
+               Je t'irai répéter de vive voix<lb/>
+               ce que je
+               te dis dans toutes mes<lb/>
+               lettres. Quand <choice>
+            <sic>pourrais</sic> <corr>pourrai</corr>
+          </choice>-je<lb/>
+               t'embrasser autrement que sur<lb/>
+               ce froid papier et te voir occupée<lb/>
+               sérieusement à des remèdes nécessaires ! <persName ref="#pers_A366">A. AMPÈRE</persName>.</p>
+            <closer>Au Citoyen<lb/>
+               <persName>Richard</persName>, chez les<lb/>
+               <persName>frères Périsse</persName>, libraires,<lb/>
+               <placeName>grande rue Mercière, n°
+               15</placeName>,<lb/>
+               pour remettre s'il lui plaît<lb/>
+               à Mme <persName ref="#pers_C129">Ampère-Carron</persName>,<lb/>
+               à <placeName>Lyon</placeName>.</closer>
+         </div>
+      </body>
+      <back>
+         <div>
+            <note xml:id="corresp1">(1) Huit pages in-4°, 17 x 25,5, sur papier bleuâtre, avec
+               adresse à la fin. (2) Voir lettre de <persName ref="#pers_C129">Julie</persName> p.151-152. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

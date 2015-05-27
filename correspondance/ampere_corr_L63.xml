@@ -1,0 +1,264 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 63</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1801-05-06-A">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1943">1943</date>
+                     <biblScope type="tome">III.</biblScope>
+                     <biblScope type="pp">p. 840-841-842</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L63</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L63manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <repository>Collection Noël Bodin [note de Louis DE
+                           LAUNAY]</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Cinq pages 18 x 23, adresse sur la sixième. [note de Louis DE LAUNAY]</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_A366">Ampère, André-Marie</persName>
+          <date when-iso="1801-05-06">6 mai
+                        1801</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_C125">Carron, Elise (soeur de Julie)</persName>
+        </correspAction>
+        <note type="noteDelaunay">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1801-05-06-A">
+      <body>
+         <div>
+            <opener>
+          <date when="1801-05-06">
+            <foreign xml:lang="ita">di maggio del 1801 [6 mai 1801]</foreign>
+          </date>
+        </opener>
+            <p>
+          <foreign xml:lang="ita">Cara ed amabile sorella, Priachè un destin crudele l'involo à tutti suoi amici per
+               riportarla frà le bracchia del caro sposo, le promessi de scriverle in quella lingua
+               che le sembra cosi piacevole, di farte perdonnare a tutto cio che le si scrive in
+               italiano. Mi perdonna dunque s'io male scrivo, che da trê anni mi sono quasi affato
+               dimenticato di tanta dolce e tenera favella. Melle rincresce oggi più che mai poichè
+               sono da scriverle.Vorrei aver da narrarle alcune novellette che potessero dilettarla.
+               Ma non so dove pigliarne. Se posso a bel agio disporrc d'on poco di tempo, non sono
+               cosi sciocco di perderlo lunge del amor mio, e del nostro tenero pargolette, per
+               andare in traccia di. quel che si fa o si dice. I miei amici potrebbero farmi
+               consapevole d'alcune leggiadre cosette, ma se conducono corne se m'avessero affato
+               dimenticato. Econe uno al quai già due volte scrissi senza averne la menoma riposta.
+               Non so corne sensarlo se non persuadendomi che possibile ê che sia morte ; se il
+               povero se lasciato innamorare, temo molto che sia morto d'affano. Mi dirà che in
+               questo secolo gli amorosi non muojono (sic) più, se non di modo che dopo pochi
+               momenti, risorgono non meno vivi che pria di morire, ancorche ne restano per volta un
+               poco pallidi. Udia dunque, e udiano insieme tette le donne scortesi e crudeli, la
+               sventura di un giovine di questa citta. II figlio del signor <persName>Joseph René Ruelle</persName>, nomo
+               famoso in Lione per claie lezioni a molti scolari sulla tenuta de libri e il cambio
+               del argento, e per aver stampato un tratto della medesima scienza, il suo figlio,
+               corne dissi, andonne da una donna, chiamata <persName>Koch</persName>, mercatrice di caffê e cervisia, le
+               ha narrato tutto l'amore ch'ella gli ispirava, l'ha precata almeno di leggere un
+               viglietto ove avea fatta cosi dolce e viva descrizione del amor suo, che la donna ne
+               dovesse essere commossa. E quando quest' impia, barbara e crudele reina de suoi
+               pensieri, s'è ne sempre burlata, rigettando il tutto, e aggravando il caso d'alcune
+               parolctte scortesi, il povero giovine s'è trapassato il cervello col piombo d'uno
+               pistoletto, bel coipo ! dal quale e caduto morto ! Oggi tutti giovani vanno comprare
+               cervisia in quello caffè, per veder Madame <persName>Koch</persName>, e insieme l'appertura che il piombo
+               ha fatta nelle solive, dopo aver dato la morte a povero giovine. Vene sono più
+               favoritè della sorte. E si dice che le donne non sono tette crudeli a tal segno.
+               Addio, cara sorella, vi abbracia con una cosi tenera amista, che alcuni potriano
+               prenderlà per un sentimento più vivo, s'io la sentissi per una altra, e non per mia
+               sorella. Abbraciate a mio nome il mio fratello, gli farà questo braccio piu
+               gradevole, ne son certo, che un mio. Non s'offenda, non di mono s'io credo che se il
+               mio gli fosse dato in Lione in mezzo a tutti noi, gli farebbe forse piacere ancor più
+               vivo ! Felice e avventuroso bacio che sarebbe il pegno della felicità che gustaremo
+               tutti uniti ! Mi creda per la vita il suo più fidele amico, e divotissimo Fratello <persName ref="#pers_A366">A. AMPÈRE</persName>. Io avea tralasciato questa pagina da scrivere acciochè la mia Guiliu potesse
+               scriverle anche gli addj, che avrebbe trovati dolci in ver ma più amari ancora, di
+               darle di pin presso. Ma mi sono dimenticato di fat-ne ella consapevole di questo, e
+               oggi e andata dalla sua madre, sicchè non posso più fare ch'ella le dice tutte le
+               premure che sentono scambievolmente due sorelle separate dal destino. Mene rincresce,
+               ma che fare ? Bisogno inviare or sie ora quella lettera à la posta. D'altrove conosce
+               assai bene l'amista di sua picciola sorella, per non chiederne pegni. Addio dunque,
+               cara sorella mia</foreign> [TRADUCTION] <placeName>Lyon</placeName>, le <date when="1801-05-06">6 mai 1801</date> Chère et aimable sœur, Avant qu'un
+               destin cruel vous ait soustraite à tous vos amis pour vous ramener dans les bras d'un
+               cher époux, je vous ai promis de vous écrire dans cette langue qui vous semble si
+               agréable pour vous faire pardonner tout ce qu'on vous écrit en italien. Pardonnez-moi
+               donc si j'écris mal, parce que depuis trois ans, j'ai presque oublié cette langue si
+               douce et si tendre. Cela me contrarie plus que jamais aujourd'hui puisque j'ai à vous
+               écrire. Je voudrais avoir à vous raconter quelques nouvelles qui puissent vous
+               plaire. Mais je ne sais où les prendre. Si je puis disposer à mon aise d'un peu de
+               temps, je ne suis pas assez sot pour le perdre loin de mon amour et de notre tendre
+               petit enfant pour aller à la quête de ce qui se fait ou se dit. Mes amis pourraient
+               m'informer de quelques galantes petites choses ; mais ils se conduisent comme s'ils
+               m'avaient tout à fait oublié. Il y en a un auquel j'ai déjà écrit deux fois sans
+               avoir la moindre réponse. Je ne sais comment l'interpréter à moins de supposer qu'il
+               est peut-être mort. Si le pauvre s'est amouraché, je crains qu'il ne soit mort de
+               chagrin. Vous me direz que dans ce siècle les amoureux ne meurent plus, sinon de
+               telle sorte qu'au bout de quelques instants ils ressuscitent aussi vivants qu'avant
+               de mourir, sauf qu'ils sont parfois un peu pâles. écoutez donc et que toutes les
+               femmes dures et cruelles écoutent aussi ce qui est arrivé à un jeune homme de cette
+               ville. Le fils de M. <persName>Joseph René Ruelle</persName>, nom bien connu à <placeName>Lyon</placeName> pour donner à beaucoup
+               d'élèves des leçons de tenue des livres et de change et pour avoir publié un traité
+               de la même science, son fils, dis-je, s'est épris d'une femme nommé <persName>Koch</persName>, marchande
+               de café et de bière, lui a dit tout l'amour qu'elle lui avait inspiré, l'a priée tout
+               au moins de lire un billet où il avait fait une si douce et vive description de son
+               amour que la dame devait en être émue ; et, quand cette impie, barbare et cruelle
+               reine de ses pensées se fut toujours moquée de lui, rejetant le tout et aggravant le
+               cas de quelques paroles impolies, le jeune homme s'est brûlé la cervelle avec la
+               balle d'un pistolet, un beau coup ! dont il est tombé mort. Aujourd'hui tous les
+               jeunes gens vont acheter de la bière dans ce café pour voir Mme <persName>Koch</persName> et, en même
+               temps, le trou que la balle a fait dans les solives après avoir donné la mort au
+               pauvre jeune homme. Ils en sont plus favorisés du sort, et l'on dit que toutes les
+               femmes ne sont pas aussi cruelles. Adieu, ma chère sœur, je vous embrasse avec une
+               si tendre amitié que l'on pourrait la prendre pour un sentiment plus vif si je
+               l'éprouvais pour une autre et non pour ma sœur. Embrassez en mon nom mon frère : ce
+               baiser lui sera plus agréable, j'en suis certain, que le mien. Il ne s'offensera pas
+               du moins si je pense que, si le mien lui était donné à <placeName>Lyon</placeName> au milieu de tous les
+               nôtres, il lui ferait peut-être un plaisir encore plus vif. Heureux et fortuné baiser
+               qui serait le signe de la félicité que nous goûterons tous en étant réunis !
+               Croyez-moi pour la vie votre ami le plus fidèle et le plus dévoué. Votre frère
+               <persName ref="#pers_A366">AMPÈRE</persName>. J'avais laissé cette page libre afin que ma <persName ref="#pers_C129">Julie</persName> put écrire aussi les adieux
+               qu'elle aurait trouvé certainement doux mais plus amers encore de donner de plus
+               près. Mais j'ai oublié de l'en informer et aujourd'hui elle est allée chez sa mère de
+               sorte que je ne puis faire qu'elle vous dise tous les sentiments qu'éprouvent
+               mutuellement deux sœurs séparées par le destin. Cela me contrarie, mais qu'y faire ?
+               Il me faut maintenant envoyer cette lettre à la poste. D'ailleurs vous connaissez
+               assez bien l'amitié que vous porte votre petite sœur pour ne pas en demander de
+               signes. Adieu donc, ma chère sœur.</p>
+            <closer>A Mme <persName ref="#pers_C125">Carron</persName>, chez <persName>Mercey</persName>, <placeName>n° 16, rue Cérutti</placeName>, à <placeName>Paris</placeName>.</closer>
+         </div>
+      </body>
+      <back>
+         <div>
+            <note xml:id="corresp1"> (1) Coll. <persName>Bodin</persName>. Cinq pages 18 x 23, adresse sur la
+               sixième.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

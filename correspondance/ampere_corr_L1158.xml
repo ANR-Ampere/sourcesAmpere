@@ -1,0 +1,666 @@
+<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 1158</title>
+            <author xml:id="AMA" key="Ampère, André-Marie                                                 (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1812-01-15-A">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Bibliothèque nationale de France</institution>
+                  <repository>N.A.F.</repository>
+                  <idno>ms. 14605, f° 111-116 [note A. Robinet]</idno>
+               <altIdentifier>
+              <idno type="old">L1158</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+               
+               <physDesc>
+                  <handDesc>
+                     <handNote corresp="#AMA">
+                        <name type="person" key="Ampère, André-Marie                                                   (1775-1836)">
+                           <forename>André-Marie</forename>
+                           <surname>Ampère</surname>
+                        </name>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+            
+            <listWit>
+               <witness xml:id="L1158edition">
+            <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>Maine de Biran</surname>
+                           <forename>Pierre</forename>
+                        </author>
+                        <author role="dir">
+                           <surname>Robinet</surname>
+                           <forename>André</forename>
+                        </author>
+                        <title>Oeuvres, XIII-1 : Correspondance philosophique avec Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>J. Vrin</publisher>
+                           <date when="1993">1993</date>
+                           <biblScope type="pp">p. 255-259</biblScope>
+                        </imprint>
+                     </monogr>
+                  </biblStruct>
+          </witness>
+               <witness xml:id="L1158manuscrit">
+                  <msDesc type="copie">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <idno>chemise 274</idno>
+                     </msIdentifier>              
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1812-01-15">15 janvier
+                        1812</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Maine de Biran, Pierre</persName>
+        </correspAction>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1812-01-15-A">
+      <body>
+         <div>
+            <opener>
+          <pb n=""/>
+          <date when="1812-01-15">15 janvier [1812]</date>
+        </opener>
+            <p> Mon cher ami, je me hâte de vous<lb/>
+               écrire pour que cette lettre vous parvienne<lb/>
+               avant
+               un paquet que j'ai remis hier à<lb/>
+               Monsieur <persName>Romain d'<placeName>Allemagne</placeName>
+          </persName>, c'était une<lb/>
+               réponse à
+               votre dernière lettre, et peut<lb/>
+               être y a-t-il une sorte d'humeur, dont<lb/>
+               je vous demande
+               pardon d'avance, causée<lb/>
+               par l'idée que je m'étais faite, d'après<lb/>
+               cette lettre, d'une
+               plus grande divergence<lb/>
+               entre vos idées et les miennes. Il m'a<lb/>
+               donné le tableau que
+               vous lui avez<lb/>
+               envoyé pour moi, mais comme j'avais<lb/>
+               du monde à dîner je n'ai pu
+               l'étudier<lb/>
+               qu'hier au soir, et n'ai point<lb/>
+               encore eu le <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice> de lire les<lb/>
+               explications du
+               petit cahier qui<lb/>
+               l'accompagne. J'ai été enchanté en<lb/>
+               voyant le tableau de le trouver<lb/>
+               si peu éloigné de mes idées. Il me<lb/>
+               reste cependant à vous faire<lb/>
+               quelques
+               observations, je me bornerai<lb/>
+               dans ce moment aux plus<lb/>
+               frappantes.</p>
+            <p>
+          <list>
+            <item n="I">. Phénomènes
+               oubliés dans votre tableau.<lb/>
+               <list>
+                <item n="1">° Je trouve dans votre système<lb/>
+                  sensitif composé que deux sortes<lb/>
+                  <hi rend="underline">d'associations</hi>, ainsi indiquées :<lb/>
+                
+               B. Associations <table>
+                    <row>
+                  <cell>organique.</cell>
+               </row>
+                  <row>
+                      <cell>fortuite</cell>
+                    </row>
+                  </table>  b.
+               Fantômes ou visions.<pb n=""/>
+               Or outre <hi rend="underline">l'association organique</hi> par<lb/>
+                  laquelle les <hi rend="underline">sensations</hi> de l’œil passif<lb/>
+                  et du
+               tact passif se rangent dans<lb/>
+                  un certain ordre, en surface colorée,<lb/>
+                  ou chaude, froide,
+               etc. il y a dans<lb/>
+                  ce système deux autres <unclear>modes</unclear>
+                  <lb/>
+                  d'association bien distincts. L'un<lb/>
+                  que
+               j'<choice>
+                    <sic>appele</sic> <corr>appelle</corr>
+                  </choice> l'association fortuite a lieu<lb/>
+                  entre des <hi rend="underline">sensations simultanées</hi>
+                  <lb/>
+                  de divers
+               sens, qui sans former<lb/>
+                  par leur <hi rend="underline">union</hi> un seul <hi rend="underline">tout</hi>,<lb/>
+                  <hi rend="underline">s'unissent</hi> néanmoins en cela que<lb/>
+               si l'une est reproduite, elle fait<lb/>
+                  renaître l'image <unclear>de </unclear>l'autre. Ce<lb/>
+                  phénomène est
+               d'autant plus<lb/>
+                  important à noter qu'il a lieu<lb/>
+                  sans cesse dans les animaux, et<lb/>
+                  donne
+               lieu à tout ce qu'on prend<lb/>
+                  en eux pour de la mémoire.<lb/>
+                  L'autre entre des <hi rend="underline">images
+               s'unissant</hi>
+                  <lb/>
+                  spontanément dans les rêves et les<lb/>
+                  rêveries; ce mode <hi rend="underline">d'association</hi> diffère<lb/>
+               du précédent en ce que les <hi rend="underline">images</hi>
+                  <lb/>
+                  s'unissent en un seul tout qu'on<lb/>
+                  <choice>
+                    <sic>appele</sic> <corr>appelle</corr>
+                  </choice>
+               communément <hi rend="underline">image<lb/>
+                  complexe</hi>. Il diffère des deux<lb/>
+                  autres en ce qu'au lieu d'avoir<lb/>
+                  lieu
+               à l'instant des <hi rend="underline">sensations</hi>
+                  <lb/>
+                  il n'a lieu que postérieurement ; entre<pb n=""/>
+                  leurs <hi rend="underline">traces</hi>, les
+               <hi rend="underline">images</hi>, et en ce qu'il<lb/>
+                  n'est point déterminé comme <hi rend="underline">l'association</hi>
+                  <lb/>
+                  organique par la
+               nature de<lb/>
+                  l'organe, et la disposition mutuelle<lb/>
+                  des points <hi rend="underline">impressionnées</hi>. C'est ce
+               mode<lb/>
+                  d'association que j'<choice>
+                    <sic>appele</sic> <corr>appelle</corr>
+                  </choice> <hi rend="underline">agrégation</hi>.<lb/>
+                  Est<add>-ce</add> lui ou mon <hi rend="underline">association fortuite</hi>
+                  <lb/>
+               auxquels vous donnez ce nom<lb/>
+                  dans votre tableau ? Les réunissez<lb/>vous sous une
+               dénomination<lb/>
+                  commune, <add>ce qui est impossible, </add>ou oubliez-vous un<lb/>
+                  des deux ?</item>
+                <lb/>
+                  <item n="2">° Le
+               phénomène correspondant<lb/>
+                     du <hi rend="underline">système comparatif</hi>, que je<lb/>
+                     nommais <hi rend="underline">combinaison</hi> et qui a<lb/>
+               lieu quand ont <hi rend="underline">combine</hi> volontairement<lb/>
+                     des <hi rend="underline">idées générales</hi> pour en faire<lb/>
+                     des <hi rend="underline">groupes
+               représentatifs</hi> de ce<lb/>
+                     qu'on n'a point vu, comme, par<lb/>
+                     exemple, quand je me fais de cette<lb/>
+               manière l'idée d'une pagode, celle<lb/>
+                     d'une éruption du <placeName>Vésuve</placeName> ; ou que<lb/>
+                     je compose un roman
+               ou un<lb/>
+                     air d'opéra.<pb n=""/>
+                     Je trouve dans votre tableau<lb/> C. <table>
+                    <row>
+                      <cell>Combinaison(ou<lb/>
+                  comparaison)</cell>
+                    </row>
+                  </table> ; 
+               c. <table>
+                    <row>
+                      <cell>Classification(ou<lb/>
+                  idée générale)</cell>
+                    </row>
+                  </table>.<lb/>
+               Je ne
+               comprends rien du tout à<lb/>
+                     cela. La <hi rend="underline">comparaison</hi> a toujours<lb/>
+                     été l'acte par lequel on
+               <hi rend="underline">
+                    <choice>
+                      <sic>apperçoit</sic> <corr>aperçoit</corr>
+                    </choice>
+                  </hi>
+                  <lb/>
+                     un <hi rend="underline">rapport de ressemblance</hi>, <hi rend="underline">l'idée</hi>
+                  <lb/>
+                     générale est la <hi rend="underline">trace</hi> de ce<lb/>
+                     acte, mais
+               la <hi rend="underline">combinaison</hi> dans<lb/>
+                     le sens que tout le monde<lb/>
+                     donne à ce mot suppose toutes<lb/>
+                     les <hi rend="underline">idées</hi>
+               générales qui y entrent<lb/>
+                     formées , on les prend ailleurs<lb/>
+                     pour les faire entrer dans
+               la<lb/>
+                     <hi rend="underline">combinaison</hi>. C'est là un<lb/>
+                     <hi rend="underline">phénomène</hi> que vous avez totalement<lb/>
+                     oublié. Car vous mettez
+               pour<lb/>
+                     trace <hi rend="underline">classification</hi>, ou dans la<lb/>
+                     <hi rend="underline">classification</hi> les <hi rend="underline">idées</hi> sont groupées<lb/>
+                     d'après
+               leurs <hi rend="underline">ressemblances</hi>, et<lb/>
+                     dans la vrai <hi rend="underline">combinaison</hi> c'est<lb/>
+                     <hi rend="underline">arbitrairement</hi> ou d'après des
+               motifs<lb/>
+                     de toutes sortes; par exemple,<pb n=""/>
+                     si je vous <choice>
+                    <sic>racconte</sic> <corr>raconte</corr>
+                  </choice>, comme cela est<lb/>
+                     vrai, que
+               j'ai vu l'autre jour le dessin d'un<lb/>
+                     fœtus à deux <choice>
+                    <sic>tête</sic> <corr>têtes</corr>
+                  </choice> dont le cerveau était<lb/>
+                     à nu
+               sans crâne ni cuir chevelu, il<lb/>
+                     faudra que vous combiniez les <hi rend="underline">idées générales</hi>
+                  <lb/>
+                     de tête,
+               de <hi rend="underline">dualité</hi>, de <hi rend="underline">nudité</hi>, de cerveau,<lb/>
+                     de crâne, etc... pour vous faire <hi rend="underline">l'idée<lb/>complexe</hi>
+                que j'<choice>
+                    <sic>appèle</sic> <corr>appelle</corr>
+                  </choice> <hi rend="underline">conception</hi> de<lb/>
+                     ce que vous n'avez pas vu. D'autre fois,<lb/>
+                     ce sera
+               vous-même qui créerez<lb/>
+                     la <hi rend="underline">conception</hi> par une <hi rend="underline">combinaison<lb/>volontaire
+                     </hi>, etc... et cet
+               acte de notre<lb/>
+                     <hi rend="underline">activité</hi> est entièrement oublié dans<lb/>
+                     votre tableau, et je crois que
+               c'est<lb/>
+                     faute d'y avoir songé que vous m'avez<lb/>
+                     écrit que les mots <hi rend="underline">combinaison</hi> et<lb/>
+               <hi rend="underline">conception</hi> du miens étaient <choice>
+                    <sic>insignifians</sic> <corr>insignifiants</corr>
+                  </choice>,<lb/>
+                     tandis qu'aucun ne présente un<lb/>
+                     sens plus
+               précis. Je trouve toujours<lb/>
+                     que conception signifie précisément<lb/>
+                     un <hi rend="underline">groupe d'<choice>
+                      <sic>idée</sic> <corr>idées</corr>
+                    </choice>
+                  </hi>
+               représentant une<lb/>
+                     chose qu'on n'a point vue, et qu'on<lb/>
+                     n'a pu concevoir que par une<lb/>
+               <hi rend="underline">combinaison d'idées</hi> générales empruntées<lb/>
+                     d'autres <hi rend="underline">groupes</hi>.</item>
+                <lb/>
+                  <item n="3">°. Un oubli plus
+               inconcevable est celui du<lb/>
+                     phénomène que j'avais nommé <hi rend="underline">émotion</hi>.<lb/>
+                     Ce mot peut vous
+               semblez mal choisi,<pb n=""/>
+                     mais ce qu'il exprime pour moi, comment<lb/>
+                     ne se trouve t-il pas
+               dans votre<lb/>
+                     tableau ? Il n'y a rien même qui y<lb/>
+                     ressemble, et c'est cependant l'un
+               des<lb/>
+                     <hi rend="underline">phénomènes</hi> les plus <choice>
+                    <sic>fréquens</sic> <corr>fréquents</corr>
+                  </choice>, les plus<lb/>
+                     remarquables. Toute peine ou tout<lb/>
+                     plaisir
+               causé par une <hi rend="underline">croyance</hi>,<lb/>
+                     ( dans le sens général que je donne<lb/>
+                     à ce mot), un négociant
+               apprend<lb/>
+                     la perte de son vaisseau dans<lb/>
+                     la <placeName>mer des Indes</placeName>, une mère la<lb/>
+                     mort de son fils
+               absent, les<lb/>
+                     voilà souffrant les plus vives<lb/>
+                     douleurs, un homme gagne<lb/>
+                     100 000 Fr<ex>anc</ex>s à la
+               loterie à la vue de<lb/>
+                     la liste des numéros le voilà<lb/>
+                     dans un transport de joie, etc...<lb/>
+               ces <hi rend="underline">douleurs</hi>, ces <hi rend="underline">jouissances</hi>, n'ont<lb/>
+                     rien de <hi rend="underline">sensitif</hi> c'est-à-dire de<lb/>
+                     produit par
+               les organes de sens.<lb/>
+                     <choice>
+                    <sic>Ele</sic> <corr>Elles</corr>
+                  </choice> viennent uniquement de<lb/>
+                     l'accord ou de l'opposition de ce<lb/>
+               que nous <hi rend="underline">croyons</hi> ou <hi rend="underline">apprenons</hi>,<lb/>
+                     et de ce que nous désirons. Elles<lb/>
+                     supposent tous les
+               phénomènes du<lb/>
+                     système <hi rend="underline">actif simple</hi> auquel elles<lb/>
+                     appartiennent évidemment comme<pb n=""/>
+               une de ses dépendances. Elles sont<lb/>
+                     par rapport à ce système, ce que<lb/>
+                     les <hi rend="underline">affections</hi>
+               sont au <hi rend="underline">système sensitif<lb/>
+                  représentatif</hi>.<lb/>
+                     Encore une fois on doit appeler<lb/>
+                     <hi rend="underline">sensitif</hi>
+               que ce qui est produit<lb/>
+                     immédiatement par les <hi rend="underline">sens</hi>. J'ai<lb/>
+                     trouvé tout à fait mauvaise
+               cette<lb/>
+                     <choice>
+                    <sic>synonimie</sic> <corr>synonymie</corr>
+                  </choice> de votre tableau :<lb/>
+                     recordation ( ou réminiscence sensitive),<lb/>
+                     qu'ont à
+                     démêler avec les <hi rend="underline">sens<lb/> la reconnaissance, l'amitié, l'amour<lb/>
+                        de la patrie, etc...</hi>
+                  <lb/>                    
+               Comment donnez-vous l'épithète<lb/>
+                     <hi rend="underline">sensitive</hi> à un <hi rend="underline">phénomène</hi> que vous<lb/>
+                     placez vous-même
+               dans un<lb/>
+                     <hi rend="underline">système</hi> entièrement diffèrent<lb/>
+                     des <hi rend="underline">systèmes sensitifs</hi>.</item>
+                <lb/> <item n="II II">. Mélanges des
+               <hi rend="underline">phénomènes affectifs</hi>
+                  <lb/>
+                        et des <hi rend="underline">phénomènes représentatifs</hi>. C'est là un autre défaut de
+               votre tableau, j'y trouve ceci :<lb/>
+               C. Désirs c. Croyances.<pb n=""/>
+                        Que de contradictions dans cette ligne.<lb/>
+                        <list>
+                    <item n="1">° Le <hi>désir</hi> est un
+               <hi rend="underline">phénomène-trace</hi>, c'est la <hi rend="underline">trace</hi> d'une <hi rend="underline">affection</hi>
+                      <lb/>
+                           agréable, <hi rend="underline">trace</hi> liée à <hi rend="underline">l'image</hi>
+                      <lb/>
+                           de <hi rend="underline">l'intuition sensitive</hi> qu'accompagnait<lb/>
+                           cette <hi rend="underline">affection</hi>. Il faut bien distinguer<lb/>
+                           le <hi rend="underline">besoin</hi> du désir, le <hi rend="underline">besoin</hi> de la<lb/>
+                           <hi rend="underline">faim</hi>. Dans un enfant qui n'a<lb/>
+                           encore rien pris, est
+               une <hi rend="underline">affection<lb/>
+                  simple</hi> causée par les contractions<lb/>
+                           de l'estomac , comme la colique par<lb/>
+               celle des boyaux. Il n'y a <hi rend="underline">désir</hi> que<lb/>
+                           quand l'image d'un <hi rend="underline">plaisir précédent</hi>
+                      <lb/> est
+               <hi rend="underline">présente</hi>, c'est un cas particulier<lb/>
+                           de ce que j'appelais <hi rend="underline">tendance</hi> pour<lb/>
+                           désigner à la
+               fois <hi rend="underline">l'attrait</hi> et la<lb/>
+                           <hi rend="underline">répugnance</hi>, <hi rend="underline">désir</hi> ne peut en<lb/>
+                           français désigner que <hi rend="underline">l'attrait</hi>.</item>
+                    <lb/>
+              <item n="2">° Un <hi rend="underline">phénomène</hi> causé par un<lb/>
+                 autre n'est pas pour cela la<lb/>
+                 <hi rend="underline">trace</hi>, s'il n'en est pas
+               une <hi rend="underline">image</hi> ou un <hi rend="underline">souvenir</hi>, un <hi rend="underline">fac-similé</hi>.<lb/>
+                 Quand toutes nos <hi rend="underline">croyances</hi> seraient<lb/>
+                 causées
+               par nos <hi rend="underline">désirs</hi>, comment<pb n=""/>
+                 admettre que la <hi rend="underline">croyance</hi> fut une<lb/>
+                 <hi rend="underline">image</hi> du <hi rend="underline">désir</hi> ou un
+               <hi rend="underline">souvenir</hi>
+                      <lb/>
+                 d'avoir désiré ? Il est très vrai que<lb/>
+                 nos <hi rend="underline">émotions</hi> influent sur nos
+               croyances.<lb/>
+                 Vous avez fait là une excellente<lb/>
+                 observation, mais il n'y eut-il que cette<lb/>
+               sorte de <hi rend="underline">croyances</hi>, elle ne serait<lb/>
+                 pas pour cela des <hi rend="underline">traces</hi> de ces<lb/>
+                 émotions.</item>
+                    <lb/>
+                    <item n="3">°. Toutes les <hi rend="underline">croyances</hi> ne sont pas<lb/>
+                    dues à cette <hi rend="underline">cause</hi>. On dit à un<lb/>
+                    enfant qu'il a des
+               antipodes, que<lb/>
+                    la mer monte et descend chaque<lb/>
+                    jour sur les rivages, que le <del type="illisible"/>
+                      <lb/>
+                    sabre de
+               <persName>Mahomet</persName> a coupé la<lb/>
+                    lune en deux, que la Salamandre<lb/>
+                    vit dans la feu, etc. Il <hi rend="underline">croit</hi>
+               tout cela<lb/>
+                    également par le même<lb/>
+                    principe. Quels sont les <hi rend="underline">désirs</hi> causes<lb/>
+                    de ces
+               <hi rend="underline">croyances</hi> ?<lb/>
+                    De quelque <hi rend="underline">cause passive</hi> que vienne<lb/>
+                    la <hi rend="underline">croyance</hi> elle est toujours de même<lb/>
+               nature.<lb/>
+                    Vous avez aussi mêlé des <hi rend="underline">actions</hi> de<lb/>
+                    la <hi rend="underline">volonté</hi> parmi les <hi rend="underline">phénomènes<lb/>
+               représentatifs</hi>. <hi rend="underline">L'attention</hi>, la<pb n=""/>
+                    <hi rend="underline">réflexion</hi> ( dans le sens où je crois<lb/>
+                    que vous avez
+               pris ce mot, celui<lb/>
+                    d'attention volontaire continuée),<lb/>
+                    le <hi rend="underline">rappel volontaire</hi> etc... Ce
+               sont<lb/>
+                    là des cas particulier de <hi rend="underline">l'action<lb/>
+                       volontaire</hi> de la <hi rend="underline">volition</hi>, expression<lb/>
+                    que
+               vous avez <choice>
+                        <sic>rejettée</sic> <corr>rejetée</corr>
+                      </choice> quoiqu'aussi<lb/>
+                    juste que précise, et consacrée<lb/>
+                    au seul cas d'une <hi rend="underline">action volontaire<lb/>
+                       actuelle</hi> par les meilleurs psycologistes.<lb/>
+                    C'est un double emploi que
+               de<lb/>
+                    reproduire ainsi ans le tableau<lb/>
+                    des cas particuliers de volitions,<lb/>
+                    sous des
+               dénominations propres.</item>
+                  </list>
+                </item>
+              </list>
+            </item>
+          </list>
+        </p> <p>J'ai été bien fâché de trouver dans<lb/>
+                  votre tableau <hi rend="underline">idée ou
+               souvenir</hi>,<lb/>
+                  Comme si ces deux mots étaient<lb/>
+                  <choice>
+            <sic>synonimes</sic> <corr>synonymes</corr>
+          </choice>. <hi rend="underline">L'idée</hi> est un <hi rend="underline">élément<lb/>simple</hi>  de
+               <hi rend="underline">l'entendement</hi>, le <hi rend="underline">souvenir</hi>
+          <lb/>
+                  est le <hi rend="underline">groupe</hi> de cet <hi rend="underline">élément</hi> et<lb/>
+                  de <hi rend="underline">l'idée du passé</hi>,
+               <hi rend="underline">idée, simple</hi>,<lb/>
+                  <hi rend="underline">primitive</hi> et <hi rend="underline">
+            <foreign xml:lang="lat">sui generis</foreign>
+          </hi> que j'<choice>
+            <sic>appèle</sic> <corr>appelle</corr>
+          </choice>
+          <lb/>
+                  <hi rend="underline">réminiscence</hi>. J'ai <hi rend="underline">l'idée</hi> du
+               <hi rend="underline">rouge</hi> c'est<pb n=""/>à-dire la <hi rend="underline">trace</hi> du rapport de<lb/>
+                  <hi rend="underline">ressemblance</hi> que j'ai perçu entre tous<lb/>
+                  les
+               rouges sans penser au passé, ni<lb/>
+                  aux diverses époques où j'ai vu des<lb/>
+                  objets rouges.
+               Cela n'a rien de commun<lb/>
+                  avec le <hi rend="underline">souvenir</hi>. Mais si à <hi rend="underline">l'image</hi>
+          <lb/>
+                  du <placeName>Louvre</placeName>, ou à la
+               <hi rend="underline">notion</hi> d'un<lb/>
+                  <hi rend="underline">triangle rectangle</hi> se joint la<lb/>
+                  réminiscence de l'époque où j'ai<lb/>
+                  vu l'un
+               et conçu l'autre ; l'ensemble<lb/>
+                  qui en résulte est un <hi rend="underline">souvenir</hi>.<lb/>
+                  Le <hi rend="underline">souvenir</hi> consiste à
+               pense<supplied>r</supplied>
+          <lb/>
+                  j'ai vu <hi rend="underline">autrefois</hi> le <hi rend="underline">
+            <placeName>Louvre</placeName>
+          </hi>, c'e<supplied>st</supplied>
+          <lb/>
+                  un mode de <hi rend="underline">coordination</hi>, et<lb/>
+                  la trace du
+               <hi rend="underline">jugement personnel</hi>
+          <lb/>
+                  porté alors : <hi rend="underline">je vois le <placeName>Louvre</placeName>
+          </hi>.<lb/>
+                  Voilà ce qui m'a le plus frappé
+               en<lb/>
+                  lisant votre tableau dont j'aime<lb/>
+                  d'ailleurs beaucoup l'ensemble. Je vous<lb/>
+                  en dirai <choice>
+            <sic>davantage</sic> <corr>d'avantage</corr>
+          </choice> quand j'aurai<lb/>
+                  lu le cahier d'observation qui y est<lb/>
+                  joint, et que vous
+               m'aurez dit<lb/>
+                  ce que cette lettre, et le paquet que<lb/>
+                  je remis hier à Mr. <persName>D'<placeName>Allemagne</placeName>
+          </persName>,<lb/>
+               vous auront fait penser. Mais comment<lb/>
+                  vous écrire les petites observation de<pb n=""/>
+                  détail,
+               au nom de la <choice>
+            <sic>psycologie</sic> <corr>psychologie</corr>
+          </choice>
+          <lb/>
+                  et de l'amitié venez à <placeName ref="#pl_P6">Paris</placeName> avant<lb/>
+                  le mois d'avril où je
+               serai vraisemblable<lb rend="hyphen"/>ment obligé de voyager, peut<lb rend="hyphen"/>être pour quatre à cinq mois.<lb/>
+                  Je vous
+               embrasse mille fois. <persName ref="#pers_A366">A. AMPERE</persName> </p>
+            <closer>A <choice>
+            <sic>Monsieur<lb/> Monsieur</sic> <corr>Monsieur<lb/>
+            </corr>
+          </choice> <persName ref="#pers_M372">Maine <supplied>de </supplied>Biran</persName>, membre du corps législatif,<lb/>
+               auparavant sous-préfet<lb/>
+               à
+               <placeName>Bergerac</placeName>,<lb/>
+               dép<ex>artemen</ex>t de la <placeName>Dordogne</placeName>.</closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,458 @@
+<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 622</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+               <forename>André-Marie</forename>
+               <surname>Ampère</surname>
+            </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des sciences</affiliation>
+               </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+               <name>Centre de calcul de l'IN2P3</name>
+               <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+            </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1822-07-10-A">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+                  </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 586-587-588-589-590-591-592</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L622</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L622manuscrit">
+                  <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>Angleterre</country>
+                        <settlement>Londres</settlement>
+                        <institution>Institution of Electrical Engineers [note de Louis DE
+                           LAUNAY]</institution>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Dix pages 22 x 33 ; écrit par un secrétaire. [note de Louis DE
+                           LAUNAY]</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+               <witness xml:id="L622manuscrit2">
+                  <msDesc type="brouillon_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 369</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>La fin du brouillon (f.17-20) est écrite par un secrétaire, avec des
+                           corrections d'Ampère.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1822-07-10">10 juillet 1822</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Faraday, Michael</persName>
+        </correspAction>
+        <note type="noteDelaunay">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+            <date when="2014-07">juillet 2014</date>
+            <name>Philippe Pons</name>
+            <name>Aude Coustumer</name>
+         </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1822-07-10-A">
+      <body>
+         <div>
+            <opener>
+               <date when="1822-07-10">10 juillet 1822</date>
+            </opener>
+            <p>Monsieur, Je suis vraiment si confus de n'avoir pas répondu de suite aux différentes
+               lettres que vous m'avez fait l'honneur de m'écrire, que je ne sais comment vous en
+               faire agréer mes excuses. La correspondance que vous avez la bonté d'entretenir avec
+               moi est cependant bien précieuse pour moi. Vos découvertes, en enrichissant la
+               physique de faits nouveaux, sont la principale cause de ce que j'ai pu ajouter à ce
+               que j'avais fait il y a deux ans sur les phénomènes électro-dynamiques. Mon silence
+               forcé est venu surtout de ce que les occupations journalières que j'ai à
+               l'<orgName>école
+               Polytechnique</orgName> et dans
+               l'<orgName>Université</orgName>, non seulement ne me laissent presque pas un moment à
+               consacrer à d'autres occupations, mais encore me laissent dans un état de fatigue où
+               je deviens incapable d'écrire. Je m'étais malheureusement proposé de vous faire une
+               longue lettre où j'aurais exposé toutes les preuves qui me paraissent augmenter tous
+               les jours en faveur de la manière dont j'ai ramené les phénomènes de l'aimant à ceux
+               que j'ai découverts et annoncés à l'<orgName>Institut</orgName> dans ses séances du
+               <date when="1820-09-18">18</date> et
+               du<date when="1820-09-25"> 25 septembre 1820</date>, relativement à l'action mutuelle
+               de deux conducteurs voltaïques et dans la séance du
+               <date when="1820-10-30">30 octobre 1820</date>, relativement à celle que la terre
+               exerce sur un conducteur mobile. Je n'ai jamais eu le temps nécessaire pour rédiger
+               cette lettre, et je me sens d'autant plus coupable envers vous à cet égard que vous
+               m'avez constamment répondu aussitôt mes lettres reçues, ce dont je vous ai une
+               obligation infinie et ce qui me fait regretter encore plus vivement de ne vous avoir
+               pas pu montrer de mon côté la même exactitude. Je n'ai point pu tirer au clair ce
+               qu'était devenue ma lettre à la
+               <orgName>Société royale d'<placeName>Édimbourg</placeName>
+          </orgName>, M.
+               <persName>Hachette</persName> m'assure qu'elle a dû parvenir à M.
+               <persName>Brewster</persName>. N'ayant pas eu le temps de lui écrire, je n'ai pu en
+               acquérir la certitude. J'ai remis à M. <persName>Underwood</persName>, un ami de
+               <persName>Sir H. Davy</persName> qui retournait en <placeName>Angleterre</placeName>,
+               deux exemplaires de mon mémoire avec plusieurs additions et suppléments qui ne se
+               trouvaient pas dans l'exemplaire que vous aviez de ce mémoire. L'un des deux
+               exemplaires que j'ai confiés à M. <persName>Underwood</persName> était pour vous,
+               Monsieur ; l'autre pour <persName>Sir Humphry</persName>. J'y ai ajouté depuis de
+               nouveaux suppléments que je vous ai adressés ainsi qu'à
+               <persName>Sir Humphry</persName> par M. <persName>Dorckray</persName> de
+               <placeName>Manchester</placeName>, qui se trouvait dernièrement à
+               <placeName>Paris</placeName> avec M. <persName>Dalton</persName>. Je dis à
+               <placeName>Paris</placeName>, car quoique j'aie commencé cette lettre à
+               <placeName>Paris</placeName>, c'est de la ville de <placeName>Clermont</placeName> en
+               <placeName>Auvergne</placeName> que je vous écris aujourd'hui
+               <date when="1822-07-25">25 juillet</date>, ayant été obligé de quitter
+               <placeName>Paris</placeName> pour une inspection des collèges royaux lorsque je ne
+               vous avais encore écrit qu'une page. J'espère que ces différents articles vous auront
+               été remis chacun dans son temps. Je désirerais beaucoup en être sûr et savoir si
+               <persName>Sir H. Davy</persName> a reçu aussi ce qui lui était destiné. J'ai encore
+               fait un mémoire sur les lois de l'action électro-dynamique que je regarde comme fort
+               important, et que j'ai lu à l'<orgName>Institut</orgName> dans les séances du
+               <date when="1822-06-10">10</date> et du
+               <date when="1822-06-24">24
+               juin</date> dernier ; mais il n'est pas
+               encore imprimé. La question au sujet des phénomènes dont nous nous occupons me semble
+               consister uniquement à savoir si j'ai eu raison de supposer les courants en long dans
+               les fils conducteurs et en travers dans les aimants, ou s'il faut admettre, comme M.
+               <persName>Wollaston</persName>, qu'ils sont au contraire en long dans les aimants et
+               en travers dans les fils conducteurs. Quand même les phénomènes s'expliqueraient
+               également bien dans les deux cas, la mienne serait préférable comme s'accordant avec
+               la théorie de Volta sur l'instrument qui porte son nom : théorie qui montre comment
+               les deux électricités doivent se porter en sens opposés le long du conducteur d'une
+               extrémité de la pile à l'autre, tandis que, dans tout ce que nous savons de la nature
+               de la pile, rien n'indique comment les fluides électriques pourraient tourner autour
+               du conducteur, ni pourquoi ils tourneraient autour de ce conducteur plutôt dans le
+               sens où l'on suppose qu'ils tournent en effet que dans le sens opposé. Cette
+               objection n'a pas lieu dans ma manière d'expliquer les phénomènes, parce que j'admets
+               d'abord que les courants préexistants autour de chaque particule de fer ou de l'acier
+               y sont dirigés dans toutes sortes de sens avant l'aimantation : d'où il suit que leur
+               action totale sur un point situé à l'extérieur est nécessairement nulle. J'attribue,
+               comme une chose probable, de semblables courants aux particules de tous les corps ;
+               mais j'admets qu'ils y restent invinciblement dans cette situation où ils ne peuvent
+               agir au dehors lorsque ces corps ne sont pas susceptibles d'aimantation. Au
+               contraire, dans le fer, le nickel et le cobalt, cette situation peut être changée, et
+               ce changement a lieu par l'action, soit d'un fil conducteur, soit de la terre, soit
+               d'un aimant, qui dirige ces courants particuliers précisément comme elle dirige dans
+               mes expériences un conducteur plié de manière à faire un circuit presque fermé. Elle
+               tend donc à les diriger tous dans le même sens, et alors ils agissent au dehors, et
+               je montre, tant par le raisonnement que par les expériences faites avec des hélices,
+               qu'ils doivent alors, d'après les lois de l'action mutuelle de deux courants
+               électriques, agir précisément comme le font en effet les aimants. Des deux
+               différences que vous avez remarquées entre la manière d'agir des aimants et des
+               hélices, l'une qui est relative à l'action d'une hélice sur un aimant placé dans son
+               intérieur, ne peut être objectée à ce que je viens de dire, puisque les courants d'un
+               aimant existant autour de chacune de ses particules ne peuvent jamais se trouver dans
+               le cas d'agir que sur des points situés hors des circuits voltaïques qu'ils forment.
+               L'autre différence relative à la situation des points connus sous le nom de pôles,
+               que j'avais d'abord expliquée par une plus grande intensité de l'électrisation
+               dynamique au milieu de l'aimant, l'est plus naturellement et plus complètement
+               d'après un travail que je n'ai pas encore publié, mais qui est indiqué dans l'Analyse
+               des travaux de l'<orgName>Académie royale des Sciences</orgName> pendant l'année
+               <date when-iso="1821">1821</date>, partie mathématique, page 22. Cette analyse a été
+               publiée au mois d'avril dernier. Quant aux résultats de ce travail, il me faudrait
+               plus de temps que je n'en ai pour les exposer en détail. Ils sont fondés sur ce que
+               l'action mutuelle des courants d'un même aimant, d'après les lois de cette action, ne
+               peut manquer d'incliner sur son axe ceux qui existent dans des particules situées
+               hors de son axe, et cela d'autant plus qu'elles sont plus loin de cet axe et du
+               milieu de l'aimant, en leur donnant la situation représentée dans la figure 25 de la
+               planche VI du recueil de mes mémoires que vous a porté M.
+               <persName>Underwood</persName>. Cette inclinaison des courants des particules des
+               aimants ne me sert pas seulement à rendre raison de la différence que vous avez
+               remarquée entre la situation des pôles d'un aimant et ceux d'une hélice, mais encore
+               à expliquer plusieurs phénomènes qu'offrent les aimants et, entre autres, la
+               disposition que prend de la limaille de fer, soit autour, soit sur la surface d'un
+               aimant et, en particulier, sur les arêtes de ses bases : disposition qui n'a jamais
+               été expliquée dans la théorie ordinaire de l'aimant, fondée sur la supposition de
+               deux fluides magnétiques, et que je crois avoir le premier fait rentrer dans les lois
+               des autres phénomènes magnétiques, en en rendant raison par l'inclinaison des
+               courants des particules des aimants relativement aux axes de ces aimants. Il est vrai
+               que, depuis, un professeur de physique plein de mérite et qui prépare dans ce moment
+               un ouvrage sur les phénomènes électro-dynamiques, a remarqué que cette disposition
+               pouvait aussi être expliquée dans la théorie des deux fluides magnétiques, en
+               concevant que, chaque particule contenant un excès de fluide austral à une de ses
+               extrémités et un excès de fluide boréal à l'autre, l'axe magnétique de cette
+               particule n'était pas, comme on le suppose ordinairement, parallèle à l'axe de
+               l'aimant, mais qu'il lui était incliné de manière à se trouver perpendiculaire au
+               plan dans lequel je montre que le courant électrique de la même particule doit se
+               trouver dirigé par la combinaison de la cause extérieure qui a aimanté le barreau
+               avec l'action qu'exercent, sur le courant, ceux de toutes les autres particules de
+               même barreau dès qu'il a reçu l'aimantation. D'après la remarque de cet habile
+               physicien, je ne peux plus donner cette disposition de la limaille de fer autour d'un
+               aimant et sur sa surface, comme une preuve absolument sans réplique de la préférence
+               que je crois due à ma théorie ; mais n'est-ce point cependant un motif puissant en sa
+               faveur, qu'après qu'elle m'a fourni la première explication satisfaisante des
+               circonstances si remarquables que présente cette disposition de la limaille, on soit
+               en quelque sorte obligé de traduire mon explication dans le langage de l'ancienne
+               théorie pour pouvoir y rendre raison des mêmes circonstances. Voilà quelques-unes des
+               raisons que je pourrais faire valoir dans la supposition où les hypothèses qu'on a
+               opposées à ma manière de concevoir les phénomènes électro-dynamiques, pourraient y
+               satisfaire aussi bien que la théorie que j'en ai donnée. Il ne me serait pas
+               difficile d'en trouver beaucoup d'autres de ce genre ; mais j'aime mieux me borner à
+               ce qui me paraît présenter des preuves directes et précises de ma théorie. <list>
+                  <item n="1"> Comme je l'ai dit dans la Notice lue à la séance publique de
+                     l'<orgName>Académie des Sciences</orgName> le
+                     <date when="1822-04-08">8
+               avril</date> dernier, une de ces
+                     preuves résulte de la différence totale qui se trouve à l'égard du mouvement
+                     continu, toujours dans le même sens, entre les conducteurs mobiles qui forment
+                     des circuits presque fermés et ceux qui n'en forment pas. Le mémoire que j'ai
+                     lu à la séance du <date when="1822-06-10">10 juin</date> et qui paraîtra
+                     incessamment dans les <title>Annales de Chimie et de Physique</title> a surtout
+                     pour objet ce point important de la physique électro-dynamique. J'y ai d'abord
+                     établi, d'après des expériences très précises, ce fait nouveau qu'un conducteur
+                     mobile qui ne peut tourner autour d'un axe vertical passant par le centre d'un
+                     conducteur fixe circulaire et horizontal, n'éprouve, par l'action de ce dernier
+                     conducteur, aucune tendance à tourner toujours dans le même sens autour de
+                     l'axe vertical, quand il a ses deux extrémités dans cet axe ; en sorte que,
+                     pour avoir, par l'action mutuelle de deux conducteurs, l'un fixe et l'autre
+                     mobile, le mouvement toujours dans le même sens, il faut que le premier forme
+                     un circuit presque fermé et que le second au contraire ne fasse pas même la
+                     moitié du cercle depuis un point de l'axe jusqu'à un autre, et à plus forte
+                     raison qu'il ne forme pas un circuit fermé.</item>
+               </list> Comme, d'après ma théorie, un aimant n'agit que comme un assemblage de
+               circuits voltaïques fermés, on peut remplacer le conducteur fixe par un aimant, et
+               l'on a le mouvement toujours dans le même sens, comme vous l'avez obtenu de cette
+               manière : mais le conducteur mobile ne peut jamais l'être par un aimant, en sorte que
+               le mouvement continu, toujours dans le même sens, ne peut jamais être produit par
+               l'action d'un aimant sur un autre aimant. D'après ces faits, j'ai déterminé un
+               principe fondamental et évident en physique, c'est que, l'action étant toujours égale
+               à la réaction, il est impossible qu'un corps solide soit mû en aucune manière par une
+               action mutuelle entre deux de ses particules, parce que cette action produit sur les
+               deux particules deux forces égales qui tendent à mouvoir le corps en sens opposés.
+               D'où il suit que, quand les particules d'un aimant, traversées par un courant
+               électrique qui les met dans le même état que le fil conducteur, agissent sur le pôle
+               ou sur toute autre partie de l'aimant, il ne peut en résulter aucun mouvement dans ce
+               corps, pas plus que l'assemblage d'un aimant et d'un fil conducteur ne peut se
+               mouvoir quand ils sont invariablement liés ensemble. D'après cette observation la
+               rotation autour de son axe d'un aimant flottant ne peut plus guère être expliquée que
+               comme je l'ai fait dans le mémoire inséré dans le cahier de mai des Annales de Chimie
+               et de Physique et que je vous ai envoyé dernièrement par M. Dorckray de Manchester.
+               Ce mémoire contient les expériences nouvelles que j'ai faites à la fin de l'année
+               dernière avec l'explication des phénomènes que j'ai observés à cette époque, ou qui
+               l'ont été par d'autres physiciens, et dont une partie vous appartient. Je crois que
+               les autres théories ne peuvent en fournir des explications si simples et si directes
+                : ces divers phénomènes pouvant tous être annoncés d'après ma théorie dont ils sont
+               mie conséquence nécessaire. Il y a quelque temps que M. de La Rive m'écrivit les
+               détails d'une nouvelle expérience qu'il crut d'abord opposée à ma théorie ; mais
+               c'était faute de déduire convenablement les conséquences de cette théorie. Cette
+               belle expérience, relative à l'action du globe terrestre sur les conducteurs
+               voltaïques, suit au contraire nécessairement de la manière dont j'explique cette
+               action, comme vous le verrez aisément par les considérations suivantes. La valeur
+               numérique du coefficient du second terme de la formule que j'ai donnée en 1820 pour
+               exprimer l'action mutuelle de deux portions infiniment petites de courants
+               électriques, cette formule se trouve ainsi complètement déterminée. J'en ai fait déjà
+               plusieurs applications et je travaille tous les jours à en faire de nouvelles.
+               J'espère arriver à en déduire les valeurs des forces, non seulement quand il s'agit
+               de calculer les phénomènes qu'elles produisent lorsqu'un conducteur voltaïque agit
+               sur un autre, dans toutes les circonstances que présentent les diverses formes et les
+               diverses situations qu'on peut donner à ces conducteurs, mais encore celles des
+               forces qui s'exercent, soit entre un fil conducteur et un aimant, soit entre deux
+               aimants. C'est alors que toutes les difficultés qui peuvent rester encore dans
+               l'explication des phénomènes d'après ma théorie, disparaîtront entièrement ; mais ce
+               que j'ai déjà déduit de cette formule ainsi déterminée suffit pour appuyer cette
+               théorie sur une preuve directe. Dans les autres théories, on devrait pouvoir imiter,
+               avec des assemblages d'aimants disposés convenablement, tous les phénomènes que
+               présentent les fils conducteurs ; on pourrait donc, en faisant agir un de ces
+               assemblages sur un autre, produire dans celui-ci le mouvement continu toujours dans
+               le même sens ; ce que dément l'expérience. Dans ma théorie au contraire, le mouvement
+               continu toujours dans le même sens ne peut avoir lieu que quand un des circuits n'est
+               pas fermé et, comme j'ai toujours admis que les courants électriques des particules
+               des aimants étaient complètement fermés, cette théorie explique parfaitement la
+               différence si remarquable que l'expérience établit, entre les aimants et les
+               conducteurs voltaïques, à l'égard du mouvement continu, toujours dans le même sens,
+               que j'ai obtenu en faisant agir un conducteur voltaïque sur un autre conducteur
+               voltaïque et qu'on ne peut absolument produire en faisant agir des aimants les uns
+               sur les autres. Je ne crois pas qu'aucune des théories qu'on m'a opposées puisse
+               rendre aussi simplement raison de cette différence, qui est, comme vous voyez, une
+               suite nécessaire de la mienne. <list>
+                  <item n="1"> Conformément à mes expériences de 1820, page 35 de mon Recueil <ref target="#ampere_ref_402.xml">*</ref>, un courant mobile rectiligne
+                     horizontal, allant de l'Est à l'Ouest, est attiré en masse vers le Midi, par la
+                     partie supérieure de l'équateur magnétique. La partie inférieure de cet
+                     équateur est pour nous du côté du Nord : elle repousse en masse le même
+                     courant, mais avec une force moindre à cause qu'elle est beaucoup plus loin.
+                     Ces deux forces s'ajoutent pour porter le courant mobile au Midi, où il se
+                     porte en effet.</item>
+                  <item n="2"> La résultante passant par le milieu de ce courant, si ce milieu
+                     repose sur un pivot, il ne peut y avoir aucune action directrice de la terre
+                     sur le courant horizontal mobile autour de son milieu, la grande distance
+                     faisant que les actions contraires sur ses deux moitiés sont égales.</item>
+                  <item n="3"> Tout courant dans une branche descendante (j'indique sous ce nom,
+                     pour abréger, la branche du conducteur où le courant électrique va en
+                     s'approchant du globe terrestre ; j'appellerai de même branche ascendante celle
+                     où le même courant va en s'en éloignant) tend à se mouvoir en rétrogradant de
+                     l'Ouest à l'Est, comme on le voit dans le mémoire inséré dans le cahier de mai
+                     des Annales et, dans une branche ascendante, il tend à se mouvoir de l'Est à
+                     l'Ouest dans le sens du courant terrestre.</item>
+                  <item n="4"> Cette action, à cause de la proximité plus grande de la partie
+                     supérieure de l'équateur magnétique, est à son maximum quand la branche est au
+                     Midi de l'axe de rotation, à son minimum quand elle est au Nord.</item>
+                  <item n="5"> Les deux branches verticales de l'appareil de M.
+                     <persName>de La Rive</persName> tendent évidemment à le faire tourner en sens
+                     contraire. Il tourne avec la différence de deux moments, et c'est en effet le
+                     sens où il tourne dans son expérience. Il ne petit s'arrêter que quand les deux
+                     moments sont égaux ; ce qui exige qu'une des branches étant à l'Est de l'axe de
+                     rotation, l'autre soit à l'Ouest.</item>
+                  <item n="6"> De là, deux situations d'équilibre qui ont lieu toutes deux, quand le
+                     plan du rectangle est perpendiculaire au méridien magnétique. Dans l'une,
+                     l'équilibre est stable, et le rectangle y reste immobile ; dans l'autre,
+                     l'équilibre est instable, et le rectangle tourne.</item>
+                  <item n="7"> Pour les distinguer, déplaçons un peu l'appareil de la situation
+                     d'équilibre ! Si le courant est ascendant à l'Est et descendant à l'Ouest, on
+                     voit sur-le-champ que, quelle que soit celle des deux branches qui se sera
+                     avancée au Midi, son action deviendra prépondérante, et, comme cette action
+                     [est] évidemment dans le sens du déplacement, dans les deux cas il croîtra
+                     indéfiniment par cette prépondérance ; l'équilibre sera instable, en sorte que
+                     ce sera pour nous comme s'il n'y avait pas d'équilibre par l'impossibilité de
+                     le réaliser.</item>
+               </list> Au contraire, si la branche est descendante à l'Est et ascendante à l'Ouest,
+               celle des deux qui, dans le déplacement, se sera rapprochée du Midi tendra évidemment
+               à retourner sur ses pas ; comme c'est son action qui est prépondérante, l'appareil se
+               remettra dans sa première situation et il y restera en équilibre stable, Or, pour que
+               le courant monte à l'Ouest et descende à l'Est, il faut bien qu'il aille de l'Ouest à
+               l'Est dans la partie supérieure ; c'est alors seulement que l'appareil de M.
+               <persName>de La Rive</persName> reste en repos... Son expérience est donc, dans
+               toutes ses circonstances, une suite nécessaire de ma théorie et pouvait être prévue
+               d'après cette théorie. Je suppose que vous connaissez l'expérience due à M.
+               <persName>de La Rive</persName>. Si cela n'était pas, j'aurais l'honneur de vous
+               envoyer la description qu'il m'en a donnée. Je vous prie d'agréer l'hommage de mon
+               admiration pour vos travaux, et de ma reconnaissance pour les précieuses
+               communications que vous m'avez faites de leurs principaux résultats. J'ai l'honneur
+               d'être, Monsieur, votre très humble et très obéissant serviteur.
+               <persName>A. Ampère</persName>
+            </p>
+            <closer>à l'<orgName>Institution royale</orgName>, à Londres </closer>
+         </div>
+      </body>
+      <back>
+         <div>
+            <note xml:id="corresp1">(1) Dix pages 22 x 33. Lettre appartenant à l' "
+               <orgName>Institution of
+               Electrical Engineers</orgName> " de
+               <placeName>Londres</placeName>. Elle est écrite par un secrétaire. Le brouillon
+               autographe d'<persName>Ampère</persName> existe à
+               l'<orgName>Académie des Sciences</orgName> et a déjà été publié en grande partie dans
+               les Mémoires sur l' électro-dynamique, t. 2 p. 293 à 299. Nous donnons ici le texte
+               envoyé par <persName>Ampère</persName> à <persName>Faraday</persName>.</note>
+            <note resp="CAK_commentaire">Louis DE LAUNAY ayant édité cette lettre à partir du "texte
+               envoyé par <persName>Ampère</persName> à <persName>Faraday</persName>", il peut y
+               avoir des différences entre le brouillon, dont le fac-similé est présenté avec la
+               présente édition électronique, et le texte lui-même.</note>
+         </div>
+      </back>
+   </text>
+</TEI>
