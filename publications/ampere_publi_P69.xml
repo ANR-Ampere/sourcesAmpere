@@ -1,4 +1,4 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Schémas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:m="http://www.w3.org/1998/Math/MathML" xml:lang="fr">
     <teiHeader>
         <fileDesc>
@@ -99,7 +99,7 @@
         <front>
             <docTitle>
                 <titlePart rend="center">
-                    <title>BIBLIOTHEQUE<lb/>
+                    <title><pb/>BIBLIOTHEQUE<lb/>
 UNIVERSELLE<lb/>
 DES<lb/>
 SCIENCES, BELLES-LETTRES, ET ARTS,<lb/>
@@ -113,7 +113,7 @@ A LA BIBLIOTHEQUE BRITANNIQUE,</title>
                 <hi rend="it">Sixième année.</hi>
                 <lb/> SCIENCES ET ARTS. </docEdition>
             <docImprint>A
-                GENÈVE,<address>
+                <placeName ref="#pl_G34">GENÈVE</placeName>,<address>
           <addrLine>De l'Imprimerie de la <hi rend="sc">Bibliothèque Universelle</hi>.</addrLine>
         </address>
             </docImprint>
@@ -182,14 +182,14 @@ terrestre ou un aimant.
                     </choice> : </p>
                 <p>
                     <list>
-                        <item>1.° Lorsque deux conducteurs ou plutôt deux portions<lb/> d'un même
+                        <item n="1">.° Lorsque deux conducteurs ou plutôt deux portions<lb/> d'un même
                             conducteur voltaïque, sont l’une fixe et l’autre<lb/> mobile, et qu’on
                             les place dans des directions à peu près<lb/> parallèles, la portion
                             mobile est attirée par l’autre, quand les<lb/> extrémités qui
                             communiquent avec un même pôle de la pile<lb/> sont du même côté dans
                             toutes les deux, elles se repoussent<lb/> dans le cas où ces extrémités
                             sont opposées.</item>
-                        <item>2.° Ces attractions et répulsions sont absolument
+                        <item n="2">.° Ces attractions et répulsions sont absolument
                             diffé<lb rend="hyphen"/>rentes des attractions et répulsions électriques
                             ordinaires :<lb/> celles-ci sont produites par la pile de
                             <persName ref="#pers_V583">Volta</persName> quand le circuit<lb/> est
@@ -209,7 +209,7 @@ terrestre ou un aimant.
                             même côté ; le contact ne fait point cesser<lb/> l’attraction ; et il
                             <hi rend="it">y</hi> a répulsion quand ce sont les extrémités<lb/>
                             d’espèces opposées qui sont du même côté. </item>
-                        <item>3.° L’action mutuelle des deux parties du conducteur
+                        <item n="3">.°<p> L’action mutuelle des deux parties du conducteur
                             voltaï<lb rend="hyphen"/>que reste la même quand dans cette expérience,
                             on remplace<lb/> la portion fixe du fil conducteur dont on observe
                             l'action sur<lb/> la partie mobile, par une portion du même fil qui ne
@@ -217,9 +217,7 @@ terrestre ou un aimant.
                             forme<lb/> une ligne pliée et contournée à chacun de ses points de<lb/>
                             manière que les distances de ces points à ceux de la partie<lb/> mobile,
                             restent sensiblement les mêmes, et que le reste du<lb/> circuit
-                            n’éprouve aucun changement. </item>
-                    </list>
-                </p>
+                            n’éprouve aucun changement. </p>
                 <p>L’importance de ce fait dont Mr. <persName ref="#pers_A366">Ampère</persName> a
                     déduit la loi<lb/> mathématique de ces nouvelles attractions et répulsions
                     élec<lb rend="hyphen"/>triques, l'a engagé à le vérifier par des expériences
@@ -233,9 +231,8 @@ terrestre ou un aimant.
                     repoussée<lb/> par l’action de la portion fixe qui faisait partie du
                     circuit<lb/> voltaïque ; dans le second, elle est restée immobile, en équi<pb n="312" rend="hyphen"/>libre entre les actions qu'ont exercées les deux
                     portions fixes<lb/> et dont l’égalité a été ainsi exactement déterminée. </p>
-                <p>
-                    <list>
-                        <item>4.° Lorsqu’on dispose la partie mobile du conducteur<lb/> de manière
+                    </item>
+                        <item n="4">.° Lorsqu’on dispose la partie mobile du conducteur<lb/> de manière
                             qu'elle ne puisse se mouvoir qu’en tournant autour<lb/> d’une
                             perpendiculaire commune à sa direction, et à celle de<lb/> la portion
                             fixe du même conducteur qui agit sur elle ; elle<lb/> tourne autour de
@@ -250,7 +247,7 @@ terrestre ou un aimant.
                             acquise, a dépassé cette situation ; elle revient<lb/> bientôt pour la
                             dépasser de nouveau, et s'y arrête enfin après<lb/> quelques
                             oscillations. </item>
-                        <item>5.° La pile elle-même agit dans ces expériences, comme<lb/> toute
+                        <item n="5">.° La pile elle-même agit dans ces expériences, comme<lb/> toute
                             autre partie du circuit voltaïque, avec cette seule
                             dif<lb rend="hyphen"/>férence que la disposition de l’électricité qui a
                             lieu dans le<lb/> conducteur du pôle zinc au pôle cuivre, existe au
@@ -294,7 +291,7 @@ terrestre ou un aimant.
                             attribués qu'à<lb/> une action du globe terrestre sur les corps où
                             existe la dis<lb rend="hyphen"/>position de l’électricité qu’il a
                             désignée sous le nom de<lb/> courant électrique. </item>
-                        <item>7.° Lorsque le conducteur mobile forme un circuit presque<lb/> fermé
+                        <item n="7">.° Lorsque le conducteur mobile forme un circuit presque<lb/> fermé
                             dans un plan vertical, et ne peut que tourner autour<lb/> de la
                             perpendiculaire à l’horizon qui passe par son centre<lb/> de gravité, il
                             est amené par l'action du globes terrestre dans<lb/> une situation où le
@@ -306,7 +303,7 @@ terrestre ou un aimant.
                             l'action que la terre exerce<lb/> était due à un courant électrique
                             situé au-dessous, de sa<lb/> surface et dirigé de l’est à l’ouest,
                             perpendiculairement au<lb/> méridien magnétique. </item>
-                        <item>8.° Lorsque le conducteur mobile forme un circuit presque<lb/> fermé
+                        <item n="8">.° Lorsque le conducteur mobile forme un circuit presque<lb/> fermé
                             de forme rectangulaire, qu'il est attaché à un axe<lb/> passant par son
                             centre de gravité, et parallèle à deux des<lb/> côtés du rectangle, et
                             que cet axe repose sur des appuis,<lb/> de manière que sa direction soit
@@ -374,7 +371,7 @@ terrestre ou un aimant.
                     à ce<lb/> sujet : </p>
                 <p>
                     <list>
-                        <item>1.° Que si Mr. <persName ref="#pers_O423">Oersted</persName> n’avait
+                        <item n="1">.° Que si Mr. <persName ref="#pers_O423">Oersted</persName> n’avait
                             obtenu, dans ses expé<lb rend="hyphen"/>riences, que des déviations de
                             l'aiguille aimantée toujours<lb/> moindres qu'un angle droit, cette
                             circonstance était unique<lb rend="hyphen"/>ment due à ce que le
@@ -385,16 +382,15 @@ terrestre ou un aimant.
                             soustraite à l’action<lb/> magnétique de la terre, et en faisant alors
                             agir sur elle<lb/> un conducteur voltaïque, il a reconnu qu’elle prenait
                             cons<lb rend="hyphen"/>tamment une direction exactement perpendiculaire
-                            à ce<lb/> conducteur. </item>
-                        <item>
-                            <pb n="316"/> 2.° Qu'outre l'action qu'a décrite Mr.
+                            à ce<lb/> conducteur. <pb n="316"/></item>
+                        <item n="2">.° Qu'outre l'action qu'a décrite Mr.
                             <persName ref="#pers_O423">Oersted</persName> par laquelle<lb/> un
                             conducteur voltaïque change la direction de l’aiguille<lb/> aimantée, il
                             attire la masse entière de cette aiguille lors<lb rend="hyphen"/>qu’elle
                             lin est présentée dans la direction qu’il tendrait à<lb/> lui donner, si
                             elle n’y était pas déjà, et il la repousse quand<lb/> elle est dirigée
                             en sens contraire. </item>
-                        <item>3.° Que le conducteur agit dans tous les cas sur l’aiguille<lb/>
+                        <item n="3">.° Que le conducteur agit dans tous les cas sur l’aiguille<lb/>
                             aimantée comme il agirait sur une aiguille qui ne le serait pas,<lb/>
                             mais, à laquelle serait attachée, dans un plan
                             perpendicu<lb rend="hyphen"/>laire à la ligne qui en joint les pôles,
@@ -427,7 +423,7 @@ terrestre ou un aimant.
                                 <sic>aimans</sic>
                                 <corr>aimants</corr>
                             </choice> l’un sur l'autre,<lb/> lorsqu’on les remplace tous les deux. </item>
-                        <item>4.° Qu’on imite parfaitement toutes les circonstances de<lb/> l’action
+                        <item n="4">.° Qu’on imite parfaitement toutes les circonstances de<lb/> l’action
                             connue d’un barreau et d’une aiguille aimantée,<lb/> lorsqu’on
                             substitue, soit au barreau, soit à l’aiguille, un fil<lb/> de cuivre,
                             faisant partie d’un circuit voltaïque dont une <pb n="317"/> portion est
@@ -492,22 +488,22 @@ terrestre ou un aimant.
                     observés<lb/> il a conclu : </p>
                 <p>
                     <list>
-                        <item>1.° Que l'action mutuelle de deux portions infiniment
+                        <item n="1">.° Que l'action mutuelle de deux portions infiniment
                             pe<lb rend="hyphen"/>tites de fils conducteurs, est en raison inverse du
                             carré de<lb/> leur distance ; </item>
-                        <item>2.° Que si l’on considère une de ces portions infiniment<lb/> petites
+                        <item n="2">.° Que si l’on considère une de ces portions infiniment<lb/> petites
                             comme la diagonale d’un parallélépipède, son action<lb/> sur l’autre est
                             égale à la somme des actions qu’exerceraient<lb/> sur cette dernière,
                             trois portions du premier fil conducteur<lb/> dirigées suivant les trois
                             arrêtes qui mesurent les trois di<lb rend="hyphen"/>mensions du
                             parallélépipède, et de même longueur que ces<lb/> arrêtes ; </item>
-                        <item>3.° Que l'action dont nous parlons est, à distances égales<lb/>
+                        <item n="3">.° Que l'action dont nous parlons est, à distances égales<lb/>
                             proportionnelle au produit des sinus des angles que les
                             direc<lb rend="hyphen"/>tions des deux portions infiniment petites des
                             fils conduc<lb rend="hyphen"/>teurs forment avec la ligne qui en joint
                             les milieux, et du<lb/> cosinus de l’inclinaison mutuelle des plans de
                             ces deux angles ; </item>
-                        <item>4.° Qu’il suit de celte loi que si l’on imagine deux sur<pb n="319" rend="hyphen"/>faces planes ou courbes qui, par rapport à un point
+                        <item n="4">.° Qu’il suit de celte loi que si l’on imagine deux sur<pb n="319" rend="hyphen"/>faces planes ou courbes qui, par rapport à un point
                             <hi rend="it">m</hi> situé<lb/> hors de leur intervalle, interceptent la
                             même portion d'une<lb/> sphère infinie ; si l’on conçoit sur ces
                             surfaces des lignes<lb/> droites ou courbes, tracées à distances égales

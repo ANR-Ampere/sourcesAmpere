@@ -1,4 +1,4 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Schémas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>
@@ -13,7 +13,7 @@
                 <funder>ANR Corpus 2012</funder>
                 <respStmt>
                     <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
-                    </name>
+          </name>
                     <resp>Gestion de bases de données</resp>
                 </respStmt>
                 <respStmt>
@@ -22,12 +22,12 @@
                 </respStmt>
                 <respStmt>
                     <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
-                    </name>
+          </name>
                     <resp>Relecture et encodage en XML/TEI P5</resp>
                 </respStmt>
                 <respStmt>
                     <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
-                    </name>
+          </name>
                     <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
                 </respStmt>
             </titleStmt>
@@ -55,18 +55,18 @@
                 <biblStruct xml:id="ampere_publi_P1885-B" xml:lang="fr" type="Extrait_de_monographie">
                     <analytic>
                         <author>
-                            <persName>
+              <persName>
                 <surname>Ampère</surname>
                 <forename>André-Marie</forename>
               </persName>
-                        </author>
-                        <title level="a">Mémoire sur l'expression mathématique des attractions et répulsions des courants électriques : lu le 4 décembre 1820</title>
+            </author>
+                        <title level="a">Mémoire sur l'expression mathématique des attractions et des répulsions des courants électriques [lu à l'Académie royale des sciences, le 4 décembre 1820]</title>
                     </analytic>
                     <monogr>
                         <editor>
-                            <orgName>Société française de physique</orgName>
-                        </editor>
-                        <title level="m">Collection de mémoires relatifs à la physique. tome 2 : Mémoires sur l'électrodynamique. 1ère partie</title>
+              <orgName>Société française de physique</orgName>
+            </editor>
+                        <title level="m">Collection de mémoires relatifs à la physique. t. 2, Mémoires sur l'électrodynamique [publiés par les soins de J. Joubert] 1ère Partie</title>
                         <imprint>
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gauthier-Villars</publisher>
@@ -74,19 +74,18 @@
                             <biblScope type="pp">p. 128-135</biblScope>
                         </imprint>
                     </monogr>
-                    <note>publié d'après le manuscrit aux Archives de l'Académie des sciences (Fonds
-                        Ampère, chemise 162)</note>
+                    <note>Publié d'après le manuscrit autographe d'Ampère (Archives Ampère, chemise 162, 2-20)</note>
                     <idno type="url_pdf">http://www.ampere.cnrs.fr/bibliographies/pdf/1885-P201.pdf</idno>
-                    <idno type="url_gallica">http://gallica.bnf.fr/ark:/12148/bpt6k408587z/f130.image.r=Collection+de+m%C3%A9moires+relatifs+%C3%A0+la+physique+tome+2+.langFR</idno>
+                    <idno type="url_gallica">http://gallica.bnf.fr/ark:/12148/bpt6k408587z/f130.image.r=Collection+de+mémoires+relatifs+à+la+physique+tome+2+.langFR</idno>
                     <idno type="M">BDDprim00089</idno>
-                    <idno type="old">P201</idno>
-                </biblStruct>
+                <idno type="old">P201</idno>
+        </biblStruct>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <creation>
                 <name>AZENTIS</name>
-                <date>décembre 2014</date>
+            <date>décembre 2014</date>
             </creation>
             <langUsage>
                 <language ident="fra">Français</language>
@@ -94,113 +93,85 @@
         </profileDesc>
         <revisionDesc>
             <change>
-                <date>décembre 2014</date>
+                <date>janvier 2015</date>
                 <name>Philippe Pons</name>
             </change>
         </revisionDesc>
     </teiHeader>
     <text decls="#ampere_publi_P1885-B" type="publications">
-        <front>
-            <docTitle>
-                <titlePart rend="center">
-                    <title>COLLECTION<lb/>
-DE<lb/>
-MÉMOIRES<lb/>
-RELATIFS A LA<lb/>
-PHYSIQUE,</title>
-                </titlePart>
-            </docTitle>
-            <docAuthor>PUBLIÉS PAR<lb/> LA SOCIÉTÉ FRANÇAISE DE PHYSIQUE.</docAuthor>
-            <docEdition>TOME II.<lb/> MÉMOIRES SUR L'ÉLECTRODYNAMIQUE.<lb/> PREMIÈRE
-                PARTIE.</docEdition>
-            <docImprint>PARIS,<address>
-          <addrLine>GAUTHIER-VILLARS, IMPRIMEUR-LIBRAIRE<lb/>
-DU BUREAU DES LONGITUDES, DE L’ÉCOLE POLYTECHNIQUE,<lb/>
-Quai des Augustins, 55.</addrLine>
-        </address>
-            </docImprint>
-            <docDate>
-                <date when="1885">1885</date>
-            </docDate>
-        </front>
         <body>
             <div>
-                <head>
-                    <pb n="128"/>
-                    <title>VII.<lb/>
-MÉMOIRE SUR L'EXRESSION MATHÉMATIQUE DES ATTRACTIONS<lb/>
-ET DES RÉPULSIONS DES COURANTS ÉLECTRIQUES.<lb/>
-<hi rend="sc">Par</hi> M.- <persName ref="#pers_A366">A. AMPЀRE</persName>
-            <ref target="#P201-1885_AMA1">(1)</ref>.
-</title>
-                </head>
+                <head> 
+                    <title><pb n="128"/> VII.<lb/> MÉMOIRE SUR L'EXPRESSION MATHÉMATIQUE DES ATTRACTIONS<lb/> ET
+                    DES RÉPULSIONS DES COURANTS ÉLECTRIQUES :<lb/> P<hi rend="sc">ar</hi>
+                        M.- <persName ref="#pers_A366">A. AMPÈRE</persName>
+            <ref target="#P201_1-1885_AMA1">(1)</ref>
+          </title>
+        </head>
                 <p>
-                    <title>§ I. - De l’attraction et de la répulsion entre deux courants parallèles.</title>Le
-                    but que je me suis proposé, dans le travail dont je vais<lb/> exposer les
+                    <title>§ I. - De l’attraction et de la répulsion entre deux courants parallèles.</title> Le
+                   but que je me suis proposé, dans le travail dont je vais<lb/> exposer les
                     résultats, est de rendre raison de tous les faits relatifs<lb/> soit à l'action
                     mutuelle de deux aimants, soit à celle d'un con<lb rend="hyphen"/>ducteur
-                    voltaïque et d’un aimant, découverte par M. <persName>Oersted</persName>,
+                    voltaïque et d'un aimant, découverte par M. <persName>Oersted</persName>,
                     soit<lb/> à celle de deux conducteurs, que j'ai observés le premier, et de<lb/>
                     les ramener à une seule loi, en admettant uniquement, entre les<lb/> portions
-                    infiniment petites de ce que j’ai nommé
-                    <hi rend="it">courants
-                        élec<lb rend="hyphen"/>triques</hi>,
-                    des forces dirigées suivant la ligne qui joint leurs mi<lb rend="hyphen"/>lieux,
-                    ne pensant pas qu'on puisse admettre entre elles, de quelque<lb/> nature
-                    qu'elles soient, aucune sotte d'action dans une autre
-                    direc<lb rend="hyphen"/>tion. J'ai admis que cette action n’était pas seulement
-                    fonction<lb/> de la distance, mais qu'elle dépendait aussi des angles qui
-                    déter<lb rend="hyphen"/>minent la position respective de deux portions
+                    infiniment petites de ce que j'ai nommé <hi rend="it">courants
+                        élec<lb rend="hyphen"/>triques</hi>, des forces dirigées suivant la ligne
+                    qui joint leurs mi<lb rend="hyphen"/>lieux, ne pensant pas qu'on puisse admettre
+                    entre elles, de quelque<lb/> nature qu'elles soient, aucune sorte d'action dans
+                    une autre direc<lb rend="hyphen"/>tion. J’ai admis que cette action n'était pas
+                    seulement fonction<lb/> de la distance, mais qu'elle dépendait aussi des angles
+                    qui déter<lb rend="hyphen"/>minent la position respective de deux portions
                     infiniment petites<lb/> de courants électriques et de la ligne qui en joint les
-                    milieux.<lb/> Cette supposition ne semble pas d’abord conforme à l'idée
-                    qu’on<lb/> se forme des forces attractives et répulsives, parce que
-                    l’attrac<lb rend="hyphen"/>tion universelle, premier type de cette idée, ne
+                    milieux.<lb/> Cette supposition ne semble pas d'abord conforme à l'idée
+                    qu'on<lb/> se forme des forces attractives et répulsives, parce que
+                    l'attrac<lb rend="hyphen"/>tion universelle, premier type de cette idée, ne
                     dépendant que de<lb/> la distance, nous ne sommes pas encore accoutumés à faire
-                    en<lb rend="hyphen"/>trer d’autres éléments ; mais c’est uniquement par elles
-                    qu’on peut<lb/> représenter les phénomènes, et elle s'accorde si bien avec les
-                    dif<lb rend="hyphen"/>férentes circonstances qu'ils présentent et les valeurs
-                    obtenues<lb/> pour celles de ces actions qui ont été mesurées, qu'il me semble
-                        <pb n="129"/> que, si l'on trouve un jour une autre loi plus générale et
+                    en<lb rend="hyphen"/>trer d'autres éléments ; mais c'est uniquement par
+                    elles qu'on peut<lb/> représenter les phénomènes, et elle s'accorde si bien avec
+                    les dif<lb rend="hyphen"/>férentes circonstances qu'ils présentent et les
+                    valeurs obtenues<lb/> pour celles de ces actions qui ont été mesurées, qu’il me
+                    semble <pb n="129"/> que, si l'on trouve un jour une autre loi plus générale et
                     plus simple<lb/> qui rende raison de ces phénomènes, ce ne sera que parce que
-                    cette<lb/> loi donne d’abord pour premier résultat celle à laquelle je les
+                    cette<lb/> loi donne d'abord pour premier résultat celle à laquelle je les
                     ai<lb/> ramenés. </p>
-                <p>La manière dont la distance y entre est celle que j’avais
+                <p>La manière dont la distance y entre est celle que j'avais
                     an<lb rend="hyphen"/>noncée, comme base de toutes mes recherches, dans le
-                    Mémoire<lb/> que j'eus l’honneur de lire à l’<orgName>Académie</orgName> le 9
-                    octobre dernier<ref target="#P201-1885_AMA2">(1)</ref>.<lb/> Non seulement la
-                    force que j’admets entre deux portions infini<lb rend="hyphen"/>ment petites de
-                    courants électriques est dirigée suivant la ligne<lb/> qui en joint les milieux,
-                    mais elle se rapproche encore des lois<lb/> d'attraction et de répulsion
-                    observées dans d’autres phénomènes<lb/> en ce que, pour une même position
-                    respective des deux portions<lb/> de courants que l’on considère, elle est en
-                    raison inverse du carré<lb/> de la distance. Le premier résultat que j’en ai
-                    déduit, par une<lb/> intégration fort simple, est que, dans le cas de deux
-                    courants<lb/> rectilignes dont les directions sont parallèles, si l’on suppose
-                    un<lb/> des courants de longueur infinie, la résultante des actions de<lb/>
-                    toutes ses parties sur un élément de l’autre, et, par
-                    consé<lb rend="hyphen"/>quent aussi sur l’une de ses portions d’une longueur
-                    déterminée,<lb/> est en raison inverse de la plus courte distance des deux
-                    cou<lb rend="hyphen"/>rants. </p>
+                    Mémoire<lb/> que j’eus l'honneur de lire à l'<orgName>Académie</orgName> le <hi rend="sc">9</hi> octobre dernier
+                    <ref target="#P201_1-1885_AMA2">(1)</ref>.<lb/> Non seulement la force que
+                    j'admets entre deux portions infini<lb rend="hyphen"/>ment petites de courants
+                    électriques est dirigée suivant la ligne<lb/> qui en joint les milieux, mais
+                    elle se rapproche encore des lois<lb/> d'attraction et de répulsion observées
+                    dans d'autres phénomènes<lb/> en ce que, pour une même position respective des
+                    deux portions<lb/> de courants que l’on considère, elle est en raison inverse du
+                    carré<lb/> de la distance. Le premier résultat que j’en ai déduit, par une<lb/>
+                    intégration fort simple, est que, dans le cas de deux courants<lb/> rectilignes
+                    dont les directions sont parallèles, si l’on suppose un<lb/> des courants de
+                    longueur infinie, la résultante des actions de<lb/> toutes ses parties sur un
+                    élément de l'autre, et, par consé<lb rend="hyphen"/>quent aussi sur l'une de ses
+                    portions d’une longueur déterminée,<lb/> est en raison inverse de la plus courte
+                    distance des deux cou<lb rend="hyphen"/>rants. </p>
                 <p>Je crois devoir faire, à ce sujet, deux observations.</p>
                 <p>La première est que le résultat est indépendant de la manière<lb/> dont [entre
                     dans la formule] l’angle que forment deux portions<lb/> infiniment petites de
                     courants parallèles avec la ligne qui en joint<lb/> les milieux, seul angle qui,
                     dans ce cas, peut entrer dans la valeur<lb/> de leur attraction mutuelle, parce
-                    que, si l’on nomme à la perpen<lb rend="hyphen"/>diculaire abaissée du milieu de
-                    la portion de courant qu’on sup<lb rend="hyphen"/>pose attirée ou repoussée par
-                    celui auquel on assigne une lon<lb rend="hyphen"/>gueur infinie,
-                    <hi rend="it">x</hi> la distance mesurée sur la direction de ce dernier,<lb/>
-                    depuis le pied de cette perpendiculaire jusqu'à un de ses éléments,<lb/> dont la
-                    longueur est alors représentée par <hi rend="it">dx</hi>, on trouvera que<lb/>
-                    [les quantités] <hi rend="it">a, x, dx</hi> entrent nécessairement dans la
-                    valeur<lb/> de l’attraction ou de la répulsion de la manière suivante : <list>
+                    que, si l'on nomme à la perpen<lb rend="hyphen"/>diculaire abaissée du milieu de
+                    la portion de courant qu'on sup<lb rend="hyphen"/>pose attirée ou repoussée par
+                    celui auquel on assigne une lon<lb rend="hyphen"/>gueur infinie, <hi rend="it">x</hi> la distance mesurée sur la direction de ce dernier,<lb/> depuis le
+                    pied de cette perpendiculaire jusqu'à un de ses éléments,<lb/> dont la longueur
+                    est alors représentée par <hi rend="it">dx</hi>, on trouvera que<lb/> [les
+                    quantités] <hi rend="it">a, x, dx</hi> entrent nécessairement dans la
+                    valeur<lb/> de l'attraction ou de la répulsion de la manière suivante : <list>
                         <item>1° Si <hi rend="it">k</hi> représente l'intensité de cette action à la
-                            distance 1<lb/> lorsque les deux petits courants sont perpendiculaires à
-                            la ligne <pb n="130"/> qui en joint les milieux, <formula>
+                            distance <hi rend="sc">1</hi>
+              <lb/> lorsque les deux petits courants sont
+                            perpendiculaires à la ligne <pb n="130"/> qui en joint les milieux, <formula>
                                 <math xmlns="http://www.w3.org/1998/Math/MathML">
                                     <mrow>
                                         <mfrac>
-                                            <mi>λ</mi>
+                                            <mi>h</mi>
                                             <mrow>
                                                 <msup>
                                                   <mi>a</mi>
@@ -236,7 +207,7 @@ ET DES RÉPULSIONS DES COURANTS ÉLECTRIQUES.<lb/>
                             considère, si la même condition avait lieu, ce qui n'est pas dans<lb/>
                             le cas présent. </item>
                         <item>2° Dans celui qui a lieu ici, cette intensité devra être
-                            multipliée<lb/> par une fonction de l'angle dont nous venons de parler
+                            multipliée<lb/> par une fonction de l’angle dont nous venons de parler
                             et dont la<lb/> tangente est <formula>
                                 <math xmlns="http://www.w3.org/1998/Math/MathML">
                                     <mfrac>
@@ -267,35 +238,33 @@ ET DES RÉPULSIONS DES COURANTS ÉLECTRIQUES.<lb/>
                                         </mfrac>
                                     </mrow>
                                 </math>
-                            </formula> ; et, en<lb/> général, toute fonction qui ne dépend que d’un
-                            angle, étant de<lb/> dimension nulle, peut être ramenée à <formula>
+                            </formula> ; et, en<lb/> général, toute fonction qui ne dépend que
+                            d'un angle, étant de<lb/> dimension nulle, peut être ramenée à <formula>
                                 <math xmlns="http://www.w3.org/1998/Math/MathML">
                                     <mi>f</mi>
                                     <mrow>
                                         <mo>(</mo>
                                         <mrow>
                                             <mfrac>
-                                                <mi>γ</mi>
                                                 <mi>a</mi>
+                                                <mi>x</mi>
                                             </mfrac>
                                         </mrow>
                                         <mo>)</mo>
                                     </mrow>
                                 </math>
                             </formula> quand l’angle ne dé<lb rend="hyphen"/>pend que deux lignes
-                            <hi rend="it">a</hi> et <hi rend="it">x</hi>. </item>
-                        <item>3° Si l'on fait varier la longueur de l’élément <hi rend="it">dx</hi>,
-                            l’attraction<lb/> ou la répulsion augmenteront ou diminueront dans le
+                                <hi rend="it">a</hi> et <hi rend="it">x</hi>. </item>
+                        <item>3° Si l'on fait varier la longueur de l'élément <hi rend="it">dx</hi>,
+                            l'attraction<lb/> ou la répulsion augmenteront ou diminueront dans le
                             même rap<lb rend="hyphen"/>port que <hi rend="it">dx</hi>, parce que les
-                            différentes parties dont on peut sup<lb rend="hyphen"/>poser que
-                            <hi rend="it">dx</hi> est composé sont prises dans la même direction
-                            et<lb/> à la même distance de la portion de l’autre courant que l'on
+                            différentes parties dont on peut sup<lb rend="hyphen"/>poser que <hi rend="it">dx</hi> est composé sont prises dans la même direction
+                            et<lb/> à la même distance de la portion de l'autre courant que l'on
                             consi<lb rend="hyphen"/>dère, à des différences infiniment petites près,
-                            qu’il faut supprimer<lb/> dans le calcul. Il faudra donc représenter
-                            l’intensité <hi rend="it">k</hi> de l’action<lb/> attractive ou
-                            répulsive à la distance 1, par le produit d’une
-                            quan<lb rend="hyphen"/>tité constante <hi rend="it">g</hi> par
-                            <hi rend="it">dx</hi>, et l'expression de l’action cherchée sera<lb/>
+                            qu'il faut supprimer<lb/> dans le calcul. Il faudra donc représenter
+                            l'intensité <hi rend="it">k</hi> de l'action<lb/> attractive ou
+                            répulsive à la distance <hi rend="sc">1</hi>, par le produit d’une
+                            quan<lb rend="hyphen"/>tité constante <hi rend="it">g</hi> par <hi rend="it">dx</hi>, et l'expression de l’action cherchée sera<lb/>
                             <formula>
                                 <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
                                     <mfrac>
@@ -328,184 +297,162 @@ ET DES RÉPULSIONS DES COURANTS ÉLECTRIQUES.<lb/>
                                     <mi>d</mi>
                                     <mi>x</mi>
                                 </math>
-                            </formula> Le nombre des dimensions de <hi rend="it">a</hi> et de
-                            <hi rend="it">x</hi> dans la quantité qui mul<lb rend="hyphen"/>tiplie
-                            <hi rend="it">dx</hi> se trouve ainsi -2, et la dimension de
-                            l’intégrale, par<lb/> rapport aux mêmes quantités <hi rend="it">a</hi>
-                            et <hi rend="it">x</hi>, sera, par conséquent, -1<lb/> Par quelque
-                            procédé qu'on obtienne cette intégrale, il faudra la<lb/> prendre depuis <formula>
+                            </formula> Le nombre des dimensions de <hi rend="it">a</hi> et de <hi rend="it">x</hi> dans la quantité qui mul<lb rend="hyphen"/>tiplie
+                                <hi rend="it">dx</hi> se trouve ainsi —<hi rend="sc">2</hi>, et la
+                            dimension de l’intégrale, par<lb/> rapport aux mêmes quantités <hi rend="it">a</hi> et sera, par conséquent, —<hi rend="sc">1</hi>.<lb/> Par quelque procédé qu'on obtienne cette intégrale, il
+                            faudra la<lb/> prendre depuis <formula>
                                 <math xmlns="http://www.w3.org/1998/Math/MathML">
                                     <mi>x</mi>
                                     <mo>=</mo>
                                     <mn>0</mn>
                                 </math>
-                            </formula> jusqu’à <formula>
+                            </formula> jusqu'à <formula>
                                 <math xmlns="http://www.w3.org/1998/Math/MathML">
-                                    <mi>x</mi>
-                                    <mo>=</mo>
                                     <mfrac>
                                         <mn>1</mn>
                                         <mn>0</mn>
                                     </mfrac>
                                 </math>
-                            </formula>, ce qui fera disparaître <hi rend="it">x</hi>, et<lb/> il
-                            restera une fonction de <hi rend="it">a</hi>, dont la dimension sera -1,
-                            c’est-<lb/>à-dire une constante divisée par <hi rend="it">a</hi>. Cette
-                            constante dépendra de<lb/> 'intensité <hi rend="it">λ</hi> de
-                            l’attraction ou de la répulsion à la distance 1, et<lb/> d’un
-                            coefficient numérique qui sera diffèrent, suivant la manière<lb/> dont
-                            l’action exercée dépendra de l'angle de la direction des
-                            cou<lb rend="hyphen"/>rants avec la ligne qui en joint les milieux ;
-                            mais, quelle que soit<lb/> sa valeur, celle de l'intégrale définie qui
-                            exprime cette action sera<lb/> en raison inverse de
-                            <hi rend="it">a</hi>. </item>
+                            </formula> ce qui fera disparaître <hi rend="it">x</hi>, et<lb/> il
+                            restera une fonction de <hi rend="it">a</hi>, dont la dimension sera
+                                —<hi rend="sc">1</hi>, c’est-<lb/>à-dire une constante divisée par
+                                <hi rend="it">a</hi>. Cette constante dépendra de<lb/> l'intensité
+                                <hi rend="it">h</hi> de l'attraction ou de la répulsion à la
+                            distance <hi rend="sc">1</hi>, et<lb/> d’un coefficient numérique qui
+                            sera différent, suivant la manière<lb/> dont l'action exercée dépendra
+                            de l’angle de la direction des cou<lb rend="hyphen"/>rants avec la ligne
+                            qui en joint les milieux ; mais, quelle que soit<lb/> sa valeur,
+                            celle de l'intégrale définie qui exprime cette action sera<lb/> en
+                            raison inverse de <hi rend="it">a</hi>.</item>
                     </list>
-                </p>
+        </p>
                 <p>
-                    <pb n="131"/> Ce rapport, une fois démontré pour l’action exercée sur une<lb/>
+          <pb n="131"/> Ce rapport, une fois démontré pour l'action exercée sur une<lb/>
                     portion infiniment petite de courant électrique, a lieu
                     nécessaire<lb rend="hyphen"/>ment pour un courant rectiligne d'une grandeur
-                    finie, parallèle à<lb/> celui qu'on regarde comme d’une longueur infinie et dont
-                    on veut<lb/> déterminer l’action. </p>
-                <p>Cette loi était donc une suite nécessaire de ce que j’avais lu, le<lb/> 9
-                    octobre, à l’<orgName>Académie</orgName> ; il n’en était pas moins important de
-                    la<lb/> vérifier par des mesures précises ; c’est ce qu’a fait M.
-                    <persName>Biot</persName>, par<lb/> un moyen aussi exact qu’ingénieux ; mais il
-                    a supposé que la force<lb/> émanée du conducteur électrique qu’il faisait agir
-                    sur un petit<lb/> aimant s’exerçait dans un sens perpendiculaire au rayon
-                    vecteur,<lb/> et j'admets qu’elle agit dans la direction de ce rayon ;
-                    cependant<lb/> les effets qui résultent de ces deux manières, en apparence si
-                    dif<lb rend="hyphen"/>férentes, de concevoir cette force, sont absolument les
-                    mêmes et<lb/> conformes à l’expérience : c’est ce qu’il me reste à expliquer. </p>
+                    finie, parallèle à<lb/> celui qu'on regarde comme d'une longueur infinie et dont
+                    on veut<lb/> déterminer l'action. </p>
+                <p>Cette loi était donc une suite nécessaire de ce que j'avais lu, le<lb/> 9
+                    octobre, à l'<orgName>Académie</orgName> ; il n'en était pas moins
+                    important de la<lb/> vérifier par des mesures précises ; c’est ce qu'a fait
+                    M. <persName>Biot</persName>, par<lb/> un moyen aussi exact qu'ingénieux ;
+                    mais il a supposé que la force<lb/> émanée du conducteur électrique qu'il
+                    faisait agir sur un petit<lb/> aimant s'exerçait dans un sens perpendiculaire au
+                    rayon vecteur,<lb/> et j’admets qu’elle agit dans la direction de ce
+                    rayon ; cependant<lb/> les effets qui résultent de ces deux manières, en
+                    apparence si dif<lb rend="hyphen"/>férentes, de concevoir cette force, sont
+                    absolument les mêmes et<lb/> conformes à l’expérience : c'est ce qu'il me
+                    reste à expliquer. </p>
                 <p>Soient AB un fil conducteur vertical (<hi rend="it">fig.</hi> 1) où je suppose
                     le<lb/> courant ascendant, DC un petit barreau aimanté de forme
-                    paral<lb rend="hyphen"/>lélépipédique, <figure rend="center">
-                        <head>Fig.1</head>
-                        <graphic url="1885-P201_fig001.jpg"/>
-                    </figure> dont le pôle nord soit en C ; M. <persName>Biot</persName>, n'ayant
-                    pas ad<lb rend="hyphen"/>mis l’identité des fluides électriques et magnétiques,
-                    continue de<lb/> supposer des particules de fluide boréal et de fluide austral,
-                    placées<lb/> deux à deux, une de chaque sorte, sur de petites droites,
-                    telles<lb/> que MN parallèles à l’axe de l’aimant, et c’est sur ces
+                    paral<lb rend="hyphen"/>lélépipédique, <figure>
+                        <head>
+              <title>Fig. 1</title>
+            </head>
+                        <graphic url="1885-P201-1_fig001.jpg"/>
+                    </figure> dont le pôle nord soit en C ; M. <persName>Biot</persName>,
+                    n'ayant pas ad<lb rend="hyphen"/>mis l'identité des fluides électriques et
+                    magnétiques, continue de<lb/> supposer des particules de fluide boréal et de
+                    fluide austral, placées<lb/> deux à deux, une de chaque sorte, sur de petites
+                    droites, telles<lb/> que MN parallèles à l’axe de l’aimant, et c'est sur ces
                     molécules<lb/> qu'il suppose qu'agissent les forces attractives et répulsives
-                    du<lb/> conducteur AB.</p>
+                    du<lb/> conducteur AB. </p>
                 <p>
-                    <pb n="132"/> Puisque l’aimant reste stable dans la direction
+          <pb n="132"/> Puisque l'aimant reste stable dans la direction
                     perpendiculaire<lb/> au plan qui passe par son milieu et par la direction de ce
                     con<lb rend="hyphen"/>ducteur, il faut que, quand MN prend une position
                     infiniment<lb/> voisine <hi rend="it">mn</hi>, les forces P et Q, qui étaient
                     supposées agir sur les<lb/> points M et N, dans deux directions opposées,
                     suivant les pro<lb rend="hyphen"/>longements de MN, agissent parallèlement à la
                     première situation<lb/> de cette ligne, et, par conséquent, perpendiculairement
-                    au pian<lb/> qui passe par le milieu de MN, où se trouvent tous les rayons<lb/>
+                    au plan<lb/> qui passe par le milieu de MN, où se trouvent tous les rayons<lb/>
                     vecteurs. </p>
-                <p>Mais, après avoir établi l’identité de l’électricité et du
+                <p>Mais, après avoir établi l'identité de l'électricité et du
                     magné<lb rend="hyphen"/>tisme par les expériences que j'ai faites, le 9 octobre,
-                    devant l’<orgName>Aca<lb rend="hyphen"/>démie</orgName>, en remplaçant tantôt un
-                    des courants électriques que<lb/> j'avais d'abord fait agir l'un sur l’autre,
-                    tantôt tous les deux, par<lb/> des aimants placés comme ils doivent l’être pour
-                    que la disposi<lb rend="hyphen"/>tion de l’électricité que j’y admets fût la
+                    devant l'<orgName>Aca<lb rend="hyphen"/>démie</orgName>, en remplaçant tantôt un
+                    des courants électriques que<lb/> j'avais d'abord fait agir l'un sur l'autre,
+                    tantôt tous les deux, par<lb/> des aimants placés comme ils doivent l'être pour
+                    que la disposi<lb rend="hyphen"/>tion de l'électricité que j'y admets fût la
                     même que dans le cou<lb rend="hyphen"/>rant que remplaçait l'aimant, et en
                     montrant que les actions res<lb rend="hyphen"/>tent les mêmes dans ce
-                    changement, j’ai dû considérer l’action<lb/> attractive du courant du fil
+                    changement, j'ai dû considérer l’action<lb/> attractive du courant du fil
                     conducteur AB sur la portion RS d'un<lb/> des courants de l’aimant qui lui est
                     parallèle et dirigé dans le<lb/> même sens, et son action répulsive sur la
                     portion TU du même<lb/> courant qui lui est aussi parallèle et dirigée en sens
                     contraire, et<lb/> m'appuyant sur ce que j’ai établi directement par les
                     expériences<lb/> sur l'action mutuelle de deux fils conducteurs, sans
-                    l’intermède<lb/> d’aucun aimant, qu’il devait y avoir effectivement attraction
+                    l'intermède<lb/> d'aucun aimant, qu'il devait y avoir effectivement attraction
                     dans<lb/> ce premier cas et répulsion dans le second, j’ai vu que, pour
-                    main<lb rend="hyphen"/>tenir l’aimant dans la situation où l'expérience prouve
+                    main<lb rend="hyphen"/>tenir l’aimant dans la situation où l’expérience prouve
                     qu'il est<lb/> amené par le fil conducteur, il fallait que les forces qui en
-                    émanent<lb/> fussent dans le plan RSTU, perpendiculaire à l’axe de
+                    émanent<lb/> fussent dans le plan RSTU, perpendiculaire à l'axe de
                     l'aimant,<lb/> dans la situation où il se fixe après avoir oscillé quand on
                     l’en<lb/> détourne. Or ce plan est précisément celui qui passe par le
-                    cou<lb rend="hyphen"/>rant de l’aimant et le fil conducteur, s’il n'y a qu’un
+                    cou<lb rend="hyphen"/>rant de l’aimant et le fil conducteur, s'il n’y a qu'un
                     courant, et le<lb/> plan moyen entre tous ceux qui sont dans le même cas,
                     relative<lb rend="hyphen"/>ment à chaque courant de l'aimant qui en contient
                     nécessairement<lb/> sur toute sa longueur. </p>
                 <p>Lorsque l’aimant est infiniment peu détourné de sa première<lb/> position, les
                     forces X et Y, qui agissaient sur les portions de<lb/> courant RS, TU, se
                     trouvent agir sur les directions sensible<lb rend="hyphen"/>ment parallèles
-                    qu'elles ont dans la figure, et leur moment pour <pb n="133"/> ramener le
+                    qu’elles ont dans la figure, et leur moment pour <pb n="133"/> ramener le
                     barreau aimanté à sa première position est dans le<lb/> même sens que dans la
-                    supposition qu'a préférée M. <persName>Biot</persName>, et
-                    pro<lb rend="hyphen"/>portionnelle de même au sinus de l’angle de déviation,
-                    c’est-à-dire<lb/> à cet angle même, puisqu'on le suppose très petit. Je n'ai
-                    pas<lb/> besoin d'ajouter qu’en partant de la théorie de ces phénomènes,<lb/>
-                    fondée sur l’identité de l'électricité et du magnétisme, l’action du<lb/>
+                    supposition qu'a préférée M. <persName>Biot</persName> et
+                    pro<lb rend="hyphen"/>portionnelle de même au sinus de l'angle de déviation,
+                    c'est-à-dire<lb/> à cet angle même, puisqu'on le suppose très petit. Je n'ai
+                    pas<lb/> besoin d’ajouter qu'en partant de la théorie de ces phénomènes,<lb/>
+                    fondée sur l’identité de l'électricité et du magnétisme, l'action du<lb/>
                     courant du fil conducteur AB est nulle sur les deux portions de<lb/> courant ST,
                     UR, qui sont horizontales, car les attractions et les<lb/> répulsions de toutes
                     les petites portions des conducteurs se com<lb rend="hyphen"/>pensent
                     nécessairement dans ces directions.</p>
-                <p>La théorie qui ramène tous les phénomènes de l’aimant à ceux<lb/> qu’offre
-                    l’électricité, quand on fait agir deux courants l’un sur<lb/> l’autre, théorie
-                    appuyée d’ailleurs sur bien d’autres faits, a, à l'é<lb rend="hyphen"/>gard des
+                <p>La théorie qui ramène tous les phénomènes de l'aimant à ceux<lb/> qu’offre
+                    l’électricité, quand on fait agir deux courants l'un sur<lb/> l'autre, théorie
+                    appuyée d'ailleurs sur bien d'autres faits, a, à l'é<lb rend="hyphen"/>gard des
                     phénomènes dont nous nous occupons, ces deux avan<lb rend="hyphen"/>tages : <list>
                         <item>1° De ne pas faire agir le fil conducteur AB sur des particules<lb/>
-                            magnétiques dont rien ne démontre l’existence, et qui sont une<lb/>
+                            magnétiques dont rien ne démontre l'existence, et qui sont une<lb/>
                             supposition gratuite, mais sur des dispositions de l’électricité
                             sui<lb rend="hyphen"/>vant les lignes RS, TU, semblables à celles qu’on
                             établit dans un<lb/> fil de laiton, et se conduisent précisément de la
                             même manière<lb/> que le fait cette dernière dans les expériences où il
-                            n’y a point<lb/> d’aimants ; </item>
-                        <item>2° De n’admettre que des forces attractives ou répulsives entre<lb/>
-                            deux points que suivant la ligne qui joint ces deux points.</item>
+                            n'y a point<lb/> d’aimants ; </item>
+                        <item>2° De n'admettre que des forces attractives ou répulsives entre<lb/>
+                            deux points que suivant la ligne qui joint ces deux points. </item>
                     </list>
-                </p>
+        </p>
                 <p>Il me reste à montrer, par des résultats précis de calcul, fondés<lb/> sur celte
                     théorie, que les actions mutuelles entre les courants<lb/> électriques de deux
                     aimants produisent tous les mêmes phéno<lb rend="hyphen"/>mènes qui suivent de
-                    la supposition des deux fluides magnétiques,<lb/> l’un austral, l’autre boréal,
-                    qu’elles s’accordent même mieux avec<lb/> quelques circonstances de ces
-                    phénomènes, qu’on avait négligées<lb/> parce qu’elles ne concordaient peut-être
-                    pas assez bien avec l’hy<lb rend="hyphen"/>pothèse adoptée. Ce sera le sujet
-                    d’un autre Mémoire ; je me bor<lb rend="hyphen"/>nerai dans celui-ci à indiquer
-                    comment j’ai trouvé l’expression<lb/> mathématique de l’action de deux courants,
-                    ou plutôt la manière<lb/> dont y entrent les angles qui déterminent, en général,
-                    la position<lb/> respective de deux petites lignes dans l'espace. Je me suis
-                    d’abord<lb/> assuré, par l’emploi des formules ordinaires de la
+                    la supposition des deux fluides magnétiques,<lb/> l'un austral, l’autre boréal,
+                    qu’elles s'accordent même mieux avec<lb/> quelques circonstances de ces
+                    phénomènes, qu'on avait négligées<lb/> parce qu'elles ne concordaient peut-être
+                    pas assez bien avec l'hy<lb rend="hyphen"/>pothèse adoptée. Ce sera le sujet
+                    d'un autre Mémoire ; je me bor<lb rend="hyphen"/>nerai dans celui-ci à
+                    indiquer comment j’ai trouvé l’expression<lb/> mathématique de l’action de deux
+                    courants, ou plutôt la manière<lb/> dont y entrent les angles qui déterminent,
+                    en général, la position<lb/> respective de deux petites lignes dans l'espace. Je
+                    me suis d’abord<lb/> assuré, par l’emploi des formules ordinaires de la
                     Trigonométrie<lb/> sphérique, qu'il y avait deux fonctions des sinus et des
-                    cosinus <pb n="134"/> de ces angles qui s'accordaient avec la loi<ref target="#P201-1885_AMA3">(1)</ref> que j'ai communi<lb rend="hyphen"/>quée à
-                    l'<orgName>Académie</orgName>, dans la séance du 6 novembre, et que j’avais<lb/>
-                    vérifiée exactement sur des fils conducteurs pliés en hélices. Les<lb/> calculs
-                    qui m’ont donné ces deux fonctions sont contenus dans la<lb/> Note qui fait
-                    suite à ce Mémoire<ref target="#P201-1885_AMA4">(2)</ref>. </p>
+                    cosinus <pb n="134"/> de ces angles qui s'accordaient avec la loi
+                    <ref target="#P201_1-1885_AMA3">(1)</ref> que j'ai communi<lb rend="hyphen"/>quée
+                    à l'<orgName>Académie</orgName>, dans la séance du 6 novembre, et que
+                    j'avais<lb/> vérifiée exactement sur des fils conducteurs pliés en hélices.
+                    Les<lb/> calculs qui m’ont donné ces deux fonctions sont contenus dans la<lb/>
+                    Note qui fait suite à ce Mémoire <ref target="#P201_1-1885_AMA4">(2)</ref>.</p>
                 <p>La somme des produits de ces fonctions, multipliées par des<lb/> constantes
                     arbitraires, satisfaisait par conséquent aussi à cette<lb/> loi. Ces deux
                     fonctions étaient de plus symétriques, relativement<lb/> aux deux petites
                     lignes, ce qui était évidemment une condition<lb/> indispensable. </p>
                 <p>Les angles dont il est ici question sont, en général, au nombre<lb/> de trois.
-                    Nommons à l'angle formé par une de ces lignes avec celle<lb/> qui en joint le
-                    milieu à celui de l’autre, β l’angle correspondant<lb/> relativement à cette
-                    dernière, et y l’angle formé par les deux<lb/> plans qui passent par chacune des
-                    petites lignes et par la droite<lb/> qui joint leurs milieux. Alors une des deux
-                    fonctions, dont je<lb/> viens de parler, sera <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML">
-                            <mi>cos</mi>
-                            <mi>x</mi>
-                            <mi>cos</mi>
-                            <mi>β</mi>
-                        </math>
-                    </formula>, l’autre <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML">
-                            <mi>sin</mi>
-                            <mi>x</mi>
-                            <mi>sin</mi>
-                            <mi>β</mi>
-                            <mi>cos</mi>
-                            <mi>γ</mi>
-                        </math>
-                    </formula> ; car il est<lb/> aisé de voir que <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML">
-                            <mi>sin</mi>
-                            <mi>x</mi>
-                            <mi>sin</mi>
-                            <mi>β</mi>
-                        </math>
-                    </formula> ne peut satisfaire à la loi citée plus<lb/> haut si ce produit n'est
-                    pas multiplié par cosγ ; <hi rend="it">m</hi> et <hi rend="it">n</hi> étant
-                    deux<lb/> nombres, on aura la formule<lb/>
+                    Nommons <hi rend="it">a</hi> l'angle formé par une de ces lignes avec celle<lb/>
+                    qui en joint le milieu à celui de l’autre, β l’angle correspondant<lb/>
+                    relativement à cette dernière, et γ l'angle formé par les deux<lb/> plans qui
+                    passent par chacune des petites lignes et par la droite<lb/> qui joint leurs
+                    milieux. Alors une des deux fonctions, dont je<lb/> viens de parler, sera cos<hi rend="it">x</hi>cosβ l'autre sinxsinβcosγ ; car il est<lb/> aisé de
+                    voir que sin<hi rend="it">x</hi>sinβ ne peut satisfaire à la loi citée plus<lb/>
+                    haut si ce produit n'est pas multiplié par cosγ ; <hi rend="it">m</hi> et
+                        <hi rend="it">n</hi> étant deux<lb/> nombres, on aura la formule<lb/>
                     <formula>
                         <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
                             <mi>m</mi>
@@ -554,16 +501,15 @@ ET DES RÉPULSIONS DES COURANTS ÉLECTRIQUES.<lb/>
                     </formula> qui se réduit à <formula>
                         <math xmlns="http://www.w3.org/1998/Math/MathML">
                             <mi>m</mi>
-                            <mi>cos</mi>
-                            <mi>h</mi>
+                            <mi>cosh</mi>
                         </math>
                     </formula>, en nommant <hi rend="it">h</hi> l’angle des directions des<lb/> deux
-                    lignes. Dans ce cas, l’action ne varierait pas lorsque, sans<lb/> changer la
+                    lignes. Dans ce cas, l'action ne varierait pas lorsque, sans<lb/> changer la
                     distance des deux petites lignes, on en transporterait<lb/> une parallèlement à
-                    elle-même autour de l'autre ; mais alors il n’y<lb/> aurait point d'action entre
-                    deux courants dont les directions for<lb rend="hyphen"/>meraient un angle droit,
-                    ce qui est contraire à l'expérience. </p>
-                <p>J’ai calculé les effets produits en supposant dans celle formule <pb n="135"/>
+                    elle-même autour de l'autre ; mais alors il n’y<lb/> aurait point d'action
+                    entre deux courants dont les directions for<lb rend="hyphen"/>meraient un angle
+                    droit, ce qui est contraire à l’expérience. </p>
+                <p>J’ai calculé les effets produits en supposant dans celte formule <pb n="135"/>
                     d'abord <formula>
                         <math xmlns="http://www.w3.org/1998/Math/MathML">
                             <mi>m</mi>
@@ -577,20 +523,18 @@ ET DES RÉPULSIONS DES COURANTS ÉLECTRIQUES.<lb/>
                             <mn>0</mn>
                         </math>
                     </formula>, afin d'avoir, en ajoutant les résultats,<lb/> des valeurs des
-                    intégrales pour toutes les valeurs positives de
-                    <hi rend="it">m<lb/>
-                    </hi>et de <hi rend="it">n</hi>. Ces
-                    calculs donnent, dans les deux cas, l’attraction d'un<lb/> courant infini, en
-                    raison inverse de la distance, comme cela ne<lb/> pouvait manquer d’arriver,
-                    d’après ce que j’ai dit ci-dessus. Ce<lb/> cas n'est donc pas propre à éclaircir
-                    la question relativement aux<lb/> valeurs numériques de <hi rend="it">m</hi> et
-                    de <hi rend="it">n</hi> ; il est bien probable que <hi rend="it">n</hi> est<lb/>
-                    très petit relativement à d'après les résultats généraux de
-                    l’ex<lb rend="hyphen"/>périence, ou plutôt que ce coefficient
-                    <hi rend="it">n</hi> est absolument nul, et<lb/> que, comme je le crois et l’ai
-                    annoncé lundi dernier à un des<lb/> Membres de l’<orgName>Académie</orgName>, la
-                    valeur de l’attraction ou de la répul<lb rend="hyphen"/>sion entre deux portions
-                    infiniment petites <hi rend="it">dx</hi>, <hi rend="it">dz</hi> de courants<lb/>
+                    intégrales pour toutes les valeurs positives de <hi rend="it">m<lb/>
+                    </hi>et de <hi rend="it">n</hi>. Ces calculs donnent, dans les deux cas,
+                    l'attraction d’un<lb/> courant infini, en raison inverse de la distance, comme
+                    cela ne<lb/> pouvait manquer d'arriver, d’après ce que j'ai dit ci-dessus.
+                    Ce<lb/> cas n'est donc pas propre à éclaircir la question relativement aux<lb/>
+                    valeurs numériques de <hi rend="it">m</hi> et de <hi rend="it">n</hi> ; il
+                    est bien probable que <hi rend="it">n</hi> est<lb/> très petit relativement à
+                        <hi rend="it">m</hi>, d'après les résultats généraux de
+                    l’ex<lb rend="hyphen"/>périence, ou plutôt que ce coefficient <hi rend="it">n</hi> est absolument nul, et<lb/> que, comme je le crois et l’ai annoncé
+                    lundi dernier à un des<lb/> Membres de l'<orgName>Académie</orgName>, la valeur
+                    de l’attraction ou de la répul<lb rend="hyphen"/>sion entre deux portions
+                    infiniment petites <hi rend="it">dx</hi>,<hi rend="it"> dz</hi> de courants<lb/>
                     électriques est exprimée simplement par la formule<lb/>
                     <formula>
                         <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
@@ -625,81 +569,83 @@ ET DES RÉPULSIONS DES COURANTS ÉLECTRIQUES.<lb/>
                         </math>
                     </formula> avec la for<lb rend="hyphen"/>mule qui exprime le coefficient du
                     changement de température,<lb/> lorsque deux petites surfaces sont exposées
-                    chacune à la chaleur<lb/> rayonnante de l’autre, me paraît très digne de
+                    chacune à la chaleur<lb/> rayonnante de l'autre, me paraît très digne de
                     remarque ; mais je<lb/> n’en parlerai pas ici, pensant que j'aurai bientôt
-                    l'occasion de<lb/> revenir sur ce sujet<ref target="#P201-1885_AMA5">(1)</ref>.
+                    l'occasion de<lb/> revenir sur ce sujet <ref target="#P201_1-1885_AMA5">(1)</ref>.
                 </p>
             </div>
         </body>
         <back>
             <div>
-                <note xml:id="P201-1885_AMA1">(1) Mémoire lu à
-                    l'<orgName>Académie royale des Sciences</orgName> le
-                    <date when="1820-12-04">4
-                        décembre 1820</date> ;
+                <note xml:id="P201_1-1885_AMA1">(1) Mémoire lu à
+                    l'<orgName>Académie royale des Sciences</orgName>, le
+                    <date when="1820-12-04">
+            <hi rend="sc">4</hi> décembre <hi rend="sc">1820</hi>
+          </date> ;
                     publié,<lb/> pour la première fois, d'après le manuscrit autographe des Archives
-                    de l'<orgName>Aca<lb rend="hyphen"/>démie des Sciences</orgName> (J). </note>
-                <note xml:id="P201-1885_AMA2">(1) <hi rend="it">Voir</hi>, pages 26 et suivantes, un
-                    résumé de cette lecture. (J).</note>
-                <note xml:id="P201-1885_AMA3">(1) <hi rend="it">Loi des courants sinueux</hi>.
-                    L'énoncé de cette loi a été donné plus haut,<lb/> art. II, p. 23. (J).</note>
-                <note xml:id="P201-1885_AMA4">
-                    <p>(2) La substance de cette Note a été insérée, avec quelques nouveaux
-                        dévelop<lb rend="hyphen"/>pements, dans le cahier de septembre du
-                        <title>Journal de Physique</title>. (A).</p>
-                    <p>Nous ne la reproduisons pas ici pour ne pas faire double emploi avec les
-                        dévelop<lb rend="hyphen"/>pements donnés plus loin dans l'article XXVII et
-                        qui sont presque identiques. (J.) </p>
-                </note>
-                <note xml:id="P201-1885_AMA5">
-                    <p>(1) La supposition de <formula>
+                    de l’<orgName>Aca<lb rend="hyphen"/>démie des Sciences</orgName>. (J.) </note>
+                <note xml:id="P201_1-1885_AMA2">(1) <hi rend="it">Voir,</hi> pages <hi rend="sc">26</hi> et suivantes ; un résumé de cette lecture. (J.)</note>
+                <note xml:id="P201_1-1885_AMA3">(1) <hi rend="it">Loi des courants sinueux</hi>.
+                    L'énoncé de cette loi a été donné plus haut,<lb/> art. II, p. <hi rend="sc">23</hi>. (J.) </note>
+                <note xml:id="P201_1-1885_AMA4">(2) La substance de cette Note a été insérée, avec
+                    quelques nouveaux dévelop<lb rend="hyphen"/>pements, dans le cahier de septembre
+                    du <title>Journal de Physique</title>. (A.) <p>Nous ne la reproduisons pas ici
+                        pour ne pas faire double emploi avec les dévelop<lb rend="hyphen"/>pements
+                        donnés plus loin dans l'article XXVII et qui sont presque identiques. (J.)
+                    </p>
+        </note>
+                <note xml:id="P201_1-1885_AMA5">
+          <p>(1) La supposition de <formula>
                             <math xmlns="http://www.w3.org/1998/Math/MathML">
                                 <mi>n</mi>
                                 <mo>=</mo>
                                 <mn>0</mn>
                             </math>
                         </formula> a, on peut le dire, dérouté <persName>Ampère</persName> jusqu'au
-                        milieu<lb/> de l'année <date when="1822">1822</date>. Elle l’avait conduit à
-                        un théorème inexact, dont on trouve<lb/> l'énoncé dans les
-                        <title>Mémoires de l'<orgName>Académie des Sciences</orgName>
-            </title>,
-                        t. IV, p. CXLVIII, et à<lb/> quelques autres conséquences, également
-                        erronées, renfermées dans les n° 31-43<lb/> de
-                        l'<hi rend="it">Exposé des
-                            nouvelles découvertes sur le Magnétisme et l'Électricité,</hi> par<lb/>
-                        <persName ref="#pers_B30">Babinet</persName> (et
-                        <persName>Ampère</persName>), publié dans le cinquième Volume de la
-                        traduction du
-                        <title>
-              <choice>
-                            <sic>Sys<lb rend="hyphen"/>thème</sic>
-                            <corr>Système</corr>
-                        </choice> de Chimie de <persName>Thomson</persName>
-            </title>
-                        par
-                        <hi rend="sc">
+                        milieu<lb/> de l'année <hi rend="sc">
+              <date when="1822">1822</date>
+            </hi>.
+                        Elle l’avait conduit à un théorème inexact, dont on trouve<lb/> l’énoncé
+                        dans les <title>Mémoires de l'Académie des Sciences</title>, t. IV, p.
+                        CXLVIII, et à<lb/> quelques autres conséquences, également erronées,
+                        renfermées dans les n<hi rend="sup">os</hi>
+                        <hi rend="sc">31-43</hi>
+            <lb/> de
+                        l'<title>Exposé des nouvelles
+                        découvertes sur le Magnétisme et l'Électricité</title>, par<lb/>
+                        <persName ref="#pers_B30">Babinet</persName> (et <persName>Ampère</persName>), publié dans
+                        le cinquième Volume de la traduction du
+                        <title>Sys<lb rend="hyphen"/>tème de
+                        Chimie de Thomson</title>
+                        par <hi rend="sc">
               <persName>Riffault</persName>
-            </hi>
-                        (<date when="1822">1822</date>).</p>
-                    <p>Dans une série de Mémoires lus à l'<orgName>Académie</orgName>, les
-                        <date when="1820-12-11">11</date> et
-                        <date when="1820-12-26">26 décembre
-                            1820</date>
+            </hi> (<hi rend="sc">
+              <date when="1822">1822</date>
+            </hi>).</p>
+                    <p>Dans une série de Mémoires lus à l'<orgName>Académie</orgName>, les <hi rend="sc">
+              <date when="1820-12-11">11</date>
+            </hi> et
+                        <date when="1820-12-26">
+              <hi rend="sc">26</hi> décembre <hi rend="sc">1820</hi>
+            </date>
                         et les<lb/>
-                        <date when="1821-01-15">8</date> et
-                        <date when="1821-01-15">15 janvier
-                            1821</date>,
+                        <hi rend="sc">
+              <date when="1821-01-08">8</date>
+            </hi> et
+                        <date when="1821-01-15">
+              <hi rend="sc">15</hi> janvier <hi rend="sc">1821</hi>
+            </date>,
                         <persName>Ampère</persName> avait essayé de calculer, avec la formule ainsi
                         sim<lb rend="hyphen"/>plifiée, les expériences de <persName>Biot</persName>
                         et <persName>Savart</persName>, soit dans le cas du fil rectiligne,
-                        soit<lb/> dans le cas du fil oblique, et n'était arrivé nécessairement qu'à
+                        soit<lb/> dans le cas du fil oblique, et n’était arrivé nécessairement qu'à
                         des résultats<lb/> inexacts et incomplets. Ces Mémoires, dont les originaux
-                        existent dans les Archives<lb/> de l’<orgName>Académie</orgName>, n’ont
-                        jamais été publiés : une analyse en a été donnée dans un<lb/> article, sans
-                        nom d'auteur, inséré dans le tome V des <title>Annales des Mines</title>, p.
-                        535 558,<lb/> et réimprimé dans son <title>Recueil d'Observations</title>,
-                        etc., p. 69-90. (J.) </p>
-                </note>
+                        existent dans les Archives<lb/> de l'<orgName>Académie</orgName>, n'ont
+                        jamais été publiés ; une analyse en a été donnée dans un<lb/> article,
+                        sans nom d'auteur, inséré dans le tome V des
+                        <title>Annales des Mines</title>, p. <hi rend="sc">535-558</hi>,<lb/> et
+                        réimprimé dans son <title>Recueil d'Observations</title>, etc. p. <hi rend="sc">69-90</hi>. (J.) </p>
+        </note>
             </div>
         </back>
     </text>
