@@ -1,5 +1,4 @@
 <?xml-model href="../Schémas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!DOCTYPE ENTITY_MathML SYSTEM "../Sch%C3%A9mas/ENTITY_MathML.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
  <teiHeader>
   <fileDesc>
@@ -49,15 +48,14 @@
                     </address>
     </distributor>
     <availability>
-     <p>Ce texte est protégé par la licence <ref
-       target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont
+     <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont
       le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative
       Works 4.0 France</p>
     </availability>
     <date>2013</date>
    </publicationStmt>
    <sourceDesc>
-    <biblStruct xml:id="ampere_publi_P1827-A" xml:lang="fra" type="Article_de_périodique">
+    <biblStruct xml:id="ampere_publi_P1827-a" xml:lang="fra" type="Article_de_périodique">
      <analytic>
       <title level="a">Mémoire sur l'action mutuelle d'un conducteur voltaïque et d'un aimant : présenté à l'Académie royale de Bruxelles dans la séance du 28 octobre 1826.</title>
       <author>
@@ -106,7 +104,8 @@
   <front>
    <docTitle>
     <titlePart rend="center">
-     <title><pb/>MÉMOIRE<lb/> 
+     <title>
+            <pb/>MÉMOIRE<lb/> 
 SUR L'ACTION MUTUELLE<lb/> 
 D’UN<lb/> 
 CONDUCTEUR VOLTAÏQUE<lb/> 
@@ -114,12 +113,18 @@ ET D’UN AIMANT ;</title>
     </titlePart>
    </docTitle>
    <docAuthor>PAR M. <persName>AMPERE</persName>,<lb/>
-    <hi rend="sc">De l’<orgName>académie royale des sciences de <placeName>Paris</placeName></orgName>, des sociétés royales de <placeName>Londres</placeName> et
-     d’<placeName>Édimbourg</placeName><lb/> de la <orgName>société helvétienne des scrutateurs de la nature</orgName>, de la <orgName>société
-     philosophique de<lb/> <placeName>Cambridge</placeName></orgName>, de celle de <orgName>physique et d'histoire naturelle de <placeName>Genève</placeName></orgName>, des
+    <hi rend="sc">De l’<orgName>académie royale des sciences de <placeName>Paris</placeName>
+          </orgName>, des sociétés royales de <placeName>Londres</placeName> et
+     d’<placeName>Édimbourg</placeName>
+          <lb/> de la <orgName>société helvétienne des scrutateurs de la nature</orgName>, de la <orgName>société
+     philosophique de<lb/> <placeName>Cambridge</placeName>
+          </orgName>, de celle de <orgName>physique et d'histoire naturelle de <placeName>Genève</placeName>
+          </orgName>, des
      académies royales<lb/> de <placeName>Bruxelles</placeName>, de <placeName>Lisbonne</placeName> et de <placeName>Lyon</placeName> professeur a l’<orgName>école polytechnique</orgName>
-     et au <orgName>collège<lb/> de France</orgName></hi>. </docAuthor>
-   <docDate>PRESENTÉ A LA SÉANCE DU <date when="1826-10-28">28 OCTOBRE 1826</date></docDate>
+     et au <orgName>collège<lb/> de France</orgName>
+        </hi>. </docAuthor>
+   <docDate>PRESENTÉ A LA SÉANCE DU <date when="1826-10-28">28 OCTOBRE 1826</date>
+      </docDate>
    <docEdition>
     <hi rend="it">Tome IV.</hi>
    </docEdition>
@@ -132,9 +137,14 @@ ET D’UN AIMANT ;</title>
       <ref xml:id="note-P152-1827_AMA1" target="#P152-1827_AMA1">(1)</ref>.</head>
     <p>
      <hi rend="sc">Quoique</hi> M.
-     <persName><choice><sic>Savari</sic> <corr>Savary</corr></choice></persName>, dans le Mémoire
+     <persName>
+            <choice>
+              <sic>Savari</sic> <corr>Savary</corr>
+            </choice>
+          </persName>, dans le Mémoire
      qu’il a lu à
-     l'<orgName>Acadé<lb rend="hyphen"/>mie des sciences de <placeName>Paris</placeName></orgName>,
+     l'<orgName>Acadé<lb rend="hyphen"/>mie des sciences de <placeName>Paris</placeName>
+          </orgName>,
      le <date when="1823-02-03">3 février 1823</date>, ait déduit la<lb/> loi, que M.
      <persName>Biot</persName> a proposée en <date when-iso="1820-00-00">1820</date> pour
      représenter l’ac<lb rend="hyphen"/>tion qui s’exerce entre un élément de conducteur
@@ -143,8 +153,7 @@ ET D’UN AIMANT ;</title>
       <sic>élémens</sic>
       <corr>éléments</corr>
      </choice> de fils conducteurs, en<lb/> substituant à cette molécule l’extrémité du solénoïde
-     élec<lb rend="hyphen"/>tro-dynamique à laquelle elle est identique, quand on con <pb n="4"
-      rend="hyphen"/>çoit l'aimant comme un assemblage de <choice>
+     élec<lb rend="hyphen"/>tro-dynamique à laquelle elle est identique, quand on con <pb n="4" rend="hyphen"/>çoit l'aimant comme un assemblage de <choice>
       <sic>courans</sic>
       <corr>courants</corr>
      </choice> électriques di<lb rend="hyphen"/>posés autour de ses particules, ainsi que j'ai
@@ -177,8 +186,7 @@ ET D’UN AIMANT ;</title>
       <corr>électrodynamiques</corr>
      </choice> ; on a fait sur cette cause<lb/> trois hypothèses. La première consiste à admettre
      l’existence<lb/> de deux fluides nommés austral et boréal, et à distribuer<lb/> ces fluides de
-     manière à produire la loi dont il s’agit <ref xml:id="note-P152-1827_AMA2"
-      target="#P152-1827_AMA2">(1)</ref>
+     manière à produire la loi dont il s’agit <ref xml:id="note-P152-1827_AMA2" target="#P152-1827_AMA2">(1)</ref>
     </p>
     <p>La seconde est celle par laquelle j’ai rendu raison des<lb/> phénomènes observés, en
      considérant un aimant comme un<lb/> assemblage de <choice>
@@ -211,8 +219,7 @@ ET D’UN AIMANT ;</title>
      parties<lb/> d'un même système solide ne peut jamais lui imprimer<lb/> aucun mouvement, il m’a
      paru nécessaire de l’examiner<lb/> spécialement, afin d’en comparer les résultats à ceux
      des<lb/> deux précédentes, et de démontrer que lors même qu’on<lb/> l’adopte, le mouvement de
-     rotation indéfiniment accéléré <ref xml:id="note-P152-1827_AMA3" target="#P152-1827-AMA3"
-      >(1)</ref>
+     rotation indéfiniment accéléré <ref xml:id="note-P152-1827_AMA3" target="#P152-1827-AMA3">(1)</ref>
      <pb n="7"/>est impossible, comme dans les deux autres hypothèses,<lb/> lorsque la portion de
      conducteur voltaïque qui agit sur l’ai<lb rend="hyphen"/>mant forme un circuit solide et fermé. </p>
     <p>Ces trois hypothèses offrent d’ailleurs un exemple frap<lb rend="hyphen"/>pant de la
@@ -238,8 +245,8 @@ ET D’UN AIMANT ;</title>
       <corr>moments</corr>
      </choice> des mêmes forces,<lb/> autour des mêmes axes, sont aussi égales dans les deux<lb/>
      systèmes. </p>
-    <p>En représentant par <hi rend="it">d&#x03C9;</hi> un élément de l’assemblage
-     so<lb rend="hyphen"/> lide, par <hi rend="it">Xd&#x03C9;, Yd&#x03C9;, Zd&#x03C9;,</hi> les
+    <p>En représentant par <hi rend="it">dω</hi> un élément de l’assemblage
+     so<lb rend="hyphen"/> lide, par <hi rend="it">Xdω, Ydω, Zdω,</hi> les
      forces appliquées à cet élément,<lb/> et par <hi rend="it">x, y,</hi> z, les coordonnées d’un
      point quelconque si<lb rend="hyphen"/>tué sur la direction de la résultante des forces X, Y,
      Z,<lb/> lorsqu’elles en ont une, ces six équations consistent en ce<lb/> que les expressions<lb/>
@@ -252,7 +259,7 @@ ET D’UN AIMANT ;</title>
           <mrow>
            <mi>X</mi>
            <mi>d</mi>
-           <mi>&#x03C9;</mi>
+           <mi>ω</mi>
           </mrow>
          </mrow>
         </mstyle>
@@ -267,7 +274,7 @@ ET D’UN AIMANT ;</title>
           <mrow>
            <mi>Y</mi>
            <mi>d</mi>
-           <mi>&#x03C9;</mi>
+           <mi>ω</mi>
           </mrow>
          </mrow>
         </mstyle>
@@ -282,7 +289,7 @@ ET D’UN AIMANT ;</title>
           <mrow>
            <mi>Z</mi>
            <mi>d</mi>
-           <mi>&#x03C9;</mi>
+           <mi>ω</mi>
           </mrow>
          </mrow>
         </mstyle>
@@ -309,7 +316,7 @@ ET D’UN AIMANT ;</title>
             <mo>)</mo>
            </mrow>
            <mi>d</mi>
-           <mi>&#x03C9;</mi>
+           <mi>ω</mi>
           </mrow>
          </mrow>
         </mstyle>
@@ -334,7 +341,7 @@ ET D’UN AIMANT ;</title>
             <mo>)</mo>
            </mrow>
            <mi>d</mi>
-           <mi>&#x03C9;</mi>
+           <mi>ω</mi>
           </mrow>
          </mrow>
         </mstyle>
@@ -359,7 +366,7 @@ ET D’UN AIMANT ;</title>
             <mo>)</mo>
            </mrow>
            <mi>d</mi>
-           <mi>&#x03C9;</mi>
+           <mi>ω</mi>
           </mrow>
          </mrow>
         </mstyle>
@@ -368,7 +375,7 @@ ET D’UN AIMANT ;</title>
      </formula>
      <lb/> ont les mêmes valeurs dans les deux systèmes.</p>
     <p>J’observerai à ce sujet : <list>
-      <item n="1"> Que <hi rend="it">d&#x03C9;</hi> représente une quan<lb rend="hyphen"/> tité
+      <item n="1"> Que <hi rend="it">dω</hi> représente une quan<lb rend="hyphen"/> tité
        infiniment petite du 1er du 2<hi rend="sub">è</hi> ou du 3<hi rend="sub">e </hi>ordre,
        sui<lb rend="hyphen"/>vant que l’assemblage dont il s’agit est une ligne, une<lb/> surface ou
        un volume ; </item>
@@ -376,14 +383,14 @@ ET D’UN AIMANT ;</title>
        quelconque de la résultante des forces X, Y, Z, et<lb/> non pas celles du point où se
        trouvent l’élément <hi rend="it">du,</hi> parce<lb/> que cet énoncé général, qui comprend le
        cas où l’on emploie<lb rend="hyphen"/>rait les coordonnées de l’élément
-       <hi rend="it">d&#x03C9;,</hi> conduit à des résul<lb rend="hyphen"/>tats infiniment plus
+       <hi rend="it">dω,</hi> conduit à des résul<lb rend="hyphen"/>tats infiniment plus
        simples, lorsque toutes les forces<lb/> appliquées au système solide, sont dirigées vers un
        même <pb n="9"/>point fixe. Car alors, on peut prendre pour <hi rend="it">x</hi> z, les<lb/>
        coordonnées de ce point, et comme elles sont les mêmes<lb/> pour tous les <choice>
         <sic>élémens</sic>
         <corr>éléments</corr>
        </choice>
-       <hi rend="it">d&#x03C9;,</hi> il s’en suit que les sommes des<lb/>
+       <hi rend="it">dω,</hi> il s’en suit que les sommes des<lb/>
        <choice>
         <sic>momens</sic>
         <corr>moments</corr>
@@ -398,7 +405,7 @@ ET D’UN AIMANT ;</title>
             <mrow>
              <mi>Y</mi>
              <mi>d</mi>
-             <mi>&#x03C9;</mi>
+             <mi>ω</mi>
              <mo>−</mo>
              <mi>y</mi>
              <mstyle displaystyle="true">
@@ -407,7 +414,7 @@ ET D’UN AIMANT ;</title>
                <mrow>
                 <mi>Z</mi>
                 <mi>d</mi>
-                <mi>&#x03C9;</mi>
+                <mi>ω</mi>
                </mrow>
               </mrow>
              </mstyle>
@@ -426,7 +433,7 @@ ET D’UN AIMANT ;</title>
             <mrow>
              <mi>Z</mi>
              <mi>d</mi>
-             <mi>&#x03C9;</mi>
+             <mi>ω</mi>
              <mo>−</mo>
              <mi>z</mi>
              <mstyle displaystyle="true">
@@ -435,7 +442,7 @@ ET D’UN AIMANT ;</title>
                <mrow>
                 <mi>X</mi>
                 <mi>d</mi>
-                <mi>&#x03C9;</mi>
+                <mi>ω</mi>
                </mrow>
               </mrow>
              </mstyle>
@@ -454,7 +461,7 @@ ET D’UN AIMANT ;</title>
             <mrow>
              <mi>X</mi>
              <mi>d</mi>
-             <mi>&#x03C9;</mi>
+             <mi>ω</mi>
              <mo>−</mo>
              <mi>x</mi>
              <mstyle displaystyle="true">
@@ -463,7 +470,7 @@ ET D’UN AIMANT ;</title>
                <mrow>
                 <mi>Y</mi>
                 <mi>d</mi>
-                <mi>&#x03C9;</mi>
+                <mi>ω</mi>
                </mrow>
               </mrow>
              </mstyle>
@@ -479,7 +486,8 @@ ET D’UN AIMANT ;</title>
        à <hi rend="it">x, y, z,</hi> cette généralité, puis<lb rend="hyphen"/>que, quand il s’agit
        d’un système solide, on peut toujours<lb/> supposer une force transportée à tel point qu’on
        veut de sa<lb/> direction.</item>
-     </list></p>
+     </list>
+        </p>
     <p>Avant de soumettre au calcul les trois hypothèses dont<lb/> je viens de parler, pour en
      comparer les résultats, je crois<lb/> d’abord devoir établir un théorème à l’aide duquel
      ces<lb/> calculs se simplifient singulièrement. Concevons d’abord<lb/> une surface quelconque
@@ -487,9 +495,9 @@ ET D’UN AIMANT ;</title>
      <hi rend="it">(fig.</hi> 1 ).<lb/> Si l’on mène par le point M une parallèle MP, à l’un
      des<lb/> axes, à celui des <hi rend="it">x</hi> par exemple, qu’on fasse passer par cette<lb/>
      parallèle deux plans formant un angle infiniment petit<lb/>
-     <hi rend="it">d&#x03C6;.,</hi> qui coupent dans la surface une bande G<hi rend="it">gh</hi>H
-     que nous<lb/> représenterons par <hi rend="it">d&#x03C3;</hi> la surface GHR l'étant par
-     &#x03C3; et dans<lb/> le plan des y<hi rend="it">z</hi> le secteur PL<hi rend="it">l</hi> qu'on
+     <hi rend="it">dφ.,</hi> qui coupent dans la surface une bande G<hi rend="it">gh</hi>H
+     que nous<lb/> représenterons par <hi rend="it">dσ</hi> la surface GHR l'étant par
+     σ et dans<lb/> le plan des y<hi rend="it">z</hi> le secteur PL<hi rend="it">l</hi> qu'on
      prenne ensuite dans cette <pb n="10"/>bande un élément <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
@@ -504,7 +512,7 @@ ET D’UN AIMANT ;</title>
          <mi>d</mi>
          <mn>2</mn>
         </msup>
-        <mi>&#x03C3;</mi>
+        <mi>σ</mi>
        </mrow>
       </math>
      </formula> dont la projection sur le<lb/> plan des <hi rend="it">yz</hi> soit la portion
@@ -513,11 +521,11 @@ ET D’UN AIMANT ;</title>
      les arcs de cercles <hi rend="it">Qq,</hi>
      <hi rend="it">Q’q',</hi> dont le centre est<lb/> en P; en nommant <hi rend="it">x, y, z,</hi>
      les coordonnées du point M,<lb/>
-     <hi rend="it">x', y',</hi> z', celles du point N, &#x03C1; la distance MN, <hi rend="it">u</hi>
+     <hi rend="it">x', y',</hi> z', celles du point N, ρ la distance MN, <hi rend="it">u</hi>
      sa projec<lb rend="hyphen"/>tion PQ sur le plan des <hi rend="it">yz, a, b,</hi> c, les trois
      angles que la<lb/> normale NO au point N de la surface GHR forme avec les<lb/> trois axes,
      <hi rend="it">i </hi>l’angle que la même normale fait avec la droite MN<lb/> et enfin
-     <hi rend="it">d&#x03C3;</hi> l’élément de surface N<hi rend="it">nn'</hi>'N'. On aura,
+     <hi rend="it">dσ</hi> l’élément de surface N<hi rend="it">nn'</hi>'N'. On aura,
      comme<lb/> on sait, pour la valeur du double du secteur P<hi rend="it">Qq</hi>,<lb/>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
@@ -532,7 +540,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>d</mi>
-        <mi>&#x03C6;.</mi>
+        <mi>φ.</mi>
         <mo>=</mo>
         <mrow>
          <mo>(</mo>
@@ -578,7 +586,7 @@ ET D’UN AIMANT ;</title>
         <mi>d</mi>
         <mi>u</mi>
         <mi>d</mi>
-        <mi>&#x03C6;.</mi>
+        <mi>φ.</mi>
        </mrow>
       </math>
      </formula>,<lb/> et l’aire <formula>
@@ -597,7 +605,7 @@ ET D’UN AIMANT ;</title>
           <mi>d</mi>
           <mi>u</mi>
           <mi>d</mi>
-          <mi>&#x03C6;.</mi>
+          <mi>φ.</mi>
          </mrow>
          <mrow>
           <mi>cos</mi>
@@ -622,7 +630,7 @@ ET D’UN AIMANT ;</title>
            <mn>2</mn>
           </msup>
           <mi>d</mi>
-          <mi>&#x03C6;.</mi>
+          <mi>φ.</mi>
          </mrow>
          <mrow>
           <msup>
@@ -635,7 +643,7 @@ ET D’UN AIMANT ;</title>
       </math>
      </formula>
      <lb/> dont la différentielle, prise en regardant l’angle infiniment<lb/> petit
-     <hi rend="it">d&#x03C6;.</hi> comme constant, sera égale à<lb/>
+     <hi rend="it">dφ.</hi> comme constant, sera égale à<lb/>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
@@ -659,7 +667,7 @@ ET D’UN AIMANT ;</title>
             <mo>.</mo>
             <mi>i</mi>
             <mo>−</mo>
-            <mi>&#x03C1;</mi>
+            <mi>ρ</mi>
             <mi>cos</mi>
             <mo>.</mo>
             <mi>a</mi>
@@ -668,13 +676,13 @@ ET D’UN AIMANT ;</title>
           </mrow>
           <mi>d</mi>
           <msup>
-           <mi>&#x03C3;</mi>
+           <mi>σ</mi>
            <mn>2</mn>
           </msup>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>4</mn>
           </msup>
          </mrow>
@@ -693,11 +701,11 @@ ET D’UN AIMANT ;</title>
            <mn>2</mn>
           </msup>
           <mi>d</mi>
-          <mi>&#x03C6;.</mi>
+          <mi>φ.</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>3</mn>
           </msup>
          </mrow>
@@ -723,7 +731,7 @@ ET D’UN AIMANT ;</title>
             <mo>.</mo>
             <mi>i</mi>
             <mo>−</mo>
-            <mi>&#x03C1;</mi>
+            <mi>ρ</mi>
             <mi>cos</mi>
             <mo>.</mo>
             <mi>a</mi>
@@ -734,11 +742,11 @@ ET D’UN AIMANT ;</title>
            <mi>d</mi>
            <mn>2</mn>
           </msup>
-          <mi>&#x03C3;</mi>
+          <mi>σ</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>4</mn>
           </msup>
          </mrow>
@@ -748,7 +756,7 @@ ET D’UN AIMANT ;</title>
      </formula>
     </p>
     <p>Pour le démontrer, il faut d'abord remarquer que, dans la<lb/> différentielle indiquée dans
-     le premier membre, <hi rend="it">d&#x03C6;.</hi> est con<lb rend="hyphen"/>sidéré comme
+     le premier membre, <hi rend="it">dφ.</hi> est con<lb rend="hyphen"/>sidéré comme
      constant, puisque cet angle reste le même<lb/> pour toutes les parties de la bande
      GH<hi rend="it">hg</hi>, ce qui donne:<lb/>
      <formula>
@@ -762,11 +770,11 @@ ET D’UN AIMANT ;</title>
            <mn>2</mn>
           </msup>
           <mi>d</mi>
-          <mi>&#x03C6;.</mi>
+          <mi>φ.</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>3</mn>
           </msup>
          </mrow>
@@ -784,7 +792,7 @@ ET D’UN AIMANT ;</title>
            </mrow>
            <mrow>
             <msup>
-             <mi>&#x03C1;</mi>
+             <mi>ρ</mi>
              <mn>3</mn>
             </msup>
            </mrow>
@@ -798,11 +806,11 @@ ET D’UN AIMANT ;</title>
              <mn>2</mn>
             </msup>
             <mi>d</mi>
-            <mi>&#x03C1;</mi>
+            <mi>ρ</mi>
            </mrow>
            <mrow>
             <msup>
-             <mi>&#x03C1;</mi>
+             <mi>ρ</mi>
              <mn>4</mn>
             </msup>
            </mrow>
@@ -811,7 +819,7 @@ ET D’UN AIMANT ;</title>
          <mo>)</mo>
         </mrow>
         <mi>d</mi>
-        <mi>&#x03C6;.</mi>
+        <mi>φ.</mi>
         <mo>=</mo>
         <mfrac>
          <mrow>
@@ -819,14 +827,14 @@ ET D’UN AIMANT ;</title>
            <mo>(</mo>
            <mrow>
             <mn>2</mn>
-            <mi>&#x03C1;</mi>
+            <mi>ρ</mi>
             <mo>−</mo>
             <mfrac>
              <mrow>
               <mn>3</mn>
               <mi>u</mi>
               <mi>d</mi>
-              <mi>&#x03C1;</mi>
+              <mi>ρ</mi>
              </mrow>
              <mrow>
               <mi>d</mi>
@@ -840,7 +848,7 @@ ET D’UN AIMANT ;</title>
           <mi>d</mi>
           <mi>u</mi>
           <mi>d</mi>
-          <mi>&#x03C6;.</mi>
+          <mi>φ.</mi>
          </mrow>
          <mrow>
           <msup>
@@ -853,7 +861,7 @@ ET D’UN AIMANT ;</title>
       </math>
      </formula>
     </p>
-    <p>Or, si l’on conçoit le plan tangent NST à la surface &#x03C3; en<lb/> son point N, plan qui
+    <p>Or, si l’on conçoit le plan tangent NST à la surface σ en<lb/> son point N, plan qui
      rencontre MP en T, et, si l’on abaisse<lb/> du point M la perpendiculaire MS sur ce plan, on
      aura dans<lb/> les deux triangles rectangles MSN, MST, ces deux valeurs<lb/> de MS,<lb/>
      <formula>
@@ -878,7 +886,7 @@ ET D’UN AIMANT ;</title>
         <mi>N</mi>
         <mi>O</mi>
         <mo>=</mo>
-        <mi>&#x03C1;</mi>
+        <mi>ρ</mi>
         <mi>cos</mi>
         <mo>.</mo>
         <mi>i</mi>
@@ -914,7 +922,7 @@ ET D’UN AIMANT ;</title>
         <mo>=</mo>
         <mfrac>
          <mrow>
-          <mi>&#x03C1;</mi>
+          <mi>ρ</mi>
           <mi>cos</mi>
           <mo>.</mo>
           <mi>i</mi>
@@ -1023,7 +1031,7 @@ ET D’UN AIMANT ;</title>
         <mo>=</mo>
         <mfrac>
          <mrow>
-          <mi>&#x03C1;</mi>
+          <mi>ρ</mi>
           <mi>cos</mi>
           <mo>.</mo>
           <mi>i</mi>
@@ -1054,7 +1062,7 @@ ET D’UN AIMANT ;</title>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
         <msup>
-         <mi>&#x03C1;</mi>
+         <mi>ρ</mi>
          <mn>2</mn>
         </msup>
         <mo>=</mo>
@@ -1084,9 +1092,9 @@ ET D’UN AIMANT ;</title>
      <lb/> donne <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
-        <mi>&#x03C1;</mi>
+        <mi>ρ</mi>
         <mi>d</mi>
-        <mi>&#x03C1;</mi>
+        <mi>ρ</mi>
         <mo>=</mo>
         <mi>u</mi>
         <mi>d</mi>
@@ -1114,7 +1122,7 @@ ET D’UN AIMANT ;</title>
          <mrow>
           <mi>u</mi>
           <mi>d</mi>
-          <mi>&#x03C1;</mi>
+          <mi>ρ</mi>
          </mrow>
          <mrow>
           <mi>d</mi>
@@ -1152,7 +1160,7 @@ ET D’UN AIMANT ;</title>
            </mrow>
           </mfrac>
          </mrow>
-         <mi>&#x03C1;</mi>
+         <mi>ρ</mi>
         </mfrac>
        </mrow>
       </math>
@@ -1181,7 +1189,7 @@ ET D’UN AIMANT ;</title>
              </mrow>
              <mo>)</mo>
             </mrow>
-            <mi>&#x03C1;</mi>
+            <mi>ρ</mi>
             <mi>cos</mi>
             <mo>.</mo>
             <mi>i</mi>
@@ -1209,7 +1217,7 @@ ET D’UN AIMANT ;</title>
            <mn>2</mn>
           </msup>
          </mrow>
-         <mi>&#x03C1;</mi>
+         <mi>ρ</mi>
         </mfrac>
        </mrow>
       </math>
@@ -1219,7 +1227,7 @@ ET D’UN AIMANT ;</title>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
         <mo>=</mo>
-        <mi>&#x03C1;</mi>
+        <mi>ρ</mi>
         <mo>−</mo>
         <mfrac>
          <mrow>
@@ -1238,7 +1246,7 @@ ET D’UN AIMANT ;</title>
           <mi>i</mi>
          </mrow>
          <mrow>
-          <mi>&#x03C1;</mi>
+          <mi>ρ</mi>
           <mi>cos</mi>
           <mo>.</mo>
           <mi>a</mi>
@@ -1260,11 +1268,11 @@ ET D’UN AIMANT ;</title>
            <mn>2</mn>
           </msup>
           <mi>d</mi>
-          <mi>&#x03C6;.</mi>
+          <mi>φ.</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>2</mn>
           </msup>
          </mrow>
@@ -1283,11 +1291,11 @@ ET D’UN AIMANT ;</title>
            <mn>2</mn>
           </msup>
           <mi>d</mi>
-          <mi>&#x03C6;.</mi>
+          <mi>φ.</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>3</mn>
           </msup>
          </mrow>
@@ -1313,7 +1321,7 @@ ET D’UN AIMANT ;</title>
             <mo>.</mo>
             <mi>i</mi>
             <mo>−</mo>
-            <mi>&#x03C1;</mi>
+            <mi>ρ</mi>
             <mi>cos</mi>
             <mo>.</mo>
             <mi>a</mi>
@@ -1324,11 +1332,11 @@ ET D’UN AIMANT ;</title>
           <mi>d</mi>
           <mi>u</mi>
           <mi>d</mi>
-          <mi>&#x03C1;</mi>
+          <mi>ρ</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>4</mn>
           </msup>
           <mi>cos</mi>
@@ -1351,11 +1359,11 @@ ET D’UN AIMANT ;</title>
            <mn>2</mn>
           </msup>
           <mi>d</mi>
-          <mi>&#x03C6;.</mi>
+          <mi>φ.</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>3</mn>
           </msup>
          </mrow>
@@ -1381,7 +1389,7 @@ ET D’UN AIMANT ;</title>
             <mo>.</mo>
             <mi>i</mi>
             <mo>−</mo>
-            <mi>&#x03C1;</mi>
+            <mi>ρ</mi>
             <mi>cos</mi>
             <mo>.</mo>
             <mi>a</mi>
@@ -1392,11 +1400,11 @@ ET D’UN AIMANT ;</title>
            <mi>d</mi>
            <mn>2</mn>
           </msup>
-          <mi>&#x03C3;</mi>
+          <mi>σ</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>4</mn>
           </msup>
           <mi>cos</mi>
@@ -1431,7 +1439,7 @@ ET D’UN AIMANT ;</title>
      </choice> sur une molécule ma<lb rend="hyphen"/>gnétique, dépend 1° de la position de la
      molécule par rapport <pb n="14"/>à l’élément; 2° du volume infiniment petit occupé par
      l’élé<lb rend="hyphen"/>ment que l’auteur représente par <hi rend="it">h3</hi> d’une quantité
-     &#948; qu'on<lb/> peut regarder comme l'intensité de son action, et des<lb/> angles qui
+     δ qu'on<lb/> peut regarder comme l'intensité de son action, et des<lb/> angles qui
      déterminent la direction de la droite suivant la<lb rend="hyphen"/>quelle cette action est à
      son <hi rend="it">maximum</hi> ; ces dernières quan<lb rend="hyphen"/>tités restant les mêmes
      pour un même élément, de quelque<lb/> manière qu’on fasse varier la position de la molécule. </p>
@@ -1440,7 +1448,7 @@ ET D’UN AIMANT ;</title>
       <sic>élémens</sic>
       <corr>éléments</corr>
      </choice> magnétiques, tels que<lb/> le volume <hi rend="it">h</hi>
-     <hi rend="sub">3</hi> et la quantité <hi rend="it">&#948;</hi> soient les mêmes pour
+     <hi rend="sub">3</hi> et la quantité <hi rend="it">δ</hi> soient les mêmes pour
      chacun<lb/> d’eux, ce qu’on peut exprimer en disant que le magnétisme<lb/> est uniformément
      distribué sur la surface, et qu’en outre<lb/> dans chaque élément, la direction suivant
      laquelle l’action<lb/> est la plus grande, soit perpendiculaire à cette surface. Après<lb/> que
@@ -1455,7 +1463,7 @@ ET D’UN AIMANT ;</title>
      <hi rend="it">z',</hi> les coordonnées<lb/> de ce point N, par
      <hi rend="it">x, y, z,
      </hi>celles d’un autre point M où se<lb/> trouve placée une
-     molécule magnétique, par <hi rend="it">&#x03C1;</hi> la distance <pb n="15"/>MN entre ces deux
+     molécule magnétique, par <hi rend="it">ρ</hi> la distance <pb n="15"/>MN entre ces deux
      points, et par z l’angle MNO, compris<lb/> entre cette droite et la normale NO au point N, on
      aura,<lb/> d’après les formules trouvées par M.
      <hi rend="it">
@@ -1473,7 +1481,7 @@ ET D’UN AIMANT ;</title>
            <mi>h</mi>
            <mn>3</mn>
           </msup>
-          <mi>&#948;</mi>
+          <mi>δ</mi>
           <mrow>
            <mo>[</mo>
            <mrow>
@@ -1492,7 +1500,7 @@ ET D’UN AIMANT ;</title>
             <mo>.</mo>
             <mi>i</mi>
             <mo>−</mo>
-            <mi>&#x03C1;</mi>
+            <mi>ρ</mi>
             <mi>cos</mi>
             <mo>.</mo>
             <mi>a</mi>
@@ -1502,7 +1510,7 @@ ET D’UN AIMANT ;</title>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>4</mn>
           </msup>
          </mrow>
@@ -1520,7 +1528,7 @@ ET D’UN AIMANT ;</title>
            <mi>h</mi>
            <mn>3</mn>
           </msup>
-          <mi>&#948;</mi>
+          <mi>δ</mi>
           <mrow>
            <mo>[</mo>
            <mrow>
@@ -1539,7 +1547,7 @@ ET D’UN AIMANT ;</title>
             <mo>.</mo>
             <mi>i</mi>
             <mo>−</mo>
-            <mi>&#x03C1;</mi>
+            <mi>ρ</mi>
             <mi>cos</mi>
             <mo>.</mo>
             <mi>b</mi>
@@ -1549,7 +1557,7 @@ ET D’UN AIMANT ;</title>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>4</mn>
           </msup>
          </mrow>
@@ -1567,7 +1575,7 @@ ET D’UN AIMANT ;</title>
            <mi>h</mi>
            <mn>3</mn>
           </msup>
-          <mi>&#948;</mi>
+          <mi>δ</mi>
           <mrow>
            <mo>[</mo>
            <mrow>
@@ -1586,7 +1594,7 @@ ET D’UN AIMANT ;</title>
             <mo>.</mo>
             <mi>i</mi>
             <mo>−</mo>
-            <mi>&#x03C1;</mi>
+            <mi>ρ</mi>
             <mi>cos</mi>
             <mo>.</mo>
             <mi>c</mi>
@@ -1596,7 +1604,7 @@ ET D’UN AIMANT ;</title>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>4</mn>
           </msup>
          </mrow>
@@ -1616,7 +1624,7 @@ ET D’UN AIMANT ;</title>
       </math>
      </formula>
      <lb/> sur les plans <hi rend="it">des yz,</hi> des <hi rend="it">zx</hi> et des
-     <hi rend="it">xy,</hi> et par <hi rend="it">&#x03C6;., &#x03C7;, &#x03C8;,</hi> les<lb/> angles
+     <hi rend="it">xy,</hi> et par <hi rend="it">φ., χ, ψ,</hi> les<lb/> angles
      que ces projections font avec les axes des <hi rend="it">y,</hi> des <hi rend="it">z</hi>
      et<lb/> des <hi rend="it">x</hi> respectivement. Concevons que, par la coordonnée<lb/>
      <formula>
@@ -1629,15 +1637,14 @@ ET D’UN AIMANT ;</title>
        </mrow>
       </math>
      </formula> du point M, on fasse passer deux plans formant un<lb/> angle infiniment petit
-     <hi rend="it">d&#x03C6;.</hi>, et cherchons l’action exercée sur la<lb/> molécule M par tous
+     <hi rend="it">dφ.</hi>, et cherchons l’action exercée sur la<lb/> molécule M par tous
      les <choice>
       <sic>élémens</sic>
       <corr>éléments</corr>
      </choice> magnétiques qui se trouvent<lb/> sur la bande infiniment étroite comprise sur la
-     surface &#x03C3; en<lb rend="hyphen"/>tre ces deux plans. Nous pourrons concevoir cette bande
-     dé<lb rend="hyphen"/>composée en aires élémentaires, dont les projections sur le <pb n="16"
-     />plan des <hi rend="it">yz</hi> aient pour valeur <hi rend="it">udud&#x03C1;,</hi> et ces
-     aires élémentaires<lb/> étant toujours représentées par d<hi rend="sub">2</hi>&#x03C3; nous
+     surface σ en<lb rend="hyphen"/>tre ces deux plans. Nous pourrons concevoir cette bande
+     dé<lb rend="hyphen"/>composée en aires élémentaires, dont les projections sur le <pb n="16"/>plan des <hi rend="it">yz</hi> aient pour valeur <hi rend="it">ududρ,</hi> et ces
+     aires élémentaires<lb/> étant toujours représentées par d<hi rend="sub">2</hi>σ nous
      aurons <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
@@ -1645,7 +1652,7 @@ ET D’UN AIMANT ;</title>
          <mi>d</mi>
          <mn>2</mn>
         </msup>
-        <mi>&#x03C3;</mi>
+        <mi>σ</mi>
         <mo>=</mo>
         <mfrac>
          <mrow>
@@ -1653,7 +1660,7 @@ ET D’UN AIMANT ;</title>
           <mi>d</mi>
           <mi>u</mi>
           <mi>d</mi>
-          <mi>&#x03C6;.</mi>
+          <mi>φ.</mi>
          </mrow>
          <mrow>
           <mi>cos</mi>
@@ -1669,7 +1676,7 @@ ET D’UN AIMANT ;</title>
       <sic>élémens</sic>
       <corr>éléments</corr>
      </choice> magnétiques distribués uniformément, comme<lb/> nous l’avons dit sur la surface
-     &#x03C3;, <formula>
+     σ, <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
         <mfrac>
@@ -1707,7 +1714,7 @@ ET D’UN AIMANT ;</title>
            <mi>d</mi>
            <mn>2</mn>
           </msup>
-          <mi>&#x03C3;</mi>
+          <mi>σ</mi>
          </mrow>
          <mrow>
           <msup>
@@ -1729,7 +1736,7 @@ ET D’UN AIMANT ;</title>
            <mi>d</mi>
            <mn>2</mn>
           </msup>
-          <mi>&#x03C3;</mi>
+          <mi>σ</mi>
          </mrow>
          <mrow>
           <msup>
@@ -1747,7 +1754,7 @@ ET D’UN AIMANT ;</title>
       <sic>élémens</sic>
       <corr>éléments</corr>
      </choice> qui occupent l’aire<lb/>
-     <hi rend="it">d&#x03C3;</hi> décomposée dans le sens des <hi rend="it">x,</hi>
+     <hi rend="it">dσ</hi> décomposée dans le sens des <hi rend="it">x,</hi>
      <lb/>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
@@ -1759,7 +1766,7 @@ ET D’UN AIMANT ;</title>
            <mi>h</mi>
            <mn>3</mn>
           </msup>
-          <mi>&#948;</mi>
+          <mi>δ</mi>
           <mrow>
            <mo>{</mo>
            <mrow>
@@ -1778,7 +1785,7 @@ ET D’UN AIMANT ;</title>
             <mo>.</mo>
             <mi>i</mi>
             <mo>−</mo>
-            <mi>&#x03B2;</mi>
+            <mi>β</mi>
             <mi>cos</mi>
             <mo>.</mo>
             <mi>a</mi>
@@ -1789,7 +1796,7 @@ ET D’UN AIMANT ;</title>
            <mi>d</mi>
            <mn>2</mn>
           </msup>
-          <mi>&#x03C3;</mi>
+          <mi>σ</mi>
          </mrow>
          <mrow>
           <msup>
@@ -1797,7 +1804,7 @@ ET D’UN AIMANT ;</title>
            <mn>2</mn>
           </msup>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>4</mn>
           </msup>
          </mrow>
@@ -1830,7 +1837,7 @@ ET D’UN AIMANT ;</title>
            <mn>2</mn>
           </msup>
           <mi>h</mi>
-          <mi>&#948;</mi>
+          <mi>δ</mi>
           <mrow>
            <mo>{</mo>
            <mrow>
@@ -1849,7 +1856,7 @@ ET D’UN AIMANT ;</title>
             <mo>.</mo>
             <mi>i</mi>
             <mo>−</mo>
-            <mi>&#x03B2;</mi>
+            <mi>β</mi>
             <mi>cos</mi>
             <mo>.</mo>
             <mi>a</mi>
@@ -1857,11 +1864,11 @@ ET D’UN AIMANT ;</title>
            <mo>}</mo>
           </mrow>
           <mi>d</mi>
-          <mi>&#x03C3;</mi>
+          <mi>σ</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>4</mn>
           </msup>
          </mrow>
@@ -1879,7 +1886,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <mi>d</mi>
         <mrow>
          <mo>(</mo>
@@ -1891,11 +1898,11 @@ ET D’UN AIMANT ;</title>
              <mn>2</mn>
             </msup>
             <mi>d</mi>
-            <mi>&#x03C6;.</mi>
+            <mi>φ.</mi>
            </mrow>
            <mrow>
             <msup>
-             <mi>&#x03C1;</mi>
+             <mi>ρ</mi>
              <mn>3</mn>
             </msup>
            </mrow>
@@ -1907,8 +1914,8 @@ ET D’UN AIMANT ;</title>
       </math>
      </formula>
      <lb/> en l'intégrant dans toute l'étendue de la bande G<hi rend="it">gh</hi>H et<lb/> en
-     nommant <hi rend="it">u1</hi> et <hi rend="it">&#x03C1;</hi>1, <hi rend="it">u</hi>2 et
-     <hi rend="it">&#x03C1;</hi>2 les valeurs de <hi rend="it">u</hi> et de <hi rend="it">u'</hi>
+     nommant <hi rend="it">u1</hi> et <hi rend="it">ρ</hi>1, <hi rend="it">u</hi>2 et
+     <hi rend="it">ρ</hi>2 les valeurs de <hi rend="it">u</hi> et de <hi rend="it">u'</hi>
      aux<lb/> deux limites de cette bande, on obtient,<lb/>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
@@ -1918,7 +1925,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <mrow>
          <mo>(</mo>
          <mrow>
@@ -1930,11 +1937,11 @@ ET D’UN AIMANT ;</title>
              <mn>2</mn>
             </msubsup>
             <mi>d</mi>
-            <mi>&#x03C6;.</mi>
+            <mi>φ.</mi>
            </mrow>
            <mrow>
             <msubsup>
-             <mi>&#x03C1;</mi>
+             <mi>ρ</mi>
              <mn>2</mn>
              <mn>3</mn>
             </msubsup>
@@ -1949,11 +1956,11 @@ ET D’UN AIMANT ;</title>
              <mn>2</mn>
             </msubsup>
             <mi>d</mi>
-            <mi>&#x03C6;.</mi>
+            <mi>φ.</mi>
            </mrow>
            <mrow>
             <msubsup>
-             <mi>&#x03C1;</mi>
+             <mi>ρ</mi>
              <mn>1</mn>
              <mn>3</mn>
             </msubsup>
@@ -1970,29 +1977,29 @@ ET D’UN AIMANT ;</title>
       <corr>éléments</corr>
      </choice>
      <lb/> magnétiques renfermés dans cette portion G<hi rend="it">gh</hi>H de la
-     sur<lb rend="hyphen"/>face &#x03C3; comprise entre les deux plans menés par MP, qui<lb/>
-     forment l’angle <hi rend="it">d&#x03C6;.</hi> En supposant la surface &#x03C3; terminée
+     sur<lb rend="hyphen"/>face σ comprise entre les deux plans menés par MP, qui<lb/>
+     forment l’angle <hi rend="it">dφ.</hi> En supposant la surface σ terminée
      par<lb/> un contour fermé <hi rend="it">s,</hi> dont ces deux plans coupent les deux<lb/>
-     bords, les limites de cette intégrale déterminées par <hi rend="it">&#x03C1;</hi>
+     bords, les limites de cette intégrale déterminées par <hi rend="it">ρ</hi>
      <hi rend="sub">1</hi> et <hi rend="it">u</hi>
      <hi rend="sub">1</hi>, <pb n="18"/>
-     <hi rend="it">&#x03C1;</hi>
+     <hi rend="it">ρ</hi>
      <hi rend="sub">2</hi> et <hi rend="it">u</hi>
      <hi rend="sub">2</hi> seront les deux petits arcs de ce contour compris<lb/> entre les plans
      menés par MP. </p>
-    <p>Si l’on suppose maintenant que la surface <hi rend="it">&#x03C3;</hi> soit fermée de<lb/>
+    <p>Si l’on suppose maintenant que la surface <hi rend="it">σ</hi> soit fermée de<lb/>
      toutes parts comme la surface d’une sphère ou d’un el<lb rend="hyphen"/>lipsoïde, cette bande
      formera une zone complète rentrant<lb/> sur elle-même. Dans ce cas, on reviendra à la même
      limite<lb/> d'où l’on est parti ; on aura <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
         <msub>
-         <mi>&#x03C1;</mi>
+         <mi>ρ</mi>
          <mn>2</mn>
         </msub>
         <mo>=</mo>
         <msub>
-         <mi>&#x03C1;</mi>
+         <mi>ρ</mi>
          <mn>1</mn>
         </msub>
        </mrow>
@@ -2016,7 +2023,7 @@ ET D’UN AIMANT ;</title>
      aucune sur la molécule magnétique M, et par con<lb rend="hyphen"/>séquent elle n’en aura pas
      non plus sur un assemblage<lb/> quelconque de molécules, c'est-à-dire sur un aimant.</p>
     <p>Mais si nous supposons que la surface ne soit pas dans ce<lb/> cas, et qu’elle soit terminée
-     par un contour fermé s, il fau<lb rend="hyphen"/>dra intégrer, par rapport à &#x03C6;., les
+     par un contour fermé s, il fau<lb rend="hyphen"/>dra intégrer, par rapport à φ., les
      deux parties dont se com<lb rend="hyphen"/>pose l’expression<lb/>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
@@ -2026,9 +2033,9 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <mi>d</mi>
-        <mi>&#x03C6;.</mi>
+        <mi>φ.</mi>
         <mrow>
          <mo>(</mo>
          <mrow>
@@ -2042,7 +2049,7 @@ ET D’UN AIMANT ;</title>
            </mrow>
            <mrow>
             <msubsup>
-             <mi>&#x03C1;</mi>
+             <mi>ρ</mi>
              <mn>1</mn>
              <mn>3</mn>
             </msubsup>
@@ -2059,7 +2066,7 @@ ET D’UN AIMANT ;</title>
            </mrow>
            <mrow>
             <msubsup>
-             <mi>&#x03C1;</mi>
+             <mi>ρ</mi>
              <mn>2</mn>
              <mn>3</mn>
             </msubsup>
@@ -2084,7 +2091,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <mfrac>
          <mrow>
           <msup>
@@ -2092,11 +2099,11 @@ ET D’UN AIMANT ;</title>
            <mn>2</mn>
           </msup>
           <mi>d</mi>
-          <mi>&#x03C6;.</mi>
+          <mi>φ.</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>3</mn>
           </msup>
          </mrow>
@@ -2104,11 +2111,10 @@ ET D’UN AIMANT ;</title>
        </mrow>
       </math>
      </formula>) dans toute l'étendue du contour <hi rend="it">s</hi> ; car si<lb/> l'on met pour
-     <hi rend="it">u</hi> et <hi rend="it">&#x03C6;.</hi> leurs valeurs en fonctions de
-     <hi rend="it">&#x03C1;,</hi> dédui<lb rend="hyphen"/>tes des équations de la courbe
+     <hi rend="it">u</hi> et <hi rend="it">φ.</hi> leurs valeurs en fonctions de
+     <hi rend="it">ρ,</hi> dédui<lb rend="hyphen"/>tes des équations de la courbe
      <hi rend="it">s,</hi> on voit qu'en passant de<lb/> la partie AN<hi rend="sub">1</hi>B à la
-     partie BN<hi rend="sub">2</hi> A, <hi rend="it">d&#x03C6;.</hi> change de signe et que <pb
-      n="19"/>par conséquent les <choice>
+     partie BN<hi rend="sub">2</hi> A, <hi rend="it">dφ.</hi> change de signe et que <pb n="19"/>par conséquent les <choice>
       <sic>élémens</sic>
       <corr>éléments</corr>
      </choice> de l'une de ces parties sont d'un<lb/> signe contraire à ceux de l’autre. </p>
@@ -2117,7 +2123,7 @@ ET D’UN AIMANT ;</title>
      <choice>
       <sic>élémens</sic>
       <corr>éléments</corr>
-     </choice> magnétiques de la surface <hi rend="it">&#x03C3;</hi> sur la molécule M,<lb/> nous aurons<lb/>
+     </choice> magnétiques de la surface <hi rend="it">σ</hi> sur la molécule M,<lb/> nous aurons<lb/>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
@@ -2128,7 +2134,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <mfrac>
          <mrow>
           <msup>
@@ -2136,11 +2142,11 @@ ET D’UN AIMANT ;</title>
            <mn>2</mn>
           </msup>
           <mi>d</mi>
-          <mi>&#x03C6;.</mi>
+          <mi>φ.</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>3</mn>
           </msup>
          </mrow>
@@ -2148,7 +2154,7 @@ ET D’UN AIMANT ;</title>
        </mrow>
       </math>
      </formula>
-     <lb/> les quantités <hi rend="it">r</hi>, <hi rend="it">u et &#x03C6;.</hi> n’étant plus
+     <lb/> les quantités <hi rend="it">r</hi>, <hi rend="it">u et φ.</hi> n’étant plus
      relatives qu'au contour S.</p>
     <p>De même, en désignant par Y et Z les composantes pa<lb rend="hyphen"/>rallèles aux
      <hi rend="it">y</hi> et aux <hi rend="it">z,</hi> nous aurons<lb/>
@@ -2162,7 +2168,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <mstyle displaystyle="true">
          <mrow>
           <mo>∫</mo>
@@ -2170,15 +2176,15 @@ ET D’UN AIMANT ;</title>
            <mfrac>
             <mrow>
              <msup>
-              <mi>&#x03C5;</mi>
+              <mi>υ</mi>
               <mn>2</mn>
              </msup>
              <mi>d</mi>
-             <mi>&#x03C7;</mi>
+             <mi>χ</mi>
             </mrow>
             <mrow>
              <msup>
-              <mi>&#x03C1;</mi>
+              <mi>ρ</mi>
               <mn>3</mn>
              </msup>
             </mrow>
@@ -2198,7 +2204,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <mstyle displaystyle="true">
          <mrow>
           <mo>∫</mo>
@@ -2210,11 +2216,11 @@ ET D’UN AIMANT ;</title>
               <mn>2</mn>
              </msup>
              <mi>d</mi>
-             <mi>&#x03C8;</mi>
+             <mi>ψ</mi>
             </mrow>
             <mrow>
              <msup>
-              <mi>&#x03C1;</mi>
+              <mi>ρ</mi>
               <mn>3</mn>
              </msup>
             </mrow>
@@ -2230,7 +2236,7 @@ ET D’UN AIMANT ;</title>
      l’assemblage des <choice>
       <sic>élémens</sic>
       <corr>éléments</corr>
-     </choice> magné<lb rend="hyphen"/>tiques de la surface <hi rend="it">&#x03C3;</hi> sur la
+     </choice> magné<lb rend="hyphen"/>tiques de la surface <hi rend="it">σ</hi> sur la
      molécule M, est précisément la<lb/> même que dans le cas où chaque élément
      <hi rend="it">ds</hi> du contour <hi rend="it">s,</hi>
      <lb/> exercerait sur la molécule M une action représentée par<lb/> une force dont les trois
@@ -2243,7 +2249,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <mfrac>
          <mrow>
           <msup>
@@ -2251,11 +2257,11 @@ ET D’UN AIMANT ;</title>
            <mn>2</mn>
           </msup>
           <mi>d</mi>
-          <mi>&#x03C6;.</mi>
+          <mi>φ.</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>3</mn>
           </msup>
          </mrow>
@@ -2270,19 +2276,19 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <mfrac>
          <mrow>
           <msup>
-           <mi>&#x03BD;</mi>
+           <mi>ν</mi>
            <mn>2</mn>
           </msup>
           <mi>d</mi>
-          <mi>&#x03C7;</mi>
+          <mi>χ</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>3</mn>
           </msup>
          </mrow>
@@ -2297,7 +2303,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <mfrac>
          <mrow>
           <msup>
@@ -2305,11 +2311,11 @@ ET D’UN AIMANT ;</title>
            <mn>2</mn>
           </msup>
           <mi>d</mi>
-          <mi>&#x03C8;</mi>
+          <mi>ψ</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>3</mn>
           </msup>
          </mrow>
@@ -2333,7 +2339,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <mstyle displaystyle="true">
          <mrow>
           <mo>∫</mo>
@@ -2345,11 +2351,11 @@ ET D’UN AIMANT ;</title>
               <mn>2</mn>
              </msup>
              <mi>d</mi>
-             <mi>&#x03C6;.</mi>
+             <mi>φ.</mi>
             </mrow>
             <mrow>
              <msup>
-              <mi>&#x03C1;</mi>
+              <mi>ρ</mi>
               <mn>3</mn>
              </msup>
             </mrow>
@@ -2367,7 +2373,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <mstyle displaystyle="true">
          <mrow>
           <mo>∫</mo>
@@ -2375,15 +2381,15 @@ ET D’UN AIMANT ;</title>
            <mfrac>
             <mrow>
              <msup>
-              <mi>&#x03BD;</mi>
+              <mi>ν</mi>
               <mn>2</mn>
              </msup>
              <mi>d</mi>
-             <mi>&#x03C7;</mi>
+             <mi>χ</mi>
             </mrow>
             <mrow>
              <msup>
-              <mi>&#x03C1;</mi>
+              <mi>ρ</mi>
               <mn>3</mn>
              </msup>
             </mrow>
@@ -2401,7 +2407,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <mstyle displaystyle="true">
          <mrow>
           <mo>∫</mo>
@@ -2413,11 +2419,11 @@ ET D’UN AIMANT ;</title>
               <mn>2</mn>
              </msup>
              <mi>d</mi>
-             <mi>&#x03C8;</mi>
+             <mi>ψ</mi>
             </mrow>
             <mrow>
              <msup>
-              <mi>&#x03C1;</mi>
+              <mi>ρ</mi>
               <mn>3</mn>
              </msup>
             </mrow>
@@ -2428,13 +2434,13 @@ ET D’UN AIMANT ;</title>
        </mrow>
       </math>
      </formula>,<lb/> c’est-à-dire identiques avec les forces X, Y, Z, auxquelles se<lb/> réduit
-     l'action de la surface <hi rend="it">&#x03C3;.</hi> On voit aussi que cette action<lb/> est
-     indépendante de la forme de cette surface <hi rend="it">&#x03C3;,</hi> de sorte<lb/> qu’on peut
+     l'action de la surface <hi rend="it">σ.</hi> On voit aussi que cette action<lb/> est
+     indépendante de la forme de cette surface <hi rend="it">σ,</hi> de sorte<lb/> qu’on peut
      faire varier cette forme à volonté, sans que l’ac<lb rend="hyphen"/>tion change, pourvu que le
      contour <hi rend="it">s</hi> reste le même.</p>
     <p>Remarquons maintenant que
-     <hi rend="it">u<hi rend="sub">2</hi>d&#x03C6;., &#x03BD;<hi rend="sub">2</hi>d&#x03C7;,
-       &#x03C9;<hi rend="sub">2</hi>d&#x03C8;</hi>
+     <hi rend="it">u<hi rend="sub">2</hi>dφ., ν<hi rend="sub">2</hi>dχ,
+       ω<hi rend="sub">2</hi>dψ</hi>
      représen<lb rend="hyphen"/>tent les projections sur les trois plans des coordonnées du<lb/>
      double de l’aire du petit secteur M<hi rend="it">s</hi>S <hi rend="it">(fig.</hi> 2
      <hi rend="it">)</hi>, qui a pour<lb/> sommet le point M et pour base l’élément <formula>
@@ -2448,11 +2454,11 @@ ET D’UN AIMANT ;</title>
        </mrow>
       </math>
      </formula> du con<lb rend="hyphen"/>tour <hi rend="it">s.</hi> En désignant par
-     <hi rend="it">&#x03B8;</hi> l’angle que fait la direction de cet<lb/> élément
-     <hi rend="it">ds</hi> avec celle de la ligne <hi rend="it">&#x03C1;,</hi> et par
-     <hi rend="it">&#x03BB;, &#x03BC;, &#x03B3;</hi> les angles<lb/> que fait avec les axes la
+     <hi rend="it">θ</hi> l’angle que fait la direction de cet<lb/> élément
+     <hi rend="it">ds</hi> avec celle de la ligne <hi rend="it">ρ,</hi> et par
+     <hi rend="it">λ, μ, γ</hi> les angles<lb/> que fait avec les axes la
      perpendiculaire au plan du secteur<lb/> M<hi rend="it">s</hi>S, on aura
-     <hi rend="it">&#x03C1;ds sin. &#x03B8; </hi>pour le double de l’aire de ce
+     <hi rend="it">ρds sin. θ </hi>pour le double de l’aire de ce
      sec<lb rend="hyphen"/>teur, et pour ses projections<lb/>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
@@ -2462,17 +2468,17 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>d</mi>
-        <mi>&#x03C6;.</mi>
+        <mi>φ.</mi>
         <mo>=</mo>
-        <mi>&#x03C1;</mi>
+        <mi>ρ</mi>
         <mi>d</mi>
         <mi>s</mi>
         <mi>sin</mi>
         <mo>.</mo>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
         <mi>cos</mi>
         <mo>.</mo>
-        <mi>&#x03BB;</mi>
+        <mi>λ</mi>
        </mrow>
       </math>
      </formula>,<lb/>
@@ -2480,21 +2486,21 @@ ET D’UN AIMANT ;</title>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
         <msup>
-         <mi>&#x03BD;</mi>
+         <mi>ν</mi>
          <mn>2</mn>
         </msup>
         <mi>d</mi>
-        <mi>&#x03C7;</mi>
+        <mi>χ</mi>
         <mo>=</mo>
-        <mi>&#x03C1;</mi>
+        <mi>ρ</mi>
         <mi>d</mi>
         <mi>s</mi>
         <mi>sin</mi>
         <mo>.</mo>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
         <mi>cos</mi>
         <mo>.</mo>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
        </mrow>
       </math>
      </formula>,<lb/>
@@ -2506,17 +2512,17 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>d</mi>
-        <mi>&#x03C8;</mi>
+        <mi>ψ</mi>
         <mo>=</mo>
-        <mi>&#x03C1;</mi>
+        <mi>ρ</mi>
         <mi>d</mi>
         <mi>s</mi>
         <mi>sin</mi>
         <mo>.</mo>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
         <mi>cos</mi>
         <mo>.</mo>
-        <mi>&#x03B3;</mi>
+        <mi>γ</mi>
        </mrow>
       </math>
      </formula>
@@ -2531,21 +2537,21 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <mfrac>
          <mrow>
           <mi>d</mi>
           <mi>s</mi>
           <mi>sin</mi>
           <mo>.</mo>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
           <mi>cos</mi>
           <mo>.</mo>
-          <mi>&#x03BB;</mi>
+          <mi>λ</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>2</mn>
           </msup>
          </mrow>
@@ -2560,21 +2566,21 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <mfrac>
          <mrow>
           <mi>d</mi>
           <mi>s</mi>
           <mi>sin</mi>
           <mo>.</mo>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
           <mi>cos</mi>
           <mo>.</mo>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>2</mn>
           </msup>
          </mrow>
@@ -2591,21 +2597,21 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <mfrac>
          <mrow>
           <mi>d</mi>
           <mi>s</mi>
           <mi>sin</mi>
           <mo>.</mo>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
           <mi>cos</mi>
           <mo>.</mo>
-          <mi>&#x03B3;</mi>
+          <mi>γ</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>2</mn>
           </msup>
          </mrow>
@@ -2614,7 +2620,7 @@ ET D’UN AIMANT ;</title>
       </math>
      </formula>
      <lb/> comme elles sont respectivement proportionnelles aux cosinus<lb/> des angles
-     <hi rend="it">&#x03BB;, &#x03BC;, &#x03B3;,</hi> et elles donnent pour résultante, une
+     <hi rend="it">λ, μ, γ,</hi> et elles donnent pour résultante, une
      force<hi rend="it">
       <lb/>
      </hi>ayant pour valeur <formula>
@@ -2625,18 +2631,18 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <mfrac>
          <mrow>
           <mi>d</mi>
           <mi>s</mi>
           <mi>sin</mi>
           <mo>.</mo>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>2</mn>
           </msup>
          </mrow>
@@ -2647,7 +2653,7 @@ ET D’UN AIMANT ;</title>
       <lb/>
      </hi>pendiculaire au plan
      du secteur M<hi rend="it">s</hi>S qui forme, avec les<lb/> trois axes, les angles
-     <hi rend="it">&#x03BB;, &#x03BC;, &#x03B3;,</hi> Ainsi chaque élément <hi rend="it">s</hi>S
+     <hi rend="it">λ, μ, γ,</hi> Ainsi chaque élément <hi rend="it">s</hi>S
      du<lb/> contour <hi rend="it">s,</hi> produit sur la molécule M une force
      proportion<lb rend="hyphen"/>nelle à la longueur de cet élément, au sinus de l’angle que<lb/>
      sa direction fait avec celle de la droite SM, en raison inverse<lb/> du carré de la distance
@@ -2679,15 +2685,15 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mi>d</mi>
           <mi>s</mi>
           <mi>sin</mi>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>2</mn>
           </msup>
          </mrow>
@@ -2702,17 +2708,17 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <msup>
            <mi>u</mi>
            <mn>2</mn>
           </msup>
           <mi>d</mi>
-          <mi>&#x03C6;.</mi>
+          <mi>φ.</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>3</mn>
           </msup>
          </mrow>
@@ -2724,17 +2730,17 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <msup>
-           <mi>&#x03BD;</mi>
+           <mi>ν</mi>
            <mn>2</mn>
           </msup>
           <mi>d</mi>
-          <mi>&#x03C7;</mi>
+          <mi>χ</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>3</mn>
           </msup>
          </mrow>
@@ -2746,17 +2752,17 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <msup>
            <mi>w</mi>
            <mn>2</mn>
           </msup>
           <mi>d</mi>
-          <mi>&#x03C8;</mi>
+          <mi>ψ</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>3</mn>
           </msup>
          </mrow>
@@ -2767,7 +2773,7 @@ ET D’UN AIMANT ;</title>
     </p>
     <p n="23">Pour avoir celles d’un circuit fermé AGBH circonscri<lb rend="hyphen"/>vant une
      portion d'une surface quelconque représentée par<lb/>
-     <hi rend="it">&#x03C3;,</hi> il faudrait intégrer ces expressions dans toute l’étendue<lb/> du
+     <hi rend="it">σ,</hi> il faudrait intégrer ces expressions dans toute l’étendue<lb/> du
      circuit, ou, ce qui revient au même, en considérant par<lb/> exemple la première, et concevant
      par la coordonnée PM <pb n="23"/>les plans <choice>
       <sic>tangens</sic>
@@ -2782,7 +2788,7 @@ ET D’UN AIMANT ;</title>
       <corr>correspondants</corr>
      </choice> G<hi rend="it">g</hi>, H<hi rend="it">h,</hi> compris entre<lb/> deux plans passant
      par PM, et formant entre eux l’angle<lb/>
-     <hi rend="it">d&#x03C6;.</hi> en désignant pour
+     <hi rend="it">dφ.</hi> en désignant pour
      <hi rend="it">u<hi rend="sub">2</hi>, r<hi rend="sub">2</hi>
      </hi>, et
      <hi rend="it">u<hi rend="sub">1</hi>, r<hi rend="sub">1</hi>,</hi> les valeurs de
@@ -2791,7 +2797,7 @@ ET D’UN AIMANT ;</title>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mstyle displaystyle="true">
          <mrow>
           <mo>∫</mo>
@@ -2809,7 +2815,7 @@ ET D’UN AIMANT ;</title>
               </mrow>
               <mrow>
                <msubsup>
-                <mi>&#x03C1;</mi>
+                <mi>ρ</mi>
                 <mn>2</mn>
                 <mn>3</mn>
                </msubsup>
@@ -2826,7 +2832,7 @@ ET D’UN AIMANT ;</title>
               </mrow>
               <mrow>
                <msubsup>
-                <mi>&#x03C1;</mi>
+                <mi>ρ</mi>
                 <mn>1</mn>
                 <mn>3</mn>
                </msubsup>
@@ -2839,15 +2845,15 @@ ET D’UN AIMANT ;</title>
          </mrow>
         </mstyle>
         <mi>d</mi>
-        <mi>&#x03C6;.</mi>
+        <mi>φ.</mi>
         <mo>=</mo>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mstyle displaystyle="true">
          <mrow>
           <mo>∫</mo>
           <mrow>
            <mi>d</mi>
-           <mi>&#x03C6;.</mi>
+           <mi>φ.</mi>
            <mstyle displaystyle="true">
             <mrow>
              <mo>∫</mo>
@@ -2862,7 +2868,7 @@ ET D’UN AIMANT ;</title>
                </mrow>
                <mrow>
                 <msup>
-                 <mi>&#x03C1;</mi>
+                 <mi>ρ</mi>
                  <mn>3</mn>
                 </msup>
                </mrow>
@@ -2874,7 +2880,7 @@ ET D’UN AIMANT ;</title>
          </mrow>
         </mstyle>
         <mo>=</mo>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mstyle displaystyle="true">
          <mrow>
           <mo>∬</mo>
@@ -2887,11 +2893,11 @@ ET D’UN AIMANT ;</title>
               <mn>2</mn>
              </msup>
              <mi>d</mi>
-             <mi>&#x03C6;.</mi>
+             <mi>φ.</mi>
             </mrow>
             <mrow>
              <msup>
-              <mi>&#x03C1;</mi>
+              <mi>ρ</mi>
               <mn>3</mn>
              </msup>
             </mrow>
@@ -2907,7 +2913,7 @@ ET D’UN AIMANT ;</title>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mstyle displaystyle="true">
          <mrow>
           <mo>∬</mo>
@@ -2932,7 +2938,7 @@ ET D’UN AIMANT ;</title>
                <mo>.</mo>
                <mi>i</mi>
                <mo>−</mo>
-               <mi>&#x03C1;</mi>
+               <mi>ρ</mi>
                <mi>cos</mi>
                <mo>.</mo>
                <mi>a</mi>
@@ -2940,11 +2946,11 @@ ET D’UN AIMANT ;</title>
               <mo>]</mo>
              </mrow>
              <mi>d</mi>
-             <mi>&#948;</mi>
+             <mi>δ</mi>
             </mrow>
             <mrow>
              <msup>
-              <mi>&#x03C1;</mi>
+              <mi>ρ</mi>
               <mn>4</mn>
              </msup>
             </mrow>
@@ -2957,13 +2963,13 @@ ET D’UN AIMANT ;</title>
      </formula>,<lb/> et si la surface est plane, et que ses dimensions soient assez<lb/> petites
      pour qu’on n’en doive conserver dans le calcul<lb/> que les premières puissances, il faudra
      regarder comme<lb/> des quantités constantes, dans cette double intégrale, les<lb/> droites
-     <hi rend="it">x, &#x03C1;,</hi> et les angles <hi rend="it">a, i,</hi> on aura ainsi:<lb/>
+     <hi rend="it">x, ρ,</hi> et les angles <hi rend="it">a, i,</hi> on aura ainsi:<lb/>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mrow>
            <mo>[</mo>
            <mrow>
@@ -2982,7 +2988,7 @@ ET D’UN AIMANT ;</title>
             <mo>.</mo>
             <mi>i</mi>
             <mo>−</mo>
-            <mi>&#x03C1;</mi>
+            <mi>ρ</mi>
             <mi>cos</mi>
             <mo>.</mo>
             <mi>a</mi>
@@ -2992,7 +2998,7 @@ ET D’UN AIMANT ;</title>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>4</mn>
           </msup>
          </mrow>
@@ -3002,7 +3008,7 @@ ET D’UN AIMANT ;</title>
           <mo>∬</mo>
           <mrow>
            <mi>d</mi>
-           <mi>&#948;</mi>
+           <mi>δ</mi>
           </mrow>
          </mrow>
         </mstyle>
@@ -3023,18 +3029,18 @@ ET D’UN AIMANT ;</title>
        </mrow>
       </math>
      </formula> est évidemment l’aire même de cette surface, en<lb/> sorte qu’en la représentant par
-     &#x03BB; on a<lb/>
+     λ on a<lb/>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
-          <mi>&#x03BB;</mi>
+          <mi>μ</mi>
+          <mi>λ</mi>
           <mrow>
            <mo>[</mo>
            <mrow>
-            <mi>&#x03C1;</mi>
+            <mi>ρ</mi>
             <mi>cos</mi>
             <mo>.</mo>
             <mi>a</mi>
@@ -3059,7 +3065,7 @@ ET D’UN AIMANT ;</title>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>4</mn>
           </msup>
          </mrow>
@@ -3103,7 +3109,7 @@ ET D’UN AIMANT ;</title>
         <mi>i</mi>
         <mo>=</mo>
         <mi>d</mi>
-        <mi>&#x03C1;</mi>
+        <mi>ρ</mi>
        </mrow>
       </math>
      </formula> et que<lb/>
@@ -3128,15 +3134,15 @@ ET D’UN AIMANT ;</title>
         <mo>−</mo>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
-          <mi>&#x03BB;</mi>
+          <mi>μ</mi>
+          <mi>λ</mi>
          </mrow>
          <mi>g</mi>
         </mfrac>
         <mo>.</mo>
         <mfrac>
          <mrow>
-          <mi>&#x03C1;</mi>
+          <mi>ρ</mi>
           <mi>d</mi>
           <mi>x</mi>
           <mo>−</mo>
@@ -3151,13 +3157,13 @@ ET D’UN AIMANT ;</title>
            </mrow>
            <mo>)</mo>
           </mrow>
-          <mi>&#x03C1;</mi>
+          <mi>ρ</mi>
           <mi>d</mi>
-          <mi>&#x03C1;</mi>
+          <mi>ρ</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>4</mn>
           </msup>
          </mrow>
@@ -3170,8 +3176,8 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
-          <mi>&#x03BB;</mi>
+          <mi>μ</mi>
+          <mi>λ</mi>
          </mrow>
          <mi>g</mi>
         </mfrac>
@@ -3189,7 +3195,7 @@ ET D’UN AIMANT ;</title>
            </mrow>
            <mrow>
             <msup>
-             <mi>&#x03C1;</mi>
+             <mi>ρ</mi>
              <mn>3</mn>
             </msup>
            </mrow>
@@ -3205,8 +3211,8 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
-          <mi>&#x03BB;</mi>
+          <mi>μ</mi>
+          <mi>λ</mi>
          </mrow>
          <mi>g</mi>
         </mfrac>
@@ -3225,7 +3231,7 @@ ET D’UN AIMANT ;</title>
            </mrow>
            <mrow>
             <msubsup>
-             <mi>&#x03C1;</mi>
+             <mi>ρ</mi>
              <mn>1</mn>
              <mn>3</mn>
             </msubsup>
@@ -3244,7 +3250,7 @@ ET D’UN AIMANT ;</title>
            </mrow>
            <mrow>
             <msubsup>
-             <mi>&#x03C1;</mi>
+             <mi>ρ</mi>
              <mn>2</mn>
              <mn>3</mn>
             </msubsup>
@@ -3268,8 +3274,8 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
-          <mi>&#x03BB;</mi>
+          <mi>μ</mi>
+          <mi>λ</mi>
          </mrow>
          <mi>g</mi>
         </mfrac>
@@ -3288,7 +3294,7 @@ ET D’UN AIMANT ;</title>
            </mrow>
            <mrow>
             <msubsup>
-             <mi>&#x03C1;</mi>
+             <mi>ρ</mi>
              <mn>1</mn>
              <mn>3</mn>
             </msubsup>
@@ -3307,7 +3313,7 @@ ET D’UN AIMANT ;</title>
            </mrow>
            <mrow>
             <msubsup>
-             <mi>&#x03C1;</mi>
+             <mi>ρ</mi>
              <mn>2</mn>
              <mn>3</mn>
             </msubsup>
@@ -3325,8 +3331,8 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
-          <mi>&#x03BB;</mi>
+          <mi>μ</mi>
+          <mi>λ</mi>
          </mrow>
          <mi>g</mi>
         </mfrac>
@@ -3345,7 +3351,7 @@ ET D’UN AIMANT ;</title>
            </mrow>
            <mrow>
             <msubsup>
-             <mi>&#x03C1;</mi>
+             <mi>ρ</mi>
              <mn>1</mn>
              <mn>3</mn>
             </msubsup>
@@ -3364,7 +3370,7 @@ ET D’UN AIMANT ;</title>
            </mrow>
            <mrow>
             <msubsup>
-             <mi>&#x03C1;</mi>
+             <mi>ρ</mi>
              <mn>2</mn>
              <mn>3</mn>
             </msubsup>
@@ -3392,8 +3398,8 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
-          <mi>&#x03BB;</mi>
+          <mi>μ</mi>
+          <mi>λ</mi>
          </mrow>
          <mi>g</mi>
         </mfrac>
@@ -3410,7 +3416,7 @@ ET D’UN AIMANT ;</title>
          </mrow>
          <mrow>
           <msubsup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>1</mn>
            <mn>3</mn>
           </msubsup>
@@ -3423,8 +3429,8 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
-          <mi>&#x03BB;</mi>
+          <mi>μ</mi>
+          <mi>λ</mi>
          </mrow>
          <mi>g</mi>
         </mfrac>
@@ -3441,7 +3447,7 @@ ET D’UN AIMANT ;</title>
          </mrow>
          <mrow>
           <msubsup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>1</mn>
            <mn>3</mn>
           </msubsup>
@@ -3454,8 +3460,8 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
-          <mi>&#x03BB;</mi>
+          <mi>μ</mi>
+          <mi>λ</mi>
          </mrow>
          <mi>g</mi>
         </mfrac>
@@ -3472,7 +3478,7 @@ ET D’UN AIMANT ;</title>
          </mrow>
          <mrow>
           <msubsup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>1</mn>
            <mn>3</mn>
           </msubsup>
@@ -3487,8 +3493,8 @@ ET D’UN AIMANT ;</title>
         <mo>−</mo>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
-          <mi>&#x03BB;</mi>
+          <mi>μ</mi>
+          <mi>λ</mi>
          </mrow>
          <mi>g</mi>
         </mfrac>
@@ -3505,7 +3511,7 @@ ET D’UN AIMANT ;</title>
          </mrow>
          <mrow>
           <msubsup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>2</mn>
            <mn>3</mn>
           </msubsup>
@@ -3519,8 +3525,8 @@ ET D’UN AIMANT ;</title>
         <mo>−</mo>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
-          <mi>&#x03BB;</mi>
+          <mi>μ</mi>
+          <mi>λ</mi>
          </mrow>
          <mi>g</mi>
         </mfrac>
@@ -3537,7 +3543,7 @@ ET D’UN AIMANT ;</title>
          </mrow>
          <mrow>
           <msubsup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>2</mn>
            <mn>3</mn>
           </msubsup>
@@ -3551,8 +3557,8 @@ ET D’UN AIMANT ;</title>
         <mo>−</mo>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
-          <mi>&#x03BB;</mi>
+          <mi>μ</mi>
+          <mi>λ</mi>
          </mrow>
          <mi>g</mi>
         </mfrac>
@@ -3569,7 +3575,7 @@ ET D’UN AIMANT ;</title>
          </mrow>
          <mrow>
           <msubsup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>2</mn>
            <mn>3</mn>
           </msubsup>
@@ -3582,13 +3588,13 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
-          <mi>&#x03BB;</mi>
+          <mi>μ</mi>
+          <mi>λ</mi>
          </mrow>
          <mrow>
           <mi>g</mi>
           <msubsup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>1</mn>
            <mn>2</mn>
           </msubsup>
@@ -3661,7 +3667,7 @@ ET D’UN AIMANT ;</title>
         </msqrt>
         <mo>=</mo>
         <msub>
-         <mi>&#x03C1;</mi>
+         <mi>ρ</mi>
          <mn>1</mn>
         </msub>
        </mrow>
@@ -3724,7 +3730,7 @@ ET D’UN AIMANT ;</title>
          </mrow>
          <mrow>
           <msub>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>1</mn>
           </msub>
          </mrow>
@@ -3746,7 +3752,7 @@ ET D’UN AIMANT ;</title>
          </mrow>
          <mrow>
           <msub>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>1</mn>
           </msub>
          </mrow>
@@ -3768,7 +3774,7 @@ ET D’UN AIMANT ;</title>
          </mrow>
          <mrow>
           <msub>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>1</mn>
           </msub>
          </mrow>
@@ -3780,13 +3786,13 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
-          <mi>&#x03BB;</mi>
+          <mi>μ</mi>
+          <mi>λ</mi>
          </mrow>
          <mrow>
           <mi>g</mi>
           <msubsup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>2</mn>
            <mn>3</mn>
           </msubsup>
@@ -3811,7 +3817,7 @@ ET D’UN AIMANT ;</title>
          </mrow>
          <mrow>
           <msub>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>2</mn>
           </msub>
          </mrow>
@@ -3834,7 +3840,7 @@ ET D’UN AIMANT ;</title>
          </mrow>
          <mrow>
           <msub>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>2</mn>
           </msub>
          </mrow>
@@ -3857,7 +3863,7 @@ ET D’UN AIMANT ;</title>
          </mrow>
          <mrow>
           <msub>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>2</mn>
           </msub>
          </mrow>
@@ -3968,7 +3974,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <mstyle displaystyle="true">
          <mrow>
           <mo>∫</mo>
@@ -3980,11 +3986,11 @@ ET D’UN AIMANT ;</title>
               <mn>2</mn>
              </msup>
              <mi>d</mi>
-             <mi>&#x03C6;.</mi>
+             <mi>φ.</mi>
             </mrow>
             <mrow>
              <msup>
-              <mi>&#x03C1;</mi>
+              <mi>ρ</mi>
               <mn>3</mn>
              </msup>
             </mrow>
@@ -4002,7 +4008,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <mstyle displaystyle="true">
          <mrow>
           <mo>∫</mo>
@@ -4010,15 +4016,15 @@ ET D’UN AIMANT ;</title>
            <mfrac>
             <mrow>
              <msup>
-              <mi>&#x03BD;</mi>
+              <mi>ν</mi>
               <mn>2</mn>
              </msup>
              <mi>d</mi>
-             <mi>&#x03C7;</mi>
+             <mi>χ</mi>
             </mrow>
             <mrow>
              <msup>
-              <mi>&#x03C1;</mi>
+              <mi>ρ</mi>
               <mn>3</mn>
              </msup>
             </mrow>
@@ -4036,7 +4042,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <mstyle displaystyle="true">
          <mrow>
           <mo>∫</mo>
@@ -4048,11 +4054,11 @@ ET D’UN AIMANT ;</title>
               <mn>2</mn>
              </msup>
              <mi>d</mi>
-             <mi>&#x03C6;.</mi>
+             <mi>φ.</mi>
             </mrow>
             <mrow>
              <msup>
-              <mi>&#x03C1;</mi>
+              <mi>ρ</mi>
               <mn>3</mn>
              </msup>
             </mrow>
@@ -4080,7 +4086,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <mrow>
          <mo>(</mo>
          <mrow>
@@ -4096,11 +4102,11 @@ ET D’UN AIMANT ;</title>
                 <mn>2</mn>
                </msup>
                <mi>d</mi>
-               <mi>&#x03C6;.</mi>
+               <mi>φ.</mi>
               </mrow>
               <mrow>
                <msup>
-                <mi>&#x03C1;</mi>
+                <mi>ρ</mi>
                 <mn>3</mn>
                </msup>
               </mrow>
@@ -4114,15 +4120,15 @@ ET D’UN AIMANT ;</title>
                 <mfrac>
                  <mrow>
                   <msup>
-                   <mi>&#x03BD;</mi>
+                   <mi>ν</mi>
                    <mn>2</mn>
                   </msup>
                   <mi>d</mi>
-                  <mi>&#x03C7;</mi>
+                  <mi>χ</mi>
                  </mrow>
                  <mrow>
                   <msup>
-                   <mi>&#x03C1;</mi>
+                   <mi>ρ</mi>
                    <mn>3</mn>
                   </msup>
                  </mrow>
@@ -4149,7 +4155,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <msup>
          <mstyle mathsize="140%" displaystyle="true">
           <mo>∫</mo>
@@ -4164,19 +4170,19 @@ ET D’UN AIMANT ;</title>
            <mn>2</mn>
           </msup>
           <mi>d</mi>
-          <mi>&#x03C6;.</mi>
+          <mi>φ.</mi>
           <mo>−</mo>
           <mi>x</mi>
           <msup>
-           <mi>&#x03BD;</mi>
+           <mi>ν</mi>
            <mn>2</mn>
           </msup>
           <mi>d</mi>
-          <mi>&#x03C7;</mi>
+          <mi>χ</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>3</mn>
           </msup>
          </mrow>
@@ -4199,7 +4205,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <msup>
          <mstyle mathsize="140%" displaystyle="true">
           <mo>∫</mo>
@@ -4214,7 +4220,7 @@ ET D’UN AIMANT ;</title>
            <mn>2</mn>
           </msup>
           <mi>d</mi>
-          <mi>&#x03C8;</mi>
+          <mi>ψ</mi>
           <mo>−</mo>
           <mi>z</mi>
           <msup>
@@ -4222,11 +4228,11 @@ ET D’UN AIMANT ;</title>
            <mn>2</mn>
           </msup>
           <mi>d</mi>
-          <mi>&#x03C6;.</mi>
+          <mi>φ.</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>3</mn>
           </msup>
          </mrow>
@@ -4249,7 +4255,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <msup>
          <mstyle mathsize="140%" displaystyle="true">
           <mo>∫</mo>
@@ -4260,11 +4266,11 @@ ET D’UN AIMANT ;</title>
          <mrow>
           <mi>z</mi>
           <msup>
-           <mi>&#x03BD;</mi>
+           <mi>ν</mi>
            <mn>2</mn>
           </msup>
           <mi>d</mi>
-          <mi>&#x03C7;</mi>
+          <mi>χ</mi>
           <mo>−</mo>
           <mi>y</mi>
           <msup>
@@ -4272,11 +4278,11 @@ ET D’UN AIMANT ;</title>
            <mn>2</mn>
           </msup>
           <mi>d</mi>
-          <mi>&#x03C8;</mi>
+          <mi>ψ</mi>
          </mrow>
          <mrow>
           <msup>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
            <mn>3</mn>
           </msup>
          </mrow>
@@ -4296,7 +4302,7 @@ ET D’UN AIMANT ;</title>
      ce circuit sur l’extrémité du solénoïde, qui<lb/> sont égales et opposées à celles de
      l’extrémité du solénoïde<lb/> sur le circuit, ont précisément les mêmes valeurs que les
      pré<lb rend="hyphen"/>cédentes, excepté que le coefficient constant
-     <hi rend="it">m2h&#x03C1; s'y</hi> trouve<lb/> remplacé par <formula>
+     <hi rend="it">m2hρ s'y</hi> trouve<lb/> remplacé par <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
         <mfrac>
@@ -4309,8 +4315,7 @@ ET D’UN AIMANT ;</title>
        </mrow>
       </math>
      </formula>, moitié du produit des deux intensités <hi rend="it">i</hi>
-     <lb/> et <hi rend="it">i'</hi> du courant du circuit et de ceux du solénoïde ; en sorte <pb
-      n="31"/>qu’elles deviennent égales quand on suppose ce qui est per<lb rend="hyphen"/>mis <formula>
+     <lb/> et <hi rend="it">i'</hi> du courant du circuit et de ceux du solénoïde ; en sorte <pb n="31"/>qu’elles deviennent égales quand on suppose ce qui est per<lb rend="hyphen"/>mis <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
         <mfrac>
@@ -4326,7 +4331,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#x03C1;</mi>
+        <mi>ρ</mi>
        </mrow>
       </math>
      </formula>
@@ -4380,12 +4385,12 @@ ET D’UN AIMANT ;</title>
               <mn>2</mn>
              </msup>
              <mi>d</mi>
-             <mi>&#x03C6;.</mi>
+             <mi>φ.</mi>
              <mo>−</mo>
              <mi>x</mi>
              <mo>"</mo>
              <msup>
-              <mi>&#x03BD;</mi>
+              <mi>ν</mi>
               <mn>2</mn>
              </msup>
              <mi>d</mi>
@@ -4393,7 +4398,7 @@ ET D’UN AIMANT ;</title>
             </mrow>
             <mrow>
              <msup>
-              <mi>&#x03C1;</mi>
+              <mi>ρ</mi>
               <mn>3</mn>
              </msup>
             </mrow>
@@ -4419,7 +4424,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>h</mi>
-        <mi>&#948;</mi>
+        <mi>δ</mi>
         <mo>=</mo>
         <mfrac>
          <mn>1</mn>
@@ -4453,19 +4458,19 @@ ET D’UN AIMANT ;</title>
               <mn>2</mn>
              </msup>
              <mi>d</mi>
-             <mi>&#x03C6;.</mi>
+             <mi>φ.</mi>
              <mo>−</mo>
              <mi>x</mi>
              <msup>
-              <mi>&#x03BD;</mi>
+              <mi>ν</mi>
               <mn>2</mn>
              </msup>
              <mi>d</mi>
-             <mi>&#x03BB;</mi>
+             <mi>λ</mi>
             </mrow>
             <mrow>
              <msup>
-              <mi>&#x03C1;</mi>
+              <mi>ρ</mi>
               <mn>3</mn>
              </msup>
             </mrow>
@@ -4512,7 +4517,7 @@ ET D’UN AIMANT ;</title>
               <mn>2</mn>
              </msup>
              <mi>d</mi>
-             <mi>&#x03C6;.</mi>
+             <mi>φ.</mi>
              <mo>−</mo>
              <mrow>
               <mo>(</mo>
@@ -4525,15 +4530,15 @@ ET D’UN AIMANT ;</title>
               <mo>)</mo>
              </mrow>
              <msup>
-              <mi>&#x03BD;</mi>
+              <mi>ν</mi>
               <mn>2</mn>
              </msup>
              <mi>d</mi>
-             <mi>&#x03C7;</mi>
+             <mi>χ</mi>
             </mrow>
             <mrow>
              <msup>
-              <mi>&#x03C1;</mi>
+              <mi>ρ</mi>
               <mn>3</mn>
              </msup>
             </mrow>
@@ -4554,7 +4559,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>d</mi>
-        <mi>&#x03C6;.</mi>
+        <mi>φ.</mi>
         <mo>=</mo>
         <mrow>
          <mo>(</mo>
@@ -4591,11 +4596,11 @@ ET D’UN AIMANT ;</title>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
         <msup>
-         <mi>&#x03BD;</mi>
+         <mi>ν</mi>
          <mn>2</mn>
         </msup>
         <mi>d</mi>
-        <mi>&#x03C7;</mi>
+        <mi>χ</mi>
         <mo>=</mo>
         <mrow>
          <mo>(</mo>
@@ -4732,7 +4737,7 @@ ET D’UN AIMANT ;</title>
             </mrow>
             <mrow>
              <msup>
-              <mi>&#x03C1;</mi>
+              <mi>ρ</mi>
               <mn>3</mn>
              </msup>
             </mrow>
@@ -4765,7 +4770,7 @@ ET D’UN AIMANT ;</title>
               <mo>[</mo>
               <mrow>
                <msup>
-                <mi>&#x03C1;</mi>
+                <mi>ρ</mi>
                 <mn>2</mn>
                </msup>
                <mo>−</mo>
@@ -4804,9 +4809,9 @@ ET D’UN AIMANT ;</title>
              <mrow>
               <mo>[</mo>
               <mrow>
-               <mi>&#x03C1;</mi>
+               <mi>ρ</mi>
                <mi>d</mi>
-               <mi>&#x03C1;</mi>
+               <mi>ρ</mi>
                <mo>−</mo>
                <mrow>
                 <mo>(</mo>
@@ -4827,7 +4832,7 @@ ET D’UN AIMANT ;</title>
             </mrow>
             <mrow>
              <msup>
-              <mi>&#x03C1;</mi>
+              <mi>ρ</mi>
               <mn>3</mn>
              </msup>
             </mrow>
@@ -4856,7 +4861,7 @@ ET D’UN AIMANT ;</title>
           <mrow>
            <mfrac>
             <mrow>
-             <mi>&#x03C1;</mi>
+             <mi>ρ</mi>
              <mi>d</mi>
              <mi>z</mi>
              <mo>"</mo>
@@ -4872,11 +4877,11 @@ ET D’UN AIMANT ;</title>
               <mo>)</mo>
              </mrow>
              <mi>d</mi>
-             <mi>&#x03C1;</mi>
+             <mi>ρ</mi>
             </mrow>
             <mrow>
              <msup>
-              <mi>&#x03C1;</mi>
+              <mi>ρ</mi>
               <mn>2</mn>
              </msup>
             </mrow>
@@ -4909,7 +4914,7 @@ ET D’UN AIMANT ;</title>
             <mo>−</mo>
             <mi>z</mi>
            </mrow>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
           </mfrac>
           <mo>+</mo>
           <mi>c</mi>
@@ -4944,7 +4949,7 @@ ET D’UN AIMANT ;</title>
      <hi rend="it">ds,</hi> on a les mêmes composantes et les<lb/> mêmes sommes de <choice>
       <sic>momens</sic>
       <corr>moments</corr>
-     </choice> que quand on considère la sur<lb rend="hyphen"/>face <hi rend="it">&#x03C3;</hi>
+     </choice> que quand on considère la sur<lb rend="hyphen"/>face <hi rend="it">σ</hi>
      couverte d’<choice>
       <sic>élémens</sic>
       <corr>éléments</corr>
@@ -4990,7 +4995,7 @@ ET D’UN AIMANT ;</title>
      l’au<lb rend="hyphen"/>tre qui est fixe, forment, chacune en particulier, un circuit<lb/>
      considéré comme fermé.</p>
     <p>D’après ce qui précède, nous pouvons remplacer la partie<lb/> mobile fermée par une surface
-     <hi rend="it">&#x03C3;</hi> couverte d'<choice>
+     <hi rend="it">σ</hi> couverte d'<choice>
       <sic>élémens</sic>
       <corr>éléments</corr>
      </choice> magné<lb rend="hyphen"/>tiques uniformément distribués, comme nous l'avons dit.<lb/>
@@ -4998,14 +5003,13 @@ ET D’UN AIMANT ;</title>
      regarder les molécules de l’aimant<lb/> et les <choice>
       <sic>élémens</sic>
       <corr>éléments</corr>
-     </choice> magnétiques de la surface <hi rend="it">&#x03C3;</hi> comme deux<lb/> systèmes
+     </choice> magnétiques de la surface <hi rend="it">σ</hi> comme deux<lb/> systèmes
      solides de points matériels, exerçant les uns sur les<lb/> autres des forces attractives et
      répulsives, dirigées suivant<lb/> les droites qui les joignent et fonctions des distances
      (puis<lb rend="hyphen"/>qu’elles sont en raison inverse des carrés de ces distances).</p>
     <p>Donc, si ces forces produisent le mouvement, le prin<lb rend="hyphen"/>cipe de la
      conservation des forces vives aura lieu pour les<lb/> deux systèmes. En vertu de ce principe,
-     si chacun de ces<lb/> systèmes n’a que la liberté de tourner autour d’un point ou <pb n="35"
-     />d’un axe fixe auquel il soit lié, ce qui est le cas de toutes<lb/> les expériences, les
+     si chacun de ces<lb/> systèmes n’a que la liberté de tourner autour d’un point ou <pb n="35"/>d’un axe fixe auquel il soit lié, ce qui est le cas de toutes<lb/> les expériences, les
      vitesses que prendront leurs <choice>
       <sic>différens</sic>
       <corr>différents</corr>
@@ -5032,7 +5036,7 @@ ET D’UN AIMANT ;</title>
      cette<lb/> position, dans un mouvement quelconque. </p>
     <p>Mais nous avons établi plus haut que l’action mutuelle de<lb/> l’aimant et d’un circuit
      voltaïque fermé, est précisément la<lb/> même que celle de cet aimant et de la surface
-     <hi rend="it">&#x03C3;</hi> couverte<lb/> d'<choice>
+     <hi rend="it">σ</hi> couverte<lb/> d'<choice>
       <sic>élémens</sic>
       <corr>éléments</corr>
      </choice> magnétiques, et ayant ce circuit pour contour.<lb/> Donc aussi, l’impossibilité d'un
@@ -5126,7 +5130,7 @@ ET D’UN AIMANT ;</title>
             <mo>−</mo>
             <mi>z</mi>
            </mrow>
-           <mi>&#x03C1;</mi>
+           <mi>ρ</mi>
           </mfrac>
           <mo>+</mo>
           <mi>c</mi>
@@ -5167,7 +5171,7 @@ ET D’UN AIMANT ;</title>
            </mrow>
            <mrow>
             <msub>
-             <mi>&#x03C1;</mi>
+             <mi>ρ</mi>
              <mn>2</mn>
             </msub>
            </mrow>
@@ -5185,7 +5189,7 @@ ET D’UN AIMANT ;</title>
            </mrow>
            <mrow>
             <msub>
-             <mi>&#x03C1;</mi>
+             <mi>ρ</mi>
              <mn>1</mn>
             </msub>
            </mrow>
@@ -5198,8 +5202,8 @@ ET D’UN AIMANT ;</title>
      </formula>
      <lb/>
      <hi rend="it">z</hi>
-     <hi rend="sub">1</hi>", <hi rend="it">&#x03C1;</hi>
-     <hi rend="sub">1</hi> et <hi rend="it">z"</hi>"<hi rend="sub">2</hi>, <hi rend="it">&#x03C1;</hi>
+     <hi rend="sub">1</hi>", <hi rend="it">ρ</hi>
+     <hi rend="sub">1</hi> et <hi rend="it">z"</hi>"<hi rend="sub">2</hi>, <hi rend="it">ρ</hi>
      <hi rend="sub">2</hi> appartenant aux deux extrémités de la por<lb/> tion non fermée de
      conducteur, et que cette intégrale n’est<lb/> pas nulle, si ce n’est dans le cas où les deux
      extrémités de<lb/> cette portion se trouvent en ligne droite avec la molécule. </p>
@@ -5272,7 +5276,7 @@ ET D’UN AIMANT ;</title>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
         <mfrac>
-         <mi>&#x03BC;</mi>
+         <mi>μ</mi>
          <mrow>
           <msup>
            <mi>r</mi>
@@ -5287,7 +5291,7 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mo>−</mo>
         <mfrac>
-         <mi>&#x03BC;</mi>
+         <mi>μ</mi>
          <mrow>
           <mi>r</mi>
           <msup>
@@ -5310,7 +5314,7 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mo>−</mo>
         <mfrac>
-         <mi>&#x03BC;</mi>
+         <mi>μ</mi>
          <mrow>
           <msup>
            <mi>r</mi>
@@ -5325,7 +5329,7 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mo>−</mo>
         <mfrac>
-         <mi>&#x03BC;</mi>
+         <mi>μ</mi>
          <mrow>
           <mi>r</mi>
           <msup>
@@ -5349,7 +5353,7 @@ ET D’UN AIMANT ;</title>
       <sic>très-petite</sic>
       <corr>très petite</corr>
      </choice>, qu’on peut prendre à vo<lb rend="hyphen"/>lonté dans l’intérieur de l'élément, en
-     faisant varier la<lb/> constante <hi rend="it">&#x03BC;</hi> en raison inverse de cette
+     faisant varier la<lb/> constante <hi rend="it">μ</hi> en raison inverse de cette
      distance, pourvu que<lb/> celle-ci reste toujours infiniment petite ; relativement à la<lb/>
      distance de l'élément magnétique au point sur lequel il agit.</p>
     <p>Supposons maintenant, qu’au lieu d’agir sur la molécule<lb/> M <hi rend="it">(fig.</hi> 1 )
@@ -5376,7 +5380,7 @@ ET D’UN AIMANT ;</title>
         <mo>'</mo>
        </mrow>
       </math>
-     </formula>, qu’on nomme<lb/> &#x03C9; et &#x03C9;' les angles AMT, BMT, formés par ces droites
+     </formula>, qu’on nomme<lb/> ω et ω' les angles AMT, BMT, formés par ces droites
      avec<lb/> la direction MT de la petite portion <hi rend="it">m</hi>M de fil conducteur,<lb/> et
      <hi rend="it">ds</hi> la longueur de cette petite portion, et qu’on fasse<lb/> passer par les
      mêmes pôles A, B, du barreau EF et par<lb/>
@@ -5393,12 +5397,12 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mi>d</mi>
           <mi>s</mi>
           <mi>sin</mi>
           <mo>.</mo>
-          <mi>&#x03C9;</mi>
+          <mi>ω</mi>
          </mrow>
          <mrow>
           <msup>
@@ -5415,12 +5419,12 @@ ET D’UN AIMANT ;</title>
         <mo>−</mo>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mi>d</mi>
           <mi>s</mi>
           <mi>sin</mi>
           <mo>.</mo>
-          <mi>&#x03C9;</mi>
+          <mi>ω</mi>
           <mo>'</mo>
          </mrow>
          <mrow>
@@ -5440,12 +5444,12 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mi>d</mi>
           <mi>s</mi>
           <mi>sin</mi>
           <mo>.</mo>
-          <mi>&#x03C9;</mi>
+          <mi>ω</mi>
          </mrow>
          <mrow>
           <msup>
@@ -5462,12 +5466,12 @@ ET D’UN AIMANT ;</title>
         <mo>−</mo>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mi>d</mi>
           <mi>s</mi>
           <mi>sin</mi>
           <mo>.</mo>
-          <mi>&#x03C9;</mi>
+          <mi>ω</mi>
           <mo>'</mo>
          </mrow>
          <mrow>
@@ -5509,7 +5513,7 @@ ET D’UN AIMANT ;</title>
         <mi>r</mi>
         <mi>sin</mi>
         <mo>.</mo>
-        <mi>&#x03C9;</mi>
+        <mi>ω</mi>
        </mrow>
       </math>
      </formula>, on aura <formula>
@@ -5523,7 +5527,7 @@ ET D’UN AIMANT ;</title>
         <mi>s</mi>
         <mi>sin</mi>
         <mo>.</mo>
-        <mi>&#x03C9;</mi>
+        <mi>ω</mi>
        </mrow>
       </math>
      </formula>, et comme la<lb/> valeur <formula>
@@ -5531,12 +5535,12 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mi>d</mi>
           <mi>s</mi>
           <mi>sin</mi>
           <mo>.</mo>
-          <mi>&#x03C9;</mi>
+          <mi>ω</mi>
          </mrow>
          <mrow>
           <msup>
@@ -5553,13 +5557,13 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mi>r</mi>
           <mi>d</mi>
           <mi>s</mi>
           <mi>sin</mi>
           <mo>.</mo>
-          <mi>&#x03C9;</mi>
+          <mi>ω</mi>
          </mrow>
          <mrow>
           <msup>
@@ -5575,7 +5579,7 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mi>d</mi>
           <mi>v</mi>
          </mrow>
@@ -5591,17 +5595,17 @@ ET D’UN AIMANT ;</title>
      </formula>
     </p>
     <p>La composante de cette force suivant une droite OS, qui<lb/> forme avec la direction, de OU,
-     un angle quelconque &#x03B5;,<lb/> a donc pour valeur <formula>
+     un angle quelconque ε,<lb/> a donc pour valeur <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mi>d</mi>
           <mi>v</mi>
           <mi>cos</mi>
           <mo>.</mo>
-          <mi>&#x03B5;</mi>
+          <mi>ε</mi>
          </mrow>
          <mrow>
           <msup>
@@ -5619,7 +5623,7 @@ ET D’UN AIMANT ;</title>
         <mi>v</mi>
         <mi>cos</mi>
         <mo>.</mo>
-        <mi>&#x03B5;</mi>
+        <mi>ε</mi>
        </mrow>
       </math>
      </formula> est le double<lb/> de la projection de l’aire A<hi rend="it">m</hi>M, sur le plan
@@ -5630,7 +5634,7 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mi>d</mi>
           <mi>u</mi>
          </mrow>
@@ -5654,7 +5658,7 @@ ET D’UN AIMANT ;</title>
         <mo>−</mo>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mi>d</mi>
           <mi>u</mi>
           <mo>'</mo>
@@ -5674,7 +5678,7 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mi>d</mi>
           <mi>u</mi>
          </mrow>
@@ -5688,7 +5692,7 @@ ET D’UN AIMANT ;</title>
         <mo>−</mo>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mi>d</mi>
           <mi>u</mi>
           <mo>'</mo>
@@ -5721,7 +5725,7 @@ ET D’UN AIMANT ;</title>
         <mi>r</mi>
        </mrow>
       </math>
-     </formula> par l’angle <hi rend="it">n</hi>AN : or, en nommant <hi rend="it">&#x03B8;</hi>
+     </formula> par l’angle <hi rend="it">n</hi>AN : or, en nommant <hi rend="it">θ</hi>
      l’angle GA<hi rend="it">n</hi>, on<lb/> a évidemment <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
@@ -5730,7 +5734,7 @@ ET D’UN AIMANT ;</title>
         <mi>N</mi>
         <mo>=</mo>
         <mi>d</mi>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
        </mrow>
       </math>
      </formula> et par conséquent <formula>
@@ -5744,7 +5748,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>d</mi>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
        </mrow>
       </math>
      </formula>,<lb/> ce qui réduit le premier terme de <formula>
@@ -5752,7 +5756,7 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mi>d</mi>
           <mi>u</mi>
          </mrow>
@@ -5766,7 +5770,7 @@ ET D’UN AIMANT ;</title>
         <mo>−</mo>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mi>d</mi>
           <mi>u</mi>
           <mo>'</mo>
@@ -5786,9 +5790,9 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mi>d</mi>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
          </mrow>
          <mi>r</mi>
         </mfrac>
@@ -5804,7 +5808,7 @@ ET D’UN AIMANT ;</title>
         <mi>r</mi>
         <mi>sin</mi>
         <mo>.</mo>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
        </mrow>
       </math>
      </formula>, et l'on voit que la distance <hi rend="it">r</hi> disparaît<lb/> de l’expression de
@@ -5812,26 +5816,26 @@ ET D’UN AIMANT ;</title>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mi>d</mi>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
         <mi>sin</mi>
         <mo>.</mo>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
        </mrow>
       </math>
      </formula>.</p>
     <pb n="44"/>
-    <p>On trouve de même qu'en nommant <hi rend="it">&#x03B8;'</hi> l’angle GB<hi rend="it">n</hi>,
+    <p>On trouve de même qu'en nommant <hi rend="it">θ'</hi> l’angle GB<hi rend="it">n</hi>,
      la<lb/> valeur du second de la même force se réduit à <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
         <mo>−</mo>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mi>d</mi>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
           <mo>'</mo>
          </mrow>
          <mrow>
@@ -5851,7 +5855,7 @@ ET D’UN AIMANT ;</title>
         <mo>'</mo>
         <mi>sin</mi>
         <mo>.</mo>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
         <mo>'</mo>
        </mrow>
       </math>
@@ -5860,13 +5864,13 @@ ET D’UN AIMANT ;</title>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
         <mo>−</mo>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mi>d</mi>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
         <mo>'</mo>
         <mi>sin</mi>
         <mo>.</mo>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
         <mo>'</mo>
        </mrow>
       </math>
@@ -5874,22 +5878,22 @@ ET D’UN AIMANT ;</title>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mrow>
          <mo>(</mo>
          <mrow>
           <mi>d</mi>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
           <mi>sin</mi>
           <mo>.</mo>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
           <mo>−</mo>
           <mi>d</mi>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
           <mo>'</mo>
           <mi>sin</mi>
           <mo>.</mo>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
           <mo>'</mo>
          </mrow>
          <mo>)</mo>
@@ -5907,8 +5911,7 @@ ET D’UN AIMANT ;</title>
      suivant les mêmes droites. Il faut seulement, pour que les<lb/> forces OU, OV, puissent être
      perpendiculaires, aux plans<lb/> A<hi rend="it">m</hi>M, B<hi rend="it">m</hi>M, que parmi
      celles qui émanent de chaque point<lb/> de l’aimant et agissent sur <hi rend="it">m</hi>M, les
-     unes soient attractives,<lb/> et les autres répulsives, ce qui a lieu, comme on sait, pour <pb
-      n="45"/>toutes les forces exercées par les divers points des <choice>
+     unes soient attractives,<lb/> et les autres répulsives, ce qui a lieu, comme on sait, pour <pb n="45"/>toutes les forces exercées par les divers points des <choice>
       <sic>aimans</sic>
       <corr>aimants</corr>
      </choice>.<lb/> Cette condition de l’action égale à la réaction, suivant les<lb/> mêmes
@@ -5949,22 +5952,22 @@ ET D’UN AIMANT ;</title>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mrow>
          <mo>(</mo>
          <mrow>
           <mi>d</mi>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
           <mi>sin</mi>
           <mo>.</mo>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
           <mo>−</mo>
           <mi>d</mi>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
           <mo>'</mo>
           <mi>sin</mi>
           <mo>.</mo>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
           <mo>'</mo>
          </mrow>
          <mo>)</mo>
@@ -5977,22 +5980,22 @@ ET D’UN AIMANT ;</title>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
         <mo>−</mo>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mrow>
          <mo>(</mo>
          <mrow>
           <mi>d</mi>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
           <mi>sin</mi>
           <mo>.</mo>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
           <mo>−</mo>
           <mi>d</mi>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
           <mo>'</mo>
           <mi>sin</mi>
           <mo>.</mo>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
           <mo>'</mo>
          </mrow>
          <mo>)</mo>
@@ -6003,42 +6006,42 @@ ET D’UN AIMANT ;</title>
      <lb/> pour celui de l'aimant autour de ce même axes</p>
     <p>Si l’on intègre ce dernier pour un arc L<hi rend="sub">1</hi> L<hi rend="sub">2</hi> de fil
      con<lb rend="hyphen"/>ducteur, en représentant par
-     <hi rend="it">&#x03B8;<hi rend="sub">1</hi>
+     <hi rend="it">θ<hi rend="sub">1</hi>
      </hi>,
-     <hi rend="it">&#x03B8;<hi rend="sub">2</hi>
+     <hi rend="it">θ<hi rend="sub">2</hi>
      </hi> les valeurs de
-     <hi rend="it">&#x03B8;</hi> aux<lb/> points L<hi rend="sub">1</hi> , L<hi rend="sub">2</hi>, et
-     <hi rend="it">&#x03B8;'<hi rend="sub">1</hi>
+     <hi rend="it">θ</hi> aux<lb/> points L<hi rend="sub">1</hi> , L<hi rend="sub">2</hi>, et
+     <hi rend="it">θ'<hi rend="sub">1</hi>
      </hi>,
-     <hi rend="it">&#x03B8;'<hi rend="sub">2</hi> , </hi>celles de <hi rend="it">&#x03B8;'</hi> aux
+     <hi rend="it">θ'<hi rend="sub">2</hi> , </hi>celles de <hi rend="it">θ'</hi> aux
      mêmes points, on<lb/> aura pour le moment de rotation imprimé à l’aimant par<lb/> l’arc
      L<hi rend="sub">1</hi> L<hi rend="sub">2</hi>
      <lb/>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mrow>
          <mo>(</mo>
          <mrow>
           <mi>cos</mi>
           <mo>.</mo>
           <msub>
-           <mi>&#x03B8;</mi>
+           <mi>θ</mi>
            <mn>2</mn>
           </msub>
           <mo>−</mo>
           <mi>cos</mi>
           <mo>.</mo>
           <msub>
-           <mi>&#x03B8;</mi>
+           <mi>θ</mi>
            <mn>1</mn>
           </msub>
           <mo>−</mo>
           <mi>cos</mi>
           <mo>.</mo>
           <msub>
-           <mi>&#x03B8;</mi>
+           <mi>θ</mi>
            <mn>2</mn>
           </msub>
           <mo>'</mo>
@@ -6046,7 +6049,7 @@ ET D’UN AIMANT ;</title>
           <mi>cos</mi>
           <mo>.</mo>
           <msub>
-           <mi>&#x03B8;</mi>
+           <mi>θ</mi>
            <mn>1</mn>
           </msub>
           <mo>'</mo>
@@ -6062,7 +6065,7 @@ ET D’UN AIMANT ;</title>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
         <msub>
-         <mi>&#x03B8;</mi>
+         <mi>θ</mi>
          <mn>1</mn>
         </msub>
         <mo>=</mo>
@@ -6079,7 +6082,7 @@ ET D’UN AIMANT ;</title>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
         <msub>
-         <mi>&#x03B8;</mi>
+         <mi>θ</mi>
          <mn>2</mn>
         </msub>
         <mo>=</mo>
@@ -6095,7 +6098,7 @@ ET D’UN AIMANT ;</title>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
         <msub>
          <mo>'</mo>
          <mn>1</mn>
@@ -6113,7 +6116,7 @@ ET D’UN AIMANT ;</title>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
         <msub>
          <mo>'</mo>
          <mn>2</mn>
@@ -6154,27 +6157,27 @@ ET D’UN AIMANT ;</title>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mrow>
          <mo>(</mo>
          <mrow>
           <mi>cos</mi>
           <mo>.</mo>
           <msub>
-           <mi>&#x03B8;</mi>
+           <mi>θ</mi>
            <mn>2</mn>
           </msub>
           <mo>−</mo>
           <mi>cos</mi>
           <mo>.</mo>
           <msub>
-           <mi>&#x03B8;</mi>
+           <mi>θ</mi>
            <mn>1</mn>
           </msub>
           <mo>−</mo>
           <mi>cos</mi>
           <mo>.</mo>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
           <msub>
            <mo>'</mo>
            <mn>2</mn>
@@ -6182,7 +6185,7 @@ ET D’UN AIMANT ;</title>
           <mo>+</mo>
           <mi>cos</mi>
           <mo>.</mo>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
           <msub>
            <mo>'</mo>
            <mn>1</mn>
@@ -6200,14 +6203,14 @@ ET D’UN AIMANT ;</title>
         <mi>cos</mi>
         <mo>.</mo>
         <msub>
-         <mi>&#x03B8;</mi>
+         <mi>θ</mi>
          <mn>2</mn>
         </msub>
         <mo>=</mo>
         <mi>cos</mi>
         <mo>.</mo>
         <msub>
-         <mi>&#x03B8;</mi>
+         <mi>θ</mi>
          <mn>1</mn>
         </msub>
        </mrow>
@@ -6218,7 +6221,7 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mi>cos</mi>
         <mo>.</mo>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
         <msub>
          <mo>'</mo>
          <mn>2</mn>
@@ -6226,7 +6229,7 @@ ET D’UN AIMANT ;</title>
         <mo>=</mo>
         <mi>cos</mi>
         <mo>.</mo>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
         <msub>
          <mo>'</mo>
          <mn>1</mn>
@@ -6238,12 +6241,12 @@ ET D’UN AIMANT ;</title>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
         <msub>
-         <mi>&#x03B8;</mi>
+         <mi>θ</mi>
          <mn>2</mn>
         </msub>
         <mo>=</mo>
         <msub>
-         <mi>&#x03B8;</mi>
+         <mi>θ</mi>
          <mn>1</mn>
         </msub>
        </mrow>
@@ -6252,13 +6255,13 @@ ET D’UN AIMANT ;</title>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
         <msub>
          <mo>'</mo>
          <mn>2</mn>
         </msub>
         <mo>=</mo>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
         <msub>
          <mo>'</mo>
          <mn>1</mn>
@@ -6271,37 +6274,37 @@ ET D’UN AIMANT ;</title>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
         <msub>
-         <mi>&#x03B8;</mi>
+         <mi>θ</mi>
          <mn>2</mn>
         </msub>
         <mo>=</mo>
         <msub>
-         <mi>&#x03B8;</mi>
+         <mi>θ</mi>
          <mn>1</mn>
         </msub>
         <mo>+</mo>
         <mn>2</mn>
-        <mi>&#x03C0;</mi>
+        <mi>π</mi>
        </mrow>
       </math>
      </formula>,<lb/>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
         <msub>
          <mo>'</mo>
          <mn>2</mn>
         </msub>
         <mo>=</mo>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
         <msub>
          <mo>'</mo>
          <mn>1</mn>
         </msub>
         <mo>+</mo>
         <mn>2</mn>
-        <mi>&#x03C0;</mi>
+        <mi>π</mi>
        </mrow>
       </math>
      </formula>. </p>
@@ -6338,35 +6341,35 @@ ET D’UN AIMANT ;</title>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mrow>
          <mo>(</mo>
          <mrow>
           <mi>cos</mi>
           <mo>.</mo>
           <msub>
-           <mi>&#x03B8;</mi>
+           <mi>θ</mi>
            <mn>2</mn>
           </msub>
           <mo>−</mo>
           <mi>cos</mi>
           <mo>.</mo>
           <msub>
-           <mi>&#x03B8;</mi>
+           <mi>θ</mi>
            <mn>1</mn>
           </msub>
           <mo>−</mo>
           <mi>cos</mi>
           <mo>.</mo>
           <msub>
-           <mi>&#x03B8;</mi>
+           <mi>θ</mi>
            <mn>2</mn>
           </msub>
           <mo>'</mo>
           <mo>+</mo>
           <mi>cos</mi>
           <mo>.</mo>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
           <msub>
            <mo>'</mo>
            <mn>1</mn>
@@ -6388,7 +6391,7 @@ ET D’UN AIMANT ;</title>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
         <msub>
-         <mi>&#x03B8;</mi>
+         <mi>θ</mi>
          <mn>1</mn>
         </msub>
         <mo>=</mo>
@@ -6398,7 +6401,7 @@ ET D’UN AIMANT ;</title>
      </formula>, <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
         <msub>
          <mo>'</mo>
          <mn>1</mn>
@@ -6411,23 +6414,23 @@ ET D’UN AIMANT ;</title>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
         <msub>
-         <mi>&#x03B8;</mi>
+         <mi>θ</mi>
          <mn>2</mn>
         </msub>
         <mo>=</mo>
-        <mi>&#x03C0;</mi>
+        <mi>π</mi>
        </mrow>
       </math>
      </formula>, <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
         <msub>
          <mo>'</mo>
          <mn>2</mn>
         </msub>
         <mo>=</mo>
-        <mi>&#x03C0;</mi>
+        <mi>π</mi>
        </mrow>
       </math>
      </formula>
@@ -6438,20 +6441,20 @@ ET D’UN AIMANT ;</title>
         <mi>cos</mi>
         <mo>.</mo>
         <msub>
-         <mi>&#x03B8;</mi>
+         <mi>θ</mi>
          <mn>2</mn>
         </msub>
         <mo>−</mo>
         <mi>cos</mi>
         <mo>.</mo>
         <msub>
-         <mi>&#x03B8;</mi>
+         <mi>θ</mi>
          <mn>1</mn>
         </msub>
         <mo>−</mo>
         <mi>cos</mi>
         <mo>.</mo>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
         <msub>
          <mo>'</mo>
          <mn>2</mn>
@@ -6459,7 +6462,7 @@ ET D’UN AIMANT ;</title>
         <mo>+</mo>
         <mi>cos</mi>
         <mo>.</mo>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
         <msub>
          <mo>'</mo>
          <mn>1</mn>
@@ -6496,8 +6499,7 @@ ET D’UN AIMANT ;</title>
      valeur du moment de<lb/> rotation donnée plus haut, le mouvement de l’aimant
      res<lb rend="hyphen"/>tait le même, quelque forme qu’on donnât à cette portion<lb/> du circuit;
      dire qu’il faut négliger l’action de cette partie,<lb/> parce qu’elle ne varie pas quand on en
-     change la forme,<lb/> c’est comme si l’on disait qu’il faut négliger l'action calo <pb n="51"
-      rend="hyphen"/>rifique d’une portion de l’enveloppe de chaleur constante,<lb/> puisque cette
+     change la forme,<lb/> c’est comme si l’on disait qu’il faut négliger l'action calo <pb n="51" rend="hyphen"/>rifique d’une portion de l’enveloppe de chaleur constante,<lb/> puisque cette
      action calorifique ne dépend pas de la forme<lb/> de cette portion. </p>
     <p>Voici quelques conséquences qui résultent immédiatement<lb/> des considérations et des
      calculs <choice>
@@ -6523,7 +6525,7 @@ ET D’UN AIMANT ;</title>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
         <msub>
-         <mi>&#x03B8;</mi>
+         <mi>θ</mi>
          <mn>1</mn>
         </msub>
         <mo>=</mo>
@@ -6533,7 +6535,7 @@ ET D’UN AIMANT ;</title>
      </formula>, <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
         <msub>
          <mo>'</mo>
          <mn>1</mn>
@@ -6549,13 +6551,13 @@ ET D’UN AIMANT ;</title>
         <mi>cos</mi>
         <mo>.</mo>
         <msub>
-         <mi>&#x03B8;</mi>
+         <mi>θ</mi>
          <mn>1</mn>
         </msub>
         <mo>−</mo>
         <mi>cos</mi>
         <mo>.</mo>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
         <msub>
          <mo>'</mo>
          <mn>1</mn>
@@ -6574,20 +6576,20 @@ ET D’UN AIMANT ;</title>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
         <mo>−</mo>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mrow>
          <mo>(</mo>
          <mrow>
           <mi>cos</mi>
           <mo>.</mo>
           <msub>
-           <mi>&#x03B8;</mi>
+           <mi>θ</mi>
            <mn>2</mn>
           </msub>
           <mo>−</mo>
           <mi>cos</mi>
           <mo>.</mo>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
           <msub>
            <mo>'</mo>
            <mn>2</mn>
@@ -6602,20 +6604,20 @@ ET D’UN AIMANT ;</title>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mrow>
          <mo>(</mo>
          <mrow>
           <mi>cos</mi>
           <mo>.</mo>
           <msub>
-           <mi>&#x03B8;</mi>
+           <mi>θ</mi>
            <mn>2</mn>
           </msub>
           <mo>−</mo>
           <mi>cos</mi>
           <mo>.</mo>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
           <msub>
            <mo>'</mo>
            <mn>2</mn>
@@ -6626,9 +6628,9 @@ ET D’UN AIMANT ;</title>
        </mrow>
       </math>
      </formula>.<lb/>
-     <hi rend="it">&#x03B8;<hi rend="sub">1</hi>
+     <hi rend="it">θ<hi rend="sub">1</hi>
      </hi> et
-     <hi rend="it">&#x03B8;<hi rend="sub">2</hi>
+     <hi rend="it">θ<hi rend="sub">2</hi>
      </hi> étant les deux angles
      OAL<hi rend="sub">2</hi>, OBL<hi rend="sub">2</hi>. </p>
     <p>Quand les choses sont disposées comme dans la figure 8,<lb/>
@@ -6637,7 +6639,7 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mi>cos</mi>
         <mo>.</mo>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
         <msub>
          <mo>'</mo>
          <mn>2</mn>
@@ -6646,7 +6648,7 @@ ET D’UN AIMANT ;</title>
         <mi>cos</mi>
         <mo>.</mo>
         <msub>
-         <mi>&#x03B8;</mi>
+         <mi>θ</mi>
          <mn>2</mn>
         </msub>
        </mrow>
@@ -6655,7 +6657,7 @@ ET D’UN AIMANT ;</title>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mrow>
          <mo>(</mo>
          <mrow>
@@ -6686,7 +6688,7 @@ ET D’UN AIMANT ;</title>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
         <mo>−</mo>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mrow>
          <mo>(</mo>
          <mrow>
@@ -6740,7 +6742,7 @@ ET D’UN AIMANT ;</title>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mi>cos</mi>
         <mo>.</mo>
         <mi>O</mi>
@@ -6756,7 +6758,7 @@ ET D’UN AIMANT ;</title>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
         <mo>−</mo>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mi>cos</mi>
         <mo>.</mo>
         <mi>O</mi>
@@ -6809,7 +6811,7 @@ ET D’UN AIMANT ;</title>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mrow>
          <mo>(</mo>
          <mrow>
@@ -6840,7 +6842,7 @@ ET D’UN AIMANT ;</title>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
         <mo>−</mo>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mrow>
          <mo>(</mo>
          <mrow>
@@ -6882,7 +6884,7 @@ ET D’UN AIMANT ;</title>
         <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
          <mrow>
           <mn>2</mn>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mi>cos</mi>
           <mo>.</mo>
           <mi>A</mi>
@@ -6899,7 +6901,7 @@ ET D’UN AIMANT ;</title>
          <mrow>
           <mo>−</mo>
           <mn>2</mn>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mi>cos</mi>
           <mo>.</mo>
           <mi>A</mi>
@@ -6918,7 +6920,7 @@ ET D’UN AIMANT ;</title>
        <formula>
         <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mi>cos</mi>
           <mo>.</mo>
           <mi>B</mi>
@@ -6935,7 +6937,7 @@ ET D’UN AIMANT ;</title>
         <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
          <mrow>
           <mo>−</mo>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mi>cos</mi>
           <mo>.</mo>
           <mi>B</mi>
@@ -6977,7 +6979,7 @@ ET D’UN AIMANT ;</title>
        <formula>
         <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mrow>
            <mo>(</mo>
            <mrow>
@@ -7008,7 +7010,7 @@ ET D’UN AIMANT ;</title>
         <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
          <mrow>
           <mo>−</mo>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mrow>
            <mo>(</mo>
            <mrow>
@@ -7034,7 +7036,8 @@ ET D’UN AIMANT ;</title>
        </formula>,<lb/> qui sont évidemment égales à celles que nous avons trou<lb rend="hyphen"/>
        vées, quand L<hi rend="sub">2</hi> est situé précisément de la même manière<lb/> au-dessus du
        plan horizontal passant par le pôle A. </item>
-     </list></p>
+     </list>
+        </p>
     <p>Il suit de ces calculs, que le sens de la rotation reste tou<lb rend="hyphen"/>jours le même,
      quelle que soit la position du point L<hi rend="sub">2</hi>, mais <pb n="55"/>qu'après avoir
      atteint son <hi rend="it">maximum,</hi> quand le point L<hi rend="sub">2</hi> est<lb/>
@@ -7054,7 +7057,7 @@ ET D’UN AIMANT ;</title>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
         <mn>2</mn>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mi>cos</mi>
         <mo>.</mo>
         <mi>B</mi>
@@ -7071,7 +7074,7 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mo>−</mo>
         <mn>2</mn>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mi>cos</mi>
         <mo>.</mo>
         <mi>B</mi>
@@ -7099,9 +7102,9 @@ ET D’UN AIMANT ;</title>
     <p>Lorsque le point L<hi rend="sub">2</hi> se trouve aussi dans le prolongement<lb/> de l'axe de
      l’aimant, soit du même côté que le point L<hi rend="sub">1</hi>
      <lb/> comme on le voit (<hi rend="it">fig.</hi> 12)<hi rend="it">,</hi> soit de l'autre côté,
-     ainsi que<lb/> dans la figure 13, les deux angles <hi rend="it">&#x03B8;</hi>
-     <hi rend="sub">2</hi> et <hi rend="it">&#x03B8;'</hi>
-     <hi rend="sub">2</hi> , deviennent tous<lb/> deux égaux à 0 ou à &#x03C0;, et la différence de
+     ainsi que<lb/> dans la figure 13, les deux angles <hi rend="it">θ</hi>
+     <hi rend="sub">2</hi> et <hi rend="it">θ'</hi>
+     <hi rend="sub">2</hi> , deviennent tous<lb/> deux égaux à 0 ou à π, et la différence de
      leurs cosinus<lb/> étant nulle, le moment de rotation l’est aussi ; aussi
      observe<lb rend="hyphen"/> t-on alors que, quand les deux extrémités de l'arc L<hi rend="sub">1</hi>ML<hi rend="sub">2</hi>
      <lb/> sont dans l’axe autour duquel il peut tourner librement, il<lb/> reste immobile, dans le
@@ -7130,20 +7133,20 @@ ET D’UN AIMANT ;</title>
       <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
        <mrow>
         <mo>−</mo>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mrow>
          <mo>(</mo>
          <mrow>
           <mi>cos</mi>
           <mo>.</mo>
           <msub>
-           <mi>&#x03B8;</mi>
+           <mi>θ</mi>
            <mn>2</mn>
           </msub>
           <mo>−</mo>
           <mi>cos</mi>
           <mo>.</mo>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
           <msub>
            <mo>'</mo>
            <mn>2</mn>
@@ -7155,7 +7158,7 @@ ET D’UN AIMANT ;</title>
       </math>
      </formula>
      <lb/> de L<hi rend="sub">1</hi>ML<hi rend="sub">2</hi> autour de l’axe GH, devient égal à
-     2&#x03BC;, parce<lb/> qu’on a <formula>
+     2μ, parce<lb/> qu’on a <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
         <mi>c</mi>
@@ -7163,7 +7166,7 @@ ET D’UN AIMANT ;</title>
         <mi>s</mi>
         <mo>.</mo>
         <msub>
-         <mi>&#x03B8;</mi>
+         <mi>θ</mi>
          <mn>2</mn>
         </msub>
         <mo>=</mo>
@@ -7178,7 +7181,7 @@ ET D’UN AIMANT ;</title>
         <mi>o</mi>
         <mi>s</mi>
         <mo>.</mo>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
         <msub>
          <mo>'</mo>
          <mn>1</mn>
@@ -7272,8 +7275,8 @@ ET D’UN AIMANT ;</title>
       <sic>supperposés</sic>
       <corr>superposés</corr>
      </choice>, se<lb/> neutraliseront mutuellement, en sorte qu’il ne restera que<lb/> l’action des
-     deux pôles extrêmes, c’est-à-dire, du pôle <pb n="60"/>austral &#x03B1; de l’élément A, et du
-     pôle boréal &#x03B2; de l’élément<lb/> B, précisément comme si, au lieu de tous les <choice>
+     deux pôles extrêmes, c’est-à-dire, du pôle <pb n="60"/>austral α de l’élément A, et du
+     pôle boréal β de l’élément<lb/> B, précisément comme si, au lieu de tous les <choice>
       <sic>élémens</sic>
       <corr>éléments</corr>
      </choice> ma<lb rend="hyphen"/>gnétiques de la ligne AB, il n’y avait qu'un pôle austral<lb/> à
@@ -7292,16 +7295,16 @@ ET D’UN AIMANT ;</title>
      </choice> magnéti<lb rend="hyphen"/>ques, et voyons ce qui doit arriver à un élément d’un<lb/>
      courant voltaïque M<hi rend="it">m</hi>, dirigé comme l'indique la flèche de<lb/> la figure, et
      placé à une distance suffisante pour que l’ac<lb rend="hyphen"/>tion de AB se réduise, d’après
-     ce que nous venons de dire,<lb/> à celle des deux pôles extrêmes <hi rend="it">&#x03B1;</hi> et
-     <hi rend="it">&#x03B2;</hi>. La force relative au<lb/> pôle austral &#x03B1;, tendra à porter
+     ce que nous venons de dire,<lb/> à celle des deux pôles extrêmes <hi rend="it">α</hi> et
+     <hi rend="it">β</hi>. La force relative au<lb/> pôle austral α, tendra à porter
      l’élément M<hi rend="it">m</hi> suivant la per<lb rend="hyphen"/>pendiculaire OS au plan
-     <hi rend="it">&#x03B1;</hi>M<hi rend="it">m</hi>, du côté de ce plan qui est<lb/> à gauche d’un
+     <hi rend="it">α</hi>M<hi rend="it">m</hi>, du côté de ce plan qui est<lb/> à gauche d’un
      observateur qui serait placé dans la parallèle<lb/> N<hi rend="it">n</hi> à
-     <hi rend="it">Mm,</hi> menée par le point &#x03B1; et qui, ayant les pieds en<lb/> N et la tête
+     <hi rend="it">Mm,</hi> menée par le point α et qui, ayant les pieds en<lb/> N et la tête
      en <hi rend="it">n</hi>, regarderait l'élément M<hi rend="it">m</hi> ; par la même<lb/> raison,
-     la force relative au pôle <hi rend="it">&#x03B2;</hi> tendra à porter l’élément<lb/>
-     <hi rend="it">Mm</hi> suivant la perpendiculaire OT au plan &#x03B1;<hi rend="it">Mm,</hi> à la
-     gau<lb rend="hyphen"/>che d’un observateur placé en <hi rend="it">&#x03B2;</hi> de la même
+     la force relative au pôle <hi rend="it">β</hi> tendra à porter l’élément<lb/>
+     <hi rend="it">Mm</hi> suivant la perpendiculaire OT au plan α<hi rend="it">Mm,</hi> à la
+     gau<lb rend="hyphen"/>che d’un observateur placé en <hi rend="it">β</hi> de la même
      manière. La<lb/> résultante OR de ces deux forces dirigée comme on le voit<lb/> dans la figure,
      tendra donc à rapprocher, dans ce cas, l’élé<lb rend="hyphen"/>ment <hi rend="it">Mm</hi> de la
      ligne AB qui représente un aimant : il est<lb/> aisé de voir que, si l’on place l’élément
@@ -7337,14 +7340,14 @@ ET D’UN AIMANT ;</title>
      <hi rend="it">a'</hi>B<hi rend="it">,</hi> qui agi<lb rend="hyphen"/>raient en vertu des forces
      relatives aux pôles <hi rend="it">b</hi> et <hi rend="it">a</hi>', en sens<lb/> contraire des
      actions relatives aux pôles de nom contraire<lb/>
-     <hi rend="it">&#x03B1;</hi> et <hi rend="it">&#x03B2;</hi> qui existaient seules dans le cas
+     <hi rend="it">α</hi> et <hi rend="it">β</hi> qui existaient seules dans le cas
      précédent ; ce qu’on<lb/> voit dans la figure, par les directions de ces forces O'S',<lb/>
      O'T', et de leur résultante O'R' D'ailleurs, à cause de la <pb n="62"/>
      <choice>
       <sic>très-petite</sic>
       <corr>très petite</corr>
      </choice> distance, ces forces deviendraient comme infinies,<lb/> par rapport aux forces
-     relatives aux pôles <hi rend="it">&#x03B1;</hi>, <hi rend="it">&#x03B2;</hi>, dès que<lb/>
+     relatives aux pôles <hi rend="it">α</hi>, <hi rend="it">β</hi>, dès que<lb/>
      l’élément M<hi rend="it">m</hi> serait sur le point de passer entre les <choice>
       <sic>élémens</sic>
       <corr>éléments</corr>
@@ -7371,8 +7374,8 @@ ET D’UN AIMANT ;</title>
      l’on supposerait placé successivement dans ces deux<lb/> situations. Il est évident, en effet,
      que dans le cas où cet<lb/> élément magnétique serait placé en M assez loin de la ligne<lb/>
      AB, il se dirigerait de manière que son pôle austral fut en<lb/> bas dans la figure du côté du
-     pôle boréal &#x03B2;, et son pôle <pb n="63"/>boréal en haut, du côté du pôle austral
-     &#x03B1; ; tandis que s’il<lb/> se trouvait entre les deux <choice>
+     pôle boréal β, et son pôle <pb n="63"/>boréal en haut, du côté du pôle austral
+     α ; tandis que s’il<lb/> se trouvait entre les deux <choice>
       <sic>élémens</sic>
       <corr>éléments</corr>
      </choice> magnétiques <hi rend="it">ab</hi>, <hi rend="it">a'b'</hi>, il<lb/> se dirigerait au
@@ -7392,7 +7395,7 @@ ET D’UN AIMANT ;</title>
      par ce conducteur, l’aimant AB étant aussi hori<lb rend="hyphen"/>zontal et susceptible de
      tourner autour de ce point C.</p>
     <p>Soit CD la perpendiculaire élevée au point C à ce plan,<lb/> laquelle se trouve dans le même
-     plan horizontal que l’axe<lb/> BA de l'aimant ; nommons <hi rend="it">&#x03B5;</hi> l’angle DCA
+     plan horizontal que l’axe<lb/> BA de l'aimant ; nommons <hi rend="it">ε</hi> l’angle DCA
      de l’oscillation,<lb/> angle qu’on suppose <choice>
       <sic>très-petit</sic>
       <corr>très petit</corr>
@@ -7423,7 +7426,7 @@ ET D’UN AIMANT ;</title>
         <mi>A</mi>
         <mi>M</mi>
         <mo>=</mo>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
        </mrow>
       </math>
      </formula> d’après la règle énoncée d’abord par M. <hi rend="it">
@@ -7433,7 +7436,7 @@ ET D’UN AIMANT ;</title>
      perpendiculaire OS au plan AM<hi rend="it">m,</hi> et<lb/> égale à <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mfrac>
          <mrow>
           <mi>M</mi>
@@ -7457,7 +7460,7 @@ ET D’UN AIMANT ;</title>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mfrac>
          <mrow>
           <mn>2</mn>
@@ -7473,11 +7476,11 @@ ET D’UN AIMANT ;</title>
          </mrow>
         </mfrac>
         <mo>=</mo>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mfrac>
          <mrow>
           <mi>d</mi>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
          </mrow>
          <mi>r</mi>
         </mfrac>
@@ -7496,7 +7499,7 @@ ET D’UN AIMANT ;</title>
          <mn>2</mn>
         </msup>
         <mi>d</mi>
-        <mi>&#x03B8;</mi>
+        <mi>θ</mi>
        </mrow>
       </math>
      </formula>
@@ -7511,7 +7514,7 @@ ET D’UN AIMANT ;</title>
          <mrow>
           <mi>cos</mi>
           <mo>.</mo>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
          </mrow>
         </mfrac>
        </mrow>
@@ -7520,21 +7523,21 @@ ET D’UN AIMANT ;</title>
      <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
-        <mi>&#x03BC;</mi>
+        <mi>μ</mi>
         <mo>=</mo>
         <mfrac>
          <mrow>
           <mi>d</mi>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
           <mi>cos</mi>
-          <mi>&#x03B8;</mi>
+          <mi>θ</mi>
          </mrow>
          <mi>a</mi>
         </mfrac>
        </mrow>
       </math>
-     </formula>,<lb/> dont l'intégrale, entre les limites <hi rend="it">&#x03B8;</hi>
-     <hi rend="sub">1</hi> et <hi rend="it">&#x03B8;</hi>
+     </formula>,<lb/> dont l'intégrale, entre les limites <hi rend="it">θ</hi>
+     <hi rend="sub">1</hi> et <hi rend="it">θ</hi>
      <hi rend="sub">2</hi>, donne pour la va<lb rend="hyphen"/>eur de la résultante de toutes les
      forces parallèles exercées<lb/> sur AB,<lb/>
      <formula>
@@ -7542,21 +7545,21 @@ ET D’UN AIMANT ;</title>
        <mrow>
         <mfrac>
          <mrow>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mrow>
            <mo>(</mo>
            <mrow>
             <mi>sin</mi>
             <mo>.</mo>
             <msub>
-             <mi>&#x03B8;</mi>
+             <mi>θ</mi>
              <mn>2</mn>
             </msub>
             <mo>−</mo>
             <mi>sin</mi>
             <mo>.</mo>
             <msub>
-             <mi>&#x03B8;</mi>
+             <mi>θ</mi>
              <mn>1</mn>
             </msub>
            </mrow>
@@ -7573,13 +7576,13 @@ ET D’UN AIMANT ;</title>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
         <msub>
-         <mi>&#x03B8;</mi>
+         <mi>θ</mi>
          <mn>1</mn>
         </msub>
         <mo>=</mo>
         <mo>−</mo>
         <mfrac>
-         <mi>&#x03C0;</mi>
+         <mi>π</mi>
          <mn>2</mn>
         </mfrac>
        </mrow>
@@ -7588,13 +7591,13 @@ ET D’UN AIMANT ;</title>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
         <msub>
-         <mi>&#x03B8;</mi>
+         <mi>θ</mi>
          <mn>2</mn>
         </msub>
         <mo>=</mo>
         <mo>−</mo>
         <mfrac>
-         <mi>&#x03C0;</mi>
+         <mi>π</mi>
          <mn>2</mn>
         </mfrac>
        </mrow>
@@ -7606,7 +7609,7 @@ ET D’UN AIMANT ;</title>
         <mi>sin</mi>
         <mo>.</mo>
         <msub>
-         <mi>&#x03B8;</mi>
+         <mi>θ</mi>
          <mn>1</mn>
         </msub>
         <mo>=</mo>
@@ -7620,7 +7623,7 @@ ET D’UN AIMANT ;</title>
         <mi>sin</mi>
         <mo>.</mo>
         <msub>
-         <mi>&#x03B8;</mi>
+         <mi>θ</mi>
          <mn>2</mn>
         </msub>
         <mo>=</mo>
@@ -7634,7 +7637,7 @@ ET D’UN AIMANT ;</title>
         <mfrac>
          <mrow>
           <mn>2</mn>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
          </mrow>
          <mi>a</mi>
         </mfrac>
@@ -7668,7 +7671,7 @@ ET D’UN AIMANT ;</title>
         <mfrac>
          <mrow>
           <mn>2</mn>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
          </mrow>
          <mi>a</mi>
         </mfrac>
@@ -7686,7 +7689,7 @@ ET D’UN AIMANT ;</title>
         <mfrac>
          <mrow>
           <mn>2</mn>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
          </mrow>
          <mi>a</mi>
         </mfrac>
@@ -7706,7 +7709,7 @@ ET D’UN AIMANT ;</title>
         <mfrac>
          <mrow>
           <mn>2</mn>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
          </mrow>
          <mi>a</mi>
         </mfrac>
@@ -7718,7 +7721,7 @@ ET D’UN AIMANT ;</title>
       <sic>mouvemens</sic>
       <corr>mouvements</corr>
      </choice> que pourra prendre l’aimant, résul<lb rend="hyphen"/>teront de ces deux forces, et si
-     l’on nomme &#x03C6;. l’angle AHG,<lb/> qui est égal à BLK, on pourra décomposer chacune
+     l’on nomme φ. l’angle AHG,<lb/> qui est égal à BLK, on pourra décomposer chacune
      d’elles<lb/> en deux autres forces, l'une horizontale et l’autre verticale,<lb/> ce qui en
      donnera quatre, savoir : <list>
       <item>1.°</item>
@@ -7730,10 +7733,10 @@ ET D’UN AIMANT ;</title>
          <mfrac>
           <mrow>
            <mn>2</mn>
-           <mi>&#x03BC;</mi>
+           <mi>μ</mi>
            <mi>cos</mi>
            <mo>.</mo>
-           <mi>&#x03C6;.</mi>
+           <mi>φ.</mi>
           </mrow>
           <mi>a</mi>
          </mfrac>
@@ -7751,10 +7754,10 @@ ET D’UN AIMANT ;</title>
          <mfrac>
           <mrow>
            <mn>2</mn>
-           <mi>&#x03BC;</mi>
+           <mi>μ</mi>
            <mi>sin</mi>
            <mo>.</mo>
-           <mi>&#x03C6;.</mi>
+           <mi>φ.</mi>
           </mrow>
           <mi>a</mi>
          </mfrac>
@@ -7767,8 +7770,7 @@ ET D’UN AIMANT ;</title>
      pourra supposer appliquée au point C :<lb/> elle sera détruite par le fil CZ, auquel l’aimant
      est suspendu<lb/> dans l’expérience actuelle ; mais s’il ne l’était pas, elle le<lb/> porterait
      vers le conducteur NM. C’est précisément cette<lb/> force, que j’ai désignée sous le nom
-     d’action attractive ou <pb n="67"/>répulsive <ref xml:id="note-P152-1827_AMA4"
-      target="#P152-1827_AMA4">(1)</ref> dans le premier Mémoire sur ce genre de<lb/> phénomène, où
+     d’action attractive ou <pb n="67"/>répulsive <ref xml:id="note-P152-1827_AMA4" target="#P152-1827_AMA4">(1)</ref> dans le premier Mémoire sur ce genre de<lb/> phénomène, où
      j’ai <choice>
       <sic>analisé</sic>
       <corr>analysé</corr>
@@ -7787,10 +7789,10 @@ ET D’UN AIMANT ;</title>
          <mfrac>
           <mrow>
            <mn>2</mn>
-           <mi>&#x03BC;</mi>
+           <mi>μ</mi>
            <mi>cos</mi>
            <mo>.</mo>
-           <mi>&#x03C6;.</mi>
+           <mi>φ.</mi>
           </mrow>
           <mi>a</mi>
          </mfrac>
@@ -7806,7 +7808,7 @@ ET D’UN AIMANT ;</title>
         <mi>b</mi>
         <mi>cos</mi>
         <mo>.</mo>
-        <mi>&#x03B5;</mi>
+        <mi>ε</mi>
        </mrow>
       </math>
      </formula> en nommant <hi rend="it">b</hi> la demi<lb rend="hyphen"/>longueur CA ou CB de
@@ -7817,14 +7819,14 @@ ET D’UN AIMANT ;</title>
         <mfrac>
          <mrow>
           <mn>4</mn>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
           <mi>b</mi>
           <mi>sin</mi>
           <mo>.</mo>
-          <mi>&#x03B5;</mi>
+          <mi>ε</mi>
           <mi>cos</mi>
           <mo>.</mo>
-          <mi>&#x03C6;.</mi>
+          <mi>φ.</mi>
          </mrow>
          <mi>a</mi>
         </mfrac>
@@ -7837,7 +7839,7 @@ ET D’UN AIMANT ;</title>
         <mfrac>
          <mrow>
           <mi>d</mi>
-          <mi>&#x03C9;</mi>
+          <mi>ω</mi>
          </mrow>
          <mrow>
           <mi>d</mi>
@@ -7858,14 +7860,14 @@ ET D’UN AIMANT ;</title>
            <mfrac>
             <mrow>
              <mn>4</mn>
-             <mi>&#x03BC;</mi>
+             <mi>μ</mi>
              <mi>b</mi>
              <mi>sin</mi>
              <mo>.</mo>
-             <mi>&#x03B5;</mi>
+             <mi>ε</mi>
              <mi>cos</mi>
              <mo>.</mo>
-             <mi>&#x03C6;.</mi>
+             <mi>φ.</mi>
             </mrow>
             <mi>a</mi>
            </mfrac>
@@ -7874,12 +7876,12 @@ ET D’UN AIMANT ;</title>
         </mstyle>
        </mrow>
       </math>
-     </formula>,<lb/> &#x03C9; étant la vitesse autour de CU à la distance I. Plus
-     l’ai<lb rend="hyphen"/>mant est court et plus l’angle &#x03C6;. est petit, on a donc
+     </formula>,<lb/> ω étant la vitesse autour de CU à la distance I. Plus
+     l’ai<lb rend="hyphen"/>mant est court et plus l’angle φ. est petit, on a donc
      sensi<lb rend="hyphen"/>blement <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
-        <mi>&#x03C6;.</mi>
+        <mi>φ.</mi>
         <mo>=</mo>
         <mn>0</mn>
        </mrow>
@@ -7891,7 +7893,7 @@ ET D’UN AIMANT ;</title>
         <mfrac>
          <mrow>
           <mi>d</mi>
-          <mi>&#x03C9;</mi>
+          <mi>ω</mi>
          </mrow>
          <mrow>
           <mi>d</mi>
@@ -7912,11 +7914,11 @@ ET D’UN AIMANT ;</title>
            <mfrac>
             <mrow>
              <mn>4</mn>
-             <mi>&#x03BC;</mi>
+             <mi>μ</mi>
              <mi>b</mi>
              <mi>sin</mi>
              <mo>.</mo>
-             <mi>&#x03B5;</mi>
+             <mi>ε</mi>
             </mrow>
             <mi>a</mi>
            </mfrac>
@@ -7951,33 +7953,33 @@ ET D’UN AIMANT ;</title>
      l'ai<lb rend="hyphen"/>mant dans la direction CD perpendiculaire au plan ENMF,<lb/> en le
      faisant tourner autour de CU ; mais s’il était d’abord<lb/> dans cette direction, il y
      resterait en équilibre, parce qu’a<lb rend="hyphen"/>lors ces deux forces se trouvent opposées
-     dans la même di<lb rend="hyphen"/>rection, ce qu’on voit, parce que l’angle &#x03B5; étant
+     dans la même di<lb rend="hyphen"/>rection, ce qu’on voit, parce que l’angle ε étant
      alors nul,<lb/> on a <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
         <mi>sin</mi>
         <mo>.</mo>
-        <mi>&#x03B5;</mi>
+        <mi>ε</mi>
         <mo>=</mo>
         <mn>0</mn>
        </mrow>
       </math>
      </formula>, ce qui réduit à o la valeur que nous ve<lb rend="hyphen"/>nons de trouver pour le
      couple. La force qui, en agissant à<lb/> la distance <hi rend="it">b</hi> de l’axe CU sous
-     l’angle &#x03B5;, produirait le même<lb/> effet que ce couple, pour faire tourner l’aimant
+     l’angle ε, produirait le même<lb/> effet que ce couple, pour faire tourner l’aimant
      autour de<lb/> CU, est évidemment égale à <formula>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
        <mrow>
         <mfrac>
          <mrow>
           <mn>4</mn>
-          <mi>&#x03BC;</mi>
+          <mi>μ</mi>
          </mrow>
          <mi>a</mi>
         </mfrac>
        </mrow>
       </math>
-     </formula>), en faisant toujours <hi rend="it">cos.&#x03C6;.</hi>
+     </formula>), en faisant toujours <hi rend="it">cos.φ.</hi>
      <lb/> sensiblement égale à l’unité. Cette force est, comme l’a trou<lb rend="hyphen"/>vée M.
      <hi rend="it">
       <persName>Biot</persName>,</hi> en raison inverse de <hi rend="it">a.</hi>
@@ -7988,8 +7990,7 @@ ET D’UN AIMANT ;</title>
      leurs composantes horizontales, dirigées suivant<lb/>
      <hi rend="it">h</hi>R" et ZT" ont formé un couple ; dans ce cas, il est évident<lb/> que le
      résultat est identiquement le même que dans l’hypo<lb rend="hyphen"/>thèse du couple primitif,
-     parce qu’un couple peut être<lb/> transporté, sans que les effets produits éprouvent aucun <pb
-      n="69"/>changement, dans tout plan parallèle au sien, pourvu qu'il<lb/> conserve la même
+     parce qu’un couple peut être<lb/> transporté, sans que les effets produits éprouvent aucun <pb n="69"/>changement, dans tout plan parallèle au sien, pourvu qu'il<lb/> conserve la même
      valeur et que les nouveaux points d’appli<lb rend="hyphen"/>cation des forces soient
      invariablement liés aux anciens. </p>
     <p>Cette identité des résultats produits par les forces appli<lb rend="hyphen"/>quées comme
@@ -8015,8 +8016,7 @@ ET D’UN AIMANT ;</title>
     <p>Quand M. <hi rend="it">
       <persName>Biot</persName>
      </hi> a fait ses expériences,
-     c’était réellement<lb/> un circuit fermé qui agissait sur l’aimant, et cela seul <pb n="70"
-     />suffisait pour démontrer que les résultats devaient être<lb/> identiques dans ma manière de
+     c’était réellement<lb/> un circuit fermé qui agissait sur l’aimant, et cela seul <pb n="70"/>suffisait pour démontrer que les résultats devaient être<lb/> identiques dans ma manière de
      considérer l’action d’un fil<lb/> conducteur et d’un aimant, et dans l’hypothèse du couple<lb/>
      primitif. Voyez à ce sujet l’ouvrage que je viens de citer,<lb/> note V, page 216 et
      suivantes.</p>
@@ -8056,7 +8056,8 @@ ET D’UN AIMANT ;</title>
      </choice> magnétiques qui pût repré<lb rend="hyphen"/>senter exactement la loi dont nous nous
      occupons, c’est ce que j’ai fait dans le<lb/> Mémoire que j’ai lu à
      l’<orgName>Académie des sciences</orgName> de <placeName>Paris</placeName> le
-     <date when="1825-11-28">28 novembre 1825</date><lb/> où se trouvent les principaux résultats
+     <date when="1825-11-28">28 novembre 1825</date>
+          <lb/> où se trouvent les principaux résultats
      dont celui que je publie aujourd’hui<lb/> contient le développement ; on y verra quels sont les
      phénomènes électro-dyna<lb rend="hyphen"/>miques qui peuvent être expliqués de cette manière et
      ceux qui prouvent qu’elle<lb/> ne peut être admise dans tous les cas </note>
