@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -123,7 +124,7 @@
         <correspAction type="received">
           <persName type="adressee">Bonjour, Jean-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -147,13 +148,14 @@
             <opener>
           <date notBefore-iso="1808" notAfter-iso="1809">[1808 ou 1809]</date>
         </opener>
-            <p>... Examinez bien, je vous en conjure, mon cher <persName>Bonjour</persName> (car c'est à vous à présent
+            <p><gap reason="lacune"/> Examinez bien, je vous en conjure, mon cher <persName>Bonjour</persName> (car c'est à vous à présent
                que je viens d'écrire tout cela, et non à <persName>Bredin</persName> qui secoue la métaphysique comme la
                poussière de ses pieds), examinez ce tableau, en le comparant, pour le bien
                comprendre, à ce que je vous ai laissé sur ce sujet ! Puis dites-moi oui ou non, avec
                vos motifs, si vous avez le temps ; mais toujours oui ou non, soit sur le nouveau
                phénomène introduit dans le tableau, soit sur les deux changements de dénomination du
-               jugement et de la contuition. Tâchez d'engager <persName>Bredin</persName> à en conférer avec vous,
+               jugement et de la contuition.</p>
+            <p>Tâchez d'engager <persName>Bredin</persName> à en conférer avec vous,
                décidez à vous deux ; mais que <persName>Bonjour</persName> me fasse part le plus tôt qu'il lui sera
                possible de la décision de ce tribunal ! Pour l'y engager, si ce n'est assez du
                plaisir qu'il fera à un pauvre malheureux qui n'a plus de plaisir dans le monde que
@@ -169,8 +171,10 @@
                hypothèse, qui semble un réchauffé de celle de <persName>Kirwan</persName>, combattue dans le temps par
                <persName>Lavoisier</persName> et <persName>Berthollet</persName>, savoir que l'hydrogène était le phlogistique et entrait
                comme élément dans tous les métaux, n'a pas laissé que d'être accueillie comme
-               probable par la plupart des chimistes, même par <persName>Thénard</persName>. Adieu, mon cher ami, je vous
-               embrasse de toute mon âme. Je reviens à toi, cher <persName>Bredin</persName>, pour te dire combien ta
+               probable par la plupart des chimistes, même par <persName>Thénard</persName>.</p>
+            <p>Adieu, mon cher ami, je vous
+               embrasse de toute mon âme.</p>
+            <p>Je reviens à toi, cher <persName>Bredin</persName>, pour te dire combien ta
                dernière lettre, écrite du fond de ton cœur, m'a profondément touché. Si j'y avais
                répondu sur-le-champ, l'expression des mêmes sentiments eût rempli la mienne. Mais je
                ne travaille tout le jour qu'à écarter ces idées ; je me plonge sans regarder devant
@@ -181,21 +185,22 @@
                rocher ! Il est toujours là qui m'oppresse. Je n'étais pas né pour ce vide d'amour.
                Mon ami, pense donc sans cesse à moi ; que n'ai-je de tes lettres tous les jours !
                Combien je serais moins méchant et moins misérable ! Il est 2 heures après minuit, il
-               faut te quitter. Adieu, tu sais si je t'embrasse tendrement.</p>
+               faut te quitter.</p>
+            <p>Adieu, tu sais si je t'embrasse tendrement.</p>
          </div>
       </body>
       <back>
          <div>
-            <note xml:id="corresp1">(1) D'après Mme <persName>Cheuvreux</persName>, p. 82. Il s'agit du tableau
+            <note xml:id="corresp1"><p>(1) D'après Mme <persName>Cheuvreux</persName>, p. 82. Il s'agit du tableau
                autographié, si souvent repris, dont <persName>Ampère</persName> parle encore à <persName>Bredin</persName> dans la Lettre
                0393. Le potassium a été découvert en <date when-iso="1807">1807</date>. Le mémoire de <persName>Davy</persName> a été lu à l'<orgName>Institut</orgName>
                en <date notBefore-iso="1808-02" notAfter-iso="1808-08">février et août 1808</date>. Les expériences furent répétées par <persName>Gay-Lussac</persName> et <persName>Thénard</persName>.
                <persName>Ampère</persName>, dans une note autographe, dit qu'il lut alors à l'<orgName>Institut</orgName> un mémoire sur la
                question. La correspondance ultérieure d'<persName>Ampère</persName> avec <persName>Davy</persName> qu'on trouvera plus loin en
-               <date from-iso="1810" to-iso="1812">1810-1812</date> (0368, 0422) n'est plus relative au potassium mais au fluor. Cependant, il
+               <date from-iso="1810" to-iso="1812">1810-1812</date> (0368, 0422) n'est plus relative au potassium mais au fluor.</p> <p>Cependant, il
                n'est pas impossible que cette lettre, dont nous n'avons pas eu communication, soit
                de <date when-iso="1811">1811</date> comme l'a cru Mme <persName>Cheuvreux</persName>. L'expression vide d'amour se retrouve dans une
-               lettre du <date when="1811-09-22">22 septembre 1811</date>. </note>
+               lettre du <date when="1811-09-22">22 septembre 1811</date>.</p> </note>
          </div>
       </back>
    </text>

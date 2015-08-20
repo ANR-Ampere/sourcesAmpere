@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -133,7 +134,7 @@
         <correspAction type="received">
           <persName type="adressee">Bredin, Claude-Julien</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -157,39 +158,44 @@
             <opener>
           <date when="1807-08-16">[16 août 1807?]</date>
         </opener>
-            <p>Hier, j'ai perdu une partie de mon temps à voir l'Empereur à <placeName>Notre-Dame</placeName>. Tout le
+            <p>Hier, j'ai perdu une partie de mon temps à voir l'<persName>Empereur</persName> à <placeName>Notre-Dame</placeName>. Tout le
                monde était en fête. Ce contraste avec ma tristesse me rendait encore plus
-               malheureux... <persName>Lenoir</persName> est venu dîner avec moi ! De ma fenêtre nous avons regardé le
+               malheureux. <persName>Lenoir</persName> est venu dîner avec moi ! De ma fenêtre nous avons regardé le
                feu d'artifice. J'ai passé des journées moins inutiles que celles-là à <placeName>Lyon</placeName>, quand je
                les employais à chercher les preuves de la religion chrétienne, à travailler à me
                rendre meilleur ; mais que de mélange, même alors, en moi ! Que de présomption, de
-               vanité ! Merci de la petite chambre que vous m'offrez, j'y serai près de vous ; cette
+               vanité !</p>
+            <p>Merci de la petite chambre que vous m'offrez, j'y serai près de vous ; cette
                perspective prochaine est bien douce. Quelle joie de retrouver nos amis ! <placeName>Poleymieux</placeName>
                m'attirera d'abord, ma mère, mon fils. Que vous dites vrai sur cette absence générale
                d'enthousiasme pour tout ce qui est beau, grand et noble ! Les réputations
-               scientifiques ressemblent à celle de <persName>Pompée</persName> dans sa vieillesse ; comme dit <persName>Lucain</persName> : <cit>
+               scientifiques ressemblent à celle de <persName>Pompée</persName> dans sa vieillesse ; comme dit <persName>Lucain</persName> : <cit xml:lang="lat">
             <quote>Stat magni nominis umbra</quote>
           </cit>. L'habitude seule fait considérer les hommes étonnants ;
-               voyez si l'on s'occupe maintenant de <persName>Montgolfier</persName> ! <persName>Roux</persName> saura que j'ai été exprès
+               voyez si l'on s'occupe maintenant de <persName>Montgolfier</persName> !</p>
+            <p><persName>Roux</persName> saura que j'ai été exprès
                aujourd'hui au <placeName>Jardin des Plantes</placeName> pour demander à <persName>Laugier</persName>, que je connais à peine,
                des nouvelles de MM. <persName>Calais</persName> et <persName>Vallée</persName>. J'ai prié M. <persName>Dauvergne</persName> qui est en relation
                avec les théâtres, de me procurer des renseignements sur <persName>Mme Scio</persName>. Vraiment je ne
                puis rien savoir directement en cette occasion. Notre ami m'avait chargé aussi de
-               demander à <persName>Thénard</persName> et à <persName>Poisson</persName> où était <persName>Mme Gail</persName> <ref>(2)</ref>. Le premier s'est mis à rire de
+               demander à <persName>Thénard</persName> et à <persName>Poisson</persName> où était <persName>Mme Gail</persName> <ref target="#corresp2">(2)</ref>. Le premier s'est mis à rire de
                ma question sans vouloir y répondre. D'après cette tentative ; je n'ai pas voulu en
-               parler à <persName>Poisson</persName>. Ne m'écrivez plus à <placeName>Paris</placeName>, mais à <placeName>Poleymieux</placeName> ! Vous serait-il
-               possible de venir coucher samedi 22 <ref>(3)</ref> chez ma mère ; nous passerions à la campagne
+               parler à <persName>Poisson</persName>.</p>
+            <p>Ne m'écrivez plus à <placeName>Paris</placeName>, mais à <placeName>Poleymieux</placeName> ! Vous serait-il
+               possible de venir coucher <date when="1807-08-22">samedi 22</date> <ref target="#corresp3">(3)</ref> chez ma mère ; nous passerions à la campagne
                une partie du dimanche et je vous accompagnerais à <placeName>Lyon</placeName> après le dîner. Faites-moi
                cette promesse, nous avons tant de choses à nous dire !</p>
          </div>
       </body>
       <back>
          <div>
-            <note xml:id="corresp1">(1) D'après Mme <persName>Cheuvreux</persName>, p. 57. (2) <persName>Sophie Carre</persName>, <persName>dame Gail</persName>
+            <note xml:id="corresp1">(1) D'après Mme <persName>Cheuvreux</persName>, p. 57.</note>
+            <note xml:id="corresp2">(2) <persName>Sophie Carre</persName>, <persName>dame Gail</persName>
                (<date from-iso="1776" to-iso="1819">1776-1819</date>), fille d'un chirurgien connu et mariée à un helléniste, membre de
                l'<orgName>Institut</orgName>, en 1794, mais bientôt séparée de lui, et lancée dans une vie à cascades
                nombreuses. Cantatrice et compositeur, de romances et d'opéra-comique. L'helléniste
-               <persName>Jean-Francis Gail</persName>, mort en <date when-iso="1845">1845</date>, était son fils. (3) Mme <persName>Cheuvreux</persName> a imprimé samedi
+               <persName>Jean-Francis Gail</persName>, mort en <date when-iso="1845">1845</date>, était son fils.</note>
+            <note xml:id="corresp3">(3) Mme <persName>Cheuvreux</persName> a imprimé samedi
                28. Il faut lire 22 d'après la lettre suivante de <persName>Bredin</persName>. Elle a en outre daté la
                lettre de <date when-iso="1808-09">septembre 1808</date>, ce qui est à tous égards impossible. A cette époque <persName>Ampère</persName>
                tutoyait <persName>Bredin</persName> depuis un an. </note>

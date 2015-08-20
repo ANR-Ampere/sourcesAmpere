@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -95,15 +96,7 @@
                
             <idno type="old">L355</idno>
         </biblStruct>
-            <listWit>
-               <witness xml:id="L355manuscrit">
-            <msDesc type="original_manuscrit">
-                     <msIdentifier>
-                        <repository>inconnu</repository>
-                     </msIdentifier>
-                  </msDesc>
-          </witness>
-            </listWit>
+           
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -132,7 +125,7 @@
         <correspAction type="received">
           <persName type="adressee">Bredin, Claude-Julien</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -165,7 +158,9 @@
                soulagement que dans cet excès de travail dont je me plains et je me sens encore
                incapable d'écrire, même à toi. Au nom de notre amitié, place dans ton amphithéâtre
                des verres où soient versés en parties égales de l'acide sulfurique et du salpêtre
-               afin que les émanations putrides n'altèrent pas ta santé ! <date when="1809-06-12">[12 juin ?]</date> - Mon ami,
+               afin que les émanations putrides n'altèrent pas ta santé !</p>
+            <p><date when="1809-06-12">[12 juin ?]</date> <lb/>
+               Mon ami,
                qu'est-ce que mon intérieur sans ma pauvre mère ? En rentrant chez moi, quelle
                douceur indéfinissable de la voir, de l'entendre parler ; toutes ses paroles me
                reviennent en mémoire, je ne la verrai plus, je ne l'écouterai plus ! Il y a sur mon
@@ -180,13 +175,14 @@
                demeure sera vide. Quel isolement ! Ce qui me désole, c'est que <persName>Jean-Jacques</persName> ne
                s'afflige nullement d'entendre parler de tous ces projets ; il semble, sans oser
                l'avouer, ne pas demander mieux que de me quitter. Adieu, mon ami, il m'est affreux
-               de passer ainsi des jours loin de toi <ref>(2)</ref>.</p>
+               de passer ainsi des jours loin de toi <ref target="#corresp2">(2)</ref>.</p>
          </div>
       </body>
       <back>
          <div>
             <note xml:id="corresp1">(1) D'après Mme <persName>Cheuvreux</persName>, p. 73. La date est donnée par la mort
-               de Mme <persName>Ampère</persName>, le <date when="1809-05-04">4 mai 1809</date>. (2) Le <date when="1809-08-07">7 août 1809</date>, <persName>Ampère</persName> est inscrit parmi les
+               de Mme <persName>Ampère</persName>, le <date when="1809-05-04">4 mai 1809</date>.</note>
+            <note xml:id="corresp2">(2) Le <date when="1809-08-07">7 août 1809</date>, <persName>Ampère</persName> est inscrit parmi les
                personnes ayant le droit d'entrer aux séances de l'<orgName>Académie</orgName>, soit pour avoir remporté
                un prix ou présenté deux mémoires. </note>
          </div>

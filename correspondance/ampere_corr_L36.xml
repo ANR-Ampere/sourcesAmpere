@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -139,7 +140,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_A366">Ampère, André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -183,7 +184,7 @@
           </choice> cette<lb/> occupation. Mais <choice>
             <sic>avent hyer</sic>
             <corr>avant-hier</corr>
-          </choice>, nous fûmes, <persName ref="#pers_C129">Julie</persName> (2),
+          </choice>, nous fûmes, <persName ref="#pers_C129">Julie</persName> <ref target="#corresp2">(2)</ref>,
           <persName ref="#pers_C125">élise</persName> et<lb/> moi, nous promener <choice>
             <sic>aux</sic>
             <corr>au</corr>
@@ -270,7 +271,7 @@
           </choice> de la messe. J'ai <choice>
             <sic>prier</sic>
             <corr>prié</corr>
-          </choice> pour<lb/> notre petite <ref>(3)</ref> qu'elle fût heureuse et bien <choice>
+          </choice> pour<lb/> notre petite <ref target="#corresp3">(3)</ref> qu'elle fût heureuse et bien <choice>
             <sic>portente</sic>
             <corr>portante</corr>
           </choice>. J'espère<lb/>
@@ -502,9 +503,9 @@
         </closer>
       </div>
       <div>
+        <opener><pb n="96" facs="#ACAS_CRHST_AMP_23_331_0096_r.jpg"/>Du vendredi</opener>
         <p>
-          <ref type="archives" target="#ampere_arch_chem331.xml"/>Du vendredi<note>Pour cette partie
-            (une autre lettre ?) consulter les folios 5 à 7 du fac-similé du manuscrit.</note> - Mon
+           Mon
           bon ami, je t'écris ces deux<lb/>
           <choice>
             <sic>mot</sic>
@@ -524,14 +525,25 @@
             <sic>nouvelle</sic>
             <corr>nouvelles</corr>
           </choice>
-          <lb/> de ma santé. J'ai bien dormi cette<lb/> nuit dans la chambre jaune.<lb/> J'étais
-          toute seule et, jusqu'à 7 heures, je m'en suis bien donné. Cependant, je t'attends demain
-          soir et je ne serai point fâchée de faire la conversation avec mon ami, dût-il m'en coûter
-          une heure ou deux de sommeil. Je compte toujours partir avec toi dimanche et je te prie de
-          ne pas oublier de dire à <persName>Louison</persName> de se trouver à l'arrivée de la
-          diligence <gap reason="lacune_CGA"/>
-        </p>
-        <closer>A Monsieur <persName ref="#pers_A366">Ampère</persName>, à
+          <lb/> de ma santé. J'ai bien dormi cette<lb/> nuit dans la chambre jaune.<lb/>
+          J'étais
+          toute seule et, jusqu'à<lb/>
+          7 heures, je m'en suis bien donné.<lb/>
+          Cependant, je t'attends demain<lb/>
+          soir et je ne serai point<lb/>
+          fâchée de faire la conversation<lb/>
+          avec mon ami, dût-il m'en coûter<lb/>
+          une heure ou deux de sommeil.</p>
+        <p>Je compte toujours partir avec<lb/>
+          toi dimanche et je te prie<lb/> de
+          ne pas oublier de dire à<lb/>
+          <persName>Louison</persName> de se trouver à l'arrivée<lb/>
+          de la
+          diligence parce qu'elle<lb/>
+          portera quelques paquets<pb n="97" facs="#ACAS_CRHST_AMP_23_331_0097_v.jpg"/><gap reason="lacune_CGA"/></p>
+        
+        
+        <closer><pb n="98" facs="#http://www.ampere.cnrs.fr/i-corpuspic/tab/Manuscrits/ch_331/ACAS_CRHST_AMP_23_331_0098_v.jpg"/>A Monsieur <persName ref="#pers_A366">Ampère</persName>, rue bas-d'argent n°6 à
           <placeName>Lyon</placeName>.</closer>
       </div>
     </body>
@@ -539,9 +551,11 @@
       <div>
         <note xml:id="corresp1">(1) Quatre pages in-4° avec adresse à la fin. La lettre a été écrite
           avant le retour à <placeName>Lyon</placeName> pour la naissance de
-          <persName ref="#pers_A10">Jean-Jacques</persName>. (2)
+          <persName ref="#pers_A10">Jean-Jacques</persName>.</note>
+        <note xml:id="corresp2">(2)
           <persName ref="#pers_A5">Julie
-                        Allard</persName>. (3) La petite,
+                        Allard</persName>.</note>
+        <note xml:id="corresp3">(3) La petite,
           c'est le futur <persName ref="#pers_A10">Jean-Jacques</persName>, </note>
       </div>
     </back>

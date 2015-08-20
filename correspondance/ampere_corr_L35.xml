@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -143,7 +144,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -171,7 +172,7 @@
                des nouvelles de <persName ref="#pers_P441">Madame Périsse</persName>.<lb/>
                elles sont on ne peut meilleures,<lb/>
                <persName>Julien Périsse</persName> est né hier<lb/>
-               entre 7 et 8 heures du soir <ref>(2)</ref>. On<lb/>
+               entre 7 et 8 heures du soir <ref target="#corresp2">(2)</ref>. On<lb/>
                m'a dit que ta sœur n'avait pas été<lb/>
                tourmentée aussi <choice>
             <sic>longtems</sic> <corr>longtemps</corr>
@@ -199,7 +200,8 @@
               <del type="bloc"> J'attends <persName>Louison</persName> qui est allée chez<lb/>
                  ta sœur pour te donner des<lb/>
                  nouvelles plus fraîches.</del>
-          <lb/>
+            </p>
+            <p>
                Quand <subst>
             <del>elle</del> <add>
               <persName>Louison</persName>
@@ -236,7 +238,8 @@
                de cette voix si douce que j'aime<pb n="1536" facs="ACAS_CRHST_AMP_26_393_quarto_0808_r.jpg"/> tant ! Ce réveil m'aurait mis<lb/>
                au supplice sans l'espérance de<lb/>
                revoir demain ma <persName ref="#pers_C129">Julie</persName> et<lb/>
-               de l'embrasser réellement !...<lb/>
+               de l'embrasser réellement !...</p>
+            <p>
                Ma bonne <persName ref="#pers_C129">Julie</persName>, que deux<lb/>
                jours et une nuit sont encore<lb/>
                longs ! <del>Quand te retrouverai-je<lb/>
@@ -249,7 +252,8 @@
                me détourne sans cesse, <del>et<lb/>
                   je ne sais ce que je sens, mais<lb/>
                   je sens bien ce que j'éprouve.</del>
-          <lb/>
+            </p>
+            <p>
                Adieu, M. <persName ref="#pers_L359">Lescure</persName> <subst>
             <del>m'a<supplied>pp</supplied>èle</del>
             <add>arrive</add>
@@ -296,7 +300,8 @@
       <back>
          <div>
             <note xml:id="corresp1">(1) Quatre pages. Adresse sur la quatrième. Publié en partie par
-               Mme <persName>Cheuvreux</persName>, p. 136. (2) Ce <persName>Julien</persName> figure sur les actes sous le nom d'André-Jules,
+               Mme <persName>Cheuvreux</persName>, p. 136.</note>
+            <note xml:id="corresp2">(2) Ce <persName>Julien</persName> figure sur les actes sous le nom d'André-Jules,
                né le <date when="1800-04-30">30 avril 1800</date>, à <placeName>Lyon</placeName>. </note>
          </div>
       </back>

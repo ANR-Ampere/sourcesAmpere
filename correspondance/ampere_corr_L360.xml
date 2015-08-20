@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -148,7 +149,7 @@
         <correspAction type="received">
           <persName type="adressee">Roux-Bordier, Jacques</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -180,30 +181,31 @@
                trouver à <placeName>Lyon</placeName>. J'y serai d'ailleurs dans le courant du mois,
                j'espère vous y voir, et c'est un grand plaisir qui se joint dans ma pensée à celui
                de me retrouver avec <persName>Bredin</persName>, <persName>Ballanche</persName> et
-               tant d'autres excellents amis que je n'ai pas vus depuis plus de deux ans. J'ai fait
+               tant d'autres excellents amis que je n'ai pas vus depuis plus de deux ans.</p><p>J'ai fait
                faire une copie de votre Mémoire de métaphysique, dont je vous remercie bien et qui
                m'a fait grand plaisir, pour l'envoyer à
                <persName>
             <choice>
-              <sic>Maine-Biran</sic> <corr>[Maine de Biran]</corr>
+              <sic>Maine-Biran</sic> <corr>Maine de Biran</corr>
             </choice>
           </persName>.
                M.
                <persName>
             <choice>
-              <sic>de Gérando</sic> <corr>[Degérando]</corr>
+              <sic>de Gérando</sic> <corr>Degérando</corr>
             </choice>
           </persName>
-               est à <placeName>Rome</placeName> encore pour longtemps <ref>(2)</ref>. Je serai
+               est à <placeName>Rome</placeName> encore pour longtemps <ref target="#corresp2">(2)</ref>. Je serai
                forcé d'attendre son retour pour faire usage de l'autre Mémoire ; car je ne connais
                personne autre qui puisse avoir quelque influence sur les choses de cette nature et,
                depuis que j'ai quitté le Bureau consultatif, je n'ai presque plus de relation avec
                ceux qui travaillent dans des bureaux de ministères. Ce n'est pas d'ailleurs par leur
                canal qu'on peut faire passer une affaire de ce genre. J'attendrai donc son retour
-               pour lui en parler. J'ai vu
+               pour lui en parler.</p>
+            <p>J'ai vu
                <persName>
             <choice>
-              <sic>Maine-Biran</sic> <corr>[Maine de Biran]</corr>
+              <sic>Maine-Biran</sic> <corr>Maine de Biran</corr>
             </choice>
           </persName>
                pendant un séjour de six semaines qu'il a fait à <placeName>Paris</placeName>, mais
@@ -213,9 +215,10 @@
                bientôt à <placeName>Lyon</placeName>, j'espère vous y trouver et vous expliquer tout
                cela de vive voix mieux que je ne pourrais faire par lettre. Nous parlerons aussi de
                votre Mémoire. Si je ne vous en dis rien, c'est que j'ai pu à peine y jeter les yeux
-               et que je veux m'en pénétrer <ref>(3)</ref>. Nous sommes d'accord, à ce que j'ai
-               entrevu, sur les points principaux. Adieu, mon cher ami, <foreign xml:lang="lat">vale
-                  et me ama</foreign>. <persName>A.
+               et que je veux m'en pénétrer <ref target="#corresp3">(3)</ref>. Nous sommes d'accord, à ce que j'ai
+               entrevu, sur les points principaux.</p>
+            <p>Adieu, mon cher ami, <foreign xml:lang="lat">vale
+                  et me ama</foreign>.<lb/> <persName>A.
                AMPÈRE</persName>
             </p>
          </div>
@@ -224,14 +227,10 @@
          <div>
             <note xml:id="corresp1">(1) Trois pages in-4°, 18 x 23,5, adresse sur la quatrième.
                Communiqué par M. <persName>Paul Chaponnière</persName>, arrière-petit-fils de
-               <persName>Roux-Bordier</persName>. (2) Cf. Lettre 0365 (3) Cf. Lettre 0286 (1806). </note>
-            <note resp="CAK_commentaire">Dans la
-               <title>Correspondance du Grand
-                  <persName>Ampère</persName>
-          </title>,
-               <persName>Louis DE LAUNAY</persName> précise, au sujet de cette lettre, que le
-               manuscrit lui en a été ""communiqué par M. <persName>Paul Chaponnière</persName>,
-               arrière-petit-fils de <persName>Roux-Bordier</persName>"". </note>
+               <persName>Roux-Bordier</persName>.</note>
+            <note xml:id="corresp2">(2) Cf. Lettre 0365.</note>
+            <note xml:id="corresp3">(3) Cf. Lettre 0286 (1806). </note>
+          
          </div>
       </back>
    </text>

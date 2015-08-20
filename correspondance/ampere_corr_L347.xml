@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -130,7 +131,7 @@
         <correspAction type="received">
           <persName type="adressee">Bredin, Claude-Julien</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -157,14 +158,16 @@
                calcul sur les probabilités de la longévité humaine était nécessaire. M.
                <persName>Delambre</persName> me l'a demandé au nom du
                <orgName>Conseil d'état</orgName>. Je n'ai pu refuser ce surcroît de besogne,
-               toujours fait aux dépens de mon sommeil. Vous me reprochez tous de ne pas mettre mes
+               toujours fait aux dépens de mon sommeil.</p>
+            <p>Vous me reprochez tous de ne pas mettre mes
                affaires en règle, je vous jure que je ne néglige rien. Malgré mes efforts je suis
                aussi avancé que le premier jour : on pousse si loin l'art de traîner les choses en
                longueur. Si notre cher <persName>Ballanche</persName> ne réussit pas, j'éprouverai
                une peine profonde. Nous voulons absolument aller chercher le bonheur au milieu des
                obstacles ! Je viens de lire <title>le Mont Ceindre</title>. Serait-il possible que
-               celle qui l'a écrit sous les yeux de <persName>Dieu</persName> fut malheureuse ?
-                  <ref>(2)</ref>
+               celle qui l'a écrit sous les yeux de Dieu fut malheureuse ?
+                  <ref target="#corresp2">(2)</ref></p>
+            <p>
                <persName>Ballanche</persName> m'adresse des lettres courtes où je n'apprends rien de
                ce qui m'intéresse le plus. Les tiennes, pleines de sentiments élevés, de réflexions
                philosophiques, ne me fournissent pas davantage les renseignements dont j'ai besoin
@@ -175,7 +178,8 @@
       </body>
       <back>
          <div>
-            <note xml:id="corresp1">(1) D'après Mme <persName>Cheuvreux</persName>, p. 63.
+            <note xml:id="corresp1">(1) D'après Mme <persName>Cheuvreux</persName>, p. 63.</note>
+            <note xml:id="corresp2">
                (2)<title> L'ermitage du Mont
                Ceindre</title>, près
                <placeName>Lyon</placeName>, récit d'une jeune fille de 16 ans,
