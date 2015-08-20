@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -75,7 +76,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1803-03-11-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -96,11 +97,11 @@
                <witness xml:id="L231manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 332</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 332</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>Quatre pages in-8°.</p>
@@ -138,7 +139,7 @@
           <persName type="adressee">Ampère,
                         André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -160,17 +161,18 @@
       <body>
          <div>
             <opener>
-          <date when="1803-03-11">Vendredi matin [11 mars 1803]</date>
+               <pb n="284" facs="#ACAS_CRHST_AMP_24_332_0284_r.jpg"/>Du<date when="1803-03-11">Vendredi matin [11 mars 1803]</date>
         </opener>
             <p>
-          <gap xmlns="" reason="lacune_CGA"/> Je trouve à la fin de ta lettre <ref>(2)</ref> un article
-               qui est cause de bien des réflexions <gap xmlns="" reason="lacune_CGA"/> D'abord je
-               te dirai que je me serais déjà levée si le temps avait été plus doux <gap xmlns="" reason="lacune_CGA"/> L'on m'a dit que l'été dernier M. <persName>Duplentié</persName>, préfet de
+          <gap reason="lacune_CGA"/> Je trouve à la fin de ta lettre <ref target="#corresp2">(2)</ref> un article
+               qui est cause de bien des réflexions <gap reason="lacune_CGA"/> D'abord je
+               te dirai que je me serais déjà levée si le temps avait été plus doux <gap reason="lacune_CGA"/> L'on m'a dit que l'été dernier M. <persName>Duplentié</persName>, préfet de
                <placeName>Bourg</placeName>, avait amené à <placeName>Lyon</placeName> une jeune dame qui avait des grosseurs dans le ventre et
                n'avait plus ses règles. Elle était bien malade ; elle fut s'établir en <placeName>Bellecour</placeName>
                pour prendre des eaux factices. Elle est très bien remise, à ce que l'on dit. Ne te
                serait-il pas possible de savoir si cela est vrai et quelles sont les eaux qu'elle a
-               prises ? A présent parlons de tes espérances pour le <orgName>Lycée</orgName> ! Elles paraissent bien
+               prises ?<gap reason="lacune_CGA"/></p>
+            <p><pb n="285" facs="#ACAS_CRHST_AMP_24_332_0285_v.jpg"/> A présent parlons de tes espérances pour le <orgName>Lycée</orgName> ! Elles paraissent bien
                fondées ; mais encore tu n'es pas sûr d'y être admis. Tu sais, mon bon ami, combien
                je désirais notre réunion au <date when="1803-03-22">1er germinal</date>. Cependant il faut toujours consulter la
                raison avant son plaisir et, si le <orgName>Lycée</orgName> tarde quelques mois à s'établir, que
@@ -180,18 +182,20 @@
                d'avril. Tu penses que tu pourrais attendre le <orgName>Lycée</orgName> à la campagne ; je trouve que ce
                n'est pas faisable ; car, si un autre était nommé que toi, quel pauvre air aurais-tu
                de sortir de ta campagne pour venir picoter des élèves ! D'ailleurs combien de choses
-               essentielles ignorerais-tu si tu étais à la campagne, lors même que tu viendrais
+               essentielles ignorerais-tu si tu étais à la campagne, lors même<pb n="286" facs="#ACAS_CRHST_AMP_24_332_0286_r.jpg"/> que tu viendrais
                souvent à <placeName>Lyon</placeName>. Tu vois, mon bon ami, que je trouve bien des raisons pour faire comme
                les autres professeurs. Car nous n'entrons dans notre appartement qu'à la <date>Saint-Jean</date> ; le <orgName>Lycée</orgName> s'établira d'ici là et, si tu n'es pas nommé, tu auras tout de suite de
                quoi donner des leçons sans avoir un air errant. Et puis, mon bon ami, compte que
                nous avons bien besoin de l'argent que tu peux gagner ! En nous remettant dans notre
                ménage, nous aurons bien des dépenses à faire. Tu gagnes là-bas au moins 60 L. par
                mois chez M. <persName>Dupras</persName>, et puis tes appointements. Ne crois pas que l'intérêt me fasse
-               parler ; mais c'est la nécessité. Car tu trouves cet appartement cher ; mais, voulant
+               parler ; mais c'est la nécessité. Car tu trouves cet appartement cher ; je suis fâchée d'avoir terminé si tu espérais trouver mieux, mais, voulant
                avoir une pièce pour des élèves, nous n'aurions trouvé en point d'endroit plus bas
-               prix et l'agrément de pouvoir sous-louer <gap xmlns="" reason="lacune_CGA"/> Tu es
+               prix et l'agrément de pouvoir sous-loue. En <placeName>Bellecour</placeName> à l'étage des<pb n="287" facs="#ACAS_CRHST_AMP_24_332_0287_v.jpg"/> <persName>dames Allard</persName> il y en avait m<supplied>ais</supplied> pas si grand
+               de <gap reason="illisible"/> mais <gap reason="illisible"/> était pas près de ma sœur et encore moins de maman. <gap reason="illisible"/></p>
+            <p>Voilà mon ami toute ma réflexion. Tu es
                bien libre de faire tout ce que tu voudras et je serai toujours contente. Mais pense
-               toi-même que nous avons un petit et qu'il faut tout faire pour lui <gap xmlns="" reason="lacune_CGA"/> Si tu restes, c'est un sacrifice que tu fais encore pour ton
+               toi-même que nous avons un petit et qu'il faut tout faire pour lui. <gap reason="lacune_CGA"/> Si tu restes, c'est un sacrifice que tu fais encore pour ton
                petit et pour moi. Tu me fais tous ceux qui te coûtent le plus. Aussi mon cœur sait
                les apprécier et te chérir bien fort. Adieu, mon fils, adieu mon bon ami. Adieu,
                ménage-toi et aime ta <persName>Julie</persName> !</p>
@@ -200,7 +204,8 @@
       <back>
          <div>
             <note xml:id="corresp1">(1) Quatre pages in-8°. Voir la Lettre 0235. Plusieurs passages
-               ont été publiés par Mme <persName>Cheuvreux</persName>, p. 297 et 293. (2) Voir la Lettre 0226. </note>
+               ont été publiés par Mme <persName>Cheuvreux</persName>, p. 297 et 293.</note>
+            <note xml:id="corresp2">(2) Voir la Lettre 0226. </note>
          </div>
       </back>
    </text>

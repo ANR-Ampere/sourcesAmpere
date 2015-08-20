@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -148,7 +149,7 @@
           <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme
                                 d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -226,7 +227,7 @@
                     mathématiciens en <placeName>France</placeName>
           <lb/>
                     capables d'en faire un<lb/>
-                    pareil <ref>(2)</ref>. Je te dis cela comme<lb/>
+                    pareil <ref target="#corresp2">(2)</ref>. Je te dis cela comme<lb/>
                     je le pense pour que tu<lb/>
                     ne le dises à personne. L'important<lb/>
                     est qu'il s'imprime promptement,<lb/>
@@ -286,7 +287,8 @@
         <back>
             <div>
                 <note xml:id="corresp1">(1) Quatre pages de papier bleuâtre, 17 x 22, avec adresse à
-                    la fin. Timbre de <placeName>Bourg</placeName>. Mme <persName>Cheuvreux</persName> a publié cinq lignes, p. 226. (2) Cf.
+                    la fin. Timbre de <placeName>Bourg</placeName>. Mme <persName>Cheuvreux</persName> a publié cinq lignes, p. 226.</note>
+                <note xml:id="corresp2">(2) Cf.
                     lettres p.133-136 et144-146. </note>
             </div>
         </back>

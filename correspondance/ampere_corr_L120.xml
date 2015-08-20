@@ -1,9 +1,10 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Correspondance d'André-Marie Ampère - Lettre 120</title>
+                <title>Correspondance d'André-Marie Ampère - Lettre 120</title> 
                 <author>Carron-Ampère, Julie (1ère femme d'Ampère)</author>
                 <editor>Christine Blondel</editor>
                 <editor>Marco Segala</editor>
@@ -140,7 +141,7 @@
           <persName type="adressee" ref="#pers_A366">Ampère,
                                 André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -162,29 +163,40 @@
         <body>
             <div>
                 <opener>
-          <date when="1802-05-07">Vendredi [7 mai 1802]</date>
+                    <pb n="198" facs="#ACAS_CRHST_AMP_24_332_0198_r.jpg"/>Du <date when="1802-05-07">Vendredi [7 mai 1802]</date>
         </opener>
-                <p>Je hasarde, malgré ce que je crains des petits paquets, de remettre à <persName ref="#pers_P457">Pochon</persName> le
-                    livre pour M. <persName ref="#pers_C150">Clerc</persName> qui, je pense, est pressé <gap reason="lacune_CGA"/> Pour ton livre, mon bon ami, je ne sais que t'en dire. J'ai vu M. <persName ref="#pers_C162">Couppier</persName> ce
+                <p>Mon bon ami, <del type="illisible"/> <supplied>les </supplied>baromêtre<supplied>s</supplied> ne peuvent être près que vendredi prochain. <del type="illisible"/> Je t'enverrai alors une chopine d'encre <del>parce qu'il aurait fallu une plus grande <gap reason="illisible"/> pour une bouteille.
+                </del>
+                    Je <del>hasarde, malgré ce que je crains des petits paquets, de remettre à <persName ref="#pers_P457">Pochon</persName></del> le
+                    livre pour M. <persName ref="#pers_C150">Clerc</persName> qui, je pense, est pressé . Je joins les petites choses que tu m'as demandées et un gilet que je t'ai
+                    fait moi-même, il est plus frais que les autres et ne crains pas le sale. <del type="illisible"/></p>
+                <p>Tu trouveras dans ton paquet de mercredi <gap reason="illisible"/> ton gros gilet de velours et de coton <del type="illisible"/> et tes gros bas de laine <del type="illisible"/>.
+               Si tu ne te trouves pas bien de ton souper il faudra vite retourner chez Mme <persName>Beauregard</persName> car ce sera tout<gap reason="illisible"/></p>
+                <p><pb n="199" facs="#ACAS_CRHST_AMP_24_332_0199_v.jpg"/><del type="illisible"/> Pour ton livre, mon bon ami, je ne sais que t'en dire. J'ai vu M. <persName ref="#pers_C162">Couppier</persName> ce
                     matin, qui a écrit à <persName ref="#pers_D272">Degérando</persName>, qui a vu M. <persName ref="#pers_B104">Bruiset</persName>, M. <persName ref="#pers_L347">de Laurencin</persName>, qui lui
                     ont dit qu'ils te connaissaient deux concurrents, M. <persName ref="#pers_R501">Roux</persName> et le professeur de
-                    <persName ref="#pers_T567">Tournon</persName> pour qui le gouvernement s'intéresse beaucoup. Tout le monde pense que
+                    <persName ref="#pers_T567">Tournon</persName> auquel le gouvernement s'intéresse beaucoup. Tout le monde pense que
                     ce seront des membres de l'<orgName>Institut</orgName> qui nommeront et qu'ils s'en rapporteront
-                    peu aux conseils des jurys. Le projet est adopté. On te l'enverra dès qu'ils
-                    l'auront imprimé <gap reason="lacune_CGA"/> Ne pourrais-tu pas, dans ta
-                    lettre à M. <persName ref="#pers_R501">Roux</persName>, lui demander, au cas que tes idées fussent déjà connues, qu'il
-                    te dît dans quel ouvrage tu pourrais les trouver. Cela l'empêcherait de dire au
-                    hasard qu'elles le sont <gap reason="lacune_CGA"/> Je suis bien fâchée
+                    peu aux conseils des jurys. Le projet est adopté. <persName>Marsil</persName> te l'aurait envoyé s'il n'en avait pas besoin pour l'imprimer. On te l'enverra <subst><del>dès qu'ils
+                    l'auront imprimé</del> <add>de suite</add></subst>. Du reste tu sais bien qu'il ne doit y avoir que <gap reason="illisible"/> lycées. <del>Adieu mon cher ami, je tremble que <persName>Pochon</persName> ne parte.</del></p>
+                <p>Je suis bien fâchée de ne pas pouvoir te conseiller pour ton livre mais tu sais bien que<pb n="200" facs="#ACAS_CRHST_AMP_24_332_0199_v.jpg"/>
+                    je n'y comprends rien.
+                    Ne pourrais-tu pas, dans ta
+                    lettre à M. <persName ref="#pers_R501">Roux</persName>, lui demander, si par hasard tes idées étaient déjà connues, <del>qu'il
+                    te dît</del> dans quel ouvrage tu pourrais les trouver. Cela l'empêcherait de dire sans le savoir qu'elles le sont. Voilà tout ce que je peux tirer de ma cervelle.</p>
+                <p>Je suis bien fâchée
                     que tu aies trouvé ce M. <persName ref="#pers_B50">Berger</persName> pour cette maudite chimie. Ses 18 livres ne
                     profiteront pas. Je ne les aime pas du tout. Prends garde à tes gilets, à tes
-                    culottes !<gap reason="lacune_CGA"/> Tes lettres me font bien plaisir ;
-                    mais pense que la poste ne vient que tous les deux jours. Plains-moi d'être
+                    culottes ! Je t'envoie un gros torchon avec des <gap reason="illisible"/> pour mettre devant toi.</p>
+                <p>Tes lettres me font bien plaisir ; j'en reçois deux par jour <gap reason="illisible"/> pour que <persName>Pochon</persName> apporte les deux paquets. 
+                    <del>et pense que la poste ne vient que tous les deux jours ainsi que j'en</del> Je recevrai deux à la fois si tu m'écris deux jours de suite. Plains-moi d'être
                     obligée de te dire que j'en suis pour 3 livres de port depuis ton dernier
-                    voyage. Conserve les gros paquets pour <persName ref="#pers_P457">Pochon</persName> <gap reason="lacune_CGA"/> Adieu, mon fils, ta femme t'aime bien et dit comme toi : <cit>
+                    voyage mon <gap reason="illisible"/>.<pb n="201" facs="#ACAS_CRHST_AMP_24_332_0199_v.jpg"/>  <del>N'oublie pas de conserver les grosses lettres pour <persName>Pochon</persName></del> Adieu, mon fils, ta femme t'aime bien et dit comme toi : <cit>
             <quote>Lycée, lycée,
                     quand te tiendrons-nous ?</quote>
-          </cit> <gap reason="lacune_CGA"/>
+          </cit> <del type="illisible"/>
         </p>
+                <closer>Au citoyen <persName>Ampère</persName> professeur de physique à l’<orgName>École centrale du département de l'<placeName>Ain</placeName></orgName> à <placeName>Bourg</placeName></closer>
             </div>
         </body>
         <back>

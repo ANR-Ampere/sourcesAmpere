@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -143,7 +144,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -234,7 +235,7 @@
                et que tu n'as plus cette inquiétude<lb/>
                et cette peine qui devaient doublement<lb/>
                te fatiguer. J'en ai eu beaucoup aussi<lb/>
-               en apprenant le retour de <persName ref="#pers_D181">François</persName> <ref>(2)</ref> ;<lb/>
+               en apprenant le retour de <persName ref="#pers_D181">François</persName> <ref target="#corresp2">(2)</ref> ;<lb/>
                j'aurais bien du plaisir à le voir et<lb/>
                à lui entendre <choice>
             <sic>racconter</sic> <corr>raconter</corr>
@@ -434,13 +435,14 @@
             <sic>Madame<lb/> Madame</sic> <corr>Madame</corr>
           </choice> <persName ref="#pers_C129">Ampère-Carron</persName>,<lb/>
                <placeName>grande rue Mercière,<lb/>
-                  n° 18</placeName>, à <placeName>Lyon</placeName>.</closer>
+                  n° 18</placeName>, à <placeName>Lyon</placeName>.</closer> 
          </div>
       </body>
       <back>
          <div>
             <note xml:id="corresp1">(1) Huit pages, 21 x 24 ; adresse à la fin. Mme <persName>Cheuvreux</persName> a
-               publié quelques lignes, p. 229 et 230. Réponse à la lettre p. 162-163 (2) Voir, pour
+               publié quelques lignes, p. 229 et 230. Réponse à la lettre p. 162-163.</note>
+           <note xml:id="corresp2">(2) Voir, pour
                <persName ref="#pers_D181">François Delorme</persName>, les lettres p.148-150 et p.162-163. </note>
          </div>
       </back>

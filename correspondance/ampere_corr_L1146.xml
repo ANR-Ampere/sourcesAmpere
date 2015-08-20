@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -138,30 +139,36 @@
     <text type="correspondance" decls="#ampere_corr_L0000-00-00-ab">
         <body>
             <div>
-                <opener>s.d. <date notBefore="1825-07-05">[avant le 5 juillet 1825]</date>
+                <opener>s.d. <date notAfter="1825-07-05">[avant le 5 juillet 1825]</date>
         </opener>
-                <p>Monseigneur, Pénétré de reconnaissance de la bonté avec laquelle votre Altesse
+                <opener><pb n="19" facs="#ACAS_CRHST_AMP_20_305_0019_r.jpg"/>A Son Altesse Royale, Monseigneur le Dauphin</opener>
+                <opener>Monseigneur,</opener>
+                <p> Pénétré de reconnaissance de la bonté avec laquelle votre Altesse
                     Royale a daigné accueillir les considérations que j'ai eu l'honneur de lui
                     soumettre sur les droits que je crois avoir à être nommé examinateur des
                     candidats à l’<orgName>École royale polytechnique</orgName> dans le cas où cette place viendrait à
-                    vaquer, autorisé par la demande qu'elle a daigné me faire d'une note<note>Cf.
-                            <ref type="correspondance" target="#ampere_corr_L1825-07-05-a">L1144</ref>.</note> où ces
+                    vaquer, autorisé par la demande qu'elle a daigné me faire d'une note<ref target="#corresp_1"></ref> où ces
                     considérations fussent développées, je me hâte d'adresser cette note à votre
                     Altesse Royale dans l'espérance qu'elle daignera la communiquer à Monsieur le
-                    Lieutenant général <persName>comte de Bordesoulle</persName>, dont les bontés pour moi sont un des
+                    Lieutenant général <persName>comte de Bordesoulle</persName>, dont les bontés pour<pb n="20" facs="#ACAS_CRHST_AMP_20_305_0020_v.jpg"/><supplied> moi </supplied>sont un des
                     titres les plus puissants que je puisse faire valoir en ma faveur auprès de
                     votre Altesse Royale, afin que s'il juge, comme j'ose m'en flatter, que mes
-                    espérances sont fondées sur la justice, et d'accord avec les intérêts de l<orgName>’École
-                    polytechnique</orgName>, cette même note puisse être mise sous les yeux de son Exellence
+                    espérances sont fondées sur la justice, et d'accord avec les intérêts de l'<orgName>École
+                    polytechnique</orgName>, cette même note puisse être mise sous les yeux de son Excellence
                     le ministre de la Guerre, à qui appartient la nomination aux places de ce genre,
-                    sur la présentation de Monsieur le <persName>comte de Bordesoulle</persName>. C'est un bonheur pour
+                    sur la présentation de Monsieur le <persName>comte de Bordesoulle</persName>.</p>
+                <p>C'est un bonheur pour
                     moi, Monseigneur, de pouvoir saisir cette occasion d'offrir à votre Altesse
-                    Royale l'hommage de la plus vive reconnaissance et du plus profond respect. Je
-                    suis, Monseigneur, de votre Altesse Royale le très humble et très obéissant
-                    serviteur. <persName>A. Ampère</persName>
+                    Royale l'hommage de la plus vive reconnaissance et du plus profond respect.</p>
+                <p>Je
+                    suis, Monseigneur,<lb/>
+                    de votre Altesse Royale le très humble et très obéissant
+                    serviteur. 
+                    <persName>A. Ampère</persName>
         </p>
-                <closer>A Son Altesse Royale, Monseigneur le Dauphin</closer>
             </div>
         </body>
+        <back><div><note xml:id="corresp_1">Cf.
+            <ref type="correspondance" target="#ampere_corr_L1825-07-05-a">L1144</ref>.</note></div></back>
     </text>
 </TEI>

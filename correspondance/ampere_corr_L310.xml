@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -133,7 +134,7 @@
         <correspAction type="received">
           <persName type="adressee">Bredin, Claude-Julien</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -172,12 +173,13 @@
                mariage, je la vis pleurer ; je fus perdu, croyant que c'étaient des larmes d'amour !
                écrivez-moi, j'ai besoin de votre amitié ; j'étouffe, je ne sais comment achever
                cette lettre ; je voudrais pourtant me contenir devant vous ; mais cette solitude
-               supportée depuis quatre mois <ref>(2)</ref>, dans ma propre maison m'a tué ; rester jour et nuit
+               supportée depuis quatre mois <ref target="#corresp2">(2)</ref>, dans ma propre maison m'a tué ; rester jour et nuit
                dans ce cabinet de travail, où je suis comme un exilé, n'ayant le courage de voir
                personne, n'entendant autre chose que des récriminations incompréhensibles, et ne
                pouvant me dissimuler que c'est moi qui ai voulu tout cela ! Je ne traverse pas la
                <placeName>Seine</placeName> sans désirer vivement m'y précipiter, et j'ose dire encore que j'aime ce <persName>Dieu</persName>
-               qui, peut-être, m'avait destiné à quelques vertus. Vous me parlez de spectacles, de
+               qui, peut-être, m'avait destiné à quelques vertus.</p>
+            <p>Vous me parlez de spectacles, de
                plaisirs : ce n'est pas là ce que je regrette, c'est le bonheur de ces tendres liens,
                dont une douce expérience m'avait laissé un souvenir délicieux ; oui, c'est à cette
                espérance que j'ai tout sacrifié. Une lettre de vous mettra un peu de calme dans mon
@@ -188,7 +190,8 @@
       </body>
       <back>
          <div>
-            <note xml:id="corresp1">(1) D'après Mme <persName>Cheuvreux</persName>, p. 44. (2) La scène décisive ayant
+            <note xml:id="corresp1">(1) D'après Mme <persName>Cheuvreux</persName>, p. 44.</note>
+            <note xml:id="corresp2">(2) La scène décisive ayant
                lieu vers le <date when="1807-05-15">15 mai</date> au bout de six mois, cette lettre se trouve ainsi datée.</note>
          </div>
       </back>

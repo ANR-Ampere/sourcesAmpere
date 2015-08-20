@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -140,7 +141,7 @@
         <correspAction type="received">
           <persName type="adressee">Bredin, Claude-Julien</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -164,7 +165,7 @@
             <opener>
           <date when="1807-07-16">[Jeudi 16 juillet 1807]</date>
         </opener>
-            <p>Enfin, mon cher ami, d'après la lettre de notre bon ami <persName>Roux</persName>, je sais que vous êtes
+            <p><pb n="1" facs="#ACAS_CRHST_AMP_25_369_0001_r.jpg"/>Enfin, mon cher ami, d'après la lettre de notre bon ami <persName>Roux</persName>, je sais que vous êtes
                de retour à <placeName>Lyon</placeName>. J'aurai enfin de vos nouvelles. La main me tremble en vous écrivant
                du plaisir que cet espoir m'a fait sentir. Dites-moi d'où vient, mon ami, que mon
                cœur, privé des affections dont j'espérais le bonheur de ma vie, semble s'être
@@ -173,26 +174,28 @@
                pas de vos nouvelles ! J'en savais la cause, mais rien ne pouvait remplacer cette
                privation... Enfin vous êtes à <placeName>Lyon</placeName>, je suis sûr que vous m'avez déjà écrit, et que
                je recevrai une lettre avant que celle-ci vous parvienne. Je n'ai rien de nouveau à
-               vous dire sinon que mon âme est... <gap reason="lacune"/>[la phrase est coupée là au-bas de la première
-               page]. Il y aura demain vendredi quatre semaines que j'ai vu pour la dernière fois
-               celle qui n'a plus voulu me voir de sa vie <ref>(2)</ref>. Ce souvenir me trouble encore ; mais
+               vous dire sinon que mon âme est<gap reason="lacune"/>.</p>
+            <p><pb n="2" facs="#ACAS_CRHST_AMP_25_369_0002_v.jpg"/>Il y aura demain vendredi quatre semaines que j'ai vu pour la dernière fois
+               celle qui n'a plus voulu me voir de sa vie <ref target="#corresp2">(2)</ref>. Ce souvenir me trouble encore ; mais
                je suis résigné, et, quand je compare cette position triste et calme aux affreux
-               tourments de cet hiver, je me trouve heureux par comparaison. J'ai été voir ma fille
-               deux fois chez sa nourrice. Comme mon cœur s'est serré en l'embrassant <ref>(3)</ref> ! Mais il
+               tourments de cet hiver, je me trouve heureux par comparaison.</p>
+            <p>J'ai été voir ma fille
+               deux fois chez sa nourrice. Comme mon cœur s'est serré en l'embrassant <ref target="#corresp3">(3)</ref> ! Mais il
                faut écarter ces idées et penser qu'il y aura encore du bonheur dans ma vie, puisque,
                dans 15 jours ou trois semaines, je serai près de vous, près de ma mère, de mon petit
-               <persName>Jean-Jacques</persName>, de tous nos amis. Cher <persName>Bredin</persName>, parlez avec eux de leur pauvre ami ;
+               <persName>Jean-Jacques</persName>, de tous nos amis. Cher <persName>Bredin</persName>,<pb n="3" facs="#ACAS_CRHST_AMP_25_369_0003_r.jpg"/> parlez avec eux de leur pauvre ami ;
                dites-leur que ce n'est qu'en pensant à tout ce que je chéris à <placeName>Lyon</placeName> et à <placeName>Poleymieux</placeName>
-               que je trouve quelque repos ! Bonjour est un de ceux à qui je pense plus souvent,
+               que je trouve quelque repos ! <persName>Bonjour</persName> est un de ceux à qui je pense plus souvent,
                quoiqu'il semble m'avoir oublié. Je vous ai dit pourquoi je ne lui avais pas écrit.
-               Déroche m'a écrit il y a quelques jours la lettre la plus touchante. Je me souviens
+               <persName>Déroche</persName> m'a écrit il y a quelques jours la lettre la plus touchante.</p>
+            <p>Je me souviens
                toujours de celle que <persName>Chatelain</persName> m'écrivit cet hiver. Donnez-moi de ses nouvelles et
                de celles de sa femme ! Dites-moi combien il est heureux ! Ne craignez pas d'aggraver
                par là mon chagrin ; ce n'est pas cette sorte de bonheur que je regrette. C'est celui
-               que j'aurais goûté si j'avais suivi les conseils du pauvre Bonjour, quand il me
-               représentait ma folie de quitter <placeName>Lyon</placeName>. Que ne puis-je m'y retrouver dans la même
+               que j'aurais goûté si j'avais suivi les conseils du pauvre <persName>Bonjour</persName>, quand il me
+               représentait ma folie de quitter <placeName>Lyon</placeName>. Que<pb n="4" facs="#ACAS_CRHST_AMP_25_369_0004_v.jpg"/> ne puis-je m'y retrouver dans la même
                position où j'étais ! Mais cela est impossible ; il n'y faut pas penser. Mon ami, mon
-               cher <persName>Bredin</persName>, aimez-moi toujours, parlez de moi à ceux qui m'aiment ; je serai du
+               cher <persName>Bredin</persName>, aimez-moi toujours, parlez de moi à ceux qui m'aiment. je serai du
                moins par la pensée au milieu de vous. Je vous prie de présenter mes respects à
                Monsieur votre père, à Madame votre mère et à Madame votre épouse. Quelle
                reconnaissance ne lui dois-je pas de rendre mon ami heureux autant qu'il dépend
@@ -204,12 +207,14 @@
       <back>
          <div>
             <note xml:id="corresp1">(1) Quatre pages in-4°, papier bleuté ; adresse sur la dernière.
-               Quelques lignes arrangées et déplacées ont été publiées par Mme Cheuvreux, p. 51. (2)
-               Il a quitté la maison le vendredi 26 juin 1807 ; sa fille est née le 6 juillet. Les
-               quatre semaines depuis le départ datent la lettre. (3) Le 12 août 1807 on réclama à
-               Ampère les honoraires de la garde : soit 32 journées à 3 l. en ajoutant : « Le
-               surplus qu'elle a resté et qu'elle restera encore sera payé par M. Potot qui sait
-               bien que Mme Ampère a encore besoin des soins de cette garde. » </note>
+               Quelques lignes arrangées et déplacées ont été publiées par Mme <persName>Cheuvreux</persName>, p. 51.</note>
+            <note xml:id="corresp2">(2)
+               Il a quitté la maison le <date when="1807-06-26">vendredi 26 juin 1807</date> ; sa fille est née le <date when="1807-07-06">6 juillet</date>. Les
+               quatre semaines depuis le départ datent la lettre.</note>
+            <note xml:id="corresp3">(3) Le <date when="1807-08-12">12 août 1807</date> on réclama à
+               <persName>Ampère</persName> les honoraires de la garde : soit 32 journées à 3 l. en ajoutant : « Le
+               surplus qu'elle a resté et qu'elle restera encore sera payé par M. <persName>Potot</persName> qui sait
+               bien que <persName>Mme Ampère</persName> a encore besoin des soins de cette garde. » </note>
          </div>
       </back>
    </text>

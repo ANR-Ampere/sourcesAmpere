@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -141,7 +142,7 @@
           <persName type="adressee" ref="#pers_A366">Ampère,
                                 André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -163,22 +164,26 @@
         <body>
             <div>
                 <opener>
-          <date when="1802-07-01">Jeudi [1er juillet 1802]</date>
+                    <pb n="88" facs="#ACAS_CRHST_AMP_23_331_0088_r.jpg"/>Du<date when="1802-07-01">Jeudi [1er juillet 1802]</date>
         </opener>
                 <p>
-          <gap reason="lacune_CGA"/> Voilà le sixième jour de mon régime <ref>(2)</ref> ;
-                    c'est toujours comme tu m'as vu <gap reason="lacune_CGA"/> M. <persName ref="#pers_P447">Petetin</persName> a
+          Mon bon ami je profite du moment où l'on fait mon lit pour t'écrire que je suis toujours de même. Rien n'est changé à mon régime.
+          Voilà le sixième jour de mon régime <ref target="#corresp2">(2)</ref> <del>et ne n'éprouve encore ni dévoiement ni autre chose. C'est toujours comme tu m'as vu </del>; Voilà
+                    tout ce que je peux te dire, ne sois pas en peine si tu ne reçois pas de mes lettres, les courriers sont <unclear>peu exacts</unclear>. Adieu bon ami je t'embrasse bien fort et <gap reason="illisible"/>
+                    de peur de me faire mal<pb n="89" facs="#ACAS_CRHST_AMP_23_331_0089_v.jpg"/>
+                   <gap reason="lacune_CGA"/> M. <persName ref="#pers_P447">Petetin</persName> a
                     dit que les examinateurs des lycées s'en rapporteraient vraisemblablement à
                     l'opinion publique sans faire d'examen et qu'ils consulteraient ici M. <persName ref="#pers_L347">de
                         Laurencin</persName>, <persName ref="#pers_B93">Braiset</persName> et autres, et aussi M. <persName>Morel</persName>, frère de celui que tu connais.
                     Il a dit qu'il était essentiel que tu lui écrivisses pour te faire recommander à
-                    son frère d'ici et à ceux qui connaîtront pouvoir t'être utiles <gap reason="lacune_CGA"/>
-        </p>
+                    son frère d'ici et à ceux qui connaîtront pouvoir t'être utiles. Adieu j'ai la main lasse, écris bien à M. <persName>Morel</persName> je t'en prie.
+        </p><closer>>A monsieur <persName>Ampère</persName>, professeur de physique à l'<orgName>école centrale</orgName> à <placeName>Bourg</placeName></closer>
             </div>
         </body>
         <back>
             <div>
-                <note xml:id="corresp1">(1) Deux pages in-8° et adresse à <placeName>Bourg</placeName> sur la quatrième.
+                <note xml:id="corresp1">(1) Deux pages in-8° et adresse à <placeName>Bourg</placeName> sur la quatrième.</note>
+                <note xml:id="corresp2">
                     (2) Le régime consiste à rester couchée à la diète, en ne mangeant que des
                     fraises et de la glace. </note>
             </div>

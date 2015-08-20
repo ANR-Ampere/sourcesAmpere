@@ -1,4 +1,6 @@
-<?xml-model href="../../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE ENTITY_MathML SYSTEM "../../Documents/Sch%C3%A9mas/ENTITY_MathML.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -138,32 +140,35 @@
     <text type="correspondance" decls="#ampere_corr_L1814-11-01-a">
         <body>
             <div>
-                <opener>le <date when="1814-11-01">1er 9bre 1814</date>
+                <opener><pb n="33" facs="#ACAS_CRHST_AMP_26_393_bis_0002_r.jpg"/><placeName>Paris</placeName> le <date when="1814-11-01">1er 9bre 1814</date>
         </opener>
-                <p>Monsieur, D'après le désir que vous m'avez témoigné de connaître la marche que
+                <opener>Monsieur,</opener>
+                <p><del> D'après le désir que vous m'avez témoigné de connaître la marche que
                     j'ai suivie et les principaux résultats auxquels je suis parvenu dans les trois
                     mémoires que j'ai lu cette année à l'<orgName>Institut</orgName> sur les équations aux
                     différentielles partielles, je vais essayer de vous en donner une idée bien
                     imparfaite sans doute puisque pour la rendre à peu près complète il faudrait
-                    entrer dans des détails que ne comportent pas les bornes d'une lettre. Dans mon
+                    entrer dans des détails que ne comportent pas les bornes d'une lettre.</del></p>
+                <p>Dans mon
                     premier mémoire, j'ai établi et démontré généralement un ensemble de principes
                     sur l'intégration de ces équations dont la plus grande partie me semble une
                     chose absolument nouvelle. Je vais tâcher d'en tracer une légère esquisse. Je
                     suis parti de cette idée que lorsqu'une équation primitive satisfait à une
                     équation différentielle, elle n'en n'est l'intégrale générale qu'autant qu'on en
-                    déduit seulement entre les dérivées ou coefficients différentiels de la fonction
+                    déduit seulement entre les<pb n="34" facs="#ACAS_CRHST_AMP_26_393_bis_0003_v.jpg"/>
+                    dérivées ou coefficients différentiels de la fonction
                     qu'elle détermine, la relation exprimée par l'équation donnée, et les relations
                     que représentent ses différentielles ultérieures, sans qu'il en résulte entre
-                    les mêmes dérivées aucune autre relation. Il est évident en effet que dans le
+                    les mêmes dérivées aucune autre relation.<del> Il est évident en effet que dans le
                     cas où une équation primitive donne entre les coefficients différentiels
                     d'autres relations que l'équation donnée, et les équations qu'on en tire en la
-                    différentiant, cette équation primitive n'exprime que les cas particuliers de
-                    l'équation donnée où ces autres relations ont lieu. Elle n'en est alors qu'une
+                    différenciant, cette équation primitive n'exprime que les cas particuliers de
+                    l'équation donnée où ces autres relations ont lieu.</del> Elle n'en est alors qu'une
                     intégrale particulière, ou une solution particulière. Pour montrer l'usage de ce
                     principe, je l'ai d'abord appliqué aux équations aux différentielles ordinaires.
                     Le résultat de cette application est que leurs intégrales ne peuvent être
                     générales qu'autant qu'elles contiennent autant de constantes arbitraires qu'il
-                    y a d'unités dans l'ordre de l'équation donnée. Ce théorème dont les
+                    y a d'unités dans l'ordre de l'équation donnée.<pb n="35" facs="#ACAS_CRHST_AMP_26_393_bis_0004_r.jpg"/> Ce théorème dont les
                     démonstrations connues me semblent indirectes se trouve ainsi démontré de la
                     manière la plus simple et qui suit le plus directement du but qu'on se propose
                     en intégrant. J'applique ensuite le même principe aux équations aux
@@ -171,7 +176,7 @@
                     ne suffisent jamais. Pour en rendre les intégrales générales et ensuite que
                     quand les fonctions arbitraires n'entrent dans l'intégrale qu'avec des fonctions
                     qui en dérivent par voie de différentiation ou d'intégration relative à tout ce
-                    qui est sous le signe&amp;int;, cette intégrale ne peut être générale qu'autant
+                    qui est sous le signe &int;, cette intégrale ne peut être générale qu'autant
                     qu'il y a autant de fonctions arbitraires que d'unités dans l'ordre de
                     l'équation donnée. Mais que précisément pour la même raison qui en rend ce
                     nombre nécessaire dans le cas dont je viens de parler, il cessait de l'être
@@ -179,8 +184,14 @@
                     c'est-à-dire qui doivent être prises en regardant comme constantes des quantités
                     réellement variables d'après la nature de la question. Par là j'ai fait
                     disparaître ce qu'a de paradoxal la démonstration irréfragable qu'a donné M.
-                    <persName>Poisson</persName> de la généralité complète d'une intégrale de l'équation d2z dz --- = ---
-                    dx2 dy où conduisent les recherches sur la chaleur, &amp;c. quoique cette
+                    <persName>Poisson</persName> de la généralité complète d'une intégrale de l'équation<pb n="36" facs="#ACAS_CRHST_AMP_26_393_bis_0005_v.jpg"/> <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow>
+                            <mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>z</mi></mrow>
+                            <mrow><msup><mrow><mi>d</mi><mi>x</mi></mrow><mn>2</mn></msup></mrow></mfrac><mo>=</mo>
+                            <mfrac><mrow><mi>d</mi><mi>z</mi></mrow>
+                            <mrow><mi>d</mi><mi>y</mi></mrow></mfrac>
+                        </mrow></math>
+                    </formula> où conduisent les recherches sur la chaleur, &amp;c. quoique cette
                     intégrale ne contienne qu'une fonction arbitraire. Je montre comment cette
                     restriction à un principe que l'analogie avait fait regarder comme général,
                     dépend de ce que cette fonction arbitraire est sous un signe d'intégration
@@ -193,9 +204,14 @@
                     arbitraires qui ne sont point sous des signes d'intégration partielle, et celles
                     qui s'y trouvent, vient de ce que les premières n'introduisent dans le calcul à
                     chaque passage d'un ordre de différentielle à l'ordre suivant, qu'une nouvelle
-                    arbitraire et que les secondes en introduisent plusieurs. Dans le paragraphe
+                    arbitraire et que les secondes en introduisent plusieurs.</p>
+                <p><pb n="37" facs="#ACAS_CRHST_AMP_26_393_bis_0006_r.jpg"/>Dans le paragraphe
                     destiné à appliquer la même théorie aux équations du second ordre, je me suis
-                    borné à examiner celles qui sont de la forme Hr + 2Ks + Lt + M + N (rt - s2) = 0
+                    borné à examiner celles qui sont de la forme <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow>
+                           <mi>H</mi><mi>r</mi><mo>+</mo><mn>2</mn><mi>K</mi><mi>S</mi><mo>+</mo><mi>L</mi><mi>t</mi><mo>+</mo><mi>M</mi><mo>+</mo><mi>N</mi><mo>(</mo><mi>r</mi><mi>t</mi><mo>&minus;</mo><msup><mi>s</mi><mn>2</mn></msup><mo>)</mo><mo>=</mo><mn>0</mn> 
+                        </mrow></math>
+                    </formula>
                     où H, K, L, M, N contiennent x, y, z, p, q d'une manière quelconque. Mais avant
                     de la traiter en général, j'ai considéré le cas où il n'y aurait qu'une seule
                     dérivée du second ordre. J'ai montré que dans ce cas on pouvait reconnaître sur
@@ -205,64 +221,138 @@
                     second ordre à n'avoir qu'une dérivée de cet ordre, particulièrement pour
                     trouver des intégrales en intégrales définies. J'ai traité généralement des
                     moyens d'opérer cette transformation dans un autre mémoire. Dans le premier
-                    j'avais seulement parlé des avantages qu'on en retirerait. J'ai donc considéré
-                    l'équation ci-dessus, et j'ai montré que si &amp;alpha; représentait une
+                    j'avais seulement parlé des avantages qu'on en retirerait.</p>
+                <p>J'ai donc considéré
+                    l'équation ci-dessus, et j'ai montré que si &alpha; représentait une
                     quantité dont une intégrale sous forme finie put renfermer une fonction
-                    arbitraire, ou ce que j'ai prouvé être la même chose, une quantité telle qu'en
+                    arbitraire, ou ce que<pb n="38" facs="#ACAS_CRHST_AMP_26_393_bis_0007_v.jpg"/> j'ai prouvé être la même chose, une quantité telle qu'en
                     la prenant pour une des variables indépendantes, et pour fonction principale
                     soit l'ancienne fonction principale Z, soit une quantité u donnée en x, y, z, p,
-                    q, l'équation transformée du second ordre en u ne contint [pas] d2u  ; ---
-                    d&amp;alpha;2  ; il fallait que l'on eut en regardant comme constant et en
-                    faisant pour abréger K2 - HL + MN = G, ces deux équations auxquelles on doit
-                    joindre en prenant alternativement le signe + et le signe - de &amp;radic;G, on
-                    a deux systèmes correspondant aux deux quantités et dont se composent les deux
-                    fonctions arbitraires. Ils se réduisent à un seul quand G, c'est-à-dire K2 - HL
-                    + MN = 0. On considère ordinairement ces deux systèmes comme étant aux
+                    q, l'équation transformée du second ordre en u ne contint par 
+                    <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><msup><mi>d</mi><mn>2</mn></msup><mi>u</mi></mrow>
+                        <mrow><msup><mrow><mi>d</mi><mi>&alpha;</mi></mrow><mn>2</mn></msup></mrow></mfrac></mrow></math>
+                    </formula> il fallait que l'on eut en regardant comme constant et en
+                    faisant pour abréger <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mi>K</mi><mn>2</mn></msup><mo>&minus;</mo><mi>H</mi><mi>L</mi><mo>+</mo><mi>M</mi><mi>N</mi><mo>=</mo><mi>G</mi></mrow></math>
+                    </formula>, ces deux équations 
+                    <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>N</mi><mfrac><mrow><mi>d</mi><mi>q</mi></mrow>
+                        <mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>+</mo><mi>H</mi><mfrac><mrow><mi>d</mi><mi>y</mi></mrow>
+                        <mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>&minus;</mo><mi>K</mi><mo>&plusmn;</mo><msqrt><mi>G</mi></msqrt><mo>=</mo><mn>0</mn></mrow></math>
+                    </formula><lb/>
+                    <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>H</mi><mfrac><mrow><mi>d</mi><mi>p</mi></mrow>
+                            <mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>+</mo><mo>(</mo><mi>K</mi><mo>&plusmn;</mo><msqrt><mi>G</mi></msqrt><mo>)</mo><mfrac><mrow><mi>d</mi><mi>q</mi></mrow>
+                                <mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>+</mo><mi>M</mi><mo>=</mo><mn>0</mn></mrow></math>
+                    </formula>auxquelles on doit
+                    joindre 
+                    <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mi>d</mi><mi>z</mi></mrow>
+                        <mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>&minus;</mo><mi>p</mi><mo>&minus;</mo><mi>q</mi><mfrac><mrow><mi>d</mi><mi>y</mi></mrow>
+                        <mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>+</mo><mo>=</mo><mn>0</mn></mrow></math>
+                    </formula><lb/>en prenant alternativement le signe + et le signe &minus; de <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msqrt><mi>G</mi></msqrt></mrow></math>
+                    </formula>, on
+                    a deux systèmes correspondant aux deux quantités &alpha; et &beta; et dont se composent les deux
+                    fonctions arbitraires. Ils se réduisent à un seul quand G, c'est-à-dire<formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mi>K</mi><mn>2</mn></msup><mo>&minus;</mo><mi>H</mi><mi>L</mi><mo>+</mo><mi>M</mi><mi>N</mi><mo>=</mo><mn>0</mn></mrow></math>
+                    </formula>.</p>
+                <p>On considère ordinairement ces<pb n="39" facs="#ACAS_CRHST_AMP_26_393_bis_0008_r.jpg"/> deux systèmes comme étant aux
                     différentielles ordinaires, étant constant dans le premier et dans le second.
                     J'ai montré qu'on en avait une idée plus juste en les regardant comme aux
                     différentielles partielles, x et étant les deux variables indépendantes dans le
-                    premier, et x et dans le second. Cette considération conduit à plusieurs
-                    résultats remarquables dont le plus important est le suivant. En prenant on a
-                    deux équations qui avec en font trois relatives aux deux variables indépendantes
-                    x et . En prenant on en a deux autres où x et sont les deux indépendantes. Mais
-                    par les transformations connues, on peut les ramener à x et . On en trouve ainsi
-                    cinq où x et sont dans toutes les variables indépendantes, savoir : et ces cinq
-                    équations doivent déterminer y, z, p, q, , en fonction de x et . Cette
+                    premier, et x et dans le second.</p>
+                <p>Cette considération conduit à plusieurs
+                    résultats remarquables dont le plus important est le suivant.</p>
+                <p>En prenant <formula>
+                    <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mo>+</mo><msqrt><mi>G</mi></msqrt></mrow></math>
+                </formula> on a
+                    deux équations qui avec 
+                    <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mi>d</mi><mi>z</mi></mrow>
+                        <mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>&minus;</mo><mi>p</mi><mo>&minus;</mo><mi>q</mi><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mn>0</mn></mrow></math>
+                    </formula> en font trois relatives aux deux variables indépendantes
+                    x et &alpha;. En prenant <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mo>+</mo><msqrt><mi>G</mi></msqrt></mrow></math>
+                    </formula> on a deux autres où x et &beta; sont les deux indépendantes. Mais
+                    par les transformations connues, on peut les ramener à x et &alpha;. On en trouve ainsi
+                    cinq où x et &alpha; sont dans toutes les variables indépendantes, savoir :<lb/>
+                    <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mi>d</mi><mi>z</mi></mrow>
+                        <mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>&minus;</mo><mi>p</mi><mo>&minus;</mo><mi>q</mi><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>=</mo><mn>0</mn></mrow></math>
+                    </formula>,<lb/>
+                    <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>N</mi><mfrac><mrow><mi>d</mi><mi>q</mi></mrow>
+                        <mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>+</mo><mi>H</mi><mfrac><mrow><mi>d</mi><mi>y</mi></mrow>
+                        <mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>&minus;</mo><mi>K</mi><mo>&minus;</mo><msqrt><mi>G</mi></msqrt><mo>=</mo><mn>0</mn></mrow></math>
+                    </formula>,<lb/>
+                    <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>H</mi><mfrac><mrow><mi>d</mi><mi>p</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>+</mo><mo>(</mo><mi>K</mi><mo>&minus;</mo><msqrt><mi>G</mi></msqrt><mo>)</mo>
+                        <mfrac><mrow><mi>d</mi><mi>q</mi></mrow>
+                        <mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>+</mo><mi>M</mi><mo>=</mo><mn>0</mn></mrow></math>
+                    </formula>,<lb/>
+                    <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mo>(</mo><mi>N</mi><mfrac><mrow><mi>d</mi><mi>q</mi></mrow>
+                        <mrow><mi>d</mi><mi>&alpha;</mi></mrow></mfrac><mo>+</mo><mi>H</mi><mfrac><mrow><mi>d</mi><mi>y</mi></mrow>
+                            <mrow><mi>d</mi><mi>&alpha;</mi></mrow></mfrac><mo>)</mo><mfrac><mrow><mi>d</mi><mi>&beta;</mi></mrow>
+                            <mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>&minus;</mo><mn>2</mn><msqrt><mi>G</mi></msqrt><mo>&dot;</mo><mfrac><mrow><mi>d</mi><mi>&beta;</mi></mrow>
+                            <mrow><mi>d</mi><mi>&alpha;</mi></mrow></mfrac><mo>=</mo><mn>0</mn></mrow></math>
+                    </formula>,
+                    
+                    <pb n="40" facs="#ACAS_CRHST_AMP_26_393_bis_0009_v.jpg"/>
+                    <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mo>(</mo><mi>H</mi><mfrac><mrow><mi>d</mi><mi>p</mi></mrow>
+                        <mrow><mi>d</mi><mi>&alpha;</mi></mrow></mfrac><mo>+</mo><mo>(</mo><mi>K</mi><mo>+</mo><msqrt><mi>G</mi></msqrt><mo>)</mo><mfrac><mrow><mi>d</mi><mi>q</mi></mrow>
+                        <mrow><mi>d</mi><mi>&alpha;</mi></mrow></mfrac><mo>)</mo><mfrac><mrow><mi>d</mi><mi>&beta;</mi></mrow>
+                        <mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>&minus;</mo><mn>2</mn><msqrt><mi>G</mi></msqrt><mo>&dot;</mo><mfrac><mrow><mi>d</mi><mi>q</mi></mrow>
+                        <mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo>&dot;</mo><mfrac><mrow><mi>d</mi><mi>&beta;</mi></mrow>
+                        <mrow><mi>d</mi><mi>&alpha;</mi></mrow></mfrac><mo>=</mo><mn>0</mn></mrow></math>
+                    </formula>
+                    et ces cinq
+                    équations doivent déterminer y, z, p, q, , en fonction de x et &alpha;. Cette
                     détermination n'est pas possible en général, mais comme il suffit d'en tirer une
-                    relation entre x, y, z, , et , pour arriver à l'intégrale dans un grand nombre
+                    relation entre x, y, z, , &alpha; et &beta;, pour arriver à l'intégrale dans un grand nombre
                     de cas, et qu'elles ont encore d'autres usages expliqués dans mon mémoire. On
                     peut les regarder comme un des points importants de la théorie des équations aux
                     différentielles partielles. La lecture du mémoire et les exemples que j'ai
                     intégrés par leur moyen peuvent seuls donner une idée du parti qu'on en peut
-                    tirer. Ces résultats ne fournissant pas encore de méthode générale, j'ai pris
+                    tirer.</p>
+                <p>Ces résultats ne fournissant pas encore de méthode générale, j'ai pris
                     une autre route dans deux autres mémoires que j'ai présentés depuis à
-                    l'<orgName>Institut</orgName>. Dans l'un, à l'imitation de la transformation qu'a donnée M.
-                    <persName>Legendre</persName>, et où il prend px + qy - z pour la fonction principale et conduit par
-                    ces considérations [coupure] examiner la manière dont [coupure] nouvelles
-                    fonctions arbitraires [coupure) de celles de l'intégrale [coupure] chaque
-                    différenciation. J'en [déduis] des théorèmes qui ne l'avaient jamais été. En
+                    l'<orgName>Institut</orgName>.</p>
+                <p>Dans l'un, à l'imitation de la transformation qu'a donnée M.
+                    <persName>Legendre</persName>, et où il prend <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>p</mi><mi>x</mi><mo>+</mo><mi>q</mi><mi>y</mi><mo>&minus;</mo><mi>z</mi></mrow></math>
+                    </formula> pour la fonction principale et<pb n="41" facs="#ACAS_CRHST_AMP_26_393_bis_0010_r.jpg"/> conduit par
+                    ces considérations <gap reason="lacune"/> examiner la manière dont <gap reason="lacune"/> nouvelles
+                    fonctions arbitraires <gap reason="lacune"/> de celles de l'intégrale <gap reason="lacune"/> chaque
+                    différenciation. J'en <gap reason="lacune"/> des théorèmes qui ne l'avaient jamais été. En
                     voici quelques uns des plus remarquables pour le cas où les fonctions
-                    arbitraires ne sont pas [coupure -ées] sous des signes d'intégrations partielles
-                    et ne sont pas composées d'une seule variable indépendante, comme seraient x ou
-                    y. Je démontre dans ce cas : 1. que dans le passage d'un ordre de
+                    arbitraires ne sont pas <gap reason="lacune"/> sous des signes d'intégrations partielles
+                    et ne sont pas composées d'une seule variable indépendante, comme seraient &phi;x ou
+                    &psi;y.</p>
+                <p>Je démontre dans ce cas :<lb/>
+                    <list><item n="1">. que dans le passage d'un ordre de
                     différentielles à l'ordre suivant, une nouvelle arbitraire ne peut paraître dans
                     une dérivée, sans entrer dans les valeurs de toutes les autres dérivées du même
-                    ordre. 2. que dès qu'il en a paru une dans les dérivées d'un certain ordre, il
-                    en parait nécessairement une nouvelle dans chacun des ordres suivants. 3. qu'il
-                    n'en peut jamais paraître à chaque passage d'un ordre [coupure] suivant
-                    qu'autant que [coupure] contient de fonctions [coupure] indépendantes entre
-                    elles. [coupure] seraient probablement [coupure ?] difficiles à démontrer
+                    ordre.</item> <item n="2">. que dès qu'il en a paru une dans les dérivées d'un certain ordre, il
+                    en parait nécessairement une nouvelle dans chacun des ordres suivants.</item> <item n="3">. qu'il
+                        n'en peut jamais paraître à chaque passage d'un ordre<pb n="42" facs="#ACAS_CRHST_AMP_26_393_bis_0011_v.jpg"/> <gap reason="lacune"/> suivant
+                    qu'autant que <gap reason="lacune"/> contient de fonctions <gap reason="lacune"/> indépendantes entre
+                    elles.</item></list> <gap reason="lacune"/> seraient probablement <gap reason="lacune"/> difficiles à démontrer
                     rigoureusement si l'on conservait x et y pour variables indépendantes. J'ai
-                    trouvé le moyen d'en rendre les démonstrations très [simples] en prenant la
-                    quantité dont [se] compose une des fonctions arbitraires pour variable
+                    trouvé le moyen d'en rendre les démonstrations très <supplied>simples </supplied>en prenant la
+                    quantité dont <supplied>se </supplied>compose une des fonctions arbitraires pour variable
                     indépendante. Obligé d'avoir recours aux formules pour changer les variables
                     indépendantes, j'ai donné ces formules sous une nouvelle forme et je les ai
                     démontrées d'une manière plus simple et plus appropriée aux applications que
-                    j'avais à en faire. Je m'en suis servi ensuite pour démontrer que les quantités
+                    j'avais à en faire.</p>
+                <p>Je m'en suis servi ensuite pour démontrer que les quantités
                     dont peuvent être composées des fonctions arbitraires, non comprises sous des
                     signes d'intégration partielle, satisfont nécessairement à des équations aux
                     différentielles partielles du premier ordre telles que toute fonction d'une
-                    quantité qui y satisfait, y satisfait [inachevé]</p>
+                    quantité qui y satisfait, y satisfait <gap reason="lacune"/></p>
             </div>
         </body>
     </text>

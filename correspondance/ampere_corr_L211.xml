@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -144,7 +145,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -193,7 +194,7 @@
                est bonne, enrhumée,</del> <add>comme<lb/>
                ta maman est bonne</add>
           </subst> d'avoir soin la nuit de notre<lb/>
-               petit enrhumé ! <ref>(1)</ref> <del>Dis bien<lb/>
+               petit enrhumé ! <ref target="#corresp2">(2)</ref> <del>Dis bien<lb/>
                   à ma
                sœur <persName ref="#pers_C125">élise</persName> combien<lb/>
                   je suis affligé de son mal de<lb/> dents <add>et d'oreilles</add> ! Est-il
@@ -201,7 +202,8 @@
                   ait que moi qui se porte bien ?</del>
           <lb/>
                Je m'en voudrais <del>si ma santé</del> <add>de bien me porter si<lb/>
-               cela</add> n'était pas utile à nos intérêts.<lb/>
+               cela</add> n'était pas utile à nos intérêts.</p>
+            <p>
                Je pense que tu as reçu aujourd'hui<lb/>
                7 louis par
                <persName ref="#pers_P457">Pochon</persName>. En voilà 27<lb/>
@@ -222,7 +224,8 @@
                   au bout de ma plume<lb/>
                   sans faire attention si<lb/>
                   le sens
-               a quelque liaison.<lb/>
+               a quelque liaison.</del></p>
+               <p><del>
                   Tu me <choice>
               <sic>demande</sic> <corr>demandes</corr>
             </choice> si j'ai reçu<lb/>
@@ -298,7 +301,8 @@
           </subst>
           <lb/>
                probablement <del>que ceux<lb/>
-                  qui auront le titre d'</del> <add>qu'aux jeunes gens</add> élèves<lb/> de l'école centrale.
+                  qui auront le titre d'</del> <add>qu'aux jeunes gens</add> élèves<lb/> de l'école centrale.</p>
+            <p>
                <pb n="1376" facs="#ACAS_CRHST_AMP_26_393_quarto_0648_r.jpg"/>
                J'ai vu dans
                la lettre de <persName ref="#pers_P443">Marsil</persName>
@@ -357,7 +361,8 @@
       </body>
       <back>
          <div>
-            <note xml:id="corresp1">(1) Six pages 16 x 22, avec adresse à la fin. Timbre du 16. (2)
+            <note xml:id="corresp1">(1) Six pages 16 x 22, avec adresse à la fin. Timbre du 16.</note>
+            <note xml:id="corresp2">(2)
                Lettre de <persName ref="#pers_C129">Julie</persName> du <date when="1803-02-01">1er février</date>, Lettre 0209. </note>
          </div>
       </back>

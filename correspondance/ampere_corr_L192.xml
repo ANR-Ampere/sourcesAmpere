@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -143,7 +144,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -379,7 +380,7 @@
                remettra mon gilet<lb/>
                   de pékin et mon pantalon<lb/>
                   avec cette lettre. Porte-toi bien,<lb/>
-                  ma bien-aimée et aime<lb rend="hyphen"/>moi autant que mon petit ! Je<lb/>
+                  ma bien-aimée et aime<lb/>moi autant que mon petit ! Je<lb/>
                   serai content. Baisez-vous <add>tous deux</add> pour moi !</del>
         </p>
             <p>
@@ -430,7 +431,7 @@
           </choice>
                de<lb/>
                quoi donner des étrennes au tiers<lb/>
-               et au quart <ref>(2)</ref>. Quand j'irai recevoir<pb n="1062" facs="#ACAS_CRHST_AMP_26_393_quarto_0334_v.jpg"/>
+               et au quart <ref target="#corresp2">(2)</ref>. Quand j'irai recevoir<pb n="1062" facs="#ACAS_CRHST_AMP_26_393_quarto_0334_v.jpg"/>
                les 2350 l<ex>ivre</ex>s, je pourrai faire ferrer<lb/>
                ma mule tout à mon aise. <del>Au<lb/>
                reste, si les livres de
@@ -484,7 +485,8 @@
       <back>
          <div>
             <note xml:id="corresp1">(1) Dix pages 17 x 22 ; adresse à la fin sans timbre. Quelques
-               passages ont été publiés par Mme <persName>Cheuvreux</persName>, p. 267, 268 et 271. (2) Voir la lettre du
+               passages ont été publiés par Mme <persName>Cheuvreux</persName>, p. 267, 268 et 271.</note>
+            <note xml:id="corresp2">(2) Voir la lettre du
               <date when="1802-12-17">17 décembre</date> p. 214. </note>
          </div>
       </back>

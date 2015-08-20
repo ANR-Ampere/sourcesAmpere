@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -145,7 +146,7 @@
           <persName type="adressee">Carron-Ampère, Julie (1ère femme
                         d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -249,7 +250,7 @@
                J'aurai tout mon temps à<lb/>
                <placeName>Lyon</placeName>, ou encore
                mieux<lb/>
-               à la campagne <ref>(2)</ref>. <del>J'espère que<lb/>
+               à la campagne <ref target="#corresp2">(2)</ref>. <del>J'espère que<lb/>
                la rougeole n'y sera plus si<lb/>
                forte la semaine
                prochaine.</del>
@@ -312,7 +313,8 @@
           </orgName>, vu la présentation de la IIe Commission des Inspecteurs généraux des Études,
                sur le rapport du Ministre de l'Intérieur. Il quitta <placeName>Bourg</placeName> définitivement le <date when="1803-04-17">17 avril</date>
                (date donnée par le journal de la mort de <persName ref="#pers_C129">Julie</persName>). Mme <persName>Cheuvreux</persName> a publié cette
-               lettre, p. 312. (2) Le <date when="1803-05-16">16 mai 1803</date>, <persName ref="#pers_A366">Ampère</persName> présenta ce second mémoire à l'<orgName>Institut</orgName>
+               lettre, p. 312.</note>
+            <note xml:id="corresp2">(2) Le <date when="1803-05-16">16 mai 1803</date>, <persName ref="#pers_A366">Ampère</persName> présenta ce second mémoire à l'<orgName>Institut</orgName>
                sur l'intégration des équations différentielles. </note>
          </div>
       </back>

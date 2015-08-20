@@ -1,4 +1,5 @@
-<?xml-model href="../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -140,7 +141,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -212,7 +213,7 @@
                ouvrage sur le jeu <ref type="ouvrages_mentionnes" target="#ampere_ref_P378.xml">*</ref> ; j'ai<lb/>
                été nommé membre de<lb/>
                cette société à
-               l'unanimité <ref>(2)</ref>
+               l'unanimité <ref target="#corresp2">(2)</ref>
           <lb/>
                et M. <persName ref="#pers_L339">de Lalande</persName>, qui en<pb n="1198" facs="#ACAS_CRHST_AMP_26_393_quarto_0470_r.jpg"/>
                est aussi, a été nommé<lb/>
@@ -243,7 +244,7 @@
           <lb/>
                Tandis que je fus hier chez<lb/>
                <persName ref="#pers_P457">Pochon</persName>, on m'apporta ta<lb/>
-               lettre au collège <ref>(3)</ref>. Mme
+               lettre au collège <ref target="#corresp3">(3)</ref>. Mme
                <persName ref="#pers_M387">Mermet</persName>
           <lb/>
                la reçut et me l'a remise.<pb n="1199" facs="#ACAS_CRHST_AMP_26_393_quarto_0471_v.jpg"/>
@@ -318,7 +319,7 @@
                je tâcherai de gagner quand<lb/>
                j'en aurai le <choice>
             <sic>tems</sic> <corr>temps</corr>
-          </choice> <ref>(4)</ref>. C'est
+          </choice> <ref target="#corresp4">(4)</ref>. C'est
                précisément<pb n="959" facs="#ACAS_CRHST_AMP_26_393_quarto_0231_r.jpg"/>
                le sujet que je traitais dans<lb/>
                l'ouvrage sur la physique<lb/>
@@ -366,13 +367,15 @@
       <back>
          <div>
             <note xml:id="corresp1">(1) Lettre où il paraît manquer un feuillet. Mme <persName>Cheuvreux</persName> en a
-               publié quelques lignes pages 241 et le paragraphe sur le prix, page 239. (2) L'acte
+               publié quelques lignes pages 241 et le paragraphe sur le prix, page 239.</note>
+           <note xml:id="corresp2">(2) L'acte
                de nomination à la <orgName>société d'émulation</orgName> est du <date when="1802-07-26">26 juillet</date>. Il est adressé à M. <persName ref="#pers_A366">Ampère</persName>,
                professeur de physique, émule de l'<orgName>Athénée de <placeName>Lyon</placeName>
-          </orgName> et signé <persName ref="#pers_R488">Thomas Riboud</persName>. (3) Lettre
-               p.179-180. (4) Voir la reproduction de cette lettre, pl. IX. </note>
-            <note resp="CAK_commentaire">Les pages du manuscrit sont dispersées dans plusieurs
-               chemises, et à l'intérieur de la chemise 393 quarto.</note>
+          </orgName> et signé <persName ref="#pers_R488">Thomas Riboud</persName>.</note>
+           <note xml:id="corresp3">(3) Lettre
+               p.179-180.</note>
+           <note xml:id="corresp4">(4) Voir la reproduction de cette lettre, pl. IX. </note>
+           
          </div>
       </back>
    </text>

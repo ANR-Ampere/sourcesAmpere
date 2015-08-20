@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -138,7 +139,7 @@
           <persName type="adressee" ref="#pers_A366">Ampère,
                         André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -160,7 +161,7 @@
       <body>
          <div>
             <opener>
-          <date when="1802-07-23">Vendredi [23 juillet 1802]</date>
+               <pb n="188" facs="#ACAS_CRHST_AMP_24_332_0188_r.jpg"/>Du<date when="1802-07-23">Vendredi [23 juillet 1802]</date>
         </opener>
             <p>
           <gap reason="lacune_CGA"/> Tu auras vu par ma dernière lettre que je
@@ -172,24 +173,27 @@
                la crainte de ne pas être aussi bien là-bas qu'ici. C'est dans un petit lit,
                peut-être plein de punaises, où j'entendrai du bruit de tous côtés. Je suis dans une
                incertitude bien pénible. Demain, si je suis mieux, je partirai ; sinon je ferai
-               dédit pour la chambre et une dizaine de francs seront autant de perdu. Mon bon ami,
+               dédit pour<pb n="189" facs="#ACAS_CRHST_AMP_24_332_0189_v.jpg"/> la chambre et une dizaine de francs seront autant de perdu. Mon bon ami,
                que je suis à plaindre de ne pouvoir faire un projet d'un jour à l'autre ! <gap reason="lacune_CGA"/> Tu me dis que tu passeras deux mois bien heureux
                près de ta femme et de ton petit, si je te dis toutes mes pensées et si je t'aime
                toujours. Ah, mon pauvre ami, mes pensées sont d'un genre assez triste et monotone.
-               Car, lorsqu'on est toujours forcée de penser à sa personne pour ne pas éprouver de
+               Car, lorsqu'on est toujours forcée de penser à sa personne pour ne<pb n="190" facs="#ACAS_CRHST_AMP_24_332_0190_r.jpg"/> pas éprouver de
                maux cuisants, on est bien peu agréable et l'esprit se ressent toujours des
                souffrances du corps. Quant à mes sentiments, je ne change pas plus pour toi que pour
                tous ceux que j'aime. Je te l'ai dit mille fois ; tu es mon meilleur ami, celui à qui
                j'aime à ouvrir mon cœur. Tu t'en apercevras par mes lettres ; car je ne sais pas
                cacher que je suis chagrine de ne voir aucun changement à ma pauvre santé. Adieu mon
                fils, je t'embrasse de bon cœur. Dis-moi ce que tu penses de ce que dit <persName ref="#pers_N416">Bonaparte</persName>
-               pour le galvanisme <ref>(2)</ref>.</p>
+               pour le galvanisme <ref target="#corresp2">(2)</ref>.</p>
+            <p>Si tu as le temps écris à <persName>Marsil</persName> et remercie mon cousin <gap reason="illisible"/> de l'empressement qu'il a mis à t'envoyer de suite cette copie. Adieu mon cher, ton petit se porte bien c'est ma consolation ainsi que ta tendresse et celle de mes autres amis.</p>
+            <closer>Au citoyen <persName>Ampère</persName> professeur de physique à l'<orgName>école centrale du département de l'<placeName>Ain</placeName></orgName> à <placeName>Bourg</placeName></closer>
          </div>
       </body>
       <back>
          <div>
             <note xml:id="corresp1">(1) Trois pages et adresse à <placeName>Bourg</placeName>. Trois passages ont été
-               publiés par Mme <persName>Cheuvreux</persName>, p.235, 236 et 237. (2) Voir lettre p.181-182. </note>
+               publiés par Mme <persName>Cheuvreux</persName>, p.235, 236 et 237.</note>
+            <note xml:id="corresp2">(2) Voir lettre p.181-182. </note>
          </div>
       </back>
    </text>

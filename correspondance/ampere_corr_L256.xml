@@ -1,4 +1,5 @@
-<?xml-model href="ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -137,7 +138,7 @@
         <correspAction type="received">
           <persName type="adressee">Clerc, François</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -166,10 +167,11 @@
                vous préféraient à <persName>Guidy</persName>, le censeur peut-être aussi ; vous devriez leur écrire à
                tous trois, et à tout ce que vous pouvez avoir de protection à <placeName ref="#pl_P6">Paris</placeName>. N'oubliez pas
                des lettres à <persName ref="#pers_F249">Fourcroy</persName> et aux inspecteurs ! écrivez-moi à <placeName ref="#pl_P6">Paris</placeName>, soit à mon ancienne
-               adresse, soit à l'<orgName ref="#org_E4">école Polytechnique</orgName> <ref>(2)</ref>. Vous devriez envoyer à <placeName ref="#pl_P6">Paris</placeName> quelque
+               adresse, soit à l'<orgName ref="#org_E4">école Polytechnique</orgName> <ref target="#corresp2">(2)</ref>. Vous devriez envoyer à <placeName ref="#pl_P6">Paris</placeName> quelque
                ouvrage. J'ai remis votre mémoire à M. <persName ref="#pers_R501">Roux</persName> qui m'a donné sa parole de faire tout son
                possible pour que vous soyez nommé correspondant de l'<orgName ref="#org_A15">Académie</orgName> à la première
-               occasion. Remerciez-le en lui écrivant. Je vous embrasse mille fois, et je vous prie
+               occasion. Remerciez-le en lui écrivant.</p>
+            <p>Je vous embrasse mille fois, et je vous prie
                de me rappeler au souvenir de <persName>Mme Clerc</persName>. <persName ref="#pers_A366">A. AMPÈRE</persName>
         </p>
          </div>
@@ -177,7 +179,8 @@
       <back>
          <div>
             <note xml:id="corresp1">(1) Coll. L. <persName>De Launay</persName>. Deux pages 18 x 22,5. Adresse sur la
-               dernière. (2) Il n'a logé à l'<orgName ref="#org_E4">École Polytechnique</orgName> qu'au bout d'un mois. Voir la
+               dernière.</note>
+            <note xml:id="corresp2">(2) Il n'a logé à l'<orgName ref="#org_E4">École Polytechnique</orgName> qu'au bout d'un mois. Voir la
                Lettre 0257. </note>
          </div>
       </back>

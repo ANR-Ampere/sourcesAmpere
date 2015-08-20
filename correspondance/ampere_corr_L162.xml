@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -147,7 +148,7 @@
           <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme
                                 d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -291,7 +292,7 @@
                     amie,<lb/>
                     qu'il y a eu hier trois<lb/>
                     ans que tu as fait mon<lb/>
-                    bonheur ? <ref>(2)</ref> Que ces trois ans<lb/>
+                    bonheur ? <ref target="#corresp2">(2)</ref> Que ces trois ans<lb/>
                     se sont vite écoulés ! Que<lb/>
                     tu as éprouvé de peine,<lb/>
                     et que je t'ai rendu de fois<lb/>
@@ -318,7 +319,7 @@
                     Le petit
                     aura deux a<supplied>ns</supplied>
           <lb/>
-                    jeudi <ref>(3)</ref>. Je te remercie, ma<lb/>
+                    jeudi <ref target="#corresp3">(3)</ref>. Je te remercie, ma<lb/>
                     bonne amie, de me l'avoir<lb/>
                     donné. Je voudrais bien<lb/>
                     le baiser ce jour-là. Promets<lb rend="hyphen"/>moi de le baiser jeudi matin pour
@@ -328,7 +329,7 @@
                     amie, ma <persName ref="#pers_C129">Julie</persName>, bien
                     inquiet<lb/>
                     de ta santé. J'ai reçu ta dernière<lb/>
-                    lettre qui redouble mes<lb/>
+                    lettre <ref target="#corresp4">(4)</ref> qui redouble mes<lb/>
                     inquiétudes. J'y répondrai<lb/>
                     par <persName ref="#pers_P457">Pochon</persName> ; car je crains<lb/>
                     de manquer aujourd'hui<lb/>
@@ -350,8 +351,11 @@
             <div>
                 <note xml:id="corresp1">(1) Huit pages 17 x 22. Adresse et timbre de <placeName>Bourg</placeName> sur la
                     dernière. Mme <persName>Cheuvreux</persName> a publié, p. 252 et 253, une grande partie de cette
-                    lettre. (2) Mariage le <date when="1799-08-06">6 août 1799</date>. (3) Naissance de <persName ref="#pers_A10">Jean-Jacques Ampère</persName> le <date when="1800-08-12">12
-                    août 1800</date>. (4) Lettre du <date when="1802-08-06">6 août</date>. </note>
+                    lettre.</note>
+                <note xml:id="corresp2">(2) Mariage le <date when="1799-08-06">6 août 1799</date>.</note>
+                <note xml:id="corresp3">(3) Naissance de <persName ref="#pers_A10">Jean-Jacques Ampère</persName> le <date when="1800-08-12">12
+                    août 1800</date>.</note>
+                <note xml:id="corresp4">(4) Lettre du <date when="1802-08-06">6 août</date>. </note>
             </div>
         </back>
     </text>

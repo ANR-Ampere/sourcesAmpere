@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -144,7 +145,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -181,14 +182,14 @@
           </choice> que me laissaient<lb/>
                mes quatre
                leçons : une de géométrie<lb/>
-               à 7 h<ex>eures</ex> et une d'arithmétique à<lb/>
+               à 7 h et une d'arithmétique à<lb/>
                11 pour le compte de MM.<lb/>
                <persName ref="#pers_D219">Dupras</persName> et <persName ref="#pers_O425">Olivier</persName> ; une au<lb/>
                petit <persName ref="#pers_B64">Blanchard</persName> à 18 <gap reason="illisible"/> qui suit<lb/>
                celle de géométrie et
                me tient<lb/>
                jusqu'à 9 h. 1/2 ; enfin ma leçon<lb/>
-               publique de 4 h<ex>eures</ex> à 6 h<ex>eures</ex>, dont les<lb/>
+               publique de 4 h à 6 h, dont les<lb/>
                préparatifs me prennent<lb/>
                encore beaucoup de <choice>
             <sic>tems</sic> <corr>temps</corr>
@@ -205,7 +206,7 @@
                corriger. J'y consacre toute<lb/>
                ma soirée et, comme
                on<lb/>
-               soupe à 8 h<ex>eures</ex>, je ne peux souvent<lb/>
+               soupe à 8 h, je ne peux souvent<lb/>
                l'achever qu'après <choice>
             <sic>soupé</sic> <corr>souper</corr>
           </choice>. J'aurai<lb/>
@@ -265,7 +266,7 @@
                M. <persName ref="#pers_C160">Coste</persName> te remettra deux<lb/>
                mille francs à compte sur le<lb/>
                billet que
-               voici <ref>(2)</ref>. Surtout si c'est<lb/>
+               voici <ref target="#corresp2">(2)</ref>. Surtout si c'est<lb/>
                <persName ref="#pers_P443">Marsil</persName> qui a la complaisance<lb/>
                d'aller chercher l'argent,
                il est<pb n="1459" facs="#ACAS_CRHST_AMP_26_393_quarto_0731_v.jpg"/>
@@ -301,7 +302,8 @@
       <back>
          <div>
             <note xml:id="corresp1">(1) Quatre pages 18 x 24, adresse à la fin. Un passage a été
-               publié par Mme <persName>Cheuvreux</persName>, p. 265. (2) D'après le contrat de mariage d'<persName ref="#pers_A366">Ampère</persName>, ce M.
+               publié par Mme <persName>Cheuvreux</persName>, p. 265.</note>
+            <note xml:id="corresp2">(2) D'après le contrat de mariage d'<persName ref="#pers_A366">Ampère</persName>, ce M.
                <persName ref="#pers_G289">Guérin</persName> devait 5000 francs à <persName ref="#pers_A366">Ampère</persName> et 5000 à sa mère dont il paya 2000 en acompte le
                <date when="1802-11-24">24 novembre</date> et dont nous allons le voir s'engager à acquitter le solde en <date from="1803-04-21" to="1803-05-20" calendar="revolutionary">floréal
                   (avril)</date>. Mais, par contre, Mme <persName ref="#pers_A12">Ampère mère</persName> avait eu recours à la complaisance de M.

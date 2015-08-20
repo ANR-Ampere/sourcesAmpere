@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -133,7 +134,7 @@
         <correspAction type="received">
           <persName type="adressee">Bredin, Claude-Julien</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,7 +162,8 @@
                sort est fixé ; il m'attache à <placeName>Paris</placeName>, c'est-à-dire loin de vous. Cette idée trouble
                mon bonheur, mais aucune affection ne pourra diminuer celle que vous m'inspirez. Plus
                le cœur s'ouvre à des sentiments tendres, plus ceux qui le possédaient déjà lui
-               deviennent chers. Vous vous emportez, je crois, bien mal à propos contre cette pauvre
+               deviennent chers.</p>
+            <p>Vous vous emportez, je crois, bien mal à propos contre cette pauvre
                métaphysique ; elle m'a rendu quelquefois la paix et le repos de l'âme et me paraîtra
                toujours un sujet trop digne d'étude pour l'abandonner. Au reste, soyez content, je
                ne puis m'en occuper maintenant : mes journées se passent sur d'arides calculs qui
@@ -176,8 +178,9 @@
                tourmente la vie ! Flotter entre les pensées les plus contraires et d'un jour à
                l'autre juger évident ce qu'on était si loin de croire la veille, voilà la situation
                d'esprit que m'a faite l'absence de ma mère, de mon fils, de mes amis, et tous mes
-               souvenirs chers et affreux ! Enfin, mon mariage est arrêté ; les paroles sont
-               données. Je vois tous les soirs Mlle <persName>Potot</persName> <ref>(2)</ref>. Dans nos entretiens, son cœur semble
+               souvenirs chers et affreux !</p>
+            <p>Enfin, mon mariage est arrêté ; les paroles sont
+               données. Je vois tous les soirs Mlle <persName>Potot</persName> <ref target="#corresp2">(2)</ref>. Dans nos entretiens, son cœur semble
                avoir deviné le mien ; elle me préfère, dit-elle, à ce que le monde appelle un
                brillant parti. C'est M. <persName>Degérando</persName> qui a tout fait. Que j'aurais voulu vous avoir
                près de moi et vous confier mes anxiétés ! Mais plus de craintes aujourd'hui, je veux
@@ -190,7 +193,8 @@
       <back>
          <div>
             <note xml:id="corresp1">(1) D'après Mme <persName>Cheuvreux</persName>, p. 38. La date de <date when-iso="1807">1807</date> qu'elle a
-               donnée est fausse, les fiançailles avec <persName>Mlle Potot</persName> étant du <date when="1806-04-23">23 avril 1806</date>. (2) M.
+               donnée est fausse, les fiançailles avec <persName>Mlle Potot</persName> étant du <date when="1806-04-23">23 avril 1806</date>.</note>
+            <note xml:id="corresp2">(2) M.
                <persName>Potot père</persName> était, d'après le contrat de mariage de sa fille, membre de l'<orgName>Académie de
                <placeName>Lyon</placeName>
           </orgName> et de la « <orgName>Société d'Agriculture et Arts libres </orgName>de la même ville. » Sa femme
@@ -203,7 +207,7 @@
             <quote>La maman t'aime de
                tout son cœur, ainsi que sa nouvelle fille qu'elle embrasse bien tendrement.</quote>
           </cit> Le <date when="1806-09-06">6
-               septembre 1806</date>, un mois après le mariage, la mère d'<persName>Ampère</persName> écrit à son fils : «...
+               septembre 1806</date>, un mois après le mariage, la mère d'<persName>Ampère</persName> écrit à son fils : <cit><quote>...
                Nous reçûmes jeudi le <date when="1806-09-04">4 septembre</date> la lettre où tu me parles de M. <persName>Dorlit</persName>, où il n'y
                avait pas un mot de ma fille. Ta sœur chercha une raison à ce silence ; elle
                prétendit que vous arriviez pour nous surprendre ; cette idée nous fit un plaisir que
@@ -212,7 +216,7 @@
                fils. Combien je dois vous aimer ! Que je serais heureuse si les idées de votre sœur
                [Joséphine] se réalisent et que je puisse vous voir et vous témoigner toute ma
                tendresse !... Tu ne me laisseras pas, mon cher ami, dans l'inquiétude de savoir ta
-               chère <persName>Jenny</persName> malade... » </note>
+               chère <persName>Jenny</persName> malade...</quote></cit> </note>
          </div>
       </back>
    </text>

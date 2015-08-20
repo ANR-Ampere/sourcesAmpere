@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -146,7 +147,7 @@
           <persName type="adressee">Carron-Ampère, Julie (1ère femme
                                 d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -182,7 +183,7 @@
                     table. J'ai reçu<lb/>
                     trois lettres, une de <persName>Marsil</persName>
           <lb/>
-                    et deux de ma <persName>Julie</persName> <ref>(2)</ref>. Que<lb/>
+                    et deux de ma <persName>Julie</persName> <ref target="#corresp2">(2)</ref>. Que<lb/>
                     j'ai
                     pleuré en lisant la<lb/>
                     dernière ! Il faut que je<lb/>
@@ -209,7 +210,7 @@
                         messidor</date> et que tu
                     croyais<lb/>
                     nécessaire que je restasse<lb/>
-                    loin de toi <ref>(3)</ref>,<lb/>
+                    loin de toi <ref target="#corresp3">(3)</ref>,<lb/>
                     elle me troubla<lb/>
                     tout
                     l'esprit. Je ne croyais<lb/>
@@ -297,7 +298,9 @@
         <back>
             <div>
                 <note xml:id="corresp1">(1) Quatre pages 17 x 22 ; adresse à la fin. Deux passages
-                    ont été publiés par Mme <persName>Cheuvreux</persName>, p. 299 et 300. (2) Lettres 0233 et 0234. (3)
+                    ont été publiés par Mme <persName>Cheuvreux</persName>, p. 299 et 300.</note>
+                <note xml:id="corresp2">(2) Lettres 0233 et 0234.</note>
+                <note xml:id="corresp3">(3)
                     Voir la Lettre 0231. </note>
             </div>
         </back>

@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -143,7 +144,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -219,7 +220,7 @@
                à le présenter. Ou bien <persName ref="#pers_B33">Ballanche</persName>
           <lb/>
                le lui redemanderait pour le<lb/>
-               faire présenter par M. de<pb n="84" facs="#ACAS_CRHST_AMP_26_392_0084_r.jpg"/> <gap reason="lacune"/> <ref>(2)</ref>, avec bien des
+               faire présenter par M. de<pb n="84" facs="#ACAS_CRHST_AMP_26_392_0084_r.jpg"/> <gap reason="lacune"/> <ref target="#corresp2">(2)</ref>, avec bien des
                <choice>
             <sic>menagemens</sic> <corr>ménagements</corr>
           </choice> pour<lb/>
@@ -274,7 +275,7 @@
             <sic>Monsieur<lb/>
                Monsieur</sic> <corr>Monsieur</corr>
           </choice> <persName>Richard</persName>,<lb/>
-               chez les <persName>frères Périsse</persName>,<lb/>
+               chez les <persName>frères Périsse</persName>,<lb/> 
                libraires, <placeName>grande rue Mercière,<lb/>
                   n°15</placeName>,
                pour remettre<lb/>
@@ -286,7 +287,8 @@
          <div>
             <note xml:id="corresp1">(1) Quatre pages 19,5 x 22 ; adresse à la fin. Timbre <placeName>Bourg</placeName> et 2
                (le second chiffre effacé), 25 prairial correspondrait au 14 juin. Mme <persName>Cheuvreux</persName> a
-               publié trois lignes, p. 241. Réponse à la lettre p.162-163. (2) de est à la fin du
+               publié trois lignes, p. 241. Réponse à la lettre p.162-163.</note>
+            <note xml:id="corresp2">(2) de est à la fin du
                verso et le nom manque, soit qu'<persName ref="#pers_A366">Ampère</persName> ait oublié de l'écrire, soit qu'il manque un
                feuillet intermédiaire, malgré la continuité apparente. </note>
          </div>

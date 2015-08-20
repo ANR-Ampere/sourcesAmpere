@@ -1,4 +1,5 @@
-<?xml-model href="ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -137,7 +138,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -181,7 +182,7 @@
                semaines ; mais je commence à craindre qu'il n'ait tout à fait oublié qu'il a un
                rapport à faire et je l'en ferai souvenir. J'ai appris avec plaisir les succès de
                votre lycée à l'extérieur et le nombre d'élèves qu'il compte, mais avec beaucoup de
-               chagrin le parti que M. <persName ref="#pers_B49">Béranger</persName> <ref>(2)</ref> a pris de se retirer. Instruit indirectement
+               chagrin le parti que M. <persName ref="#pers_B49">Béranger</persName> <ref target="#corresp2">(2)</ref> a pris de se retirer. Instruit indirectement
                qu'il avait donné sa démission, j'avais prié <persName ref="#pers_F249">Fourcroy</persName> de ne point l'accepter et il me
                témoigna penser absolument comme moi. Peu de temps après, M. <persName ref="#pers_B49">Béranger</persName> lui-même
                m'écrivit pour m'engager à faire agréer cette même démission, contre laquelle j'avais
@@ -194,7 +195,8 @@
                que j'avais prévu. <persName ref="#pers_F249">Fourcroy</persName> m'assura qu'il n'avait à sa disposition aucun fond, aucun
                moyen d'établir une pension, qu'on n'avait rien pu faire en ce genre, même pour les
                anciens professeurs les plus distingués de l'Université de <placeName ref="#pl_P6">Paris</placeName>. Ces raisons ne me
-               paraissaient que trop bonnes et je cessai mes sollicitations. J'ai appris par
+               paraissaient que trop bonnes et je cessai mes sollicitations.</p>
+            <p>J'ai appris par
                l'almanach national que M. <persName ref="#pers_B49">Béranger</persName> est remplacé par M. <persName>Cofrer</persName> que je ne connais
                point. Ce qui m'a surpris, c'est que la place de mathématiques élémentaires est vide
                et que je n'y vois pas le nom de M. <persName ref="#pers_G290">Guidi</persName> qui l'occupait. Il était ici pendant ses
@@ -207,25 +209,29 @@
                négligeai de lui répondre, parce que je n'avais malheureusement rien de favorable, ni
                d'utile à lui apprendre et que, surchargé de besogne comme je le suis presque
                toujours, je me vois obligé de manquer ainsi à mille petits devoirs que je sacrifie à
-               d'autres qui sont plus indispensables. Je ne vois encore pour le moment rien à
+               d'autres qui sont plus indispensables.</p>
+            <p>Je ne vois encore pour le moment rien à
                changer à ce que j'ai dit de vous à M. <persName>Bouchot</persName>, si ce n'est peut-être que les places
                vont être plus rares ici que je n'avais pensé. Le <orgName>Prytanée de <placeName>Paris</placeName>
           </orgName> a été converti en
                Lycée en conservant son directeur et ses professeurs. II paraît, d'après cela, qu'il
                n'y a plus que deux lycées à former au lieu de trois. Les écoles centrales continuent
-               toujours. Comment se porte l'aimable et bon docteur <persName ref="#pers_G274">Gilibert</persName> ? Qu'est devenue son
+               toujours.</p>
+            <p>Comment se porte l'aimable et bon docteur <persName ref="#pers_G274">Gilibert</persName> ? Qu'est devenue son
                intéressante collection ? A-t-il obtenu la maison qu'il demandait et qu'il voulait
                joindre au jardin botanique ? J'en ai parlé plusieurs fois au Ministre de l'Intérieur
                qui paraissait bien disposé, mais qui craignait des obstacles de la part du Ministre
                de la Guerre. Depuis que <persName ref="#pers_C141">Chaptal</persName> n'est plus notre président, je le vois un peu plus
                rarement et presque toujours trop entouré pour avoir avec lui des conversations bien
-               longues <ref>(3)</ref>.</p>
+               longues <ref target="#corresp3">(3)</ref>.</p>
             <closer>à <persName ref="#pers_A366">Ampère</persName>, professeur de mathématiques au <orgName ref="#org_L10">Lycée de Lyon</orgName>. </closer>
          </div>
       </body>
       <back>
          <div>
-            <note xml:id="corresp1">(1) <date when="1803-11-28">28 novembre</date>. (2) Proviseur du <orgName ref="#org_L10">Lycée de Lyon</orgName>. (3) Le bas de
+            <note xml:id="corresp1">(1) <date when="1803-11-28">28 novembre</date>.</note>
+            <note xml:id="corresp2">(2) Proviseur du <orgName ref="#org_L10">Lycée de Lyon</orgName>.</note>
+            <note xml:id="corresp3">(3) Le bas de
                la quatrième page, qui contenait la signature, a été coupé. </note>
          </div>
       </back>

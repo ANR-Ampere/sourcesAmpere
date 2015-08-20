@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -76,7 +77,7 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct xml:id="ampere_corr_L1803-03-14-a">
-                    <monogr xmlns="">
+                    <monogr>
                         <author>
                             <surname>De Launay</surname>
                             <forename>Louis</forename>
@@ -97,12 +98,12 @@
                     <witness xml:id="L233manuscrit">
             <msDesc type="original_manuscrit">
                             <msIdentifier>
-                                <country xmlns="">France</country>
-                                <settlement xmlns="">Paris</settlement>
-                                <institution xmlns="">Archives de l'Académie des
+                                <country>France</country>
+                                <settlement>Paris</settlement>
+                                <institution>Archives de l'Académie des
                                     sciences</institution>
-                                <repository xmlns="">Fonds André-Marie Ampère</repository>
-                                <idno xmlns="">chemise 332</idno>
+                                <repository>Fonds André-Marie Ampère</repository>
+                                <idno>chemise 332</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>Trois pages in-4° inversés et l'adresse à Bourg sur la
@@ -142,7 +143,7 @@
           <persName type="adressee">Ampère,
                                 André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -164,9 +165,9 @@
         <body>
             <div>
                 <opener>
-          <date when="1803-03-14">Lundi soir [14 mars 1803]</date>
+                    <pb n="288" facs="#ACAS_CRHST_AMP_24_332_0288_r.jpg"/>Du <date when="1803-03-14">Lundi soir [14 mars 1803]</date>
         </opener>
-                <p>Je t'écrivis vendredi, mon bon ami, et j'ai reçu depuis deux lettres de toi <ref>(2)</ref>
+                <p>Je t'écrivis vendredi, mon bon ami, et j'ai reçu depuis deux lettres de toi <ref target="#corresp2">(2)</ref>
                     qui m'ont bien fait penser qu'on fait toujours mal de décider pour deux
                     lorsqu'on ne peut pas se communiquer ensemble. Je ferais ce que tu me dis pour
                     le dédit et le bail s'il n'était pas déjà passé pour ton compte et <persName>Marsil</persName> a
@@ -177,20 +178,24 @@
                     flatte, et la personne qui le quitte est bien ennuyée de s'en aller. C'est par
                     raison de commerce. Au reste, c'est fait et, ne sachant rien de ce qui peut nous
                     arriver, étant forcés d'ôter nos meubles à la <date>Saint-Jean</date>, je ne chercherais pas
-                    avant ce temps-là à nous en défaire... Parlons du <orgName>Lycée</orgName> ! J'espère bien que tu y
-                    seras. M. <persName>de Jussieu</persName> a écrit à M. <persName>Bernard</persName> que ton ouvrage <ref xmlns="" target="#ampere_ref_378.xml">*</ref> avait été bien goûté à <placeName>Paris</placeName>, que celui
-                    qui remplace <persName>Delambre</persName> est un de ses amis intimes qui lui a promis de te faire
-                    nommer si tu ne l'étais pas déjà. Voilà ce que je sais de nouveau et que le
+                    avant ce temps-là à nous en défaire <gap reason="lacune_CGA"/><pb n="289" facs="#ACAS_CRHST_AMP_24_332_0289_r.jpg"/><gap reason="lacune_CGA"/></p>
+                <p>Parlons du <orgName>Lycée</orgName> ! J'espère bien que tu y
+                    seras. M. <persName>de Jussieu</persName> a écrit à M. <persName>Bernard</persName> que ton ouvrage <ref target="#ampere_ref_378.xml">*</ref> avait été bien goûté à <placeName>Paris</placeName>, que celui
+                    qui remplace <persName>Delambre</persName> est un<pb n="290" facs="#ACAS_CRHST_AMP_24_332_0290_v.jpg"/> de ses amis intimes qui lui a promis de te faire
+                    nommer si tu ne l'étais pas déjà.</p>
+                <p>Voilà ce que je sais de nouveau et que le
                     préfet a fait signifier à tous les locataires du <orgName>Collège</orgName> de sortir de suite.
                     Ainsi c'est une preuve qu'on veut organiser cela bien vite. Si j'y suis logée,
-                    ce sera une surprise bien agréable ; mais je parierais que non <gap xmlns="" reason="lacune_CGA"/>
+                    ce sera une surprise bien agréable ; mais je parierais que non <gap reason="lacune_CGA"/>
         </p>
+                <closer><pb n="291" facs="CAS_CRHST_AMP_24_332_0291_v.jpg"/>Monsieur <persName>Ampère</persName>, professeur de physique à l'<orgName>école centrale</orgName> à <placeName>Bourg</placeName></closer>
             </div>
         </body>
         <back>
             <div>
                 <note xml:id="corresp1">(1) Trois pages in-4° inversés et l’adresse à <placeName>Bourg</placeName> sur la
-                    quatrième. (2) Lettres 0228 et 0229. </note>
+                    quatrième.</note>
+                <note xml:id="corresp2">(2) Lettres 0228 et 0229. </note>
             </div>
         </back>
     </text>

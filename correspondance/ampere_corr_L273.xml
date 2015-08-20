@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -136,7 +137,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -157,11 +158,11 @@
    <text type="correspondance" decls="#ampere_corr_L1805-07-08-a">
       <body>
          <div>
-            <opener>
-          <date when="1805-07-08">8 juillet 1805</date>
+            <opener><pb n="6" facs="#ACAS_CRHST_AMP_24_359_0001_r.jpg"/>
+               <placeName>Gênes</placeName>, <date when="1805-07-08">8 juillet 1805</date> <ref target="#corresp2">(2)</ref>
         </opener>
             <p>
-          <placeName>Gênes</placeName>, <date when="1805-07-08">8 juillet 1805</date> (2) Mon cher ami, La réunion de cette petite république à
+           Mon cher ami, La réunion de cette petite république à
                l'empire français m'a procuré l'avantage de voir deux hommes qui vous connaissent et
                par là même vous estiment. C'est M. <persName ref="#pers_D272">
             <choice>
@@ -180,7 +181,8 @@
           </persName>, secrétaire général du <orgName>Ministère de l'Intérieur</orgName>, m'a fait concevoir
                l'espérance de rentrer au <orgName>Lycée</orgName> et d'y avoir la censure des études, dans la
                supposition très probable (silence !) que celui qui en est chargé sera placé
-               ailleurs. Je n'ai pas eu d'autre conversation avec votre ami, son départ inattendu
+               ailleurs.</p>
+            <p><pb n="7" facs="#ACAS_CRHST_AMP_24_359_0002_v.jpg"/>Je n'ai pas eu d'autre conversation avec votre ami, son départ inattendu
                m'a privé du plaisir de le voir une seconde fois. M. <persName>Baudard</persName>, que je vis deux jours
                après lui et qui veut bien se souvenir avec intérêt de son ancien professeur, m'a
                fait l'amitié de me confirmer ce que m'avait dit M. <persName ref="#pers_D272">
@@ -192,7 +194,8 @@
                de la confiance dans ses principes et qu'il ne croie pas que la morale religieuse
                doive être étrangère à l'éducation, contribuez, Monsieur, par vous et vos amis, à me
                faire nommer censeur dans votre ville qui est devenue pour moi une seconde patrie,
-               parce que j'y possède d'excellents amis. Vous aurez par les papiers publics des
+               parce que j'y possède d'excellents amis.</p>
+            <p>Vous aurez par les papiers publics des
                détails sur les fêtes magnifiques qu'on a données ici à l'Empereur. Mais ce qui
                peut-être ne sera pas imprimé, c'est que le <persName ref="#pers_M375">Cardinal Mansi</persName> est le seul qui ait eu une
                audience particulière de S. M. J. F. Elle a duré trois quarts d'heure. On cite ces
@@ -200,16 +203,17 @@
             <quote>Je sais tout le bien que V. E. a voulu faire à
                   l'état ; je sais aussi que vous jouissez à <placeName ref="#pl_P6">Paris</placeName> d'une bonne réputation. Majesté, lui
                a répondu le Cardinal, de grâce ne parlez pas de réputation. Il n'y en a plus qu'une
-               en <placeName ref="#pl_F11">France</placeName> et dans le monde entier.</quote>
+               en <placeName ref="#pl_F11">France</placeName> et dans le<pb n="8" facs="#ACAS_CRHST_AMP_24_359_0003_r.jpg"/> monde entier.</quote>
           </cit> Ne manquez pas, mon excellent ami, d'offrir mes
                respects à Madame votre mère et de me donner des nouvelles de la famille. Ma santé
                est bonne et c'est à mes yeux un phénomène, car le chagrin et l'ennui me privent du
-               sommeil depuis deux mois. Ah, mon ami, je ne vois ici que des corps. C'est à <placeName ref="#pl_L2">Lyon</placeName> que
+               sommeil depuis deux mois.</p>
+            <p>Ah, mon ami, je ne vois ici que des corps. C'est à <placeName ref="#pl_L2">Lyon</placeName> que
                je veux aller chercher des âmes. Je vous assure que la mienne est flétrie et que
                j'éprouve bien, par ce qui me manque dans ce moment, que le bonheur se compose
                d'éléments spirituels. Puisez-en dans une société d'amis et continuez à vous faire
                pardonner vos talents. Votre ami pour la vie <persName ref="#pers_D167">DABURON</persName>.</p>
-            <closer>à M. <persName ref="#pers_A366">Ampère</persName>, répétiteur d'analyse à l'<orgName ref="#org_E4">École Polytechnique</orgName>, <placeName>faubourg
+            <closer><pb n="9" facs="#ACAS_CRHST_AMP_24_359_0004_v.jpg"/>à M. <persName ref="#pers_A366">Ampère</persName>, répétiteur d'analyse à l'<orgName ref="#org_E4">École Polytechnique</orgName>, <placeName>faubourg
                Saint-Germain</placeName>, à <placeName ref="#pl_P6">Paris</placeName> </closer>
          </div>
       </body>
@@ -218,7 +222,8 @@
             <note xml:id="corresp1">(1) L'abbé <persName ref="#pers_D167">Daburon</persName> avait donné des leçons de mathématiques à
                <persName ref="#pers_A366">Ampère</persName> enfant. Après des vicissitudes où <persName ref="#pers_A366">Ampère</persName> lui vint en aide, il devint
                inspecteur de l'<orgName ref="#org_U8">Université</orgName> (voir Lettre 0744) et nous le voyons quarante ans plus
-               tard accompagner <persName ref="#pers_A366">Ampère</persName> dans ses tournées. (2) Quatre pages 21 x 29. </note>
+               tard accompagner <persName ref="#pers_A366">Ampère</persName> dans ses tournées.</note>
+            <note xml:id="corresp2">(2) Quatre pages 21 x 29. </note>
          </div>
       </back>
    </text>

@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -143,7 +144,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_R501">Roux, Claude-Antoine (Abbé)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -172,15 +173,18 @@
                     l'occasion de me rappeler à votre souvenir. Je désirais également présenter à
                     l'<orgName>Académie de <placeName>Lyon</placeName>
           </orgName> le regret de ne pouvoir assister à ses séances et concourir,
-                    s'il m'était possible, à ses travaux. Le mémoire ci-joint <ref>(2)</ref> est un bien faible
+                    s'il m'était possible, à ses travaux. Le mémoire ci-joint <ref target="#corresp2">(2)</ref> est un bien faible
                     hommage. Je vous prie, Monsieur, de le faire agréer à l'<orgName>Académie</orgName>. Présenté par
-                    vous, il ne peut être que bien reçu. J'ai appris avec un chagrin bien vif les
+                    vous, il ne peut être que bien reçu.</p>
+                <p>J'ai appris avec un chagrin bien vif les
                     peines que vous avez éprouvées. Personne ne doit ressentir mieux que moi combien
                     est cruel de se voir enlever ceux auxquels on a consacré une partie de son
-                    existence. Agréez, je vous prie, Monsieur et cher confrère, les vœux que je
+                    existence.</p>
+                <p>Agréez, je vous prie, Monsieur et cher confrère, les vœux que je
                     fais pour votre bonheur et l'hommage de ma haute considération et de la
                     reconnaissance que je dois à l'amitié que vous voulez bien avoir pour moi. <persName ref="#pers_A366">A.
-                        AMPÈRE</persName> P.-S. - Vous savez que notre ami <persName ref="#pers_C150">Clerc</persName> me remplace <ref>(3)</ref>. Je n'ai pas
+                        AMPÈRE</persName></p>
+                <p>P.-S. Vous savez que notre ami <persName ref="#pers_C150">Clerc</persName> me remplace <ref target="#corresp3">(3)</ref>. Je n'ai pas
                     besoin de vous prier de le chérir et de vous intéresser à son bonheur autant
                     qu'il le mérite sous tous les rapports.</p>
                 <closer>A Monsieur <persName ref="#pers_R501">Roux</persName>, secrétaire perpétuel de l'<orgName>Académie de <placeName>Lyon</placeName>
@@ -199,9 +203,11 @@
           </orgName>
                     à l'obligeance de M. <persName>Cl. Roux</persName>, secrétaire général de la classe des Sciences à
                     cette <orgName>Académie</orgName>, que nous sommes heureux de remercier. L'<persName ref="#pers_R501">abbé Roux</persName> était le même
-                    qui avait accepté en 1788 d'examiner le mémoire sur la quadrature du cercle. (2)
+                    qui avait accepté en 1788 d'examiner le mémoire sur la quadrature du cercle.</note>
+                <note xml:id="corresp2">(2)
                     Ce mémoire est la <title>Théorie mathématique du jeu</title> dont l'exemplaire ici annoncé fut
-                    présenté à l'<orgName>Académie</orgName> dans la séance du <date when="1803-02-22" calendar="revolutionary">3 ventôse (22 février 1803)</date>. (3) Comme
+                    présenté à l'<orgName>Académie</orgName> dans la séance du <date when="1803-02-22" calendar="revolutionary">3 ventôse (22 février 1803)</date>.</note>
+                <note xml:id="corresp3">(3) Comme
                     professeur au <orgName>Lycée de <placeName>Lyon</placeName>
           </orgName>. </note>
             </div>

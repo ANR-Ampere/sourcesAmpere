@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -137,7 +138,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_B103">Brongniart, Alexandre</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -163,7 +164,7 @@
                demander que votre amitié pour moi ne me refusera pas ; il s'agit de causer un quart
                d'heure avec mon beau-frère M. <persName ref="#pers_C127">Carron</persName>, courtier de commerce, dont je vous ai parlé et
                qui voudrait vous communiquer quelques observations sur une chose absolument
-               différente de celle dont il a été question dans notre dernière entrevue <ref>(2)</ref>. Vous
+               différente de celle dont il a été question dans notre dernière entrevue <ref target="#corresp2">(2)</ref>. Vous
                savez que personne ne m'inspire un plus vif intérêt et qu'en lui faisant plaisir,
                c'est moi-même que vous obligez. Aussi ai-je d'avance une bien vraie reconnaissance
                de la complaisance que vous aurez de causer avec lui de ce dont il désire vous
@@ -172,7 +173,8 @@
                d'une chose toute simple où il n'est question ni de faveur, ni de crédit à employer.
                Je connais trop votre amitié pour moi pour craindre que vous me refusiez ce plaisir.
                Je vous en fais d'avance mes remerciements en attendant que je puisse vous les
-               renouveler à mon retour. Je vous embrasse de tout mon cœur et vous prie de présenter
+               renouveler à mon retour.</p>
+            <p>Je vous embrasse de tout mon cœur et vous prie de présenter
                l'hommage de mon profond respect à M. et à Mme de <persName>Monbret</persName> ainsi qu'à Mme <persName>Brongniart</persName>.
                Votre ami et collègue. <persName ref="#pers_A366">A. AMPÈRE</persName> Inspecteur général.</p>
             <closer>A M. <persName ref="#pers_B103">Brongniart</persName>, directeur de la Manufacture impériale de <placeName>Sèvres</placeName>, professeur à
@@ -184,8 +186,8 @@
       </body>
       <back>
          <div>
-            <note xml:id="corresp1">(1) Coll. <persName>Bodin</persName>. Deux pages 19,5 x 25, adresse sur la quatrième.
-               (2) <persName ref="#pers_C127">Carron</persName> devient courtier de change (de commerce) en <date when-iso="1805-01">janvier 1805</date> (Lettre 0266) et
+            <note xml:id="corresp1">(1) Coll. <persName>Bodin</persName>. Deux pages 19,5 x 25, adresse sur la quatrième.</note>
+            <note xml:id="corresp2">(2) <persName ref="#pers_C127">Carron</persName> devient courtier de change (de commerce) en <date when-iso="1805-01">janvier 1805</date> (Lettre 0266) et
                le reste jusqu'en <date when-iso="1817">1817</date>, moment où il s'installe dans sa nouvelle maison avec jardin.
                <persName ref="#pers_B103">Brongniart</persName> a été directeur de <orgName>Sèvres</orgName> de <date when-iso="1800">1800</date> à sa mort (<date when-iso="1847">1847</date>). Il a professé à la
                <orgName>Faculté</orgName> en suppléance d'<persName ref="#pers_H645">Hauy</persName> de <date when-iso="1806">1806</date> à <date when-iso="1822">1822</date>. La maison de la rue Saint-Dominique a

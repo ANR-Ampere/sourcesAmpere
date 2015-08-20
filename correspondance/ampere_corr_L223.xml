@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -143,7 +144,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -169,8 +170,8 @@
         </opener>
             <p>
           <pb n="1407" facs="#ACAS_CRHST_AMP_26_393_quarto_0679_v.jpg"/>
-          <del/>
-          <gap reason="lacune"/> dire dans celle-ci. C'est que,<lb/>
+          
+          <gap reason="lacune"/><del> dire dans celle-ci. C'est que,<lb/>
                depuis que le
                carême est fini, mes<lb/>
                élèves de physique viennent plus<lb/>
@@ -205,7 +206,7 @@
                une bonne nuit à ma<lb/>
                <persName ref="#pers_C129">Julie</persName>, j'embrasse tous ceux qui l'aiment.<lb/>
                Je baise mon petit
-               <persName ref="#pers_A10">Jean-Jacques</persName>.</p>
+               <persName ref="#pers_A10">Jean-Jacques</persName>.</del></p>
             <p>
           <pb n="1406" facs="#ACAS_CRHST_AMP_26_393_quarto_0678_r.jpg"/>
                Du <date when="1803-03-01">mardi [1er mars 1803, ou 10 ventôse]</date>
@@ -324,7 +325,7 @@
             <lb/>
                   à demeurer encore l<supplied>oin</supplied>
             <lb/>
-                  de ma chère amie <ref>(2)</ref> ; m<supplied>ais</supplied>
+                  de ma chère amie <ref target="#corresp2">(2)</ref> ; m<supplied>ais</supplied>
             <lb/>
                   j'y gagnerais beaucoup d<supplied>e</supplied>
             <lb/>
@@ -367,7 +368,8 @@
       </body>
       <back>
          <div>
-            <note xml:id="corresp1">(1) Six pages 16,5 x 22, dont manque le début. La lettre est
+            <note xml:id="corresp1">(1) Six pages 16,5 x 22, dont manque le début.</note>
+            <note xml:id="corresp2">(2) La lettre est
                bien datée par le fait qu'elle est écrite 12 jours avant le <date when="1803-03-11" calendar="revolutionary">20 ventôse (11 mars)</date>.
                C'est donc par inadvertance qu'<persName ref="#pers_A366">Ampère</persName> a parlé du carême fini, et non commencé :
                <date>Pâques</date> n'ayant été cette année-là que le <date when="1803-04-10">10 avril</date>. Mme <persName>Cheuvreux</persName> a publié un long

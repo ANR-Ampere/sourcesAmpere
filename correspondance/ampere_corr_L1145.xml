@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -138,21 +139,25 @@
     <text type="correspondance" decls="#ampere_corr_L1825-07-00-a">
         <body>
             <div>
-                <opener>[rature] <date notBefore="1825-07-05">juillet 1825 [après le 5]</date>
+                <opener><placeName>Paris</placeName> <date notBefore="1825-07-05">juillet 1825 [après le 5]</date>
         </opener>
-                <p>Monseigneur, C'est avec la plus vive reconnaissance que j'ai reçu la lettre que
+                <opener><pb n="17" facs="#ACAS_CRHST_AMP_20_305_0017_r.jpg"/>A Son Altesse Royale, Monseigneur le Dauphin.</opener>
+                <opener>Monseigneur,</opener>
+                <p> C'est avec la plus vive reconnaissance que j'ai reçu la lettre que
                     votre Altesse Royale a eu la bonté de me faire écrire pour m'annoncer qu'elle a
-                    daigné remettre à Son Excellence le ministre de la Guerre une note<note>Cf. <ref type="correspondance" target="#ampere_corr_L1825-07-05-a">L1144</ref> ; c'est la référence à cette
-                        note qui date la présente lettre.</note> relative aux services que j'ai pu
+                    daigné remettre à Son Excellence le ministre de la Guerre une note<ref target="#corresp_1"></ref> relative aux services que j'ai pu
                     rendre à l’<orgName>École royale polytechnique</orgName>, pendant les vingt années qui se sont
                     écoulées depuis que j'ai été appelé à y concourir à l'enseignement des
-                    mathématiques. Je supplie votre Altesse Royale de me permettre de lui offrir
-                    l'hommage de cette reconnaissance et celui du plus profond respect. Je suis,
+                    mathématiques.</p>
+                <p>Je supplie votre Altesse Royale de me permettre de lui offrir
+                    l'hommage de cette reconnaissance et celui du plus profond respect.</p>
+                <p>Je suis,
                     Monseigneur, de votre Altesse Royale, le très humble et très obéissant
-                    serviteur. <persName>A. Ampère</persName>, de l'<orgName>Académie royale des sciences</orgName>, professeur d'analyse et
+                    serviteur.<lb/>
+                    <persName>A. Ampère</persName>, de l'<orgName>Académie royale des sciences</orgName>, professeur d'analyse et
                     de mécanique à l’<orgName>École royale polytechnique</orgName>
         </p>
-                <closer>A Son Altesse Royale, Monseigneur le Dauphin</closer>
+                
             </div>
         </body>
         <back>
@@ -160,6 +165,8 @@
                 <note resp="CAK">date partiellement illisible, datation d'après la référence à la
                     "note" qui est datée du <date when="1825-07-05">5 juillet</date>
         </note>
+                <note xml:id="corresp_1">Cf. <ref type="correspondance" target="#ampere_corr_L1825-07-05-a">L1144</ref> ; c'est la référence à cette
+                    note qui date la présente lettre.</note>
             </div>
         </back>
     </text>

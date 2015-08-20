@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -145,7 +146,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -218,7 +219,7 @@
                Écoute ce que tu m'écrivis le<lb/>
                lendemain de mon départ, après<lb/>
                le voyage où je te
-               trouvai malade <ref>(2)</ref> :<lb/>
+               trouvai malade <ref target="#corresp2">(2)</ref> :<lb/>
                <cit>
             <quote>Mon bon ami, je t'écris sur<lb/>
                   mes genoux, auprès du feu ;<lb/>
@@ -454,7 +455,7 @@
                chemins<lb/>
                de traverse, à suivre la route<pb n="970" facs="#ACAS_CRHST_AMP_26_393_quarto_0242_v.jpg"/>
                de <placeName>Châtillon</placeName>, tant que je<lb/>
-               pourrais aller <ref>(3)</ref>. On me parla<lb/>
+               pourrais aller <ref target="#corresp3">(3)</ref>. On me parla<lb/>
                alors d'une <choice>
             <sic>cariole</sic> <corr>carriole</corr>
           </choice> pour<lb/>
@@ -676,7 +677,7 @@
                à la séance d'aujourd'hui. S'il<lb/>
                ne l'a pas fait, <persName ref="#pers_B33">Ballanche</persName>
           <lb/>
-               le priera bien de ma part<pb n=""/>
+              le priera bien de ma part<pb n="978" facs="#/ACAS_CRHST_AMP_26_393_quarto_0250_v.jpg"/>
                de le présenter ou faire<lb/>
                présenter sans manquer<lb/>
                à la prochaine séance. Je<lb/>
@@ -717,7 +718,9 @@
             <note xml:id="corresp1">(1) Dix-huit pages 17 x 21,5 de papier bleuâtre sans adresse.
                Cette lettre a été écrite après un troisième voyage à <placeName>Lyon</placeName> du <date from="1802-05-26" to="1802-05-30">26 au 30 mai</date> (la
                <date>Pentecôte</date>, cette année-là, ne fut que le 6 juin). Mme <persName>Cheuvreux</persName> en a publié quelques
-               passages, p. 219 à 221. (2) Lettre du <date when="1802-04-21">21 avril 1802</date> p.131. (3) Voir la planche VII :
+               passages, p. 219 à 221.</note>
+           <note xml:id="corresp2">(2) Lettre du <date when="1802-04-21">21 avril 1802</date> p.131.</note>
+           <note xml:id="corresp3">(3) Voir la planche VII :
                Itinéraires de <placeName>Lyon</placeName> à <placeName>Bourg</placeName>. </note>
          </div>
       </back>

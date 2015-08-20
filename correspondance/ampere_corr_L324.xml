@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -138,7 +139,7 @@
           <persName type="adressee">Ampère,
                                 André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -159,11 +160,11 @@
     <text type="correspondance" decls="#ampere_corr_L1807-07-08-a">
         <body>
             <div>
-                <opener>
+                <opener><pb n="131" facs="#ACAS_CRHST_AMP_25_370_0131_r.jpg"/>
           <date when="1807-07-08">8 juillet 1807</date>
         </opener>
                 <p>
-          <gap reason="lacune_CGA"/> Te voilà donc débarrassé, mon cher ami, tu
+           Te voilà donc débarrassé, mon cher ami, tu
                     vas être tranquille. Te connaissant comme je te connais, combien tu as souffert ! Je m'étais bien douté que tu ne pouvais pas être heureux dans cette maison.
                     Mais je n'aurais jamais cru que cela vînt à la séparation et que tu fusses
                     tourmenté comme tu l'as été. Mais il te reste un ami que je craignais que l'on
@@ -173,15 +174,16 @@
                     toujours attachés. Sa bonne maman parle de toi avec intérêt. Tu ne sais
                     peut-être pas que Mlle <persName>élise</persName> est malade depuis longtemps. Elle s'était un peu
                     remise, elle est retombée. La pauvre <persName>Mme Carron</persName> verrait périr encore une fille !
-                    Plût à <persName>Dieu</persName> qu'elle les eût conservées ! <ref>(1)</ref> Mais ne songeons plus au passé ! Ne
-                    songe qu'à travailler pour faire un sort à ton fils, pour l'élever, l'instruire
-                    et en faire un bon chrétien <gap reason="lacune_CGA"/>
+                    Plût à Dieu qu'elle les eût conservées ! <ref target="#corresp1">(1)</ref> Mais ne songeons plus au passé ! Ne
+                    songe plus qu'à travailler pour faire un<pb n="132" facs="#ACAS_CRHST_AMP_25_370_0132_v.jpg"/> sort à ton fils, pour l'élever, l'instruire
+                    et en faire un bon chrétien <gap reason="lacune_CGA"/><pb n="133" facs="#ACAS_CRHST_AMP_25_370_0133_r.jpg"/><gap reason="lacune_CGA"/>
         </p>
+                <closer>A monsieur <persName>Ampère</persName> secrétaire du <orgName>Bureau consultatif</orgName> hôtel de Conti, rue de Grenelle S<ex>ain</ex>t Germain n°101 en face du <orgName>Ministère de l'Intérieur</orgName> à <placeName>Paris</placeName>.</closer>
             </div>
         </body>
         <back>
             <div>
-                <note xml:id="corresp1">(1) <persName>Elise Carron</persName> est morte de tuberculose vers le <date when="1808-01-20">20 janvier
+                <note xml:id="corresp1">(1) <persName>Élise Carron</persName> est morte de tuberculose vers le <date when="1808-01-20">20 janvier
                     1808</date>, à 40 ans.</note>
             </div>
         </back>

@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -143,7 +144,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -164,7 +165,7 @@
    <text type="correspondance" decls="#ampere_corr_L1803-02-08-b">
       <body>
          <div>
-            <opener>Le Jeudi soir <date when="1803-02-08">[8 février 1803?]</date>
+            <opener><pb n="78" facs="#ACAS_CRHST_AMP_26_392_0078_r.jpg"/> Le Jeudi soir <date when="1803-02-08">[8 février 1803?]</date>
         </opener>
             <p>Je croyais t'écrire hier, ma<lb/>
                bonne amie ; mais je<lb/>
@@ -216,7 +217,8 @@
                bien de l'esprit ; apparemment,<pb n="80" facs="#ACAS_CRHST_AMP_26_392_0080_r.jpg"/>
                comme il arrive que, quand<lb/>
                on a bien froid, on trouve<lb/>
-               chaud tout ce qu'on touche.<lb/>
+               chaud tout ce qu'on touche.</p>
+            <p>
                Quoi qu'il en soit de mon esprit<lb/>
                d'hier, je m'<choice>
             <sic>apperçois</sic> <corr>aperçois</corr>
@@ -236,7 +238,7 @@
                j'ai été aujourd'hui me promener<lb/>
                tout seul du côté de
                <placeName>Lyon</placeName>, depuis<lb/>
-               1 h<ex>eure</ex> environ jusqu'à 2 h<ex>eures</ex> 1/4. Je<lb/>
+               1 h<ex>eure</ex> environ jusqu'à 2 h 1/4. Je<lb/>
                pensais avec plaisir que je me<lb/>
                rapprochais de ma bienfaitrice.<lb/>
                La promenade sur des tas de<lb/>
@@ -254,7 +256,8 @@
                m'aller coucher sans savoir si<lb/>
                tu n'es point plus fatiguée,<lb/>
                surtout depuis que le froid est<lb/>
-               si excessif. Demain !
+               si excessif.</p>
+            <p>Demain !
                Demain !<lb/>
                Viens vite m'apporter une lettre<lb/>
                de ma bonne amie ! Bonsoir<lb/>
@@ -294,7 +297,7 @@
                dont tu ne te fais point<lb/>
                d'idée... Enfin je
                l'ai reçue<lb/>
-               cette lettre tant attendue ! <ref>(2)</ref> Comment<lb/>
+               cette lettre tant attendue ! <ref target="#corresp2">(2)</ref> Comment<lb/>
                t'exprimer tout ce qu'elle m'a<lb/>
                fait sentir ? Ce serait donc<lb/>
                aussi un bonheur pour toi<pb n="1401" facs="ACAS_CRHST_AMP_26_393_quarto_0673_v.jpg"/>
@@ -385,9 +388,9 @@
                pluviôse</date> est le <date when="1803-02-13">dimanche 13 février 1803</date>. <persName ref="#pers_A366">Ampère</persName> a daté le début de sa lettre du
                jeudi, la suite du mercredi. L'un des deux est donc inexact. Comme la Lettre 0214 de
                <persName ref="#pers_C129">Julie</persName>, reçue le second jour, est datée du lundi soir, elle a dû plutôt arriver le
-               mercredi soir que le jeudi. (2) Lettre 0214 du 7 février. </note>
-            <note resp="CAK_commentaire">Les pages du manuscrit sont dispersées dans plusieurs
-               chemises.</note>
+               mercredi soir que le jeudi.</note>
+            <note xml:id="corresp2">(2) Lettre 0214 du 7 février. </note>
+         
          </div>
       </back>
    </text>

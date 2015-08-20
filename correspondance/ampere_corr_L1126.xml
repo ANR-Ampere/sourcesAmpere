@@ -1,4 +1,5 @@
-<?xml-model href="../../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -138,34 +139,39 @@
     <text type="correspondance" decls="#ampere_corr_L1804-02-02-a">
         <body>
             <div>
-                <opener>le <date when="1804-02-12" calendar="revolutionary">12 pluviôse [2 février 1804]</date>
+                <opener><pb n="1" facs="#ACAS_CRHST_AMP_24_336_0001_r.jpg"/><placeName>Lyon</placeName> le <date when="1804-02-12" calendar="revolutionary">12 pluviôse</date>
         </opener>
-                <p>Mon cher frère, mon meilleur ami, Il y a bien longtemps que tu n'as pas entendu
+                <opener>Mon cher frère, mon meilleur ami,</opener>
+                <p> Il y a bien longtemps que tu n'as pas entendu
                     parler de moi, que je n'ai su de tes nouvelles qu'indirectement. Je profite de
                     l'occasion de M. <persName>Rosset</persName> qui va à <placeName>Paris</placeName> pour te rappeler l'amitié qu'a pour toi
                     ton malheureux frère. Je sais bien que tu ne l'as pas oubliée, mais j'aime à
                     t'en parler. Cette amitié m'était si douce dans le temps que j'étais heureux,
                     elle me l'est toujours quoique plus triste. Hélas ! Je ne fais peut-être que
-                    t'affliger en te rappelant des peines qui nous sont communes<note>Cette remarque
-                        date la lettre : après la mort de <placeName>Julie</placeName>. Pluviôse correspondant à
-                        janvier-février, la lettre ne peut donc dater que de <date when-iso="1804">1804</date> puisqu'<persName>Ampère</persName>
-                        habite encore à <placeName>Lyon</placeName>.</note>. Je devrais ne te jamais parler des idées qui
-                    me poursuivent, mais je n'ai pu résister aux sentiments qui m'y ont poussé dès
+                    t'affliger en te rappelant des peines qui nous sont communes <ref target="#corresp_1"></ref>. Je devrais ne te jamais parler des idées qui
+                    me poursuivent, mais je n'ai pu résister aux sentiments<pb n="2" facs="#ACAS_CRHST_AMP_24_336_0002_v.jpg"/> qui m'y ont poussé dès
                     que j'ai pris la plume pour t'écrire. Présente mes respects et mon amitié à ta
-                    femme, embrasse pour moi ta petite <persName>Eliza</persName>. Songe quelquefois que des liens
+                    femme, embrasse pour moi ta petite <persName>Eliza</persName>.</p>
+                <p>Songe quelquefois que des liens
                     qu'aucune infortune ne peut rompre te donnent à <placeName>Lyon</placeName> un ami dont les sentiments
                     pour toi ne le cèdent à personne. Il me semble que je serais content si je
                     pouvais te revoir, et pleurer un peu avec toi. Adieu mon bon ami, aime-moi
-                    toujours comme je t'aime. Ton frère, <persName>Ampère</persName> PS. Tu recevras je pense avec cette
+                    toujours comme je t'aime.</p>
+                <p>Ton frère, <persName>Ampère</persName></p>
+                <p>PS. Tu recevras je pense avec cette
                     lettre des nouvelles directes de toute ta famille. Ta maman, tes sœurs, tes
-                    neveux ne sont pas malades dans ce moment. Je viens de les voir presque tous
+                    neveux ne sont pas malades dans ce moment.<pb n="3" facs="#ACAS_CRHST_AMP_24_336_0003_r.jpg"/> Je viens de les voir presque tous
                     réunis chez <persName>Mme Périsse</persName>. Ta maman a dû t'écrire que je lui ai remis pour toi les
                     cinq louis que je te devais. Adieu. Adieu mon frère. Puisse-tu te bien porter,
                     et voir toujours toutes tes affaires prospérer.</p>
-                <closer>A Monsieur <persName>Carron</persName>, de <placeName>Lyon</placeName>, hôtel du cercle du commerce, rue de la Loi
+                <closer><pb n="4" facs="#ACAS_CRHST_AMP_24_336_0004_v.jpg"/>A Monsieur <persName>Carron</persName>, de <placeName>Lyon</placeName>, hôtel du cercle du commerce, rue de la Loi
                     n°152, près le boulevard, à <persName>Paris</persName>
         </closer>
             </div>
         </body>
+        <back><div><note xml:id="corresp_1">Cette remarque
+            date la lettre : après la mort de <placeName>Julie</placeName>. Pluviôse correspondant à
+            janvier-février, la lettre ne peut donc dater que de <date when-iso="1804">1804</date> puisqu'<persName>Ampère</persName>
+            habite encore à <placeName>Lyon</placeName>.</note></div></back>
     </text>
 </TEI>

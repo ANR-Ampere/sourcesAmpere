@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -144,7 +145,7 @@
         <correspAction type="received">
           <persName type="adressee">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -180,10 +181,10 @@
             <sic>plutôt</sic> <corr>plus tôt</corr>
           </choice> pour ne pas se trouver<lb/>
                en voyage le jour de
-               <date>Pâques</date> <ref>(2)</ref>. J'en<lb/>
+               <date>Pâques</date> <ref target="#corresp2">(2)</ref>. J'en<lb/>
                ai reçu mercredi par une petite<lb/>
                lettre à laquelle je n'ai pas encore<lb/>
-               répondu <ref>(3)</ref>. Elles m'ont fait bien<lb/>
+               répondu <ref target="#corresp3">(3)</ref>. Elles m'ont fait bien<lb/>
                plaisir ; j'y vois que tu te portes<lb/>
                un peu mieux,
                et que je suis<lb/>
@@ -274,7 +275,8 @@
                ma confiance à quelqu'un que<lb/>
                je ne devrais jamais revoir, sur<lb rend="hyphen"/>tout lorsque je ne vois
                personne<lb/>
-               qui m'en inspire. Retrouverai<lb rend="hyphen"/>je dans ma vie des baisers<lb/>
+               qui m'en inspire. Retrouverai<lb
+               />je dans ma vie des baisers<lb/>
                sur tes lèvres
                comme ceux<lb/>
                que tu me donnas à mon<lb/>
@@ -307,7 +309,8 @@
                de vingt façons toujours<lb/>
                inutilement des idées désespérantes,<lb/>
                je vais faire
-               un petit tour.<lb/>
+               un petit tour.</p>
+            <p>
                Quelquefois avec une de tes lettres.<lb/>
                Je suis <choice>
             <sic>toute suite</sic> <corr>tout de suite</corr>
@@ -362,7 +365,8 @@
                je dirai qu'il m'est ordonné<lb/>
                de me rendre à mon poste<lb/>
                et je partirai comme si<lb/>
-               le diable était à mes trousses.<lb/>
+               le diable était à mes trousses.</p>
+            <p>
                En attendant, pense quelquefois<lb/>
                à moi, ma bonne amie, et<lb/>
                écris-moi de longues lettres<lb/>
@@ -379,7 +383,7 @@
                par ce que tu as déjà lu de
                ma<lb/>
                lettre, comme celle que je<pb n="1241" facs="#ACAS_CRHST_AMP_26_393_quarto_0513_v.jpg"/>
-               viens de recevoir de toi <ref>(4)</ref> était<lb/>
+               viens de recevoir de toi <ref target="#corresp4">(4)</ref> était<lb/>
                nécessaire à mon
                repos. Ils<lb/>
                reviendront donc ces <choice>
@@ -424,7 +428,7 @@
                d'avoir des
                instructions à lui<lb/>
                donner à ce sujet, pour<lb/>
-               les suivre pour moi. Pourquoi dis<lb rend="hyphen"/>tu, ma
+               les suivre pour moi. Pourquoi dis<lb/>tu, ma
                bonne amie, que ta<lb/>
                jeunesse est passée ? Est-ce<lb/>
                qu'elle ne t'<choice>
@@ -516,7 +520,7 @@
                son papa qui l'aime aussi de<lb/>
                tout son cœur. Voilà deux<lb/>
                jours où je ne donnerai<lb/>
-               aucune leçon <ref>(5)</ref> ; je vais les employer<lb/>
+               aucune leçon <ref target="#corresp5">(5)</ref> ; je vais les employer<lb/>
                à la rédaction de mon ouvrage.<lb/>
                Que je serais
                heureux s'il<lb/>
@@ -538,8 +542,12 @@
          <div>
             <note xml:id="corresp1">(1) Quatre feuillets formant 12 pages 16,5 x 22 ; adresse à la
                fin. Timbre <placeName>Bourg</placeName> 22 (<date when="1803-04-12" calendar="revolutionary">22 germinal = 12 avril 1803</date>). Mme <persName>Cheuvreux</persName> a publié cinq
-               passages, p. 285, 286, 288, 289 et 291. (2) <date>Pâques</date>, <date when="1803-04-10">10 avril</date>. (3) Lettre 0239 du
-               <date when="1803-04-05">mardi 5 avril</date>. (4) Lettre 0240 du <date when="1803-04-08">8 avril</date>. (5) Dimanche et lundi de <date>Pâques</date>. </note>
+               passages, p. 285, 286, 288, 289 et 291.</note>
+            <note xml:id="corresp2">(2) <date>Pâques</date>, <date when="1803-04-10">10 avril</date>.</note>
+            <note xml:id="corresp3">(3) Lettre 0239 du
+               <date when="1803-04-05">mardi 5 avril</date>.</note>
+            <note xml:id="corresp4">(4) Lettre 0240 du <date when="1803-04-08">8 avril</date>.</note>
+            <note xml:id="corresp5">(5) Dimanche et lundi de <date>Pâques</date>. </note>
          </div>
       </back>
    </text>

@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -149,7 +150,7 @@
         <correspAction type="received">
           <persName type="adressee">Roux-Bordier, Jacques</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -170,7 +171,7 @@
       <body>
          <div>
             <opener>
-               <date when="1805-05-19" calendar="revolutionary">29 floréal au soir [19 mai 1805?]</date>
+               <date when="1805-05-19" calendar="revolutionary">29 floréal au soir [19 mai 1805 <ref target="#corresp2">(2)</ref>]</date>
             </opener>
             <p>Mon cher <persName ref="#pers_R502">Roux</persName>, j'ai voulu, pour répondre à vos
                questions relativement à <persName ref="#pers_P452">Piestre</persName>, attendre
@@ -180,8 +181,9 @@
                plaisir à examiner comme un homme extraordinaire, ou plutôt comme l'ami de
                <persName>Washington</persName> et l'un des <sic>fondamentateurs</sic> de la liberté
                de l'<placeName>Amérique</placeName>. J'éprouvais en le voyant un sentiment de
-               vénération très singulier. Quant au livre de <persName ref="#pers_P452">Piestre</persName>
-               <ref>(3)</ref>
+               vénération très singulier.</p>
+            <p>Quant au livre de <persName ref="#pers_P452">Piestre</persName>
+               <ref target="#corresp3">(3)</ref>
                <ref type="ouvrages_mentionnes" target="#ampere_ref_P369.xml">*</ref>, MM.
                <persName ref="#pers_T568">de Tracy</persName> et
                <persName ref="#pers_C112">Cabanis</persName> le trouvent inégal mais contenant ce
@@ -195,7 +197,8 @@
                Voilà, mon cher ami, les renseignements que je puis vous donner à cet égard ; mais,
                si la tolérance m'engage à vous les donner, elle ne saurait aller jusqu'à demander à
                ces messieurs d'en parler dans les journaux : c'est comme si j'engageais un
-               apothicaire à mettre en vente de l'arsenic. Vous ne sauriez croire à quel point je
+               apothicaire à mettre en vente de l'arsenic.</p>
+            <p>Vous ne sauriez croire à quel point je
                suis curieux de connaître vos recherches physiognomoniques. Ne pourriez-vous m'en
                dire quelque chose dans votre prochaine lettre ? J'espère du moins que vous me les
                développerez quand nous nous verrons dans trois ou quatre mois. Je suis bien fâché
@@ -206,7 +209,8 @@
                <choice>
                   <sic>avec</sic>
                   <corr>avant</corr>
-               </choice> que les vacances me donnent la liberté d'y aller. Dites, je vous prie, à M.
+               </choice> que les vacances me donnent la liberté d'y aller.</p>
+            <p>Dites, je vous prie, à M.
                <persName ref="#pers_A7">d'Ambérieux</persName> combien je suis sensible à son
                amitié. Quel plaisir j'aurai à le revoir ainsi que tous mes amis de
                <placeName ref="#pl_L2">Lyon</placeName>, ou plutôt mes seuls amis ! Faites mille
@@ -224,11 +228,13 @@
          <div>
             <note xml:id="corresp1">(1) Quatre pages in-4°, 16,5 x 22, adresse au bas de la
                quatrième. Communiqué par M. <persName>Paul Chaponnière</persName>. Papier bleuâtre à
-               filigrane Duclos. (2)
+               filigrane Duclos.</note>
+            <note xml:id="corresp2">(2)
                <date notBefore="1804-05-18" notAfter="1805-05-19">29 floréal, 18 ou 19 mai 1804 ou 1805</date>.
                Le calendrier républicain ayant cessé le
                <date when="1806-01-01">1er janvier 1806</date>. Il est question du même groupe dans
-               la Lettre 0282 et dans la Lettre 0288. (3)
+               la Lettre 0282 et dans la Lettre 0288.</note>
+            <note xml:id="corresp3">(3)
                <persName ref="#pers_P452">Piestre</persName> ? </note>
             <note resp="CAK_commentaire">
                <persName>Louis DE LAUNAY</persName>, dans la

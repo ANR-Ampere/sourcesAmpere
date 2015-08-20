@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -143,7 +144,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -261,7 +262,7 @@
                Ah, ma pauvre petite, je viens<lb/>
                de recevoir une lettre, une<lb/>
                lettre qui ferait pleurer<lb/>
-               l'homme le plus dur ! <ref>(2)</ref> Depuis<lb/>
+               l'homme le plus dur ! <ref target="#corresp2">(2)</ref> Depuis<lb/>
                huit jours tu n'as gagné<lb/>
                à ton traitement que de<lb/>
                prendre mal à la tête,<lb/>
@@ -333,7 +334,7 @@
                mercredi ; mes leçons et mes<lb/>
                préparations d'expériences<pb n="1433" facs="#ACAS_CRHST_AMP_26_393_quarto_0705_v.jpg"/>
                m'enlèvent tout mon <choice>
-            <sic>tems</sic> <corr>temps</corr>
+            <sic>tems</sic> <corr>temps</corr> 
           </choice>. À<lb/>
                peine ai-je pu en écrire<lb/>
                hier deux pages, quoique je<lb/>
@@ -364,7 +365,8 @@
             <note xml:id="corresp1">(1) Six pages 16,3 x 22 sur papier bleuâtre, avec adresse à la
                fin. Avant cette lettre postérieure à un voyage de <placeName>Lyon</placeName> pour la <date>Saint jean</date>, il en
                manque au moins une du vendredi. (Voir p.171) Mme <persName>Cheuvreux</persName> a publié quatre lignes,
-               p. 231. (2) Lettre du <date when="1802-07-03">3 juillet</date> : p.169. </note>
+               p. 231.</note>
+            <note xml:id="corresp2">(2) Lettre du <date when="1802-07-03">3 juillet</date> : p.169. </note>
          </div>
       </back>
    </text>

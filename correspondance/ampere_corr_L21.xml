@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -144,7 +145,7 @@
           <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme
                         d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -188,7 +189,8 @@
                répandre mon <subst>
             <del>cœur</del> <add>cœur</add>
           </subst> sur
-               le papier.<lb/>
+               le papier.</p>
+            <p>
                Que je voudrais que vous y <choice>
             <sic>pussiez</sic> <corr>puissiez</corr>
           </choice>
@@ -229,9 +231,8 @@
                   <pb n="1265" facs="ACAS_CRHST_AMP_26_393_quarto_0537_r.jpg"/>rendre digne de mon amour ;<lb/>
                   mais du
                moins il sait aimer.</quote>
-          </cit>
-          <lb/>
-               Du <date when="1799-03-06">6 mars</date>
+          </cit></p>
+            <p>               Du <date when="1799-03-06">6 mars</date>
           <lb/>
                Je ne veux pas laisser passer un<lb/>
                jour sans goûter
@@ -306,7 +307,7 @@
           <lb/>
                Comme on voit s'échapper le bonheur<lb/>
                à mesure qu'on croit y toucher,<lb/>
-               Madame <persName ref="#pers_P441">Périsse</persName> <ref corresp="corresp1">(2)</ref> m'avait dit qu'elle<lb/> croyait que tout le monde à<lb/>
+               Madame <persName ref="#pers_P441">Périsse</persName> <ref target="#corresp2">(2)</ref> m'avait dit qu'elle<lb/> croyait que tout le monde à<lb/>
                <placeName>S<ex>ain</ex>t-Germain</placeName> avait eu la rougeole.<lb/>
                C'est sur ce canevas que j'avais<lb/>
                bâti tous les projets dont j'occupais<lb/>
@@ -359,7 +360,8 @@
                y en avoir aucun, et j'attendrai<lb/>
                ce jour charmant pour porter<lb/>
                à vos pieds l'hommage de l'amant<lb/>
-               le plus tendre et le plus fidèle. <persName ref="#pers_A366">A. AMPÈRE</persName>.<lb/>
+               le plus tendre et le plus fidèle. <persName ref="#pers_A366">A. AMPÈRE</persName>.</p>
+            <p>
                Je ne sais comment j'oubliai<pb n="1270" facs="ACAS_CRHST_AMP_26_393_quarto_0542_v.jpg"/> dans ma dernière
                lettre, la plus chérie<lb/>
                de mes sœurs, celle qui a le plus<lb/>
@@ -381,7 +383,8 @@
       <back>
          <div>
             <note xml:id="corresp1">(1) Huit pages, avec adresse à la fin. Lettre publiée avec des
-               coupures par Mme <persName>Cheuvreux</persName>, p. 114 (2) Sœur aînée de <persName ref="#pers_C129">Julie</persName>. </note>
+               coupures par Mme <persName>Cheuvreux</persName>, p. 114.</note>
+            <note xml:id="corresp2">(2) Sœur aînée de <persName ref="#pers_C129">Julie</persName>. </note>
          </div>
       </back>
    </text>
