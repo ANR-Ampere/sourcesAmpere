@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -136,11 +135,12 @@
     <text type="correspondance" decls="#ampere_corr_L1824-11-08-a">
         <body>
             <div>
-                <opener><pb n="14" facs="#ACAS_CRHST_AMP_26_393_bis_0083_r.jpg"/> le <date when="1824-11-08">8 novembre 1824</date>
+                <opener>
+          <pb n="14" facs="#ACAS_CRHST_AMP_26_393_bis_0083_r.jpg"/> le <date when="1824-11-08">8 novembre 1824</date>
         </opener>
                 <opener>Monsieur,</opener>
                 <p> Son Excellence le Ministre me charge de vous transmettre ci-joint
-                        l'ampliation<ref target="#corresp_1"></ref> de son arrêté du <date when="1824-10-26">26 <choice>
+                        l'ampliation<ref target="#corresp_1"/> de son arrêté du <date when="1824-10-26">26 <choice>
               <abbr>8bre</abbr> <expan>octobre</expan>
             </choice>
           </date>
@@ -157,7 +157,11 @@
                 <closer>A Monsieur <persName>Ampère</persName>, Inspecteur général honoraire</closer>
             </div>
         </body>
-        <back><div><note xml:id="corresp_1">L'ampliation est conservée avec la lettre : voir le folio
-            2 du fac-similé du manuscrit.</note></div></back>
+        <back>
+      <div>
+        <note xml:id="corresp_1">L'ampliation est conservée avec la lettre : voir le folio
+            2 du fac-similé du manuscrit.</note>
+      </div>
+    </back>
     </text>
 </TEI>

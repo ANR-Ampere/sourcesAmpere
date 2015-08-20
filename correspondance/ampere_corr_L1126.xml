@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -139,7 +138,9 @@
     <text type="correspondance" decls="#ampere_corr_L1804-02-02-a">
         <body>
             <div>
-                <opener><pb n="1" facs="#ACAS_CRHST_AMP_24_336_0001_r.jpg"/><placeName>Lyon</placeName> le <date when="1804-02-12" calendar="revolutionary">12 pluviôse</date>
+                <opener>
+          <pb n="1" facs="#ACAS_CRHST_AMP_24_336_0001_r.jpg"/>
+          <placeName>Lyon</placeName> le <date when="1804-02-12" calendar="revolutionary">12 pluviôse</date>
         </opener>
                 <opener>Mon cher frère, mon meilleur ami,</opener>
                 <p> Il y a bien longtemps que tu n'as pas entendu
@@ -148,7 +149,7 @@
                     ton malheureux frère. Je sais bien que tu ne l'as pas oubliée, mais j'aime à
                     t'en parler. Cette amitié m'était si douce dans le temps que j'étais heureux,
                     elle me l'est toujours quoique plus triste. Hélas ! Je ne fais peut-être que
-                    t'affliger en te rappelant des peines qui nous sont communes <ref target="#corresp_1"></ref>. Je devrais ne te jamais parler des idées qui
+                    t'affliger en te rappelant des peines qui nous sont communes <ref target="#corresp_1"/>. Je devrais ne te jamais parler des idées qui
                     me poursuivent, mais je n'ai pu résister aux sentiments<pb n="2" facs="#ACAS_CRHST_AMP_24_336_0002_v.jpg"/> qui m'y ont poussé dès
                     que j'ai pris la plume pour t'écrire. Présente mes respects et mon amitié à ta
                     femme, embrasse pour moi ta petite <persName>Eliza</persName>.</p>
@@ -157,21 +158,27 @@
                     pour toi ne le cèdent à personne. Il me semble que je serais content si je
                     pouvais te revoir, et pleurer un peu avec toi. Adieu mon bon ami, aime-moi
                     toujours comme je t'aime.</p>
-                <p>Ton frère, <persName>Ampère</persName></p>
+                <p>Ton frère, <persName>Ampère</persName>
+        </p>
                 <p>PS. Tu recevras je pense avec cette
                     lettre des nouvelles directes de toute ta famille. Ta maman, tes sœurs, tes
                     neveux ne sont pas malades dans ce moment.<pb n="3" facs="#ACAS_CRHST_AMP_24_336_0003_r.jpg"/> Je viens de les voir presque tous
                     réunis chez <persName>Mme Périsse</persName>. Ta maman a dû t'écrire que je lui ai remis pour toi les
                     cinq louis que je te devais. Adieu. Adieu mon frère. Puisse-tu te bien porter,
                     et voir toujours toutes tes affaires prospérer.</p>
-                <closer><pb n="4" facs="#ACAS_CRHST_AMP_24_336_0004_v.jpg"/>A Monsieur <persName>Carron</persName>, de <placeName>Lyon</placeName>, hôtel du cercle du commerce, rue de la Loi
+                <closer>
+          <pb n="4" facs="#ACAS_CRHST_AMP_24_336_0004_v.jpg"/>A Monsieur <persName>Carron</persName>, de <placeName>Lyon</placeName>, hôtel du cercle du commerce, rue de la Loi
                     n°152, près le boulevard, à <persName>Paris</persName>
         </closer>
             </div>
         </body>
-        <back><div><note xml:id="corresp_1">Cette remarque
+        <back>
+      <div>
+        <note xml:id="corresp_1">Cette remarque
             date la lettre : après la mort de <placeName>Julie</placeName>. Pluviôse correspondant à
             janvier-février, la lettre ne peut donc dater que de <date when-iso="1804">1804</date> puisqu'<persName>Ampère</persName>
-            habite encore à <placeName>Lyon</placeName>.</note></div></back>
+            habite encore à <placeName>Lyon</placeName>.</note>
+      </div>
+    </back>
     </text>
 </TEI>
