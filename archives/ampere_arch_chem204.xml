@@ -1,0 +1,1779 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Archives André-Marie Ampère - Chemise 204</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+               <forename>André-Marie</forename>
+               <surname>Ampère</surname>
+            </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+               <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des sciences</affiliation>
+               </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+               <addrLine>27 rue Damesme</addrLine>
+               <addrLine>75013 Paris</addrLine>
+            </address>
+            <distributor>
+               <name>Centre de calcul de l'IN2P3</name>
+               <address>
+                  <addrLine>Domaine scientifique de la Doua</addrLine>
+                  <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+                  <addrLine>69622 Villeurbanne Cedex</addrLine>
+               </address>
+            </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier xml:id="ampere_arch_chem204">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                  <idno>Chemise 204</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Documents se rapportant à la rotation électromagnétique, et fragments
+                     autographes de publications d'Ampère sur l'électrodynamique</summary>
+                  <msItem xml:id="ampere_arch_chem204_1">
+                     <title>Note sur une expérience de Faraday</title>
+                  </msItem>
+                  <msItem xml:id="ampere_arch_chem204_2">
+                     <title>Fragment autographe du Recueil d'observations électrodynamique</title>
+                  </msItem>
+                  <msItem xml:id="ampere_arch_chem204_3">
+                     <title>Fragment autographe d'une autre publication d'Ampère</title>
+                  </msItem>
+                  <msItem xml:id="ampere_arch_chem204_5">
+                     <title>Fragment d'un texte d'Ampère non identifié</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <handNote corresp="#AMA">
+                        <name type="person" key="Ampère, André-Marie (1775-1836)">
+                           <forename>André-Marie</forename>
+                           <surname>Ampère</surname>
+                        </name>
+                     </handNote>
+                     <handNote xml:id="MM">
+                        <name type="person" key="Mathieu Marcel">
+                           <forename>Marcel</forename>
+                           <surname>Mathieu</surname>
+                        </name>
+                     </handNote>
+                     <handNote xml:id="main_inconnue">
+                        <name type="person">scribe inconnu</name>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <additional>
+                  <listBibl>
+                     <bibl>
+                        <title>Catalogue du Fonds André-Marie Ampère, Électricité et magnétisme,
+                           Carton X, Chemise 204</title>
+                        <biblScope type="pp">p. 18</biblScope>
+                        <publisher>éd. Archives de l'Académie des Sciences</publisher>, <date when-iso="1937">1937</date>.
+                           <idno>http://www.ampere.cnrs.fr/manuscrits/catalogueAS.pdf</idno>
+                     </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date when="2014-03">mars 2014</date>
+            <name>Aude Coustumer</name>
+         </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date when="2014-08">août 2014</date>
+            <name>Philippe Pons</name>
+         </change>
+         <change>
+            <date when="2015-03">mars 2015</date>
+            <name>Philippe Pons</name>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="images_ch204_1" corresp="#ch204_1">
+      <graphic url="ACAS_CRHST_AMP_10_204_0001_r.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_10_204_0002_r.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_10_204_0003_v.jpg"/>
+   </facsimile>
+   <facsimile xml:id="images_ch204_2" corresp="#ch204_2">
+      <graphic url="ACAS_CRHST_AMP_10_204_0004_r.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_10_204_0005_r.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_10_204_0006_v.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_10_204_0007_r.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_10_204_0008_v.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_10_204_0009_r.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_10_204_0010_r.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_10_204_0011_v.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_10_204_0012_r.jpg"/>
+   </facsimile>
+   <facsimile xml:id="images_ch204_3" corresp="#ch204_3">
+      <graphic url="ACAS_CRHST_AMP_10_204_0013_v.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_10_204_0014_r.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_10_204_0015_v.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_10_204_0016_r.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_10_204_0017_v.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_10_204_0018_r.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_10_204_0019_v.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_10_204_0020_r.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_10_204_0021_v.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_10_204_0022_r.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_10_204_0023_v.jpg"/>
+   </facsimile>
+   <facsimile xml:id="images_ch204_4" corresp="#ch204_4">
+      <graphic url="ACAS_CRHST_AMP_10_204_0024_r.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_10_204_0025_v.jpg"/>
+   </facsimile>
+   <facsimile xml:id="images_ch204_5" corresp="#ch204_5">
+      <graphic url="ACAS_CRHST_AMP_10_204_0026_r.jpg"/>
+      <graphic url="ACAS_CRHST_AMP_10_204_0027_v.jpg"/>
+   </facsimile>
+   <text decls="#ampere_arch_chem204" type="archives">
+      <group>
+         <text decls="#ampere_arch_chem204_1">
+            <body>
+               <div>
+                  <p>
+              <pb n="1" facs="#ACAS_CRHST_AMP_10_204_0001_r.jpg"/>
+                     <handShift new="#MM"/>
+            </p>
+                  <p>
+              <pb n="2" facs="#ACAS_CRHST_AMP_10_204_0002_r.jpg"/>
+                     <handShift new="#main_inconnue"/>L'expérience par laquelle Mr.
+                     <persName>Faraday</persName> a constaté l'existence<lb/> de ce mouvement sur
+                     une portion de circuit non fermée prouve<lb/> donc qu'on ne peut représenter
+                     l'ensemble des phénomènes<lb/> qu'en admettant que la force passe par l'élément
+                     ds<lb/> et non par la molécule magnétique m'. On voit ainsi que la<lb/>
+                     substitution d'un assemblage de petits aimants normaux à<lb/> une surface
+                     terminée par le fil conducteur ne peut point<lb/> représenter tous les
+                     phénomènes dus à l'action des conduc<lb rend="hyphen"/>teurs voltaïques, mais
+                     qu'elle les représente seulement dans<lb/> le cas où ces conducteurs forment
+                     des circuits <del>fermés</del>
+              <lb/> solides et fermés. On ne doit dès lors
+                     considérer cette<lb/> substitution que comme un moyen de démontrer, ainsi
+                     que<lb/> nous le ferons par la suite, l'impossibilité du mouvement de<lb/>
+                     rotation continu par l'action mutuelle de deux conducteurs<lb/> formant des
+                     circuits solides et fermés ou par celle d'un<lb/> conducteur de ce genre et
+                     d'un aimant.</p>
+                  <p>Au reste les expériences de Mr. <persName>Biot</persName> qui lui ont fait<lb/>
+                     connaître la grandeur et la direction de la force résultante<lb/> de l'action
+                     mutuelle d'une molécule magnétique et d'un<lb/> élément de conducteur
+                     voltaïque, ne pouvaient point<lb/>
+                     <gap reason="lacune"/> point d'application de cette force<lb/>
+                     <gap reason="lacune"/> expériences, il faisait agir un<lb/>
+                     <gap reason="lacune"/> formant avec la pile et les fils<lb/>
+                     <gap reason="lacune"/> un circuit solide fermé,<lb/>
+                     <gap reason="lacune"/> venons de le voir, le mouvement de<lb/>
+                     <gap reason="lacune"/> durée des oscillation de l'aimant <pb n="3" facs="#ACAS_CRHST_AMP_10_204_0003_v.jpg"/> est le même, soit qu'on suppose
+                     la force appliquée à <del>la</del>
+                     <add>l'élément</add>
+              <lb/> molécule magnétique m' ou au milieu de l'élément ds
+                     du<lb/> conducteur.</p>
+               </div>
+            </body>
+         </text>
+         <text decls="#ampere_arch_chem204_2" type="fragment">
+            <body>
+               <div>
+                  <pb n="4" facs="#ACAS_CRHST_AMP_10_204_0004_r.jpg"/>
+                  <p>
+              <handShift new="#MM"/>
+            </p>
+                  <pb n="5" facs="#ACAS_CRHST_AMP_10_204_0005_r.jpg"/>
+                  <p>
+              <handShift new="#AMA"/>
+              <gap reason="lacune"/> avant de placer l'aimant
+                     dans<lb/> cette boite on remplace le contrepoids<lb/> de platine par un cône
+                     d'acier <add>RT</add> (fig. 6)<lb/> qui porte en T <del type="illisible"/> une
+                     vis semblable<lb/> à celle du <subst>
+                        <del type="illisible"/>
+                        <add>contrepoids, et</add>
+                     </subst> qui s'adapte<lb/> à la même cavité c' <del type="illisible"/> de l'aimant,<lb/>
+                     <del type="illisible"/>
+              <lb/> comme la vis du cône n'atteint<lb/> pas le fond de
+                     cette cavité, il y<lb/> reste la place de quelques <choice>
+                        <sic>goutes</sic>
+                        <corr>gouttes</corr>
+                     </choice>
+              <lb/> de mercure qu'on a soin d'y<lb/> introduire, <subst>
+                        <del type="illisible"/>
+                        <add>avant d'y adapter le</add>
+                     </subst>
+              <lb/> cône, pour que la communication<lb/>
+                     <subst>
+                        <del type="illisible"/>
+                        <lb/>
+                        <del type="illisible"/>
+                        <lb/>
+                        <del type="illisible"/>
+                        <lb/>
+                        <del type="illisible"/>
+                        <lb/>
+                        <add>soit plus complète entre ce cône<lb/> et l'aimant que le courant
+                           électrique<lb/> doit parcourir successivement.</add>
+                     </subst>
+              <lb/> L'extrémité de l'aimant qui<lb/> porte le cône étant ensuite<lb/>
+                     tournée en bas, on met<lb/> un peu de mercure dans<lb/> la cavité de l'autre
+                     extrémité<lb/> et on y fait plonger la<lb/> pointe Z du conducteur<lb/> Q'BDZ,
+                     comme on le voit<lb/> dans la figure 10. On place alors<lb/> sous l'aimant un
+                     conducteur de cuivre <pb n="6" facs="#ACAS_CRHST_AMP_10_204_0006_v.jpg"/> NN',
+                     dont l'extrémité inférieure<lb/> porte un contrepoids de platine<lb/> o, et la
+                     supérieure une petite<lb/> coupe VV dans laquelle on met<lb/> un peu de mercure
+                     où<lb/> vient plonger la pointe R<lb/> du cône. Ce conducteur flotte<lb/> sur
+                     le mercure de l'éprouvette<lb/> XMY comme l'aimant dans<lb/> l'expérience
+                     précédente, et<lb/> lorsqu'on met les coupes Q et Q' en<lb/> communication avec
+                     les deux<lb/> extrémités d'une forte pile<lb/> on <add>le</add> voit tourner
+                     sur lui-même<lb/> par l'action de l'aimant CC',<lb/> surtout si l'on a soin de
+                     diminuer<lb/> le frottement du mercure de<lb/> l'éprouvette contre la
+                     surface<lb/> extérieure du conducteur par<lb/> d petites secousses données
+                     à<lb/> l'appareil.</p>
+                  <p>J'ai rendu ce mouvement de<lb/> rotation plus rapide et plus<lb/> aisé à
+                     obtenir, sans employer<lb/> une pile aussi forte, en <pb n="7" facs="#ACAS_CRHST_AMP_10_204_0007_r.jpg"/> remplaçant ce conducteur<lb/> par
+                     un tube de cuivre, <del type="illisible"/>
+              <lb/> sa masse étant alors réduite
+                     à<lb/> peu de chose, celle du contrepoids<lb/> de platine doit être
+                     diminuée<lb/> dans la même proportion.<lb/>
+                     <del>la rai</del> la cause de ce mouvement<lb/> de rotation, que j'ai obtenu
+                     le<lb/> premier, est évidente quand<lb/>
+                     <del>on considère, comme cela</del>
+              <lb/>
+                     <subst>
+                        <add>on</add>
+                        <del type="illisible"/>
+                     </subst> fait attention que le<lb/> conducteur ne doit pas être<lb/> considéré
+                     comme conduisant<lb/> seulement l'électricité suivant<lb/> une droite sans
+                     épaisseur, mais<lb/> comme un faisceau d'autant<lb/> de <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                     </choice> électriques qu'il<lb/> contient de séries de particules<lb/>
+                     parallèles à son axe, on voit<lb/> alors que cette expérience rentre<lb/> dans
+                     celle où l'aimant imprime<lb/> au conducteur le mouvement<lb/> de révolution
+                     continu, tandis<lb/> que quand c'est l'aimant qui<lb/> est mobile, le
+                     mouvement<lb/> de révolution <choice>
+                        <sic>est</sic>
+                        <corr>et</corr>
+                     </choice> celui de<lb/> rotation ne peuvent être assimilés, <pb n="8" facs="#ACAS_CRHST_AMP_10_204_0008_v.jpg"/> mais doivent être expliqués<lb/>
+                     séparément comme nous l'avons<lb/> fait plus haut.</p>
+                  <p>En ajoutant à cet appareil<lb/> un bout de tuyau de cuivre<lb/> ABCD (fig. 11),
+                     qui s'adapte <choice>
+                        <sic>à</sic>
+                        <corr>au</corr>
+                     </choice> frottement<lb/> dans le cercle de cuivre HI (fig. 7),<lb/> et qui
+                     porte près de son ouverture<lb/> supérieure un diaphragme en<lb/> verre EF
+                     (fig. 11) on a une<lb/> disposition très commode pour<lb/> répéter l'expérience
+                     de Mr. <lb/>
+                     <persName>Davy</persName> sur la rotation du<lb/> mercure. Il suffit après
+                     avoir<lb/> placé ce tuyau dans le cercle HI<lb/> de manière qu'ils
+                     communiquent<lb/> entre eux, soit par simple<lb/> contact, soit en
+                     plongeant<lb/> tous deux dans le mercure<lb/> de l'éprouvette XMY (fig.7),
+                     on<lb/> met ensuite <del>dans</del> dans la<lb/> partie du tuyau ABCD (fig.11)
+                     qui<lb/> est au dessus du diaphragme<lb/> EF, une <del type="illisible"/>
+              <lb/>
+                     couche de mercure de <pb n="9" facs="#ACAS_CRHST_AMP_10_204_0009_r.jpg"/> peu
+                     d'épaisseur, on y fait<lb/> plonger la pointe du cône TR<lb/>
+                     <add>au centre du cercle dont la</add> circonférence est BOI<lb/>
+                     <del type="illisible"/> adapté à l'aimant<lb/> CC' <del>(fig.11)</del> et les
+                     communications<lb/> étant établies comme <del>dans<lb/> l'expérience
+                        précédente</del>
+              <lb/> lorsqu'il s'agissait de faire<lb/> tourner le
+                     conducteur NN' (fig.10),<lb/> on voit de même le mercure<lb/> tourner autour <subst>
+                        <del>du point où</del>
+                        <lb/>
+                        <add>de</add>
+                     </subst> la pointe du cône, par l'action<lb/> de l'aimant.</p>
+                  <p>On voit sur le champs la<lb/> cause de ce mouvement<lb/>
+                     <del>en faisant</del>
+              <lb/> en faisant attention que<lb/> le mercure doit alors
+                     être<lb/> considéré comme un assemblage<lb/> de <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                     </choice> électrique, parcourant<lb/> les rayons du cercle BOCP,
+                        <del>soit</del>
+              <lb/> en allant soit du centre à la circonférence,<lb/> soit
+                     de la circonférence au centre,<lb/> suivant que le courant est descendant<lb/>
+                     ou ascendant dans l'aimant CC'.<lb/> Dans toutes ces expériences <gap reason="lacune"/>
+            </p>
+                  <pb n="10" facs="#ACAS_CRHST_AMP_10_204_0010_r.jpg"/>
+                  <p>On assure qu'il y aura bientôt une place<lb/> d'examinateur pour l'admission
+                     des élèves<lb/> à l'<orgName>école royale Polytechni<ex>que</ex>
+              </orgName>
+            </p>
+                  <p>Les seules intérieures s'opposeraient.<lb/> L'expérience de Mr.
+                     <persName>Nobili</persName> ne diffère point<lb/> de
+                     <persName>Faraday</persName>, ce n'est qu'une vérification de mon<lb/>
+                     <add>explication<lb/> mais<lb/> dira-t-on<lb/>
+                        <del type="illisible"/>
+                <lb/> quand<lb/> le circuit<lb/> est solide<lb/>
+                        l'aimant<lb/> le rencontre<lb/> sans cela<lb/> il tournerait<lb/> et bien<lb/>
+                        <gap reason="illisible"/>
+                <lb/> cercle de fil conducteur<lb/> il ne
+                        tournera<lb/> pas</add>
+              <lb/>
+                     <add>D'après le<lb/> calcul<lb/> une résultante</add> On dira encore <del type="illisible"/> si un circuit<lb/> solide ne peut faire tourner<lb/>
+                     pourquoi celui-ci. Addition et soustraction<lb/> changem<ex>en</ex>t de forme
+                     position<lb/> d'équilibre stable fuyant devant l'aimant<lb/> exemple de
+                     l'aimant flottant.<lb/> Discussion de la rotation.<lb/> Ce qui s'approche en
+                     sens contraire<lb/> de ce qui s'éloigne de l'axe <del type="illisible"/>
+              <lb/>
+                     par une toute autre cause que<lb/> le principe général.<lb/>
+                     <subst>
+                        <del type="illisible"/>
+                        <add>Circuit germé solide ou non</add>
+                     </subst>
+              <lb/> passant par le pôle<lb/> de rotation nul. <add>Ce qui s'approche
+                        tendant dans<lb/> un sens, ce qui s'éloigne dans l'autre.</add> Si le
+                     circuit est<lb/> de deux portions, l'une solide, l'autre<lb/>
+                     <choice>
+                        <sic>liquides</sic>
+                        <corr>liquide</corr>
+                     </choice>, elles tournent en sens<lb/> contraire par l'action de l'aimant<lb/>
+                     et leurs réactions sur celui-ci<lb/> égales et opposées se détruisent<lb/>
+                     mutuellement. C'est pourquoi il faut que<lb/> l'action d'une partie soit
+                     supprimée par <pb n="11" facs="#ACAS_CRHST_AMP_10_204_0011_v.jpg"/> son
+                     adhérence à l'aimant, soit<lb/> en y passant ou dans une branche
+                     adhérente.<lb/> Cas de l'aimant creux tant que<lb/> le circuit <choice>
+                        <sic>et</sic>
+                        <corr>est</corr>
+                     </choice> tout en dehors<lb/> il se conduit comme un aimant<lb/> ordinaire.
+                     L'action d'un circuit<lb/>
+                     <add>fermé et</add> solide ne peut que l'amener<lb/> dans une position
+                     d'équilibre<lb/> stable, celle d'un circuit susceptible<lb/> de changer de
+                     forme <subst>
+                        <del type="illisible"/>
+                        <add>à mesure que</add>
+                     </subst>
+              <lb/> l'aimant se meut <subst>
+                        <del type="illisible"/>
+                        <add>mais dont aucune</add>
+                     </subst>
+              <lb/> partie ne le traverse ou ne lui<lb/> est adhérente, peut bien
+                     le<lb/> faire tourner <choice>
+                        <sic>continuement</sic>
+                        <corr>continuellement</corr>
+                     </choice> autour<lb/> du fil conducteur, jamais autour<lb/> de son axe. Si le
+                     fil conducteur<lb/> passe par l'intérieur de l'aimant<lb/> creux en entrant par
+                     une<lb/> des extrémités et sortant par<lb/> l'autre <del type="bloc">sans
+                        traverser les parois de<lb/> l'aimant, tout mouv<ex>emen</ex>t continue<lb/>
+                        sera impossible par l'action du<lb/> circuit toujours fermé que comprend<lb/>
+                        <del>la pile</del>
+              </del>. Et qu'il forme un circuit<lb/> solide et fermé
+                     rien<lb/> car le dessous équilibre le dessus. <figure/>
+              <lb/> Mais plongé dans
+                     le mercure il pourra<lb/> tourner comme la révolution d'un faisceau creux.</p>
+                  <pb n="12" facs="#ACAS_CRHST_AMP_10_204_0012_r.jpg"/>
+                  <p>
+              <gap reason="lacune"/> de plus en plus grandes à chaque<lb/> révolution,
+                     jusqu'à ce que les<lb/>
+                     <choice>
+                        <sic>frottemens</sic>
+                        <corr>frottements</corr>
+                     </choice> et la résistance de l'eau<lb/> acidulée ou plonge la couronne du<lb/>
+                     conducteur mobile, mettent un<lb/> terme à <del type="illisible"/>
+                     l'augmentation de la<lb/> vitesse de rotation de ce conducteur.<lb/> Elle
+                     devient alors constante malgré<lb/> ces <choice>
+                        <sic>frottemens</sic>
+                        <corr>frottements</corr>
+                     </choice> et <choice>
+                        <sic>de</sic>
+                        <corr>
+                  <!-- vide? -->
+                </corr>
+                     </choice> cette résistance.<lb/> Il faut <del type="illisible"/> nécessairement<lb/>
+                     <subst>
+                        <del>qu'il se produise dans les <choice>
+                              <sic>élémens</sic>
+                              <corr>éléments</corr>
+                           </choice>
+                  <lb/> des fils conducteurs une force<lb/> élémentaire qui</del>
+                        <lb/>
+                        <add>admettre pour que le mouvement qu'on observe<lb/> soit possible, que
+                           cette force</add>
+                     </subst> ne soit pas<lb/> seulement fonction de la distance des deux<lb/>
+                     particules <del type="illisible"/> entre lesquelles elle s'exerce;<lb/> soit
+                     qu'elle dépende du <choice>
+                        <sic>tems</sic>
+                        <corr>temps</corr>
+                     </choice> comme<lb/> dans la rotation continue que Mr.<lb/>
+                     <persName>Zamboni</persName> a produit avec des piles<lb/> sèches, soit qu'elle
+                     dépende des <del type="illisible"/>
+              <lb/>
+                     <subst>
+                        <del type="illisible"/>
+                        <lb/>
+                        <add>
+                  <del>
+                    <choice>
+                                 <sic>élémens</sic>
+                                 <corr>éléments</corr>
+                              </choice>
+                    <lb/> des conducteurs<lb/> voltaïques des</del>
+                </add>
+                     </subst> directions suivant lesquelles ont<lb/> lieu dans ces deux élémens les<lb/>
+                     <del type="illisible"/>
+              <lb/> combinaisons ou séparations<lb/> des deux fluides
+                     électriques <subst>
+                        <del type="illisible"/>
+                        <add>dont</add>
+                     </subst>
+              <lb/>
+                     <del type="illisible"/>
+              <lb/> cette force émane, comme j'ai trouvé<lb/> qu'elle
+                     en dépendait en effet, car<lb/> d'après la formule la valeur de<lb/> cette
+                     force contient (E) <gap reason="lacune"/>
+            </p>
+               </div>
+            </body>
+         </text>
+         <text decls="#ampere_arch_chem204_3" type="fragment">
+            <body>
+               <div>
+                  <pb n="13" facs="#ACAS_CRHST_AMP_10_204_0013_v.jpg"/>
+                  <p>
+              <gap reason="lacune"/> (C) Qu'une partie de ces points invariablement<lb/>
+                     <subst>
+                        <del type="illisible"/>
+                        <add>liés entre eux</add>
+                     </subst> ne se meuvent<lb/> qu'en vertu de ces forces, les <del>quelques
+                        soient<lb/> les limites</del> autres restant fixes, les<lb/> premiers ne
+                     peuvent revenir à la<lb/> même situation, tant entre eux qu'à<lb/> l'égard des
+                     seconds, avec des vitesses<lb/> plus grandes que quand ils sont<lb/> partis de
+                     cette même situation,<lb/> or dans le mouvement de<lb/> de rotation continue
+                     d'un conducteur<lb/> mobile par l'action d'un conducteur<lb/> fixe, tous les
+                     points du premier<lb/> reviennent à la même situation<lb/> avec des vitesses
+                     qui deviennent <gap reason="lacune"/>
+                     <pb n="14" facs="#ACAS_CRHST_AMP_10_204_0014_r.jpg"/> Cette pointe O communique
+                     avec<lb/> l'extrémité A par le fil de cuivre AE<lb/> dont le prolongement EF
+                     soutient<lb/> en F la lame ABC par un <subst>
+                        <del type="illisible"/>
+                        <add>anneau</add>
+                     </subst>
+              <lb/> de substance isolante qui entoure en ce<lb/> point le fil de
+                     cuivre. Lorsque la<lb/> pointe <del type="illisible"/> (fig. 5) repose sur
+                     le<lb/> fond de la coupe S (fig.6) La lame<lb/> ABC plonge dans l'eau
+                     acidulée<lb/> que contient le vase de cuivre<lb/> MN qui communique avec
+                     l'autre<lb/> rhéophore, on voit alors tourner<lb/> cette lame dans le sens CAB,
+                     et<lb/> pourvu que la pile soit assez<lb/> forte, le mouvement reste
+                     toujours<lb/> dans ce sens lorsqu'on renverse<lb/> les communications avec la
+                     pile<lb/> en changeant <add>réciproquement</add> les deux
+                        rhéophore<supplied>s</supplied>
+              <lb/> de la coupe P à la coupe R, <del type="illisible"/>
+              <lb/> ce qui prouve que ce mouvement<lb/> n'est point du à
+                     l'action de la terre<lb/> et ne peut venir que de celle que<lb/> les <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                     </choice> de l'eau acidulée exerce<lb/> sur le courant de la lame circulaire<lb/>
+                     <subst>
+                        <del type="illisible"/>
+                        <add>ABC, et qui est toujours répulsive</add>
+                     </subst> ainsi que je l'ai expliqué<lb/> dans le passage de mon recueil<lb/>
+                     cité plus haut, parce que si GH représente<lb/> un des <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                     </choice> de l'eau acidulée qui se<lb/> prolonge en HK dans la lame ABC,<lb/>
+                     quelque soit le sens de ce courant <pb n="15" facs="#ACAS_CRHST_AMP_10_204_0015_v.jpg"/> il parcourra évidemment l'un
+                     des<lb/> cotés de l'angle GHK en <del type="illisible"/>
+                     <add>s'approchant</add>
+              <lb/> et l'autre en s'éloignant du sommet<lb/> H. Mais
+                     il faut pour que le mouvement<lb/> qu'on observe dans ce cas ait lieu que<lb/>
+                     la répulsion entre deux <choice>
+                        <sic>élémens</sic>
+                        <corr>éléments</corr>
+                     </choice>
+              <lb/> l'un en I et l'autre en L ait lieu<lb/> suivant la droite IL,
+                     oblique à<lb/> l'arc ABC, et non suivant la<lb/> perpendiculaire LT à
+                     l'élément<lb/> situé en L, car <del type="illisible"/> la direction<lb/> de
+                     cette perpendiculaire rencontrant<lb/> la verticale menée par le point O<lb/>
+                     autour de laquelle la partie mobile<lb/> de l'appareil est <choice>
+                        <sic>assujetie</sic>
+                        <corr>assujettie</corr>
+                     </choice> à tourner,<lb/> une force dirigée suivant cette<lb/> perpendiculaire
+                     ne pourrait<lb/> lui imprimer aucun<lb/> mouvement de rotation.</p>
+                  <p>Je viens de dire que pour s'assurer<lb/> que le mouvement de cet appareil<lb/>
+                     n'est pas produit par l'action de<lb/> la terre en constatant qu'il<lb/>
+                     continue d'avoir lieu dans le même<lb/>
+                     <add>sens</add> quand on renverse les communication<supplied>s</supplied>
+              <lb/>
+                     avec la pile en changeant les rhéophores<lb/> de coupes, il fallait que la pile
+                     fût<lb/> assez forte ; il est impossible en<lb/> effet, dans cette disposition
+                     du<lb/> conducteur mobile, d'empêcher <pb n="16" facs="#ACAS_CRHST_AMP_10_204_0016_r.jpg"/> la terre d'agir sur <del type="illisible"/>
+              <lb/> le fil vertical AP pour le porter à l'ouest<lb/>
+                     quand le courant y est ascendant,<lb/> à l'est quand le courant y est
+                     descendant,<lb/> et sur le fil horizontal PR pour le<lb/> faire tourner autour
+                     de la verticale<lb/> passant par le point O, dans le sens direct<lb/> est, sud,
+                     ouest, quand le courant va<lb/> de P en R, en s'approchant du centre<lb/> de
+                     rotation, et dans le sens rétrograde<lb/> ouest, sud, est, quand il va de R en
+                     P, en<lb/> s'éloignant du même centre (I). La première<lb/> de ces deux actions
+                     est peu sensible, lors<lb/> du moins qu'on ne donne <del type="illisible"/>
+              <lb/> au fil vertical AP que la longueur<lb/> nécessaire pour la stabilité du
+                     conducteur<lb/> mobile sur sa pointe O, mais la seconde<lb/> est déterminée par
+                     les dimensions de l'appareil,<lb/> et comme elle change de sens lorsqu'on<lb/>
+                     renverse les communications avec la<lb/> pile, elle s'ajoute dans un ordre
+                     de<lb/> communication <subst>
+                        <del type="illisible"/>
+                        <del type="illisible"/>
+                        <add>avec l'action exercée par</add>
+                     </subst>
+              <lb/> les <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                     </choice> de l'eau acidulée et<lb/> s'en retranche dans l'autre, c'est,<lb/>
+                     pourquoi le mouvement observé<lb/> est toujours plus rapide dans un cas<lb/>
+                     que dans l'autre, cette <subst>
+                        <del type="illisible"/>
+                        <add>différence</add>
+                     </subst>
+              <lb/>
+                     <del type="illisible"/>
+              <lb/> est d'autant plus marquée que le courant <pb n="17" facs="#ACAS_CRHST_AMP_10_204_0017_v.jpg"/> produit par la pile est
+                     plus faible, parce<lb/> qu'à mesure que son intensité diminue<lb/> l'action <subst>
+                        <del type="illisible"/>
+                        <add>électro-dynamique</add>
+                     </subst> étant toutes choses égales<lb/> d'ailleurs, comme le produit des
+                     intensités<lb/> des deux portions de courant qui agissent<lb/> l'une sur
+                     l'autre, cette action entre<lb/> les <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                     </choice> de l'eau acidulée et ceux<lb/> de la lame <add>ABC (fig. 5)</add>
+                     diminue comme le carré<lb/> de leur intensité, <subst>
+                        <del type="illisible"/>
+                        <add>tandis</add>
+                     </subst> que l'intensité<lb/> des <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                     </choice> terrestres restant la même<lb/> leur action sur ceux de <del type="illisible"/> cette<lb/> lame ne devient <add>moindre</add> que
+                     proportionnellement<lb/> à la même intensité, à mesure que<lb/>
+                     <add>l'énergie de</add> la pile diminue, l'action du globe devient<lb/> de plus
+                     en plus près de détruire celle<lb/> des <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                     </choice> de l'eau acidulée dans la<lb/> disposition des communications
+                     avec<lb/> la pile où elles sont opposées, et l'on<lb/> voit, lorsque cette
+                     énergie est<lb/> devenue très faible, l'appareil s'arrêter<lb/> dans ce cas, et
+                     le mouvement se<lb/> produire ensuite en sens contraire,<lb/> alors
+                     l'expérience conduirait à une<lb/> conséquence opposée à celle qu'il<lb/>
+                     s'agissait d'établir, puisque l'action<lb/> de la terre devenant
+                     prépondérante,<lb/> on pourrait <del type="illisible"/> méconnaître<lb/>
+                     l'existence de celle des courans<lb/> de l'eau acidulée. Au reste, <del type="illisible"/>
+              <lb/> la première de ces deux actions est<lb/> toujours
+                     nulle sur la lame circulaire<lb/> ABC parce que la terre agissant<lb/> comme un
+                     système de <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                     </choice> fermés,<lb/> la force qu'elle exerce sur chaque<lb/> élément étant
+                     perpendiculaire<lb/> à la direction de cet élément, passe<lb/> par la verticale
+                     menée par le point<lb/> O, et ne peut,par conséquent,<lb/> tendre à faire
+                     tourner autour d'elle<lb/> le conducteur mobile.</p>
+                  <pb n="18" facs="#ACAS_CRHST_AMP_10_204_0018_r.jpg"/>
+                  <p>Mouvement continu avec accélération<lb/> impossible quand les forces sont<lb/>
+                     fonctions des distances.<lb/> Dans ce dernier cas <subst>
+                        <del type="illisible"/>
+                        <lb/>
+                        <del type="illisible"/>
+                        <add>la vitesse étant la même au retour à la</add>
+                     </subst>
+              <lb/> même situation, à cause<lb/> de <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mi/>
+                           </mrow>
+                        </math>
+                     </formula>
+              <lb/> Cette vitesse ne peut croître sans<lb/> décroître ensuite, d'où
+                     il suit que<lb/> si l'on plaçait le système <subst>
+                        <del>dans</del>
+                        <lb/>
+                        <add>en repos dans</add>
+                     </subst> la situation du maximum de<lb/> force vive <subst>
+                        <del type="illisible"/>
+                        <add>il y aurait équilibre</add>
+                     </subst>
+              <lb/> stable. Instable dans la position<lb/> du minimum de force
+                     vive.<lb/> Distinction pour les solénoïdes ou les<lb/>
+                     <choice>
+                        <sic>aimans</sic>
+                        <corr>aimants</corr>
+                     </choice> entre révolution et<lb/> rotation.<lb/> Explication que
+                     <figure/>
+              <lb/> j'ai donné de la<lb/> révolution<lb/> découverte par Mr.
+                     <persName>Faraday</persName>.</p>
+                  <pb n="19" facs="#ACAS_CRHST_AMP_10_204_0019_v.jpg"/>
+                  <p>Elle ne suppose pas,<lb/> le circuit étant fermé par la pile,<lb/> que le
+                     courant traverse l'aimant.<lb/> Inutilité de l'expérience de<lb/> Mr.
+                     <persName>Nobili</persName>. Nécessité que le circuit<lb/> ait une portion
+                     liquide pour le passage.<lb/> L'aimant ne passerait pas s'il était <gap reason="illisible"/> pour cela.<lb/> Son cercle de platine ne fait pas<lb/>
+                     objection parce que le courant ne<lb/> le suit pas. <figure/>
+              <lb/>
+                     <add>Aimant creux c'est encore révolution <figure/>
+                <lb/> car l'axe de rotation
+                        ne passe pas le pôle. Il<lb/> tourne comme le faisceau quand le courant
+                        le<lb/> traverse. Le faisceau tourne seul quand ils sont isolés.<lb/>
+                        <add>Principe de Mr. <persName>de Monferrand</persName> sur un pôle en
+                           dedans et un en dehors.</add>
+              </add>
+              <lb/> Il faut pour la rotation
+                     qu'il<lb/> y passe. Quand elle a lieu autour<lb/> d'une droite passant par les
+                     pôles.<lb/> Non pas pour la raison générale,<lb/> mais parce que la
+                     résultante<lb/> d'un circuit fermé passe par le<lb/>
+                     <figure/> pôle.</p>
+                  <p>Quand le courant passe par l'aimant<lb/> ou un fil qui y est lié, le
+                     circuit<lb/> actif n'est réellement plus fermé.</p>
+                  <p>La liquidité agit par le transport<lb/> en 2 sens opposés, des particules<lb/>
+                     qui se trouvent dans le<supplied>s</supplied> 2 courans.<lb/> Objection de Mr.
+                     <persName>Pherardi</persName> fondée<lb/> sur ce qu'il n'a pas compris
+                     cela.</p>
+                  <pb n="20" facs="#ACAS_CRHST_AMP_10_204_0020_r.jpg"/>
+                  <p>
+              <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mi>m</mi>
+                              <mo>(</mo>
+                              <mfrac>
+                                 <mrow>
+                                    <mo>(</mo>
+                                    <mi>n</mi>
+                                    <mo/>
+                                    <mn>1</mn>
+                                    <mo>)</mo>
+                                    <mi>cos</mi>
+                                    <mi/>
+                                 </mrow>
+                                 <mrow>
+                                    <mi/>
+                                    <mi>n</mi>
+                                    <mo>+</mo>
+                                    <mn>1</mn>
+                                 </mrow>
+                              </mfrac>
+                              <mo/>
+                              <mfrac>
+                                 <mrow>
+                                    <mo>(</mo>
+                                    <mi>n</mi>
+                                    <mo>+</mo>
+                                    <mn>1</mn>
+                                    <mo>)</mo>
+                                    <mi>h</mi>
+                                    <mi>q</mi>
+                                 </mrow>
+                                 <mrow>
+                                    <mi/>
+                                    <mi>n</mi>
+                                    <mo>+</mo>
+                                    <mn>3</mn>
+                                 </mrow>
+                                 <mo>)</mo>
+                              </mfrac>
+                           </mrow>
+                        </math>
+                     </formula>
+              <lb/> quand <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mi>n</mi>
+                              <mo>=</mo>
+                              <mn>2</mn>
+                           </mrow>
+                        </math>
+                     </formula> est <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mi>h</mi>
+                              <mo>=</mo>
+                              <mi>z</mi>
+                           </mrow>
+                        </math>
+                     </formula> c'est<lb/>
+                     <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mi>m</mi>
+                              <mo>(</mo>
+                              <mfrac>
+                                 <mrow>
+                                    <mi>cos</mi>
+                                    <mi/>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>3</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                              <mo/>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>3</mn>
+                                    <mi>z</mi>
+                                    <mi>q</mi>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>5</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                              <mo>)</mo>
+                           </mrow>
+                        </math>
+                     </formula>. <add>{ soit p le rapport <add>de la somme</add> des aires
+                        circonscrites<lb/> à l'air <gap reason="illisible"/> p étant supposé<lb/>
+                        constant, il y aura autant de<lb/>
+                        <gap reason="illisible"/> aires dans l'élément de surface<lb/>
+                        <formula>
+                           <math xmlns="http://www.w3.org/1998/Math/MathML">
+                              <mrow>
+                                 <mfrac>
+                                    <mrow>
+                                       <mi>u</mi>
+                                       <mi>d</mi>
+                                       <mi>u</mi>
+                                       <mi>d</mi>
+                                       <mi/>
+                                    </mrow>
+                                    <mrow>
+                                       <mi>cos</mi>
+                                       <mi/>
+                                    </mrow>
+                                 </mfrac>
+                              </mrow>
+                           </math>
+                        </formula>, que <gap reason="illisible"/> sera contenu<lb/> de
+                           <unclear>fois</unclear>, on multipliera donc par <formula>
+                           <math xmlns="http://www.w3.org/1998/Math/MathML">
+                              <mrow>
+                                 <mfrac>
+                                    <mrow>
+                                       <mi>u</mi>
+                                       <mi>d</mi>
+                                       <mi>u</mi>
+                                       <mi>d</mi>
+                                       <mi/>
+                                    </mrow>
+                                    <mrow>
+                                       <mi>p</mi>
+                                       <mi>m</mi>
+                                    </mrow>
+                                 </mfrac>
+                              </mrow>
+                           </math>
+                        </formula>
+              </add>
+              <lb/>
+                     <subst>
+                        <del type="illisible"/>
+                        <lb/>
+                        <add>et l'on aura</add>
+                     </subst>
+              <lb/>
+                     <del type="illisible"/>
+                     <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mfrac>
+                                 <mrow>
+                                    <mi>u</mi>
+                                    <mi>d</mi>
+                                    <mi>u</mi>
+                                    <mi>d</mi>
+                                    <mi/>
+                                 </mrow>
+                                 <mrow>
+                                    <mi/>
+                                    <mi>cos</mi>
+                                    <mi/>
+                                 </mrow>
+                              </mfrac>
+                              <mo>(</mo>
+                              <mfrac>
+                                 <mrow>
+                                    <mi>cos</mi>
+                                    <mi/>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>3</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                              <mo/>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>3</mn>
+                                    <mi>z</mi>
+                                    <mi>q</mi>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>5</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                              <mo>)</mo>
+                              <mo>=</mo>
+                              <mi>u</mi>
+                              <mi>d</mi>
+                              <mi>u</mi>
+                              <mi>d</mi>
+                              <mi/>
+                              <mo>(</mo>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>1</mn>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>3</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                              <mo/>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>3</mn>
+                                    <mi>z</mi>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>5</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                              <mo/>
+                              <mfrac>
+                                 <mrow>
+                                    <mi>q</mi>
+                                 </mrow>
+                                 <mrow>
+                                    <mi>cos</mi>
+                                    <mi/>
+                                 </mrow>
+                              </mfrac>
+                              <mo>)</mo>
+                           </mrow>
+                        </math>
+                     </formula>
+              <lb/>
+                     <figure/>
+              <lb/>
+                     <figure/>
+                     <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mfrac>
+                                 <mrow>
+                                    <mi>q</mi>
+                                 </mrow>
+                                 <mrow>
+                                    <mi>cos</mi>
+                                    <mi>z</mi>
+                                 </mrow>
+                              </mfrac>
+                              <mo>=</mo>
+                              <mi>z</mi>
+                              <mo/>
+                              <mfrac>
+                                 <mrow>
+                                    <mi>u</mi>
+                                    <mi>d</mi>
+                                    <mi>z</mi>
+                                 </mrow>
+                                 <mrow>
+                                    <mi>d</mi>
+                                    <mi>u</mi>
+                                 </mrow>
+                              </mfrac>
+                           </mrow>
+                        </math>
+                     </formula>
+              <lb/> C'est <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mfrac>
+                                 <mrow>
+                                    <mi>u</mi>
+                                    <mi>d</mi>
+                                    <mi>u</mi>
+                                    <mi>d</mi>
+                                    <mi/>
+                                 </mrow>
+                                 <mrow>
+                                    <mi/>
+                                 </mrow>
+                              </mfrac>
+                              <mo>(</mo>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>1</mn>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>3</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                              <mo/>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>3</mn>
+                                    <msup>
+                                       <mi>z</mi>
+                                       <mn>2</mn>
+                                    </msup>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>5</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                              <mo>+</mo>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>3</mn>
+                                    <mi>u</mi>
+                                    <mi>z</mi>
+                                    <mi>d</mi>
+                                    <mi>z</mi>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>5</mn>
+                                    </msup>
+                                    <mi>d</mi>
+                                    <mi>u</mi>
+                                 </mrow>
+                              </mfrac>
+                              <mo>)</mo>
+                              <mo>=</mo>
+                              <mfrac>
+                                 <mrow>
+                                    <mi>u</mi>
+                                    <mi>d</mi>
+                                    <mi>u</mi>
+                                    <mi>d</mi>
+                                    <mi/>
+                                 </mrow>
+                                 <mrow>
+                                    <mi/>
+                                 </mrow>
+                              </mfrac>
+                              <mo>(</mo>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>1</mn>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>3</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                              <mo/>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>3</mn>
+                                    <msup>
+                                       <mi>z</mi>
+                                       <mn>2</mn>
+                                    </msup>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>5</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                              <mo>+</mo>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>3</mn>
+                                    <mi>u</mi>
+                                    <mi>d</mi>
+                                    <mi>r</mi>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>4</mn>
+                                    </msup>
+                                    <mi>d</mi>
+                                    <mi>u</mi>
+                                 </mrow>
+                              </mfrac>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>3</mn>
+                                    <msup>
+                                       <mi>u</mi>
+                                       <mn>2</mn>
+                                    </msup>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>5</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                              <mo>)</mo>
+                           </mrow>
+                        </math>
+                     </formula>
+              <lb/>
+                     <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mfrac>
+                                 <mrow>
+                                    <mi>u</mi>
+                                    <mi>d</mi>
+                                    <mi>u</mi>
+                                    <mi>d</mi>
+                                    <mi/>
+                                 </mrow>
+                                 <mrow>
+                                    <mi/>
+                                 </mrow>
+                              </mfrac>
+                              <mo>(</mo>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>3</mn>
+                                    <mi>u</mi>
+                                    <mi>d</mi>
+                                    <mi>r</mi>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>4</mn>
+                                    </msup>
+                                    <mi>d</mi>
+                                    <mi>u</mi>
+                                 </mrow>
+                              </mfrac>
+                              <mo/>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>2</mn>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>3</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                              <mo>)</mo>
+                              <mo>=</mo>
+                              <mo/>
+                              <mfrac>
+                                 <mrow>
+                                    <mi>d</mi>
+                                    <mi/>
+                                 </mrow>
+                                 <mrow>
+                                    <mi/>
+                                 </mrow>
+                              </mfrac>
+                              <mo>(</mo>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>2</mn>
+                                    <mi>u</mi>
+                                    <mi>d</mi>
+                                    <mi>u</mi>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>3</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                              <mo/>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>3</mn>
+                                    <msup>
+                                       <mi>u</mi>
+                                       <mn>2</mn>
+                                       <mi>d</mi>
+                                       <mi>r</mi>
+                                    </msup>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>4</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                              <mo>)</mo>
+                           </mrow>
+                        </math>
+                     </formula>
+                     <add>
+                <gap reason="expressions_mathématiques"/>
+              </add>
+              <lb/> dont l'intégrale est <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mi>C</mi>
+                              <mo/>
+                              <mfrac>
+                                 <mrow>
+                                    <msup>
+                                       <mi>u</mi>
+                                       <mn>2</mn>
+                                    </msup>
+                                    <mi>d</mi>
+                                    <mi/>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>3</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                           </mrow>
+                        </math>
+                     </formula> qu'il faut prendre<lb/> d'un bord du circuit à l'autre c'est<lb/>
+                     <figure/>
+                     <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>1</mn>
+                                 </mrow>
+                                 <mrow>
+                                    <mi/>
+                                 </mrow>
+                              </mfrac>
+                              <mo>(</mo>
+                              <mfrac>
+                                 <mrow>
+                                    <msup>
+                                       <mi>u'</mi>
+                                       <mn>2</mn>
+                                    </msup>
+                                    <mi>d</mi>
+                                    <mi/>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r'</mi>
+                                       <mn>3</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                              <mo/>
+                              <mfrac>
+                                 <mrow>
+                                    <msup>
+                                       <mi>u''</mi>
+                                       <mn>2</mn>
+                                    </msup>
+                                    <mi>d</mi>
+                                    <mi/>
+                                 </mrow>
+                                 <mrow>
+                                    <mi>r''</mi>
+                                 </mrow>
+                              </mfrac>
+                              <mo>)</mo>
+                           </mrow>
+                        </math>
+                     </formula>, et comme<lb/> d change entre nécessairement<lb/> de signe, la
+                     seconde intégrale<lb/> de cela est celle de<lb/>
+                     <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>1</mn>
+                                 </mrow>
+                                 <mrow>
+                                    <mi/>
+                                 </mrow>
+                              </mfrac>
+                              <mo/>
+                              <mfrac>
+                                 <mrow>
+                                    <msup>
+                                       <mi>u</mi>
+                                       <mn>2</mn>
+                                    </msup>
+                                    <mi>d</mi>
+                                    <mi/>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>3</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                           </mrow>
+                        </math>
+                     </formula> ou de <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>1</mn>
+                                 </mrow>
+                                 <mrow>
+                                    <mi/>
+                                 </mrow>
+                              </mfrac>
+                              <mo/>
+                              <mfrac>
+                                 <mrow>
+                                    <mi>x</mi>
+                                    <mi>d</mi>
+                                    <mi>y</mi>
+                                    <mo/>
+                                    <mi>y</mi>
+                                    <mi>d</mi>
+                                    <mi>x</mi>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>3</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                           </mrow>
+                        </math>
+                     </formula> pour tout <pb n="21" facs="#ACAS_CRHST_AMP_10_204_0021_v.jpg"/> en
+                     sorte que le C vaut<lb/>
+                     <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>1</mn>
+                                 </mrow>
+                                 <mrow>
+                                    <mi/>
+                                 </mrow>
+                              </mfrac>
+                              <mo/>
+                              <mfrac>
+                                 <mrow>
+                                    <mi>x</mi>
+                                    <mi>d</mi>
+                                    <mi>y</mi>
+                                    <mo/>
+                                    <mi>y</mi>
+                                    <mi>d</mi>
+                                    <mi>x</mi>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>3</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                           </mrow>
+                        </math>
+                     </formula>.<lb/> On trouvera de même<lb/>
+                     <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mi>B</mi>
+                              <mo>=</mo>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>1</mn>
+                                 </mrow>
+                                 <mrow>
+                                    <mi/>
+                                 </mrow>
+                              </mfrac>
+                              <mo/>
+                              <mfrac>
+                                 <mrow>
+                                    <mi>z</mi>
+                                    <mi>d</mi>
+                                    <mi>x</mi>
+                                    <mo/>
+                                    <mi>x</mi>
+                                    <mi>d</mi>
+                                    <mi>z</mi>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>3</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                           </mrow>
+                        </math>
+                     </formula> et <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mi>A</mi>
+                              <mo>=</mo>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>1</mn>
+                                 </mrow>
+                                 <mrow>
+                                    <mi/>
+                                 </mrow>
+                              </mfrac>
+                              <mo/>
+                              <mfrac>
+                                 <mrow>
+                                    <mi>y</mi>
+                                    <mi>d</mi>
+                                    <mi>z</mi>
+                                    <mo/>
+                                    <mi>z</mi>
+                                    <mi>d</mi>
+                                    <mi>y</mi>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>3</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                           </mrow>
+                        </math>
+                     </formula>.<lb/> Ces 3 valeurs sont les mêmes que <del type="illisible"/>
+                     <add>celles que</add>
+              <lb/> donne le circuit entier multipliées par <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>1</mn>
+                                 </mrow>
+                                 <mrow>
+                                    <mi/>
+                                 </mrow>
+                              </mfrac>
+                           </mrow>
+                        </math>
+                     </formula>, et<lb/> leur deviennent égales quand <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mi/>
+                           <mo>=</mo>
+                           <mn>1</mn>
+                        </math>
+                     </formula>, c'est<lb/> à dire quand les aires circonscrites<lb/> occupent toute
+                     la surface, ce qui<lb/> devait nécessairement arriver à cause<lb/> de la
+                     destruction des <del type="illisible"/> l'action<lb/> des <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                     </choice> opposés par superposition.</p>
+                  <p>Soit deux molécules magnétiques à un<supplied>e</supplied> distance<lb/>
+                     <gap reason="illisible"/> sur la normale au petit<lb/> circuit, aura pour
+                     leur<lb/> action sur le point A suivant AC, <figure/>
+              <lb/> l'intensité de
+                     chacune étant ,<lb/>
+                     <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mi/>
+                              <mi/>
+                              <mfrac>
+                                 <mrow>
+                                    <mi>z</mi>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>3</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                              <mo>=</mo>
+                              <mi/>
+                              <mo>(</mo>
+                              <mfrac>
+                                 <mrow>
+                                    <mi/>
+                                    <mi>z</mi>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>3</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                              <mo/>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>3</mn>
+                                    <mi>z</mi>
+                                    <mi/>
+                                    <mi>r</mi>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>4</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                              <mo>)</mo>
+                           </mrow>
+                        </math>
+                     </formula> ;<lb/>
+                     <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mi/>
+                              <mi>z</mi>
+                              <mo>=</mo>
+                              <mi/>
+                              <mi>q</mi>
+                              <mi>cos</mi>
+                              <mi/>
+                           </mrow>
+                        </math>
+                     </formula>
+              <lb/>
+                     <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mi/>
+                              <mi>y</mi>
+                              <mo>=</mo>
+                              <mi/>
+                              <mi>q</mi>
+                              <mi>cos</mi>
+                              <mi/>
+                           </mrow>
+                        </math>
+                     </formula>
+              <lb/>
+                     <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mi/>
+                              <mi>x</mi>
+                              <mo>=</mo>
+                              <mi/>
+                              <mi>q</mi>
+                              <mi>cos</mi>
+                              <mi/>
+                           </mrow>
+                        </math>
+                     </formula> } <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mi>r</mi>
+                              <mi/>
+                              <mi>r</mi>
+                              <mo>=</mo>
+                              <mi>z</mi>
+                              <mi/>
+                              <mi>z</mi>
+                              <mo>+</mo>
+                              <mi>x</mi>
+                              <mi/>
+                              <mi>x</mi>
+                              <mo>+</mo>
+                              <mi>y</mi>
+                              <mi/>
+                              <mi>y</mi>
+                              <mo>=</mo>
+                              <mi>d</mi>
+                              <mi>q</mi>
+                              <mo>(</mo>
+                              <mi>x</mi>
+                              <mi>cos</mi>
+                              <mi/>
+                              <mo>+</mo>
+                              <mi>y</mi>
+                              <mi>cos</mi>
+                              <mi/>
+                              <mo>+</mo>
+                              <mi/>
+                              <mi>cos</mi>
+                              <mi/>
+                              <mo>)</mo>
+                              <mo>=</mo>
+                              <mi>q</mi>
+                              <mi/>
+                              <mi>q</mi>
+                           </mrow>
+                        </math>
+                     </formula>
+              <lb/> ainsi <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mi/>
+                              <mi>r</mi>
+                              <mo>=</mo>
+                              <mfrac>
+                                 <mrow>
+                                    <mi>q</mi>
+                                    <mi/>
+                                    <mi>q</mi>
+                                 </mrow>
+                                 <mrow>
+                                    <mi>r</mi>
+                                 </mrow>
+                              </mfrac>
+                           </mrow>
+                        </math>
+                     </formula>, et<lb/>
+                     <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                           <mrow>
+                              <mi/>
+                              <mi/>
+                              <mfrac>
+                                 <mrow>
+                                    <mi>z</mi>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>3</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                              <mo>=</mo>
+                              <mi/>
+                              <mi/>
+                              <mi>q</mi>
+                              <mo>(</mo>
+                              <mfrac>
+                                 <mrow>
+                                    <mi>cos</mi>
+                                    <mi/>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>3</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                              <mo/>
+                              <mfrac>
+                                 <mrow>
+                                    <mn>3</mn>
+                                    <mi>z</mi>
+                                    <mi>q</mi>
+                                 </mrow>
+                                 <mrow>
+                                    <msup>
+                                       <mi>r</mi>
+                                       <mn>5</mn>
+                                    </msup>
+                                 </mrow>
+                              </mfrac>
+                           </mrow>
+                        </math>
+                     </formula>, qui est<lb/> la valeur de C multipliée par q au lieu
+                     de<lb/> m ou .</p>
+                  <pb n="22" facs="#ACAS_CRHST_AMP_10_204_0022_r.jpg"/>
+                  <p>
+              <del type="illisible"/>
+              <lb/>
+                     <del>qui sont</del>
+              <lb/> avec lequel on puisse <del type="illisible"/>
+                     <add>se procurer</add> en établissant<lb/> les communications de diverses manières<lb/>
+                     <subst>
+                        <del>se procurer à volonté</del>
+                        <add>soit</add>
+                     </subst> un courant<lb/> horizontal mobile autour d'une de ses extrémités, <del type="illisible"/> soustrait <del>à</del> ou<lb/>
+                     <add>soumis</add> à volonté à l'action de la terre, soit<lb/> un courant<subst>
+                        <del type="illisible"/>
+                        <add>qui ne puisse que tourner autour d'un</add>
+                     </subst> axe vertical,<lb/>
+                     <del>autour</del> auquel il reste constamment<lb/> parallèle, et qu'on puisse
+                     aussi <del type="illisible"/>
+              <lb/> soustraire quand on le veut à l'action<lb/>
+                     du globe. Ce conducteur <add>mobile</add> est composé<lb/> des deux couronnes
+                     ABC, abc, qui<lb/> plonge<supplied>nt</supplied> dans les deux vases de<lb/>
+                     cuivre GHI, ghi, ces deux vases<lb/> communiquent entre eux par le<lb/> tuyau
+                     EF, <subst>
+                        <del type="illisible"/>
+                        <add>et avec la pile au moyen</add>
+                     </subst>
+              <lb/> de la coupe D destinée à<lb/> recevoir un <choice>
+                        <sic>rhéophores</sic>
+                        <corr>rhéophore</corr>
+                     </choice>. Dans<lb/> l'espace libre qui se trouve autour<lb/> des centres de
+                     ces vases il y a deux<lb/> coupes de mercure MN, mn <del type="illisible"/>
+              <lb/>
+                     <del type="illisible"/> pouvant communiquer<lb/> avec la pile par les coupes
+                        <del type="illisible"/>
+              <lb/> L,l, dont la dernière est soudée au<lb/> bas du
+                     tube ef, contenu dans le<lb/> tube EF dont il est séparé par<lb/> une enveloppe
+                     de soie <pb n="23" facs="#ACAS_CRHST_AMP_10_204_0023_v.jpg"/>
+                     <gap reason="expressions_mathématiques"/>
+                  </p>
+               </div>
+            </body>
+            <back>
+               <div>
+                  <note>Voyez sur ces deux sortes d'actions exercées<lb/> par le globe terrestre ce
+                     qui en dit dans<lb/> mon recueil d'observations électro-dynamiques,<lb/> pages
+                     280-284.</note>
+               </div>
+            </back>
+         </text>
+         <text type="fragment" xml:id="ampere_arch_chem204_4">
+            <body>
+               <div>
+                  <pb n="24" facs="#ACAS_CRHST_AMP_10_204_0024_r.jpg"/>
+                  <pb n="25" facs="#ACAS_CRHST_AMP_10_204_0025_v.jpg"/>
+               </div>
+            </body>
+         </text>
+         <text decls="#ampere_arch_chem204_5" type="fragment">
+            <body>
+               <div>
+                  <p>
+              <pb n="26" facs="#ACAS_CRHST_AMP_10_204_0026_r.jpg"/>
+                     <del>Et d'une molécule magnétique<lb/> hypothèse</del> je n'en aurais même<lb/>
+                     pas fait la remarque si l'on<lb/> avait pas supposé que l'action<lb/> mutuelle
+                     d'un élément de fil<lb/> conducteur et d'une molécule<lb/> magnétique, <del type="illisible"/> consistait<lb/> en un couple primitif composé<lb/> de
+                     deux forces égales et parallèles<lb/> sans être directement opposées,<lb/>
+                     <choice>
+                        <sic>en en</sic>
+                        <corr>en</corr>
+                     </choice> vertu duquel une portion<lb/> de courant qui a lieu dans un<lb/>
+                     aimant <del type="illisible"/> pourrait le<lb/> mouvoir, supposition
+                     contraire<lb/> au principe dont il est ici question<lb/> et qui se trouve
+                     démentie par<lb/> le fait de la nullité d'action<lb/> sur l'aimant des
+                        <add>portions de</add>
+                     <choice>
+                        <sic>courans</sic>
+                        <corr>courants</corr>
+                     </choice> qui le<lb/> traversent quand il n'est pas<lb/> revêtu d'une enveloppe
+                     isolante,<lb/> prouvée par l'expérience qui<lb/> constate qu'alors le
+                     mouvement<lb/> est le même que quand on<lb/> empêche les courants d'y
+                     entrer,<lb/> en le renfermant dans cette<lb/> enveloppe.</p>
+                  <p>C'est de ce principe qu'il<lb/> faut partir pour <del type="illisible"/> voir
+                        <pb n="27" facs="#ACAS_CRHST_AMP_10_204_0027_v.jpg"/> quels sont les
+                     phénomènes que doit<lb/> présenter un aimant mobile sous<lb/> l'influence <del type="illisible"/> du courant<lb/> voltaïque, dans le troisième cas<lb/> qui
+                     nous reste à considérer<lb/> celui où une portion du<lb/> courant passe par
+                     l'aimant<lb/> ou par une portion de fil conducteur invariablement liée<lb/>
+                     avec lui. Nous venons de voir<lb/> que lorsqu'il s'agit du mouvement<lb/> de
+                     révolution d'un aimant<lb/> autour d'un fil conducteur, le<lb/> mouvement doit
+                     être le même,<lb/> soit que le courant traverse ou<lb/> ne traverse pas
+                     l'aimant. Mais il n'en est pas ainsi quand il<lb/> est question du mouvement
+                     de<lb/> rotation <add>continu</add> d'un aimant autour<lb/> de <subst>
+                        <del type="illisible"/>
+                        <add>la droite qui en joint les deux pôles</add>
+                     </subst>
+              <lb/>
+                     <subst>
+                        <del type="illisible"/>
+                        <add>j'ai démontré et par</add>
+                     </subst> la théorie et par des<lb/> variées de toutes les manières<lb/>
+                     possibles <del type="illisible"/> dont les résultats<lb/> l'ont toujours
+                     confirmée, que<lb/> la possibilité ou l'impossibilité<lb/> de ce mouvement
+                     tient<lb/> uniquement à ce qu'une<lb/> portion du <del type="illisible"/>
+                     circuit <gap reason="lacune"/>
+                  </p>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

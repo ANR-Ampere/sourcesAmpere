@@ -1,0 +1,978 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Archives André-Marie Ampère - Chemise 251</title>
+                <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+                    <forename>André-Marie</forename>
+                    <surname>Ampère</surname>
+                </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+                    <affiliation>Università L'Aquila</affiliation>
+          </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                            sciences</affiliation>
+                    </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+               <addrLine>27 rue Damesme</addrLine>
+               <addrLine>75013 Paris</addrLine>
+            </address>
+                <distributor>
+                    <name>Centre de calcul de l'IN2P3</name>
+                    <address>
+                  <addrLine>Domaine scientifique de la Doua</addrLine>
+                  <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+                  <addrLine>69622 Villeurbanne Cedex</addrLine>
+               </address>
+                </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier xml:id="ampere_arch_chem251">
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>Chemise 251</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Travaux divers en chimie</summary>
+                        <msItem xml:id="ampere_arch_chem251_1">
+                            <title>Notes d'Ampère</title>
+                        </msItem>
+                        <msItem xml:id="ampere_arch_chem251_2">
+                            <title>Note d'Ampère sur sa classification des corps simples</title>
+                        </msItem>
+                        <msItem xml:id="ampere_arch_chem251_3">
+                            <title>Notes d'ampère sur les séances à l'Académie des sciences</title>
+                        </msItem>
+                        <msItem xml:id="ampere_arch_chem251_4">
+                            <title>Explication de la décomposition de l'ammoniaque par les métaux</title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <handDesc>
+                            <handNote corresp="#AMA">
+                                <name type="person" key="Ampère, André-Marie (1775-1836)">
+                                    <forename>André-Marie</forename>
+                                    <surname>Ampère</surname>
+                                </name>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <additional>
+                        <listBibl>
+                            <bibl>
+                                <title>Catalogue du Fonds André-Marie Ampère, Électricité et
+                                    magnétisme, Carton XIV, Chemise 251</title>
+                                <biblScope type="pp">p. 22</biblScope>
+                                <publisher>éd. Archives de l'Académie des Sciences</publisher>,
+                                    <date when-iso="1937">1937</date>.
+                                    <idno>http://www.ampere.cnrs.fr/manuscrits/catalogueAS.pdf</idno>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date when="2014-08">août 2014</date>
+                <name>Philippe Pons</name>
+            </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date when="2015-02">août 2015</date>
+                <name>Philippe Pons</name>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="images_ch251_1" corresp="#ch251_1">
+        <graphic url="ACAS_CRHST_AMP_14_251_0001_r.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0002_v.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0003_r.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0004_v.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0005_r.jpg"/>
+    </facsimile>
+    <facsimile xml:id="images_ch251_2" corresp="#ch251_2">
+        <graphic url="ACAS_CRHST_AMP_14_251_0006_r.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0007_v.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0008_r.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0009_v.jpg"/>
+    </facsimile>
+    <facsimile xml:id="images_ch251_3" corresp="#ch251_3">
+        <graphic url="ACAS_CRHST_AMP_14_251_0010_r.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0011_v.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0012_r.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0013_v.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0014_r.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0015_v.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0016_r.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0017_v.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0018_r.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0019_v.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0020_r.jpg"/>
+    </facsimile>
+    <facsimile xml:id="images_ch251_4" corresp="#ch251_4">
+        <graphic url="ACAS_CRHST_AMP_14_251_0021_r.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0022_v.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0023_r.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0024_v.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0025_r.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0026_v.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0027_r.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0028_v.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0029_r.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0030_v.jpg"/>
+        <graphic url="ACAS_CRHST_AMP_14_251_0031_r.jpg"/>
+    </facsimile>
+    <text decls="#ampere_arch_chem251" type="archives">
+        <group>
+            <text n="1" decls="#ampere_arch_chem251_1">
+                <body>
+                    <div>
+                        <pb n="1" facs="#ACAS_CRHST_AMP_14_251_0001_r.jpg"/>
+                        <p>La liaison manque.</p>
+                        <p>Tous les chroicolytes après l'iode.<lb/>
+                            <list>
+                                <item n="1">1°. Les moins oxidables de tous les métaux.</item>
+                                <lb/>
+                                <item n="2">2°. Moins d'affinité relative pour le chlore <lb/> que
+                                    les leucolytes.</item>
+                            </list>
+            </p>
+                        <p>Liaison du columbium avec l'antimoine<lb/> et l'étain <del type="illisible"/> acidifiable comme lui, mais<lb/> leucolytes <choice>
+                                <sic>et</sic>
+                                <corr>sont</corr>
+                            </choice> très fusibles.<lb/> Le manganese est un chronides. Acide
+                            manganésique.<lb/> Destruction du genre cérides.<lb/> Le cerium avec le
+                            cobalt qui donne comme lui<lb/> du chlore avec l'acide
+                            hydrochlorique.</p>
+                        <p>
+              <pb n="2" facs="#ACAS_CRHST_AMP_14_251_0002_v.jpg"/>
+            </p>
+                        <p>
+              <pb n="3" facs="#ACAS_CRHST_AMP_14_251_0003_r.jpg"/> Aujourd'hui <date when="1815-11-08">8. Novembre 1815</date>. Je me suis <lb/>
+                            convaincu qu'on doit restraindre<lb/> la dénonciation
+                            <hi rend="underline">sels</hi>, aux composés<lb/> qu'on obtient en
+                            substituant un<lb/> métal à l'hydrogène dans un<lb/> hydracide
+                                    <add>
+                <del>ou dans un acide en restreignant l'emploi de ce mot
+                                    aux hydracides</del>
+              </add>. Les appeler sels secs quand<lb/>
+                            l'hydrogène s'en va, sels hydratés<lb/> quand il reste. <add>Avec de l'<choice>
+                                    <sic>oxigene</sic>
+                                    <corr>oxygène</corr>
+                                </choice>
+              </add> en sorte que le<lb/>
+                            <hi rend="underline">chlorure</hi>
+                            <add>de soude</add>, qu'on appelerait alors<lb/>
+                            <hi rend="underline">hydrochlorate sec</hi> de sodium, le<lb/>
+                            <hi rend="underline">sulfate sec de baryte</hi>, &amp;c. seraient<lb/>
+                            des sels secs, et <hi rend="underline">l'hydrochlorate</hi> de chaux
+                            desséché, serait un<lb/>
+                            <hi rend="underline">sel hydraté</hi>.</p>
+                        <p>On nommerait les autres<lb/> acides,
+                                <add>
+                <hi rend="underline">acides
+                                    anhydres</hi>
+              </add>
+                            <del>ou <hi rend="underline">halogènes</hi>
+              </del> et leurs<lb/>
+                            combinaisons des haloïdes. Les sulfites, les<lb/> borates, les
+                            carbonates, seraient des <lb/>
+                            <choice>
+                                <sic>aloïdes</sic>
+                                <corr>haloïdes</corr>
+                            </choice>.</p>
+                        <pb n="4" facs="#ACAS_CRHST_AMP_14_251_0004_v.jpg"/>
+                        <p>On traiterait <del>d'abord</del>
+                            <list>
+                                <item n="1">1°. De l'hydrogène<lb/> radical commun de tous les<lb/>
+                                    hydracides.</item>
+                                <item n="2">2°. Des corps qui font<lb/> avec lui des hydracides binaires.<lb/>
+                                    <del>Ensuite</del> savoir le soufre, l'iode,<lb/> le chlore et
+                                    le phtore. <del>Puis</del>
+                                </item>
+                                <item n="3">3°. Des corps qui ne peuvent<lb/> entrer dans un
+                                    hydracide qu'autant<lb/> qu'il est ternaire.</item>
+                                <item n="4">4°. Des <hi rend="underline">acides<lb/> anhydres</hi>,
+                                    c'est à dire
+                                    <hi rend="underline">privés<lb/>
+                                    d'hydrogène</hi>.</item>
+                            </list>
+            </p>
+                        <p>On suivrait <add>le même ordre</add> dans les sels où je<lb/>
+                            trouveraient compris les <hi rend="underline">sulfures??</hi>
+              <lb/>
+                            <del>Et les <hi>inclure??</hi> Puisque les chlorures</del>
+              <lb/> ou
+                            <hi rend="underline">hydrosulfates secs</hi>, et les<lb/>
+                            <hi rend="underline">iodures??</hi>
+                            <hi rend="underline">Ou hydriodates secs</hi>, puisque<lb/> l'on y
+                            conserverait comme<lb/> par le passé <choice>
+                                <sic>les <hi rend="underline">hydrochlorates secs</hi>, <lb/> les
+                                    <hi rend="underline">hydrochlorates secs</hi>
+                </sic>
+                                <corr>les hydrochlorates secs</corr>
+                            </choice> &amp; on ne<lb/> traiterait des <choice>
+                                <sic>aloïdes</sic>
+                                <corr>haloïdes</corr>
+                            </choice> qu'à la suite <pb n="5" facs="#ACAS_CRHST_AMP_14_251_0005_r.jpg"/> des sels.</p>
+                        <p>On devrait chercher à produire<lb/> des
+                            <hi rend="underline">sels
+                                secs</hi> en
+                            traitant les<lb/>
+                            <hi rend="underline">hydrosulfates</hi> secs ou
+                            <hi rend="underline">sulfures</hi>, par<lb/> les
+                            <hi rend="underline">hydracides</hi>, l'acide
+                            <hi rend="underline">hydrocarbonique</hi>
+              <lb/> par exemple, pour qu'il
+                            s'ensuit<lb/> de l'acide <hi rend="underline">hydrosulfurique</hi>
+                            au<lb/> lieu d'eau. Cela aiderait bien<lb/> à la théorie de
+                            <persName>Mr. Dulong</persName>.</p>
+                    </div>
+                </body>
+            </text>
+            <text n="2" decls="#ampere_arch_chem251_2">
+                <body>
+                    <div>
+                        <p>
+              <pb n="6" facs="#ACAS_CRHST_AMP_14_251_0006_r.jpg"/> Je publierai en
+                                <date when="1816">1816</date> dans les annales<lb/> de chimie et de
+                            physique, un essai<lb/> d'une classification naturelle des<lb/> corps
+                            simples. Le titre même que je<lb/> donnerai à ce petit écrit montre
+                            assez<lb/> que j'étais loin de regarder comme<lb/> définitif l'ordre
+                            suivant lequel<lb/> j'avais disposé ces corps pour conserver<lb/> autant
+                            qu'il était possible toutes les<lb/> analogies qu'ils présentent. S'il
+                            a<lb/> pu être utile à la science c'est<lb/> surtout en appelant
+                            l'attention<lb/> des chimistes sur un assez grand<lb/> nombre de ces
+                            analogies qui<lb/> n'avaient point encore été remarquées, et pour des
+                            idées<lb/> sur la <del type="illisible"/> nature des<lb/> combinaisons
+                            qui résultent de<lb/> l'union des corps simples <del type="illisible"/>
+              <lb/>
+                            <del type="illisible"/>
+              <lb/> suivant qu'elles <del type="illisible"/>
+              <lb/> sont acides <del type="illisible"/> neutres ou alcalines.<lb/>
+                            Et de celle de ces premiers composés<lb/> quand elle <del type="illisible"/> produit de<lb/> véritables sels <del type="illisible"/>
+              <lb/>
+                            <del type="illisible"/>
+              <lb/> ne reconnaissait point alors<lb/> pour ce
+                            qu'il sont en effet, ou <pb n="7" facs="#ACAS_CRHST_AMP_14_251_0007_v.jpg"/> dont le mode de
+                            formation<lb/> était considéré sous un point<lb/> de vue très différent
+                            de celui<lb/> sous lequel j'ai pensé qu'il devait<lb/> l'être.</p>
+                        <p>Je laisse à ceux qui jetteront<lb/> les yeux sur <del type="illisible"/>
+                            <add>ce que j'écrivis à cette</add>
+              <lb/>
+                            <del type="illisible"/> époque à juger combien<lb/> de ces idées qui
+                            semblaient<lb/> alors paradoxales ont été depuis<lb/> admises par tous
+                            les chimistes.<lb/> Je n'y changerait rien en les<lb/> publiant de
+                            nouveau, car à <lb/>
+                            <del type="illisible"/> cet égard <del type="illisible"/> les
+                            découvertes<lb/> qui ont été faites pendant les<lb/> dix années qui
+                            viennent de<lb/> s'écouler, n'ont apporté aucune<lb/> modification <del type="illisible"/>
+              <lb/> aux principes que j'avais établis.<lb/> Il
+                            n'en est pas de même de<lb/> l'ordre dans lequel les corps simples<lb/>
+                            doivent être rangés. On en a<lb/> découverts plusieurs dont on ne<lb/>
+                            soupçonnait pas l'existence à l'époque<lb/> où j'écrivais. Presque tous
+                            sont<lb/> venus se ranger naturellement<lb/> dans des genres que j'avais
+                            établis.</p>
+                        <p>Mais il en est un, le sélénium,<lb/>
+                            <pb n="8" facs="#ACAS_CRHST_AMP_14_251_0008_r.jpg"/> dont la découverte,
+                            jointe <del type="illisible"/>
+              <lb/> aux propriétés remarquables que
+                            <persName>Mr.<lb/> Berzelius</persName> vient de reconnaître dans<lb/>
+                            ce corps et dans la tellure, a nécessité<lb/>
+                            <del type="illisible"/> un changement assez considérable<lb/> dans
+                            l'ordre des <del type="illisible"/> genres que j'avais<lb/> adopté. Il
+                            résulte de son travail que<lb/> d'après le caractère que j'ai assigné
+                            au<lb/> genre auquel j'ai donné le nom de<lb/> thionides, de former des
+                            composés propres<lb/> à servir, comme les <choice>
+                                <sic>oxides</sic>
+                                <corr>oxydes</corr>
+                            </choice>, de bases à des<lb/> sels, le sélénium et le tellure font<lb/>
+                            partie de ce genre <del type="illisible"/> je n'y<lb/> avais compris que
+                            le souffre,<lb/> l'azote et l'oxigène, <del type="illisible"/>
+              <lb/>
+                            <del type="illisible"/> parce que je ne<lb/> connaissais alors que ces
+                            trois corps<lb/> qui présentassent cette propriété.</p>
+                        <p>L'impossibilité d'éloigner le<lb/> tellure de l'arsenic et du
+                            phosphore,<lb/> qui restent alors seuls dans le<lb/> genre que j'ai
+                            nommé <hi rend="underline">arsénides</hi>,<lb/> oblige à placer ces
+                            derniers entre<lb/> les <hi rend="underline">thionides</hi> et les
+                            <hi rend="underline">anthracides</hi>
+              <lb/> qui les précèdent
+                            immédiatement<lb/> dans ma première classification.<lb/> Le passage des
+                            <hi rend="underline">anthracides</hi> aux <pb n="9" facs="#ACAS_CRHST_AMP_14_251_0009_v.jpg"/> genres suivants devient
+                            alors<lb/> plus naturel qu'il ne l'était auparavant,<lb/> car il est
+                            aisé de voir que par l'ensemble<lb/> de ses propriétés l'hydrogène
+                            ressemble<lb/> plus au phosphore qui vient<lb/> après lui dans ce nouvel
+                            arrangement,<lb/> qu'à l'azote qui le suivait dans<lb/> le premier.</p>
+                    </div>
+                </body>
+            </text>
+            <text n="3" decls="#ampere_arch_chem251_3">
+                <body>
+                    <div>
+                        <p>
+              <pb n="10" facs="#ACAS_CRHST_AMP_14_251_0010_r.jpg"/> Dans la séance de
+                            l'<orgName>Institut</orgName> du<lb/>
+                            <date when="1809-02-06">lundi 6 février 1809</date>
+                            <persName>Mr. Pelletan</persName>
+              <lb/> a lu un mémoire sur les
+                            anévrismes<lb/> de l'artère poplitée.
+                            <persName>Mr.
+                            Vauquelin</persName>
+              <lb/> un
+                            rapport sur un mémoire de<lb/>
+                            <persName>Mr. Le docteur Pitaro</persName> napolitain<lb/> relatif à une
+                            matière composée<lb/> de débris animaux qui se trouve<lb/> dans la
+                            <placeName>grotte de l'arc</placeName>, <placeName>île de
+                                Caprée</placeName>.<lb/>
+                            <persName>Mr. Quinet</persName> a lu un mémoire sur<lb/> la direction de
+                            l'aiguille aimantée,<lb/> et <persName>Mr. Leblond</persName> en a
+                            commencé<lb/> un sur les avantages qu'on pourrait<lb/> retirer du <choice>
+                                <sic>huanaco</sic>
+                                <corr>guanaco</corr>
+                            </choice> et de la vigogne,<lb/> (lama et paco sauvages) si on les<lb/>
+                            naturalisaient en <placeName>France</placeName> sur les<lb/> montagnes
+                            des <placeName>Pyrénées</placeName> et des
+                            <placeName>Alpes</placeName>.<lb/> Dans la séance du <date when="1809-02-13">lundi 13 février</date>
+              <lb/>
+                            <persName>Mr. De Prouy</persName> a fait un rapport<lb/> sur les
+                            expériences de <persName>Mr. Chladny</persName>
+              <lb/> relatives aux
+                            vibrations des corps<lb/> sonores.</p>
+                        <p>MM. <persName>Sage</persName>, <persName>Thenon</persName> et
+                            <persName>
+                <choice>
+                  <sic>Myrbel</sic>
+                  <corr>Mirbel</corr>
+                </choice>
+              </persName>,
+                            ont<lb/> lu chacun un mémoire Le premier <pb n="11" facs="#ACAS_CRHST_AMP_14_251_0011_v.jpg"/> sur un morceau de bois
+                            pétrifié<lb/> dans une pyrite cuivreuse et changé<lb/> en partie en
+                            malachite. Le second<lb/> sur l'exfoliation des extrémités des<lb/> os
+                            découvertes dans les amputations, et<lb/> le 3me sur l'usage de la
+                            partie de la<lb/> semence d'un grand nombre de<lb/> végétaux appelés
+                            périsperme.</p>
+                        <p>
+              <persName>Mr. Leblond</persName> a ensuite fini le<lb/> mémoire commencé
+                            dans la <lb/> séance précédente sur le <choice>
+                                <sic>huanaco</sic>
+                                <corr>guanaco</corr>
+                            </choice> et <lb/> la vigogne</p>
+                        <p>Dans la séance du <date when="1809-02-20">lundi 20 février</date>
+              <lb/>
+                            <persName>Mr. Thenon</persName> a lu une suite à<lb/> son mémoire sur
+                            les os lu dans<lb/> la séance précédente.
+                            <persName>Mr.
+                                Guyton</persName>
+              <lb/> de
+                            nouveau a lu une notice<lb/> relative a une expérience par<lb/> laquelle
+                            on avait voulu<lb/> établir que des métaux<lb/> pouvaient être convertis en<lb/>
+                            <choice>
+                                <sic>oxides</sic>
+                                <corr>oxydes</corr>
+                            </choice> par de fortes <choice>
+                                <sic>déchages</sic>
+                                <corr>décharges</corr>
+                            </choice>
+              <lb/> électriques, dans le vide et<lb/> par conséquent sans le
+                            concours<lb/> de l'<choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice>. Il a fait voir<lb/> ce qui a donné lieu à ce résultat <pb n="12" facs="#ACAS_CRHST_AMP_14_251_0012_r.jpg"/> contraire à la
+                            théorie de la<lb/> chimie pneumatique, et a montré<lb/> que le vide dans
+                            le seul cas<lb/> où l'expérience a réussi était<lb/> loin d'être
+                            parfait. Il a même<lb/> calculé la quantité d'<choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice>
+              <lb/> qui devait rester dans le<lb/> récipient d'après la
+                            hauteur<lb/> du mercure dans l'éprouvette,<lb/> et a montré qu'elle
+                            était<lb/> plus que suffisante pour fournir<lb/> à l'<choice>
+                                <sic>oxidation</sic>
+                                <corr>oxydation</corr>
+                            </choice> du métal.</p>
+                        <p>
+              <persName>Mr. Quinet</persName> a achevé dans la<lb/> même séance son
+                            mémoire<lb/> sur la direction de l'aiguille<lb/> aimantée, et
+                            <persName>Mr. De Prouy</persName> y<lb/> a lu un mémoire sur les<lb/>
+                            travaux exécutés depuis <date when="1785">1785</date>
+              <lb/> pour
+                            dessécher un vaste<lb/> marais situé en
+                            <placeName>Languedoc</placeName>
+              <lb/> près des côtes de la
+                            <placeName>Méditerranée</placeName>,<lb/>&gt; en y conduisant les eaux<lb/>
+                            bourbeuses de la rivière d'<placeName>Aude</placeName>
+              <lb/> à l'aide
+                            d'un canal de<lb/> dérivation.</p>
+                        <p>
+              <pb n="13" facs="#ACAS_CRHST_AMP_14_251_0013_v.jpg"/> Dans la séance du
+                                <date when="1809-02-27">lundi 27 février</date>
+              <lb/> 1809,
+                            <persName>Mr. Pelletan</persName> a lu un mémoire<lb/> sur les <choice>
+                                <sic>épanchemens</sic>
+                                <corr>épanchements</corr>
+                            </choice> sanguins et<lb/> MM. <persName>Gay-lussac</persName> et
+                            <persName>Thénard</persName> un<lb/> mémoire sur les acides
+                            muriatiques<lb/> et muriatiques <choice>
+                                <sic>oxigénés</sic>
+                                <corr>oxygénés</corr>
+                            </choice> qui changent<lb/> absolument toutes les idées qu'on<lb/> avait
+                            de ces deux acides. Ils ont<lb/> prouvé que bien loin que ce<lb/> qu'on
+                            appelle acide muriatique<lb/>
+                            <choice>
+                                <sic>oxigéné</sic>
+                                <corr>oxygéné</corr>
+                            </choice> abandonne facilement<lb/>
+                            <choice>
+                                <sic>l'oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice> comme on se l'était<lb/> figuré. Il est impossible
+                            lorsqu'il<lb/> est à l'état de gaz sec, ou<lb/> combiné avec l'argent,
+                            le mercure,<lb/> &amp;c. d'en retirer de l'<choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice>
+              <lb/> par aucun moyen. Il passe sur<lb/> le charbon rouge de
+                            feu sans<lb/> altération dès que celui<supplied>-ci</supplied> est<lb/>
+                            dépouillé de tout l'hydrogène qui<lb/> y reste, d'abord uni
+                            lorsqu'on<lb/> brûle du bois. Les sulfures, les <lb/> sulfites, le gaz
+                            nitreux, pourvu <lb/> qu'ils soient bien secs ne lui<lb/> font éprouver
+                            non plus aucune<lb/> altération.</p>
+                        <p>
+              <pb n="14" facs="#ACAS_CRHST_AMP_14_251_0014_r.jpg"/> On sait qu'en
+                            exposant un métal<lb/> quelconque au gaz muriatique <choice>
+                                <sic>oxigéné</sic>
+                                <corr>oxygéné</corr>
+                            </choice>
+              <lb/> on obtient immédiatement un<lb/> muriate, on croyait que
+                            dans cette<lb/> circonstance le gaz muriatique <choice>
+                                <sic>oxigéné</sic>
+                                <corr>oxygéné</corr>
+                            </choice>
+              <lb/> perdait de l'<choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice> qui <choice>
+                                <sic>oxidait</sic>
+                                <corr>oxydait</corr>
+                            </choice> le<lb/> métal dont l'<choice>
+                                <sic>oxide</sic>
+                                <corr>oxyde</corr>
+                            </choice>, je combinais<lb/> ensuite avec l'acide muriatique<lb/>
+                            ordinaire. Ce qui prouve que cela<lb/> n'est pas ainsi, et que
+                            l'acide<lb/> muriatique <choice>
+                                <sic>oxigéné</sic>
+                                <corr>oxygéné</corr>
+                            </choice> se combine en<lb/> totalité avec le métal qui reste<lb/> dans
+                            son état de métal, c'est que<lb/> le charbon privé d'hydrogène<lb/> ne
+                            réduit point quoique poussé<lb/> au plus grand feu les muriates<lb/>
+                            d'argent ni de mercure. Il en est<lb/> probablement de même des
+                            autres<lb/> muriats métalliques.</p>
+                        <p>Mais dès qu'il y a de l'hydrogène<lb/> en contact avec l'acide muriatique<lb/>
+                            <choice>
+                                <sic>oxigéné</sic>
+                                <corr>oxygéné</corr>
+                            </choice>, il se forme de l'acide<lb/> muriatique ordinaire. C'est
+                            ce<lb/> qu'explique l'expérience suivante.<lb/> On fait dans l'obscurité
+                            un mélange<lb/> de volumes égaux d'hydrogène et <lb/> d'acide muriatique <choice>
+                                <sic>oxigéné</sic>
+                                <corr>oxygéné</corr>
+                            </choice> tant qu'il<lb/> reste dans une obscurité complète <pb n="15" facs="#ACAS_CRHST_AMP_14_251_0015_v.jpg"/> il n'y a pas d'action. À
+                            la lumière<lb/> répandue dans une chambre<lb/> il y a combinaison et il
+                            en résulte<lb/> du gaz muriatique ordinaire où<lb/> aucun réactif,
+                                <del>ne pe</del> pas même<lb/> le gaz fluorique boracé, ne peut<lb/>
+                            faire découvrir aucune trace <lb/> d'eau. Le même mélange exposé<lb/>
+                            aux rayons directs d'un soleil<lb/> pur, détourne avec violence, <lb/>
+                            le résultat de la combinaison<lb/> est le même que dans le<lb/> cas
+                            précédent. L'étincelle<lb/> électrique, ou un corps en<lb/> ignition
+                            produisent le même<lb/> effet.</p>
+                        <p>Si on rapproche ce résultat de<lb/> ce qu'on sait déjà que ce<lb/> qu'on
+                            appelle acide muriatique<lb/>
+                            <choice>
+                                <sic>oxigéné</sic>
+                                <corr>oxygéné</corr>
+                            </choice> et qu'on devrait<lb/> plutôt nommer acide muriatique<lb/>
+                            deshydrogéné, ou muriagène,<lb/>
+                            <del type="illisible"/> se combine en<lb/> totalité avec le souffre et
+                            le<lb/> phosphore et forme avec<lb/> eux des acides particuliers,<lb/>
+                            <pb n="16" facs="#ACAS_CRHST_AMP_14_251_0016_r.jpg"/> découverts le
+                            premier par <persName>Thompson</persName>,<lb/> et le second par
+                            <persName>Mr.
+                                Thénard</persName>
+              <lb/> et
+                            <persName>Gay-lussac</persName>, on se convaincra<lb/> aisément que <del type="illisible"/> le gaz<lb/> appelé acide muriatique <choice>
+                                <sic>oxigéné</sic>
+                                <corr>oxygéné</corr>
+                            </choice>
+              <lb/> est un corps jusqu'à présent<lb/> indécomposé,
+                            probablement<lb/> simple, qui se rapproche<lb/> pour la plupart de ces
+                            propriétés<lb/> de l'<choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice>, qui se combine<lb/> comme lui avec les métaux<lb/> à l'état
+                            métallique, et avec<lb/> les corps combustibles à l'exception <lb/> du
+                            charbon et peut-être de <lb/> l'azote, qui forme des acides<lb/>
+                            particuliers avec le souffre, le<lb/> phosphore et l'hydrogène. L'acide
+                            <lb/> de ce dernier corps étant<lb/> l'acide muriatique ordinaire.<lb/> L'<choice>
+                                <sic>oxide</sic>
+                                <corr>oxyde</corr>
+                            </choice> de manganèse n'agit donc<lb/> dans l'opération par
+                            laquelle<lb/> on obtient ce gaz qui est en<lb/> quelque sorte un second <choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice>,<lb/> qu'en fournissant de l'<choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice>
+              <lb/>
+                            <pb n="17" facs="#ACAS_CRHST_AMP_14_251_0017_v.jpg"/> ordinaire qui a
+                            l'état naissant<lb/> et à une basse température<lb/> lui enlève
+                            l'hydrogène combiné<lb/> avec lui dans l'acide muriatique<lb/>
+                            ordinaire, pour former de l'eau<lb/> et mettre ainsi à <choice>
+                                <sic>nud</sic>
+                                <corr>nu</corr>
+                            </choice> le gaz<lb/> qu'on recueille sous le nom d'acide<lb/>
+                            muriatique <choice>
+                                <sic>oxigéné</sic>
+                                <corr>oxygéné</corr>
+                            </choice>.</p>
+                        <p>Celui-ci enlève à son tour<lb/> l'hydrogène à l'eau, et en<lb/> dégage
+                            l'oxygène, soit à une<lb/> haute température, soit quand<lb/> il est
+                            aidé de l'action de la<lb/> lumière ou d'une double<lb/> affinité par la
+                            présence de<lb/> quelques bases salifiables.</p>
+                        <p>Ce n'est donc que quand il y<lb/> a de l'eau dans l'opération que<lb/>
+                            l'on retire de l'<choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice>, et cet<lb/>
+                            <choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice> vient de l'eau<lb/> décomposée dont l'hydrogène<lb/> se
+                            combine pour former de <lb/>&gt; l'acide muriatique ordinaire<lb/> avec
+                            celui qu'on nomme acide<lb/> muriatique <choice>
+                                <sic>oxigéné</sic>
+                                <corr>oxygéné</corr>
+                            </choice>.</p>
+                        <p>La même décomposition<lb/> a lieu quand cette dernière<lb/> substance
+                            arrive à l'état de <pb n="18" facs="#ACAS_CRHST_AMP_14_251_0018_r.jpg"/>
+                            gaz dans une dissolution de<lb/> potasse caustique. Une portion<lb/>
+                            d'eau décomposée fournit<lb/> l'hydrogène nécessaire pour<lb/> le
+                            muriate ordinaire qui se<lb/> forme, mais l'<choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice> dégagée<lb/> ne s'échappe pas, il s'unit en<lb/> combinaison
+                            triple avec une<lb/> portion d'hydrogène et de gaz<lb/> muriatique nommé <choice>
+                                <sic>oxigéné</sic>
+                                <corr>oxygéné</corr>
+                            </choice>,<lb/> c'est cette combinaison triple<lb/> qui s'unit à la
+                            potasse pour<lb/> former le muriate <choice>
+                                <sic>oxigéné</sic>
+                                <corr>oxygéné</corr>
+                            </choice>.<lb/> On en peut séparer l'<choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice>
+              <lb/> par la distillation, et il reste<lb/> naturellement du
+                            muriate<lb/> ordinaire. Mais si au lieu<lb/> de le distiller on le
+                            décompose<lb/> par de l'acide sulfurique, on dégage à la fois les trois
+                            gazs,<lb/> l'hydrogène et <del type="illisible"/> une portion<lb/>&gt; de l'<choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice> forme de l'eau<lb/> ce qui explique la détonation<lb/> qui a
+                            lieu dans ce cas, et <del type="illisible"/>
+                            <pb n="19" facs="#ACAS_CRHST_AMP_14_251_0019_v.jpg"/> dont on n'avait
+                            point encore<lb/> rendu raison. Le reste de<lb/> l'<choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice> et l'acide muriatique<lb/> dit <choice>
+                                <sic>oxigéné</sic>
+                                <corr>oxygéné</corr>
+                            </choice> s'en vont à<lb/> l'état de gaz.</p>
+                        <p>Les muriates métalliques se rapprochent<lb/> d'après ces idées, bien plus
+                            des <lb/>
+                            <choice>
+                                <sic>oxides</sic>
+                                <corr>oxydes</corr>
+                            </choice> que des sels, il n'en est<lb/> pas de même des muriates<lb/>
+                            <choice>
+                                <sic>alkalins</sic>
+                                <corr>alcalins</corr>
+                            </choice> qui peuvent être<lb/> une combinaison de l'<choice>
+                                <sic>alkali</sic>
+                                <corr>alcali</corr>
+                            </choice> et<lb/> de l'acide muriatique ordinaire<lb/> composé d'un
+                            radical combustible<lb/> l'hydrogène, et d'un gaz <lb/> comburant
+                            l'acide muriatique<lb/>
+                            <choice>
+                                <sic>oxigéné</sic>
+                                <corr>oxygéné</corr>
+                            </choice>, de même que les<lb/> autrs acides, dont l'acide muriatique
+                            ordinaire ne diffère<lb/> qu'en ce que le corps comburant<lb/> auquel il
+                            doit ses propriétés<lb/> n'est pas de l'<choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice> ordinaire.<lb/> On voit combien ces expériences<lb/> et une
+                            foule d'autres contenues<lb/> dans le même mémoire, et<lb/> qui sont
+                            relatives au même <pb n="20" facs="#ACAS_CRHST_AMP_14_251_0020_r.jpg"/>
+                            objet, jette un jour absolument<lb/> nouveau sur cette partie de la<lb/>
+                            chimie, et peut la faire<lb/> entièrement changer de face.</p>
+                    </div>
+                </body>
+            </text>
+            <text n="4" decls="#ampere_arch_chem251_4">
+                <body>
+                    <div>
+                        <p>
+              <pb n="21" facs="#ACAS_CRHST_AMP_14_251_0021_r.jpg"/> Explication de la
+                            décomposition de<lb/> l'ammoniaque par les métaux, dans les<lb/> deux
+                            hypothèses où ces corps sont<lb/> considérés comme des hydrures<lb/> ou
+                            comme des corps simples, avec<lb/> une expérience pour décider entre ces
+                            hypothèses.</p>
+                        <p n="1">1°. Beaucoup de faits <lb/> portent à distinguer dans les gazs le
+                            calorique<lb/> combiné avec leurs molécules, du<lb/> calorique interposé
+                            qui les gazéifie.<lb/> L'<choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice> conserve son calorique combiné dans son union avec <lb/> les
+                            nuriates et certains métaux,<lb/> sous forme solide. Ce calorique<lb/>
+                            est au contraire le seul qui devient<lb/> livre lorsque dans des
+                            compositions<lb/> ou décomposition de gaz il y a émission<lb/> de
+                            calorique sans diminution ou<lb/> même avec augmentation de<lb/> volume.
+                            Ainsi le gaz acide<lb/> muriatique <choice>
+                                <sic>hyperoxigéné</sic>
+                                <corr>hyperoxygéné</corr>
+                            </choice> doit être regardé comme une<lb/> combinaison triple où entre
+                            plus<lb/> de calorique intimement combiné<lb/> qu'il n'en faut aux deux
+                            gazs qui le<lb/> constituent, quoique ceux-ci,<lb/> séparés aient plus
+                            de volume et<lb/> par conséquent plus de calorique<lb/> gazéifiant. <pb n="22" facs="#ACAS_CRHST_AMP_14_251_0022_v.jpg"/> N'en serait-il pas
+                            de même du<lb/> gaz <choice>
+                                <sic>oxide</sic>
+                                <corr>oxyde</corr>
+                            </choice> d'azote, et n'est-ce pas<lb/> en y admettant du calorique<lb/>
+                            intimement combiné tant avec<lb/>&gt; les molécules de l'azote qu'avec
+                            celle<lb/> de l'<choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice> qu'on expliquerait pourquoi il brûle si vivement des<lb/>
+                            corps qui s'éteignent dans le gaz<lb/>
+                            <choice>
+                                <sic>oxide</sic>
+                                <corr>oxyde</corr>
+                            </choice> nitreux, et pourquoi il se décompose<lb/> dès qu'il est
+                            chauffé avec l'hydrogène<lb/> et le sodium, sur lesquels le gaz <choice>
+                                <sic>oxide</sic>
+                                <corr>oxyde</corr>
+                            </choice> nitreux<lb/> n'a point d'action. Il faut en effet pour que
+                            l'azote<lb/> soit séparé, que ses molécules soient<lb/> unies au
+                            calorique combiné nécessaire<lb/> à son existence dans cet état<lb/>
+                            d'isolement. Il en est pourvu dans<lb/> le gaz <choice>
+                                <sic>oxide</sic>
+                                <corr>oxyde</corr>
+                            </choice> d'azote ce qui rend<lb/> cette séparation rapide dès que l'<choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice>
+              <lb/> de ce dernier gaz est attiré plus fortement<lb/> qu'il ne
+                            l'est par l'azote. Mais cette<lb/> plus forte attraction ne suffit
+                            pas<lb/> pour le gaz <choice>
+                                <sic>oxide</sic>
+                                <corr>oxyde</corr>
+                            </choice> nitreux parce qu'il<lb/> faut qu'une quantité déterminée du
+                            <lb/> calorique gazéifiant, ou si l'on<lb/> veut de celui qui est
+                            combiné aux<lb/> molécules de l'<choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice>, entre en<lb/> combinaison intime avec celles de <pb n="23" facs="#ACAS_CRHST_AMP_14_251_0023_r.jpg"/> de l'azote. Si le gaz <choice>
+                                <sic>oxide</sic>
+                                <corr>oxyde</corr>
+                            </choice> nitreux<lb/> est au contraire rapidement décomposé<lb/> par le
+                            potassium, ne serait ce point<lb/> parce qu'il commencerait à s'y
+                            unir<lb/> quand à une très petite portion<lb/> en totalité, et que cette
+                            combinaison<lb/> se déferait à mesure parce que<lb/> l'azote, l'<choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice>, le calorique et le<lb/> potassium s'y trouvant en
+                            contact,<lb/> se sépareraient en deux<lb/> combinaisons binaires,
+                            l'azote avec<lb/>&gt; le calorique, et l'<choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice> avec<lb/> le potassium.</p>
+                        <p n="2">2°. En admettant que les molécules<lb/> de l'azote dans le gaz
+                            ammoniaque<lb/> sont comme dans le gaz <choice>
+                                <sic>oxide</sic>
+                                <corr>oxyde</corr>
+                            </choice>
+              <lb/>
+                            <choice>
+                                <sic>oxide</sic>
+                                <corr>oxyde</corr>
+                            </choice> nitreux privées du calorique<lb/> de combinaison auquel elles
+                            sont<lb/> unies dans l'état de gaz azote<lb/> et de gaz <choice>
+                                <sic>oxide</sic>
+                                <corr>oxyde</corr>
+                            </choice> d'azote, on voit<lb/> d'abord très bien pourquoi la<lb/> plus
+                            haute température ne peut<lb/> suffire seule pour décomposer<lb/> les
+                            deux premiers gazs dans un tube<lb/> incandescent, tandis qu'elle
+                            décompose<lb/> immédiatement le gaz d'<choice>
+                                <sic>oxide</sic>
+                                <corr>oxyde</corr>
+                            </choice> d'azote.<lb/> Il faudrait pour que les deux<lb/> premiers gazs
+                            se décomposassent<lb/> que le calorique de température<lb/> qu'on
+                            introduit entre leurs molécules <pb n="24" facs="#ACAS_CRHST_AMP_14_251_0024_v.jpg"/> se combinât intimement
+                            avec ces<lb/> molécules, il n'y a pas plus de<lb/> raison pour que cette
+                            combinaison<lb/> ait lieu à une haute température<lb/> qu'à une
+                            température inférieure<lb/> du moins tant que les gazs peuvent<lb/>
+                            s'étendre librement, le calorique<lb/> qui s'interpose éloigne les
+                            molécules<lb/> à de plus grandes distances sans<lb/> être pressé contre
+                            elle avec plus de<lb/> force ou en plus de point. C'est<lb/> comme quand
+                            on introduit<lb/> une nouvelle quantité d'hydrogène<lb/> dans un mélange
+                            de ce gaz et<lb/> d'<choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice>, les gazs s'étendent en se<lb/> mêlant sans diminution de
+                            volume,<lb/> et cela ne tend nullement<lb/> à déterminer une
+                            combinaison<lb/> intime, et formation d'eau.<lb/> Il résulte de là qu'en
+                            chauffant<lb/> soit le gaz <choice>
+                                <sic>oxide</sic>
+                                <corr>oxyde</corr>
+                            </choice> nitreux,soit le<lb/> gaz ammoniac, on ne doit que les dilater
+                            tant qu'ils peuvent librement<lb/> s'étendre, mais que <add>leurs
+                                molécules</add> retenues en<lb/> combinaison avec un autre
+                            corps,<lb/> et ne pouvant plus céder aussi<lb/> facilement à l'action
+                            répulsive<lb/> du calorique interposé, se combineront <pb n="25" facs="#ACAS_CRHST_AMP_14_251_0025_r.jpg"/> séparément avec le
+                            calorique,<lb/>&gt; et les gazs seront décomposés.</p>
+                        <p n="3">3°. Admettons d'abord que tous les<lb/> métaux soient des hydrures,
+                            le gaz<lb/> ammoniac en chassera l'hydrogène<lb/> comme il chasse celui
+                            du potassium,<lb/> mais cela n'arrivant qu'à une<lb/> température assez
+                            élevée pour que<lb/> dès que l'<choice>
+                                <sic>ammoniaque</sic>
+                                <corr>ammoniac</corr>
+                            </choice> sèche est unie<lb/> à l'<choice>
+                                <sic>alkali</sic>
+                                <corr>alcali</corr>
+                            </choice> radical du métal, et retenue<lb/>&gt; dans cette combinaison, le
+                            calorique<lb/> se combine intimement avec<lb/> l'azote qui se forme de
+                            l'azote<lb/> et un nouvel hydrure identique<lb/> au premier qui
+                            recommence <choice>
+                                <sic>à<lb/> à</sic>
+                                <corr>à</corr>
+                            </choice> agir comme précédemment,<lb/> en sorte que le même métal<lb/>
+                            sert constamment à la<lb/> décomposition du gaz ammoniac<lb/> en cédant
+                            l'hydrogène qu'il y reprend<lb/> l'instant d'après à mesure que<lb/>
+                            l'azote chauffé en combinaison<lb/> solide <del type="illisible"/> prend
+                            le calorique, décombinaison nécessaire à sa<lb/>&gt; séparation d'avec
+                            l'hydrogène,<lb/> précisément comme le même<lb/> gaz <choice>
+                                <sic>oxide</sic>
+                                <corr>oxyde</corr>
+                            </choice> nitreux en prenant de l'<choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice> à l'air et <supplied>en</supplied> le cédant à <pb n="26" facs="#ACAS_CRHST_AMP_14_251_0026_v.jpg"/> mesure au gaz acide
+                            sulfureux,<lb/> convertit celui-ci en acide<lb/> sulfurique,qu'absorbe
+                            l'eau de<lb/> l'appareil, quelque soit la quantité<lb/> de gaz acide
+                            sulfureux. Cette action est comme on voit<lb/> presque indépendante de
+                            la quantité<lb/> du métal, elle est complète quand<lb/> l'<choice>
+                                <sic>alkali</sic>
+                                <corr>alcali</corr>
+                            </choice> du métal a <del type="illisible"/>
+                            <add>sensiblement</add> plus d'affinité pour le gaz ammoniac<lb/> que
+                            pour l'hydrogène. Elle n'est<lb/> que partielle quand il y a peu de<lb/>
+                            différence entre ces deux affinités<lb/> en que l'<choice>
+                                <sic>alkali</sic>
+                                <corr>alcali</corr>
+                            </choice> du métal se<lb/> partage entre <del>l'hydrogène et ce</del>
+                            <add>ces deux gazs ne</add>
+              <lb/> cédant qu'une portion de son<lb/>
+                            hydrogène et laissant<lb/> s'échapper avec lui une portion<lb/> de gaz
+                            ammoniac. <del>Peut-être</del>
+            </p>
+                        <p n="4">4°. On peut se servir d'une<lb/> explication semblable, mais
+                            qui<lb/> ne paraîtra <add>peut-être</add> pas aussi naturelle<lb/> dans
+                            l'hypothèse où les métaux<lb/> sont des corps simples, il faut<lb/>
+                            alors admettre qu'ils sont tous<lb/> susceptibles de se combiner avec
+                                <pb n="27" facs="#ACAS_CRHST_AMP_14_251_0027_r.jpg"/> les molécules
+                            d'azote privées de calorique<lb/> mais que ces molécules ayant plus<lb/>
+                            d’affinité pour le calorique que pour<lb/> les métaux, cette combinaison
+                            ne<lb/> peut subsister qu'à une très basse<lb/> température. Alors à une
+                            température<lb/> plus élevée, le métal enleverait<lb/> ces molécules à
+                            celles de l'hydrogène<lb/> auxquelles elles sont unies dans<lb/> le gaz
+                            ammoniac, mais la<lb/> combinaison qui en résulte étant<lb/> solide est
+                            aussitôt décomposée<lb/> par le calorique et l'action<lb/>
+                            recommence.</p>
+                        <p n="5">5°. Dans l'un et l'autre cas, le<lb/> calorique étant la
+                            substance<lb/> pour laquelle les molécules de<lb/> l'azote ont le plus
+                            d'affinité, l'azote<lb/>
+                            <del type="illisible"/>
+                            <add>passant à l'état de gaz en se combinant avec</add> lui devient par
+                                <del type="illisible"/>
+                            <add>là incapable</add>
+              <lb/> de se combiner avec d'autres corps<lb/> si
+                            ce n'est à l'<choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice> à force de<lb/> commotions électriques <del type="illisible"/>
+                            <add>on dirait</add>
+              <lb/> que le fluide électrique se combine<lb/> aux
+                            molécules de l'azote et en<lb/> sépare ainsi pour un moment<lb/> soit le
+                            calorique qui y est combiné<lb/> à l'état de gaz azote, soit <pb n="28" facs="#ACAS_CRHST_AMP_14_251_0028_v.jpg"/> l'hydrogène qui y est uni
+                            dans le<lb/> gaz ammoniac, dans le premier<lb/> cas <del type="illisible"/> les molécules de<lb/> l'azote quittent
+                            l'électricité pour<lb/> se combiner à l'<choice>
+                                <sic>oxigène</sic>
+                                <corr>oxygène</corr>
+                            </choice>, et c'est<lb/> ainsi qu'il se fait de l'acide.<lb/> Dans le
+                            second <del type="illisible"/> les molécules<lb/> d'azote quittent
+                            l'électricité pour<lb/> le calorique, et restent ainsi<lb/> séparées de
+                            l'hydrogène, ce<lb/> qui explique la décomposition du<lb/> gaz ammoniac
+                            par ce moyen.</p>
+                        <p n="6">6°. Pour décider entre les deux<lb/> hypothèses que nous
+                            venons<lb/> d'exposer, il faudrait se procurer<lb/> la combinaison
+                                <add>que j'appelerai azeture de cuivre et qui est formée</add> soit
+                            de l'alcali<lb/> radical avec l'ammoniaque sèche,<lb/> soit du métal
+                            avec l'azote, ce<lb/> qui revient au même. Cette<lb/> combinaison ne
+                            doit exister qu'à<lb/> une très basse température, il faut<lb/> donc la
+                            former par la voie humide<lb/> et alors la grande difficulté est<lb/> de
+                            la priver d'eau. Pour cela on<lb/> fera geler l'eau où l'on aura<lb/>
+                            formé de l'ammoniure d'<choice>
+                                <sic>oxide</sic>
+                                <corr>oxyde</corr>
+                            </choice> de <pb n="29" facs="#ACAS_CRHST_AMP_14_251_0029_r.jpg"/>
+                            cuivre, de manière qu'une tige de<lb/> cuivre fourchue ou contournée
+                            saisie<lb/> par cette glace puisse servir à la<lb/>&gt; suspendre dans le
+                            vide au dessus<lb/> d'un petit vaisseau conique où<lb/>&gt; tomberont les
+                            particules d'azoture<lb/> de cuivre à mesure qu'elles seront<lb/>
+                            dégagées de la glace qu'on<lb/> absorbera par le procédé de<lb/> Leslie.
+                            On aura ainsi cette<lb/> combinaison aussi froide et<lb/> aussi sèche
+                            que possible. En <lb/> l'essayant on verra si elle donne<lb/> par le feu
+                            de l'eau et de l'azote,<lb/> ou seulement de l'azote. Dans<lb/> le
+                            premier cas on ne pourra rien<lb/> décider sur la nature de ce
+                            corps,<lb/> dans le second on pourra dire<lb/> également ou que c'est
+                            une combinaison<lb/> d'alcali radical et d'ammoniaque<lb/> sèche, ou que
+                            c'est seulement<lb/> une combinaison de cuivre et<lb/> d'azote. Dans les
+                            deux cas la chaleur<lb/> devant donner du cuivre et de <lb/> l'azote.
+                            Alors on plongera à froid<lb/> cette combinaison dans le gaz<lb/>
+                            fluoborique, et chauffant peu à peu<lb/> s'il est nécessaire, il y aura
+                            combinaison <pb n="30" facs="#ACAS_CRHST_AMP_14_251_0030_v.jpg"/>
+                            nécessaire si ce corps est une<lb/> combinaison de deux <choice>
+                                <sic>alkalis</sic>
+                                <corr>alcalis</corr>
+                            </choice> et<lb/> il n'y en aura point si c'est seulement<lb/> du métal
+                            uni à l'azote, pas plus<lb/> qu'il n'y a d'action entre le cuivre
+                            et<lb/> le gaz fluoborique. <del type="illisible"/>
+              <lb/>
+                            <del type="illisible"/>
+              <lb/> On saura donc à quoi s'en tenir<lb/> sur la
+                            nature du composé quelque<lb/> résultat qu'on obtienne par cette<lb/>
+                            expérience.</p>
+                        <p n="7">7°. L'hypothèse de l'<choice>
+                                <sic>alkali</sic>
+                                <corr>alcali</corr>
+                            </choice> radical<lb/> explique beaucoup mieux la formation<lb/> de
+                            l'amalgame d'ammoniaque, cet<lb/>
+                            <choice>
+                                <sic>alkali</sic>
+                                <corr>alcali</corr>
+                            </choice> s'unirait d'abord à celui<lb/> du mercure, et <choice>
+                                <sic>alkali</sic>
+                                <corr>alcali</corr>
+                            </choice> composé<lb/> qui en résulterait serait métallisé<lb/> par
+                            l'hydrogène venu tant du<lb/> mercure que de l'eau décomposée<lb/> dans
+                            l'expérience.</p>
+                        <p n="8">8°. Si <del>l'ammoniaque se</del> l'alcool absorbait le gaz
+                            ammoniac<lb/>&gt; on pourrait s'en servir pour se<lb/> procurer de
+                            l'azoture de cuivre, dont<lb/> cet alcool absorberait l'eau.</p>
+                        <p n="9">9°. Il serait bien à désirer qu'on décidât<lb/> par l'expérience
+                            dans lequel des deux gazs<lb/>
+                            <choice>
+                                <sic>oxide</sic>
+                                <corr>oxyde</corr>
+                            </choice> d'azote ou nitreux la même quantité<lb/> de potassium donne en
+                            brûlant plus de chaleur. <pb n="31" facs="#ACAS_CRHST_AMP_14_251_0031_r.jpg"/> Il est bon d'observer
+                            qu'il faudra<lb/> un volume égal de ces deux gazs<lb/> et que le gaz <choice>
+                                <sic>oxide</sic>
+                                <corr>oxyde</corr>
+                            </choice> d'azote laissera<lb/> un résidu en azote deux fois plus<lb/>
+                            volumineux, en sorte que<lb/> s'il donne plus de chaleur, il faudra<lb/>
+                            en reconnaître encore plus<lb/> intimement combinée dans ce gaz.</p>
+                        <p n="10">10°. Il serait bien à désirer que l'on<lb/> fit agir le gaz
+                            ammoniac sur l'hydrure<lb/> brun d'arsenic et l'hydrure pourpre<lb/> de
+                            tellure, comme on le fait agir<lb/> sur le sodium et le potassium.<lb/>
+                            L'hydrogène uni à ces métaux<lb/> détruisant leur force de cohésion<lb/>
+                            en grande partie, ils doivent<lb/> naturellement se combiner dans<lb/>
+                            cet état à l'ammoniaque avec plus<lb/> de facilité.</p>
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>
