@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -147,7 +148,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -167,18 +168,14 @@
     <text type="correspondance" decls="#ampere_corr_L1811-08-20-a">
         <body>
             <div>
-                <opener>
+                <opener><pb n="93" facs="#ACAS_CRHST_AMP_24_334_0093_r.jpg"/>
                     <date when="1811-08-20">20 août 1811</date>
                 </opener>
-                <p>... Tu ne pouvais donc pas écrire deux mots... Ce soir, j'ai vu
+                <p><gap reason="lacune_CGA"/><pb n="94" facs="#ACAS_CRHST_AMP_24_334_0094_v.jpg"/><gap reason="lacune_CGA"/> Tu ne pouvais donc pas écrire deux lignes, deux mots.<gap reason="lacune_CGA"/><pb n="95" facs="#ACAS_CRHST_AMP_24_334_0095_r.jpg"/><gap reason="lacune_CGA"/>
+                    <pb n="96" facs="#ACAS_CRHST_AMP_24_334_0096_v.jpg"/><gap reason="lacune_CGA"/>Ce soir, j'ai vu
                     <persName>Camille Jordan</persName> ; il m'a demandé des nouvelles
                     d'<persName>Ampère</persName> ; il est bien étonné de ton silence ; moi, j'en
-                    suis plus qu'étonné, je m'inquiète... ... Tu sais que, lorsque nous étions
-                    ensemble, tu m'avais fortement intéressé au sort de quelqu'un qui t'est cher ;
-                    et tu ne pourrais pas me dire si tes craintes étaient fondées, ou si l'homme au
-                    front ridé est éloigné, ou s'il est meilleur qu'il ne paraît. Ainsi quatre
-                    lignes  : deux sur toi, une sur la physionomie qui te plaît, une sur celle que
-                    tu craignais  !...</p>
+                    suis plus qu'étonné, je m'inquiète <gap reason="lacune_CGA"/>.</p>
             </div>
         </body>
         <back>
@@ -186,9 +183,7 @@
                 <note xml:id="corresp1">(1) Lettre de quatre pages sans adresse où
                     <persName>Bredin</persName> raconte, pendant un orage qui l'a surpris à
                     <placeName>Poleymieux</placeName>, un voyage à <placeName>Chambéry</placeName>. </note>
-                <note resp="CAK_commentaire">Statut de ce manuscrit (<ref type="archives" target="#ampere_arch_chem334.xml#4">page 1</ref>, <ref type="archives" target="#ampere_arch_chem334.xml#5">page 2</ref>, <ref type="archives" target="#ampere_arch_chem334.xml#6">page 3</ref>) incertain. Des morceaux de
-                    ce "brouillon" ont été édités par <persName>De Launay</persName> mais
-                    n'apparaissent pas sur "l'original".</note>
+               
             </div>
         </back>
     </text>

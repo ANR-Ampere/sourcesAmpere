@@ -1,4 +1,5 @@
-<?xml-model href="../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -135,10 +136,7 @@
     <text type="correspondance" decls="#ampere_corr_L1805-02-20-a">
         <body>
             <div>
-                <opener>
-          <pb n="'409" facs="#ACAS_CRHST_AMP_24_332_0409_r.jpg"/>
-          <placeName>Paris</placeName> <gap reason="lacune"/>
-          <date when="1805-02-20" calendar="revolutionary">ventôse an 13 [cachet postal 2 ventôse, soit 20 février 1805]</date>
+                <opener><pb n="'409" facs="#ACAS_CRHST_AMP_24_332_0409_r.jpg"/><placeName>Paris</placeName> <gap reason="lacune"/><date when="1805-02-20" calendar="revolutionary">ventôse an 13 [cachet postal 2 ventôse, soit 20 février 1805]</date>
         </opener>
                 <opener>Monsieur, </opener>
                 <p>Arrivé d'hier en <gap reason="illisible"/> je suis forcé de
@@ -152,20 +150,12 @@
                     représentant la présente pour éviter toute surprise.</p>
                 <p>J'ai l'honneur de vous
                     présenter mes salutations affectueuses.</p>
-                <p>
-          <persName>Desvignes</persName>. <ref target="#corresp_1"/>
-        </p>
-                <closer>
-          <pb n="410" facs="#ACAS_CRHST_AMP_24_332_0410_v.jpg"/>A Monsieur <persName>Ampère</persName>, répétiteur d'analyse mathématique à l'<orgName>École
+                <p><persName>Desvignes</persName>. <ref target="#corresp_1"></ref></p>
+                <closer><pb n="410" facs="#ACAS_CRHST_AMP_24_332_0410_v.jpg"/>A Monsieur <persName>Ampère</persName>, répétiteur d'analyse mathématique à l'<orgName>École
                     polytechnique</orgName>, Faubourg-Saint-Germain, à <placeName>Paris</placeName>
         </closer>
             </div>
         </body>
-        <back>
-      <div>
-        <note xml:id="corresp_1">
-          <ref type="correspondance" target="#ampere_corr_L1805-02-13-a">[cf. L1091</ref>]</note>
-      </div>
-    </back>
+        <back><div><note xml:id="corresp_1"><ref type="correspondance" target="#ampere_corr_L1805-02-13-a">[cf. L1091</ref>]</note></div></back>
     </text>
 </TEI>

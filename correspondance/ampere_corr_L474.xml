@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -141,7 +142,7 @@
         <correspAction type="received">
           <persName type="adressee">Bredin, Claude-Julien</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,36 +162,37 @@
     </teiHeader>
     <text type="correspondance" decls="#ampere_corr_L1814-03-14-a">
         <body>
-            <div>
-                <opener>14 mars 1814, à 11 heures du soir</opener>
+            <div><pb n="95" facs="#ACAS_CRHST_AMP_24_340_0095_r.jpg"/>
+                <opener><date when="1814-03-14">14 mars 1814</date>, à 11 heures du soir</opener>
                 <p>Mon cher ami, je commençais cette lettre pour un autre, mais c'est à toi seul que
                     je puis écrire. Que ce jour affreux reste gravé dans ta mémoire  ! Peut-être un
                     jour tu sauras tout ce que ton ami a dû souffrir ! Quel concours de
                     circonstances a achevé de fixer ma destinée et comment ! Voilà tout brisé pour
                     moi sans ressource ; et il y a quelques heures que je rêvais encore un long
-                    bonheur pour toute ma vie ! Voilà le résultat de cinq ans de peines <ref>(2)</ref> mêlés de
+                    bonheur pour toute ma vie ! Voilà le résultat de cinq ans de peines <ref target="#corresp2">(2)</ref> mêlés de
                     quelque peu de temps de bonheur court et empoisonné ! Je te reverrai, j'en suis
-                    sûr à présent. Ne crains rien pour ma vie ! Le lien qui vient de se rompre m'y
+                    sûr à présent.</p>
+                <p>Ne crains rien pour ma vie ! Le lien qui vient de se rompre m'y
                     attachait peut-être plus que tout le reste ; mais mes deux enfants me restent et
-                    m'y attacheront encore. D'ailleurs je n'ai rien à reprocher à personne. Il ne me
+                    m'y attacheront encore. D'ailleurs je n'ai rien à<pb n="96" facs="#ACAS_CRHST_AMP_24_340_0096_v.jpg"/> reprocher à personne. Il ne me
                     reste que la consolation de penser qu'aucune volonté humaine n'a prévu ni
                     ordonné de cet événement ; mais il est une volonté toute puissante qui a
-                    appesanti sur moi les coups de sa vengeance. Ah ! sans doute je méritais ce qui
+                    appesanti sur moi les coups de sa vengeance.</p>
+                <p>Ah ! sans doute je méritais ce qui
                     m'est arrivé, puisqu'elle l'a permis, puisqu'elle a ainsi enchaîné ce que
                     personne, je m'en flatte du moins, n'a pu prévoir ! Je ne sais ce que je
                     t'écris : ce n'est pas cela que je voulais te dire. Toute mon organisation se
                     soulève ! Je n'en puis plus ! Là, seul dans cette petite chambre. Ah ! mon ami,
                     et qui sait quel malheur m'attend peut-être, je me sens défaillir, je ne puis
-                    plus écrire ! Sois tranquille sur moi, je te reverrai ! Quand m'écriras-tu ?
-                    Tout de suite, je t'en prie ! Je rouvre ma lettre, pour te tranquilliser. Tu
+                    plus écrire ! Sois tranquille sur moi, je te reverrai !</p>
+                <p>Quand m'écriras-tu ?
+                    Tout de suite, je t'en prie ! Je rouvre ma <pb n="97" facs="#ACAS_CRHST_AMP_24_340_0097_r.jpg"/>lettre, pour te tranquilliser. Tu
                     t'inquiéterais trop ! Hélas ! le coup est porté, rien ne peut diminuer des
                     regrets qui doivent empoisonner le reste de ma vie. Mais, le croirais-tu, j'ai
                     retrouvé un sentiment de prière dans mon sentiment flétri, déchiré de remords.
                     J'ai ouvert <title>l'Imitation</title> <ref type="ouvrages_mentionnes" target="#ampere_ref_P337.xml">*</ref> en
                     latin qui était sur ma table. J'ai ouvert au Chapitre XVI du troisième livre :
-                    <cit xml:lang="lat">
-            <quote>Quod verum solatium in solo Deo est quaerendum</quote>
-          </cit>. Relis-le ; tu comprendras
+                    <cit xml:lang="lat"> <quote>Quod verum solatium in solo Deo est quaerendum</quote>          </cit>. Relis-le ; tu comprendras
                     l'impression qu'il m'a faite. Mais il est pour ceux qui sont dignes de
                     miséricorde : Mon <persName>Dieu</persName>, mon <persName>Dieu</persName>, ayez pitié de moi  !</p>
                 <closer>Directeur de l'<orgName>École impériale vétérinaire</orgName>, à <placeName>Lyon</placeName> (<placeName>Rhône</placeName>) </closer>
@@ -198,7 +200,8 @@
         </body>
         <back>
             <div>
-                <note xml:id="corresp1">(1) Trois pages, adresse sur la quatrième. (2) Les lettres
+                <note xml:id="corresp1">(1) Trois pages, adresse sur la quatrième.</note>
+                <note xml:id="corresp2">(2) Les lettres
                     parlant de la Constante Amitié ne remontent qu'à trois ans ? <persName>Bredin</persName> répond le <date when="1814-04-03">3
                     avril</date> <cit>
             <quote>j'ai beau réfléchir à ce que tu m'as écrit. Je ne puis rien comprendre,

@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -136,7 +137,7 @@
         <correspAction type="received">
           <persName type="adressee">Davy, Humphry</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -157,10 +158,11 @@
    <text type="correspondance" decls="#ampere_corr_L1810-11-01-a">
       <body>
          <div>
-            <opener>
+            <opener><pb n="244" facs="#ACAS_CRHST_AMP_09_182_0244_r.jpg"/><placeName>Paris</placeName>
           <date when="1810-11-01">1er novembre 1810</date>
         </opener>
-            <p>Monsieur, M. <persName>Underwood</persName>, que j'ai eu l'honneur de voir ce matin, m'ayant autorisé à
+            <opener>Monsieur, </opener>
+            <p>M. <persName>Underwood</persName>, que j'ai eu l'honneur de voir ce matin, m'ayant autorisé à
                être auprès de vous l'interprète de la reconnaissance que vous doivent tous ceux qui
                s'intéressent aux progrès de la science qui vous en doit de si nombreux et de si
                importants, j'ose sous ces auspices vous prier de me pardonner l'espèce
@@ -170,12 +172,13 @@
                avez donné une si heureuse extension aux connaissances qu'on avait avant vous en
                chimie, et au système général de cette science dont vous avez étendu et généralisé
                les lois en faisant rentrer les terres et les alcalis dans la classe des autres
-               oxydes. A cette découverte capitale vous venez d'en joindre une nouvelle annoncée
+               oxydes.</p>
+            <p>A cette découverte capitale vous venez d'en joindre une nouvelle annoncée
                dans votre lettre à mon respectable ami M. <persName>Pictet</persName>, qu'il a publiée dans le dernier
                numéro de la <title>Bibliothèque britannique</title>. Vous aviez augmenté le nombre des corps
                combustibles, vous venez de joindre à l'oxygène un second corps comburant, le gaz
-               oxy-muriatique <ref>(2)</ref>, qui formera désormais avec lui une classe de corps simples
-               distingués de tous les autres corps simples que nous nommons combustibles par la
+               oxy-muriatique <ref target="#corresp2">(2)</ref>, qui formera désormais avec lui une classe de corps simples
+               distingués<pb n="245" facs="#ACAS_CRHST_AMP_09_182_0245_v.jpg"/> de tous les autres corps simples que nous nommons combustibles par la
                tendance électrique opposée. Il m'a semblé évident que, pour refuser au gaz
                oxy-muriatique le nom de corps simple, il faudrait renoncer à cet axiome de la chimie
                moderne qu'on doit donner ce nom à tous les corps qu'on n'a point encore décomposés.
@@ -184,7 +187,8 @@
                l'étain, etc., des acides qu'on pourrait nommer : Acide hydromuriatique (acide
                muriatique ordinaire) ; Acide sulfuro-muriatique (liqueur rouge de M. <persName>Thomson</persName>) ;
                Acide phosphoro-muriatique (liqueur dont vous avez fait connaître la composition
-               ammoniacale) ; Acide stanno-muriatique (beurre d'étain), etc. Il suivrait de là que
+               ammoniacale) ; Acide stanno-muriatique (beurre d'étain), etc.</p>
+            <p>Il suivrait de là que
                la combinaison d'apparence terreuse formée d'acide phosphoromuriatique et
                d'ammoniaque serait une sorte de sel insoluble qu'on pourrait nommer
                phosphoro-muriate d'ammoniaque, que le sel ammoniac ordinaire serait un
@@ -192,7 +196,7 @@
                avec un oxyde métallique, tandis que ceux où l'hydrogène de l'acide s'en va, sous
                forme d'eau, avec l'oxygène de l'oxyde et où il ne reste que le métal combiné avec le
                gaz oxy-muriatique, seraient, à l'égard de ce gaz, ce que les oxydes ordinaires sont
-               à l'oxygène. Tout cela suppose que l'oxygène que l'on obtient en exposant l'acide
+               à l'oxygène. Tout cela suppose que l'oxygène que l'on obtient<pb n="246" facs="#ACAS_CRHST_AMP_09_182_0246_r.jpg"/> en exposant l'acide
                oxy-muriatique liquide à la lumière vient de l'eau décomposée et que l'oxyde noir de
                manganèse donne naissance au gaz oxy-muriatique, parce que son oxygène enlève, pour
                former de l'eau, l'hydrogène uni à ce gaz dans l'acide hydro-muriatique. Pardon,
@@ -203,19 +207,19 @@
                peut s'obtenir pur ; c'est un de ces êtres de raison dont vous avez fait justice
                quand on a voulu imaginer des alcalis secs qu'on ne pouvait ni voir, ni obtenir, un
                acide muriatique sec non moins chimérique, etc. La supposition que l'acide boracique
-               et l'oxyde de silicium [silice] sont dissous à l'état de gaz dans cet acide
+               et l'oxyde de silicium sont dissous à l'état de gaz dans cet acide
                problématique, n'est-elle pas contraire à toutes les analogies et ne serait-il pas
                probable que ces phénomènes sont dus à un troisième corps comburant ? Permettez-moi
-               de donner à ce troisième corps comburant le nom d'oxyfluorique <ref>(3)</ref> : il se trouverait
+               de donner à ce troisième corps comburant le nom d'oxyfluorique <ref target="#corresp3">(3)</ref> : il se trouverait
                combiné avec le calcium dans ce qu'on appelle le fluate de chaux. Quand cette
                dernière substance est chauffée dans un tube de plomb avec de l'acide sulfurique
                concentré où il y a toujours de l'eau, l'oxygène de cette eau convertirait le calcium
                en chaux pour donner naissance au sulfate de chaux qui se forme, et son hydrogène se
-               combinerait avec l'oxy-fluorique pour former cet acide hypofluorique <ref>(4)</ref> sous forme
+               combinerait avec l'oxy-fluorique pour former cet acide hypofluorique <ref target="#corresp4">(4)</ref> sous forme
                liquide, qui produit de si terribles effets sur les corps vivants. Celui-ci mis en
                contact avec l'oxyde de silicium, il y aurait formation d'eau et le silicium uni à
                l'oxy-fluorique donnerait ce gaz qu'on nomme acide fluorique silicé, que, dans cette
-               hypothèse, on devrait appeler acide silicio-fluorique <ref>(5)</ref> et qui serait analogue aux
+               hypothèse, on devrait appeler acide silicio-fluorique <ref target="#corresp5">(5)</ref> et qui serait analogue aux
                autres acides gazeux. De même, lorsqu'on chauffe le fluate de chaux avec l'acide
                boracique, une partie de cet acide serait décomposée pour changer le calcium en chaux
                et, le bore désoxydé se combinant avec l'oxy-fluorique, il en résulterait encore un
@@ -223,25 +227,25 @@
                dans cette hypothèse, être appelé acide boro-fluorique. On découvrirait bientôt sans
                doute les acides sulfo-fluorique, phosphofluorique, si l'on pouvait obtenir
                l'oxy-fluorique ; ce dernier peut être bien difficile à obtenir, surtout s'il a plus
-               d'affinité pour l'hydrogène que n'en ont les gaz oxygène et oxy-muriatique <ref>(6)</ref>. Reste
+               d'affinité pour l'hydrogène que n'en ont les gaz oxygène et oxy-muriatique <ref target="#corresp6">(6)</ref>. Reste
                à savoir si l'électricité ne décomposerait pas l'acide hydro-fluorique sous sa forme
                liquide, lorsqu'on aurait écarté l'eau le plus possible, en portant l'hydrogène d'un
                côté et l'oxy-fluorique de l'autre, ainsi qu'il arrive aux deux autres corps
-               comburants, lorsque le même agent décompose l'eau et l'acide hydro-muriatique <ref>(7)</ref>. Le
+               comburants, lorsque le même agent décompose l'eau et l'acide hydro-muriatique <ref target="#corresp7">(7)</ref>. Le
                seul inconvénient à redouter dans cette expérience est la combinaison de
                l'oxy-fluorique avec le conducteur avec lequel il se trouverait en contact à l'état
                naissant. Peut-être aucun métal ne pourrait se refuser à cette combinaison. Mais, en
-               supposant que l'oxy-fluorique fut, comme l'oxymuriatique <ref>(8)</ref>, incapable de se
+               supposant que l'oxy-fluorique fut, comme l'oxymuriatique <ref target="#corresp8">(8)</ref>, incapable de se
                combiner avec le charbon, ce dernier corps peut-être serait assez bon conducteur pour
                être employé comme tel dans cette expérience. Vous trouverez sans doute, Monsieur,
-               ces dernières <supplied>[hypothèses]</supplied> bien hasardées, peut-être même dénuées de fondement ; je
+               ces dernières <supplied>hypothèses</supplied> bien hasardées, peut-être même dénuées de fondement ; je
                n'ose vous les présenter qu'en tremblant, et d'après un assez grand nombre
                d'analogies que je ne pourrais vous exposer sans entrer dans des détails encore plus
                fastidieux que les précédents ; je n'ai déjà que trop abusé d'un temps dont les
                sciences réclament tous les moments. Pardonnez-moi une trop longue lettre et
                permettez que je m'applaudisse d'avoir trouvé cette heureuse occasion de vous offrir
                l'hommage de mon profond respect et de l'admiration aussi vive que sincère que m'ont
-               inspirée vos immortelles découvertes <ref>(9)</ref>.</p>
+               inspirée vos immortelles découvertes <ref target="#corresp9">(9)</ref>.</p>
          </div>
       </body>
       <back>
@@ -261,15 +265,24 @@
           </cit>. Mais, comme beaucoup d'autres travaux d'<persName>Ampère</persName>,
                celui-là est resté inédit et, officiellement, c'est <persName>Gay-Lussac</persName> et <persName>Thenard</persName> qui
                obtinrent le potassium en grande quantité par l'action du fer sur la potasse (Rech.
-               physico-chimiques, I, 1811, p. 74. à 386). (2) Chlore. (3) Fluor. (4) Acide
-               fluorhydrique. (5) Acide hydrofluosilicique. (6) Chlore. (7) Expérience destinée à
-               isoler le fluor. (8) Fluor rapproché du chlore. (9) Voir la réponse de <persName>Davy</persName> à la date
-               du <date when="1811-02-08">8 février 1811</date>. Sa première publication sur le fluor est du 8 juillet 1813 , trois
-               ans après la lettre d'<persName>Ampère</persName> (Bakenan Lecture for 1813). Voici ce qu'il y dit
+               physico-chimiques, I, 1811, p. 74. à 386).</note>
+            <note xml:id="corresp2">(2) Chlore.</note>
+            <note xml:id="corresp3">(3) Fluor.</note>
+            <note xml:id="corresp4">(4) Acide
+               fluorhydrique.</note>
+            <note xml:id="corresp5">(5) Acide hydrofluosilicique.</note>
+            <note xml:id="corresp6">(6) Chlore.</note>
+            <note xml:id="corresp7">(7) Expérience destinée à
+               isoler le fluor.</note>
+            <note xml:id="corresp8">(8) Fluor rapproché du chlore.</note>
+            <note xml:id="corresp9">(9) Voir la réponse de <persName>Davy</persName> à la date
+               du <date when="1811-02-08">8 février 1811</date>. Sa première publication sur le fluor est du <date when="1813-07-08">8 juillet 1813</date> , trois
+               ans après la lettre d'<persName>Ampère</persName> (Bakenan Lecture for <date when-iso="1813-00-00">1813</date>). Voici ce qu'il y dit
                d'<persName>Ampère</persName> :<cit xml:lang="eng">
             <quote> During the period that i was engaged in these investigations, i received
                two letters from M. <persName>Ampère</persName>, from <placeName>Paris</placeName>, containing many ingenious and original
-               arguments in favour of the analogy between the muriatic and fluoric compounds.” “ M.
+               arguments in favour of the analogy between the muriatic and fluoric compounds.</quote></cit>
+               <cit><quote>M.
                <persName>Ampère</persName> communicated his views to me in the most liberal manner ; they were formed in
                consequence of my ideas on chlorine, and supposed by reasonings drawn from
                experiments of MM. <persName>Gay-Lussac</persName> and <persName>Thenard</persName>.</quote>

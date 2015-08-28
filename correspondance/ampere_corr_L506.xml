@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -134,8 +135,8 @@
         <correspAction type="received">
           <persName type="adressee">?</persName>
         </correspAction>
-        <note type="noteDelaunay">
-          <ref target="#corresp1">[destinataire non identifié] (1)</ref>
+        <note type="CGA">
+          <ref target="#corresp1">[destinataire non identifié]</ref>
         </note>
       </correspDesc>
          <creation>
@@ -159,14 +160,15 @@
             </opener>
             <p>Mon cher ami, Je n'aurai pas le plaisir de vous voir aujourd'hui. Puissé-je l'avoir
                demain ! J'ai vu ce matin M. <persName>Rendu</persName>
-               <ref>(2)</ref> qui regrettait beaucoup de n'avoir pu vous voir ce matin. Il en avait
+               <ref target="#corresp2">(2)</ref> qui regrettait beaucoup de n'avoir pu vous voir ce matin. Il en avait
                été empêché par les affaires les plus pressantes. Il m'a dit qu'il se proposait de
                vous voir demain samedi à 9 heures du matin. Peut-être aurai-je quelque inquiétude de
                moins quand vous aurez examiné ensemble ce qui convient dans ma position. N'en
                parlons pas ici ! M. <persName>Vincent</persName> m'a communiqué les notes que vous
-               avez fait [sic] sur le préambule. J'ai vu qu'il n'y en avait point sur l'exposition
+               avez fait sur le préambule. J'ai vu qu'il n'y en avait point sur l'exposition
                même de l'ordre dans lequel se succèdent les premiers pas de l'intelligence. Ce sont
-               celles-là surtout que j'attends avec une grande impatience. Mais il faut d'abord que
+               celles-là surtout que j'attends avec une grande impatience.</p>
+            <p>Mais il faut d'abord que
                je vous dise ce que j'appelle le moi ; car, sans cela, nous ne nous entendrons
                jamais. Le moi dont j'ai parlé est toujours le moi que j'appelle phénoménal,
                c'est-à-dire une certaine perception intérieure que l'âme a de son existence
@@ -174,25 +176,28 @@
                elle-même, le moi nouménal, la substance pensante, autant que la sensation de rouge
                par exemple l'est du corps qui l'excite. Le moi comme je l'entends n'est pas l'âme,
                mais une de ses pensées ou plutôt une de ses perceptions distincte de toutes les
-               autres. Une sentation est l'âme modifiée. Ce sera, si vous voulez, le moi nouménal
+               autres.</p>
+            <p>Une sensation est l'âme modifiée. Ce sera, si vous voulez, le moi nouménal
                modifié, mais non pas le moi dont je parle qui est une autre modification de la même
                âme. Le mot de moi dont se sert
                <persName>
             <choice>
-              <sic>Maine Biran</sic> <corr>[Maine de Biran]</corr>
+              <sic>Maine Biran</sic> <corr>Maine de Biran</corr>
             </choice>
           </persName>
                peut être tout à fait mal choisi ; mais je changerai le mot pourvu que vous
                reconnaissiez le fait de cette perception intérieure comme une des modifications de
                l'âme par laquelle elle se manifeste, comme les corps par les sensations qu'ils
-               excitent. En changeant ce mot, vous ne trouverez plus étrange que j'admette que l'âme
+               excitent.</p>
+            <p>En changeant ce mot, vous ne trouverez plus étrange que j'admette que l'âme
                peut éprouver d'autres modifications avant celle-là ; que je dise : <cit>
                   <quote>L'âme, sans se sentir encore elle-même, comme elle ne voit pas l’œil par
                      lequel elle voit tout, est modifiée en diverses sensations mêmes complexes et
                      dont elle distingue mécaniquement les divers éléments dans ce dernier cas,
                      avant de créer en elle cette nouvelle modification que je nomme moi par son
                      action.</quote>
-               </cit> Je n'emploie aussi l'épithète d'existence que quand la sensation est jugée
+               </cit></p>
+            <p>Je n'emploie aussi l'épithète d'existence que quand la sensation est jugée
                nous venir d'une chose existante par elle-même et tout à fait différente de cette
                sensation. Aussi trouverez-vous, dans l'explication qui suit, qu'à l'instant où le
                moi naît (j'ai voulu dire à l'instant où l'âme reçoit pour la première fois cette
@@ -200,7 +205,8 @@
                se distingue de ses sensations, images, etc.), qu'à cet instant, dis-je, les
                sensations, images, etc. préexistantes devenaient alors un non moi, mais non pas
                existant indépendamment, non pas étant attribuées à des existences permanentes
-               extérieures, autrement dit des substances. En changeant à votre gré ces deux mots de
+               extérieures, autrement dit des substances.</p>
+            <p>En changeant à votre gré ces deux mots de
                moi et d'existence, la suite de mes idées vous paraîtra peut-être moins paradoxale.
                Mais c'est assez de verbiage et j'aurais bien mieux fait de remplir ces pages des
                sentiments de mon cœur que des systèmes de mon esprit. Mais vous les sentez sans que
@@ -214,7 +220,8 @@
                <persName>Charavay</persName>. Recueil A.1, folios 86, 87, 88. Cette lettre que nous
                datons très arbitrairement, pourrait avoir été écrite en
                <date when-iso="1815-02">février 1815</date> quand <persName>Ampère</persName> était
-               très inquiet pour sa situation et, en même temps, très occupé de psychologie. (3) M.
+               très inquiet pour sa situation et, en même temps, très occupé de psychologie.</note>
+            <note xml:id="corresp2">(2) M.
                <persName>Rendu</persName>, inspecteur général, compagnon
                d'<persName>Ampère</persName> dans ses inspections, notamment en
                <date when-iso="1816">1816</date>, où <persName>Ampère</persName> l'attendit à

@@ -1,4 +1,6 @@
+
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE ENTITY_MathML SYSTEM "../../Documents/Sch%C3%A9mas/ENTITY_MathML.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -136,274 +138,58 @@
         <body>
             <div>
                 <opener>
-                    <pb n="1" facs="#ACAS_CRHST_AMP_01_010_0001_r.jpg"/>
-          <date when="1835-10-05">5 <choice>
-              <abbr>8bre</abbr> <expan>octobre</expan>
-            </choice> 1835</date>
+                    <pb n="1" facs="#ACAS_CRHST_AMP_01_010_0001_r.jpg"/><date when="1835-10-05">5 <choice><abbr>8bre</abbr> <expan>octobre</expan></choice> 1835</date>
         </opener>
                 <opener> Monsieur,</opener>
                 <p> A votre passage à <placeName>Limoges</placeName>, au mois d'<date when-iso="1835-08-00">août dernier</date>, vous eûtes la bonté
                     de me communiquer vos recherches sur la division du cercle en 17 parties égales,
                     et vous m'engageâtes à vérifier sur quelques exemples ce théorème auquel le
                     calcul vous conduisait. Tout nombre de la forme <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML">
-              <mrow>
-                <msup>
-                  <mn>2</mn>
-                  <mi>n</mi>
-                </msup>
-                <mo>+</mo>
-                <mn>1</mn>
-              </mrow>
-            </math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mn>2</mn><mi>n</mi></msup><mo>+</mo><mn>1</mn></mrow></math>
                     </formula> ne peut être premier que
                     lorsque n est une puissance de 2.</p>
                 <p>En effectuant cette vérification, je fus
                     conduit à cette prop<ex>ositi</ex>on : tout nombre de la forme <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML">
-              <mrow>
-                <msup>
-                  <mn>2</mn>
-                  <mrow>
-                    <mn>2</mn>
-                    <mi>q</mi>
-                    <mo>(</mo>
-                    <mn>1</mn>
-                    <mo>+</mo>
-                    <mn>2</mn>
-                    <mi>k</mi>
-                    <mo>)</mo>
-                  </mrow>
-                </msup>
-                <mo>+</mo>
-                <mn>1</mn>
-              </mrow>
-            </math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mn>2</mn><mrow><mn>2</mn><mi>q</mi><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mi>k</mi><mo>)</mo></mrow></msup><mo>+</mo><mn>1</mn></mrow></math>
                     </formula> est
                     divisible par sa valeur pour <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML">
-              <mrow>
-                <mi>k</mi>
-                <mo>=</mo>
-                <mn>0</mn>
-              </mrow>
-            </math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow></math>
                     </formula>, c'est-à-dire par <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML">
-              <mrow>
-                <msup>
-                  <mn>2</mn>
-                  <mrow>
-                    <mn>2</mn>
-                    <mi>q</mi>
-                  </mrow>
-                </msup>
-                <mo>+</mo>
-                <mn>1</mn>
-              </mrow>
-            </math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mn>2</mn><mrow><mn>2</mn><mi>q</mi></mrow></msup><mo>+</mo><mn>1</mn></mrow></math>
                     </formula>. Ce théorème
                     renferme le premier car, tout<pb n="2" facs="#ACAS_CRHST_AMP_01_010_0002_v.jpg"/> nombre entier n pouvant être représenté par une
                     expression de la forme <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML">
-              <mrow>
-                <msup>
-                  <mn>2</mn>
-                  <mi>q</mi>
-                </msup>
-                <mo>(</mo>
-                <mn>1</mn>
-                <mo>+</mo>
-                <mn>2</mn>
-                <mi>k</mi>
-              </mrow>
-            </math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mn>2</mn><mi>q</mi></msup><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mi>k</mi></mrow></math>
                     </formula>, q, k étant des nombres entiers convenablement
                     choisis, il s'ensuit que tout nombre de la forme <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML">
-              <mrow>
-                <mn>2</mn>
-                <mi>n</mi>
-                <mo>+</mo>
-                <mn>1</mn>
-              </mrow>
-            </math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></math>
                     </formula> aura au moins un facteur,
                     à moins que n ne soit de la forme 2q , auquel cas <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML">
-              <mrow>
-                <mn>2</mn>
-                <mi>n</mi>
-                <mo>+</mo>
-                <mn>1</mn>
-              </mrow>
-            </math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></math>
                     </formula> pourra être premier.</p>
                 <p>La
                     démonstration de ce théorème est extrêmement simple, et si j'avais eu quelques
                     moments de loisir lors de votre séjour ici, je crois pouvoir affirmer que je
                     vous l'aurais communiqué avant votre départ. La voici :<lb/>
-                    [formule mathématique]
+                    <gap reason="illisible"/>
                     <pb n="3" facs="#ACAS_CRHST_AMP_01_010_0003_r.jpg"/>Je divise  <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML">
-              <mrow>
-                <msup>
-                  <mn>2</mn>
-                  <mrow>
-                    <mn>2</mn>
-                    <mi>q</mi>
-                    <mo>(</mo>
-                    <mn>1</mn>
-                    <mo>+</mo>
-                    <mn>2</mn>
-                    <mi>k</mi>
-                    <mo>)</mo>
-                  </mrow>
-                </msup>
-                <mo>+</mo>
-                <mn>1</mn>
-              </mrow>
-            </math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mn>2</mn><mrow><mn>2</mn><mi>q</mi><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mi>k</mi><mo>)</mo></mrow></msup><mo>+</mo><mn>1</mn></mrow></math>
                     </formula> par <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML">
-              <mrow>
-                <msup>
-                  <mn>2</mn>
-                  <mrow>
-                    <mn>2</mn>
-                    <mi>q</mi>
-                  </mrow>
-                </msup>
-                <mo>+</mo>
-                <mn>1</mn>
-              </mrow>
-            </math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mn>2</mn><mrow><mn>2</mn><mi>q</mi></mrow></msup><mo>+</mo><mn>1</mn></mrow></math>
                     </formula> le quotient est <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML">
-              <mrow>
-                <msup>
-                  <mn>2</mn>
-                  <mrow>
-                    <mn>2</mn>
-                    <mi>q</mi>
-                    <mo/>
-                    <mn>2</mn>
-                    <mi>k</mi>
-                  </mrow>
-                </msup>
-                <mo/>
-                <msup>
-                  <mn>2</mn>
-                  <mrow>
-                    <mn>2</mn>
-                    <mi>q</mi>
-                    <mo>(</mo>
-                    <mn>2</mn>
-                    <mi>k</mi>
-                    <mo/>
-                    <mn>1</mn>
-                    <mo>)</mo>
-                  </mrow>
-                </msup>
-                <mo>+</mo>
-                        <msup>
-                  <mn>2</mn>
-                  <mrow>
-                    <mn>2</mn>
-                    <mi>q</mi>
-                    <mo>(</mo>
-                    <mn>2</mn>
-                    <mi>k</mi>
-                    <mo/>
-                    <mn>2</mn>
-                  </mrow>
-                </msup>
-                <mo/>
-                <msup>
-                  <mn>2</mn>
-                  <mrow>
-                    <mn>2</mn>
-                    <mi>q</mi>
-                  </mrow>
-                </msup>
-              </mrow>
-            </math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mn>2</mn><mrow><mn>2</mn><mi>q</mi><mo>&dot;</mo><mn>2</mn><mi>k</mi></mrow></msup><mo>&minus;</mo><msup><mn>2</mn><mrow><mn>2</mn><mi>q</mi><mo>(</mo><mn>2</mn><mi>k</mi><mo>&minus;</mo><mn>1</mn><mo>)</mo></mrow></msup><mo>+</mo>
+                        <msup><mn>2</mn><mrow><mn>2</mn><mi>q</mi><mo>(</mo><mn>2</mn><mi>k</mi><mo>&minus;</mo><mn>2</mn></mrow></msup><mo>&minus;</mo><msup><mn>2</mn><mrow><mn>2</mn><mi>q</mi></mrow></msup></mrow></math>
                     </formula> ou en posant <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML">
-              <mrow>
-                <msup>
-                  <mn>2</mn>
-                  <mrow>
-                    <mn>2</mn>
-                    <mi>q</mi>
-                  </mrow>
-                </msup>
-                <mo>=</mo>
-                <mi>P</mi>
-              </mrow>
-            </math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mn>2</mn><mrow><mn>2</mn><mi>q</mi></mrow></msup><mo>=</mo><mi>P</mi></mrow></math>
                     </formula> afin de mieux saisir la loi :<lb/>
                     <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML">
-              <mrow>
-                <msup>
-                  <mn>2</mn>
-                  <mrow>
-                    <mn>2</mn>
-                    <mi>k</mi>
-                  </mrow>
-                </msup>
-                <mo/>
-                <msup>
-                  <mi>p</mi>
-                  <mrow>
-                    <mn>2</mn>
-                    <mi>k</mi>
-                    <mo/>
-                    <mn>1</mn>
-                  </mrow>
-                </msup>
-                <mo>+</mo>
-                        <msup>
-                  <mi>p</mi>
-                  <mrow>
-                    <mn>2</mn>
-                    <mi>k</mi>
-                    <mo/>
-                    <mn>2</mn>
-                  </mrow>
-                </msup>
-                <mo/>
-                <msup>
-                  <mi>p</mi>
-                  <mrow>
-                    <mn>2</mn>
-                    <mi>k</mi>
-                    <mo/>
-                    <mn>3</mn>
-                  </mrow>
-                </msup>
-                <mo>+</mo>
-                <msup>
-                  <mi>p</mi>
-                  <mrow>
-                    <mn>2</mn>
-                    <mi>k</mi>
-                    <mo/>
-                    <mn>4</mn>
-                  </mrow>
-                </msup>
-                <mo/>
-                <mi>P</mi>
-                <mo>+</mo>
-                <mn>1</mn>
-              </mrow>
-            </math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mn>2</mn><mrow><mn>2</mn><mi>k</mi></mrow></msup><mo>&minus;</mo><msup><mi>p</mi><mrow><mn>2</mn><mi>k</mi><mo>&minus;</mo><mn>1</mn></mrow></msup><mo>+</mo>
+                        <msup><mi>p</mi><mrow><mn>2</mn><mi>k</mi><mo>&minus;</mo><mn>2</mn></mrow></msup><mo>&minus;</mo><msup><mi>p</mi><mrow><mn>2</mn><mi>k</mi><mo>&minus;</mo><mn>3</mn></mrow></msup><mo>+</mo><msup><mi>p</mi><mrow><mn>2</mn><mi>k</mi><mo>&minus;</mo><mn>4</mn></mrow></msup><mo>&minus;</mo><mi>P</mi><mo>+</mo><mn>1</mn></mrow></math>
                     </formula>
                     qui est la
                     suite des puissances successives et décroissantes de P, depuis 2k jusqu'à zéro,
                     les puissances paires étant affectées du signe +, et les puissances impaires du
-                    signe .</p>
+                    signe &minus;.</p>
                 <p>Or q, k étant entiers, chacun des termes du quotient est entier : le
                     quotient lui-même est donc aussi un nombre entier.</p>
                 <p>S'il existait dans ce
@@ -412,21 +198,9 @@
                     recevoir vos conseils, Monsieur, mais vous me rendriez encore un véritable
                     service.</p>
                 <p>Vous m'aviez engagé aussi à chercher<lb/>
-                    [formule mathématique]<pb n="4" facs="#ACAS_CRHST_AMP_01_010_0004_v.jpg"/> la valeur de q pour laquelle les
+                    <gap reason="illisible"/><pb n="4" facs="#ACAS_CRHST_AMP_01_010_0004_v.jpg"/> la valeur de q pour laquelle les
                     nombres que l'on obtient en substituant dans l'expression <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML">
-              <mrow>
-                <msup>
-                  <mn>2</mn>
-                  <mrow>
-                    <mn>2</mn>
-                    <mi>q</mi>
-                  </mrow>
-                </msup>
-                <mo>+</mo>
-                <mn>1</mn>
-              </mrow>
-            </math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mn>2</mn><mrow><mn>2</mn><mi>q</mi></mrow></msup><mo>+</mo><mn>1</mn></mrow></math>
                     </formula>, à q les
                     valeurs successives 0, 1, 2, 3,... cessent d'être premiers. J'ai commencé le
                     calcul depuis quelques jours seulement, et dès que je serai parvenu à quelque

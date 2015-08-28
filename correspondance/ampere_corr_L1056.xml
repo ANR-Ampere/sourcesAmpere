@@ -1,4 +1,5 @@
-<?xml-model href="../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -145,10 +146,7 @@
     <text type="correspondance" decls="#ampere_corr_L1835-05-23-a">
         <body>
             <div>
-                <opener>
-          <pb n="540" facs="#ACAS_CRHST_AMP_26_393_ter_0228_r.jpg"/>
-          <placeName>Paris</placeName>, le <date when="1835-05-23">23 mai 1835</date>
-        </opener>
+                <opener><pb n="540" facs="#ACAS_CRHST_AMP_26_393_ter_0228_r.jpg"/><placeName>Paris</placeName>, le <date when="1835-05-23">23 mai 1835</date></opener>
                 <opener>Monsieur,</opener>
                 <p> Les fondateurs du <orgName>Musée des Contemporains</orgName> n'auraient pas atteint le but
                     qu'ils se sont proposé par la création d'une galerie nationale, s'ils n'avaient
@@ -161,23 +159,17 @@
                     à toute idée de spéculation, elle ne vous demandera que le remboursement de ses
                     frais purement matériels.</p>
                 <p>Les bustes d'un grand nombre de personnes connues sont
-                    maintenant exposés dans les salons du Physionotype <ref target="#corresp_1"/>.
+                    maintenant exposés dans les salons du Physionotype <ref target="#corresp_1">*</ref>.
                     Je vous engage à les visiter et vous pourrez vous convaincre qu'ils ne laissent
                     rien à désirer sous le rapport de l'art, comme sous celui de la ressemblance.</p>
                 <p>J'ai l'honneur d'être,<lb/>
                     Monsieur, votre très humble serviteur,<lb/>
-                    <persName>Louis</persName>  <gap reason="illisible"/>
-        </p>
-                <closer>
-          <pb n="541" facs="#ACAS_CRHST_AMP_26_393_ter_0229_v.jpg"/>A Monsieur <persName>Ampère</persName>, 19, rue des Fossés-Saint-Victor</closer>
+                    <persName>Louis</persName>  <gap reason="illisible"/></p>
+                <closer><pb n="541" facs="#ACAS_CRHST_AMP_26_393_ter_0229_v.jpg"/>A Monsieur <persName>Ampère</persName>, 19, rue des Fossés-Saint-Victor</closer>
             </div>
         </body>
-        <back>
-      <div>
-        <note xml:id="corresp_1">Instrument
+        <back><div><note xml:id="corresp_1">Instrument
             destiné à prendre l'empreinte d'un visage pour en faire un buste, formé d'un
-            ensemble de tiges métalliques mobiles qu'on applique sur le visage</note>
-      </div>
-    </back>
+            ensemble de tiges métalliques mobiles qu'on applique sur le visage</note></div></back>
     </text>
 </TEI>

@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -140,7 +141,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_A366">Ampère, André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -163,12 +164,13 @@
          <div>
             <opener>
           <date when-iso="1801">[Printemps 1801]</date>
-        </opener>
-            <p>Du vendredi - Mon bon ami, j'ai reçu ce matin ta lettre et, comme l'adresse était <cit>
+            </opener><pb n="147" facs="#ACAS_CRHST_AMP_23_331_0147_r.jpg"/>
+            <opener>Du vendredi</opener>
+            <p> Mon bon ami, j'ai reçu ce matin ta lettre et, comme l'adresse était <cit>
             <quote>à
                ma <persName ref="#pers_C129">Julie</persName>
             </quote>
-          </cit> <ref>(2)</ref>, celui qui me l'a remise prétendait que j'étais sa <persName ref="#pers_C129">Julie</persName>. Ainsi voilà à
+          </cit> <ref target="#corresp2">(2)</ref>, celui qui me l'a remise prétendait que j'étais sa <persName ref="#pers_C129">Julie</persName>. Ainsi voilà à
                quoi tu t'exposes en mettant une adresse comme celle-là. Tu me racontes bien des
                choses qui m'intéressent, mon bon ami ; j'espère que tout répondra à ton désir et que
                ta peine ne sera pas perdue. Je voudrais que tu penses à m'apporter dimanche la note
@@ -177,7 +179,7 @@
                dors bien... Tu me demandes si j'aime le samedi. J'espère, mon bon ami, que tu ne
                doutes pas de mon cœur qui, comme tu le dis, t'aime bien tranquillement, mais bien
                pour toujours, quoique je te dise quelquefois le contraire. Tu sais si mes petits
-               raffolages sont sur des choses qui puissent compromettre notre amitié et si j'aime
+               raffolages sont sur des choses qui puissent compromettre notre amitié et si j'aime<pb n="148" facs="#ACAS_CRHST_AMP_23_331_0148_v.jpg"/>
                moins ceux que j'aime quoique je ne les embrasse pas si souvent. Je t'assure, mon bon
                ami, que je crois que c'est un peu habitude ou envie de faire quelque mouvement. Si
                tu m'embrassais moins, je serais sûre que tu le fais avec plaisir. Mais je ne sais
@@ -187,18 +189,20 @@
                voulusse un, c'est ce que tu ne sauras jamais, ni moi non plus. Car on ne sait jamais
                ce que l'on voudra faire demain ; comment savoir ce que l'on aurait toujours pensé ?
                Adieu mon frère ; adieu, mon <persName ref="#pers_A366">André</persName>, mon amoureux et mon mari constant. Voilà bien des
-               titres pour te dire à mon tour que je suis ta meilleure amie, la mère de ton petit,
+               titres pour te dire à mon tour que je suis ta meilleure amie, la mère de ton petit,<cb/>
                celle qui pense souvent à toi, qui désire ton bonheur, ton plaisir, qui voudrait
                faire bien des choses pour toi, mais non pas te sacrifier sa santé ; car tu es aussi
                à plaindre qu'elle lorsqu'elle souffre ; et puis notre petit en a tant besoin. Adieu,
                mon mari, adieu, ce n'est pas le temps de t'en dire davantage. Je t'embrasse bien
                fort, mais non pas en rien comme l'autre jour.</p>
-            <closer>A Monsieur <persName ref="#pers_A366">Ampère</persName>, dans la <placeName>rue Mercière</placeName>, à <placeName>Lyon</placeName>.</closer>
+            <p><gap reason="lacune_CGA"/></p>
+            <closer><pb n="149" facs="#ACAS_CRHST_AMP_23_331_0149_v.jpg"/>A Monsieur <persName ref="#pers_A366">Ampère</persName>, dans la <placeName>rue Mercière</placeName>, à <placeName>Lyon</placeName>.</closer>
          </div>
       </body>
       <back>
          <div>
-            <note xml:id="corresp1">(1) Trois pages avec adresse. (2) La lettre p. 68 était adressée
+            <note xml:id="corresp1">(1) Trois pages avec adresse.</note>
+            <note xml:id="corresp2">(2) La lettre p. 68 était adressée
                « à ma <persName ref="#pers_C129">Julie</persName> ». <persName ref="#pers_C129">Julie</persName> n’y répond guère ; mais il est peu probable qu’<persName ref="#pers_A366">Ampère</persName> ait
                commis deux fois la même légèreté. </note>
          </div>

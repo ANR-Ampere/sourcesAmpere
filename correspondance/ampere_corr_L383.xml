@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -141,7 +142,7 @@
         <correspAction type="received">
           <persName type="adressee">Ballanche, Pierre-Simon</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -162,7 +163,7 @@
    <text type="correspondance" decls="#ampere_corr_L1811-06-24-a">
       <body>
          <div>
-            <opener>
+            <opener><pb n="911" facs="#ACAS_CRHST_AMP_26_393_quarto_0183_r.jpg"/><placeName>Avignon</placeName>
           <date when="1811-06-24">24 juin [1811]</date>
         </opener>
             <p>Mon bon ami, tu ne m'as point écrit comme je l'espérais, tu as dû recevoir de moi une
@@ -178,18 +179,19 @@
                la <placeName>Méditerranée</placeName>. J'ai passé sous la montagne percée pour le passage du canal, sur les
                ponts, aqueducs, etc. J'ai vu de la colline que le nouveau bras du canal sépare de
                <placeName>Carcassonne</placeName>, le plus beau pays de la terre, terminé d'un côté par les <placeName>Pyrénées</placeName>, de
-               l'autre par la <placeName>Montagne Noire</placeName> où <persName>Riquet</persName> fut chercher des eaux assez élevées pour
+               l'autre par la <placeName>Montagne<pb n="912" facs="#ACAS_CRHST_AMP_26_393_quarto_0184_v.jpg"/> Noire</placeName> où <persName>Riquet</persName> fut chercher des eaux assez élevées pour
                alimenter le canal ; d'une autre encore, par la <placeName>Montagne d'Alaric</placeName>, où il a laissé les
                ruines des fortifications qu'il y avait bâties ; et ces deux villes de <placeName>Carcassonne</placeName>,
                celle du Moyen Age, pleine des traces de la chevalerie, et la nouvelle bâtie pour le
-               commerce et les arts. J'ai une autre chose dont il faut que je te parle, cher ami.
-               Cette interminable affaire de <persName>Guérin</persName> <ref>(2)</ref>, la verrai-je enfin terminée quand je
+               commerce et les arts.</p>
+            <p>J'ai une autre chose dont il faut que je te parle, cher ami.
+               Cette interminable affaire de <persName>Guérin</persName> <ref target="#corresp2">(2)</ref>, la verrai-je enfin terminée quand je
                passerai à <placeName>Lyon</placeName> ? Si tu pouvais tout arranger pour cela avec l'homme d'affaires, tu
-               me rendrais un vrai service. Je te prie aussi de faire <supplied>[parvenir]</supplied> à <persName>François Delorme</persName>
-               <ref>(3)</ref> la lettre ci-jointe, il m'est très important qu'il la reçoive le plus tôt
+               me rendrais un vrai service. Je te prie aussi de faire passer à <persName>François Delorme</persName>
+               <ref target="#corresp3">(3)</ref> la lettre ci-jointe, il m'est très important qu'il la reçoive le plus tôt
                possible. Je l'eusse envoyée à <persName>Bredin</persName> si je ne craignais qu'il fût absent. S'il ne se
                présente pas d'occasion sûre, tu prendras le moyen de la faire porter par quelqu'un ;
-               car tu sais que la poste ne va qu'à <placeName>Chasselay</placeName> où les lettres restent ordinairement
+               car tu sais que la poste ne<pb n="913" facs="#ACAS_CRHST_AMP_26_393_quarto_0185_r.jpg"/> va qu'à <placeName>Chasselay</placeName> où les lettres restent ordinairement
                plusieurs jours avant d'être rendues par des occasions à <placeName>Poleymieux</placeName> : ces occasions
                étant en général beaucoup plus rares que celles de <placeName>Lyon</placeName> pour <placeName>Poleymieux</placeName>. Je suis bien
                ici avec M. <persName>Guéneau [Guéneau de Mussy]</persName>. M. <persName>Izarn</persName> ne viendra nous joindre que demain
@@ -199,17 +201,21 @@
                plaisant contraste nous faisons à nous trois ! Il se moque bien de moi, etc. Mais il
                ne me changera pas. J'ai d'ailleurs des nouvelles qui me mettent l'esprit plus
                tranquille ; avant, j'ai été bien mélancolique. Adieu, cher ami ; je t'embrasse de
-               toute mon âme ; mes respects et mes compliments à toute ta famille. <persName>A. Ampère</persName>. Je
+               toute mon âme ; mes respects et mes compliments à toute ta famille.<lb/>
+               <persName>A. Ampère</persName>.</p>
+            <p>Je
                viens de recevoir de bonnes nouvelles de ma sœur et de mes enfants.</p>
-            <closer>imprimeur, aux <placeName>Halles de la Grenette</placeName>, à <placeName>Lyon</placeName> (<placeName>Rhône</placeName>) </closer>
+            <closer><pb n="914" facs="#ACAS_CRHST_AMP_26_393_quarto_0186_v.jpg"/>A monsieur <persName>Ballanche fils</persName> imprimeur, aux <placeName>Halles de la Grenette</placeName>, à <placeName>Lyon</placeName> (<placeName>Rhône</placeName>) </closer>
          </div>
       </body>
       <back>
          <div>
             <note xml:id="corresp1">(1) Trois pages 18 x 23,5 ; adresse sur la quatrième ; timbre
-               89, <placeName>Avignon</placeName>. La tournée et la date d'arrivée à <placeName>Lyon</placeName> correspondent bien à 1811. (2) Il
+               89, <placeName>Avignon</placeName>. La tournée et la date d'arrivée à <placeName>Lyon</placeName> correspondent bien à 1811.</note>
+            <note xml:id="corresp2">(2) Il
                s'agit de la créance <persName>Guérin</persName> dont <persName>Ampère</persName> avait reçu une partie par son contrat de
-               mariage. (3) <persName>François Delorme</persName> est le fermier de <placeName>Poleymieux</placeName>. </note>
+               mariage.</note>
+            <note xml:id="corresp3">(3) <persName>François Delorme</persName> est le fermier de <placeName>Poleymieux</placeName>. </note>
          </div>
       </back>
    </text>

@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -133,7 +134,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -154,25 +155,31 @@
    <text type="correspondance" decls="#ampere_corr_L1813-03-06-a">
       <body>
          <div>
-            <opener>
-          <date when="1813-03-06">March 6th [1813]</date>
+            <opener>Barkeley Square, <placeName>London</placeName>, <date when="1813-03-06">March 6th [1813]</date>
         </opener>
+            <opener>To M. <persName>Ampère</persName>, <placeName>Paris</placeName></opener>
             <p>
-          <foreign xml:lang="eng">Sir, till this moment I had no opportunity of replying to your obliging letter. The
+          <foreign xml:lang="eng">Sir, till this moment I had no opportunity of replying to your obliging letter.</foreign>
+               </p>
+            <p><foreign xml:lang="eng">The
                fulminating oil which you mentioned roused my curiosity and nearly deprived me of an
-               eye. After some months confinement I am again well. I hope soon to have some results
+               eye. After some months confinement I am again well. I hope soon to have some results<pb n="262" facs="#ACAS_CRHST_AMP_09_182_0262_v.jpg"/>
                to communicate to you respecting fluorine. I shall send with this note a paper on the
                detonating compound. I did not mention your name in it, because I had not an
                opportunity of asking your permission and I did not think it right to do so without a
-               permission. The paper was rather to caution the english chimists against the oil,
-               then to communicate any striking results. Your ingenious views respecting fluorine
+               permission.</foreign></p>
+            <p><foreign xml:lang="eng">The paper was rather<cb/> to caution the english chimists against the oil,
+               then to communicate any striking results.</foreign></p>
+            <p><foreign xml:lang="eng">Your ingenious views respecting fluorine
                may be confirmed. I have every reason to conclude from my experiments that there is
                no oxygen combined with the potassium in the experiment on the combustion of
-               potassium in silicated fluoric gas ; and that the first view which I formed on the
-               subject is incorrect <ref>(2)</ref>. I have many new experiments on the subject ; but I have
-               only a moment in which I can make this communication. I will not lose the opportunity
-               of saying that I am very sincerely, Sir, with esteem your obliged. <persName>H. DAVY</persName>. My kind
-               remembrances to M. <persName>Underwood</persName>.</foreign>
+               potassium in silicated fluoric gas ; and that<pb n="263" facs="#"/> the first view which I formed on the
+               subject is incorrect <ref target="#corresp2">(2)</ref>. I have many new experiments on the subject ; but I have
+               only a moment in which I can make this communication.</foreign></p>
+            <p><foreign xml:lang="eng">I will not lose the opportunity
+               of saying that I am very sincerely, Sir, with esteem your obliged.</foreign></p>
+            <p><foreign xml:lang="eng">My kind
+               remembrances to M. <persName>Underwood</persName>.<lb/> <persName>H. DAVY</persName></foreign>
         </p>
          </div>
       </body>
@@ -195,7 +202,8 @@
                première vue que je me formais à ce sujet était incorrecte. J'ai plusieurs nouvelles
                expériences à ce sujet; mais je n'ai qu'un moment pour faire cette communication. Je
                ne veux pas perdre l'occasion de vous dire que je suis sincèrement, Monsieur, avec
-               estime votre obligé <ab>H. Davy</ab>. Mes bons souvenirs à M. <ab>Underwood</ab>. » (2) Cet aveu de
+               estime votre obligé <ab>H. Davy</ab>. Mes bons souvenirs à M. <ab>Underwood</ab>. » .</note>
+            <note xml:id="corresp2">(2) Cet aveu de
                <ab>Davy</ab> met bien en évidence le rôle d'<ab>Ampère</ab> que tendrait à voiler sa modestie
                désintéressée. </note>
          </div>

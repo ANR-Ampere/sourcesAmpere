@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -136,7 +137,7 @@
         <correspAction type="received">
           <persName type="adressee">Davy, Humphry</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -157,42 +158,48 @@
    <text type="correspondance" decls="#ampere_corr_L1813-06-20-a">
       <body>
          <div>
-            <opener>
+            <opener><pb n="264" facs="#ACAS_CRHST_AMP_09_182_0264_r.jpg"/><placeName>Paris</placeName>
           <date when="1813-06-20">20 juin 1813</date>
         </opener>
-            <p>Monsieur, j'ai mille remerciements à vous faire du mémoire que vous avez eu la bonté
+            <opener>Monsieur, </opener>
+            <p>j'ai mille remerciements à vous faire du mémoire que vous avez eu la bonté
                de m'envoyer, et de la lettre dont il était accompagné. M. <persName>Vauquelin</persName> m'a remis l'un
                et l'autre il y a quelques jours. J'avais su l'accident qui vous était arrivé et, au
                chagrin qu'il devait naturellement me faire, se joignait celui d'en avoir été en
                quelque sorte la cause, en appelant votre attention sur une substance qui, de toutes
                les substances détonantes, est celle qui exige le plus de précautions lorsqu'on veut
-               la soumettre à l'expérience. Heureusement que cet accident n'a point eu de suites
+               la soumettre à l'expérience.</p>
+            <p>Heureusement que cet accident n'a point eu de suites
                funestes et que, parfaitement rétabli aujourd'hui, vous pourrez achever de fixer sur
-               des bases inébranlables la théorie des phénomènes chimiques. Jusqu'à l'époque des
+               des bases inébranlables la théorie des phénomènes chimiques.</p>
+            <p><pb n="265" facs="#ACAS_CRHST_AMP_09_182_0265_v.jpg"/>Jusqu'à l'époque des
                découvertes dont vous l'avez enrichie, cette théorie laissait sans doute beaucoup à
                désirer ; l'analogie entre les terres et les alcalis et les autres oxydes n'était
                point expliquée. On ignorait par conséquent les lois générales de la composition des
                sels, et l'oxygène s'offrait comme une substance isolée et sans analogie avec aucun
-               autre corps. Aujourd'hui toutes les substances simples semblent se partager en deux
+               autre corps.</p>
+            <p>Aujourd'hui toutes les substances simples semblent se partager en deux
                grandes classes les corps comburants et les corps combustibles. L'existence de deux
                comburants, l'oxygène et le chlorine, est actuellement mise hors de doute. Le
                fluorine va s'y joindre, et peut-être en trouvera-t-on bientôt un quatrième dans une
-               substance nouvelle, récemment découverte en <placeName>France</placeName> <ref>(2)</ref>, et dont j'ai vu des effets
-               extrêmement singuliers, mais sur laquelle je ne puis encore vous donner aucun détail.
+               substance nouvelle, récemment découverte en <placeName>France</placeName> <ref target="#corresp2">(2)</ref>, et dont j'ai vu des effets
+               extrêmement singuliers, mais sur laquelle je ne puis encore vous donner aucun détail.</p><p>
                C'est avec un véritable chagrin, Monsieur, que je me suis vu dans la nécessité
-               d'écrire avant de vous avoir consulté à ce sujet, à mon excellent collègue et ami, M.
+               d'écrire avant de vous avoir consulté à ce sujet, à mon<pb n="266" facs="#ACAS_CRHST_AMP_09_182_0266_r.jpg"/> excellent collègue et ami, M.
                <persName>Pictet</persName>, ce que vous avez lu sans doute dans la <title>Bibliothèque britannique</title>, au sujet de
                l'huile détonante. Mais la difficulté des communications ne me permettait pas
                d'espérer une réponse prochaine et je ne pouvais refuser à M. <persName>Dulong</persName> un exposé fidèle
                des faits puisque c'était de sa bouche que je tenais ce que j'eus l'honneur de vous
                écrire l'année dernière, et que c'était par moi que son travail se trouvait connu en
-               <placeName>Angleterre</placeName> avant qu'il l'eût publié. Rien ne peut être plus flatteur pour moi,
+               <placeName>Angleterre</placeName> avant qu'il l'eût publié.</p>
+            <p>Rien ne peut être plus flatteur pour moi,
                Monsieur, que les communications dont vous voulez bien m'honorer, et, si vous vous
                trouviez dans le cas de citer mon nom comme vous me dites que vous en auriez eu
                quelque envie si vous aviez eu le temps de me consulter à cet égard, je vous prie
                d'avance de le faire librement, je tiendrai toujours à l'honneur de voir mon nom
-               associé à ceux des personnes qui admirent le plus les grandes découvertes que vous
-               doit la chimie. J'éprouve une vive impatience de connaître les expériences et les
+               associé à ceux<pb n="267" facs="#ACAS_CRHST_AMP_09_182_0267_v.jpg"/> des personnes qui admirent le plus les grandes découvertes que vous
+               doit la chimie.</p>
+            <p>J'éprouve une vive impatience de connaître les expériences et les
                considérations nouvelles que vous publierez sans doute bientôt sur la nature du
                fluorine. Je ne connais jusqu'à présent que les motifs suivants qui puissent porter à
                croire que l'acide fluorique résulte de l'union de l'hydrogène avec un corps
@@ -201,38 +208,42 @@
                phosphore, l'étain, l'antimoine, etc., car je ne puis m'empêcher de regarder comme
                des acides des corps qui forment avec l'ammoniaque de véritables sels. La combinaison
                du phosphorane et d'ammoniaque que vous avez découverte me semble, par exemple,
-               devoir être considérée comme un sel insoluble et le phosphorane comme un acide. Le
+               devoir être considérée comme un sel insoluble et le phosphorane comme un acide.</p>
+            <p><pb n="268" facs="#ACAS_CRHST_AMP_09_182_0268_r.jpg"/>Le
                premier de ces motifs est l'impossibilité que j'ai constatée par l'expérience, de
                décomposer le fluate ou plutôt le fluorite de plomb par le charbon ; car si ce corps
                était formé d'oxyde de plomb et d'un acide ordinaire, je conçois bien que cet acide
                pourrait n'être pas décomposé par le charbon, mais je ne conçois pas comment l'oxyde
                de plomb ne le serait pas. Le second motif est l'état gazeux des combinaisons du
                fluorine avec le bore et le silicium, et les propriétés qui identifient ces
-               combinaisons avec les autres acides gazeux, sous ce point de vue <gap reason="lacune_CGA"/> <ref>(3)</ref> résultent comme tous les acides <gap reason="lacune_CGA"/> ou d'un corps combustible et d'un corps comburant, tandis
+               combinaisons avec les autres acides gazeux, sous ce point de vue <gap reason="lacune_CGA"/> <ref target="#corresp3">(3)</ref> résultent comme tous les acides <gap reason="lacune_CGA"/> ou d'un corps combustible et d'un corps comburant, tandis
                que, dans l'ancienne hypothèse, il faudrait supposer, contre toute analogie, ou que
                l'acide borique aurait assez d'affinité avec un autre acide pour devenir gazeux en se
                combinant avec lui, et que la même chose aurait lieu pour la silice, qui devrait
-               plutôt former, dans cette hypothèse, un sel avec l'acide fluorique. Le troisième
-               motif me semble encore plus convaincant. L'ammoniaque et l'acide fluoborique, tous
+               plutôt former, dans cette hypothèse, un sel avec l'acide fluorique.</p>
+            <p>Le troisième
+               motif me semble encore plus convaincant. L'ammoniaque<pb n="269" facs="#ACAS_CRHST_AMP_09_182_0269_v.jpg"/> et l'acide fluoborique, tous
                deux à l'état de gaz et bien secs, forment un sel qu'on est obligé de considérer dans
                l'ancienne hypothèse comme un mélange de fluate et de borate d'ammoniaque, le premier
                de ces sels étant volatil et le second se décomposant au feu en acide borique et en
                gaz ammoniac. Tels seraient les produits qu'on devrait obtenir en distillant le
                fluoborate d'ammoniaque sec. C'est ce qui n'arrive pas. On n'obtient ces produits que
                quand on y a joint de l'eau, dont l'oxygène convertit <gap reason="lacune_CGA"/> en acide borique, et dont l'hydrogène forme avec le fluorine
-               de l'acide fluorique qui se sublime en fluate d'ammoniaque. J'ajouterai à ces motifs
+               de l'acide fluorique qui se sublime en fluate d'ammoniaque.</p>
+            <p>J'ajouterai à ces motifs
                la réflexion suivante : dans l'état actuel des choses et sans adopter aucune
                hypothèse, on doit, pour énoncer simplement les faits, dire que l'acide fluorique,
                mis en contact avec le fer, laisse échapper de l'hydrogène et de la substance qui
-               reste unie au fer dans le résultat de l'opération. Tant que cette substance n'aura
+               reste unie au fer dans le résultat de l'opération. Tant que<pb n="270" facs="#ACAS_CRHST_AMP_09_182_0270_r.jpg"/> cette substance n'aura
                pas été décomposée, il faudra bien la regarder comme simple et lui donner un nom tel
                que celui de fluorine ; sans quoi on ne saurait où s'arrêter dans la formation des
                suppositions arbitraires que les chimistes modernes prétendaient avoir bannies de la
                science, quoiqu'il en restât encore beaucoup dans les théories les plus répandues
-               avant les vôtres. Je ne sais, Monsieur, ce que vous penserez d'une idée qui me reste
+               avant les vôtres.</p>
+            <p>Je ne sais, Monsieur, ce que vous penserez d'une idée qui me reste
                à vous communiquer. Si l'on parvenait à prouver que, l'oxygène n'étant pas le seul
                générateur des acides, on doit comprendre sous cette dernière dénomination tous les
-               composés formés d'un corps comburant et d'un corps combustible, où le corps comburant
+               composés formés d'un corps comburant et d'un corps combustible, où le<pb n="271" facs="#ACAS_CRHST_AMP_09_182_0271_v.jpg"/> corps comburant
                domine assez pour qu'ils forment des sels avec l'ammoniaque et, en général, avec
                toutes les bases salifiables qu'ils ne décomposent pas, ne deviendrait-il pas
                nécessaire de désigner ces acides par des noms où le corps comburant se trouvât
@@ -248,21 +259,25 @@
                les mots chlorophosphate et chlorophoplite d'ammoniaque. Cette extension de la
                nomenclature ordinaire me paraît le moyen le plus simple et commode de former
                régulièrement les noms dont on aura besoin pour désigner tous les sels que l'on ne
-               peut manquer de découvrir en tentant ces diverses combinaisons. L'ami auquel j'ai dû
+               peut manquer de découvrir en tentant ces diverses combinaisons.</p>
+            <p>L'ami auquel j'ai dû
                l'honneur de votre correspondance n'étant pas à <placeName>Paris</placeName> dans ce moment, je n'ai pu lui
                faire part de votre lettre. Dès qu'il sera de retour, je m'empresserai de lui
                communiquer ce que vous me dites d'obligeant pour lui. J'ai l'honneur d'être avec
-               respect et cordialité <ref>(4)</ref>.</p>
+               respect et cordialité <ref target="#corresp4">(4)</ref>.</p>
          </div>
       </body>
       <back>
          <div>
             <note xml:id="corresp1">(1) Cette lettre répond à celle de <persName>Davy</persName> du 6 mars. <persName>Ampère</persName>, dans
                une lettre à <persName>Bredin</persName> du <date when="1813-06-28">28 juin 1813</date> (251), dit qu'il a mis quinze jours à l'écrire et
-               qu'il l'a recommencée plusieurs fois. (2) L'iode découvert en <date when-iso="1811">1811</date> par <persName>Courtois</persName> et
+               qu'il l'a recommencée plusieurs fois.</note>
+            <note xml:id="corresp2">(2) L'iode découvert en <date when-iso="1811">1811</date> par <persName>Courtois</persName> et
                aussitôt étudié par <persName>Gay-Lussac</persName>. A la fin de <date when="1813">1813</date>, <persName>Davy</persName> vint eu <placeName>France</placeName> et <persName>Ampère</persName> lui
-               donna de l'iode. (3) Le brouillon autographe d'<persName>Ampère</persName> présente des lacunes et des
-               ratures. (4) Un autre brouillon de cette lettre, qui a été plusieurs fois
+               donna de l'iode.</note>
+            <note xml:id="corresp3">(3) Le brouillon autographe d'<persName>Ampère</persName> présente des lacunes et des
+               ratures. </note>
+            <note xml:id="corresp4">(4) Un autre brouillon de cette lettre (images 272 à 274 et 276), qui a été plusieurs fois
                recommencée, diffère surtout par le début : Monsieur, j'ai mille remerciements à vous
                faire du mémoire que vous avez eu la bonté de m'envoyer et de la lettre dont il était
                accompagné. M. <persName>Vauquelin</persName> m'a remis l'un et l'autre il y a peu de jours. Rien ne peut
@@ -286,10 +301,7 @@
                <placeName>Angleterre</placeName> ; c'était moi qu'il avait le droit d'accuser d'une sorte d'indiscrétion.
                Au reste, je n'avais nul motif de craindre que vous ne me nommiez comme l'auteur de
                cette communication ; rien ne pourrait, au contraire, Monsieur, être plus honorable
-               pour moi que de voir mon nom cité, à quelque occasion que ce soit... </note>
-            <note resp="CAK_commentaire">Plusieurs projets de début de cette lettre sont conservés
-               aux Archives de l'<orgName>Académie des sciences</orgName> ; ils sont signalés ici comme folios 9 à 11
-               et folio 12.</note>
+               pour moi que de voir mon nom cité, à quelque occasion que ce soit... </note>            
          </div>
       </back>
    </text>

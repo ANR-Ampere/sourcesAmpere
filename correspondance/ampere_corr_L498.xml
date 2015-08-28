@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -141,7 +142,7 @@
         <correspAction type="received">
           <persName type="adressee">Bredin, Claude-Julien</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -162,25 +163,27 @@
     <text type="correspondance" decls="#ampere_corr_L1814-11-21-a">
         <body>
             <div>
-                <opener>
-          <date when="1814-11-21">Lundi, 21 novembre [1814]</date>
+                <opener><pb n="269" facs="#ACAS_CRHST_AMP_24_340_0269_r.jpg"/>
+          <date when="1814-11-21">Lundi, 21 <choice><abbr>9bre</abbr> <expan>novembre</expan></choice> [1814]</date>
         </opener>
                 <p>Mon bon ami, la présentation pour la place de mathématiques vacante à l'<orgName>Institut</orgName>
-                    a eu lieu aujourd'hui. Je suis le premier sur la liste <ref>(2)</ref>, ce qui rend
+                    a eu lieu aujourd'hui. Je suis le premier sur la liste <ref target="#corresp2">(2)</ref>, ce qui rend
                     infiniment probable le résultat favorable pour moi de la nomination qui aura
                     lieu lundi prochain. Je suis plein de joie, et j'ai calculé que, si tu m'écris
                     de suite, je recevrai ta lettre en même temps que je l'apprendrai, en sorte que
                     tous les bonheurs me viendront à la fois. écris-moi bien au long, je t'en prie,
                     toutes sortes de détails sur toi, sur <persName>Mme Bredin</persName> et tes charmants enfants, des
                     nouvelles de tous nos amis, à qui tu diras celle que je t'écris. Cher ami, je
-                    t'embrasse de toute mon âme, je suis forcé de te quitter. Adieu, <persName>Bredin</persName>. <persName>A.
+                    t'embrasse de toute mon âme, je suis forcé de te quitter. Adieu, <persName>Bredin</persName>.<lb/>
+                    <persName>A.
                     Ampère</persName>.</p>
-                <closer>Directeur de l'<orgName>École royale vétérinaire</orgName>, à <placeName>Lyon</placeName> (<placeName>Rhône</placeName>) </closer>
+                <closer><pb n="270" facs="#ACAS_CRHST_AMP_24_340_0270_v.jpg"/>A monsieur <persName>Bredin</persName> Directeur de l'<orgName>École royale vétérinaire</orgName>, à <placeName>Lyon</placeName> (<placeName>Rhône</placeName>) </closer>
             </div>
         </body>
         <back>
             <div>
-                <note xml:id="corresp1">(1) Une page in-4°, adresse sur la quatrième. (2) La Section
+                <note xml:id="corresp1">(1) Une page in-4°, adresse sur la quatrième.</note>
+                <note xml:id="corresp2">(2) La Section
                     de Géométrie présentait MM. <persName>Ampère</persName>, <persName>Binet</persName>, <persName>Cauchy</persName>, <persName>Duvillard</persName>, <persName>Francœur</persName>, <persName>Parseval</persName>
                     et <persName>Puissant</persName>. </note>
             </div>

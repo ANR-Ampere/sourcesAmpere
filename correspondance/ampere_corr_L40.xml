@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -139,7 +140,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_A366">Ampère, André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -265,7 +266,7 @@
             <sic>laise</sic>
             <corr>laisse</corr>
           </choice> venir <persName ref="#pers_P442">Périsse</persName> avec<lb/> toi
-          <ref>(2)</ref>. Comme tu viens le <choice>
+          <ref target="#corresp2">(2)</ref>. Comme tu viens le <choice>
             <sic>dimenche</sic>
             <corr>dimanche</corr>
           </choice>, elle ne craindra<pb n="106" facs="ACAS_CRHST_AMP_23_331_0106_r.jpg"/> pas qu'il
@@ -343,7 +344,8 @@
       <div>
         <note xml:id="corresp1">(1) Lettre de deux pages, à M.
           <persName ref="#pers_A366">Ampère</persName>, sans autre adresse. L’Athénée, c’est
-          l’<orgName>Académie</orgName>. (2) <persName ref="#pers_P442">François Périsse</persName>,
+          l’<orgName>Académie</orgName>.</note>
+        <note xml:id="corresp2">(2) <persName ref="#pers_P442">François Périsse</persName>,
           son neveu, âgé de 13 ans. </note>
       </div>
     </back>

@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -137,7 +138,7 @@
           <persName type="adressee" ref="#pers_C127">Carron, François (frère
                         de<persName>Julie</persName>)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,16 +162,17 @@
             <opener>
           <date when="1800-07-12">12 juillet [1800]</date>
         </opener>
-            <p>[De <persName ref="#pers_C129">Julie</persName>] Mon bon ami, c'est bien tard que je réponds à ta
+            <p>[De <persName ref="#pers_C129">Julie</persName>]<lb/>
+               Mon bon ami, c'est bien tard que je réponds à ta
                lettre. Si tu pouvais savoir quelle privation ça été pour moi, je ne demanderais pas
                autre chose pour que tu fusses bien persuadé de toute l'amitié de
                ta<persName ref="#pers_C129">Julie</persName> qui pense bien souvent à toi et qui regrette encore
                plus dans ce moment de ne pas pouvoir embrasser son frère et son bon ami. Tu as été
                malade, mon pauvre <persName ref="#pers_C127">Carron</persName>, et point de femme, point de sœur
-               n'avait soin de toi <ref>(2)</ref>. On me dit que tu es maintenant bien rétabli. Je désire que
+               n'avait soin de toi <ref target="#corresp2">(2)</ref>. On me dit que tu es maintenant bien rétabli. Je désire que
                ce soit la vérité et que ton affaire s'arrange de manière qu'elle te ramène près de
                nous, de ta femme, de ta petite <persName ref="#pers_C126">élisa</persName> qui devient tous les jours
-               plus gentille et plus jolie <ref>(3)</ref>. Cependant elle te ressemble, c'est ce qui étonne
+               plus gentille et plus jolie <ref target="#corresp3">(3)</ref>. Cependant elle te ressemble, c'est ce qui étonne
                bien des gens. Je voudrais bien savoir comment je me tirerai de la grande affaire qui
                m'attend. J'aimerais bien mieux te donner une nièce qu'un neveu ; mais, pourvu qu'il
                soit bien portant et bien constitué, c'est la principale chose pour moi. Je suis à
@@ -188,7 +190,9 @@
                Tout cela et mon déménagement ne m'ont pas laissé de liberté pour ce qui m'aurait
                fait plaisir. Car je n'ai pas vu ta femme bien souvent chez elle, mais beaucoup chez
                Maman. Adieu encore, je t'embrasse comme je t'aime, et tu sais si c'est de tout mon
-               cœur. Ta sœur <persName ref="#pers_C129">JULIE AMPÈRE</persName>. [D'<persName ref="#pers_A366">Ampère</persName>]
+               cœur. Ta sœur<lb/>
+               <persName ref="#pers_C129">JULIE AMPÈRE</persName>.</p>
+            <p>[D'<persName ref="#pers_A366">Ampère</persName>]<lb/>
                J'attendais toujours, mon frère, que <persName ref="#pers_C129">Julie</persName> ait le temps de
                t'écrire pour mettre mon griffonnage dans sa lettre ; car, depuis que nous ne sommes
                plus qu'un, nous ne devons pas écrire séparément, surtout à un frère que nous aimons
@@ -203,7 +207,8 @@
                d'amitiés qu'elle ne m'en a jamais écrites. On obtient tout à la fin de ma
                <persName ref="#pers_C129">Julie</persName>, car elle est bonne ! oh bien bonne ! Et l'on est bien
                dédommagé de l'attente. Grâce à tout cela, ta petite nièce commence à faire dans le
-               monde un personnage important qui devient tous les jours plus visible. Je vois que ma
+               monde un personnage important qui devient tous les jours plus visible.</p>
+            <p>Je vois que ma
                <persName ref="#pers_C129">Julie</persName> t'a donné des nouvelles de ta femme et
                d'<persName ref="#pers_C126">Élisa</persName> qui s'amuse à faire enrager sa maman en attendant
                qu'elle puisse faire enrager ceux qui l'aimeront un jour. C'est, je crois,
@@ -211,7 +216,8 @@
                dédommagent bien en changeant d'état. Adieu, mon bon ami, mon frère. J'espère que le
                peu d'exactitude de <persName ref="#pers_C129">Julie</persName> ne t'empêchera pas de nous donner de
                tes nouvelles, tu serais cause que je lui en voudrais pour la première fois de ma
-               vie. Je t'aime et t'embrasse de toute mon âme, Ton frère <persName ref="#pers_A366">A.
+               vie. Je t'aime et t'embrasse de toute mon âme, Ton frère<lb/>
+               <persName ref="#pers_A366">A.
                   AMPÈRE</persName>
         </p>
             <closer>Au citoyen <persName ref="#pers_C127">Carron</persName>, <placeName>Hôtel du cercle du
@@ -221,10 +227,12 @@
       </body>
       <back>
          <div>
-            <note xml:id="corresp1">(1) Coll. <persName>Bodin</persName>. Quatre pages 20 x 24,5. (2) <persName ref="#pers_C127">Carron</persName> était parti
-               seul pour <placeName>Paris</placeName> à la fin d'avril. Sa famille ne vint le rejoindre qu'en <date when-iso="1801-03">mars 1801</date>.
+            <note xml:id="corresp1">(1) Coll. <persName>Bodin</persName>. Quatre pages 20 x 24,5.</note>
+            <note xml:id="corresp2">(2) <persName ref="#pers_C127">Carron</persName> était parti
+               seul pour <placeName>Paris</placeName> à la fin d'avril. Sa famille ne vint le rejoindre qu'en <date when-iso="1801-03">mars 1801</date>.</note>
+            <note xml:id="corresp3">
                (3) Née le <date when="1798-10-31">31 octobre 1798</date>. Trois autres enfants dont on ne parle pas auraient dû
-               avoir alors 5 ans, 4 ans, 3 ans. Étaient-ils morts </note>
+               avoir alors 5 ans, 4 ans, 3 ans. Étaient-ils morts ? </note>
          </div>
       </back>
    </text>

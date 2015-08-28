@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -144,7 +145,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -177,7 +178,7 @@
                la veille d'un beau jour, sera<lb/>
                bien beau aussi si je reçois une<lb/>
                petite lettre, et encore mieux<lb/>
-               une grande lettre de ma bonne amie <ref>(2)</ref>.<lb/>
+               une grande lettre de ma bonne amie <ref target="#corresp2">(2)</ref>.<lb/>
                Tu sais bien qui elle est cette bonne<lb/>
                amie, qui <choice>
             <sic>employe</sic> <corr>emploie</corr>
@@ -187,9 +188,9 @@
           <lb/>
                m'a presque parlé que de la b<supplied>eauté</supplied>
           <lb/>
-               du petit <persName>Bodin</persName> <ref>(3)</ref>. Elle dit qu'elle s<supplied>erait</supplied>
+               du petit <persName>Bodin</persName> <ref target="#corresp3">(3)</ref>. Elle dit qu'elle s<supplied>erait</supplied>
           <lb/>
-               trop contente si la petite <ref>(4)</ref> avai<supplied>t</supplied>
+               trop contente si la petite <ref target="#corresp4">(4)</ref> avai<supplied>t</supplied>
           <lb/>
                sa figure. Elle m'a dit aussi que<lb/>
                quelqu'un lui avait parlé de mon<lb/>
@@ -201,7 +202,7 @@
             <choice>
               <sic>Jenni</sic> <corr>Jenny</corr>
             </choice>
-          </persName> <ref>(5)</ref>.<lb/>
+          </persName> <ref target="#corresp5">(5)</ref>.<lb/>
                Adieu, ma bonne amie, ma <persName ref="#pers_C129">Julie</persName>,<lb/>
                je t'embrasse mille fois de tout<lb/>
                mon cœur. Dis mille choses de ma part<lb/>
@@ -231,10 +232,14 @@
       </body>
       <back>
          <div>
-            <note xml:id="corresp1">(1) Deux pages in-4°. Adresse sur la seconde. (2) La veille d'un
-               beau jour signifie simplement le jour où il la reverra. (3) <persName>Bodin</persName> était le patron de
-               <persName ref="#pers_C127">François Carron</persName>, par l'intermédiaire duquel celui-ci accédait à M. <persName ref="#pers_C136">Cayre</persName>. (4) <persName ref="#pers_C758">Mme
-                  Carron</persName> venait d'avoir une fille le <date when="1800-10-15">15 octobre 1800</date>. (5) <persName ref="#pers_C118">Jenny Campredon</persName>, soeur de <persName ref="#pers_C758">Mme
+            <note xml:id="corresp1">(1) Deux pages in-4°. Adresse sur la seconde.</note>
+            <note xml:id="corresp2">(2) La veille d'un
+               beau jour signifie simplement le jour où il la reverra.</note>
+            <note xml:id="corresp3">(3) <persName>Bodin</persName> était le patron de
+               <persName ref="#pers_C127">François Carron</persName>, par l'intermédiaire duquel celui-ci accédait à M. <persName ref="#pers_C136">Cayre</persName>.</note>
+            <note xml:id="corresp4">(4) <persName ref="#pers_C758">Mme
+                  Carron</persName> venait d'avoir une fille le <date when="1800-10-15">15 octobre 1800</date>.</note>
+            <note xml:id="corresp5">(5) <persName ref="#pers_C118">Jenny Campredon</persName>, sœur de <persName ref="#pers_C758">Mme
                Carron</persName>. </note>
          </div>
       </back>

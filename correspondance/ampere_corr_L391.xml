@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -140,7 +141,7 @@
         <correspAction type="received">
           <persName type="adressee">Bredin, Claude-Julien</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,12 +162,12 @@
    <text type="correspondance" decls="#ampere_corr_L1811-09-11-a">
       <body>
          <div>
-            <opener>
-          <date when="1811-09-11">11 septembre [1811]</date>
+            <opener><pb n="16" facs="#ch_340/ACAS_CRHST_AMP_24_340_0016_r.jpg"/>
+          <date when="1811-09-11">11 <choice><abbr>7bre</abbr> <expan>septembre</expan></choice> [1811]</date>
         </opener>
             <p>Bon ami, quelle autre ressource ai-je que celle de t'écrire ? Tu auras reçu, avant
                celle-ci, la lettre que te porte Mme <persName>Maléchard</persName>. Tu y auras vu le prochain départ de
-               quelqu'un <ref>(2)</ref>. Ce départ a eu lieu. Je le croyais moins prompt quand je t'ai écrit ;
+               quelqu'un <ref target="#corresp2">(2)</ref>. Ce départ a eu lieu. Je le croyais moins prompt quand je t'ai écrit ;
                mais, dès le lendemain, j'en appris l'époque. Je m'attendais qu'il me ferait beaucoup
                de peine. Mais comment me serais-je fait une idée, avant de l'éprouver, de ce vide
                autour de moi ? Voilà ce que je ne comprends pas. Ma sœur et mes enfants sont près
@@ -174,28 +175,33 @@
                monde, excepté à toi, mon ami, ce que je souffre. Que peuvent faire, pour me
                consoler, des êtres qui ne savent pas, qui, quand ils les sauraient, ne
                comprendraient pas mes peines ? Ces peines, elles n'ont aucun fondement. A quoi se
-               rapportent-elles ? Mon ami, tu m'as sans doute écrit, si tu as reçu toutes mes
-               lettres. Quand recevrai-je une lettre de toi qui me rende à la vie ? Je suis si
+               rapportent-elles ?</p>
+            <p>Mon ami, tu m'as sans doute écrit, si tu as reçu toutes mes
+               lettres.<pb n="17" facs="#ACAS_CRHST_AMP_24_340_0017_v.jpg"/> Quand recevrai-je une lettre de toi qui me rende à la vie ? Je suis si
                agité, si oppressé ! Je ne comprends rien à ce que j'éprouve. Pourquoi ne suis-je pas
-               auprès de toi ? Voilà un paquet de tes lettres, mais tu n'y es pas. Je les ai relues
+               auprès de toi ?</p>
+            <p>Voilà un paquet de tes lettres, mais tu n'y es pas. Je les ai relues
                tout à l'heure ; c'était une sorte de soulagement ; cependant je ne suis pas triste
                comme quand j'ai perdu autrefois ce que j'avais de plus cher. Ah non, ce n'est pas
-               cela que j'éprouve, mes pensées m'oppressent. Tout le reste de ma vie vide [sic].
+               cela que j'éprouve, mes pensées m'oppressent. Tout le reste de ma vie vide.
                Pourquoi me suis-je donné tant de liens qui attachent mon âme à la terre sans la
                remplir ? écris-moi, <persName>Bredin</persName>, écris à ton ami ! Cherche à remplir par ton amitié le
                vide qu'y laisse une autre amitié trop tranquille, trop raisonnable pour me consoler.
-               Je crois en vérité que j'ai réussi à cacher ce qui se passait en moi. Mais alors
+               Je crois en vérité que j'ai réussi à<pb n="18" facs="#ACAS_CRHST_AMP_24_340_0018_r.jpg"/> cacher ce qui se passait en moi. Mais alors
                qu'était-elle, cette amitié, qui n'a pas su le deviner ? Ou ne l'a-t-elle que trop
                deviné pour vouloir paraître s'en apercevoir ? Je puis conjecturer, je ne saurai
                jamais ce qui s'est passé dans une âme qui ne s'ouvre plus à la mienne. Bien
                affectueuse, oui ; mais plus de confiance, plus d'envie de me raconter ses pensées,
                comme si elles avaient dû me blesser. Des témoignages d'une affection toute
-               extérieure ne m'ont fait aucun bien. J'aurais eu besoin de quelque élan du cœur. Que
+               extérieure ne m'ont fait aucun bien. J'aurais eu besoin de quelque élan du cœur.</p>
+            <p>Que
                je suis insensé, <persName>Bredin</persName>, de reporter sans cesse ma pensée sur les petites
                circonstances qui ont précédé ce départ ! Pourquoi chercher ainsi à me tourmenter
-               davantage ? Bon ami, j'étais donc destiné à me rendre malheureux toute ma vie par les
+               davantage ? Bon ami, j'étais donc<pb n="19" facs="#ACAS_CRHST_AMP_24_340_0019_v.jpg"/> destiné à me rendre malheureux toute ma vie par les
                remèdes de mon imagination et en me formant des affections qui ne pouvaient faire
-               aucun bien, mais facilement beaucoup de mal. Du <date when="1811-09-12">12 septembre</date> - Après t'avoir écrit
+               aucun bien, mais facilement beaucoup de mal.</p>
+            <p>Du <date when="1811-09-12">12 <choice><abbr>7bre</abbr> <expan>septembre</expan></choice></date><lb/>
+                 Après t'avoir écrit
                tout cela hier matin, je me suis promené une partie de la journée. En rentrant, j'ai
                trouvé une lettre de <persName>
             <choice>
@@ -208,9 +214,10 @@
                de ces tableaux que je crois préférable, avec peu de changements, à celui que je t'ai
                envoyé. Les phénomènes relatifs à l'entendement y sont exactement les mêmes. Quatre
                éléments, à savoir : la sensation, l'autopsie, la perception de ressemblance, celle
-               de dépendance nécessaire ou intuitive. Chacun de ces quatre éléments donne naissance
+               de dépendance nécessaire ou intuitive.</p>
+            <p>Chacun de ces quatre éléments donne naissance
                à trois modes de complexion : le premier qui a lieu par la naissance même de
-               l'élément et sans autre cause ; le deuxième qui a lieu en même temps, mais qui est
+               l'élément<pb n="20" facs="#ACAS_CRHST_AMP_24_340_0020_r.jpg"/> et sans autre cause ; le deuxième qui a lieu en même temps, mais qui est
                plus ou moins influencé par ce qui a précédé dans l'esprit ; le troisième qui n'a
                lieu qu'entre les traces des éléments après qu'ils ont cessé d'être actuels. J'avais
                d'abord voulu donner des noms particuliers à chacun de ces modes de complexion. Notre
@@ -222,29 +229,32 @@
             <item n="2"> de réunir de la même manière le premier et le deuxième en
                laissant le troisième séparé sous un nom propre, c'est ce qui produit le tableau que
                je t'envoie aujourd'hui.</item>
-          </list> Ainsi, par exemple, jugement collectif signifie ici
+          </list></p>
+            <p>Ainsi, par exemple, jugement collectif signifie ici
                précisément ce que j'ai nommé, dans le tableau que t'a porté <persName>Mme Maléchard</persName>,
                coordination systématique et qu'autrefois je nommais d'un seul mot : classification.
                De même : Déduction immédiate = jugement intuitif ; Déduction progressive = déduction
                directe ; Assentiment = déduction inverse Il y a plus de différence dans les
-               phénomènes relatifs à ce qu'on nomme volonté. Ici, c'est l'incitation et l'action
+               phénomènes<pb n="21" facs="#ACAS_CRHST_AMP_24_340_0021_v.jpg"/> relatifs à ce qu'on nomme volonté. Ici, c'est l'incitation et l'action
                intellectuelle que tu trouveras subdivisées en deux sortes, au lieu de la volition et
                de la décision. Cette distinction me semble bien mieux marquée. Rougir de honte est
                une incitation primitive ou pathognomique ; porter la main à son épée de colère est
-               une incitation itérative, mot bien mal choisi, etc. Du <date when="1811-09-13">13 au matin.</date> — J'ai écrit,
+               une incitation itérative, mot bien mal choisi, etc.</p>
+            <p>Du <date when="1811-09-13">13 au matin.</date><lb/> J'ai écrit,
                comme tu vois, hier assez de psychologie. C'est autant de temps passé sans tristes
                réflexions. Dis-moi, dans ta prochaine lettre, quels sont les phénomènes de mes
                tableaux que tu ne comprends pas. Je ne peux pas t'écrire plus au long ce matin ;
                d'ailleurs, je suis trop de mauvaise humeur pour ne pas t'ennuyer. Mais tu sais bien
-               tout ce que mon cœur te dit. Adieu, bon ami. <persName>A. Ampère</persName>
+               tout ce que mon cœur te dit. Adieu, bon ami.
         </p>
-            <closer>professeur à l'<orgName>École vétérinaire</orgName>, près des portes de <placeName>Vaise</placeName>, à <placeName>Lyon</placeName> (<placeName>Rhône</placeName>)
+            <closer>A monsieur <persName>Bredin fils</persName> professeur à l'<orgName>École vétérinaire</orgName>, près des portes de <placeName>Vaise</placeName>, à <placeName>Lyon</placeName> (<placeName>Rhône</placeName>)
             </closer>
          </div>
       </body>
       <back>
          <div>
-            <note xml:id="corresp1">(1) Six pages in-4°, adresse à la fin. (2) Départ de la
+            <note xml:id="corresp1">(1) Six pages in-4°, adresse à la fin.</note>
+            <note xml:id="corresp2">(2) Départ de la
                Constante amitié pour son mariage. Voir la Lettre 0390. </note>
          </div>
       </back>

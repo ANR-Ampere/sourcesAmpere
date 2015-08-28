@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -125,7 +126,7 @@
         <correspAction type="received">
           <persName type="adressee">Roux-Bordier, Jacques</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -151,7 +152,8 @@
         </opener>
             <p>Je sais, mon cher ami, que vous craignez de m'écrire, de peur que ma réponse ne soit
                accompagnée d'un tableau de métaphysique. Ah, soyez sans crainte à cet égard ; je
-               n'ai plus le temps d'y penser et une de vos lettres me ferait bien plaisir. Depuis
+               n'ai plus le temps d'y penser et une de vos lettres me ferait bien plaisir.</p>
+            <p>Depuis
                que j'ai quitté <placeName>Nogent</placeName>, voilà bientôt six mois, je n'ai pas songé deux heures à la
                métaphysique. Mes conversations avec M. <persName>Davy</persName> m'avaient donné une impulsion des plus
                grandes pour la chimie. Je me suis occupé environ deux mois d'un travail dont le
@@ -160,7 +162,8 @@
                combinent, en rapportant leurs diverses combinaisons à des principes qui seraient
                l'expression d'une loi de la nature, dont la découverte sera peut-être, après ce que
                j'ai fait l'été passé en métaphysique, ce que j'aurai conçu de plus important dans
-               toute ma vie. Je dis <cit>
+               toute ma vie.</p>
+            <p>Je dis <cit>
             <quote>après ce que j'ai fait en métaphysique</quote>
           </cit>, parce que cette
                dernière science est la seule vraiment importante : car la théorie des combinaisons
@@ -171,22 +174,25 @@
                faire des mémoires de mathématiques qui avancent peu, tant parce que je pense encore
                malgré moi à la chimie que parce qu'il m'est survenu toutes sortes d'ennuis et de
                chagrins qui ne me permettent presque plus de captiver mon esprit. En attendant on a
-               remis la nomination du successeur de l'<persName>abbé Bossut</persName> <ref>(2)</ref> à six mois, ce qui me donne le
-               temps d'acquérir des titres. Vous savez toutes les belles choses qu'on a faites sur
+               remis la nomination du successeur de l'<persName>abbé Bossut</persName> <ref target="#corresp2">(2)</ref> à six mois, ce qui me donne le
+               temps d'acquérir des titres.</p>
+            <p>Vous savez toutes les belles choses qu'on a faites sur
                l'iode qui s'est trouvé un quatrième oxygène comme je l'avais conjecturé le premier
-               <ref>(3)</ref>. Cette substance a toutes les propriétés du chlore, ci-devant acide muriatique
+               <ref target="#corresp3">(3)</ref>. Cette substance a toutes les propriétés du chlore, ci-devant acide muriatique
                oxygéné, et n'en diffère que parce qu'elle est solide et semblable à de la mine de
                plomb à la température ordinaire ; elle passe à l'état d'un gaz d'une superbe couleur
                violette à une chaleur inférieure à celle de l'eau bouillante. Tout ce qu'on a fait
                sur cette substance semble enfin avoir convaincu nos chimistes que le chlore est,
                comme elle, un corps simple, analogue par ses propriétés à l'oxygène, mais qui n'en
-               contient pas plus que les corps combustibles simples ne contiennent de l'hydrogène.
-               Vous savez que les adversaires de Lavoisier avaient prétendu cette dernière chose :
+               contient pas plus que les corps combustibles simples ne contiennent de l'hydrogène.</p>
+            <p>
+               Vous savez que les adversaires de <persName>Lavoisier</persName> avaient prétendu cette dernière chose :
                ils ne se trompaient certes pas plus que ceux qui voudraient encore admettre de
                l'hydrogène dans le chlore, l'iode et le fluor ou fluorine. Je ne sais pas de quoi je
                vais vous parler ; mais heureux qui peut s'occuper de tout cela, au lieu de penser
                aux malheurs de l'<placeName>Europe</placeName> dont je suis atterré ! Avais-je tort de redouter que la
-               <placeName>France</placeName> fût envahie ? Comme elle tend les mains à ses futurs oppresseurs ! Mon ami,
+               <placeName>France</placeName> fût envahie ? Comme elle tend les mains à ses futurs oppresseurs !</p>
+            <p>Mon ami,
                donnez-moi de vos nouvelles, et comptez de ma part sur une amitié à toute
                épreuve.</p>
          </div>
@@ -194,9 +200,11 @@
       <back>
          <div>
             <note xml:id="corresp1">(1) D'après Mme <persName>Cheuvreux</persName>, p. 84. Lettre transmise par <persName>Bredin</persName>, <date when="1814-04-03">3
-               avril</date>. (2) Par suite de l'invasion et un peu pour attendre <persName>Ampère</persName>, l'<persName>abbé Bossut</persName>,
-               mort le <date when="1814-01-14">14 janvier</date>, ne fut remplacé que le <date when="1814-11-28">28 novembre</date>. (3) L'iode a été annoncé à
-               l'<orgName>Institut</orgName> le 29 novembre 1813, étudié dans un mémoire de Gay-Lussac de 1814. <persName>Davy</persName>,
+               avril</date>.</note>
+            <note xml:id="corresp2">(2) Par suite de l'invasion et un peu pour attendre <persName>Ampère</persName>, l'<persName>abbé Bossut</persName>,
+               mort le <date when="1814-01-14">14 janvier</date>, ne fut remplacé que le <date when="1814-11-28">28 novembre</date>.</note>
+            <note xml:id="corresp3">(3) L'iode a été annoncé à
+               l'<orgName>Institut</orgName> le <date when="1813-11-29">29 novembre 1813</date>, étudié dans un mémoire de <persName>Gay-Lussac</persName> de <date when-iso="1814-00-00">1814</date>. <persName>Davy</persName>,
                passant à <placeName>Paris</placeName> en <date notBefore-iso="1813-10" notAfter-iso="1813-11">octobre ou novembre 1813</date>, reçut d'<persName>Ampère</persName> un peu d'iode, sur lequel
                il obtint les mêmes résultats que <persName>Gay-Lussac</persName>. </note>
          </div>

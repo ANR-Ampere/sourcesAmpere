@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -136,7 +137,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_C127">Carron, François (frère de<persName>Julie</persName>)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,7 +162,7 @@
           <date when="1800-08-14">14 août 1800</date>
         </opener>
             <p>Enfin, mon frère, mon bon ami, <persName ref="#pers_C129">Julie</persName> m'a donné la seule chose qui manquât encore à
-               mon bonheur <ref>(2)</ref>. Ton petit neveu se porte bien, et <persName ref="#pers_C129">Julie</persName> va aussi bien que cela se
+               mon bonheur <ref target="#corresp2">(2)</ref>. Ton petit neveu se porte bien, et <persName ref="#pers_C129">Julie</persName> va aussi bien que cela se
                peut dans les circonstances où elle se trouve. Il a déjà tété sa tant bonne Maman qui
                a bien soin de lui. Si tu savais comme j'ai eu du plaisir quand je me suis approché
                du lit dans l'endroit où je l'entendais crier et que je l'ai vu couché sur le drap !
@@ -173,10 +174,14 @@
                contraire presque pas eu. Adieu, mon bon ami, mon frère ; on ne me laisse pas le
                temps de m'entretenir avec toi. Il faut te quitter à mon grand regret. Toute notre
                famille se porte bien, excepté qu'<persName ref="#pers_C125">élise</persName> a un mal de dents qui était hier assez
-               violent. Ta femme est toujours à <placeName>Collonges</placeName>. Adieu pour la dernière fois ; je
-               t'embrasse de toute mon âme. Ton frère <persName ref="#pers_A366">A. AMPÈRE</persName> Tu me feras bien plaisir de faire
+               violent. Ta femme est toujours à <placeName>Collonges</placeName>.</p>
+            <p>Adieu pour la dernière fois ; je
+               t'embrasse de toute mon âme. Ton frère<lb/>
+               <persName ref="#pers_A366">A. AMPÈRE</persName></p>
+            <p>Tu me feras bien plaisir de faire
                part de cette nouvelle à mon oncle <persName ref="#pers_S595">Carron</persName> et à sa famille. Surtout si tu y joins de
-               notre part l'assurance de nos respectueux sentiments. [P.S. de<persName ref="#pers_C129">Julie</persName>] Mon bon ami,
+               notre part l'assurance de nos respectueux sentiments.</p>
+            <p>[P.S. de<persName ref="#pers_C129">Julie</persName>] Mon bon ami,
                j'ai retardé la lettre de mon mari pour que ta <persName ref="#pers_C129">Julie</persName> te dit elle-même qu'elle t'a
                fait un neveu. Je ne me trouve pas mal ; mais la chaleur me rend bien faible. C'est
                aujourd'hui le sixième jour et l'on ne trouve pas que je puisse t'écrire plus au
@@ -188,7 +193,8 @@
       </body>
       <back>
          <div>
-            <note xml:id="corresp1">(1) Coll. <persName>Bodin</persName>, 17 x 22. (2) La naissance de <persName ref="#pers_A10">Jean-Jacques
+            <note xml:id="corresp1">(1) Coll. <persName>Bodin</persName>, 17 x 22.</note>
+            <note xml:id="corresp2">(2) La naissance de <persName ref="#pers_A10">Jean-Jacques
                Ampère</persName> est du <date when="1800-08-12">12 août 1800</date>. </note>
          </div>
       </back>

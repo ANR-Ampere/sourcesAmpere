@@ -1,4 +1,5 @@
-<?xml-model href="../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -135,16 +136,15 @@
     <text type="correspondance" decls="#ampere_corr_L1835-12-31-a">
         <body>
             <div>
-                <opener>
-          <pb n="113" facs="#ACAS_CRHST_AMP_21_311_0113_r.jpg"/>Paris le <date when="1835-12-31">31 <choice>
-              <abbr>Xbre</abbr> <expan>décembre</expan>
-            </choice> 1835</date>
+                <opener><pb n="113" facs="#ACAS_CRHST_AMP_21_311_0113_r.jpg"/><placeName>Paris</placeName> le <date when="1835-12-31">31 <choice><abbr>Xbre</abbr> <expan>décembre</expan></choice> 1835</date>
         </opener>
-                <p>Monsieur, J'étais chargé dès mardi dernier d'avoir l'honneur de vous voir pour
+                <opener>Monsieur,</opener>
+                <p> J'étais chargé dès mardi dernier d'avoir l'honneur de vous voir pour
                     transmettre - de la part de M. <persName>de Saint-Priest</persName>, directeur de l'<title>Encyclopédie du
                     XIXe siècle</title> <ref type="ouvrages_mentionnes" target="#ampere_ref_P419.xml">*</ref> - la nomenclature
                     ci-jointe qui doit entrer dans la première livraison, avec prière instante de
-                    choisir les mots que vous jugeriez à propos de traiter. Une chute assez grave
+                    choisir les mots que vous jugeriez à propos de traiter.</p>
+                <p>Une chute assez grave
                     que j'ai faite est la seule cause du retard que j'ai mis à me présenter chez
                     vous. Je suis chargé aussi de vous annoncer que M.M. <persName>Brongniart</persName> et <persName>Mirbel</persName> ont
                     promis leur concours à l'entreprise. M. <persName>de Saint-Priest</persName> espère que vous voudrez
@@ -154,8 +154,8 @@
                     obéissant serviteur, <persName>Chauvin de Bouhelier</persName>, homme de lettres, secrétaire du
                     comité de direction de l'<title>Encyclopédie</title>.</p>
                 <p>P.S. J'aurai l'honneur de revenir chez
-                    Monsieur <persName>Ampère</persName> d'ici à deux ou trois jours. [<persName>Ampère</persName> a ajouté sur cette lettre :
-                    adhésion]</p>
+                    Monsieur <persName>Ampère</persName> d'ici à deux ou trois jours. 
+                    <add hand="AMA">adhésion</add></p>
             </div>
         </body>
     </text>

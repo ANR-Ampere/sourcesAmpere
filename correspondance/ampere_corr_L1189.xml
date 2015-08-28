@@ -1,0 +1,795 @@
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE ENTITY_MathML SYSTEM "../../Documents/Sch%C3%A9mas/ENTITY_MathML.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 1179</title>
+                <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+                    <forename>André-Marie</forename>
+                    <surname>Ampère</surname>
+                </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+                    </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                        sciences</affiliation>
+                    </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Mathilde Dutertre, </name>
+                    <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+                </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+                    <name>Centre de calcul de l'IN2P3</name>
+                    <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+                </distributor>
+                <availability>
+                    <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+                </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="original_manuscrit">
+                    <msIdentifier xml:id="ampere_corr_L">
+                        <country>USA</country>
+                        <settlement>Ithaca (NY)</settlement>
+                        <institution>Cornell University Library</institution>
+                        <repository>Ampère collection</repository>
+                        <altIdentifier>
+                            <idno type="old">L1189</idno>
+                            <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <physDesc>
+                        <handDesc>
+                            <handNote corresp="#AMA">
+                                <name type="person" key="Ampère, André-Marie (1775-1836)">
+                                    <forename>André-Marie</forename>
+                                    <surname>Ampère</surname>
+                                </name>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName type="sender" ref="#pers_A366">
+                        <surname>Ampère</surname>
+                        <forename>André-Marie</forename>
+                    </persName>
+                    <date when-iso="1795-12-17">17 décembre 1795</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName type="adressee" ref="#pers_C162">
+                        <surname>Couppier</surname>
+                        <forename>Jean-Stanislas, dit Couppier Viry</forename>
+                    </persName>
+                </correspAction>
+            </correspDesc>
+            <creation>
+                <date when="2015-01">janvier 2015</date>
+                <name>Philippe Pons</name>
+            </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <name>Philippe Pons</name>
+                <date when="2015-04">avril 2015</date>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="images_L" corresp="#ampere_corr_L">
+        <graphic url="Cornell_Ampere_L1189_01.jpg"/>
+        <graphic url="Cornell_Ampere_L1189_02.jpg"/>
+        <graphic url="Cornell_Ampere_L1189_03.jpg"/>
+        <graphic url="Cornell_Ampere_L1189_04.jpg"/>
+        <graphic url="Cornell_Ampere_L1189_05.jpg"/>
+        <graphic url="Cornell_Ampere_L1189_06.jpg"/>
+        <graphic url="Cornell_Ampere_L1189_07.jpg"/>
+        <graphic url="Cornell_Ampere_L1189_08.jpg"/>
+        <graphic url="Cornell_Ampere_L1189_09.jpg"/>
+        <graphic url="Cornell_Ampere_L1189_10.jpg"/>
+        <graphic url="Cornell_Ampere_L1189_11.jpg"/>
+        <graphic url="Cornell_Ampere_L1189_12.jpg"/>
+        <graphic url="Cornell_Ampere_L1189_13.jpg"/>
+        <graphic url="Cornell_Ampere_L1189_14.jpg"/>
+        <graphic url="Cornell_Ampere_L1189_15.jpg"/>
+        <graphic url="Cornell_Ampere_L1189_16.jpg"/>
+    </facsimile>
+    <text decls="#ampere_corr_L" type="correspondance">
+        <body>
+            <div>
+                <opener>
+                    <pb n="1" facs="#Cornell_Ampere_L1189_01.jpg"/>Ce jeudi  <date when="1795-12-17">17 <choice><abbr>xbre</abbr> <expan>décembre</expan></choice> <supplied>1795</supplied></date>
+                </opener>
+                <p>Je viens de recevoir, Monsieur, votre lettre du <date when="1795-12-10">10 <choice><abbr>xbre</abbr> <expan>décembre</expan></choice></date><lb/>
+                elle m'a fait beaucoup de plaisir en me montrant<lb/>
+                que vous pensez toujours à moi et que vous ne<lb/>
+                    vous ennuyez pas de notre correspondance qui je<lb/>
+                    vous assure me fait encore plus de plaisir qu'à<lb/>
+                    vous, mais elle n'a pas laissé de me faire de la<lb/>
+                    peine en me montrant que vous n'avez pas reçu<lb/>
+                    par la poste du dimanche <date when="1795-12-06">6 <choice><abbr>xbre</abbr> <expan>décembre</expan></choice></date> la lettre que j'y avais<lb/>
+                    envoyée pour ce jour là, et que vous avez à ce<lb/>
+                    que j'espère reçue le samedi suivant, j'avais fait<lb/>
+                    une autre lettre pour mettre à la poste dimanche<lb/>
+                    passé, mais n'ayant pu partir ce jour-là je l'ai<lb/>
+                    augmentée et renvoyée mardi passé, j'espère que<lb/>
+                    vous la recevrez samedi, et pour compensez tous<lb/>
+                    mes retards et vous montrer que notre correspondance<lb/>
+                    me devient tous les jours plus agréable, j'enverrais<lb/>
+                    celle-ci dimanche et j'espère que vous la recevrez<lb/>
+                    d'hier en huit, au reste si vous voyez manquer<lb/>
+                    quelquefois des lettres que vous attentiez je vous prie<lb/>
+                    de croire qu'il n'y aura jamais de ma faute, mais<lb/>
+                    je vois arriver avec beaucoup de peine l'<choice><sic>hyver</sic> <corr>hiver</corr></choice><lb/>
+                    qui suspend les communications de <placeName>Poleymieux</placeName> à <placeName>Lyon</placeName>.<lb/>
+                    Je ne sais personne qui y aille régulièrement dans cette<lb/>
+                    saison, mais je ferai toujours tout mon possible pour<lb/>
+                    ne perdre aucune occasion de toutes celles que le <choice><sic>hazard</sic> <corr>hasard</corr></choice><lb/>
+                    me présentera, et d'envoyer plutôt deux lettres à trois<lb/>
+                    ou quatre jours d'intervalle quand j'aurai été forcé<lb/>
+                    de suspendre plus de huit jours notre correspondance.</p>
+                <p>Vous me parlez d'abord des Ânes, et j'ai vérifié ce<lb/>
+                    que vous m'en dites sur mon globe, ce qui m'a<lb/>
+                    fait voir la justesse de votre détermination, quand<lb/>
+                    à ce que vous me dites de l'étable M. de Lalande<lb/>
+                    observe en effet que ce n'est qu'un tas de petites étoiles et non pas une vraie nébuleuse, je crois<lb/>
+                    vous avoir écrit tout ce qu'il dit des nébuleuses<pb n="2" facs="#Cornell_Ampere_L1189_02.jpg"/>
+                    proprement <supplied>dites</supplied>, dont la plus brillante est celle<lb/>
+                    d'Orion, je ne crois pas qu'elles puissent être visibles<lb/>
+                    à mes mauvais yeux, mais puisque je m'aperçois que<lb/>
+                    les vôtres malgré la plainte, apparemment très<lb/>
+                    mal fondée que vous en faites, <choice><sic>est</sic> <corr>sont</corr></choice> beaucoup plus<lb/>
+                    <choice><sic>propre</sic> <corr>propres</corr></choice> à distinguer les étoiles, je vous invite<lb/>
+                    à les chercher tant à la vue simple qu'à la<lb/>
+                    lunette, car j'ai toujours eu grande envie de voir<lb/>
+                    des nébuleuses, et je me croirai <choice><sic>dédomager</sic> <corr>dédommagé</corr></choice> de<lb/>
+                    mon peu de succès si vous y parvenez, l'amitié<lb/>
+                    qui nous unit me rendant communs tous vos<lb/>
+                    succès, et toutes vos disgrâces.</p>
+                <p>Je vous ai parlé des <choice><sic>changemens</sic> <corr>changements</corr></choice> des étoiles<lb/>
+                    à l'occasion de leur grande que vous me<lb/>
+                    demandiez et sur laquelle je ne pouvais<lb/>
+                    pas à cause de ces <choice><sic>changemens</sic> <corr>changements</corr></choice> vous donner<lb/>
+                    des détails exacts pour cette année-ci, à moins<lb/>
+                    que je ne les estimasse moi-même dans le ciel,<lb/>
+                    ce que je ne pouvais pas toujours faire à<lb/>
+                    cause des nuages. Mon auteur compte un nombre<lb/>
+                    immense d'étoiles changeantes, voici les principales :<lb/>
+                    l'étoile &omega; de la baleine est comme je vous l'ai déjà<lb/>
+                    dit sur la ligne d'Aldébaran prolongée de<lb/>
+                    12° ou 13° par delà la mâchoire &alpha; de la baleine,<lb/>
+                    et aussi sur la ligne du pied &gamma; d'Andromède par<lb/>
+                    la corne orientale et boréale &alpha; du bélier, la<lb/>
+                    période de ses <choice><sic>changemens</sic> <corr>changements</corr></choice> <choice><sic>et</sic> <corr>est</corr></choice> de 334 jours, mais elle<lb/>
+                    a des inégalités et <choice><sic>a</sic> <corr>est</corr></choice> resté quatre ans sans paraître<lb/>
+                    d'<date when-iso="1672-10-00">octobre 1672</date> a <date when-iso="1676-12-00"><choice><abbr>xbre</abbr> <expan>décembre</expan></choice> 1676</date>, elle devait être dans son<lb/>
+                    plus grand éclat au commencement de <date when-iso="1795-11-00">novembre 1795</date><lb/>
+                    après avoir fait 101 révolutions depuis celui d'<date when-iso="1703-08-00"><choice><sic>aoust</sic> <corr>août</corr></choice><lb/>
+                    1703</date>, qu'elle y était suivant M. <persName>Cassini</persName> mais<lb/>
+                    dans un si long cours d'années il y a peut-être eu<lb/>
+                    de <choice><sic>grand</sic> <corr>grands</corr></choice> <choice><sic>changement</sic> <corr>changements</corr></choice>, car je vis l'autre jour cette<lb/>
+                    étoile qui me parut assez petite.</p>
+                <p><pb n="3" facs="#Cornell_Ampere_L1189_03.jpg"/>
+                    L'étoile &chi; du <choice><sic>cigne</sic> <corr>cygne</corr></choice> dont la période est suivant la<lb/>
+                    lande de 405 <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mn>3</mn><mn>10</mn></mfrac></mrow></math>
+                    </formula> jours, elle a été dans son plus grand<lb/>
+                    éclat le 15 juillet, et y sera encore le <date when="1796-08-23">23 <choice><sic>aoust</sic> <corr>août</corr></choice> 1796</date>,<lb/>
+                    elle est sur la ligne qui va de la <choice><sic>lire</sic> <corr>lyre</corr></choice> à &beta; de Cephée,<lb/>
+                    qui est la plus boréale des deux gardes de Cephée,<lb/>
+                   &alpha; et &beta; qui se dirigent au pôle. &beta; est d'ailleurs sur<lb/>
+                    la ligne de &zeta; le Cheval du milieu des trois du Grand<lb/>
+                    Chariot par &gamma; garde austral de la Petite Ourse.
+                </p>
+                <p>L'étoile de la même constellation qui parut pour<lb/>
+                    la première fois en <date when-iso="1600-00-00">1600</date>, était <choice><sic>extrement</sic> <corr>extrêmement</corr></choice> près<lb/>
+                    de &gamma; du <choice><sic>cigne</sic> <corr>Cygne</corr></choice> qui est le milieu de la croix, elle<lb/>
+                    resta 19 ans sans changer de grandeur, elle<lb/>
+                    disparut en <date when-iso="1622-00-00">1622</date>, reparut en <date when-iso="1655--00-00">1655</date> augmenta<lb/>
+                    pendant 5 ans jusqu'à la 3<hi rend="sup">me</hi> grandeur, <add>diminua beaucoup </add>et reparut<lb/>
+                    encore en <date when-iso="1665-00-00">1665</date>, elle augmenta mais sans atteindre<lb/>
+                    la même grandeur, et <supplied>en </supplied><date when-iso="1677-00-00">1677</date>, <date when-iso="1682-00-00">1682</date>, et <date when-iso="1715-00-00">1715</date>, elle ne<lb/>
+                    fut plus que de la sixième.</p>
+                <p>L'autre changeante du <choice><sic>cigne</sic> <corr>cygne</corr></choice> découverte en <date when-iso="1670-00-00">1670</date> par<lb/>
+                   le <persName>p<ex>ère</ex> Anthelme</persName>, chartreux, après avoir paru et<lb/>
+                    disparut fort irrégulièrement, s'est totalement<lb/>
+                    perdue depuis <date when-iso="1672-00-00">1672</date>, elle n'a vécu ainsi que 2 ans,<lb/>
+                    elle était de 3<hi rend="sup">me</hi> grandeur à sa naissance en <date when-iso="1670-00-00">1670</date> et<lb/>
+                    de 6<hi rend="sup">me</hi> seulement en <date when-iso="1672">1672</date>.</p>
+                <p>M. <persName>de Lalande</persName> parle ensuite d'une vingtaine<lb/>
+                    d'étoiles qui ont paru et disparu, mais qui ne<lb/>
+                    paraissent plus et n'ont rien d’intéressant.</p>
+                <p>Il dit ensuite que l'extrémité &omega; de la chaîne d'Andromède<lb/>
+                    qu'on voit sur le même méridien qu'Alfarac &beta; de<lb/>
+                    <choice><sic>pegaze</sic> <corr>Pégase</corr></choice>, a peu près aussi loin au nord de cette étoile<lb/>
+                    que Markab a de <choice><sic>pegaze</sic> <corr>Pégase</corr></choice> est au midi, a été marqué<lb/>
+                    de 4<hi rend="sup">me</hi> grandeur par <persName>Ticho</persName>, mais qu'elle était devenue<lb/>
+                    si petite du <choice><sic>tems</sic> <corr>temps</corr></choice> de <persName>Cassini</persName> qu'on ne pouvait plus<lb/>
+                    l'apercevoir, cela m'a fait ressouvenir de l'avoir vue<lb/>
+                    il y a trois ans, et elle m'a semblé de 3<hi rend="sup">me</hi> grandeur.<lb/>
+                    Mon globe qui est de <date when-iso="1780-00-00">1780</date> la marque de même<lb/>
+                    et je vous prie de m'en écrire votre avis si vous<lb/>
+                    pouvez la voir.</p>
+                <p><pb n="4" facs="#Cornell_Ampere_L1189_04.jpg"/>
+                    Il y a plusieurs étoiles du <choice><abbr>&sagittaire;</abbr> <expan>Sagittaire</expan></choice> indiquées comme<lb/>
+                    variables dans M. <persName>de Lalande</persName>, mais comme<lb/>
+                    elles manquent sur mon globe elles ont apparemment<lb/>
+                    entièrement disparu.</p>
+                <p>La queue &theta; du Serpent qui est sur la ligne du Dauphin<lb/>
+                    prolongée par l'aigle, <subst><del type="illisible"/> <add>a 14° de cette étoile</add></subst><lb/>
+                    parut de 3<hi rend="sup">me</hi> grandeur à <persName>Ticho</persName> et de 6<hi rend="sup">me</hi><lb/>
+                    seulement a M. <persName>Cassini</persName>, elle me semble maintenant<lb/>
+                    de la 4<hi rend="sup">me</hi> grandeur.</p>
+                <p>Plusieurs étoiles du Serpentaire ont varié et même<lb/>
+                    disparu entièrement.</p><p>
+                    L'étoile &psi; &lion; qui est à six degrés de Regulus sur<lb/>
+                    la ligne qui va à l'âne austral avait entièrement<lb/>
+                    disparu, elle reparu assez grosse en <date when-iso="1667-00-00">1667</date>, et redevint<lb/>
+                    très petite en <date when-iso="1691-00-00">1691</date>, l'étoile &xi; &lion;
+                 qui est sur la ligne<lb/>
+                de Regulus à Procion, a 100° de Regulus, et l'étoile &rho;<lb/>
+                du Serpentaire, avait totalement disparu, et<lb/>
+                    la dernière était regardée par M. <persName>de Lalande</persName><lb/>
+                    comme perdue à jamais, mais mon globe les<lb/>
+                    <choice><sic>ressucite</sic> <corr>ressuscite</corr></choice> et mes parque de 4<hi rend="sup">me</hi> ou 3<hi rend="sup">me</hi> grandeur je<lb/>
+                    vous prie encore de m'en dire votre avis quand<lb/>
+                    vous pourrez les voir, car je crois que vous savez<lb/>
+                    mieux estimer les grandeurs que moi.</p>
+                <p>La tête de Méduse, &beta; de Persée varie de la seconde<lb/>
+                    grandeur à la quatrième.</p>
+                <p>L'oreille &gamma; du Grand Chien a 5° de l'Orient de Sirius<lb/>
+                    dur la ligne qui va au cœur &alpha; de l'Hydre, était<lb/>
+                    de 3me grandeur du <choice><sic>tems</sic> <corr>temps</corr></choice> de <persName>Ticho</persName>, elle a disparu<lb/>
+                    en <date when-iso="1670">1670</date>, elle a reparu en <date when-iso="1692">1692</date> et <date when-iso="1693">1693</date>, de 4<hi rend="sup">me</hi> grandeur.<lb/>
+                    Il est né de plusieurs étoiles nouvelles dans le Grand Chien<lb/>
+                    une belle étoile a paru dans l'Hydre avec des variations<lb/>
+                    très singulières depuis <date when-iso="1704">1704</date> jusqu'à <date when-iso="1712-00-00">1712</date>, qu'elle a disparu.<lb/>
+                    Une étoile dans la cuisse postérieure du Lièvre<lb/>
+                    parut à <persName>Ticho</persName> de 3<hi rend="sup">me</hi> grandeur, elle a disparu<lb/>
+                    entièrement depuis, on eu beau la chercher on ne<lb/>
+                    la revit qu'en <date when-iso="1699">1699</date> de 6<hi rend="sup">me</hi> grandeur.</p>
+                <p><pb n="5" facs="#Cornell_Ampere_L1189_05.jpg"/>
+                    M. <persName>de Lalande</persName> parle encore de plusieurs étoiles<lb/>
+                    changeantes, et dit qu'un M. <persName>Montanari</persName> qui<lb/>
+                    s'en était occupé en avait reconnu plus de cent,<lb/>il soupçonne qu'il y en a bien d'autres, mais que<lb/>
+                    cette partie de l'astronomie n'a point été assez cultivée<lb/>
+                    pour qu'on put s'en assurer, il parle ensuite des<lb/>
+                    raisons qu'on a données de ces <choice><sic>changemens</sic> <corr>changements</corr></choice> et la<lb/>
+                    seule que je trouve passable est celle de M. <persName>de<lb/>
+                    Maupertuis</persName> qui regardait les étoiles changeantes<lb/>
+                    comme <choice><sic>extrement</sic> <corr>extrêmement</corr></choice> aplaties par la force<lb/>
+                    centrifuge, et que l'attraction des planètes qui<lb/>
+                    tournent probablement autour d'elles changeait<lb/>
+                    la position de leur équateur et nous présentait<lb/>
+                    tantôt la tranche du sphéroïde, et tantôt sa grande<lb/>
+                    surface, vous savez qu'en effet le soleil comme<lb/>
+                    toutes les planètes ont un mouvement de rotation<lb/>
+                    plus ou moins rapide, qui donne à ces corps la<lb/>
+                    forme d'un sphéroïde aplati par les pôles, et que<lb/>
+                    l'attraction des planètes change la position des<lb/>
+                    équateurs, par ex<ex>emples</ex> que celui de la terre fait le<lb/>
+                    tour du ciel en 26600 ans a peu près, et que<lb/>
+                    ce mouvement est d'autant plus rapide que<lb/>
+                    le sphéroïde est plus aplati, et comme la<lb/>
+                    terre l'est très peu, et qu'il faut dans cette<lb/>
+                    explication que les étoiles changeantes le soient<lb/>
+                    beaucoup, il n'est pas impossible que leurs périodes<lb/>
+                    ne soient que de 334 et 405 jours.</p>
+                <p>Au reste cette explication ne peut s'<choice><sic>apliquer</sic> <corr>appliquer</corr></choice><lb/>
+                    qu'<choice><sic>au</sic> <corr>aux</corr></choice> variations périodiques, et non pas à l'<choice><sic>aparition</sic> <corr>corr>apparition</corr></choice><lb/>
+                    subite d'une étoile qui disparaît ensuite à jamais<lb/>
+                    après avoir surpassé Sirius et Jupiter pendant<lb/>
+                    quelques mois, <choice><sic>commes</sic> <corr>comme</corr></choice> celles de <date when-iso="389-00-00">389</date>, du 9me siècle,<lb/>
+                    de <date when-iso="945-00-00">945</date>, de <date when-iso="1572-00-00">1572</date>, et de <date when-iso="1604-00-00">1604</date>, dont je vous ai déjà parlé.</p>
+                <p>
+                    <persName>Newton</persName> supposait qu'une comète qui tournait autour<lb/>
+                    de ces étoiles, pouvait y être tombée, et produire<pb n="6" facs="#Cornell_Ampere_L1189_06"/>
+                    ce redoublement de lumière en donnant de l'aliment<lb/>
+                    au feu, mais cette explication ne me paraît digne<lb/>
+                    que de faire le pendant au roman de M. <persName>de Buffon</persName>.</p><p>
+                        La jolie constellation dont vous me parlez <choice><sic>et</sic> <corr>est</corr></choice> le<lb/>
+                        Grand Chien lui-même. Voici comme il est<lb/>
+                        figuré sur mon globe, j'avais<lb/>
+                        commencé à placer les étoiles et<lb/>
+                        j'y avais assez bien réussi, mais<lb/>
+                        quand j'ai voulu <figure/><lb/>
+                        dessiner le chien<lb/>
+                        et je faire cadre<lb/>
+                        avec elles, j'ai vu<lb/>
+                        aussitôt qu'il <choice><sic>falait</sic> <corr>fallait</corr></choice><lb/>
+                        que chacun fit<lb/>
+                        son métier, et<lb/>
+                      que les petits<lb/>
+                        astronomes ne<lb/>
+                        devait pas plus essayer de la <choice><sic>penture</sic> <corr>peinture</corr></choice> que<lb/>
+                        le loup de la chirurgie :<lb/>
+                       <lg> <l>qui voulut faire l'herboriste</l>
+                        <l>et ne fut jamais que boucher.</l></lg>
+                        aussi avais-je envie d'écrire dessous : c'est un<lb/>
+                        chien, pour en avertir les spectateurs, j'ai<lb/>
+                        essayé aussi de tracer la proue du navire Argo<lb/>
+                        qui est derrière la queue du chien, et j'y ai<lb/>
+                        si bien réussi que je défie qui que ce soit de<lb/>
+                        pouvoir deviner que c'est la proue d'un navire.<lb/>
+                        Quand à la colombe vous la reconnaîtrez bien<lb/>
+                        aisément avec certitude tant à son éclat très<lb/>
+                        remarquable, qu'à ce qu'elle passe au méridien<lb/>
+                        en même <choice><sic>tems</sic> <corr>temps</corr></choice> que le baudrier d'Orion.</p>
+                <p>Voici la description de quelque constellations de la<lb/>
+                    partie du ciel qui va bientôt se cacher et sur<lb/>
+                    laquelle vous m'avez demandé des renseignements<lb/>
+                    dans votre dernière lettre.</p>
+                <p>Mon globe marque sur la ligne qui passe par l'Aigle &alpha;<lb/>
+                    et la <choice><sic>lire</sic> <corr>lyre</corr></choice>, deux étoiles très près de la première<pb n="7" facs="#Cornell_Ampere_L189_07.jpg"/>
+                    l'une &gamma; de l'Aigle est du coté de la <choice><sic>lire</sic> <corr>lyre</corr></choice>, et l'autre<lb/>
+                    &beta; de l'Aigle est du coté <choice><sic>oposé</sic> <corr>opposé</corr></choice>, &delta; de l'Aigle est sur<lb/>
+                    la ligne de l'extrémité &omicron; de la chaîne d'Andromède<lb/>
+                    prolongée par l'Aigle &alpha;, 8° <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>
+                    </formula> au dessous, &epsilon; et &zeta; qui<lb/>
+                    forment la queue de l'aigle sont sur la ligne de<lb/>
+                    ce &delta; au genou &theta; d'Hercule qui est au couchant<lb/>
+                    et à 8° de la <choice><sic>lire</sic> <corr>lyre</corr></choice>, cette ligne passe d'abord sur &zeta;<lb/>
+                    et ensuite sur &epsilon; qui est deux degrés au nord &zeta;,<lb/>
+                    &alpha;, &zeta;, et &delta;, de l'aigle font un <choice><sic>lozange</sic> <corr>losange</corr></choice> très régulier<lb/>
+                    et très visible avec &theta;de l'aigle, qui est la main<lb/>
+                    d'<persName>Antinoüs</persName>, celui-ci ne faisant avec l'aigle qu'une<lb/>
+                    seule constellation, quant à &eta; de l'aigle il est sur<lb/>
+                    la ligne qui va de &delta; à &theta; à peu près au milieu de<lb/>
+                    leur distance.</p>
+                <p>En prolongeant la ligne de la <choice><sic>lire</sic> <corr>lyre</corr></choice> par l'aigle<lb/>
+                    de 20°, on rencontre &alpha; du Capricorne et 3° plus<lb/>
+                    loin &beta;, ce sont les deux cornes du &capricorne;. A égale distance<lb/>
+                    de ces cornes et de &alpha; du poisson austral (fomalhaut)<lb/>
+                    sur la ligne qui va de cette dernière à l'aigle,<lb/>
+                    on voit &gamma; et &delta;<supplied> du</supplied> &capricorne;, qui font la queue de ce signe<lb/>
+                    &gamma; est la plus occidentale.</p>
+                <p>En prolongeant la ligne des cornes par la queue on<lb/>
+                    va rencontrer Sheat ou &delta; du Verseau, aussi loin de la<lb/>
+                    queue du &capricorne; que celle-ci des cornes, en prolongeant au<lb/>
+                    midi la diagonale du <choice><sic>quarré</sic> <corr>carré</corr></choice> de <choice><sic>pegaze</sic> <corr>pégase</corr></choice> qui passe par<lb/>
+                    la tête &alpha; d'Andromède et Markab, on rencontre à<lb/>
+                    peu près à la même distance l'épaule orientale &alpha;<lb/>
+                    du verseau, sur la ligne de cet &alpha; aux cornes du &capricorne;, a<lb/>
+                    10° de cet &alpha;, on voit l'autre épaule &beta;, et en<lb/>
+                    prolongeant de 4° <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>
+                    </formula> la ligne de l'aigle par ce même<lb/>
+                    &alpha;, on a le vase &gamma; du verseau, c'est là que commence<lb/>
+                    l'eau du verseau qui est une traînée de petites<lb/>
+                    étoiles qui va se terminer à Fomalhaut, &alpha; du<lb/>
+                    poisson austral qui boit cette eau depuis deux<lb/>
+                    mille<supplied> ans</supplied>, et qui dit on n'en est pas encore las.<lb/>
+                    Je ne sais si vous pourriez voir la tête &alpha; du phénix<lb/>
+                    qui est une étoile de 2me grandeur très brillante<lb/>
+                    et qui n'a que 43° de decl. australe elle passe<pb n="8" facs="#Cornell_AMpere_L1189_08.jpg"/>
+                    au méridien avec la tête &alpha; d'Andromède, et on<lb/>
+                    la trouve sur la ligne prolongée de &delta; du &capricorne; par<lb/>
+                    Fomalhaut.</p>
+                <p>En voilà bien assez pour vous occuper quelques<lb/>
+                    nuits. Comme vous me demandez le nombre des<lb/>
+                    étoiles de chaque grandeur, je vous <choice><sic>direz</sic> <corr>dirais</corr></choice> qu'en<lb/>
+                    général je n'ai parlé dans ce qui précède que<lb/>
+                    de celles qui sont de 3<hi rend="sup">me</hi> ou 4<hi rend="sup">me</hi> grandeur, et<lb/>
+                    que j'ai tâché de n'en oublier aucune des premières ;<lb/>
+                    mais que ces déterminations sont peu sûres parce que<lb/>
+                    je fais mes descriptions sur mon globe où elles ne<lb/>
+                    sont distinguées que par le nombre de leurs rayons,<lb/>
+                    qui sont souvent confus, et que d'ailleurs il paraît<lb/>
+                    que presque toutes ces grandeurs sont variables,<lb/>
+                    car elles ne s'accordent pas trop à celles que donne<lb/>
+                    M. <persName>de Lalande</persName>.</p>
+                <p>On ne peut faire que des conjectures sur les<lb/>
+                    questions que vous me faites au sujet des noms<lb/>
+                    et des signes des planètes, mais il me semble<lb/>
+                    cependant que les dieux leur ont donné leurs<lb/>
+                    noms, puisque les planètes n'ont été distinguées des<lb/>
+                    étoiles que <choice><sic>longtems</sic> <corr>longtemps</corr></choice> après l'origine de la <choice><sic>mithologie</sic> <corr>mythologie</corr></choice>.<lb/>
+                    M. <persName>de Lalande</persName> dit même que M. <persName>Goguet</persName> a<lb/>
+                    fait une dissertation pour prouver que les planètes<lb/>
+                    avaient d'abord d'autres noms, et que ce n'est que dans<lb/>
+                    le Moyen Âge que les Grecs leur ont donné les noms<lb/>
+                    de leurs dieux. Il paraît qu'ils ont donné le<lb/>
+                    nom de Vénus à la plus belle, celui de Mars<lb/>
+                    à celle dont la lumière rouge semblait ensanglantée,<lb/>
+                    celui de Mercure à cause de sa rapidité de sa course,<lb/>
+                    et celui de Saturne à cause de la lenteur de la sienne.<lb/>
+                    M. <persName>de Lalande</persName> dit ensuite que &mercure; représente<lb/>
+                    un caducée, &venus; un miroir avec son manche, &mars;<lb/>
+                    un bouclier et son dard, &jupiter; la première lettre<lb/>
+                    du nom<add> grec</add> &zeta;&epsilon;&upsilon;&sigmaFinal; de Jupiter, et Saturne &saturne; une faux.<lb/>
+                    C'est une chose que j'ai remarquée et qui me semble<lb/>
+                    fort singulière que la ressemblance des signes &jupiter;&saturne;<lb/>
+                    de ces deux planètes aux signes 4, 5, dont nous<pb n="9" facs="#Cornell_Ampere_L1189_09.jpg"/>
+                    faisons usage pour marquer les nombres quatre<lb/>
+                    et cinq de leurs satellites. Cette ressemblance est<lb/>
+                    certainement l'effet du seul <choice><sic>hazard</sic> <corr>hasard</corr></choice> puisque ces<lb/>
+                    signes ont été inventés tant de siècles avant<lb/>
+                    qu'on <choice><sic>pu</sic> <corr>pût</corr></choice> soupçonner l'<choice><sic>existance</sic> <corr>existence</corr></choice> des satellites.</p>
+                <p>
+                    Quant <choice><sic>au</sic> <corr>aux</corr></choice> métaux, Mercure a été donné au vif<lb/>argent à cause de sa mobilité, le plomb à Saturne<lb/>
+                    à cause de son obscurité et de sa lumière un peu<lb/>
+                    terne, le fer au dieu des combats, l'or et l'argent<lb/>
+                    aux deux astres principaux à proportion de leur<lb/>
+                    éclat, et Jupiter et Vénus se sont <choice><sic>contenté</sic> <corr>contentés</corr></choice><lb/>
+                    du rebut des autres, parce que celui qui avait<lb/>
+                    imaginé de donner ces noms aux métaux, ce<lb/>
+                    qui lui vint peut-être dans l'esprit à cause<lb/>
+                    de l'égalité des nombres des planètes et des métaux.<lb/>
+                    Aujourd'hui que l'on a découvert une nouvelle<lb/>
+                    planète et un nouveau métal, il me semble<lb/>
+                    que Herschel doit s'emparer de la platine, et<lb/>
+                    je suis étonné qu'elle ne l'ait pas déjà revendiquée.<lb/>
+                    Il faut espérer que cela viendra, mais peut<lb/>
+                    être bien tard car il faut <choice><sic>longtems</sic> <corr>longtemps</corr></choice> pour faire<lb/>
+                    venir un exploit judiciaire de 672 millions<lb/>
+                    de lieues. Quant au signe &uranus; dont on se sert pour<lb/>
+                    Herschel, j'en ignore absolument l'origine, à moins<lb/>
+                    que ce soit la première lettre H de son<lb/>
+                    nom servant de <choice><sic>suport</sic> <corr>support</corr></choice> à un télescope défiguré.</p>
+                <p>Vous me demandez la description de la lunette<lb/>
+                    des passages, de la lunette <choice><sic>parallatique</sic> <corr>parallactique</corr></choice>, et du quart<lb/>
+                    de cercle mural, qui avec les <choice><sic>instrumens</sic> <corr>instruments</corr></choice> dont<lb/>
+                    je vous ai déjà parlé dans mes deux dernières<lb/>
+                    lettres forment un observatoire complet.</p>
+                <p>Puisque je vous ai décrit, dans ma dernière<lb/>
+                    lettre, la lunette des passages, avec le plus grand<lb/>
+                    détail dans le cas où vous seriez à portée<lb/>
+                    de préparer un endroit découvert et fermé<lb/>
+                    pour observer, et de faire construire quelques<lb/>
+                    <choice><sic>instrumens</sic> <corr>instruments</corr></choice> de bois, ainsi je vais me contenter de<pb n="10" facs="#Cornell_Amp_re_L1189_10.jpg"/>                                
+                    vous dire un mot des deux autres, qui sont<lb/>
+                    bien moins utiles, car je regarde l'instrument<lb/>
+                    des passages, <choice><sic>apliqué</sic> <corr>appliqué</corr></choice> à <choice><sic>différens</sic><corr>différents</corr></choice> verticaux,<lb/>
+                    comme le seul instrument d'astronomie qui<lb/>
+                    puisse servir à faire toutes sortes d'observations,<lb/>
+                    même celles qui avaient exigé jusqu'à présent<lb/>
+                    le secours du secteur de <persName>Bradley</persName>, dont je vous<lb/>
+                    ai fait dernièrement la description. C'est pour<lb rend="hyphen"/>quoi cet instrument m'est particulièrement cher<lb/>
+                    et j'y borne presque tout mon observatoire.</p>
+                <p>La lunette <choice><sic>parallatique</sic> <corr>parallactique</corr></choice> est cependant<lb/>
+                    fort commode quoique peu propre <figure/><lb/>
+                    aux observations ; et <choice><sic>sy</sic> <corr>sy</corr></choice> j'<choice><sic>admettait</sic> <corr>admettais</corr></choice><lb/>
+                    un troisième instrument dans<lb/>
+                    mon observatoire après la<lb/>
+                    lunette méridienne, ou des<lb/>
+                    passages, <add>et l'héliomètre, </add>ce serait la<lb/>
+                    lunette <choice><sic>parallatique</sic> <corr>parallactique</corr></choice>.</p>
+                <p>C'est une lunette AB portée sur un axe DC<lb/>
+                    qui est mobile sur le pied HDFE, de manière qu'il<lb/>
+                    soit toujours parallèle à l'axe du monde, en tournant<lb/>
+                    dans l'ouverture circulaire H, et sur la pointe de<lb/>
+                    fer D. Vous comprenez qu'on a soin que l'angle<lb/>
+                    KDH soit égal à la hauteur du pôle, et que<lb/>
+                    la latte DK soit placée sur une ligne méridienne<lb/>
+                    aussi exacte qu'on peut. La lunette AB est en outre<lb/>
+                    mobile à charnière sur l'axe DC, et on la peut<lb/>
+                    mettre à l'angle ACD qu'on désire. Pour cela on y joint<lb/>
+                    un petit cercle LMN divisé en degrés pour mesurer<lb/>
+                    cet <choice><sic>angle angle</sic> <corr>angle</corr></choice>, et le faire égal à la distance<lb/>
+                    d'une étoile au pôle quand on veut l'observer. On<lb/>
+                    fixe alors la lunette sous cet angle, et en faisant<lb/>
+                    tourner l'axe on suivra l'astre dans le parallèle<lb/>
+                    où il se meut, ce qui sert principalement à trouver<lb/>
+                    une étoile qu'on cherche dans la lunette, sans être<lb/>
+                    obligé de tâtonner. Et pour le faire encore plus<lb/>
+                    aisément, on joint un autre petit cercle OPQ<pb n="11" facs="#Cornell_Ampere_L1189_11.jpg"/>
+                    en D, avec une aiguille portée par l'axe HD qui y<lb/>
+                    marque l'ascension droite.</p>
+                <p>C'est au moyen de cette machine qu'on cherche les<lb/>
+                    étoiles en plein jour, car pour peu qu'elles soient<lb/>
+                    grosses elles paraissent alors. Mais, du reste, il serait<lb/>
+                    impossible de faire des observations avec cette machine<lb/>
+                    et de compter sur les angles mesurés par les cercles<lb/>
+                    LMN, OPQ, car il faudrait pour cela qu'ils fussent<lb/>
+                    de cuivre et très grands, et alors autant vaudrait<lb/>
+                    se servir du <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math>
+                    </formula> cercle mural qui ne coûterait que<lb/>
+                    le quart du prix de deux demi-cercles et serait<lb/>
+                    toujours plus juste à cause de sa stabilité.</p>
+                <p>On a cependant trouvé le moyen de faire quelques<lb/>
+                    observations avec cet instrument, quand une<lb/>
+                    planète est à peu près sur le même parallèle<lb/>
+                    qu'une étoile, en y joignant un réticule.</p>
+                <p><figure/> Soit ADBC  l'image du champ de la<lb/>
+                    lunette qui se trouve toujours à son foyer,<lb/>
+                    et qu'on joigne aux deux fils AB, CD qu'on<lb/>
+                    y met toujours, deux autres fils FE, GH, qui<lb/>
+                    y soient inclinés de 45° : on aura le réticule<lb/>
+                    de 45°. La manière de s'en servir est de<lb/>
+                    chercher d'abord à connaître par expérience le<lb/>
+                    <choice><sic>tems</sic> <corr>temps</corr></choice> qu'un astre met à traverser le diamètre CD<lb/>
+                    du champ de la lunette, ce qui donne aisément son<lb/>
+                    étendue en degrés puisqu'on sait que les étoiles de<lb/>
+                    l'équateur font quinze degrés par heure, 15' par<lb/>
+                    minute, etc. Après ce préliminaire, on fixera la<lb/>
+                    lunette de manière que la planète et l'étoile à laquelle<lb/>
+                    on veut la comparer, et qu'on suppose à peu près sur le<lb/>
+                    même parallèle, puissent passer toutes deux dans le champ<lb/>
+                    de la lunette sans la déranger. Alors, on observe les<lb/>
+                    passages des deux astres par le fil vertical AB que je<lb/>
+                    suppose dans le cercle de décl.<ref>*</ref>, et par les deux fils obliques.<lb/>
+                    La différence des <choice><sic>tems</sic> <corr>temps</corr></choice> des passages des deux astres par le<lb/>
+                    fil AB, mise en degrés, donnera la diff. d'asc. droite. Ensuite<pb n="12" facs="#Cornell_Ampere_L1189_12.jpg"/>
+                    on prendra pour chaque astre la distance en déclinaison<lb/>
+                    TS où il est passé du centre de la lunette, en mettant<lb/>
+                    en degrés la moitié du temps qu'il a mis entre ces deux<lb/>
+                    passages en O et P, parce que les petits triangles TSP, TSO,<lb/>
+                    sont censés rectilignes et par cons<ex>équent</ex> rectangles et<lb/>
+                    isocèles, et qu'ainsi <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>T</mi><mi>S</mi><mo>=</mo><mi>O</mi><mi>S</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn><mi>O</mi><mi>P</mi></mfrac></mrow></math>
+                    </formula>. La différence<lb/>
+                    ou la somme des distances en décl. des deux astres<lb/>
+                    au centre de la lunette donnera visiblement<lb/>
+                    la diff. en décl. des deux astres qui, avec la diff.<lb/>
+                    en asc. droite, déterminera la position de la<lb/>
+                    planète, dès qu'on suppose connue celle de l'étoile.</p>
+                <p>Comme l'astre pouvait passer en QVR dans la<lb/>
+                    lunette sans rencontrer les fils, M. <persName>Bradley</persName>,<lb/>
+                    pour profiter de tout le champ de la<lb/>
+                    <figure/> lunette, a inventé le réticule rhomboïde<lb/>
+                    MNB, dont la diagonale MN n'est<lb/>
+                    que la moitié de AB, et <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mo>=</mo><mi>T</mi><mi>A</mi></mrow></math>
+                    </formula>. Ce qui<lb/>
+                    fait, à cause des triangles semblables<lb/>
+                    AMN, AOP, que <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>A</mi><mi>S</mi><mo>=</mo><mi>O</mi><mi>P</mi></mrow></math>
+                    </formula>, et qu'ainsi en<lb/>
+                    ôtant la valeur de OP mise en degrés,<lb/>
+                    comme ci-devant, du rayon AT du champ, le reste<lb/>
+                    sera la diff. en déclinaison TS.</p>
+                <p> Pour le construire, on circonscrit au champ ACBD,<lb/>
+                    le carré FEGH, et après avoir divisé les côtés FE,<lb/>
+                    HG, en deux également en A et B, on place les<lb/>
+                    fils AF, AE, BG, BH, comme dans la figure. Ce<lb/>
+                    qui donne <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>A</mi><mi>B</mi><mo>=</mo><mi>F</mi><mi>E</mi></mrow></math>
+                    </formula>, et par cons<ex>équent</ex> à cause des triangles<lb/>
+                    semblables AMN, AFE, <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>A</mi><mi>T</mi><mo>=</mo><mi>M</mi><mi>N</mi></mrow></math>
+                    </formula>.</p>
+                <p>Mais je trouve que ce réticule est <figure/><lb/>
+                    moins juste que l'autre parce que deux<lb/>
+                    secondes d'erreur sur le <choice><sic>tems</sic> <corr>temps</corr></choice> du passage<lb/>
+                    par OP, n'en produisaient qu'une sur la<lb/>
+                    diff. de déclinaison TS, qui n'est que la moitié de<lb/>
+                    OP, au lieu que dans le réticule rhomboïde l'erreur<lb/>
+                    est égale sur OP et SP, et par cons. sur la diff. de<lb/>
+                    décl. parce que ces lignes sont égales.</p>
+                <p><pb n="13" facs="#Cornell_Ampere_L1189_13.jpg"/>
+                    C'est pourquoi j'ai inventé le réticule de la<lb/>
+                    figure 4 qui me semble réunir ces deux avantages<lb/>
+                    puisque dans le carré ACBD, <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>0</mi><mi>P</mi><mo>=</mo><mn>2</mn><mi>A</mi><mi>S</mi></mrow></math>
+                    </formula>, et que<lb/>
+                    l'on profite de tout le champ.</p>
+                <p>Au reste, de quelque réticule que l'on se serve, il<lb/>
+                    faut le vérifier, et s'assurer que tous les fils font<lb/>
+                    exactement entr'eux les angles qu'ils doivent faire.<lb/>
+                    Pour cela, on trace sur un grand carton<lb/>
+                    la figure du réticule, aussi régulièrement que<lb/>
+                    possible, et on la porte devant la lunette<lb/>
+                    à une distance telle que l'image du carton<lb/>
+                    au foyer de la lunette soit égale au réticule.<lb/>
+                    Ce qui fait qu'en regardant par l'oculaire, on<lb/>
+                    doit voir les fils coïncider exactement avec<lb/>
+                    les lignes du carton quand ils sont bien placés.<lb/> 
+                    Au reste, l'on peut mettre le réticule dans toutes<lb/>
+                    sortes de lunette. On ne choisit la lunette <choice><sic>parallatique</sic> <corr>parallactique</corr></choice><lb/>
+                    que parce que, dès qu'on a disposé le réticule de<lb/>
+                    manière que le fil AB soit dans le cercle de<lb/>
+                    décl. et CD dans le parallèle, on est sûr qu'à<lb/>
+                    quelque point du ciel qu'on dirige la lunette, ils y seront<lb/>
+                    toujours. Au lieu que, quand on n'a qu'une lunette<lb/>
+                    ordinaire, il faut la disposer ainsi à chaque<lb/>
+                    observation, ce qui se fait en tournant<lb/>
+                    la lunette sur elle-même jusqu'à ce qu'un des deux<lb/>
+                    astres qu'on veut observer (il faut que ce soit<lb/>
+                    le premier qui passe pour ne pas déranger la<lb/>
+                    lunette dans l'intervalle) suive exactement tout<lb/>
+                    le <choice><sic>tems</sic> <corr>temps</corr></choice> qu'il met à traverser le champ, le<lb/>
+                    fil CD. C'est de la même manière qu'on vérifie<lb/>
+                    le réticule d'une lunette <choice><sic>parralatique</sic> <corr>parallactique</corr></choice> pour savoir<lb/>
+                    quand il est bien placé, mais il faut s'être assuré<lb/>
+                    d'abord que l'axe qui la porte est bien parallèle<lb/>
+                    à celui du monde. Pour cela on s'assure d'abord<pb n="14" facs="#Cornell_Ampere_L1189_14.jpg"/>
+                    qu'il est dans le méridien, en regardant une<lb/>
+                    étoile par la lunette 6h avant, et 6h après, son<lb/>
+                    passage au méridien. On fera passer l'étoile par<lb/>
+                    le centre de la lunette en l'inclinant convenablement<lb/>
+                    et, sans changer l'inclinaison, on observera si<lb/>
+                    le second passage se fait par le même centre<lb/>
+                    comme cela doit être quand l'axe est dans<lb/>
+                    le méridien. Ensuite on examinera la même<lb/>
+                    étoile au méridien, et l'on verra si elle y passe<lb/>
+                    encore, ce qui ne peut manquer d'arriver, sans<lb/>
+                    l'effet de la réfraction, quand l'axe est <choice><sic>ellevé</sic> <corr>élevé</corr></choice><lb/>
+                    convenablement, c.à.d. à la hauteur du pôle.</p>
+                <p>Il ne me reste plus, pour répondre à toutes vos<lb/>
+                    questions, qu'à vous décrire le quart de cercle<lb/>
+                    mural. M. <persName>de Lalande</persName> dit que c'est, de<lb/>
+                    tous les <choice><sic>instrumens</sic> <corr>instruments</corr></choice> d'astronomie, le plus commode<lb/>
+                    mais le plus cher et le plus difficile à faire,<lb/>
+                    pour moi j'ajouterais volontiers et le plus mauvais.<lb/>
+                    Vous pourrez juger tout à l'heure si c'est<lb/>
+                    à tort que je l'accuse de manquer d'exactitude<lb/>
+                    ou d'exiger d'immenses calculs pour corriger<lb/>
+                    ses erreurs, mais <del type="illisible"/> quand il serait meilleur,<lb/>
+                    il faudrait toujours lui trouver des défauts<lb/>
+                    et dire qu'il est <cit><quote><hi rend="underline">trop vert et bon pour des<lb/>
+                        goujats</hi></quote></cit>. Car je suppose que vous aimeriez<lb/>
+                    toujours mieux y suppléer, comme il est très<lb/>
+                    aisé, par d'autres <choice><sic>instrumens</sic> <corr>instruments</corr></choice>, que de mettre dix<lb/>
+                    à douze mille francs de l'Ancien Régime à<lb/>
+                    un seul instrument.</p>
+                <p>C'est un quart de cercle ACB de fer <figure/><lb/>
+                    et de cuivre ou même tout de cuivre,<lb/>
+                    entre 5 et 8 pieds de rayon, qu'on fixe<lb/>
+                    contre un mur bâti dans le méridien.<lb/>
+                    On y joint une lunette PQ, et on<lb/>
+                    attend l'instant du passage de l'astre<pb n="15" facs="#Cornell_Ampere_L1189_15.jpg"/>
+                    par le méridien comme avec la lunette des passages.<lb/>
+                    Dans l'instant qu'on le voit passer, on est sûr, si<lb/>
+                    le quart de cercle est bien placé, qu'il est dans<lb/>
+                    le méridien. En sorte que l'instant où l'on voit<lb/>
+                    l'astre sur le fil vertical, réduit en degrés,<lb/>
+                    donne l'asc. droite. <choice><sic>Jusques</sic> <corr>Jusque</corr></choice> là il ne fait rien<lb/>
+                    de plus que la lunette méridienne, et même<lb/>
+                    ne le fait pas si bien puisque M. <persName>de Lalande</persName><lb/>
+                    dit lui-même que le limbe ne peut jamais,<lb/>
+                    <choice><sic>quelle </sic> <corr>quelqu’</corr></choice>adresse on suppose à l'ouvrier, être assez<lb/>
+                    bien dressé pour qu'il n'y ait pas dans les passages<lb/>
+                    des erreurs trente fois au moins plus grandes<lb/>
+                    que celles qu'on peut craindre à la lunette des<lb/>
+                    passages. Mais, dit-il, cela ne fait rien<lb/>
+                    parce qu'en observant les hauteurs correspondantes<lb/>
+                    des étoiles avec le quart de cercle mobile,<lb/>
+                    on peut calculer l'instant de leurs vrais passages<lb/>
+                    au méridien. Et en prenant l'instant de celui<lb/>
+                    qu'on voit dans le mural, on trouvera l'erreur<lb/>
+                    de celui-ci dont on tiendra compte ensuite dans<lb/>
+                    tous les calculs. Vous concevez l'immensité de<lb/>
+                    ce travail, puisqu'il faudrait calculer ces erreurs,<lb/>
+                    de degré en degré, par cette méthode des hauteurs<lb/>
+                    correspondantes, qui est la plus horriblement<lb/>
+                    compliquée d'observations et de calculs de toutes<lb/>
+                    les méthodes astronomiques ; et qu'il faudrait<lb/>
+                    d'ailleurs un quart de cercle mobile outre le<lb/>
+                    mural, tandis qu'une seule lunette méridienne<lb/>
+                    fait le même effet bien plus facilement.</p>
+                <p>Qu'a donc le mural qui pût le faire préférer<lb/>
+                    à la lunette des passages au méridien, dont je<lb/>
+                    vous ai donné la description dans ma dernière<lb/>
+                    lettre ? C'est de donner la déclinaison de l'astre<lb/>
+                    en même <choice><sic>tems</sic> <corr>temps</corr></choice> que l'ascension droite. En effet<lb/>
+                    l'angle BCQ donne la hauteur méridienne de<lb/>
+                    l'astre, et en prenant la différence avec la<lb/>
+                    hauteur de l'équateur, on a sa déclinaison.</p>
+                <p><pb n="16" facs="#Cornell_Amp_ere_L1189_16.jpg"/>
+                    Mais cette déclinaison est affectée par la réfraction<lb/>
+                    qui varie avec le baromètre et le thermomètre,<lb/>
+                    et qui est différente dans <choice><sic>différens</sic> <corr>différents</corr></choice> lieux et à<lb/>
+                    différentes hauteurs au-dessus du niveau de la mer,<lb/>
+                    ce qui exige ces deux nouveaux <choice><sic>instrumens</sic> <corr>instruments</corr></choice><lb/>
+                    et de longues réductions. Enfin il faut vérifier<lb/>
+                    l'instrument, comme on le fait a<ex>vec</ex> tous ceux qui<lb/>
+                    doivent servir à faire des observations. Il n'y en<lb/>
+                    a que trois à la lunette des passages. Mais ici il<lb/>
+                    faut vérifier : si le limbe est vertical, s'il est<lb/>
+                    dans le méridien, si la lunette lui est bien<lb/>
+                    parallèle, si le côté BC est bien horizontal, si<lb/>
+                    l'arc ADB est juste de 90°, s'il est divisé en<lb/>
+                    parties bien égales, si son pr<ex>emier</ex> et son dernier point<lb/>
+                    sont bien déterminés, etc. etc. Je ne vous <choice><sic>ferez</sic> <corr>ferai</corr></choice><lb/>
+                    pas le détail de toutes ces vérifications, mais<lb/>
+                    j'observerai qu'on peut corriger la lunette et<lb/>
+                    la rendre exacte, mais que presque tous les défauts<lb/>
+                    d'un mural sont irréparables, et que, comme dit<lb/>
+                    M. <persName>de Lalande</persName> lui-même, on est obligé de<lb/>
+                    calculer des tables des erreurs de son mural pour<lb/>
+                    corriger les observations en y ajoutant ou ôtant<lb/>
+                    ces erreurs. Cette seule raison me ferait <choice><sic>rejetter</sic> <corr>rejeter</corr></choice><lb/>
+                    le mural, ainsi je pense qu'il faudra nous borner<lb/>
+                    à la lunette des passages au méridien pour les asc.<lb/>
+                    droites, et à la même lunette mise dans un autre<lb/>
+                    vertical pour calculer la déclinaison par l'intervalle<lb/>
+                    des passages, suivant la méthode de mon invention<lb/>
+                    que je vous avais promise pour cette lettre, mais<lb/>
+                    que je réserve pour la suivante car il est <choice><sic>tems</sic> <corr>temps</corr></choice><lb/>
+                    de finir ce volume. Vous voilà maintenant, Monsieur,<lb/>
+                    au fait de tous les <choice><sic>instrumens</sic> <corr>instruments</corr></choice> d'astronomie, où il<lb/>
+                    n'y a à mon avis de bon à quelque chose que la<lb/>
+                    lunette des passages, et la <choice><sic>parallatique</sic> <corr>parallactique</corr></choice> armée du<lb/>
+                    réticule dont on est obligé de se servir quand<lb/>
+                    l'astre est trop près du soleil pour être observé<lb/>
+                    au méridien, comme est toujours Mercure.</p>
+                <p>Je n'ai plus de place, Monsieur, pour vous parler de mes<lb/>
+                    <choice><sic>sentimens</sic> <corr>sentiments</corr></choice>, mais je ne crois pas qu'il vous soit difficile<lb/>
+                    de les deviner, mes respects à Monsieur votre Père<lb/>
+                    et à Madame votre Mère. <persName ref="#pers_A366">A. Ampère</persName>                    
+                </p>
+            </div>
+        </body>
+        <back><div><note>j'entends par là un méridien quelconque que décrirait<lb/>
+            la lunette en tournant sur la charnière C, quand l'axe est<lb/>
+            immobile.</note></div></back>
+        
+    </text>
+</TEI>
+

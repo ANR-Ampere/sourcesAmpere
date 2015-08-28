@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -140,7 +141,7 @@
         <correspAction type="received">
           <persName type="adressee">Bredin, Claude-Julien</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,8 +162,8 @@
    <text type="correspondance" decls="#ampere_corr_L1814-10-18-a">
       <body>
          <div>
-            <opener>
-          <date when="1814-10-18">Mardi, 18 octobre 1814</date>
+            <opener><pb n="129" facs="#ACAS_CRHST_AMP_24_340_0129_r.jpg"/>
+          <date when="1814-10-18">Mardi, 18 <choice><abbr>8bre</abbr> <expan>octobre</expan></choice> 1814</date>
         </opener>
             <p>Cher ami, que tu as raison de me dire qu'en ne nous écrivant plus nous nous privons
                tous deux d'une grande portion de bonheur ! Quant à moi, c'est la seule qui me reste.
@@ -173,33 +174,40 @@
                ne l'ai été. Chaque moment en détail a été pris sans pouvoir en donner un seul à
                l'amitié. Depuis dix jours au moins que <persName>Ballanche</persName> est ici, je ne l'ai vu que deux
                petits moments, excepté aujourd'hui qu'il a dîné ici avec <persName>Beuchot</persName>, <persName>Dugas</persName>, <persName>Mussy
-               [Guéneau de Mussy]</persName> l'inspecteur et <persName>Mussy de Chalons</persName>, le médecin, tu sais bien. Nous
+               </persName> l'inspecteur<pb n="130" facs="#ACAS_CRHST_AMP_24_340_0130_v.jpg"/> et <persName>Mussy de Chalons</persName>, le médecin, tu sais bien. Nous
                t'aimons tous bien. <persName>Ballanche</persName> disait que, si tu pouvais être ici et <persName>Camille</persName>, il
                n'aimerait que le séjour de <placeName>Paris</placeName> ; mais vous deux là-bas lui feraient trop regretter
                <placeName>Lyon</placeName>. Ce malheureux mémoire, le quatrième lu cette année, ne m'a pas empêché de
-               t'écrire par M. <persName>Clerc</persName> qui a dû te remettre ma lettre avec un petit flacon d'iode.
+               t'écrire par M. <persName>Clerc</persName> qui a dû te remettre ma lettre avec un petit flacon d'iode.</p>
+            <p>
                J'espère que tu les as déjà reçus. écris-moi, je t'en prie ! Je ne peux vivre sans
                lettre de toi. Quant à la lettre de M. <persName>Carsignol</persName>, je n'y puis rien pour plusieurs
                raisons. La première, qu'il y a quinze jours au moins que le choix des élèves admis
-               est fait, arrêté irrévocablement, les lettres d'admission adressées à ceux qu'on a
+               est fait, arrêté irrévocablement,<pb n="131" facs="#ACAS_CRHST_AMP_24_340_0131_r.jpg"/> les lettres d'admission adressées à ceux qu'on a
                choisis, etc. La seconde..., mais c'est comme ceux qui n'avaient pas tiré le canon
                pour plusieurs bonnes raisons : la première qu'ils n'en avaient pas ; la seconde...,
-               on les en dispensa ! Au reste, il n'y a pas de regret à avoir, puisque je n'ai aucune
+               on les en dispensa !</p>
+                  <p>Au reste, il n'y a pas de regret à avoir, puisque je n'ai aucune
                sorte de rapport avec les nominations et que les places d'examinateur sont
                incompatibles avec la mienne. Plus tôt ou plus tard, c'eût été tout un. Je suis
                désolé de n'avoir pas été à <placeName>Lyon</placeName>. Mais il faudrait te quitter dans quelques jours,
                les cours recommenceront avec le mois de novembre. Si je ne suis pas nommé à la place
                de l'<persName>abbé Bossut</persName>, rien ne pourra me consoler d'un sacrifice que j'aurai fait à cette
                vaine espérance. Ma vie était triste, empoisonnée  ; maintenant, c'est un désespoir
-               qui me fait bien plus de mal parce que plus rien de doux n'en adoucit l'amertume. On
+               qui<pb n="132" facs="#ACAS_CRHST_AMP_24_340_0132_v.jpg"/> me fait bien plus de mal parce que plus rien de doux n'en adoucit l'amertume. On
                m'a dit que <persName>Barret-la-foi</persName> était ici. II est heureux, celui-là ! Que j'aurais dû, dans
                le temps, faire comme lui ! Mais peut-on faire quelque chose avec des idées si peu
                stables et passant d'une extrémité à l'autre ? Plains ton pauvre ami ; du moins son
                amitié pour toi ne variera jamais. Mille choses à <persName>Camille</persName> si tu le vois. Je te prie
-               en grâce de remercier Deplace, avec mille amitiés, du joli cadeau qu'il m'a fait en
-               m'envoyant son livre <ref type="ouvrages_mentionnes" target="#ampere_ref_P188.xml">*</ref>. Adieu
+               en grâce de remercier <persName>Deplace</persName>, avec mille amitiés, du joli cadeau qu'il m'a fait en
+               m'envoyant son livre <ref type="ouvrages_mentionnes" target="#ampere_ref_P188.xml">*</ref>.</p>
+            <p>
+         Adieu
                <persName>Bredin</persName>, adieu, cher et à jamais cher ami, je t'aime et t'embrasse mille fois de toute
-               mon âme. <persName>A. Ampère</persName> P. S. Toutes les santés sont bien ici. Donne-moi des nouvelles de
+               mon âme.<lb/>
+               <persName>A. Ampère</persName> </p>
+            <p>
+               P. S. Toutes les santés sont bien ici. Donne-moi des nouvelles de
                ta famille. Je te prie bien de présenter à <persName>Mme Bredin</persName> l'hommage de mon respect et
                d'embrasser vos enfants pour moi.</p>
          </div>

@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -141,7 +142,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -225,7 +226,7 @@
               </choice>
             </orgName>
           </orgName>,
-               de l'<orgName>école centrale</orgName> (2),<lb/> etc., sans en avoir rien
+               de l'<orgName>école centrale</orgName> <ref target="#corresp2">(2)</ref>,<lb/> etc., sans en avoir rien
                appris.<lb/> Du mercredi matin<lb/> Je comptais t'écrire aujourd'hui<lb/> plus au
                long ; mais <persName>Louison</persName>
                <lb/>, qui espère une occasion, ne<lb/> me <del>laisse que le <choice>
@@ -254,7 +255,8 @@
                <placeName>Lyon</placeName>. <persName ref="#pers_C129">Julie</persName>, en relevant
                de ses couches, est allée chez sa mère à <placeName>Saint-Germain</placeName>. Elle
                était à ce moment très malade et ne se guérit jamais complètement dans la suite (voir
-               une consultation, p. 76). (2) <persName ref="#pers_A366">Ampère</persName>, ne
+               une consultation, p. 76).</note>
+            <note xml:id="corresp2">(2) <persName ref="#pers_A366">Ampère</persName>, ne
                gagnant pas assez à donner des leçons particulières, cherche alors à obtenir une
                place dans un <orgName>Prytanée</orgName> ou une <orgName>École centrale</orgName> :
                ce qui réussit seulement en <date when-iso="1802-02">février 1802</date>. </note>

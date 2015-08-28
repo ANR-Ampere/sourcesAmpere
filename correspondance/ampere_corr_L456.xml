@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -140,7 +141,7 @@
         <correspAction type="received">
           <persName type="adressee">Ballanche, Pierre-Simon</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -164,30 +165,34 @@
             <opener>
           <date when="1813-09-10">[Vers le 10 septembre 1813]</date>
         </opener>
-            <p>Mon bon ami, ne t'inquiète plus ! Je suis resté à <placeName>Nogent</placeName> le vendredi en question
+            <p><pb n="873" facs="#ACAS_CRHST_AMP_26_393_quarto_0145_r.jpg"/>Mon bon ami, ne t'inquiète plus ! Je suis resté à <placeName>Nogent</placeName> le vendredi en question
                après avoir fait toutes les réflexions dont tu me parles. J'ai écrit pour m'excuser
                de l'impossibilité de me rendre à <placeName>Paris</placeName> ce jour-là. Je m'en applaudis à présent et je
                pense que ce refus dégoûtera de toute tentative. Au reste, j'ai déjà changé dix fois
                de manière de voir là-dessus, et il n'y a que deux jours que je voulais prier ma
-               sœur d'aller directement lui offrir réconciliation. Le lendemain, j'en étais à mille
-               lieues <ref>(2)</ref>. L'époque du séjour à <placeName>Nogent</placeName> marquera dans ma vie. J'y apprendrai à ne
+               sœur d'aller directement lui offrir réconciliation.</p>
+            <p>Le lendemain, j'en étais à mille
+               lieues <ref target="#corresp2">(2)</ref>. L'époque du séjour à <placeName>Nogent</placeName> marquera dans ma vie. J'y apprendrai à ne
                plus être conduit que par la froide raison ; j'y réfléchis continuellement. Ces
                réflexions m'ont été bien pénibles, mais me seront bien salutaires. Il fallait passer
                par là pour détruire des impressions de 18 ans qui n'ont cessé depuis lors de faire
                mon malheur, excepté le temps si court où j'ai été à <placeName>Lyon</placeName> parfaitement heureux. Me
-               voilà enfin complètement désabusé sur tout ce qui pourrait encore me tourmenter ! Je
+               voilà enfin complètement désabusé sur tout ce qui pourrait encore me tourmenter !</p>
+            <p>Je
                parlerai de la seule chose que tu désires le plus savoir à M. <persName>Degérando</persName>. Il ne t'a
                pas répondu là-dessus parce qu'il se figure que ton but est de savoir réellement en
                quoi consiste l'invention de <persName>Didot</persName>, ce qu'il ne peut dire en conscience. J'ai eu beau
                lui dire qu'il te suffisait qu'on te dît : il se sert ou non du vide ; il me répétait
                toujours que cela ne te contenterait pas. Il craint, je crois, que, quand tu sauras
                qu'il a lu le brevet, tu veuilles lui en demander davantage. Mais je lui montrerai ta
-               lettre. Si <persName>Didot</persName> emploie le vide, il n'y a plus rien à faire. S'il ne l'emploie pas,
+               lettre.</p>
+            <p>Si <persName>Didot</persName> emploie le vide, il n'y a plus rien à faire. S'il ne l'emploie pas,
                ton établissement réussira, mais seulement à <placeName>Paris</placeName>. Cet avis est unanime entre nous
                trois. <persName>Didot</persName> ne montera-t-il pas un entrepôt ou même un établissement à <placeName>Lyon</placeName>, et
                celui qui aura la vogue à <placeName>Paris</placeName> ne sera-t-il pas celui dont le nom remplira aussi le
-               midi de l'Empire et le royaume d'<placeName>Italie</placeName> ? Qu'y a-t-il à redouter de la concurrence
-               dès qu'on fait mieux à meilleur marché ? La question si le brevet porte sur la
+               midi de l'Empire et le royaume d'<placeName>Italie</placeName> ? Qu'y a<pb n="875" facs="#ACAS_CRHST_AMP_26_393_quarto_0147_r.jpg"/>-t-il à redouter de la concurrence
+               dès qu'on fait mieux à meilleur marché ?</p>
+            <p>La question si le brevet porte sur la
                machine ou sur la chose a été disputée pendant tout le temps que j'ai été secrétaire
                du bureau consultatif. M. <persName>de Montgolfier</persName> et moi soutenions qu'on ne pouvait rejeter
                une machine toute nouvelle et supérieure à une précédente pour une même chose ; mais
@@ -197,15 +202,18 @@
                l'interprétation des juges et des experts nommés par eux. Si <persName>Didot</persName> fait le vide, il y
                a beaucoup à craindre que le procès fût perdu et le brevet cassé. Alors le prix du
                brevet est perdu sans compter les autres frais. Mais, s'il ne le fait pas, un bon
-               établissement à <placeName>Paris</placeName>, et je réponds du succès <ref>(3)</ref>. Mille choses à tous nos amis, à
+               établissement à <placeName>Paris</placeName>, et je réponds du succès <ref target="#corresp3">(3)</ref>. Mille choses à tous nos amis, à
                <persName>Camille</persName> et <persName>Bredin</persName> ; je t'embrasse de toute mon âme, bon ami.</p>
-            <closer>Imprimeur, aux <placeName>Halles de la Grenette</placeName>, à <placeName>Lyon</placeName> (<placeName>Rhône</placeName>) </closer>
+            
+            <closer>A monsieur <persName>Ballanche fils</persName> Imprimeur, aux <placeName>Halles de la Grenette</placeName>, à <placeName>Lyon</placeName> (<placeName>Rhône</placeName>) </closer>
          </div>
       </body>
       <back>
          <div>
-            <note xml:id="corresp1">(1) Trois pages 18 x 23,5 et une page d'adresse. (2) Il doit
-               s'agir là de <persName>Mme Ampère</persName>. (3) <persName>Ballanche</persName> ne s'est fixé à <placeName>Paris</placeName> que dans l'<date notBefore-iso="1817-05-01" notAfter-iso="1817-09-01">été 1817</date>.
+            <note xml:id="corresp1">(1) Trois pages 18 x 23,5 et une page d'adresse.</note>
+            <note xml:id="corresp2">(2) Il doit
+               s'agir là de <persName>Mme Ampère</persName>.</note>
+            <note xml:id="corresp3">(3) <persName>Ballanche</persName> ne s'est fixé à <placeName>Paris</placeName> que dans l'<date notBefore-iso="1817-05-01" notAfter-iso="1817-09-01">été 1817</date>.
             </note>
          </div>
       </back>

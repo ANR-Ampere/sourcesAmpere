@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -141,7 +142,7 @@
         <correspAction type="received">
           <persName type="adressee">Bredin, Claude-Julien</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -162,12 +163,12 @@
     <text type="correspondance" decls="#ampere_corr_L1814-08-10-a">
         <body>
             <div>
-                <opener>
+                <opener><pb n="49" facs="#ACAS_CRHST_AMP_24_340_0049_r.jpg"/>
           <date when="1814-08-10">10 août [1814]</date>
         </opener>
                 <p>Comment me pardonneras-tu, cher ami, d'avoir été si longtemps sans t'écrire ? Mon
                     mémoire pour l'<orgName>Institut</orgName> en est cause ; j'en ai lu les trois quarts il y a quinze
-                    jours ; je voulais l'achever pour ce jour-là <ref>(2)</ref>. Je ne mettais pas un seul
+                    jours ; je voulais l'achever pour ce jour-là <ref target="#corresp2">(2)</ref>. Je ne mettais pas un seul
                     instant à une autre occupation. Je n'en lus qu'un préambule. On l'a renvoyé à
                     des commissaires, <persName>Legendre</persName>, <persName>Poisson</persName>, <persName>Arago</persName>. Je les ai prévenus que la fin n'y
                     était pas, en la promettant pour huit jours après ; en voilà plus de quinze et
@@ -179,35 +180,41 @@
                     empêché de t'écrire et à <persName>Ballanche</persName>, qui m'a écrit il y a déjà du temps. Si tu
                     m'aimes, vois-le, je t'en prie ; dis-lui pourquoi, fais qu'il me pardonne !
                     Qu'il n'en vienne pas moins à <placeName>Paris</placeName> cet automne ! Je lui écrirai dès qu'il y
-                    aura possibilité. Embrasse pour moi <persName>Dupré</persName> et ne m'oublie pas auprès de <persName>Camille</persName>.
+                    aura possibilité.</p>
+                <p>Embrasse pour moi <persName>Dupré</persName> et ne m'oublie pas auprès de <persName>Camille</persName>.
                     J'avais mis en expérience au soleil des substances au mois de mai dernier. Je
                     les avais oubliées depuis trois mois. J'ai trouvé aujourd'hui dans le flacon un
                     résultat si singulier que je ne sais si ce ne sera pas une bien importante
-                    découverte et point de temps pour m'en assurer ou renoncer à l'<orgName>Institut</orgName> ! J'ai
+                    découverte et point de temps pour m'en assurer ou renoncer à l'<orgName>Institut</orgName> !</p>
+                <p>J'ai
                     tellement la résolution de mettre tout mon temps au travail qu'ayant des billets
                     pour voir les séances où l'on discute la loi sur la presse, je n'y suis point
-                    allé. Je t'en prie, cher ami, par toute l'amitié que tu as pour moi, que la
+                    allé. Je t'en prie, cher ami,<pb n="51" facs="#ACAS_CRHST_AMP_24_340_0051_r.jpg"/> par toute l'amitié que tu as pour moi, que la
                     rareté de mes lettres ne rende pas les tiennes plus rares ; elles sont ma
-                    consolation et ma vie. Sais-tu des nouvelles de <persName>Roux</persName> ? Où est-il à présent ? M.
+                    consolation et ma vie. Sais-tu des nouvelles de <persName>Roux</persName> ? Où est-il à présent ?</p>
+                <p>M.
                     <persName>Frayssinous</persName>, dont tu as souvent entendu parler, a rouvert aujourd'hui, dans la
                     chapelle de l'<orgName>école Normale</orgName>, les fameuses conférences que <orgName>Bonaparte</orgName> lui avait
                     interdites il y a quatre ans. Le grand maître y était avec presque tous les
                     conseillers et inspecteurs ; par conséquent, moi. Que dis-tu de <persName>Barret</persName> ? où
                     est-il ? Pourquoi ne me dis-tu jamais rien de ce que tu juges de tout ce qui
-                    arrive, de ce qu'en pensent les différents barbistes ? Quant à Antigone,
-                    sera-t-elle imprimée ? Il est bien tard, j'ai écrit tout le jour, la main me
+                    arrive, de ce qu'en pensent les différents barbistes ? Quant à <title>Antigone</title>,
+                    sera-t-elle imprimée ?</p>
+                <p>Il est bien tard, j'ai écrit tout<pb n="52" facs="#ACAS_CRHST_AMP_24_340_0052_v.jpg"/> le jour, la main me
                     fait mal et les yeux me cuisent ; je dors tout en vie. Il faut aller dormir pour
                     recommencer demain des X et des Y. Je t'aime et t'embrasse de toute mon âme.
                     Aime-moi, écris-moi ! Vois <persName>Ballanche</persName>, je te prie encore ! Marque-moi quand il
-                    sera ici ! Que je voudrais t'y voir avec lui Adieu, adieu, cher ami. <persName>A.
+                    sera ici ! Que je voudrais t'y voir avec lui Adieu, adieu, cher ami.<lb/>
+                    <persName>A.
                     Ampère</persName>.</p>
-                <closer>Directeur de l'<orgName>École vétérinaire de <placeName>Lyon</placeName>
+                <closer>A monsieur <persName>Bredin</persName> Directeur de l'<orgName>École vétérinaire de <placeName>Lyon</placeName>
           </orgName> (<placeName>Rhône</placeName>) </closer>
             </div>
         </body>
         <back>
             <div>
-                <note xml:id="corresp1">(1) Quatre pages in-4°, adresse sur la quatrième. (2) Le <date when="1814-07-11">11
+                <note xml:id="corresp1">(1) Quatre pages in-4°, adresse sur la quatrième.</note>
+                <note xml:id="corresp2">(2) Le <date when="1814-07-11">11
                     juillet 1814</date>, <persName>Ampère</persName> lit un mémoire Sur les différentielles partielles, mémoire
                     dont <persName>Poisson</persName> rend compte le <date when="1814-09-12">12 septembre 1814</date>, jour où <persName>Ampère</persName> lit un second
                     mémoire Sur quelques transformations et sur l'intégration des équations aux

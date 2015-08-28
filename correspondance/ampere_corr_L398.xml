@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -140,7 +141,7 @@
         <correspAction type="received">
           <persName type="adressee">Bredin, Claude-Julien</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,8 +162,8 @@
    <text type="correspondance" decls="#ampere_corr_L1811-10-06-a">
       <body>
          <div>
-            <opener>
-          <date when="1811-10-06">6 octobre 1811</date>
+            <opener><pb n="111" facs="#ACAS_CRHST_AMP_24_340_0111_r.jpg"/>
+          <date when="1811-10-06">6 <choice><abbr>8bre</abbr> <expan>octobre</expan></choice> 1811</date>
         </opener>
             <p>Cher ami ! J'ai à répondre à deux lettres de toi ! Je te remercie de me les avoir
                écrites ; elles me font tant de bien, elles étaient si nécessaires à mon cœur
@@ -171,23 +172,26 @@
                position bien triste. Tu as peut-être déjà oublié la commission que je t'avais donnée
                de lui faire un présent du premier argent que tu recevrais de <persName>François</persName> (après le
                raccommodage de sa fenêtre) ; tu m'avais promis de t'informer de <persName>Mlle Morandy</persName> de ce
-               qui conviendrait le mieux, comme une robe, ou etc... Une autre chose que tu as
+               qui conviendrait le mieux, comme une robe, ou etc...</p>
+            <p>Une autre chose que tu as
                oubliée, car tu ne m'en parles pas : tu devais retirer chez toi trois ou quatre
                tableaux qui sont à <placeName>Poleymieux</placeName> dans la salle à manger et que l'humidité de cet hiver
                va entièrement détériorer, tandis qu'ils se conserveraient chez toi et y seraient
-               bons à quelque chose. Il y a surtout une <persName>Rébecca</persName>. Fais-les, je t'en prie, venir sans
+               bons à quelque chose. Il y a surtout une <persName>Rébecca</persName>. Fais-les, je t'en prie, venir sans<pb n="112" facs="#ACAS_CRHST_AMP_24_340_0112_v.jpg"/>
                délai chez toi ! Paye le port avec l'argent que te remettra <persName>François</persName>, ou, ce qui est
                plus simple, qu'il te les apporte sur un cheval ou autrement tout de suite ! Le prix
-               du voyage sera un à-compte qu'il aura payé sur sa ferme. Venons à tes lettres ! Un
+               du voyage sera un à-compte qu'il aura payé sur sa ferme.</p>
+            <p>Venons à tes lettres ! Un
                passage de la première me ferait croire que tu n'as pas lu celle que t'a apporté <persName>Mme
                Maléchard</persName>. Tu me parles comme si le front ridé avait contribué au départ de <placeName>Paris</placeName>
-               d'une certaine personne. Je ne sais si la confusion de mes idées m'avait empêché de
+               d'une certaine personne.</p>
+            <p>Je ne sais si la confusion de mes idées m'avait empêché de
                m'expliquer clairement ; mais je me souviens de t'avoir dit que ce départ était un
                mariage, et ce que le monde appelle un excellent parti ; car il ne pense qu'à la
                fortune et, à cet égard, il est vrai qu'il est au-dessus de ce qu'elle devait
                naturellement attendre. Mais ces mariages de convenance, je ne pourrai jamais me
                faire à cette idée, ni les approuver. Un homme qu'elle n'avait vu que dans son
-               enfance, qui serait presque son père ! Je suis parfaitement sûr que le projet en a
+               enfance, qui serait presque<pb n="113" facs="#ACAS_CRHST_AMP_24_340_0113_r.jpg"/> son père ! Je suis parfaitement sûr que le projet en a
                été parfaitement ignoré du front ridé, dont on s'était depuis peu, à la vérité,
                éloigné poliment, tant la mère que la fille ; j'ai su que la chose était promise de
                part et d'autre avant que cet homme en eût un soupçon. Peut-être même y a-t-il eu
@@ -196,26 +200,29 @@
                égard, si elle avait été tout ce que j'imaginais. Cependant j'aurais tort de me
                plaindre ; en y pensant bien, j'avais donné sujet qu'on m'en fît un mystère avant que
                tout fût irrévocablement arrêté. Ce mariage est fait à l'instant où je t'écris cette
-               lettre. Réfléchis, mon ami, à cette ligne ; devine ce que je ne peux ni ne veux
-               t'écrire de ces regrets dont le cœur de ton ami est plein ! Il regrette des moments
+               lettre.</p>
+            <p>Réfléchis, mon ami, à cette ligne ; devine ce que je ne peux ni ne veux
+               t'écrire de ces regrets dont le cœur de ton ami est plein !<pb n="114" facs="#ACAS_CRHST_AMP_24_340_0114_v.jpg"/> Il regrette des moments
                enchanteurs d'amitié et de confiance qui ne peuvent plus renaître. Il n'a plus qu'un
-               ami. J'ai vu aujourd'hui M. <persName>Huzard</persName> à l'<orgName>Institut</orgName>. Il m'a dit qu'il serait bientôt à
-               <placeName>Lyon</placeName>. Je lui ai parlé de la survivance pour toi <ref>(2)</ref>. Il m'a dit qu'il t'avait
+               ami.</p>
+            <p>J'ai vu aujourd'hui M. <persName>Huzard</persName> à l'<orgName>Institut</orgName>. Il m'a dit qu'il serait bientôt à
+               <placeName>Lyon</placeName>. Je lui ai parlé de la survivance pour toi <ref target="#corresp2">(2)</ref>. Il m'a dit qu'il t'avait
                présenté, comme tu dois le savoir, du reste, au Ministre pour cette survivance ; mais
                il trouve que tu ne te mêles pas assez des affaires générales de l'établissement, que
                tu ne t'y rends pas assez nécessaire. Il semble désirer que, de l'aveu de ton père,
-               tu le suppléasses dans une partie de ses fonctions. <persName>Ballanche</persName> m'a écrit que l'on
+               tu le suppléasses dans une partie de ses fonctions.</p>
+            <p><persName>Ballanche</persName> m'a écrit que l'on
                songeait enfin à te mettre au nombre des membres de l'<orgName>Académie de<placeName> Lyon</placeName>
           </orgName>. Je ne sais
                pourquoi cela me ferait tant de plaisir ; je serais aux anges ! Si l'on t'en a nommé,
                écris-moi tout de suite ! Si ce n'est pas encore, écris-le moi dès que ce sera !</p>
-            <closer>
-          <placeName>Lyon</placeName> (<placeName>Rhône</placeName>) </closer>
+                     
          </div>
       </body>
       <back>
          <div>
-            <note xml:id="corresp1">(1) Quatre pages in-4°. (2) Il s'agit d'assurer à <persName>Bredin</persName> la
+            <note xml:id="corresp1">(1) Quatre pages in-4°.</note>
+            <note xml:id="corresp2">(2) Il s'agit d'assurer à <persName>Bredin</persName> la
                succession de son père comme directeur de l'<orgName>École vétérinaire</orgName>. </note>
          </div>
       </back>

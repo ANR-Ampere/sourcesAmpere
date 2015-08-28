@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -145,7 +146,7 @@
           <persName type="adressee" ref="#pers_A366">Ampère,
                                     André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -194,7 +195,7 @@
                     petit ne<lb/>
                     sera plus si <choice>
             <sic>painible</sic> <corr>pénible</corr>
-          </choice> pour moi. Aujourd'hui il a trois mo<supplied>is</supplied> <ref>(2)</ref>
+          </choice> pour moi. Aujourd'hui il a trois mo<supplied>is</supplied> <ref target="#corresp2">(2)</ref>
           <lb/>
                     et il a été charmant <choice>
             <sic>insi</sic> <corr>ainsi</corr>
@@ -279,7 +280,8 @@
         </body>
         <back>
             <div>
-                <note xml:id="corresp1">(1) Deux pages in-4°. (2) Cette indication date la lettre.
+                <note xml:id="corresp1">(1) Deux pages in-4°.</note>
+                <note xml:id="corresp2">(2) Cette indication date la lettre.
                 </note>
             </div>
         </back>

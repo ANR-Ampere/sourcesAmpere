@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -141,7 +142,7 @@
         <correspAction type="received">
           <persName type="adressee">Bredin, Claude-Julien</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -162,24 +163,26 @@
     <text type="correspondance" decls="#ampere_corr_L1814-11-30-a">
         <body>
             <div>
-                <opener>
-          <date when="1814-11-30">30 novembre 1814</date>
+                <opener><unclear>
+          <date when="1814-11-30"> Trente <choice><ex>abbr>9bre</ex> <expan>novembre</expan></choice> 1814</date> je crois</unclear>
         </opener>
                 <p>Mon bon ami, j'ai reçu ta lettre lorsqu'il n'y avait pas un quart d'heure que je
                     savais que la nomination avait eu lieu en ma faveur dès le premier tour de
-                    scrutin <ref>(2)</ref>. Tout s'est ainsi réuni pour que je fusse momentanément bien
+                    scrutin <ref target="#corresp2">(2)</ref>. Tout s'est ainsi réuni pour que je fusse momentanément bien
                     heureux. Mais que de regrets mêlés ! Je te répondrai au long dès que je serai
                     hors des visites, etc. Je n'ai que le temps de t'embrasser mille et mille fois.
                     Adieu, cher ami, adieu <persName>Bredin</persName>, écris-moi. Quand te reverrai-je comme tu me le
-                    dis, bon ami ? <persName>A. Ampère</persName>
+                    dis, bon ami ?<lb/>
+                    <persName>A. Ampère</persName>
         </p>
-                <closer>Directeur de l'<orgName>École royale vétérinaire</orgName>, à <placeName>Lyon</placeName> (<placeName>Rhône</placeName>) </closer>
+                <closer>A monsieur <persName>Bredin</persName> Directeur de l'<orgName>École royale vétérinaire</orgName>, à <placeName>Lyon</placeName> (<placeName>Rhône</placeName>) </closer>
             </div>
         </body>
         <back>
             <div>
                 <note xml:id="corresp1">(1) Une page in-4° et adresse sur la quatrième. L'élection
-                    est du <date when="1814-11-28">28 novembre</date>. (2) Sur 52 votants, <persName>Ampère</persName> réunit 28 suffrages, <persName>Cauchy</persName> 10,
+                    est du <date when="1814-11-28">28 novembre</date>.</note>
+                <note xml:id="corresp2">(2) Sur 52 votants, <persName>Ampère</persName> réunit 28 suffrages, <persName>Cauchy</persName> 10,
                     <persName>Binet</persName> 7, <persName>Duvillard</persName> 6. </note>
             </div>
         </back>
