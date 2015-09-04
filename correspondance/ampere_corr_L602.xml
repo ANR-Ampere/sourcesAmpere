@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1821-05-24-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +100,11 @@
                <witness xml:id="L602manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">Belgique</country>
-                        <settlement xmlns="">Bruxelles</settlement>
-                        <institution xmlns="">Bibliothèque de l'Académie royale de
+                        <country>Belgique</country>
+                        <settlement>Bruxelles</settlement>
+                        <institution>Bibliothèque de l'Académie royale de
                            Belgique</institution>
-                        <repository xmlns="">Fonds Stassart [note de Louis DE LAUNAY]</repository>
+                        <repository>Fonds Stassart [note de Louis DE LAUNAY]</repository>
                      </msIdentifier>
                      <physDesc>
                         <p>Trois pages 21 x 26, adresse sur la quatrième. [note de Louis DE
@@ -141,7 +142,7 @@
         <correspAction type="received">
           <persName type="adressee">Stassart, Gosvin de (baron)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -162,11 +163,12 @@
    <text type="correspondance" decls="#ampere_corr_L1821-05-24-a">
       <body>
          <div>
-            <opener>
+            <opener><placeName>Paris</placeName>
           <date when="1821-05-24">24 mai 1821</date>
         </opener>
-            <p>Monsieur le <persName>Baron</persName>, Je vous envoie joints à cette lettre six exemplaires de mon
-               mémoire <ref xmlns="" target="#ampere_ref_379.xml">*</ref> accompagnés chacun d'un
+            <opener>Monsieur le <persName>Baron</persName>, </opener>
+            <p>Je vous envoie joints à cette lettre six exemplaires de mon
+               mémoire <ref target="#ampere_ref_379.xml">*</ref> accompagnés chacun d'un
                exemplaire du compte rendu des nouveaux faits qui y sont exposés et de ce que j'y ai
                ajouté depuis, fait à l'<orgName>Institut</orgName> par M. <persName>Delambre</persName>. Je vous prie d'abord d'agréer
                l'hommage de ces deux petits ouvrages qui, j'espère, feront époque dans l'histoire de
@@ -174,10 +176,11 @@
                bonté de me promettre de faire remettre les autres exemplaires aux personnes qui,
                dans le royaume des <placeName>Pays-Bas</placeName>, s'occupent de la science dont ils sont destinés à
                étendre une des branches les plus curieuses, il ne me reste qu'à vous offrir tous mes
-               remerciements de ce que vous voulez bien me rendre ce service. Je désire beaucoup que
+               remerciements de ce que vous voulez bien me rendre ce service.</p>
+            <p>Je désire beaucoup que
                chaque exemplaire du mémoire soit éclairci et complété par le compte rendu : c'est
                pourquoi je l'y ai joint. J'ai déjà envoyé de ces exemplaires à MM. <persName>van Mons</persName> et <persName>Bory
-               de Saint-Vincent</persName> <ref>(2)</ref>. Mais il me serait bien agréable que vous puissiez en faire
+               de Saint-Vincent</persName> <ref target="#corresp2">(2)</ref>. Mais il me serait bien agréable que vous puissiez en faire
                remettre aux professeurs de physique des trois <orgName>Universités de <placeName>Belgique</placeName>
           </orgName> et, s'il en
                restait après ceux dont je vous prie de disposer pour les physiciens que vous
@@ -186,13 +189,16 @@
                quelques occasions pour ceux d'une ou deux universités hollandaises. Au reste, je
                m'en rapporte absolument à vous, Monsieur le <persName>Baron</persName>, pour le choix des personnes à qui
                vous les remettrez, n'ayant pour but en cela que de répandre la connaissance de mes
-               travaux sur ce sujet. J'avoue qu'une des personnes à qui j'aurais été très flatté
-               d'en faire parvenir est M. <persName>Omalius d'Halloy</persName> <ref>(3)</ref>, que j'ai vu autrefois à <placeName>Paris</placeName>, mais
+               travaux sur ce sujet.</p>
+            <p>J'avoue qu'une des personnes à qui j'aurais été très flatté
+               d'en faire parvenir est M. <persName>Omalius d'Halloy</persName> <ref target="#corresp3">(3)</ref>, que j'ai vu autrefois à <placeName>Paris</placeName>, mais
                qui m'a sans doute oublié. Je ne sais où il est actuellement, mais je pense qu'il
                continue d'aimer les sciences dont il s'est occupé avec les succès les plus
-               honorables. Je vous prie d'offrir à <persName>Mme de Stassart</persName> l'hommage de mon profond respect
-               et d'agréer celui de ma vive reconnaissance et de la plus haute considération. J'ai
-               l'honneur d'être, Monsieur le <persName>Baron</persName>, votre très humble et très obéissant serviteur.
+               honorables.</p>
+            <p>Je vous prie d'offrir à <persName>Mme de Stassart</persName> l'hommage de mon profond respect
+               et d'agréer celui de ma vive reconnaissance et de la plus haute considération.</p>
+            <p>J'ai
+               l'honneur d'être, Monsieur le <persName>Baron</persName>, votre très humble et très obéissant serviteur.<lb/>
                <persName>A. Ampère</persName>
         </p>
             <closer>A Monsieur le <persName>Baron de Stassart</persName>, hôtel Dubois, <placeName>rue Traversière-Saint-Honoré</placeName>, à
@@ -203,10 +209,12 @@
          <div>
             <note xml:id="corresp1">(1) Trois pages 21 x 26, adresse sur la quatrième. [Bibliothèque
                de L'<orgName>Académie Royale de <placeName>Belgique</placeName>
-          </orgName>, Fonds <persName>Stassart</persName>.] (2) <persName>Van Mons (Jean-Baptiste)</persName>,
+          </orgName>, Fonds <persName>Stassart</persName>.]</note>
+            <note xml:id="corresp2">(2) <persName>Van Mons (Jean-Baptiste)</persName>,
                <date from-iso="1765" to-iso="1842">1765-1842</date>, élu associé non-résident de la section de chimie à l'<orgName>Institut</orgName> eu <date when-iso="1796">1796</date>,
                savant belge. <persName>Bory Saint-Vincent (Jean-Baptiste)</persName> <date from-iso="1778" to-iso="1846">1778-1846</date>, géologue français,
-               académicien libre en <date when-iso="1734">1734</date>. (3) <persName>Omalius d'Halloy (Jean-Baptiste-Julien)</persName>, <date from-iso="1783" to-iso="1842">1783-1842</date>,
+               académicien libre en <date when-iso="1734">1734</date>. </note>
+            <note xml:id="corresp3">(3) <persName>Omalius d'Halloy (Jean-Baptiste-Julien)</persName>, <date from-iso="1783" to-iso="1842">1783-1842</date>,
                minéralogiste belge, correspondant de l’<orgName>Institut</orgName> en <date when-iso="1842">1842</date>. </note>
          </div>
       </back>

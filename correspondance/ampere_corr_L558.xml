@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -75,7 +76,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1817-11-17-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -96,11 +97,11 @@
                <witness xml:id="L558manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 370</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 370</idno>
                      </msIdentifier>
                   </msDesc>
           </witness>
@@ -133,7 +134,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -154,10 +155,11 @@
    <text type="correspondance" decls="#ampere_corr_L1817-11-17-a">
       <body>
          <div>
-            <opener>
+            <opener><pb n="59" facs="#ACAS_CRHST_AMP_25_370_0059_r.jpg"/><placeName>Lyon</placeName> le 
           <date when="1817-11-17">17 novembre 1817</date>
         </opener>
-            <p>Cher frère et ami, J'ai vu avec bien du plaisir dans ta dernière la convalescence de
+            <opener>Cher frère et ami,</opener>
+            <p> J'ai vu avec bien du plaisir dans ta dernière la convalescence de
                ton fils dont j'étais en peine. J'espère qu'il est à ce moment en parfaite santé. Mme
                <persName>Carron</persName> ne m'avait pas appris ton dessein de vendre <placeName>Poleymieux</placeName>, en sorte que, n'étant
                instruit de rien, je lui ai demandé où cela en était. D'après ce qu'elle m'a dit, il
@@ -166,15 +168,17 @@
                dédommagements ; mais j'en ai trop peu su par Mme <persName>Carron</persName> pour te dire en quoi
                consistent ses prétentions. Ce sera le sujet d'une lettre que t'écrira ou t'a
                peut-être écrite M. <persName>Buisson</persName> : il pense que ce domaine vendu en détail t'aurait rendu
-               davantage. Quant à l'opinion de Mme <persName>Carron</persName> et de tes amis sur ta détermination à
+               davantage.</p>
+            <p>Quant à l'opinion de Mme <persName>Carron</persName> et de tes amis sur ta détermination à
                cette vente, si ton bonheur te fait rencontrer une bonne acquisition d'immeuble à
                <placeName>Paris</placeName>, c'est-à-dire en bon état et libre d'hypothèques et entraves qui pourraient
                dans la suite te causer de l'ennui, il n'est pas douteux, ainsi que tu le dis, que tu
                augmenteras beaucoup ton revenu, quand même tu aurais augmenté le prix de la ferme de
-               <placeName>Poleymieux</placeName> qui n'était pas porté à beaucoup près à sa valeur. D'autre part, ce qui
+               <placeName>Poleymieux</placeName> qui n'était pas porté à beaucoup près à sa valeur.</p>
+            <p>D'autre part, ce qui
                peut te donner de l'inquiétude, c'est que, comme le proverbe dit, on connaît bien ce
                qu'on vend et l'on ne connaît pas ce qu'on achète. <placeName>Poleymieux</placeName> est un excellent
-               domaine qui rendrait à un propriétaire qui voudrait en faire son habitation et y
+               domaine qui rendrait<pb n="60" facs="#ACAS_CRHST_AMP_25_370_0060_v.jpg"/> à un propriétaire qui voudrait en faire son habitation et y
                donner ses soins. Mais ce n'est pas là le cas qui peut te regarder puisqu'au
                contraire ton sort et celui de ton fils paraissent fixés à <placeName>Paris</placeName>. Il faut repousser
                l'idée du retour de ces temps malheureux qui nous ont affligés et où <placeName>Poleymieux</placeName>, dans
@@ -183,9 +187,12 @@
                maintiendra la tranquillité dont nous jouissons. Bref, tout le bavardage que je te
                fais consiste à te dire que le succès de cette affaire dépend ainsi que tant d'autres
                du sort que le destin prépare à la <placeName>France</placeName>, comme encore beaucoup de l'acquisition que
-               tu feras à <placeName>Paris</placeName> <ref>(1)</ref>. Adieu, très cher frère, ne travaille pas au delà de tes forces
-               et conserve ta santé ! Ton affectionné, <persName>P. MARSIL</persName>
+               tu feras à <placeName>Paris</placeName> <ref target="#corresp1">(1)</ref>.</p>
+            <p><gap reason="lacune_CGA"/><pb n="61" facs="#ACAS_CRHST_AMP_25_370_0061_r.jpg"/>Adieu, très cher frère, ne travaille pas au delà de tes forces
+               et conserve ta santé ! Ton affectionné,<lb/>
+               <persName>P. MARSIL</persName>
         </p>
+            <closer>Monsieur <persName>Ampère</persName>, inspecteur général des études, passage du Commerce, rue de l'ancienne Comédie franç<ex>aise</ex> n°19 à <placeName>Paris</placeName></closer>
          </div>
       </body>
       <back>

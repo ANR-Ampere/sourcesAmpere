@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -79,7 +80,7 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct xml:id="ampere_corr_L1822-06-12-a">
-                    <monogr xmlns="">
+                    <monogr>
                         <author>
                             <surname>De Launay</surname>
                             <forename>Louis</forename>
@@ -99,7 +100,7 @@
                 <listWit>
                     <witness xml:id="L618edition">
             <biblStruct>
-                            <monogr xmlns="">
+                            <monogr>
                                 <editor>
                                     <surname>Joubert</surname>
                                     <forename>Jules</forename>
@@ -146,7 +147,7 @@
         <correspAction type="received">
           <persName type="adressee">La Rive, Gaspard de</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -167,10 +168,11 @@
     <text type="correspondance" decls="#ampere_corr_L1822-06-12-a">
         <body>
             <div>
-                <opener>
+                <opener><placeName>Paris</placeName>
           <date when="1822-06-12">12 juin 1822</date>
         </opener>
-                <p>Monsieur, à l'occasion du Mémoire de M. <persName>Faraday</persName>, vous avez ajouté à nos
+                <opener>Monsieur,</opener>
+                <p> à l'occasion du Mémoire de M. <persName>Faraday</persName>, vous avez ajouté à nos
                     connaissances sur les phénomènes électro-dynamiques, un fait nouveau qui me
                     paraît très important pour éclaircir la théorie de ces phénomènes. Je veux
                     parler de la manière dont un conducteur voltaïque plié en anneau après que ses
@@ -178,18 +180,21 @@
                     pôle de l'aimant répond à l'intérieur de l'anneau, glisse le long de ce côté en
                     s'éloignant de son milieu, jusqu'à ce qu'une de ses branches, atteignant
                     l'extrémité du barreau aimanté, tourne autour d'elle, et que l'anneau entourant
-                    alors ce barreau revienne à son milieu <gap xmlns="" reason="lacune_CGA"/> Je me
+                    alors ce barreau revienne à son milieu <gap reason="lacune_CGA"/></p>
+                <p>Je me
                     bornerai dans cette lettre à vous exposer un résultat auquel je suis parvenu, il
                     y a plusieurs mois, mais que je n'ai point encore publié, excepté l'indication
                     que j'en ai faite dans une note jointe à l'Analyse des travaux de l'<orgName>Académie
                     royale des Sciences</orgName> pendant l'année <date when-iso="1821">1821</date>, p. 22 et 23 de la partie mathématique
                     par M. <persName>Delambre</persName> qui a bien voulu y consigner cette note. Vous avez, sans doute,
                     reçu cette analyse qui a été publiée le <date when="1822-04-08">8 avril dernier</date>. Voici en quoi consiste
-                    le résultat dont je parle. [Fig.1 voir fac-similé] Considérons d'abord un aimant
-                    cylindrique DC (fig. 1) comme ayant autour de chacune de ses particules des
+                    le résultat dont je parle.</p>
+                <p>Considérons d'abord un aimant
+                    cylindrique DC comme ayant autour de chacune de ses particules des
                     courants électriques, qui, d'après ma théorie, seront dirigés du côté qu'on voit
                     dans la figure, comme l'indiquent les flèches de cette figure, lorsque
-                    l'extrémité D sera le pôle austral et l'extrémité C le pôle boréal. Supposons
+                    l'extrémité D sera le pôle austral et l'extrémité C le pôle boréal.</p>
+                <p>Supposons
                     d'abord, quoique cela ne soit pas probablement ainsi, que ces courants soient
                     tous de la même intensité et dans des plans perpendiculaires à l'axe de l'aimant
                     DC, et qu'on en approche, dans une direction perpendiculaire au plan de la
@@ -207,25 +212,29 @@
                     situées dans l'intervalle Mf, qui le feront mouvoir vers f jusqu'à ce qu'il
                     atteigne le milieu de l'aimant : point auquel il devra s'arrêter après avoir
                     oscillé de part et d'autre de ce milieu. C'est ce que vous avez vérifié, dans
-                    vos ingénieuses expériences, sur l'anneau voltaïque flottant. Si le courant du
+                    vos ingénieuses expériences, sur l'anneau voltaïque flottant.</p>
+                <p>Si le courant du
                     fil conducteur projeté en E allait, au contraire, de l'espace postérieur au plan
                     de la figure, à l'espace antérieur, il y aurait répulsion entre ce fil et toutes
                     les particules de l'aimant ; les répulsions de composées, parallèlement à l'axe
                     des particules situées dans les intervalles oM, on, se détruiraient encore
                     mutuellement, et il resterait les répulsions provenant des particules de
                     l'intervalle Mf, qui repousseraient le fil conducteur vers l'extrémité n de
-                    l'aimant dont il est le plus près, comme vous l'avez aussi vérifié. Cette action
+                    l'aimant dont il est le plus près, comme vous l'avez aussi vérifié.</p>
+                <p>Cette action
                     parallèle à l'axe de l'aimant est, dans les deux cas, d'autant plus grande que
                     le point E est plus loin du milieu de cet axe, parce que la portion Mf, qui la
                     produit, est alors plus grande et que la distance Mo à laquelle elle agit est
-                    plus petite. [Fig.2 voir fac-similé] Représentons maintenant par la figure 2 la
+                    plus petite.</p>
+                <p>Représentons maintenant par la figure 2 la
                     section faite dans un aimant par un plan qui passe par son axe. Soient A
                     l'extrémité de cet aimant, qui se dirige vers le Nord, et B celle qui se dirige
                     au Midi ; les courants de chacune de celles des particules de l'aimant qui se
                     trouvent dans l'axe ne pourront qu'être dans des plans perpendiculaires à cet
                     axe, et leurs directions, d'après la situation que nous supposons aux pôles de
                     cet aimant, seront, dans la partie supérieure de chacune de ses particules,
-                    celles qu'indiquent les flèches marquées sur l'axe de A en B. Considérons
+                    celles qu'indiquent les flèches marquées sur l'axe de A en B.</p>
+                <p>Considérons
                     maintenant les courants électriques des autres particules formant des séries
                     parallèles à la série AB ; il résulte de ce qui précède que les parties de ces
                     courants les plus éloignées de l'axe tendront, par l'action de ceux de la série
@@ -238,7 +247,8 @@
                     seront plus éloignées de cet axe et s'écarteront davantage de son milieu ; en
                     sorte que ces courants, dans la partie supérieure de chaque particule, devront
                     prendre la direction marquée par les flèches de la figure dans toute la masse de
-                    l'aimant. D'après les calculs de M. <persName>Savary</persName>, confirmés en ce point par les
+                    l'aimant.</p>
+                <p>D'après les calculs de M. <persName>Savary</persName>, confirmés en ce point par les
                     expériences de M. <persName>Faraday</persName> sur les fils conducteurs pliés en hélice, que ce
                     célèbre physicien a consignées dans son Mémoire du <date when="1821-09-11">11 septembre 1821</date>, les points
                     auxquels on donne dans l'aimant le nom des pôles, devraient être situés
@@ -247,24 +257,26 @@
                     qu'ils ont tous la même intensité. C'est ce qui n'a pas lieu pour les aimants
                     ordinaires, mais seulement pour ceux qu'a construits, avec des fils d'acier
                     extrêmement fins, un jeune physicien de <placeName>Paris</placeName>, déjà célèbre par ses belles
-                    recherches sur l'électricité développée par la pression <ref>(2)</ref>. Or, il est aisé de
+                    recherches sur l'électricité développée par la pression <ref target="#corresp2">(2)</ref>.</p>
+                <p>Or, il est aisé de
                     voir qu'indépendamment de ce que cet effet serait produit par une intensité
                     variable des courants, qui serait d'autant plus grande que ces courants seraient
                     plus près du milieu de l'aimant, ainsi que je l'ai admis d'abord, ce même effet
                     est une suite nécessaire de l'inclinaison ries plans des mêmes courants, dans le
                     sens que je viens d'indiquer. Il l'est également de voir que le même fil
                     conducteur qui est attiré dans l'intervalle des deux pôles doit être repoussé au
-                    delà ; que les deux [Fig.3 voir fac-similé] extrémités de deux aimants qui
+                    delà ; que les deux extrémités de deux aimants qui
                     portent des noms contraires doivent s'attirer non seulement quand les axes des
                     deux aimants sont en ligne droite, mais encore quand ils sont dans la position
                     représentée dans la figure 3. Cette inclinaison des plans des courants
                     électriques des aimants donne une solution plus complète que celle dont je me
                     suis servi dans le post-scriptum de la lettre à M. <persName>
             <choice>
-              <sic>Van Beck</sic> <corr>[van Beek]</corr>
+              <sic>Van Beck</sic> <corr>van Beek</corr>
             </choice>
           </persName>, que vous
-                    avez pu lire dans l'exemplaire de mon recueil que vous a remis M. <persName>Pictet</persName>. Il ne
+                    avez pu lire dans l'exemplaire de mon recueil que vous a remis M. <persName>Pictet</persName>.</p>
+                <p>Il ne
                     reste plus qu'à voir pourquoi, dans l'observation nouvelle que vous doit la
                     Physique, quand les deux branches du fil conducteur plié en anneau se sont
                     appliquées contre l'aimant, elles glissent jusqu'à ce qu'une d'elles atteigne
@@ -273,14 +285,16 @@
                     éloignée en est repoussée avec une force évidemment plus grande que la force
                     attractive exercée sur l'autre branche, ces deux forces étant parallèles à l'axe
                     de l'aimant, et la seconde étant exercée sur une branche de fil conducteur plus
-                    éloignée du milieu de l'aimant. Je suis, etc. <persName>Ampère</persName>
+                    éloignée du milieu de l'aimant. Je suis, etc.<lb/>
+                    <persName>Ampère</persName>
         </p>
             </div>
         </body>
         <back>
             <div>
                 <note xml:id="corresp1">(1) D'après <persName>Joubert</persName> (Collection de Mémoires relatifs à la
-                    Physique, t. II, p. 153). (2) <persName>A. BECQUEREL</persName>, <title>Annales de Chimie et de Physique</title>, 2e
+                    Physique, t. II, p. 153).</note>
+                <note xml:id="corresp2">(2) <persName>A. BECQUEREL</persName>, <title>Annales de Chimie et de Physique</title>, 2e
                     série, t. 12, <date when-iso="1823">1823</date>, p. 113. </note>
             </div>
         </back>

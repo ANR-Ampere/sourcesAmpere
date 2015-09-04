@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -137,7 +138,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_C125">Carron, Elise (soeur de Julie)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -163,8 +164,9 @@
             <foreign xml:lang="ita">di maggio del 1801 [6 mai 1801]</foreign>
           </date>
         </opener>
+            <opener><foreign xml:lang="ita">Cara ed amabile sorella,</foreign></opener>
             <p>
-          <foreign xml:lang="ita">Cara ed amabile sorella, Priachè un destin crudele l'involo à tutti suoi amici per
+          <foreign xml:lang="ita"> Priachè un destin crudele l'involo à tutti suoi amici per
                riportarla frà le bracchia del caro sposo, le promessi de scriverle in quella lingua
                che le sembra cosi piacevole, di farte perdonnare a tutto cio che le si scrive in
                italiano. Mi perdonna dunque s'io male scrivo, che da trê anni mi sono quasi affato
@@ -172,12 +174,14 @@
                sono da scriverle.Vorrei aver da narrarle alcune novellette che potessero dilettarla.
                Ma non so dove pigliarne. Se posso a bel agio disporrc d'on poco di tempo, non sono
                cosi sciocco di perderlo lunge del amor mio, e del nostro tenero pargolette, per
-               andare in traccia di. quel che si fa o si dice. I miei amici potrebbero farmi
+               andare in traccia di. quel che si fa o si dice.</foreign>
+               </p>
+            <p><foreign xml:lang="ita">I miei amici potrebbero farmi
                consapevole d'alcune leggiadre cosette, ma se conducono corne se m'avessero affato
                dimenticato. Econe uno al quai già due volte scrissi senza averne la menoma riposta.
                Non so corne sensarlo se non persuadendomi che possibile ê che sia morte ; se il
                povero se lasciato innamorare, temo molto che sia morto d'affano. Mi dirà che in
-               questo secolo gli amorosi non muojono (sic) più, se non di modo che dopo pochi
+               questo secolo gli amorosi non muojono più, se non di modo che dopo pochi
                momenti, risorgono non meno vivi che pria di morire, ancorche ne restano per volta un
                poco pallidi. Udia dunque, e udiano insieme tette le donne scortesi e crudeli, la
                sventura di un giovine di questa citta. II figlio del signor <persName>Joseph René Ruelle</persName>, nomo
@@ -192,21 +196,29 @@
                pistoletto, bel coipo ! dal quale e caduto morto ! Oggi tutti giovani vanno comprare
                cervisia in quello caffè, per veder Madame <persName>Koch</persName>, e insieme l'appertura che il piombo
                ha fatta nelle solive, dopo aver dato la morte a povero giovine. Vene sono più
-               favoritè della sorte. E si dice che le donne non sono tette crudeli a tal segno.
+               favoritè della sorte. E si dice che le donne non sono tette crudeli a tal segno.</foreign></p>
+            <p><foreign xml:lang="ita">
                Addio, cara sorella, vi abbracia con una cosi tenera amista, che alcuni potriano
                prenderlà per un sentimento più vivo, s'io la sentissi per una altra, e non per mia
                sorella. Abbraciate a mio nome il mio fratello, gli farà questo braccio piu
                gradevole, ne son certo, che un mio. Non s'offenda, non di mono s'io credo che se il
                mio gli fosse dato in Lione in mezzo a tutti noi, gli farebbe forse piacere ancor più
                vivo ! Felice e avventuroso bacio che sarebbe il pegno della felicità che gustaremo
-               tutti uniti ! Mi creda per la vita il suo più fidele amico, e divotissimo Fratello <persName ref="#pers_A366">A. AMPÈRE</persName>. Io avea tralasciato questa pagina da scrivere acciochè la mia Guiliu potesse
+               tutti uniti ! Mi creda per la vita il suo più fidele amico, e divotissimo Fratello <persName ref="#pers_A366">A. AMPÈRE</persName>.</foreign>
+               </p>
+            <p><foreign xml:lang="ita">Io avea tralasciato questa pagina da scrivere acciochè la mia Guiliu potesse
                scriverle anche gli addj, che avrebbe trovati dolci in ver ma più amari ancora, di
                darle di pin presso. Ma mi sono dimenticato di fat-ne ella consapevole di questo, e
                oggi e andata dalla sua madre, sicchè non posso più fare ch'ella le dice tutte le
                premure che sentono scambievolmente due sorelle separate dal destino. Mene rincresce,
                ma che fare ? Bisogno inviare or sie ora quella lettera à la posta. D'altrove conosce
                assai bene l'amista di sua picciola sorella, per non chiederne pegni. Addio dunque,
-               cara sorella mia</foreign> [TRADUCTION] <placeName>Lyon</placeName>, le <date when="1801-05-06">6 mai 1801</date> Chère et aimable sœur, Avant qu'un
+               cara sorella mia</foreign></p>
+            </div>
+         <div>
+            <opener><placeName>Lyon</placeName>, le <date when="1801-05-06">6 mai 1801</date></opener>
+            <opener>Chère et aimable sœur,</opener>
+            <p> Avant qu'un
                destin cruel vous ait soustraite à tous vos amis pour vous ramener dans les bras d'un
                cher époux, je vous ai promis de vous écrire dans cette langue qui vous semble si
                agréable pour vous faire pardonner tout ce qu'on vous écrit en italien. Pardonnez-moi
@@ -215,7 +227,8 @@
                écrire. Je voudrais avoir à vous raconter quelques nouvelles qui puissent vous
                plaire. Mais je ne sais où les prendre. Si je puis disposer à mon aise d'un peu de
                temps, je ne suis pas assez sot pour le perdre loin de mon amour et de notre tendre
-               petit enfant pour aller à la quête de ce qui se fait ou se dit. Mes amis pourraient
+               petit enfant pour aller à la quête de ce qui se fait ou se dit.</p>
+            <p>Mes amis pourraient
                m'informer de quelques galantes petites choses ; mais ils se conduisent comme s'ils
                m'avaient tout à fait oublié. Il y en a un auquel j'ai déjà écrit deux fois sans
                avoir la moindre réponse. Je ne sais comment l'interpréter à moins de supposer qu'il
@@ -236,15 +249,17 @@
                jeunes gens vont acheter de la bière dans ce café pour voir Mme <persName>Koch</persName> et, en même
                temps, le trou que la balle a fait dans les solives après avoir donné la mort au
                pauvre jeune homme. Ils en sont plus favorisés du sort, et l'on dit que toutes les
-               femmes ne sont pas aussi cruelles. Adieu, ma chère sœur, je vous embrasse avec une
+               femmes ne sont pas aussi cruelles.</p>
+            <p>Adieu, ma chère sœur, je vous embrasse avec une
                si tendre amitié que l'on pourrait la prendre pour un sentiment plus vif si je
                l'éprouvais pour une autre et non pour ma sœur. Embrassez en mon nom mon frère : ce
                baiser lui sera plus agréable, j'en suis certain, que le mien. Il ne s'offensera pas
                du moins si je pense que, si le mien lui était donné à <placeName>Lyon</placeName> au milieu de tous les
                nôtres, il lui ferait peut-être un plaisir encore plus vif. Heureux et fortuné baiser
                qui serait le signe de la félicité que nous goûterons tous en étant réunis !
-               Croyez-moi pour la vie votre ami le plus fidèle et le plus dévoué. Votre frère
-               <persName ref="#pers_A366">AMPÈRE</persName>. J'avais laissé cette page libre afin que ma <persName ref="#pers_C129">Julie</persName> put écrire aussi les adieux
+               Croyez-moi pour la vie votre ami le plus fidèle et le plus dévoué. Votre frère<lb/>
+               <persName ref="#pers_A366">AMPÈRE</persName>.</p>
+            <p>J'avais laissé cette page libre afin que ma <persName ref="#pers_C129">Julie</persName> put écrire aussi les adieux
                qu'elle aurait trouvé certainement doux mais plus amers encore de donner de plus
                près. Mais j'ai oublié de l'en informer et aujourd'hui elle est allée chez sa mère de
                sorte que je ne puis faire qu'elle vous dise tous les sentiments qu'éprouvent

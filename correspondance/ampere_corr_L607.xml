@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1821-09-27-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +100,11 @@
                <witness xml:id="L607manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 393 quarto</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 393 quarto</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>Quatre pages in-4°. Timbre de la poste, 20 octobre 1821. 68 Lyon.</p>
@@ -140,7 +141,7 @@
         <correspAction type="received">
           <persName type="adressee">Ballanche, Pierre-Simon</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,36 +162,41 @@
    <text type="correspondance" decls="#ampere_corr_L1821-09-27-a">
       <body>
          <div>
-            <opener>
+            <opener><pb n="941" facs="#ACAS_CRHST_AMP_26_393_quarto_0213_r.jpg"/><placeName>Paris</placeName>
           <date when="1821-09-27">27 septembre 1821</date>
         </opener>
-            <p>Mon cher ami, me voilà en bonne santé auprès de <persName>Bredin</persName>
-          <note xmlns="">C'est donc par
-                  erreur (habitude ?) qu'<per>Ampère</per> a écrit "<pla>Paris</pla>" en datant cette lettre (cf. folio 1
-                  du manuscrit), comme le confirme le cachet postal "<pla>Lyon</pla>" (cf. folio 4 du
-                  manuscrit).</note>. Nous avons bien causé de toi et de mon fils. écris-moi, je
+            <p>Mon cher ami, me voilà en bonne santé auprès de <persName>Bredin</persName> <ref target="#corresp2">(2)</ref>. Nous avons bien causé de toi et de mon fils. écris-moi, je
                t'en prie, pour me parler de vous deux et pour que mon fils me marque directement, ou
                que tu m'écrives comment je dois adresser mes lettres à lui à chaque époque, afin
-               qu'il les ait d'abord à <placeName>Saint-Germain</placeName> <ref>(2)</ref>, puis à <placeName>Vanteuil</placeName>, suivant le temps qu'il
+               qu'il les ait d'abord à <placeName>Saint-Germain</placeName> <ref target="#corresp3">(3)</ref>, puis à <placeName>Vanteuil</placeName>, suivant le temps qu'il
                doit y passer, depuis quel jour jusqu'à quel jour. Le motif pour lequel je lui écris
                dans celle-ci m'a tellement bouleversé que je ne sais ce que je te dis. Nous t'aimons
                tant, <persName>Bredin</persName> et moi, qu'il n'y a que faire de te le dire. Je lui ai remis le paquet
                de livres que tu m'avais donné pour lui. Il croyait y trouver un livre sur les
-               hiéroglyphes que tu lui avais promis et que tu as oublié. Il faut que je te quitte
+               hiéroglyphes que tu lui avais promis et que tu as oublié.</p>
+            <p>Il faut que je te quitte
                pour écrire à mon fils. <persName>Dugas</persName> se porte bien, je le verrai dès que je le pourrai. Je
-               verrai aussi <persName>Mme Polingue</persName> dont je te donnerai des nouvelles. Adieu, mon bon ami, je
-               t'embrasse bien tendrement et te prie d'offrir mes hommages aux Dames. <persName>A. Ampère</persName>.
-               P.-S. — Si <persName>Ampère</persName> n'était pas plus à <placeName>Saint-Germain</placeName>, tu vois l'importance de la
+               verrai aussi <persName>Mme Polingue</persName> dont je te<pb n="942" facs="#ACAS_CRHST_AMP_26_393_quarto_0214_v.jpg"/> donnerai des nouvelles. Adieu, mon bon ami, je
+               t'embrasse bien tendrement et te prie d'offrir mes hommages aux Dames.<lb/>
+               <persName>A. Ampère</persName>.</p>
+            <p> P.-S. — Si <persName>Ampère</persName> n'était pas plus à <placeName>Saint-Germain</placeName>, tu vois l'importance de la
                chose ; fais-lui parvenir tout de suite et sûrement cette lettre ! Aucune difficulté
-               ne doit arrêter.<persName> A. Ampère</persName>.</p>
+               ne doit arrêter.</p>
+            <p><gap reason="lacune_CGA"/></p>
             <closer>
-          <placeName>rue du Cherche-Midi, n° 23</placeName>, <placeName>faubourg Saint-Germain</placeName>, à <abbr>Paris</abbr> </closer>
+          <placeName>A monsieur <persName>Ballanche</persName> rue du Cherche-Midi, n° 23</placeName>, <placeName>faubourg Saint-Germain</placeName>, à <abbr>Paris</abbr> </closer>
          </div>
       </body>
       <back>
          <div>
             <note xml:id="corresp1">(1) Quatre pages in-4°. Timbre de la poste, <date when="1821-10-20">20 octobre 1821</date>. 68
-               <ab>Lyon</ab>. (2) <persName>Jean-Jacques Ampère</persName> commençait à suivre <persName>Mme Récamier</persName>. </note>
+               <ab>Lyon</ab>. 
+               </note>
+            <note xml:id="corresp2">(2) C'est donc par
+               erreur (habitude ?) qu'<persName>Ampère</persName> a écrit "<placeName>Paris</placeName>" en datant cette lettre (cf. folio 1
+               du manuscrit), comme le confirme le cachet postal "<placeName>Lyon</placeName>" (cf. folio 4 du
+               manuscrit).</note>
+            <note xml:id="corresp3">(3) <persName>Jean-Jacques Ampère</persName> commençait à suivre <persName>Mme Récamier</persName>. </note>
          </div>
       </back>
    </text>

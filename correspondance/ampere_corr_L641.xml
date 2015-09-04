@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1823-08-21-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,10 +100,10 @@
                <witness xml:id="L641manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">Suisse</country>
-                        <settlement xmlns="">Genève</settlement>
-                        <institution xmlns="">Bibliothèque de Genève</institution>
-                        <idno xmlns="">Ms 2314.</idno>
+                        <country>Suisse</country>
+                        <settlement>Genève</settlement>
+                        <institution>Bibliothèque de Genève</institution>
+                        <idno>Ms 2314.</idno>
                      </msIdentifier>
                   </msDesc>
           </witness>
@@ -135,7 +136,7 @@
         <correspAction type="received">
           <persName type="adressee">La Rive, Auguste de</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -156,15 +157,17 @@
    <text type="correspondance" decls="#ampere_corr_L1823-08-21-a">
       <body>
          <div>
-            <opener>
+            <opener><placeName>Paris</placeName>
           <date when="1823-08-21">21 août 1823</date>
         </opener>
-            <p>Monsieur et très cher ami, Je suis si honteux de n'avoir pas encore répondu à la
+            <opener>Monsieur et très cher ami,</opener>
+            <p> Je suis si honteux de n'avoir pas encore répondu à la
                lettre que vous m'avez fait l'honneur de m'écrire le <date when="1823-05-13">13 mai dernier</date>, que j'ose à
                peine réparer ma faute en profitant du premier moment où je me trouve un peu moins
                accablé d'occupations urgentes par la fin des cours et des examens qui les suit
                immédiatement à l'<orgName>école Polytechnique</orgName>. Je désire trop cependant n'être pas privé plus
-               longtemps de votre intéressante et instructive correspondance pour ne pas le faire.
+               longtemps de votre intéressante et instructive correspondance pour ne pas le faire.</p>
+            <p>
                Combien j'aurais plus désiré encore de vous voir remplir la promesse que vous m'aviez
                faite de venir cette année à <placeName>Paris</placeName> ! Que de choses nous aurions eu à nous dire. Vous
                aviez une chambre toute prête, les fenêtres sur mon jardin où nous aurions eu de si
@@ -178,7 +181,8 @@
                votre père et de M. <persName>Maurice</persName> si je n'ai pu leur écrire. Je n'ai pas eu le temps
                d'exécuter la moitié des choses les plus importantes que j'avais à faire. Je pense
                que M. <persName>Maurice</persName> reviendra enfin à <placeName>Paris</placeName>. Ce sera une grande joie pour moi, vous la
-               doubleriez si vous profitiez de l'occasion pour venir avec lui. Ensuite, vous me
+               doubleriez si vous profitiez de l'occasion pour venir avec lui.</p>
+            <p>Ensuite, vous me
                feriez bien plaisir si vous pouviez me donner des nouvelles d'un morceau que
                j'envoyai il y a deux ou trois mois à M. <persName>Pictet</persName> dans l'espoir qu'il l'insérerait
                peut-être dans la <title>Bibliothèque scientifique</title>. Ce morceau, qui n'a paru dans aucun
@@ -193,16 +197,17 @@
                complet et très bon sur tout ce qui dépend de l'électricité dynamique ; il est de M.
                de <persName>
             <choice>
-              <sic>Monferrand</sic> <corr>[Demonferrand]</corr>
+              <sic>Monferrand</sic> <corr>Demonferrand</corr>
             </choice>
           </persName> et a été publié sous ce titre : <orgName>Manuel d'électricité
-               dynamique</orgName>, etc., chez <persName>Bachelier</persName>, libraire, <placeName>quai des Augustins</placeName>. Je vous prierai
+               dynamique</orgName>, etc., chez <persName>Bachelier</persName>, libraire, <placeName>quai des Augustins</placeName>.</p>
+            <p>Je vous prierai
                d'offrir à Monsieur votre père et à Madame votre mère l'hommage de mon respect et de
                la vive reconnaissance que leurs bontés pour moi ont gravée dans mon cœur. Je vous
                en dois aussi beaucoup, Monsieur et très cher ami, des lettres que j'ai reçues de
                vous ; j'en désire une bien vivement, ne fût-elle que de quelques lignes, pour savoir
                des nouvelles de tout ce qui m'intéresse à <placeName>Genève</placeName>. Nul ne vous est plus tendrement
-               attaché et ne fait des vœux plus sincères pour tout ce que vous pouvez désirer. <persName>A.
+               attaché et ne fait des vœux plus sincères pour tout ce que vous pouvez désirer.<lb/> <persName>A.
                Ampère</persName>
         </p>
          </div>

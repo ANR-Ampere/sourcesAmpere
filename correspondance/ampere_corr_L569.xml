@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1818-10-16-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +100,11 @@
                <witness xml:id="L569manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 379</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 379</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>Quatre pages in-4° sans adresse.</p>
@@ -140,7 +141,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,39 +162,47 @@
    <text type="correspondance" decls="#ampere_corr_L1818-10-16-a">
       <body>
          <div>
-            <opener>
-          <date when="1818-10-16">16 octobre [1818]</date>
+            <opener><pb n="267" facs="#ACAS_CRHST_AMP_25_379_0267_r.jpg"/>
+          Ce <date when="1818-10-16">16 <choice><abbr>8bre</abbr> <expan>octobre</expan></choice> [1818]</date>
         </opener>
-            <p>[de <persName>Joséphine Ampère</persName>] Mon bon ami, je suis bien contente que tu t'amuses et que tu
+            <opener>Mon bon ami,</opener>
+            <p> je suis bien contente que tu t'amuses et que tu
                profites du beau temps ; tu sais bien que je te l'avais annoncé lorsque tu passas ici
                quelques jours et qu'il pleuvait ; je te dis que cela ne durerait pas. J'ai parlé à
-               ton papa du livre de M. <persName>de Jussieu</persName> et il l'achètera. Quant au piano, il n'y a rien de
+               ton papa du livre de M. <persName>de Jussieu</persName> et il l'achètera.</p>
+            <p>Quant au piano, il n'y a rien de
                décidé et même il paraît que l'on sera obligé d'en louer un, parce qu'il serait
                difficile d'en acheter un dans ce moment à cause des réparations de la maison et des
-               dépenses qu'elle entraîne. Ta chambre est entièrement achevée. J'ai été, il y a
-               quelques jours, chez ta tante <supplied>
-            <persName>[Carron]</persName>
-          </supplied> passer une partie de la journée et je suis
-               revenue dîner avec <persName>élisa</persName> et ton oncle ; ta tante n'est pas venue à cause de l'odeur
-               de la peinture. Nous avons beaucoup parlé de toi ; <persName>élisa</persName> a dû t'écrire. Tu parles de
+               dépenses qu'elle entraîne.</p>
+            <p>Ta chambre est entièrement achevée. J'ai été, il y a
+               quelques jours, chez ta tante  passer une partie de la journée et je suis
+               revenue dîner avec <persName>élisa</persName> et<pb n="268" facs="#ACAS_CRHST_AMP_25_379_0268_v.jpg"/> ton oncle ; ta tante n'est pas venue à cause de l'odeur
+               de la peinture. Nous avons beaucoup parlé de toi ; <persName>élisa</persName> a dû t'écrire.</p>
+            <p>Tu parles de
                la moitié de l'entresol ; mais, depuis, l'autre moitié est louée à M. <persName>Despretz</persName> que tu
-               as vu à la maison, qui s'occupe de chimie ; il y entrera au mois de janvier. Adieu,
-               mon ami, je t'embrasse de tout mon cœur. <persName>J. Ampère</persName>. Bon ami, j'ai reçu tes trois
+               as vu à la maison, qui s'occupe de chimie ; il y entrera au mois de janvier.</p>
+            <p>Adieu,
+               mon ami, je t'embrasse de tout mon cœur. <lb/>
+               <persName>J. Ampère</persName>.</p></div>
+         <div>
+            <p>Mon bon ami, j'ai reçu tes trois
                lettres et, si je n'y ai pas répondu encore aussi au long que je l'aurais voulu,
                c'est que je suis, entre beaucoup d'autres occupations indispensables, chargé de
                faire pour demain lundi un rapport sur les cours d'analyse et de mécanique que <persName>Cauchy</persName>
                et moi faisons à l'<orgName>école Polytechnique</orgName> : rapport qui n'est pas achevé et qui est
                d'autant plus important qu'il s'agit de justifier et de faire adopter par le <orgName>Conseil
-               de perfectionnement</orgName> ces changements que nous avons proposé de concert de faire au
-               programme de ces cours, surtout à celui du cours de mécanique. Dès que je serai
+                  de perfectionnement</orgName> ces changements<pb n="269" facs="#ACAS_CRHST_AMP_25_379_0269_r.jpg"/> que nous avons proposé de concert de faire au
+               programme de ces cours, surtout à celui du cours de mécanique.</p>
+            <p>Dès que je serai
                quitte de la rédaction de ce rapport et de la correction des dernières feuilles de
                mon mémoire qu'on imprime actuellement et où il ne reste pas beaucoup à faire, je
                t'écrirai la longue lettre que j'ai voulu t'écrire plusieurs fois, sans trouver le
-               temps nécessaire seulement pour en écrire une partie. J'ai été en masse tout à fait
+               temps nécessaire seulement pour en écrire une partie.</p>
+            <p>J'ai été en masse tout à fait
                content de ce que tu m'écris dans ces trois lettres ; mais, dans les détails,
                j'aurais bien des observations à te faire. Ce n'est pas dans une lettre qu'on peut
                les développer ; nous ne parlerons, si tu veux, que de cela d'abord à ton retour. Il
-               est très vrai que le but de l'homme n'est pas cette vie ; ses plus nobles facultés se
+               est très vrai que le but de l'homme n'est<pb n="270" facs="#ACAS_CRHST_AMP_25_379_0270_v.jpg"/> pas cette vie ; ses plus nobles facultés se
                rapportent à une autre existence ; elles seraient de vrais contresens dans l'être
                borné à une durée si bornée, elles qui s'élèvent à l'infini et saisissent
                l'éternité ; il n'y a point des contresens pareils possibles. Je voudrais pouvoir te
@@ -202,10 +211,10 @@
                Jussieu</persName>. Je suis charmé d'apprendre l'existence du père, l'ami dont <persName>de Jussieu</persName> ne
                m'avait point parlé. Ta chambre est entièrement prête, toute repeinte il y a déjà
                plusieurs jours ; elle t'attend, ou plutôt c'est moi qui t'attends avec l'impatience
-               de la plus tendre amitié. Marque-moi l'époque où je pourrai t'embrasser ! Ma cousine
-               est venue se plaindre de ce que ma sœur ne t'avait pas parlé d'elle ; elle m'a
+               de la plus tendre amitié. Marque-moi l'époque où je pourrai t'embrasser !</p>
+            <p>Ma cousine est venue se plaindre de ce que ma sœur ne t'avait pas parlé d'elle ; elle m'a
                chargé de réparer cette faute en te faisant mille amitiés de sa part. Je t'embrasse
-               un million de fois. Ton tendre père <ref>(2)</ref>. <persName>A. Ampère</persName>
+               un million de fois. Ton tendre père <ref target="#corresp2">(2)</ref>. <persName>A. Ampère</persName>
         </p>
             <closer>chez M. <persName>de Jussieu</persName> à <placeName>Vanteuil</placeName> </closer>
          </div>
@@ -213,7 +222,8 @@
       <back>
          <div>
             <note xml:id="corresp1">(1) Quatre pages in-4° sans adresse. Quelques lignes ont été
-               publiées par Mme <persName>Cheuvreux</persName>, p. 143. (2) La correspondance de <persName>Bredin</persName> mentionne trois
+               publiées par Mme <persName>Cheuvreux</persName>, p. 143.</note>
+            <note xml:id="corresp2">(2) La correspondance de <persName>Bredin</persName> mentionne trois
                lettres d'<persName>Ampère</persName> à <persName>Bredin</persName> le <date when="1818-10-23">23 octobre 1818</date>, le <date when="1818-12-01">1er décembre</date> et le <date when="1818-12-25">25 décembre</date>, qui
                nous manquent, sauf le fragment 335 rapporté hypothétiquement au <date when="1818-12-01">1er décembre</date>.
             </note>

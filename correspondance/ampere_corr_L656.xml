@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1824-03-17-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,9 +100,9 @@
                <witness xml:id="L656manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">Suisse</country>
-                        <settlement xmlns="">Genève</settlement>
-                        <institution xmlns="">Bibliothèque de Genève</institution>
+                        <country>Suisse</country>
+                        <settlement>Genève</settlement>
+                        <institution>Bibliothèque de Genève</institution>
                      </msIdentifier>
                   </msDesc>
           </witness>
@@ -134,7 +135,7 @@
         <correspAction type="received">
           <persName type="adressee">La Rive, Auguste de</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -158,8 +159,9 @@
             <opener>
           <date when="1824-03-17">17 mars 1824</date>
         </opener>
-            <p>Monsieur et très cher ami, Je ne sais comment m'excuser auprès de vous d'être resté
-               si longtemps sans répondre à l'intéressante [lettre] que vous me fîtes le plaisir de
+            <opener>Monsieur et très cher ami,</opener>
+            <p> Je ne sais comment m'excuser auprès de vous d'être resté
+               si longtemps sans répondre à l'intéressante lettre que vous me fîtes le plaisir de
                m'écrire il y a quelques mois, sans vous remercier du précieux cadeau que vous m'avez
                fait en m'envoyant votre thèse sur les caustiques. Je suis d'autant plus coupable au
                sujet de cette thèse qu'ayant remis à M. <persName>Savary</persName> l'exemplaire que vous aviez bien
@@ -172,18 +174,20 @@
                ni à lui, puisque ce n'est pas sa faute, ni à moi, parce que j'ai été si tourmenté
                que je n'ai pu écrire à personne, presque pas même à mon fils qui est à <placeName>Rome</placeName> depuis
                trois mois et à qui j'ai pu à grand'peine envoyer quelques lettres. Il se plaint de
-               n'en point recevoir dans toutes celles qu'il m'écrit. Je voulais vous répondre en
+               n'en point recevoir dans toutes celles qu'il m'écrit.</p>
+            <p>Je voulais vous répondre en
                détail ainsi qu'à M. <persName>Maurice</persName> envers qui je suis aussi coupable à peu près qu'envers
                vous, et adresser en même temps tous mes remerciements à la <orgName>Société de Physique et
                d'Histoire naturelle de <placeName>Genève</placeName>
           </orgName>, d'une marque de souvenir dont j'ai été aussi flatté
-               qu'honoré <ref>(2)</ref>. C'est tout cela à faire ensemble qui a encore contribué à ce que j'aie
+               qu'honoré <ref target="#corresp2">(2)</ref>. C'est tout cela à faire ensemble qui a encore contribué à ce que j'aie
                passé plus longtemps sans en rien faire. Quel service vous me rendriez, Monsieur et
                cher ami, si vous m'excusiez auprès de M. <placeName>Maurice</placeName>, celui qui est membre associé de
-               l'<orgName>Académie des Sciences</orgName> <ref>(3)</ref>, et auprès de la <orgName>Société de Physique et d'Histoire
+               l'<orgName>Académie des Sciences</orgName> <ref target="#corresp3">(3)</ref>, et auprès de la <orgName>Société de Physique et d'Histoire
                naturelle</orgName> de ce que je ne leur ai pas encore écrit. A peine ai-je le temps, aux
-               dépens [de ce] que ce devoir me prescrit à l'égard de l'<orgName>école Polytechnique</orgName>, d'écrire
-               ce peu de lignes pour vous. J'attends avec une vive impatience un envoi de votre part
+               dépens de ce que ce devoir me prescrit à l'égard de l'<orgName>école Polytechnique</orgName>, d'écrire
+               ce peu de lignes pour vous.</p>
+            <p>J'attends avec une vive impatience un envoi de votre part
                que m'a annoncé M. <placeName>de La Planche</placeName> qui part demain pour retourner à <placeName>Genève</placeName>. Quel plus
                grand bonheur ce serait encore pour moi si vous exécutiez cette année le projet que
                vous aviez l'année dernière de venir à <placeName>Paris</placeName> au mois de mai, occuper la chambre qui
@@ -191,15 +195,17 @@
                pourrais vous y voir. Que de choses à vous dire !... J'ai lu le mois de décembre
                dernier un mémoire à l'<orgName>Institut</orgName> qui termine tout. Mais je ne sais comment l'imprimer,
                et je n'ai pas le temps de m'en occuper. Que j'aurais de plaisir à vous le
-               communiquer ! Je n'ai pas besoin de vous dire tout ce que je vous prie d'offrir de ma
+               communiquer !</p>
+            <p>Je n'ai pas besoin de vous dire tout ce que je vous prie d'offrir de ma
                part à Monsieur votre père et Madame votre mère, de témoignages de respect, d'amitié
                et de reconnaissance. Je n'oublierai jamais avec quelle extrême bonté ils m'ont
                accueilli lors de ce séjour à <placeName>Genève</placeName> dont je regretterai toujours les moments si
-               rapidement écoulés. je vous prie aussi de [ne m'oublier auprès d'aucun de nos
+               rapidement écoulés. je vous prie aussi de ne m'oublier auprès d'aucun de nos
                excellents amis, MM. <persName>Maurice</persName>, <persName>Pictet</persName>, <persName>Prevost</persName>, <persName>de Candolle</persName>, <persName>Diodati</persName> et tant d'autres
                dont le souvenir m'est si précieux. Je suis, avec la plus tendre amitié et le plus
                entier dévouement, Monsieur et cher ami, votre très humble et très obéissant
-               serviteur. <persName>A. Ampère</persName>
+               serviteur.<lb/>
+               <persName>A. Ampère</persName>
         </p>
          </div>
       </body>
@@ -207,8 +213,10 @@
          <div>
             <note xml:id="corresp1">(1) <orgName>Bibliothèque publique et universitaire de <persName>Genève</persName>
           </orgName>. Cette
-               lettre est sans adresse. (2) Cf. Lettre à <persName>Pierre Prévost</persName> du <date when="1814-12-13">13 décembre 1814</date> (289).
-               Les deux dates <date when-iso="1814">1814</date> et <date when-iso="1824">1824</date> sont très nettes. (3) Le <persName>baron Maurice</persName> (de <placeName>Genève</placeName>),
+               lettre est sans adresse.</note>
+            <note xml:id="corresp2">(2) Cf. Lettre à <persName>Pierre Prévost</persName> du <date when="1814-12-13">13 décembre 1814</date> (289).
+               Les deux dates <date when-iso="1814">1814</date> et <date when-iso="1824">1824</date> sont très nettes.</note>
+            <note xml:id="corresp3">(3) Le <persName>baron Maurice</persName> (de <placeName>Genève</placeName>),
                <date from-iso="1775" to-iso="1851">1775-1851</date>, académicien libre en <date when-iso="1816">1816.</date> </note>
          </div>
       </back>

@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -79,7 +80,7 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct xml:id="ampere_corr_L1818-12-01-a">
-                    <monogr xmlns="">
+                    <monogr>
                         <author>
                             <surname>De Launay</surname>
                             <forename>Louis</forename>
@@ -125,7 +126,7 @@
         <correspAction type="received">
           <persName type="adressee">Bredin, Claude-Julien</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -150,18 +151,19 @@
           <date when="1818-12-01">[1er décembre 1818 ?]</date>
         </opener>
                 <p>
-          <gap xmlns="" reason="lacune_CGA"/> Tu me demandes de te parler du livre de
-                    <persName>Ballanche</persName> <ref>(2)</ref> <ref xmlns="" target="#ampere_ref_261.xml">*</ref> et de l'<title>Odyssée</title>
-                    de <persName>Dugas</persName> <ref xmlns="" target="#ampere_ref_374.xml">*</ref>. J'ai lu la plus
+          <gap reason="lacune_CGA"/> Tu me demandes de te parler du livre de
+                    <persName>Ballanche</persName> <ref target="#corresp2">(2)</ref> <ref target="#ampere_ref_261.xml">*</ref> et de l'<title>Odyssée</title>
+                    de <persName>Dugas</persName> <ref target="#ampere_ref_374.xml">*</ref>. J'ai lu la plus
                     grande partie de celui de <persName>Ballanche</persName>, mais bien peu de l'<title>Odyssée</title>. <persName>Ballanche</persName> est
                     beau de sentiments, de pensées, de style ; ne voyant presque personne, je ne
                     sais pas l'impression qu'il fait à d'autres. Ceux avec lesquels j'ai voulu
                     causer de son œuvre n'en savaient pas l'existence. J'en veux à tout le monde de
                     ce qu'il en soit si peu question. En as-tu lu un compte rendu dans le <title>Journal du
-                    Commerce</title> ? <ref>(3)</ref>. L'article est d'un Lyonnais, M. <persName>Lemontey</persName>, auteur d'un livre
+                    Commerce</title> ? <ref target="#corresp3">(3)</ref>. L'article est d'un Lyonnais, M. <persName>Lemontey</persName>, auteur d'un livre
                     intitulé : <title>De l'établissement de la monarchie de <persName>Louis XIV</persName>
-          </title> <ref xmlns="" target="#ampere_ref_375.xml">*</ref> ; ce dernier ouvrage m'a semblé
-                    remarquable. J'ai honte du temps que m'a fait perdre cette acquisition de maison
+          </title> <ref target="#ampere_ref_375.xml">*</ref> ; ce dernier ouvrage m'a semblé
+                    remarquable.</p>
+                <p>J'ai honte du temps que m'a fait perdre cette acquisition de maison
                     et de la sorte de passion que je mets à entasser des pierres l'une sur l'autre.
                     <persName>A. Ampère</persName>
         </p>
@@ -169,8 +171,10 @@
         </body>
         <back>
             <div>
-                <note xml:id="corresp1">(1) D'après Mme <persName>Cheuvreux</persName>, p. 139. (2) <title>Essai sur les
-                    Institutions</title>. (3) Constitutionnel.</note>
+                <note xml:id="corresp1">(1) D'après Mme <persName>Cheuvreux</persName>, p. 139.</note>
+                <note xml:id="corresp2">(2) <title>Essai sur les
+                    Institutions</title>.</note>
+                <note xml:id="corresp3">(3) Constitutionnel.</note>
             </div>
         </back>
     </text>

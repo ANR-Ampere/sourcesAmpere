@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -79,7 +80,7 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct xml:id="ampere_corr_L1816-07-20-a">
-                    <monogr xmlns="">
+                    <monogr>
                         <author>
                             <surname>De Launay</surname>
                             <forename>Louis</forename>
@@ -126,7 +127,7 @@
         <correspAction type="received">
           <persName type="adressee">Bredin, Claude-Julien</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -150,29 +151,33 @@
                 <opener>
           <date when="1816-07-20">[20 juillet 1816]</date>
         </opener>
-                <p>Cher ami, me voici à <placeName>Bordeaux</placeName> à attendre mon collègue, plein de chagrin d'avoir
+                <opener>Cher ami,</opener>
+                <p> me voici à <placeName>Bordeaux</placeName> à attendre mon collègue, plein de chagrin d'avoir
                     sacrifié quelques degrés de perfection que j'aurais donnés à mon mémoire si
                     j'étais resté deux ou trois jours de plus à <placeName>Paris</placeName>. Cela va être détestable.
                     Parti le <date when="1816-07-17">17</date> pour arriver avant-hier, comme l'avait demandé M. <persName>Rendu</persName>, voilà deux
                     fois 24 heures que je reste ici les bras croisés à l'attendre. Pendant ce
                     d'envoyer par la poste à l'imprimeur ; elles arriveront peut-être trop tard et,
                     dans tous les cas, ne diminueront guère le mal. Je n'ai qu'une pensée depuis
-                    deux mois la rédaction de ce mémoire <ref>(2)</ref>. Il ne résultera de tout cela qu'un
+                    deux mois la rédaction de ce mémoire <ref target="#corresp2">(2)</ref>. Il ne résultera de tout cela qu'un
                     travail imparfait dont la publication ne me fera pas beaucoup d'honneur. Joins à
                     cet ennui, celui de ne point voir venir M. <persName>Rendu</persName>, un gros rhume qui m'interdit
                     la parole, un coup qui m'a déchiré le genou et m'empêche de marcher, une douleur
                     dans les épaules qui a l'air d'un rhumatisme, sorte de mal que je ne connaissais
                     pas encore ; les réflexions les plus tristes, tout en noir ; un calcul que j'ai
                     voulu essayer qui m'a donné le contraire de ce qu'il fallait obtenir pour qu'il
-                    pût servir, tu auras un commencement d'idée de la situation de ton pauvre ami.
+                    pût servir, tu auras un commencement d'idée de la situation de ton pauvre ami.</p>
+                <p>
                     <persName>Dugas</persName> te porte les trois ouvrages que tu désirais. J'ai très peu essayé de les
-                    lire ; le peu que j'en ai lu m'a été absolument inintelligible. M. <persName>Rendu</persName> entre
+                    lire ; le peu que j'en ai lu m'a été absolument inintelligible.</p>
+                <p>M. <persName>Rendu</persName> entre
                     chez moi et me fait aller loger avec lui dans un autre hôtel. Ainsi adieu !</p>
             </div>
         </body>
         <back>
             <div>
-                <note xml:id="corresp1">(1) D'après Mme <persName>Cheuvreux</persName>, p. 93. (2) Les Comptes rendus de
+                <note xml:id="corresp1">(1) D'après Mme <persName>Cheuvreux</persName>, p. 93.</note>
+                <note xml:id="corresp2">(2) Les Comptes rendus de
                     l'<orgName>Académie</orgName> ne mentionnent en <date when-iso="1816">1816</date> et jusqu'au <date when="1820-01-24">24 janvier 1820</date> aucune
                     communication scientifique d'<persName>Ampère</persName>. </note>
             </div>

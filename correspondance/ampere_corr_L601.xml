@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1821-05-23-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +100,11 @@
                <witness xml:id="L601manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">Belgique</country>
-                        <settlement xmlns="">Bruxelles</settlement>
-                        <institution xmlns="">Bibliothèque de l'Académie royale de
+                        <country>Belgique</country>
+                        <settlement>Bruxelles</settlement>
+                        <institution>Bibliothèque de l'Académie royale de
                            Belgique</institution>
-                        <repository xmlns="">Fonds Stassart [note de Louis DE LAUNAY]</repository>
+                        <repository>Fonds Stassart [note de Louis DE LAUNAY]</repository>
                      </msIdentifier>
                      <physDesc>
                         <p>Trois pages 17 x 22, adresse sur la quatrième : à Monsieur, Monsieur le
@@ -141,7 +142,7 @@
         <correspAction type="received">
           <persName type="adressee">Stassart, Gosvin de (baron)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -162,10 +163,11 @@
    <text type="correspondance" decls="#ampere_corr_L1821-05-23-a">
       <body>
          <div>
-            <opener>
+            <opener><placeName>Paris</placeName>
           <date when="1821-05-23">23 mai 1821</date>
         </opener>
-            <p>Monsieur le <persName>Baron</persName>, Je suis bien fâché de ne pouvoir avant votre départ avoir
+            <opener>Monsieur le <persName>Baron</persName>,</opener>
+            <p> Je suis bien fâché de ne pouvoir avant votre départ avoir
                l'honneur de vous voir. Je me suis bien ressouvenu en lisant la lettre que vous
                m'avez fait l'honneur de m'écrire que je vous avais promis de vous procurer des
                discours, qui, si je ne me trompe, vous avaient été demandés par un professeur de
@@ -173,10 +175,12 @@
                choses qui s'embrouillent dans ma tête, quels étaient ces discours, s'il s'agissait
                de discours sur l'instruction publique, ou sur l'<orgName>école Polytechnique</orgName>, ou de discours
                faits à l'<orgName>Institut</orgName>. Si vous avez la bonté de m'écrire aujourd'hui de quels discours
-               il est question, vous les aurez demain, par tout ce qui dépendra de moi. Votre
+               il est question, vous les aurez demain, par tout ce qui dépendra de moi.</p>
+            <p>Votre
                prochain départ me met dans une véritable inquiétude, car je ne me consolerais pas
-               d'avoir manqué cette occasion de faire quelque chose qui pût vous être agréable. J'ai
-               l'honneur d'être, Monsieur le <persName>Baron</persName>, votre très humble et très obéissant serviteur.
+               d'avoir manqué cette occasion de faire quelque chose qui pût vous être agréable.</p>
+            <p>J'ai
+               l'honneur d'être, Monsieur le <persName>Baron</persName>, votre très humble et très obéissant serviteur.<lb/>
                <persName>A. Ampère</persName>
         </p>
          </div>
@@ -184,9 +188,7 @@
       <back>
          <div>
             <note xml:id="corresp1">(1) Trois pages 17 x 22, adresse sur la quatrième : à Monsieur,
-               Monsieur le <persName>Baron de Stassart</persName>, <placeName>Paris</placeName>. [Bibliothèque de l'<orgName>Académie Royale de <placeName>Belgique</placeName>
-          </orgName>,
-               Fonds <persName>Stassart</persName>.]</note>
+               Monsieur le <persName>Baron de Stassart</persName>, <placeName>Paris</placeName>. </note>
          </div>
       </back>
    </text>

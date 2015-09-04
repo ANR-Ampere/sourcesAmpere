@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1822-04-12-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,7 +100,7 @@
                <witness xml:id="L616manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <repository xmlns="">Collection particulière [note de Louis DE
+                        <repository>Collection particulière [note de Louis DE
                            LAUNAY]</repository>
                      </msIdentifier>
                      <physDesc>
@@ -137,7 +138,7 @@
         <correspAction type="received">
           <persName type="adressee">Speyert van der Eyk, Simon</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -158,18 +159,20 @@
    <text type="correspondance" decls="#ampere_corr_L1822-04-12-a">
       <body>
          <div>
-            <opener>
+            <opener><placeName>Paris</placeName>
           <date when="1822-04-12">12 avril 1822</date>
         </opener>
-            <p>Monsieur, j'ai éprouvé un véritable chagrin en recevant votre lettre datée du <date when="1822-03-15">15 mars</date>
+            <opener>Monsieur,</opener>
+            <p> j'ai éprouvé un véritable chagrin en recevant votre lettre datée du <date when="1822-03-15">15 mars</date>
                dernier, en voyant que vous m'aviez prévenu dans l'intention où j'étais de vous
                écrire, et de répondre à la lettre que vous m'aviez fait l'honneur de m'adresser
                l'année passée. Cette précédente lettre ne m'a été remise qu'à mon retour à <placeName>Paris</placeName>,
                après un voyage dans le midi de la <placeName>France</placeName> où j'avais été pour remettre ma santé très
-               délabrée à cette époque. Je trouvai cette lettre en arrivant à Paris avec une de M.
+               délabrée à cette époque.</p>
+            <p>Je trouvai cette lettre en arrivant à Paris avec une de M.
                <persName>
             <choice>
-              <sic>Van Beck</sic> <corr>[van Beek]</corr>
+              <sic>Van Beck</sic> <corr>van Beek</corr>
             </choice>
           </persName> et une de M.<persName> Van der Heyden</persName>. Je me proposai de répondre à toutes
                trois et je commençai par celle de M. <persName>
@@ -177,29 +180,31 @@
               <sic>Van Beck</sic> <corr>van Beek</corr>
             </choice>
           </persName>, à cause qu'elle contenait une
-               expérience importante pour la confirmation de ce que j'avais lu à l'Académie des
-               Sciences, au mois de janvier 1821, sur la plus grande probabilité de la manière de
+               expérience importante pour la confirmation de ce que j'avais lu à l'<orgName>Académie des
+               Sciences</orgName>, au mois de <date when-iso="1821-01-00">janvier 1821</date>, sur la plus grande probabilité de la manière de
                considérer les courants électriques des aimants, autour de chacune de leurs
                particules. Je voulus traiter cette question en détail, y joindre d'autres
                considérations, en sorte que ma lettre à M. <persName>
             <choice>
-              <sic>Van Beck</sic> <corr>[van Beek]</corr>
+              <sic>Van Beck</sic> <corr>van Beek</corr>
             </choice>
-          </persName>, commencée le 12
-               janvier, n'a été finie que le <date when="1822-03-27">27 mars</date>. J'ai si peu de temps disponible que je n'ai
+          </persName>, commencée le<date when="1822-01-12"> 12
+               janvier</date>, n'a été finie que le <date when="1822-03-27">27 mars</date>. J'ai si peu de temps disponible que je n'ai
                pas la possibilité de faire la plus grande partie des expériences dont j'aurais
                besoin. Au reste vous pourrez voir cette lettre dans le <title>Journal de Physique</title> de M. <persName>de
-               Blainville</persName>. J'ai mille et mille remerciements à vous faire de l'envoi de votre
+               Blainville</persName>.</p>
+            <p>J'ai mille et mille remerciements à vous faire de l'envoi de votre
                mémoire que j'ai lu avec un extrême plaisir. L'expérience de M. <persName>de La Rive</persName>, qui
                semble au premier coup d’œil ne pas s'accorder avec ma théorie, en est au contraire
                une suite nécessaire, aussi bien que les expériences si remarquables de M. <persName>Faraday</persName> et
                celles que j'ai faites depuis et que vous trouverez annoncées dans ma lettre à M. <persName>
             <choice>
               <sic>Van
-               Beck</sic> <corr>[van Beek]</corr>
+               Beck</sic> <corr>van Beek</corr>
             </choice>
           </persName>, insérée dans le numéro du <title>Journal de Physique</title> qui paraît
-               actuellement. Ces expériences ont été communiquées à l'<orgName>Académie</orgName> aux mois de décembre
+               actuellement.</p>
+            <p>Ces expériences ont été communiquées à l'<orgName>Académie</orgName> aux mois de décembre
                et de janvier derniers. Mais, pour bien concevoir toutes les circonstances de
                l'expérience de M. <persName>de La Rive</persName>, il faut faire attention à l'inclinaison que prennent,
                relativement à l'axe de l'aimant, les courants électriques qui circulent autour de
@@ -214,11 +219,13 @@
                parvenir à une détermination suffisante de la valeur mathématique de l'inclinaison,
                ne nous ont pas encore donné les résultats que nous espérions. La seule chose qui ait
                paru sur ce sujet est une note de l'analyse des travaux de l'<orgName>Académie royale des
-               sciences</orgName> pendant l'année <date when-iso="1821">1821</date>, par M. <persName>Delambre</persName>. Je joins ici cette note tirée du
+               sciences</orgName> pendant l'année <date when-iso="1821">1821</date>, par M. <persName>Delambre</persName>.</p>
+            <p>Je joins ici cette note tirée du
                commencement de l'article de cette analyse où ce grand astronome rend compte de ce
                que j'ai fait sur les faits de l'électromagnétisme pendant cette année, J'ai
                l'honneur d'être avec la plus parfaite considération, Monsieur, votre très humble et
-               très obéissant serviteur. <persName>A. Ampère</persName>
+               très obéissant serviteur.<lb/>
+               <persName>A. Ampère</persName>
         </p>
             <closer>à <placeName>Leyde</placeName>, Royaume des <placeName>Pays-Bas</placeName> </closer>
          </div>
@@ -227,10 +234,7 @@
          <div>
             <note xml:id="corresp1">(1) Lettre communiquée par M. <persName>Janet</persName>. Quatre pages in-4°, 20 x
                25,5.</note>
-            <note resp="CAK_commentaire">Dans la <title xmlns="">Correspondance du Grand
-                  <persName>Ampère</persName>
-          </title>, <persName>Louis DE LAUNAY</persName> précise, au sujet de cette lettre, que le
-               manuscrit lui en a été communiqué par M. <persName>Janet</persName>.</note>
+          
          </div>
       </back>
    </text>

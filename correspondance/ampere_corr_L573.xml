@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -164,7 +165,7 @@
         <correspAction type="received">
           <persName type="adressee">Roux-Bordier, Jacques</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -184,10 +185,15 @@
     <text type="correspondance" decls="#ampere_corr_L1807-02-21-a">
         <body>
             <div>
-                <opener>
-                    <date when="1807-02-21">Dimanche 21 février [1807]</date>
+                <opener><pb n="59" facs="#ACAS_CRHST_AMP_01_001_0059_r.jpg"/> à Monsieur <persName>Bredin fils</persName>, professeur d'anatomie à l'<orgName>École
+                    vétérinaire de <placeName>Lyon</placeName></orgName>, près des portes de
+                <placeName>Vaise</placeName>, pour remettre à M.
+                <persName>Roux-Bordier</persName>, <placeName>Rhône</placeName> à <placeName>Lyon</placeName></opener>
+                <opener>Du 
+                    <date when="1807-02-21">dimanche 21 fév<ex>rier</ex> [1807]</date>
                 </opener>
-                <p>Mon cher ami, Votre lettre insérée dans celle de <persName>Déroche</persName>,
+                <opener>Mon cher ami,</opener>
+                <p> Votre lettre insérée dans celle de <persName>Déroche</persName>,
                     m'a fait un grand plaisir, car il n'en est point pour moi qui surpasse celui de
                     recevoir des nouvelles de mes amis. Je songe sans cesse à eux, et je pense
                     toujours aux moments si doux que j'ai passés avec eux. Vous me demandez mille
@@ -199,18 +205,20 @@
                     des auditeurs. A mesure que je m'étendais sur ce sujet, je voyais à chaque
                     séance la salle moins pleine qu'à la précédente, en sorte que j'ai été obligé de
                     glisser sur beaucoup de points et que je me suis jeté le plus tôt que j'ai pu
-                    sur le calcul mathématique des probabilités, sujet assez difficile à traiter
+                    sur le calcul mathématique<del> des probabilités</del>, sujet assez difficile à traiter
                     devant des personnes qui ne savent pas l'algèbre, car on est obligé de se
                     traîner sur des cas très particuliers. Tout cela ne fait que redoubler le dégoût
                     que m'inspirent toutes les vaines et inutiles sciences dont l'homme est si fier.
                     En est-il une qui vaille le moindre sentiment que le beau moral nous inspire ?
-                    Non, mon cher ami, le temps que j'ai passé à. <placeName>Lyon</placeName> lors
+                    <add>Mais, </add>mon cher ami, le temps que<pb n="60" facs="#ACAS_CRHST_AMP_01_001_0060_r.jpg"/> j'ai passé à. <placeName>Lyon</placeName> lors
                     de notre liaison avec <persName>Bredin</persName>, <persName>Barret</persName>
                     et <persName>Bonjour</persName>, et où je me croyais si malheureux, est celui
-                    que je regretterai toute ma vie. <persName>Thénard</persName> vient de faire une
+                    que je regretterai toute ma vie.</p>
+                <p><persName>Thénard</persName> vient de faire une
                     découverte admirable en chimie. Je ne la connaissais pas ; je fus hier à la
                     <orgName>Société philomathique</orgName> dont je suis membre depuis quinze jours
-                        <ref>(2)</ref> ; il nous la lut. Voici les faits : <list>
+                        <ref target="#corresp2">(2)</ref> ; il nous la lut. Voici les faits.</p>
+                <p><list>
                         <item n="1"> Un mélange d'acide muriatique et d'alcool chauffé à un degré de
                             température particulier donne une sorte d'éther toute différente des
                             éthers sulfurique et nitrique ; personne jusqu'à lui n'en avait obtenu
@@ -232,7 +240,7 @@
                             bleues les plus délicates aux acides, nulle trace d'acide ; eh bien !
                             voici la merveille : ce gaz, en brûlant avec une belle flamme verte,
                             donne en abondance de l'acide muriatique dont la vapeur suffocante
-                            précipite le nitrate d'argent, rougit fortement les couleurs bleues,
+                            précipite le<pb n="61" facs="#ACAS_CRHST_AMP_01_001_0061_r.jpg"/> nitrate d'argent, rougit fortement les couleurs bleues,
                             etc. Le même gaz passé dans un tube rouge de feu et purgé d'air, redonne
                             précisément, autant qu'on peut le mesurer, l'acide muriatique qui a
                             disparu dans sa fabrication, et cet acide fait, sec, plus du quart de
@@ -244,7 +252,7 @@
                                     une union qu'aucune autre affinité de potasse ou d'oxyde
                                     d'argent ne pourrait rompre et qui masquerait toutes ses
                                     propriétés, ce qui serait un fait opposé à tout ce qui est connu
-                                    jusqu'à présent.</item>
+                                    jusqu'à présent.</item><lb/>
                                 <item n="2"> L'acide muriatique serait décomposé, et tous ses
                                     éléments resteraient avec ceux de l'alcool dans le gaz, puisque
                                     cet acide se retourne sans addition d'aucune autre substance, M.
@@ -254,7 +262,9 @@
                                     à toutes les épreuves qui pourront éclaircir ce doute, et
                                     prouver enfin cette décomposition de l'acide muriatique si elle
                                     a lieu.</item>
-                            </list> Je viens d'imaginer une troisième hypothèse. L'acide muriatique
+                            </list></item>
+                    </list></p>
+                <p>Je viens d'imaginer une troisième hypothèse. L'acide muriatique
                             aurait une base hydro-carbure. L'alcool en fournirait une nouvelle
                             quantité ; le gaz éther serait l'oxyde de cette base, peut-être uni à de
                             l'éther ordinaire. Mais alors, si, au lieu de le décomposer dans un tube
@@ -262,19 +272,15 @@
                             manganèse, on obtiendrait plus d'acide muriatique. Je ne crois nullement
                             à cette hypothèse ; mais je ne laisserai pas de proposer à
                             <persName>Thénard</persName> de faire cette expérience. Il va tenter des
-                            recherches analogues sur l'acide fluorique.</item>
-                    </list> Voila, mon cher ami, des faits bien nouveaux ; mais <foreign xml:lang="lat">cui bono</foreign> ? Il en est de même de toutes les
+                            recherches analogues sur l'acide fluorique.</p>
+                <p><pb n="62" facs="#ACAS_CRHST_AMP_01_001_0062_r.jpg"/>Voila, mon cher ami, des faits bien nouveaux ; mais <foreign xml:lang="lat">cui bono</foreign> ? Il en est de même de toutes les
                     sciences. <foreign xml:lang="lat">Vanitas vanitatum</foreign>. Mais non pas de
                     l'amitié que je vous ai vouée, elle durera autant que ma vie. Je vous embrasse
-                    de tout mon cœur et vous prie d'embrasser pour moi tous nos amis.
+                    de tout mon cœur et vous prie d'embrasser pour moi tous nos amis.<lb/>
                     <persName>A.
                     Ampère</persName>
                 </p>
-                <closer>à M. <persName>Bredin fils</persName>, professeur d'anatomie à l'École
-                    vétérinaire de <placeName>Lyon</placeName>, près des portes de
-                    <placeName>Vaise</placeName>, pour remettre à M.
-                    <persName>Roux-Bordier</persName>, à <placeName>Lyon</placeName>
-                    (<placeName>Rhône</placeName>) </closer>
+            
             </div>
         </body>
         <back>
@@ -284,19 +290,13 @@
                     <persName>Roux-Bordier</persName>, et partiellement publié en annexe. Le
                     dimanche <date when-iso="02-21">21 février</date> a été réalisé en
                     <date when-iso="1808">1808</date>, <date when-iso="1813">1813</date>,
-                    <date when-iso="1819">1819</date>, <date when-iso="1824">1824</date>. (2) Les
+                    <date when-iso="1819">1819</date>, <date when-iso="1824">1824</date>.</note>
+                <note xml:id="corresp2">(2) Les
                     premières communications d'<persName>Ampère</persName> à la
                     <orgName>Société
                     philomathique</orgName> sont de
                     <date when-iso="1821">1821</date>.</note>
-                <note resp="CAK_commentaire">Dans la
-                    <title>Correspondance du Grand
-                        <persName>Ampère</persName>
-          </title>,
-                    <persName>Louis DE LAUNAY</persName> précise au sujet de cette lettre que le
-                    manuscrit lui en a été "communiqué par M. <ab>Paul Chaponnière</ab>,
-                    arrière-petit-fils de <persName>Roux-Bordier</persName>".L'original n'étant plus
-                    disponible, c'est au fac-similé de cette copie que nous renvoyons ici.</note>
+              
             </div>
         </back>
     </text>

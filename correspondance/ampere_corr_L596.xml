@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1821-02-21-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +100,11 @@
                <witness xml:id="L596manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 393 quarto</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 393 quarto</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>Huit pages in-4°, adresse sur la dernière.</p>
@@ -140,7 +141,7 @@
         <correspAction type="received">
           <persName type="adressee">Roux-Bordier, Jacques</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,7 +162,7 @@
    <text type="correspondance" decls="#ampere_corr_L1821-02-21-a">
       <body>
          <div>
-            <opener>
+            <opener><pb n="791" facs="#ACAS_CRHST_AMP_26_393_quarto_0063_r.jpg"/><placeName>Paris</placeName>
           <date when="1821-02-21">21 février 1821</date>
         </opener>
             <p>J'ai reçu vos deux lettres, mon bien cher ami, et je me reproche vivement de n'y
@@ -169,28 +170,31 @@
                possible de savoir à quel point tous mes moments sont comptés et combien j'ai été
                parfois obligé de veiller très avant dans la nuit, chargé de deux cours et ne voulant
                pas cependant laisser là absolument mes travaux sur les conducteurs voltaïques et les
-               aimants. Tout est dans ce seul mot : il y a, je crois, deux mois que je n'ai pas
+               aimants.Tout est dans ce seul mot : il y a, je crois, deux mois que je n'ai pas
                écrit à <persName>Bredin</persName> et j'attends toujours un instant de liberté pour lui répondre. Je
                commence par vous, et cela doit me justifier un peu à votre égard en me rendant
-               encore plus coupable envers lui. Je suis enchanté que vous ayez eu de votre côté
+               encore plus coupable envers lui.</p>
+            <p> Je suis enchanté que vous ayez eu de votre côté
                l'idée qu'il y avait des courants électriques dirigés de l'Est à l'Ouest dans le
                globe de la terre ; cela me fait espérer que les bons esprits ne répugneront pas à en
                admettre l'existence, surtout à présent qu'elle est appuyée sur la combinaison des
                expériences de M. <persName>Œrsted</persName> avec les miennes. Je regrette beaucoup que vous ne m'ayez
-               pas envoyé vos idées sur la réforme de la logique chimique ; je n'aurais point eu
+               pas envoyé vos idées sur la réforme de<pb n="792" facs="#ACAS_CRHST_AMP_26_393_quarto_0064_v.jpg"/> la logique chimique ; je n'aurais point eu
                probablement le temps d'y répondre, mais j'aurais eu tant de plaisir à les lire.
                C'est un bonheur pour moi quand je puis recevoir une de vos lettres, je les lis et
                relis et, si je n'y réponds pas exactement, c'est faute de temps, et par suite de ma
                paresse qui est bien pire que celle dont vous vous accusez. Comme vous seriez aimable
-               de vaincre la vôtre et de m'écrire bien souvent Vous dites qu'il n'y a pas de mal que
+               de vaincre la vôtre et de m'écrire bien souvent.</p>
+            <p>Vous dites qu'il n'y a pas de mal que
                les choses marchent avec une certaine lenteur  ; ce n'est pas mon avis quand ce sont
                de bonnes choses ; je voudrais de tout mon cœur que vous publiassiez bien des idées
                et que vous n'attendissiez pas que d'autres les retrouvent. J'ai une envie démesurée
                de voir le travail que vous faites avec <persName>Gasparin</persName> sur les races. Comment
                établirez-vous que je suis scandinave ? Je pensais, d'après une de vos anciennes
                lettres, qu'il fallait, pour cela, être au moins bon gentilhomme, mais qu'un vil
-               savant, un obscur honnête homme, n'était qu'un Celte, un Arabe, etc. Est-ce parce que
-               j'ai des yeux gris que je serais de cette race que vous aimez tant ? Je tâcherai de
+               savant, un obscur honnête homme, n'était qu'un Celte, un Arabe, etc.<pb n="793" facs="#ACAS_CRHST_AMP_26_393_quarto_0065_r.jpg"/> Est-ce parce que
+               j'ai des yeux gris que je serais de cette race que vous aimez tant ?</p>
+            <p>Je tâcherai de
                me souvenir de dire à <persName>Aimé-Martin</persName> ce que vous pensez de sa vie de <persName>Bernardin de
                Saint-Pierre</persName> ; elle m'a plu aussi, à certains passages près. Vous avez bien raison de
                dire qu'il est inconcevable qu'on n'ait pas essayé, il y a vingt ans, l'action de la
@@ -200,7 +204,7 @@
                d'action entre l'électricité et les prétendus fils magnétiques ; la prévention en
                était au point que, quand M. <persName>Arago</persName> parla de ces nouveaux phénomènes à l'<orgName>Institut</orgName>, on
                rejeta cela comme on avait rejeté les pierres tombées du ciel, quand M. <persName>Pictet</persName> vint,
-               dans le temps, lire un mémoire à l'<orgName>Institut</orgName> sur ces pierres. Ils décidaient tous que
+               dans le temps, lire un mémoire à l'<orgName>Institut</orgName> sur ces pierres. Ils<pb n="794" facs="#ACAS_CRHST_AMP_26_393_quarto_0066_v.jpg"/> décidaient tous que
                c'était impossible. C'est la même prévention qui empêche à présent d'admettre
                l'identité des fluides électriques et magnétiques, et l'existence des courants
                électriques dans le globe terrestre et dans les aimants, comme elle a, pendant
@@ -208,9 +212,10 @@
                tant qu'on peut à changer les idées auxquelles on s'est accoutumé. C'est drôle à voir
                que les efforts que font certains esprits pour tâcher de faire accorder, avec les
                nouveaux faits, l'hypothèse gratuite de deux fluides magnétiques différents des
-               fluides électriques, uniquement parce qu'on y a accoutumé son esprit. Je sais bien
+               fluides électriques, uniquement parce qu'on y a accoutumé son esprit.</p>
+            <p>Je sais bien
                que mon mémoire n'est pas rédigé assez clairement ; cela vient de ce que je l'ai
-               écrit avec une hâte extrême et par morceaux détachés que j'ai ensuite réunis comme
+               écrit avec une hâte extrême et par morceaux détachés que j'ai ensuite<pb n="795" facs="#ACAS_CRHST_AMP_26_393_quarto_0067_r.jpg"/> réunis comme
                j'ai pu. A l'égard de ce que j'ai dit des deux états d'un circuit voltaïque suivant
                qu'il est interrompu ou qu'on en rétablit la continuité, j'ai seulement énoncé les
                faits : que, dans le premier cas, les deux extrémités se constituent dans l'état de
@@ -220,21 +225,24 @@
                comme d'autres physiciens, il se manifeste de nouvelles attractions et répulsions
                toutes différentes des premières, lesquelles cessent aussitôt qu'on interrompt de
                nouveau le circuit, et que les autres attractions et répulsions, celles de la
-               tension, reparaissent aux deux extrémités du fil interrompu. Je n'ai point donné de
-               théorie de l'état de tension ; je l'ai laissée comme elle était ; mon mémoire n'en
+               tension, reparaissent aux deux extrémités du fil interrompu.</p>
+            <p>Je n'ai point donné de
+               théorie de l'état de tension ; je l'ai laissée comme elle était ; mon<pb n="796" facs="#ACAS_CRHST_AMP_26_393_quarto_0068_v.jpg"/> mémoire n'en
                parle que pour la rappeler afin de mettre les phénomènes connus de l'état de tension
                en opposition avec les nouveaux phénomènes qui ont lieu dans l'autre état nommé
-               courant électrique. A quel propos aurais-je parlé des deux fluides électriques, de la
+               courant électrique.</p>
+            <p>A quel propos aurais-je parlé des deux fluides électriques, de la
                répartition de ces fluides seulement sur les surfaces des corps, puisque je n'avais
-               pour le moment rien à changer à ce qu'on en lit dans tous les livres de physique ? Si
+               pour le moment rien à changer à ce qu'on en lit dans tous les livres de physique ?</p><p>Si
                je n'ai pas cité M. <persName>Berzélius</persName> ni ce qu'on avait dit sur ce que la chaleur et la
                lumière du soleil étaient dues à des courants semblables à ceux d'un circuit
                voltaïque, c'est que je n'ai parlé de cela que comme d'une conjecture très accessoire
-               à mon affaire ; que, dans l'ouvrage de M. <persName>Œrsted</persName> <ref xmlns="" target="#ampere_ref_376.xml">*</ref> dont la traduction en français par M. Marcel
-               de Serres a paru il y a plus de quinze ans, on trouve déjà que toute chaleur et toute
+               à mon affaire ; que, dans l'ouvrage de M. <persName>Œrsted</persName> <ref target="#ampere_ref_376.xml">*</ref> dont la traduction en français par M. <persName>Marcel
+                  de Serres</persName> a paru il y a plus de quinze ans,<pb n="797" facs="#ACAS_CRHST_AMP_26_393_quarto_0069_r.jpg"/> on trouve déjà que toute chaleur et toute
                lumière résultent, comme il dit, du conflit électrique, que je crois qu'on avait dit
                quelque chose de semblable en <placeName>Angleterre</placeName> et qu'ainsi je ne savais qui citer sur un
-               sujet dont j'ai parlé comme d'une chose déjà connue. Dans ce que vous m'avez écrit
+               sujet dont j'ai parlé comme d'une chose déjà connue.</p>
+            <p>Dans ce que vous m'avez écrit
                sur la raison suffisante des planètes, vous avez supposé que les courants électriques
                de même sens se repoussent : mes expériences prouvent qu'ils s'attirent. Au reste, ma
                première idée sur les courants électriques de la terre est que, s'étant établis dans
@@ -243,16 +251,18 @@
                à mesure qu'il chasse le boulet en avant ; mais je me suis bien gardé d'imprimer
                cette conjecture et cent mille autres qui m'ont passé par la tête. D'ailleurs,
                pourquoi tous les corps planétaires tourneraient-ils de l'Ouest à l'Est si c'était là
-               la cause de leur rotation ? M. <persName>Gillet de Laumont</persName> ayant fait un petit précis sur les
+               la<pb n="798" facs="#ACAS_CRHST_AMP_26_393_quarto_0070_v.jpg"/> cause de leur rotation ?</p>
+            <p>M. <persName>Gillet de Laumont</persName> ayant fait un petit précis sur les
                travaux relatifs à ces deux phénomènes, j'y ai joint deux notes sur mes derniers
                mémoires qui ne sont point encore publiés. Ces notes paraîtront incessamment dans le
                <title>Journal des Mines</title>, pour qui M. <persName>Gillet de Laumont</persName> avait fait cette note. C'est là
                qu'on peut trouver quelque chose de ces mémoires. <persName>Ballanche</persName> reviendra incessamment de
                la campagne, demain ou après-demain. Son adresse est <placeName>rue du Cherche-Midi, n° 23</placeName>,
-               <placeName>faubourg Saint-Germain</placeName>. Je vous aime et vous embrasse de tout mon cœur. <persName>A.
+               <placeName>faubourg Saint-Germain</placeName>. Je vous aime et vous embrasse de tout mon cœur.<lb/>
+               <persName>A.
                Ampère</persName>
         </p>
-            <closer>à <placeName>Genève</placeName> (<placeName>Suisse</placeName>), Confédération helvétique </closer>
+            <closer>A monsieur <persName>Roux-Bordier l'aîné</persName> à <placeName>Genève</placeName> (<placeName>Suisse</placeName>), Confédération helvétique </closer>
          </div>
       </body>
       <back>

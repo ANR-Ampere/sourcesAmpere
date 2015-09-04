@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -142,7 +143,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -176,7 +177,7 @@
                un peu de ton absence. Je fus<lb/>
                voir ta sœur en arrivant pour<lb/>
                <add>ta sœur pour</add> lui donner des nouvelles de<lb/>
-               <persName ref="#pers_P442">Périsse</persName> <ref>(2)</ref>. <del>Je fus ensuite</del> écrire<lb/>
+               <persName ref="#pers_P442">Périsse</persName> <ref target="#corresp2">(2)</ref>. <del>Je fus ensuite</del> écrire<lb/>
                une quantité d'idées mathématiques<lb/>
                dont j'avais besoin pour mon<lb/>
                ouvrage, en sorte que je n'ai<lb/>
@@ -200,9 +201,10 @@
                cela, d'écrire non seulement<lb/>
                ma dépense, mais d'écrire<lb/>
                à mesure ce que je tire<lb/>
-               du trésor <ref>(3)</ref>, qui ne mérite pas<lb/>
+               du trésor <ref target="#corresp3">(3)</ref>, qui ne mérite pas<lb/>
                encore ce nom, mais qui,<lb/>
-               je l'espère, grossira peu à peu.<lb/>
+               je l'espère, grossira peu à peu.</p>
+            <p>
                Du mercredi -<lb/>
                Je ne pus pas t'écrire hier, ma<lb/>
                bien-aimée, à cause que<lb/>
@@ -254,7 +256,8 @@
                je donnerais à ta lettre vingt<lb/>
                baisers de plus. Que je serais<lb/>
                content s'il te laissait tranquille !</del>
-          <lb/>
+            </p>
+            <p>
                Je t'embrasse mille fois, ma bonne<lb/>
                <persName ref="#pers_C129">Julie</persName> ; mais des baisers sur une<lb/>
                feuille de papier ne sont pas<lb/>
@@ -287,8 +290,10 @@
       <back>
          <div>
             <note xml:id="corresp1">(1) Quatre pages in-8°, avec adresse au bas de la quatrième.
-               Quelques lignes ont été publiées par Mme <persName>Cheuvreux</persName>, p. 140. (2) Son jeune fils resté
-               à <placeName>Saint-Germain</placeName>. (3) Le trésor. Voir précédemment, p. 61. </note>
+               Quelques lignes ont été publiées par Mme <persName>Cheuvreux</persName>, p. 140.</note>
+            <note xml:id="corresp2">(2) Son jeune fils resté
+               à <placeName>Saint-Germain</placeName>.</note>
+            <note xml:id="corresp3">(3) Le trésor. Voir précédemment, p. 61. </note>
          </div>
       </back>
    </text>

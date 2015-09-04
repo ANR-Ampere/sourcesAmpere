@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1822-08-28-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,10 +100,10 @@
                <witness xml:id="L626manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">Suisse</country>
-                        <settlement xmlns="">Genève</settlement>
-                        <institution xmlns="">Bibliothèque de Genève</institution>
-                        <idno xmlns="">Ms 2311, f. 31</idno>
+                        <country>Suisse</country>
+                        <settlement>Genève</settlement>
+                        <institution>Bibliothèque de Genève</institution>
+                        <idno>Ms 2311, f. 31</idno>
                      </msIdentifier>
                   </msDesc>
           </witness>
@@ -135,7 +136,7 @@
         <correspAction type="received">
           <persName type="adressee">La Rive, Gaspard de</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -156,17 +157,20 @@
    <text type="correspondance" decls="#ampere_corr_L1822-08-28-a">
       <body>
          <div>
-            <opener>
+            <opener><placeName>Lyon</placeName>
           <date when="1822-08-28">28 août 1822</date>
         </opener>
-            <p>Monsieur, j'ai reçu votre aimable lettre du <date when="1822-08-23">23</date> de ce mois. J'ai mille remerciements à
+            <opener>Monsieur,</opener>
+            <p> j'ai reçu votre aimable lettre du <date when="1822-08-23">23</date> de ce mois. J'ai mille remerciements à
                vous faire de la peine que vous avez prise de vérifier les numéros des pages des 300
                exemplaires tirés à part pour mon Recueil de la lettre insérée dans la <title>Bibliothèque
-               universelle</title>. Je vais écrire à mon imprimeur que le numéro dont il a besoin pour sa
+               universelle</title>.</p>
+            <p>Je vais écrire à mon imprimeur que le numéro dont il a besoin pour sa
                première page est 260. Au reste, cela se trouve moins pressé que je ne le croyais en
                vous écrivant, parce que j'ai appris il y a quelques jours que le morceau que j'avais
                laissé à mon départ de <placeName>Paris</placeName> à M. <persName>Arago</persName> et que je croyais composé depuis longtemps ne
-               l'était pas encore à l'époque où l'on m'a écrit sur ce sujet. Je n'en ai pas moins de
+               l'était pas encore à l'époque où l'on m'a écrit sur ce sujet.</p>
+            <p>Je n'en ai pas moins de
                reconnaissance pour le service que vous m'avez rendu, mais j'en éprouve une bien plus
                vive encore de l'offre obligeante que vous me faites de demeurer à votre campagne
                pendant le peu de jours que je pense rester à <placeName>Genève</placeName>. J'ai été extrêmement touché de
@@ -175,7 +179,8 @@
                de vous voir plus souvent pendant ce peu de temps, de pouvoir causer plus librement
                avec vous, Monsieur, du sujet de nos communes recherches, de pouvoir ainsi vous
                communiquer toutes mes idées et les éclairer ou les rectifier par les vôtres, que je
-               ne saurais me résoudre à refuser un arrangement aussi agréable pour moi. J'espère
+               ne saurais me résoudre à refuser un arrangement aussi agréable pour moi.</p>
+            <p>J'espère
                qu'en retour, dans le cas où j'aurais un jour le bonheur de vous voir faire un voyage
                à <placeName>Paris</placeName>, vous ne choisiriez pas un autre logement que celui que j'occupe, où vous
                auriez une chambre entièrement indépendante et toutes les facilités que je pourrais y
@@ -184,7 +189,8 @@
                de <placeName>Lyon</placeName> à <placeName>Genève</placeName> de M. <persName>Gaillard</persName>. J'ai fixé mon départ à 2 heures après-midi le
                dimanche 1er septembre et j'arriverai le lundi 2 septembre vers 4 heures du soir à
                <placeName>Genève</placeName>, d'après ce qu'on m'a dit au bureau de cette voiture. Je me rendrai en
-               arrivant à <placeName>Genève</placeName> à l'adresse que vous me donnez <placeName>rue de l'Hôtel-de-Ville, n° 80</placeName>. J'ai
+               arrivant à <placeName>Genève</placeName> à l'adresse que vous me donnez <placeName>rue de l'Hôtel-de-Ville, n° 80</placeName>.</p>
+            <p>J'ai
                été bien sensible au souvenir de MM. <persName>Pictet</persName> et de <persName>Candolle</persName>. Si vous les voyez avant
                que je sois à <placeName>Genève</placeName>, je vous prie de leur exprimer tous les sentiments que je leur
                ai voués. Quant aux 300 exemplaires, je les emporterai avec moi ; je crois qu'il me
@@ -192,7 +198,7 @@
                dans mon porte-manteau. Comment vous exprimer, Monsieur, toute ma reconnaissance ? Je
                le ferai mieux lundi prochain de vive voix. Permettez-moi seulement de vous assurer
                de la haute estime due autant à votre personne qu'à vos nombreux travaux dans les
-               sciences et de la bien sincère amitié de celui qui sera toujours votre tout dévoué,
+               sciences et de la bien sincère amitié de celui qui sera toujours votre tout dévoué,<lb/>
                <persName>A. Ampère</persName>
         </p>
             <closer>A monsieur <persName>de La Rive</persName>, professeur de chimie à l'<orgName>Académie</orgName>, etc., <placeName>rue de

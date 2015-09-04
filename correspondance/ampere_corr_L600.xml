@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -150,7 +151,7 @@
         <correspAction type="received">
           <persName type="adressee">Erman, Paul</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -170,10 +171,14 @@
    <text type="correspondance" decls="#ampere_corr_L1821-04-20-a">
       <body>
          <div>
-            <opener>
+            <head> Lettre de M. <persName>Ampère</persName> à M. <persName>Erman</persName>, secrétaire de
+               l'<orgName>Académie royale de <placeName>Berlin</placeName>
+               </orgName></head>
+            <opener><pb n="162" facs="#ACAS_CRHST_AMP_09_183_0162_r.jpg"/><placeName>Paris</placeName>
                <date when="1821-04-20">20 avril 1821</date>
             </opener>
-            <p>Monsieur le Secrétaire perpétuel, Depuis que vous avez eu l'extrême bonté de me faire
+            <opener>Monsieur le Secrétaire perpétuel,</opener>
+            <p> Depuis que vous avez eu l'extrême bonté de me faire
                remettre un exemplaire de votre ouvrage sur l'action électromagnétique découverte par
                M. <persName>Œrsted</persName>, vous avez dû être surpris de mon silence. Je vous
                devais tant de remerciements de l'envoi d'un travail aussi précieux que rien ne
@@ -182,12 +187,14 @@
                indispensables ne m'avait empêché de vous écrire dans le temps et si, d'autre part,
                mon ignorance de la langue allemande en m'obligeant à faire traduire votre ouvrage
                pour pouvoir en prendre connaissance ne m'en avait longtemps privé. Il y a bien peu
-               de temps que j'en ai la traduction en français et je n'ai point eu le temps d'en
-               faire une étude aussi approfondie que je l'aurais désiré. J'ai eu l'honneur,
+               de temps que j'en ai la traduction<pb n="163" facs="#ACAS_CRHST_AMP_09_183_0163_v.jpg"/> en français et je n'ai point eu le temps d'en
+               faire une étude aussi approfondie que je l'aurais désiré.</p>
+            <p>J'ai eu l'honneur,
                Monsieur, de vous offrir par l'entremise de votre illustre compatriote, M. le
                <persName>baron de Humboldt</persName>, un exemplaire du mémoire <ref target="#ampere_ref_379.xml">*</ref> qui contient une partie de mes recherches sur
                ce sujet et des conséquences que j'en ai tirées dès le mois de septembre de l'année
-               dernière. J'ignore si les faits nouveaux contenus dans ce mémoire ont été vérifiés en
+               dernière.</p>
+            <p>J'ignore si les faits nouveaux contenus dans ce mémoire ont été vérifiés en
                <placeName>Allemagne</placeName>, mais ils l'ont été tant de fois en
                <placeName>France</placeName> qu'il ne peut rester aucun doute sur leur exactitude.
                Un habile physicien, M. <persName>Thillaye</persName>, conservateur du cabinet de
@@ -196,7 +203,8 @@
           </orgName>,
                vient de les obtenir avec une pile voltaïque de dix paires seulement dont les
                plaques, disposées selon la méthode de M. <persName>Wollaston</persName>, n'avaient
-               que 4 pouces de hauteur sur 3 de largeur. C'est avec ce simple appareil qu'il a
+               que 4 pouces de hauteur sur 3 de largeur.</p>
+            <p><pb n="164" facs="#ACAS_CRHST_AMP_09_183_0164_r.jpg"/>C'est avec ce simple appareil qu'il a
                obtenu, comme je l'avais fait avec une pile beaucoup plus forte, les attractions et
                les répulsions de deux fils conjonctifs sans l'action d'aucun aimant et la direction
                de l'Est à l'Ouest du plan d'un cercle en fil de laiton où l'on fait passer un
@@ -206,7 +214,7 @@
                produits par l'instrument avec lequel vous les aviez tentés, uniquement parce que
                l'appareil voltaïque, faisant corps avec le fil conjonctif, devait se mouvoir avec
                lui, au lieu que je rends mobile une portion seulement de ce fil en la faisant porter
-               sur une pointe d'acier plongeant dans une petite coupe pleine de mercure en
+               sur une pointe d'acier plongeant dans une petite coupe pleine de mercure<pb n="165" facs="#ACAS_CRHST_AMP_09_183_0165_v.jpg"/> en
                communication avec une des extrémités de la pile, en sorte que cette pointe tourne
                librement sur le fond de la coupe, tandis qu'à l'extrémité opposée de la portion
                mobile du fil conjonctif, une pointe pareille plonge dans une seconde coupe pleine de
@@ -215,29 +223,32 @@
                la première pointe. Ce mode de suspension est représenté dans les planches qui
                accompagnent mon mémoire (Pl. 3, fig. 6 et 7). C'est avec cet appareil que je crois
                qu'il convient, dans un travail régulier sur les phénomènes dont nous nous occupons,
-               de commencer par étudier : <list>
+               de commencer par étudier :</p>
+            <p><list>
                   <item n="1"> l'action d'une portion fixe du conducteur voltaïque sur cette portion
-                     mobile, tant pour l'attirer ou la repousser que pour l'amener dans une
+                     mobile, tant pour l'attirer ou la repousser que pour<pb n="166" facs="#ACAS_CRHST_AMP_09_183_0166_r.jpg"/> l'amener dans une
                      direction parallèle à celle de la portion fixe du conducteur quand la portion
                      mobile ne peut que tourner autour de l'axe vertical passant par son point de
-                     suspension et que la portion fixe est horizontale ;</item>
+                     suspension et que la portion fixe est horizontale ;</item><lb/>
                   <item n="2">l'action du globe terrestre sur cette même portion mobile qu'on
                      reconnaît aussitôt être précisément la même que celle qu'exercerait (sic),
                      d'après les lois de l'action entre la portion fixe et la portion mobile, des
                      courants électriques qui auraient lieu dans notre globe de l'Est à l'Ouest avec
                      d'autant plus d'intensité qu'ils sont plus près de l'équateur.</item>
-               </list> L'existence des courants terrestres est confirmée par ce fait que l'aiguille
+               </list></p>
+            <p>L'existence des courants terrestres est confirmée par ce fait que l'aiguille
                d'une boussole se dirige précisément comme la doivent diriger ces courants d'après la
-               manière dont elle l'est par un courant voltaïque dans les expériences de M.
+               manière dont elle l'est par un courant voltaïque<pb n="167" facs="#ACAS_CRHST_AMP_09_183_0167_v.jpg"/> dans les expériences de M.
                <persName>Œrsted</persName>. Ce travail préparatoire achevé et les deux actions que
                j'ai découvertes, l'une entre deux conducteurs voltaïques, l'autre entre un
                conducteur et le globe de la Terre, étant bien connues, on a tout ce qu'il faut pour
                passer à l'explication des phénomènes que présentent les aimants dans les expériences
                électromagnétiques, expériences qui n'offriraient, sans ces préliminaires, qu'un
-               dédale inextricable. Il suffit, en effet, d'après les résultats fournis par le
+               dédale inextricable.</p>
+            <p>Il suffit, en effet, d'après les résultats fournis par le
                travail préparatoire dont je viens de parler relativement à la manière dont deux
                conducteurs voltaïques agissent l'un sur l'autre, sur les conducteurs, de chercher ce
-               qui doit arriver à un assemblage de courants électriques circulaires tournant tous
+               qui doit arriver à un assemblage de courants électriques circulaires tournant<pb n="168" facs="#ACAS_CRHST_AMP_09_183_0168_r.jpg"/> tous
                dans le même sens et dans des plans perpendiculaires à une droite que l'on considère
                comme l'axe de cet assemblage et alors en annonçant d'avance tout ce qui doit lui
                arriver, soit par l'action de la Terre, soit par celle d'un courant voltaïque, soit
@@ -248,8 +259,9 @@
                      <persName>Œrsted</persName> ;</item>
                   <item n="3"> Par celle d'un autre aimant, lorsque l'on observe les phénomènes
                      connus de l'action mutuelle de deux aimants.</item>
-               </list> Voilà ce qui me semble établir, aussi solidement que le peut être une théorie
-               physique, que les aimants ne sont réellement que de tels assemblages de courants
+               </list></p>
+            <p>Voilà ce qui me semble établir, aussi solidement que le peut être une théorie
+               physique, que les aimants ne<pb n="169" facs="#ACAS_CRHST_AMP_09_183_0169_v.jpg"/> sont réellement que de tels assemblages de courants
                électriques, ainsi que je l'ai annoncé à
                l'<orgName>Académie des Sciences de <placeName>Paris</placeName>
           </orgName>
@@ -261,7 +273,7 @@
                dans les plans perpendiculaires à l'axe d'un aimant suivant des courbes tracées soit
                autour de cet axe, soit autour de chacune des particules de l'aimant, puisqu'en ne
                l'admettant d'abord que comme une hypothèse, elle sert à prévoir et annoncer d'avance
-               tous les phénomènes magnétiques anciennement connus, ceux que M.
+               tous les phénomènes magnétiques<pb n="170" facs="#ACAS_CRHST_AMP_09_183_0170_r.jpg"/> anciennement connus, ceux que M.
                <persName>Œrsted</persName> a découverts et les propriétés nouvelles dont j'ai
                reconnu l'existence dans les conducteurs voltaïques. Cette disposition de
                l'électricité a lieu aussi dans la pile elle-même d'après une des premières
@@ -275,16 +287,19 @@
                d'un tube de verre et revient par l'intérieur du tube, de manière que l'action de la
                partie rectiligne de ce fil renfermée dans le tube détruit la portion de l'action de
                l'hélice qui est représentée par la somme des projections de ses spires sur l'axe de
-               cette hélice, et qu'il ne reste que l'action représentée par la somme des projections
+               cette hélice, et<pb n="171" facs="#ACAS_CRHST_AMP_09_183_0171_v.jpg"/> qu'il ne reste que l'action représentée par la somme des projections
                sur des plans perpendiculaires à l'axe : ce qui donne autant de courants circulaires
-               semblables à ceux dont je regarde les aimants (sic) composés que l'hélice a de
-               spires. Cet instrument suspendu comme une aiguille aimantée se conduit en toutes
+               semblables à ceux dont je regarde les aimants composés que l'hélice a de
+               spires.</p>
+            <p>Cet instrument suspendu comme une aiguille aimantée se conduit en toutes
                circonstances comme elle et met ainsi dans tout son jour l'identité du magnétisme et
-               de l'électricité. Il faut seulement observer qu'on n'obtient le phénomène de la
+               de l'électricité.</p>
+            <p>Il faut seulement observer qu'on n'obtient le phénomène de la
                direction par l'action du globe terrestre que quand on donne à l'hélice un assez
                grand diamètre et que la pile est très forte ; cette expérience est plus facile à
                faire avec un seul conducteur circulaire tel que celui qui est représenté (planche
-               III, figure 7). Il suffit d'observer avec attention les divers mouvements qu'imprime
+               III, figure 7).</p>
+            <p><pb n="172" facs="#ACAS_CRHST_AMP_09_183_0172_r.jpg"/>Il suffit d'observer avec attention les divers mouvements qu'imprime
                un barreau aimanté à l'hélice disposée comme je viens de le dire pour qu'il ne reste
                aucun doute sur l'assimilation que j'ai faite de cette hélice et d'un aimant. Je dois
                à l'obligeance de M. <persName>de La Rive</persName>, professeur à
@@ -296,7 +311,7 @@
                verre mais enveloppé de soie afin d'empêcher les spires de l'hélice de communiquer
                avec les parties du fil qui reviennent par l'intérieur de cette hélice de ses
                extrémités vers son milieu. Les deux bouts du fil de laiton qui, dans l'appareil que
-               j'ai décrit, communiquent avec les deux extrémités de la pile au moyen du mercure où
+               j'ai décrit,<pb n="173" facs="#ACAS_CRHST_AMP_09_183_0173_v.jpg"/> communiquent avec les deux extrémités de la pile au moyen du mercure où
                ils plongent et où ils peuvent tourner librement, sont, dans l'instrument de M.
                <persName>de La Rive</persName>, soudés à deux plaques, l'une de zinc et l'autre de
                cuivre, qui traversent un flotteur circulaire en liège qu'on place sur de l'eau
@@ -307,7 +322,8 @@
                de l'aimant et les extrémités de l'hélice d'après la direction du courant électrique
                qui la parcourt, on reconnaîtra une identité si parfaite que je ne crois pas qu'on
                conserve, après cette expérience, des doutes sur l'identité de l'électricité et du
-               magnétisme comme je l'ai fait. Voilà, Monsieur, bien des motifs d'admettre cette
+               magnétisme comme je l'ai fait.</p>
+            <p>Voilà, Monsieur, bien des motifs<pb n="174" facs="#ACAS_CRHST_AMP_09_183_0174_r.jpg"/> d'admettre cette
                explication si simple de tous les phénomènes magnétiques, et toutes les expériences
                que j'ai faites depuis six mois s'accordent à la confirmer. Quand on ne la
                considérerait que comme une manière de représenter tous les faits, elle n'en serait
@@ -319,19 +335,21 @@
                deux branches d'un aimant en fer à cheval, doivent attirer ou repousser ensemble un
                même conducteur voltaïque vertical, tel que la portion du fil qui établit dans votre
                ingénieux appareil la communication entre le cuivre et le zinc, de manière que, quand
-               il y a attraction entre les pôles de l'aimant, il y ait répulsion en dehors, avec
+               il y a attraction entre les pôles de l'aimant, il y ait<pb n="175" facs="#ACAS_CRHST_AMP_09_183_0175_v.jpg"/> répulsion en dehors, avec
                tous les autres changements de signes que vous décrivez. On voit de même pourquoi le
                pôle qui attire quand il est plus haut que le conducteur, repousse quand il est plus
                bas, et généralement tous les faits que vous avez observés, sont une suite nécessaire
-               de cette théorie. Il faut seulement se rappeler que l'attraction a lieu quand les
+               de cette théorie.</p>
+            <p>Il faut seulement se rappeler que l'attraction a lieu quand les
                courants de l'aimant dans la partie la plus voisine du conducteur, sont dans le même
                sens que celui du fil conjonctif et la répulsion quand ils sont en sens contraire, et
                faire attention à la direction des courants de l'aimant relativement à ses pôles
                telle que je l'ai déterminée en la comparant à celle du mouvement apparent du Soleil
                relativement aux pôles de la Terre. Bien entendu, que j'ai toujours nommé, comme on
-               le fait aujourd'hui en <placeName>France</placeName> et en
+               le fait aujourd'hui<pb n="176" facs="#ACAS_CRHST_AMP_09_183_0176_r.jpg"/> en <placeName>France</placeName> et en
                <placeName>Angleterre</placeName>, pôle austral de l'aiguille celui qui se dirige au
-               Nord. Plus j'ai étudié le mémoire plein de tant d'observations neuves et ingénieuses
+               Nord. </p>
+            <p>Plus j'ai étudié le mémoire plein de tant d'observations neuves et ingénieuses
                que vous avez eu la bonté de m'envoyer, plus j'y ai trouvé de preuves de ma théorie.
                Les ressemblances dans certains cas et les dissemblances complètes dans d'autres
                entre l'action d'un fil conjonctif et celle d'un barreau d'acier aimanté
@@ -339,16 +357,17 @@
                unes et les autres résultent évidemment de ce que, dans le fil conjonctif le courant
                parcourt la longueur de ce fil et que, dans un barreau aimanté transversalement, les
                courants électriques forment des circuits fermés contenus dans des plans parallèles à
-               l'axe du barreau au lieu de l'être dans des plans perpendiculaires à cet axe comme
+               l'axe du<pb n="177" facs="#ACAS_CRHST_AMP_09_183_0177_v.jpg"/> barreau au lieu de l'être dans des plans perpendiculaires à cet axe comme
                dans les aimants ordinaires. Toutes les circonstances que présentent le fil
                conjonctif, l'aimant transversal et l'aimant ordinaire, résultent ainsi d'une action
                toujours la même entre les courants électriques, soit du fil conjonctif, soit de ces
                deux sortes d'aimants, et il me paraît que, d'après les propriétés que j'ai reconnues
                dans les conducteurs voltaïques, la supposition de fluides ou de forces magnétiques
-               différentes (sic) des fluides ou des forces électriques n'est plus qu'une conception
-               purement gratuite. Car enfin, quand un fil de laiton faisant partie d'un circuit
+               différentes des fluides ou des forces électriques n'est plus qu'une conception
+               purement gratuite.</p>
+            <p>Car enfin, quand un fil de laiton faisant partie d'un circuit
                voltaïque est attiré, repoussé ou dirigé par une autre portion de fil conducteur, il
-               faut bien que l'état électrique de ce fil et les forces qui résultent de la manière
+               faut<pb n="178" facs="#ACAS_CRHST_AMP_09_183_0178_r.jpg"/> bien que l'état électrique de ce fil et les forces qui résultent de la manière
                dont l'électricité y est disposée ou s'y meut, produisent ces phénomènes, d'où il
                suit que, si le même état électrique existe dans le globe terrestre et dans les
                aimants suivant les directions indiquées dans mon Mémoire, les forces qui en
@@ -356,20 +375,18 @@
                de la Terre sur un conducteur voltaïque ou un aimant, soit dans l'action mutuelle
                d'un conducteur et d'un aimant ou de deux aimants. Quelle raison pourrait-il rester
                de supposer d'autres fluides, d'autres forces dont rien ne prouve l'existence ? Je
-               vous prie d'agréer l'hommage de ma haute considération. J'ai l'honneur d'être,
-               Monsieur, <gap reason="lacune_CGA"/>
+               vous prie d'agréer l'hommage de ma haute considération.</p>
+            <p>J'ai l'honneur d'être,
+               Monsieur, <gap reason="illisible"/>
             </p>
-            <closer> à M. <persName>Erman</persName>, secrétaire de
-               l'<orgName>Académie royale de <placeName>Berlin</placeName>
-          </orgName>
-            </closer>
+            
+            
          </div>
       </body>
       <back>
          <div>
             <note xml:id="corresp1">(1) Dix-sept pages de brouillon très raturé, 16 x 21.</note>
-            <note resp="CAK_commentaire">Pour consulter le fac-similé de cette copie, <ref target="ampere_ms_183.xml#150">cliquer ici</ref> puis naviguer dans le fonds
-               numérisé à l'aide des flèches "page suivante".</note>
+            
          </div>
       </back>
    </text>

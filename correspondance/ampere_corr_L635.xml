@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1823-02-04-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,9 +100,9 @@
                <witness xml:id="L635manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Poleymieux</settlement>
-                        <institution xmlns="">musée Ampère [note de Louis DE LAUNAY]</institution>
+                        <country>France</country>
+                        <settlement>Poleymieux</settlement>
+                        <institution>musée Ampère [note de Louis DE LAUNAY]</institution>
                      </msIdentifier>
                   </msDesc>
           </witness>
@@ -134,7 +135,7 @@
         <correspAction type="received">
           <persName type="adressee">La Rive, Auguste de</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -155,14 +156,16 @@
    <text type="correspondance" decls="#ampere_corr_L1823-02-04-a">
       <body>
          <div>
-            <opener>
+            <opener><placeName>Paris</placeName>
           <date when="1823-02-04">4 février 1823</date>
         </opener>
-            <p>Monsieur et très cher ami, La séance d'hier de l'<orgName>Académie des Sciences</orgName> marque une
+            <opener>Monsieur et très cher ami,</opener>
+            <p> La séance d'hier de l'<orgName>Académie des Sciences</orgName> marque une
                sorte d'époque dans l'histoire de l'électricité dynamique, et je pense que je dois
                vous annoncer ce qui s'y est lu, d'après l'intérêt que vous mettez à cette branche de
-               la physique, les progrès qu'elle vous doit et ceux qu'elle attend encore de vous. Je
-               vous ai parlé des calculs de M. <persName>Savary</persName>. M. <persName>de Monferrand [Demonferrand]</persName>, professeur
+               la physique, les progrès qu'elle vous doit et ceux qu'elle attend encore de vous.</p>
+            <p>Je
+               vous ai parlé des calculs de M. <persName>Savary</persName>. M. <persName>deMonferrand</persName>, professeur
                de physique au <orgName>Collège royal de <placeName>Versailles</placeName>
           </orgName>, avait fait des calculs analogues de son
                côté. Quand je le sus, il fut convenu que leurs mémoires seraient lus dans la même
@@ -171,14 +174,16 @@
                leur ensemble que tous les faits non encore expliqués complètement, observés par MM.
               <persName> Gay-Lussac</persName>, <persName>
             <choice>
-              <sic>Velther</sic> <corr>[Welter]</corr>
+              <sic>Velther</sic> <corr>Welter</corr>
             </choice>
           </persName>, <persName>Pouillet</persName>, <persName>Biot</persName> et <persName>Savary</persName>, les expériences de <persName>Coulomb</persName>
                sur les aimants, les vôtres, celles de MM. <persName>Faraday</persName> et <persName>Barlow</persName>, la loi connue de
                l'inclinaison de l'aiguille aimantée, etc., sont des conséquences nécessaires de ma
-               formule. Je vous communiquerai plus en détails ces résultats qui ne laissent plus
+               formule.</p>
+            <p>Je vous communiquerai plus en détails ces résultats qui ne laissent plus
                lieu à aucune objection, dès que le rapport aura été fait à l'<orgName>Institut</orgName>, ce qui ne
-               tardera pas, parce que j'en connaîtrai alors mieux tous les détails. Je vous avais
+               tardera pas, parce que j'en connaîtrai alors mieux tous les détails.</p>
+            <p>Je vous avais
                prié de faire mettre le n° 339 à la première page des 300 exemplaires pour mon compte
                de ce qui devait être inséré d'une de mes lettres dans la <title>Bibliothèque universelle</title> au
                lieu du n° 337 que j'avais d'abord demandé. Je désirerais à présent, s'il en est
@@ -191,10 +196,11 @@
                courrier pour me dire seulement ce qui en est, afin de me régler là-dessus. Je vous
                en serais on ne peut plus reconnaissant. Que je serais heureux s'il était encore
                temps de numéroter les pages 341, 342, 343, etc. Mes respects, je vous prie, à M. et
-               à <persName>Mme de La Rive</persName>. Tout à vous, <persName>A. Ampère</persName>
+               à <persName>Mme de La Rive</persName>. Tout à vous,<lb/>
+               <persName>A. Ampère</persName>
         </p>
             <closer>chez M. <persName>de La Rive</persName>, professeur de chimie à l'<orgName>Académie</orgName>, <placeName>rue de l'Hôtel-de-Ville</placeName>,
-               à <placeName>Genève</placeName> [Confédération helvétique]. </closer>
+               à <placeName>Genève</placeName> (Confédération helvétique). </closer>
          </div>
       </body>
       <back>

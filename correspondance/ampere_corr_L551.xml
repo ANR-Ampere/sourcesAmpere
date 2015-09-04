@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1817-03-28-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +100,11 @@
                <witness xml:id="L551manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 393 quarto</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 393 quarto</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>Quatre pages in-4° sans adresse.</p>
@@ -140,7 +141,7 @@
         <correspAction type="received">
           <persName type="adressee">Roux-Bordier, Jacques</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,48 +162,58 @@
    <text type="correspondance" decls="#ampere_corr_L1817-03-28-a">
       <body>
          <div>
-            <opener>28 mars 1817</opener>
-            <p>Mon bien cher ami, je pense que M. Gosse vous aura communiqué une lettre autant
+            <opener><pb n="812" facs="#ACAS_CRHST_AMP_26_393_quarto_0084_r.jpg"/><placeName>Paris</placeName> <date when="1817-03-28">28 mars 1817</date></opener>
+            <opener>Mon bien cher ami,</opener>
+            <p> je pense que M. Gosse vous aura communiqué une lettre autant
                adressée à vous qu'à lui et contenant la réponse à la partie politique de la lettre
                que vous m'avez fait l'amitié de m'écrire et dont je vous fais mille et mille
                remerciements ; car vous savez quelle félicité c'est pour moi d'en recevoir de ces
-               excellents amis de <placeName>Lyon</placeName> parmi lesquels vous tenez un des premiers rangs. Quant à la
-               partie psychologique, je me propose depuis lors d'y répondre directement ; mais ce
+               excellents amis de <placeName>Lyon</placeName> parmi lesquels vous tenez un des premiers rangs.</p>
+            <p>Quant à la partie psychologique, je me propose depuis lors d'y répondre directement ; mais ce
                n'est pas une petite affaire. Vous me dites que vous ne me demandez pas où j'en suis,
-               mais où en est M. <persName>de Biran [Maine de Biran</persName>], parce que mon tableau n'est pas parvenu
+               mais où en est M. <persName>de Biran</persName>, parce que mon tableau n'est pas parvenu
                à sa perfection et que M. <persName>de Biran</persName> doit s'être arrêté à quelque chose désormais
                invariable. C'est précisément le contraire. Je vais d'abord vous prouver que le
                tableau l'est à jamais en en joignant une copie à cette lettre, où il ne peut plus y
                avoir rien à changer, comme vous vous en assurerez en le parcourant : non seulement
-               par lignes horizontales, ce qui donne l'ordre chronologique de nos connaissances,
+               par lignes horizontales,<pb n="813" facs="#ACAS_CRHST_AMP_26_393_quarto_0085_v.jpg"/> ce qui donne l'ordre chronologique de nos connaissances,
                divisé en deux époques, dont l'une dure jusqu'à ce qu'on apprenne à parler, et
                l'autre depuis lors jusqu'à la fin de la vie, mais encore en comparant les termes qui
                occupent des places correspondantes dans chaque système, en sorte que vous voyiez
                comment l'on passe d'une combinaison du premier (système subjectif) à celle qui lui
                correspond dans le dernier (système rationnel), par les combinaisons correspondantes
-               des deux systèmes intermédiaires. Voyez et jugez, dites-moi ensuite si vous persistez
-               dans l'opinion où vous étiez en 1815 qu'il n'y a point d'harmonie ! Ce tableau n'est
+               des deux systèmes intermédiaires.</p>
+            <p>Voyez et jugez, dites-moi ensuite si vous persistez
+               dans l'opinion où vous étiez en 1815 qu'il n'y a point d'harmonie !</p>
+            <p>Ce tableau n'est
                rien en comparaison de la théorie qui démontre la réalité objective en la rendant à
                la fois indépendante de la sensibilité et de l'hypothèse de <persName>Kant</persName> et des écossais, qui
                ne sont les unes comme les autres que des idées innées sous une nouvelle
-               dénomination. C'est cette théorie dont M. <persName>de Biran</persName> a posé les fondements et que j'ai
-               développée en y joignant celle que j'avais faite avant de venir demeurer à <placeName>Paris</placeName>. Ces
+               dénomination.</p>
+            <p><pb n="814" facs="#ACAS_CRHST_AMP_26_393_quarto_0086_r.jpg"/>C'est cette théorie dont M. <persName>de Biran</persName> a posé les fondements et que j'ai
+               développée en y joignant celle que j'avais faite avant de venir demeurer à <placeName>Paris</placeName>.</p>
+            <p>Ces
                fondements ont été adoptés et enseignés à son cours par le professeur de philosophie
                la <orgName>Faculté de <placeName>Paris</placeName>
           </orgName>, M. <persName>Cousin</persName>. Mais, au lieu de les compléter comme moi, il le fait
                en y joignant une partie de la théorie de <persName>Reid</persName> et de <persName>Kant</persName>. Cela le rejette dans les
                mêmes inconvénients de tendance sceptique que s'il était Reidiste pur, ou Kantiste
                pur ; mais il n'en convient pas et croit l'éviter par des raisons qui ne sont qu'un
-               simple paralogisme transcendental, tel que celui que <persName>Kant</persName> a si sérieusement réfuté.
+               simple paralogisme transcendental, tel que celui que <persName>Kant</persName> a si sérieusement réfuté.</p>
+            <p>
                En vous parlant tout à l'heure de l'indécision des idées de M. <persName>de Biran</persName>, j'avais
                l'esprit plein de ce qu'il hésite sans cesse, pour compléter sa psychologie, entre M.
-               <persName>Cousin</persName> et moi. Nous nous réunissons tous trois chez lui tous les lundis après dîner
+               <persName>Cousin</persName> et moi.</p>
+            <p>Nous nous réunissons tous trois chez lui tous les lundis après dîner
                pour discuter sur ces matières-là. Tantôt il penche du côté de M. <persName>Cousin</persName>, tantôt du
-               mien. Cependant il est évident que, sur ce point-là, c'est moi qui ai raison.
+               mien.</p>
+            <p><pb n="815" facs="#ACAS_CRHST_AMP_26_393_quarto_0087_v.jpg"/>Cependant il est évident que, sur ce point-là, c'est moi qui ai raison.
                N'est-ce pas, mon cher ami, que c'est l'objectif qui produit primitivement le
                subjectif et non pas des formes subjectives, idées qui nous font croire sans raison à
-               un objectif qui pourrait bien n'exister pas ? Quant à la chimie, je sais bien qu'elle
-               fera encore des progrès que nous ne pouvons prévoir quant à présent. Je n'ai pas pu
+               un objectif qui pourrait bien n'exister pas ?</p>
+            <p>Quant à la chimie, je sais bien qu'elle
+               fera encore des progrès que nous ne pouvons prévoir quant à présent.</p>
+            <p>Je n'ai pas pu
                faire encore votre commission pour M. <persName>Martin</persName>. Si l'on admettait à votre Société un
                précis psychologique sur l'état actuel de cette science de l'intelligence humaine qui
                est dans ce moment tout pour moi et de la révolution qu'elle va éprouver en s'élevant
@@ -214,7 +225,7 @@
                de l'eau. Voyez donc le mémoire de <persName>Dulong</persName> sur l'acide nitreux. Mille amitiés, je vous
                prie, de ma part à M. <persName>Gosse</persName>. Adieu, mon bien cher ami, tout à vous. <persName>A. Ampère</persName>
         </p>
-            <closer>à <placeName>Genève</placeName> (<placeName>Suisse</placeName>) </closer>
+           
          </div>
       </body>
       <back>

@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1823-11-02-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +100,11 @@
                <witness xml:id="L645manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 393 quarto</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 393 quarto</idno>
                      </msIdentifier>
                   </msDesc>
           </witness>
@@ -137,7 +138,7 @@
         <correspAction type="received">
           <persName type="adressee">Périsse-Marsil, Jean-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -158,27 +159,29 @@
    <text type="correspondance" decls="#ampere_corr_L1823-11-02-a">
       <body>
          <div>
-            <opener>
-          <date when="1823-11-02">Dimanche 2 novembre [1823]</date>
+            <opener><pb n="783" facs="#ACAS_CRHST_AMP_26_393_quarto_0055_r.jpg"/><placeName>Paris</placeName>
+          <date when="1823-11-02"> 2 nov<ex>em</ex>bre [1823]</date>
         </opener>
-            <p>[par <persName>Jean-Jacques Ampère</persName>] Mon cher oncle et ma chère tante, je serai à <placeName>Lyon</placeName> au milieu
-               de vous jeudi matin. Depuis longtemps j'avais le désir de faire le voyage d'<placeName>Italie</placeName>,
-               si nécessaire à tous ceux qui s'occupent de littérature. Plusieurs personnes de ma
+            <opener> Mon cher oncle et ma chère tante,</opener>
+            <p> je serai à <placeName>Lyon</placeName> au milieu
+               de vous jeudi matin.</p>
+            <p>Depuis longtemps j'avais le désir de faire le voyage d'<placeName>Italie</placeName>,
+               si nécessaire à tous ceux qui s'occupent de littérature <gap reason="lacune_CGA"/>.<pb n="784" facs="#ACAS_CRHST_AMP_26_393_quarto_0056_v.jpg"/><gap reason="lacune_CGA"/> Plusieurs personnes de ma
                connaissance, entre autres M. <persName>Dugas-Montbel</persName>, passent l'hiver à <placeName>Rome</placeName>. Notre
                ambassadeur à <placeName>Rome</placeName> est M. le <persName>duc de Laval Montmorency</persName> qui a de l'amitié pour moi et
                voulait m'emmener avec lui lors de son départ. Enfin M. <persName>Ballanche</persName> va partir pour
                accompagner une dame de notre connaissance à tous deux, <persName>Mme Récamier</persName>, qui y conduit
-               sa nièce pour affermir sa santé. J'ai cédé à l'entraînement de tant de circonstances.
+               sa nièce pour affermir sa santé. J'ai cédé à l'entraînement de tant de circonstances réunies.
                Mon père a d'abord été un peu effrayé de me perdre tout l'hiver ; puis il a senti que
-               je ne retrouverais plus un semblable moment de faire un voyage qu'en ma qualité de
+               je ne retrouverais plus un semblable moment de faire un voyage qu'en ma qualité<pb n="785" facs="#ACAS_CRHST_AMP_26_393_quarto_0057_r.jpg"/> de
                poète indigne il aurait toujours fallu faire. Enfin une tragédie que j'ai composée et
                dont <persName>Périsse</persName> vous a peut-être parlé a été reçue à l'unanimité au second théâtre et
                l'on se charge en mon absence de la présenter au premier. Je la laisse en bonnes
                mains, dans celles de <persName>Talma</persName> et de M. <persName>Lebrun</persName>, l'auteur de <title>
             <persName>Marie-Stuart</persName>
           </title>, Je serai
-               débarrassé de ce tracas <gap xmlns="" reason="lacune_CGA"/> [Suite de la lettre par
-               <persName>André Ampère</persName>.] Cher frère et ami, je ne saurais te dire depuis combien de temps je
+               débarrassé de ce tracas <gap reason="lacune_CGA"/></p>
+            <p><pb n="786" facs="#ACAS_CRHST_AMP_26_393_quarto_0058_v.jpg"/><handShift new="#AMA"/>Cher frère et ami, je ne saurais te dire depuis combien de temps je
                désire t'écrire, comment j'ai cru le faire le lendemain. Je dois lire demain un
                mémoire à l'<orgName>Institut</orgName>, le jour même du départ d'<persName>Ampère</persName>. Ce mémoire est ce que je
                regarde de plus important de tout ce que j'ai fait depuis trois ans dans cette
@@ -189,10 +192,10 @@
                l'amitié que j'aurai toujours pour le meilleur des frères. Reçois-en l'expression
                dans ce mot écrit à la hâte et dis à ma sœur ainsi qu'à toute la famille quel
                précieux souvenir je conserve d'eux tous et, en particulier, de la si gentille petite
-               cousine ! Je ne vois rien de comparable parmi tout ce que je connais <gap xmlns="" reason="lacune_CGA"/>
+               cousine ! Je ne vois rien de comparable parmi tout ce que je connais <gap reason="lacune_CGA"/>
         </p>
             <closer>
-          <placeName>grande rue Mercière</placeName>, vis-à-vis l'<placeName>allée Marchande</placeName>, à <placeName>Lyon</placeName> (<placeName>Rhône</placeName>) </closer>
+          <placeName>A monsieur <persName>Perisse-Marsil</persName> grande rue Mercière</placeName>, vis-à-vis l'<placeName>allée Marchande</placeName>, à <placeName>Lyon</placeName> (<placeName>Rhône</placeName>) </closer>
          </div>
       </body>
       <back>

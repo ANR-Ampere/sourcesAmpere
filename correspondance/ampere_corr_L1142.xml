@@ -1,3 +1,4 @@
+
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -135,15 +136,11 @@
     <text type="correspondance" decls="#ampere_corr_L1812-10-20-a">
         <body>
             <div>
-                <opener>
-          <pb n="899" facs="#ACAS_CRHST_AMP_21_311_ter_0227_r.jpg"/>Tournon <date when="1812-10-20">20 octobre 1812</date>
+                <opener><pb n="899" facs="#ACAS_CRHST_AMP_21_311_ter_0227_r.jpg"/>Tournon <date when="1812-10-20">20 octobre 1812</date>
         </opener>
                 <p>Cette lettre, mon cher collègue, vous sera remise par m. <persName>Bresson</persName> dont je vous ai
                     parlé dans notre dernière entrevue chez m. <persName>Bredin</persName>. M. <persName>Bresson</persName> est un cinquième
-                    B, que je veux ajouter aux 4 que vous possédez<note>On peut penser que <persName>J. Izarn</persName>
-                        fait là référence à l'amitié d'<persName>Ampère</persName> pour <persName>Bredin</persName>, <persName>Ballanche</persName>, <persName>Barret</persName> et
-                        <persName>Bonjour</persName> ; il lui propose donc un cinquième ami dont le nom commence par la
-                        lettre B.</note>. Une foule de raisons militent en faveur de cette addition.
+                    B, que je veux ajouter aux 4 que vous possédez <ref target="#corresp1">(1)</ref>. Une foule de raisons militent en faveur de cette addition.
                     Je trouve la première dans le goût de la divinité, qui se plaît au nombre
                     impair, et d'après lequel vous ne pouvez vous en tenir à 4.</p>
                 <p>La deuxième c'est
@@ -168,11 +165,14 @@
                     embrasse de tout mon cœur. <lb/>
                     <persName>J. Izarn</persName>
         </p>
-                <closer>
-          <pb n="900" facs="#ACAS_CRHST_AMP_21_311_ter_0228_v.jpg"/>A Monsieur <persName>Ampère</persName>, Inspecteur général de l'<orgName>université impériale</orgName>, Cour du
+                <closer><pb n="900" facs="#ACAS_CRHST_AMP_21_311_ter_0228_v.jpg"/>A Monsieur <persName>Ampère</persName>, Inspecteur général de l'<orgName>université impériale</orgName>, Cour du
                     Commerce n°19, à <placeName>Paris</placeName>
         </closer>
             </div>
         </body>
+        <back><note xml:id="corresp1">On peut penser que <persName>J. Izarn</persName>
+            fait là référence à l'amitié d'<persName>Ampère</persName> pour <persName>Bredin</persName>, <persName>Ballanche</persName>, <persName>Barret</persName> et
+            <persName>Bonjour</persName> ; il lui propose donc un cinquième ami dont le nom commence par la
+            lettre B.</note></back>
     </text>
 </TEI>

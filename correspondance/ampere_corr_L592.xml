@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -79,7 +80,7 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct xml:id="ampere_corr_L1820-11-14-a">
-                    <monogr xmlns="">
+                    <monogr>
                         <author>
                             <surname>De Launay</surname>
                             <forename>Louis</forename>
@@ -100,12 +101,12 @@
                     <witness xml:id="L592manuscrit">
             <msDesc type="original_manuscrit">
                             <msIdentifier>
-                                <country xmlns="">France</country>
-                                <settlement xmlns="">Paris</settlement>
-                                <institution xmlns="">Archives de l'Académie des
+                                <country>France</country>
+                                <settlement>Paris</settlement>
+                                <institution>Archives de l'Académie des
                                     sciences</institution>
-                                <repository xmlns="">Fonds André-Marie Ampère</repository>
-                                <idno xmlns="">chemise 185</idno>
+                                <repository>Fonds André-Marie Ampère</repository>
+                                <idno>chemise 185</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>Deux pages 21 x 26, adresse sur la quatrième. Post-scriptum à la
@@ -143,7 +144,7 @@
         <correspAction type="received">
           <persName type="adressee">Hachette, Jean-Nicolas-Pierre</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -164,33 +165,38 @@
     <text type="correspondance" decls="#ampere_corr_L1820-11-14-a">
         <body>
             <div>
-                <opener>
-          <date when="1820-11-14">14 novembre 1820</date>
+                <opener><pb n="2" facs="#ACAS_CRHST_AMP_09_185_0002_r.jpg"/>
+          <date when="1820-11-14">14 <choice><abbr>9bre</abbr> <expan>novembre</expan></choice> 1820</date>
         </opener>
+                <p>Je vous prie, en grâce, d'avoir soin de cette feuille de journal ; j'ai la
+                collection de plus de 18 mois, sans qu'il en manque une seule. De plus, si vous
+                n'en avez plus besoin à 5 heures ce soir, j'irai vous prier de me le rendre,
+                sauf à vous le remettre ensuite. C'est à la page 3, le troisième alinéa de la
+                seconde colonne.</p>
                 <p>Voici, mon cher Collègue, le journal où se trouve l'article en question. Il y a,
                     premièrement, une fausseté manifeste à dire que M. <persName>Œrsted</persName> a annoncé l'identité
                     des fluides magnétique et galvanique, non seulement il n'en parle pas dans tout
                     ce que nous avons de lui, mais, dans la pièce où il publie sa découverte, il
                     explique les phénomènes par une hypothèse où ces fluides sont entièrement
                     distingués. C'est moi qui ai dit le premier que cette identité résultait de ces
-                    phénomènes, non pas d'après l'explication de M. <persName>Œrsted</persName> qui les supposait tout à
+                    phénomènes, non pas d'après l'explication<pb n="3" facs="#ACAS_CRHST_AMP_09_185_0003_v.jpg"/> de M. <persName>Œrsted</persName> qui les supposait tout à
                     fait distincts, mais d'après ma théorie entièrement distincte de la sienne et
-                    qui seule les identifie. Que d'autres aient conjecturé autrefois cette identité
+                    qui seule les identifie.</p>
+                <p>Que d'autres aient conjecturé autrefois cette identité
                     sans preuve, cela ne fait rien à l'affaire. Voyez ensuite comme il est dit
-                    qu'<persName>Arago</persName> et moi avons constaté des faits qui résultent de cette découverte !...
+                    qu'<persName>Arago</persName> et moi avons constaté des faits qui résultent de cette découverte !
                     Ils n'en résultent nullement pour quiconque y donne un instant d'attention. Que
                     je vous serai obligé d'écrire à ce sujet au rédacteur du journal ! Agréer tous
-                    mes remercîments et l'assurance de ma sincère amitié et de mon entier
-                    dévouement. <persName>A. Ampère</persName> J'oubliais de mettre dans ma lettre que vous trouverez
+                    mes remerciements et l'assurance de ma sincère amitié et de mon entier
+                    dévouement. <lb/>
+                    <persName>A. Ampère</persName> </p>
+                <p><pb n="4" facs="#ACAS_CRHST_AMP_09_185_0004_v.jpg"/>J'oubliais de mettre dans ma lettre que vous trouverez
                     l'explication de M. <persName>Œrsted</persName> où il distingue complètement les deux fluides dans le
                     numéro d'<date when-iso="1820-08">août 1820</date> qui a paru en dernier lieu il n'y a pas tout à fait un mois.
-                    Je vous prie, en grâce, d'avoir soin de cette feuille de journal ; j'ai la
-                    collection de plus de 18 mois, sans qu'il en manque une seule. De plus, si vous
-                    n'en avez plus besoin à 5 heures ce soir, j'irai vous prier de me le rendre,
-                    sauf à vous le remettre ensuite. C'est à la page 3, le troisième alinéa de la
-                    seconde colonne.</p>
+                    </p>
+               
                 <closer> à M. <persName>Hachette</persName>, Membre de la <orgName>Faculté des Sciences</orgName> et de la <orgName>Société
-                    philomatique</orgName>, <placeName>cul-de-sac Saint-Dominique</placeName>, à <placeName>Paris</placeName>
+                    philomatique</orgName>, <placeName>cul-de-sac S<ex>ain</ex>t-Dominique</placeName>, à <placeName>Paris</placeName>
         </closer>
             </div>
         </body>

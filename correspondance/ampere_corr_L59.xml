@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -145,7 +146,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -226,12 +227,13 @@
                     donner de ton frère, et<lb/>
                     <del>je n'ai pas du temps
                     pour tout.</del>
-          <lb/>
+                </p>
+                <p>
                     J'ai vu Mlle <persName ref="#pers_C118">Jenny</persName>, arrivée de<lb/>
                     <placeName>Paris</placeName>, <del>qui m'a dit qu'elle avait<lb/>
                     laissé tout le monde en bonne<lb/>
                         santé</del>, <del type="bloc">que les nouveaux hôtes<lb/>
-                    de <placeName>Paris</placeName> <ref>(2)</ref>
+                    de <placeName>Paris</placeName> <ref target="#corresp2">(2)</ref>
                     l'avaient chargée de<lb/>
                     tant de choses pour vous toutes,<lb/>
                             et qu'elle mourait d'envie de<lb/>
@@ -243,7 +245,8 @@
                             mais elle ne s'en trouvait pas<lb/>
                             sur elle ; elle a dit que ce serait<pb n="1410" facs="#ACAS_CRHST_AMP_26_393_quarto_0682_r.jpg"/>
                             pour une autre fois.</del>
-          <lb/>
+                </p>
+                <p>
                     Tous les paquets et préparatifs<lb/>
                     de Mme <persName>Périsse</persName> ont été suspendus<lb/>
                     par la subite arrivée de<lb/>
@@ -279,7 +282,8 @@
         </body>
         <back>
             <div>
-                <note xml:id="corresp1">(1) Quatre pages in-4° ; adresse sur la quatrième. (2) Le
+                <note xml:id="corresp1">(1) Quatre pages in-4° ; adresse sur la quatrième.</note>
+                <note xml:id="corresp2">(2) Le
                     ménage <persName>Carron</persName> était à <placeName>Paris</placeName>. Voir une lettre du frère <persName ref="#pers_C127">Carron</persName> du <date when="1801-03-16">16 mars 1801</date>.
                 </note>
             </div>

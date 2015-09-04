@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1818-08-18-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +100,11 @@
                <witness xml:id="L565manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 340</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 340</idno>
                      </msIdentifier>
                   </msDesc>
           </witness>
@@ -137,7 +138,7 @@
         <correspAction type="received">
           <persName type="adressee">Bredin, Claude-Julien</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -158,24 +159,27 @@
    <text type="correspondance" decls="#ampere_corr_L1818-08-18-a">
       <body>
          <div>
-            <opener>
+            <opener><pb n="333" facs="#ACAS_CRHST_AMP_24_340_0333_r.jpg"/><placeName>Paris</placeName>
           <date when="1818-08-18">Mardi 18 août [1818]</date>
         </opener>
             <p>Cher ami, depuis que j'ai reçu ta dernière lettre, je projette tous les jours de
                t'écrire ; mais comment le faire ? Si tu savais ce qu'est ma vie depuis 18 jours que
-               je suis de retour à <placeName>Paris</placeName> ! Examen à l'<orgName>école Polytechnique</orgName>, distribution de prix à
+               je suis de retour à <placeName>Paris</placeName> !</p>
+            <p>Examen à l'<orgName>école Polytechnique</orgName>, distribution de prix à
                l'<orgName>Université</orgName>, et demain commencer la récapitulation de tout mon cours à l'<orgName>école
                Polytechnique</orgName>. Ma maison encore pleine d'ouvriers qui ne font que des bêtises dès que
                je passe un jour sans y aller ! Il y en a eu tant pendant mon voyage à <placeName>Caen</placeName> ! Je ne
                peux pas penser ! Je n'ai pas trouvé le temps de revoir les feuilles du mémoire de
                mathématiques qu'on imprime dans le journal de l'école. J'en ai là depuis huit jours
                sur ma table. M. <persName>Huzard</persName> part demain : il m'a dit si j'avais une lettre pour toi à lui
-               donner ce soir. J'écris un billet faute de temps. On m'a interrompu, il est déjà tard
+               donner ce soir. J'écris un billet faute de temps.</p>
+            <p>On m'a interrompu, il est déjà tard
                et je n'ai plus assez de temps pour préparer ma récapitulation ; cependant je
-               reprends la plume. Cette occupation continuelle à vingt choses à la fois m'a mis dans
+               reprends la plume. Cette occupation<pb n="334" facs="#ACAS_CRHST_AMP_24_340_0334_v.jpg"/> continuelle à vingt choses à la fois m'a mis dans
                un sentiment si pénible d'une tristesse sèche que je souffre extrêmement sans pouvoir
                dire de quoi. Je n'espère que dans le changement de lieu que j'éprouverai en allant
-               habiter ma nouvelle maison pour sortir de cet état. En attendant, une seule chose
+               habiter ma nouvelle maison pour sortir de cet état.</p>
+            <p>En attendant, une seule chose
                pourrait l'adoucir, ce serait une lettre de toi ; pourquoi ne m'écris-tu presque
                plus ? Ce silence m'est insupportable. A une lettre de toi un peu longue, j'en
                répondrais une longue aussi, parce que ce dont tu me parlerais me fournirait de quoi
@@ -183,22 +187,25 @@
                admirables découvertes de <persName>Thénard</persName> en chimie. C'est une nouvelle carrière ouverte dans
                cette science. La psychologie vient pourtant pour moi de temps en temps suspendre cet
                ennui de tous mes moments ; mais à peine ai-je quelques moments à pouvoir m'en
-               occuper. Oh, que je voudrais te voir ! Quel besoin j'aurais de parler avec toi ! Si
-               tu pouvais venir ici avec M. <persName>Huzard</persName> ! Que nous puissions passer quelque temps
+               occuper. Oh, que je voudrais te<pb n="335" facs="#ACAS_CRHST_AMP_24_340_0335_r.jpg"/> voir ! Quel besoin j'aurais de parler avec toi ! Si
+               tu pouvais venir ici avec M. <persName>Huzard</persName> !</p>
+            <p>Que nous puissions passer quelque temps
                ensemble ! <persName>Dieu</persName> m'a fait de grandes grâces, auxquelles j'ai bien mal répondu, et ce
                chagrin du fond de l'âme dont je te parle est sûrement la peine que j'ai méritée en
                me laissant, à force de vaines occupations accumulées, aller à une paresse
                impardonnable pour les choses qui seules mériteraient d'occuper une intelligence dont
-               le monde n'est pas le but <ref>(2)</ref>. écris-moi, je t'en conjure. Mon mal de gorge est à peu
-               près guéri. Ma sœur et mes enfants se portent [bien]. J'espère déménager avant 15
-               jours. Donne-moi des nouvelles de toute ta famille et de tous nos amis. Mais surtout
+               le monde n'est pas le but <ref target="#corresp2">(2)</ref>. écris-moi, je t'en conjure. Mon mal de gorge est à peu
+               près guéri. Ma sœur et mes enfants se portent<supplied> bien</supplied>. J'espère déménager avant 15
+               jours.</p>
+            <p>Donne-moi des nouvelles de toute ta famille et de tous<pb n="336" facs="#ACAS_CRHST_AMP_24_340_0336_v.jpg"/> nos amis. Mais surtout
                parle-moi du plus cher de tous, parle-moi bien au long de <persName>Bredin</persName>, de ses pensées, de
-               ses sentiments, de l'état de toute ton âme. <persName>Ballanche</persName>, <persName>Dugas</persName> et <persName>Nizier</persName> t'aiment bien
+               ses sentiments, de l'état de toute ton âme.</p>
+            <p><persName>Ballanche</persName>, <persName>Dugas</persName> et <persName>Nizier</persName> t'aiment bien
                et se portent bien. L'autre jour, j'ai bu avec le dernier et deux autres à ta santé ;
                l'un est un jeune médecin qui t'aime bien et a le bonheur d'aller à <placeName>Lyon</placeName> ; il m'a dit
                qu'il te verrait ; quand donc aurai-je le même bonheur ? Mon Dieu, accordez-le moi !
                Je t'embrasse de toute mon âme.</p>
-            <closer>directeur de l'<orgName>École vétérinaire</orgName>, à <placeName>Lyon</placeName> (<placeName>Rhône</placeName>) </closer>
+            <closer>A monsieur <persName>Bredin</persName> directeur de l'<orgName>École vétérinaire</orgName>, à <placeName>Lyon</placeName> (<placeName>Rhône</placeName>) </closer>
          </div>
       </body>
       <back>
@@ -206,7 +213,8 @@
             <note xml:id="corresp1">(1) Quelques lignes ont été publiées par Mme <persName>Cheuvreux</persName>, p. 150
                et 151, et l'autographe a été raturé en conséquence. <persName>Ampère</persName> a daté <date when="1818-08-17">mardi 17</date>, mais le
                mardi est un <date when="1818-08-18">18</date> et les communications de <persName>Thenard</persName> sur les oxydes alcalins dont il
-               parle ont eu lieu les <date when="1818-08-10">10</date> et <date when="1818-08-17">17 août</date>. (2) On retrouve les mêmes sentiments exprimés
+               parle ont eu lieu les <date when="1818-08-10">10</date> et <date when="1818-08-17">17 août</date>.</note>
+            <note xml:id="corresp2">(2) On retrouve les mêmes sentiments exprimés
                dans la méditation 332, à laquelle nous attribuons hypothétiquement cette date.
             </note>
          </div>

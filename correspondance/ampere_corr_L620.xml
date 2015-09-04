@@ -1,4 +1,6 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE ENTITY_MathML SYSTEM "../../Documents/Sch%C3%A9mas//ENTITY_MathML.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +80,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1822-07-06-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +101,11 @@
                <witness xml:id="L620manuscrit">
             <msDesc type="brouillon_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 182</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 182</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>Neuf pages 26 x 21, adresse sur la dixième.</p>
@@ -140,7 +142,7 @@
         <correspAction type="received">
           <persName type="adressee">Maurice, Frédéric (baron)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,112 +163,118 @@
    <text type="correspondance" decls="#ampere_corr_L1822-07-06-a">
       <body>
          <div>
-            <opener>
+            <opener><pb n="230" facs="#ACAS_CRHST_AMP_09_182_0230_r.jpg"/><placeName>Paris</placeName>
           <date when="1822-07-06">6 juillet 1822</date>
         </opener>
             <p>J'ai mille et mille remerciements à vous faire, mon très cher confrère, du billet que
                vous m'avez écrit hier. Je ferai l'écrit synthétique quand je pourrai ; mais voici
                deux ou trois observations qui me viennent à l'esprit en lisant l'opinion de
-               l'inconnu. <list>
-            <item n="1"> Vous êtes plus content que lui de mes développements parce que nous
+               l'inconnu.</p>
+            <p><list>
+            <item n="1"><p> Vous êtes plus content que lui de mes développements parce que nous
                avons parlé et qu'il a lu. Je ne sais me faire comprendre presque qu'en parlant. Je
                suppose malgré moi que, quand on me lit, on refait dans sa tête ce que je veux dire
                comme je refais ce que je lis : par exemple, quand j'ai dit : la Terre agit comme un
-               courant électrique allant par rapport à lui de l'Est à l'Ouest en passant par le Sud,
+               courant<pb n="231" facs="#ACAS_CRHST_AMP_09_182_0231_v.jpg"/> électrique allant par rapport à lui de l'Est à l'Ouest en passant par le Sud,
                cela veut évidemment dire, puisqu'il faut bien qu'il fasse le cercle entier que, par
                rapport à nous, elle agit du côté du Midi comme un courant allant de l'Est à l'Ouest,
                du côté de l'Ouest comme un courant allant du Midi au Nord, du côté du Nord comme un
                courant allant de l'Ouest à l'Est et du côté de l'Est comme un courant allant du Nord
                au Sud. Projetez le méridien magnétique où le courant est réellement partout clans la
                direction de l'Est à l'Ouest sur le plan de notre horizon, vous aurez cette ellipse
-               où les flèches marquent la direction du courant.</item>
-            <item n="2"> Je suis bien loin de vouloir que
+               où les flèches marquent la direction du courant. <figure/></p></item>
+            <item n="2"><p> Je suis bien loin de vouloir que
                la chose reste telle quelle. Je travaille constamment à la perfectionner. Je voudrais
                que beaucoup de personnes y travaillassent aussi, est-ce qu'on a jamais mis une chose
                à sa perfection du premier coup ? Prenons un exemple, <cit xml:lang="lat">
                 <quote>si parva licet componere
                magnes</quote>
               </cit>, <persName>Copernic</persName> dit : <cit>
-                <quote>Le Soleil est immobile, les planètes tournent autour de lui
+                 <quote>Le Soleil est immobile,<pb n="232" facs="#ACAS_CRHST_AMP_09_182_0232_r.jpg"/> les planètes tournent autour de lui
                dans un cercle excentrique, ou dans un épicycle porté sur un cercle concentrique, ce
                qui revient au même ; puis on trouve que c'est dans une ellipse, puis que le Soleil
                n'est pas exactement immobile, que le centre de gravité du système planétaire qui en
                est très près peut seul être immobile, sauf encore l'attraction des étoiles.</quote>
               </cit>
                Maintenant il paraît établi que ce centre de gravité chemine dans l'espace. Voilà
-               comme se font les sciences. Tout ce que je désire, c'est que d'autres physiciens
+               comme se font les sciences.</p> </item>
+            </list></p>
+            <p>Tout ce que je désire, c'est que d'autres physiciens
                s'occupent du même sujet pour le perfectionner en partant es bases que j'ai posées et
                qui sont incontestables en les réduisant à ce qui suit : <list>
-                <item n="1"> Les conducteurs
+                <item n="1"><p> Les conducteurs
                voltaïques s'attirent et se repoussent dans les divers cas que j'ai déterminés, la
-               pile elle-même est comprise dans les conducteurs. </item>
-                <item n="2"> Il en résulte la direction d'un
-               conducteur par un autre, ou son mouvement toujours dans le même sens, dans les cas
-               que j'ai déterminés, tous conséquences nécessaires d'une seule et même loi.</item>
-                <item n="3"> Cette
+               pile elle-même est comprise dans les conducteurs.</p> </item>
+                <item n="2"> <p>Il en résulte la direction d'un
+                   conducteur par un autre, ou son mouvement toujours dans le même sens, dans<pb n="233" facs="#ACAS_CRHST_AMP_09_182_0233_v.jpg"/> les cas
+               que j'ai déterminés, tous conséquences nécessaires d'une seule et même loi.</p></item>
+                <item n="3"><p> Cette
                loi pour deux fils conducteurs, soit qu'on l'exprime en sinus et cosinus des trois
-               angles α, β, γ, ou en différentielles partielles de la distance des deux portions
+               angles &alpha;, &beta;, &gamma;, ou en différentielles partielles de la distance des deux portions
                infiniment petites des conducteurs que l'on considère, est démontrée directement par
-               la réunion de mes deux expériences d'équilibre exact.</item>
-                <item n="4"> La Terre agit comme un
+               la réunion de mes deux expériences d'équilibre exact.</p></item>
+                <item n="4"><p> La Terre agit comme un
                conducteur voltaïque qui en ferait le tour dans la direction de l'Est à l'Ouest. J'ai
                fait là-dessus en dernier lieu nombre d'expériences, j'ai trouvé l'équivalent de
                l'action attractive ou répulsive, celui de l'action directrice, celui de l'action
                toujours dans le même sens. J'ai la plus grande impatience de connaître l'expérience
-               de M. <persName>de La Rive</persName> qu'on annonce comme contraire à ce résultat confirmé de tant de
+               de M. <persName>de La Rive</persName> qu'on annonce comme contraire à ce résultat confirmé de tant<pb n="234" facs="#ACAS_CRHST_AMP_09_182_0234_r.jpg"/> de
                manières, ne serait-ce pas une suite de ce que je n'ai pas expliqué convenablement,
                ce qui doit résulter de ce courant terrestre, ou bien faudrait-il dire de la Terre ce
                que j'ai reconnu pour les aimants, sur ce que leurs courants sont autour de chaque
-               particule ?</item>
-                <item n="5"> Les aimants agissent dans tous les cas comme si leurs particules
+               particule ?</p></item>
+                <item n="5"><p> Les aimants agissent dans tous les cas comme si leurs particules
                étaient chacune entourée d'un courant électrique dont le plan fût perpendiculaire à
                l'axe de l'aimant pour toutes les particules qui sont dans l'axe lui-même, mais
                incliné sur la direction de cet axe dans le sens où tend à les incliner l'action
                mutuelle de tous les courants de l'aimant, ainsi que je l'ai expliqué dans ma
                dernière lettre à M. <persName>de La Rive</persName>. C'est cette inclinaison dont il est question dans la
                lettre quand on parle que j'ai fait un changement à ma théorie à cause de
-               l'expérience de M. <persName>de La Rive</persName> dont j'ai parlé dans la notice lue à la séance publique
+               l'expérience de M. <persName>de La Rive</persName><pb n="235" facs="#ACAS_CRHST_AMP_09_182_0235_v.jpg"/> dont j'ai parlé dans la notice lue à la séance publique
                du <date when="1822-04-08">8 avril</date> dernier. J'espère bien que ce ne sera pas le dernier de ces changements de
                détail que j'y apporterai, car les théories de ce genre ne se perfectionnent qu'avec
                le temps. Aurait-il fallu rejeter la théorie de l'attraction parce que la précession
-               des équinoxes ou l'aplatissement de la Terre donnés par l'observation était (sic)
+               des équinoxes ou l'aplatissement de la Terre donnés par l'observation était
                moindre que ce que donnait le calcul en supposant la Terre homogène ? Non, mais il
-               fallait dire : la Terre n'est pas homogène. C'est l'observation de M. <persName>Faraday</persName> sur ce
+               fallait dire : la Terre n'est pas homogène.</p><p> C'est l'observation de M. <persName>Faraday</persName> sur ce
                que les pôles des hélices sont exactement à leurs extrémités et non pas ceux des
                aimants, qui m'a donné cette idée de l'inclinaison des courants des particules qui ne
-               sont pas dans l'axe. Mais il est vrai que c'est l'expérience de M. <persName>de La Rive</persName> qui m'a
+               sont pas dans l'axe. Mais il est vrai que c'est l'expérience de M. <persName>de La<pb n="236" facs="#ACAS_CRHST_AMP_09_182_0236_r.jpg"/> Rive</persName> qui m'a
                confirmé dans cette vue sur la situation des courants de l'aimant. On trouve ainsi
                une différence entre les aimants et les hélices. Faut-il dire : les aimants ne
                doivent pas leur action à des courants électriques ? Non, mais il faut dire : ces
                courants sont inclinés sur l'axe des aimants là où ils doivent l'être en vertu de
                l'action mutuelle de tous les courants de l'aimant. Voilà, je le répète, la marche à
-               suivre dans les sciences où chacun peut perfectionner ce qu'ont fait les autres.</item>
+               suivre dans les sciences où chacun peut perfectionner ce qu'ont fait les autres.</p></item>
               </list>
-            </item>
-          </list>
+            </p>
+            <p>
                Jusque-là, il n'y a pas proprement d'hypothèse, mais des analogies données par un
                grand nombre de faits. Il est certain qu'elles suffisent pour prévoir d'avance,
                (voyez le mémoire que j'ai dernièrement envoyé à <placeName>Genève</placeName>), tout ce que je connais
-               relativement à l'action entre un conducteur voltaïque et le globe de la Terre ou un
+               relativement<pb n="237" facs="#ACAS_CRHST_AMP_09_182_0237_v.jpg"/> à l'action entre un conducteur voltaïque et le globe de la Terre ou un
                aimant. Je ne connais pas l'expérience dont vous me parlez faite par M. <persName>de La Rive</persName>
                sur l'action terrestre. Je désire bien vivement la connaître pour voir si elle
                contredit en effet l'ensemble de tous les autres phénomènes électrodynamiques
                produits par le globe, qui s'accordent avec l'analogie d'effets que j'ai établie
-               entre la Terre et les courants dirigés de l'Est à l'Ouest. Si l'on désire à <placeName>Genève</placeName>
+               entre la Terre et les courants dirigés de l'Est à l'Ouest.</p>
+            <p>Si l'on désire à <placeName>Genève</placeName>
                connaître à fond l'état de la question, il faudrait s'y procurer l'appareil que M.
                <persName>Pixii</persName> vient de faire pour moi et que je l'ai autorisé à céder à ceux qui pourraient
                le désirer à la charge de m'en faire un pareil. Il est également propre pour vérifier
-               les faits connus et pour faire de nouvelles recherches. J'y ai ajouté de nouvelles
+               les faits connus et pour faire de nouvelles recherches. J'y ai ajouté<pb n="238" facs="#ACAS_CRHST_AMP_09_182_0238_r.jpg"/> de nouvelles
                dispositions pour les actions produites par le globe terrestre et pour l'expérience
                qui me sert à déterminer le nombre K. Il coûte 400 francs. Si je savais de le trouver
                à <placeName>Genève</placeName> j'y irais infailliblement au mois d'août prochain et toutes les questions
                seraient bientôt décidées par les expériences qu'il me servirait à faire avec les
                savants de cette ville à laquelle ceux qui cultivent les sciences doivent tant de
-               reconnaissance. Je vous prie, mon très cher confrère, d'agréer tous mes remerciements
+               reconnaissance.</p>
+            <p>Je vous prie, mon très cher confrère, d'agréer tous mes remerciements
                de votre aimable communication ; je suis on ne peut plus reconnaissant de cette
-               nouvelle preuve de votre amitié pour moi. Tout à vous pour la vie. <persName>A. Ampère</persName>
+               nouvelle preuve de votre amitié pour moi. Tout à vous pour la vie.<lb/>
+               <persName>A. Ampère</persName>
         </p>
-            <closer>à M. le <persName>Baron Maurice</persName>, <placeName>rue de Bourbon, n° 55</placeName>, à <placeName>Paris</placeName> </closer>
+            <closer><pb n="239" facs="#ACAS_CRHST_AMP_09_182_0239_v.jpg"/>à Monsieur le <persName>Baron Maurice</persName>, <placeName>rue de Bourbon, n° 55</placeName>, à <placeName>Paris</placeName> </closer>
          </div>
       </body>
       <back>

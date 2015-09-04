@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -75,7 +76,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1821-02-10-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -96,11 +97,11 @@
                <witness xml:id="L595manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 182</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 182</idno>
                      </msIdentifier>
                   </msDesc>
           </witness>
@@ -133,7 +134,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -154,58 +155,76 @@
    <text type="correspondance" decls="#ampere_corr_L1821-02-10-a">
       <body>
          <div>
-            <opener>
-          <foreign xml:lang="eng">
+            <opener><pb n="277" facs="#ACAS_CRHST_AMP_09_182_0277_r.jpg"/>
+          <foreign xml:lang="eng">23 Grosvenor Street
             <date when="1821-02-10">Febr. 10. 1821</date>
           </foreign>
         </opener>
+            <opener><foreign xml:lang="eng">Dear Sir,</foreign></opener>
             <p>
-          <foreign xml:lang="eng">Dear Sir, I am very much obliged to you for the copies you have been so good as to
-               send me of your work <ref xmlns="" target="#ampere_ref_379.xml">*</ref> on the
+          <foreign xml:lang="eng"> I am very much obliged to you for the copies you have been so good as to
+               send me of your work <ref target="#ampere_ref_379.xml">*</ref> on the
                Electro-magnetic phenomens and wich I have perused with great interest. Your views
                are always full of novlety and ingenuity and will receive that profound attention,
                that they merit, from the philosophers of all countries. Before I know that you were
                pursuing M. <persName>Œrsted</persName>'s experiments, I had myself entered into some researches on the
                subject, and I communicated to the <orgName>Royal Society</orgName> a short paper containing an account
                of them ; they are published ; but I find that they have lost the merit of novelty ;
-               for most of my observations I have occured to other philosophers. Some of the facts
-               that I observed, lett me to doubt of the identity of electricity and magnetism <ref>(1)</ref>,
+               for most of my observations I have occured to other philosophers.</foreign></p>
+            <p><foreign xml:lang="eng">Some of the facts
+               that I observed, led<pb n="278" facs="#ACAS_CRHST_AMP_09_182_0278_v.jpg"/> me to doubt of the identity of electricity and magnetism <ref>(1)</ref>,
                and my doubtes are rather increased then removed by some new experiments, such as
                experiments showing the power of very bad electrical conductors to become magnets,
                and the absolute indifference of strong electrical currents passing through air, to
-               each other and to the magnet. I shall be very glad to receive your farther
-               elucidations on this obscure and important subject. Permit me to thank you for the
+               each other and to the magnet.</foreign></p>
+            <p><foreign xml:lang="eng">I shall be very glad to receive your farther
+               elucidations on this obscure and important subject.</foreign></p>
+            <p><foreign xml:lang="eng">Permit me to thank you for the
                very flattering manner in wich you allude to my election as president of the <orgName>Royal
                Society</orgName>. The ambition of my life is to be usefull in promoting the progress of
                science, and I hope my worthy brethren of the <orgName>Royal Academy of Sciences</orgName> will make use
                of my humble services in this country on all occasions connected with this important
-               object. I beg to be particularly remembered to my friend M. <persName>Underwood</persName> when you see
-               him ; tell him I have not forgotten his little collection of volcanic specimens.
-               Believe me to be, Dear Sir, your obt. humble sert.. My wife desires her compts to
-               you. <persName>H. DAVY</persName>
-          </foreign> Traduction de la lettre précédente. Monsieur, je vous remercie beaucoup
-               des exemplaires que vous m'avez envoyés de votre ouvrage <ref xmlns="" target="#ampere_ref_379.xml">*</ref> sur les phénomènes électromagnétiques. Je
+               object. </foreign></p>
+            <p><foreign xml:lang="eng">I beg to be particularly remembered to my friend M. <persName>Underwood</persName> when you see<pb n="279" facs="#ACAS_CRHST_AMP_09_182_0279_r.jpg"/>
+               him ; tell him I have not forgotten his little collection of volcanic specimens.<lb/>
+               Believe me to be, Dear Sir, your obt. humble sert..<lb/>
+               <persName>H. DAVY</persName></foreign>
+            </p>
+            <p><foreign xml:lang="eng">My wife desires her compts to
+               you.</foreign></p></div>
+         <div>
+            <head><pb n="280" facs="#ACAS_CRHST_AMP_09_182_0280_r.jpg"/>Traduction de la lettre précédente.</head>
+            <opener>Monsieur,</opener>
+            <p>
+                je vous remercie beaucoup
+               des exemplaires que vous m'avez envoyés de votre ouvrage <ref target="#ampere_ref_379.xml">*</ref> sur les phénomènes électromagnétiques. Je
                l'ai examiné avec un intérêt très vif. Vos vues sont toujours pleines de nouveauté et
                d'ingéniosité et recevront des physiciens de tous les pays la profonde attention
-               qu'elles méritent. Avant de savoir que vous poursuiviez les expériences de M.
+               qu'elles méritent.</p>
+            <p>Avant de savoir que vous poursuiviez les expériences de M.
                <persName>Œrsted</persName>, j'avais moi-même entrepris quelques recherches sur le même sujet. J'en ai
                rendu compte dans un petit mémoire que j'ai lu à la <orgName>Société Royale</orgName> et qui est
                publié ; mais je reconnais que les résultats de mes recherches ont perdu le mérite de
                la nouveauté, puisque la plus grande partie de mes observations se sont présentées à
-               d'autres physiciens. Quelques-uns des faits que j'ai observés m'ont conduit à douter
-               de l'identité de l'électricité et du magnétisme ; et mes doutes sont plutôt augmentés
+               d'autres physiciens.</p>
+            <p>Quelques-uns des faits que j'ai observés m'ont conduit à douter
+               de l'identité de l'électricité et du magnétisme ;<pb n="281" facs="#ACAS_CRHST_AMP_09_182_0281_v.jpg"/> et mes doutes sont plutôt augmentés
                que dissipés par quelques nouvelles expériences telles que celles qui montrent la
                faculté qu'ont de très mauvais conducteurs électriques de devenir des aimants et
                l'indifférence absolue où de forts courants électriques passant à travers l'air
-               demeurent l'un par rapport à l'autre et par rapport à l'aimant. Je serai bien aise de
-               recevoir vos éclaircissements ultérieurs sur ce sujet obscur et important.
+               demeurent l'un par rapport à l'autre et par rapport à l'aimant.</p>
+            <p>Je serai bien aise de
+               recevoir vos éclaircissements ultérieurs sur ce sujet obscur et important.</p>
+            <p>
                Permettez-moi de vous remercier de la manière flatteuse dont vous parlez de mon
                élection à la présidence de la <orgName>Société Royale</orgName>. L'ambition de ma vie est d'être utile
                à l'avancement de la science et j'espère que mes dignes confrères de l'<orgName>Académie
                royale des Sciences</orgName> emploieront mes humbles services dans toutes les occasions liées
-               avec cet important objet. Je vous prie de me rappeler particulièrement au souvenir de
+               avec cet important objet.</p>
+            <p>Je vous prie de me rappeler particulièrement au souvenir de
                mon ami M. <persName>Underwood</persName> quand vous le verrez. Dites-lui que je n'ai pas oublié sa petite
-               collection d'échantillons volcaniques. Ma femme vous fait ses compliments. <persName>H.
+               collection d'échantillons volcaniques. Ma femme vous fait ses compliments.<lb/>
+             <persName>H.
                DAVY</persName>
         </p>
          </div>
@@ -214,8 +233,7 @@
          <div>
             <note xml:id="corresp1">(1) Ici comme pour le fluor, <persName>Davy</persName> commence par voir moins clair
                qu'<persName>Ampère</persName>.</note>
-            <note resp="CAK_commentaire">La traduction, également conservée, est signalée ici en
-               tant que folios 4 et 5. <persName>Ampère</persName> a écrit "traduction" sur la première page.</note>
+          
          </div>
       </back>
    </text>

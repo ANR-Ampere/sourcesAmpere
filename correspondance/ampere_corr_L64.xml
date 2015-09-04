@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -142,7 +143,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_A366">Ampère, André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -163,13 +164,14 @@
     <text type="correspondance" decls="#ampere_corr_L1801-06-00-a">
         <body>
             <div>
-                <opener>Du samedi <date when="1801-06">[Juin 1801]</date>
+                <opener><pb n="94" facs="#ACAS_CRHST_AMP_23_331_0094_r.jpg"/>Du samedi <date when="1801-06">[Juin 1801]</date>
         </opener>
                 <p>Mon bon ami j'espère que je <choice>
             <sic>trouverais</sic> <corr>trouverai</corr>
           </choice>
           <lb/>
-                    quelqu'un qui te portera cette lettre demain.<lb/>
+                    quelqu'un qui te portera cette lettre demain.</p>
+                <p>
                     Tu <choice>
             <sic>soras</sic> <corr>sauras</corr>
           </choice> que le petit va <choice>
@@ -285,13 +287,15 @@
           <lb/>
                     <choice>
             <sic>pourais</sic> <corr>pourrai</corr>
-          </choice> peut-être venir le même jour.<lb/>
+          </choice> peut-être venir le même jour.</p>
+                <p>
                     Adieu mon bon ami, adieu je t'embrasse<lb/>
                     bien tendrement et suis pour toute ma vie<lb/>
                     ta femme, ta sœur et surtout ta bonne amie.<lb/>
                     <persName ref="#pers_C129">Julie</persName>
-          <lb/>
-                    Élise et <persName>
+                </p>
+                <p>
+                    <persName>Élise</persName> et <persName>
             <gap reason="illisible"/>
           </persName> te font bien des amitiés.<lb/>
                     Apporte moi 1/4 <supplied>de</supplied> biscuit lorsque tu viendras.

@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -136,7 +137,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_C127">Carron, François (frère de Julie)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -169,7 +170,8 @@
                confiant les embarras de <persName ref="#pers_C129">Julie</persName> et le chagrin que j'en ressentais, de penser à envier
                ton sort. Je sais bien, hélas, combien tu as été longtemps en butte à mille peines,
                éloigné de tout ce qui t'était cher. Je sais bien que même à présent ta position
-               n'est pas celle où je voudrais te voir. <placeName>Paris</placeName> est trop loin de <placeName>Lyon</placeName>. Je voudrais me
+               n'est pas celle où je voudrais te voir. <placeName>Paris</placeName> est trop loin de <placeName>Lyon</placeName>.</p>
+            <p>Je voudrais me
                rappeler précisément de ce que j'ai pu te dire dans cette lettre que je suis bien
                fâché d'avoir écrite puisqu'elle t'a causé quelque déplaisir. Je sais que je
                l'écrivais sans beaucoup de réflexion, tout occupé des élèves qui venaient de me
@@ -182,8 +184,9 @@
                que, réunis tous ensemble, nous verrons nos enfants croître autour de nous pour jouir
                d'un bonheur plus tranquille et moins semé d'inquiétudes. N'est-ce pas, mon bon ami,
                que ces vœux ne te feront pas de la peine : ils sont, j'en suis sûr, si bien
-               d'accord avec les tiens. Il faut que je te parle aussi de ton petit neveu. On lui a
-               mis aujourd'hui pour la première fois de petits souliers rouges <ref>(2)</ref> : je lui ai aidé
+               d'accord avec les tiens.</p>
+            <p>Il faut que je te parle aussi de ton petit neveu. On lui a
+               mis aujourd'hui pour la première fois de petits souliers rouges <ref target="#corresp2">(2)</ref> : je lui ai aidé
                à marcher pour aller vers sa mère, ma <persName ref="#pers_C129">Julie</persName> lui aidait aussi à son tour et j'ai goûté
                un grand plaisir à ce petit exercice. Que sera-ce quand il pourra marcher réellement
                et parler ? Tu auras bientôt le plaisir de voir ton <persName ref="#pers_C126">Élisa</persName> et tu sentiras alors
@@ -192,19 +195,22 @@
                s'efforce des pieds et des mains pour se débarrasser de nous tous et aller vers elle.
                Il faut que je compte bien sur ton amitié pour tout ce qui tient à ta sœur cadette,
                à ta petite <persName ref="#pers_C129">Julie</persName>, pour te conter toutes ces petites choses. Mais, vois-tu, quand
-               j'écris à d'autres moi-même, je laisse ma pensée du moment gouverner ma plume. Adieu
+               j'écris à d'autres moi-même, je laisse ma pensée du moment gouverner ma plume.</p>
+            <p>Adieu
                mon bon ami, tu sais bien comme tu es aimé dans cette maison. <persName ref="#pers_C129">Julie</persName> y met tout à
                l'unisson de son cœur. Bientôt elle apprendra au petit <persName ref="#pers_A10">Jean Jacques</persName> à répéter le nom
                de son oncle de <placeName>Paris</placeName> et de sa Tatan <persName ref="#pers_C128">Agarite</persName>, qu'il ne verra peut-être pas de bien
                longtemps. Si tu ne viens pas le voir, il faudra pourtant que je te le mène. Adieu,
-               je t'embrasse de toute mon âme. <persName ref="#pers_A366">A. AMPÈRE</persName>.</p>
+               je t'embrasse de toute mon âme.<lb/>
+               <persName ref="#pers_A366">A. AMPÈRE</persName>.</p>
             <closer>Au citoyen <persName ref="#pers_C127">Carron</persName>, chez <persName>Mercey</persName>, <placeName>rue Cérutti N° 16</placeName>, à <placeName>Paris</placeName>.</closer>
          </div>
       </body>
       <back>
          <div>
-            <note xml:id="corresp1">(1) Coll. <persName>Bodin</persName>. Quatre pages 20 x 24. Réponse à la Lettre 0061
-               de <persName ref="#pers_C127">Carron</persName> du 16 mars 1801. (2) <persName ref="#pers_A10">Jean-Jacques Ampère</persName> avait 7 mois. </note>
+            <note xml:id="corresp1">(1) Coll. <persName>Bodin</persName>. Quatre pages 20 x 24. Réponse à la Lettre ampere_corr_L1801-03-16-a
+               de <persName ref="#pers_C127">Carron</persName> du <date when="1801-03-16">16 mars 1801</date>.</note>
+            <note xml:id="corresp2">(2) <persName ref="#pers_A10">Jean-Jacques Ampère</persName> avait 7 mois. </note>
          </div>
       </back>
    </text>

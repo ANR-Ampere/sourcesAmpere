@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1822-08-23-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +100,11 @@
                <witness xml:id="L625manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 379</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 379</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>Quatre pages in-4° sans adresse.</p>
@@ -140,7 +141,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,7 +162,7 @@
    <text type="correspondance" decls="#ampere_corr_L1822-08-23-a">
       <body>
          <div>
-            <opener>
+            <opener><pb n="299" facs="#ACAS_CRHST_AMP_25_379_0299_r.jpg"/><placeName>Lyon</placeName>
           <date when="1822-08-23">23 août 1822</date>
         </opener>
             <p>J'ai reçu avant-hier ta lettre et celle que ma sœur et <persName>Albine</persName> m'ont écrite. Je te
@@ -170,11 +171,12 @@
                écrirai de <placeName>Genève</placeName>, où je dois aller passer trois ou quatre jours. Je partirai d'ici
                dans quatre ou cinq jours ; ainsi je ne pourrais recevoir une lettre de <placeName>Paris</placeName>
                adressée ici ; mais, si tu veux m'écrire quand tu auras reçu celle-ci, tu me feras
-               bien plaisir, et je la recevrai sûrement à <placeName>Genève</placeName> pourvu que tu l'adresses ainsi : "
-               A Messieurs <persName>de La Rive</persName>, professeur de chimie [sic], à l'Académie de <placeName>Genève</placeName>, pour
-               remettre s.l.p. à M. <persName>Ampère</persName>, à <placeName>Genève</placeName> (<placeName>Suisse</placeName>), Confédération helvétique ", et en
+               bien plaisir, et je la recevrai sûrement à <placeName>Genève</placeName> pourvu que tu l'adresses ainsi :
+               A Messieurs <persName>de La Rive</persName>, professeur de chimie, à l'Académie de <placeName>Genève</placeName>, pour
+               remettre s.l.p. à M. <persName>Ampère</persName>, à <placeName>Genève</placeName> (<placeName>Suisse</placeName>), Confédération helvétique, et en
                affranchissant ta lettre, car tu sais bien que cela est nécessaire pour les lettres
-               envoyées à <placeName>Genève</placeName> et que, sans cette précaution, elle serait mise au rebut à Paris.
+               envoyées à <placeName>Genève</placeName> et que, sans cette précaution, elle serait mise au rebut à <placeName>Paris</placeName>.</p>
+            <p><pb n="300" facs="#ACAS_CRHST_AMP_25_379_0300_v.jpg"/>
                Par ce moyen, j'aurai encore des nouvelles de toute la famille, en y comprenant ma
                petite fille. Je suis charmé de ce que tu m'en dis. Déjà deux scènes du cinquième
                acte, c'est un bon espoir pour que j'aie bientôt le plaisir de la voir tout entière ;
@@ -185,9 +187,10 @@
                y en a eu une lecture à M. <persName>d'Ambérieux</persName>, où les sentiments qu'elle doit inspirer se
                sont manifestés bien vivement, tout le long de la pièce. A <placeName>Bellerive</placeName>, ce sont surtout
                le troisième et le quatrième actes qui ont été bien sentis. La nouvelle cousine,
-               comme tu dis, était surtout tout oreilles. Je n'ai pas lu ces deux fois-là les deux
+               comme tu dis, était surtout tout oreilles.</p>
+            <p>Je n'ai pas lu ces deux fois-là les deux
                derniers vers que dit <persName>Himélide</persName> à la fin du troisième acte, parce qu'aux deux autres
-               lectures je crois qu'ils avaient fait un effet de refroidissement en portant sans
+               lectures je crois qu'ils avaient fait<pb n="301" facs="#ACAS_CRHST_AMP_25_379_0301_r.jpg"/> un effet de refroidissement en portant sans
                transition l'esprit sur une idée toute différente de celles qu'exprime la scène de
                ses malheurs, de ses inquiétudes, de sa prière à <persName>Dieu</persName> pour qu'<persName>Almagis</persName> redevienne
                tranquille et, sous-entendu, soit son époux, avec l'idée qu'après sa mort il soit un
@@ -195,21 +198,23 @@
                seulement que cette idée serait naturelle et nécessaire. Autrement elle refroidit,
                parce qu'on la voit trop disposée à compter pour peu de chose les biens d'ici-bas, à
                les voir en philosophe chrétien et non en jeune fille dont le cœur est plein
-               d'amour, quoiqu'elle le sache à peine. Surtout de toi pour lui que je puisse
-               obtenir... est d'ailleurs un vers qui me semble peu poétique et roulant mal ; je n'en
+               d'amour, quoiqu'elle le sache à peine.</p>
+            <p><cit><quote>Surtout de toi pour lui que je puisse
+               obtenir...</quote></cit> est d'ailleurs un vers qui me semble peu poétique et roulant mal ; je n'en
                ai remarqué que deux ou trois autres dans le même cas. Ils sont presque tous d'une
-               poésie si simple mais si belle et si vraie ! Tu ne te joueras pas de moi par ton
-               adresse est un de ces deux ou trois vers qui, seuls, ne plaisent pas à mon oreille ;
-               je crois toujours que tout à l'heure et soudain n'aillent pas très bien ensemble dans
-               le même vers : Tout à l'heure en priant soudain j'ai tressailli. J'aurai encore à
+               poésie si simple mais si belle et si vraie ! <cit><quote>Tu ne te joueras pas de moi par ton
+               adresse</quote></cit> est un de ces deux ou trois vers qui, seuls, ne plaisent pas à mon oreille ;
+               je crois toujours que<pb n="302" facs="#ACAS_CRHST_AMP_25_379_0302_v.jpg"/> tout à l'heure et soudain n'aillent pas très bien ensemble dans
+               le même vers : <cit><quote>Tout à l'heure en priant soudain j'ai tressailli</quote></cit>. J'aurai encore à
                faire une autre observation qui n'est pas du même genre. L'histoire met la scène à
                <placeName>Vérone</placeName>. Il faut qu'elle y soit pour que les vaisseaux de l'Ambassadeur puissent
                offrir asile à <persName>Rosemonde</persName> ; mais je crois que c'est la prise de <placeName>Pavie</placeName> qui fut le grand
                événement digne d'être célébré par des jeux anniversaires. Dès lors, <persName>Alboin</persName> ne peut
-               pas dire : Dans les murs... quand j'entrais en vainqueur ? Il faut, puisqu'il est à
-               <placeName>Vérone</placeName>, qu'il dise : Dans <placeName>Pavie</placeName>... quand j'entrais en vainqueur, Quand les Romains
-               pleuraient et que (2) nos cris de joie... <persName>Almagis</persName> disait : Dans les murs de <placeName>Pavie</placeName>
-               assurer ta puissance. Et là il faut au contraire <placeName>Vérone</placeName>. J'y ai écrit <placeName>Vérone</placeName> qui ne
+               pas dire : <cit><quote>Dans les murs... quand j'entrais en vainqueur ?</quote></cit> Il faut, puisqu'il est à
+               <placeName>Vérone</placeName>, qu'il dise : <cit><quote>Dans <placeName>Pavie</placeName>... quand j'entrais en vainqueur, Quand les Romains
+               pleuraient et que <ref>(2)</ref> nos cris de joie...</quote></cit></p>
+            <p><persName>Almagis</persName> disait : <cit><quote>Dans les murs de <placeName>Pavie</placeName>
+               assurer ta puissance</quote></cit>. Et là il faut au contraire <placeName>Vérone</placeName>. J'y ai écrit <placeName>Vérone</placeName> qui ne
                change rien au vers. Adieu, mon bien-aimé fils, embrasse bien tendrement pour moi ma
                sœur et mon petit chat ; qu'elle ne néglige point la géographie ! Je t'embrasse
                comme je t'aime ; toute la maison <persName>Périsse</persName> te comble d'amitiés ; <persName>Bredin</persName> aussi. <persName>A.
@@ -220,10 +225,11 @@
       <back>
          <div>
             <note xml:id="corresp1">(1) Quatre pages in-4° sans adresse. Publié en partie par Mme
-               <persName>Cheuvreux</persName>, p. 222 et 223. (2) <cit>
+               <persName>Cheuvreux</persName>, p. 222 et 223.</note>
+            <note resp="#AMA" xml:id="corresp2">(2) <cit>
             <quote>Je crois qu'il faut là que au lieu de quand, pour que
                quand ne soit pas plus de trois fois dans ce morceau</quote>
-          </cit> (Note d'<persName>Ampère</persName>). </note>
+          </cit> . </note>
          </div>
       </back>
    </text>

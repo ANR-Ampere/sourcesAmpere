@@ -1,4 +1,6 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE ENTITY_MathML SYSTEM "../../Documents/Sch%C3%A9mas/ENTITY_MathML.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -151,7 +153,7 @@
           <persName type="adressee">La Rive, Auguste
                                 de</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -171,11 +173,12 @@
     <text type="correspondance" decls="#ampere_corr_L1822-10-11-a">
         <body>
             <div>
-                <opener>
-                    <date when-iso="1822-10">11 [14, ou 31] octobre 1822</date>
+                <opener><pb n="6" facs="#ACAS_CRHST_AMP_09_182_0006_r.jpg"/><placeName>Paris</placeName>
+                    <date when-iso="1822-10">11 [14, ou 31] <choice><abbr>8bre</abbr> <expan>octobre</expan></choice> 1822</date>
                 </opener>
-                <p>Monsieur, J'ai mille remerciements à vous faire de l'exemplaire de votre mémoire
-                    que vous avez eu la bonté de m'envoyer et que j'ai reçu hier <ref>(2)</ref>. Sa
+                <opener>Monsieur,</opener>
+                <p> J'ai mille remerciements à vous faire de l'exemplaire de votre mémoire
+                    que vous avez eu la bonté de m'envoyer et que j'ai reçu hier <ref target="#corresp2">(2)</ref>. Sa
                     lecture m'a fait le plus grand plaisir, et, comme vous avez bien voulu
                     m'autoriser à le faire entrer dans mon Recueil <ref type="ouvrages_mentionnes" target="#ampere_ref_P402.xml">*</ref> et me promettre d'en faire tirer 300
                     exemplaires à mon compte dans cette vue, j'espère que cela est déjà fait, que
@@ -188,8 +191,9 @@
                     exemplaires, je vous prie de me l'envoyer le plus tôt possible, afin que j'en
                     remette le montant à M. <persName>Paschoud</persName>. Ce que vous avez ajouté à
                     votre mémoire me dispensera de publier celui que j'ai lu à
-                    l'<orgName>Académie</orgName> en arrivant ici <ref>(3)</ref>, et dont j'ai
-                    envoyé dernièrement l'extrait à M. votre père. M.
+                    l'<orgName>Académie</orgName> en arrivant ici <ref target="#corresp3">(3)</ref>, et dont j'ai
+                    envoyé dernièrement l'extrait à M. votre père.</p>
+                <p><pb n="7" facs="#ACAS_CRHST_AMP_09_182_0007_v.jpg"/>M.
                     <persName>Gay-Lussac</persName> m'est venu voir ce matin. Il avait reçu de vous
                     un exemplaire pareil et m'a demandé s'il ne serait pas à propos d'imprimer votre
                     mémoire dans les <title>Annales de Chimie et de Physique</title>. Je me suis
@@ -203,24 +207,25 @@
                     de cette ceinture, tant sur les portions verticales des conducteurs mobiles pour
                     leur donner une position fixe, que sur les portions horizontales pour les faire
                     tourner toujours dans le même sens. C'est la vue de vos expériences qui m'a fait
-                    analyser ces phénomènes, et reconnaître que la comparaison que je faisais entre
+                    analyser ces phénomènes, et reconnaître que<pb n="8" facs="#ACAS_CRHST_AMP_09_182_0008_r.jpg"/> la comparaison que je faisais entre
                     les courants terrestres et ceux des lames horizontales de mon appareil n'était
                     pas exacte en tous points. Je savais bien cependant qu'un appareil disposé comme
-                    celui qui est représenté figure 7 <ref>(4)</ref> devait être dirigé par l'action
-                    de la terre, de manière, comme [Fig. 7 voir fac-similé] je m'exprimais alors,
+                    celui qui est représenté figure 7 <ref target="#corresp4">(4)</ref> devait être dirigé par l'action
+                    de la terre, de manière, comme je m'exprimais alors,
                     que la face du plan où il se trouvait, qui était à la gauche du courant,
                     regardât le Nord et la face opposée le Sud : ce qui résulte en effet de l'action
                     qui porte la branche verticale, et à l'Est quand le courant la parcourt en
                     descendant, à l'Ouest quand il la parcourt en montant. C'est pourquoi, toutes
                     les fois que je voulais que la terre n'agît pas sur un circuit de cette forme,
-                    j'y joignais un circuit symétrique pour détruire son action. J'en avais fait
+                    j'y joignais un circuit symétrique pour détruire son action.</p>
+                <p>J'en avais fait
                     expressément la remarque dans le mémoire lu le
                     <date when="1822-06-10">10
                     juin</date> à
                     l'<orgName>Institut</orgName>, comme vous pouvez le voir en bas de la page 414
                     du cahier du mois d'août des <title>Annales de Chimie et de Physique</title>.
                     Mais j'avoue que ce n'est qu'après avoir vu vos belles expériences que j'ai
-                    songé à me faire des idées bien nettes sur ce sujet. Je m'étais borné à voir
+                    songé à me<pb n="9" facs="#ACAS_CRHST_AMP_09_182_0009_v.jpg"/> faire des idées bien nettes sur ce sujet. Je m'étais borné à voir
                     d'une manière générale que les aimants et les conducteurs prennent, par l'action
                     de la terre, les mouvements que tendraient à leur donner des courants
                     électriques dirigés dans le sens du mouvement apparent du Soleil,
@@ -228,7 +233,9 @@
                     seraient plus près de l'équateur ; sans entrer dans les détails nécessaires pour
                     que cette assertion fût aussi complètement prouvée qu'elle l'est aujourd'hui
                     grâce aux expériences de M. votre père et à celles que vous y avez jointes aux
-                    siennes. Du <date when="1822-10-14">14 octobre</date> - La lettre que vous
+                    siennes.</p>
+                <p>Du <date when="1822-10-14">14 octobre</date><lb/>
+                    La lettre que vous
                     m'avez écrite et que j'ai reçue hier m'a empêché de fermer celle-ci. Je vous
                     remercie de cette lettre qui m'annonce l'arrivée de mes exemplaires. J'irai
                     demain les chercher chez <persName>Bossange</persName>. Je commence à répondre à
@@ -241,7 +248,7 @@
                     d'une action regardée comme simple et n'étant pas dirigée cependant suivant la
                     ligne qui joint les deux points entre lesquels elle s'exerce. Mais ce qui décide
                     la question à cet égard, c'est l'action mutuelle de deux conducteurs quand il
-                    n'y a pas d'aimant, ce sont toutes les circonstances de cette action, que les
+                    n'y a pas d'aimant, ce sont toutes les<pb n="10" facs="#ACAS_CRHST_AMP_09_182_0010_r.jpg"/> circonstances de cette action, que les
                     lois que j'ai données représentent exactement et de la manière la plus simple.
                     N'est-il pas évident que c'est dans l'action de deux choses de même nature comme
                     les deux conducteurs et non dans celle de deux choses hétérogènes comme un
@@ -252,21 +259,23 @@
                     fais en suivant l'ordre que j'établis entre ces phénomènes, pensez-vous que
                     quelqu'un imaginât les hypothèses qu'on m'oppose ? Et, dans le cas où on le
                     ferait, comment cette innovation, qui n'aurait pour but que d'obscurcir ce qui
-                    serait clair et de compliquer ce qui serait simple, serait-elle reçue ? C'est la
+                    serait clair et de compliquer ce qui serait simple, serait-elle reçue ?</p>
+                <p><pb n="11" facs="#ACAS_CRHST_AMP_09_182_0011_v.jpg"/>C'est la
                     difficulté qu'on éprouve à changer des idées auxquelles on s'est accoutumé, pour
                     d'autres même bien plus simples, qui est la cause des obstacles que rencontre ma
                     théorie, puisqu'elle ne consiste réellement que dans l'exposition des faits et
-                    dans les rapprochements qui se présentent quand on les compare. Tarit qu'il
+                    dans les rapprochements qui se présentent quand on les compare.</p>
+                <p>Tant qu'il
                     n'est question que de l'action qu'exerce sur un fil conducteur la terre ou un
                     aimant, le fait d'où part M. <persName>Faraday</persName> suffit pour tout
                     expliquer, puisqu'étant un de ceux qui résultent de ma théorie, il ne peut se
                     trouver en contradiction avec elle. Mais : <list>
-                        <item n="1"> En partant de ce fait on ne peut rien en tirer pour l'action
+                        <item n="1"><p> En partant de ce fait on ne peut rien en tirer pour l'action
                             mutuelle de deux aimants ; elle reste une chose à part, sans liaison
                             avec le reste et pour laquelle il faut continuer de multiplier les
-                            agents sans nécessité, en imaginant deux fluides magnétiques tout
-                            différents des deux fluides électriques.</item>
-                        <item n="2">On ne peut rien en tirer non plus relativement à l'action
+                            agents sans nécessité, en imaginant deux<pb n="12" facs="#ACAS_CRHST_AMP_09_182_0012_r.jpg"/> fluides magnétiques tout
+                            différents des deux fluides électriques.</p></item>
+                        <item n="2"><p>On ne peut rien en tirer non plus relativement à l'action
                             mutuelle de deux fils conducteurs. Il faudrait, quoiqu'on en dise,
                             considérer aussi cette action comme un fait indépendant de celui qu'a
                             découvert M. <persName>Œrsted</persName> ; car, pour la ramener à la loi
@@ -277,32 +286,35 @@
                             transversalement, comme on a voulu le faire en
                             <placeName>Allemagne</placeName>, tandis que cette assimilation est
                             démentie par les faits, puisqu'un conducteur mobile peut toujours
-                            tourner dans le même sens par l'action d'un autre conducteur, et qu'on
+                            tourner dans le même sens par l'action<pb n="13" facs="#ACAS_CRHST_AMP_09_182_0013_v.jpg"/> d'un autre conducteur, et qu'on
                             ne peut obtenir le même résultat en faisant agir l'un sur l'autre deux
-                            fils d'acier aimantés de quelque manière qu'ils le soient.</item>
-                    </list> Cette différence entre les fils d'acier aimantés transversalement et les
+                            fils d'acier aimantés de quelque manière qu'ils le soient.</p></item>
+                    </list></p>
+                <p>Cette différence entre les fils d'acier aimantés transversalement et les
                     conducteurs voltaïques est une suite nécessaire de ma théorie, elle est
-                    contradictoire avec toutes celles qu'on a voulu lui opposer. J'ai remarqué en
+                    contradictoire avec toutes celles qu'on a voulu lui opposer.</p>
+                <p>J'ai remarqué en
                     relisant l'exposition si claire et si précise que vous avez eu la bonté de faire
                     des idées que je développai à <placeName>Genève</placeName> le jour où j'y fis
                     mes expériences, une inexactitude que vous ne pouviez éviter parce que vous
                     n'aviez pas sous les yeux la Note du Journal de Physique, cahier de
                     <date when-iso="1820-09">septembre 1820</date>, et que vous ne connaissiez que
                     par ce que je vous en avais dit le mémoire que j'avais lu à
-                    l'<orgName>Académie des Sciences</orgName> le 10 juin dernier. Cette
+                    l'<orgName>Académie des Sciences</orgName> le <date when="1822-06-10">10 juin dernier</date>.</p>
+                <p>Cette
                     inexactitude consiste dans ce que vous dites en parlant des petites portions de
-                    [Fig. 8 voir fac-similé] courants mnpq (fig. 8), qu'après qu'on les a
+                    courants mnpq (fig. 8),<pb n="14" facs="#ACAS_CRHST_AMP_09_182_0014_r.jpg"/> qu'après qu'on les a
                     remplacées, la première par mk et kn et la seconde par pl et lq, il n'y a
                     d'action qu'entre mk et pl, tandis que l'action entre mn et pq, qui, d'après le
                     principe de la décomposition des courants, comme je l'ai expliqué dans le temps,
-                    doit être égale à la somme des quatre actions <ref>(5)</ref> de mk sur pl, de mk
+                    doit être égale à la somme des quatre actions <ref target="#corresp5">(5)</ref> de mk sur pl, de mk
                     sur lq, de kn sur pl et de kn sur lq, se réduit ici à la somme des deux actions
                     de mk sur pl et de kn sur lq parce que les deux autres sont nécessairement
                     nulles, ce que je me suis appliqué à démontrer dans la première Note sur
                     l'exposé sommaire des nouvelles expériences électrodynamiques lue à la séance
                     publique du <date when="1822-04-08">8 avril 1822</date>, note que vous trouverez
                     dans mon Recueil et où cette démonstration est fort développée. Quant aux deux
-                    autres actions, elles forment les deux termes de ma formule. Je n'ai pu regarder
+                    autres actions, elles forment les deux<pb n="15" facs="#ACAS_CRHST_AMP_09_182_0015_v.jpg"/> termes de ma formule. Je n'ai pu regarder
                     celle qui a lieu entre kn et lq comme nulle que quand j'ai cru que le
                     coefficient désigné par m/n dans le cahier de
                     <date when-iso="1820-09">septembre 1820</date> du
@@ -316,27 +328,29 @@
                     qu'elle doit, toujours à cause qu'on trouve pour k une valeur négative, être
                     répulsive quand deux courants dirigés suivant une même droite la parcourent dans
                     le même sens : ce qui a précisément été confirmé par l'expérience représentée
-                    figure 12. [Fig. 12 voir fac-similé] Il est clair que, si l'on désigne, comme je
+                    figure 12.</p>
+                <p><pb n="16" facs="#ACAS_CRHST_AMP_09_182_0016_r.jpg"/>Il est clair que, si l'on désigne, comme je
                     l'ai toujours fait, par ds et ds' les longueurs des deux petites portions mn,
-                    pq, par α et β les angles qu'elles forment avec la droite qui joint leurs
+                    pq, par &alpha; et &beta; les angles qu'elles forment avec la droite qui joint leurs
                     milieux en prenant ces angles de manière que leurs ouvertures soient tournées du
                     même côté et qu'ainsi, dans la situation où les deux petites portions mn, pq
                     sont dans la figure 8, l'un de ces angles soit aigu et l'autre obtus, et
-                    qu'enfin on nomme γ l'angle des deux plans nmp, mpq, s'ils ne se confondent pas
-                    en un seul, on aura, abstraction faite des signes, mk = ds sin α, kn = ds cos α,
-                    pl = ds' sin β, lq = ds' cos β. D'où il suit que, pour une même distance entre
+                    qu'enfin on nomme &gamma; l'angle des deux plans nmp, mpq, s'ils ne se confondent pas
+                    en un seul, on aura, abstraction faite des signes, mk = ds sin &alpha;, kn = ds cos &alpha;,
+                    pl = ds' sin &beta;, lq = ds' cos &beta;. D'où il suit que, pour une même distance entre
                     les points m et p, l'action entre mk et pl sera en général proportionnelle à ds
-                    ds' sin α sin βcos γ, qui se réduit à ds ds' sin α sin β, quand toutes les
-                    lignes sont dans le même plan, puisqu'alors γ = o, que l'action entre mk et lq,
+                    ds' sin &alpha; sin &beta;cos &gamma;, qui se réduit à ds ds' sin &alpha; sin &beta;, quand toutes les
+                    lignes sont dans le même plan, parce qu'alors &gamma; = o, que l'action<pb n="17" facs="#ACAS_CRHST_AMP_09_182_0017_v.jpg"/> entre mk et lq,
                     à l'égard desquels l'angle y ne peut rien faire, sera toujours proportionnelle à
-                    ds ds' cos α cos β et qu'ainsi la somme de ces deux actions, c'est-à-dire
-                    l'action totale entre mn, pq le sera nécessairement à (sin α sin β cos γ + k cos
-                    α cos β ) ds ds' k étant un coefficient constant. Voilà comme je suis parvenu en
-                    1820 à cette formule <ref>(6)</ref>. Il en résulte nécessairement que, cos α cos
-                    β étant négatif quand les courants sont situés comme dans la figure 8, puisqu'un
-                    des angles est obtus et l'autre aigu, k ds ds' cos α cos β, qui représente
+                    ds ds' cos &alpha; cos &beta; et qu'ainsi la somme de ces deux actions, c'est-à-dire
+                    l'action totale entre mn, pq le sera nécessairement à (sin &alpha; sin &beta; cos &gamma; + k cos
+                    &alpha; cos &beta; ) ds ds' k étant un coefficient constant. Voilà comme je suis parvenu en
+                    1820 à cette formule <ref target="#corresp6">(6)</ref>. Il en résulte nécessairement que, cos &alpha; cos
+                    &beta; étant négatif quand les courants sont situés comme dans la figure 8, puisqu'un
+                    des angles est obtus et l'autre aigu, k ds ds' cos &alpha; cos &beta;, qui représente
                     l'action entre kn et lq sera positif et indiquera une attraction quand k sera
-                    négatif, comme j'ai trouvé qu'il l'était effectivement. Si l'action de mn et de
+                    négatif, comme j'ai trouvé qu'il l'était effectivement.</p>
+                <p><pb n="18" facs="#ACAS_CRHST_AMP_09_182_0018_r.jpg"/>Si l'action de mn et de
                     pq, dans le cas représenté (fig. 8), est toujours attractive, c'est donc parce
                     qu'elle est la somme de deux actions de mk sur pl et de kn sur ql qui le sont
                     toutes les deux. Comme il était uniquement question, dans cet endroit de votre
@@ -350,7 +364,7 @@
                     bontés pour moi resteront toujours gravées dans mon souvenir, jugeât cette
                     lettre digne d'être insérée dans la <title>Bibliothèque universelle</title>.
                     Dans ce cas, j'en retiendrais toujours 300 exemplaires à mon compte dont je vous
-                    écrirai la pagination dès que mes 300 exemplaires du mémoire du
+                    écrirai la pagination dès<pb n="19" facs="#ACAS_CRHST_AMP_09_182_0019_v.jpg"/> que mes 300 exemplaires du mémoire du
                     <date when="1822-06-10">10 juin</date>, auquel je fais actuellement une
                     addition, seront imprimés. Je vous préviens aussi, dans ce cas, d'en supprimer
                     purement les passages relatifs à l'envoi de mes exemplaires et autres qui ne
@@ -364,23 +378,25 @@
                     paquet ! Je retournerai demain ou après-demain chez
                     <persName>Bossange</persName>. Je reçois aujourd'hui
                     <date when="1822-10-18">18 octobre</date> la lettre ci-jointe de M.
-                    <persName>Bossange</persName> qui m'en dispensera. En lisant les mêmes épreuves,
+                    <persName>Bossange</persName> qui m'en dispensera.</p>
+                <p>En lisant les mêmes épreuves,
                     je me suis aperçu que le texte supposait les courants de la figure 8 dirigés en
                     sens contraire des flèches qui les représentent dans cette figure, que dans la
                     figure 1 le godet était désigné par la lettre y et que le texte portait en
-                    plusieurs endroits le godet o, au lieu qu'il faudrait, pour s'accorder avec la
+                    plusieurs endroits le godet o, au lieu qu'il faudrait,<pb n="20" facs="#ACAS_CRHST_AMP_09_182_0020_r.jpg"/> pour s'accorder avec la
                     figure, le godet y fixé dans l'écrou o. J'ai cru aussi que vous ne m'en voudriez
                     pas de faire disparaître ces légères incorrections, d'ailleurs bien faciles à
                     suppléer pour le lecteur. Une correction que je crois plus importante et que
                     j'ai espéré que vous me permettriez de faire, consiste à avoir remplacé : le
-                    pôle Z, le pôle C, par les mots : le pôle positif, le pôle négatif. Voici mes
+                    pôle Z, le pôle C, par les mots : le pôle positif, le pôle négatif.</p>
+                <p>Voici mes
                     raisons : Une dénomination ne peut avoir un sens clair que quand tous ceux qui
                     l'emploient dans leurs écrits, s'en servent et s'en sont toujours servis dans le
                     même sens, et nous ne pouvons plus faire que vous, Monsieur, M.
                     <persName>Babinet</persName> et moi-même n'ayons appelé en effet Z le pôle
                     positif, C le pôle négatif et que M. <persName>Faraday</persName> n'ait, au
                     contraire, constamment appelé C le pôle positif et Z le pôle négatif : ce qui
-                    est, il faut l'avouer, bien mieux fondé en raison, parce que, dans une pile où
+                    est, il faut l'avouer,<pb n="21" facs="#ACAS_CRHST_AMP_09_182_0021_v.jpg"/> bien mieux fondé en raison, parce que, dans une pile où
                     toutes les paires zinc et cuivre soudées ensemble sont complètes, telles que
                     celles qui nous ont suggéré la manière dont nous avons désigné les pôles de la
                     pile, la plaque de zinc du côté positif se trouvant en communication immédiate,
@@ -389,7 +405,7 @@
                     force dans le courant que si cette plaque et ce fil communiquent immédiatement,
                     à cause que les deux actions électromotrices, exercées alors en sens contraire
                     aux deux côtés de cette plaque, se font mutuellement équilibre ; que, d'un autre
-                    côté, la plaque de cuivre du côté négatif ne sert de rien non plus, puisque,
+                    côté, la plaque de cuivre du côté négatif ne sert de rien non<pb n="22" facs="#ACAS_CRHST_AMP_09_182_0022_r.jpg"/> plus, puisque,
                     l'étendue du contact étant à peu près si ce n'est tout à fait indifférente quand
                     il s'agit des métaux, il vaut autant que le fil conducteur de cuivre soit
                     immédiatement soudé au zinc que de l'être à une plaque de cuivre souciée
@@ -398,8 +414,7 @@
                     la pile par une demi-poire en cuivre du côté positif et en zinc du côté négatif,
                     et surtout souder les deux fils conducteurs à chacune de ces demi-poires, au
                     lieu de les plonger, comme on le fait souvent, dans l'eau acidulée des deux
-                    extrémités de la pile, ce qui fait presque autant de tort à l'action qu'elle
-                    exerce que si l'on en supprimait une plaque dans cette construction, préférable
+                    extrémités de la pile, ce qui fait presque autant de tort à l'action de la pile que si l'on en<pb n="23" facs="#ACAS_CRHST_AMP_09_182_0023_v.jpg"/> supprimait une plaque dans cette construction, préférable
                     à toute autre lorsque les plaques de cuivre sont doubles en surface des plaques
                     de zinc pour les envelopper des deux côtés en se repliant sur leurs deux faces,
                     comme dans les piles de <persName>Wollaston</persName>, le pôle positif doit
@@ -407,9 +422,10 @@
                     <persName>Faraday</persName>, puisque ce sont là les métaux d'où partent les
                     fils conducteurs. Les mots de positif, négatif sont les seuls qui ne présentent
                     jamais ni ambiguïté ni équivoque et qui s'accordent avec les dénominations
-                    consacrées de corps électro-positifs, corps électro-négatifs. Comme je suis
+                    consacrées de corps électro-positifs, corps électro-négatifs.</p>
+                <p>Comme je suis
                     convaincu que la perfection du langage n'est point du tout à dédaigner dans les
-                    sciences, je désirerais avoir votre avis sur une autre correction que j'ai
+                    sciences, je désirerais avoir votre avis sur une autre correction<pb/> que j'ai
                     faite, d'abord d'une manière et ensuite d'une autre, en me rapprochant de la
                     première expression employée dans votre mémoire, sans avoir pu me satisfaire.
                     Depuis qu'il n'est plus temps d'y rien changer, j'ai imaginé une autre manière
@@ -417,7 +433,7 @@
                     commode si elle passait en usage ; car il s'agit de désigner avec précision une
                     chose dont on a sans cesse à parler quand on s'occupe de l'électricité
                     dynamique. L'expression des pôles m'a toujours tourmenté dans l'application
-                    qu'on en fait à la pile de Volta. En géométrie, les pôles d'un cerde sont des
+                    qu'on en fait à la pile de <persName>Volta</persName>. En géométrie, les pôles d'un cercle sont des
                     points placés sur la perpendiculaire à son plan qui passe par son centre.
                     Conformément à cette signification, les pôles de la terre sont ceux de son
                     équateur ; ses pôles magnétiques sont ceux des cercles décrits par les courants
@@ -455,7 +471,7 @@
                     l'on veut l'électricité statique, pourquoi n'adopterait-on pas celui de
                     rhéophore pour ce qui me sert au même usage relativement à l'électricité
                     dynamique. On aurait soin, en décrivant la pile, de dire qu'elle se compose d'un
-                    certain nombre de paires <ref>(7)</ref> séparées les unes des autres par un
+                    certain nombre de paires <ref target="#corresp7">(7)</ref> séparées les unes des autres par un
                     liquide conducteur et formées chacune d'une plaque de zinc et d'une plaque de
                     cuivre en contact immédiat, que la pile se termine de part et d'autre [par] deux
                     demi-paires auxquelles sont soudés deux fils ou lames de cuivre dont on fait
@@ -463,9 +479,10 @@
                     électrodynamiques et auxquelles on donne le nom de rhéophores (porte-courants).
                     Celui qui est attaché à la demi-paire de cuivre est le rhéophore positif parce
                     que c'est lui qui présente les caractères de l'électricité positive quand il est
-                    isolé. L'autre est le rhéophore négatif. Si vous approuvez cette dénomination,
+                    isolé. L'autre est le rhéophore négatif.<pb n="24" facs="#ACAS_CRHST_AMP_09_182_0024_r.jpg"/> Si vous approuvez cette dénomination,
                     nous pouvons nous en servir après que la publication de cet endroit de ma lettre
-                    en aura fait connaître la signification. Voici encore une observation qui peut
+                    en aura fait connaître la signification.</p>
+                <p>Voici encore une observation qui peut
                     être de quelque intérêt : Dans l'exposition que je fis à
                     <placeName>Genève</placeName> des principaux points de ma théorie, j'ai suivi
                     l'ordre dans lequel j'ai découvert les faits. C'est aussi cet ordre que vous
@@ -473,9 +490,10 @@
                     votre mémoire de quelques-uns de ces points. Mais cet ordre, déterminé par des
                     circonstances fortuites, n'est pas celui qui conviendrait à une exposition
                     méthodique. Après avoir réfléchi, je pense que c'est l'ordre suivant qu'il
-                    conviendrait d'adopter. Les deux faits les plus généraux sont : <list>
+                    conviendrait d'adopter.</p>
+                <p>Les deux faits les plus généraux sont : <list>
                         <item n="1"> Quand le courant électrique parcourt successivement les deux
-                            côtés d'un angle plan ou gauche <ref>(8)</ref> en allant par l'un vers
+                            côtés d'un angle plan ou gauche <ref target="#corresp8">(8)</ref> en allant par l'un vers
                             le sommet et revenant par l'autre, il y a répulsion entre les deux côtés
                             de l'angle. Ce fait doit être constaté par l'expérience : d'abord pour
                             un angle quelconque, puis pour un angle nul quand les deux droites sont
@@ -483,57 +501,60 @@
                             représenté dans la figure 12.</item>
                         <item n="2">Quand la direction du courant change dans un des côtés sans
                             changer dans l'autre, en sorte qu'il va dans tous les deux ou en
-                            s'approchant ou en s'éloignant du sommet, il y a attraction entre les
+                            s'approchant ou en s'éloignant du sommet, il y a attraction entre<pb n="25" facs="#ACAS_CRHST_AMP_09_182_0025_v.jpg"/> les
                             mêmes côtés. Ce fait doit aussi être constaté par l'expérience, du moins
                             pour un angle quelconque, et pour un angle nul quand les deux courants
                             sont parallèles. Comme je ne connais pas d'appareil pour vérifier
                             directement le cas où l'angle est de 180°, on pourra s'en dispenser en
                             déduisant ce cas, qui est celui des portions de courants kn, lq (fig. 8)
-                                <ref>(9)</ref> [des] deux précédents combinés avec les lois
+                                <ref target="#corresp9">(9)</ref> des deux précédents combinés avec les lois
                             suivantes qu'on doit aussi établir d'après des expériences précises en
                             mettant en équilibre un conducteur mobile sollicité par des forces
                             égales. Vous connaissez les deux premiers cas de cet équilibre, d'où
                             l'on tire les deux lois suivantes relatives aux faits que l'on vient
                             d'énoncer <list>
-                                <item n="1"> Que quand on change seulement le sens d'un des
+                                <item n="1"> <p>Que quand on change seulement le sens d'un des
                                     courants, l'attraction qui en résulte est exactement égale à la
                                     répulsion qui avait lieu auparavant, et réciproquement. Je n'ai
                                     encore décrit nulle part les expériences dont je me sers pour
                                     établir cette loi, mais il est aisé à chacun d'y
-                                    suppléer.</item>
-                                <item n="2">L'action d'une petite portion de courant électrique sur
-                                    une autre est égale à la somme des actions qu'exerceraient sur
+                                    suppléer.</p></item>
+                                <item n="2"><p>L'action d'une petite portion de courant électrique sur
+                                    une autre est égale à la somme des actions qu'exerceraient sur<pb n="26" facs="#ACAS_CRHST_AMP_09_182_0026_r.jpg"/>
                                     cette dernière les trois projections de cette dernière. Vous
                                     savez assez par quelles expériences on s'en assure ; j'ajouterai
                                     seulement ici, à ce que j'ai publié sur ce sujet, que cette
                                     expérience peut aussi bien se faire à l'égard de deux courants
                                     dont les directions forment un angle quelconque que de deux
-                                    courants parallèles.</item>
+                                    courants parallèles.</p></item>
                             </list>
                         </item>
-                    </list> Maintenant, puisque, d'après cette dernière loi, l'action de mn (fig. 8)
+                    </list></p>
+                <p>Maintenant, puisque, d'après cette dernière loi, l'action de mn (fig. 8)
                     sur pq est égale à la somme des deux actions exercées par mk et kn sur le même
                     pq et que, d'après les expériences qui servent à établir la première loi dans
                     les deux cas où il est aisé de le faire, les deux actions répulsives de mn et de
                     kn sur pq, qui auraient lieu si un des deux courants de la figure 8 allait vers
                     le sommet de l'angle BAC, se changent en attractions quand ils sont dirigés
                     comme on le voit dans cette figure, il faut nécessairement que la répulsion
-                    entre kn et pq <ref>(10)</ref>, démontrée par l'expérience de la figure 12 pour
-                    le cas où un des courants des côtés de l'angle BAC <ref>(11)</ref> irait en
-                    s'approchant du sommet A de cet angle, se change en attraction, lorsqu'ils vont
+                    entre kn et pq <ref target="#corresp10">(10)</ref>, démontrée par l'expérience de la figure 12 pour
+                    le cas où un des courants des côtés de l'angle BAC <ref target="#corresp11">(11)</ref> irait en
+                    s'approchant du sommet A de cet angle, se change en<pb n="27" facs="#ACAS_CRHST_AMP_09_182_0027_v.jpg"/> attraction, lorsqu'ils vont
                     tous deux en s'en écartant ou s'en approchant : ce qu'il s'agissait, comme je
                     l'ai dit tout à l'heure, de déduire des autres faits et des lois données par
-                    l'expérience, tant qu'on n'aura pas trouvé le moyen de le vérifier directement.
+                    l'expérience, tant qu'on n'aura pas trouvé le moyen de le vérifier directement.</p>
+                <p>
                     Quand on en est là, on doit examiner ce qui doit arriver quand un courant
                     horizontal, rectiligne et indéfini, agit sur une portion de fil conducteur
                     mobile autour d'un axe, soit horizontal, soit vertical, et, quand l'axe est
-                    vertical, soit que la partie mobile soit horizontale ou verticale. Ce sont ces
-                    divers cas dont vous [vous] êtes occupé à la fin de votre mémoire. L'instrument
+                    vertical, soit que la partie mobile soit horizontale ou verticale.</p>
+                <p>Ce sont ces
+                    divers cas dont vous vous êtes occupé à la fin de votre mémoire. L'instrument
                     que j'ai fait construire pour les vérifier est presque fini. J'ai même déjà fait
                     quelques expériences avec cet appareil. Elles ont parfaitement réussi. Vous
                     sentez bien qu'il ne peut y avoir de doute sur le succès des autres puisque ce
                     n'est toujours que la même chose faite de diverses manières. Dès que je les
-                    aurai achevées, je profiterai du premier moment de liberté pour en écrire les
+                    aurai achevées, je profiterai du premier moment de liberté pour<pb n="28" facs="#ACAS_CRHST_AMP_09_182_0028_r.jpg"/> en écrire les
                     détails à Monsieur votre père. Je me reproche vivement de n'avoir pas encore
                     répondu à son aimable lettre contenue dans la vôtre. Mais figurez-vous que,
                     faute de temps, une lettre de M. <persName>Faraday</persName> et les épreuves
@@ -542,14 +563,15 @@
                     encore depuis que je suis de retour à <placeName>Paris</placeName> : la première
                     une réponse, les autres quelques heures pour les corriger. J'en reviens à
                     l'ordre dans lequel je crois que les faits électrodynamiques doivent être
-                    exposés. L'action d'un courant rectiligne fixe, plusieurs fois redoublé et
+                    exposés.</p>
+                <p>L'action d'un courant rectiligne fixe, plusieurs fois redoublé et
                     étendu indéfiniment dans un plan horizontal, sur un fil conducteur horizontal et
                     tournant comme l'aiguille d'une montre, quand le conducteur fixe est hors de la
                     surface cylindrique dont il a été question plus haut, ayant fait connaître la
                     possibilité d'obtenir un mouvement continu toujours dans le même sens, conduit
                     bientôt à augmenter cette action par la diminution de la distance à laquelle
                     elle s'exerce ; et à la rendre uniforme, en remplaçant le conducteur rectiligne
-                    fixe par un conducteur circulaire redoublé, c'est-à-dire par la spirale revêtue
+                    fixe par un conducteur circulaire redoublé, c'est-à-dire<pb n="29" facs="#ACAS_CRHST_AMP_09_182_0029_v.jpg"/> par la spirale revêtue
                     de soie que vous connaissez. Après le succès de cette expérience, il est naturel
                     d'essayer si, dans ce cas, on pourrait obtenir le mouvement continu toujours
                     dans le même sens, avec un conducteur mobile dont les deux extrémités se
@@ -558,19 +580,20 @@
                     faisant l'expérience avec le conducteur en demi-cercle plusieurs fois redoublé
                     que nous avons essayé ensemble à <placeName>Genève</placeName>, et il ne manque
                     plus rien pour déduire de ce troisième cas d'équilibre la valeur du coefficient
-                    indéterminé k de la formule que j'ai tirée en 1820 des deux autres cas
+                    indéterminé k de la formule que j'ai tirée en <date when-iso="1820-00-00">1820</date> des deux autres cas
                     d'équilibre rappelés plus haut. La détermination de la valeur de k d'après ce
                     troisième cas d'équilibre est l'objet de mon dernier mémoire  ; vous l'avez déjà
-                    vu sans doute dans le cahier d'août des Annales de Chimie et de Physique
-                        <ref>(12)</ref>. On doit ajouter à cela les expériences sur la production
-                    des courants par influence et celles qui montrent que le courant qui est dans la
+                    vu sans doute dans le cahier d'août des <title>Annales de Chimie et de Physique</title>
+                        <ref target="#corresp12">(12)</ref>.</p>
+                <p>On doit ajouter à cela les expériences sur la production
+                    des courants par influence et celles qui montrent que le courant qui<pb n="30" facs="#ACAS_CRHST_AMP_09_182_0030_r.jpg"/> est dans la
                     pile agit comme celui du conducteur tant pour les attractions et les répulsions
                     que pour le mouvement toujours dans le même sens. J'ai décrit, dans les
                     <title>Annales de Chimie et de Physique</title>, tome 18, pages 315 et
                     suivantes, une petite pile de M.
                     <persName>
             <choice>
-              <sic>Offerhans</sic> <corr>[Offerhaus]</corr>
+              <sic>Offerhans</sic> <corr>Offerhaus</corr>
             </choice>
           </persName>
                     très commode pour observer les attractions qu'exerce le courant de l'intérieur
@@ -583,25 +606,22 @@
                     où repose la pointe O d'un conducteur mobile semblable à celui qui est
                     représenté en LOMP et plongeant de même dans l'eau acidulée du vase de cuivre,
                     mais dont la couronne LMP a un plus grand diamètre que dans cette figure. On
-                    voit alors tourner ce conducteur dans le sens déterminé par celui des tours de
+                    voit alors tourner ce conducteur<pb n="31" facs="#ACAS_CRHST_AMP_09_182_0031_v.jpg"/> dans le sens déterminé par celui des tours de
                     la spirale, par l'action du courant de l'intérieur de la pile. Si ce courant va
                     de l'Est à l'Ouest par le Midi, l'action qu'il exerce est augmentée par celle de
-                    la terre, qui la diminue dans le cas contraire. Cela bien exposé, il me semble
+                    la terre, qui la diminue dans le cas contraire.</p>
+                <p>Cela bien exposé, il me semble
                     que tout ce qui est relatif à l'action mutuelle de deux courants électriques le
                     serait d'une manière à peu près complète. Il faudrait passer alors à l'action de
                     la terre sur une portion mobile du circuit voltaïque qu'on reconnaît, comme je
                     l'ai remarqué ailleurs, à ce qu'elle change de direction quand on renverse les
-                    communications avec la pile <ref>(13)</ref>
-                    <note>La note associée à cet appel dans l'édition <persName>DE LAUNAY</persName>
-                        correspond aux folios 43 et 44 du fac-similé du manuscrit dans la présente
-                        édition électronique ; elle n'est pas de la main
-                        d'<persName>Ampère</persName>.</note>. Le premier fait relatif à cette
-                    action du globe terrestre est celui du mouvement continu d'un fil horizontal
+                    communications avec la pile <ref target="#corresp13">(13)</ref>. Le premier fait relatif à cette
+                    action du globe terrestre est celui du mouvement continu<pb n="34" facs="#ACAS_CRHST_AMP_09_182_0034_r.jpg" type="deplacement"/> d'un fil horizontal
                     mobile autour d'une de ses extrémités et qui se meut de manière qu'un
                     observateur placé au centre du cercle qu'il décrit le verrait tourner de sa
                     droite à sa gauche quand le courant qui le parcourt va du centre à la
                     circonférence, et de gauche à droite quand le même courant va au contraire de la
-                    circonférence au centre <ref>(14)</ref>. En comparant ce fait à l'action que
+                    circonférence au centre <ref target="#corresp14">(14)</ref>. En comparant ce fait à l'action que
                     nous avons plus haut déduite de la théorie et vérifiée par l'expérience entre un
                     conducteur fixe rectiligne et indéfini et un conducteur mobile de la même
                     manière que celui que la terre fait mouvoir ainsi, on trouve qu'elle agit dans
@@ -613,11 +633,11 @@
                     substitué soit situé et dirigé comme je viens de le dire, sans que d'ailleurs
                     cette expérience puisse déterminer le côté de l'horizon où il doit être pour que
                     le mouvement observé puisse être attribué à cette cause. Le second fait relatif
-                    à l'action électrodynamique de la terre est un quatrième cas d'équilibre donné
+                    à l'action électrodynamique de la terre<pb n="35" facs="#ACAS_CRHST_AMP_09_182_0035_v.jpg"/> est un quatrième cas d'équilibre donné
                     par une expérience que j'ai faite depuis longtemps et que je viens de vérifier
                     après l'avoir déduit de ma théorie par le calcul. J'ai trouvé, en partant de la
                     formule obtenue dans le mémoire que j'ai lu à
-                    l'<orgName>Académie des Sciences</orgName> le 10 juin dernier, [que] l'action du
+                    l'<orgName>Académie des Sciences</orgName> le <date when="1822-06-10">10 juin dernier</date>, que l'action du
                     conducteur fixe, horizontal et indéfini, sur le courant horizontal mobile autour
                     d'une de ses extrémités, était la même, pour le faire tourner toujours dans le
                     même sens, quel que fût l'angle de leur direction, quand la distance entre ces
@@ -627,37 +647,42 @@
                     perpendiculaires, mais dans des plans différents, et que leurs directions
                     forment un angle quelconque, il n'y aura point de mouvement lorsqu'un des
                     courants ira du centre à la circonférence, et l'autre de la circonférence au
-                    centre. Lorsque ce cas d'équilibre, qui rentre dans ma théorie d'après le calcul
-                    dont je viens de vous parler, a été constaté par l'expérience, on doit en
-                    conclure : 1° que, si l'action qu'exerce le globe sur les conducteurs est due à
+                    centre.</p>
+                <p>Lorsque ce cas d'équilibre, qui rentre dans ma théorie d'après le calcul
+                    dont je viens de vous parler, a été constaté par<pb n="36" facs="#ACAS_CRHST_AMP_09_182_0036_r.jpg"/> l'expérience, on doit en
+                    conclure : <list><item n="1">° que, si l'action qu'exerce le globe sur les conducteurs est due à
                     des courants électriques, il faut que le courant moyen qui produirait les mêmes
                     effets se trouve en général à une grande distance du lieu où se fait
-                    l'observation ; 2° que, si l'on soumet à cette action le conducteur mobile de la
-                    figure 7 <ref>(15)</ref>, on n'aura que l'effet produit sur la partie verticale
+                    l'observation ;</item><lb/>
+                        <item n="2">° que, si l'on soumet à cette action le conducteur mobile de la
+                    figure 7 <ref target="#corresp15">(15)</ref>, on n'aura que l'effet produit sur la partie verticale
                     puisqu'il y a équilibre entre les actions exercées sur les parties horizontales
-                    de fg. Le troisième fait consiste dans la situation déterminée, que ce
+                    de fg.</item></list></p>
+                <p>Le troisième fait consiste dans la situation déterminée, que ce
                     conducteur prend : à l'Est de l'axe bd quand le courant électrique le parcourt
-                    en descendant ; à l'Ouest, quand il le parcourt en montant. Comparons maintenant
+                    en descendant ; à l'Ouest, quand il le parcourt en montant.</p>
+                <p>Comparons maintenant
                     le résultat que donne cette expérience, avec l'action que doit exercer, d'après
                     ce qui a été dit ci-dessus, un conducteur rectiligne horizontal sur un
                     conducteur mobile tournant autour d'un axe vertical auquel il reste constamment
                     parallèle, et nous verrons qu'il en résulte que le courant moyen des courants
-                    terrestres ira de l'Est à l'Ouest ; mais alors, s'il se trouvait au Nord, il
+                    terrestres ira de l'Est à l'Ouest ; mais alors, s'il se trouvait au Nord,<pb n="37" facs="#ACAS_CRHST_AMP_09_182_0037_v.jpg"/> il
                     irait de la droite à la gauche de l'observateur placé au centre du mouvement ;
                     et nous avons vu par une expérience précédente, qu'il va de sa gauche à sa
                     droite. Il faut donc qu'il soit du côté du Sud et dans la direction de l'Est à
                     l'Ouest. Si l'on menait dans le plan de l'horizon une perpendiculaire à cette
                     direction, on aurait ce qu'on nomme le méridien magnétique ; mais n'anticipons
                     pas sur ce que nous aurons bientôt à en dire et ne la considérons que comme
-                    celle où se place le plan d'un conducteur mobile vertical ! Ce n'est qu'après
+                    celle où se place le plan d'un conducteur mobile vertical !</p>
+                <p>Ce n'est qu'après
                     ces premières recherches sur la cause de l'action entre la terre et les
                     conducteurs voltaïques qu'il convient d'examiner les phénomènes produits par
-                    cette action que j'ai observée en 1820. Le premier est le mouvement que j'ai
-                    remarqué le 17 octobre 1820 en faisant, devant quelques membres de
+                    cette action que j'ai observée en <date when-iso="1820-00-00">1820</date>. Le premier est le mouvement que j'ai
+                    remarqué le <date when="1820-10-17">17 octobre 1820</date> en faisant, devant quelques membres de
                     l'<orgName>Académie des Sciences</orgName>, des expériences avec un appareil
                     dont le conducteur mobile était le même que celui qui est représenté en ECDF
-                    dans la figure I de la planche I de mon Recueil et du tome 15 des Annales de
-                    Chimie et de Physique <ref>(16)</ref>. Ce mouvement se produit à l'instant où
+                    dans la figure I de la planche I de mon <title>Recueil</title> et du tome 15 des <title>Annales de
+                    Chimie et de Physique</title> <ref target="#corresp16">(16)</ref>. Ce mouvement se produit à l'instant où<pb n="38" facs="#ACAS_CRHST_AMP_09_182_0038_r.jpg"/>
                     l'on met le conducteur mobile en communication avec les deux extrémités de la
                     pile : on voit, sous tous les azimuts, le conducteur ECDF se porter à gauche de
                     l'observateur placé dans le courant de la portion horizontale CD de la manière
@@ -671,11 +696,12 @@
                     parce que ces portions sont perpendiculaires à l'axe EF autour duquel tourne le
                     conducteur mobile et, d'après le calcul que j'ai fait depuis peu et dont j'ai
                     parlé tout à l'heure, l'action exercée sur CD doit être la même sous tous les
-                    azimuts [sic]. Il est à remarquer qu'il n'en est de même de l'action de la terre
-                    soutenue sur une des deux portions verticales, EC par exemple, pour la faire
+                    azimuts. Il est à remarquer qu'il n'en est de même de l'action de la terre
+                    soutenue sur une des deux portions verticales,<pb n="39" facs="#ACAS_CRHST_AMP_09_182_0039_v.jpg"/> EC par exemple, pour la faire
                     tourner toujours dans le même sens autour de l'axe horizontal EF. Cette dernière
                     est évidemment à son maximum quand EF est dans le plan du méridien magnétique ;
-                    elle devient nulle quand EF lui est perpendiculaire. Viennent ensuite les
+                    elle devient nulle quand EF lui est perpendiculaire.</p>
+                <p>Viennent ensuite les
                     mouvements imprimés par l'action électrodynamique terrestre à des circuits
                     presque fermés, mobiles, soit autour d'un axe vertical, soit autour d'un axe
                     horizontal. Je n'ai rien à ajouter à ce que j'en ai dit dans mon premier mémoire
@@ -683,10 +709,10 @@
                     suivantes), si ce n'est : <list>
                         <item n="1"> que, pour en rendre raison, il faut examiner l'action de la
                             terre sur chacune des portions tant verticales qu'horizontales du
-                            circuit mobile ;</item>
+                            circuit mobile ;</item><lb/>
                         <item n="2"> que, dans le cas où le circuit est mobile autour d'un axe
                             horizontal, il doit, d'après la théorie, être amené par l'action de la
-                            terre dans le plan parallèle à l'horizon qui passe par cet axe lorsque
+                            terre dans le plan parallèle à l'horizon qui passe par<pb n="40" facs="#ACAS_CRHST_AMP_09_182_0040_r.jpg"/> cet axe lorsque
                             ce dernier est dans le plan du méridien magnétique, tandis que le même
                             circuit doit s'incliner dans les autres azimuts de manière que son
                             inclinaison soit la plus grande possible quand l'axe est perpendiculaire
@@ -697,13 +723,14 @@
                             s'abaisser au-dessous de l'horizon du côté du Sud, en formant avec lui
                             un angle égal à la moitié de la latitude magnétique. Cette égalité ne
                             doit pas avoir lieu précisément puisque les courants terrestres ne
-                            sauraient être considérés comme étant toujours dans cette tangente ;
-                            mais il y a, comme on sait, entre la moitié de la latitude magnétique et
+                            sauraient être considérés comme étant tous dans cette tangente ;
+                            mais il y a, comme on sait, entre la<pb n="41" facs="#ACAS_CRHST_AMP_09_182_0041_v.jpg"/> moitié de la latitude magnétique et
                             l'angle dont je viens de parler qui est le complément de l'inclinaison
                             de l'aiguille aimantée, une relation très simple qui me paraît pouvoir
                             être déduite de ma théorie par un calcul que je n'ai point encore eu le
                             temps de faire.</item>
-                    </list> Après que l'action de la terre sur un circuit presque fermé est ainsi
+                    </list></p>
+                <p>Après que l'action de la terre sur un circuit presque fermé est ainsi
                     analysée dans tous ses détails et toujours sans qu'il soit question d'aimant,
                     les directions de ce qu'on appelle le méridien et le parallèle magnétique se
                     trouvent déterminées par la direction que l'action du globe donne à ce circuit.
@@ -712,7 +739,7 @@
                     cuivre ou de gros fils du même métal revêtu de soie roulés sur un cylindre de
                     carton, de manière que, toutes les spires se touchant, la soie qui les recouvre
                     empêche seule le courant électrique de passer d'une spire à la spire voisine. On
-                    fait, comme je l'ai expliqué ailleurs, revenir de l'hélice une portion de la
+                    fait, comme<pb n="42" facs="#ACAS_CRHST_AMP_09_182_0042_r.jpg"/> je l'ai expliqué ailleurs, revenir de l'hélice une portion de la
                     lame ou du fil dont elle se compose pour déterminer l'effet des projections
                     parallèles à l'axe, et que chaque spire n'agisse que comme sa projection
                     circulaire sur un plan perpendiculaire. Cette hélice ainsi construite, on la
@@ -722,16 +749,17 @@
                     observe aussi qu'elle attire ou repousse, suivant des circonstances faciles à
                     prévoir d'après la théorie, un conducteur dont la direction est perpendiculaire
                     à son axe et qui est susceptible de se mouvoir, soit parallèlement, soit
-                    perpendiculairement à son axe. Pour obtenir les phénomènes réciproques de
+                    perpendiculairement à son axe.</p>
+                <p>Pour obtenir les phénomènes réciproques de
                     ceux-là, on construit une hélice qui ne diffère de la précédente qu'en ce
-                    qu'elle est très légère et que les deux extrémités du fil dont elle se compose
+                    qu'elle est très légère et<pb n="43" facs="#ACAS_CRHST_AMP_09_182_0043_v.jpg"/> que les deux extrémités du fil dont elle se compose
                     reviennent par son axe au milieu de cet axe, sortent latéralement de l'hélice et
                     se terminent comme les extrémités de la plupart de mes conducteurs mobiles, pour
                     être mises en communication avec celles de la pile au moyen du mercure contenu
                     dans les coupes de suspension de l'appareil dont je me sers pour les expériences
                     analogues que j'ai décrites ailleurs, ou bien par une plaque de zinc et une de
                     cuivre plongeant dans l'eau acidulée sur laquelle flotte l'hélice comme dans les
-                    expériences de M. Van der Heyden. Il faut alors déduire de la théorie les
+                    expériences de M. <persName>Van der Heyden</persName>. Il faut alors déduire de la théorie les
                     actions que doivent exercer sur cette hélice différents conducteurs fixes et les
                     vérifier successivement. Ces actions sont précisément celles que l'on verra plus
                     tard, en continuant cette exposition de tous les phénomènes électrodynamiques,
@@ -739,8 +767,9 @@
                     M. <persName>Œrsted</persName>, dans celles de Monsieur votre père et dans
                     quelques-unes des miennes. On pourra prévoir et vérifier de même les phénomènes
                     de direction et d'inclinaison produits sur cette hélice par l'action du globe
-                    terrestre. On distinguera alors les deux extrémités de l'hélice en ce que l'une
-                    se dirige constamment au Nord et l'autre au Sud, suivant qu'elles se trouvent à
+                    terrestre.</p>
+                <p>On distinguera alors les deux extrémités de l'hélice en ce que l'une
+                    se dirige<pb n="44" facs="#ACAS_CRHST_AMP_09_182_0044_r.jpg"/> constamment au Nord et l'autre au Sud, suivant qu'elles se trouvent à
                     droite ou à gauche des courants des spires, en comparant leurs positions
                     relativement à ces courants, avec celle des pôles de la terre relativement aux
                     courants terrestres dirigés de l'Est à l'Ouest. On reconnaît aisément qu'il y a
@@ -748,14 +777,16 @@
                     Nord et le pôle austral de la terre ; entre celle qui se porte au Sud et le pôle
                     boréal de notre globe. De là les noms de <placeName>pôle austral</placeName> de
                     l'hélice et de <placeName>pôle boréal</placeName> de l'hélice donnés à ces deux
-                    extrémités. Il est temps alors de déduire de la théorie et de vérifier par
+                    extrémités.</p>
+                <p>Il est temps alors de déduire de la théorie et de vérifier par
                     l'expérience, que les pôles de même nom de deux hélices se repoussent
-                    mutuellement et qu'il y a attraction entre les pôles de nom contraire. On doit
+                    mutuellement et qu'il y a attraction entre les pôles de nom contraire.</p>
+                <p>On doit
                     ensuite passer aux expériences de M. <persName>Arago</persName>, placer dans les
                     hélices les fils d'acier parallèles à leurs axes, remarquer qu'après qu'ils y
                     sont restés quelque temps les phénomènes présentés par ces hélices restent les
                     mêmes dans toutes leurs autres circonstances mais augmentent d'intensité,
-                    retirer alors les fils d'acier et montrer qu'ils présentent encore précisément
+                    retirer alors les fils d'acier et montrer qu'ils<pb n="45" facs="#ACAS_CRHST_AMP_09_182_0045_v.jpg"/> présentent encore précisément
                     les mêmes phénomènes, tant dans l'action semblable à celle de la première hélice
                     sur les fils conducteurs pour les attirer, les repousser, les diriger et les
                     faire tourner toujours dans le même sens, comme le montrent les expériences de
@@ -774,7 +805,8 @@
                     agit sur ce fil d'acier précisément comme sur une hélice, et qu'en le présentant
                     à un autre fil d'acier préparé de la même manière, leurs extrémités situées de
                     la même manière se repoussent comme les pôles de même nom des hélices, et qu'il
-                    y a de même attraction entre les extrémités d'espèces opposées. On doit alors
+                    y a de même attraction entre les extrémités d'espèces opposées.</p>
+                <p>On doit alors
                     dire qu'on a donné le nom d'aimant aux morceaux d'acier, de fer, de nickel ou de
                     cobalt qui présentent ces propriétés, étendre à leurs extrémités les
                     dénominations de pôle austral, pôle boréal, données à celles des hélices, et
@@ -791,19 +823,20 @@
                     <persName>
             <choice>
               <sic>Van
-                    Beck</sic> <corr>[van Beek]</corr>
+                    Beck</sic> <corr>van Beek</corr>
             </choice>
           </persName>
-                    insérée dans le Journal de Physique. En examinant plus particulièrement les
+                    insérée dans le <title>Journal de Physique</title>. En examinant plus particulièrement les
                     phénomènes que présente l'action mutuelle d'un barreau aimanté, tant sur un
-                    autre barreau qui l'est aussi que sur un qui ne l'est pas encore, on est alors
+                    autre barreau qui l'est aussi que sur un qui ne l'est pas encore, on est alors<pb n="46" facs="#ACAS_CRHST_AMP_09_182_0046_r.jpg"/>
                     conduit aux considérations sur la formation des points conséquents, sur la
                     situation inclinée à l'axe d'un aimant des courants électriques qu'on doit
                     admettre autour de ces particules, etc. qui sont contenus dans cette lettre et
                     dans celle que j'ai écrite au mois de juin dernier à Monsieur votre père et qui
                     a paru dans la <title>Bibliothèque universelle</title>
                     (<title>Science et
-                    Arts</title>, août 1822). Tel est,
+                    Arts</title>, <date when-iso="1822-08-00">août 1822</date>). </p>
+                <p>Tel est,
                     Monsieur et très cher ami, l'ordre qu'il me semble qu'on devrait suivre dans
                     cette partie de la physique, et il me semble que, s'il existait un ouvrage où
                     les faits fussent présentés dans cet ordre, on s'apercevrait tout de suite que
@@ -812,7 +845,7 @@
                     conséquences qui se déduisent immédiatement de leur rapprochement. On devrait,
                     ce me semble, terminer cette exposition par la remarque décisive que, quoiqu'on
                     explique tous les phénomènes offerts par les aimants au moyen de courants
-                    électriques dont toutes les analogies indiquent l'existence dans ces corps, on
+                    électriques dont toutes les analogies indiquent l'existence<pb n="47" facs="#ACAS_CRHST_AMP_09_182_0047_v.jpg"/> dans ces corps, on
                     ne peut point rendre raison de tous les faits relatifs aux conducteurs
                     voltaïques, en supposant que leurs particules agissent comme des aimants situés
                     transversalement, parce qu'on voit, dans certains cas, et conformément à ma
@@ -822,11 +855,12 @@
                     assemblages d'aimants de quelque manière qu'ils soient disposés, comme je l'ai
                     déjà rappelé plus haut. La discussion de la théorie de M.
                     <persName>Faraday</persName>, comparée à la mienne que j'ai indiquée dans cette
-                    lettre, devrait aussi trouver place ici. J'ai été entraîné peu à peu, Monsieur
+                    lettre, devrait aussi trouver place ici.</p>
+                <p>J'ai été entraîné peu à peu, Monsieur
                     et très cher ami, à donner à cette lettre une étendue infiniment plus grande que
                     je ne me l'étais d'abord proposé. Je la finis enfin aujourd'hui
                     <date when-iso="1822-10-31">31 octobre</date>. Je crains à présent qu'elle ne
-                    soit trouvée trop longue pour être insérée, pour toutes les parties relatives à
+                    soit trouvée trop longue pour<pb n="48" facs="#ACAS_CRHST_AMP_09_182_0048_r.jpg"/> être insérée, pour toutes les parties relatives à
                     la science, dans la <title>Bibliothèque universelle</title>, même en la
                     partageant entre deux numéros. Dans tous les cas vous me feriez plaisir de me
                     dire ce qu'on en jugera. Dans le cas où il faudrait l'abréger, j'aimerais que la
@@ -840,7 +874,7 @@
                     trouver de ces sortes de corrections indispensables à faire. Vous ne sauriez me
                     rendre un plus grand service. Vous pourriez aussi y ajouter toutes les notes que
                     vous jugerez propres à rendre plus claires ou à combattre ce que j'ai pu dire
-                    sur ce sujet. Je vous en remercie d'avance et [vous prie] de ne pas oublier
+                    sur ce sujet. Je vous en remercie<pb n="49" facs="#ACAS_CRHST_AMP_09_182_0049_v.jpg"/> d'avance et [vous prie] de ne pas oublier
                     d'offrir l'hommage de mon respect et de ma vive reconnaissance à M. et Mme
                     <persName>de La Rive</persName>. Je suis retourné hier chez M.
                     <persName>
@@ -849,7 +883,8 @@
                     n'a point reçu le paquet des 300 exemplaires de la lettre à Monsieur votre père,
                     exemplaires que j'ai vus à <placeName>Genève</placeName>. Je n'y comprends plus
                     rien. En grâce, tirez-moi de cette inquiétude. Votre sincère ami et tout dévoué
-                    serviteur, <persName>A. Ampère</persName>
+                    serviteur,<lb/>
+                    <persName>A. Ampère</persName>
                 </p>
             </div>
         </body>
@@ -860,20 +895,23 @@
                     <title>Bibliothèque
                     universelle</title> où elle ne parut
                     pas, comme le montrent les regrets exprimés par <persName>Ampère</persName> le
-                    <date when="1823-03-23">23 mars 1823</date> [L637]. L'autographe existant à la
+                    <date when="1823-03-23">23 mars 1823</date> [ampere_corr_L1823-03-23-a]. L'autographe existant à la
                     Bibliothèque de <placeName>Genève</placeName> est de la main d'un copiste avec
                     des corrections de la main d'<persName>Ampère</persName>. Les notes insérées
-                    entre guillemets sont celles qui figurent sur la lettre autographe. (2) Le
+                    entre guillemets sont celles qui figurent sur la lettre autographe.</note>
+                <note xml:id="corresp2">(2) Le
                     mémoire de <persName>A. de La Rive</persName>, lu à
-                    <placeName>Genève</placeName> le 4 septembre 1822 (voir Mémoires d'
+                    <placeName>Genève</placeName> le <date when="1822-09-04">4 septembre 1822</date> (voir Mémoires d'
                     Électro-dyn., t. I, p. 308) a paru d'abord dans la
                     <title>Bibliothèque universelle</title> (t. 21, p. 29-48), puis dans les
                     <title>Annales de Chimie et de Physique</title>, t. 21, p. 24-48, enfin dans le
                     <title>Recueil des observations électrodynamiques</title>, p. 262-286, in-8°,
                     <persName>Crochard</persName>, <placeName>Paris</placeName>, 1822.
                     <persName>Ampère</persName> était à <placeName>Genève</placeName> le 4
-                    septembre. (3) Lecture du 16 septembre 1822 (voir Mémoires d'Électro-dyn, p.
-                    329-337, publié en 1885 sur le manuscrit). (4) « Cette figure et toutes celles
+                    septembre.</note>
+                <note xml:id="corresp3">(3) Lecture du <date when="1822-09-16">16 septembre 1822</date> (voir Mémoires d'Électro-dyn, p.
+                    329-337, publié en 1885 sur le manuscrit).</note>
+                <note xml:id="corresp4">(4) Cette figure et toutes celles
                     qui seront citées dans cette lettre sont les figures de la planche jointe à
                     votre mémoire, excepté dans le cas où l'ouvrage dans lequel se trouveront les
                     figures dont j'aurai à parler sera désigné d'une manière spéciale. Si cette
@@ -884,37 +922,46 @@
                     exemplaires, supprimer la note 1 qui est au bas de cette page et mettre dans cet
                     endroit du texte (pl. IX, fig. 7), au lieu de (fig. 7). Cette remarque
                     s'applique aussi à un endroit de la suite de ma lettre où je cite la figure 7 de
-                    votre planche. » [Voir Mémoires d'Électrodynamique, p. 319, 322 et 327, dont
+                    votre planche.  (Note d'<persName>Ampère</persName>. Voir Mémoires d'Électrodynamique, p. 319, 322 et 327, dont
                     nous empruntons les figures pour plus de clarté, en leur laissant leurs
-                    numéros.] (5) « Ces quatre actions doivent être simplement ajoutées lorsqu'on
+                    numéros.)</note>
+                <note xml:id="corresp5">(5) <cit><quote>Ces quatre actions doivent être simplement ajoutées lorsqu'on
                     veut en avoir la résultante, parce qu'elles sont dirigées suivant les quatre
                     droites qui joignent deux à deux les milieux de mk et de kl avec ceux de pl et
                     de lq, et que ces quatre droites se confondent en une seule quand les deux
                     portions de courants électriques dont on cherche l'action mutuelle sont
-                    infiniment petites. » La figure 8 qui n'est pas dans le manuscrit, mais à
+                    infiniment petites.</quote></cit>  (Note d'<persName>Ampère</persName>.) La figure 8 qui n'est pas dans le manuscrit, mais à
                     laquelle <persName>Ampère</persName> renvoie, se trouve à la page 322 des Mém.
-                    d'Electro-dyn. (6) « Voyez la note insérée dans le cahier de
-                    <date when-iso="1820-09">septembre 1820</date> du Journal de Physique. » (Note
-                    d'<persName>Ampère</persName>.) (7) Il vaut mieux dire paire que couples parce
+                    d'Electro-dyn.</note>
+                <note resp="#AMA" xml:id="corresp6">(6) Voyez la note insérée dans le cahier de
+                    <date when-iso="1820-09">septembre 1820</date> du Journal de Physique. (Note
+                    d'<persName>Ampère</persName>.)</note>
+                <note xml:id="corresp7">(7) Il vaut mieux dire paire que couples parce
                     que ce dernier mot est consacré à un autre usage en mécanique et que, dans le
                     sujet dont nous nous occupons, on est souvent dans le cas de dire que deux
-                    actions d'électro-dynamique forment un couple. (8) « J'appelle angle gauche
+                    actions d'électro-dynamique forment un couple.</note>
+                <note resp="#AMA" xml:id="corresp8">(8) J'appelle angle gauche
                     celui qui est formé par deux droites qui ne se rencontrent pas, qui a pour
                     sommet la perpendiculaire commune qui mesure la plus grande distance de ces deux
                     droites. Un angle gauche est, comme on sait, mesuré par l'angle plan compris
                     entre un de ses côtés et une parallèle à l'autre côté menée par un des points du
                     premier. Le mot gauche est pris dans le sens qu'on lui donne en géométrie
                     lorsqu'on divise le genre des surfaces réglées entre trois espèces : le plan,
-                    les surfaces développables et les surfaces gauches. » (9) Mémoires sur
-                    l'electrodynamique, t. I, p. 322. (10) «Cette action se réduit à celle de kn sur
+                    les surfaces développables et les surfaces gauches.  (Note d'<persName>Ampère</persName>.)</note>
+                <note xml:id="corresp9">(9) Mémoires sur
+                    l'electrodynamique, t. I, p. 322.</note>
+                <note xml:id="corresp10">(10) Cette action se réduit à celle de kn sur
                     lq, à cause qu'il ne peut y en avoir entre kn et pl d'après ce qui a été
                     démontré dans l'endroit déjà cité des notes sur l'exposé sommaire lu à la séance
                     publique de l'<orgName>Académie des Sciences</orgName>, le
-                    <date when-iso="04-03">3 avril</date> dernier. » (11) Ibid., p. 327. (12)
+                    <date when-iso="04-03">3 avril</date> dernier.  (Note d'<persName>Ampère</persName>.)</note>
+                <note xml:id="corresp11">(11) Ibid., p. 327.</note>
+                <note xml:id="corresp12">(12)
                     <title>Annales de Chimie et de Physique</title>, t. 20, p. 398, et
                     <title>Mémoires sur
                     l'Électrodynamique</title>, t. I, p.
-                    270. (13) « Si, après avoir changé le sens du courant dans l'un des fils on le
+                    270.</note>
+                <note resp="#AMA" xml:id="corresp13">(13) <pb n="32" facs="#ACAS_CRHST_AMP_09_182_0032_r.jpg"/> Si, après avoir changé le sens du courant dans l'un des fils on le
                     change aussi dans l'autre, la répulsion qui, par le premier changement, avait
                     pris la place de l'attraction sera, par la même raison, remplacée à son tour par
                     l'attraction, en sorte que l'action redeviendra telle qu'elle était d'abord. On
@@ -923,25 +970,27 @@
                     répulsive quand on le change aussi pour l'autre. Or, toutes les fois que deux
                     portions d'un même circuit, l'une fixe et l'autre mobile, agissent l'une sur
                     l'autre, on change à la fois le sens du courant dans tous les deux quand on fait
-                    communiquer par [sic] chaque extrémité du circuit avec celle de la pile qui
+                    communiquer par chaque extrémité du circuit avec celle de la pile qui
                     communiquait auparavant avec l'autre extrémité du même circuit ; ce double
-                    changement n'en produit aucun, d'après ce que je viens de dire, [sur] l'action
+                    changement n'en produit aucun, d'après ce que je viens de dire, <supplied>sur </supplied>l'action
                     mutuelle des deux parties et le mouvement de la partie mobile reste par
                     conséquent le même ; ce qu'on observe en effet constamment. Mais cette remarque
-                    si simple devient très importante pour distinguer sur-le-champ les mouvements
-                    produits [sur] le conducteur mobile par l'action des parties fixes du circuit,
+                    si simple devient très importante<pb n="33" facs="#ACAS_CRHST_AMP_09_182_0033_v.jpg"/> pour distinguer sur-le-champ les mouvements
+                    produits <supplied>sur</supplied> le conducteur mobile par l'action des parties fixes du circuit,
                     des mouvements qui pourraient lui être imprimés par la pile elle-même, le globe
                     terrestre ou un aimant. Il suffit pour cela de renverser ces communications
                     entre les deux extrémités du circuit et celles de la pile : les mouvements dus à
                     l'action des diverses parties de ce circuit restent les mêmes et ceux qui
                     seraient produits par l'action de la pile, de la terre ou d'un aimant ont à
-                    l'instant lieu en sens contraire. « (Note d'<persName>Ampère</persName>.) (14) «
+                    l'instant lieu en sens contraire. (Note d'<persName>Ampère</persName>.)</note>
+                <note resp="#AMA" xml:id="corresp14">(14)
                     J'ai vu tourner le conducteur mobile de cette expérience très rapidement par la
                     seule action terrestre dans une expérience faite il y a quelques jours, en
                     employant une pile de douze paires chacun d'un pied carré et le conducteur
-                    mobile à couronne dans lequel j'ai supprimé les branches verticales. " (Note
-                    d'<persName>Ampère</persName>.) (15) Mémoire sur l'Électrodynamique, p. 319.
-                    (16) Planche reproduite en fac-similé dans les Mémoires sur l'Électrodynamique,
+                    mobile à couronne dans lequel j'ai supprimé les branches verticales. (Note
+                    d'<persName>Ampère</persName>.)</note>
+                <note xml:id="corresp15">(15) Mémoire sur l'Électrodynamique, p. 319.</note>
+                <note xml:id="corresp16"> (16) Planche reproduite en fac-similé dans les Mémoires sur l'Électrodynamique,
                     tome 2. </note>
             </div>
         </back>

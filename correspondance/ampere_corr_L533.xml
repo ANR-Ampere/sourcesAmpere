@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -76,7 +77,7 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct xml:id="ampere_corr_L1816-07-06-a">
-                    <monogr xmlns="">
+                    <monogr>
                         <author>
                             <surname>De Launay</surname>
                             <forename>Louis</forename>
@@ -97,12 +98,12 @@
                     <witness xml:id="L533manuscrit">
             <msDesc type="original_manuscrit">
                             <msIdentifier>
-                                <country xmlns="">France</country>
-                                <settlement xmlns="">Paris</settlement>
-                                <institution xmlns="">Archives de l'Académie des
+                                <country>France</country>
+                                <settlement>Paris</settlement>
+                                <institution>Archives de l'Académie des
                                     sciences</institution>
-                                <repository xmlns="">Fonds André-Marie Ampère</repository>
-                                <idno xmlns="">chemise 379</idno>
+                                <repository>Fonds André-Marie Ampère</repository>
+                                <idno>chemise 379</idno>
                             </msIdentifier>
                         </msDesc>
           </witness>
@@ -137,7 +138,7 @@
           <persName type="adressee">Ampère,
                                 André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -158,40 +159,49 @@
     <text type="correspondance" decls="#ampere_corr_L1816-07-06-a">
         <body>
             <div>
-                <opener>
+                <opener><pb n="447" facs="#ACAS_CRHST_AMP_25_379_0447_r.jpg"/><placeName>Paris</placeName>
           <date when="1816-07-06">[Samedi] 6 juillet [1816]</date>
         </opener>
                 <p>
-          <gap xmlns="" reason="lacune_CGA"/> J'irai demain voir ma tante <supplied>
-            <persName>[Carron]</persName>
-          </supplied>, qui va
-                    me pousser dans le sens du commerce. Quant à moi..., j'attends. J'ai arrangé
-                    quelques-unes de mes substances azotées, gluten, ferment, mucus, caséine, etc...
-                    J'ai été voir M. <persName>Chevreul</persName> à son laboratoire.<gap xmlns="" reason="lacune_CGA"/>
+          <gap reason="lacune_CGA"/> J'irai demain voir ma tante , qui va
+                    me pousser dans le sens du commerce. Quant à moi..., j'attends.</p>
+                <p>J'ai arrangé
+                    quelques-unes de mes substances azotées, gluten, ferment, mucus, caséine, etc<gap reason="lacune_CGA"/><pb n="448" facs="#ACAS_CRHST_AMP_25_379_0448_v.jpg"/>
+                    J'ai été voir M. <persName>Chevreul</persName> à son laboratoire.<gap reason="lacune_CGA"/><pb n="449" facs="#ACAS_CRHST_AMP_25_379_0449_r.jpg"/>
                     Je profite du cours de MM. <persName>Mirbel</persName> et <persName>Laugier</persName> pour m'exercer à la tachygraphie
-                        <gap xmlns="" reason="lacune_CGA"/>
-                    <note xmlns="">Voir folios 1 à 4 du fac-similé du manuscrit</note>
-          <date when="1816-07-11"> 11 juillet
-                    1816</date> - Depuis hier au soir que j'ai reçu ta lettre, je suis dans des transports
-                    de joie inexprimables... Grâce au ciel, tu m'as compris comme je le désirais.
-                        <gap xmlns="" reason="lacune_CGA"/> Je vais rassembler tous mes matériaux
+                        <gap reason="lacune_CGA"/></p>
+                <closer><pb n="450" facs="#ACAS_CRHST_AMP_25_379_0450_v.jpg"/>A monsieur le proviseur du <orgName>Collège royal de <placeName>Toulouse</placeName></orgName> pour remettre s'il lui plaît à M. <persName>Ampère</persName>, inspecteur général de l'<orgName>Université</orgName> <placeName>Toulouse</placeName> et à <placeName>Cahors</placeName> </closer>
+            </div>
+            
+            <div>
+                <opener><pb n="451" facs="#ACAS_CRHST_AMP_25_379_0451_r.jpg"/><placeName>Paris</placeName> du 
+                    
+                    <date when="1816-07-11"> 11 juillet
+                        1816</date></opener>
+                <p>
+                    Depuis hier au soir que j'ai reçu ta lettre, je suis dans des transports
+                    de joie inexprimables <gap reason="lacune_CGA"/> Grâce au ciel, tu m'as compris comme je le désirais.
+                        <gap reason="lacune_CGA"/> Je vais rassembler tous mes matériaux
                     sur mon petit travail chimique. J'ai pensé qu'il était convenable d'en faire une
-                    lettre que j'adresserai à M. <persName>Chevreul</persName>. <gap xmlns="" reason="lacune_CGA"/> Tu
+                    lettre que j'adresserai à M. <persName>Chevreul</persName>. <gap reason="lacune_CGA"/></p>
+                <p><pb n="452" facs="#ACAS_CRHST_AMP_25_379_0452_v.jpg"/><gap reason="lacune_CGA"/><pb n="453" facs="ACAS_CRHST_AMP_25_379_0453_r.jpg"/><gap reason="lacune_CGA"/>Tu
                     cherches à me prouver, par l'exemple de savants distingués qui ont autrefois été
                     élèves de l'école, la fausseté de l'assertion de M. <persName>Clément</persName>. Il n'en est pas
                     besoin. La voix publique et le bon sens la démentent assez formellement. Ce que
-                    tu me dis du cours de littérature de l'école achève de me transporter. La belle
-                    union que celle des sciences et des arts ! <note xmlns="">Voir folios 5 à 8 du
-                        fac-similé du manuscrit </note> <date when="1816-07-20">20 juillet 1816 </date>- <gap xmlns="" reason="lacune_CGA"/> Plus je vais, plus je sens combien j'aurais mal fait
+                    tu me dis du cours de littérature de l'école<pb n="454" facs="#ACAS_CRHST_AMP_25_379_0454_v.jpg"/> achève de me transporter. La belle
+                    union que celle des sciences et des arts !<gap reason="lacune_CGA"/> </p>
+            <closer>A monsieur le recteur de l'<orgName>Université de <placeName>Toulouse</placeName></orgName> pour remettre s'il lui plaît à monsieur <persName>Ampère</persName> inspecteur général de l'<orgName>Université</orgName>, <placeName>Toulouse</placeName></closer></div>
+            <div>
+                <opener><pb n="455" facs="#ACAS_CRHST_AMP_25_379_0455_r.jpg"/><placeName>Paris</placeName> ce <date when="1816-07-20">samedi 20 juillet 1816 </date></opener>
+                <p><gap reason="lacune_CGA"/> Plus je vais, plus je sens combien j'aurais mal fait
                     d'embrasser la carrière commerciale. Cette idée me mettait dans une position
-                    contrainte ; mon humeur s'en ressentait... Je suis bien décidé à entrer à
-                    l'école si l'école est à peu de chose près ce qu'elle est. <gap xmlns="" reason="lacune_CGA"/> On dit qu'elle va être réorganisée incessamment. <gap xmlns="" reason="lacune_CGA"/> J'ai du goût pour les sciences et les lettres
-                    à peu près également, ce qui est rare. <gap xmlns="" reason="lacune_CGA"/> J'ai
+                    contrainte ; mon humeur s'en ressentait.<gap reason="lacune_CGA"/><pb n="456" facs="#ACAS_CRHST_AMP_25_379_0456_v.jpg"/> Je suis bien décidé à entrer à
+                    l'école si l'école est à peu de chose près ce qu'elle est. <gap reason="lacune_CGA"/> On dit qu'elle va être réorganisée incessamment. <gap reason="lacune_CGA"/> J'ai du goût pour les sciences et les lettres
+                    à peu près également, ce qui est rare. <gap reason="lacune_CGA"/> J'ai
                     fait une analyse pour M. <persName>Clément</persName>. J'ai arrangé les substances hydrogénées
-                    d'après leur solubilité dans l'eau et l'alcool. <note xmlns="">Voir folios 9 à
-                        12 du fac-similé du manuscrit</note>
+                    d'après leur solubilité dans l'eau et l'alcool.<pb n="457" facs="#ACAS_CRHST_AMP_25_379_0457_r.jpg"/><gap reason="lacune_CGA"/> 
         </p>
-                <closer>En tournée à <placeName>Toulouse</placeName> et à <placeName>Cahors</placeName> </closer>
+                <closer><pb n="458" facs="#ACAS_CRHST_AMP_25_379_0458_v.jpg"/>A monsieur le proviseur du <orgName>Collège royal de <placeName>Cahors</placeName></orgName> pour remettre à monsieur <persName>Ampère</persName> inspecteur général de l'<orgName>Université</orgName>, <placeName>Cahors</placeName></closer>
             </div>
         </body>
         <back>

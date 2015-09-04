@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1823-06-11-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,7 +100,7 @@
                <witness xml:id="L639manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <repository xmlns="">Collection Alfred Cornu [note de Louis DE
+                        <repository>Collection Alfred Cornu [note de Louis DE
                            LAUNAY]</repository>
                      </msIdentifier>
                      <physDesc>
@@ -137,7 +138,7 @@
         <correspAction type="received">
           <persName type="adressee">Savary, Félix</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,16 +162,18 @@
             <opener>
           <date when="1823-06-11">11 juin 1823</date>
         </opener>
-            <p>Monsieur et très cher ami, j'ai mille pardons à vous demander de la lettre que je
+            <opener>Monsieur et très cher ami, </opener>
+            <p>j'ai mille pardons à vous demander de la lettre que je
                vous ai écrite ce matin, je ne saurais comprendre à présent ce qui m'a empêché de
-               voir ce matin que la valeur de M, [formule voir fac-similé] pouvait s'écrire ainsi
-               [formule voir fac-similé] qui est nulle en vertu de l'intégration dont vous avez fait
+               voir ce matin que la valeur de M, <gap reason="lacune_CGA"/> pouvait s'écrire ainsi
+               <gap reason="lacune_CGA"/> qui est nulle en vertu de l'intégration dont vous avez fait
                usage en tant d'autres endroits de votre Mémoire, je ne l'ai compris tout à coup
                qu'en y revenant pour la troisième fois, plusieurs heures après que ma lettre était
                partie, j'avoue que l'erreur que j'avais commise d'abord, en voulant vérifier ce
                résultat, m'avait tellement troublé, en me mettant dans la situation de ne savoir que
                faire relativement à l'impression qui presse beaucoup, que j'étais devenu incapable
-               de plus rien saisir en fait de calcul. Pour que la même difficulté n'arrête aucun de
+               de plus rien saisir en fait de calcul.</p>
+            <p>Pour que la même difficulté n'arrête aucun de
                vos lecteurs, j'ajouterai une ligne dans cet endroit de votre Mémoire pour indiquer
                que c'est la transformation en question qui donne M = 0. Je serai ensuite obligé de
                mettre le bon à tirer, car c'est dans le numéro de février du Journal de physique qui
@@ -182,11 +185,14 @@
                avoir raison sur ce point-là, mais après ce qui vient de m'arriver, je dois apprendre
                à me défier de moi. Je vous en fais juge et je suis moins inquiet de m'être avisé de
                faire cette correction, parce que, si je ne me trompe, ce que j'ai substitué au moyen
-               dont je doutais, ne peut être sujet à aucune difficulté. J'ai vu hier le
+               dont je doutais, ne peut être sujet à aucune difficulté.</p>
+            <p>J'ai vu hier le
                vice-président de l'<orgName>Académie des Sciences</orgName> qui m'a dit que tout en était toujours là,
-               et relativement à M. <persName>Mathieu </persName>et relativement à M. <persName>Damoiseau</persName>. Adieu, cher et excellent
+               et relativement à M. <persName>Mathieu </persName>et relativement à M. <persName>Damoiseau</persName>.</p>
+            <p>Adieu, cher et excellent
                ami, conservez-moi votre amitié, la mienne le mérite et vous savez bien qu'il ne peut
-               y en avoir de plus vive que celle que vous a vouée pour la vie. <persName>A. Ampère</persName>
+               y en avoir de plus vive que celle que vous a vouée pour la vie.<lb/>
+               <persName>A. Ampère</persName>
         </p>
             <closer>A Monsieur <persName>Savary</persName>, ingénieur géographe, à <placeName>Provins</placeName>, département de
                <placeName>Seine-et-Marne</placeName>.</closer>

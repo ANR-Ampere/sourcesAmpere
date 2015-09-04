@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -79,7 +80,7 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct xml:id="ampere_corr_L1823-09-00-a">
-                    <monogr xmlns="">
+                    <monogr>
                         <author>
                             <surname>De Launay</surname>
                             <forename>Louis</forename>
@@ -100,11 +101,11 @@
                     <witness xml:id="L642manuscrit">
             <msDesc type="original_manuscrit">
                             <msIdentifier>
-                                <country xmlns="">France</country>
-                                <settlement xmlns="">Paris</settlement>
-                                <institution xmlns="">Archives de l'Académie des
+                                <country>France</country>
+                                <settlement>Paris</settlement>
+                                <institution>Archives de l'Académie des
                                     sciences</institution>
-                                <repository xmlns="">Fonds André-Marie Ampère [note de Louis DE
+                                <repository>Fonds André-Marie Ampère [note de Louis DE
                                     LAUNAY]</repository>
                             </msIdentifier>
                         </msDesc>
@@ -138,10 +139,7 @@
         <correspAction type="received">
           <persName type="adressee">Dauphin le, Louis-Antoine (fils de Charles
                                 X)</persName>
-        </correspAction>
-        <note type="noteDelaunay">
-          <ref target="#corresp1">(1)</ref>
-        </note>
+        </correspAction>      
       </correspDesc>
             <creation>
         <date when="2014-07">juillet 2014</date>
@@ -161,10 +159,10 @@
         <body>
             <div>
                 <opener>
-          <date when="1823-09">[Septembre 1823]</date>
+          <date when-iso="1823-09-00">[Septembre 1823]</date>
         </opener>
                 <p>Mon oncle, M. <persName>Sarcey de Sutières </persName>
-          <ref>(1)</ref> qui a été, pendant 27 ans, officier dans les
+          <ref target="#corresp1">(1)</ref> qui a été, pendant 27 ans, officier dans les
                     armées de Leurs Majestés les Rois <persName>Louis XV</persName> et <persName>Louis XVI</persName>, qui, après s'être
                     retiré de service, a été, avant les troubles révolutionnaires qui ont déchiré la
                     <placeName>France</placeName>, attaché à la maison de Monsieur, Comte de <placeName>Provence</placeName>, aujourd'hui notre
@@ -176,14 +174,15 @@
                     dédaigné de les dissimuler devant les tyrans de la <placeName>France</placeName>, il y a langui
                     longtemps et n'en est sorti que pour se voir privé de la fortune de son père et
                     de l'espoir d'être placé convenablement à sa position et aux connaissances par
-                    lesquelles il pouvait être utile à l'état. J'avais éprouvé de plus grands
+                    lesquelles il pouvait être utile à l'état.</p>
+                <p>J'avais éprouvé de plus grands
                     malheurs encore et mon père était tombé sous le fer des Jacobins à la suite du
                     siège de la ville de <placeName>Lyon</placeName>, sa patrie. Mais j'ai évité, par quelques
                     circonstances favorables, les persécutions qui ont pesé sur M. <persName>Sarcey de
                     Sutières</persName>, mon cousin germain. C'est pour lui seul que j'ose aujourd'hui implorer
                     les bontés de votre Altesse Royale en la suppliant de lui accorder une place,
                     soit dans les bureaux des Ministères comme sous-chef ou commis d'ordre, soit
-                    dans l'<orgName>administration des Eaux et Forêts</orgName> <gap xmlns="" reason="lacune_CGA"/>
+                    dans l'<orgName>administration des Eaux et Forêts</orgName> <gap reason="lacune_CGA"/>
         </p>
             </div>
         </body>

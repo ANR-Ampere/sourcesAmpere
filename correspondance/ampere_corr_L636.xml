@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1823-02-10-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,10 +100,10 @@
                <witness xml:id="L636manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">Suisse</country>
-                        <settlement xmlns="">Genève</settlement>
-                        <institution xmlns="">Bibliothèque de Genève</institution>
-                        <idno xmlns="">Ms 2314.</idno>
+                        <country>Suisse</country>
+                        <settlement>Genève</settlement>
+                        <institution>Bibliothèque de Genève</institution>
+                        <idno>Ms 2314.</idno>
                      </msIdentifier>
                   </msDesc>
           </witness>
@@ -135,7 +136,7 @@
         <correspAction type="received">
           <persName type="adressee">La Rive, Auguste de</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -156,21 +157,23 @@
    <text type="correspondance" decls="#ampere_corr_L1823-02-10-a">
       <body>
          <div>
-            <opener>
+            <opener><placeName>¨Paris</placeName>
           <date when="1823-02-10">10 février 1823</date>
         </opener>
-            <p>Monsieur et très cher ami, Je vous ai annoncé il y a une huitaine les résultats si
+            <opener>Monsieur et très cher ami,</opener>
+            <p> Je vous ai annoncé il y a une huitaine les résultats si
                remarquables obtenus par <persName>Savary</persName> et de <persName>
             <choice>
-              <sic>Monferrand</sic> <corr>[Demonferrand]</corr>
+              <sic>Monferrand</sic> <corr>Demonferrand</corr>
             </choice>
           </persName> : le premier
-               appliquant la formule [formule voir fac-similé] au calcul de l'action qui a lieu,
+               appliquant la formule au calcul de l'action qui a lieu,
                soit entre un fil conducteur rectiligne et indéfini, soit entre le globe terrestre et
                un aimant, soit entre deux aimants, en considérant ceux-ci comme des assemblages de
                courants électriques tournant autour de chacune de leurs particules ; le second en se
-               bornant à appliquer la même formule au cas où l'action [s'exerce] entre le conducteur
-               rectiligne et un aimant. Je vous enverrai dans quelques jours, dès qu'il sera tiré,
+               bornant à appliquer la même formule au cas où l'action s'exerce entre le conducteur
+               rectiligne et un aimant.</p>
+            <p>Je vous enverrai dans quelques jours, dès qu'il sera tiré,
                un exposé méthodique des phénomènes électro-dynamiques et des lois de ces phénomènes
                plus complet que celui que j'ai envoyé et contenant le précis des travaux de ces deux
                physiciens. Je viens de rédiger la partie nouvelle de cet exposé méthodique. J'ai
@@ -181,13 +184,14 @@
                maintenant je voudrais qu'il fût encore temps de mettre les n° 343, 344, 345, etc.
                aux pages des 300 exemplaires de l'article de la <title>Bibliothèque universelle</title> qui sont
                destinées pour mon Recueil au lieu des nos 337, 339, etc. que je vous avais d'abord
-               demandés et que je vous avais ensuite prié, s'il en était encore temps, [de changer]
+               demandés et que je vous avais ensuite prié, s'il en était encore temps, de changer
                en 339, 341, etc. Si cela ne se peut pas, le seul inconvénient c'est que ces pages de
                mon Recueil seront mal numérotées : car, pressé par le désir de publier du moins un
-               précis des résultats obtenus par MM. <persName>Savary</persName> et <persName>Monferrand [Demonferrand]</persName>, résultats
+               précis des résultats obtenus par MM. <persName>Savary</persName> et <persName><choice><choice><sic>Monferrand</sic> <corr>Demonferrand</corr></choice></choice></persName>, résultats
                qui me paraissent une vraie démonstration de ma théorie, je viens de mettre le bon à
                tirer aux dernières pages du nouvel exposé méthodique dont la dernière porte le n°
-               342. Je serais bien heureux si cette lettre vous arrive assez à temps pour que les
+               342.</p>
+            <p>Je serais bien heureux si cette lettre vous arrive assez à temps pour que les
                pages suivantes soient numérotées 343, 344, etc. ; mais quoi qu'il en soit, je serai
                satisfait si ce que vous m'avez annoncé devoir paraître dans la <title>Bibliothèque
                universelle</title> y paraît en effet. Je l'ai cherché inutilement dans le numéro de
@@ -195,16 +199,17 @@
                le font souhaiter. Je me souviens entre autres d'un morceau sur la loi de M. <persName>Faraday</persName>
                que je voudrais surtout voir imprimé avec la date à laquelle je l'ai écrit. Combien
                je vous devrai à ce sujet de reconnaissance ainsi qu'à M. <persName>Pictet</persName> auquel je vous prie
-               d'en [faire] tous mes remerciements ! Je désirerais recevoir, avec les 300
+               d'en faire tous mes remerciements ! Je désirerais recevoir, avec les 300
                exemplaires, la note de ce que je devrai tant pour eux que pour les 300 exemplaires
-               de votre mémoire que j'ai reçus dans le temps. D'après ce que vous m'avez [dit] à
-               Genève, j'espère que vous viendrez à <placeName>Paris</placeName> au printemps prochain, et que vous ne me
+               de votre mémoire que j'ai reçus dans le temps.</p>
+            <p>D'après ce que vous m'avez dit à
+               <placeName>Genève</placeName>, j'espère que vous viendrez à <placeName>Paris</placeName> au printemps prochain, et que vous ne me
                refuserez pas d'accepter chez moi le logement qui y est préparé pour vous. Que de
                choses à vous communiquer si j'ai le bonheur que vous demeuriez chez moi, comme,
                pendant huit jours bienheureux pour moi, j'ai demeuré chez Monsieur votre père ! Je
                n'oublierai jamais toutes les bontés dont il m'a comblé. Je vous prie de lui en
                réitérer tous mes remerciements et de lui offrir l'hommage de ma reconnaissance et de
-               mon profond respect à Madame votre mère. Votre sincère ami et dévoué serviteur, <persName>A.
+               mon profond respect à Madame votre mère. Votre sincère ami et dévoué serviteur,<lb/> <persName>A.
                Ampère</persName>.</p>
             <closer>A Monsieur <persName>Auguste de La Rive</persName>, en son absence à Monsieur <persName>de La Rive</persName>, professeur
                de chimie à l'<orgName>Académie</orgName>, <placeName>rue de l'Hôtel-de-Ville</placeName>, à <placeName>Genève</placeName>, Confédération

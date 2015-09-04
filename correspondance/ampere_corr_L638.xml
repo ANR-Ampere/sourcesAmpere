@@ -1,4 +1,5 @@
-<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -146,7 +147,7 @@
         <correspAction type="received">
           <persName type="adressee">Faraday, Michael</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -166,7 +167,7 @@
     <text type="correspondance" decls="#ampere_corr_L1823-04-18-a">
         <body>
             <div>
-                <opener>
+                <opener><placeName>Paris</placeName>
                     <date when="1823-04-18">18 avril 1823</date>
                 </opener>
                 <p>Monsieur, Depuis qu'au retour du voyage que j'ai fait l'année dernière, j'ai reçu
@@ -179,7 +180,7 @@
                     <persName>Savary</persName> et de
                     <persName>
             <choice>
-              <sic>Monferrand</sic> <corr>[Demonferrand]</corr>
+              <sic>Monferrand</sic> <corr>Demonferrand</corr>
             </choice>
           </persName>
                     en calculant l'action mutuelle d'un aimant et d'un conducteur ou de deux
@@ -189,21 +190,26 @@
                     temps nécessaire pour la développer complètement, je me bornerai dans cette
                     lettre à en déduire trois conséquences que l'expérience vérifie, mais qui
                     peuvent paraître, au premier coup d’œil, des objections contre cette théorie,
-                    quoiqu'elles en soient réellement de nouvelles preuves. La première est le
+                    quoiqu'elles en soient réellement de nouvelles preuves.</p>
+                <p>La première est le
                     résultat très curieux que vous avez obtenu et que m'a communiqué M.
                     <persName>Hachette</persName>, relativement à la rotation d'un aimant flottant
-                    dans du mercure. Si j'ai bien conçu cette intéressante expérience, un fil
-                    conducteur MON (fig. 1), plié en fer à cheval et mobile autour de la verticale
+                    dans du mercure.</p>
+                <p> Si j'ai bien conçu cette intéressante expérience, un fil
+                    conducteur LOM (fig. 1), plié en fer à cheval et mobile autour de la verticale
                     KO, communique par son milieu avec une des extrémités de la pile, que je
                     supposerai l'extrémité positive pour fixer les idées ; il plonge en MN dans le
-                    mercure que contient le vase CDEF <ref>(2)</ref>. Dans la même verticale KO se
-                    trouve l'axe d'un aimant flottant AB. Voyons d'abord ce qui doit arriver d'après
+                    mercure que contient le vase CDEF <ref>(2)</ref>. Dans la même verticale KO communique par son milieu avec une des extrémités de la pile que je supposerai l'extrémité positive pour fixer les idées, il plonge en MN dans le mercure que contient
+                     le vase CDEF, dans la même verticale KO se
+                    trouve l'axe d'un aimant flottant AB.</p>
+                <p>Voyons d'abord ce qui doit arriver d'après
                     ma théorie ! Le courant électrique des branches OM, ON, allant en s'approchant
                     de l'aimant, doit, d'après ce que vous pouvez voir dans les différents endroits
                     de mon recueil où il est question des mouvements de, rotation continue, tourner
                     en sens contraire des courants que j'admets dans l'aimant, par un mouvement
                     rétrograde, et la réaction égale à l'action tend à faire tourner l'aimant dans
-                    le sens opposé, c'est-à-dire dans le sens même des courants de l'aimant.
+                    le sens opposé, c'est-à-dire dans le sens même des courants de l'aimant.</p>
+                <p>
                     L'électricité positive, arrivée au point M, N, produit, dans le mercure que je
                     suppose en communication avec l'extrémité négative de la pile, des courants
                     électriques qui vont en s'éloignant de l'aimant : en sorte que le mercure tend à
@@ -212,19 +218,22 @@
                     l'aimant et que ce dernier tend à tourner en sens contraire par la réaction
                     correspondante à l'action qu'il exerce sur le mercure. Celles qui ont lieu entre
                     les courants électriques du fer à cheval et ceux du mercure ne peuvent
-                    d'ailleurs produire aucun effet, parce que leur restante [sic] est dans le plan
+                    d'ailleurs produire aucun effet, parce que leur restante  est dans le plan
                     vertical qui passe par l'axe de rotation KO, quand on suppose, comme je le fais
-                    ici, tout symétrique des deux côtés de cet axe. Ainsi il y a, dans cette
+                    ici, tout symétrique des deux côtés de cet axe.</p>
+                <p>Ainsi il y a, dans cette
                     expérience, quatre tendances des différents corps qu'on y considère, à tourner
                     autour de KO. Celle du fer à cheval sera dans un sens, celle du mercure dans
                     l'autre, et l'aimant en a deux en sens opposés, pour lesquelles le calcul donne
                     des valeurs égales lorsque le vase où est le mercure est assez grand pour qu'on
-                    puisse considérer les courants comme indéfinis. L'aimant ne tournera donc pas,
+                    puisse considérer les courants comme indéfinis.</p>
+                <p>L'aimant ne tournera donc pas,
                     le fer à cheval tournera très sensiblement dans le sens opposé au courant de
                     l'aimant, parce qu'il a peu de masse, et le mercure tendra à tourner dans le
                     sens des mêmes courants, mais beaucoup plus lentement à cause de sa masse bien
                     plus grande. Il se pourra même que les frottements suffisent pour empêcher ce
-                    mouvement. Si maintenant on vient à lier ensemble l'aimant et le fer à cheval,
+                    mouvement.</p>
+                <p>Si maintenant on vient à lier ensemble l'aimant et le fer à cheval,
                     leur action mutuelle ne pourra plus rien produire, puisque, la réaction étant
                     toujours égale et opposée à l'action, l'action mutuelle des diverses parties
                     d'un système solide ne peut tendre à le mouvoir en aucune manière ; mais la
@@ -241,7 +250,8 @@
                     tourner autour de son axe au mois de
                     <date when-iso="1821-12">décembre 1821</date>, et que je vous ai écrit dans le
                     temps. Ces phénomènes qu'annonce d'avance ma théorie ne sont-ils pas précisément
-                    ceux que vous avez observés ? La seconde conséquence de cette théorie, sur
+                    ceux que vous avez observés ?</p>
+                <p>La seconde conséquence de cette théorie, sur
                     laquelle je n'aurai que peu de choses à vous dire, parce que c'est un des
                     résultats des calculs de M. <persName>Savary</persName> qui seront bientôt
                     publiés, consiste dans ce qu'un aimant dont un des pôles est dans l'axe du fer à
@@ -259,7 +269,8 @@
                     encore pu trouver le temps d'écrire à M. <persName>Barlow</persName> pour le
                     remercier de l'envoi qu'il m'a fait de son livre, et lui expliquer comment le
                     fait en question est une conséquence nécessaire de ma théorie, loin d'être une
-                    objection contre elle. La troisième conséquence est relative à la manière dont
+                    objection contre elle.</p>
+                <p>La troisième conséquence est relative à la manière dont
                     un fil de fer ou plutôt d'acier AB (fig. 2), roulé en hélice, doit s'aimanter
                     par l'action d'un courant CD qui parcourt un conducteur rectiligne indéfini CD.
                     D'après ma manière d'expliquer les phénomènes que présentent les aimants, si
@@ -276,7 +287,7 @@
                     propriétés d'un pôle austral d'un aimant et, en Q, Q', Q", etc., une suite de
                     points conséquents ayant les propriétés d'un pôle boréal, tandis que, si le
                     conducteur passait dans l'intérieur de l'hélice de fil d'acier, tous les points
-                    de ce fil devraient être aimantés dans [Fig. 2 voir fac-similé] le même sens,
+                    de ce fil devraient être aimantés dans le même sens,
                     sans point conséquent, et avec un pôle austral en A et un pôle boréal en B. Dans
                     ce dernier cas il n'y a de pôles qu'aux extrémités de l'hélice en fil de fer, et
                     cependant elle présente des propriétés différentes de celle des aimants qui
@@ -298,10 +309,11 @@
                     agir les uns sur les autres les conducteurs voltaïques rectilignes ou
                     circulaires, les aimants ou les hélices formées avec ces conducteurs et enfin
                     les hélices de fils d'acier aimanté par un conducteur voltaïque placé : <list>
-                        <item n="1"> au dedans de ces hélices ;</item>
+                        <item n="1"> au dedans de ces hélices ;</item><lb/>
                         <item n="2"> au dehors des mêmes hélices, pour qu'il ne restât plus de doute
-                            sur sa conformité avec l'état réel des choses.</item>
-                    </list> Vous me disiez avec raison, Monsieur, dans votre dernière lettre, que
+                            sur sa conformité avec l'état réel des choses.</item><lb/>
+                    </list></p>
+                <p>Vous me disiez avec raison, Monsieur, dans votre dernière lettre, que
                     d'autres physiciens avaient proposé des théories différentes de la mienne,
                     qu'ils avaient annoncées comme devant rendre raison non seulement des phénomènes
                     déjà découverts, mais de ceux qu'on devait découvrir par la suite, et que, cette
@@ -322,7 +334,8 @@
                         <placeName>Rome</placeName> :<cit xml:lang="lat">
                         <quote> Opinionum commenta delet dies, naturae judicia confirmat</quote>
                     </cit>
-                    <ref>(3)</ref>. M. <persName>Seebeck</persName> vient de produire le courant
+                    <ref target="#corresp3">(3)</ref>.</p>
+                <p>M. <persName>Seebeck</persName> vient de produire le courant
                     électrique par l'influence de la différence de température des points de contact
                     entre deux sortes de métaux dont on forme un circuit fermé. M.
                     <persName>Œrsted</persName>, qui est actuellement à
@@ -330,7 +343,7 @@
                     <orgName>Académie</orgName> des expériences où il a agrandi considérablement le
                     domaine de ces expériences en multipliant le nombre des contacts entre
                     l'antimoine et le bismuth et les alternatives de chaud et de froid dans ces
-                    contacts <ref>(4)</ref>. Il a trouvé que, dans cette pile qu'il a nommée
+                    contacts <ref target="#corresp4">(4)</ref>. Il a trouvé que, dans cette pile qu'il a nommée
                     thermoélectrique, la tension était extrêmement faible, en sorte que le courant
                     ne s'établissait qu'à cause de cette faiblesse de la tension électrique produite
                     par ce moyen, on n'observait aucune élévation de température dans les fils
@@ -362,18 +375,19 @@
                             action électromotrice, dans le même rapport où la longueur du circuit
                             diminue, et que la longueur des circuits que j'admets autour de chaque
                             particule d'un aimant, ne peut être qu'extrêmement petite.</item>
-                    </list> Voilà, Monsieur, les observations que je vous soumets à la hâte, partagé
+                    </list></p>
+                <p>Voilà, Monsieur, les observations que je vous soumets à la hâte, partagé
                     que je suis entre une foule d'occupations obligées, qui ne me laissent pas le
                     temps de m'occuper comme je le voudrais, de cette nouvelle branche de physique à
                     laquelle je voudrais pouvoir donner tout mon temps. Elle vous doit la découverte
                     du plus singulier de tous les phénomènes dont elle se compose. Elle en attend
                     bien d'autres de votre part, qui finiront sans doute par faire adopter
-                    généralement une théorie en faveur d'une théorie [sic] qui réunit en sa faveur
+                    généralement une théorie en faveur d'une théorie qui réunit en sa faveur
                     les démonstrations de l'expérience et celle du calcul. Théorie que je ne peux
                     m'attribuer que parce que j'en ai le premier eu l'idée, car elle est une
                     conséquence si naturelle des faits qu'elle n'aurait sans doute pas tardé à être
                     imaginée par d'autres si je ne m'étais pas occupé de ce sujet. J'ai l'honneur
-                    d'être, Monsieur, votre très humble et très obéissant serviteur.
+                    d'être, Monsieur, votre très humble et très obéissant serviteur.<lb/>
                     <persName>A. Ampère</persName>
                 </p>
             </div>
@@ -388,9 +402,12 @@
                     <title>Ann. de Chim. et de Phys.</title>, t. 22, p. 389 ;
                     <title>Recueil d'observ. électr.</title>, p. 365 ;
                     <title>Mém. sur l'Électro-dyn.</title>, t. 2, p. 384 à 394. Cette dernière est
-                    évidemment postérieure. (2) La figure dessinée sur la lettre et exactement
-                    reproduite ici porte par erreur CDDE. (3) <persName>CICÉRON</persName>.
-                    <title>De Natura Deorum</title>, Livre II, Chap. II. (4) Séances des
+                    évidemment postérieure.</note>
+                <note xml:id="corresp2">(2) La figure dessinée sur la lettre et exactement
+                    reproduite ici porte par erreur CDDE.</note>
+                <note xml:id="corresp3">(3) <persName>CICÉRON</persName>.
+                    <title>De Natura Deorum</title>, Livre II, Chap. II.</note>
+                <note xml:id="corresp4">(4) Séances des
                     <date when="1823-03-03">3</date> et <date when="1823-03-31">31 mars 1823</date>. </note>
                 <note resp="CAK_commentaire">Le brouillon est incomplet (manque toute la partie
                     entre : "Voyons d'abord ce qui doit arriver d'après ma théorie !" et :"loin
