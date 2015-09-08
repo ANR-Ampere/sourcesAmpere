@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -143,7 +144,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -201,7 +202,8 @@
           </choice> toi<lb rend="hyphen"/>même. Cela aurait<lb/>
                même des <choice>
             <sic>inconvéniens</sic> <corr>inconvénients</corr>
-          </choice>.<lb/>
+          </choice>.</p>
+            <p>
                Il faut faire tous les<lb/>
                remèdes à la fois. C'est<lb/>
                pourquoi tu donneras<lb/>
@@ -209,7 +211,8 @@
                fois à ton petit en<lb/>
                24 heures jusqu'au<cb/>
                moment de ton départ<lb/>
-               et je l'irai avertir<del> à celui de ton arrivée <ref>(2)</ref>.<lb/>
+               et je l'irai avertir<del> à celui de ton arrivée <ref target="#corresp2">(2)</ref>.<lb/>
+           
                Il ne faut</del> plus penser<lb/>
                à la diligence, la <placeName>Saône</placeName>
           <lb/>
@@ -234,7 +237,7 @@
                et chaud hier. <add>
             <del>en faisant</del>
           </add> Le<lb/>
-               chemin par <placeName>S<ex>ain</ex>t-Cyr</placeName> (3)<pb n="1317" facs="#ACAS_CRHST_AMP_26_393_quarto_0589_v.jpg"/> n'a jamais de boue,<lb/>
+               chemin par <placeName>S<ex>ain</ex>t-Cyr</placeName> <ref target="#corresp3">(3)</ref><pb n="1317" facs="#ACAS_CRHST_AMP_26_393_quarto_0589_v.jpg"/> n'a jamais de boue,<lb/>
                il était hier très sec. <lb/>
                Prends-le,
                je t'en prie,<lb/>
@@ -262,7 +265,8 @@
                <persName ref="#pers_C125">élise</persName> de ne pas oublier<lb/>
                le caillou chaud <del>enveloppé<lb/>
                   de linges dans la voiture.</del>
-          <lb/>
+            </p>
+            <p>
               <del> Je t'envoie un surtout<lb/>
                  de 4 l<ex>ivres</ex> 15 s<ex>ols</ex> acheté par<lb/>
                  <persName ref="#pers_P441">M<ex>ada</ex>me Périsse</persName>. Si tu en<lb/>
@@ -323,7 +327,8 @@
                possible, heureuse et tranquil<supplied>le.</supplied>
           <lb/>
               <del> Adieu, celui qui t'aime te serre dans<lb/>
-                 ses bras, ma <persName ref="#pers_C129">Julie</persName>.</del> <persName ref="#pers_A366">A. AMPÈRE</persName>
+                 ses bras, ma <persName ref="#pers_C129">Julie</persName>.</del><lb/>
+               <persName ref="#pers_A366">A. AMPÈRE</persName>
         </p>
             <closer>A <choice>
             <sic>Madame<lb/> Madame</sic> <corr>Madame</corr>
@@ -336,8 +341,10 @@
       <back>
          <div>
             <note xml:id="corresp1">(1) Huit pages petit in-8° ; adresse au bas de la dernière.
-               Lettre publiée avec des coupures par Mme <persName>Cheuvreux</persName>, p. 153. (2) Pour la consultation
-               toujours retardée et qui, finalement, eut lieu avec un autre docteur. (3)
+               Lettre publiée avec des coupures par Mme <persName>Cheuvreux</persName>, p. 153.</note>
+            <note xml:id="corresp2">(2) Pour la consultation
+               toujours retardée et qui, finalement, eut lieu avec un autre docteur.</note>
+            <note xml:id="corresp3">(3)
                <placeName>Saint-Cyr-au-Mont-d'Or</placeName>, au sud de <placeName>Collonges</placeName>. </note>
          </div>
       </back>

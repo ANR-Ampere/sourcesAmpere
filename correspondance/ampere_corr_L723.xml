@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -75,7 +76,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1828-04-27-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -96,11 +97,11 @@
                <witness xml:id="L723manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 334</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 334</idno>
                      </msIdentifier>
                   </msDesc>
           </witness>
@@ -134,7 +135,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -155,54 +156,62 @@
    <text type="correspondance" decls="#ampere_corr_L1828-04-27-a">
       <body>
          <div>
-            <opener>
-          <date when="1828-04-27">27 avril 1828</date>
+            <opener><pb n="346" facs="#ACAS_CRHST_AMP_24_334_0346_r.jpg"/>
+          <date when="1828-04-27">27 <choice><abbr>4</abbr> <expan>avril</expan></choice> 1828</date>
         </opener>
             <p>Cher ami, ta lettre du <date when="1828-03-27">27 mars dernier</date> m'a fait un bien grand plaisir. Mais quel
                malheur que tu ne puisses pas raccrocher ta place des voyages ! <ref>(1)</ref> Je m'en afflige
                et ne m'en étonne pas plus que s'il s'agissait de moi. Nous n'avons ni bonheur ni
                savoir-faire. Je connais bien des gens qui, dans les mêmes circonstances où tu t'es
                placé, seraient bientôt redevenus inspecteur. Mais nous, nous savons faire des
-               sottises et ne savons pas les réparer.  ; Songe donc au plaisir de se revoir après
+               sottises et ne savons pas les réparer.</p>
+            <p>Songe donc au plaisir de se revoir après
                une séparation de tant d'années ! Songe donc que les probabilités de nous revoir
                pendant l'exil diminuent chaque jour ! Tu as d'ailleurs trop de travail comme
                professeur ! Il importerait à ta santé que la vie active de l'inspecteur fût combinée
-               à la moitié de ta vie de professeur.  ; Du reste tout ce que j'entends de toi est on
-               ne peut plus satisfaisant dans le rapport de la santé, comme sous tous les autres. Je
+               à la moitié de ta vie de professeur.</p>
+            <p>Du reste tout ce que j'entends de toi est on
+               ne peut plus satisfaisant dans le rapport de la santé, comme sous tous les autres.</p>
+            <p>Je
                tenais à voir <persName>Bonjour</persName> avant de te répondre - et le temps s'est écoulé - un mois s'est
-               passé. Je l'ai enfin rencontrée la digne physionomie de ce digne ami porte
+               passé.</p>
+            <p>Je l'ai enfin rencontrée la digne physionomie de ce digne ami porte
                l'empreinte du chagrin. Tu suis les malheurs de <persName>Thévenin</persName> puisque <persName>Bonjour</persName> t'a écris.
                Il me charge de te dire que si tu pouvais intéresser quelqu'un à l'affaire dont il
-               t'a prié, cela vaudrait [mieux] que de faire intervenir la députation lyonnaise. On
+               t'a prié, cela vaudrait<supplied> mieux</supplied> que de faire intervenir la députation lyonnaise. On
                lui a dit que si tu parlais à <persName>Ballanche</persName>, tu pourrais tout obtenir car il pense que
-               notre ami voit qq ministre chez <persName>Mme Récamier</persName>. Je lui ai observé que ce n'est pas
-               aussi facile qu'il le croit. Car j'ai ouï dire qu'un ministre ne se charge pas
+               notre ami voit qq ministre chez <persName>Mme Récamier</persName>.</p>
+            <p>Je lui ai observé que ce n'est pas
+               aussi facile qu'il le croit. Car j'ai ouï dire qu'un ministre ne se charge<pb n="347" facs="#ACAS_CRHST_AMP_24_334_0347_v.jpg"/> pas
                aisément de solliciter des faveurs auprès d'un de ses collègues. Mais je lui ai dit
                qu'il pouvait être bien assuré que vous ferez l'un et l'autre tout ce qui dépendra de
                vous pour l'obliger. Tu n'as pas besoin que je te renouvelle cette affaire, il suffit
                de t'en avoir parlé. Je te dirai seulement que la détresse de cette maison est
-               grande. Qui mieux que moi connaît ton ardeur à servir tes amis.  ; Ce que tu me dis
-               de ton retour vers l'âge de [17] ans ne me fait pas peur. C'est le plus bel âge de la
+               grande. Qui mieux que moi connaît ton ardeur à servir tes amis. Ce que tu me dis
+               de ton retour vers l'âge de 17 ans ne me fait pas peur. C'est le plus bel âge de la
                vie, je ne serais pas fâché de te voir y retourner, non pas toutefois que je croie
                que ce soit, comme on le répète tous, que ce soit l'âge du bonheur. Plus je vais,
                plus j'avance dans la vie et plus je vois qu'il n'y a point d'âge du bonheur, qu'il
-               n'y a point de bonheur, que le bonheur n'est pas de ce monde.  ; Des jouissances plus
+               n'y a point de bonheur, que le bonheur n'est pas de ce monde.</p>
+            <p>Des jouissances plus
                ou moins vives, ou bien au contraire calme et tiédeur. Voilà tout ce que l'homme peut
                espérer ici-bas et je ne saurais admettre que cela constitue un véritable bonheur. Je
-               ne dis au reste cela que d'après mes observations sur les [hommes] qui passent pour
+               ne dis au reste cela que d'après mes observations sur les hommes qui passent pour
                heureux. Quant à moi, ma première enfance a été si triste que j'étais très persuadé
-               que mes maux ne pouvaient que [demeurer] avec l'âge - j'attendais le bonheur - à
+               que mes maux ne pouvaient que demeurer avec l'âge - j'attendais le bonheur - à
                seize ans je commençais à concevoir que je ne serais jamais heureux, mais me disais
                que je ne serais jamais aussi malheureux que je le suis à présent. Quelle erreur !
                L'angoisse est toujours allée en augmentant. Il me semble toujours que je suis
-               parvenu au nec plus ultra. J'ai eu de bien grandes jouissances, mais jamais sans
+               parvenu au nec plus ultra.</p>
+            <p>J'ai eu de bien grandes jouissances, mais jamais sans
                éprouver en même temps des douleurs, tout aussi vives. Je me rappelle dans ces 52 ans
                de vie bien des douleurs que n'accompagnait pas le moindre plaisir, mais je ne me
                rappelle pas un seul moment de plaisir que je ne puisse dire : telle douleur y était
                jointe. C'est ainsi qu'à présent quand j'entends de la musique de Mozart, et je
-               choisis cet exemple parce que la musique, tu le sais, est de toutes les choses du
-               monde celle qui [manque]. Mais mon ami, à quoi bon te répéter ce que tu sais tout
-               aussi bien que moi.  ; La politique est donc la seule chose qui puisse encore
+               choisis cet exemple parce que la musique, tu le sais,<cb/> est de toutes les choses du
+               monde celle qui<supplied> manque</supplied>. Mais mon ami, à quoi bon te répéter ce que tu sais tout
+               aussi bien que moi.</p>
+            <p>La politique est donc la seule chose qui puisse encore
                t'émouvoir ! Si tu m'avais dit cela il y a quelques années, je ne l'aurais pas
                compris. J'aurais trouvé que c'était un malheur. Des expériences mal faites, des
                réflexions appuyées sur des observations isolées m'avaient amené à un dédain qui
@@ -211,20 +220,24 @@
                <persName>Dugas</persName> s'occupassent d'une telle science. Je ne me rappelle pas sans un certain
                sentiment de honte la lettre que je t'écrivais il y a une vingtaine d'années pour te
                ramener au catholicisme romain et sans admirer ta patience. L'ami <persName>Roux</persName> t'a fait un
-               triste cadeau quand il m'a mené déjeuner chez toi au <orgName>Lycée</orgName> ! J'espère que la santé de
+               triste cadeau quand il m'a mené déjeuner chez toi au <orgName>Lycée</orgName> !</p>
+            <p>J'espère que la santé de
                ton gendre se rétablira complètement. Je compte plus sur l'exercice que sur tout le
-               reste. J'y compterais plus encore si on savait - [varier] le grand remède universel,
-               [ou/du] [prenant] la promenade à pied, à cheval, la voiture, on a toujours une même
+               reste. J'y compterais plus encore si on savait varier le grand remède universel,
+               Ou prenant la promenade à pied, à cheval, la voiture, on a toujours une même
                action. Je dois aux exercices de gymnopédie d'avoir une santé bien meilleure
                qu'autrefois, elle serait bien plus mauvaise sans cela. J'éloigne une hémiplégie qui
                depuis l'âge de 7 ans cherche à s'établir en moi. A cette époque on avait désespéré
-               de moi. M. <persName>[Willermoz]</persName> arrive de <placeName>Montpellier</placeName> et m'ordonne des courses [des] bains
+               de moi. M. <persName>Willermoz</persName> arrive de <placeName>Montpellier</placeName> et m'ordonne des courses des bains
                froids. J'ai négligé ces grands moyens et je m'en allais quand un article de la
                Décade philosophique m'a fait connaître les bains d'air de <persName>Franklin</persName>. Enfin j'ai
-               trouvé la méthode convenable il y a 5 ou 6 ans. Mille choses amicales à ton fils dont
-               j'attends beaucoup. Son voyage, surtout les voyages <gap xmlns="" reason="illisible"/>. J'ai lu dans Le <title>Globe</title> des articles de lui qui m'ont ravi et j'en trouverai
-               peut-être encore quand on me portera cet intéressant journal. Adieu cher ami, je
-               t'embrasse de toute mon âme.</p>
+               trouvé la méthode convenable il y a 5 ou 6 ans.</p>
+            <p>Mille choses amicales à ton fils dont
+               j'attends beaucoup. Son voyage, surtout les voyages <gap reason="illisible"/>. J'ai lu dans Le <title>Globe</title> des articles de lui qui m'ont ravi et j'en trouverai
+               peut-être encore quand on me portera cet intéressant journal.<lb/> Adieu cher ami, je
+               t'embrasse de toute mon âme.<lb/>
+            <persName>C-J Bredin</persName></p>
+            <closer><pb n="348" facs="#ACAS_CRHST_AMP_24_334_0348_v.jpg"/>A monsieur <persName>Ampère</persName>, rue des fossés S<ex>ain</ex>t Victor n°19 à <placeName>Paris</placeName></closer>
          </div>
       </body>
       <back>

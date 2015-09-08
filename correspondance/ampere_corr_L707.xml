@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1827-07-10-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +100,11 @@
                <witness xml:id="L707manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Lyon</settlement>
-                        <institution xmlns="">Bibliothèque municipale</institution>
-                        <repository xmlns="">fonds Charavay</repository>
-                        <idno xmlns="">recueil A1, folios 89-90</idno>
+                        <country>France</country>
+                        <settlement>Lyon</settlement>
+                        <institution>Bibliothèque municipale</institution>
+                        <repository>fonds Charavay</repository>
+                        <idno>recueil A1, folios 89-90</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>Quatre pages 24 X 18 sans date ni signature ; mais un cachet presque
@@ -141,7 +142,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -169,9 +170,10 @@
                s'est croisée avec celle où je te répondais au sujet de la commission de M. le <persName>Comte
                W. de Humboldt</persName> pour l'<persName>abbé Roux</persName>. J'espère que cette dernière te sera parvenue à
                <persName>Berlin</persName> assez à temps pour lui en communiquer ce qui se rapporte à la grammaire et au
-               dictionnaire de la langue algonquine. J'ai vu ce matin deux personnes qui ont
+               dictionnaire de la langue algonquine.</p>
+               <p>J'ai vu ce matin deux personnes qui ont
                longtemps été en <persName>Suède</persName>. L'un est un ancien élève de l'<orgName>école Polytechnique</orgName>, <persName>Olivier</persName>
-               <ref>(2)</ref>, que tu as vu chez moi l'année passée. Il est très lié avec M. <persName>de Studagk</persName>,
+               <ref target="#corresp2">(2)</ref>, que tu as vu chez moi l'année passée. Il est très lié avec M. <persName>de Studagk</persName>,
                Allemand de naissance, mais fixé depuis longtemps à <placeName>Stockholm</placeName>, où il est aumônier de
                la Princesse royale. M. <persName>de Studagk</persName> a fait une traduction allemande d'un assez grand
                nombre de poésies scandinaves, en rendant chaque sorte de mètre dans des vers
@@ -189,25 +191,30 @@
                à M. <persName>Lortet</persName>, comme si c'était celui de M. <persName>Isarn</persName>. L'autre, je le donnerai à <persName>Bredin</persName> qui
                aime tant ces sortes de choses. M. <persName>Izarn</persName> est ici. C'est l'autre voyageur en <placeName>Suède</placeName> que
                j'ai vu ce matin. Il voulait écrire aussi une lettre de recommandation pour toi à
-               deux Suédois qui ont étudié les antiquités littéraires scandinaves. Je colle ici <ref>(3)</ref>
+               deux Suédois qui ont étudié les antiquités littéraires scandinaves.</p>
+            <p>Je colle ici <ref target="#corresp3">(3)</ref>
                le papier où il a écrit leur nom pour que je te les envoie parce qu'ayant du monde
                chez lui, il n'a pu faire la lettre que je t'aurais envoyée comme celle d'<persName>Olivier</persName>. Il
                m'a dit qu'il leur écrirait incessamment pour leur parler de toi, mais qu'en
                attendant il te priait de les aller voir de sa part, que c'était la même chose que si
                tu leur remettais une lettre de lui. D'ailleurs, celle qu'il leur écrira directement
-               arrivera à peu près en même temps. Je n'ai toujours que de bonnes nouvelles à te
+               arrivera à peu près en même temps.</p>
+            <p>Je n'ai toujours que de bonnes nouvelles à te
                donner des santés [de] tous ceux que tu connais, excepté le pauvre <persName>Fresnel</persName> qu'on
                n'espère [plus] guère de tirer d'affaire. Il est à la campagne, à <placeName>Ville-d'Avray</placeName>, avec
-               sa pauvre mère. La connaissance de M. <persName>de Studagk</persName> que te procurera la lettre d'<persName>Olivier</persName>
+               sa pauvre mère.</p>
+            <p>La connaissance de M. <persName>de Studagk</persName> que te procurera la lettre d'<persName>Olivier</persName>
                est d'autant meilleure que c'est un ecclésiastique bavarois avec qui tu causeras en
                allemand dans sa langue maternelle et qui t'indiquera toutes les sources sur la
-               littérature scandinave qui a été l'objet de ses études. Adieu, cher et bien bon ami,
+               littérature scandinave qui a été l'objet de ses études.</p>
+            <p>Adieu, cher et bien bon ami,
                toutes les fois que je vois <persName>élisa</persName>, elle se plaint de ton silence. Elle, sa mère, ma
                sœur, <persName>Albine</persName> et ma cousine m'ont dit tant de choses pour toi que je n'en finirais
-               pas si je voulais tout t'écrire. <persName>Adrien</persName> <ref>(4)</ref>, revenu hier de <placeName>Nanteuil</placeName>, y a laissé tout
+               pas si je voulais tout t'écrire. <persName>Adrien</persName> <ref target="#corresp4">(4)</ref>, revenu hier de <placeName>Nanteuil</placeName>, y a laissé tout
                le monde bien portant. Je l'ai engagé à dîner avec moi mercredi. Il t'aime bien. Je
                ne comprends pas pourquoi il semble qu'il n'est plus question du mariage arrangé pour
-               lui. Je t'aime de toute mon âme, et t'embrasse. <persName>A. Ampère</persName>
+               lui. Je t'aime de toute mon âme, et t'embrasse.<lb/>
+               <persName>A. Ampère</persName>
         </p>
             <closer>A Monsieur <persName>J.-J. Ampère</persName>, poste restante à <placeName>Stockholm</placeName> (<placeName>Suède</placeName>)</closer>
          </div>
@@ -217,10 +224,12 @@
             <note xml:id="corresp1">(1) Quatre pages 24 X 18 sans date ni signature ; mais un cachet
                presque illisible semble porter HAMB (<placeName>Hambourg</placeName> ?), 17 jul [<date when="1827-07-17">17 juillet</date> ?].
                (<orgName>Bibliothèque Municipale de <placeName>Lyon</placeName>
-          </orgName>, Fonds <persName>Charavay</persName>). (2) Il s'agit de <persName>Théodore Olivier</persName>,
-               un des fondateurs de l'<orgName>École centrale</orgName> de <placeName>Paris</placeName>, où il professait les Mathématiques.
-               (3) La lettre d'<persName>Ampère</persName> porte, en effet, des traces manifestes de ce collage, mais le
-               billet n'est plus adhérent. (4) <persName>Adrien de Jussieu</persName>. <placeName>Nanteuil</placeName> était la propriété des
+          </orgName>, Fonds <persName>Charavay</persName>).</note>
+            <note xml:id="corresp2">(2) Il s'agit de <persName>Théodore Olivier</persName>,
+               un des fondateurs de l'<orgName>École centrale</orgName> de <placeName>Paris</placeName>, où il professait les Mathématiques.</note>
+            <note xml:id="corresp3">(3) La lettre d'<persName>Ampère</persName> porte, en effet, des traces manifestes de ce collage, mais le
+               billet n'est plus adhérent.</note>
+            <note xml:id="corresp4">(4) <persName>Adrien de Jussieu</persName>. <placeName>Nanteuil</placeName> était la propriété des
                <persName>Jussieu</persName>. <persName>Fresnel</persName> est mort le <date when="1827-07-14">14 juillet 1827</date>. </note>
          </div>
       </back>

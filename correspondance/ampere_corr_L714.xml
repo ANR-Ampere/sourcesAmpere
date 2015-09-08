@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1827-10-13-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,7 +100,7 @@
                <witness xml:id="L714manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <repository xmlns="">Collection particulière (héritiers du
+                        <repository>Collection particulière (héritiers du
                            destinataire)</repository>
                      </msIdentifier>
                      <physDesc>
@@ -137,7 +138,7 @@
         <correspAction type="received">
           <persName type="adressee">Quételet, Adolphe</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -158,11 +159,11 @@
    <text type="correspondance" decls="#ampere_corr_L1827-10-13-a">
       <body>
          <div>
-            <opener>
+            <opener><placeName>Paris</placeName>
           <date when="1827-10-13">13 octobre 1827</date>
         </opener>
             <p>Monsieur et très cher ami, j'ai bien des remerciements à vous faire de l'ouvrage sur
-               les caustiques <ref xmlns="" target="#ampere_ref_414.xml">*</ref> que vous avez eu la
+               les caustiques <ref target="#ampere_ref_414.xml">*</ref> que vous avez eu la
                bonté de m'envoyer, je vous prie de les agréer. Rien ne pouvait m'être plus agréable
                que la lecture de vos savantes recherches sur ce sujet. Vous m'avez fait aussi un
                grand plaisir en me marquant qu'on allait imprimer dans les Mémoires de l'<orgName>Académie de
@@ -182,7 +183,8 @@
                conducteur voltaïque agissent l'un sur l'autre. Je pense que cette manière de
                présenter les choses peut avoir quelques avantages pour ceux qui veulent abréger,
                quoique l'autre mérite sans difficulté la préférence toutes les fois qu'on veut
-               approfondir la manière (sic). Je pense que vous n'avez pas oublié la prière que je
+               approfondir la manière (sic).</p>
+            <p>Je pense que vous n'avez pas oublié la prière que je
                vous ai faite dans le temps, de m'en faire tirer cent exemplaires à part à mon
                compte. Comme je crains qu'il n'y ait bien des fautes dans la copie que je vous ai
                remise, si vous éprouvez des difficultés lors de la correction des épreuves, vous
@@ -191,14 +193,18 @@
                même voie, ces épreuves corrigées. Toutes réflexions faites, je trouve qu'il y aurait
                tant d'avantages à cela pour la perfection du Mémoire que je vous prie de faire
                ainsi, s'il est possible, soit pour tout le Mémoire, s'il en est encore temps, soit
-               pour la partie qui resterait à tirer. Vous me feriez alors le plaisir de tenir note
+               pour la partie qui resterait à tirer.</p>
+            <p>Vous me feriez alors le plaisir de tenir note
                de tous les affranchissements dont vous feriez l'avance pour moi afin que je vous les
                rembourse de suite. Je désirerais que le titre de mes exemplaires à part portât le
                jour où le Mémoire a été présenté à l'<orgName>Académie de <placeName>Bruxelles</placeName>
           </orgName>, cette date m'étant bonne
-               à constater. Je vous prie d'offrir l'hommage de mon respect à Mme <persName>Quetelet</persName>, et de
+               à constater.</p>
+            <p>Je vous prie d'offrir l'hommage de mon respect à Mme <persName>Quetelet</persName>, et de
                penser quelquefois comment votre amitié est précieuse pour moi, vous savez que la
-               mienne vous est toute acquise pour la vie. Tout à vous. <persName>A. Ampère</persName> P. S. - J'ai remis
+               mienne vous est toute acquise pour la vie. Tout à vous.<lb/>
+               <persName>A. Ampère</persName></p>
+            <p>P. S. - J'ai remis
                à M. <persName>Sturm</persName> l'exemplaire du mémoire sur les caustiques qui accompagnait le mien.
                L'autre n'y était pas. On a dû l'envoyer directement à la famille de M. <persName>Fresnel</persName> que
                les sciences venaient si malheureusement de perdre quand les exemplaires sont
@@ -213,11 +219,7 @@
          <div>
             <note xml:id="corresp1">(1) Trois pages in-4°, adresse sur la quatrième. Communiqué par
                M. <persName>G. Quetelet</persName>.</note>
-            <note resp="CAK_commentaire">
-          <persName>Louis DE LAUNAY</persName>, dans la <title xmlns="">Correspondance du
-                  Grand <persName>Ampère</persName>
-          </title>, précise au sujet de cette lettre que le manuscrit lui a été
-               ""Communiqué par M. <persName>G. Quetelet"</persName>".</note>
+           
          </div>
       </back>
    </text>

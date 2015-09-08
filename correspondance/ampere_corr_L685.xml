@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -138,7 +139,7 @@
         <correspAction type="received">
           <persName type="adressee">Faraday, Michael</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -159,15 +160,17 @@
    <text type="correspondance" decls="#ampere_corr_L1825-07-03-b">
       <body>
          <div>
-            <opener>
+            <opener><placeName>Paris</placeName>
           <date when="1825-07-03">3 juillet 1825</date>
         </opener>
-            <p>Monsieur, J'ignore si la lettre que j'ai eu l'honneur de vous écrire à l'époque du
+            <opener>Monsieur, </opener>
+            <p>J'ignore si la lettre que j'ai eu l'honneur de vous écrire à l'époque du
                voyage à <placeName>Londres</placeName> de M. <persName>Auguste de La Rive</persName>, et que ce jeune mais déjà si habile et si
                savant physicien devait vous remettre, vous est parvenue. Je profite aujourd'hui du
                départ de mon savant et respectable ami M. <persName>Underwood</persName> pour vous rappeler la sincère
                amitié et la haute estime que m'ont inspirées vos grandes découvertes dans les
-               sciences et la bienveillance dont vous m'avez honoré. Occupé sans relâche des travaux
+               sciences et la bienveillance dont vous m'avez honoré.</p>
+            <p>Occupé sans relâche des travaux
                qu'exigent de moi les deux cours dont je suis chargé, je n'ai pu terminer quelques
                expériences que j'avais entreprises et dont j'aurais un grand plaisir, si elles
                l'étaient, à vous communiquer les résultats. M. <persName>Underwood</persName> vous expliquera toutes les
@@ -186,15 +189,17 @@
                et inclinait un autre conducteur mobile autour d'un axe horizontal, comment, dis-je,
                comprendre que, près d'un an après, en <placeName>Angleterre</placeName>, cette expérience était mise en
                doute, si ce n'était un effet produit dans l'origine par des personnes de <placeName>Paris</placeName> qui
-               agissaient contre moi à <placeName>Londres</placeName> ? Du moins je ne pense pas qu'on ait jamais attribué
+               agissaient contre moi à <placeName>Londres</placeName> ?</p>
+            <p>Du moins je ne pense pas qu'on ait jamais attribué
                à d'autres la découverte fondamentale de l'action de deux fils conducteurs, et celle
-               des propriétés des hélices ou solénoïdes électro-dynamiques. Vous savez assez,
+               des propriétés des hélices ou solénoïdes électro-dynamiques.</p>
+            <p>Vous savez assez,
                Monsieur, quels sont les autres faits que j'ai vus le premier, pour pouvoir défendre
                ma cause auprès des illustres physiciens dont s'enorgueillit l'<placeName>Angleterre</placeName> et dont,
                grâce à vos découvertes, vous devriez vous trouver aujourd'hui l'égal en renommée. Je
                ne sais pas si l'on connaît en <placeName>Angleterre</placeName> un ouvrage sur l'électricité dynamique <ref target="#ampere_ref_405.xml">*</ref> de M. <persName>
             <choice>
-              <sic>de Monferrand</sic> <corr>[Demonferrand]</corr>
+              <sic>de Monferrand</sic> <corr>Demonferrand</corr>
             </choice>
           </persName>,
                professeur de physique dans un collège royal : j'ai pensé que vous seriez peut-être
@@ -202,34 +207,40 @@
                de physique. Seulement il faut y ajouter les calculs compris dans le <title>Précis de la
                théorie des phénomènes électro-dynamiques</title> que j'ai publié depuis, et remplacer la
                description de l'appareil dont il se servait alors par celle d'un appareil bien
-               préférable, auquel je me suis définitivement arrêté. Est-ce qu'il n'existe pas
+               préférable, auquel je me suis définitivement arrêté.</p>
+            <p>Est-ce qu'il n'existe pas
                d'appareils de ce genre en <placeName>Angleterre</placeName> ? Il est difficile sans son secours de répéter
                toutes les expériences relatives aux lois de l'action mutuelle de deux courants
                électriques qu'il est important d'étudier à part et indépendamment de l'autre espèce
-               d'action qui a lieu entre un aimant et un fil conducteur. J'avoue que j'éprouve un
+               d'action qui a lieu entre un aimant et un fil conducteur.</p>
+            <p>J'avoue que j'éprouve un
                bien vif désir qu'un instrument pareil à celui dont j'ai publié la description se
                trouve à <placeName>Londres</placeName>, qu'on y fasse mes expériences. Ne pourriez-vous pas en procurer un
-               à l'<orgName>Institution royale</orgName> ? Je vous envoie, par mon excellent ami M. <persName>Underwood</persName>,
+               à l'<orgName>Institution royale</orgName> ?</p>
+            <p>Je vous envoie, par mon excellent ami M. <persName>Underwood</persName>,
                l'ouvrage de M. <persName>
             <choice>
-              <sic>de Monferrand</sic> <corr>[Demonferrand]</corr>
+              <sic>de Monferrand</sic> <corr>Demonferrand</corr>
             </choice>
           </persName> et les deux miens. Si vous avez déjà ces
-               derniers, M. <persName>Underwood</persName> pourra les remettre à un autre savant. Je vous prierais d'une
+               derniers, M. <persName>Underwood</persName> pourra les remettre à un autre savant.</p>
+            <p>Je vous prierais d'une
                chose, si ce n'était peut-être abuser de l'amitié que vous m'avez témoignée, ce
                serait de jeter les yeux sur la table de l'ouvrage de M. <persName>
             <choice>
               <sic>de Monferrand</sic>
-               <corr>[Demonferrand]</corr>
+               <corr>Demonferrand</corr>
             </choice>
           </persName>, de voir par vous-même si elle n'est pas conforme à la plus exacte
                justice dans les noms des savants qui ont contribué à la nouvelle branche de la
                physique que j'ai nommée <cit>
             <quote>électricité dynamique</quote>
           </cit> et s'il n'en résulte pas que je ne
-               suis pas un des derniers parmi ceux qui l'ont créée. Je suis, avec la plus sincère
+               suis pas un des derniers parmi ceux qui l'ont créée.</p>
+            <p>Je suis, avec la plus sincère
                amitié et la plus haute considération, Monsieur, votre très humble et très obéissant
-               serviteur. <persName>A. Ampère</persName>
+               serviteur.<lb/>
+               <persName>A. Ampère</persName>
         </p>
          </div>
       </body>

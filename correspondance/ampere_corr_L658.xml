@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1824-03-21-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +100,11 @@
                <witness xml:id="L658manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 379</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 379</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>Huit pages in-4°, adresse sur la dernière.</p>
@@ -140,7 +141,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,7 +162,7 @@
    <text type="correspondance" decls="#ampere_corr_L1824-03-21-a">
       <body>
          <div>
-            <opener>
+            <opener><pb n="576" facs="#ACAS_CRHST_AMP_25_379_0576_r.jpg"/><placeName>Paris</placeName>
           <date when="1824-03-21">21 mars 1824</date>
         </opener>
             <p>Il y a longtemps que je ne t'ai pas écrit, mon bon fils. J'ai reçu plusieurs lettres
@@ -174,9 +175,10 @@
                changer. Cette observation s'est présentée à moi en le lisant. Comme il n'a
                d'ailleurs rien de particulier, j'ai oublié en quoi cela consiste. Il ne me reste que
                le souvenir confus d'une impression reçue que je retrouverai quand nous les relirons
-               ensemble. Du reste, tout [est] parfaitement dans la vérité, et une foule de vers
+               ensemble. Du reste, tout<supplied> est</supplied> parfaitement dans la vérité, et une foule de vers
                admirables gravent les traits des caractères avec une force et une justesse qui me
-               plaisaient infiniment. Je n'ai pas eu besoin de te dire combien il fallait cacher à
+               plaisaient infiniment.</p>
+            <p><pb n="577" facs="#ACAS_CRHST_AMP_25_379_0577_v.jpg"/>Je n'ai pas eu besoin de te dire combien il fallait cacher à
                tous ceux à qui tu peux parler l'étourderie de mon cousin ; cela allait sans dire.
                Surtout à l'égard de <persName>Ballanche</persName> ; la moindre indiscrétion à cet égard lui aurait été
                bien fatale ; car c'est par <persName>Dupré</persName>, dont j'ai reçu aujourd'hui même une lettre à ce
@@ -188,8 +190,9 @@
                vont servir à l'habiller et à payer son voyage. Je vais donc lui dire ce que tu fais
                pour lui ; il t'écrira probablement pour te remercier, peut-être pour que tu fasses
                davantage pour lui ; mais, comme il va avoir un emploi qui lui donnera le moyen de ne
-               manquer plus du nécessaire, je ne pense pas que tu doives faire plus de sacrifices
-               pour lui. Tu te fais aisément une idée de tous les chagrins qui me déchirent ; tout
+               manquer<pb n="578" facs="#ACAS_CRHST_AMP_25_379_0578_r.jpg"/> plus du nécessaire, je ne pense pas que tu doives faire plus de sacrifices
+               pour lui.</p>
+            <p>Tu te fais aisément une idée de tous les chagrins qui me déchirent ; tout
                semble conjuré contre moi. J'ai enfin tiré de ma sœur la note de ce qu'elle doit à
                boucher, boulanger, épicier, marchand de bois, etc. Cela fait frémir. Mais nous
                vivons avec tant d'économie à présent que j'espère qu'on parviendra à tout payer
@@ -200,69 +203,78 @@
                très utile à l'<orgName>école Polytechnique</orgName>, m'oblige à rédiger le cours que j'y fais, sans
                presque pouvoir donner un moment à autre chose, sans pouvoir écrire à <persName>Bredin</persName> qu'une
                seule fois depuis cinq mois, ni rédiger une seule ligne de mes travaux de physique.
-               Quelques conversations avec <persName>Savary</persName> m'y ont beaucoup aidé ; mais je le vois trop
+               Quelques conversations avec<pb n="579" facs="#ACAS_CRHST_AMP_25_379_0579_v.jpg"/> <persName>Savary</persName> m'y ont beaucoup aidé ; mais je le vois trop
                rarement. M. <persName>Becquerel</persName> fait d'admirables expériences nouvelles qui ajoutent encore
                aux preuves de ma théorie ; mais il faudrait que je pusse écrire et publier comme
                elles en sont une suite nécessaire. Et pas un moment pour le faire, il faut tout
-               laisser là ! Ton absence fait sur moi comme la maladie du pays sur les Suisses et les
+               laisser là !</p>
+            <p>Ton absence fait sur moi comme la maladie du pays sur les Suisses et les
                Lapons. <persName>Ballanche</persName> a parlé de la nostalgie céleste ; je suis tourmenté de la nostalgie
                paternelle. Je ne dis pas cela pour contrarier ton voyage, mais pour t'engager à
                m'écrire bien souvent ; c'est le seul palliatif au mal que ton retour guérira.
                Dis-moi aussi l'époque où tu dois aller à <placeName>Naples</placeName>, si tu y vas. Je me tourmente de
                l'idée que tu le ferais quand le retour des chaleurs aura augmenté le danger de
                traverser les marais pontins. Tu sais bien qu'il ne faut pas dormir sur cette route
-               quoiqu'il en coûte pour résister au sommeil, et n'y a-t-il pas d'autres dangers ? N'y
+               quoiqu'il en coûte pour résister<pb n="580" facs="#ACAS_CRHST_AMP_25_379_0580_r.jpg"/> au sommeil, et n'y a-t-il pas d'autres dangers ? N'y
                passe que de jour, je te le demande en grâce ; promets-moi dans ta première lettre
                que tu me l'accorderas ! Combien tu me ferais plaisir ? Aussi, si tu pouvais me dire,
                même par un très grossier à peu près, quel projet on a sur l'époque du retour à
                <placeName>Paris</placeName> ! Seulement pour le savoir, et avoir un but d'espérance ! J'espère que tu
                m'enverras, en même temps, la fin de ta seconde scène ou la troisième. Tes lettres
                peuvent seules me consoler de tout le reste, en attendant que je puisse te revoir
-               content de ton voyage, mais un peu content aussi de te retrouver auprès de moi.
+               content de ton voyage, mais un peu content aussi de te retrouver auprès de moi.</p>
+            <p>
                Comble <persName>Ballanche</persName> et <persName>Dugas</persName> d'amitiés de ma part ! Que le premier me pardonne d'avoir
                été dans l'impossibilité de lui écrire ! Que le second vous lise les admirables
-               lettres qu'il a lues à <placeName>Lyon</placeName> à <persName>Bredin</persName> et à moi ; tous ceux qui les entendront en
+               lettres qu'il a lues à <placeName>Lyon</placeName> à <persName>Bredin</persName> et à moi ; tous ceux<pb n="581" facs="#ACAS_CRHST_AMP_25_379_0581_v.jpg"/> qui les entendront en
                seront ravis. Quand reverrai-je ces deux excellents amis ? Pourquoi faut-il que tout
-               me manque à la fois ? Est-ce une main invisible qui arrange tout pour m'accabler ?
+               me manque à la fois ? Est-ce une main invisible qui arrange tout pour m'accabler ?</p>
+            <p>
                <persName>Beuchot</persName> a écrit à <persName>Ballanche</persName> l'espoir que j'avais eu un instant qu'un professeur
                obligé de quitter la chaire que j'ai le plus désirée depuis les découvertes en
                électricité dynamique, aurait vu avec plaisir que je fusse plutôt qu'un autre choisi
-               pour le remplacer <ref>(2)</ref>. Il n'en a pas été ainsi et je ne peux plus guère espérer que
+               pour le remplacer <ref target="#corresp2">(2)</ref>. Il n'en a pas été ainsi et je ne peux plus guère espérer que
                cela arrive. Cependant qui y a des droits comparables à ceux que m'y donnent ces
-               découvertes ? Comme ma situation serait changée d'un état si pénible à un si heureux
-                ! Et quels avantages, je puis bien le dire, n'en serait-il pas résulté pour la
-               science que j'étais plus destiné à étendre que les mathématiques. Je n'espérais plus
-               rien à cet égard et n'y songeais presque plus ; mais, depuis quelques jours, il
+               découvertes ? Comme ma situation serait changée d'un état si pénible à un si heureux ! Et quels avantages, je puis bien le dire, n'en serait-il pas résulté pour la
+               science que j'étais plus destiné à étendre que les mathématiques.</p>
+            <p>Je n'espérais plus
+               rien à cet égard<pb n="582" facs="#ACAS_CRHST_AMP_25_379_0582_r.jpg"/> et n'y songeais presque plus ; mais, depuis quelques jours, il
                semble que peut-être la chose pourrait de nouveau avoir lieu. Quand<persName> Arago</persName> a vu quels
                concurrents se trouvaient sur les rangs pour me la disputer, il s'est, à ce qu'il
                paraît, décidé à agir pour moi auprès des personnes qui ont des voix sur lesquelles
                il peut avoir de l'influence. Il est probable que, sur les dix-neuf voix des
                professeurs restants, j'en aurai plusieurs, peut-être un peu plus ou un peu moins de
-               la moitié, et alors tout peut dépendre d'une voix <ref>(3)</ref>. Si tu étais ici, tu m'aurais
+               la moitié, et alors tout peut dépendre d'une voix <ref target="#corresp3">(3)</ref>. Si tu étais ici, tu m'aurais
                peut-être celles de MM. <persName>Rémusat</persName> et <persName>Naudet</persName>. Ce dernier y est entré dans une
                circonstance absolument semblable à celle qui se présente. Qui jamais s'est avisé de
-               lui en faire un reproche ? <persName>Ballanche</persName>, instruit par une lettre de <persName>Beuchot</persName>, peut te
+               lui en faire un reproche ?</p>
+            <p><persName>Ballanche</persName>, instruit par une lettre de <persName>Beuchot</persName>, peut te
                donner sur ce sujet plusieurs détails que je n'ai pas le temps de t'écrire. Nous nous
                portons tous bien, excepté que je suis un peu enrhumé. M. <persName>de Jussieu</persName>, de l'<orgName>Institut</orgName>,
                a été horriblement malade pendant près de quarante jours d'un catarrhe, auquel
                s'était jointe ensuite de la fièvre bilieuse. Il est enfin mieux et on le regarde
-               comme hors d'affaire. Ma sœur et <persName>Albine</persName> t'embrassent de tout leur cœur et désirent
+               comme hors d'affaire.</p>
+            <p><pb n="583" facs="#ACAS_CRHST_AMP_25_379_0583_v.jpg"/> Ma sœur et <persName>Albine</persName> t'embrassent de tout leur cœur et désirent
                presque aussi vivement que moi ton retour. Ceux pour qui tu m'avais chargé de tes
                amitiés et que j'ai pu voir, te rendent bien ton souvenir et m'ont beaucoup parlé de
                toi. J'ai reçu plusieurs compliments au sujet de la tragédie de personnes que je
                connais à peine. Ainsi ta réputation future commence à pousser des racines ; l'arbre
-               s'élèvera ad auras lors de la première représentation. Adieu, cher ami, le plus cher
-               de tous les amis et que tous les amis ! Adieu, <persName>Ampère</persName> ! écris-moi vite ; tes lettres
-               sont tout pour moi. <persName>A. Ampère</persName>
+               s'élèvera <foreign xml:lang="lat">ad auras</foreign> lors de la première représentation. Adieu, cher ami, le plus cher
+               de tous les amis et que tous les amis !</p>
+            <p>Adieu, <persName>Ampère</persName> ! écris-moi vite ; tes lettres
+               sont tout pour moi.<lb/>
+               <persName>A. Ampère</persName>
         </p>
-            <closer>Bureau restant à <placeName>Rome</placeName>, état ecclésiastique</closer>
+            <closer>Monsieur <persName>J-J Ampère</persName> Bureau restant à <placeName>Rome</placeName>, état ecclésiastique</closer>
          </div>
       </body>
       <back>
          <div>
             <note xml:id="corresp1">(1) Huit pages in-4°, adresse sur la dernière. Deux passages ont
-               été publiés par Mme <persName>Cheuvreux</persName>, p. 265. (2) Voir A. 386, lettre à <persName>Beuchot</persName>. Ce
-               professeur est <persName>Lefèvre Gineau</persName>. (3) Il s'agit là du vote des professeurs du <persName>Collège de
+               été publiés par Mme <persName>Cheuvreux</persName>, p. 265.</note>
+            <note xml:id="corresp2">(2) Voir A. 386, lettre à <persName>Beuchot</persName>. Ce
+               professeur est <persName>Lefèvre Gineau</persName>.</note>
+            <note xml:id="corresp3">(3) Il s'agit là du vote des professeurs du <persName>Collège de
                France</persName> auquel doit succéder, pour la présentation au ministre, un vote de l'<orgName>Institut</orgName>.
                L'assemblée des professeurs du <orgName>Collège de <placeName>France</placeName>
           </orgName>, composée surtout de littérateurs,

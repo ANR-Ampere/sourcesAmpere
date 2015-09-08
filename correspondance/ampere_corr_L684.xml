@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -79,7 +80,7 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct xml:id="ampere_corr_L1825-07-03-a">
-                    <monogr xmlns="">
+                    <monogr>
                         <author>
                             <surname>De Launay</surname>
                             <forename>Louis</forename>
@@ -100,12 +101,12 @@
                     <witness xml:id="L684manuscrit">
             <msDesc type="brouillon_manuscrit">
                             <msIdentifier>
-                                <country xmlns="">France</country>
-                                <settlement xmlns="">Paris</settlement>
-                                <institution xmlns="">Archives de l'Académie des
+                                <country>France</country>
+                                <settlement>Paris</settlement>
+                                <institution>Archives de l'Académie des
                                     sciences</institution>
-                                <repository xmlns="">Fonds André-Marie Ampère</repository>
-                                <idno xmlns="">chemise 182</idno>
+                                <repository>Fonds André-Marie Ampère</repository>
+                                <idno>chemise 182</idno>
                             </msIdentifier>
                         </msDesc>
           </witness>
@@ -139,7 +140,7 @@
         <correspAction type="received">
           <persName type="adressee">Davy, Humphry</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -160,31 +161,38 @@
     <text type="correspondance" decls="#ampere_corr_L1825-07-03-a">
         <body>
             <div>
-                <opener>
+                <opener><placeName>Paris</placeName> <pb n="282" facs="#ACAS_CRHST_AMP_09_182_0282_r.jpg"/>
           <date when="1825-07-03">3 juillet 1825</date>
         </opener>
-                <p>Monsieur et illustre ami, J'ai mille remerciements à vous faire de la bonté que
+                <opener>Monsieur et illustre ami, </opener>
+                <p>J'ai mille remerciements à vous faire de la bonté que
                     vous avez eue de m'envoyer votre dernier ouvrage sur l'admirable découverte du
                     moyen que vous avez imaginé pour préserver de l'action de l'eau de la mer le
-                    cuivre dont on se sert pour doubler les vaisseaux. Je vous prie d'agréer
+                    cuivre dont on se sert pour doubler les vaisseaux.</p>
+                <p>Je vous prie d'agréer
                     l'hommage de ma reconnaissance. Il y a longtemps que les marques d'intérêt dont
                     vous m'avez autrefois honoré ont pénétré mon cœur de ce sentiment, je le
                     conserverai toute ma vie et la pensée la plus pénible pour moi serait l'idée que
                     j'aie pu, soit par quelque imprudence bien involontaire, soit parce qu'on se
                     serait plu à vous présenter sous un faux jour ce qui aurait été tout à fait
-                    innocent de ma part. (J'avoue que ce que j'ai éprouvé l'année passée de la part
+                    innocent de ma part.</p>
+                <p>J'avoue que ce que j'ai éprouvé l'année passée de la part
                     de personnes que je ne soupçonnais pas de m'être contraires, m'avait fait
                     craindre que ceux qui se sont unis contre moi à cette époque, n'eussent cherché
-                    à me nuire auprès de vous) <ref>(1)</ref>. La bonté que vous avez eue de m'envoyer votre
+                    à me<pb n="283" facs="#ACAS_CRHST_AMP_09_182_0283_v.jpg"/> nuire auprès de vous <ref>(1)</ref>.</p>
+                <p>La bonté que vous avez eue de m'envoyer votre
                     ouvrage m'a prouvé que, si on l'avait tenté, du moins on n'y avait pas réussi,
                     et c'est un bonheur pour moi, et celui que j'ambitionne le plus, de penser que
                     vous me conservez cette amitié et cette bienveillance si honorables pour moi,
-                    dont j'ai reçu autrefois le témoignage avec une si vive reconnaissance. Je vous
+                    dont j'ai reçu autrefois le témoignage avec une si vive reconnaissance.</p>
+                <p>Je vous
                     prie, Monsieur et illustre ami, de me permettre de vous renouveler l'hommage de
                     mon admiration pour vos travaux et de la plus haute considération. C'est avec
                     ces sentiments que j'ai l'honneur d'être, Monsieur et illustre ami, votre très
-                    humble et très obéissant serviteur. <persName>A. Ampère</persName>, de l'<orgName>Académie royale des
+                    humble et très obéissant serviteur.<lb/>
+                    <persName>A. Ampère</persName>, de l'<orgName>Académie royale des
                     Sciences</orgName>, <placeName>rue des Fossés-Saint-Victor, n° 19</placeName>, à <placeName>Paris</placeName>.</p>
+                <closer>Sir <persName>H. Davy</persName>, bart président de la <orgName>Société royale de <placeName>Londres</placeName>.</orgName></closer>
             </div>
         </body>
         <back>
@@ -192,7 +200,7 @@
                 <note xml:id="corresp1">(1) La phrase entre parenthèses a été barrée par <persName>Ampère</persName> sur
                     le brouillon resté à l'<orgName>Institut</orgName>. C'était une allusion à l'affaire du <orgName>Collège de
                     <placeName>France</placeName>
-          </orgName>. D'après la Lettre 0682 à <persName>Davy</persName>, <persName>Ampère</persName> avait dû finalement rétablir sur
+                    </orgName>. D'après la Lettre <ref type="correspondance" target="#ampere_corr_L1825-00-00-c">L1825-00-00-c</ref> à <persName>Davy</persName>, <persName>Ampère</persName> avait dû finalement rétablir sur
                     la copie une allusion analogue, que l'on retrouve également dans la Lettre 0684
                     adressée à <persName>Faraday</persName>.</note>
             </div>

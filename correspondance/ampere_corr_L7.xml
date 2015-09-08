@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -143,7 +144,7 @@
           <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme
                         d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -239,7 +240,8 @@
                <supplied>de toute</supplied> la journée<lb/>
                   <supplied>pour arriver à</supplied> finir cette<lb/>
                <supplied>lettre et à
-                  la</supplied> faire partir.<lb/>
+                  la</supplied> faire partir.</p>
+            <p>
                <supplied>Je pensais que la lettre</supplied> de
                <persName ref="#pers_B59">Beuchot</persName>
           <pb n="104" facs="#ACAS_CRHST_AMP_26_392_0104_r.jpg"/> dût déjà être partie depuis<lb/>
@@ -262,7 +264,8 @@
                Ces deux lettres m'ont<lb/>
                tant fait de plaisir que<lb/>
                j'ai été, par mon réveil,<lb/>
-               privé de celui de les lire.<lb/>
+               privé de celui de les lire.</p>
+            <p>
                Demain, par <persName ref="#pers_P457">Pochon</persName>, j'espère<lb/>
                l'accomplissement de la moitié<lb/>
                de mon rêve, si je n'en<lb/>
@@ -286,7 +289,7 @@
                la tienne. Est-ce que rien<lb/>
                ne paraît ? Maigris-tu ou<lb/>
                si c'est le contraire ? As-tu<lb/>
-               vu M. <persName>Petit</persName> <ref>(2)</ref>, etc. ; car j'aurais<lb/>
+               vu M. <persName>Petit</persName> <ref target="#corresp2">(2)</ref>, etc. ; car j'aurais<lb/>
                bien d'autres questions à te<lb/>
                faire ; mais il faut te quitter<lb/>
                et garder le reste pour la lettre<lb/>
@@ -314,8 +317,8 @@
                adresse à Mme <persName ref="#pers_C129">Ampère</persName>, rue du Griffon, a été déchiré et la partie droite du début en
                est reconstituée d'après le sens. La lettre se trouve datée par l'annonce que le
                voyage de Noël aura lieu dans huit jours. Il était déjà question de <persName ref="#pers_B59">Beuchot</persName> dans la
-               Lettre 0189.</note>
-            <note xml:id="corresp2">(2) Voir la Lettre 0177 du <date when-iso="11-26">26 novembre</date> </note>
+               Lettre <ref type="correspondance" target="#ampere_corr_L1802-12-15-a">L1802-12-15-a</ref>.</note>
+            <note xml:id="corresp2">(2) Voir la Lettre <ref type="correspondance" target="#ampere_corr_L1802-11-26-a">L1802-11-26-a</ref> du <date when-iso="11-26">26 novembre</date> </note>
          </div>
       </back>
    </text>

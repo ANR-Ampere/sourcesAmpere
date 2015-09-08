@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -79,7 +80,7 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct xml:id="ampere_corr_L1828-07-16-a">
-                    <monogr xmlns="">
+                    <monogr>
                         <author>
                             <surname>De Launay</surname>
                             <forename>Louis</forename>
@@ -100,12 +101,12 @@
                     <witness xml:id="L725manuscrit">
             <msDesc type="original_manuscrit">
                             <msIdentifier>
-                                <country xmlns="">France</country>
-                                <settlement xmlns="">Paris</settlement>
-                                <institution xmlns="">Archives de l'Académie des
+                                <country>France</country>
+                                <settlement>Paris</settlement>
+                                <institution>Archives de l'Académie des
                                     sciences</institution>
-                                <repository xmlns="">Fonds André-Marie Ampère</repository>
-                                <idno xmlns="">chemise 355</idno>
+                                <repository>Fonds André-Marie Ampère</repository>
+                                <idno>chemise 355</idno>
                             </msIdentifier>
                         </msDesc>
           </witness>
@@ -156,16 +157,18 @@
     <text type="correspondance" decls="#ampere_corr_L1828-07-16-a">
         <body>
             <div>
-                <opener>
+                <opener><pb n="10" facs="#ACAS_CRHST_AMP_24_355_0010_r.jpg"/>
           <date when="1828-07-16">16 juillet 1828</date>
         </opener>
+                <opener>Mon cher fils</opener>
                 <p>
-          <gap xmlns="" reason="lacune_CGA"/> Je passe toute la journée à l'<orgName>école
-                    Polytechnique</orgName> pour l'examen des élèves. <gap xmlns="" reason="lacune_CGA"/> Je
+          <gap reason="lacune_CGA"/> Je passe toute la journée à l'<orgName>école
+                    Polytechnique</orgName> pour l'examen des élèves. <gap reason="lacune_CGA"/> Je
                     viens de donner ma dernière leçon au <orgName>Collège de <placeName>France</placeName>
           </orgName>. Mon fils est parti hier
-                    pour la <placeName>Normandie</placeName>. J'espère être près de vous et d'<persName>Albine</persName> le <date when="1828-08-20">20 août</date> <gap xmlns="" reason="lacune_CGA"/>
+                    pour la <placeName>Normandie</placeName>.<gap reason="lacune_CGA"/><pb n="11" facs="#ACAS_CRHST_AMP_24_355_0011_v.jpg"/><gap reason="lacune_CGA"/> J'espère être près de vous et d'<persName>Albine</persName> le <date when="1828-08-20">20 août</date> <gap reason="lacune_CGA"/><pb n="12" facs="ACAS_CRHST_AMP_24_355_0012_r.jpg"/><gap reason="lacune_CGA"/>
         </p>
+                <closer><pb n="13" facs="#ACAS_CRHST_AMP_24_355_0013_v.jpg"/>A monsieur <persName>Ride-Ampère</persName>, à <placeName>Bar-sur-Seine</placeName>, département de l'<placeName>Aube</placeName></closer>
             </div>
         </body>
     </text>

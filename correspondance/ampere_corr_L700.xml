@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -76,7 +77,7 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct xml:id="ampere_corr_L1826-09-09-a">
-                    <monogr xmlns="">
+                    <monogr>
                         <author>
                             <surname>De Launay</surname>
                             <forename>Louis</forename>
@@ -97,12 +98,12 @@
                     <witness xml:id="L700manuscrit">
             <msDesc type="original_manuscrit">
                             <msIdentifier>
-                                <country xmlns="">France</country>
-                                <settlement xmlns="">Paris</settlement>
-                                <institution xmlns="">Archives de l'Académie des
+                                <country>France</country>
+                                <settlement>Paris</settlement>
+                                <institution>Archives de l'Académie des
                                     sciences</institution>
-                                <repository xmlns="">Fonds André-Marie Ampère</repository>
-                                <idno xmlns="">chemise 379</idno>
+                                <repository>Fonds André-Marie Ampère</repository>
+                                <idno>chemise 379</idno>
                             </msIdentifier>
                             <physDesc>
                                 <p>Les lettres de Jean-Jacques à son père pendant le voyage
@@ -144,7 +145,7 @@
           <persName type="adressee">Ampère,
                                 André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -165,18 +166,19 @@
     <text type="correspondance" decls="#ampere_corr_L1826-09-09-a">
         <body>
             <div>
-                <opener>
+                <opener><pb n="120" facs="#ACAS_CRHST_AMP_25_379_0120_r.jpg"/>
           <date when="1826-09-09">9 septembre 1826</date>
         </opener>
                 <p>
-          <gap xmlns="" reason="lacune_CGA"/> Je suis bien triste de te voir si malheureux.
+          <gap reason="lacune_CGA"/> Je suis bien triste de te voir si malheureux.
                     Ne pourrais-tu donc jouir de cette gloire qui, quoique tu en dises, va jusqu'à
                     <placeName>Lisbonne</placeName>, de ces découvertes que tout confirme, parce que des châteaux en
                     <placeName>Espagne</placeName> d'un avenir bien incertain ne se réaliseraient pas ? Je te demande
-                    instamment de ne rien dire qui puisse laisser soupçonner que nous avons eu
+                    instamment de ne rien dire qui puisse<pb n="121" facs="#ACAS_CRHST_AMP_25_379_0121_v.jpg"/> laisser soupçonner que nous avons eu
                     ensemble une certaine conversation. Je voudrais que tu pusses l'oublier, au
-                    moins pour longtemps. Laissons ce rêve ! <gap xmlns="" reason="lacune_CGA"/>
+                    moins pour longtemps. Laissons ce rêve ! <gap reason="lacune_CGA"/>
         </p>
+                <closer><pb n="122" facs="#ACAS_CRHST_AMP_25_379_0122_v.jpg"/>A monsieur <persName>Ampère</persName>, rue des fossés S<ex>ain</ex>t Victor n°19 à <placeName>Paris</placeName></closer>
             </div>
         </body>
         <back>

@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -141,7 +142,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_A366">Ampère, André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -302,7 +303,7 @@
             <sic>apsolument</sic>
             <corr>absolument</corr>
           </choice> que tu es <gap reason="illisible"/>
-          <lb/> en quelque coin ce louis de M. <persName ref="#pers_T569">
+          <lb/> en quelque coin ce louis <ref target="#corresp2">(2)</ref> de M. <persName ref="#pers_T569">
             <choice>
               <sic>Traives</sic> <corr>Trèves</corr>
             </choice>
@@ -317,7 +318,7 @@
           </choice> avoir par <choice>
             <sic>écris</sic>
             <corr>écrit</corr>
-          </choice> cherche<lb/> bien cela et <choice>
+          </choice>. Cherche<lb/> bien cela et <choice>
             <sic>apresen</sic>
             <corr>à présent</corr>
           </choice> fais moi le plaisir<lb/> de garder tes <gap reason="illisible"/> qui te <gap reason="illisible"/>
@@ -396,7 +397,8 @@
           </choice> et prudent qu'elle veut <choice>
             <sic>avoire</sic>
             <corr>avoir</corr>
-          </choice>.<lb/> N'oublie pas des <choice>
+          </choice>.</p>
+        <p>N'oublie pas des <choice>
             <sic>nouvelle</sic>
             <corr>nouvelles</corr>
           </choice> de Jule<lb/> c'est deux mot seulement et <gap reason="illisible"/>
@@ -411,7 +413,8 @@
     </body>
     <back>
       <div>
-        <note xml:id="corresp1">(1) Trois pages in-8° et adresse sur la quatrième. (2) Les louis
+        <note xml:id="corresp1">(1) Trois pages in-8° et adresse sur la quatrième.</note>
+        <note xml:id="corresp2">(2) Les louis
           valaient 24 livres. </note>
       </div>
     </back>

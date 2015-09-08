@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1827-03-08-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,7 +100,7 @@
                <witness xml:id="L705manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <repository xmlns="">Collection particulière (héritiers du destinataire)
+                        <repository>Collection particulière (héritiers du destinataire)
                            [note de Louis DE LAUNAY]</repository>
                      </msIdentifier>
                      <physDesc>
@@ -136,7 +137,7 @@
         <correspAction type="received">
           <persName type="adressee">Quételet, Adolphe</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -157,7 +158,7 @@
    <text type="correspondance" decls="#ampere_corr_L1827-03-08-a">
       <body>
          <div>
-            <opener>
+            <opener><placeName>Paris</placeName>
           <date when="1827-03-08">8 mars 1827</date>
         </opener>
             <p>Monsieur et très cher ami, je suis vraiment honteux de n'avoir pas répondu plus tôt à
@@ -176,23 +177,27 @@
                feriez le plaisir de faire parvenir de ma part à vos savants compatriotes, MM.
                <persName>Garnier</persName>, <persName>Van der Heyden</persName>, <persName>Van Beek</persName>, <persName>
             <choice>
-              <sic>Molle</sic> <corr>[Moll]</corr>
+              <sic>Molle</sic> <corr>Moll</corr>
             </choice>
           </persName>, <persName>de Néflizz</persName> et, pour le cinquième,
-               celui à qui vous jugerez que cela pût être agréable. Je vous dois encore, Monsieur,
+               celui à qui vous jugerez que cela pût être agréable.</p>
+            <p>Je vous dois encore, Monsieur,
                un reste de compte pour des avances que vous avez faites pour moi, relativement aux
                exemplaires que vous m'avez fait parvenir par la poste. J'ai prié M. <persName>Hubert</persName> de vous
                demander dans une lettre qu'il me dit devoir vous écrire de suite, le montant de
                cette dette, afin que je le lui remette. S'il a oublié de vous le demander,
                faites-moi le plaisir de l'écrire ou à lui, ou mieux encore à moi, j'irai sur le
                champ chez lui m'acquitter, car c'est un chagrin pour moi de ne l'avoir pas encore
-               fait. Je n'ai pas reçu l'exemplaire de votre Traité d'astronomie <ref xmlns="" target="#ampere_ref_411.xml">*</ref>. Je me fais un grand plaisir de le lire et je
+               fait.</p>
+            <p>Je n'ai pas reçu l'exemplaire de votre Traité d'astronomie <ref target="#ampere_ref_411.xml">*</ref>. Je me fais un grand plaisir de le lire et je
                vous en remercie d'avance. Je pense que votre éditeur, dont je ne sais ni le nom ni
-               l'adresse, me le fera parvenir puisque vous avez eu la bonté de l'en charger. Ma sœur
+               l'adresse, me le fera parvenir puisque vous avez eu la bonté de l'en charger.</p>
+            <p>Ma sœur
                a été bien sensible au souvenir de <persName>Mme Quetelet</persName> ; elle vous prie ainsi que moi, de
-               vouloir bien lui offrir l'hommage de nos respects. Je vous prie aussi, Monsieur et
+               vouloir bien lui offrir l'hommage de nos respects.</p>
+            <p>Je vous prie aussi, Monsieur et
                bien cher ami, d'agréer celui de ma sincère amitié et de mon entier dévouement. Tout
-               à vous. <persName>A. Ampère</persName>
+               à vous.<lb/> <persName>A. Ampère</persName>
         </p>
             <closer>à M. <persName>Quetelet</persName>, professeur de mathématiques et de physique à l'<orgName>Athénée de
                <placeName>Bruxelles</placeName>
@@ -204,11 +209,7 @@
          <div>
             <note xml:id="corresp1">(1) Deux pages in-4°, adresse sur la quatrième. Communiqué par
                M. <persName>G. Quetelet</persName>.</note>
-            <note resp="CAK_commentaire">
-          <persName>Louis DE LAUNAY</persName>, dans la <title xmlns="">Correspondance du
-                  Grand <persName>Ampère</persName>
-          </title>, précise au sujet de cette lettre que le manuscrit lui a été
-               ""Communiqué par M. <persName>G. Quetelet</persName>"".</note>
+          
          </div>
       </back>
    </text>

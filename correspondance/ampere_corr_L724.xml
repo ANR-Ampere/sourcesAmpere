@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -79,7 +80,7 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct xml:id="ampere_corr_L1828-07-06-a">
-                    <monogr xmlns="">
+                    <monogr>
                         <author>
                             <surname>De Launay</surname>
                             <forename>Louis</forename>
@@ -100,12 +101,12 @@
                     <witness xml:id="L724manuscrit">
             <msDesc type="original_manuscrit">
                             <msIdentifier>
-                                <country xmlns="">France</country>
-                                <settlement xmlns="">Paris</settlement>
-                                <institution xmlns="">Archives de l'Académie des
+                                <country>France</country>
+                                <settlement>Paris</settlement>
+                                <institution>Archives de l'Académie des
                                     sciences</institution>
-                                <repository xmlns="">Fonds André-Marie Ampère</repository>
-                                <idno xmlns="">chemise 355</idno>
+                                <repository>Fonds André-Marie Ampère</repository>
+                                <idno>chemise 355</idno>
                             </msIdentifier>
                         </msDesc>
           </witness>
@@ -139,7 +140,7 @@
           <persName type="adressee">Ampère, Albine (fille d'Ampère, épouse
                                 Ride)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -160,20 +161,19 @@
     <text type="correspondance" decls="#ampere_corr_L1828-07-06-a">
         <body>
             <div>
-                <opener>
-          <date when="1828-07-06">6 juillet 1828</date>
+                <opener><pb n="5" facs="#ACAS_CRHST_AMP_24_355_0005_r.jpg"/>
+          <date when="1828-07-06">Dimanche 6 juillet 1828</date>
         </opener>
                 <p>
-          <gap xmlns="" reason="lacune_CGA"/> <persName>Mme Adrien de Jussieu</persName> est accouchée hier
-                    d'une fille <persName>Emma</persName> (1). <gap xmlns="" reason="lacune_CGA"/> [<persName>Ampère</persName> explique qu'on
-                    lui a apporté un billet à ordre de <persName>Ride</persName>, qu'il a refusé d'endosser.] Ce n'est
+                    <gap reason="lacune_CGA"/> Mme<persName> Adrien</persName> est accouchée hier
+                    d'une fille <persName>Emma</persName> <ref>(1)</ref>. <gap reason="lacune_CGA"/><pb n="6" facs="#ACAS_CRHST_AMP_24_355_0006_v.jpg"/><gap reason="lacune_CGA"/><pb n="7" facs="#ACAS_CRHST_AMP_24_355_0007_r.jpg"/> Ce n'est
                     pas quand je me suis endetté de 13000 francs pour le mariage et pour vous faire
-                    un appartement qui vous plût que je puis endosser des billets. J'ai bien assez
-                    de ceux que je souscris <gap xmlns="" reason="lacune_CGA"/> Heureusement que mon
+                    un appartement qui vous plût<pb n="8" facs="#ACAS_CRHST_AMP_24_355_0008_v.jpg"/> que je puis endosser des billets. J'ai bien assez
+                    de ceux que je souscris <gap reason="lacune_CGA"/> Heureusement que mon
                     fils va aller en <placeName>Normandie</placeName> pour deux mois et moi à la campagne chez <persName>Beudant</persName> dans
-                    une dizaine de jours jusqu'à la distribution des prix <gap xmlns="" reason="lacune_CGA"/> (2).</p>
-                <closer>A Madame <persName>Gabriel Ride</persName>, au château de <placeName>Courtemot</placeName>, chez M. <persName>Alphonse Ride</persName>,
-                    receveur de l'arrondissement de <placeName>Troyes</placeName>, à <placeName>Bar-sur-Seine</placeName>
+                    une dizaine de jours jusqu'à la distribution des prix <gap reason="lacune_CGA"/> <ref target="#corresp2">(2)</ref>.</p>
+                
+                <closer><pb n="9" facs="#ACAS_CRHST_AMP_24_355_0009_r.jpg"/>A Madame <persName>Ride-Ampère</persName>, à <placeName>Bar-sur-Seine</placeName> département de l'<placeName>Aube</placeName>. Pour le château de Courtenot de M. <persName>Alphonse Ride</persName>, receveur de l'arrondissement de <placeName>Troyes</placeName>
         </closer>
             </div>
         </body>
@@ -182,7 +182,8 @@
                 <note xml:id="corresp1">(1) <persName>Adrien de Jussieu</persName>, fils d'<persName>Antoine-Laurent de Jussieu</persName>
                     (<date from-iso="1797" to-iso="1853">1797-1853</date>), botaniste, concurrent d'<persName>Adolphe Brongniart</persName> à l'<orgName>Institut</orgName>, avait,
                     comme nous l'avons dit, épousé sa cousine germaine, <persName>Félicie</persName>, fille de <persName>Bernard de
-                    Jussieu</persName> (de <placeName>Lyon</placeName>), dont <persName>Jean-Jacques Ampère</persName> avait été un moment amoureux. (2)
+                    Jussieu</persName> (de <placeName>Lyon</placeName>), dont <persName>Jean-Jacques Ampère</persName> avait été un moment amoureux.</note>
+                <note xml:id="corresp2">(2)
                     <persName>Beudant</persName> avait été, comme on l'a vu, le concurrent d'<persName>Ampère</persName> au <orgName>Collège de <placeName>France</placeName>
           </orgName>.
                     Leurs relations ne semblent pas en avoir souffert. </note>

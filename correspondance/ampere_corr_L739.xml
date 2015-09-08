@@ -1,3 +1,4 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -82,7 +83,7 @@
       </publicationStmt>
       <sourceDesc>
         <biblStruct xml:id="ampere_corr_L1830-03-00-a">
-                        <monogr xmlns="">
+                        <monogr>
                            <author>
                               <surname>De Launay</surname>
                               <forename>Louis</forename>
@@ -103,11 +104,11 @@
           <witness xml:id="L739manuscrit">
             <msDesc type="original_manuscrit">
               <msIdentifier>
-                <country xmlns="">France</country>
-                  <settlement xmlns="">Paris</settlement>
-                  <institution xmlns="">Archives de l'Académie des sciences</institution>
-                  <repository xmlns="">Fonds André-Marie Ampère</repository>
-                <idno xmlns="">chemise 369</idno>
+                <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                <idno>chemise 369</idno>
               </msIdentifier>
               <physDesc>
                 <p>Deux pages sans terminaison ni adresse.</p>
@@ -145,7 +146,7 @@
         <correspAction type="received">
           <persName type="adressee">?</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">[destinataire non identifié] (1)</ref>
         </note>
       </correspDesc>
@@ -166,42 +167,44 @@
     <body>
       <div>
         <opener>[Mars 1830]</opener>
-        <p>Monsieur, mon fils m'ayant envoyé de Marseille la lettre que
+        <opener><pb n="32" facs="#ACAS_CRHST_AMP_25_369_0032_r.jpg"/>Monsieur,</opener>
+        <p> mon fils m'ayant envoyé de <placeName>Marseille</placeName> la lettre que
                 vous lui avec écrite relativement à ce qui me concerne, j'y ai trouvé, en la lisant,
                 trop de marques d'un vif intérêt pour moi, pour ne pas désirer vous en exprimer ma
                 reconnaissance, et c'est ce que je vous prie de me permettre de faire aujourd'hui.
                 Il est certain que je suis complètement guéri, qu'une inspection ne peut nuire en
                 rien à ma santé et tout ce que je désire c'est d'être compris parmi les inspecteurs
                 généraux qui seront chargés d'en faire cette année. J'y mets une telle importance
-                que, pourvu que mes voeux à cet égard soient exaucés, je serai satisfait ; mais je
+                que, pourvu que mes vœux à cet égard soient exaucés, je serai satisfait ; mais je
                 le serais plus encore si c'était une des inspections qui auront lieu dans le midi de
-                la France, parce que je sais combien ma poitrine s'est toujours trouvée affectée
+                la <placeName>France</placeName>, parce que je sais combien ma poitrine s'est toujours trouvée affectée
                 quand j'ai été exposé à des temps froids ou humides, tandis que l'air sec et chaud
-                m'a toujours été on ne peut plus salutaire. Je me proposais cependant de me rendre à
-                Paris à l'expiration de mon congé. L'opinion des médecins qui m'ont soigné à Paris
-                et à Lyon, que me transmettaient comme de concert tous mes amis et celle du médecin
-                que j'ai consulté ici, sur la nécessité d'attendre tout à [fait] le retour de la
-                belle saison avant de quitter le midi de la France, dans la crainte d'une rechute,
-                enfin une lettre de M. de Mussy sur ce sujet, m'ont fait suspendre momentanément mon
+                m'a toujours été on ne peut plus salutaire.</p>
+        <p>Je me proposais cependant de me rendre à
+          <placeName>Paris</placeName> à l'expiration de mon congé. L'opinion<pb n="33" facs="#ACAS_CRHST_AMP_25_369_0033_v.jpg"/> des médecins qui m'ont soigné à <placeName>Paris</placeName>
+                et à <placeName>Lyon</placeName>, que me transmettaient comme de concert tous mes amis et celle du médecin
+                que j'ai consulté ici, sur la nécessité d'attendre tout à<supplied> fait</supplied> le retour de la
+                belle saison avant de quitter le midi de la <placeName>France</placeName>, dans la crainte d'une rechute,
+                enfin une lettre de M. <persName>de Mussy</persName> sur ce sujet, m'ont fait suspendre momentanément mon
                 retour à Paris et m'ont déterminé à écrire au ministre pour le prier de vouloir bien
-                me faire savoir si je devais venir chercher des ordres à Paris ou s'il trouverait
-                bon que je les attendisse à Lyon avec le collègue qu'il lui plairait de m'adjoindre,
+                me faire savoir si je devais venir chercher des ordres à <placeName>Paris</placeName> ou s'il trouverait
+                bon que je les attendisse à <placeName>Lyon</placeName> avec le collègue qu'il lui plairait de m'adjoindre,
                 après toutefois que je lui ai exposé combien le rétablissement complet de ma santé
                 me faisait désirer qu'il me confiât une inspection cette année, dans le midi de la
-                France si cela se pouvait : sinon une inspection quelconque. Tel était l'avis des
-                médecins et de M. de Mussy. J'hésitais cependant à le suivre dans la crainte que mon
-                absence de Paris à l'époque où l'on règlerait tout ce qui est relatif aux
+                <placeName>France</placeName> si cela se pouvait : sinon une inspection quelconque. Tel était l'avis des
+                médecins et de M. <persName>de Mussy</persName>. J'hésitais cependant à le suivre dans la crainte que mon
+                absence de <placeName>Paris</placeName> à l'époque où l'on réglerait tout ce qui est relatif aux
                 inspections ne pût diminuer la chance que j'avais d'en obtenir une. Ce que vous avez
                 eu la bonté d'écrire à mon fils m'a rassuré. J'y ai vu que j'avais en vous au
                 ministère un ami qui veillerait à mes intérêts quoique je fusse absent et je viens,
-                Monsieur, vous les confier de nouveau. <gap xmlns="" reason="lacune_CGA"/>
+                Monsieur, vous les confier de nouveau. <gap reason="lacune"/>
         </p>
       </div>
     </body>
     <back>
       <div>
         <note xml:id="corresp1">(1) Deux pages sans terminaison ni adresse, peut-être
-                adressées à M. de Luynes, Edwards ou Rendu.</note>
+                adressées à M. <persName>de Luynes</persName>, <persName>Edwards</persName> ou <persName>Rendu</persName>.</note>
       </div>
     </back>
   </text>

@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1828-04-19-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,7 +100,7 @@
                <witness xml:id="L722manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <repository xmlns="">Collection particulière (héritiers du
+                        <repository>Collection particulière (héritiers du
                            destinataire)</repository>
                      </msIdentifier>
                      <physDesc>
@@ -137,7 +138,7 @@
         <correspAction type="received">
           <persName type="adressee">Quételet, Adolphe</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -158,7 +159,7 @@
    <text type="correspondance" decls="#ampere_corr_L1828-04-19-a">
       <body>
          <div>
-            <opener>
+            <opener><placeName>Paris</placeName>
           <date when="1828-04-19">19 avril 1828</date>
         </opener>
             <p>Monsieur et très cher ami, je me hâte de répondre à la lettre que vous m'avez fait le
@@ -175,7 +176,8 @@
                prendre le nombre que vous jugerez suffisant pour qu'après en avoir remis aux savants
                de votre pays, vous puissiez en offrir de ma part aux professeurs de physique des
                universités que vous allez visiter, et à d'autres personnes des villes d'<placeName>Allemagne</placeName> où
-               vous passerez qui s'occupent de cette branche de nos connaissances. Je vous remercie
+               vous passerez qui s'occupent de cette branche de nos connaissances.</p>
+            <p>Je vous remercie
                d'avance de ce service pour lequel je compte sur votre obligeance et votre amitié
                pour moi. Vous me feriez bien plaisir d'écrire sur ces exemplaires et ceux dont vous
                me parlez les noms de chaque physicien avec le De la part de l'auteur. Je vous
@@ -185,23 +187,22 @@
                envois à M. <persName>Bachelier</persName>, libraire à <placeName>Paris</placeName>, qui a bien voulu se charger de me les
                remettre aussitôt qu'ils seront arrivés à <placeName>Paris</placeName>, peu de jours après qu'ils auront été
                remis à cette librairie où vous pourrez envoyer à l'avenir tout ce que votre
-               obligeance serait dans le cas de vouloir bien me faire parvenir. Je crois l'avoir
+               obligeance serait dans le cas de vouloir bien me faire parvenir.</p>
+            <p>Je crois l'avoir
                indiquée à M. <persName>Hayez</persName> comme m'offrant le meilleur moyen de recevoir les exemplaires de
                mon Mémoire ; mais je n'avais alors que le nom et non l'adresse de la librairie
                parisienne ; c'est pour (quoi) vous me rendriez encore un bien grand service en
                faisant remettre à M. <persName>Hayez</persName> l'adresse que je joins ici telle que vient de me la
-               donner M. <persName>Bachelier</persName>. [Une fiche épinglée porte : Je prie M. <persName>Hayez</persName> de remettre les
-               exemplaires de mon Mémoire à la Librairie parisienne, <placeName>rue de la Montagne, n° 348</placeName>,
-               après qu'il aura remis à M. <persName>Quetelet</persName> ceux qui sont pour lui. Son dévoué serviteur :
-               <persName>A. Ampère</persName>] Je vous prie de présenter l'hommage de mon profond respect à <persName>Mme Quetelet</persName>.
+               donner M. <persName>Bachelier</persName>. <ref target="#corresp2">(2)</ref></p>
+            <p>Je vous prie de présenter l'hommage de mon profond respect à <persName>Mme Quetelet</persName>.
                Vous savez quelle amitié je conserverai toute ma vie pour vous et combien je serais
                heureux de vous revoir à <placeName>Paris</placeName>, si vos occupations vous permettaient d'y faire un
                nouveau voyage. Je vous prie, Monsieur et très cher ami, de vouloir bien agréer
-               l'assurance de mes sentiments les plus dévoués et les plus affectueux. <persName>A. Ampère</persName>
+               l'assurance de mes sentiments les plus dévoués et les plus affectueux.<lb/>
+               <persName>A. Ampère</persName>
         </p>
             <closer>à M. <persName>Quetelet</persName>, membre de l'<orgName>Académie royale des Sciences de <placeName>Bruxelles</placeName>
-          </orgName>, professeur
-               d'astronomie au lycée et à l'<orgName>Athénée royal</orgName>, etc., à <placeName>Bruxelles</placeName>, royaume des <placeName>Pays-Bas</placeName>
+          </orgName>, professeur d'astronomie au lycée et à l'<orgName>Athénée royal</orgName>, etc., à <placeName>Bruxelles</placeName>, royaume des <placeName>Pays-Bas</placeName>
             </closer>
          </div>
       </body>
@@ -209,11 +210,10 @@
          <div>
             <note xml:id="corresp1">(1) Trois pages in-4°, avec adresse sur la quatrième. Communiqué
                par M. <persName>G. Quetelet</persName>.</note>
-            <note resp="CAK_commentaire">
-          <persName>Louis DE LAUNAY</persName>, dans la <title xmlns="">Correspondance du
-                  Grand <persName>Ampère</persName>
-          </title>, précise au sujet de cette lettre, que le manuscrit lui a été
-               ""Communiqué par M. <persName>G. Quetelet</persName>"".</note>
+            <note xml:id="corresp2">Une fiche épinglée porte : Je prie M. <persName>Hayez</persName> de remettre les
+               exemplaires de mon Mémoire à la Librairie parisienne, <placeName>rue de la Montagne, n° 348</placeName>,
+               après qu'il aura remis à M. <persName>Quetelet</persName> ceux qui sont pour lui. Son dévoué serviteur :
+               <persName>A. Ampère</persName></note>
          </div>
       </back>
    </text>
