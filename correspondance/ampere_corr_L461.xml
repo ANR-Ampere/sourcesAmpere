@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -159,11 +158,12 @@
    </teiHeader>
    <text type="correspondance" decls="#ampere_corr_L1813-11-30-a">
       <body>
-         <div>
+         <div xml:id="L1813-11-30-a-div1">
             <opener>
-          <date when="1813-11-30">30 novembre <date when="1813-11-02">[2 novembre 1813]</date></date>
+          <date when="1813-11-30">30 novembre <date when="1813-11-02">[2 novembre 1813]</date>
+          </date>
         </opener>
-            <p>Cher frère et bon ami. Nous partons enfin dans deux heures, ta femme paraît aller
+            <p xml:id="L1813-11-30-a-p1">Cher frère et bon ami. Nous partons enfin dans deux heures, ta femme paraît aller
                mieux. <persName>éliza</persName> est de la meilleure santé. Nous serons à <placeName>Paris</placeName> probablement mercredi
                soir. Nous sommes quatre dans la voiture parce qu'on a pensé, et je trouve avec
                beaucoup de raison, que la garde de ta femme l'accompagnerait jusqu'à <placeName>Paris</placeName>. C'est
@@ -173,8 +173,9 @@
                grandes douleurs, mais n'est jamais véritablement dangereuse pour la vie. Il répond
                qu'il ne peut y avoir d'accidents en route et qu'au contraire elle en sera infiniment
                mieux.</p>
-            <p>Adieu, mon bien bon ami, je t'aime et t'embrasse de toute mon âme.</p>
-            <p><persName>A.
+            <p xml:id="L1813-11-30-a-p2">Adieu, mon bien bon ami, je t'aime et t'embrasse de toute mon âme.</p>
+            <p xml:id="L1813-11-30-a-p3">
+          <persName>A.
                Ampère</persName>
         </p>
             <closer>A M. <persName>Carron</persName>, <placeName>rue du Faubourg,-Saint-Denis, n° 19</placeName>, à <placeName>Paris</placeName>
@@ -182,8 +183,8 @@
          </div>
       </body>
       <back>
-         <div>
-            <note xml:id="corresp1">(1) Coll. <persName>Bodin</persName>. Deux pages 14 x 21, adresse sur la
+         <div xml:id="L1813-11-30-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Coll. <persName>Bodin</persName>. Deux pages 14 x 21, adresse sur la
                quatrième.</note>
          </div>
       </back>

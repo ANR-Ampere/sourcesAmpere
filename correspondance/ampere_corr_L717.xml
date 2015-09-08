@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -156,17 +155,24 @@
     </teiHeader>
     <text type="correspondance" decls="#ampere_corr_L1827-11-12-a">
         <body>
-            <div>
-                <opener><pb n="14" facs="#ACAS_CRHST_AMP_24_354_0014_r.jpg"/>
-          <date when="1827-11-12">12 <choice><abbr>9bre</abbr> <expan>novembre</expan></choice> 1827</date>
+            <div xml:id="L1827-11-12-a-div1">
+                <opener>
+          <pb n="14" facs="#ACAS_CRHST_AMP_24_354_0014_r.jpg"/>
+          <date when="1827-11-12">12 <choice>
+              <abbr>9bre</abbr> <expan>novembre</expan>
+            </choice> 1827</date>
         </opener>
                 <opener>Monsieur</opener>
-                <p>
+                <p xml:id="L1827-11-12-a-p1">
            Le certificat de la mairie pour ma fille a
                     été fait ce matin. <gap reason="lacune_CGA"/> Ma sœur et ma fille vont
                     chez <persName>Mmes Potot</persName> et <persName>Ampère</persName> <gap reason="lacune_CGA"/>
-                    <pb n="15" facs="#ACAS_CRHST_AMP_24_354_0015_v.jpg"/><gap reason="lacune_CGA"/></p>
-                <closer><pb n="16" facs="#ACAS_CRHST_AMP_24_354_0016_v.jpg"/>Monsieur <persName>Ride</persName>, chef d'escadron porte-étendard dans les gardes du corps. <placeName>Paris</placeName></closer>
+                    <pb n="15" facs="#ACAS_CRHST_AMP_24_354_0015_v.jpg"/>
+          <gap reason="lacune_CGA"/>
+        </p>
+                <closer>
+          <pb n="16" facs="#ACAS_CRHST_AMP_24_354_0016_v.jpg"/>Monsieur <persName>Ride</persName>, chef d'escadron porte-étendard dans les gardes du corps. <placeName>Paris</placeName>
+        </closer>
             </div>
         </body>
     </text>

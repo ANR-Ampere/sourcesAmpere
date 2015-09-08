@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -158,12 +157,14 @@
    </teiHeader>
    <text type="correspondance" decls="#ampere_corr_L1815-04-25-a">
       <body>
-         <div>
+         <div xml:id="L1815-04-25-a-div1">
             <opener>
           <date when="1815-04-25">25 avril 1815</date>
         </opener>
-            <opener><placeName>Paris</placeName>, <date when="1815-04-25">25 avril 1815</date> <ref target="#corresp1">(1)</ref></opener>
-            <p>
+            <opener>
+          <placeName>Paris</placeName>, <date when="1815-04-25">25 avril 1815</date> <ref target="#corresp1">(1)</ref>
+        </opener>
+            <p xml:id="L1815-04-25-a-p1">
            Votre lettre, mon cher ami, m'a fait un plaisir que je ne
                peux vous peindre. Je roulais déjà depuis longtemps dans ma tête le projet d'aller à
                <placeName>Lyon</placeName>, l'espoir de vous y voir me déciderait si j'en étais absolument libre ; mais il
@@ -182,7 +183,9 @@
                conversations, et que les esprits offrent l'image de la tour de <placeName>Babel</placeName>. J'ai juste le
                temps de recevoir une lettre de vous, mon cher ami, avant mon départ projeté pour les
                premiers jours de mai.</p>
-            <p><date when="1815-04-28">28 avril</date><lb/>
+            <p xml:id="L1815-04-25-a-p2">
+          <date when="1815-04-28">28 avril</date>
+          <lb/>
                Voilà trois jours, mon cher ami, que cette lettre est
                commencée. Je voulais, avant de la finir, avoir vu M. <persName>de Lacépède</persName> pour vous écrire si
                j'avais obtenu de lui l'autorisation d'aller passer quelque temps avec vous et
@@ -197,7 +200,8 @@
                de finir cette lettre pour qu'elle parte aujourd'hui. Dès que je saurai mon sort, je
                me mettrai en route si je le puis. Voici comme vous saurez la décision dès que je la
                saurai moi-même.</p>
-            <p><persName>Bredin</persName> m'a écrit une lettre qui a été un baume pour tout ce que je
+            <p xml:id="L1815-04-25-a-p3">
+          <persName>Bredin</persName> m'a écrit une lettre qui a été un baume pour tout ce que je
                souffre. J'ai commencé aujourd'hui une réponse que je ne ferai partir que mardi pour
                lui annoncer en même temps mon voyage s'il peut avoir lieu. Il me dit que vous
                demeurez ensemble, ce qui m'a comblé de joie hier au soir en recevant votre lettre.
@@ -212,16 +216,17 @@
                âme de la douce pensée que quelqu'un s'intéresse encore à moi dans le monde. Je me
                ronge de la pensée de l'avenir, je cherche en vain à me faire quelque illusion un peu
                moins désolante que les réalités que j'entrevois.</p>
-            <p>Adieu, bien cher ami, je n'ai qu'un
+            <p xml:id="L1815-04-25-a-p4">Adieu, bien cher ami, je n'ai qu'un
                seul désir celui de me retrouver auprès de vous deux. Encore quelques instants
                heureux ou seulement moins tristes dans ma vie, voilà toute mon ambition. Je vous
-               aime et vous embrasse de toute mon âme. <ref target="#corresp2">(2)</ref></p>
+               aime et vous embrasse de toute mon âme. <ref target="#corresp2">(2)</ref>
+        </p>
          </div>
       </body>
       <back>
-         <div>
-            <note xml:id="corresp1">(1) Coll. <persName>A. Cornu</persName>. Quatre pages 17 x 21,4, sans adresse.</note>
-            <note xml:id="corresp2">(2) Sans signature.</note>
+         <div xml:id="L1815-04-25-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Coll. <persName>A. Cornu</persName>. Quatre pages 17 x 21,4, sans adresse.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) Sans signature.</note>
            
          </div>
       </back>

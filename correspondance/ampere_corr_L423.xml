@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -159,28 +158,37 @@
     </teiHeader>
     <text type="correspondance" decls="#ampere_corr_L1812-09-02-a">
         <body>
-            <div>
-                <opener><pb n="268" facs="#ACAS_CRHST_AMP_24_334_0268_r.jpg"/>
+            <div xml:id="L1812-09-02-a-div1">
+                <opener>
+          <pb n="268" facs="#ACAS_CRHST_AMP_24_334_0268_r.jpg"/>
           <date when="1812-09-02">2 sept<ex>embre</ex> 1812</date>
         </opener>
-                <p>
+                <p xml:id="L1812-09-02-a-p1">
           <gap reason="lacune_CGA"/> Fais tout ce que tu pourras pour venir ! Je
                     t'attendrai, je reste à <placeName>Lyon</placeName> tout exprès. Mais tu feras tout pour venir, je le sais tu es si bon pour moi. Ce portrait !
                     <ref target="#corresp2">(2)</ref> Je voudrais bien pouvoir te gronder, tu le mériterais ; mais le plaisir
                     qu'il me fait l'emporte sur ma raison. Je n'ai pas la force de gronder ; il est
-                    très beau, mais trop beau.<gap reason="lacune_CGA"/><pb n="269" facs="#ACAS_CRHST_AMP_24_334_0269_v.jpg"/><gap reason="lacune_CGA"/></p>
-                <p>Je ne comprends presque rien aux choses dont tu me
+                    très beau, mais trop beau.<gap reason="lacune_CGA"/>
+          <pb n="269" facs="#ACAS_CRHST_AMP_24_334_0269_v.jpg"/>
+          <gap reason="lacune_CGA"/>
+        </p>
+                <p xml:id="L1812-09-02-a-p2">Je ne comprends presque rien aux choses dont tu me
                     parles dans tes trois dernières ; je ne m'en forme que des images bien
                     imparfaites ; mais tu me les expliqueras, n'est-ce pas ?</p>
-                <p><gap reason="lacune_CGA"/><pb n="270" facs="#ACAS_CRHST_AMP_24_334_0270_r.jpg"/><gap reason="lacune_CGA"/></p>
-                <closer><pb n="271" facs="#ACAS_CRHST_AMP_24_334_0271_v.jpg"/>A Monsieur <persName>Ampère</persName>, <placeName>Cour du Commerce, n° 19</placeName>, près la <placeName>rue des
+                <p xml:id="L1812-09-02-a-p3">
+          <gap reason="lacune_CGA"/>
+          <pb n="270" facs="#ACAS_CRHST_AMP_24_334_0270_r.jpg"/>
+          <gap reason="lacune_CGA"/>
+        </p>
+                <closer>
+          <pb n="271" facs="#ACAS_CRHST_AMP_24_334_0271_v.jpg"/>A Monsieur <persName>Ampère</persName>, <placeName>Cour du Commerce, n° 19</placeName>, près la <placeName>rue des
                     Fossés-Saint-Germain</placeName>. </closer>
             </div>
         </body>
         <back>
-            <div>
-                <note xml:id="corresp1">(1) Trois pages in-4° avec adresse.</note>
-                <note xml:id="corresp2">(2) <persName>Ampère</persName> avait envoyé
+            <div xml:id="L1812-09-02-a-div2">
+                <note resp="#CGA" xml:id="corresp1">(1) Trois pages in-4° avec adresse.</note>
+                <note resp="#CGA" xml:id="corresp2">(2) <persName>Ampère</persName> avait envoyé
                     à <persName>Bredin</persName> son portrait, peint par une dame pour laquelle il semble avoir éprouvé
                     un instant de fantaisie ou tout au moins de compassion (Lettre 0396). Voir
                     Lettres 0424 et 0429. </note>

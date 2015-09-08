@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -160,12 +159,13 @@
    </teiHeader>
    <text type="correspondance" decls="#ampere_corr_L1825-00-00-b">
       <body>
-         <div>
+         <div xml:id="L1825-00-00-b-div1">
             <opener>
           <date when-iso="1825">[1825 ?]</date>
         </opener>
-            <opener><pb n="859" facs="#ACAS_CRHST_AMP_26_393_quarto_0131_r.jpg"/>Monsieur,</opener>
-            <p> en lisant avec le plus vif intérêt les additions dont vous venez d'enrichir
+            <opener>
+          <pb n="859" facs="#ACAS_CRHST_AMP_26_393_quarto_0131_r.jpg"/>Monsieur,</opener>
+            <p xml:id="L1825-00-00-b-p1"> en lisant avec le plus vif intérêt les additions dont vous venez d'enrichir
                votre excellent <title>Traité de Géométrie élémentaire</title>, j'ai remarqué surtout la
                démonstration contenue dans la note de la page 163 et qui a été trouvée par M.
                <persName>Fournier</persName>. Cette découverte m'a paru d'autant plus importante qu'il restait auparavant
@@ -184,7 +184,7 @@
                avait remis mon mémoire à M.<pb n="861" facs="#ACAS_CRHST_AMP_26_393_quarto_0133_r.jpg"/> <persName>Guyton de Morveau</persName> qui s'était chargé de le faire passer
                à M. <persName>Legendre</persName> et qu'ayant fait prendre des renseignements à ce sujet auprès de ce
                célèbre chimiste, j'ai su qu'il n'en avait jamais entendu parler.</p>
-            <p>Ce mémoire ne
+            <p xml:id="L1825-00-00-b-p2">Ce mémoire ne
                contenait pas seulement la démonstration de l'égalité de deux prismes triangulaires
                inverses ou symétriques, mais encore celle de l'égalité de deux pyramides
                triangulaires <gap reason="lacune_CGA"/> ou inverses et, par conséquent, de
@@ -194,8 +194,8 @@
          </div>
       </body>
       <back>
-         <div>
-            <note xml:id="corresp1">(1) La lettre de trois pages in-4° est inachevée et sans
+         <div xml:id="L1825-00-00-b-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) La lettre de trois pages in-4° est inachevée et sans
                adresse.</note>
          </div>
       </back>

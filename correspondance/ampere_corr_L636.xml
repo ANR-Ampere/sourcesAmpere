@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -156,12 +155,13 @@
    </teiHeader>
    <text type="correspondance" decls="#ampere_corr_L1823-02-10-a">
       <body>
-         <div>
-            <opener><placeName>¨Paris</placeName>
+         <div xml:id="L1823-02-10-a-div1">
+            <opener>
+          <placeName>¨Paris</placeName>
           <date when="1823-02-10">10 février 1823</date>
         </opener>
             <opener>Monsieur et très cher ami,</opener>
-            <p> Je vous ai annoncé il y a une huitaine les résultats si
+            <p xml:id="L1823-02-10-a-p1"> Je vous ai annoncé il y a une huitaine les résultats si
                remarquables obtenus par <persName>Savary</persName> et de <persName>
             <choice>
               <sic>Monferrand</sic> <corr>Demonferrand</corr>
@@ -173,7 +173,7 @@
                courants électriques tournant autour de chacune de leurs particules ; le second en se
                bornant à appliquer la même formule au cas où l'action s'exerce entre le conducteur
                rectiligne et un aimant.</p>
-            <p>Je vous enverrai dans quelques jours, dès qu'il sera tiré,
+            <p xml:id="L1823-02-10-a-p2">Je vous enverrai dans quelques jours, dès qu'il sera tiré,
                un exposé méthodique des phénomènes électro-dynamiques et des lois de ces phénomènes
                plus complet que celui que j'ai envoyé et contenant le précis des travaux de ces deux
                physiciens. Je viens de rédiger la partie nouvelle de cet exposé méthodique. J'ai
@@ -187,11 +187,17 @@
                demandés et que je vous avais ensuite prié, s'il en était encore temps, de changer
                en 339, 341, etc. Si cela ne se peut pas, le seul inconvénient c'est que ces pages de
                mon Recueil seront mal numérotées : car, pressé par le désir de publier du moins un
-               précis des résultats obtenus par MM. <persName>Savary</persName> et <persName><choice><choice><sic>Monferrand</sic> <corr>Demonferrand</corr></choice></choice></persName>, résultats
+               précis des résultats obtenus par MM. <persName>Savary</persName> et <persName>
+            <choice>
+              <choice>
+                <sic>Monferrand</sic> <corr>Demonferrand</corr>
+              </choice>
+            </choice>
+          </persName>, résultats
                qui me paraissent une vraie démonstration de ma théorie, je viens de mettre le bon à
                tirer aux dernières pages du nouvel exposé méthodique dont la dernière porte le n°
                342.</p>
-            <p>Je serais bien heureux si cette lettre vous arrive assez à temps pour que les
+            <p xml:id="L1823-02-10-a-p3">Je serais bien heureux si cette lettre vous arrive assez à temps pour que les
                pages suivantes soient numérotées 343, 344, etc. ; mais quoi qu'il en soit, je serai
                satisfait si ce que vous m'avez annoncé devoir paraître dans la <title>Bibliothèque
                universelle</title> y paraît en effet. Je l'ai cherché inutilement dans le numéro de
@@ -202,7 +208,7 @@
                d'en faire tous mes remerciements ! Je désirerais recevoir, avec les 300
                exemplaires, la note de ce que je devrai tant pour eux que pour les 300 exemplaires
                de votre mémoire que j'ai reçus dans le temps.</p>
-            <p>D'après ce que vous m'avez dit à
+            <p xml:id="L1823-02-10-a-p4">D'après ce que vous m'avez dit à
                <placeName>Genève</placeName>, j'espère que vous viendrez à <placeName>Paris</placeName> au printemps prochain, et que vous ne me
                refuserez pas d'accepter chez moi le logement qui y est préparé pour vous. Que de
                choses à vous communiquer si j'ai le bonheur que vous demeuriez chez moi, comme,
@@ -217,8 +223,8 @@
          </div>
       </body>
       <back>
-         <div>
-            <note xml:id="corresp1">(1) <orgName>Bibliothèque publique et universitaire de <placeName>Genève</placeName>
+         <div xml:id="L1823-02-10-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) <orgName>Bibliothèque publique et universitaire de <placeName>Genève</placeName>
           </orgName>.</note>
          </div>
       </back>

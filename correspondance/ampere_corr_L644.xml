@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -156,12 +155,12 @@
    </teiHeader>
    <text type="correspondance" decls="#ampere_corr_L1823-09-23-a">
       <body>
-         <div>
+         <div xml:id="L1823-09-23-a-div1">
             <opener>
           <date when="1823-09-23">23 septembre 1823</date>
         </opener>
             <opener>Monsieur,</opener>
-            <p> J'ai mille remerciements à vous faire de votre mémoire sur la liquéfaction
+            <p xml:id="L1823-09-23-a-p1"> J'ai mille remerciements à vous faire de votre mémoire sur la liquéfaction
                des gaz dont vous avez eu la bonté de m'envoyer un exemplaire. Je crois que j'ai un
                autre remerciement à vous faire au sujet des feuilles destinées à compléter mon
                recueil d'observations d'électrodynamique, dont M. <persName>Pouillet</persName> s'était chargé de vous
@@ -178,26 +177,36 @@
                d'incomplets à <placeName>Londres</placeName> dans les mains de personnes de votre connaissance, vous me
                feriez bien plaisir de leur dire qu'en m'écrivant ce qui leur manque je le leur
                enverrai de suite.</p>
-            <p>J'ai eu enfin hier le plaisir que j'espérais goûter plus tôt de
+            <p xml:id="L1823-09-23-a-p2">J'ai eu enfin hier le plaisir que j'espérais goûter plus tôt de
                vous voir nommé par l'<orgName>Académie des Sciences de <placeName>Paris</placeName>
           </orgName> au nombre de ses Correspondants
                <ref target="#corresp2">(2)</ref>. Je sais qu'il y a peu de savants qui y eussent plus de droits et cette justice
                rendue à vos nombreuses et importantes découvertes est une chose en même temps bien
                heureuse pour moi puisque je deviens ainsi le collègue d'un des hommes qui m'ont
                montré les sentiments d'un ami et à qui je m'enorgueillis de pouvoir donner ce nom.</p>
-            <p>
+            <p xml:id="L1823-09-23-a-p3">
                Je vous prie de recevoir les assurances de cette amitié que je vous ai vouée et de la
                haute considération avec laquelle j'ai l'honneur d'être, Monsieur, Votre très humble
                et très obéissant serviteur.<lb/>
-               <persName>A. Ampère</persName></p></div>
-         <div><head>Traduction anglaise publiée dans <persName>Frank A. J.</persName>
-               <persName>L. James</persName> (ed.), <title>The Correspondence of <persName>Michael Faraday</persName></title>, <placeName>London</placeName> : IEE, vol. 1
+               <persName>A. Ampère</persName>
+        </p>
+      </div>
+         <div xml:id="L1823-09-23-a-div2">
+        <head>Traduction anglaise publiée dans <persName>Frank A. J.</persName>
+               <persName>L. James</persName> (ed.), <title>The Correspondence of <persName>Michael Faraday</persName>
+          </title>, <placeName>London</placeName> : IEE, vol. 1
                (<date from-iso="1811-00-00" to-iso="1831-00-00">1811-1831</date>), <date when-iso="1991">1991</date>, Letter 211. (localisation du manuscrit : <orgName>Deutsches Museum</orgName>
                Handschrift 3322)</head>
-            <opener><foreign xml:lang="eng">
-               <placeName>Paris</placeName>,<date when="1823-09-23"> 23 September 1823</date></foreign></opener>
-            <opener><foreign xml:lang="eng"> Sir,</foreign></opener>
-            <p><foreign xml:lang="eng"> I owe you a thousand thanks for your
+            <opener>
+          <foreign xml:lang="eng">
+               <placeName>Paris</placeName>,<date when="1823-09-23"> 23 September 1823</date>
+          </foreign>
+        </opener>
+            <opener>
+          <foreign xml:lang="eng"> Sir,</foreign>
+        </opener>
+            <p xml:id="L1823-09-23-a-p4">
+          <foreign xml:lang="eng"> I owe you a thousand thanks for your
                paper on the liquefaction of gases of which you so kindly sent me a copy. I believe
                that I must thank you also for the pages destined to complete my collection of
                electro-dynamic observations, of which Mr. <persName>Pouillet</persName> undertook to give you several
@@ -214,27 +223,31 @@
                you asked them to write to me as to what they are missing and I shall send it to them
                by return.</foreign>
                </p>
-            <p><foreign xml:lang="eng">I at last had the pleasure yesterday that I had hoped to experience
+            <p xml:id="L1823-09-23-a-p5">
+          <foreign xml:lang="eng">I at last had the pleasure yesterday that I had hoped to experience
                earlier, of seeing you nominated by the <orgName>Académie des Sciences</orgName> in <placeName>Paris</placeName> to the number
                of its Correspondents. I know few philosophers who have more right to this and this
                justice done to your numerous and important discoveries is at the same time a very
                happy event for me since I thus become the Colleague of one of the men who has shown
                me the feelings of a friend and to whom I prided myself on being able to give this
-               name.</foreign></p>
-            <p><foreign xml:lang="eng">I beg you to accept the assurances of this friendship which I have vowed to you
+               name.</foreign>
+        </p>
+            <p xml:id="L1823-09-23-a-p6">
+          <foreign xml:lang="eng">I beg you to accept the assurances of this friendship which I have vowed to you
                and of the high regard with which I have the honour of being, Sir Your very humble
                and very obedient Servant<lb/>
                <persName>A. Ampère</persName>
-        </foreign></p>
+        </foreign>
+        </p>
             <closer>
           <persName>M. Faraday</persName>, à <placeName>Londres</placeName>. </closer>
          </div>
       </body>
       <back>
-         <div>
-            <note xml:id="corresp1">(1) <orgName>Deutsches Museum</orgName> de <placeName>Munich</placeName> déjà publié dans <title>Archéion</title>, XVIII,
+         <div xml:id="L1823-09-23-a-div3">
+            <note resp="#CGA" xml:id="corresp1">(1) <orgName>Deutsches Museum</orgName> de <placeName>Munich</placeName> déjà publié dans <title>Archéion</title>, XVIII,
                <date when-iso="1836">1836</date>.</note>
-            <note xml:id="corresp2">(2) <persName>Faraday</persName> a été en effet élu Correspondant pour la Section de Chimie le <date when="1823-09-22">22
+            <note resp="#CGA" xml:id="corresp2">(2) <persName>Faraday</persName> a été en effet élu Correspondant pour la Section de Chimie le <date when="1823-09-22">22
                septembre 1823</date>. </note>
          </div>
       </back>

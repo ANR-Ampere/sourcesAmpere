@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -161,12 +160,12 @@
   </teiHeader>
   <text type="correspondance" decls="#ampere_corr_L1801-10-00-c">
     <body>
-      <div>
+      <div xml:id="L1801-10-00-c-div1">
         <opener>
           <pb n="118" facs="#ACAS_CRHST_AMP_23_331_0118_r.jpg"/> Du mardi
           <date when-iso="1801-10">[Octobre 1801]</date>
         </opener>
-        <p>Mon bon ami je te vais <choice>
+        <p xml:id="L1801-10-00-c-p1">Mon bon ami je te vais <choice>
             <sic>raconté</sic>
             <corr>raconter</corr>
           </choice>
@@ -398,7 +397,7 @@
             <sic>avoire</sic>
             <corr>avoir</corr>
           </choice>.</p>
-        <p>N'oublie pas des <choice>
+        <p xml:id="L1801-10-00-c-p2">N'oublie pas des <choice>
             <sic>nouvelle</sic>
             <corr>nouvelles</corr>
           </choice> de Jule<lb/> c'est deux mot seulement et <gap reason="illisible"/>
@@ -412,9 +411,9 @@
       </div>
     </body>
     <back>
-      <div>
-        <note xml:id="corresp1">(1) Trois pages in-8° et adresse sur la quatrième.</note>
-        <note xml:id="corresp2">(2) Les louis
+      <div xml:id="L1801-10-00-c-div2">
+        <note resp="#CGA" xml:id="corresp1">(1) Trois pages in-8° et adresse sur la quatrième.</note>
+        <note resp="#CGA" xml:id="corresp2">(2) Les louis
           valaient 24 livres. </note>
       </div>
     </back>

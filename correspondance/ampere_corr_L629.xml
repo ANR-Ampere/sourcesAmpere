@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -146,9 +145,13 @@
    </teiHeader>
    <text type="correspondance" decls="#ampere_corr_L1822-09-24-a">
       <body>
-         <div>
-            <opener><date when="1822-09-24">Mardi [24] septembre 1822</date></opener>
-            <p>Cher ami, mon voyage de <placeName><placeName>Genève</placeName></placeName> ici a été au mieux. Je suis venu jusqu'à <placeName>Dôle</placeName> en deux
+         <div xml:id="L1822-09-24-a-div1">
+            <opener>
+          <date when="1822-09-24">Mardi [24] septembre 1822</date>
+        </opener>
+            <p xml:id="L1822-09-24-a-p1">Cher ami, mon voyage de <placeName>
+            <placeName>Genève</placeName>
+          </placeName> ici a été au mieux. Je suis venu jusqu'à <placeName>Dôle</placeName> en deux
                jours avec le même cheval attelé à une petite carriole où j'étais seul. J'ai trouvé à
                <placeName>Bâle</placeName> la voiture publique à point nommé. Parti de <placeName>Genève</placeName> mercredi matin, je suis
                arrivé à <placeName>Paris</placeName> le dimanche à 10 heures. Avant déjeuner, j'ai eu le temps d'écrire à
@@ -161,7 +164,7 @@
                succès il y a plus d'un an. La troisième a pour objet de prouver plus complètement le
                principe dont je me suis servi dans le mémoire du <date when="1822-06-10">10 juin</date> pour achever ma formule où
                il était resté jusqu'alors quelque chose d'indéterminé.</p>
-            <p>J'ai encore lu quelque chose
+            <p xml:id="L1822-09-24-a-p2">J'ai encore lu quelque chose
                à la séance d'hier sur l'action électro-dynamique de la terre <ref target="#corresp2">(2)</ref>, afin de montrer,
                sans l'énoncer explicitement, combien sont dénuées de fondement les objections contre
                ma théorie qui ont paru dans le dernier numéro des <title>Annales de Physique et de Chimie</title>.
@@ -171,29 +174,30 @@
                père m'a comblé d'attentions dont je conserve la plus vive reconnaissance. J'ai reçu
                en arrivant une lettre de M. <persName>Faraday</persName> ; je fais construire un appareil que je viens
                d'imaginer pour de nouvelles expériences.</p>
-            <p>Mon fils a fait la scène qui manquait au
+            <p xml:id="L1822-09-24-a-p3">Mon fils a fait la scène qui manquait au
                premier acte et une partie du cinquième. Il roule dans sa tête celle où <persName>Almagis</persName> boira
                la coupe empoisonnée. Malheureusement il part demain <ref target="#corresp3">(3)</ref> avec le jeune <persName>Stapfer</persName> pour
                aller voir la mer au <placeName>Havre</placeName> ou à <placeName>Dieppe</placeName>. Ce voyage fera une interruption de huit jours
                à son travail. Il lit assez bien le chinois pour comprendre tout seul ses livres.</p>
-            <p>
+            <p xml:id="L1822-09-24-a-p4">
                <persName>Ballanche</persName> va très bien ; il m'a donné des nouvelles de <persName>Lenoir</persName>. On lithographie mon
                tableau de métaphysique, que j'ai encore un peu perfectionné à <placeName>Genève</placeName>.</p>
-            <p>Amitiés à
+            <p xml:id="L1822-09-24-a-p5">Amitiés à
                <persName>Bonjour</persName>. Parle-moi de M. <persName>de Biran</persName>, de M. <persName>Huzard</persName>. Que ma filleule
                <persName>Agathe</persName> pardonne mon départ précipité ! Comme on a eu soin de moi à l'école
                vétérinaire pendant ce temps si vite écoulé ! Adieu.<lb/>
-               <persName>A. Ampère</persName></p>
+               <persName>A. Ampère</persName>
+        </p>
          </div>
       </body>
       <back>
-         <div>
-            <note xml:id="corresp1">(1) D'après Mme <persName>Cheuvreux</persName>, p. 229.</note>
-            <note xml:id="corresp2">(2) D'après la lettre du <date when="1822-09-25">25
+         <div xml:id="L1822-09-24-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) D'après Mme <persName>Cheuvreux</persName>, p. 229.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) D'après la lettre du <date when="1822-09-25">25
                septembre</date> à <persName>Gaspard de La Rive</persName>, <persName>Ampère</persName> a, en effet, continué le <date when="1822-09-23">23 septembre</date> la
                lecture commencée le <date when="1822-09-16">16 septembre</date>, bien qu'elle figure seulement à la date du <date when="1822-09-16">16</date> dans
                les Comptes rendus.</note>
-            <note xml:id="corresp3">(3) Le départ est du <date when="1822-09-25">25 septembre</date>. </note>
+            <note resp="#CGA" xml:id="corresp3">(3) Le départ est du <date when="1822-09-25">25 septembre</date>. </note>
          </div>
       </back>
    </text>

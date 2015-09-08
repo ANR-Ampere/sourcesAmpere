@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -163,10 +162,11 @@
     </teiHeader>
     <text type="correspondance" decls="#ampere_corr_L1801-10-00-b">
         <body>
-            <div>
-              <opener><pb n="136" facs="#ACAS_CRHST_AMP_23_331_0136_r.jpg"/>Du mercredi soir <date when-iso="1801-10">[Octobre 1801]</date>
+            <div xml:id="L1801-10-00-b-div1">
+              <opener>
+          <pb n="136" facs="#ACAS_CRHST_AMP_23_331_0136_r.jpg"/>Du mercredi soir <date when-iso="1801-10">[Octobre 1801]</date>
         </opener>
-                <p> Mon bon ami on <unclear>avois</unclear> <persName>Toinou</persName> demain<lb/>
+                <p xml:id="L1801-10-00-b-p1"> Mon bon ami on <unclear>avois</unclear> <persName>Toinou</persName> demain<lb/>
                     avec deux <gap reason="illisible"/> de <choice>
             <sic>pomme</sic> <corr>pommes</corr>
           </choice> et 2 <choice>
@@ -227,7 +227,7 @@
                     mais est bien <choice>
             <sic>drol</sic> <corr>drôle</corr>
           </choice> le jour.</p>
-              <p>
+              <p xml:id="L1801-10-00-b-p2">
                     Je fus lundi à S<ex>ain</ex>t-Germain je <gap reason="illisible"/>
           <pb n="137" facs="#ACAS_CRHST_AMP_23_331_0137_v.jpg"/> 
                     chez M<ex>a</ex>d<ex>ame</ex> <persName>Sarcey</persName>. <persName>Jenny</persName> <choice>
@@ -288,7 +288,7 @@
                     si elle a <choice>
             <sic>bus</sic> <corr>bu</corr>
           </choice> exactement ce <gap reason="illisible"/>.</p>
-              <p>
+              <p xml:id="L1801-10-00-b-p3">
                     Je te parle bien de mon petit, mon<lb/>
                     bon ami je pence souvent à toi.<lb/>
                     Je voudrais savoir ce que tu fais,<lb/>
@@ -349,7 +349,7 @@
                     <gap reason="illisible"/> <choice>
             <corr>viens</corr> <sic>veins</sic>
           </choice> plutôt le lendemain matin.</p>
-              <p>
+              <p xml:id="L1801-10-00-b-p4">
                     Adieu mon chez ami, je <choice>
             <sic>serais</sic> <corr>serai</corr>
           </choice> toujours<lb/>
@@ -370,8 +370,8 @@
             </div>
         </body>
         <back>
-            <div>
-                <note xml:id="corresp1">(1) <persName>Jules Périsse</persName>, qui avait alors 18 mois.</note>
+            <div xml:id="L1801-10-00-b-div2">
+                <note resp="#CGA" xml:id="corresp1">(1) <persName>Jules Périsse</persName>, qui avait alors 18 mois.</note>
             </div>
         </back>
     </text>

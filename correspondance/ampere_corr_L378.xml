@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -152,13 +151,15 @@
    </teiHeader>
    <text type="correspondance" decls="#ampere_corr_L1811-03-09-a">
       <body>
-         <div>
-            <opener><pb n="97" facs="#ACAS_CRHST_AMP_24_334_0097_r.jpg"/>
+         <div xml:id="L1811-03-09-a-div1">
+            <opener>
+          <pb n="97" facs="#ACAS_CRHST_AMP_24_334_0097_r.jpg"/>
           <date when="1811-03-09">9 mars 1811</date>
         </opener>
-            <p><gap reason="illisible"/> est bien heureux, que ne m'est-il permis de l'accompagner. Tu me donnes la douce espérance de ton prochain passage à <placeName>Lyon</placeName> ; il est probable
+            <p xml:id="L1811-03-09-a-p1">
+          <gap reason="illisible"/> est bien heureux, que ne m'est-il permis de l'accompagner. Tu me donnes la douce espérance de ton prochain passage à <placeName>Lyon</placeName> ; il est probable
                que tu seras plus libre que l'année dernière, et moi serai-je un peu maître de mon temps, je crois que j'aurai très peu de travail dans ce moment là.</p>
-            <p>Depuis que j'ai reçu ta dernière
+            <p xml:id="L1811-03-09-a-p2">Depuis que j'ai reçu ta dernière
                lettre, <persName>Ballanche</persName> m'en a fait lire une autre. Comme nous voudrions pouvoir adoucir
                tes chagrins ! Mais toi seul le pourrais et ce qu'il y a de terrible, c'est que tu ne
                le crois pas. Quelle peinture tu fais de ta vie ! Comme tu fais sentir jusqu'à quel
@@ -167,8 +168,16 @@
                oppose et non ta tête : c'est-à-dire que tu ne veux pas te gêner, te contraindre à
                ramener tes pensées sur un sujet. Tu suis l'idée qui te plaît parce que tu ne veux
                pas la quitter</p>
-            <p><gap reason="lacune_CGA"/><pb n="98" facs="#ACAS_CRHST_AMP_24_334_0098_v.jpg"/><gap reason="lacune_CGA"/><pb n="99" facs="#ACAS_CRHST_AMP_24_334_0099_r.jpg"/><gap reason="lacune_CGA"/></p>
-            <closer><pb n="100" facs="#ACAS_CRHST_AMP_24_334_0100_v.jpg"/>A monsieur <persName>Ampère</persName></closer>
+            <p xml:id="L1811-03-09-a-p3">
+          <gap reason="lacune_CGA"/>
+          <pb n="98" facs="#ACAS_CRHST_AMP_24_334_0098_v.jpg"/>
+          <gap reason="lacune_CGA"/>
+          <pb n="99" facs="#ACAS_CRHST_AMP_24_334_0099_r.jpg"/>
+          <gap reason="lacune_CGA"/>
+        </p>
+            <closer>
+          <pb n="100" facs="#ACAS_CRHST_AMP_24_334_0100_v.jpg"/>A monsieur <persName>Ampère</persName>
+        </closer>
          </div>
       </body>
    </text>

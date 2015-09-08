@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -166,12 +165,12 @@
     </teiHeader>
     <text type="correspondance" decls="#ampere_corr_L1801-03-00-c">
         <body>
-            <div>
+            <div xml:id="L1801-03-00-c-div1">
                 <opener>
           <pb n="1408" facs="#ACAS_CRHST_AMP_26_393_quarto_0680_r.jpg"/>
           <placeName>Lyon</placeName> le <date when-iso="1801-03">lundi [mars 1801]</date>
         </opener>
-                <p>Que je suis content, ma bonne<lb/>
+                <p xml:id="L1801-03-00-c-p1">Que je suis content, ma bonne<lb/>
                     amie, de trouver <del>une occasion</del>
           <lb/>
                     de t'écrire : <del>il me semblait qu'il<lb/>
@@ -228,7 +227,7 @@
                     <del>je n'ai pas du temps
                     pour tout.</del>
                 </p>
-                <p>
+                <p xml:id="L1801-03-00-c-p2">
                     J'ai vu Mlle <persName ref="#pers_C118">Jenny</persName>, arrivée de<lb/>
                     <placeName>Paris</placeName>, <del>qui m'a dit qu'elle avait<lb/>
                     laissé tout le monde en bonne<lb/>
@@ -246,7 +245,7 @@
                             sur elle ; elle a dit que ce serait<pb n="1410" facs="#ACAS_CRHST_AMP_26_393_quarto_0682_r.jpg"/>
                             pour une autre fois.</del>
                 </p>
-                <p>
+                <p xml:id="L1801-03-00-c-p3">
                     Tous les paquets et préparatifs<lb/>
                     de Mme <persName>Périsse</persName> ont été suspendus<lb/>
                     par la subite arrivée de<lb/>
@@ -281,9 +280,9 @@
             </div>
         </body>
         <back>
-            <div>
-                <note xml:id="corresp1">(1) Quatre pages in-4° ; adresse sur la quatrième.</note>
-                <note xml:id="corresp2">(2) Le
+            <div xml:id="L1801-03-00-c-div2">
+                <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4° ; adresse sur la quatrième.</note>
+                <note resp="#CGA" xml:id="corresp2">(2) Le
                     ménage <persName>Carron</persName> était à <placeName>Paris</placeName>. Voir une lettre du frère <persName ref="#pers_C127">Carron</persName> du <date when="1801-03-16">16 mars 1801</date>.
                 </note>
             </div>

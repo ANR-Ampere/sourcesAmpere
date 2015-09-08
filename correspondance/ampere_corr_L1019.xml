@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -141,11 +140,14 @@
     </teiHeader>
     <text type="correspondance" decls="#ampere_corr_L1821-00-00-a">
         <body>
-            <div>
-                <opener><date when-iso="1821-00-00">[1821]</date></opener>
+            <div xml:id="L1821-00-00-a-div1">
+                <opener>
+          <date when-iso="1821-00-00">[1821]</date>
+        </opener>
                 
-                <p>
-                    <pb n="2" facs="#ACAS_CRHST_AMP_09_183_0002_r.jpg"/><del type="bloc">Monsieur, j'étais absent de
+                <p xml:id="L1821-00-00-a-p1">
+                    <pb n="2" facs="#ACAS_CRHST_AMP_09_183_0002_r.jpg"/>
+          <del type="bloc">Monsieur, j'étais absent de
                     <placeName>Paris</placeName> lorsque le mémoire que vous m'avez fait l'honneur
                     de m'envoyer et la lettre obligeante dont il était accompagné, sont arrivés chez
                     moi. N'en ayant eu connaissance qu'à mon retour, je n'ai pu vous en faire plus
@@ -154,7 +156,8 @@
                     sont, au reste, comme vous me l'annoncez, une suite nécessaire de la théorie que
                     j'ai exposée, mais peut-être pas de la manière la plus propre à la faire bien
                     concevoir. Voici comme j'aurais dû la préciser.</del> </p>
-                <p><list>
+                <p xml:id="L1821-00-00-a-p2">
+          <list>
                         <item n="1"> Toute explication dans les sciences <add>physiques</add>
                             consiste à découvrir un fait primitif exprimé par une loi générale et
                             qui, une fois posé, serve à en déduire tous les autres ;</item>
@@ -164,9 +167,13 @@
                             celle qui a lieu entre deux aimants, ou celle que j'ai découverte entre
                             deux fils conducteurs ;</item>
                         <item n="3"> Comme on n'a connu<add> d'abord</add> que celle <add>qui a lieu</add> entre
-                            deux aimants, <subst><del>on l'a prise pour </del> <add>on a dû naturellement
-                            la considérer comme le</add></subst> fait primitif, et <subst><del>l'on a pris</del>
-                            <add>le prendre</add></subst> pour la loi générale à laquelle on a tâché de tout
+                            deux aimants, <subst>
+                <del>on l'a prise pour </del> <add>on a dû naturellement
+                            la considérer comme le</add>
+              </subst> fait primitif, et <subst>
+                <del>l'on a pris</del>
+                            <add>le prendre</add>
+              </subst> pour la loi générale à laquelle on a tâché de tout
                             ramener, que les extrémités de même nom d'un aimant se repoussent et que
                             celles de nom opposé s'attirent ;</item>
                         <item n="4"> Comme l'ordre dans lequel on <del>a découvert</del> <add>
@@ -197,8 +204,10 @@
                             pile de l'extrémité cuivre à l'extrémité zinc. J'en ai conclu, comme je
                             le devais, que la direction du circuit voltaïque mobile par le globe de
                             la terre devait être attribuée en effet à cette cause, et j'ai ajouté à
-                            cette preuve directe plusieurs considérations qui en montrent toute la <subst><del type="illisible"/>
-                            <add>probabilité</add></subst> ;</item>
+                            cette preuve directe plusieurs considérations qui en montrent toute la <subst>
+                <del type="illisible"/>
+                            <add>probabilité</add>
+              </subst> ;</item>
                         <item n="7"> Puis, venant à l'action mutuelle d'un conducteur et d'un aimant
                             découverte par M. <persName>Œrsted</persName>, j'ai trouvé qu'elle était
                             précisément celle qui aurait lieu si l'aimant était un assemblage de
@@ -209,23 +218,32 @@
                             avez pu le voir dans mon mémoire ;</item>
                     <item n="9"> J'ai montré <add>que d'après la manière dont le fil conducteur
                             agit sur un aimant dans les expériences de M.
-                            <persName>Œrsted</persName></add>, l'aiguille aimantée était dirigée par
+                            <persName>Œrsted</persName>
+              </add>, l'aiguille aimantée était dirigée par
                             le globe terrestre, précisément comme elle le devait être d'après les
                             courants électriques dont j'avais déjà établi l'existence dans le globe,
-                                <subst><del>d'après la manière dont ces courants agissent sur un aimant
+                                <subst>
+                <del>d'après la manière dont ces courants agissent sur un aimant
                                 dans les expériences de M. <persName>Œrsted</persName>
                             </del> <add>pour expliquer son action sur le circuit voltaïque mobile
-                           </add></subst> ;</item>
-                        <item n="10"> Enfin j'ai montré qu'en <subst><del>attribuant tous les effets des aimants
-                            à ce qu'il y</del> <add>admettant qu'il</add></subst> existe <add>suivant</add>, dans des courbes fermées,
-                                <subst><del>soit autour de l'axe, soit autour de chaque molécule </del>
-                            <add>et dans ses plans perpendiculaires à leurs axes</add></subst>, la même
+                           </add>
+              </subst> ;</item>
+                        <item n="10"> Enfin j'ai montré qu'en <subst>
+                <del>attribuant tous les effets des aimants
+                            à ce qu'il y</del> <add>admettant qu'il</add>
+              </subst> existe <add>suivant</add>, dans des courbes fermées,
+                                <subst>
+                <del>soit autour de l'axe, soit autour de chaque molécule </del>
+                            <add>et dans ses plans perpendiculaires à leurs axes</add>
+              </subst>, la même
                             disposition d'électricité que dans les piles et les conducteurs
                             voltaïques, <add>et qu'elle y agit comme elle le fait dans le cas où ces
                             conducteurs agissent les uns sur les autres, on pourrait prévoir
-                            d'avance toutes les</add><pb n="4" facs="#ACAS_CRHST_AMP_09_183_0004_r.jpg"/> circonstances de leur action mutuelle, et
+                            d'avance toutes les</add>
+              <pb n="4" facs="#ACAS_CRHST_AMP_09_183_0004_r.jpg"/> circonstances de leur action mutuelle, et
                             celles en particulier de l'aimantation<subst> <add>qui se trouvent dans certains cas</add> <del>cette
-                                théorie était</del></subst> en contradiction manifeste avec <del>plusieurs faits</del>
+                                théorie était</del>
+              </subst> en contradiction manifeste avec <del>plusieurs faits</del>
                             <add> la théorie ordinaire fondée sur l'hypothèse de deux fluides
                             magnétiques, s'attirant et se repoussant d'après les mêmes lois que les
                             deux électricités, positive et négative, quoiqu'ils soient d'une nature
@@ -245,8 +263,13 @@
                     de deux petites portions de courants électriques, toutes les conséquences qui en
                     découlent, et dont l'accord avec les résultats de l'expérience est le seul moyen
                     de ne rien laisse à désirer sur les preuves de l'identité de l'électricité et du
-                    magnétisme.</add></item></list></p>
-                <p><pb n="4" facs="#ACAS_CRHST_AMP_09_183_0004_r.jpg"/><del type="bloc">Mais cet ensemble de preuves de l'identité de
+                    magnétisme.</add>
+            </item>
+          </list>
+        </p>
+                <p xml:id="L1821-00-00-a-p3">
+          <pb n="4" facs="#ACAS_CRHST_AMP_09_183_0004_r.jpg"/>
+          <del type="bloc">Mais cet ensemble de preuves de l'identité de
                     l'électricité et de la cause des phénomènes magnétiques n'a pas encore produit
                     la conviction générale qu'on devait naturellement en attendre. Je ne puis
                     l'expliquer que par une circonstance dont je ne puis d'ailleurs me rendre
@@ -262,31 +285,44 @@
                     <persName>de Bournon</persName>, <persName>Fourrier</persName>,
                     <persName>Arago</persName>, <persName>Fresnel</persName>,
                     <persName>Dulong</persName>, etc. Dernièrement j'en ai montré une partie à M. le
-                    <persName>docteur Ure</persName>.</del></p>
-                <p><del type="bloc">Je reste convaincu que, partout où on les répétera avec un peu de
+                    <persName>docteur Ure</persName>.</del>
+        </p>
+                <p xml:id="L1821-00-00-a-p4">
+          <del type="bloc">Je reste convaincu que, partout où on les répétera avec un peu de
                     suite, on ne pourra se refuser à admettre les conséquences que j'en ai tirées.
                     Il s'en faut bien qu'on ait besoin pour cela d'appareils dispendieux. M.
                     <persName>Thillaye</persName> a réussi avec une pile de six couples de 4 pouces
                     sur 6 de grandeur et avec de simples conducteurs de fils de laiton munis de
                     pointes d'acier pour qu'ils puissent se mouvoir librement en tournant dans de
-                    petites coupes pleines de mercure qu'on peut faire de la substance qu'on veut.</del></p>
-                <p>
+                    petites coupes pleines de mercure qu'on peut faire de la substance qu'on veut.</del>
+        </p>
+                <p xml:id="L1821-00-00-a-p5">
                      J'ai l'honneur d'être avec la plus haute considération,
                     Monsieur, votre très humble et très obéissant serviteur.
                     <persName>A. Ampère</persName>
                 </p>
-                <closer><pb n="5" facs="#ACAS_CRHST_AMP_09_183_0005_v.jpg"/>à Monsieur <subst><del type="illisible"/><add><persName>G. Moll</persName>, membre de
-                    l'<orgName>Institut des Pays-Bas</orgName>, à <placeName>Utrecht</placeName></add></subst>
+                <closer>
+          <pb n="5" facs="#ACAS_CRHST_AMP_09_183_0005_v.jpg"/>à Monsieur <subst>
+            <del type="illisible"/>
+            <add>
+              <persName>G. Moll</persName>, membre de
+                    l'<orgName>Institut des Pays-Bas</orgName>, à <placeName>Utrecht</placeName>
+            </add>
+          </subst>
                 </closer>
             </div>
         </body>
-        <back><div><note xml:id="corresp1">Brouillon d'une lettre destinée à <persName>Gerrit Moll</persName>, constitué
+        <back>
+      <div xml:id="L1821-00-00-a-div2">
+        <note resp="#CGA" xml:id="corresp1">Brouillon d'une lettre destinée à <persName>Gerrit Moll</persName>, constitué
             par des corrections et ajouts apportés par <persName>Ampère</persName> sur le
             même texte (copié par un secrétaire) qu'une lettre adressée à
             <persName>Speyert van der Eyk</persName> (L606,
             <date when="1821-08-15">15 août 1821</date>). Les modifications, ratures et
             ajouts sont donc de la main d'<persName>Ampère</persName>. Pour
             des raisons de lisibilité des caractères, on a gardé "propres" les passages
-            raturés trop longs.</note></div></back>
+            raturés trop longs.</note>
+      </div>
+    </back>
     </text>
 </TEI>

@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -136,10 +135,12 @@
     </teiHeader>
     <text type="correspondance" decls="#ampere_corr_L1812-08-18-a">
         <body>
-            <div>
-                <opener><pb n="20" facs="#ACAS_CRHST_AMP_24_342_0020_r.jpg"/><placeName>Lyon</placeName> le <date when="1812-09-18">18 août 1812</date>
+            <div xml:id="L1812-08-18-a-div1">
+                <opener>
+          <pb n="20" facs="#ACAS_CRHST_AMP_24_342_0020_r.jpg"/>
+          <placeName>Lyon</placeName> le <date when="1812-09-18">18 août 1812</date>
         </opener>
-                <p> Je reçois à présent votre lettre, mon digne et excellent ami, et je me
+                <p xml:id="L1812-08-18-a-p1"> Je reçois à présent votre lettre, mon digne et excellent ami, et je me
                     hâte de vous écrire parce que j'ai besoin de vous écrire. Il est décidé que je
                     dois partir pour la <placeName>Flandre</placeName>, et c'est bientôt que je partirai. Est-ce pour
                     chercher le bonheur que je vais entreprendre ce voyage ? Non sans doute, car je
@@ -154,7 +155,7 @@
                     j'irai vivre au milieu d'un peuple grossier sans un ami dans le sein duquel je
                     puisse verser à la fois et mes secrets et mes larmes.
                     </p>
-                <p>Que deviendrai-je ?
+                <p xml:id="L1812-08-18-a-p2">Que deviendrai-je ?
                     Peut-être ne reverrai-je jamais les douces rives de la <placeName>Saône</placeName> ! Peut-être est-ce
                     pour la dernière fois que je quitte ce beau pays que vous regrettez. N'importe,
                     je dois, je veux partir. J'essaierai d'accomplir les intentions de ceux qui
@@ -170,7 +171,7 @@
                     refusé parce que je craindrais de tout devoir à ma femme. Il n'y en a qu'un de
                     qui j'accepterais tout et vous savez tous les sacrifices que nous avons fait au
                     devoir...</p>
-                <p>Je vous ai déjà beaucoup parlé de moi, trop peut-être. Et vous, bon
+                <p xml:id="L1812-08-18-a-p3">Je vous ai déjà beaucoup parlé de moi, trop peut-être. Et vous, bon
                     ami, n'avez-vous pas aussi vos peines : ah ! je les conçois dans toute leur
                     plénitude. <cit xml:lang="lat">
             <quote>non ignara mali miseris succurere disco</quote>
@@ -194,15 +195,19 @@
                     plaisirs et moi j'ai presque perdu la foi en l'espérance. Cependant je m'y
                     rattache à l'espérance, de toute la puissance de mon âme, parce qu'elle est la
                     vie de l'infortuné.</p>
-                <p><add><date when="1812-08-19">19 [août]</date>. Je viens de me réveiller dans le cabinet de <persName>Bredin</persName>. Je sens
+                <p xml:id="L1812-08-18-a-p4">
+          <add>
+            <date when="1812-08-19">19 [août]</date>. Je viens de me réveiller dans le cabinet de <persName>Bredin</persName>. Je sens
                     vivement la perte que je vais faire. Ce beau bois si rempli de souvenirs, il
                     faut aussi le quitter. Profonde misère du cœur de l'homme ! Mon ami, nous ne
                     serons jamais heureux ici-bas, mais le Ciel est promis aux infortunés ;
                     réfugions-nous dans le Ciel. Là <persName>Ampère</persName>, il n'y aura plus de séparation, plus,
                     jamais plus ! J'ai reçu une lettre de <placeName>Garonne</placeName> de M. <persName>Barberi</persName>, qui est placé
                     et me charge d'en faire part à Mme la Baronne en la remerciant de toutes ses
-                    bontés pour lui.</add></p>
-                <p><pb n="22" facs="#ACAS_CRHST_AMP_24_342_0022_r.jpg"/>La pensée que je vous suis cher, que mes douleurs émeuvent
+                    bontés pour lui.</add>
+        </p>
+                <p xml:id="L1812-08-18-a-p5">
+          <pb n="22" facs="#ACAS_CRHST_AMP_24_342_0022_r.jpg"/>La pensée que je vous suis cher, que mes douleurs émeuvent
                     votre cœur, est une pensée consolante parce que je n'existe que pour aimer et
                     être aimé. Ce <persName>Bredin</persName> dont l'affection vous est si précieuse, que de bien ne m'a
                     pas fait sa tendresse ! ah ! vous avez raison de me plaindre d'être obligé de me
@@ -236,7 +241,7 @@
                     bien pénible pour moi. Voilà le bonheur de la vie. C'est bien sûr que le bonheur
                     n'est pas de ce monde. Tu le sais aussi bien que moi. Et voilà pourtant la <gap reason="illisible"/> fondamentale du christianisme.</p>
                 
-                    <p>Hier je suis
+                    <p xml:id="L1812-08-18-a-p6">Hier je suis
                     allé chez <persName>Camille</persName>. Nous avons bien parlé de toi. <persName>Madame Récamier</persName> et
                     <persName>Ballanche</persName> y étaient. Tu sais bien que j'ai voulu te mener entendre un jeune
                     ministre protestant ; je suis allé avec lui chez <persName>Camille</persName> ; c'est un homme tout à
@@ -250,10 +255,12 @@
                     des demoiselles très aimables pour la grotte de la <gap reason="illisible"/>. Tu sais si j'aime les rochers et les antres noirs et
                     sombres, tant <gap reason="illisible"/> avec mon imagination. Tu sais
                     que je préfère les belles physionomies à tout, mais il n'est point de plaisir
-                    pur et sans mélange. Adieu je t'embrasse.<persName> C.J.B.</persName></p>
+                    pur et sans mélange. Adieu je t'embrasse.<persName> C.J.B.</persName>
+        </p>
                  
                 <closer>A Monsieur <persName>Ampère</persName>, Inspecteur général de l'<orgName>Université</orgName>, Cour du Commerce,
-                    <placeName>Paris</placeName></closer>
+                    <placeName>Paris</placeName>
+        </closer>
         
             </div>
         </body>

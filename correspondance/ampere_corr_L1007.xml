@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -135,16 +134,20 @@
     </teiHeader>
     <text type="correspondance" decls="#ampere_corr_L1835-12-31-a">
         <body>
-            <div>
-                <opener><pb n="113" facs="#ACAS_CRHST_AMP_21_311_0113_r.jpg"/><placeName>Paris</placeName> le <date when="1835-12-31">31 <choice><abbr>Xbre</abbr> <expan>décembre</expan></choice> 1835</date>
+            <div xml:id="L1835-12-31-a-div1">
+                <opener>
+          <pb n="113" facs="#ACAS_CRHST_AMP_21_311_0113_r.jpg"/>
+          <placeName>Paris</placeName> le <date when="1835-12-31">31 <choice>
+              <abbr>Xbre</abbr> <expan>décembre</expan>
+            </choice> 1835</date>
         </opener>
                 <opener>Monsieur,</opener>
-                <p> J'étais chargé dès mardi dernier d'avoir l'honneur de vous voir pour
+                <p xml:id="L1835-12-31-a-p1"> J'étais chargé dès mardi dernier d'avoir l'honneur de vous voir pour
                     transmettre - de la part de M. <persName>de Saint-Priest</persName>, directeur de l'<title>Encyclopédie du
                     XIXe siècle</title> <ref type="ouvrages_mentionnes" target="#ampere_ref_P419.xml">*</ref> - la nomenclature
                     ci-jointe qui doit entrer dans la première livraison, avec prière instante de
                     choisir les mots que vous jugeriez à propos de traiter.</p>
-                <p>Une chute assez grave
+                <p xml:id="L1835-12-31-a-p2">Une chute assez grave
                     que j'ai faite est la seule cause du retard que j'ai mis à me présenter chez
                     vous. Je suis chargé aussi de vous annoncer que M.M. <persName>Brongniart</persName> et <persName>Mirbel</persName> ont
                     promis leur concours à l'entreprise. M. <persName>de Saint-Priest</persName> espère que vous voudrez
@@ -153,9 +156,10 @@
                     considération avec lesquels je suis, Monsieur, votre très humble et très
                     obéissant serviteur, <persName>Chauvin de Bouhelier</persName>, homme de lettres, secrétaire du
                     comité de direction de l'<title>Encyclopédie</title>.</p>
-                <p>P.S. J'aurai l'honneur de revenir chez
+                <p xml:id="L1835-12-31-a-p3">P.S. J'aurai l'honneur de revenir chez
                     Monsieur <persName>Ampère</persName> d'ici à deux ou trois jours. 
-                    <add hand="AMA">adhésion</add></p>
+                    <add hand="AMA">adhésion</add>
+        </p>
             </div>
         </body>
     </text>

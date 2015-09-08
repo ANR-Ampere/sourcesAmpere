@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -147,13 +146,16 @@
   </teiHeader>
   <text type="correspondance" decls="#ampere_corr_L1827-03-18-a">
     <body>
-      <div>
-        <opener><pb n="246" facs="#ACAS_CRHST_AMP_26_393_bis_0215_r.jpg"/><placeName>Versailles</placeName>, le <date when="1827-03-18">18 mars 1827</date></opener>
+      <div xml:id="L1827-03-18-a-div1">
+        <opener>
+          <pb n="246" facs="#ACAS_CRHST_AMP_26_393_bis_0215_r.jpg"/>
+          <placeName>Versailles</placeName>, le <date when="1827-03-18">18 mars 1827</date>
+        </opener>
         <opener>Monsieur <persName>Ampère</persName>, membre de l’<orgName>Académie des sciences</orgName>,
           professeur au <orgName>Collège de France</orgName>, etc.</opener>
         <opener>Monsieur,</opener>
-        <p> Lorsqu'à la suite d'une conversation, vous me
-                témoignâtes le désir de lire mon mémoire<ref target="#corresp_1"></ref> sur quelques propriétés du fluide électrique
+        <p xml:id="L1827-03-18-a-p1"> Lorsqu'à la suite d'une conversation, vous me
+                témoignâtes le désir de lire mon mémoire<ref target="#corresp_1"/> sur quelques propriétés du fluide électrique
                 et que vos affaires multipliées vous avaient mis dans l'impossibilité d'examiner
                 quand il était à votre disposition, je fis toutes les recherches nécessaires pour
                 obtenir et vous apporter la copie que j'avais vue deux mois auparavant chez M.
@@ -162,7 +164,7 @@
                 occupé qu'il n'aurait pas de moment libre avant un an. En conséquence, j'ai cru
                 devoir attendre jusqu'au 12 c<ex>ouran</ex>t pour vous parler de ce mémoire et pour le
                 remettre chez vous.</p>
-        <p>Je me rendis donc lundi dernier, pour vous en parler, à
+        <p xml:id="L1827-03-18-a-p2">Je me rendis donc lundi dernier, pour vous en parler, à
                 l'<orgName>Académie des sciences</orgName>. Mais comme vous n'arrivâtes qu'après l'ouverture de la
                 séance, vous n'eûtes pas le temps de m'écouter. Je me reprochai alors de ne m'être
                 pas rendu chez vous dans la crainte de vous faire perdre un temps utile, et je
@@ -171,16 +173,21 @@
           vous voudrez bien faire connaître<pb n="247" facs="#ACAS_CRHST_AMP_26_393_bis_0216_v.jpg"/> votre opinion sur ce travail à l'Académie des
                 sciences. Si vous aviez quelques objections ou observations à me faire, je
                 m'empresserai d'y répondre, autant toutefois que mes moyens me le permettraient.</p>
-        <p>Vous m'obligerez de vouloir bien m'accuser la réception de la présente et du
+        <p xml:id="L1827-03-18-a-p3">Vous m'obligerez de vouloir bien m'accuser la réception de la présente et du
                 mémoire.</p>
-        <p>J'ai l'honneur d'être avec respect votre très humble et très obéissant
+        <p xml:id="L1827-03-18-a-p4">J'ai l'honneur d'être avec respect votre très humble et très obéissant
                 serviteur.<lb/>
-          <persName>Féburier</persName> Rue Maurepas n° 14, à <placeName>Versailles</placeName></p>
-        <closer><pb n="248" facs="#ACAS_CRHST_AMP_26_393_bis_0217_v.jpg"/>A Monsieur <persName>Ampère</persName>, membre de l’<orgName>Académie des sciences</orgName>,
-                professeur au <orgName>Collège de France</orgName>, à <placeName>Paris</placeName></closer>
+          <persName>Féburier</persName> Rue Maurepas n° 14, à <placeName>Versailles</placeName>
+        </p>
+        <closer>
+          <pb n="248" facs="#ACAS_CRHST_AMP_26_393_bis_0217_v.jpg"/>A Monsieur <persName>Ampère</persName>, membre de l’<orgName>Académie des sciences</orgName>,
+                professeur au <orgName>Collège de France</orgName>, à <placeName>Paris</placeName>
+        </closer>
       </div>
     </body>
-    <back><div><note xml:id="corresp_1">On trouve dans
+    <back>
+      <div xml:id="L1827-03-18-a-div2">
+        <note resp="#CGA" xml:id="corresp_1">On trouve dans
       le fonds <persName>Ampère</persName> plusieurs lettres de ce <persName>Féburier</persName>, relativement à un mémoire
       dont, semble-t-il, plusieurs copies se sont perdues au moment de l'examen par
       l'<orgName>Académie</orgName>. <persName>Ampère</persName> était l'un des commissaires chargés de cet examen. N'ont été
@@ -188,6 +195,8 @@
       Les procès-verbaux des séances de l'<orgName>Académie des sciences</orgName> indiquent, à la date
       du <date when="1824-06-14">14 juin 1824</date> : M. <persName>Féburier</persName> adresse un mémoire sur plusieurs propriétés du
       fluide électrique. Il est renvoyé à l'examen d'une commission composée de MM.
-      <persName>Mirbel</persName>, <persName>Ampère</persName> et <persName>Fresnel</persName>.</note></div></back>
+      <persName>Mirbel</persName>, <persName>Ampère</persName> et <persName>Fresnel</persName>.</note>
+      </div>
+    </back>
   </text>
 </TEI>

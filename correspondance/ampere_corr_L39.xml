@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -161,11 +160,11 @@
    </teiHeader>
    <text type="correspondance" decls="#ampere_corr_L1800-09-00-a">
       <body>
-         <div>
+         <div xml:id="L1800-09-00-a-div1">
             <opener>
                <pb n="1506" facs="ACAS_CRHST_AMP_26_393_quarto_0778_r.jpg"/>Du mardi soir
                [<date when-iso="1800-09">Fin septembre 1800</date>]</opener>
-            <p>Avec quelle inquiétude je t'ai quittée,<lb/> ma bonne amie, malade et triste,<lb/>
+            <p xml:id="L1800-09-00-a-p1">Avec quelle inquiétude je t'ai quittée,<lb/> ma bonne amie, malade et triste,<lb/>
                pauvre <persName ref="#pers_C129">Julie</persName> ! Quand pourrai-je<lb/> savoir que
                tu te portes un peu<lb/> mieux, que le petit te laisse dormir<lb/> et que tu peux en
                profiter ! Je<lb/> ne saurai point de nouvelles de<lb/> toi peut-être de toute la semaine,<lb/>
@@ -247,8 +246,8 @@
          </div>
       </body>
       <back>
-         <div>
-            <note xml:id="corresp1">(1) Quatre pages in-8°. Adresse sur la quatrième.
+         <div xml:id="L1800-09-00-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-8°. Adresse sur la quatrième.
                <persName ref="#pers_A10">Jean-Jacques
                Ampère</persName> est né le
                <date when="1800-08-12">12 août 1800</date>, grande rue Mercière, n° 18, à
@@ -256,7 +255,7 @@
                de ses couches, est allée chez sa mère à <placeName>Saint-Germain</placeName>. Elle
                était à ce moment très malade et ne se guérit jamais complètement dans la suite (voir
                une consultation, p. 76).</note>
-            <note xml:id="corresp2">(2) <persName ref="#pers_A366">Ampère</persName>, ne
+            <note resp="#CGA" xml:id="corresp2">(2) <persName ref="#pers_A366">Ampère</persName>, ne
                gagnant pas assez à donner des leçons particulières, cherche alors à obtenir une
                place dans un <orgName>Prytanée</orgName> ou une <orgName>École centrale</orgName> :
                ce qui réussit seulement en <date when-iso="1802-02">février 1802</date>. </note>

@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -135,13 +134,17 @@
     </teiHeader>
     <text type="correspondance" decls="#ampere_corr_L1803-09-04-a">
         <body>
-            <div>
-                <opener><pb n="1" facs="#ACAS_CRHST_AMP_24_352_0001_r.jpg"/><placeName>Bourg</placeName>, le <date when="1803-09-04" calendar="revolutionary">18 fructidor an 11</date>
+            <div xml:id="L1803-09-04-a-div1">
+                <opener>
+          <pb n="1" facs="#ACAS_CRHST_AMP_24_352_0001_r.jpg"/>
+          <placeName>Bourg</placeName>, le <date when="1803-09-04" calendar="revolutionary">18 fructidor an 11</date>
         </opener>
-                <opener>Le Secrétaire de la <orgName>Société d’Émulation et d'agriculture du département de l'<orgName>Ain</orgName></orgName>,<lb/>
-                    à monsieur <persName>Ampère</persName>, professeur de mathématiques au <orgName>lycée de <placeName>Lyon</placeName></orgName>, membre de la
+                <opener>Le Secrétaire de la <orgName>Société d’Émulation et d'agriculture du département de l'<orgName>Ain</orgName>
+          </orgName>,<lb/>
+                    à monsieur <persName>Ampère</persName>, professeur de mathématiques au <orgName>lycée de <placeName>Lyon</placeName>
+          </orgName>, membre de la
                     même société.</opener>
-                <p> Je vous adresse, Monsieur, une notice<ref target="#corresp_1"></ref> de la séance publique de notre <orgName>Société</orgName> à la
+                <p xml:id="L1803-09-04-a-p1"> Je vous adresse, Monsieur, une notice<ref target="#corresp_1"/> de la séance publique de notre <orgName>Société</orgName> à la
                     suite de laquelle se trouve l'annonce d'un prix par elle proposé ; je vous
                     prie de vouloir bien la remettre au rédacteur du journal de <placeName>Lyon</placeName> en l'invitant à
                     l'insérer dans un de ses prochains numéros. Je profite de cette circonstance
@@ -152,15 +155,22 @@
                     famille en est pénétrée comme moi, et nous nous rappellerons toujours d'avoir eu
                     des rapports avec un homme dont les connaissances sont aussi étendues que son
                     cœur est excellent.</p>
-                <p><persName>Riboud</persName> vous dit, ainsi que sa maman, mille choses
+                <p xml:id="L1803-09-04-a-p2">
+          <persName>Riboud</persName> vous dit, ainsi que sa maman, mille choses
                     affectueuses. Rappelez-nous au souvenir de l'intéressante famille <persName>Couppier</persName> : je
                     vous félicite d'avoir de tels amis, on chercherait bien loin et peut-être
                     vainement une aussi heureuse réunion de vertus, de bonté et d'amabilité.</p>
-                <p><handShift new="AMA"/><add><del type="illisible"/></add></p>
-                <p>Je vous
+                <p xml:id="L1803-09-04-a-p3">
+          <handShift new="AMA"/>
+          <add>
+            <del type="illisible"/>
+          </add>
+        </p>
+                <p xml:id="L1803-09-04-a-p4">Je vous
                     embrasse bien <unclear>fiévreusement</unclear>.<lb/>
                     <persName>Thomas Riboud</persName>.</p>
-                <closer><pb n="2" facs="#ch_352/ACAS_CRHST_AMP_24_352_0002_v.jpg"/>A Monsieur <persName>Ampère</persName>, professeur de mathématiques au <orgName>lycée de Lyon</orgName>, maison du
+                <closer>
+          <pb n="2" facs="#ch_352/ACAS_CRHST_AMP_24_352_0002_v.jpg"/>A Monsieur <persName>Ampère</persName>, professeur de mathématiques au <orgName>lycée de Lyon</orgName>, maison du
                    <gap reason="illisible"/> grand collège, à <placeName>Lyon</placeName>
         </closer>
             </div>

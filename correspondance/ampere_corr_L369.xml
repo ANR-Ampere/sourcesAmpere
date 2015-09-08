@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -162,15 +161,17 @@
     </teiHeader>
     <text type="correspondance" decls="#ampere_corr_L1810-12-00-a">
         <body>
-            <div>
+            <div xml:id="L1810-12-00-a-div1">
                 <opener>
           <date when-iso="1810-12">[Fin décembre 1810]</date>
         </opener>
-                <p><gap reason="lacune_CGA"/><pb n="10" facs="#ACAS_CRHST_AMP_24_340_0010_r.jpg"/> amitié, c'est tout ce qui me reste. écris-moi le plus longtemps que tu
+                <p xml:id="L1810-12-00-a-p1">
+          <gap reason="lacune_CGA"/>
+          <pb n="10" facs="#ACAS_CRHST_AMP_24_340_0010_r.jpg"/> amitié, c'est tout ce qui me reste. écris-moi le plus longtemps que tu
                     pourras, c'est ma seule consolation. J'ai quelque espoir de faire l'année
                     prochaine le même voyage que l'année passée. Puisse cet espoir se réaliser !
                     Puissé-je y passer encore quelques jours près de toi !</p>
-                <p>Vois-tu, <persName>Bredin</persName>, ton ami
+                <p xml:id="L1810-12-00-a-p2">Vois-tu, <persName>Bredin</persName>, ton ami
                     est un gouffre qui s'approfondit toujours ; il me faudrait deux jours de
                     conversation pour te faire comprendre tout ce que je pense, tout ce que je sens
                     en moi et dont je m'occupe sans cesse dans mes mélancoliques rêveries ; mais, au
@@ -179,7 +180,7 @@
                     pensées, et nous passerions encore bien des jours ensemble, sans que j'eusse
                     seulement pensé à te parler de ce qui m'occupe le plus loin, de toi. C'est déjà
                     ce qui m'est arrivé l'année passée.</p>
-                <p>Adieu, bon ami, pourquoi t'ai-je parlé de
+                <p xml:id="L1810-12-00-a-p3">Adieu, bon ami, pourquoi t'ai-je parlé de
                     tout cela, je ne puis par lettre te faire comprendre le sujet de mes peines, je
                     ne puis que joindre, en t'en<pb n="11" facs="#ACAS_CRHST_AMP_24_340_0011_v.jpg"/> parlant, une inquiétude de plus, à celles dont tu
                     es peut-être accablé dans ce moment, car ton silence est trop long pour me
@@ -192,8 +193,8 @@
             </div>
         </body>
         <back>
-            <div>
-                <note xml:id="corresp1">(1) Deux pages in-4° avec adresse, sans début.</note>
+            <div xml:id="L1810-12-00-a-div2">
+                <note resp="#CGA" xml:id="corresp1">(1) Deux pages in-4° avec adresse, sans début.</note>
             </div>
         </back>
     </text>

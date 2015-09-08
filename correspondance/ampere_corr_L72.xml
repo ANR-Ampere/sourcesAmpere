@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -164,11 +163,11 @@
    </teiHeader>
    <text type="correspondance" decls="#ampere_corr_L1801-11-00-b">
       <body>
-         <div>
+         <div xml:id="L1801-11-00-b-div1">
             <opener>
           <date when-iso="1801-11">[Novembre 1801]</date>
         </opener>
-            <p>
+            <p xml:id="L1801-11-00-b-p1">
           <pb n="1315" facs="#ACAS_CRHST_AMP_26_393_quarto_0587_r.jpg"/>Je viens, ma charmante<lb/>
                amie, de chez M. <persName ref="#pers_P447">Petetin</persName>,<lb/>
                à qui j'ai fait toutes les<lb/>
@@ -203,7 +202,7 @@
                même des <choice>
             <sic>inconvéniens</sic> <corr>inconvénients</corr>
           </choice>.</p>
-            <p>
+            <p xml:id="L1801-11-00-b-p2">
                Il faut faire tous les<lb/>
                remèdes à la fois. C'est<lb/>
                pourquoi tu donneras<lb/>
@@ -237,7 +236,8 @@
                et chaud hier. <add>
             <del>en faisant</del>
           </add> Le<lb/>
-               chemin par <placeName>S<ex>ain</ex>t-Cyr</placeName> <ref target="#corresp3">(3)</ref><pb n="1317" facs="#ACAS_CRHST_AMP_26_393_quarto_0589_v.jpg"/> n'a jamais de boue,<lb/>
+               chemin par <placeName>S<ex>ain</ex>t-Cyr</placeName> <ref target="#corresp3">(3)</ref>
+          <pb n="1317" facs="#ACAS_CRHST_AMP_26_393_quarto_0589_v.jpg"/> n'a jamais de boue,<lb/>
                il était hier très sec. <lb/>
                Prends-le,
                je t'en prie,<lb/>
@@ -266,7 +266,7 @@
                le caillou chaud <del>enveloppé<lb/>
                   de linges dans la voiture.</del>
             </p>
-            <p>
+            <p xml:id="L1801-11-00-b-p3">
               <del> Je t'envoie un surtout<lb/>
                  de 4 l<ex>ivres</ex> 15 s<ex>ols</ex> acheté par<lb/>
                  <persName ref="#pers_P441">M<ex>ada</ex>me Périsse</persName>. Si tu en<lb/>
@@ -327,7 +327,8 @@
                possible, heureuse et tranquil<supplied>le.</supplied>
           <lb/>
               <del> Adieu, celui qui t'aime te serre dans<lb/>
-                 ses bras, ma <persName ref="#pers_C129">Julie</persName>.</del><lb/>
+                 ses bras, ma <persName ref="#pers_C129">Julie</persName>.</del>
+          <lb/>
                <persName ref="#pers_A366">A. AMPÈRE</persName>
         </p>
             <closer>A <choice>
@@ -339,12 +340,12 @@
          </div>
       </body>
       <back>
-         <div>
-            <note xml:id="corresp1">(1) Huit pages petit in-8° ; adresse au bas de la dernière.
+         <div xml:id="L1801-11-00-b-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Huit pages petit in-8° ; adresse au bas de la dernière.
                Lettre publiée avec des coupures par Mme <persName>Cheuvreux</persName>, p. 153.</note>
-            <note xml:id="corresp2">(2) Pour la consultation
+            <note resp="#CGA" xml:id="corresp2">(2) Pour la consultation
                toujours retardée et qui, finalement, eut lieu avec un autre docteur.</note>
-            <note xml:id="corresp3">(3)
+            <note resp="#CGA" xml:id="corresp3">(3)
                <placeName>Saint-Cyr-au-Mont-d'Or</placeName>, au sud de <placeName>Collonges</placeName>. </note>
          </div>
       </back>

@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -162,11 +161,14 @@
     </teiHeader>
     <text type="correspondance" decls="#ampere_corr_L1814-11-30-a">
         <body>
-            <div>
-                <opener><unclear>
-          <date when="1814-11-30"> Trente <choice><ex>abbr>9bre</ex> <expan>novembre</expan></choice> 1814</date> je crois</unclear>
+            <div xml:id="L1814-11-30-a-div1">
+                <opener>
+          <unclear>
+          <date when="1814-11-30"> Trente <choice>
+                <ex>abbr&gt;9bre</ex> <expan>novembre</expan>
+              </choice> 1814</date> je crois</unclear>
         </opener>
-                <p>Mon bon ami, j'ai reçu ta lettre lorsqu'il n'y avait pas un quart d'heure que je
+                <p xml:id="L1814-11-30-a-p1">Mon bon ami, j'ai reçu ta lettre lorsqu'il n'y avait pas un quart d'heure que je
                     savais que la nomination avait eu lieu en ma faveur dès le premier tour de
                     scrutin <ref target="#corresp2">(2)</ref>. Tout s'est ainsi réuni pour que je fusse momentanément bien
                     heureux. Mais que de regrets mêlés ! Je te répondrai au long dès que je serai
@@ -179,10 +181,10 @@
             </div>
         </body>
         <back>
-            <div>
-                <note xml:id="corresp1">(1) Une page in-4° et adresse sur la quatrième. L'élection
+            <div xml:id="L1814-11-30-a-div2">
+                <note resp="#CGA" xml:id="corresp1">(1) Une page in-4° et adresse sur la quatrième. L'élection
                     est du <date when="1814-11-28">28 novembre</date>.</note>
-                <note xml:id="corresp2">(2) Sur 52 votants, <persName>Ampère</persName> réunit 28 suffrages, <persName>Cauchy</persName> 10,
+                <note resp="#CGA" xml:id="corresp2">(2) Sur 52 votants, <persName>Ampère</persName> réunit 28 suffrages, <persName>Cauchy</persName> 10,
                     <persName>Binet</persName> 7, <persName>Duvillard</persName> 6. </note>
             </div>
         </back>

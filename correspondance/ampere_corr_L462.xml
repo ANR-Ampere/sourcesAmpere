@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -159,25 +158,27 @@
    </teiHeader>
    <text type="correspondance" decls="#ampere_corr_L1813-11-30-b">
       <body>
-         <div>
+         <div xml:id="L1813-11-30-b-div1">
             <opener>
-          <date when="1813-10-30">Dimanche 30 octobre <date when="1813-11-03">[3 novembre 1813]</date></date>
+          <date when="1813-10-30">Dimanche 30 octobre <date when="1813-11-03">[3 novembre 1813]</date>
+          </date>
         </opener>
-            <p>Mon bon ami. Ta femme va de mieux (en mieux), la route ne l'a pas sensiblement
+            <p xml:id="L1813-11-30-b-p1">Mon bon ami. Ta femme va de mieux (en mieux), la route ne l'a pas sensiblement
                fatiguée, elle souffre peu à présent. <persName>Eliza</persName> va à merveille. Quant à mon affaire
                relativement à ce que j'ai manqué ma première leçon, tu ferais une chose bien
                importante pour moi de revoir tout de suite M. <persName>Durivaux</persName>, de savoir comment on a pris
                la chose, et, si c'est mal, de me justifier autant que tu pourrais. Je t'embrasse de
                toute mon âme.</p>
-            <p><persName>A. Ampère</persName>
+            <p xml:id="L1813-11-30-b-p2">
+          <persName>A. Ampère</persName>
         </p>
             <closer>A M. <persName>Carron</persName>, <placeName>rue du Faubourg-Saint-Denis, n° 19</placeName>, à <placeName>Paris</placeName>
         </closer>
          </div>
       </body>
       <back>
-         <div>
-            <note xml:id="corresp1">(1) Coll. <persName>Bodin</persName>. Une page 17,5 x 22, adresse sur la
+         <div xml:id="L1813-11-30-b-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Coll. <persName>Bodin</persName>. Une page 17,5 x 22, adresse sur la
                quatrième.</note>
          </div>
       </back>

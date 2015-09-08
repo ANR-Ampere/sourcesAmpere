@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -135,9 +134,10 @@
     </teiHeader>
     <text type="correspondance" decls="#ampere_corr_L0000-00-00-u">
         <body>
-            <div>
+            <div xml:id="L0000-00-00-u-div1">
                 <opener>s.d.</opener>
-                <p><pb n="430" facs="#ACAS_CRHST_AMP_24_332_0430_r.jpg"/>Je vous félicite, Monsieur, d'avoir renvoyé promptement votre<add> fluxion</add>. Vous voilà
+                <p xml:id="L0000-00-00-u-p1">
+          <pb n="430" facs="#ACAS_CRHST_AMP_24_332_0430_r.jpg"/>Je vous félicite, Monsieur, d'avoir renvoyé promptement votre<add> fluxion</add>. Vous voilà
                     bientôt en état de faire vos grandes promenades ; je suis persuadée que vous en
                     attendez le moment avec impatience, et je vous prierais Monsieur de vouloir bien
                     ne le pas trop faire voir à des personnes étrangères afin que l'on ne sache pas
@@ -145,10 +145,13 @@
                     famille et cela fâcherait beaucoup si on l'apprenait par des voix étrangères. Je
                     crains bien que <persName>Mme Manin</persName> ne s'en soit aperçue. J'espère avoir le plaisir <supplied>de</supplied>
                     vous voir avant votre départ et vous faire mon compliment sur votre parfaite
-                    guérison. Je suis en attendant, Monsieur, avec un intérêt sincère, <persName><gap reason="illisible"/>
-                    <persName>Périsse</persName></persName>
+                    guérison. Je suis en attendant, Monsieur, avec un intérêt sincère, <persName>
+            <gap reason="illisible"/>
+                    <persName>Périsse</persName>
+          </persName>
         </p>
-                <closer><pb n="431" facs="#ACAS_CRHST_AMP_24_332_0431_v.jpg"/>Pour monsieur <persName>Ampère</persName>
+                <closer>
+          <pb n="431" facs="#ACAS_CRHST_AMP_24_332_0431_v.jpg"/>Pour monsieur <persName>Ampère</persName>
         </closer>
             </div>
         </body>

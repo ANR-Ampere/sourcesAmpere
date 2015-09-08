@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -161,11 +160,14 @@
    </teiHeader>
    <text type="correspondance" decls="#ampere_corr_L1810-05-30-a">
       <body>
-         <div>
-            <opener><pb n="261" facs="#ACAS_CRHST_AMP_25_379_0261_r.jpg"/><placeName>Dijon</placeName>
-          <date when="1810-05-30">30 mai 1811 [1810] <ref target="#corresp2">(2)</ref></date>
+         <div xml:id="L1810-05-30-a-div1">
+            <opener>
+          <pb n="261" facs="#ACAS_CRHST_AMP_25_379_0261_r.jpg"/>
+          <placeName>Dijon</placeName>
+          <date when="1810-05-30">30 mai 1811 [1810] <ref target="#corresp2">(2)</ref>
+          </date>
         </opener>
-            <p>Ta lettre, mon bien bon ami, m'a fait le plus grand plaisir, et j'ai été bien fâché
+            <p xml:id="L1810-05-30-a-p1">Ta lettre, mon bien bon ami, m'a fait le plus grand plaisir, et j'ai été bien fâché
                de n'avoir pu trouver un instant à <placeName>Lyon</placeName> pour t'écrire à mon tour. Mais j'y ai été
                tellement affairé que cela m'a été d'une impossibilité absolue, et ce n'est qu'ici où
                je suis arrivé hier au soir très tard, que je puis enfin causer un peu avec toi comme
@@ -180,7 +182,7 @@
                ta conduite.<pb n="262" facs="#ACAS_CRHST_AMP_25_379_0262_v.jpg"/>Tu me demandes ma bénédiction, et je te l'ai donnée au plus profond de
                mon cœur pour que tu sois toute ta vie vertueux et bienfaisant et, par conséquent,
                heureux.</p>
-            <p> Je voulais t'écrire de <placeName>Lyon</placeName> afin que tu m'écrivisses à <placeName>Dijon</placeName>, département de
+            <p xml:id="L1810-05-30-a-p2"> Je voulais t'écrire de <placeName>Lyon</placeName> afin que tu m'écrivisses à <placeName>Dijon</placeName>, département de
                la <placeName>Côte-d'Or</placeName> ; tu en as encore le temps au cas que tu ne l'aies pas fait, et ce
                sera un vrai bonheur pour moi de recevoir une seconde fois de tes nouvelles. Mais il
                faudrait pour cela m'écrire tout de suite : Poste restante, <placeName>Dijon</placeName>, département de la
@@ -189,7 +191,7 @@
                avais chargé mille choses de ta part... Je suis fâché à présent que tu ne m'aies pas
                envoyé, pendant que j'étais à <placeName>Lyon</placeName>, des lettres pour au moins ta grand'maman 
                et ta tante  que je leur aurais remises.</p>
-            <p>Si tu m'écris, tu me feras bien
+            <p xml:id="L1810-05-30-a-p3">Si tu m'écris, tu me feras bien
                plaisir de me donner des détails sur le travail particulier que tu fais, je crois, à
                présent tous les jours avec M. <persName>Belin</persName>, sur tes succès tant dans ce travail que dans
                tes études ordinaires, sur tes<pb n="263" facs="#ACAS_CRHST_AMP_25_379_0263_r.jpg"/> places de chaque semaine, etc. Mon bon ami, si je <supplied>ne</supplied>
@@ -208,9 +210,9 @@
          </div>
       </body>
       <back>
-         <div>
-            <note xml:id="corresp1">(1) Trois pages in-4°, adresse sur la quatrième.</note>
-            <note xml:id="corresp2">(2) <persName>Ampère</persName> a
+         <div xml:id="L1810-05-30-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Trois pages in-4°, adresse sur la quatrième.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) <persName>Ampère</persName> a
                daté <date when-iso="1811">1811</date> et non <date when-iso="1810">1810</date> ; mais <date when-iso="1811">1811</date> doit être une inadvertance. En <date when-iso="1811">1811</date>, <persName>Ampère</persName> passe
                un mois à <placeName>Lyon</placeName>, va de là à <placeName>Grenoble</placeName>, est le <date when="1811-05-20">20 mai</date> à <placeName>Aix</placeName>, continue sur <placeName>Marseille</placeName> et
                <placeName>Montpellier</placeName> au début de juin, <placeName>Avignon</placeName> et retour par <placeName>Lyon</placeName>. Il ne peut donc, entre <placeName>Aix</placeName>

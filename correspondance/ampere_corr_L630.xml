@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -156,19 +155,20 @@
    </teiHeader>
    <text type="correspondance" decls="#ampere_corr_L1822-09-25-a">
       <body>
-         <div>
-            <opener><placeName>Paris</placeName>
+         <div xml:id="L1822-09-25-a-div1">
+            <opener>
+          <placeName>Paris</placeName>
           <date when="1822-09-25">25 septembre 1822</date>
         </opener>
             <opener>Monsieur, </opener>
-            <p>je dois d'abord vous demander pardon de ne vous avoir pas écrit dès mon
+            <p xml:id="L1822-09-25-a-p1">je dois d'abord vous demander pardon de ne vous avoir pas écrit dès mon
                arrivée à <placeName>Paris</placeName>, après toutes les preuves que vous m'avez
                données à <placeName>Genève</placeName> d'une véritable amitié, preuves dont je me
                souviendrai toute ma vie avec la plus vive reconnaissance. Je n'aurais point dû
                laisser passer autant de temps pour vous en faire tous les remerciements que je vous
                dois ; mais vous comprendrez facilement la foule d'occupations qui accablent celui
                qui se retrouve dans son pays après une absence de deux mois.</p>
-            <p>J'ai remis à M.
+            <p xml:id="L1822-09-25-a-p2">J'ai remis à M.
                <persName>Paschoud</persName> les 140 francs que vous aviez eu la bonté de me prêter.
                Il n'avait point de nouvelles du paquet des 300 exemplaires que j'espérais trouver ce
                matin chez lui et que j'attends avec d'autant plus d'impatience que j'ai eu
@@ -189,7 +189,7 @@
                <persName>Maurice</persName> m'a écrit pour en avoir un ; je mets la plus grande
                importance à ce qu'il le reçoive, soit qu'il soit à <placeName>Genève</placeName> ou
                qu'on le lui fasse passer dans le pays où il se trouverait actuellement.</p>
-            <p>J'attends
+            <p xml:id="L1822-09-25-a-p3">J'attends
                toujours la note que m'avait promise M. votre fils des pages qui manquent dans les
                exemplaires qui sont à <placeName>Genève</placeName> pour que je lui envoie de quoi
                les compléter. Quand ils seront tous complets, il y en aura deux de plus à cause de
@@ -197,7 +197,7 @@
                <persName>Pictet</persName>. L'un d'eux sera pour M. votre fils. L'autre, vous ou M.
                <persName>Pictet</persName> le donneront à leur choix à quelques-uns des savants qui
                s'intéressent à <placeName>Genève</placeName> aux sciences physiques.</p>
-            <p>Je joins ici
+            <p xml:id="L1822-09-25-a-p4">Je joins ici
                l'extrait que j'ai lu avant-hier à l'<orgName>Institut</orgName> d'un mémoire dont je
                n'avais lu qu'une portion dans la séance du 16 septembre dernier. Cette portion
                contenait les détails des trois nouveaux faits que M. votre fils m'a aidé à
@@ -208,11 +208,11 @@
                déjà, car j'en ai exposé toute la substance à <placeName>Genève</placeName> le jour
                que j'ai répété mes expériences avec l'instrument de M.
                <persName>Tabareau</persName>.</p>
-            <p>M. votre fils, outre la note qu'il m'avait promise sur
+            <p xml:id="L1822-09-25-a-p5">M. votre fils, outre la note qu'il m'avait promise sur
                les feuilles de mon Recueil qui manquent dans les exemplaires qui sont à
                <placeName>Genève</placeName>, m'en avait promis une plus importante encore pour moi.
                Voici ce dont il s'agit.</p>
-            <p>Il m'avait<supplied> dit</supplied> qu'il allait insérer son mémoire dans la
+            <p xml:id="L1822-09-25-a-p6">Il m'avait<supplied> dit</supplied> qu'il allait insérer son mémoire dans la
                <title>Bibliothèque universelle</title> avec un petit mot de la façon dont ses
                expériences s'accordent avec la manière dont j'ai montré que l'action
                électro-dynamique de la terre était identique avec celle qu'exerceraient des circuits
@@ -230,26 +230,29 @@
                peut tirer les exemplaires à part que quand j'aurai le numéro de la dernière page du
                mémoire de M. votre fils. C'est la note de ce numéro qu'il m'avait promise avec
                l'autre et que je n'ai pas encore reçue.</p>
-            <p>Il y a deux jours que cette lettre est
+            <p xml:id="L1822-09-25-a-p7">Il y a deux jours que cette lettre est
                commencée et je n'avais pas eu le temps de l'achever pour la faire partir. J'en
                reçois à l'instant une de M. <persName>Tabareau</persName> qui me demande des
                nouvelles de son instrument. Sa lettre est du
                <date when="1822-09-22">22 septembre</date>. Je suis vraiment confus, après tout ce
                que votre amitié pour moi vous a déjà porté à faire, de vous importuner de tous les
                soins que vous avez la bonté de prendre.</p>
-            <p>Voici ce que je vous prie de m'écrire pour
+            <p xml:id="L1822-09-25-a-p8">Voici ce que je vous prie de m'écrire pour
                me tirer d'inquiétude sur ces divers points : <list>
                   <item n="1"> Si M. votre fils a eu la bonté de s'en occuper, la note des feuilles
                      qui manquent dans les exemplaires de mon recueil qui sont à
                      <placeName>Genève</placeName> pour que je puisse envoyer de quoi les
-                     compléter.</item><lb/>
+                     compléter.</item>
+            <lb/>
                   <item n="2"> Dans le cas où les 300 exemplaires que j'ai vus à
                      <placeName>Genève</placeName> ne seraient pas encore partis pour
-                     <placeName>Paris</placeName>, les faire expédier tout de suite.</item><lb/>
+                     <placeName>Paris</placeName>, les faire expédier tout de suite.</item>
+            <lb/>
                   <item n="3"> Si l'appareil de M. <persName>Tabareau</persName> est encore à
                      <placeName>Genève</placeName>, le lui envoyer le plus vite possible ; m'écrire
                      en même temps une petite note de frais de transports pour que je les rembourse
-                     à M. <persName>Paschoud</persName>.</item><lb/>
+                     à M. <persName>Paschoud</persName>.</item>
+            <lb/>
                   <item n="4"> Je vous prie surtout de me tirer de l'embarras où je suis
                      relativement aux numéros que doivent porter les pages des exemplaires de mon
                      mémoire du <date when="1822-06-10">10 juin</date> dernier inséré dans les
@@ -268,8 +271,9 @@
                      attendît à <placeName>Genève</placeName> avant de les tirer que j'aie envoyé le
                      dernier numéro du mien. Un mot d'éclaircissement, je vous prie, sur tout
                      cela !</item>
-               </list></p>
-            <p>Dans tous les cas, je vous prie de communiquer l'extrait ci-joint à M. votre
+               </list>
+        </p>
+            <p xml:id="L1822-09-25-a-p9">Dans tous les cas, je vous prie de communiquer l'extrait ci-joint à M. votre
                fils. Après le bonheur d'avoir formé une liaison plus intime avec vous, Monsieur,
                c'en a été un bien grand pour moi de faire connaissance avec lui. Je ne doute
                nullement qu'il n'acquière bientôt un rang distingué parmi ceux qui travaillent avec
@@ -286,7 +290,7 @@
                est une chose si importante quand on veut remonter aux causes physiques des
                phénomènes dont je me suis borné en général à constater l'existence et à calculer les
                forces qui les produisent.</p>
-            <p>Je fais construire un instrument avec lequel je pourrai
+            <p xml:id="L1822-09-25-a-p10">Je fais construire un instrument avec lequel je pourrai
                mettre en évidence l'action du conducteur sensiblement rectiligne supposé indéfini
                pour faire tourner toujours dans le même sens une portion de conducteur comprise dans
                son plan ou dans un plan qui lui soit parallèle et pour amener dans une position fixe
@@ -297,7 +301,7 @@
                lois d'attraction et de répulsion dont j'ai constaté tant de fois l'exactitude. Alors
                l'expérience répondra à votre objection comme l'ont déjà fait de simples déductions
                immédiates de ces lois.</p>
-            <p>Je vous renouvelle tous les remerciements de la plus vive
+            <p xml:id="L1822-09-25-a-p11">Je vous renouvelle tous les remerciements de la plus vive
                reconnaissance, je vous prie d'en offrir de pareils et l'hommage de mon profond
                respect à Mme <persName>de La Rive</persName>. Mille tendres amitiés à M. votre fils
                et mille empressés compliments à vos savants collègues qui m'ont montré un intérêt
@@ -307,8 +311,8 @@
          </div>
       </body>
       <back>
-         <div>
-            <note xml:id="corresp1">(1) Bibliothèque publique et universitaire de
+         <div xml:id="L1822-09-25-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Bibliothèque publique et universitaire de
                <placeName>Genève</placeName>. Cette lettre a été déjà publiée avec des coupures par
                <persName>Louis SORET</persName> : <persName>Auguste de La Rive</persName>, p.
                252.</note>

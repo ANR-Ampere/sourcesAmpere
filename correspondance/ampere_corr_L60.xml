@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -163,12 +162,13 @@
     </teiHeader>
     <text type="correspondance" decls="#ampere_corr_L1801-03-00-d">
         <body>
-            <div>
+            <div xml:id="L1801-03-00-d-div1">
                 <opener>
           <date when-iso="1801-03">[Mars 1801]</date>
         </opener>
-              <opener><pb n="99" facs="#ACAS_CRHST_AMP_23_331_0099_v.jpg"/>Du jeudi soir</opener>
-              <p>
+              <opener>
+          <pb n="99" facs="#ACAS_CRHST_AMP_23_331_0099_v.jpg"/>Du jeudi soir</opener>
+              <p xml:id="L1801-03-00-d-p1">
                     Mon bon ami, je t'écris de <placeName>
             <choice>
               <sic>Poleimieux</sic> <corr>Poleymieux</corr>
@@ -303,8 +303,8 @@
             </div>
         </body>
         <back>
-            <div>
-                <note xml:id="corresp1">(1) Deux pages avec adresse au verso.</note>
+            <div xml:id="L1801-03-00-d-div2">
+                <note resp="#CGA" xml:id="corresp1">(1) Deux pages avec adresse au verso.</note>
             </div>
         </back>
     </text>

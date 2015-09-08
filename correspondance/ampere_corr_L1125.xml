@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -154,17 +153,24 @@
    </teiHeader>
    <text type="correspondance" decls="#ampere_corr_L1805-03-23-a">
       <body>
-         <div>
-            <opener><pb n="394" facs="#ACAS_CRHST_AMP_24_332_0394_r.jpg"/>
+         <div xml:id="L1805-03-23-a-div1">
+            <opener>
+          <pb n="394" facs="#ACAS_CRHST_AMP_24_332_0394_r.jpg"/>
           <date when="1805-03-23">23 mars 1805</date>
         </opener>
-            <p>
+            <p xml:id="L1805-03-23-a-p1">
           <gap reason="lacune_CGA"/> Ton petit continue d'apprendre avec beaucoup de
                soin, mais préférablement son catéchisme. Sa tatan lui fait dire une leçon entière
                parce qu'il n'aime pas à répéter. C'est l'affaire de quatre fois pour le savoir sans
-               faute. Pour les fables, il a plus de peine <gap reason="lacune_CGA"/><pb n="395" facs="#ACAS_CRHST_AMP_24_332_0395_v.jpg"/><gap reason="lacune_CGA"/><pb n="396" facs="#ACAS_CRHST_AMP_24_332_0396_r.jpg"/><gap reason="lacune_CGA"/>
+               faute. Pour les fables, il a plus de peine <gap reason="lacune_CGA"/>
+          <pb n="395" facs="#ACAS_CRHST_AMP_24_332_0395_v.jpg"/>
+          <gap reason="lacune_CGA"/>
+          <pb n="396" facs="#ACAS_CRHST_AMP_24_332_0396_r.jpg"/>
+          <gap reason="lacune_CGA"/>
         </p>
-            <closer><pb n="397" facs="#ACAS_CRHST_AMP_24_332_0397_v.jpg"/>A monsieur <persName>Ampère</persName> répétiteur d'analyse à l’<orgName>École polytechnique</orgName> à <placeName>Paris</placeName></closer>
+            <closer>
+          <pb n="397" facs="#ACAS_CRHST_AMP_24_332_0397_v.jpg"/>A monsieur <persName>Ampère</persName> répétiteur d'analyse à l’<orgName>École polytechnique</orgName> à <placeName>Paris</placeName>
+        </closer>
          </div>
       </body>
    </text>

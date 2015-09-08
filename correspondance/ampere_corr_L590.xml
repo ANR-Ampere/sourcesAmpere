@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -161,11 +160,15 @@
    </teiHeader>
    <text type="correspondance" decls="#ampere_corr_L1820-09-19-a">
       <body>
-         <div>
-            <opener><pb n="17" facs="#ACAS_CRHST_AMP_24_360_0017_r.jpg"/><placeName>Paris</placeName>
-          <date when="1820-09-19">19 <choice><abbr>7bre</abbr> <expan>septembre</expan></choice> 1820</date>
+         <div xml:id="L1820-09-19-a-div1">
+            <opener>
+          <pb n="17" facs="#ACAS_CRHST_AMP_24_360_0017_r.jpg"/>
+          <placeName>Paris</placeName>
+          <date when="1820-09-19">19 <choice>
+              <abbr>7bre</abbr> <expan>septembre</expan>
+            </choice> 1820</date>
         </opener>
-            <p>Rien ne m'a fait plus de plaisir, mon bon fils, mon plus cher ami, que tes deux
+            <p xml:id="L1820-09-19-a-p1">Rien ne m'a fait plus de plaisir, mon bon fils, mon plus cher ami, que tes deux
                lettres de <placeName>Lucerne</placeName>. J'étais tourmenté de n'avoir plus de tes
                nouvelles et, quand je les ai lues, j'étais comme un homme affamé à qui l'on apporte
                un excellent dîner à deux services plein de mets délicieux ; ces mets, c'étaient des
@@ -175,14 +178,17 @@
                les détails relatifs à l'éclipse m'ont singulièrement intéressé. J'attends ton retour
                comme un moment bien heureux dans ma vie. D'après ce que tu me dis, je l'espère dans
                trois semaines.</p>
-            <p>Continue de prendre note de toutes les plantes que tu trouves dans
+            <p xml:id="L1820-09-19-a-p2">Continue de prendre note de toutes les plantes que tu trouves dans
                ton voyage ! Si je peux au <placeName>Jardin du Roi</placeName> m'en procurer quelques-unes, je les
                cultiverai dans le mien et tu les y verras en mémoire de la <placeName>Suisse</placeName>. J'ai fait tes
                commissions autant que cela m'était possible ; car <persName>Fulgence</persName> n'est pas
                encore de retour et <persName>Prosper le Poitevin</persName> est allé passer un mois à la campagne.
                <persName>Sautelet</persName> avait eu une espèce de rechute, il va bien de nouveau ; ce que je lui ai dit
                de ta<pb n="18" facs="#ACAS_CRHST_AMP_24_360_0018_v.jpg"/> part lui a fait bien plaisir.</p>
-            <p>Du <date when="1820-09-20">25 <choice><abbr>7bre</abbr> <expan>septembre</expan></choice></date> au soir<lb/>
+            <p xml:id="L1820-09-19-a-p3">Du <date when="1820-09-20">25 <choice>
+              <abbr>7bre</abbr> <expan>septembre</expan>
+            </choice>
+          </date> au soir<lb/>
                J'ai eu bien tort et je
                me repens beaucoup de n'avoir pas fait partir cette lettre il y a trois jours. Je ne
                m'en consolerais pas si je n'espérais qu'en partant demain, elle te trouvera encore à
@@ -210,8 +216,9 @@
                voilà une nouvelle théorie de l'aimant, qui en ramène, par le fait, tous les
                phénomènes à ceux du galvanisme. Cela ne ressemble en rien à ce qu'on en disait
                jusqu'à présent.</p>
-            <p>Je le réexpliquerai demain à M. <persName>de Humboldt</persName>, après-demain à M. <persName>de
-               Laplace</persName><pb n="20" facs="#ACAS_CRHST_AMP_24_360_0020_v.jpg"/> au <orgName>Bureau des Longitudes</orgName>. Ta tante <persName>Carron</persName> va un peu mieux. J'ai été déjeuner
+            <p xml:id="L1820-09-19-a-p4">Je le réexpliquerai demain à M. <persName>de Humboldt</persName>, après-demain à M. <persName>de
+               Laplace</persName>
+          <pb n="20" facs="#ACAS_CRHST_AMP_24_360_0020_v.jpg"/> au <orgName>Bureau des Longitudes</orgName>. Ta tante <persName>Carron</persName> va un peu mieux. J'ai été déjeuner
                chez elle avec ma sœur, ma cousine et <persName>Albine</persName>. Nous te regrettions tous beaucoup ;
                Ampère, qui se trouvait à <placeName>Paris</placeName>, en était. Tout le monde ici attend ton retour et
                t'adresse mille vœux. A l'exception de Mme <persName>Carron</persName>, tous ceux que tu aimes à <placeName>Paris</placeName> se
@@ -228,10 +235,10 @@
          </div>
       </body>
       <back>
-         <div>
-            <note xml:id="corresp1">(1) Quatre pages 20 x 25,3, adresse sur la quatrième. Timbre
+         <div xml:id="L1820-09-19-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages 20 x 25,3, adresse sur la quatrième. Timbre
                port payé.</note>
-            <note xml:id="corresp2">(2) Voir la bibliographie ci-jointe. Tous les mémoires d'<persName>Ampère</persName> relatifs à
+            <note resp="#CGA" xml:id="corresp2">(2) Voir la bibliographie ci-jointe. Tous les mémoires d'<persName>Ampère</persName> relatifs à
                l'Électrodynamique ont été réimprimés en<date when-iso="1885"> 1885</date> et <date when-iso="1887">1887</date> dans deux in-8° par la <orgName>Société
                de Physique</orgName> sous la direction de M. <persName>Joubert</persName> (Gauthier-Villars). L'invention du
                télégraphe (voir pl. XVII) remonte à cette époque. </note>

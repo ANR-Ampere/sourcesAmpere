@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -162,12 +161,13 @@
    </teiHeader>
    <text type="correspondance" decls="#ampere_corr_L1821-05-24-a">
       <body>
-         <div>
-            <opener><placeName>Paris</placeName>
+         <div xml:id="L1821-05-24-a-div1">
+            <opener>
+          <placeName>Paris</placeName>
           <date when="1821-05-24">24 mai 1821</date>
         </opener>
             <opener>Monsieur le <persName>Baron</persName>, </opener>
-            <p>Je vous envoie joints à cette lettre six exemplaires de mon
+            <p xml:id="L1821-05-24-a-p1">Je vous envoie joints à cette lettre six exemplaires de mon
                mémoire <ref target="#ampere_ref_379.xml">*</ref> accompagnés chacun d'un
                exemplaire du compte rendu des nouveaux faits qui y sont exposés et de ce que j'y ai
                ajouté depuis, fait à l'<orgName>Institut</orgName> par M. <persName>Delambre</persName>. Je vous prie d'abord d'agréer
@@ -177,7 +177,7 @@
                dans le royaume des <placeName>Pays-Bas</placeName>, s'occupent de la science dont ils sont destinés à
                étendre une des branches les plus curieuses, il ne me reste qu'à vous offrir tous mes
                remerciements de ce que vous voulez bien me rendre ce service.</p>
-            <p>Je désire beaucoup que
+            <p xml:id="L1821-05-24-a-p2">Je désire beaucoup que
                chaque exemplaire du mémoire soit éclairci et complété par le compte rendu : c'est
                pourquoi je l'y ai joint. J'ai déjà envoyé de ces exemplaires à MM. <persName>van Mons</persName> et <persName>Bory
                de Saint-Vincent</persName> <ref target="#corresp2">(2)</ref>. Mais il me serait bien agréable que vous puissiez en faire
@@ -190,14 +190,14 @@
                m'en rapporte absolument à vous, Monsieur le <persName>Baron</persName>, pour le choix des personnes à qui
                vous les remettrez, n'ayant pour but en cela que de répandre la connaissance de mes
                travaux sur ce sujet.</p>
-            <p>J'avoue qu'une des personnes à qui j'aurais été très flatté
+            <p xml:id="L1821-05-24-a-p3">J'avoue qu'une des personnes à qui j'aurais été très flatté
                d'en faire parvenir est M. <persName>Omalius d'Halloy</persName> <ref target="#corresp3">(3)</ref>, que j'ai vu autrefois à <placeName>Paris</placeName>, mais
                qui m'a sans doute oublié. Je ne sais où il est actuellement, mais je pense qu'il
                continue d'aimer les sciences dont il s'est occupé avec les succès les plus
                honorables.</p>
-            <p>Je vous prie d'offrir à <persName>Mme de Stassart</persName> l'hommage de mon profond respect
+            <p xml:id="L1821-05-24-a-p4">Je vous prie d'offrir à <persName>Mme de Stassart</persName> l'hommage de mon profond respect
                et d'agréer celui de ma vive reconnaissance et de la plus haute considération.</p>
-            <p>J'ai
+            <p xml:id="L1821-05-24-a-p5">J'ai
                l'honneur d'être, Monsieur le <persName>Baron</persName>, votre très humble et très obéissant serviteur.<lb/>
                <persName>A. Ampère</persName>
         </p>
@@ -206,15 +206,15 @@
          </div>
       </body>
       <back>
-         <div>
-            <note xml:id="corresp1">(1) Trois pages 21 x 26, adresse sur la quatrième. [Bibliothèque
+         <div xml:id="L1821-05-24-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Trois pages 21 x 26, adresse sur la quatrième. [Bibliothèque
                de L'<orgName>Académie Royale de <placeName>Belgique</placeName>
           </orgName>, Fonds <persName>Stassart</persName>.]</note>
-            <note xml:id="corresp2">(2) <persName>Van Mons (Jean-Baptiste)</persName>,
+            <note resp="#CGA" xml:id="corresp2">(2) <persName>Van Mons (Jean-Baptiste)</persName>,
                <date from-iso="1765" to-iso="1842">1765-1842</date>, élu associé non-résident de la section de chimie à l'<orgName>Institut</orgName> eu <date when-iso="1796">1796</date>,
                savant belge. <persName>Bory Saint-Vincent (Jean-Baptiste)</persName> <date from-iso="1778" to-iso="1846">1778-1846</date>, géologue français,
                académicien libre en <date when-iso="1734">1734</date>. </note>
-            <note xml:id="corresp3">(3) <persName>Omalius d'Halloy (Jean-Baptiste-Julien)</persName>, <date from-iso="1783" to-iso="1842">1783-1842</date>,
+            <note resp="#CGA" xml:id="corresp3">(3) <persName>Omalius d'Halloy (Jean-Baptiste-Julien)</persName>, <date from-iso="1783" to-iso="1842">1783-1842</date>,
                minéralogiste belge, correspondant de l’<orgName>Institut</orgName> en <date when-iso="1842">1842</date>. </note>
          </div>
       </back>

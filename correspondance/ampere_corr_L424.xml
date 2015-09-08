@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -162,11 +161,11 @@
     </teiHeader>
     <text type="correspondance" decls="#ampere_corr_L1812-09-04-a">
         <body>
-            <div>
+            <div xml:id="L1812-09-04-a-div1">
                 <opener>
           <date when="1812-09-04">[Vers le 4 septembre 1812]</date>
         </opener>
-                <p>
+                <p xml:id="L1812-09-04-a-p1">
                     <gap reason="lacune_CGA"/> <pb n="163" facs="#ACAS_CRHST_AMP_24_340_0163_r.jpg"/>Je vois en fermant cette lettre que tu peux,
                     en détruisant le premier feuillet, conserver l'autre avec le tableau pour les
                     remettre, s'il veut les lire, à l'excellent <persName>Camille</persName>. Mon cher ami, je suis
@@ -177,7 +176,7 @@
                     jours de tes nouvelles, et je ne puis en avoir que dans huit, si l'amitié ne t'a
                     inspiré de m'écrire à tout hasard malgré ce que je te disais de mon prochain
                     départ.</p>
-                <p>Tu sens bien que, dans la peine continuelle où je suis, je n'ai jamais
+                <p xml:id="L1812-09-04-a-p2">Tu sens bien que, dans la peine continuelle où je suis, je n'ai jamais
                     eu tant besoin d'une lettre de mon ami... Je suis surtout tourmenté de n'avoir
                     pu t'écrire que d'une manière trop abrégée, pour n'être pas ambiguë, des
                     événements faits pour tourmenter singulièrement tous ceux qui y étaient
@@ -188,20 +187,22 @@
           </cit>. J'ai compris en
                     m'en rappelant qu'elle présentait, dans l'usage ordinaire, un sens auquel je
                     n'avais point songé en l'écrivant.</p>
-                <p>Manquer à tout ce qu'on doit à quelqu'un,
+                <p xml:id="L1812-09-04-a-p3">Manquer à tout ce qu'on doit à quelqu'un,
                     signifiait dans ma lettre s'éloigner de quelqu'un à qui l'on doit autant
                     d'amitié que de reconnaissance, pour porter ces sentiments à un autre. A
                     présent, tout a tourné précisément comme tu aurais pu le désirer, si tout cela
                     s'était passé sous tes yeux.</p>
-                <p>T'ai-je dit que j'avais reçu le <date when="1812-08-14">14 août</date> dernier une
+                <p xml:id="L1812-09-04-a-p4">T'ai-je dit que j'avais reçu le <date when="1812-08-14">14 août</date> dernier une
                     lettre de <persName>Davy</persName> qui a été dix-huit mois en route, et qui est très flatteuse pour
                     moi ? Je viens d'y répondre. C'est surtout sur la nature de l'acide fluorique.</p>
-                <p>
+                <p xml:id="L1812-09-04-a-p5">
                     Depuis quelques jours, j'ai retrouvé assez de paix d'esprit pour m'occuper de
                     nouveau de métaphysique. J'y trouve tous les jours plus de charme. C'était là<pb n="165" facs="#ACAS_CRHST_AMP_24_340_0165_r.jpg"/> ma
                     vraie destination ; pour cela sur la terre ! Me refuseras-tu de lire ce que je
                     t'ai envoyé là-dessus ? Cette réponse à <persName>
-            <choice><sic>Maine Biran</sic> <corr>Maine de Biran</corr></choice>
+            <choice>
+              <sic>Maine Biran</sic> <corr>Maine de Biran</corr>
+            </choice>
           </persName>, où il y a
                     autre chose qu'une réponse, où il y a presque tout sur le quatrième système si
                     je m'en souviens bien ! Sais-tu que c'est définitivement la nomenclature
@@ -209,12 +210,13 @@
                     rester ? Quel bonheur j'eus ce jour-là d'y penser ! T'en souviens-tu de ce jour
                     qui est déjà englouti avec les autres ? Comme cette nomenclature est simple,
                     facile, comme elle rend tout ! Je la joins ici telle qu'elle restera.</p>
-                <p>
+                <p xml:id="L1812-09-04-a-p6">
                     J'y joins une légère définition par un exemple souvent pris au hasard, des
                     différents modes d'union conservées, que je nomme d'un nom commun des
                     commémorations. Il y a, en tête du tableau, des noms communs analogues à
                     celui-là pour tout.</p>
-                <p><pb n="166" facs="#ACAS_CRHST_AMP_24_340_0166_v.jpg"/>Tu connaîtras aisément, mon bon ami, que j'appelle ici
+                <p xml:id="L1812-09-04-a-p7">
+          <pb n="166" facs="#ACAS_CRHST_AMP_24_340_0166_v.jpg"/>Tu connaîtras aisément, mon bon ami, que j'appelle ici
                     agrégation la formation de tout groupe d'impression de même nature par
                     juxtaposition continue de ces impressions. Agrégation, qui, comme toutes les
                     autres manières dont des éléments se réunissent en groupe, est immédiate quand
@@ -224,7 +226,7 @@
                     qui portent dans chaque système une épithète particulière plus caractéristique.
                     J'ai appelé associations toutes les réunions qui dépendent des idées ou rapports
                     de ressemblance, ou dissemblance des choses comparées.</p>
-                <p>Dis-moi de tous les mots
+                <p xml:id="L1812-09-04-a-p8">Dis-moi de tous les mots
                     de ce dernier tableau quels sont ceux qui te semblent encore mauvais ou
                     insignifiants ! Dis-moi ce que tu penses, ainsi que <persName>Camille</persName>, de cette lettre et
                     de la précédente qui t'a été remise par M. <persName>Andrieux</persName>. Adieu, cher ami, je t'aime
@@ -232,14 +234,14 @@
             </div>
         </body>
         <back>
-            <div>
-                <note xml:id="corresp1">(1) Deux pages in-4°, papier bleuté. L'adresse est sur un
+            <div xml:id="L1812-09-04-a-div2">
+                <note resp="#CGA" xml:id="corresp1">(1) Deux pages in-4°, papier bleuté. L'adresse est sur un
                     tableau ci-joint que nous ne reproduisons pas par économie : tableau divisant
                     les systèmes en primitifs et réflechis ; puis ceux-ci en sensitif (image,
                     agrégation), cognitif (étiotype, attribution), comparatif (idée, association),
                     intuitif (notion, déduction), etc. Le premier feuillet de la lettre a dû être
                     détruit. Cette lettre est datée par celle de Davy (voir Lettre 0422). </note>
-                <note xml:id="corresp2">(2) Lettre
+                <note resp="#CGA" xml:id="corresp2">(2) Lettre
                     d'<persName>Ampère</persName> du 25 août (Lettre 0421). </note>
             </div>
         </back>

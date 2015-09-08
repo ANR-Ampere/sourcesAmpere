@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -163,15 +162,16 @@
     </teiHeader>
     <text type="correspondance" decls="#ampere_corr_L1801-06-00-a">
         <body>
-            <div>
-                <opener><pb n="94" facs="#ACAS_CRHST_AMP_23_331_0094_r.jpg"/>Du samedi <date when="1801-06">[Juin 1801]</date>
+            <div xml:id="L1801-06-00-a-div1">
+                <opener>
+          <pb n="94" facs="#ACAS_CRHST_AMP_23_331_0094_r.jpg"/>Du samedi <date when="1801-06">[Juin 1801]</date>
         </opener>
-                <p>Mon bon ami j'espère que je <choice>
+                <p xml:id="L1801-06-00-a-p1">Mon bon ami j'espère que je <choice>
             <sic>trouverais</sic> <corr>trouverai</corr>
           </choice>
           <lb/>
                     quelqu'un qui te portera cette lettre demain.</p>
-                <p>
+                <p xml:id="L1801-06-00-a-p2">
                     Tu <choice>
             <sic>soras</sic> <corr>sauras</corr>
           </choice> que le petit va <choice>
@@ -288,13 +288,13 @@
                     <choice>
             <sic>pourais</sic> <corr>pourrai</corr>
           </choice> peut-être venir le même jour.</p>
-                <p>
+                <p xml:id="L1801-06-00-a-p3">
                     Adieu mon bon ami, adieu je t'embrasse<lb/>
                     bien tendrement et suis pour toute ma vie<lb/>
                     ta femme, ta sœur et surtout ta bonne amie.<lb/>
                     <persName ref="#pers_C129">Julie</persName>
                 </p>
-                <p>
+                <p xml:id="L1801-06-00-a-p4">
                     <persName>Élise</persName> et <persName>
             <gap reason="illisible"/>
           </persName> te font bien des amitiés.<lb/>
@@ -303,8 +303,8 @@
             </div>
         </body>
         <back>
-            <div>
-                <note xml:id="corresp1">(1) Deux pages en in-4°.</note>
+            <div xml:id="L1801-06-00-a-div2">
+                <note resp="#CGA" xml:id="corresp1">(1) Deux pages en in-4°.</note>
             </div>
         </back>
     </text>

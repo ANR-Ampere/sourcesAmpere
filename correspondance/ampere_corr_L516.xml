@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -160,14 +159,16 @@
     </teiHeader>
     <text type="correspondance" decls="#ampere_corr_L1815-07-10-a">
         <body>
-            <div>
-                <opener><pb n="334" facs="#ACAS_CRHST_AMP_24_334_0334_r.jpg"/><placeName>Lyon</placeName> 
+            <div xml:id="L1815-07-10-a-div1">
+                <opener>
+          <pb n="334" facs="#ACAS_CRHST_AMP_24_334_0334_r.jpg"/>
+          <placeName>Lyon</placeName> 
           <date when="1815-07-10">10 juillet 1815</date>
         </opener>
-                <p>
+                <p xml:id="L1815-07-10-a-p1">
           <gap reason="lacune_CGA"/> Que se passe-t-il à <placeName>Paris</placeName> ? Nous ne savons
                     que ce que disent les journaux ; rien de plus, et cela n'est pas très clair !</p>
-                <p>
+                <p xml:id="L1815-07-10-a-p2">
                     Quant à nous, notre sort n'est pas encore décidé. On fait de grands préparatifs
                     de défense. L'armée autrichienne est très près de nos murs ; la petite armée du
                     <persName>duc d'<placeName>Albufera</placeName>
@@ -178,17 +179,19 @@
                     brûler <placeName>Paris</placeName> plutôt que de le livrer. <gap reason="lacune_CGA"/>
                     L'honneur national eût été sauvé. Un autre était scandalisé de ce que je
                     désirais la paix ! <gap reason="lacune_CGA"/> Et nous nous disons
-                    chrétiens ! <gap reason="lacune_CGA"/></p>
-                <p><pb n="335" facs="#ACAS_CRHST_AMP_24_334_0335_v.jpg"/>Tu dois bien souffrir, pauvre
+                    chrétiens ! <gap reason="lacune_CGA"/>
+        </p>
+                <p xml:id="L1815-07-10-a-p3">
+          <pb n="335" facs="#ACAS_CRHST_AMP_24_334_0335_v.jpg"/>Tu dois bien souffrir, pauvre
                     ami, de tous les maux qui affligent la patrie et j'ai peur que tu n'aies encore
                     à t'affliger. Le mal est profond ; je ne conçois pas comment il peut être guéri.</p>
-                <p>
+                <p xml:id="L1815-07-10-a-p4">
                     Adieu. Bien des amitiés à <persName>Ballanche</persName>.</p>
             </div>
         </body>
         <back>
-            <div>
-                <note xml:id="corresp1">(1) Deux pages in-4°, adresse sur la quatrième.</note>
+            <div xml:id="L1815-07-10-a-div2">
+                <note resp="#CGA" xml:id="corresp1">(1) Deux pages in-4°, adresse sur la quatrième.</note>
             </div>
         </back>
     </text>

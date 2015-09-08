@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -160,35 +159,44 @@
     </teiHeader>
     <text type="correspondance" decls="#ampere_corr_L1827-08-31-a">
         <body>
-            <div>
-                <opener><pb n="337" facs="#ACAS_CRHST_AMP_25_379_0337_r.jpg"/><placeName>Paris</placeName> ce
+            <div xml:id="L1827-08-31-a-div1">
+                <opener>
+          <pb n="337" facs="#ACAS_CRHST_AMP_25_379_0337_r.jpg"/>
+          <placeName>Paris</placeName> ce
           <date when="1827-08-31">31 août 1827</date>
         </opener>
                 <opener>Mon cher fils,</opener>
-                <p><gap reason="lacune_CGA"/></p>
+                <p xml:id="L1827-08-31-a-p1">
+          <gap reason="lacune_CGA"/>
+        </p>
                 </div>
-            <div><opener><pb n="338" facs="#ACAS_CRHST_AMP_25_379_0338_v.jpg"/><placeName>Paris</placeName> <date when="1827-08-31">31 août</date></opener>
-                <p>Mon cher fils voilà déjà quelque temps que je ne t'ai pas écrit. Ma dernière
+            <div xml:id="L1827-08-31-a-div2">
+        <opener>
+          <pb n="338" facs="#ACAS_CRHST_AMP_25_379_0338_v.jpg"/>
+          <placeName>Paris</placeName> <date when="1827-08-31">31 août</date>
+        </opener>
+                <p xml:id="L1827-08-31-a-p2">Mon cher fils voilà déjà quelque temps que je ne t'ai pas écrit. Ma dernière
                     lettre est de <placeName>Laumont</placeName>, où j'avais été passer un jour ; marque-moi si tu l'as
                     reçue, ainsi que les autres que tu as dû trouver à <placeName>Stockholm</placeName>. L'une des plus
                     essentielles est très ancienne ; je l'ai écrite du temps que tu étais encore à
                     <placeName>Berlin</placeName>.</p>
-                <p>Il y en a d'affranchies et de non affranchies. M. <persName>Izarn</persName>, et j'ai été
+                <p xml:id="L1827-08-31-a-p3">Il y en a d'affranchies et de non affranchies. M. <persName>Izarn</persName>, et j'ai été
                     touché de cette attention de sa part, non seulement a écrit à l'aumônier de la
                     Reine, avec lequel il est très lié, de te voir dès ton arrivée et de te remettre
                     de l'argent si tu en as besoin jusqu'à concurrence de 1000 francs. Tu feras bien
                     d'aller voir cet aumônier, ainsi que celui de la princesse royale à qui tu es
                     recommandé par M. <persName>Olivier</persName>, dès que tu seras à <placeName>Stockholm</placeName>.</p>
-                <p>J'ai assez d'argent à
+                <p xml:id="L1827-08-31-a-p4">J'ai assez d'argent à
                     toi ; je voudrais que tu eusses conservé la lettre où j'en avais, l'hiver passé,
                     fait le compte. Il ne s'agirait que d'y ajouter ce que j'ai depuis reçu de <persName>Mme
                     Fresnel</persName>, pour avoir le montant juste.</p>
-                <p><pb n="339" facs="#ACAS_CRHST_AMP_25_379_0339_r.jpg"/>Une autre chose à faire, dès que tu seras
+                <p xml:id="L1827-08-31-a-p5">
+          <pb n="339" facs="#ACAS_CRHST_AMP_25_379_0339_r.jpg"/>Une autre chose à faire, dès que tu seras
                     à <placeName>Stockholm</placeName>, c'est de voir le célèbre <persName>Berzéliu</persName>s ; tu sais qu'il est venu me voir
                     à <placeName>Paris</placeName> et tout ce qu'il convient de lui dire de ma part. Tu sais aussi combien
                     il est lié avec <persName>Fulgence</persName> qui a traduit un ou deux de ses ouvrages.
                     <persName>Fulgence</persName> est toujours à <placeName>Rome</placeName>.</p>
-                <p>Tu ferais une excellente chose de demander à M.
+                <p xml:id="L1827-08-31-a-p6">Tu ferais une excellente chose de demander à M.
                     <persName>Berzélius</persName> cette explication du phénomène dont tu me parles sous le nom de
                     fahlbande ; n'en sachant pas la cause, je l'ai demandée à un minéralogiste qui
                     n'en savait pas plus sur cette cause. Il croit que les filons ont été produits
@@ -200,7 +208,8 @@
                     c'est-à-dire à l'intersection des deux ordres de filons qui se coupent. Ainsi,
                     c'est dans ces intersections que les métaux précieux sont presque toujours,
                     comme dans le cas dont tu parles, beaucoup plus abondants <ref target="#corresp2">(2)</ref>.</p>
-                <p><persName>Mlle Cuvier</persName> est
+                <p xml:id="L1827-08-31-a-p7">
+          <persName>Mlle Cuvier</persName> est
                     toujours dans un grand danger. Mais il a cependant diminué depuis ma dernière
                     [visite], il y a plusieurs jours, où son état était tout à fait désespéré.
                     Quelle doit être la douleur de <persName>Mme Cuvier</persName> ! Adieu, mon cher fils, je t'embrasse
@@ -210,10 +219,10 @@
             </div>
         </body>
         <back>
-            <div>
-                <note xml:id="corresp1">(1) Cette lettre commence par une lettre d'<persName>Albine</persName> parlant de
+            <div xml:id="L1827-08-31-a-div3">
+                <note resp="#CGA" xml:id="corresp1">(1) Cette lettre commence par une lettre d'<persName>Albine</persName> parlant de
                     six sauvages arrivés à <placeName>Paris</placeName>.</note>
-                <note xml:id="corresp2">(2) <persName>Ampère</persName> essaye là d'expliquer les célèbres
+                <note resp="#CGA" xml:id="corresp2">(2) <persName>Ampère</persName> essaye là d'expliquer les célèbres
                     filons d'argent de <placeName>Kongsberg</placeName> qui s'enrichissent à la rencontre de zones
                     pyriteuses, dites fahlbandes. </note>
             </div>

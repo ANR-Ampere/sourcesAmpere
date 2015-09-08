@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -161,11 +160,12 @@
    </teiHeader>
    <text type="correspondance" decls="#ampere_corr_L1829-08-00-a">
       <body>
-         <div>
+         <div xml:id="L1829-08-00-a-div1">
             <opener>
           <date when="1829-08">[Août 1829]</date>
         </opener>
-            <p><pb n="351" facs="#ACAS_CRHST_AMP_25_379_0351_r.jpg"/>Cher ami, excellent fils, ayant su qu'il y avait à la poste restante une lettre à ton
+            <p xml:id="L1829-08-00-a-p1">
+          <pb n="351" facs="#ACAS_CRHST_AMP_25_379_0351_r.jpg"/>Cher ami, excellent fils, ayant su qu'il y avait à la poste restante une lettre à ton
                adresse, je l'ai retirée et je la mets dans celle-ci. J'allais t'écrire hier soir
                lorsque ta lettre m'est arrivée, je t'en remercie mille fois. J'ai reconnu la
                justesse de tes comptes, mais la nécessité d'emprunter encore 3000 francs me
@@ -181,7 +181,7 @@
                jours au retour, ce<pb n="352" facs="#ACAS_CRHST_AMP_25_379_0352_v.jpg"/> mois serait pour la dépense du retour, en sorte qu'il suffirait
                de grand reste que tu m'apportasses 1200 francs et, comme je n'en dois de déficit que
                1600, tu m'en apporteras 1400 ; encore 200 francs pour les choses imprévues.</p>
-            <p>Si tu
+            <p xml:id="L1829-08-00-a-p2">Si tu
                empruntes tout de suite les 3000 francs, il n'y a, je crois, plus d'avantage à
                obtenir la compensation avec l'<orgName>Université</orgName>. Ce ne serait que dans le cas où M.
                <persName>Alphonse</persName> <ref target="#corresp2">(2)</ref> ne pourrait faire prêter que sur des billets à courte échéance qu'il y
@@ -189,7 +189,7 @@
                présent et la certitude d'en avoir 1500 autres au mois d'octobre prochain, pour payer
                le billet de <placeName>Troyes</placeName> du 15 octobre montant à 1000 francs et celui du 15 novembre
                montant à 500 francs, total 1500 francs.</p>
-            <p>Si M. <persName>Alphonse</persName> voulait deux billets de 1500
+            <p xml:id="L1829-08-00-a-p3">Si M. <persName>Alphonse</persName> voulait deux billets de 1500
                francs chacun à neuf mois de date, l'un du <date when="1829-08-31">31 août [1829]</date> au <date when="1830-05-31">31 mai 1830</date>, époque où
                je recevrai l'avance de ma tournée de l'année prochaine,<pb n="353" facs="#ACAS_CRHST_AMP_25_379_0353_r.jpg"/> l'autre du <date when="1829-10-10">10 octobre 1829</date>
                au <date when="1830-08-10">10 août 1830</date> : époque où les seuls appointements de l'<orgName>Université</orgName>, avec ceux de
@@ -206,18 +206,19 @@
                parce que j'en ai apporté ici plusieurs et, s'il ne manque à <placeName>Paris</placeName> que ceux-là, il
                n'y en a point de perdus.</item>
           </list> J'en serai sûr.</p>
-            <p><pb n="354" facs="#ACAS_CRHST_AMP_25_379_0354_v.jpg"/>Si tu trouves dans ma bibliothèque
+            <p xml:id="L1829-08-00-a-p4">
+          <pb n="354" facs="#ACAS_CRHST_AMP_25_379_0354_v.jpg"/>Si tu trouves dans ma bibliothèque
                quelqu'autre livre d'histoire naturelle ou de physique, apporte-les moi en venant !
                Cherche, dans la ruelle de mon lit et dans le bas de ma bibliothèque, des brochures
                que j'ai faites sur l'électricité dynamique et sur la lumière ; apporte-moi trois
                exemplaires de chacune ! Prends chez <persName>Bachelier</persName> trois exemplaires de la brochure
                in-quarto intitulée <title>Mémoire sur l'action mutuelle d'un conducteur voltaïque et d'un
                aimant</title> <ref target="#ampere_ref_380.xml">*</ref> et apporte-les moi !</p>
-            <p>
+            <p xml:id="L1829-08-00-a-p5">
                Apporte-moi aussi un des deux chapeaux qui sont dans mon armoire ; l'un des deux que
                j'ai ici ne peut plus servir de rien et il faut toujours en avoir deux. Dès que
                j'aurai vu le sellier <persName>Merle</persName>, correspondant de M. <persName>Cornuot</persName>, je t'écrirai à ce sujet.</p>
-            <p>
+            <p xml:id="L1829-08-00-a-p6">
                Vois MM. <persName>Cuvier</persName>, <persName>Poisson</persName>, <persName>Mussy</persName>, les deux <persName>Binet</persName>, <persName>Rendu</persName>, etc. Donne-moi de leurs
                nouvelles ! Je prends bien part à l'affreux malheur d'<persName>Arago</persName>. Vois aussi M. <persName>Savart</persName> !
                Tu sais ce qu'il faut dire de ma part à toute notre famille, à nos amis. Ma santé
@@ -227,9 +228,9 @@
          </div>
       </body>
       <back>
-         <div>
-            <note xml:id="corresp1">(1) Quatre pages in-4° sans adresse.</note>
-            <note xml:id="corresp2">(2) <persName>Alphonse Ride</persName>, frère de
+         <div xml:id="L1829-08-00-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4° sans adresse.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) <persName>Alphonse Ride</persName>, frère de
                son gendre, était receveur à <persName>Bar-sur-Seine</persName>. </note>
          </div>
       </back>

@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -159,24 +158,30 @@
     </teiHeader>
     <text type="correspondance" decls="#ampere_corr_L1827-09-05-a">
         <body>
-            <div>
-                <opener><pb n="21" facs="#ACAS_CRHST_AMP_24_356_0021_r.jpg"/>
-          <date when="1827-09-05">5 <choice><abbr>7bre</abbr> <expan>septembre</expan></choice> 1827</date>
+            <div xml:id="L1827-09-05-a-div1">
+                <opener>
+          <pb n="21" facs="#ACAS_CRHST_AMP_24_356_0021_r.jpg"/>
+          <date when="1827-09-05">5 <choice>
+              <abbr>7bre</abbr> <expan>septembre</expan>
+            </choice> 1827</date>
         </opener>
                 <opener>Monsieur,</opener>
-                <p> je suis étrangement peiné de la nouvelle que M. <persName>de Valdené</persName> vient de
+                <p xml:id="L1827-09-05-a-p1"> je suis étrangement peiné de la nouvelle que M. <persName>de Valdené</persName> vient de
                     m'annoncer. De quelle faute suis-je donc coupable à vos yeux pour être traité
-                    aussi rigoureusement et condamné sans être entendu ? <gap reason="lacune_CGA"/></p>
-                <p>M. <persName>de Valdené</persName> m'a laissé entrevoir que mes liaisons
+                    aussi rigoureusement et condamné sans être entendu ? <gap reason="lacune_CGA"/>
+        </p>
+                <p xml:id="L1827-09-05-a-p2">M. <persName>de Valdené</persName> m'a laissé entrevoir que mes liaisons
                     avec M. le <persName>Vicomte de S.</persName> vous avaient donné une assez mauvaise idée de ma
                     conduite. Je le connais peu, ne l'ayant vu que chez M. <persName>de Valdené</persName> <gap reason="lacune_CGA"/>
         </p>
-                <closer><pb n="22" facs="#ACAS_CRHST_AMP_24_356_0022_v.jpg"/>A monsieur <persName>Ampère</persName> chevalier de l'ordre royal de la légion d'honneur, membre de l'<orgName>Institut</orgName>, rue des fossés S<ex>ain</ex>t Victor n°19 à <placeName>Paris</placeName></closer>
+                <closer>
+          <pb n="22" facs="#ACAS_CRHST_AMP_24_356_0022_v.jpg"/>A monsieur <persName>Ampère</persName> chevalier de l'ordre royal de la légion d'honneur, membre de l'<orgName>Institut</orgName>, rue des fossés S<ex>ain</ex>t Victor n°19 à <placeName>Paris</placeName>
+        </closer>
             </div>
         </body>
         <back>
-            <div>
-                <note xml:id="corresp1">(1) <persName>Gabriel Ride</persName> va devenir le gendre d'<persName>Ampère</persName>. <persName>Albine Ampère</persName>, fille du second mariage d'<persName>Ampère</persName> avec <persName>Jenny Potot</persName>, née le<date when="1807-09-04"> 4 septembre
+            <div xml:id="L1827-09-05-a-div2">
+                <note resp="#CGA" xml:id="corresp1">(1) <persName>Gabriel Ride</persName> va devenir le gendre d'<persName>Ampère</persName>. <persName>Albine Ampère</persName>, fille du second mariage d'<persName>Ampère</persName> avec <persName>Jenny Potot</persName>, née le<date when="1807-09-04"> 4 septembre
                     1807</date>, épousa le <date when="1827-11-27">27 novembre 1827</date> ce <persName>Gabriel Ride</persName>, né à <placeName>Troyes</placeName> le <date when="1795-04-23">23 avril 1795</date>,
                     élève à <orgName>Saint-Cyr</orgName> en <date when-iso="1811">1811</date>, lieutenant en <date when-iso="1813">1813</date>, blessé d'un coup de feu à la tête
                     à <placeName>Leipzig</placeName>, mis en demi-solde le <date when="1814-08-18">18 août 1814</date>, admis garde du corps surnuméraire

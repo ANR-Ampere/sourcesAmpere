@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -134,20 +133,24 @@
     </teiHeader>
     <text type="correspondance" decls="#ampere_corr_L0000-00-00-s">
         <body>
-            <div>
-                <opener><pb n="238" facs="#ACAS_CRHST_AMP_21_311_0238_r.jpg"/><placeName>Clermont F<ex>erran</ex>d</placeName>
-          <date when="1833-12-31">31 <choice><abbr>Xbre</abbr> <expan>décembre</expan></choice> 1833</date>
+            <div xml:id="L0000-00-00-s-div1">
+                <opener>
+          <pb n="238" facs="#ACAS_CRHST_AMP_21_311_0238_r.jpg"/>
+          <placeName>Clermont F<ex>erran</ex>d</placeName>
+          <date when="1833-12-31">31 <choice>
+              <abbr>Xbre</abbr> <expan>décembre</expan>
+            </choice> 1833</date>
         </opener>
-                <p>Monsieur et ami très cher, Je n'ai pu vous envoyer plus tôt le compte que vous
+                <p xml:id="L0000-00-00-s-p1">Monsieur et ami très cher, Je n'ai pu vous envoyer plus tôt le compte que vous
                     attendez, à cause d'une absence de mon beau-frère. Il est de retour ce soir,
                     j'ai chargé quelqu'un de le lui demander et j'espère pouvoir l'insérer dans
                     cette lettre demain au sortir de la classe, avant le départ du courrier.</p>
-                <p>Je fais
+                <p xml:id="L0000-00-00-s-p2">Je fais
                     mettre à la poste, en même temps que cette lettre une double épreuve de la
                     feuille 9  ; mais elle ne vous parviendra probablement qu'un jour plus tard,
                     parce que l'on retient les imprimés un jour de plus, pour vérifier s'il n'y a
                     point d'écriture à la main.</p>
-                <p>J'ai bien réfléchi sur les noms que vous proposez
+                <p xml:id="L0000-00-00-s-p3">J'ai bien réfléchi sur les noms que vous proposez
                     pour la 2e science du 3e ordre dans les sciences historiques. Ils me semblent
                     avoir deux <gap reason="illisible"/>, leur étrangeté d'abord, puis ils n'expriment pas
                     exactement l'objet de la science. Practologie ne me plaît pas, mais je <gap reason="illisible"/> l'idée un peu vague que représente la
@@ -161,7 +164,7 @@
                     on ne la change pas pour que les lecteurs puissent à leur gré détacher ce
                     mémoire des <title>Annales</title> et le faire relier à part, et réunir des feuilles qui,
                     isolées, présenteraient bien moins d'intérêt.</p>
-                <p>J'ai continué le travail de la
+                <p xml:id="L0000-00-00-s-p4">J'ai continué le travail de la
                     rédaction. Je suis arrivé à la pédagogique ; je n'ai donc plus en quelque sorte
                     que le 9e paragraphe, et le 8e chapitre, deux choses très difficiles à faire
                     pour moi. J'y mettrai mes soins, je m'en tirerai comme je pourrai mais vous
@@ -182,12 +185,14 @@
                     démarche, qui n'est encore qu'un projet, ne serait pas favorablement accueillie.
                     L'intérêt de l'enseignement de l'histoire passera sans doute avant celui des
                     réclamants.</p>
-                <p>Veuillez offrir mes hommages respectueux à vos dames et recevoir la
+                <p xml:id="L0000-00-00-s-p5">Veuillez offrir mes hommages respectueux à vos dames et recevoir la
                     nouvelle assurance de tout l'attachement avec lequel j'ai l'honneur d'être<lb/>
                     Monsieur et très cher ami,<lb/>
                     Votre dévoué serviteur <persName>Gonod</persName>
         </p>
-                <closer><pb n="241" facs="#/ACAS_CRHST_AMP_21_311_0241_v.jpg"/>A monsieur <persName>Ampère</persName> membre de l'<orgName>Institut</orgName> rue des fossés s<ex>aint</ex> Victor, n°19 à <placeName>Paris</placeName></closer>
+                <closer>
+          <pb n="241" facs="#/ACAS_CRHST_AMP_21_311_0241_v.jpg"/>A monsieur <persName>Ampère</persName> membre de l'<orgName>Institut</orgName> rue des fossés s<ex>aint</ex> Victor, n°19 à <placeName>Paris</placeName>
+        </closer>
             </div>
         </body>
     </text>

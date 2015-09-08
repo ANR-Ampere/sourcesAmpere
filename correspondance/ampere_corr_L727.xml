@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -156,24 +155,31 @@
     </teiHeader>
     <text type="correspondance" decls="#ampere_corr_L1829-04-13-a">
         <body>
-            <div>
-                <opener><pb n="343" facs="#ACAS_CRHST_AMP_24_334_0343_r.jpg"/>Lundi 
+            <div xml:id="L1829-04-13-a-div1">
+                <opener>
+          <pb n="343" facs="#ACAS_CRHST_AMP_24_334_0343_r.jpg"/>Lundi 
           <date when="1829-04-13">13 avril 1829</date>
         </opener>
-                <p><gap reason="lacune_CGA"/><pb n="344" facs="#ACAS_CRHST_AMP_24_334_0344_v.jpg"/><gap reason="lacune_CGA"/>Comment ! Un sténographe n'a pu prendre tes leçons ! Tu parles donc trop vite !
+                <p xml:id="L1829-04-13-a-p1">
+          <gap reason="lacune_CGA"/>
+          <pb n="344" facs="#ACAS_CRHST_AMP_24_334_0344_v.jpg"/>
+          <gap reason="lacune_CGA"/>Comment ! Un sténographe n'a pu prendre tes leçons ! Tu parles donc trop vite !
                     Voilà qui explique la toux violente qui t'a fait tant de mal.</p>
-                <p><gap reason="lacune_CGA"/> Si je ne t'ai pas parlé d'<title>
+                <p xml:id="L1829-04-13-a-p2">
+          <gap reason="lacune_CGA"/> Si je ne t'ai pas parlé d'<title>
             <persName>Orphée</persName>
           </title> <ref target="#corresp1">(1)</ref>, c'est qu'il
                     n'était pas nouveau pour moi ; j'avais admiré le bel ensemble et<cb/> lu quelques
                     détails de cette œuvre de sphinx. <gap reason="lacune_CGA"/>
         </p>
-                <closer><pb n="345" facs="#ACAS_CRHST_AMP_24_334_0345_v.jpg"/>A monsieur <persName>Ampère</persName> de l'<orgName>Institut</orgName>, inspecteur général de l'Université, rue des fossés S<ex>ain</ex>t Victor n°19 à <placeName>Paris</placeName></closer>
+                <closer>
+          <pb n="345" facs="#ACAS_CRHST_AMP_24_334_0345_v.jpg"/>A monsieur <persName>Ampère</persName> de l'<orgName>Institut</orgName>, inspecteur général de l'Université, rue des fossés S<ex>ain</ex>t Victor n°19 à <placeName>Paris</placeName>
+        </closer>
             </div>
         </body>
         <back>
-            <div>
-                <note xml:id="corresp1">(1) <title>
+            <div xml:id="L1829-04-13-a-div2">
+                <note resp="#CGA" xml:id="corresp1">(1) <title>
             <persName>Orphée</persName>
           </title> de <persName>BALLANCHE</persName> .</note>
             </div>
