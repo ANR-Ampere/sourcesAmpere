@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -140,8 +141,8 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
-          <ref target="#corresp1">(1)</ref>
+        <note type="CGA">
+          <ref target="#corresp2">(1)</ref>
         </note>
       </correspDesc>
          <creation>
@@ -181,7 +182,7 @@
             <sic>avais</sic> <corr>étais</corr>
           </choice> passé chez ce coquetier et<lb/>
                <supplied>j'avais</supplied> donné de nouveau l'adresse de<lb/>
-               <persName ref="#pers_R482">Renaud</persName>, le jour où j'avais diné<lb/>
+               <persName ref="#pers_R482">Renaud</persName>, le jour où j'avais dîné<lb/>
                chez M. <persName ref="#pers_R488">Riboud</persName> et où je<lb/>
                croyais rester quelques jours<lb/>
                chez <persName ref="#pers_R482">Renaud</persName>. Cette circonstance<lb/>
@@ -283,7 +284,8 @@
                possède en outre trois<lb/>
                promenades publiques, <placeName>le<lb/>
                   Mail</placeName>, <placeName>le Quinconce</placeName> et<lb/>
-               <placeName>le Bastion</placeName>, plantées d'arbres.<lb/>
+               <placeName>le Bastion</placeName>, plantées d'arbres.</p>
+            <p>
                J'ai dîné chez le <choice>
             <sic>proffesseur</sic> <corr>professeur</corr>
           </choice>
@@ -358,7 +360,7 @@
                de la santé morale.</quote>
           </cit> Tu sais<lb/>
                trop bien ce que je sens<lb/>
-               à cet égard, pour que je<pb n="1500" facs="#http://www.ampere.cnrs.fr/i-corpuspic/tab/Manuscrits/ch_393/ACAS_CRHST_AMP_26_393_quarto_0772_r.jpg"/> t'en parle
+               à cet égard, pour que je<pb n="1500" facs="#ACAS_CRHST_AMP_26_393_quarto_0772_r.jpg"/> t'en parle
                encore.</p>
             <p xml:id="L1802-02-22-a-p4">Dis à ma sœur <persName ref="#pers_C125">élise</persName> que<lb/>
                je lui aurais déjà écrit, si<lb/>
@@ -383,8 +385,8 @@
                reposer en changeant<lb/>
                de travail, à te<lb/>
                tracer cette<lb/>
-               espèce de plan,<pb n="1501" facs="#http://www.ampere.cnrs.fr/i-corpuspic/tab/Manuscrits/ch_393/ACAS_CRHST_AMP_26_393_quarto_0773_v.jpg"/> où tu verras les noms de ceux<lb/>
-               à qui j'ai affaire <ref>(3)</ref>. M. <persName ref="#pers_A28">d'Avrieux</persName> <lb/>
+               espèce de plan,<pb n="1501" facs="#ACAS_CRHST_AMP_26_393_quarto_0773_v.jpg"/> où tu verras les noms de ceux<lb/>
+               à qui j'ai affaire <ref target="#corresp3">(3)</ref>. M. <persName ref="#pers_A28">d'Avrieux</persName> <lb/>
                et M. <persName>Favier</persName> sont deux des<lb/>
                jurés. M. <persName ref="#pers_J317">Joly </persName>est celui à qui<lb/>
                était adressée la lettre de M.<lb/>
@@ -400,7 +402,7 @@
           </choice> <persName ref="#pers_C129">Ampère-Carron</persName>,<lb/>
                Maison <persName>Rosset</persName>, <placeName>n° 18,<lb/>
                   grande rue Mercière</placeName>,<lb/> à <placeName>Lyon</placeName>
-               <ref>(1)</ref>
+               <ref target="#corresp1">(1)</ref>
         </closer>
          </div>
       </body>
@@ -418,8 +420,10 @@
                l'alignement et la maison d'<persName ref="#pers_A366">Ampère</persName> démolie. Il est à noter que la maison voisine du
                49 appartient encore à un M. <persName>Duc-Périsse</persName>, sans doute de la même famille. Le logement
                d'<persName ref="#pers_A366">Ampère</persName> au n° 18 était au premier. Le propriétaire, M. <persName>Rosset</persName>, était libraire. En
-               <date when-iso="1800">1800</date>, la sœur, Mme <persName>Périsse</persName>, habitait au <placeName>15, même rue Mercière</placeName>. (2) Quelques lignes
-               de cette lettre ont été publiées par Mme <persName>Cheuvreux</persName>, p. 175. (3) Voir le plan ci-joint
+               <date when-iso="1800">1800</date>, la sœur, Mme <persName>Périsse</persName>, habitait au <placeName>15, même rue Mercière</placeName>.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) Quelques lignes
+               de cette lettre ont été publiées par Mme <persName>Cheuvreux</persName>, p. 175.</note>
+            <note resp="#CGA" xml:id="corresp3">(3) Voir le plan ci-joint
                dessiné par <persName ref="#pers_A366">Ampère</persName> pl. VI. </note>
          </div>
       </back>

@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1830-05-23-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +100,11 @@
                <witness xml:id="L745manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 379</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 379</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>Quatre pages in-4°, adresse au bout, bord déchiré.</p>
@@ -140,7 +141,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,7 +162,7 @@
    <text type="correspondance" decls="#ampere_corr_L1830-05-23-a">
       <body>
          <div xml:id="L1830-05-23-a-div1">
-            <opener>
+            <opener><pb n="584" facs="#ACAS_CRHST_AMP_25_379_0584_r.jpg"/><placeName>Paris</placeName>
           <date when="1830-05-23">23 mai 1830</date>
         </opener>
             <p xml:id="L1830-05-23-a-p1">Cher bon ami, je t'ai écrit, peu après mon arrivée ici, comme quoi, au lieu de
@@ -169,24 +170,28 @@
                qui me disait de venir ici. Je t'ai donné l'indication des époques où tu pourras
                m'écrire dans chacune des villes où je dois séjourner, ces époques deviennent
                d'autant plus sûres par le retard de mon départ de <placeName>Paris</placeName>. J'ai attendu, pour t'écrire
-               de nouveau qu'il fût définitivement fixé ; il l'est à demain matin. Je vais
+               de nouveau qu'il fût définitivement fixé ; il l'est à demain matin.</p>
+            <p xml:id="L1830-05-23-a-p2">Je vais
                directement avec M. <persName>Daburon</persName> jusqu'à <placeName>Bordeaux</placeName>, à petites journées ; cela atteindra le
                dernier jour de ce mois. Je serai le 10 juin à <placeName>Pau</placeName>, le 20 juin à <placeName>Toulouse</placeName>, le dernier
                juin à <placeName>Cahors</placeName>, et ainsi de suite comme je te l'ai écrit. Je suis on ne peut mieux ;
                tous ceux qui t'intéressent ici se portent bien. Je n'ai reçu aucune lettre de mon
                bon fils depuis les deux qui m'arrivèrent presque ensemble à <placeName>Pomerols</placeName>. J'en serais
-               presque inquiet si je ne savais combien ton cours doit t'occuper et si je ne pensais
+               presque<pb n="585" facs="#ACAS_CRHST_AMP_25_379_0585_v.jpg"/> inquiet si je ne savais combien ton cours doit t'occuper et si je ne pensais
                qu'il y a peut-être pour moi une de tes lettres chez quelque proviseur de Collège
-               royal à qui tu l'as écrite, afin qu'il me la remette quand je visiterai son collège.
-               L'horrible... que tu auras malheureusement appris comme moi par les journaux m'a
+               royal à qui tu l'as écrite, afin qu'il me la remette quand je visiterai son collège.</p>
+            <p xml:id="L1830-05-23-a-p3">
+               L'horrible que tu auras malheureusement appris comme moi par les journaux m'a
                frappé à la fois de douleur et de stupeur. Je ne sache rien de plus épouvantable,
-               rien qui me semble plus éloigné de tout ce qu'on aurait pu prévoir. Quel chagrin tu
+               rien qui me semble plus éloigné de tout ce qu'on aurait pu prévoir.
+            Quel chagrin tu
                as dû éprouver en l'apprenant ; cette idée a encore ajouté à la peine que m'a faite
                cet horrible événement. Tous ceux de tes amis que j'ai vus la partagent et sont
-               soulevés d'indignation contre la personne qui l'a plongé dans ce désespoir <ref>(2)</ref>. Je
+               soulevés d'indignation contre la personne qui l'a plongé dans ce désespoir <ref target="#corresp2">(2)</ref>.</p>
+            <p xml:id="L1830-05-23-a-p4"><pb n="586" facs="#ACAS_CRHST_AMP_25_379_0586_r.jpg"/>Je
                reprends ma lettre pour la finir avant de me coucher. Tu sais la mort de M. <persName>Fourier</persName> ;
-               son remplacement par <persName>Arago</persName> est ce que je désire le plus <ref>(3)</ref>. Je craignais qu'il
-               s'opiniatrât à refuser. Mais il paraît bien décidé à se mettre sur les rangs, <persName>Poisson</persName>
+               son remplacement par <persName>Arago</persName> est ce que je désire le plus <ref target="#corresp3">(3)</ref>. Je craignais qu'il
+               s’opiniâtrât à refuser. Mais il paraît bien décidé à se mettre sur les rangs, <persName>Poisson</persName>
                et bien d'autres, opposés à <persName>Poisson</persName>, le portent. On dit que <persName>Dupin</persName>, qui aurait pu être
                de quelque danger à cause de la Chambre, a dit qu'il ne se mettrait pas pourvu que ce
                fût <persName>Arago</persName>. <persName>Arago</persName> fera, à la séance publique, l'éloge de <persName>Fresnel</persName> dont il s'était
@@ -194,23 +199,27 @@
                qui connaît les faits physiques parce qu'il a suivi dans le temps mes cours, ont fait
                d'admirables calculs sur la lumière, suite de ceux de <persName>Cauchy</persName> sur les corps sonores.
                <persName>Arago</persName> a mis, dans l'Annuaire du <orgName>Bureau des Longitudes</orgName>, un excellent abrégé de la
-               grande découverte d'<persName>élie de Beaumont</persName> qui fait grand bruit ici <ref>(4)</ref>. Je crois qu'il ne
-               manque plus pour lui qu'une place à l'<orgName>Institut</orgName> dans la section de minéralogie. Ayant
-               été deux fois chez <persName>Fulgence [Fresnel]</persName> sans le trouver, il est venu déjeuner chez nous
-               et nous avons mesuré nos forces aux échecs. Je viens d'entendre sonner minuit et les
+               grande découverte d'<persName>élie de Beaumont</persName> qui fait grand bruit ici <ref target="#corresp4">(4)</ref>. Je crois qu'il ne
+               manque plus pour lui qu'une place<pb n="587" facs="#ACAS_CRHST_AMP_25_379_0587_v.jpg"/> à l'<orgName>Institut</orgName> dans la section de minéralogie. Ayant
+               été deux fois chez <persName>Fulgence</persName> sans le trouver, il est venu déjeuner chez nous
+               et nous avons mesuré nos forces aux échecs.</p>
+            <p xml:id="L1830-05-23-a-p5">Je viens d'entendre sonner minuit et les
                yeux me cuisent. Adieu, cher fils, excellent fils, ton papa t'embrasse de toute son
                âme ; ta sœur aussi, elle te désire tant. Ma sœur, ma cousine, ta tante et <persName>élisa</persName>,
                <persName>Pignot</persName>, <persName>Ballanche</persName>, <persName>Dugas</persName>, <persName>Lenoir</persName>, etc. me chargent de tout ce qu'il y a de plus
                tendre pour toi. <persName>Fulgence</persName> m'en avait déjà accablé. A. Ampère</p>
             <closer>
-          <placeName>rue Saint-Ferréol, n° 41</placeName>, à <placeName>Marseille</placeName> (<placeName>Bouches-du-Rhône</placeName>) </closer>
+          <placeName>A monsieur <persName>Ampère fils</persName>, professeur de littérature à l'<orgName>Athénée</orgName> rue Saint-Ferréol, n° 41</placeName>, à <placeName>Marseille</placeName> (<placeName>Bouches-du-Rhône</placeName>) </closer>
          </div>
       </body>
       <back>
          <div xml:id="L1830-05-23-a-div2">
             <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4°, adresse au bout, bord déchiré. Publié en
-               partie par <persName>Mme Cheuvreux</persName>, p. 19 et 20. (2) Suicide de <persName>Sautelet</persName>. (3)Candidature au
-               Secrétariat perpétuel de l'<orgName>Académie</orgName>. <persName>Arago</persName> a été nommé le <date when="1830-06-07">7 juin 1830</date>. (4)Le premier
+               partie par <persName>Mme Cheuvreux</persName>, p. 19 et 20.</note>
+            <note xml:id="corresp2">(2) Suicide de <persName>Sautelet</persName>.</note>
+            <note xml:id="corresp3">(3)Candidature au
+               Secrétariat perpétuel de l'<orgName>Académie</orgName>. <persName>Arago</persName> a été nommé le <date when="1830-06-07">7 juin 1830</date>.</note>
+            <note xml:id="corresp4">(4)Le premier
                mémoire d'<persName>Elie DE BEAUMONT</persName> sur les systèmes de montagnes est du <date when="1829-06-22">22 juin 1829</date>. Il n'a
                été nommé à l'<orgName>Institut</orgName> que le <date when="1835-12-21">21 décembre 1835</date>. </note>
          </div>

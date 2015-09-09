@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1830-03-23-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +100,11 @@
                <witness xml:id="L741manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 393 quarto</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 393 quarto</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>Quatre pages 20 x 25,5, adresse sur la dernière. Timbre rouge, 30 mars
@@ -141,7 +142,7 @@
         <correspAction type="received">
           <persName type="adressee">Ballanche, Pierre-Simon</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -162,7 +163,7 @@
    <text type="correspondance" decls="#ampere_corr_L1830-03-23-a">
       <body>
          <div xml:id="L1830-03-23-a-div1">
-            <opener>
+            <opener><pb n="945" facs="#ACAS_CRHST_AMP_26_393_quarto_0217_r.jpg"/><placeName>Hyères</placeName>
           <date when="1830-03-23">23 mars 1830</date>
         </opener>
             <p xml:id="L1830-03-23-a-p1">Cher excellent ami, j'ai reçu les 750 francs que ma sœur t'a remis, j'ai en poche la
@@ -181,12 +182,13 @@
                l'argent à <placeName>Orange</placeName> et une idée vient de me venir  : je vais écrire, dès que j'aurai
                réglé avec mon fils l'époque où je quitterai <placeName>Marseille</placeName>, à l'excellent <persName>Gasparin</persName> qu'il
                te fasse savoir le moyen le plus commode pour que tu lui fasses passer de l'argent
-               pour moi. Et alors tu te conformeras à ce qu'il t'écrira à ce sujet. Combien j'ai à
+               pour moi. Et alors<pb n="946" facs="#ACAS_CRHST_AMP_26_393_quarto_0218_v.jpg"/> tu te conformeras à ce qu'il t'écrira à ce sujet. Combien j'ai à
                te remercier, cher ami, de tous les soins que tu t'es donnés pour moi, et surtout de
                cette avance sans laquelle je n'aurais pu quitter <placeName>Hyères</placeName> et entendre les leçons de
-               mon fils <ref>(2)</ref> ! Tout ce qu'on m'en a dit est on ne peut plus flatteur. Il me reste à
+               mon fils <ref target="#corresp2">(2)</ref> ! Tout ce qu'on m'en a dit est on ne peut plus flatteur. Il me reste à
                savoir par moi-même s'il n'y a point d'exagération dans ce qu'on me raconte de ses
-               succès. Dans six jours j'assisterai à une de ses leçons. Si tu m'écris à <placeName>Marseille</placeName>,
+               succès. Dans six jours j'assisterai à une de ses leçons.</p>
+            <p xml:id="L1830-03-23-a-p2">Si tu m'écris à <placeName>Marseille</placeName>,
                comme j'espère que ton amitié pour moi te suggérera de le faire, ce sera encore un
                grand plaisir que je te devrai et un autre motif de reconnaissance pour moi. Dans ce
                cas, je te prierais de me donner des nouvelles de nos amis de <placeName>Paris</placeName>, de ce que tu
@@ -194,30 +196,34 @@
                dix milliards d'amitiés pour lui. Qu'est devenu Alexis ? Est-il à <placeName>Paris</placeName> ? Le vois-tu
                aussi souvent qu'autrefois ? Se porte-t-on bien dans la <placeName>rue de Sèvres</placeName> ? Et cet
                excellent M. <persName>Lenormant</persName> qui est venu me voir à <placeName>Lyon</placeName> ainsi que sa femme, parle-moi donc
-               de lui ! <ref>(3)</ref>. Distribue à chacun mes amitiés ou mes hommages ! Fais attention que, si
+               de lui ! <ref target="#corresp3">(3)</ref>. Distribue à chacun mes amitiés<pb n="947" facs="#ACAS_CRHST_AMP_26_393_quarto_0219_r.jpg"/> ou mes hommages ! Fais attention que, si
                tu m'écris à <placeName>Marseille</placeName>, il n'y a pas grand temps à perdre ; car la semaine sainte
                suspendra sans doute le cours de mon fils, j'en profiterai pour aller avec lui à
-               <placeName>Orange</placeName>. Tu sais que le pauvre <persName>Bredin</persName> a perdu sa mère. Heureusement que j'ai cru
-               pouvoir conclure de la lettre qu'il m'a écrite qu'elle [n'a] point fait de
+               <placeName>Orange</placeName>.</p>
+            <p xml:id="L1830-03-23-a-p3">Tu sais que le pauvre <persName>Bredin</persName> a perdu sa mère. Heureusement que j'ai cru
+               pouvoir conclure de la lettre qu'il m'a écrite qu'elle<supplied> n'a</supplied> point fait de
                disposition testamentaire qui puisse lui nuire ; mais cette lettre et une autre de
                lui que je viens de recevoir me le montrent dans tous les embarras d'une succession,
                et cela l'affecte beaucoup dans la tristesse où il se trouve. C'est encore un motif
-               pour que je ne diffère pas inutilement d'aller le rejoindre à <placeName>Lyon</placeName>. J'aurai épuisé
-               tout ce qu'il y [a] à voir autour d'<placeName>Hyères</placeName> si, comme je me propose de le faire, je
+               pour que je ne diffère pas inutilement d'aller le rejoindre à <placeName>Lyon</placeName>.</p>
+            <p xml:id="L1830-03-23-a-p4">J'aurai épuisé
+               tout ce qu'il y<supplied> a</supplied> à voir autour d'<placeName>Hyères</placeName> si, comme je me propose de le faire, je
                puis aller demain au château de <placeName>Castille</placeName> et après-demain à la <placeName>presqu'île de Giens</placeName>. Tu
                ne peux te faire une idée de la beauté de ce pays, et des vues admirables de la
                montagne d'<placeName>Hyères</placeName>, de celle de <placeName>l'Hermitage</placeName> et, par-dessus tout, de celle de
                <placeName>Fenouillet</placeName>, où j'allai lundi en grande compagnie à cheval sur un âne, sur une chaîne
                de collines qui joignent les deux montagnes d'<placeName>Hyères</placeName> et de <placeName>Fenouillet</placeName>, par un sentier
-               à travers des bruyères en arbres couvertes de fleurs embaumées. As-tu vu des champs
+               à travers des bruyères en arbres couvertes de fleurs embaumées. As-tu vu<pb n="948" facs="#ACAS_CRHST_AMP_26_393_quarto_0220_v.jpg"/> des champs
                entiers de ces bruyères à l'époque de la floraison ? Si tu ne l'as pas vu, il faut
-               faire le voyage d'<placeName>Hyères</placeName> au mois de mars exprès pour le voir. Adieu, cher et bon ami,
+               faire le voyage d'<placeName>Hyères</placeName> au mois de mars exprès pour le voir.</p>
+            <p xml:id="L1830-03-23-a-p5">Adieu, cher et bon ami,
                mille fois tout à toi ! Je t'embrasse de toute mon âme et te prie de nouveau de
                m'écrire à <placeName>Marseille</placeName>. Marque-moi si ma fille t'a remis de l'argent et combien. Tu as
                su la mort du maréchal <persName>Gouvion-Saint-Cyr</persName>. Il demeurait ici tout près de la maison que
                j'occupe. Je l'avais vu ayant l'air de se porter à merveille la veille de son
-               accident, arrivé il y a eu vendredi huit [jours]. Il a langui jusqu'au mercredi il y
-               a précisément aujourd'hui huit jours ! Ton plus tendre ami, <persName>A. Ampère</persName>
+               accident, arrivé il y a eu vendredi huit<supplied> jours</supplied>. Il a langui jusqu'au mercredi il y
+               a précisément aujourd'hui huit jours ! Ton plus tendre ami,<lb/>
+               <persName>A. Ampère</persName>
         </p>
             <closer>
           <placeName>rue du Cherche-Midi, n° 23</placeName>, <placeName>faubourg Saint-Germain</placeName>, à <placeName>Paris</placeName> </closer>
@@ -226,9 +232,11 @@
       <back>
          <div xml:id="L1830-03-23-a-div2">
             <note resp="#CGA" xml:id="corresp1">(1) Quatre pages 20 x 25,5, adresse sur la dernière. Timbre
-               rouge, 30 mars 1830. Timbres noirs : 78 <placeName>Hyères</placeName>. 25 mars 1830. (2) <persName>Jean-Jacques</persName> avait
+               rouge, <date when="1830-03-30">30 mars 1830</date>. Timbres noirs : 78 <placeName>Hyères</placeName>. <date when="1830-03-25">25 mars 1830</date>.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) <persName>Jean-Jacques</persName> avait
                professé à l'<orgName>Athénée de <placeName>Marseille</placeName>
-          </orgName> tandis que son père passait l'hiver à <placeName>Hyères</placeName>. (3)
+          </orgName> tandis que son père passait l'hiver à <placeName>Hyères</placeName>.</note>
+            <note resp="#CGA" xml:id="corresp3">(3)
                M. <persName>Lenormant</persName> avait épousé la nièce de <persName>Mme Récamier</persName>, <persName>Amélie Cyvoct</persName>. </note>
          </div>
       </back>

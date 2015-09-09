@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1830-10-11-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +100,11 @@
                <witness xml:id="L754manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 379</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 379</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>Quatre pages in-4°, adresse sur la dernière.</p>
@@ -139,7 +140,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -160,23 +161,26 @@
    <text type="correspondance" decls="#ampere_corr_L1830-10-11-a">
       <body>
          <div xml:id="L1830-10-11-a-div1">
-            <opener>
+            <opener><pb n="361" facs="#ACAS_CRHST_AMP_25_379_0361_r.jpg"/>
           <date when="1830-10-11">[11 octobre 1830]</date>
         </opener>
             <p xml:id="L1830-10-11-a-p1">Cher ami, j'éprouve encore quelque indécision à aller à <placeName>la Ferté</placeName>, non pas mardi
                prochain comme je te l'ai écrit, mais le lendemain mercredi parce qu'il y a une
                convocation extraordinaire mardi au <orgName>Collège de <placeName>France</placeName>
           </orgName> pour délibérer sur l'érection
-               d'une chaire de minéralogie. J'ai grande envie de te voir, de causer et de me
+               d'une chaire de minéralogie.</p>
+            <p xml:id="L1830-10-11-a-p2">J'ai grande envie de te voir, de causer et de me
                promener avec <persName>Albine</persName>, de voir la famille <persName>de Jussieu</persName>. S'il faisait beau, ce voyage me
                ferait du bien. Voilà les raisons pour. Il faut perdre deux jours, l'un pour aller,
                l'autre pour venir ; la crainte qu'il fasse mauvais temps, que le voyage nuise à ma
                santé, que je n'y trouve pas ce que mon imagination me peint, voilà les raisons
                contre. Mais deux motifs font pencher la balance pour le voyage. Le plus important
                est que M. <persName>Beuchot</persName> ne peut me faire prêter qu'autant que tu signes les billets avec
-               moi. Je te les porterais à signer mercredi. <date when="1830-10-11">Lundi 11 octobre</date> <gap xmlns="" reason="lacune_CGA"/>
+               moi. Je te les porterais à signer mercredi.</p>
+            <p xml:id="L1830-10-11-a-p3"><date when="1830-10-11">Lundi 11 <choice><abbr>8bre</abbr> <expan>octobre</expan></choice></date> <lb/>
+               <gap reason="lacune_CGA"/><pb n="362" facs="#ACAS_CRHST_AMP_25_379_0362_v.jpg"/><gap reason="lacune_CGA"/><pb n="363" facs="#ACAS_CRHST_AMP_25_379_0363_r.jpg"/><gap reason="lacune_CGA"/>
         </p>
-            <closer>chez M. <persName>de Jussieu</persName> de l'<orgName>Académie des Sciences</orgName>, à <placeName>Vanteuil</placeName> par la
+            <closer><pb n="364" facs="#ACAS_CRHST_AMP_25_379_0364_v.jpg"/>Monsieur <persName>Ampère fils (Jean-Jacques)</persName> chez M. <persName>de Jussieu</persName> de l'<orgName>Académie des Sciences</orgName>, à <placeName>Vanteuil</placeName> par la
                <placeName>Ferté-sous-Jouarre</placeName> (<placeName>Seine-et-Marne</placeName>) </closer>
          </div>
       </body>

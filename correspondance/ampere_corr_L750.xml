@@ -1,4 +1,6 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE ENTITY_MathML SYSTEM "../../Documents/Sch%C3%A9mas/ENTITY_MathML.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +80,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1830-07-16-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +101,11 @@
                <witness xml:id="L750manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 379</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 379</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>Quatre pages in-4°, adresse sur la quatrième.</p>
@@ -140,7 +142,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,7 +163,7 @@
    <text type="correspondance" decls="#ampere_corr_L1830-07-16-a">
       <body>
          <div xml:id="L1830-07-16-a-div1">
-            <opener>
+            <opener><pb n="596" facs="#ACAS_CRHST_AMP_25_379_0596_r.jpg"/><placeName>Cahors</placeName>
           <date when="1830-07-16">16 juillet 1830</date>
         </opener>
             <p xml:id="L1830-07-16-a-p1">Cher ami, j'espérais beaucoup trouver à Cahors une lettre de toi m'annonçant ton
@@ -169,7 +171,7 @@
                inquiétude, comme si quelque accident t'avait retenu en route. J'ai ensuite pensé
                que, pour faire d'une pierre deux coups, tu auras attendu pour m'écrire d'avoir été à
                la <placeName>Ferté-sous-Jouarre</placeName> afin de me donner à la fois des nouvelles de ton arrivée à
-               <placeName>Paris</placeName> et de celles d'<persName>Albine</persName>, de <persName>Gabriel [Ride]</persName> et des <persName>Jussieu</persName>. Je n'en attends pas
+               <placeName>Paris</placeName> et de celles d'<persName>Albine</persName>, de <persName>Gabriel</persName> et des <persName>Jussieu</persName>. Je n'en attends pas
                avec moins d'impatience que tu m'écrives ton arrivée à <placeName>Paris</placeName>, et à la
                <placeName>Ferté-sous-Jouarre</placeName> si tu y es allé comme je le pense. Je voudrais bien aussi que tu
                me dises, seulement par curiosité, ce que tu sais de ce qui est arrivé à un tableau
@@ -182,7 +184,7 @@
                Sait-tu ce qui en est arrivé ? Si tu le sais, marque-le-moi  ! Au reste, ce tableau
                n'est plus bon à rien que comme monument historique de ce que j'ai fait à <placeName>Bordeaux</placeName>.
                Perfectionné pendant mon séjour à <placeName>Pau</placeName>, il n'a été complètement arrêté qu'à <placeName>Toulouse</placeName>.
-               Il l'est à présent d'une manière à jamais immuable. Les changements ont surtout
+               Il l'est à présent d'une manière à jamais<pb n="597" facs="#ACAS_CRHST_AMP_25_379_0597_v.jpg"/> immuable. Les changements ont surtout
                consisté dans des transpositions d'ordres. J'ai cru devoir mettre les langues, la
                littérature et les beaux-arts avant les sciences historiques et politiques proprement
                dites. J'ignore si j'ai eu raison. Mais cela suit l'ordre naturel parce qu'on a
@@ -192,10 +194,11 @@
                un sentiment. L'architecture, par exemple, est un des beaux-arts quand elle réveille
                en nous, quand elle exprime la majesté divine dans <placeName>Saint-Pierre</placeName>, le recueillement
                dans une église gothique, la puissance dans un palais. L'architecture qui fait des
-               ponts, des canaux et des appartements commodément distribués, est un art industriel.
+               ponts, des canaux et des appartements commodément distribués, est un art industriel.</p>
+            <p xml:id="L1830-07-16-a-p2">
                Ce n'est qu'après que les hommes se sont ainsi liés en sociétés par ces moyens de
                communication et en se réunissant autour d'<persName>Orphée</persName> remplissant les airs de ses chants,
-               séduits par la musique et la poésie, qu'on a des sociétés qui se partagent la terre,
+               séduits par la musique et la poésie, qu'on a des sociétés qui se partagent<pb n="598" facs="#ACAS_CRHST_AMP_25_379_0598_r.jpg"/> la terre,
                font la guerre, la paix, des conquêtes, des gouvernements, des lois et voient enfin
                fleurir chez elles les richesses et l'industrie. D'après cet arrangement, je termine
                mon tableau par la science du premier ordre que j'appelle la science des richesses et
@@ -206,23 +209,25 @@
                l'agriculture qui lui fournissent toutes les matières premières ; enfin, pour partie
                étiologique, l'économie politique. Cela remplace hétériologie, qui prêtait à un
                mauvais sens : l'observation qu'on m'en fit amena tous ces heureux changements. J'ai
-               trouvé heureusement dans un dictionnaire grec, que <foreign xml:lang="grc">όλβος</foreign> ; voulait dire à la fois
-               richesse et félicité. Quant à l'épithète publique, il y a trois mots <foreign xml:lang="grc">λειτος, δημίος,
-               δημηςιος</foreign>. Or, démésiologie serait trop long et trop barbare ; mais litolbologie et
-               démiolbologie sont assez bons. Comme <foreign xml:lang="grc">λειτοργέω</foreign> veut dire remplir une fonction,
-               [fonction] se nomme en grec <foreign xml:lang="grc">λειτοργεμα</foreign> ou <foreign xml:lang="grc">λειτοργια</foreign> d'où vient notre mot liturgie,
-               j'ai pensé que les Grecs auraient dit <foreign xml:lang="grc">λειτολβος</foreign> pour félicité publique et j'ai, sauf
+               trouvé heureusement dans un dictionnaire grec, que <foreign xml:lang="grc">&omicron;&lambda;&beta;&omicron;&sigmaFinal;</foreign> ; voulait dire à la fois
+               richesse et félicité. Quant à l'épithète publique, il y a trois mots <foreign xml:lang="grc">&lambda;&epsilon;&iota;&pi;&omicron;&sigmaFinal;, &delta;&eta;&mu;&iota;&omicron;&sigmaFinal;,
+               &delta;&eta;&mu;&eta;&sigmaFinal;&iota;&omicron;&sigmaFinal;</foreign>. Or, démésiologie serait trop long et trop barbare ; mais litolbologie et
+               démiolbologie sont assez bons. Comme <foreign xml:lang="grc">&lambda;&epsilon;&iota;&tau;&omicron;&rho;&gamma;&epsilon;&omega;</foreign> veut dire remplir une fonction,
+               se nomme en grec <foreign xml:lang="grc">&lambda;&epsilon;&iota;&tau;&omicron;&rho;&gamma;&epsilon;&mu;&alpha;;</foreign> ou <foreign xml:lang="grc">&lambda;&epsilon;&iota;&tau;&omicron;&rho;&gamma;&iota;&alpha;</foreign> d'où vient notre mot liturgie,
+               j'ai pensé que les Grecs auraient dit <foreign xml:lang="grc">&lambda;&epsilon;&iota;&tau;&omicron;&lambda;&beta;&omicron;&sigmaFinal;</foreign><pb n="599" facs="#ACAS_CRHST_AMP_25_379_0599_v.jpg"/> pour félicité publique et j'ai, sauf
                ton avis que je te prie de me donner là-dessus préféré, quoiqu'avec doute, le mot
                litolbologie. Je pars d'ici mercredi prochain et une lettre de <placeName>Paris</placeName> ne peut y
                arriver avant mon départ. Je te prie de m'écrire à <placeName>Limoges</placeName> ; car je serai inquiet
                jusqu'à ce que tu m'aies écrit que tu as fait heureusement ton voyage et que tu es à
                <placeName>Paris</placeName> ou à la <placeName>Ferté</placeName>. écris-moi tous les détails que tu pourras sur <persName>Albine</persName> et <persName>Gabriel</persName>.
                Mille tendresses pour cette excellente enfant, mille choses à son mari ! Tu sais ce
-               qu'il y a à dire de ma part à tous ceux que nous aimons. Ton tendre père, <persName>A. Ampère</persName>
+               qu'il y a à dire de ma part à tous ceux que nous aimons. Ton tendre père,<lb/>
+               <persName>A. Ampère</persName></p>
+            <p>
                J'avais commencé une lettre pour <persName>Gabriel</persName> et <persName>Albine</persName> ; mais je ne puis la finir avant
                le courrier, elle ne pourra partir que demain.</p>
             <closer>
-          <placeName>rue des Fossés-Saint-Victor, n° 19</placeName>, à <placeName>Paris</placeName> </closer>
+          <placeName>A monsieur <persName>J-J Ampère</persName> rue des Fossés-Saint-Victor, n° 19</placeName>, à <placeName>Paris</placeName> </closer>
          </div>
       </body>
       <back>

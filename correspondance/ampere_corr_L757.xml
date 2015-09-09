@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1830-10-19-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +100,11 @@
                <witness xml:id="L757manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 379</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 379</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>Quatre pages in-4°, adresse au bas de la quatrième.</p>
@@ -139,7 +140,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -160,8 +161,8 @@
    <text type="correspondance" decls="#ampere_corr_L1830-10-19-a">
       <body>
          <div xml:id="L1830-10-19-a-div1">
-            <opener>
-          <date when="1830-10-19">Mardi 19 octobre [1830]</date>
+            <opener><pb n="365" facs="#ACAS_CRHST_AMP_25_379_0365_r.jpg"/>
+          <date when="1830-10-19">Mardi 19 <choice><abbr>8bre</abbr><expan>octobre</expan></choice> [1830]</date>
         </opener>
             <p xml:id="L1830-10-19-a-p1">Cher ami, si j'avais eu le temps, je t'aurais expliqué, dans les lettres d'hier et
                d'avant-hier, la manière dont les billets doivent être faits, pour que ce soit moi
@@ -169,22 +170,28 @@
                de ce prêteur qui, ne me connaissant pas, ne peut prêter que sur la garantie de M.
                <persName>Beuchot</persName> ; enfin que ce dernier ait recours sur la maison en cas que je vinsse à
                mourir avant le mois de septembre prochain et que le prêteur prit M. <persName>Beuchot</persName> à partie
-               pour le faire payer à ma place. Pour cela, les billets seront faits comme si M.
+               pour le faire payer à ma place.</p>
+            <p xml:id="L1830-10-19-a-p2">Pour cela, les billets seront faits comme si M.
                <persName>Beuchot</persName> t'avait d'abord prêté, que j'eusse ensuite emprunté pour le rembourser ; il
                me passera l'ordre de ces billets comme si je les lui avais payés et je le passerai
-               au prêteur comme m'ayant fourni de l'argent pour cela. En conséquence, le prêteur n'a
+               au prêteur comme m'ayant fourni de l'argent pour cela.</p>
+            <p xml:id="L1830-10-19-a-p3"><pb n="366" facs="#ACAS_CRHST_AMP_25_379_0366_v.jpg"/>En conséquence, le prêteur n'a
                d'abord action que contre moi ; mais, si je meurs insolvable ou m'enfuis, il a action
                contre M. <persName>Beuchot</persName> pour lui faire rendre l'argent que je suis censé lui avoir remis
                quand il m'a passé l'ordre. <persName>Beuchot</persName>, dans ce cas, est obligé de payer et il a recours
                sur la maison, tant à l'égard de ton hypothèque que de la moitié du surplus de sa
-               valeur dont tu deviens propriétaire par héritage. Quant tout aura été fait et que
+               valeur dont tu deviens propriétaire par héritage.</p>
+            <p xml:id="L1830-10-19-a-p4">Quant tout aura été fait et que
                j'aurai reçu l'argent, celui qui le prête aura dans les mains des billets dont il
                sera le porteur, dont M. <persName>Beuchot</persName> sera l'endosseur et dont tu seras le tireur ; le
                porteur d'un billet doit être payé par le dernier endosseur qui est moi. Si je
                manque, il s'adresse à l'endosseur précédent, M. <persName>Beuchot</persName> et ce n'est qu'en remontant
-               ainsi d'endosseur en endosseur, qu'on arrive à la dernière garantie, celle du tireur,
-               <persName>J.-J. Ampère</persName>. Cette petite explication, bien aisée à comprendre, te met au fait d'une
+               ainsi d'endosseur en endosseur, qu'on<pb n="367" facs="#ACAS_CRHST_AMP_25_379_0367_r.jpg"/> arrive à la dernière garantie, celle du tireur,
+               <persName>J.-J. Ampère</persName>. </p>
+            <p xml:id="L1830-10-19-a-p5">Cette petite explication, bien aisée à comprendre, te met au fait d'une
                chose bonne à savoir en général pour les affaires que tu pourrais avoir par la suite.
+            </p>
+            <p xml:id="L1830-10-19-a-p6">
                Il vient d'arriver une lettre de <persName>Ride</persName> et de ma sœur qui sont enchantés. Il arrive ce
                soir et prendra l'engagement demandé de me laisser toujours <persName>Albine</persName>. Finis
                tranquillement ton ouvrage à <placeName>Vanteuil</placeName> ; puis viens me voir le plus tôt possible pour
@@ -193,16 +200,18 @@
                l'histoire et la biologie, confondues auparavant sous le nom d'ethnologie, en une
                seule science du premier ordre qui n'était que <foreign xml:lang="lat">rudis indigestaque moles</foreign>, tandis qu'à
                présent c'est un charme comme tout va bien. Le nouvel embranchement est celui des
-               sciences historiques qui ne contient plus que cela. Si tu n'avais pas mis encore les
+               sciences historiques qui ne contient plus que cela. Si tu n'avais pas mis encore<pb n="368" facs="#ACAS_CRHST_AMP_25_379_0368_v.jpg"/> les
                billets signés à la poste, ne perds pas un moment pour cela ; car c'est après-demain
                que je dois les porter à <persName>Beuchot</persName> pour qu'il m'en passe l'ordre et que je touche
                l'argent en passant mon ordre à celui qui doit le fournir. Tu as encore le temps au
-               reçu de cette lettre pour que je les aie ce jour-là. Adieu, cher ami, je n'ai pu voir
+               reçu de cette lettre pour que je les aie ce jour-là.</p>
+            <p xml:id="L1830-10-19-a-p7">Adieu, cher ami, je n'ai pu voir
                M. <persName>Guignault</persName>. Les ministres ont beaucoup de choses à penser avant l'école Normale.
                Quoiqu'il y ait sujet de s'inquiéter, j'espère que tout tournera avec plus de peur
-               que de mal. Ton papa t'embrasse mille et mille fois. <persName>A. Ampère</persName>
+               que de mal. Ton papa t'embrasse mille et mille fois.<lb/>
+               <persName>A. Ampère</persName>
         </p>
-            <closer>chez M. <persName>de Jussieu</persName>, membre de l'<orgName>Académie des Sciences</orgName>, etc., à <placeName>Vanteuil</placeName>, par la
+            <closer>Monsieur <persName>Ampère fils</persName> chez M. <persName>de Jussieu</persName>, membre de l'<orgName>Académie des Sciences</orgName>, etc., à <placeName>Vanteuil</placeName>, par la
                <placeName>Ferté-sous-Jouarre</placeName> (<placeName>Seine-et-Marne</placeName>)</closer>
          </div>
       </body>

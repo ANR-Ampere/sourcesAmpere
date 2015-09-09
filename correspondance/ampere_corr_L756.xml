@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1830-10-18-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +100,11 @@
                <witness xml:id="L756manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 379</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 379</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>Trois pages papier à lettres in-8°, adresse sur la quatrième.</p>
@@ -140,7 +141,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,17 +162,18 @@
    <text type="correspondance" decls="#ampere_corr_L1830-10-18-a">
       <body>
          <div xml:id="L1830-10-18-a-div1">
-            <opener>
-          <date when="1830-10-18">Lundi 18 octobre [1830]</date>
+            <opener><pb n="397" facs="#ACAS_CRHST_AMP_25_379_0397_r.jpg"/>
+          <date when="1830-10-18">Lundi 18 <choice><abbr>8bre</abbr> <expan>octobre</expan></choice> [1830]</date>
         </opener>
             <p xml:id="L1830-10-18-a-p1">Cher ami, j'ai affranchi ce matin un paquet à ton adresse contenant les billets pour
                que tu me les renvoies signés, et une lettre que je t'écrivis hier sur l'affaire de
                M. Ride, trop tard pour partir par le courrier d'hier parce que les dimanches on
-               ferme les bureaux de meilleure heure. Quand elle a été à la poste, je me suis
+               ferme les bureaux de meilleure heure.</p>
+            <p xml:id="L1830-10-18-a-p2">Quand elle a été à la poste, je me suis
                inquiété d'y avoir confié une lettre de cette importance, dont le seul retard me
                perdrait sans ressource en m'exposant au protest du billet de M. <persName>Guérin de Foncin</persName>.
                C'est pourquoi je t'écris un mot pour t'en prévenir afin que, si tu ne reçois pas le
-               paquet avec cette lettre, tu puisses me l'écrire tout de suite. Au retour des billets
+               paquet avec cette lettre, tu puisses me l'écrire tout de suite. Au retour des<pb n="398" facs="#ACAS_CRHST_AMP_25_379_0398_v.jpg"/> billets
                signés, il y a encore plus de raison que je m'inquiète, follement je crois, en
                pensant que, s'ils tombaient entre les mains de quelque [escroc] qui y mit un faux
                "passé à l'ordre " de qui il voudrait en contrefaisant la signature de M.
@@ -180,20 +182,22 @@
                contenant les billets signés, que tu demandasses à parler au directeur de la poste de
                la <placeName>Ferté</placeName>, que tu lui remisses le paquet en lui disant que tu le recommandes. Quand il
                y a des lettres ainsi recommandées, le directeur les inscrit sur un registre et je
-               peux seul les recevoir, moi dont le nom est sur l'adresse, en signant ici sur un
+               peux<cb/> seul les recevoir, moi dont le nom est sur l'adresse, en signant ici sur un
                autre registre qu'on m'apporte à cet effet avec la lettre ou paquet recommandé. Tu
                comprends que, par cette formalité qui ne coûte rien et qui ne cause aucun retard,
                que la direction des postes a établie depuis quelques années, si ta lettre ne
                m'arrivait [pas], je ferais constater qu'elle ne m'est pas parvenue et j'aurais en
-               cela une bonne arme contre le faussaire s'il s'en trouvait. Mets deux cachets à cette
+               cela une bonne arme contre le faussaire s'il s'en trouvait.</p>
+            <p xml:id="L1830-10-18-a-p3">Mets deux cachets à cette
                lettre : je crois me souvenir que cela est nécessaire pour les lettres recommandées.
                S'il en fallait par hasard trois, on te le dirait quand tu la remettrais au
                directeur ; mais je ne le crois pas. Des millions de choses de ma part et de celle
-               d'<persName>Albine</persName> à toute la famille <persName>de Jussieu</persName>. Nous t'embrassons tous deux mille fois de tout
-               notre cœur. <persName>A. Ampère</persName>
+               d'<persName>Albine</persName> à toute la famille <persName>de Jussieu</persName>. Nous<pb n="399" facs="#"/> t'embrassons tous deux mille fois de tout
+               notre cœur.<lb/>
+               <persName>A. Ampère</persName>
         </p>
-            <closer>chez M. <persName>de Jussieu</persName>, membre de l'<orgName>Académie des Sciences</orgName>, à <placeName>Vanteuil</placeName>, près la
-               <placeName>Ferté-sous-Jouarre</placeName>, département de <placeName>Seine-et-Marne</placeName> </closer>
+            <closer><pb n="399" facs="#ACAS_CRHST_AMP_25_379_0399_v.jpg"/>Monsieur <persName>J-J Ampère</persName> chez M. <persName>de Jussieu</persName>, membre de l'<orgName>Académie des Sciences</orgName>, à <placeName>Vanteuil</placeName>, près la
+               <placeName>Ferté-sous-Jouarre</placeName>, dép<ex>artemen</ex>t de <placeName>Seine-et-Marne</placeName> </closer>
          </div>
       </body>
       <back>
