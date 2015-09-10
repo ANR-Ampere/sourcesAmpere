@@ -1,3 +1,4 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -82,7 +83,7 @@
       </publicationStmt>
       <sourceDesc>
         <biblStruct xml:id="ampere_corr_L1832-11-28-a">
-                        <monogr xmlns="">
+                        <monogr>
                            <author>
                               <surname>De Launay</surname>
                               <forename>Louis</forename>
@@ -103,11 +104,11 @@
           <witness xml:id="L786manuscrit">
             <msDesc type="original_manuscrit">
               <msIdentifier>
-                <country xmlns="">France</country>
-                  <settlement xmlns="">Paris</settlement>
-                  <institution xmlns="">Archives de l'Académie des sciences</institution>
-                  <repository xmlns="">Fonds André-Marie Ampère</repository>
-                <idno xmlns="">chemise 370</idno>
+                <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                <idno>chemise 370</idno>
               </msIdentifier>
             </msDesc>
           </witness>
@@ -142,7 +143,7 @@
         <correspAction type="received">
           <persName type="adressee">Ride, Gabriel (gendre d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -162,44 +163,51 @@
   <text type="correspondance" decls="#ampere_corr_L1832-11-28-a">
     <body>
       <div xml:id="L1832-11-28-a-div1">
-        <opener>28 novembre 1832</opener>
-        <p xml:id="L1832-11-28-a-p1">Mon cher fils, Albine vous a écrit dans une lettre à Mme d'Arbet
-                dont Mlle Lagut lui avait donné l'adresse, pensant que vous auriez été voir cette
-                famille en arrivant à Brest et que c'était le meilleur moyen de vous faire parvenir
+        <opener><pb n="262" facs="#ACAS_CRHST_AMP_25_370_0262_r.jpg"/><date when="1832-11-28">28 <choice><abbr>9bre</abbr> <expan>novembre</expan></choice> 1832</date></opener>
+        <opener>Mon cher fils,</opener>
+        <p xml:id="L1832-11-28-a-p1"> <persName>Albine</persName> vous a écrit dans une lettre à Mme <persName>d'Arbet</persName>
+                dont Mlle <persName>Lagut</persName> lui avait donné l'adresse, pensant que vous auriez été voir cette
+                famille en arrivant à <placeName>Brest</placeName> et que c'était le meilleur moyen de vous faire parvenir
                 sa lettre. Nous n'en avons pas encore reçu de vous où vous nous marquiez où il faut
-                vous écrire dans cette ville avant le départ de la corvette l'Allier. J'espère que
+                vous écrire dans cette ville avant le départ de la corvette l'<placeName>Allier</placeName>. J'espère que
                 nous recevrons incessamment de vos nouvelles. En attendant, je vous écris bureau
-                restant à Brest, comme je crois me souvenir que nous en étions convenus. J'ai vu ce
-                matin, au bureau des Pensions et traitements de réforme au Ministère de la Guerre,
-                sur votre pétition, l'apostille par laquelle le Ministre de la Guerre accordait le
-                transfert à la Pointe-à-Pitre de votre traitement de 900 francs. Ce n'est que ce
+                restant à <placeName>Brest</placeName>, comme je crois me souvenir que nous en étions convenus.</p>
+        <p xml:id="L1832-11-28-a-p2">J'ai vu ce
+                matin, au bureau des Pensions et traitements de réforme au <orgName>Ministère de la Guerre</orgName>,
+                sur votre pétition, l'apostille par laquelle le <orgName>Ministre de la Guerre</orgName> accordait le
+                transfert à la <placeName>Pointe-à-Pitre</placeName> de votre traitement de 900 francs. Ce n'est que ce
                 matin que j'ai pu m'en assurer parce qu'on ne savait dans quel bureau elle avait été
                 envoyée. Ainsi voilà qui est arrangé. Il reste seulement les formalités à faire au
-                Ministère de la Marine, où j'irai demain presser l'envoi de l'ordre au payeur de la
-                Pointe-à-Pitre de vous solder chaque trimestre sur la présentation de votre brevet,
+          <orgName>Ministère<pb n="263" facs="#ACAS_CRHST_AMP_25_370_0263_v.jpg"/> de la Marine</orgName>, où j'irai demain presser l'envoi de l'ordre au payeur de la
+                <placeName>Pointe-à-Pitre</placeName> de vous solder chaque trimestre sur la présentation de votre brevet,
                 au fur et à mesure des échéances. On m'a dit, au bureau des pensions et traitements
                 de réforme, que ces formalités exigeraient une huitaine de jours, mais que, si
-                l'ordre au payeur ne pouvait partir qu'après le départ de la corvette l'Allier, cela
+                l'ordre au payeur ne pouvait partir qu'après le départ de la corvette l'<placeName>Allier</placeName>, cela
                 ne faisait rien et qu'il n'en pouvait, au pis aller, résulter qu'un retard de
-                quelques jours dans le payement à la Guadeloupe de votre trimestre de janvier. Mme
-                de Roquefort est toujours en négociation pour vendre son fonds de pension ; elle ne
+                quelques jours dans le payement à la <placeName>Guadeloupe</placeName> de votre trimestre de janvier.</p>
+        <p xml:id="L1832-11-28-a-p3">Mme
+                <persName>de Roquefort</persName> est toujours en négociation pour vendre son fonds de pension ; elle ne
                 peut partir sans cela. On lui a promis, à ce qu'elle m'a dit, qu'on lui accorderait
-                le passage sur un autre bâtiment de l'état si elle n'arrivait à Brest qu'après le
-                départ de la corvette l'Allier. Dans ce cas, vous seriez à la Guadeloupe avant elle
-                : ce qui n'aurait pas d'inconvénient pour vous. On m'a dit ce matin que l'Allier
-                partirait probablement vers le 4 décembre. J'attends votre lettre pour le savoir ;
-                car vous l'avez dû apprendre à Brest. Adieu, cher et excellent fils, j'embrasse bien
-                tendrement mon Gabriel et forme mille voeux pour le plus heureux voyage, la bonne
+                le passage sur un autre bâtiment de l'état si elle n'arrivait à <placeName>Brest</placeName> qu'après le
+                départ de la corvette l'<placeName>Allier</placeName>. Dans ce cas, vous seriez à la Guadeloupe avant elle
+                : ce qui n'aurait pas d'inconvénient pour vous. On m'a dit ce matin que l'<placeName>Allier</placeName>
+          partirait probablement vers le<pb n="264" facs="#ACAS_CRHST_AMP_25_370_0264_r.jpg"/> <date when="1832-12-04">4 décembre</date>. J'attends votre lettre pour le savoir ;
+                car vous l'avez dû apprendre à <placeName>Brest</placeName>. Adieu, cher et excellent fils, j'embrasse bien
+                tendrement mon <persName>Gabriel</persName> et forme mille vœux pour le plus heureux voyage, la bonne
                 réception, la tendre amitié de l'oncle et tout le succès possible ; bonne santé et
-                fortune à souhait (1). Mille fois tout à vous.</p>
-        <closer>bureau restant à Brest</closer>
+                fortune à souhait . Mille fois tout à vous.<lb/>
+        <persName>A. Ampère</persName> </p>
+      </div>
+        <div>
+          <opener>Mon bon ami</opener>
+          <p><ref target="#corresp1">(1)</ref> <gap reason="lacune_CGA"/><pb n="265" facs="#ACAS_CRHST_AMP_25_370_0265_v.jpg"/></p>
+        <closer>Monsieur <persName>Ride</persName> bureau restant à <placeName>Brest</placeName></closer>
       </div>
     </body>
     <back>
       <div xml:id="L1832-11-28-a-div2">
-        <note resp="#CGA" xml:id="corresp1">(1) A la suite de cette lettre, Albine en a écrit une autre
-                qui se termine par : « Je t'embrasse comme je t'aime. Ta chère petite amie Albine
-                Ride. »</note>
+        <note resp="#CGA" xml:id="corresp1">(1) A la suite de cette lettre, <persName>Albine</persName> en a écrit une autre
+          qui se termine par : <cit><quote>Je t'embrasse comme je t'aime. Ta chère petite amie <persName>Albine Ride</persName>.</quote></cit> </note>
       </div>
     </back>
   </text>

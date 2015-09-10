@@ -1,3 +1,4 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -82,7 +83,7 @@
       </publicationStmt>
       <sourceDesc>
         <biblStruct xml:id="ampere_corr_L1833-02-17-a">
-                        <monogr xmlns="">
+                        <monogr>
                            <author>
                               <surname>De Launay</surname>
                               <forename>Louis</forename>
@@ -103,10 +104,10 @@
           <witness xml:id="L791manuscrit">
             <msDesc type="original_manuscrit">
               <msIdentifier>
-                <country xmlns="">France</country>
-                  <settlement xmlns="">Paris</settlement>
-                  <institution xmlns="">Archives de l'Académie des sciences</institution>
-                  <repository xmlns="">Fonds André-Marie Ampère [note de Louis DE LAUNAY]</repository>
+                <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère [note de Louis DE LAUNAY]</repository>
               </msIdentifier>
             </msDesc>
           </witness>
@@ -141,7 +142,7 @@
         <correspAction type="received">
           <persName type="adressee">Beuchot, Adrien</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,21 +162,24 @@
   <text type="correspondance" decls="#ampere_corr_L1833-02-17-a">
     <body>
       <div xml:id="L1833-02-17-a-div1">
-        <opener>Dimanche matin 17 février 1833</opener>
-        <p xml:id="L1833-02-17-a-p1">Cher ami, Ballanche vient dîner avec moi demain lundi gras 18
+        <opener><date when="1833-02-17">Dimanche matin 17 février 1833</date></opener>
+        <opener>Cher ami,</opener>
+        <p xml:id="L1833-02-17-a-p1"> <persName>Ballanche</persName> vient dîner avec moi demain lundi gras 18
                 février. Si tu pouvais en être, je serais si heureux de t'avoir que tu ne refuserais
                 à un pauvre à qui on a défendu de sortir de la semaine. Je te prie d'offrir mille
-                amitiés de ma part à M. Barbier (2), mes plus respectueux hommages à tes dames ; ma
+                amitiés de ma part à M. <persName>Barbier</persName> <ref target="#corresp2">(2)</ref>, mes plus respectueux hommages à tes dames ; ma
                 fille me charge de te prier de leur présenter mille amitiés de la sienne. Mille fois
-                tout à toi. A. Ampère</p>
-        <closer>A Monsieur Beuchot, rue de l'Abbaye-Saint-Germain, n°6, à
-                Paris.</closer>
+                tout à toi.<lb/>
+          <persName>A. Ampère</persName></p>
+        <closer>A Monsieur <persName>Beuchot</persName>, rue de l'Abbaye-Saint-Germain, n°6, à
+                <placeName>Paris</placeName>.</closer>
       </div>
     </body>
     <back>
       <div xml:id="L1833-02-17-a-div2">
-        <note resp="#CGA" xml:id="corresp1">(1) D'après E. Jovy, comme les quatre lettres précédentes à
-                Beuchot, voir Lettre 0348. (2) Serait, d'après E. Jovy, un des deux frères Barbier,
+        <note resp="#CGA" xml:id="corresp1">(1) D'après <persName>E. Jovy</persName>, comme les quatre lettres précédentes à
+          <persName>Beuchot</persName>, voir Lettre <ref type="correspondance" target="#ampere_corr_L1808-05-02-a">L1808-05-02-a</ref>.</note>
+        <note resp="#CGA" xml:id="corresp2">(2) Serait, d'après <persName>E. Jovy</persName>, un des deux frères <persName>Barbier</persName>,
                 l'un conservateur de la Bibliothèque du Louvre (1799-1888) ; l'autre conservateur à
                 la Bibliothèque Nationale (1806-1822). </note>
       </div>

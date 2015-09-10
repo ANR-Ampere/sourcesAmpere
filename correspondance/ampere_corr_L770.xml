@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1831-10-18-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +100,11 @@
                <witness xml:id="L770manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 379</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 379</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>Quatre pages in-4°, adresse sur la quatrième.</p>
@@ -140,7 +141,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,8 +162,8 @@
    <text type="correspondance" decls="#ampere_corr_L1831-10-18-a">
       <body>
          <div xml:id="L1831-10-18-a-div1">
-            <opener>
-          <date when="1831-10-18">18 octobre 1831</date>
+            <opener><pb n="600" facs="#ACAS_CRHST_AMP_25_379_0600_r.jpg"/><placeName>Paris</placeName>
+          <date when="1831-10-18">18 <choice><abbr>8bre</abbr> <expan>octobre</expan></choice> 1831</date>
         </opener>
             <p xml:id="L1831-10-18-a-p1">Mon cher fils, depuis la lettre que tu m'as écrite de <placeName>Naples</placeName> au moment de t'embarquer
                pour la <placeName>Sicile</placeName> et à laquelle j'ai répondu courrier par courrier une longue lettre
@@ -177,13 +178,14 @@
                différentes lettres que je t'ai écrites, je suis sûr du moins que tu as reçu celle
                que j'ai adressée poste restante à <placeName>Palerme</placeName>, car celle-là a dû y arriver bien avant
                toi. Quant à celle que j'ai écrite ces jours-ci à <placeName>Messine</placeName>, j'ai peur que tu n'aies
-               quitté la <placeName>Sicile</placeName> avant qu'elle y arrive. J'attendais une lettre de toi qui marquât où
+               quitté la <placeName>Sicile</placeName> avant qu'elle y arrive. J'attendais<pb n="601" facs="#ACAS_CRHST_AMP_25_379_0601_v.jpg"/> une lettre de toi qui marquât où
                il convenait de t'écrire ; mais, comme le directeur de l'école Normale vient de t'en
                écrire une pour t'annoncer que l'ouverture des cours aura lieu demain, je me hâte de
                t'en donner avis et, comme je ne sais si tu ne t'embarqueras pas à <placeName>Naples</placeName> pour
                revenir de suite à <placeName>Marseille</placeName> par le bateau à vapeur, c'est à <placeName>Naples</placeName> que je t'écris.
                J'irai à l'<orgName>école Normale</orgName> en causer ; mais il me semble que cette circonstance doit
-               hâter ton retour. <persName>Albine</persName>, devenue plus tranquille parce que M. <persName>Ride</persName> sent bien que la
+               hâter ton retour.</p>
+            <p xml:id="L1831-10-18-a-p2"><persName>Albine</persName>, devenue plus tranquille parce que M. <persName>Ride</persName> sent bien que la
                séparation est dans son intérêt et qu'il faut pour le moment se mettre en sûreté
                avant que les créanciers de son frère, pour qui il s'est engagé par des lettres de
                change, puissent l'arrêter et l'enfermer à Sainte-Pélagie, <persName>Albine</persName> t'écrira
@@ -192,28 +194,33 @@
                savons si sa lettre doit être adressée à <placeName>Naples</placeName> ou à <placeName>Rome</placeName>. Ton rez-de-chaussée est
                enfin loué à partir d'hier ; j'ai reçu pour ton compte 200 francs de M. <persName>Dufau</persName>,
                locataire du second. <persName>Albine</persName> paraît tout à fait remise de l'état inquiétant où elle
-               était quand tu es parti. Je ne me suis jamais mieux porté. Ma sœur est bien, le mal
+               était quand<pb n="602" facs="#ACAS_CRHST_AMP_25_379_0602_r.jpg"/> tu es parti. Je ne me suis jamais mieux porté. Ma sœur est bien, le mal
                d'yeux qui l'avait affectée n'ayant pas augmenté. Ma cousine est désolée parce que la
                police a fait saisir l'onguent <persName>Canet</persName> chez M. <persName>Chrétien</persName> et que c'était là-dessus que
                reposait à peu près toute son existence. Je ne sais ce qui en arrivera ; car les lois
                sur les remèdes secrets sont d'une sévérité qui fait qu'on ne sait comment y
-               échapper. M. <persName>Ride</persName> est décidément guéri de son amour des boissons fermentées et,
+               échapper.</p>
+            <p xml:id="L1831-10-18-a-p3">M. <persName>Ride</persName> est décidément guéri de son amour des boissons fermentées et,
                depuis quelque temps, se conduit tout à fait bien. Ta tante, ton oncle et <persName>Mme Rivail</persName>
-               <ref>(2)</ref> sont venus dîner avec nous la semaine passée. Ils se portent bien et n'ont parlé
+               <ref target="#corresp2">(2)</ref> sont venus dîner avec nous la semaine passée. Ils se portent bien et n'ont parlé
                que de toi. Tout le monde t'attend avec la plus vive impatience. Les tableaux et les
-               vers latins <ref>(3)</ref> sont tellement arrêtés que, déjà depuis longtemps, on ne pense plus à
+               vers latins <ref target="#corresp3">(3)</ref> sont tellement arrêtés que, déjà depuis longtemps, on ne pense plus à
                y rien changer. Nous t'embrassons tous de notre cœur : ta sœur et moi surtout.
-               Reviens vite nous voir et je serai enfin heureux. Ton tendre père, <persName>A. Ampère</persName> J'ai
+               Reviens vite nous voir et je serai enfin heureux.<lb/>
+               Ton tendre père, <persName>A. Ampère</persName></p>
+            <p xml:id="L1831-10-18-a-p4">J'ai
                rencontré dimanche passé <persName>Mme Récamier</persName> sur la place <placeName>Saint-Sulpice</placeName>, nous avons parlé de
                toi. <persName>Ballanche</persName> et <persName>Dugas</persName> se portent bien et t'aiment bien.</p>
-            <closer>poste restante à <placeName>Naples</placeName>, royaume des <placeName>Deux-Siciles</placeName> </closer>
+            <closer><pb n="603" facs="#ACAS_CRHST_AMP_25_379_0603_v.jpg"/>Monsieur <persName>J-J Ampère</persName> poste restante à <placeName>Naples</placeName>, royaume des <placeName>Deux-Siciles</placeName> </closer>
          </div>
       </body>
       <back>
          <div xml:id="L1831-10-18-a-div2">
-            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4°, adresse sur la quatrième. (2) <persName>Élisa
-               Carron</persName>, cousine germaine de <persName>Jean-Jacques</persName>, née le 31 octobre 1798, mariée à M. <persName>Rivail</persName>
-               en <date when-iso="1831-07">juillet 1831</date>. (3) L'explication des tableaux relatifs à la Classification des
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4°, adresse sur la quatrième.</note>
+            <note xml:id="corresp2">(2) <persName>Élisa
+               Carron</persName>, cousine germaine de <persName>Jean-Jacques</persName>, née le <date when="1798-10-31">31 octobre 1798</date>, mariée à M. <persName>Rivail</persName>
+               en <date when-iso="1831-07">juillet 1831</date>.</note>
+            <note xml:id="corresp3">(3) L'explication des tableaux relatifs à la Classification des
                Sciences a été faite par <persName>Ampère</persName> en vers latins. </note>
          </div>
       </back>

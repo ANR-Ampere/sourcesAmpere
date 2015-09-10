@@ -1,3 +1,4 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -82,7 +83,7 @@
       </publicationStmt>
       <sourceDesc>
         <biblStruct xml:id="ampere_corr_L1832-08-28-a">
-                        <monogr xmlns="">
+                        <monogr>
                            <author>
                               <surname>De Launay</surname>
                               <forename>Louis</forename>
@@ -103,11 +104,11 @@
           <witness xml:id="L785manuscrit">
             <msDesc type="original_manuscrit">
               <msIdentifier>
-                <country xmlns="">France</country>
-                  <settlement xmlns="">Paris</settlement>
-                  <institution xmlns="">Archives de l'Académie des sciences</institution>
-                  <repository xmlns="">Fonds André-Marie Ampère</repository>
-                <idno xmlns="">chemise 379</idno>
+                <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                <idno>chemise 379</idno>
               </msIdentifier>
               <physDesc>
                 <p>Quatre pages in-4°, adresse sur la dernière.</p>
@@ -145,7 +146,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -165,15 +166,15 @@
   <text type="correspondance" decls="#ampere_corr_L1832-08-28-a">
     <body>
       <div xml:id="L1832-08-28-a-div1">
-        <opener>28 août 1832</opener>
+        <opener><pb n="393" facs="#ACAS_CRHST_AMP_25_379_0393_r.jpg"/><placeName>Clermont</placeName> <date when="1832-08-28">28 août 1832</date></opener>
         <p xml:id="L1832-08-28-a-p1">Comment je n'ai pas répondu plus tôt à cette lettre de mon cher
                 et si bon fils qui m'a causé tant de joie en me promettant de venir me trouver en
-                Auvergne dès que tu auras fini ce fastidieux travail du jugement des copies ? La
+                <placeName>Auvergne</placeName> dès que tu auras fini ce fastidieux travail du jugement des copies ? La
                 raison de ce retard involontaire est dans la manière dont ma vie est remplie.
-                Pendant que M. Gonod donne des leçons au Collège royal, un homme de confiance,
-                sous-bibliothécaire de cette bibliothèque publique dont M. Gonod est bibliothécaire,
+                Pendant que M. <persName>Gonod</persName> donne des leçons au <orgName>Collège royal</orgName>, un homme de confiance,
+                sous-bibliothécaire de cette bibliothèque publique dont M. <persName>Gonod</persName> est bibliothécaire,
                 écrit des rapports pour l'Université sous ma dictée, à dix sous par heure. Dès que
-                M. Gonod est libre, le sous-bibliothécaire s'en va, et c'est le premier qui a la
+                M. <persName>Gonod</persName> est libre, le sous-bibliothécaire s'en va, et c'est le premier qui a la
                 bonté d'écrire ce que je lui dicte sur la mathésionomie. Après en avoir ainsi écrit
                 les trois-quarts et avant de nous occuper du quart restant, pour bien savoir ce qui
                 est fait afin de ne pas tomber dans des redites, nous avons commencé hier à corriger
@@ -181,50 +182,57 @@
                 est écrit et nous y faisons à mesure toutes les corrections et additions nécessaires
                 ; il m'en propose souvent d'excellentes ; par ce moyen, nous comptons qu'il pourra
                 être imprimé ici avant mon départ, par son frère imprimeur des Annales
-                scientifiques, littéraires et industrielles de l'Auvergne. Si l'on y insère mon
-                travail, comme le désire M. Gonod, je n'aurais à payer que le papier et le tirage.
+                scientifiques, littéraires<pb n="394" facs="#ACAS_CRHST_AMP_25_379_0394_v.jpg"/> et industrielles de l'<placeName>Auvergne</placeName>. Si l'on y insère mon
+                travail, comme le désire M. <persName>Gonod</persName>, je n'aurais à payer que le papier et le tirage.</p>
+        <p xml:id="L1832-08-28-a-p2">
                 Puisque j'espère t'avoir bientôt ici, je ne commencerai l'impression que quand je
                 t'aurai soumis l'idée générale de mon livre et la distribution de ses parties. Au
                 reste, tu travaillerais ici tout comme tu pourrais le faire à Paris, avec une grande
                 pièce et toutes les commodités possibles, cette pièce étant encore plus indépendante
                 que la mienne. Il n'est pas bon que la circonstance que je dicte mes rapports sorte
-                d'entre toi et moi. J'attends avec impatience le joli présent que tu m'annonces pour
-                M. Gonod et pour moi. Dès que le numéro de la Revue des Deux Mondes est arrivé il y
+                d'entre toi et moi.</p>
+        <p xml:id="L1832-08-28-a-p3">J'attends avec impatience le joli présent que tu m'annonces pour
+                M. <persName>Gonod</persName> et pour moi. Dès que le numéro de la <title>Revue des Deux Mondes</title> est arrivé il y
                 a quelques jours ici, il me l'apporta tout de suite et tout travail fut suspendu
                 jusqu'à ce que je l'eusse lu et relu. Viens vite pour que nous causions ensemble de
-                tout le plaisir qu'il m'a fait. Dis à Ballanche avec quelle peine j'ai appris qu'il
+                tout le plaisir qu'il m'a fait.</p>
+        <p xml:id="L1832-08-28-a-p4">Dis à <persName>Ballanche</persName> avec quelle peine j'ai appris qu'il
                 était souffrant ; j'espère qu'il ne l'est plus et je désire bien vivement que tu
-                m'en donnes l'assurance. Je n'ose le prier de m'écrire un petit mot, chez M. Gonod,
+                m'en donnes l'assurance. Je n'ose le prier de m'écrire un petit mot, chez M. <persName>Gonod</persName>,
                 place Jaude, n° 52. Je t'attends dès que tu auras terminé tes classements de copies
-                qui doivent être bientôt finis ; peut-être le sont-elles déjà. Je pense sans cesse
-                au bonheur que j'aurai de te voir ici ; M. Gonod s'en fait une fête. Je n'ai été
+                qui doivent être<pb n="395" facs="#ACAS_CRHST_AMP_25_379_0395_r.jpg"/> bientôt finis ; peut-être le sont-elles déjà. Je pense sans cesse
+                au bonheur que j'aurai de te voir ici ; M. <persName>Gonod</persName> s'en fait une fête. Je n'ai été
                 jamais si bien soigné, si ce n'est peut-être quand je l'étais à Hyères par mon fils
-                et la bonne Marie. Enfin ces jours dont je conserve un si doux souvenir vont
-                renaître pour moi quand tu seras ici. Ecris-moi le jour de ton arrivée, du moins à
-                peu près ! N'oublie pas de demander à Albine le coussin du banc du devant de la
-                calèche pour l'apporter avec toi ! Demande aussi à ma soeur tout l'argent qu'elle
+                et la bonne <persName>Marie</persName>. Enfin ces jours dont je conserve un si doux souvenir vont
+                renaître pour moi quand tu seras ici.</p>
+        <p xml:id="L1832-08-28-a-p5">Écris-moi le jour de ton arrivée, du moins à
+                peu près ! N'oublie pas de demander à <persName>Albine</persName> le coussin du banc du devant de la
+                calèche pour l'apporter avec toi ! Demande aussi à ma sœur tout l'argent qu'elle
                 aura reçu au delà de ce qu'il sera possible qu'elle ne garde pas pour des billets à
                 ordre ; car j'ai déjà emprunté ici 100 francs au recteur et il m'en faut 250 de
-                frais de poste pour ramener la calèche à Paris (40 postes) : que l'on y soit un ou
-                deux voyageurs, c'est la même chose. M. Gonod m'a dit qu'il me prêterait tout ce
+                frais de poste pour ramener la calèche à <placeName>Paris</placeName> (40 postes) : que l'on y soit un ou
+                deux voyageurs, c'est la même chose. M. <persName>Gonod</persName> m'a dit qu'il me prêterait tout ce
                 dont je pourrais avoir besoin ; mais juge comme cela est désagréable, lorsque je lui
-                ai déjà de si grandes obligations ! Ma soeur, entre l'Université et le Collège de
-                France, doit recevoir, au commencement du mois de septembre, plus de 900 francs. Ne
-                peut-elle du moins m'en envoyer la moitié ? Ce que tu me racontes de ce que M. Cousin
-                a dit de ton cours chez M. Guizot m'enchante. Donne-moi des nouvelles de la manière
+                ai déjà de si grandes obligations ! Ma sœur, entre l'<orgName>Université</orgName> et le <orgName>Collège de
+                France</orgName>, doit recevoir, au commencement du mois de septembre, plus de 900 francs. Ne
+                peut-elle du moins m'en envoyer la moitié ? Ce que tu me racontes de ce que M. <persName>Cousin</persName>
+                a dit de ton cours chez M. <persName>Guizot</persName> m'enchante.</p>
+        <p xml:id="L1832-08-28-a-p6"><pb n="396" facs="#ACAS_CRHST_AMP_25_379_0396_v.jpg"/>Donne-moi des nouvelles de la manière
                 dont l'examen de tes élèves a réussi, ou plutôt, apporte-m'en toi même. Ne
-                pourrais-tu pas demander des nouvelles de la soeur de M. Naudet à la portière de la
+                pourrais-tu pas demander des nouvelles de la sœur de M. <persName>Naudet</persName> à la portière de la
                 maison où il demeure ; car, encore à présent, j'ignore s'il a eu le malheur de la
-                perdre, si elle est encore malade, ou si elle est guérie. Adieu, bon ami, je
-                t'embrasse mille fois de toute mon âme ; embrasse pour moi Albine quand tu la
-                verras. Ton tendre père,  ;  ;  ; A. Ampère</p>
-        <closer>rue du Bac, n° 100 bis, faubourg Saint-Germain, à Paris </closer>
+                perdre, si elle est encore malade, ou si elle est guérie.</p>
+        <p xml:id="L1832-08-28-a-p7">Adieu, bon ami, je
+                t'embrasse mille fois de toute mon âme ; embrasse pour moi <persName>Albine</persName> quand tu la
+                verras. Ton tendre père, <lb/>
+          <persName>A. Ampère</persName></p>
+        <closer>Monsieur <persName>J-J Ampère</persName>, maître de conférence à l'<orgName>école normale</orgName> rue du Bac, n° 100 bis, faubourg Saint-Germain, à <placeName>Paris</placeName> </closer>
       </div>
     </body>
     <back>
       <div xml:id="L1832-08-28-a-div2">
         <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4°, adresse sur la dernière. Des extraits
-                de cette lettre ont été publiés par Mme Cheuvreux, p. 48.</note>
+                de cette lettre ont été publiés par Mme <persName>Cheuvreux</persName>, p. 48.</note>
       </div>
     </back>
   </text>

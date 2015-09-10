@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1832-04-00-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,7 +100,7 @@
                <witness xml:id="L777manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <repository xmlns="">Collection Noël Bodin [note de Louis DE
+                        <repository>Collection Noël Bodin [note de Louis DE
                            LAUNAY]</repository>
                      </msIdentifier>
                      <physDesc>
@@ -138,7 +139,7 @@
         <correspAction type="received">
           <persName type="adressee">Rivail, Henri (neveu d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -162,8 +163,9 @@
             <opener>
           <date when-iso="1832-04">[Avril 1832]</date>
         </opener>
-            <p xml:id="L1832-04-00-a-p1">(Le papier porte un en-tête : Imprimerie de <persName>Auguste Mie</persName> et <persName>Henri Rivail</persName>, <placeName>rue
-               Jocquelet, n° 9</placeName>, <placeName>place de la Bourse</placeName>.) Mon bien cher neveu. Je suis venu vous voir
+            <p xml:id="L1832-04-00-a-p1">[Le papier porte un en-tête : Imprimerie de <persName>Auguste Mie</persName> et <persName>Henri Rivail</persName>, <placeName>rue
+               Jocquelet, n° 9</placeName>, <placeName>place de la Bourse</placeName>.]
+               Mon bien cher neveu. Je suis venu vous voir
                pour savoir des nouvelles de notre bien aimée <persName>éliza</persName>. On me dit qu'elle va de mieux en
                mieux et c'est avec un vif bonheur que je l'entends. Oh, que de soins à avoir pour
                que bientôt elle soit aussi bien portante qu'avant ce terrible accident ! Je voulais
@@ -171,20 +173,23 @@
                mécontent du souvenir qui m'en reste pour la tournure. Combien mon fils aurait mieux
                dit cela que je n'ai pu le dire. Si elle n'est pas déjà au journal, que vous seriez
                aimable, si vous étiez si bon que de la lui communiquer pour qu'il l'arrangeât. Mille
-               et mille remerciements. Si vous pouviez retrouver la note de M. <persName>Martin</persName> sur la
-               guérison d'un cholérique <ref>(2)</ref> que je vous avais remise sur la promesse que vous
+               et mille remerciements.</p>
+            <p xml:id="L1832-04-00-a-p2">Si vous pouviez retrouver la note de M. <persName>Martin</persName> sur la
+               guérison d'un cholérique <ref target="#corresp2">(2)</ref> que je vous avais remise sur la promesse que vous
                m'aviez faite de me la renvoyer, je vous prie de la mettre à la poste sous une
                enveloppe à mon adresse. Je n'en ai point de copie et j'aurais besoin d'en faire
                faire quelques-unes pour les emporter avec moi et les donner sur ma route dans les
                villes où viendrait à se manifester le choléra. Tout à vous, très cher et excellent
-               Henri. <persName>A. Ampère</persName> Vendredi matin.</p>
+               Henri.<lb/>
+               <persName>A. Ampère</persName> Vendredi matin.</p>
             <closer>Monsieur <persName>Rivail</persName>, imprimeur, <placeName>rue Jocquelet</placeName>, <placeName>Paris</placeName>.</closer>
          </div>
       </body>
       <back>
          <div xml:id="L1832-04-00-a-div2">
-            <note resp="#CGA" xml:id="corresp1">(1) Coll. <persName>Bodin</persName>. Deux pages 14 x 21, adresse sur la quatrième.
-               (2) Voir Lettre 0778. </note>
+            <note resp="#CGA" xml:id="corresp1">(1) Coll. <persName>Bodin</persName>. Deux pages 14 x 21, adresse sur la quatrième. </note>
+            <note resp="#CGA" xml:id="corresp2">(2) Voir Lettre <ref type="correspondance" target="#ampere_corr_L1832-04-10-a">L1832-04-10-a</ref>. </note>
+            
          </div>
       </back>
    </text>

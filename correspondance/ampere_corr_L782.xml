@@ -1,3 +1,4 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -82,7 +83,7 @@
       </publicationStmt>
       <sourceDesc>
         <biblStruct xml:id="ampere_corr_L1832-06-29-a">
-                        <monogr xmlns="">
+                        <monogr>
                            <author>
                               <surname>De Launay</surname>
                               <forename>Louis</forename>
@@ -103,11 +104,11 @@
           <witness xml:id="L782manuscrit">
             <msDesc type="original_manuscrit">
               <msIdentifier>
-                <country xmlns="">France</country>
-                  <settlement xmlns="">Paris</settlement>
-                  <institution xmlns="">Archives de l'Académie des sciences</institution>
-                  <repository xmlns="">Fonds André-Marie Ampère</repository>
-                <idno xmlns="">chemise 379</idno>
+                <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                <idno>chemise 379</idno>
               </msIdentifier>
               <physDesc>
                 <p>Quatre pages papier à lettre, adresse à la fin.</p>
@@ -145,7 +146,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -165,30 +166,35 @@
   <text type="correspondance" decls="#ampere_corr_L1832-06-29-a">
     <body>
       <div xml:id="L1832-06-29-a-div1">
-        <opener>29 juin [1832]</opener>
+        <opener><pb n="400" facs="#ACAS_CRHST_AMP_25_379_0400_r.jpg"/><placeName>Tournon</placeName> <date when="1832-06-29">29 juin [1832]</date></opener>
         <p xml:id="L1832-06-29-a-p1">Que je te remercie, bon ami, de ta lettre que j'ai trouvée ici !
-                Sans elle, sans ce que tu me dis que tu as vu ta soeur la veille de m'écrire, juge
-                combien je serais inquiet, car je n'ai point reçu de lettre d'elle depuis Lyon. Il
-                n'est plus question depuis longtemps du mécontentement de M. Naudet au sujet de
-                l'examen que j'ai voulu qui eût lieu au collège d'Aix. Mais il est toujours si
+                Sans elle, sans ce que tu me dis que tu as vu ta sœur la veille de m'écrire, juge
+                combien je serais inquiet, car je n'ai point reçu de lettre d'elle depuis <placeName>Lyon</placeName>.</p>
+        <p xml:id="L1832-06-29-a-p2">Il
+                n'est plus question depuis longtemps du mécontentement de M. <persName>Naudet</persName> au sujet de
+                l'examen que j'ai voulu qui eût lieu au collège d'<placeName>Aix</placeName>. Mais il est toujours si
                 pressé d'achever les inspections de chaque établissement et de partir sur-le-champ
                 que je n'ai pu faire le quart des rapports que j'avais à écrire et que je ne puis
-                espérer qu'il m'accorde seulement un jour pour en achever au moins quelques-uns.
-                écris-moi à présent à Clermont, donne-moi des nouvelles de tous ceux que nous
-                aimons, de ta soeur, de la famille, de Jussieu en particulier dont je ne sais rien
-                depuis que j'ai quitté Paris (d'après ce que tu me dis, il serait dangereux qu'ils
-                revinssent à Paris), de tes parents maternels. Marque-moi tout ce que tu sauras de
-                M. de Chateaubriand. Quelle idée de s'en prendre à lui ! Ne m'oublie pas auprès de
-                dames de l'Abbaye (2), de Ballanche et de Dugas ! J'espère être à Paris dans un
-                mois. Ma santé va toujours bien, Ton père t'embrasse de toute son âme. A.
-                Ampère</p>
-        <closer>rue du Bac, n°100 bis, à Paris </closer>
+                espérer qu'il m'accorde seulement un jour pour en achever au moins quelques-uns.</p>
+        <p xml:id="L1832-06-29-a-p3"><pb n="401" facs="#ACAS_CRHST_AMP_25_379_0401_v.jpg"/>
+                Écris-moi à présent à <placeName>Clermont</placeName>, donne-moi des nouvelles de tous ceux que nous
+                aimons, de ta sœur, de la famille, <persName>de Jussieu</persName> en particulier dont je ne sais rien
+                depuis que j'ai quitté <placeName>Paris</placeName> (d'après ce que tu me dis, il serait dangereux qu'ils
+                revinssent à <placeName>Paris</placeName>), de tes parents maternels. Marque-moi tout ce que tu sauras de
+                M. <persName>de Chateaubriand</persName>. Quelle idée de s'en prendre à lui !</p>
+        <p xml:id="L1832-06-29-a-p4">Ne m'oublie pas auprès de
+                dames de l'Abbaye <ref target="#corresp2">(2)</ref>, de <persName>Ballanche</persName> et de <persName>Dugas</persName> ! J'espère être à <placeName>Paris</placeName> dans un
+                mois. Ma santé va toujours bien, Ton père t'embrasse de toute son âme.<lb/>
+          <persName>A.
+                Ampère</persName></p>
+        <closer>A monsieur <persName>J-J Ampère</persName>, maître de conférence à l'<orgName>école normale</orgName> rue du Bac, n°100 bis, à <placeName>Paris</placeName> </closer>
       </div>
     </body>
     <back>
       <div xml:id="L1832-06-29-a-div2">
-        <note resp="#CGA" xml:id="corresp1">(1) Quatre pages papier à lettre, adresse à la fin. (2) Mme
-                Récamier et sa nièce. </note>
+        <note resp="#CGA" xml:id="corresp1">(1) Quatre pages papier à lettre, adresse à la fin.</note>
+        <note resp="#CGA" xml:id="corresp2">(2) Mme
+                <persName>Récamier</persName> et sa nièce. </note>
       </div>
     </back>
   </text>

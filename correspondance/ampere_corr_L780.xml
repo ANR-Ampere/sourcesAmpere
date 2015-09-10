@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1832-05-31-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +100,11 @@
                <witness xml:id="L780manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 379</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 379</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>Quatre pages in-4°, adresse au bas de la quatrième.</p>
@@ -140,7 +141,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,7 +162,7 @@
    <text type="correspondance" decls="#ampere_corr_L1832-05-31-a">
       <body>
          <div xml:id="L1832-05-31-a-div1">
-            <opener>
+            <opener><pb n="383" facs="#ACAS_CRHST_AMP_25_379_0383_r.jpg"/><placeName>Marseille</placeName>
           <date when="1832-05-31">31 mai 1832</date>
         </opener>
             <p xml:id="L1832-05-31-a-p1">Cher ami, tu m'as fait promettre de t'écrire le plus souvent que je pourrais.
@@ -174,20 +175,24 @@
                ce fût tout de suite... Après, ce sera à <placeName>Tournon</placeName> et ensuite à <placeName>Grenoble</placeName> ; car je suis
                bien tourmenté de n'avoir point de nouvelles de toi ni de ta sœur, ni de la
                convalescence d'<persName>Elisa</persName> depuis <placeName>Lyon</placeName> où j'ai reçu ta lettre, la seule jusqu'à présent,
-               et une d'<persName>Albine</persName>. Tu peux m'écrire jusqu'au 10 juin à <placeName>Tournon</placeName>, jusqu'au 18 à <placeName>Grenoble</placeName>.
+               et une d'<persName>Albine</persName>. Tu peux m'écrire jusqu'au 10 juin à <placeName>Tournon</placeName>, jusqu'au 18 à <placeName>Grenoble</placeName>.</p>
+            <p xml:id="L1832-05-31-a-p2"><pb n="384" facs="#ACAS_CRHST_AMP_25_379_0384_v.jpg"/>
                M. <persName>Cauvière</persName> est ici, je me suis mis en route ce matin pour l'aller voir ; mais j'ai
-               appris en chemin qu'il était à l'enterrement de son beau-père qui est mort hier...
+               appris en chemin qu'il était à l'enterrement de son beau-père qui est mort hier.
                J'irai le voir dès que je pourrai, ainsi que M. <persName>Regnard</persName> à qui on a donné hier un
                banquet patriotique. La <placeName>rue Beauveau</placeName> où je loge était illuminée en son honneur ; le
-               bruit des boîtes [d'artifice] assourdissait. Comme j'attends avec impatience ton
+               bruit des boîtes [d'artifice] assourdissait.</p>
+            <p xml:id="L1832-05-31-a-p3">Comme j'attends avec impatience ton
                discours d'ouverture ! Mais, s'il n'arrive pas ici avant le <date when="1832-06-04">4 juin</date>, je ne puis plus
                espérer de l'avoir que chez M. <persName>Périsse</persName> à <placeName>Lyon</placeName>. En y passant, j'ai dîné avec toute la
                famille à <placeName>Bellerive</placeName>. Un autre jour, déjeuné chez <persName>Mme Empaire</persName> avec <persName>Pignot</persName>. Il est venu
                deux ou trois fois jouer aux échecs à l'hôtel de <placeName>Milan</placeName>. Je suis descendu de <placeName>Lyon</placeName> à
-               <placeName>Avignon</placeName> par le bateau à vapeur. Depuis l'épouvantable perte de M. <persName>Cuvier</persName>, ne
+               <placeName>Avignon</placeName> par le bateau à vapeur. Depuis l'épouvantable perte de<pb n="385" facs="#ACAS_CRHST_AMP_25_379_0385_r.jpg"/> M. <persName>Cuvier</persName>, ne
                voilà-t-il pas que les sciences viennent de perdre M. <persName>Serullas</persName> du choléra ! Juge
                comme cela doit m'inquiéter quand je suis depuis longtemps privé de nouvelles de mes
-               enfants ? Du <date when="1832-06-01">1er juin</date>, le soir - je n'ai pu finir ma lettre hier matin et j'en suis
+               enfants ?</p>
+            <p xml:id="L1832-05-31-a-p4">Du <date when="1832-06-01">1er juin</date>, le soir<lb/>
+               je n'ai pu finir ma lettre hier matin et j'en suis
                bien aise parce que je viens d'en recevoir une de toi au collège où elle a été
                renvoyée de <placeName>Nîmes</placeName>. Quel plaisir tu me fais ! Je sais enfin que toutes vos santés sont
                bonnes. Mais comment ne me dis-tu pas un mot d'<persName>Elisa</persName> ? Est-elle tout à fait remise ?
@@ -195,18 +200,20 @@
                cholériques ? Je viens de voir M. <persName>Cauvière</persName>, il m'a paru comme à l'ordinaire. Je lui
                ai dit que je prenais bien part à son chagrin qui ne m'a pas paru violent ; du reste,
                très accueillant pour moi et toujours plein de regrets de ne pas trouver un autre
-               J.-J. pour son <orgName>Athénée</orgName>, qui paraît languir. Je vois assez par ta lettre qu'il n'y a
-               rien à faire pour la chose sur laquelle je t'avais écrit. Tu as vu qu'en y pensant,
+               <persName>J.-J.</persName> pour son <orgName>Athénée</orgName>, qui paraît languir.</p>
+            <p xml:id="L1832-05-31-a-p5">Je vois assez par ta lettre qu'il n'y a
+               rien à faire pour la<pb n="386" facs="#ACAS_CRHST_AMP_25_379_0386_v.jpg"/> chose sur laquelle je t'avais écrit. Tu as vu qu'en y pensant,
                comme je te l'ai écrit depuis, je n'avais trouvé que le seul <persName>Augustin Périer</persName> qui eût
                pu être pour moi ; mais, malgré sa pairie, qu'aurait-il pu ? Tu vois à quel point on
                a étouffé ce que j'ai fait. Sans cela, est-ce que la voix publique, parmi ceux qui
                peuvent juger de l'électricité dynamique, etc., ne m'indiquerait [pas] ? Adieu, cher
                et excellent fils, ne m'oublie pas auprès de nos amis, de Mmes <persName>Récamier</persName> et
-               <persName>Lenormant</persName> ! Vois, je te prie, ta sœur et m'en écris ! Ton mille fois tendre père. <persName>A.
+               <persName>Lenormant</persName> ! Vois, je te prie, ta sœur et m'en écris ! Ton mille fois tendre père.<lb/>
+               <persName>A.
                Ampère</persName>
         </p>
             <closer>
-          <placeName>rue du Bac, n° 100 bis</placeName>, à <placeName>Paris</placeName> </closer>
+          <placeName>Monsieur <persName>J-J Ampère</persName>, maître de conférence à l'<orgName>école normale</orgName> rue du Bac, n° 100 bis</placeName>, à <placeName>Paris</placeName> </closer>
          </div>
       </body>
       <back>

@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1832-00-00-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,10 +100,10 @@
                <witness xml:id="L774manuscrit">
             <msDesc type="brouillon_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère [note de Louis DE
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère [note de Louis DE
                            LAUNAY]</repository>
                      </msIdentifier>
                   </msDesc>
@@ -136,7 +137,7 @@
         <correspAction type="received">
           <persName type="adressee">Moigno, François (Abbé)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">[?] (1)</ref>
         </note>
       </correspDesc>
@@ -158,8 +159,10 @@
       <body>
          <div xml:id="L1832-00-00-a-div1">
             <opener>
+               
           <date when-iso="1832">[1832</date>]</opener>
-            <p xml:id="L1832-00-00-a-p1">Mon cher ami, Nous avons souvent causé du projet que j'avais formé depuis longtemps
+            <opener>Mon cher ami, </opener>
+            <p xml:id="L1832-00-00-a-p1">Nous avons souvent causé du projet que j'avais formé depuis longtemps
                de classer les diverses sciences dont se compose l'ensemble de nos connaissances
                d'après leurs rapports mutuels, comme le naturaliste classe aujourd'hui les corps,
                soit inorganiques, soit organiques, d'après les nombreux rapports que la nature
@@ -168,7 +171,8 @@
                classification choisissait d'après des vues qui lui étaient particulières, ces
                différentes manières d'arranger les corps pouvaient être utiles pour les reconnaître,
                mais ne nous apprenaient rien sur leur nature et sur l'ensemble de leurs propriétés,
-               non plus que sur les lois générales qui sont comme les conditions de leur existence.
+               non plus que sur les lois générales qui sont comme les conditions de leur existence.</p>
+            <p xml:id="L1832-00-00-a-p2">
                Mais, depuis que ces classifications, si justement nommées artificielles, ont fait
                place à des méthodes fondées, du moins pour les corps organisés, sur l'ensemble des
                caractères qui les distinguent, la subordination et les dépendances mutuelles de ces
@@ -178,7 +182,7 @@
                l'organisation, entrevues seulement jusqu'alors, en sorte qu'on peut dire que ce
                n'est que depuis cette époque qu'on en a une véritable et profonde connaissance et
                qu'on ne peut plus aujourd'hui en étudier les classifications sans acquérir cette
-               connaissance pour ainsi dire à son insu <gap xmlns="" reason="lacune_CGA"/>
+               connaissance pour ainsi dire à son insu <gap reason="lacune_CGA"/>
         </p>
          </div>
       </body>

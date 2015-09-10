@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -139,7 +140,7 @@
           <persName type="adressee" ref="#pers_A366">Ampère,
                            André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -291,7 +292,7 @@
           </subst> je <subst>
             <del>saver</del> <add>saurai</add>
           </subst> plus de<lb/>
-               choses. Je t'écrivis samedi par M. Berger <add>ton élève</add>, je ne<lb/>
+               choses. Je t'écrivis samedi par M. <persName>Berger</persName> <add>ton élève</add>, je ne<lb/>
                <subst>
             <del>c'est</del> <add>sais</add>
           </subst> si ma lettre est partie. Le <choice>
@@ -302,7 +303,7 @@
           <lb/>
                une grosse pluie, maman, mon petit et
                moi<lb/>
-               fûmes dîner au Griffon <ref>(2)</ref> ; car je ne me pouvais<lb/>
+               fûmes dîner au Griffon <ref target="#corresp2">(2)</ref> ; car je ne me pouvais<lb/>
                pas souffrir dans la maison ;
                je ne te voyais<lb/>
                plus autour de moi venir me <choice>
@@ -377,7 +378,8 @@
                <subst>
             <del> penser
                tristement</del> <add>songer</add>
-          </subst>.<lb/>
+          </subst>.</p>
+           <p>
               <del type="bloc"> Mais, mon bon ami, à quoi <choice>
               <sic>ser</sic> <corr>sert</corr>
             </choice> tous <choice>
@@ -505,7 +507,8 @@
                j'ai été chez M. <placeName>Deplace</placeName>, sa <choice>
             <sic>feme</sic> <corr>femme</corr>
           </choice> n'y était<lb/>
-               pas, elle était à la fraiche avec sa petite.<lb/>
+               pas, elle était à la fraiche avec sa petite.</p>
+           <p>
                M. <placeName>Deplace</placeName> m'a <choice>
             <sic>parlér</sic> <corr>parlé</corr>
           </choice> de toi et trouve que<lb/>
@@ -668,12 +671,13 @@
                que c'est demain. Je te dit mille chose pour tous<lb/>
                tes amis mais <choice>
             <sic>surtous</sic> <corr>surtout</corr>
-          </choice> pour la maison Périsse.
+          </choice> pour la maison <persName>Périsse</persName>.
                J'ai envoyé la lettre à M. <persName>Martin</persName> ; elle était très<lb/>
                à propos et fort bien dite. N'oublie pas ta <choice>
             <sic>loctière</sic> <corr>loquetière</corr>
           </choice>
-          <lb/>
+           </p>
+           <p>
             Adieu, adieu je t'embrasse mille <supplied>fois</supplied> et me porte bien<lb/>
                depuis ta lettre. C'est M. <persName ref="#pers_C162">
             <choice>
@@ -697,7 +701,8 @@
       <back>
          <div xml:id="L1802-02-24-a-div2">
             <note resp="#CGA" xml:id="corresp1">(1) Quelques lignes ont été publiées par Mme <persName>Cheuvreux</persName>, p. 173
-               et 174. (2) Habitation des <persName>Carron</persName>. (3) M. <persName ref="#pers_C162">Couppier</persName> était depuis longtemps en relation
+               et 174.</note>
+           <note resp="#CGA" xml:id="corresp2">(2) Habitation des <persName>Carron</persName>. (3) M. <persName ref="#pers_C162">Couppier</persName> était depuis longtemps en relation
                scientifique avec <persName ref="#pers_A366">Ampère</persName> et on le voit souvent venir rendue visite à <persName ref="#pers_C129">Julie</persName> (voir p.
                117, etc.). </note>
          </div>

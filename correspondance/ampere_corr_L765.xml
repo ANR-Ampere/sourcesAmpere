@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -141,7 +142,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -162,26 +163,29 @@
    <text type="correspondance" decls="#ampere_corr_L1831-05-07-b">
       <body>
          <div xml:id="L1831-05-07-b-div1">
-            <opener>
+            <opener><pb n="376" facs="#ACAS_CRHST_AMP_25_379_0376_r.jpg"/><placeName>Bourg</placeName>
           <date when="1831-05-07">Samedi 7 mai [1831]</date>
         </opener>
             <p xml:id="L1831-05-07-b-p1">Mon cher fils, me voilà à <persName>Bourg</persName> sain et sauf. Nous n'avons pas trouvé <persName>Alexis</persName> qui
                était au conseil ; il est venu inutilement deux fois à notre hôtel pendant que nous
                faisions des examens au collège. Nous allons retourner à la préfecture, mais j'ai
                voulu t'écrire auparavant ; car il y a une chose qui te va faire de la peine plus
-               pour moi que pour toi ; mais comment faire autrement ? J'ai porté à <persName>Albine</persName>, que j'ai
+               pour moi que pour toi ; mais comment faire autrement ?</p>
+            <p xml:id="L1831-05-07-b-p2">J'ai porté à <persName>Albine</persName>, que j'ai
                trouvée mal portante et dans une tristesse augmentée par le séjour de <persName>Courtemot</persName> qui
                m'a pénétré, une lettre de <persName>Mme Vouty</persName> qui lui annonce que <persName>Mme Potot</persName> est malade.
                Là-dessus on a tenu conseil, <persName>Albine</persName>, <persName>Ride</persName> et moi. Il était clair qu'<persName>Albine</persName> fût à
-               <placeName>Paris</placeName> et donnât du moins cette marque d'intérêt à sa grand'mère. Ride ne comprenait
+               <placeName>Paris</placeName> et donnât du moins cette marque d'intérêt à sa<pb n="377" facs="#ACAS_CRHST_AMP_25_379_0377_v.jpg"/> grand'mère. Ride ne comprenait
                la chose qu'en y accompagnant sa femme. Il me demandait comme une faveur de lui
                permettre de loger chez moi avec sa femme pendant ce voyage en mon absence. <persName>Albine</persName> ne
                pensait dans son âme qu'à l'ennui que cela te ferait et voulait qu'ils allassent à
-               Paris dans un petit appartement loué pour trois mois. J'avoue que, sachant à quel
+               <placeName>Paris</placeName> dans un petit appartement loué pour trois mois. J'avoue que, sachant à quel
                point ils sont malheureux et n'ayant rien que des dettes exigibles par prise de
                corps, j'ai préféré donner l'autorisation que <persName>Ride</persName> demandait. Je tremble d'ailleurs
                que l'état d'<persName>Albine</persName> n'indique une maladie d'estomac qui serait une chose affreuse. Je
-               lui ai fait promettre de consulter M. <persName>Serres</persName> dès qu'elle serait à <placeName>Paris</placeName> <ref>(2)</ref>. Pardon,
+               lui ai fait promettre de consulter M. <persName>Serres</persName> dès qu'elle serait à <placeName>Paris</placeName> <ref target="#corresp2">(2)</ref>.<cb/></p>
+            <p xml:id="L1831-05-07-b-p3">
+               Pardon,
                cher ami, toi à qui je dois tant, qui m'as seul consolé  ! Mais j'ai eu pitié de ta
                sœur que les continuelles asticoteries de sa belle-mère achèvent d'accabler. La
                mobilité des idées de <persName>Ride</persName> ne me laisse pas douter qu'il ne restera pas longtemps à
@@ -190,18 +194,21 @@
                l'amitié que tu portes à ton malheureux père ! écris-moi tout de suite à <placeName>Lyon</placeName>, à <cit>
             <quote>M.
                <persName>Bredin</persName>, directeur de l'<orgName>école vétérinaire</orgName>, pour remettre s.l.p. à M. <persName>Ampère</persName>.</quote>
-          </cit> Je ne
-               respirerai que quand j'aurai cette lettre. Je t'embrasse le cœur navré. Ton tendre,
-               mais bien malheureux père. <persName>A. Ampère</persName>
+          </cit></p>
+            <p xml:id="L1831-05-07-b-p4">Je ne
+               respirerai que quand j'aurai cette<pb n="378" facs="#ACAS_CRHST_AMP_25_379_0378_v.jpg"/> lettre. Je t'embrasse le cœur navré. Ton tendre,
+               mais bien malheureux père.<lb/>
+               <persName>A. Ampère</persName>
         </p>
-            <closer>
+            <closer>Monsieur <persName>J-J Ampère</persName>
           <placeName>rue des Fossés-Saint-Victor, n° 19</placeName>, à <placeName>Paris</placeName> </closer>
          </div>
       </body>
       <back>
          <div xml:id="L1831-05-07-b-div2">
             <note resp="#CGA" xml:id="corresp1">(1) Quatre pages 13,5 x 20, adresse sur la quatrième ; timbres
-               de la poste. (2) <persName>Ride</persName>, après avoir été accueilli chez <persName>Ampère</persName> et y être resté calme
+               de la poste.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) <persName>Ride</persName>, après avoir été accueilli chez <persName>Ampère</persName> et y être resté calme
                pendant un mois, avait eu une nouvelle crise de démence en <date when-iso="1830-11">novembre 1830</date>. Néanmoins,
                <persName>Ampère</persName>, on le voit, le recevait de nouveau chez lui. Devant cette faiblesse de son
                père qui le forçait à une cohabitation impossible avec un aliéné à lucidités

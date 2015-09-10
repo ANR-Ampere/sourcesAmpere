@@ -1,3 +1,4 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -82,7 +83,7 @@
       </publicationStmt>
       <sourceDesc>
         <biblStruct xml:id="ampere_corr_L1833-02-10-a">
-                        <monogr xmlns="">
+                        <monogr>
                            <author>
                               <surname>De Launay</surname>
                               <forename>Louis</forename>
@@ -103,7 +104,7 @@
           <witness xml:id="L790manuscrit">
             <msDesc type="original_manuscrit">
               <msIdentifier>
-                <repository xmlns="">Collection Gabriel Bertrand [note de Louis DE LAUNAY]</repository>
+                <repository>Collection Gabriel Bertrand [note de Louis DE LAUNAY]</repository>
               </msIdentifier>
             </msDesc>
           </witness>
@@ -138,7 +139,7 @@
         <correspAction type="received">
           <persName type="adressee">Gonod, Benoit</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -158,35 +159,40 @@
   <text type="correspondance" decls="#ampere_corr_L1833-02-10-a">
     <body>
       <div xml:id="L1833-02-10-a-div1">
-        <opener>10 février 1833</opener>
-        <p xml:id="L1833-02-10-a-p1">Mon cher et excellent ami, J'ai encore fait un petit changement
+        <opener><date when="1833-02-10">10 février 1833</date></opener>
+        <opener>Mon cher et excellent ami,</opener>
+        <p xml:id="L1833-02-10-a-p1"> J'ai encore fait un petit changement
                 à la nouvelle nomenclature des Sciences médicales que je vous ai envoyée
                 dernièrement. Je voudrais bien qu'il fût fait sur les six épreuves du tableau que
                 j'attends avec beaucoup d'impatience pour que je pusse soumettre l'ensemble de cette
                 nouvelle nomenclature aux mêmes docteurs que j'ai consultés, comme je vous l'ai
                 raconté dans ma dernière lettre, avant de mettre sur un de ces exemplaires : bon à
                 tirer pour 100 exemplaires. Sur ces 100 exemplaires j'aurai l'occasion d'en remettre
-                un certain nombre à M. Underwood pour qu'il les porte en Angleterre, où il doit se
+                un certain nombre à M. <persName>Underwood</persName> pour qu'il les porte en <placeName>Angleterre</placeName>, où il doit se
                 rendre dans trois semaines environ ; nous avons le temps pourvu que rien ne retarde
                 l'envoi de six épreuves. Ce changement consiste à remplacer le nom hygiétique que je
                 donnais à une des quatre sciences du troisième ordre comprises dans l'hygiène (par)
                 celui d'hygiophélique, science relative à ce qui est utile à la santé. C'est celui
                 que j'ai adopté dans ma nouvelle rédaction de la feuille 9, dont je m'occupe
-                exclusivement depuis que mon catarrhe m'a forcé d'interrompre mon cours. Je vous
-                consulterai aussi pour savoir si, dans les vers à corriger du proœmium, que je vous
-                ai envoyés : Corpora fabremque arte, tractabi, et orbem Lustrabi, latebrasque simul
-                rimabere terrae; ; Il ne faudrait pas, au lieu du second lustrabi ? penitus
-                latebras rimabere terrae, et disces genus herbarum arva animalia et unde ou en
+                exclusivement depuis que mon catarrhe m'a forcé d'interrompre mon cours.</p>
+        <p xml:id="L1833-02-10-a-p2">Je vous
+                consulterai aussi pour savoir si, dans les vers à corriger du proemium, que je vous
+                ai envoyés : <foreign xml:lang="lat">Corpora fabremque arte, tractabi, et orbem Lustrabi, latebrasque simul
+                rimabere terrae</foreign>.</p>
+        <p xml:id="L1833-02-10-a-p3">Il ne faudrait pas, au lieu du second <foreign xml:lang="lat">lustrabi</foreign> ? <foreign xml:lang="lat">penitus
+                latebras rimabere terrae, et disces genus herbarum arva animalia et unde</foreign> ou en
                 laissant, ce qui ne se pourra je crois pas, ce dernier comme je l'avais mis et que
-                j'ai oublié. Si vous approuvez ce mot penitus qui remplace par une image la cheville
-                de simul, vous me feriez bien plaisir de faire faire aussi cette correction. Mille
-                respects à Mme Gonod de la part de mon fils et de la mienne, il se joint à moi dans
-                l'expression de la plus vive et la plus tendre amitié. A. Ampère</p>
+                j'ai oublié. Si vous approuvez ce mot <foreign xml:lang="lat">penitus</foreign> qui remplace par une image la cheville
+                de <foreign xml:lang="lat">simul</foreign>, vous me feriez bien plaisir de faire faire aussi cette correction.</p>
+        <p xml:id="L1833-02-10-a-p4">Mille
+                respects à <persName>Mme Gonod</persName> de la part de mon fils et de la mienne, il se joint à moi dans
+                l'expression de la plus vive et la plus tendre amitié.<lb/>
+          <persName>A. Ampère</persName></p>
       </div>
     </body>
     <back>
       <div xml:id="L1833-02-10-a-div2">
-        <note resp="#CGA" xml:id="corresp1">(1) Collection Gabriel Bertrand.</note>
+        <note resp="#CGA" xml:id="corresp1">(1) Collection <persName>Gabriel Bertrand</persName>.</note>
       </div>
     </back>
   </text>

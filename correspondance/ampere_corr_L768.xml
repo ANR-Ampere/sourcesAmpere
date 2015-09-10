@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1831-06-16-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +100,11 @@
                <witness xml:id="L768manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 369</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 369</idno>
                      </msIdentifier>
                   </msDesc>
           </witness>
@@ -137,7 +138,7 @@
         <correspAction type="received">
           <persName type="adressee">[Maréchal de Soult, fils du]</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">[?]</ref>
         </note>
       </correspDesc>
@@ -158,23 +159,24 @@
    <text type="correspondance" decls="#ampere_corr_L1831-06-16-a">
       <body>
          <div xml:id="L1831-06-16-a-div1">
-            <opener>
-          <date when="1831-06-16">16 juin 1831</date>
+            <opener><placeName>Nîmes</placeName> <pb n="39" facs="#ACAS_CRHST_AMP_25_369_0039_r.jpg"/> 
+          <date when="1831-06-16">16 juin 1831</date> 
         </opener>
-            <p xml:id="L1831-06-16-a-p1">Monsieur, Je ne sais si je dois me flatter que vous aurez conservé quelque souvenir
+            <opener>Monsieur,</opener>
+            <p xml:id="L1831-06-16-a-p1"> Je ne sais si je dois me flatter que vous aurez conservé quelque souvenir
                de nos anciennes relations à l'époque où vous étiez à l'<orgName>école Polytechnique</orgName> dans la
                division à laquelle j'étais chargé de faire le cours d'analyse et de mécanique que
                vous suiviez d'une manière si brillante. Ce sont elles qui m'ont suggéré l'idée de
                m'adresser à vous, Monsieur, et de vous prier, pendant que mes fonctions d'inspecteur
                général des études me retiennent loin de <placeName>Paris</placeName>, de vous prier d'accorder votre
                bienveillance à mon gendre qui, au sortir de l'<orgName>école militaire de Saint-Cyr</orgName>, a fait
-               ses premières armes à la campagne de Russie, et était depuis plusieurs années chef
+               ses premières armes à la campagne de <placeName>Russie</placeName>, et était depuis plusieurs années chef
                d'escadron, lorsqu'une maladie très grave, à laquelle contribuaient sans doute les
-               blessures qu'il avait reçues, tant en cette campagne que l'année suivante dans les
+               blessures qu'il avait reçues, tant dans cette campagne que l'année suivante dans<pb n="40" facs="#ACAS_CRHST_AMP_25_369_0040_v.jpg"/> les
                plaines de <placeName>Champagne</placeName>, l'obligea à quitter pour quelque temps le service, avec un bien
                faible traitement de réforme pour un temps limité, s'il ne rentrait pas au service
                avant le terme fixé. Cela eut lieu au mois d'<date when-iso="1830-04">avril 1830</date>. Un an et quelques mois de
-               repos ayant complètement rétabli sa santé, il n'aspire à présent qu'à pouvoir [se]
+               repos ayant complètement rétabli sa santé, il n'aspire à présent qu'à pouvoir se
                consacrer de nouveau au service de son pays. C'est dans cette vue qu'il se propose
                d'adresser au Ministre de la guerre une pétition tendant à obtenir d'être remis en
                activité. Ses anciens services et d'honorables blessures sont les titres qui parlent
@@ -182,11 +184,14 @@
                prêter votre appui ? Telle est la faveur que j'ose solliciter. Quelles ne seraient
                pas sa reconnaissance et la mienne si vous vouliez bien permettre à M. <persName>Ride
                (Nicolas-Gabriel)</persName> mon gendre, de vous communiquer cette pétition, de lui indiquer la
-               marche qu'il doit suivre et surtout si vous aviez la bonté de l'appuyer. Je vous
-               prie, Monsieur, d'agréer d'avance l'hommage de cette reconnaissance qui durerait à
+               marche qu'il doit suivre et surtout si vous aviez la bonté de l'appuyer.</p>
+            <p xml:id="L1831-06-16-a-p2">Je vous
+               prie, Monsieur, d'agréer d'avance l'hommage de cette reconnaissance<pb n="41" facs="#ACAS_CRHST_AMP_25_369_0041_r.jpg"/> qui durerait à
                jamais dans son cœur et dans le mien, et celui de la haute considération avec
-               laquelle j'ai l'honneur d'être, Monsieur, votre très humble et très obéissant
-               serviteur. <persName>A. Ampère</persName> de l'<orgName>Académie royale des Sciences</orgName>.</p>
+               laquelle j'ai l'honneur d'être,<lb/>
+               Monsieur,<lb/>
+               votre très humble et très obéissant
+               serviteur.<lb/> <persName>A. Ampère</persName> de l'<orgName>Académie royale des Sciences</orgName>.</p>
          </div>
       </body>
    </text>
