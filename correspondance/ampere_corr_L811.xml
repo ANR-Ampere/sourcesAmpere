@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1834-09-13-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,7 +100,7 @@
                <witness xml:id="L811manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <repository xmlns="">Collection Gabriel Bertrand. [note de Louis DE
+                        <repository>Collection Gabriel Bertrand. [note de Louis DE
                            LAUNAY]</repository>
                      </msIdentifier>
                   </msDesc>
@@ -134,7 +135,7 @@
         <correspAction type="received">
           <persName type="adressee">?</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">[destinataire non identifié]
                      (1)</ref>
         </note>
@@ -159,42 +160,50 @@
             <opener>
           <date when="1834-09-13">[13 septembre 1834]</date>
         </opener>
-            <p xml:id="L1834-09-13-a-p1">Monsieur le Vice-Président, M. <persName>Ferrus</persName> <ref>(2)</ref>, principal du collège de <placeName>Perpignan</placeName>, s'est
+            <opener>Monsieur le Vice-Président,</opener>
+            <p xml:id="L1834-09-13-a-p1"> M. <persName>Ferrus</persName> <ref target="#corresp2">(2)</ref>, principal du collège de <placeName>Perpignan</placeName>, s'est
                présenté chez moi mardi dernier et m'a prié de vous écrire jusqu'à quel point je le
                croyais capable de diriger un collège où les mathématiques seraient considérées comme
                le but principal de l'instruction. Autant que j'ai pu en juger par les conversations
-               que nous avons eues sur ce sujet et par ce que j'ai vu à Perpignan lorsque j'en ai
+               que nous avons eues sur ce sujet et par ce que j'ai vu à <placeName>Perpignan</placeName> lorsque j'en ai
                examiné le collège il y a deux mois, M. <persName>Ferrus</persName> m'a paru entendre fort bien tout ce
                qui est relatif à cette partie de l'administration collégiale et avoir sur cette
                matière des idées très justes, quoi qu'il n'ait pas poussé fort loin l'étude des
                mathématiques à l'enseignement desquelles il s'était autrefois consacré, mais que
-               d'autres occupations ne lui ont pas permis de cultiver depuis. Grâce à la bonne
+               d'autres occupations ne lui ont pas permis de cultiver depuis.</p>
+            <p xml:id="L1834-09-13-a-p2">Grâce à la bonne
                distribution qu'il a faite des études dans le collège qu'il dirige, et au soin tout
                particulier qu'il a pris des classes de mathématiques, elles y sont sans contredit
                les plus fortes, et mieux organisées que dans les autres collèges communaux que j'ai
-               inspectés, et même que dans plusieurs collèges royaux. En résumé, je pense que M.
+               inspectés, et même que dans plusieurs collèges royaux.</p>
+            <p xml:id="L1834-09-13-a-p3">En résumé, je pense que M.
                <persName>Ferrus</persName> est un des hommes les plus propres à donner aux études mathématiques d'un
                collège une excellente direction et qu'il serait, par conséquent, convenablement
                placé à la tête d'un établissement particulièrement consacré. Son caractère et sa
                position sont d'ailleurs bien faits pour inspirer un vif intérêt, car il est la
                victime de son zèle et de sa confiance dans les promesses qu'on lui avait faites et
-               qu'on ne paraît pas disposé à tenir quoiqu'on se loue beaucoup de lui à <placeName>Perpignan</placeName>. Me
+               qu'on ne paraît pas disposé à tenir quoiqu'on se loue beaucoup de lui à <placeName>Perpignan</placeName>.</p>
+            <p xml:id="L1834-09-13-a-p4">Me
                permettez-vous, Monsieur le Vice-Président, de saisir cette occasion pour vous
                supplier, d'après l'intérêt que vous m'avez témoigné tant de fois, de vouloir bien
                m'accorder un moment d'audience pour vous faire hommage du premier volume de mon
                <title>Essai sur la Philosophie des Sciences</title>, qui est enfin terminé. Je sais que tous vos
                moments sont pris dans ce moment surtout, mais il ne s'agit que d'un instant, et cet
                instant est d'une bien grande importance pour moi, ayant à vous communiquer une chose
-               à laquelle j'attache un bien grand intérêt. Pensant que le dimanche est le jour où
+               à laquelle j'attache un bien grand intérêt.</p>
+            <p xml:id="L1834-09-13-a-p5">Pensant que le dimanche est le jour où
                vous êtes le plus libre, j'aurai l'honneur de me présenter demain chez vous. Ma
-               reconnaissance n'aurait point de bornes si vous daigniez accueillir ma prière. Je
+               reconnaissance n'aurait point de bornes si vous daigniez accueillir ma prière.</p>
+            <p xml:id="L1834-09-13-a-p6">Je
                suis avec respect, Monsieur le Vice-Président, votre très humble et très obéissant
-               serviteur. <persName>A. Ampère</persName> Inspecteur général des études.</p>
+               serviteur.<lb/>
+               <persName>A. Ampère</persName> Inspecteur général des études.</p>
          </div>
       </body>
       <back>
          <div xml:id="L1834-09-13-a-div2">
-            <note resp="#CGA" xml:id="corresp1">(1) Collection <persName>Gabriel Bertrand</persName>. (2) Voir la note de la page 192
+            <note resp="#CGA" xml:id="corresp1">(1) Collection <persName>Gabriel Bertrand</persName>.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) Voir la note de la page 192
                sur un M. <persName>de Férus</persName> qui est probablement sans rapport avec celui-là. </note>
          </div>
       </back>

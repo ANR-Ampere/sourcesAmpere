@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -79,7 +80,7 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct xml:id="ampere_corr_L1835-02-17-a">
-                    <monogr xmlns="">
+                    <monogr>
                         <author>
                             <surname>De Launay</surname>
                             <forename>Louis</forename>
@@ -100,9 +101,9 @@
                     <witness xml:id="L816manuscrit">
             <msDesc type="original_manuscrit">
                             <msIdentifier>
-                                <country xmlns="">Angleterre</country>
-                                <settlement xmlns="">Londres</settlement>
-                                <institution xmlns="">Institution of Electrical Engineers [note de
+                                <country>Angleterre</country>
+                                <settlement>Londres</settlement>
+                                <institution>Institution of Electrical Engineers [note de
                                     Louis DE LAUNAY]</institution>
                             </msIdentifier>
                             <physDesc>
@@ -140,7 +141,7 @@
         <correspAction type="received">
           <persName type="adressee">Faraday, Michael</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,12 +162,13 @@
     <text type="correspondance" decls="#ampere_corr_L1835-02-17-a">
         <body>
             <div xml:id="L1835-02-17-a-div1">
-                <opener>
+                <opener><placeName>Paris</placeName> 
           <date when="1835-02-17">17 février 1835</date>
         </opener>
-                <p xml:id="L1835-02-17-a-p1">Monsieur et très cher confrère, Dans la lettre que j'eus l'honneur de vous écrire
+                <opener>Monsieur et très cher confrère,</opener>
+                <p xml:id="L1835-02-17-a-p1"> Dans la lettre que j'eus l'honneur de vous écrire
                     dans le temps pour vous remercier de la note relative à l'expérience que je fis
-                    en <date when-iso="1822">1822</date> à <placeName>Genève</placeName>, avec M. <persName>Aug. de La Rive</persName>, note que vous avez eu l'attention
+                    en <date when-iso="1822">1822</date> à <placeName>Genève</placeName>, avec M. <persName>Aug<ex>uste</ex> de La Rive</persName>, note que vous avez eu l'attention
                     pour moi d'insérer dans les transactions philosophiques de <date when-iso="1833">1833</date>, je vous parlais
                     de l'ouvrage que j'imprimais alors sur la philosophie des sciences <ref type="ouvrages_mentionnes" target="#ampere_ref_P415.xml">*</ref> et des changements que je méditais sur
                     le premier essai de classification des connaissances humaines que je vous avais
@@ -177,7 +179,8 @@
                     l'un pour vous, mon très cher confrère, l'autre pour la <orgName>Société royale</orgName> à qui je
                     vous priais de l'offrir de ma part. M. <persName>Bachelier</persName> m'a assuré qu'il vous les avait
                     effectivement envoyés et je ne doutais pas, d'après ce qu'il m'avait dit, que
-                    vous ne les eussiez reçus il y a au moins trois [mois]. Votre lettre m'ayant
+                    vous ne les eussiez reçus il y a au moins trois [mois].</p>
+                <p>Votre lettre m'ayant
                     fait craindre que ces exemplaires ne vous soient pas parvenus, M. <persName>Andrew Smith</persName> a
                     bien voulu se charger d'un exemplaire qui me restait, les autres ayant été
                     achetés par M. <persName>Bachelier</persName>, pour vous l'offrir dans le cas où vous n'auriez pas
@@ -190,14 +193,17 @@
                     rédacteur un article détaillé sur mon essai sur la philosophie des sciences. Je
                     serais infiniment reconnaissant de ce service et doublement flatté de le devoir
                     à l'un des premiers savants de l'<placeName>Europe</placeName> dont l'amitié m'est très chère autant
-                    qu'elle m'honore. Vous avez assez vu dans ma dernière lettre combien vous aviez
+                    qu'elle m'honore.</p>
+                <p>Vous avez assez vu dans ma dernière lettre combien vous aviez
                     eu tort de supposer que je pouvais avoir éprouvé un autre sentiment que celui de
                     la reconnaissance pour la note que vous avez fait insérer dans les transactions
                     philosophiques et l'admiration que je conserverai toujours pour les grandes
                     découvertes dont vous avez enrichi le domaine de la physique et celui de la
-                    chimie. C'est avec ces sentiments qui dureront autant que ma vie, que j'ai
+                    chimie.</p>
+                <p>C'est avec ces sentiments qui dureront autant que ma vie, que j'ai
                     l'honneur d'être, mon très cher confrère, votre très humble et très obéissant
-                    serviteur. <persName>A. Ampère</persName>
+                    serviteur.<lb/>
+                    <persName>A. Ampère</persName>
         </p>
                 <closer>
           <placeName>Londres</placeName> </closer>

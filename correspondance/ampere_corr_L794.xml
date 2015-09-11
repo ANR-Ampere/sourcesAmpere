@@ -1,3 +1,4 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -82,7 +83,7 @@
       </publicationStmt>
       <sourceDesc>
         <biblStruct xml:id="ampere_corr_L1833-04-00-a">
-                        <monogr xmlns="">
+                        <monogr>
                            <author>
                               <surname>De Launay</surname>
                               <forename>Louis</forename>
@@ -102,10 +103,10 @@
         <listWit>
           <witness xml:id="L794manuscrit">
             <msDesc type="brouillon_manuscrit">
-              <msIdentifier> <country xmlns="">Suisse</country>
-<settlement xmlns="">Genève</settlement>
-<institution xmlns="">Bibliothèque de Genève</institution> 
-<idno xmlns="">Ms 2314.</idno>
+              <msIdentifier> <country>Suisse</country>
+<settlement>Genève</settlement>
+<institution>Bibliothèque de Genève</institution> 
+<idno>Ms 2314.</idno>
               </msIdentifier>
             </msDesc>
           </witness>
@@ -140,7 +141,7 @@
         <correspAction type="received">
           <persName type="adressee">La Rive, Auguste de</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -160,25 +161,28 @@
   <text type="correspondance" decls="#ampere_corr_L1833-04-00-a">
     <body>
       <div xml:id="L1833-04-00-a-div1">
-        <opener>[avril 1833]</opener>
-        <p xml:id="L1833-04-00-a-p1">Monsieur et très cher confrère, Il y a bien longtemps que je
+        <opener><date when-iso="1833-04-00">[avril 1833]</date></opener>
+        <opener>Monsieur et très cher confrère,</opener>
+        <p xml:id="L1833-04-00-a-p1"> Il y a bien longtemps que je
                 n'ai eu le plaisir de vous écrire, ni celui de recevoir de communication de votre
                 part. Je sais que c'est ma faute, mais j'attendais toujours d'avoir quelque chose
                 d'important à vous communiquer, et voilà trois ans que je suis presque exclusivement
                 livré à un immense [travail] dont les différentes parties sont tellement liées,
-                qu'aucune d'elle n'est susceptible d'être présentée indépendamment des autres.
-                L'ouvrage <ref xmlns="" target="#ampere_ref_415.xml">*</ref> où j'en développe
+                qu'aucune d'elle n'est susceptible d'être présentée indépendamment des autres.</p>
+        <p xml:id="L1833-04-00-a-p2">
+                L'ouvrage <ref target="#ampere_ref_415.xml">*</ref> où j'en développe
                 l'ensemble est actuellement sous presse, et il y a déjà huit feuilles tirées,
                 c'est-à-dire un peu plus du quart. Mais ce long silence ne m'a pas empêché de songer
                 bien souvent, de me rappeler le temps où nous faisions ensemble des expériences, où
-                j'ai été si heureux à Genève et à Pressingue auprès de vous, mon cher confrère, et
+                j'ai été si heureux à <placeName>Genève</placeName> et à <placeName>Pressingue</placeName> auprès de vous, mon cher confrère, et
                 de Monsieur votre père. Je conserverai toute ma vie la plus vive reconnaissance des
                 bontés qu'il eût alors pour moi. Je n'en dois pas moins à [ce] que tous deux vous
-                voulûtes bien faire pour mon gendre lorsqu'il passa quelque temps à Genève. M.
-                Colladon y allant sous peu de jours, je n'ai pu différer plus longtemps à vous
-                écrire une lettre qu'il m'a promis de vous remettre. Vous savez, mon très cher
-                confrère, qu'en 1822 nous nous assurâmes de la manière la plus précise, comme vous
-                eûtes la bonté de le publier peu de temps après dans la Bibliothèque universelle
+                voulûtes bien faire pour mon gendre lorsqu'il passa quelque temps à <placeName>Genève</placeName>. M.
+                <persName>Colladon</persName> y allant sous peu de jours, je n'ai pu différer plus longtemps à vous
+                écrire une lettre qu'il m'a promis de vous remettre.</p>
+        <p xml:id="L1833-04-00-a-p3">Vous savez, mon très cher
+                confrère, qu'en <date when-iso="1822">1822</date> nous nous assurâmes de la manière la plus précise, comme vous
+                eûtes la bonté de le publier peu de temps après dans la <title>Bibliothèque universelle</title>
                 que, lorsqu'on établissait un courant électrique dans une spirale dont le fil
                 métallique revêtu de soie faisait un grand nombre de tours dans le plan où une lame
                 de laiton très mince était pliée en cercle et suspendue par un fil de torsion, ce
@@ -187,62 +191,69 @@
                 un fort aimant en fer à cheval, en sorte que cette lame acquérait une aimantation
                 passagère suivant l'expression dont vous vous servîtes pour exprimer les phénomènes
                 d'attraction ou de répulsion, suivant la position des pôles de l'aimant, qui
-                résultaient de la production par influence d'un courant électrique dans la lame.
+                résultaient de la production par influence d'un courant électrique dans la lame.</p>
+        <p xml:id="L1833-04-00-a-p4">
                 L'appareil avec lequel nous avons fait cette expérience que j'avais tentée
                 précédemment sans succès, faute d'avoir employé un aimant assez fort est décrit dans
-                mon Recueil d'observations électro-dynamiques <ref xmlns="" target="#ampere_ref_402.xml">*</ref>, page et gravé dans les
-                planches qui accompagnent cet ouvrage, planche , figure (2). Depuis, j'ai répété
+                mon <title>Recueil d'observations électro-dynamiques</title> <ref target="#ampere_ref_402.xml">*</ref>, page et gravé dans les
+                planches qui accompagnent cet ouvrage, planche , figure <ref target="#corresp2">(2)</ref>. Depuis, j'ai répété
                 cette expérience nombre de fois, je l'ai faite aux leçons que j'ai données au
-                Collège de France quand la marche de mon cours m'amenait à traiter des phénomènes
-                électro-dynamiques, et elle a toujours parfaitement réussi. Je désirerais infiniment
-                que vous me fissiez l'amitié de la répéter à Genève si vous ne l'avez pas fait ;
+                <orgName>Collège de France</orgName> quand la marche de mon cours m'amenait à traiter des phénomènes
+                électro-dynamiques, et elle a toujours parfaitement réussi.</p>
+        <p xml:id="L1833-04-00-a-p5">Je désirerais infiniment
+                que vous me fissiez l'amitié de la répéter à <placeName>Genève</placeName> si vous ne l'avez pas fait ;
                 car, quoique j'aie eu le premier l'idée de cette expérience, ce n'est que quand nous
                 l'avons faite ensemble qu'elle a réussi, et sous ce point de vue elle nous est
-                commune. Ne sachant pas l'anglais, je ne connais le mémoire de M. Faraday que par la
-                traduction qui en a paru dans le tome 50 des Annales de Chimie et de Physique ; mais
+                commune.</p>
+        <p xml:id="L1833-04-00-a-p6">Ne sachant pas l'anglais, je ne connais le mémoire de M. <persName>Faraday</persName> que par la
+                traduction qui en a paru dans le tome 50 des <title>Annales de Chimie et de Physique</title> ; mais
                 il y a dans cette traduction des points sur lesquels il me paraît impossible que
-                nous ne réclamions pas. J'ai incessamment une occasion d'écrire à M. Faraday par M.
-                Underwood, son ami intime, qui retourne à Londres dans trois semaines et qui s'est
-                chargé de lui porter ma réclamation (3). Je voudrais bien recevoir de vous votre
+                nous ne réclamions pas. J'ai incessamment une occasion d'écrire à M. <persName>Faraday</persName> par M.
+                <persName>Underwood</persName>, son ami intime, qui retourne à <placeName>Londres</placeName> dans trois semaines et qui s'est
+                chargé de lui porter ma réclamation <ref target="#corresp3">(3)</ref>. Je voudrais bien recevoir de vous votre
                 avis sur cela avant de lui écrire et j'espère de toute l'amitié dont vous m'avez
-                donné tant de preuves à ce sujet. Il est de fait que nous avons obtenu les premiers,
-                en 1822, le courant électrique par influence ou induction, comme dit M. Faraday, à
-                l'instant où nous avons établi le courant [Figure : voir fac-similé] dans une
+                donné tant de preuves à ce sujet.</p>
+        <p xml:id="L1833-04-00-a-p7">Il est de fait que nous avons obtenu les premiers,
+                en <date when-iso="1822-00-00">1822</date>, le courant électrique par influence ou induction, comme dit M. <persName>Faraday</persName>, à
+                l'instant où nous avons établi le courant <figure/> dans une
                 spirale qui entourait un cercle formé d'une lame mince ainsi pliée et suspendue par
                 un fil de soie GH à un crochet K ; que cet effet s'est manifesté par l'attraction ou
-                la répulsion d'un fort aimant en fer à cheval A que nous avait prêté M. Pictet,
+                la répulsion d'un fort aimant en fer à cheval A que nous avait prêté M. <persName>Pictet</persName>,
                 suivant le pôle qui se trouvait dans l'intérieur du cercle en B et celui qui était
                 placé hors du même cercle en D. Malheureusement, ni vous ni moi nous ne songeâmes à
                 analyser ce phénomène et à en reconnaître toutes les circonstances. Nous aurions vu,
-                ce qu'a découvert depuis M. Faraday, que ce courant ne dure qu'un instant et qu'il a
+                ce qu'a découvert depuis M. <persName>Faraday</persName>, que ce courant ne dure qu'un instant et qu'il a
                 lieu en sens contraire du courant établi dans la spirale qui le produit par
-                induction. C'est à M. Faraday qu'appartient la découverte de toutes les lois des
+                induction.</p>
+        <p xml:id="L1833-04-00-a-p8">C'est à M. <persName>Faraday</persName> qu'appartient la découverte de toutes les lois des
                 courants produits par influence, c'est lui qui a reconnu le premier qu'ils le sont
                 non seulement à l'instant où l'on produit ou détruit le courant de la spirale, mais
                 qu'ils le sont encore lorsqu'on se borne à l'approcher ou à l'éloigner, de manière
                 que, quand on le produit ou qu'on l'approche, c'est dans le sens contraire au sien
                 qu'a lieu le courant instantané, tandis que, quand on le détruit ou qu'on l'éloigne,
-                c'est en sens contraire. C'est en effet ce qui arrive dans notre expérience, ainsi
-                que je m'en suis assuré depuis la découverte de M. Faraday, une des plus importantes
+                c'est en sens contraire.</p>
+        <p xml:id="L1833-04-00-a-p9">C'est en effet ce qui arrive dans notre expérience, ainsi
+                que je m'en suis assuré depuis la découverte de M. <persName>Faraday</persName>, une des plus importantes
                 qui se soient faites dans ce siècle, en ce qu'elle vient couronner l'édifice qu'ont
                 élevé les autres. Mais, parce qu'il complète la théorie des phénomènes
-                électro-dynamiques, cela n'empêche pas que nous ayons obtenu ensemble à Genève le
-                courant par influence dans l'expérience en question. Les deux passages de M. Faraday
+                électro-dynamiques, cela n'empêche pas que nous ayons obtenu ensemble à <placeName>Genève</placeName> le
+                courant par influence dans l'expérience en question. Les deux passages de M. <persName>Faraday</persName>
                 dont je vous ai parlé tout à l'heure et que je vous prie de relire à l'occasion de
                 cette lettre, pour que ce que je vais dire ne vous présente pas d'obscurité, sont :
-                1° L'article 78 de son mémoire (p. 39 et 40 du tome 50 des Annales de Chimie et de
-                Physique). On y trouve que j'ai dit que, si l'on suspend à un fil de soie un disque
+                <list><item n="1">° L'article 78 de son mémoire (p. 39 et 40 du tome 50 des <title>Annales de Chimie et de
+                Physique</title>). On y trouve que j'ai dit que, si l'on suspend à un fil de soie un disque
                 de cuivre et qu'on l'entoure d'une spirale, en dirigeant à travers la spirale la
                 décharge d'une puissante pile voltaïque, en même temps qu'on présente un aimant
                 énergique au disque de cuivre, celui-ci tourne immédiatement pour prendre une
-                position d'équilibre, etc. J'ignore absolument comment M. Faraday a pu croire que je
+                position d'équilibre, etc. J'ignore absolument comment M. <persName>Faraday</persName> a pu croire que je
                 m'étais servi d'un disque, car j'ai relu, dans l'intention de le découvrir, la
-                publication que vous avez bien voulu faire en 1822 de notre expérience, et j'ai vu
+                publication que vous avez bien voulu faire en <date when-iso="1822-00-00">1822</date> de notre expérience, et j'ai vu
                 que vous dites expressément que nous avons employé, comme je l'ai toujours fait
-                depuis, une lame très mince pliée en cercle et que, dans la figure (4) planche de
-                mon Recueil d'observations électro-dynamiques où j'ai représenté l'appareil avec
+                depuis, une lame très mince pliée en cercle et que, dans la figure <ref target="#corresp4">(4)</ref> planche de
+                mon <title>Recueil d'observations électro-dynamiques</title> où j'ai représenté l'appareil avec
                 lequel je fais cette expérience, c'est une lame mince, pliée en cercle comme les
-                cercles d'un tonneau, qui est représentée suspendue dans la spirale. Si M. Faraday a
+                cercles d'un tonneau, qui est représentée suspendue dans la spirale.</item></list></p>
+        <p xml:id="L1833-04-00-a-p10">Si M. <persName>Faraday</persName> a
                 employé un disque, il n'est pas surprenant qu'il n'ait pas réussi ; mais si, comme
                 nous, il s'était servi d'une lame de cuivre pliée en cercle. Il aurait vu qu'il n'y
                 a pas besoin pour obtenir le phénomène en question, d'un appareil électro-magnétique
@@ -250,27 +261,31 @@
                 aurait vu que, quoique le courant par influence soit presque instantané, il dure un
                 temps qui, quoique très petit, suffit pour que cette lame très légère se mette en
                 mouvement ; car enfin il est incontestable qu'elle s'y met alternativement dans deux
-                sens opposés, lorsqu'on établit le courant dans la spirale ou qu'on le détruit. M.
-                Faraday m'attribue d'avoir avancé que le courant produit par influence était dans le
+                sens opposés, lorsqu'on établit le courant dans la spirale ou qu'on le détruit.</p>
+        <p xml:id="L1833-04-00-a-p11">M.
+                <persName>Faraday</persName> m'attribue d'avoir avancé que le courant produit par influence était dans le
                 même sens que celui qui le produisait. J'ai cherché inutilement, soit dans la
-                publication que vous avez faite en 1822 de notre expérience, soit dans ce que j'ai
+                publication que vous avez faite en <date when-iso="1822-00-00">1822</date> de notre expérience, soit dans ce que j'ai
                 écrit depuis sur la production d'un courant électrique par influence, s'il était dit
                 quelle était la direction de ce dernier relativement à celle du courant qui le
                 produit. Seulement j'ai pu dire, en parlant de l'aimantation d'un fil ou d'un
                 barreau d'acier dans une hélice parcourue par le courant électrique, et dans
-                l'hypothèse que les courants moléculaires... (5).</p>
+                l'hypothèse que les courants moléculaires... <ref target="#corresp5">(5)</ref>.</p>
       </div>
     </body>
     <back>
       <div xml:id="L1833-04-00-a-div2">
-        <note resp="#CGA" xml:id="corresp1">(1) Bibliothèque publique et universitaire de Genève. Cette
+        <note resp="#CGA" xml:id="corresp1">(1) Bibliothèque publique et universitaire de <placeName>Genève</placeName>. Cette
                 lettre n'est pas datée ; mais elle est évidemment de la même époque que la Lettre
-                0795 à Faraday qui développe plus longuement les mêmes idées. L'Essai sur la
-                philosophie des sciences est daté de 1834. La Lettre 0793 montre qu'il était presque
-                complètement imprimé en mars 1833 ; mais les 0801, 0805, 0807 font voir qu'il y eut
-                des retards. (2) Ampère a laissé ces indications en blanc. (3) Voir la Lettre 0795.
-                (4) Indications laissées en blanc par Ampère. (5) Cette lettre est inachevée. Voir,
-                dans la Lettre 0801, ce qui a dû lui arriver. </note>
+          <ref type="correspondance" target="#ampere_corr_L1833-04-13-a">L1833-04-13-a</ref> à <persName>Faraday</persName> qui développe plus longuement les mêmes idées. L'<title>Essai sur la
+            philosophie des sciences</title> est daté de <date when-iso="1834-00-00">1834</date>. La Lettre <ref type="correspondance" target="#ampere_corr_L1833-03-12-a">L1833-03-12-a</ref> montre qu'il était presque
+          complètement imprimé en <date when-iso="1833-03">mars 1833</date> ; mais les <ref type="correspondance" target="#ampere_corr_L1833-11-08-a">L1833-11-08-a</ref>, <ref type="correspondance" target="#ampere_corr_L1834-00-00-b">L1834-00-00-b</ref>, <ref type="correspondance" target="#ampere_corr_L1834-04-13-a">L1834-04-13-a</ref> font voir qu'il y eut
+                des retards.</note>
+        <note resp="#CGA" xml:id="corresp2">(2) <persName>Ampère</persName> a laissé ces indications en blanc.</note>
+        <note resp="#CGA" xml:id="corresp3">(3) Voir la Lettre <ref type="correspondance" target="#ampere_corr_L1833-04-13-a">L1833-04-13-a</ref>.</note>
+        <note resp="#CGA" xml:id="corresp4">(4) Indications laissées en blanc par <persName>Ampère</persName>.</note>
+        <note resp="#CGA" xml:id="corresp5">(5) Cette lettre est inachevée. Voir,
+          dans la Lettre <ref type="correspondance" target="#ampere_corr_L1833-11-08-a">L1833-11-08-a</ref>, ce qui a dû lui arriver. </note>
       </div>
     </back>
   </text>

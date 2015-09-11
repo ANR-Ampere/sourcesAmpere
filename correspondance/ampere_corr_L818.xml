@@ -1,4 +1,6 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE ENTITY_MathML SYSTEM "../../Documents/Sch%C3%A9mas/ENTITY_MathML.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +80,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1835-06-18-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +101,11 @@
                <witness xml:id="L818manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 379</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 379</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>Quatre pages in-4°, sans adresse.</p>
@@ -139,7 +141,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -160,27 +162,31 @@
    <text type="correspondance" decls="#ampere_corr_L1835-06-18-a">
       <body>
          <div xml:id="L1835-06-18-a-div1">
-            <opener>
+            <opener><pb n="439" facs="#ACAS_CRHST_AMP_25_379_0439_r.jpg"/><placeName>Bazas</placeName> Le
           <date when="1835-06-18">18 juin, jeudi soir [1835]</date>
         </opener>
-            <p xml:id="L1835-06-18-a-p1">Mon bien cher fils, je profite pour t'écrire de ce qu'au lieu de faire en un jour les
+            <p xml:id="L1835-06-18-a-p1"><add> M. <persName>Adrien de Gasparin</persName> est prié de regarder cette
+               lettre comme lui étant écrite par son reconnaissant ami.</add> Mon bien cher fils, je profite pour t'écrire de ce qu'au lieu de faire en un jour les
                18 demi-postes qu'il y a de <placeName>Bordeaux</placeName> à <placeName>Mont-de-Marsan</placeName>, M. <persName>Daburon</persName> a préféré, je
                crois, autant pour moi que pour lui, mettre deux jours à cette route : ce qui nous
                fait arrêter ici jusqu'à demain matin. C'est une petite ville à promenades très
                pittoresques du côté que nous prendrons demain pour entrer dans le département des
                Landes. Il y a une très belle église gothique, mais à ogives très surbaissées, dont
                l'extérieur au grand portail n'est presque qu'un demi-cercle. L'intérieur vaste, mais
-               tout d'une pièce, ne fait point la croix. Je continue à me porter à merveille et M.
+               tout d'une pièce, ne fait point la croix.</p>
+            <p xml:id="L1835-06-18-a-p2">Je continue à me porter à merveille et M.
                <persName>Daburon</persName> aussi. Le temps, d'abord chaud et ensuite froid et pluvieux, que nous avons
                eu à <placeName>Bordeaux</placeName>, m'avait un peu fait tousser ; mais cela n'a point tenu contre deux
                fumigations de cire : aujourd'hui, c'est un temps admirable et que tout annonce
-               devoir être durable. J'ai empêché qu'on ne fit, au <orgName>Collège royal de <placeName>Bordeaux</placeName>
+               devoir être durable.</p>
+            <p xml:id="L1835-06-18-a-p3">J'ai empêché qu'on ne fit, au <orgName>Collège royal de <placeName>Bordeaux</placeName>
           </orgName>, un
-               cabinet de physique dont les fenêtres auraient été au couchant. Le recteur, le
+               cabinet de<pb n="440" facs="#ACAS_CRHST_AMP_25_379_0440_v.jpg"/> physique dont les fenêtres auraient été au couchant. Le recteur, le
                proviseur et l'architecte ont arrêté qu'on le ferait dans un autre endroit ; il aura
                les fenêtres en plein midi, grand amphithéâtre, cabinet, laboratoire de chimie, et
                une quatrième pièce pour conserver les produits chimiques ; en un mot, aussi bien
-               situé et aussi complet qu'il l'aurait été peu là où l'on voulait le faire. J'ai
+               situé et aussi complet qu'il l'aurait été peu là où l'on voulait le faire.</p>
+            <p xml:id="L1835-06-18-a-p4">J'ai
                définitivement arrêté à <placeName>Bordeaux</placeName> le tableau complet des sciences, sauf quelques noms
                qu'on pourra changer en conservant le même sens. Tu peux communiquer ce tableau à qui
                tu voudras, par exemple à l'excellent directeur de l'<orgName>Athénée</orgName> : celui que je t'envoie
@@ -188,10 +194,11 @@
                mais, après avoir gardé celui-ci tant que tu voudras, si tu trouvais une occasion
                pour le faire passer à M. <persName>de Gasparin</persName>, qui pourrait le communiquer ultérieurement à
                <persName>Bredin</persName>, tu ferais une bien bonne action. J'en ai fait faire une copie à <placeName>Bordeaux</placeName>,
-               qu'on m'a remise au moment de partir. Je la garde pour moi, jusqu'à <placeName>Paris</placeName> où tu
+               qu'on m'a remise au moment de partir. Je la garde pour moi, jusqu'à <placeName>Paris</placeName> où tu<pb n="441" facs="#ACAS_CRHST_AMP_25_379_0441_r.jpg"/>
                l'auras à mon arrivée. Elle porte, comme je l'avais d'abord écrit : Astrocinésie, là
                où je viens de mettre astroporiologie ; j'ai presque regret de ce changement ; ce mot
-               est trop barbare. Je te consulte, et là-dessus, et sur tous les autres mots dont
+               est trop barbare.</p>
+            <p xml:id="L1835-06-18-a-p5">Je te consulte, et là-dessus, et sur tous les autres mots dont
                j'espère que tu changeras heureusement plusieurs. Je te prie bien de m'écrire une
                petite liste de tes observations et surtout de tous les noms dont l'étymologie ne se
                présenterait pas tout de suite à toi ; enfin de ceux que tu trouveras ridicules.
@@ -203,24 +210,26 @@
                mouvements réels ; que, dans les sensations, se trouve enveloppée la croyance à
                l'existence des corps et de notre âme, objet, de l'ontologie, sur lequel il y a tant
                à discuter ; dans les religions diverses, l'existence de <persName>Dieu</persName>, objet de la théodicée
-               (religion naturelle) ; dans les actions humaines, le sentiment de la liberté et le
+               (religion naturelle) ; dans les actions humaines,<pb n="442" facs="#ACAS_CRHST_AMP_25_379_0442_v.jpg"/> le sentiment de la liberté et le
                dictamen de la conscience, objet de la synésiologie, ou, comme j'ai mis, de la
                synésiodicée ; dans les traces qu'ont laissées les peuples qui ont habité les
                différentes parties de la terre, l'interprétation des monuments de tous genres, objet
                de la mnématique ; dans l'ordre social, le principe de l'autorité ou, comme dit
-               Rousseau, de l'inégalité parmi les hommes, objet de la cyriarchologie ; dans les lois
+               <persName>Rousseau</persName>, de l'inégalité parmi les hommes, objet de la cyriarchologie ; dans les lois
                établies chez ces divers peuples, celui de la justice apodictique (dicéologie) ; dans
                leurs différentes langues, les lois de la grammaire générale ; dans les ouvrages de
                leurs poètes, orateurs, etc., tels que nous les avons, leur véritable sens, leur
                authenticité, les diverses variantes, objet de l'herméneutique ; enfin, dans les
                chefs des beaux-arts, que décrit la calistographie, se trouve enveloppé ce sentiment
-               du beau (<foreign xml:lang="grc">Kαλλος, Kαλλεος</foreign> ou <foreign xml:lang="grc">Kαλλιος</foreign>) qui est l'objet de la calliesthésie : mot que tu
+               du beau (<foreign xml:lang="grc">&kappa;&alpha;&lambda;&lambda;&omicron;&sigmaFinal;, &kappa;&alpha;&lambda;&lambda;&epsilon;&omicron;&sigmaFinal;</foreign> ou <foreign xml:lang="grc">&kappa;&alpha;&lambda;&lambda;&iota;&omicron;&sigmaFinal;</foreign>) qui est l'objet de la calliesthésie : mot que tu
                trouveras peut-être à changer en calléonomie comme j'avais mis d'abord. J'entends par
-               hiérologie, l'histoire et les preuves de la révélation, les controverses, etc. Joins
+               hiérologie, l'histoire et les preuves de la révélation, les controverses, etc.</p>
+            <p xml:id="L1835-06-18-a-p6">Joins
                précieusement cette lettre au tableau qu'elle ne doit point quitter ! Je t'aime et
-               t'embrasse mille fois de toute mon âme. <persName>A. Ampère</persName> écris-moi à <placeName>Toulouse</placeName>, à quelle
-               époque je pourrai t'écrire à <placeName>Paris</placeName>. M. <persName>Adrien de Gasparin</persName> est prié de regarder cette
-               lettre comme lui étant écrite par son reconnaissant ami. <persName>A. Ampère</persName>
+               t'embrasse mille fois de toute mon âme.<lb/>
+               <persName>A. Ampère</persName></p>
+            <p xml:id="L1835-06-18-a-p7">Écris-moi à <placeName>Toulouse</placeName>, à quelle
+               époque je pourrai t'écrire à <placeName>Paris</placeName>.
         </p>
          </div>
       </body>

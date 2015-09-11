@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1836-04-18-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,7 +100,7 @@
                <witness xml:id="L827manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <repository xmlns="">Collection Noël Bodin [note de Louis DE
+                        <repository>Collection Noël Bodin [note de Louis DE
                            LAUNAY]</repository>
                      </msIdentifier>
                      <physDesc>
@@ -137,7 +138,7 @@
         <correspAction type="received">
           <persName type="adressee">Carron, Antoinette (mère de Julie)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -162,20 +163,24 @@
           <date when="1836-04-18">Lundi 18 avril [1836]</date>
         </opener>
             <p xml:id="L1836-04-18-a-p1">Ma chère sœur, voici deux billets d'amphithéâtre pour la séance de réception de M.
-               <persName>Salvandy</persName> <ref>(2)</ref> qui aura lieu jeudi prochain. Je serais heureux qu'ils pussent vous être
+               <persName>Salvandy</persName> <ref target="#corresp2">(2)</ref> qui aura lieu jeudi prochain. Je serais heureux qu'ils pussent vous être
                agréable et à notre chère <persName>éliza</persName>. N'oubliez pas que vous m'avez promis de m'avertir
                avant votre malheureux départ afin que je puisse du moins vous faire mes adieux et
-               vous charger de montagnes d'amitiés pour mon frère. Mille tendres amitiés à <persName>éliza</persName>.
+               vous charger de montagnes d'amitiés pour mon frère.</p>
+            <p xml:id="L1836-04-18-a-p2">Mille tendres amitiés à <persName>éliza</persName>.
                Offrez aussi mes vœux à M. <persName>Rivail</persName> ; puisse-t-il voir bientôt prospérer son
-               entreprise ! Ici on vous embrasse bien tendrement ainsi qu'<persName>éliza</persName>. Votre dévoué frère.
-               <persName>A. Ampère</persName> Il faut être avant une heure au Palais de l'<orgName>Institut</orgName> pour avoir de bonnes
+               entreprise ! Ici on vous embrasse bien tendrement ainsi qu'<persName>éliza</persName>. Votre dévoué frère.<lb/>
+               
+               <persName>A. Ampère</persName></p>
+            <p xml:id="L1836-04-18-a-p3">Il faut être avant une heure au Palais de l'<orgName>Institut</orgName> pour avoir de bonnes
                places.</p>
          </div>
       </body>
       <back>
          <div xml:id="L1836-04-18-a-div2">
             <note resp="#CGA" xml:id="corresp1">(1) Coll. <persName>Bodin</persName>. Une page 16 x 20, adresse sur la
-               quatrième. <date when-iso="1836">1836</date>, d'après le timbre de la poste. (2) D'après Larousse,<persName> Salvandy</persName> aurait
+               quatrième. <date when-iso="1836">1836</date>, d'après le timbre de la poste.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) D'après Larousse,<persName> Salvandy</persName> aurait
                été de l'<orgName>Académie</orgName> en <date when-iso="1835">1835</date>, mais la date exacte est bien <date when="1836-04-23">23 avril 1836</date>. </note>
          </div>
       </back>

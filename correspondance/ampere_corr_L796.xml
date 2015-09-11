@@ -1,3 +1,4 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -82,7 +83,7 @@
       </publicationStmt>
       <sourceDesc>
         <biblStruct xml:id="ampere_corr_L1833-05-05-a">
-                        <monogr xmlns="">
+                        <monogr>
                            <author>
                               <surname>De Launay</surname>
                               <forename>Louis</forename>
@@ -130,7 +131,7 @@
         <correspAction type="received">
           <persName type="adressee">Ozanam, Frédéric</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -150,19 +151,21 @@
   <text type="correspondance" decls="#ampere_corr_L1833-05-05-a">
     <body>
       <div xml:id="L1833-05-05-a-div1">
-        <opener>5 mai [1833]</opener>
-        <p xml:id="L1833-05-05-a-p1">Mon cher et excellent ami, Vous savez bien que je n'ai plus que
-                huit jours à être à Paris et que la traduction des vers explicatifs de mon tableau
+        <opener><date when="1833-05-05">5 mai [1833]</date></opener>
+        <opener>Mon cher et excellent ami,</opener>
+        <p xml:id="L1833-05-05-a-p1"> Vous savez bien que je n'ai plus que
+                huit jours à être à <placeName>Paris</placeName> et que la traduction des vers explicatifs de mon tableau
                 exige plus d'une séance. Par toute l'amitié que vous avez pour moi, il n'y a donc
                 pas un moment à perdre si vous ne voulez pas me priver d'une chose à laquelle
-                j'attache un bien grand intérêt. J'en serai reconnaissant au delà de toute
+                j'attache un bien grand intérêt.</p>
+        <p xml:id="L1833-05-05-a-p2">J'en serai reconnaissant au delà de toute
                 expression et vous en fais d'avance un million de remerciements. Mille fois tout à
-                vous, cher et excellent ami. A. Ampère</p>
+                vous, cher et excellent ami.<lb/> <persName>A. Ampère</persName></p>
       </div>
     </body>
     <back>
       <div xml:id="L1833-05-05-a-div2">
-        <note resp="#CGA" xml:id="corresp1">(1) D'après la Correspondance d'Ozanam, I, p.
+        <note resp="#CGA" xml:id="corresp1">(1) D'après la Correspondance d'<persName>Ozanam</persName>, I, p.
                 41.</note>
       </div>
     </back>

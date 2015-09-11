@@ -1,3 +1,4 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -82,7 +83,7 @@
       </publicationStmt>
       <sourceDesc>
         <biblStruct xml:id="ampere_corr_L1833-03-12-a">
-                        <monogr xmlns="">
+                        <monogr>
                            <author>
                               <surname>De Launay</surname>
                               <forename>Louis</forename>
@@ -103,11 +104,11 @@
           <witness xml:id="L793manuscrit">
             <msDesc type="original_manuscrit">
               <msIdentifier>
-                <country xmlns="">France</country>
-                  <settlement xmlns="">Paris</settlement>
-                  <institution xmlns="">Archives de l'Académie des sciences</institution>
-                  <repository xmlns="">Fonds André-Marie Ampère</repository>
-                <idno xmlns="">chemise 369</idno>
+                <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                <idno>chemise 369</idno>
               </msIdentifier>
             </msDesc>
           </witness>
@@ -159,23 +160,27 @@
   <text type="correspondance" decls="#ampere_corr_L1833-03-12-a">
     <body>
       <div xml:id="L1833-03-12-a-div1">
-        <opener>12 mars 1833</opener>
+        <opener><pb n="21" facs="#ACAS_CRHST_AMP_25_369_0021_r.jpg"/><date when="1833-03-12">12 mars 1833</date></opener>
+        
         <p xml:id="L1833-03-12-a-p1">Monsieur et cher confrère, je ne sais pas si c'est vous ou
                 Monsieur votre père à qui j'ai remis dans le temps les cinq premières [feuilles] de
-                mon ouvrage <ref xmlns="" target="#ampere_ref_415.xml">*</ref> sur la classification des
-                sciences [essai de mathésiologie]. J'ai reçu depuis, de Clermont-Ferrand où il
+                mon ouvrage <ref target="#ampere_ref_415.xml">*</ref> sur la classification des
+                sciences [essai de mathésiologie]. J'ai reçu depuis, de <persName>Clermont-Ferrand</persName> où il
                 s'imprime, les feuilles suivantes. J'en dois recevoir encore d'autres très
                 incessamment et j'aurai ainsi toute la première partie. Dans la crainte que des
                 feuilles ne s'égarent, ce qui serait irréparable et rendrait votre exemplaire
-                incomplet, je voudrais que vous remissiez ces cinq feuilles au portier du Collège de
-                France que j'ai chargé de me les apporter. Alors je les ferais brocher, en même
+                incomplet, je voudrais que vous remissiez ces cinq feuilles au portier du <orgName>Collège de
+                France</orgName> que j'ai chargé de me les apporter. Alors je les ferais brocher, en même
                 temps que d'autres avec le reste de la première partie ou premier tome de mon
                 ouvrage. Je vous renverrais, dès que cela serait fait, ce premier tome ; vous ou
-                Monsieur votre père, auriez ainsi un volume complet en attendant le suivant qui ne
-                pourra probablement être terminé qu'après ma tournée de cette année. Mille choses,
+                Monsieur votre père, auriez ainsi un volume complet en attendant le suivant<pb n="22" facs="#ACAS_CRHST_AMP_25_369_0022_v.jpg"/> qui ne
+                pourra probablement être terminé qu'après ma tournée de cette année.</p>
+        <p xml:id="L1833-03-12-a-p2">Mille choses,
                 je vous prie, à Monsieur votre père, et recevez, Monsieur et très cher collègue
                 [l'assurance] de ma haute considération et de l'amitié à toute épreuve de votre tout
-                dévoué serviteur et confrère. A. Ampère</p>
+                dévoué serviteur et confrère.<lb/>
+          <persName>A. Ampère</persName></p>
+        <closer><pb n="21" facs="#ACAS_CRHST_AMP_25_369_0021_r.jpg"/>à M. <persName>Burnouf fils</persName>, membre de l'<orgName>Institut</orgName></closer>
       </div>
     </body>
   </text>

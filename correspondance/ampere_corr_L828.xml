@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1836-05-01-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -100,7 +101,7 @@
                <witness xml:id="L828manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <repository xmlns="">Collection Noël Bodin [note de Louis DE
+                        <repository>Collection Noël Bodin [note de Louis DE
                            LAUNAY]</repository>
                      </msIdentifier>
                      <physDesc>
@@ -139,7 +140,7 @@
           <persName type="adressee">Carron, Eliza (fille de François Carron, épouse
                         Rivail)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -160,15 +161,17 @@
    <text type="correspondance" decls="#ampere_corr_L1836-05-01-a">
       <body>
          <div xml:id="L1836-05-01-a-div1">
-            <opener>
+            <opener><placeName>Paris</placeName> 
           <date when="1836-05-01">Dimanche 1er mai 1836</date>
         </opener>
-            <p xml:id="L1836-05-01-a-p1">Ma chère <persName>éliza</persName>, Voici deux billets du meilleur amphithéâtre, l'amphithéâtre du Nord,
+            <opener>Ma chère <persName>éliza</persName>,</opener>
+            <p xml:id="L1836-05-01-a-p1"> Voici deux billets du meilleur amphithéâtre, l'amphithéâtre du Nord,
                pour une séance publique de l'<orgName>Institut</orgName>, où seront réunies les cinq Académies dont il
                se compose. Chacune des cinq parlera à son tour ; c'est une chose unique, chaque
                année et qui t'intéressera sûrement. Elle a lieu <date when="1836-05-03">après demain mardi</date>. Je t'en voudrais
                beaucoup si tu n'en profitais pas. Je t'embrasse mille fois de toute mon âme. Ton
-               oncle.<persName> A. Ampère</persName>
+               oncle.<lb/>
+               <persName> A. Ampère</persName>
         </p>
             <closer>Madame <persName>Éliza Rivail</persName>, née Carron, <placeName>boulevard Saint-Martin, n° 4</placeName>, à <placeName>Paris</placeName>.</closer>
          </div>

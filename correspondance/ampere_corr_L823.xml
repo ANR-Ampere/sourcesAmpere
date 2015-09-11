@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -79,7 +80,7 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct xml:id="ampere_corr_L1835-09-19-a">
-                    <monogr xmlns="">
+                    <monogr>
                         <author>
                             <surname>De Launay</surname>
                             <forename>Louis</forename>
@@ -100,14 +101,14 @@
                     <witness xml:id="L823manuscrit">
             <msDesc type="original_manuscrit">
                             <msIdentifier>
-                                <repository xmlns="">Collection de Mme Laporte. [note de Louis DE
+                                <repository>Collection de Mme Laporte. [note de Louis DE
                                     LAUNAY]</repository>
                             </msIdentifier>
                         </msDesc>
           </witness>
                     <witness xml:id="L823edition">
             <biblStruct>
-                            <monogr xmlns="">
+                            <monogr>
                                 <author>
                                     <surname>Ozanam</surname>
                                     <forename>Frédéric</forename>
@@ -153,7 +154,7 @@
         <correspAction type="received">
           <persName type="adressee">Ozanam, Frédéric</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -174,10 +175,11 @@
     <text type="correspondance" decls="#ampere_corr_L1835-09-19-a">
         <body>
             <div xml:id="L1835-09-19-a-div1">
-                <opener>
+                <opener><placeName>Nanteuil par La Ferté-sous-Jouarre</placeName> 
           <date when="1835-09-19">19 septembre 1835</date>
         </opener>
-                <p xml:id="L1835-09-19-a-p1">Mon cher et excellent ami, Par un quiproquo presque inexplicable, les lettres qui
+                <opener>Mon cher et excellent ami,</opener>
+                <p xml:id="L1835-09-19-a-p1"> Par un quiproquo presque inexplicable, les lettres qui
                     m'avaient été adressées à <placeName>Guéret</placeName> ne m'ont pas été remises à mon passage par
                     cette ville, qu'on ne sait comment [sic] elles m'ont été renvoyées à <placeName>Paris</placeName>
                     lorsque j'y étais déjà de retour depuis trois semaines. Ce n'est qu'alors que
@@ -193,10 +195,11 @@
                     d'aucune sorte de changement. Mais où trouverai-je des expressions qui puissent
                     rendre toute ma reconnaissance de cet article auquel j'attache un prix
                     inestimable et qui m'offre en outre l'occasion de publier mon tableau comme il
-                    doit rester ? Je vous prie d'agréer l'expression de cette reconnaissance qui
+                    doit rester ?</p>
+                <p>Je vous prie d'agréer l'expression de cette reconnaissance qui
                     durera autant que ma vie et d'offrir à Monsieur votre père et à <persName>Mme Ozanam</persName>, mes
-                    plus respectueux hommages. Mille fois tout à vous, cher et excellent ami. A.
-                    <persName>Ampère</persName>
+                    plus respectueux hommages. Mille fois tout à vous, cher et excellent ami.<lb/>
+                    A. <persName>Ampère</persName>
         </p>
                 <closer>chez M. le <persName>Dr Ozanam</persName>, <placeName>rue Pizay</placeName>, à <placeName>Lyon</placeName>, département du <placeName>Rhône</placeName> </closer>
             </div>
@@ -205,10 +208,7 @@
             <div xml:id="L1835-09-19-a-div2">
                 <note resp="#CGA" xml:id="corresp1">(1) Collection de <persName>Mme Laporte</persName> ; cette lettre a été publiée
                     en partie dans les lettres d'<persName>Ozanam</persName>, t. I, p. 153.</note>
-                <note resp="CAK_commentaire">Publication partielle. Signalée par <persName>Louis DE LAUNAY</persName>
-                    dans <title xmlns="">Correspondance du Grand <persName>Ampère</persName>
-          </title> (<placeName>Paris</placeName>,
-                    <date when-iso="1936">1936</date>).</note>
+               
             </div>
         </back>
     </text>

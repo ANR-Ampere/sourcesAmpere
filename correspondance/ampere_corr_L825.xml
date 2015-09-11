@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1835-12-23-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,7 +100,7 @@
                <witness xml:id="L825manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <repository xmlns="">Collection Alfred Cornu [note de Louis DE
+                        <repository>Collection Alfred Cornu [note de Louis DE
                            LAUNAY]</repository>
                      </msIdentifier>
                      <physDesc>
@@ -137,7 +138,7 @@
         <correspAction type="received">
           <persName type="adressee">Arago, François</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,14 +162,15 @@
             <opener>
           <date when="1835-12-23">23 décembre 1835</date>
         </opener>
-            <p xml:id="L1835-12-23-a-p1">...dans les <title>Annales de chimie et de physique</title>, avait déjà paru précisément la même et
+            <p xml:id="L1835-12-23-a-p1"> <gap reason="lacune_CGA"/> dans les <title>Annales de chimie et de physique</title>, avait déjà paru précisément la même et
                presque avec les mêmes notes, dans la <title>Bibliothèque universelle de <placeName>Genève</placeName>
           </title>, numéro du
                mois de <date when-iso="1832-03">mars 1832</date>, c'est-à-dire il y a près de quatre ans. Ma théorie n'a donc
                absolument aucun rapport avec ce qu'en dit M. <persName>Roulin</persName> qui, évidemment, n'en avait
                aucune idée, il n'y est pas question de vibrations de longueurs différentes, mais de
                deux sortes de (vibrations) hétérogènes entre elles et dues, les unes aux forces
-               moléculaires, les autres aux forces atomiques, ayant chacune ses effets à part. Je
+               moléculaires, les autres aux forces atomiques, ayant chacune ses effets à part.</p>
+            <p xml:id="L1835-12-23-a-p2">Je
                dois à M. <persName>Savary</persName> cette précieuse observation que la distinction dont je ne m'étais
                servi que pour expliquer la différence totale des équations de la propagation du son
                et de la lumière d'une part, et de la chaleur d'autre part, les premières s'intégrant
@@ -183,12 +185,15 @@
                fait différent et même opposé à la distinction que j'ai faite entre deux sortes de
                vibrations entièrement différentes l'une de l'autre. J'ai trouvé depuis comment les
                propriétés chimiques sont également indépendantes des propriétés soit lumineuses,
-               soit calorifiques. Je le montrerai dans la même note. Recevez, mon très cher et
+               soit calorifiques. Je le montrerai dans la même note.</p>
+            <p xml:id="L1835-12-23-a-p3">Recevez, mon très cher et
                excellent confrère, l'expression de la plus tendre amitié, de la profonde
                reconnaissance de ce que vous avez fait pour moi et mon ancienne admiration pour tant
                de travaux qui ont si étendu le domaine de nos connaissances en physique, en
                astronomie et en géologie, car je comprends sous ce nom toutes les découvertes
-               relatives à l'économie du globe terrestre. <persName>A. Ampère</persName> <placeName>Paris</placeName>, <date when="1835-12-23">23 décembre 1835</date>
+               relatives à l'économie du globe terrestre.<lb/>
+               <persName>A. Ampère</persName></p>
+            <p xml:id="L1835-12-23-a-p4"><placeName>Paris</placeName>, <date when="1835-12-23">23 décembre 1835</date>
         </p>
             <closer>Monsieur <persName>Arago</persName>, membre de l'<orgName>Institut</orgName>, de la <orgName>Société Royale de <placeName>Londres</placeName>
           </orgName>, du <orgName>Bureau
@@ -197,7 +202,7 @@
       </body>
       <back>
          <div xml:id="L1835-12-23-a-div2">
-            <note resp="#CGA" xml:id="corresp1">(1) Coll. A. Cornu. Deux pages 19 x 24,5, adresse sur la
+            <note resp="#CGA" xml:id="corresp1">(1) Coll. <persName>A. Cornu</persName>. Deux pages 19 x 24,5, adresse sur la
                deuxième.</note>
          </div>
       </back>

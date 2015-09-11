@@ -1,3 +1,4 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -82,7 +83,7 @@
       </publicationStmt>
       <sourceDesc>
         <biblStruct xml:id="ampere_corr_L1833-12-00-a">
-                        <monogr xmlns="">
+                        <monogr>
                            <author>
                               <surname>De Launay</surname>
                               <forename>Louis</forename>
@@ -103,7 +104,7 @@
           <witness xml:id="L803manuscrit">
             <msDesc type="original_manuscrit">
               <msIdentifier>
-                <repository xmlns="">Collection Noël Bodin [note de Louis DE LAUNAY]</repository>
+                <repository>Collection Noël Bodin [note de Louis DE LAUNAY]</repository>
               </msIdentifier>
               <physDesc>
                 <p>Deux pages 20 x 25, adresse sur la deuxième. [note de Louis DE LAUNAY]</p>
@@ -141,7 +142,7 @@
         <correspAction type="received">
           <persName type="adressee">Rivail, Henri (neveu d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,38 +162,41 @@
   <text type="correspondance" decls="#ampere_corr_L1833-12-00-a">
     <body>
       <div xml:id="L1833-12-00-a-div1">
-        <opener>[Décembre 1833]</opener>
+        <opener><date when-iso="1833-12-00">[Décembre 1833]</date></opener>
         <p xml:id="L1833-12-00-a-p1">Mon cher neveu. Voici un service important pour moi que vous
-                seriez bien aimable de me rendre. Je dois commencer mon cours au Collège de France
-                mardi prochain 6 décembre, à une heure précise. Par suite d'une erreur
+                seriez bien aimable de me rendre. Je dois commencer mon cours au <orgName>Collège de France</orgName>
+                mardi prochain <date when="1833-12-06">6 décembre</date>, à une heure précise. Par suite d'une erreur
                 typographique, on a mis une heure et demie. Il s'agit d'avertir les personnes qui
                 voudraient le suivre et ne pas manquer la première leçon de cette erreur ; il s'agit
                 surtout d'avertir que ce cours existe et j'ai déjà vu plusieurs cours annoncés dans
                 d'autres journaux. L'un lit un journal, l'autre un autre. Je ne demande qu'à payer
                 ce qu'il faut pour l'insertion de ce qui suit dans tous les journaux où il me sera
                 possible de le faire insérer ; mais ce n'est pas dans des listes d'annonces que
-                presque personne ne lit, mais parmi les nouvelles de Paris que je voudrais que cela
-                fût mis : M. Ampère commencera mardi 6 décembre à une heure précise son cours de
-                physique au Collège de France ; il traitera cette année de l'électricité statique et
+                presque personne ne lit, mais parmi les nouvelles de <placeName>Paris</placeName> que je voudrais que cela
+                fût mis : M. <persName>Ampère</persName> commencera <date when="1833-12-06">mardi 6 décembre</date> à une heure précise son cours de
+                physique au <orgName>Collège de France</orgName> ; il traitera cette année de l'électricité statique et
                 dynamique, du magnétisme, de la chaleur et de la lumière. Il le continuera les
                 mardis, jeudis et samedis à la même heure. C'est par une erreur typographique qu'une
-                autre heure est indiquée sur l'affiche du Collège de France. J'ai compté sur votre
+                autre heure est indiquée sur l'affiche du <orgName>Collège de France</orgName>.</p>
+        <p xml:id="L1833-12-00-a-p2">J'ai compté sur votre
                 amitié pour moi pour que cette note pût se trouver demain ou après-demain (passé
                 lundi, cela ne servirait plus de rien) dans les journaux où il vous sera possible de
-                la faire insérer. J'embrasse bien tendrement Eliza et son aimable mari. A. Ampère Je
+                la faire insérer. J'embrasse bien tendrement <persName>Eliza</persName> et son aimable mari.<lb/>
+          <persName>A. Ampère</persName></p>
+        <p xml:id="L1833-12-00-a-p3">Je
                 récris la note sur l'autre feuille pour qu'il vous soit plus facile de la donner au
                 compositeur en la séparant d'un coup de ciseau et en trois en cas de besoin. Vous
                 serez bien aimable de m'envoyer pour que je l'acquitte, la note des frais
                 d'insertion. Si cette annonce ne pouvait absolument être insérée parce qu'elle
                 serait trop longue, on pourrait à la rigueur ôter que je continuerai les mardis,
                 jeudis et samedis à la même heure.</p>
-        <closer>Monsieur Rivail, imprimeur, rue Jocquelet, n° 9, près la
-                place de la Bourse, à Paris.</closer>
+        <closer>Monsieur <persName>Rivail</persName>, imprimeur, rue Jocquelet, n° 9, près la
+                place de la Bourse, à <placeName>Paris</placeName>.</closer>
       </div>
     </body>
     <back>
       <div xml:id="L1833-12-00-a-div2">
-        <note resp="#CGA" xml:id="corresp1">(1) Coll. Bodin. Deux pages 20 x 25, adresse sur la
+        <note resp="#CGA" xml:id="corresp1">(1) Coll. <persName>Bodin</persName>. Deux pages 20 x 25, adresse sur la
                 deuxième.</note>
       </div>
     </back>

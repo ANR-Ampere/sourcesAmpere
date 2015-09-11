@@ -1,3 +1,4 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -82,7 +83,7 @@
       </publicationStmt>
       <sourceDesc>
         <biblStruct xml:id="ampere_corr_L1833-11-00-a">
-                        <monogr xmlns="">
+                        <monogr>
                            <author>
                               <surname>De Launay</surname>
                               <forename>Louis</forename>
@@ -103,7 +104,7 @@
           <witness xml:id="L800manuscrit">
             <msDesc type="original_manuscrit">
               <msIdentifier>
-                <repository xmlns="">Collection Noël Bodin [note de Louis DE LAUNAY]</repository>
+                <repository>Collection Noël Bodin [note de Louis DE LAUNAY]</repository>
               </msIdentifier>
               <physDesc>
                 <p>Une page 15 x 21,5, sans adresse. [note de Louis DE LAUNAY]</p>
@@ -141,7 +142,7 @@
         <correspAction type="received">
           <persName type="adressee">Rivail, Henri (neveu d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,16 +162,16 @@
   <text type="correspondance" decls="#ampere_corr_L1833-11-00-a">
     <body>
       <div xml:id="L1833-11-00-a-div1">
-        <opener>[Novembre 1833]</opener>
-        <p xml:id="L1833-11-00-a-p1">Mon bon et cher neveu, M. Masson m'a écrit ; il veut le paiement
+        <opener><date when-iso="1833-11">[Novembre 1833]</date></opener>
+        <p xml:id="L1833-11-00-a-p1">Mon bon et cher neveu, M. <persName>Masson</persName> m'a écrit ; il veut le paiement
                 intégral dans deux ou trois jours. Je crois qu'autant vaut en finir et je lui
-                porterai le montant après-demain. Si tu viens demain au cours d'Ampère, nous
-                pourrons en causer. Tout à toi. A. Ampère</p>
+                porterai le montant après-demain. Si tu viens demain au cours d'<persName>Ampère</persName>, nous
+                pourrons en causer. Tout à toi.<lb/> <persName>A. Ampère</persName></p>
       </div>
     </body>
     <back>
       <div xml:id="L1833-11-00-a-div2">
-        <note resp="#CGA" xml:id="corresp1">(1) Coll. Bodin. Une page 15 x 21,5, sans adresse.</note>
+        <note resp="#CGA" xml:id="corresp1">(1) Coll. <persName>Bodin</persName>. Une page 15 x 21,5, sans adresse.</note>
       </div>
     </back>
   </text>

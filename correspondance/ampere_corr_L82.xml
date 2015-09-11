@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -144,7 +145,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -260,7 +261,7 @@
                professeurs. Ce M. <persName ref="#pers_M387">Mermet</persName>,<lb/>
                qui me paraissait d'une<lb/>
                assez douce société, est<cb/>
-               peut-être le pire de tous <ref>(2)</ref>.<lb/>
+               peut-être le pire de tous <ref target="#corresp2">(2)</ref>.<lb/>
                Quoique curé, il s'était<lb/>
                servi de son ascendant<lb/>
                sur les esprits faibles,<lb/>
@@ -294,7 +295,8 @@
                les déchire et<lb/>
                semble un violon faux
                qui jure sous<lb/>
-               l'archet.<lb/>
+               l'archet.</p>
+            <p xml:id="L1802-03-01-a-p3">
                La mère de cette dame<lb/>
                est si singulière, si comique,<lb/>
                si originale que ce n'est<lb/>
@@ -352,7 +354,7 @@
                Mais <del>j'ai des choses plus<lb/>
                intéressantes à te demander.<lb/>
                   Il faut que tu fasses</del>
-          <pb n="1260" facs="#ACAS_CRHST_AMP_26_393_quarto_0532_r.jpg"/> porter la cornue de<lb/>
+          <pb n="1260" facs="#ACAS_CRHST_AMP_26_393_quarto_0532_r.jpg" type="deplacement"/> porter la cornue de<lb/>
                fer et le grand ballon<lb/>
                de verre chez M.<lb/>
                <persName ref="#pers_G260">Gambier</persName>, en le priant<lb/>
@@ -382,7 +384,8 @@
                plus courte, avec<lb/>
                un entonnoir à l'autre<lb/>
                extrémité, pour la<lb/>
-               compression de l'air.<lb/>
+               compression de l'air.</p>
+            <p xml:id="L1802-03-01-a-p4">
                Je voulais aussi te<lb/>
                demander, ma bonne<lb/>
                amie, si tu pourrais<lb/>
@@ -409,7 +412,9 @@
                la prie en grâce de<lb/>
                faire m'intéressent<lb/>
                plus que tout le res<supplied>te.</supplied>
-          <lb/>
+            </p>
+            <p xml:id="L1802-03-01-a-p5">
+           
                Deux baisers à toi et<lb/>
                un au petit par<lb/>
                minute ! Que je serais<lb/>
@@ -437,7 +442,8 @@
       <back>
          <div xml:id="L1802-03-01-a-div2">
             <note resp="#CGA" xml:id="corresp1">(1) Douze pages petit in-8, la dernière avec l'adresse et une
-               tache de brûlure. Quelques lignes ont été publiées par Mme <persName>Cheuvreux</persName>, p. 186. (2) En
+               tache de brûlure. Quelques lignes ont été publiées par Mme <persName>Cheuvreux</persName>, p. 186.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) En
                regard de l'appréciation d'<persName ref="#pers_A366">Ampère</persName>, voici, sur ce personnage, une note officielle :
                <persName ref="#pers_M387">MERMET (Louis-François-Emmanuel)</persName>, né à <placeName>Nésertin</placeName> (<placeName>Jura</placeName>), en <date when-iso="1763">1763</date>, mort à <placeName>Saint-Claude</placeName>
                en <date when-iso="1825">1825</date>. Après avoir été quelque temps professeur au <orgName>collège de <placeName>Saint-Claude</placeName>
@@ -457,8 +463,7 @@
                d'<persName ref="#pers_A366">Ampère</persName>, un manuscrit inédit de l'astronome <persName ref="#pers_L339">Jérôme de Lalande</persName> : Tablettes
                chronologiques pour servir à l'histoire de <placeName>Bourg</placeName> et de <placeName>la Bresse</placeName>, 2761-1806 (Bibi. de
                la ville de <placeName>Lyon</placeName>, manusc. fonds Costa, n° 2061). </note>
-            <note resp="CAK_commentaire">Les pages du manuscrit sont dispersées dans la
-               chemise.</note>
+           
          </div>
       </back>
    </text>

@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1834-05-27-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +100,11 @@
                <witness xml:id="L809manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 379</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 379</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>Quatre pages in-4°, adresse au bas de la quatrième.</p>
@@ -140,7 +141,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -161,7 +162,7 @@
    <text type="correspondance" decls="#ampere_corr_L1834-05-27-a">
       <body>
          <div xml:id="L1834-05-27-a-div1">
-            <opener>Lundi [27 mai 1834]</opener>
+            <opener><pb n="421" facs="#ACAS_CRHST_AMP_25_379_0421_r.jpg"/><placeName>Clermont</placeName> <date when="1834-05-27">Lundi [27 mai 1834]</date></opener>
             <p xml:id="L1834-05-27-a-p1">Mon cher fils, en recevant, en arrivant ici, ta lettre qui m'y attendait chez M.
                <persName>Gonod</persName>, j'ai senti plus encore le tort que j'avais eu de ne pas donner de mes
                nouvelles pendant mon séjour à <placeName>Nevers</placeName>. La mathésiologie en a profité. Heureusement
@@ -172,18 +173,20 @@
                Députés</orgName> aient été faites ; c'est, je crois, pour le <date when="1834-06-21">21 juin</date>. Ainsi j'ai à peu près un
                mois à rester ici, ne pensant qu'à mon livre, et à guérir mon rhume, car je toussais
                beaucoup à <placeName>Moulins</placeName> ; mais ici M. et Mme <persName>Gonod</persName> ont tant de soin pour moi, au lait
-               chaud sucré tous les matins, etc., que j'en serai bientôt quitte. N'est-ce pas une
+               chaud sucré tous les matins, etc., que j'en serai bientôt quitte.</p>
+            <p xml:id="L1834-05-27-a-p2">N'est-ce pas une
                chose miraculeuse que ce séjour d'un mois à <placeName>Clermont</placeName>, nécessité par le voyage de M.
                Malter à <placeName>Strasbourg</placeName>, à l'instant où il s'agit d'achever mon premier volume <ref type="ouvrages_mentionnes" target="#ampere_ref_P415.xml">*</ref>? Deux autres circonstances, presque aussi
                merveilleuses, m'ont procuré d'inappréciables améliorations. D'abord, j'avais
                autorisé M. <persName>Gonod</persName>, avant mon départ de <placeName>Paris</placeName>, à mettre le bon à tirer aux trois
                premières feuilles de la préface. Il l'avait mis à la première et à la troisième.
                Heureusement qu'un que oublié par le compositeur, lui avait rendu inintelligible une
-               des phrases de la deuxième et, sachant que j'allais <supplied>[venir]</supplied>, il me l'avait gardée :
-               ce qui m'a été l'occasion d'y apercevoir et changer un long passage que je serais
+               des phrases de la deuxième et, sachant que j'allais [venir], il me l'avait gardée :
+               ce qui m'a été l'occasion d'y apercevoir<pb n="422" facs="#ACAS_CRHST_AMP_25_379_0422_v.jpg"/> et changer un long passage que je serais
                désolé qui fût resté comme il était, ce qui a tenu à si peu de chose ! Dans la
                nouvelle rédaction, j'ai dit à peu près le contraire de ce que j'avais dit dans la
-               précédente, car j'étais alors dans une grande erreur. L'autre circonstance est bien
+               précédente, car j'étais alors dans une grande erreur.</p>
+            <p xml:id="L1834-05-27-a-p3">L'autre circonstance est bien
                plus singulière. M. <persName>Thibaud-Landriot</persName> m'avait envoyé, au mois de mars dernier, deux
                feuilles d'épreuves par la poste, qui, heureusement, ne me sont jamais parvenues. Si,
                malheureusement, je les avais reçues alors, j'y aurais mis de suite le bon à tirer.
@@ -199,7 +202,8 @@
                placées qu'elles l'étaient ridiculement là où je les avais mises, au milieu d'une
                suite d'idées qu'elles interrompaient entièrement : précisément, parce que croyant
                tirées les feuilles en question, je ne voyais de possibilité à les mettre où elles
-               devaient être. Ajoute à toutes ces heureuses circonstances la présence de M. <persName>Gonod</persName>
+               devaient être.</p>
+            <p xml:id="L1834-05-27-a-p4">Ajoute à toutes ces heureuses circonstances<pb n="423" facs="#ACAS_CRHST_AMP_25_379_0423_r.jpg"/> la présence de M. <persName>Gonod</persName>
                pour écrire les idées à mesure qu'elles me venaient. Aussi tout cela est-il déjà
                fait. Je suis à jour et l'impression de mon premier volume sera entièrement terminée
                cette semaine. Je garde le tableau pour la fin, parce qu'il y a encore un vers,
@@ -216,21 +220,24 @@
                si ma lettre écrite la veille de mon départ a bien été mise à la poste, et non pas
                sottement confiée à l'occasion par laquelle <persName>Albine</persName> doit lui écrire. Deux sûretés
                valent mieux qu'une, surtout dans ces choses-là. Et, d'ailleurs, une occasion est
-               toujours exposée à des retards, à des négligences. Les nouvelles que tu me donnes de
-               vos santés à tous et celles de ton cours, m'ont fait <supplied>[beaucoup]</supplied> de plaisir. Il est
-               empoisonné par les malheurs d'<persName>Henri</persName> ; je prie bien qu'on me tienne au courant, tantôt
+               toujours exposée à des retards, à des négligences.</p>
+            <p xml:id="L1834-05-27-a-p5">Les nouvelles que tu me donnes de
+               vos santés à tous et celles de ton cours, m'ont fait [beaucoup] de plaisir. Il est
+               empoisonné par les malheurs d'<persName>Henri</persName> ; je prie bien qu'on me tienne au courant,<pb n="424" facs="#ACAS_CRHST_AMP_25_379_0424_v.jpg"/> tantôt
                toi, tantôt <persName>Albine</persName>, de tout ce qui le touche, tant sous le rapport de sa délivrance,
                que sous celui de l'arrangement heureux ou malheureux de ses affaires et celui de sa
                santé. Tu me feras tant de plaisir de me tenir au courant de toutes tes leçons ;
                <persName>Albine</persName> devrait bien me rendre compte de toutes celles auxquelles elle pourra
-               assister. Je te raconterai, quand je te reverrai, une petite anecdote qui prouve
+               assister.</p>
+            <p xml:id="L1834-05-27-a-p6">Je te raconterai, quand je te reverrai, une petite anecdote qui prouve
                combien M. <persName>Gonod</persName> t'aime et pense à toi. Lui et Mme <persName>Gonod</persName> m'ont chargé de tant de
                choses aimables pour toi, que je n'en finirais pas si je voulais les écrire. Embrasse
                bien tendrement pour moi <persName>Albine</persName> et ma sœur ! Mille compliments à ma cousine et à nos
                amis ! Tout ce qu'il a de plus [sic] et de plus empressé pour toute la famille
                <persName>Carron</persName> ! Tâche qu'ils ne m'en veuillent pas d'avoir été si longtemps sans donner de
                mes nouvelles à <persName>Albine</persName>, quoi qu'<persName>élise</persName> m'eût fait promettre d'en écrire de Nevers. Tu
-               sais de quelle tendresse ton papa t'embrasse. <persName>A. Ampère</persName>
+               sais de quelle tendresse ton papa t'embrasse.<lb/>
+               <persName>A. Ampère</persName>
         </p>
             <closer>
           <placeName>rue de Grenelle-Saint-Germain, n° 52</placeName>, à <placeName>Paris</placeName> </closer>
@@ -238,7 +245,8 @@
       </body>
       <back>
          <div xml:id="L1834-05-27-a-div2">
-            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4°, adresse au bas de la quatrième. (2)
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4°, adresse au bas de la quatrième.</note>
+            <note resp="#CGA" xml:id="corresp2">(2)
                L'ouvrage d'<persName>Ampère</persName> porte en texte : <foreign xml:lang="lat">Optimo et carissimo filio carmen mnemonicum</foreign> ,
                puis des divisions intitulées <foreign xml:lang="lat">Praemium</foreign>, <foreign xml:lang="lat">prolegomena</foreign>, Synopsis, avec description en
                vers latins et des tableaux de classification. </note>

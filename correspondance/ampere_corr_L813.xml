@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1834-10-28-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,11 +100,11 @@
                <witness xml:id="L813manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 393 quarto</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 393 quarto</idno>
                      </msIdentifier>
                      <physDesc>
                         <p>Quatre pages grand in-4°, adresse sur la quatrième, date à la fin et
@@ -141,7 +142,7 @@
         <correspAction type="received">
           <persName type="adressee">Périsse-Marsil, Antoine-François</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -162,37 +163,42 @@
    <text type="correspondance" decls="#ampere_corr_L1834-10-28-a">
       <body>
          <div xml:id="L1834-10-28-a-div1">
-            <opener>
-          <date when="1834-10-28">28 octobre 1834</date>
+            <opener><placeName>Paris</placeName>
+          <date when="1834-10-29">29 octobre 1834</date>
         </opener>
-            <p xml:id="L1834-10-28-a-p1">Mon bien cher neveu, ce n'est qu'hier au soir en revenant de <placeName>Vanteuil</placeName> où j'ai passé
+            <opener><pb n="803" facs="#ACAS_CRHST_AMP_26_393_quarto_0075_r.jpg"/>Mon bien cher neveu, </opener>
+            <p xml:id="L1834-10-28-a-p1">ce n'est qu'hier au soir en revenant de <placeName>Vanteuil</placeName> où j'ai passé
                dix jours avec ma fille, que j'ai reçu ta lettre qui m'a navré de chagrin. La perte
                de cet excellent frère est, pour moi, un coup terrible ; j'étais loin de penser que
                des craintes que j'espérais prématurées dussent être si tôt et si cruellement
                réalisées. Combien je partage la douleur dont ma sœur et toute la famille doivent
                être accablés ! Car nul ne fut meilleur ni plus digne d'être aimé, comme il l'était
-               en effet de tout ce qui l'entoura. Je suis bien fâché que ce voyage à <placeName>Vanteuil</placeName>, où je
+               en effet de tout ce qui l'entourait.</p>
+            <p xml:id="L1834-10-28-a-p2">Je suis bien fâché que ce voyage à <placeName>Vanteuil</placeName>, où je
                ne croyais d'abord rester que cinq ou six jours (ce qui m'avait fait donner
                commission à mon portier de me garder pour le jour de mon arrivée toutes les lettres
                qui me viendraient pendant mon absence), est cause que l'on ne m'a remis la tienne
                qu'hier au soir. J'ai fait mettre sur-le-champ à la poste celle qui y était contenue
                pour M. <persName>Meyer</persName>, mais elle aura ainsi éprouvé un assez long retard qu'il n'a pu
                dépendre de personne d'empêcher. Car tu ne pouvais prévoir que je me trouvais à
-               <placeName>Vanteuil</placeName> à l'arrivée [de ta lettre], ni moi que, pendant mon absence, [il en
+               <placeName>Vanteuil</placeName> à l'arrivée<pb n="804" facs="#ACAS_CRHST_AMP_26_393_quarto_0076_v.jpg"/> [de ta lettre], ni moi que, pendant mon absence, [il en
                viendrait] une qui me ferait si fort regretter d'avoir dit à mon portier de garder
                pour mon retour les lettres qu'il recevrait pour moi pendant mon séjour chez M. <persName>de
                Jussieu</persName>. C'est une bonne leçon pour que je lui dise à l'avenir de me les renvoyer là
-               où j'irai passer quelques jours. Je t'en prie, exprime à ma sœur toute l'affliction
+               où j'irai passer quelques jours.</p>
+            <p xml:id="L1834-10-28-a-p3">Je t'en prie, exprime à ma sœur toute l'affliction
                dont mon âme a été pénétrée en lisant ta lettre, combien je la plains d'un coup aussi
                déchirant pour son cœur, combien je fais de vœux pour quelques consolations dans la
                pensée du bonheur dont jouit sans doute en ce moment celui qui a passé sur la terre
                en faisant le bien. Sois aussi mon interprète auprès de tes frères, de ta sœur, des
                jeunes dames <persName>Périsse</persName> ! J'attends avec une bien vive impatience les nouvelles que tu
-               me promets de vous tous. Je t'embrasse de toute mon âme ; hélas ! bien désolée d'un
-               si profond malheur. <persName>A. Ampère</persName>
+               me promets de vous tous.</p>
+            <p xml:id="L1834-10-28-a-p4">Je t'embrasse de toute mon âme ; hélas ! bien désolée d'un
+               si profond malheur.<lb/>
+               <persName>A. Ampère</persName>
         </p>
             <closer>
-          <placeName>grande rue Mercière</placeName>, en face l'allée marchande, à <placeName>Lyon</placeName> (<placeName>Rhône</placeName>) </closer>
+          <placeName>Monsieur <persName>Périsse aîné</persName>, imprimeur libraire grande rue Mercière</placeName>, en face l'allée marchande, à <placeName>Lyon</placeName> (<placeName>Rhône</placeName>) </closer>
          </div>
       </body>
       <back>

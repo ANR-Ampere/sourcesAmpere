@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1835-12-03-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -99,7 +100,7 @@
                <witness xml:id="L824manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <repository xmlns="">Collection particulière.</repository>
+                        <repository>Collection particulière.</repository>
                      </msIdentifier>
                      <physDesc>
                         <p>Une page 20 x 25, adresse sur la quatrième. [note de Louis DE LAUNAY]</p>
@@ -135,7 +136,7 @@
         <correspAction type="received">
           <persName type="adressee">Daubrée, Paul</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -162,7 +163,8 @@
             <p xml:id="L1835-12-03-a-p1">Monsieur, J'ai reçu la lettre par laquelle vous acceptez les propositions que je vous
                avais faites relativement à la publication dans le Journal général, d'un compte rendu
                exact et régulier du cours que j'ai ouvert au <orgName>Collège de <placeName>France</placeName>
-          </orgName> le <date when="1835-11-30">lundi 30 novembre</date>.
+          </orgName> le <date when="1835-11-30">lundi 30 novembre</date>.</p>
+            <p xml:id="L1835-12-03-a-p2">
                Je vous réitère mon acceptation des mêmes propositions et nous sommes ainsi
                réciproquement engagés à ce qui suit (sic) : <list>
             <item n="1"> Je vous fournirai, pour être tous les
@@ -174,8 +176,10 @@
                avec vous, Monsieur, les petits arrangements relatifs à la remise du manuscrit de
                chaque compte rendu, au temps qu'exigera l'impression, à la correction des épreuves,
                etc.</item>
-          </list> Agréez, je vous prie, Monsieur, l'expression de mes sentiments très distingués
-               de votre très humble serviteur. <persName>A. Ampère</persName>
+          </list></p>
+            <p xml:id="L1835-12-03-a-p3">Agréez, je vous prie, Monsieur, l'expression de mes sentiments très distingués
+               de votre très humble serviteur.<lb/>
+               <persName>A. Ampère</persName>
         </p>
             <closer>à M. <persName>Paul Daubrée</persName>, au bureau du journal de l'Instruction publique, <placeName>rue de
                Grenelle-Saint-Honoré, n° 55</placeName>, à <placeName>Paris</placeName> </closer>
@@ -185,10 +189,7 @@
          <div xml:id="L1835-12-03-a-div2">
             <note resp="#CGA" xml:id="corresp1">(1) Une page 20 x 25, adresse sur la quatrième. Communiqué par
                le <persName>Dr Emil Stransky</persName> à <placeName>Karlsbad</placeName> (Allg. Krankenhaus), <placeName>Tchécoslovaquie</placeName>.</note>
-            <note resp="CAK_commentaire">La <title xmlns="">Correspondance du Grand <persName>Ampère</persName>
-          </title>
-               (<placeName>Paris</placeName>, <date when-iso="1943">1943</date>), précise : ""Communiqué par le <persName>Dr Emil Stransky</persName> à <placeName>Karlsbad</placeName> (Allg.
-               Krankenhaus), <placeName>Tchécoslovaquie</placeName>"" (auj. <placeName>République Tchèque</placeName>).</note>
+            
          </div>
       </back>
    </text>

@@ -1,3 +1,4 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -142,7 +143,7 @@
         <correspAction type="received">
           <persName type="adressee">Ride, Gabriel (gendre d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -162,27 +163,28 @@
   <text type="correspondance" decls="#ampere_corr_L1834-00-00-a">
     <body>
       <div xml:id="L1834-00-00-a-div1">
-        <opener>[1834]</opener>
-        <p xml:id="L1834-00-00-a-p1">Monsieur et cher ami, la lettre ci-jointe, commencée depuis
+        <opener><date when-iso="1834-00-00">[1834]</date></opener>
+        <opener><pb n="38" facs="#ACAS_CRHST_AMP_25_369_0038_r.jpg"/>Monsieur et cher ami, </opener>
+        <p xml:id="L1834-00-00-a-p1">la lettre ci-jointe, commencée depuis
                 quelque temps, retardée par le surcroît de travail des examens, était achevée et
                 prête à mettre à la poste, quand ma fille en a reçu une de Monsieur votre [frère]
                 qui exige que je vous écrive des choses d'une extrême importance qui doivent rester
-                entre vous et lui, ou entre vous deux et M. Sainte-Marie, si vous jugiez utile de
+                entre vous et lui, ou entre vous deux et M. <persName>Sainte-Marie</persName>, si vous jugiez utile de
                 les confier à ce dernier : ce qui aurait bien des avantages, car alors vous pourriez
                 le consulter et prendre ses avis, avant de vous laisser aller à quelque imprudence.
-                Et d'abord vous me dites que, si l'on venait à découvrir à la Nouvelle-Orléans les
-                accidents que vous avez éprouvés à Paris et tout ce qui en est résulté, tout espoir
+                Et d'abord vous me dites que, si l'on venait à découvrir à la <placeName>Nouvelle-Orléans</placeName> les
+                accidents que vous avez éprouvés à <placeName>Paris</placeName> et tout ce qui en est résulté, tout espoir
                 serait perdu de trouver à vous employer utilement. Je le sais bien ; mais comment
-                pourrait-on le savoir en Amérique ? Certes je ne ferai, ni personne que je
+                pourrait-on le savoir en <placeName>Amérique</placeName> ? Certes je ne ferai, ni personne que je
                 connaisse, aucune imprudence à ce sujet, et encore il est impossible qu'on l'y
-                sache. Ce n'est qu'en France, si vous alliez penser à y revenir malgré nos
+                sache. Ce n'est qu'en <placeName>France</placeName>, si vous alliez penser à y revenir malgré nos
                 conventions, que vous seriez dans cette impossibilité ; parce qu'ici, à la moindre
                 information qu'on prendrait sur vous, on saurait la scène de la nuit où vous
                 courûtes l'épée nue en chemise et où vous fûtes désarmé par les soldats du poste que
-                vous aviez dit à Blogis d'aller chercher et qui rendirent compte de tout au
+                vous aviez dit à <persName>Blogis</persName> d'aller chercher et qui rendirent compte de tout au
                 commandant du poste ; ce qui a été à la police et de là dans les bureaux de la
                 guerre, comme je l'ai appris en allant solliciter le payement de réforme à la
-                Nouvelle-Orléans, ainsi que je vous le dis, je crois, à notre dernière entrevue. Dès
+                <placeName>Nouvelle-Orléans</placeName>, ainsi que je vous le dis, je crois, à notre dernière entrevue. Dès
                 la première information, on saurait les autres événements, les procédures et tout le
                 reste. Mais, à la Nouvelle, qui pourrait savoir tout cela, pourvu que vous brûliez
                 cette <gap reason="lacune_CGA"/> (1).</p>
@@ -190,12 +192,12 @@
     </body>
     <back>
       <div xml:id="L1834-00-00-a-div2">
-        <note resp="#CGA" xml:id="corresp1"> (1) La lettre est restée inachevée. Le 17 juin 1835, Carron
-                écrit que les méchancetés de Ride ont forcé Albine à se réfugier chez son oncle et
-                l'on se décide à le faire interdire. Le 10 novembre 1835, Ride est cependant au
-                Havre et Ampère lui paye 1000 francs pour retourner à la Nouvelle-Orléans : somme
-                que sa mère, née Paillot, s'engage à rembourser s'il revenait en France malgré ses
-                engagements, ce qu'il fit après la mort d'Ampère.</note>
+        <note resp="#CGA" xml:id="corresp1"> (1) La lettre est restée inachevée. Le <date when="1835-06-17">17 juin 1835</date>, <persName>Carron</persName>
+                écrit que les méchancetés de <persName>Ride</persName> ont forcé <persName>Albine</persName> à se réfugier chez son oncle et
+                l'on se décide à le faire interdire. Le <date when="1835-11-10">10 novembre 1835</date>, <persName>Ride</persName> est cependant au
+                <placeName>Havre</placeName> et <persName>Ampère</persName> lui paye 1000 francs pour retourner à la <placeName>Nouvelle-Orléans</placeName> : somme
+                que sa mère, née <persName>Paillot</persName>, s'engage à rembourser s'il revenait en <placeName>France</placeName> malgré ses
+                engagements, ce qu'il fit après la mort d'<persName>Ampère</persName>.</note>
       </div>
     </back>
   </text>
