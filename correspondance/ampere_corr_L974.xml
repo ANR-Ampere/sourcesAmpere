@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -115,7 +116,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -135,11 +136,12 @@
     <text type="correspondance" decls="#ampere_corr_L0000-00-00-p">
         <body>
             <div xml:id="L0000-00-00-p-div1">
-                <opener>s.d.</opener>
-                <p xml:id="L0000-00-00-p-p1">[sur cette lettre, <orgName>Ampère</orgName> a ajouté des remarques
-                    personnelles ; elles sont indiquées entre ... ]. remarque importante d'un autre
+                <opener>s.d</opener>
+                <opener><pb n="133" facs="#ACAS_CRHST_AMP_18_275_0133_r.jpg"/> Monsieur,</opener>
+                <p xml:id="L0000-00-00-p-p1">. <add hand="#AMA">remarque importante d'un autre
                     auditeur : le libretto fait qu'on entend l'accent gascon ou normand de l'acteur
-                    qu'on n'entendait pas auparavant. Monsieur, Il me semble qu'il y a une
+                    qu'on n'entendait pas auparavant.</add></p>
+                <p xml:id="L0000-00-00-p-p2">Il me semble qu'il y a une
                     explication plus simple l'écrivain ne donne pas d'explication, il décrit le fait
                     que j'explique que celle que vous nous avez donnée par ce mot barbare de
                     concrétion du phénomène que vous avez rapporté et qui s'observe dans une foule
@@ -148,31 +150,34 @@
                     tandis que si je l'ignore, je ne les distingue pas. De même je vois
                     distinctement la forme des traits d'une personne qui m'est connue, tandis qu'à
                     la même distance je ne puis distinguer ceux d'une personne que je vois pour la
-                    première fois. Cela ne peut être qu'à cause de la concrétion. Lorsque j'entends
+                    première fois. <add hand="#AMA">Cela ne peut être qu'à cause de la concrétion.</add> Lorsque j'entends
                     parler pour la première fois une langue, je ne distingue aucun mot, mais à
                     mesure que je fais des progrès dans la connaissance de cette langue je sépare
                     les noms et je distingue les mots. Tout ceci ne vient-il pas de ce qu'une image
                     imparfaite suffit pour me rappeler une idée, lorsque j'ai la connaissance de
-                    cette idée, tandis que dans le cas contraire elle a besoin d'être nette pour me
+                    cette idée, tandis que <pb n="134" facs="#ACAS_CRHST_AMP_18_275_0134_v.jpg"/> dans le cas contraire elle a besoin d'être nette pour me
                     la faire concevoir. Dans l'exemple que vous avez cité de M.
                     <persName>de Laplace</persName>, ces traits noirs ne feraient pas distinguer le
-                    nom à celui qui ne saurait pas lire. Certes oui dans mon opinion, car ils ne
-                    réveilleraient pas les idées qui doivent se concréter Encore un exemple. Je puis
+                    nom à celui qui ne saurait pas lire. <add hand="#AMA">Certes oui dans mon opinion, car ils ne
+                    réveilleraient pas les idées qui doivent se concréter. </add>Encore un exemple. Je puis
                     lire et distinguer à une très faible lueur les mots d'une page que je connais
                     par cœur, tandis que je ne pourrais lire ceux de la page suivante, que je ne
-                    sais pas. Cela ne peut être qu'à cause de la concrétion . Je ne vois point là de
+                    sais pas.<add hand="#AMA"> Cela ne peut être qu'à cause de la concrétion .</add> Je ne vois point là de
                     concrétion, mais seulement la preuve que les images n'ont pas besoin d'être
-                    nettes pour celui qui sait de quoi il s'agit. C'est pour cela que celui qui
+                    nettes pour celui qui sait de quoi il s'agit.</p>
+                <p xml:id="L0000-00-00-p-p3">C'est pour cela que celui qui
                     connaît à fond la matière d'un livre, comprend un auteur quelque obscur qu'il
-                    soit à cause de la concrétion , tandis que l'étudiant ne le comprend pas ; et
+                    soit<add hand="#AMA"> à cause de la concrétion</add>, tandis que l'étudiant ne le comprend pas ; et
                     c'est encore pour cela que nous avons si peu de bons livres élémentaires, tous
                     ceux qui en composent de tels, connaissant la matière, croient avoir expliqué
                     clairement leurs pensées tandis que celui qui apprend ne le comprend pas. C'est
                     encore pour cela que nous apprenons mieux dans les leçons orales que dans les
                     livres, parce que le ton, les gestes, aident à rendre plus claires les paroles
-                    du professeur. Agréez Monsieur l'assurance de ma haute considération, Un de vos
+                    du professeur.</p>
+                <p xml:id="L0000-00-00-p-p4">Agréez Monsieur l'assurance de ma haute considération,<lb/>
+                    Un de vos
                     auditeurs.</p>
-                <closer>Monsieur <persName>Ampère</persName>, professeur au
+                <closer><pb n="135" facs="#ACAS_CRHST_AMP_18_275_0135_v.jpg"/> Monsieur <persName>Ampère</persName>, professeur au
                     <orgName>Collège de France</orgName>
                 </closer>
             </div>
@@ -180,7 +185,7 @@
         <back>
             <div xml:id="L0000-00-00-p-div2">
                 <note resp="#CGA" xml:id="corresp1">(1) Le manuscrit porte des remarques autographes
-                    d'Ampère.</note>
+                    d'<persName>Ampère</persName>.</note>
             </div>
         </back>
     </text>

@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -143,7 +144,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -248,13 +249,13 @@
             <sic>pseautier</sic> <corr>psautier</corr>
           </choice>
           <lb/>
-               de <persName>François de la Harpe</persName> <ref> target="#ampere_ref_269.xml"&gt;*</ref>
+               de <persName>François de la Harpe</persName> <ref target="#ampere_ref_269.xml">*</ref>
                qui<lb/>
                doit être à la maison, broché<lb/>
                je crois en papier vert,<lb/>
                et un livre d'heures à ton<lb/>
                choix, je t'enverrai la<lb/>
-               boîte <ref>(2)</ref> mercredi par <persName ref="#pers_P457">Pochon</persName> ;<lb/>
+               boîte <ref target="#corresp2">(2)</ref> mercredi par <persName ref="#pers_P457">Pochon</persName> ;<lb/>
                elle pourra te servir à
                mettre<lb/>
                cela avec les autres livres<lb/>
@@ -272,7 +273,7 @@
                Madame <persName ref="#pers_R488">Riboud</persName> qui l'a portée ;<lb/>
                elle est allée à <placeName>Lyon</placeName> lundi<lb/>
                passé et m'avait demandé<lb/>
-               mes commissions. Que de<pb n="70" facs="#ACAS_CRHST_AMP_26_392_0070_r.jpg"/>
+               mes commissions. Que de <pb n="70" facs="#ACAS_CRHST_AMP_26_392_0070_r.jpg"/>
                peines inutiles à présent<lb/>
                que M. <persName ref="#pers_R500">Rousin</persName> ne va pas<lb/>
                à <placeName>Lyon</placeName> ! Je ne sais pas du tout<lb/>
@@ -299,7 +300,7 @@
           </choice> ;<lb/>
                mais il faudrait pour cela<lb/>
                que tu te portasses mieux<lb/>
-               et que tu cessasses de n'avoir<pb n="71" facs="#ACAS_CRHST_AMP_26_392_0071_v.jpg"/> que 12 ans. Tu ne me dis pas<lb/>
+               et que tu cessasses de n'avoir <pb n="71" facs="#ACAS_CRHST_AMP_26_392_0071_v.jpg"/> que 12 ans. Tu ne me dis pas<lb/>
                du tout
                dans quel état se<lb/>
                trouve ta grosseur ; n'a-t-elle<lb/>
@@ -328,7 +329,7 @@
                <choice>
             <sic>renseignemens</sic> <corr>renseignements</corr>
           </choice> que tu me<lb/>
-               demandes sur ma position<pb n="72" facs="#ACAS_CRHST_AMP_26_392_0072_r.jpg"/>
+               demandes sur ma position <pb n="72" facs="#ACAS_CRHST_AMP_26_392_0072_r.jpg"/>
                relativement à la vie du
                corps. J'ai reçu hier 2 louis et M.<lb/>
                <persName ref="#pers_T565">Tissier</persName> autant pour le casuel<lb/>
@@ -382,7 +383,7 @@
                Tu diras que c'est la chanson<lb/>
                de Rouge Poulet ; mais ce qu'on<lb/>
                pense sans cesse, il
-               faut bien le répéter<pb n="1327" facs="#ACAS_CRHST_AMP_26_393_quarto_0599_r.jpg"/>
+               faut bien le répéter <pb n="1327" facs="#ACAS_CRHST_AMP_26_393_quarto_0599_r.jpg"/>
                <del>quelquefois.</del> <date when="1802-03-12">[12 mars 1802]</date>
           <lb/>
                Je viens de faire la revue de<lb/>
@@ -414,7 +415,7 @@
               <sic>te</sic> <corr>tes</corr>
             </choice> anciennes lettres ! Comme<lb/>
                elles auraient fait diversion<lb/>
-                  à mes idées noirâtres ! J'espère<pb n="1328" facs="#ACAS_CRHST_AMP_26_393_quarto_0600_v.jpg"/> du moins qu'elles sont
+                  à mes idées noirâtres ! J'espère <pb n="1328" facs="#ACAS_CRHST_AMP_26_393_quarto_0600_v.jpg"/> du moins qu'elles sont
                bien en<lb/>
                sûreté à <placeName>Lyon</placeName>, et que je<lb/>
                   pourrai les rapporter à <date>Pâques</date>
@@ -438,7 +439,8 @@
                d'hier. Tout aurait été
                parfaitement<lb/>
                bien si on l'avait mieux entendu.<lb/>
-               J'embrasse tout ce que j'aime. <persName ref="#pers_A366">A.
+               J'embrasse tout ce que j'aime.<lb/>
+            <persName ref="#pers_A366">A.
                AMPÈRE</persName>
           </del>
         </p>
@@ -452,10 +454,10 @@
       <back>
          <div xml:id="L1802-03-12-a-div2">
             <note resp="#CGA" xml:id="corresp1">(1) Dix pages in-4°, avec adresse sur la dernière. Mme <persName>Cheuvreux</persName>
-               a publié le début, p. 192, et quelques fragments, p. 211 et 212. (2) <persName ref="#pers_A366">Ampère</persName> écrit
+               a publié le début, p. 192, et quelques fragments, p. 211 et 212.</note>
+           <note resp="#CGA" xml:id="corresp2">(2) <persName ref="#pers_A366">Ampère</persName> écrit
                toujours boëte. </note>
-            <note resp="CAK_commentaire">Les pages du manuscrit sont dispersées dans plusieurs
-               chemises.</note>
+           
          </div>
       </back>
    </text>

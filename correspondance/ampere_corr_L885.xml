@@ -1,4 +1,5 @@
-<?xml-model href="../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1811-03-03-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>Pictet</surname>
                      <forename>Marc-Auguste</forename>
@@ -103,11 +104,11 @@
                <witness xml:id="L885manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">Suisse</country>
-                        <settlement xmlns="">Genève</settlement>
-                        <institution xmlns="">Archives de la Fondation F. Rilliet</institution>
-                        <repository xmlns="">Fonds Pictet</repository>
-                        <idno xmlns="">K4 [note de René SIGRIST]</idno>
+                        <country>Suisse</country>
+                        <settlement>Genève</settlement>
+                        <institution>Archives de la Fondation F. Rilliet</institution>
+                        <repository>Fonds Pictet</repository>
+                        <idno>K4 [note de René SIGRIST]</idno>
                      </msIdentifier>
                   </msDesc>
           </witness>
@@ -159,20 +160,22 @@
       <body>
          <div xml:id="L1811-03-03-a-div1">
             <opener>
-          <date when="1811-03-03">3 mars 1811</date>
+          <placeName>Paris</placeName>, <date when="1811-03-03">3 mars 1811</date>
         </opener>
-            <p xml:id="L1811-03-03-a-p1">Très cher et très honoré collègue, M. <persName>Roman</persName> m'avait chargé de vous offrir tous ses
+            <opener>Très cher et très honoré collègue,</opener>
+            <p xml:id="L1811-03-03-a-p1"> M. <persName>Roman</persName> m'avait chargé de vous offrir tous ses
                remerciements pour la bonté que vous avez eue de refaire les examens dont nous avions
                été chargés et dont les résultats ont été perdus avec le tableau de présentation que
-               nous avions envoyé à S. E. [son Excellence] Je voulais y joindre les miens ; j'en
+               nous avions envoyé à S<ex>on</ex> E<ex>xcellence</ex> Je voulais y joindre les miens ; j'en
                devais également à <persName>Madame Pictet</persName> d'avoir bien voulu se souvenir de moi, et aussi pour
                l'aimable invitation qui termine votre lettre, et dont je prévois avec beaucoup de
                regret que je ne serai pas dans le cas de profiter, ne croyant pas devoir passer à
                <placeName>Genève</placeName> dans ma prochaine tournée. Les examens de l'<orgName>école polytechnique</orgName> à la fin du
-               cours <ref>(1)</ref>, et mille autre occupations ne m'ont pas laissé le temps de m'acquitter de
+               cours <ref target="#corresp1">(1)</ref>, et mille autre occupations ne m'ont pas laissé le temps de m'acquitter de
                ce devoir et maintenant je ne puis plus que vous prier de me pardonner cette faute
                involontaire ayant reçu une nouvelle lettre de vous à laquelle je m'empresse de
-               répondre. Il y aura mercredi prochain une séance de la commission des livres
+               répondre.</p>
+            <p xml:id="L1811-03-03-a-p2">Il y aura mercredi prochain une séance de la commission des livres
                classiques ; je l'y porterai et je ne doute pas que la commission ne prenne à cet
                égard une détermination conforme à ce que vous désirez. A l'égard des affaires
                relatives à l'<orgName>Académie de <placeName>Genève</placeName>
@@ -184,25 +187,27 @@
                reste il paraît que si les affaires courantes restent en suspens c'est surtout parce
                qu'on s'occupe exclusivement d'objets plus importants par l'influence qu'ils doivent
                avoir sur l'université entière, et dont il est extrêmement urgent de s'occuper pour
-               les comprendre dans le travail général que S. M. [sa Majesté] a demandé au
-               grand-maître et au conseil sur tout ce qui regarde l'université. Je vous prie, mon
+               les comprendre dans le travail général que S<ex>a</ex> M<ex>ajesté</ex> a demandé au
+               grand-maître et au conseil sur tout ce qui regarde l'université.</p>
+            <p xml:id="L1811-03-03-a-p3">Je vous prie, mon
                cher et respectable collègue, de présenter à <persName>Madame Pictet</persName> l'hommage de mon profond
                respect, de me rappeler au souvenir de Messieurs <persName>Pictet</persName>, à celui de Messieurs de
-               <persName>Boissier</persName>, <persName>Peschier</persName>, <persName>Prevost</persName>, <persName>L'Huillier</persName>, <persName>Vaucher</persName> <ref>(2)</ref>, de tous les membres de
+               <persName>Boissier</persName>, <persName>Peschier</persName>, <persName>Prevost</persName>, <persName>L'Huillier</persName>, <persName>Vaucher</persName> <ref target="#corresp2">(2)</ref>, de tous les membres de
                l'<orgName>Académie de <placeName>Genève</placeName>
           </orgName> dont j'ai eu l'honneur de faire la connaissance. Daignez agréer
                l'hommage de cette tendre amitié mêlée de respect et de vénération que je vous ai
                vouée pour la vie, et qui me fait mettre au nombre des plus heureuses circonstances
-               de ma vie celles qui nous ont rapprochés. <persName>A. Ampère</persName>
+               de ma vie celles qui nous ont rapprochés.<lb/>
+               <persName>A. Ampère</persName>
         </p>
          </div>
       </body>
       <back>
          <div xml:id="L1811-03-03-a-div2">
-            <note resp="#CGA" xml:id="corresp1">(1) <persName>Ampère</persName> enseignait les mathématiques à <orgName>Polytechnique</orgName>. (2)
-               <persName>Pierre Prevost</persName> (<date from-iso="1751" to-iso="1839">1751-1839</date>) était professeur de physique générale, <persName>Simon-Antoine
-               L'Huillier</persName> (<date from-iso="1750" to-iso="1840">1750-1840</date>) professeur de mathématiques, et le botaniste <persName>Jean Pierre
-               Vaucher</persName> (<date from-iso="1763" to-iso="1841">1763-1841</date>) professeur d'histoire ecclésiastique à l'<orgName>Académie de
+            <note resp="#CGA" xml:id="corresp1">(1) <persName>Ampère</persName> enseignait les mathématiques à <orgName>Polytechnique</orgName>.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) <persName>Pierre Prevost</persName> (<date from-iso="1751-00-00" to-iso="1839-00-00">1751-1839</date>) était professeur de physique générale, <persName>Simon-Antoine
+               L'Huillier</persName> (<date from-iso="1750" to-iso="1840-00-00">1750-1840</date>) professeur de mathématiques, et le botaniste <persName>Jean Pierre
+               Vaucher</persName> (<date from-iso="1763-00-00" to-iso="1841-00-00">1763-1841</date>) professeur d'histoire ecclésiastique à l'<orgName>Académie de
                <placeName>Genève</placeName>
           </orgName>.</note>
          </div>

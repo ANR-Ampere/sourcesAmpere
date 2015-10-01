@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -75,7 +76,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1814-11-24-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>Pictet</surname>
                      <forename>Marc-Auguste</forename>
@@ -100,10 +101,10 @@
                <witness xml:id="L894manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">Suisse</country>
-                        <settlement xmlns="">Genève</settlement>
-                        <institution xmlns="">Bibliothèque de Genève</institution>
-                        <repository xmlns="">Dossiers Ouverts Autographes</repository>
+                        <country>Suisse</country>
+                        <settlement>Genève</settlement>
+                        <institution>Bibliothèque de Genève</institution>
+                        <repository>Dossiers Ouverts Autographes</repository>
                      </msIdentifier>
                   </msDesc>
           </witness>
@@ -156,15 +157,16 @@
       <body>
          <div xml:id="L1814-11-24-a-div1">
             <opener>
-          <date when="1814-11-24">24 novembre [1814]</date>
+         <placeName>Genève</placeName>, <date when="1814-11-24">24 novembre [1814]</date>
         </opener>
             <p xml:id="L1814-11-24-a-p1">En vous écrivant il y a un mois, mon très excellent collègue et ami, je vous disais
                que vous pouvez vous considérer déjà comme membre d'une Société qui tiendrait à grand
                honneur de vous posséder à ce titre. C'est ce soir même, qu'au scrutin secret, vous
                avez été reçu à l'unanimité. Résultat qu'on pouvait aisément deviner. Je vous
                enverrai par la première occasion d'ami, votre diplôme qui sera signé par le
-               Président du jour (notre ami le <persName>Prof. Prevost</persName>) et par le Secrétaire perpétuel
-               <persName>Colladon</persName> <ref>(1)</ref>, le célèbre faiseur de l'eau cordiale, ce qui est de bonne augure <ref>(2)</ref>.
+               Président du jour (notre ami le Prof.<persName> Prevost</persName>) et par le Secrétaire perpétuel
+               <persName>Colladon</persName> <ref target="#corresp1">(1)</ref>, le célèbre faiseur de l'eau cordiale, ce qui est de bonne augure <ref target="#corresp2">(2)</ref>.</p>
+            <p xml:id="L1814-11-24-a-p2">
                J'ai eu <choice>
             <sic>récement</sic> <corr>récemment</corr>
           </choice>, par <persName>Mme Gautier</persName>, des nouvelles récentes de notre excellent ami
@@ -185,16 +187,19 @@
                recherche, car que reste-t-il à glaner après <persName>Gay-Lussac</persName> et <persName>Davy</persName> sur cette singulière
                substance ? Si cela vous est possible, veuillez remettre le petit flacon, si petit
                que vous voudrez, à notre brave collègue <persName>Marignié</persName>, rue Duphot, (bureau de la petite
-               porte) qui trouvera sûrement l'occasion de me le faire parvenir en sûreté. J'ai un
+               porte) qui trouvera sûrement l'occasion de me le faire parvenir en sûreté.</p>
+            <p xml:id="L1814-11-24-a-p3">J'ai un
                autre motif pour ne pas entreprendre légèrement le voyage de <placeName>Paris</placeName>, c'est que je
-               compte commencer le mois prochain mon Cours particulier de Phys. exp. qui me vaut au
-               moins mille écus <ref>(3)</ref>, tous frais faits. On ne trouve pas tous les jours à gagner
+               compte commencer le mois prochain mon Cours particulier de Phys<ex>yque</ex> exp<ex>érimentale</ex> qui me vaut au
+               moins mille écus <ref target="#corresp3">(3)</ref>, tous frais faits. On ne trouve pas tous les jours à gagner
                pareille somme ; et il n'y a pour cela que la saison où nous entrons. Cependant, s'il
                fallait partir, je n'hésiterais pas. Adieu cher et excellent collègue. Si je n'ai pas
-               en <date when-iso="1814">1814</date> le bonheur de vous embrasser, vous ne m'échapperez pas en <date when-iso="1815">1815</date>. Nous venons
-               d'avoir une excellente visite de notre jadis Préfet, M. <persName>Capelle</persName> <ref>(4)</ref>, qui paraît être
-               demeuré notre ami. Nous l'avons accueilli de notre mieux. Recevez l'expression de mon
-               dévouement le plus entier, et de mon attachement bien sincère. <persName>Pictet</persName>
+               en <date when-iso="1814-00-00">1814</date> le bonheur de vous embrasser, vous ne m'échapperez pas en <date when-iso="1815-00-00">1815</date>. Nous venons
+               d'avoir une excellente visite de notre jadis Préfet, M. <persName>Capelle</persName> <ref target="#corresp4">(4)</ref>, qui paraît être
+               demeuré notre ami. Nous l'avons accueilli de notre mieux.</p>
+            <p xml:id="L1814-11-24-a-p4">Recevez l'expression de mon
+               dévouement le plus entier, et de mon attachement bien sincère. <lb/>
+               <persName>Pictet</persName>
         </p>
             <closer>à Monsieur <persName>Ampère</persName>, Inspecteur général de l'<orgName>université de <placeName>France</placeName>
           </orgName>, palais de
@@ -204,20 +209,22 @@
       <back>
          <div xml:id="L1814-11-24-a-div2">
             <note resp="#CGA" xml:id="corresp1">(1) Le pharmacien, chimiste et botaniste <persName>Jean-Antoine Colladon</persName>
-               (<date from-iso="1755" to-iso="1830">1755-1830</date>) exerçait depuis <date when-iso="1810">1810</date> les fonctions de secrétaire de la <orgName>Société de
+               (<date from-iso="1755-00-00" to-iso="1830-00-00">1755-1830</date>) exerçait depuis <date when-iso="1810-00-00">1810</date> les fonctions de secrétaire de la <orgName>Société de
                Physique et d'Histoire naturelle</orgName>. Il était l'auteur de nombreux travaux inédits,
                notamment sur les hybridations végétales et les croisements de souris d'espèces
-               différentes. (2) L'eau cordiale était une préparation aux vertus toniques, et
+               différentes.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) L'eau cordiale était une préparation aux vertus toniques, et
                apparemment au goût de mélisse, dont le succès fut considérable à la fin du XVIIIe
                siècle. Vendue dans de petits flacons carrés à long col d'environ 2 dl (7 onces),
                elle était offerte par les autorités de l'ancienne République de <placeName>Genève</placeName> à leurs hôtes
                de marque. La formule de ce breuvage, mise au point dans la première moitié du XVIIe
-               siècle par le médecin genevois <persName>Théodore Turquet de Mayerne</persName> (<date from-iso="1573" to-iso="1655">1573-1655</date>), s'était
+               siècle par le médecin genevois <persName>Théodore Turquet de Mayerne</persName> (<date from-iso="1573-00-00" to-iso="1655-00-00">1573-1655</date>), s'était
                ensuite transmise comme un secret par plusieurs générations de pharmaciens <persName>Colladon</persName>.
-               Elle fut d’ailleurs souvent imitée. (3) Soit 125 louis, ou près de 6500 florins, soit
-               un peu plus de deux fois le traitement annuel d'un professeur à l'Académie de <placeName>Genève</placeName>.
-               (4) <persName>Guillaume Antoine Benoît, baron Capelle</persName> (<date from-iso="1775" to-iso="1843">1775-1843</date>), avait exercé les fonctions
-               de préfet du Léman du <date from="1810-11-30" to="1813-12-30">30 novembre 1810 au 30 décembre 1813</date>. <persName>Napoléon</persName> l'avait fait
+               Elle fut d’ailleurs souvent imitée.</note>
+            <note resp="#CGA" xml:id="corresp3">(3) Soit 125 louis, ou près de 6500 florins, soit
+               un peu plus de deux fois le traitement annuel d'un professeur à l'Académie de <placeName>Genève</placeName>.</note>
+            <note resp="#CGA" xml:id="corresp4">(4) <persName>Guillaume Antoine Benoît, baron Capelle</persName> (<date from-iso="1775" to-iso="1843">1775-1843</date>), avait exercé les fonctions
+               de préfet du <placeName>Léman</placeName> du <date from="1810-11-30" to="1813-12-30">30 novembre 1810 au 30 décembre 1813</date>. <persName>Napoléon</persName> l'avait fait
                emprisonner pour avoir abandonné <placeName>Genève</placeName> sans combattre.</note>
          </div>
       </back>

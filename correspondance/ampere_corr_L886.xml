@@ -1,3 +1,4 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -77,7 +78,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1811-04-18-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>Pictet</surname>
                      <forename>Marc-Auguste</forename>
@@ -102,11 +103,11 @@
                <witness xml:id="L886manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">Suisse</country>
-                        <settlement xmlns="">Genève</settlement>
-                        <institution xmlns="">Archives de la Fondation F. Rilliet</institution>
-                        <repository xmlns="">Fonds Pictet</repository>
-                        <idno xmlns="">K4 [note de René SIGRIST]</idno>
+                        <country>Suisse</country>
+                        <settlement>Genève</settlement>
+                        <institution>Archives de la Fondation F. Rilliet</institution>
+                        <repository>Fonds Pictet</repository>
+                        <idno>K4 [note de René SIGRIST]</idno>
                      </msIdentifier>
                   </msDesc>
           </witness>
@@ -160,37 +161,42 @@
             <opener>
           <date when="1811-04-18">18 avril 1811</date>
         </opener>
-            <p xml:id="L1811-04-18-a-p1">Très cher et très honoré collègue, je vous remercie beaucoup et de votre aimable
+            <opener>Très cher et très honoré collègue,</opener>
+            <p xml:id="L1811-04-18-a-p1"> je vous remercie beaucoup et de votre aimable
                lettre et de toutes les marques d'amitié que vous m'y donnez. Je regrette bien
                vivement que nous n'allions pas à <placeName>Genève</placeName> cette année ; c'est la faute des Genevois,
-               leur académie et leur collège vont trop bien pour que S. E. [son Excellence] juge
+               leur académie et leur collège vont trop bien pour que S<ex>on</ex> E<ex>xcellence</ex> juge
                nécessaire que les inspecteurs généraux les visitent chaque année. S'il m'était
                possible de faire à <placeName>Genève</placeName> un petit voyage avant l'arrivée de mes collègues pour
                avoir l'honneur de vous voir et tant d'autres personnes à qui j'ai voué la plus
                sincère estime et la plus vive amitié depuis que mon voyage de l'année dernière m'a
                procuré l'avantage de faire leur connaissance, ce serait pour moi un bien grand
                plaisir, mais les affaires qui m'ont amené ici avant eux ne me laissent pas même
-               l'espoir de pouvoir exécuter un projet qui me procurerait une si douce satisfaction.
+               l'espoir de pouvoir exécuter un projet qui me procurerait une si douce satisfaction.</p>
+            <p xml:id="L1811-04-18-a-p2">
                Votre lettre me donne deux bien bonnes nouvelles, celle de l'accroissement et du
                bonheur de votre intéressante famille, et celle que vous me donnez qu'on s'occupe
                enfin à l'université des affaires de votre académie. Les choses vont si lentement que
                malgré tout ce que j'avais pu dire aux conseillers que je connais avant mon départ,
                je craignais toujours que l'on laissât dormir dans quelque carton les papiers
                relatifs à vos demandes. J'espère à présent qu'on s'en occupera de suite, et
-               j'écrirai à ce sujet demain à M. <persName>Rendu</persName> <ref>(1)</ref>. Je ferai vos commissions auprès de mes
+               j'écrirai à ce sujet demain à M. <persName>Rendu</persName> <ref>(1)</ref>.</p>
+            <p xml:id="L1811-04-18-a-p3">Je ferai vos commissions auprès de mes
                collègues dès qu'ils seront ici, mais je ne sais point encore l'époque de leur
-               arrivée. J'ai passé quelques heures avec M. <persName>Degérando</persName> <ref>(2)</ref> au moment de mon départ.
+               arrivée. J'ai passé quelques heures avec M. <persName>Degérando</persName> <ref target="#corresp2">(2)</ref> au moment de mon départ.
                J'ai toujours trouvé en lui le meilleur des amis. Vous savez sans doute qu'une fièvre
-               pernicieuse a porté l'effroi dans le cœur de ses amis, mais que le quinquina <ref>(3)</ref> à
+               pernicieuse a porté l'effroi dans le cœur de ses amis, mais que le quinquina <ref target="#corresp3">(3)</ref> à
                haute [dose] l'a mis presqu'aussitôt hors de danger. J'ai eu récemment de bonnes
-               nouvelles de sa convalescence. Je vous prie, mon cher et très honoré collègue, de
+               nouvelles de sa convalescence.</p>
+            <p xml:id="L1811-04-18-a-p4">Je vous prie, mon cher et très honoré collègue, de
                présenter à <persName>Madame Pictet</persName> l'hommage de mon profond respect, de me rappeler au
                souvenir de Messieurs vos frères, de Messieurs <persName>Boissier</persName>, <persName>Peschier</persName>, <persName>Prevost</persName>, et de
-               tous les membres de votre <orgName>Académie</orgName>. Je me suis procuré le livre de M. Bonstetten (4),
-               mais je n'en ai point encore commencé la lecture (5 <ref type="ouvrages_mentionnes" target="#ampere_ref_P370.xml">*</ref>). Je me rappellerai toujours le plaisir que j'ai goûté dans le dîner que
-               nous avons fait ensemble aux <placeName>Brotteaux</placeName> avec M. <persName>Camille Jordan</persName> (6). Je vous prie, mon
+               tous les membres de votre <orgName>Académie</orgName>. Je me suis procuré le livre de M. Bonstetten <ref target="#corresp4">(4)</ref>,
+               mais je n'en ai point encore commencé la lecture <ref target="#corresp5">(5)</ref>. Je me rappellerai toujours le plaisir que j'ai goûté dans le dîner que
+               nous avons fait ensemble aux <placeName>Brotteaux</placeName> avec M. <persName>Camille Jordan</persName> <ref target="#corresp6">(6)</ref>. Je vous prie, mon
                cher et très honoré collègue, d'agréer l'hommage de mon respect, de ma vive amitié,
-               et de mon entier dévouement. <persName>A. Ampère</persName>
+               et de mon entier dévouement.<lb/>
+               <persName>A. Ampère</persName>
         </p>
             <closer>à Monsieur <persName>Pictet</persName>, inspecteur général de l'<orgName>Université Impériale à <placeName>Genève</placeName>
           </orgName>, <placeName>Léman</placeName>
@@ -204,21 +210,26 @@
                <placeName>France</placeName>
           </title> avant de devenir inspecteur général (<date when-iso="1808">1808</date>) et conseiller ordinaire (<date when-iso="1809">1809</date>) de
                l'<orgName>Université impériale</orgName>. Il s'occupera sous la Restauration de l'organisation de
-               l'enseignement primaire. (2) <persName>Joseph Marie Degérando</persName> (<date from-iso="1772" to-iso="1842">1772-1842</date>), écrivain et homme
-               d'État né à <placeName>Lyon</placeName>, devenu haut fonctionnaire sous l'Empire. En 1811, il est de retour
+               l'enseignement primaire.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) <persName>Joseph Marie Degérando</persName> (<date from-iso="1772" to-iso="1842">1772-1842</date>), écrivain et homme
+               d'État né à <placeName>Lyon</placeName>, devenu haut fonctionnaire sous l'Empire. En <date when-iso="1811-00-00">1811</date>, il est de retour
                d'<placeName>Italie</placeName>, où il a été l'un des membres de la "Consulta" chargée par <persName>Napoléon</persName>
                d'organiser l'annexion à la <placeName>France</placeName> des États du pape et d'en mettre sur pied le
                système administratif. La même année, il est nommé au Conseil d'État et élevé à la
-               baronnie. (3) <persName>Ampère</persName> a écrit : <cit>
+               baronnie.</note>
+            <note resp="#CGA" xml:id="corresp3">(3) <persName>Ampère</persName> a écrit : <cit>
             <quote>kinkina</quote>
-          </cit>. (4) <persName>Ampère</persName> a écrit : <cit>
+          </cit>.</note>
+            <note resp="#CGA" xml:id="corresp4"> (4) <persName>Ampère</persName> a écrit : <cit>
             <quote>Bonstetet</quote>
           </cit>. Issu de
-               l'une des familles dirigeantes bernoises, <persName>Charles-Victor de Bonstetten</persName> (1745-1832)
+               l'une des familles dirigeantes bernoises, <persName>Charles-Victor de Bonstetten</persName> (<date when-iso="1745-00-00" to-iso="1832-00-00">1745-1832</date>)
                vivait à <placeName>Genève</placeName> depuis <date when-iso="1803">1803</date>. Il y avait jadis connu <persName>Voltaire</persName>, <persName>Rousseau</persName> et <persName>Charles
-               Bonnet</persName>. (5) Il s'agit probablement des <title>Recherches sur la nature et les lois de
+               Bonnet</persName>.</note>
+               <note resp="#CGA" xml:id="corresp5">(5) Il s'agit probablement des <title>Recherches sur la nature et les lois de
                l'imagination</title> (<placeName>Genève</placeName>, <date when-iso="1807">1807</date>), qui fut la première des œuvres essentielles de ce
-               célèbre littérateur. (6) <persName>Camille Jordan</persName> (<date from-iso="1771" to-iso="1821">1771-1821</date>), homme politique né à <placeName>Lyon</placeName>, ami
+                  célèbre littérateur <ref type="ouvrages_mentionnes" target="#ampere_ref_P370.xml">*</ref>.</note>
+               <note resp="#CGA" xml:id="corresp6">(6) <persName>Camille Jordan</persName> (<date from-iso="1771-00-00" to-iso="1821-00-00">1771-1821</date>), homme politique né à <placeName>Lyon</placeName>, ami
                de <persName>De Gérando</persName>. Il avait pris part à la défense de la ville assiégée par les troupes
                de la Convention, puis s'était réfugié en <placeName>Suisse</placeName> et en <placeName>Angleterre</placeName>. Revenu en <placeName>France</placeName>
                (<date when-iso="1796">1796</date>), avait été élu à la Chambre des Cinq-Cents, puis proscrit en <date calendar="revolutionary" from="1797-08-18" to="1797-09-21">Fructidor an V</date>.

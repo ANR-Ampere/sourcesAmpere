@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1822-06-18-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>Pictet</surname>
                      <forename>Marc-Auguste</forename>
@@ -103,11 +104,11 @@
                <witness xml:id="L899manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">Suisse</country>
-                        <settlement xmlns="">Genève</settlement>
-                        <institution xmlns="">Archives de la Fondation F. Rilliet</institution>
-                        <repository xmlns="">Fonds Pictet</repository>
-                        <idno xmlns="">K4 [note de René SIGRIST]</idno>
+                        <country>Suisse</country>
+                        <settlement>Genève</settlement>
+                        <institution>Archives de la Fondation F. Rilliet</institution>
+                        <repository>Fonds Pictet</repository>
+                        <idno>K4 [note de René SIGRIST]</idno>
                      </msIdentifier>
                   </msDesc>
           </witness>
@@ -162,21 +163,24 @@
             <opener>
           <date when="1822-06-18">Mardi 18 juin 1822</date>
         </opener>
-            <p xml:id="L1822-06-18-a-p1">Monsieur et très cher collègue, Conformément à ce que vous avez écrit il y a 8 jours
-               [à] M. <persName>Maurice</persName> <ref>(1)</ref>, je lui ai remis une lettre à M. <persName>De la Rive</persName> sur les phénomènes des
-               aimants sous l'influence des conducteurs voltaïques <ref>(2)</ref>, et un mémoire contenant la
+            <opener>Monsieur et très cher collègue,</opener>
+            <p xml:id="L1822-06-18-a-p1"> Conformément à ce que vous avez écrit il y a 8 jours
+               [à] M. <persName>Maurice</persName> <ref target="#corresp1">(1)</ref>, je lui ai remis une lettre à M. <persName>De la Rive</persName> sur les phénomènes des
+               aimants sous l'influence des conducteurs voltaïques <ref target="#corresp2">(2)</ref>, et un mémoire contenant la
                théorie et la description des faits nouveaux que j'ai découverts en décembre dernier
-               <ref>(3)</ref>. Ce mémoire me semble trop important pour ne pas vous le communiquer ; vous en
+               <ref target="#corresp3">(3)</ref>. Ce mémoire me semble trop important pour ne pas vous le communiquer ; vous en
                ferez ce que vous voudrez, ainsi que de la lettre à M. <persName>De la Rive</persName>, pour en publier
                soit le tout, soit une partie. J'ai proposé la même chose au reste, pour le mémoire
-               seulement, à M. <persName>Arago</persName>, relativement à ses <title>Annales</title>. Malheureusement, M. <persName>Paschoud</persName>, chez
-               qui nous portâmes le tout, n'a d'occasion pour Genève que jeudi prochain. Cependant
+               seulement, à M. <persName>Arago</persName>, relativement à ses <title>Annales</title>.</p>
+            <p xml:id="L1822-06-18-a-p2">Malheureusement, M. <persName>Paschoud</persName>, chez
+               qui nous portâmes le tout, n'a d'occasion pour <placeName>Genève</placeName> que jeudi prochain. Cependant
                j'espère, d'après ce que m'a dit M. <persName>Maurice</persName>, que cela arrivera encore à temps pour
                remplir si vous l'en jugez digne, la place que vous avez eu la bonté de me réserver
                dans votre prochain n°, sauf à renvoyer la fin du mémoire, ou de l'extrait que vous
                en feriez, au n° prochain. Je vous prie d'agréer l'hommage de mon respect et de la
                plus sincère amitié. J'ai l'honneur d'être, Monsieur et très honorable collègue.
-               votre très humble et très obéissant serviteur. <persName>A. Ampère</persName>
+               votre très humble et très obéissant serviteur. <lb/>
+               <persName>A. Ampère</persName>
         </p>
             <closer>à Monsieur <persName>Pictet</persName>, professeur de physique à l'<orgName>Académie de <placeName>Genève</placeName>
           </orgName>, membre associé
@@ -186,12 +190,14 @@
       <back>
          <div xml:id="L1822-06-18-a-div2">
             <note resp="#CGA" xml:id="corresp1">(1) Nous n'avons pas retrouvé la lettre à laquelle <persName>Ampère</persName> se
-               réfère. (2) Cette lettre à <persName>Gaspard De la Rive</persName>, datée du <date when="1822-06-12">12 juin 1822</date>, a été publiée
-               in <title>Bibl. Univ.</title>, t. 10, pp. 185-192 (<date when-iso="1822-07">juil. 1822</date>) et dans <persName>L. de Launay</persName> (éd.),
-               Correspondance du grand <persName>Ampère</persName>, lettre 363 (pp. 580-582). (3) Il s'agit des
+               réfère.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) Cette lettre à <persName>Gaspard De la Rive</persName>, datée du <date when="1822-06-12">12 juin 1822</date>, a été publiée
+               in <title>Bibl<ex>iothèque</ex> Univ<ex>erselle</ex></title>, t. 10, pp. 185-192 (<date when-iso="1822-07-00">juil. 1822</date>) et dans <persName>L. de Launay</persName> (éd.),
+               Correspondance du grand <persName>Ampère</persName>, lettre 363 (pp. 580-582).</note>
+            <note resp="#CGA" xml:id="corresp3">(3) Il s'agit des
                <title>Expériences relatives à de nouveaux phénomènes électrodynamiques observés au mois de
-               <date when-iso="1821-12">décembre 1821</date> par <persName>Ampère</persName>
-          </title>, publiées in <title>Bibl. Univ.</title> t 10 pp. 173-185 (<date when="1822-07">juil.
+               <date when-iso="1821-12-00">décembre 1821</date> par <persName>Ampère</persName>
+               </title>, publiées in <title>Bibl<ex>iothèque</ex> Univ<ex>erselle</ex></title> t 10 pp. 173-185 (<date when="1822-07-00">juil.
                1822</date>).</note>
          </div>
       </back>

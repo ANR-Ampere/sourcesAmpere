@@ -1,4 +1,5 @@
-<?xml-model href="../../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -118,7 +119,7 @@
         <correspAction type="received">
           <persName type="adressee">Herschel, John</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -138,10 +139,10 @@
     <text type="correspondance" decls="#ampere_corr_L1827-09-06-a">
         <body>
             <div xml:id="L1827-09-06-a-div1">
-                <opener>
-                    <date when="1827-09-06">6 septembre 1827</date>
+                <opener><placeName>Paris</placeName>, <date when="1827-09-06">6 septembre 1827</date>
                 </opener>
-                <p xml:id="L1827-09-06-a-p1">Monsieur, J'ai mille remerciements à vous faire du précieux recueil de vos
+                <opener>Monsieur,</opener>
+                <p xml:id="L1827-09-06-a-p1"> J'ai mille remerciements à vous faire du précieux recueil de vos
                     nouvelles observations sur les étoiles doubles et triples que vous avez eu la
                     bonté de me faire remettre par Monsieur <persName>Ar[ago]</persName>. C'est avec
                     une bien vive satisfaction que je l'ai reçu, non seulement à cause de
@@ -149,7 +150,8 @@
                     de l'astronomie moderne et qui peuvent servir à calculer les mouvements qu'elles
                     nous révèlent, mais encore parce que j'y ai vu un nouveau témoignage de l'amitié
                     dont vous voulez bien m'honorer et dont vous m'avez déjà donné d'autres preuves
-                    dont je conserve le souvenir avec la plus vive reconnaissance. La plus flatteuse
+                    dont je conserve le souvenir avec la plus vive reconnaissance.</p>
+                <p xml:id="L1827-09-06-a-2">La plus flatteuse
                     pour moi et celle qui m'a pénétré du plus profond sentiment de gratitude, c'est
                     la part que vous avez prise à un événement de ma vie que je regarde comme un des
                     plus heureux et des plus glorieux pour moi, je veux parler du choix que la
@@ -191,26 +193,29 @@
                     un plan perpendiculaire à celui du disque. Ainsi voilà encore une confirmation
                     de l'identité des aimants et des spirales ou hélices électrodynamiques et une
                     nouvelle preuve que les phénomènes produits par des aimants sont purement
-                    électriques. Je regrette bien d'être privé du temps qu'il me faudrait pour
+                    électriques.</p>
+                <p xml:id="L1827-09-06-a-p3">Je regrette bien d'être privé du temps qu'il me faudrait pour
                     d'autres expériences que j'aurais à faire et pour publier de nouveaux calculs
                     par lesquels j'ai démontré dans le cours de physique que je fais au
                     <orgName>Collège de
                     <placeName>France</placeName>
           </orgName>
-                    cette identité d'une manière plus simple encore que celle que j'ai donnée. Je
-                    vous prie, Monsieur, d'agréer de nouveau l'hommage de ma reconnaissance et du
+                    cette identité d'une manière plus simple encore que celle que j'ai donnée.</p>
+                <p xml:id="L1827-09-06-a-p4">Je
+                   vous prie, Monsieur, d'agréer de nouveau l'hommage de ma reconnaissance et du
                     profond respect avec lequel j'ai l'honneur d'être votre très humble et très
-                    obéissant serviteur, <persName>A. Ampère</persName>
+                    obéissant serviteur,<lb/>
+                    <persName>A. Ampère</persName>
                 </p>
             </div>
         </body>
         <back>
             <div xml:id="L1827-09-06-a-div2">
-                <note resp="CAK_commentaire" xml:id="corresp1">(1) Lettre mentionnée dans
-                    <persName>GARDINER, K.-R.</persName> &amp; <persName>David</persName> ""A. M.
-                    <persName>Ampère</persName> and his English Acquaintances"", <foreign xml:lang="lat">in</foreign> :
+                <note resp="CAK" xml:id="corresp1">(1) Lettre mentionnée dans
+                    <persName>GARDINER, K.-R.</persName> &amp; <persName>David</persName> "A. M.
+                    <persName>Ampère</persName> and his English Acquaintances", <foreign xml:lang="lat">in :
                     <title>British Journal
-                        for the History of Science</title>,
+                        for the History of Science</title></foreign>,
                     1965, 2, p. 244.</note>
             </div>
         </back>
