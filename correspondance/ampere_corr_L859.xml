@@ -1,6 +1,4 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!DOCTYPE ENTITY_MathML SYSTEM "../../Documents/Sch%C3%A9mas/ENTITY_MathML.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -133,7 +131,8 @@
     </teiHeader>
     <text type="correspondance" decls="#ampere_corr_L1823-06-04-a">
         <body>
-            <div xml:id="L1823-06-04-a-div1"> <opener><pb n="16" facs="#ACAS_CRHST_AMP_09_172_0016_r.jpg"/> <placeName>Provins</placeName>,le <date when="1823-06-04">4 juin 1823</date>
+            <div xml:id="L1823-06-04-a-div1"> <opener>
+          <pb n="16" facs="#ACAS_CRHST_AMP_09_172_0016_r.jpg"/> <placeName>Provins</placeName>,le <date when="1823-06-04">4 juin 1823</date>
                 </opener>
                 <p xml:id="L1823-06-04-a-p1">Monsieur et cher Professeur, J'ai sans cesse de nouveaux remerciements à vous faire,
                     et quand je pense à la peine que vous donnent ces malheureuses épreuves, je
@@ -161,49 +160,414 @@
                 <p xml:id="L1823-06-04-a-p2">Je passe de suite
                     à l'article qui termine votre lettre et qui est relatif à la somme des moments M
                     dans l'action mutuelle de deux cylindres, vous avez eu la bonté de vérifier l'expression <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow>
-                            <mi>M</mi><mo>=</mo> <mo>&int;</mo><mfrac><mrow><msup><mi>h</mi><mn>2</mn></msup><mi>a'</mi><mi> cos</mi><mi>&omega;</mi><mi> d</mi><mi>&omega;</mi></mrow><mrow><msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac> <mo>+</mo>
-                            <mo>&int;</mo><mfrac><mrow><mo>(</mo><mi>c</mi><mi>cos</mi><mi>&omega;</mi><mo>&minus;</mo><mi>a'</mi><mo>)</mo> 
-                                <mo>(</mo><mi>c</mi><mo>&minus;</mo><mi>a'</mi><mi>cos</mi><mi>&omega;</mi><mo>)</mo><mi>a'</mi><mi>d</mi><mi>&omega;</mi></mrow><mrow><msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac>
-                        </mrow></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                            <mi>M</mi>
+                <mo>=</mo> <mo/>
+                <mfrac>
+                  <mrow>
+                    <msup>
+                      <mi>h</mi>
+                      <mn>2</mn>
+                    </msup>
+                    <mi>a'</mi>
+                    <mi> cos</mi>
+                    <mi/>
+                    <mi> d</mi>
+                    <mi/>
+                  </mrow>
+                  <mrow>
+                    <msup>
+                      <mi>r</mi>
+                      <mn>3</mn>
+                    </msup>
+                  </mrow>
+                </mfrac> <mo>+</mo>
+                            <mo/>
+                <mfrac>
+                  <mrow>
+                    <mo>(</mo>
+                    <mi>c</mi>
+                    <mi>cos</mi>
+                    <mi/>
+                    <mo/>
+                    <mi>a'</mi>
+                    <mo>)</mo> 
+                                <mo>(</mo>
+                    <mi>c</mi>
+                    <mo/>
+                    <mi>a'</mi>
+                    <mi>cos</mi>
+                    <mi/>
+                    <mo>)</mo>
+                    <mi>a'</mi>
+                    <mi>d</mi>
+                    <mi/>
+                  </mrow>
+                  <mrow>
+                    <msup>
+                      <mi>r</mi>
+                      <mn>3</mn>
+                    </msup>
+                  </mrow>
+                </mfrac>
+                        </mrow>
+            </math>
                     </formula> qui me semble se déduire simplement de ce
                     qui précède. Les deux termes s'ajoutent car les deux composantes tendent à faire
                     tourner dans le même sens. On doit négliger dans le second terme <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow>
-                            <mo>&int;</mo>
-                        <mfrac><mrow><msup><mi>a'</mi><mn>3</mn></msup><mi>cos</mi><mi>&omega;</mi><mi>d</mi><mi>&omega;</mi></mrow><mrow><msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac></mrow></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                            <mo/>
+                        <mfrac>
+                  <mrow>
+                    <msup>
+                      <mi>a'</mi>
+                      <mn>3</mn>
+                    </msup>
+                    <mi>cos</mi>
+                    <mi/>
+                    <mi>d</mi>
+                    <mi/>
+                  </mrow>
+                  <mrow>
+                    <msup>
+                      <mi>r</mi>
+                      <mn>3</mn>
+                    </msup>
+                  </mrow>
+                </mfrac>
+              </mrow>
+            </math>
                     </formula>. Quant aux autres, je mets séparément leur valeur
                     déduite de ce que <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>r</mi><mo>=</mo><msqrt><msup><mi>h</mi><mn>2</mn></msup><mo>+</mo><msup><mi>c</mi><mn>2</mn></msup><mi>+</mi><msup><mi>a'</mi><mn>2</mn></msup><mo>&minus;</mo><mn>2</mn><mi>c</mi><mi>a'</mi><mi>cos</mi><mi>&omega;</mi></msqrt></mrow></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mi>r</mi>
+                <mo>=</mo>
+                <msqrt>
+                  <msup>
+                    <mi>h</mi>
+                    <mn>2</mn>
+                  </msup>
+                  <mo>+</mo>
+                  <msup>
+                    <mi>c</mi>
+                    <mn>2</mn>
+                  </msup>
+                  <mi>+</mi>
+                  <msup>
+                    <mi>a'</mi>
+                    <mn>2</mn>
+                  </msup>
+                  <mo/>
+                  <mn>2</mn>
+                  <mi>c</mi>
+                  <mi>a'</mi>
+                  <mi>cos</mi>
+                  <mi/>
+                </msqrt>
+              </mrow>
+            </math>
                     </formula>
                    <formula>
-                       <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow> <msup><mi>h</mi><mn>2</mn></msup><mi>a'</mi><mo>&int;</mo><mfrac><mrow><mi>cos</mi><mi>&omega;</mi><mi>d</mi><mi>&omega;</mi></mrow><mrow><msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac><mo>=</mo>
-                          <mfrac><mrow><mn>3</mn><msup><mi>a'</mi><mn>2</mn></msup><msup><mi>h</mi><mn>2</mn></msup><mi>c</mi></mrow><mrow><msup><mi>r</mi><mn>5</mn></msup></mrow></mfrac></mrow></math>
+                       <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow> <msup>
+                  <mi>h</mi>
+                  <mn>2</mn>
+                </msup>
+                <mi>a'</mi>
+                <mo/>
+                <mfrac>
+                  <mrow>
+                    <mi>cos</mi>
+                    <mi/>
+                    <mi>d</mi>
+                    <mi/>
+                  </mrow>
+                  <mrow>
+                    <msup>
+                      <mi>r</mi>
+                      <mn>3</mn>
+                    </msup>
+                  </mrow>
+                </mfrac>
+                <mo>=</mo>
+                          <mfrac>
+                  <mrow>
+                    <mn>3</mn>
+                    <msup>
+                      <mi>a'</mi>
+                      <mn>2</mn>
+                    </msup>
+                    <msup>
+                      <mi>h</mi>
+                      <mn>2</mn>
+                    </msup>
+                    <mi>c</mi>
+                  </mrow>
+                  <mrow>
+                    <msup>
+                      <mi>r</mi>
+                      <mn>5</mn>
+                    </msup>
+                  </mrow>
+                </mfrac>
+              </mrow>
+            </math>
                    </formula> ; <formula>
-                       <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>a'</mi><mo>&int;</mo> <mfrac><mrow><msup><mi>c</mi><mn>2</mn></msup><mi>cos</mi><mi>&omega;</mi><mi>d</mi><mi>&omega;</mi></mrow><mrow><msup><mi>r</mi><mn>3</mn></msup> </mrow></mfrac><mo>=</mo> <mfrac><mrow><mn>3</mn><msup><mi>a'</mi><mn>2</mn></msup> <msup><mi>c</mi><mn>3</mn></msup></mrow><mrow> <msup><mi>r</mi><mn>5</mn></msup></mrow></mfrac></mrow></math></formula>
+                       <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mi>a'</mi>
+                <mo/> <mfrac>
+                  <mrow>
+                    <msup>
+                      <mi>c</mi>
+                      <mn>2</mn>
+                    </msup>
+                    <mi>cos</mi>
+                    <mi/>
+                    <mi>d</mi>
+                    <mi/>
+                  </mrow>
+                  <mrow>
+                    <msup>
+                      <mi>r</mi>
+                      <mn>3</mn>
+                    </msup> </mrow>
+                </mfrac>
+                <mo>=</mo> <mfrac>
+                  <mrow>
+                    <mn>3</mn>
+                    <msup>
+                      <mi>a'</mi>
+                      <mn>2</mn>
+                    </msup> <msup>
+                      <mi>c</mi>
+                      <mn>3</mn>
+                    </msup>
+                  </mrow>
+                  <mrow> <msup>
+                      <mi>r</mi>
+                      <mn>5</mn>
+                    </msup>
+                  </mrow>
+                </mfrac>
+              </mrow>
+            </math>
+          </formula>
                     <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow> <mo>&minus;</mo><msup><mi>a'</mi><mn>2</mn></msup><mi>c</mi> <mo>&int;</mo> <mfrac><mrow><msup><mi>cos</mi><mn>2</mn></msup><mi>&omega;</mi><mi>d</mi><mi>&omega;</mi></mrow><mrow><msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac><mo>=</mo><mo>&minus;</mo>
-                           <mfrac><mrow><msup><mi>a'</mi><mn>2</mn></msup><mi>c</mi></mrow><mrow> <msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac></mrow></math>
-                    </formula> ; <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>-</mi><msup><mi>a'</mi><mn>2</mn></msup><mi>c</mi><mo>&int;</mo><mfrac><mrow><mi>d</mi><mi>&omega;</mi></mrow><mrow><msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac><mo>=</mo><mo>-</mo><mfrac><mrow><mn>2</mn><msup><mi>a'</mi><mn>2</mn></msup><mi>c</mi></mrow><mrow><msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac></mrow></math></formula> la somme des trois est bien - 3
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow> <mo/>
+                <msup>
+                  <mi>a'</mi>
+                  <mn>2</mn>
+                </msup>
+                <mi>c</mi> <mo/> <mfrac>
+                  <mrow>
+                    <msup>
+                      <mi>cos</mi>
+                      <mn>2</mn>
+                    </msup>
+                    <mi/>
+                    <mi>d</mi>
+                    <mi/>
+                  </mrow>
+                  <mrow>
+                    <msup>
+                      <mi>r</mi>
+                      <mn>3</mn>
+                    </msup>
+                  </mrow>
+                </mfrac>
+                <mo>=</mo>
+                <mo/>
+                           <mfrac>
+                  <mrow>
+                    <msup>
+                      <mi>a'</mi>
+                      <mn>2</mn>
+                    </msup>
+                    <mi>c</mi>
+                  </mrow>
+                  <mrow> <msup>
+                      <mi>r</mi>
+                      <mn>3</mn>
+                    </msup>
+                  </mrow>
+                </mfrac>
+              </mrow>
+            </math>
+                    </formula> ; <formula>
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mi>-</mi>
+                <msup>
+                  <mi>a'</mi>
+                  <mn>2</mn>
+                </msup>
+                <mi>c</mi>
+                <mo/>
+                <mfrac>
+                  <mrow>
+                    <mi>d</mi>
+                    <mi/>
+                  </mrow>
+                  <mrow>
+                    <msup>
+                      <mi>r</mi>
+                      <mn>3</mn>
+                    </msup>
+                  </mrow>
+                </mfrac>
+                <mo>=</mo>
+                <mo>-</mo>
+                <mfrac>
+                  <mrow>
+                    <mn>2</mn>
+                    <msup>
+                      <mi>a'</mi>
+                      <mn>2</mn>
+                    </msup>
+                    <mi>c</mi>
+                  </mrow>
+                  <mrow>
+                    <msup>
+                      <mi>r</mi>
+                      <mn>3</mn>
+                    </msup>
+                  </mrow>
+                </mfrac>
+              </mrow>
+            </math>
+          </formula> la somme des trois est bien - 3
                     <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow>
-                            <mfrac><mrow><mo>&minus;</mo><mn>3</mn><msup><mi>a'</mi><mn>2</mn></msup><mi>c</mi><mo>(</mo><msup><mi>r</mi><mn>2</mn></msup><mo>&minus;</mo><msup><mi>c</mi><mn>2</mn></msup><mo>)</mo></mrow><mrow><msup><mi>r</mi><mn>5</mn></msup></mrow></mfrac> <mo>=</mo> <mfrac><mrow><mo>&minus;</mo><mn>3</mn> <msup><mi>a'</mi><mn>2</mn></msup><msup><mi>h</mi><mn>2</mn></msup><mi>c</mi></mrow><mrow><msup><mi>r</mi><mn>5</mn></msup></mrow></mfrac>
-                        </mrow></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                            <mfrac>
+                  <mrow>
+                    <mo/>
+                    <mn>3</mn>
+                    <msup>
+                      <mi>a'</mi>
+                      <mn>2</mn>
+                    </msup>
+                    <mi>c</mi>
+                    <mo>(</mo>
+                    <msup>
+                      <mi>r</mi>
+                      <mn>2</mn>
+                    </msup>
+                    <mo/>
+                    <msup>
+                      <mi>c</mi>
+                      <mn>2</mn>
+                    </msup>
+                    <mo>)</mo>
+                  </mrow>
+                  <mrow>
+                    <msup>
+                      <mi>r</mi>
+                      <mn>5</mn>
+                    </msup>
+                  </mrow>
+                </mfrac> <mo>=</mo> <mfrac>
+                  <mrow>
+                    <mo/>
+                    <mn>3</mn> <msup>
+                      <mi>a'</mi>
+                      <mn>2</mn>
+                    </msup>
+                    <msup>
+                      <mi>h</mi>
+                      <mn>2</mn>
+                    </msup>
+                    <mi>c</mi>
+                  </mrow>
+                  <mrow>
+                    <msup>
+                      <mi>r</mi>
+                      <mn>5</mn>
+                    </msup>
+                  </mrow>
+                </mfrac>
+                        </mrow>
+            </math>
                     </formula> car après l'intégration, <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><msup><mi>h</mi><mn>2</mn></msup> <mo>+</mo> <msup><mi>c</mi><mn>2</mn></msup></mrow></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <msup>
+                  <mi>r</mi>
+                  <mn>2</mn>
+                </msup>
+                <mo>=</mo>
+                <msup>
+                  <mi>h</mi>
+                  <mn>2</mn>
+                </msup> <mo>+</mo> <msup>
+                  <mi>c</mi>
+                  <mn>2</mn>
+                </msup>
+              </mrow>
+            </math>
                     </formula>.
                     Cette somme est donc égale et de signe contraire à la valeur du 1er terme. Donc
                     <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>M</mi><mo>=</mo><mn>0</mn></mrow></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mi>M</mi>
+                <mo>=</mo>
+                <mn>0</mn>
+              </mrow>
+            </math>
                     </formula>. Je présume que vous faites <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mo>&int;</mo> <mfrac><mrow><mi>d</mi><mi>&omega;</mi></mrow><mrow><msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn></mrow>
-                            <mrow><msup><mn>r</mn><mn>3</mn></msup></mrow></mfrac></mrow></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mo/> <mfrac>
+                  <mrow>
+                    <mi>d</mi>
+                    <mi/>
+                  </mrow>
+                  <mrow>
+                    <msup>
+                      <mi>r</mi>
+                      <mn>3</mn>
+                    </msup>
+                  </mrow>
+                </mfrac>
+                <mo>=</mo>
+                <mfrac>
+                  <mrow>
+                    <mn>1</mn>
+                  </mrow>
+                            <mrow>
+                    <msup>
+                      <mn>r</mn>
+                      <mn>3</mn>
+                    </msup>
+                  </mrow>
+                </mfrac>
+              </mrow>
+            </math>
                     </formula> mais 
                     <pb n="17" facs="#ACAS_CRHST_AMP_09_172_0017_v.jpg"/> les intégrales sont
                     prises <add>depuis <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>&omega;</mi><mo>=</mo><mn>0</mn></mrow></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mrow>
+                  <mi/>
+                  <mo>=</mo>
+                  <mn>0</mn>
+                </mrow>
+              </math>
                     </formula> </add>jusqu'à <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>&omega;</mi><mo>=</mo><mn>2</mn><mi>&pi;</mi></mrow></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mi/>
+                <mo>=</mo>
+                <mn>2</mn>
+                <mi/>
+              </mrow>
+            </math>
                     </formula>. Je crois donc qu'il n'y a pas d'erreur dans
                     le résultat.</p>
                 <p xml:id="L1823-06-04-a-p3">D'après l'inquiétude que vous voulez bien me témoigner pour mon

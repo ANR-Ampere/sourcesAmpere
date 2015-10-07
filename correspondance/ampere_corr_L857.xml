@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -134,9 +133,10 @@
     <text type="correspondance" decls="#ampere_corr_L1822-06-05-a">
         <body>
             <div xml:id="L1822-06-05-a-div1">
-                <opener><placeName>Rhône</placeName>, <date when="1822-06-05">5 juin 1822</date>
+                <opener>
+          <placeName>Rhône</placeName>, <date when="1822-06-05">5 juin 1822</date>
                 </opener>
-                <opener>>A Monsieur <persName>Bredin</persName>, directeur de
+                <opener>&gt;A Monsieur <persName>Bredin</persName>, directeur de
                     l'<orgName>école Royale Vétérinaire à <placeName>Lyon</placeName>
                     </orgName>.</opener>
                 <opener> Cher ami,</opener>
@@ -176,6 +176,12 @@
                 </p>
             </div>
         </body>
-        <back><div><note resp="#CAK" xml:id="corresp1"><persName>Jean-Jacques</persName>, fils d'<persName>André-Marie</persName></note></div></back>
+        <back>
+      <div>
+        <note resp="#CAK" xml:id="corresp1">
+          <persName>Jean-Jacques</persName>, fils d'<persName>André-Marie</persName>
+        </note>
+      </div>
+    </back>
     </text>
 </TEI>

@@ -1,48 +1,56 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Correspondance d'André-Marie Ampère - Lettre 1201</title>
-                <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)"
-                    ref="http://www.idref.fr/028694171"
-                    ><forename>André-Marie</forename><surname>Ampère</surname></author>
+                <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
                 <editor>Christine Blondel</editor>
                 <editor>Marco Segala</editor>
                 <funder>ANR Corpus 2012</funder>
                 <respStmt>
-                    <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation></name>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
                     <resp>Responsable du projet, édition</resp>
                 </respStmt>
                 <respStmt>
-                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation></name>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
                     <resp>Responsable du projet, édition</resp>
                 </respStmt>
                 <respStmt>
-                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation></name>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
                     <resp>Informatique</resp>
                 </respStmt>
                 <respStmt>
-                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation></name>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
                     <resp>Édition web</resp>
                 </respStmt>
                 <respStmt>
-                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation></name>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
                     <resp>Édition web</resp>
                 </respStmt>
                 <respStmt>
-                    <name>Marie-Hélène Wronecki <affiliation>CRHST</affiliation></name>
+                    <name>Marie-Hélène Wronecki <affiliation>CRHST</affiliation>
+          </name>
                     <resp>Édition</resp>
                 </respStmt>
                 <respStmt>
                     <name>Florence Greffe, <affiliation>Archives de l'Académie des
-                        sciences</affiliation></name>
+                        sciences</affiliation>
+          </name>
                     <resp>Mise en place de la numérisation</resp>
                 </respStmt>
                 <respStmt>
                     <name>Mathilde Dutertre, <affiliation>École nationale des
-                        chartes</affiliation></name>
+                        chartes</affiliation>
+          </name>
                     <resp>Stagiaire au Centre Alexandre Koyré : élaboration du schéma XML TEI et
                         encodage</resp>
                 </respStmt>
@@ -51,12 +59,21 @@
             <publicationStmt>
                 <authority>Centre Nationale de la Recherche Scientifique (CNRS)</authority>
                 <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
-                <address><addrLine>27 rue Damesme</addrLine><addrLine>75013 Paris</addrLine></address>
-                <distributor><name>Centre de calcul de
-                    l'IN2P3</name><address><addrLine>Domaine scientifique de la Doua</addrLine><addrLine>43 boulevard du 11 Novembre 1918</addrLine><addrLine>69622 Villeurbanne Cedex</addrLine></address></distributor>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+          <name>Centre de calcul de
+                    l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
                 <availability status="restricted">
-                    <p>Ce texte est protégé par la licence <ref
-                        target="http://creativecommons.org/licenses/by/3.0/deed.fr"/>Creative Commons
+                    <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by/3.0/deed.fr"/>Creative Commons
                         dont le contenu est disponible sous Creative Commons Attribution - Non
                         commercial - No Derivative Works 3.0 France</p>
                 </availability>
@@ -69,8 +86,8 @@
                         <country>France</country>
                         <settlement>Paris</settlement>
                         <institution>Musée des Lettres et des manuscrits</institution>
-                        <repository></repository>
-                        <idno></idno>
+                        <repository/>
+                        <idno/>
                     </msIdentifier>
                 </msDesc>              
             </sourceDesc>
@@ -119,14 +136,18 @@
     <text type="correspondance" decls="#ampere_corr_L1804-10-28-b">
         <body>
             <div>                
-                    <opener><placeName>Lyon</placeName> le <date when="1804-10-28" calendar="revolutionary">6 brumaire an 13</date></opener>
+                    <opener>
+          <placeName>Lyon</placeName> le <date when="1804-10-28" calendar="revolutionary">6 brumaire an 13</date>
+        </opener>
                 <p xml:id="L1804-10-28-b-p1">Je vous préviens, mon cher ami, <lb/>
                         que M. <persName>Delambre</persName> m’a écrit<lb/>
                         que j’étais, d’après la demande<lb/>
                         que j’en avais faite, nommée<lb/>
                         répétiteur à l’<orgName>école polytechnique</orgName>,<lb/>
                         je n’en ai pas une certitude<lb/>
-                        <choice><sic>complette</sic> <corr>complète</corr></choice>, puisque la nomination<lb/>
+                        <choice>
+            <sic>complette</sic> <corr>complète</corr>
+          </choice>, puisque la nomination<lb/>
                         officielle ne m’est pas encore<lb/>
                         été envoyée, mais cela parait<lb/>
                         assez sur pour que vous<lb/>
@@ -134,7 +155,9 @@
                         démarches convenables, afin<lb/>
                         de me remplacer s’il est possible. <lb/>
                         <persName>Delambre</persName> à la fin de sa lettre : <lb/>
-                        Je verrai en même <choice><sic>tems</sic> <corr>temps</corr></choice> ce<lb/>
+                        Je verrai en même <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice> ce<lb/>
                         que je pourrai auprès de<lb/>
                         <persName>Fourcroy</persName> pour votre ami<lb/>
                         M. <persName>Clerc</persName> à qui vous désirez<lb/>
@@ -144,8 +167,11 @@
                         votre part une lettre de<lb/>
                         remerciement à M. <persName>Delambre</persName>.</p>
                 <p xml:id="L1804-10-28-p2">
-                        Au reste le Lycée de <placeName>Lyon</placeName><lb/>
-                        a bien des <choice><sic>inconvéniens</sic> <corr>inconvénients</corr></choice>, que<lb/>
+                        Au reste le Lycée de <placeName>Lyon</placeName>
+          <lb/>
+                        a bien des <choice>
+            <sic>inconvéniens</sic> <corr>inconvénients</corr>
+          </choice>, que<lb/>
                         vous sentirez quand vous y<lb/>
                         serez, ce qui pourrait diminuer<lb/>
                         le chagrin que vous ressentiriez<lb/>
@@ -164,11 +190,16 @@
                         qu’il soit choisi. Mandez-moi<lb/>
                         le plutôt possible si dans le<lb/>
                         cas où il l’emporterait sur vous<lb/>
-                        il faudrait que je travailla<supplied>s</supplied><lb/>
-                        en dernière ressource à <supplied>vous</supplied><lb/>
-                        procurer cette place de <supplied>P<ex>remiè</ex>re</supplied><lb/>
-                        et 2nde à <placeName>Nîmes</placeName> où le <gap reason="lacune"/><lb/>
-                            qui est du 2nd ordre, n’<supplied>est</supplied><lb/>
+                        il faudrait que je travailla<supplied>s</supplied>
+          <lb/>
+                        en dernière ressource à <supplied>vous</supplied>
+          <lb/>
+                        procurer cette place de <supplied>P<ex>remiè</ex>re</supplied>
+          <lb/>
+                        et 2nde à <placeName>Nîmes</placeName> où le <gap reason="lacune"/>
+          <lb/>
+                            qui est du 2nd ordre, n’<supplied>est</supplied>
+          <lb/>
                             pas encore en plein exercice. <lb/>
                             que j’en veux à ce malheureux<lb/>
                             sort qui met toujours ce<lb/>
@@ -187,19 +218,22 @@
                             etc. ce que vous pensez de la<lb/>
                             place de <placeName>Nîmes</placeName>. Bonne espérance<lb/>
                             en attendant d’avoir la mienne, <lb/>
-                            la protection de M. <persName>Delambre</persName><lb/>
+                            la protection de M. <persName>Delambre</persName>
+          <lb/>
                             en vaut bien d’autres. Mes<lb/>
                             respects à <persName>Madame Clerc</persName>.<lb/>
-                    Votre <persName>A-M Ampère</persName></p>                             
+                    Votre <persName>A-M Ampère</persName>
+        </p>                             
                               <closer>  A Monsieur<lb/>
                                 Monsieur <persName>Clerc</persName>,<lb/>
                                 Professeur de <lb/>
                                 Mathématiques, au<lb/>
                                 Lycée de <placeName>Moulins</placeName>.<lb/>
-                                à <placeName>Moulins</placeName><lb/>
-                                Dép<ex>artemen</ex>t de l’<placeName>Allier</placeName></closer>     
+                                à <placeName>Moulins</placeName>
+          <lb/>
+                                Dép<ex>artemen</ex>t de l’<placeName>Allier</placeName>
+        </closer>     
             </div>
         </body>
     </text>
 </TEI>
-

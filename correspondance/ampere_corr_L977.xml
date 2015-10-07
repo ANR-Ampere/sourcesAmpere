@@ -1,6 +1,4 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!DOCTYPE ENTITY_MathML SYSTEM "../../Documents/Sch%C3%A9mas/ENTITY_MathML.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -137,7 +135,8 @@
             <div xml:id="L1793-04-00-a-div1">
                 <opener>
                     <date when-iso="1793-04">[courant avril 1793</date>]</opener>
-                <opener><pb n="35" facs="#ACAS_CRHST_AMP_24_333_0035_r.jpg"/> Monsieur,</opener>
+                <opener>
+          <pb n="35" facs="#ACAS_CRHST_AMP_24_333_0035_r.jpg"/> Monsieur,</opener>
                 <p xml:id="L1793-04-00-a-p1"> J'ai reçu avec un bien vif intérêt votre lettre. J'ai bien admiré
                     l'empressement que vous avez eu à résoudre le problème que nous nous étions
                     proposé. Je ne m'attendais<supplied> pas</supplied> à en voir arriver aussi tôt la solution et une
@@ -211,7 +210,8 @@
                     vitesse du vent, car dans la <pb n="39" facs="#ACAS_CRHST_AMP_24_333_0039_r.jpg"/> supposition que l'angle soit infiniment près de
                     90°, la vitesse de rotation serait infinie. De tous ces raisonnements il me
                     paraît qu'on doit conclure :</p>
-                <p xml:id="L1793-04-00-a-p5"><list>
+                <p xml:id="L1793-04-00-a-p5">
+          <list>
                         <item n="1"> qu'il n'est point nécessaire de supposer une grandeur
                             déterminée à l'aile, mais qu'au contraire il faut la considérer comme
                             étant toute réunie en un point, ou, ce qui reviendrait au même la
@@ -231,18 +231,89 @@
                     vent pour avoir la première expression. J'ai remarqué que, devant laisser au
                     vent les deux tiers de sa vitesse totale pour choquer, la vitesse du choc sera
                     <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mn>2</mn></mrow><mrow><mn>3</mn></mrow></mfrac><mi>V</mi></mrow></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mfrac>
+                  <mrow>
+                    <mn>2</mn>
+                  </mrow>
+                  <mrow>
+                    <mn>3</mn>
+                  </mrow>
+                </mfrac>
+                <mi>V</mi>
+              </mrow>
+            </math>
                     </formula>, appelant V la vitesse totale. Pour avoir le choc il faut prendre le
                     carré de la vitesse qui est <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mi>v</mi><mn>2</mn></msup></mrow></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <msup>
+                  <mi>v</mi>
+                  <mn>2</mn>
+                </msup>
+              </mrow>
+            </math>
                     </formula> ; pour avoir ensuite égard à la
                     décomposition des forces qui vient de l'obliquité, il faut multiplier cette
                     quantité par <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><msup><mi>sin</mi><mn>2</mn></msup><mi>y</mi><mo>&times;</mo><mi>cos</mi><mi>y</mi></mrow><mrow><msup><mi>V</mi><mn>3</mn></msup></mrow></mfrac></mrow></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mfrac>
+                  <mrow>
+                    <msup>
+                      <mi>sin</mi>
+                      <mn>2</mn>
+                    </msup>
+                    <mi>y</mi>
+                    <mo/>
+                    <mi>cos</mi>
+                    <mi>y</mi>
+                  </mrow>
+                  <mrow>
+                    <msup>
+                      <mi>V</mi>
+                      <mn>3</mn>
+                    </msup>
+                  </mrow>
+                </mfrac>
+              </mrow>
+            </math>
                     </formula> et j'aurai alors pour expression <pb n="40" facs="#ACAS_CRHST_AMP_24_333_0040_v.jpg"/> de la
                     force qui fait mouvoir l'aile <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mi>4</mi></mrow><mrow><mn>9</mn></mrow></mfrac><msup><mi>V</mi><mn>2</mn></msup>
-                        <mfrac><mrow><msup><mi>sin</mi><mn>2</mn><mi>y</mi><mi>cos</mi><mi>y</mi></msup></mrow><mrow><msup><mi>v</mi><mn>3</mn></msup></mrow></mfrac></mrow></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mfrac>
+                  <mrow>
+                    <mi>4</mi>
+                  </mrow>
+                  <mrow>
+                    <mn>9</mn>
+                  </mrow>
+                </mfrac>
+                <msup>
+                  <mi>V</mi>
+                  <mn>2</mn>
+                </msup>
+                        <mfrac>
+                  <mrow>
+                    <msup>
+                      <mi>sin</mi>
+                      <mn>2</mn>
+                      <mi>y</mi>
+                      <mi>cos</mi>
+                      <mi>y</mi>
+                    </msup>
+                  </mrow>
+                  <mrow>
+                    <msup>
+                      <mi>v</mi>
+                      <mn>3</mn>
+                    </msup>
+                  </mrow>
+                </mfrac>
+              </mrow>
+            </math>
                     </formula>.</p>
                 <p xml:id="L1793-04-00-a-p6">Mais
                     pour avoir la quantité de mouvement, il faut multiplier cette force par la
@@ -251,21 +322,107 @@
                     vent qui choque et j'avais cru découvrir d'abord que le tiers de la vitesse du
                     vent est à celle de rotation comme le rayon est à la tangente. L'expression de
                     la vitesse de rotation devenait alors celle-ci : <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mn>1</mn></mrow><mn>3</mn></mfrac><mi>V</mi><mfrac><mrow><mi>tang</mi><mi>y</mi></mrow>
-                        <mrow><mi>v</mi></mrow></mfrac></mrow></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mfrac>
+                  <mrow>
+                    <mn>1</mn>
+                  </mrow>
+                  <mn>3</mn>
+                </mfrac>
+                <mi>V</mi>
+                <mfrac>
+                  <mrow>
+                    <mi>tang</mi>
+                    <mi>y</mi>
+                  </mrow>
+                        <mrow>
+                    <mi>v</mi>
+                  </mrow>
+                </mfrac>
+              </mrow>
+            </math>
                     </formula>. Or pour
                     avoir la quantité de mouvement, il faut multiplier la force par la vitesse, il
                     faudrait donc multiplier la première expression par celle-ci et nous aurions
                    <formula>
-                       <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mn>4</mn></mrow><mrow><mn>27</mn></mrow></mfrac><msup><mi>V</mi><mn>3</mn></msup>
-                       <mfrac><mrow><msup><mi>sin</mi><mn>2</mn><mi>y</mi><mi>cos</mi><mi>y</mi><mi>tang</mi><mi>y</mi></msup></mrow><mrow><msup><mi>v</mi><mn>4</mn></msup></mrow></mfrac></mrow></math>
+                       <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mfrac>
+                  <mrow>
+                    <mn>4</mn>
+                  </mrow>
+                  <mrow>
+                    <mn>27</mn>
+                  </mrow>
+                </mfrac>
+                <msup>
+                  <mi>V</mi>
+                  <mn>3</mn>
+                </msup>
+                       <mfrac>
+                  <mrow>
+                    <msup>
+                      <mi>sin</mi>
+                      <mn>2</mn>
+                      <mi>y</mi>
+                      <mi>cos</mi>
+                      <mi>y</mi>
+                      <mi>tang</mi>
+                      <mi>y</mi>
+                    </msup>
+                  </mrow>
+                  <mrow>
+                    <msup>
+                      <mi>v</mi>
+                      <mn>4</mn>
+                    </msup>
+                  </mrow>
+                </mfrac>
+              </mrow>
+            </math>
                    </formula> pour expression de la quantité de
                     mouvement, qui doit être un maximum. Pour simplifier, il faut faire <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>V</mi><mo>=</mo><mn>1</mn></mrow></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mi>V</mi>
+                <mo>=</mo>
+                <mn>1</mn>
+              </mrow>
+            </math>
                     </formula> et <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>v</mi><mo>=</mo><mn>1</mn></mrow></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mi>v</mi>
+                <mo>=</mo>
+                <mn>1</mn>
+              </mrow>
+            </math>
                     </formula>. L'expression se réduit à celle-ci : <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mn>4</mn></mrow><mrow><mn>27</mn></mrow></mfrac><msup><mi>sin</mi><mn>2</mn></msup><mi>y</mi><mo>&dot;</mo><mi>cos</mi><mi>y</mi><mo>&dot;</mo><mi>tang</mi><mi>y</mi><mo>&dot;</mo></mrow></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mfrac>
+                  <mrow>
+                    <mn>4</mn>
+                  </mrow>
+                  <mrow>
+                    <mn>27</mn>
+                  </mrow>
+                </mfrac>
+                <msup>
+                  <mi>sin</mi>
+                  <mn>2</mn>
+                </msup>
+                <mi>y</mi>
+                <mo/>
+                <mi>cos</mi>
+                <mi>y</mi>
+                <mo/>
+                <mi>tang</mi>
+                <mi>y</mi>
+                <mo/>
+              </mrow>
+            </math>
                     </formula> J'ai
                     cherché par le moyen des tables de sinus à donner différentes valeurs à l'angle
                     y pour trouver quel est le cas où le produit de ces quantités se trouve le plus
@@ -290,50 +447,50 @@
                     grande surface pour le porter vers f qui est égal à celui qu'il éprouve sur la
                     petite pour l'en éloigner. Cherchons l'expression de ces deux chocs. Le choc de
                     la rivière sur la <del>grande</del> surface S serait <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"/>
                     </formula> sans
                     l'obliquité. Mais dans la position où il est, pour avoir la force qui le pousse
                     vers f, il faut multiplier cette valeur par le carré du sinus, multipliant le
                     cosinus, le tout divisé par le cube du rayon ce qui donne :
                     <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"/>
                     </formula>. Mais comme le bac a une certaine vitesse,
                     il faut retrancher de cette impulsion une partie dont l'expression
                     <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"/>
                     </formula>. La force qui retient le bac peut <pb n="42" facs="#ACAS_CRHST_AMP_24_333_0042_v.jpg"/> être considérée comme
                     composée de deux autres. La première est celle qu'il éprouverait sur la surface
                     b s'il était en repos. L'expression en est <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"/>
                     </formula>. Le dernier facteur de ce produit est, comme vous
                     le voyez, pour avoir égard à la diminution de résistance qui vient de ce que le
                     côté b n'est pas perpendiculaire. C'est là l'expression que vous m'en avez
                     donné, mais je doute qu'elle soit exacte car outre les deux décompositions qui
                     sont exprimées par <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"/>
                     </formula>, la résistance diminue encore à
                     raison de ce [que] la surface se présentant obliquement rencontre un moindre
                     nombre de parties de fluide et il faudrait, je crois, pour y avoir égard, mettre
                     <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"/>
                     </formula>. Le produit deviendrait alors
                     <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"/>
                     </formula>. Ou bien il faudra prendre pour
                     surface choquée une section du bac faite dans le milieu et c'est ce que j'ai
                     supposé dans cette solution. A cette expression il faut ajouter la résistance
                     qui naît du mouvement du bac, dont l'expression est
                    <formula>
-                       <math xmlns="http://www.w3.org/1998/Math/MathML"></math>
+                       <math xmlns="http://www.w3.org/1998/Math/MathML"/>
                    </formula>. L'équation totale est donc :
                    <formula>
-                       <math xmlns="http://www.w3.org/1998/Math/MathML"></math>
+                       <math xmlns="http://www.w3.org/1998/Math/MathML"/>
                    </formula> - <formula>
-                       <math xmlns="http://www.w3.org/1998/Math/MathML"></math>
+                       <math xmlns="http://www.w3.org/1998/Math/MathML"/>
                    </formula> En supposant le rayon égal à 1 on
                     pourra effacer tous les v et cherchant la valeur v c'est-à-dire la vitesse du
                     bac, on aura  : <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"/>
                     </formula> Telle
                     est l'équation que j'ai amenée pour déterminer la <pb n="43" facs="#ACAS_CRHST_AMP_24_333_0043_r.jpg"/> vitesse d'un bac quelconque.
                     Pour ce qui est de l'angle qu'il doit faire, je ne l'a point cherché parce qu'il

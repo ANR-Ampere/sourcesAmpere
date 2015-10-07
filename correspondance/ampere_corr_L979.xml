@@ -1,4 +1,3 @@
-
 <?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -133,7 +132,8 @@
     <text type="correspondance" decls="#ampere_corr_L1793-05-02-a">
         <body>
             <div xml:id="L1793-05-02-a-div1">
-                <opener><pb n="55" facs="#ACAS_CRHST_AMP_24_333_0055_r.jpg"/> à <placeName>Lyon</placeName>le<date when="1793-05-02"> 2 mai 1793.</date>
+                <opener>
+          <pb n="55" facs="#ACAS_CRHST_AMP_24_333_0055_r.jpg"/> à <placeName>Lyon</placeName>le<date when="1793-05-02"> 2 mai 1793.</date>
                 </opener>
                 <p xml:id="L1793-05-02-a-p1">Je ne sais, Monsieur, comment vous avez pu répondre à ma lettre aussi promptement
                     que vous l'avez fait. J'aurais bien souhaité correspondre à votre exactitude,
@@ -178,26 +178,145 @@
                     résoudre et je vais vous montrer pourquoi. Appelant <figure/> a la solidité [le volume],
                     il faudra diviser a par la surface de la base pour avoir la hauteur du côté. Le
                     diamètre de la base étant supposé égal à x, sa surface sera <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mi>b</mi><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mfrac>
+                  <mrow>
+                    <mi>b</mi>
+                    <msup>
+                      <mi>x</mi>
+                      <mn>2</mn>
+                    </msup>
+                  </mrow>
+                  <mrow>
+                    <mn>4</mn>
+                  </mrow>
+                </mfrac>
+              </mrow>
+            </math>
                     </formula> en
                     appelant b la quantité par laquelle il faut multiplier le diamètre pour avoir la
                     circonférence. Divisant donc a par <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mi>b</mi><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mfrac>
+                  <mrow>
+                    <mi>b</mi>
+                    <msup>
+                      <mi>x</mi>
+                      <mn>2</mn>
+                    </msup>
+                  </mrow>
+                  <mrow>
+                    <mn>4</mn>
+                  </mrow>
+                </mfrac>
+              </mrow>
+            </math>
                     </formula> , nous aurons <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mn>4</mn><mi>a</mi></mrow><mrow><mi>b</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mfrac>
+                  <mrow>
+                    <mn>4</mn>
+                    <mi>a</mi>
+                  </mrow>
+                  <mrow>
+                    <mi>b</mi>
+                    <msup>
+                      <mi>x</mi>
+                      <mn>2</mn>
+                    </msup>
+                  </mrow>
+                </mfrac>
+              </mrow>
+            </math>
                     </formula>
                     pour expression du côté c, c'est-à-dire de la hauteur du cylindre. Il faut
                     multiplier ce même côté par bx, circonférence de la base, afin d'avoir la
                     surface latérale qui est <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mn>4</mn><mi>a</mi><mi>b</mi><mi>x</mi></mrow><mrow><mi>b</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mfrac>
+                  <mrow>
+                    <mn>4</mn>
+                    <mi>a</mi>
+                    <mi>b</mi>
+                    <mi>x</mi>
+                  </mrow>
+                  <mrow>
+                    <mi>b</mi>
+                    <msup>
+                      <mi>x</mi>
+                      <mn>2</mn>
+                    </msup>
+                  </mrow>
+                </mfrac>
+              </mrow>
+            </math>
                     </formula>. Y ajoutant <pb n="57" facs="#ACAS_CRHST_AMP_24_333_0057_r.jpg"/> la surface de la base que
                     nous avons trouvée <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"/>
                     </formula>, nous aurions <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mi>4</mi><mi>a</mi><mi>b</mi><mi>x</mi></mrow><mrow><mi>b</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mfrac><mrow><mi>b</mi><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mfrac>
+                  <mrow>
+                    <mi>4</mi>
+                    <mi>a</mi>
+                    <mi>b</mi>
+                    <mi>x</mi>
+                  </mrow>
+                  <mrow>
+                    <mi>b</mi>
+                    <msup>
+                      <mi>x</mi>
+                      <mn>2</mn>
+                    </msup>
+                  </mrow>
+                </mfrac>
+                <mo>+</mo>
+                <mfrac>
+                  <mrow>
+                    <mi>b</mi>
+                    <msup>
+                      <mi>x</mi>
+                      <mn>2</mn>
+                    </msup>
+                  </mrow>
+                  <mrow>
+                    <mn>4</mn>
+                  </mrow>
+                </mfrac>
+              </mrow>
+            </math>
                     </formula> ou bien <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mn>4</mn><mi>a</mi></mrow><mrow><mi>x</mi></mrow></mfrac><mo>+</mo><mfrac><mrow><mi>b</mi><msup><mi>x</mi><mn>2</mn></msup></mrow>
-                        <mrow><mn>4</mn></mrow></mfrac></mrow></math>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mfrac>
+                  <mrow>
+                    <mn>4</mn>
+                    <mi>a</mi>
+                  </mrow>
+                  <mrow>
+                    <mi>x</mi>
+                  </mrow>
+                </mfrac>
+                <mo>+</mo>
+                <mfrac>
+                  <mrow>
+                    <mi>b</mi>
+                    <msup>
+                      <mi>x</mi>
+                      <mn>2</mn>
+                    </msup>
+                  </mrow>
+                        <mrow>
+                    <mn>4</mn>
+                  </mrow>
+                </mfrac>
+              </mrow>
+            </math>
                     </formula> qui doit être un minimum. Mais il se trouve dans l'expression de
                     cette quantité, un b qui exprime le rapport du rayon à la circonférence. Ce
                     rapport étant indéterminable, je n'ai pu différentier. La même difficulté m'a
