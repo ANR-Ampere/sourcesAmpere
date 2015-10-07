@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -75,7 +76,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1824-05-20-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -95,11 +96,11 @@
                <witness xml:id="L926manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 334</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 334</idno>
                      </msIdentifier>
                   </msDesc>
           </witness>
@@ -133,7 +134,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -155,16 +156,17 @@
       <body>
          <div xml:id="L1824-05-20-a-div1">
             <opener>
-          <date when="18124-05-20">20 mai 1824</date>
+               <pb n="133" facs="#ACAS_CRHST_AMP_24_334_0133_r.jpg"/> <date when="18124-05-20">20 mai 1824</date>
         </opener>
             <p xml:id="L1824-05-20-a-p1">
-          <gap xmlns="" reason="lacune_CGA"/> Tu n'as point de temps, non plus moi <gap xmlns="" reason="lacune_CGA"/> Cependant deux mots pour me dire où en est ton
-               être, ta vie, ton contentement. Quant à moi, je n'ai rien à te dire. Tu sais bien que
+          <gap reason="lacune_CGA"/> Tu n'as point de temps, non plus moi <gap reason="lacune_CGA"/> Cependant deux mots pour me dire où en est ton
+               être, ta vie, ton contentement.<pb n="134" facs="#ACAS_CRHST_AMP_24_334_0134_v.jpg"/> Quant à moi, je n'ai rien à te dire. Tu sais bien que
                mon sort ne peut s'améliorer par aucun moyen naturel et il me semble impossible qu'il
-               empire. A la volonté de <persName>Dieu</persName> ! Il ne peut empirer que sous le rapport pécuniaire ;
-               aussi le fait-il <gap xmlns="" reason="lacune_CGA"/> <persName>Ballanche</persName> me dit que ton fils
-               fait de si beaux vers <ref>(2)</ref>. Quand tu viendras, tu m'apporteras son voyage, nous le
-               lirons ensemble <gap xmlns="" reason="lacune_CGA"/>
+               empire. A la volonté de <persName>Dieu</persName> !</p>
+            <p xml:id="L1824-05-20-a-p2">Il ne peut empirer que sous le rapport pécuniaire ;
+               aussi le fait-il <gap reason="lacune_CGA"/> <persName>Ballanche</persName> me dit que ton fils
+               fait de si beaux vers <ref target="#corresp2">(2)</ref>. Quand tu viendras, tu m'apporteras son<cb/> voyage, nous le
+               lirons ensemble <gap reason="lacune_CGA"/>
         </p>
          </div>
       </body>
@@ -172,7 +174,8 @@
          <div xml:id="L1824-05-20-a-div2">
             <note resp="#CGA" xml:id="corresp1">(1) Il y a, dans la correspondance avec <persName>Ampère</persName>, une lacune de
                quatre ans. C'est l'époque où<persName> Ampère</persName> lit ses découvertes électriques et où <persName>Ballanche</persName>
-               écrivit <title>l'Homme sans nom</title>. (2) <persName>J.-J. Ampère</persName> avait écrit d'abord, avant son voyage
+               écrivit <title>l'Homme sans nom</title>.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) <persName>J.-J. Ampère</persName> avait écrit d'abord, avant son voyage
                d'Italie, en <date when-iso="1824">1824</date>, une tragédie intitulée <title>
             <persName>Rosemonde</persName>
           </title>. Il écrivit ensuite <title>

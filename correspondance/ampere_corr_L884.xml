@@ -1,4 +1,5 @@
-<?xml-model href="../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -78,7 +79,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1811-01-19-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>Pictet</surname>
                      <forename>Marc-Auguste</forename>
@@ -103,11 +104,11 @@
                <witness xml:id="L884manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">Suisse</country>
-                        <settlement xmlns="">Genève</settlement>
-                        <institution xmlns="">Archives de la Fondation F. Rilliet</institution>
-                        <repository xmlns="">Fonds Pictet</repository>
-                        <idno xmlns="">K4 [note de René SIGRIST]</idno>
+                        <country>Suisse</country>
+                        <settlement>Genève</settlement>
+                        <institution>Archives de la Fondation F. Rilliet</institution>
+                        <repository>Fonds Pictet</repository>
+                        <idno>K4 [note de René SIGRIST]</idno>
                      </msIdentifier>
                   </msDesc>
           </witness>
@@ -162,7 +163,8 @@
             <opener>
           <date when="1811-01-19">19 janvier 1811</date>
         </opener>
-            <p xml:id="L1811-01-19-a-p1">Très cher et très honoré collègue <ref>(2)</ref>, Je veille toujours autant qu'il est en moi sur
+            <opener>Très cher et très honoré collègue <ref target="#corresp2">(2)</ref>,</opener>
+            <p xml:id="L1811-01-19-a-p1"> Je veille toujours autant qu'il est en moi sur
                l'affaire relative à l'<orgName>Académie de <placeName>Genève</placeName>
           </orgName>, mais vous savez comme tout va lentement.
                Je ne sais rien de nouveau à cet égard depuis ma dernière lettre. Aujourd'hui j'ai à
@@ -187,28 +189,32 @@
                s'étaient présentés à notre concours, de leur faire subir devant vous, si vous voulez
                de concert avec M. <persName>Boissier</persName>, un examen concurremment avec ceux qui n'ayant pas voulu
                se présenter dans le temps se seraient ravisés depuis, et aspireraient aux bourses
-               pour le Lycée de <placeName>Grenoble</placeName>. M. le Curé de <placeName>Genève</placeName> <ref>(3)</ref> vous dira les noms de plusieurs
+               pour le Lycée de <placeName>Grenoble</placeName>. M. le Curé de <placeName>Genève</placeName> <ref target="#corresp3">(3)</ref> vous dira les noms de plusieurs
                de ceux que nous avons examinés, mais dont les noms et les notes sont également
                perdus. Je crois me souvenir que c'est parmi ceux qu'il connaissait que se trouvait
                ce jeune homme qui nous semblait le plus fort. Au reste nous nous en remettons
-               entièrement à vous sur tout ce qu'il convient de faire à ce sujet. Nous croyons
+               entièrement à vous sur tout ce qu'il convient de faire à ce sujet.</p>
+            <p xml:id="L1811-01-19-a-p2">Nous croyons
                seulement devoir vous dire que les meilleures places actuellement vacantes au <orgName>Lycée
                de <placeName>Grenoble</placeName>
           </orgName> sont des trois quarts ; on ne pourra donc être nommé cette année qu'à
                cette sorte de places, mais cela n'ôtera pas à ceux qui en auront obtenu le droit
-               d'être nommés à une des bourses entières lorsqu'il y en aura de vacantes. Si vous
+               d'être nommés à une des bourses entières lorsqu'il y en aura de vacantes.</p>
+            <p xml:id="L1811-01-19-a-p3">Si vous
                pouvez nous envoyer incessamment une liste de quelques candidats rangés dans l'ordre
                où vous aurez jugé qu'il méritent d'être placés, vous nous ferez d'autant plus de
                plaisir qu'on n'attend plus que cela pour procéder aux nominations du <orgName>Lycée de
                <placeName>Grenoble</placeName>
-          </orgName>. Il n'y a rien de nouveau à ma connaissance au sujet des demandes de
+          </orgName>.</p>
+            <p xml:id="L1811-01-19-a-p4">Il n'y a rien de nouveau à ma connaissance au sujet des demandes de
                l'<orgName>Académie de <placeName>Genève</placeName>
           </orgName> ; je m'en informerai en portant cette lettre à l'Université, et
                s'il y avait quelque chose qui en valût la peine, je la rouvrirai pour vous le
                mander. Je vous prie, mon très cher et très honorable collègue, d'agréer l'hommage de
                tous les sentiments que je vous ai voués pour la vie. M. <persName>Roman</persName> me charge de vous
                offrir mille sincères compliments. J'y joins tous les vœux de la plus tendre amitié
-               et du plus entier dévouement. <persName>A. Ampère</persName>
+               et du plus entier dévouement.<lb/>
+               <persName>A. Ampère</persName>
         </p>
          </div>
       </body>
@@ -216,8 +222,10 @@
          <div xml:id="L1811-01-19-a-div2">
             <note resp="#CGA" xml:id="corresp1">(1) <persName>Ampère</persName> s'est trompé : il s'agit de <date when-iso="1811">1811</date>, comme le montre un
                résumé de cette lettre fait par <persName>Pictet</persName>, correctement daté du <date when="1811-01-19">19 janvier 1811</date> (PR  :
-               J. con. II/13, <date from-iso="1810" to-iso="1811">1810-11</date>). (2) <persName>Ampère</persName> et <persName>Pictet</persName> étaient tous deux inspecteurs généraux
-               de l'<orgName>Université impériale</orgName>. (3) Le culte catholique avait été réintroduit à <placeName>Genève</placeName> au
+               J. con. II/13, <date from-iso="1810" to-iso="1811">1810-11</date>).</note>
+            <note resp="#CGA" xml:id="corresp2">(2) <persName>Ampère</persName> et <persName>Pictet</persName> étaient tous deux inspecteurs généraux
+               de l'<orgName>Université impériale</orgName>.</note>
+            <note resp="#CGA" xml:id="corresp3">(3) Le culte catholique avait été réintroduit à <placeName>Genève</placeName> au
                moment de l'annexion à la <placeName>France</placeName>, en <date when-iso="1798">1798</date>.</note>
          </div>
       </back>

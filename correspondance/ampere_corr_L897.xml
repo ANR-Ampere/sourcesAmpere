@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -78,7 +79,7 @@
       </publicationStmt>
       <sourceDesc>
         <biblStruct xml:id="ampere_corr_L1816-03-28-a">
-          <monogr xmlns="">
+          <monogr>
             <author>
               <surname>Pictet</surname>
               <forename>Marc-Auguste</forename>
@@ -102,11 +103,11 @@
           <witness xml:id="L897manuscrit">
             <msDesc type="original_manuscrit">
               <msIdentifier>
-                <country xmlns="">Suisse</country>
-                <settlement xmlns="">Genève</settlement>
-                <institution xmlns="">Archives de la Fondation F. Rilliet</institution>
-                <repository xmlns="">Fonds Pictet</repository>
-                <idno xmlns="">K4 [note de René SIGRIST]</idno>
+                <country>Suisse</country>
+                <settlement>Genève</settlement>
+                <institution>Archives de la Fondation F. Rilliet</institution>
+                <repository>Fonds Pictet</repository>
+                <idno>K4 [note de René SIGRIST]</idno>
               </msIdentifier>
             </msDesc>
           </witness>
@@ -158,11 +159,12 @@
     <body>
       <div xml:id="L1816-03-28-a-div1">
         <opener>
-          <date when="1816-03-28">28 mars 1816</date>
+         <placeName>Paris</placeName>, <date when="1816-03-28">28 mars 1816</date>
         </opener>
-        <p xml:id="L1816-03-28-a-p1">Monsieur et très cher collègue, Que de remerciements ne vous dois-je pas de tous les
+        <opener>Monsieur et très cher collègue,</opener>
+        <p xml:id="L1816-03-28-a-p1"> Que de remerciements ne vous dois-je pas de tous les
           soins que vous vous êtes donnés pour me procurer ce tellure que je désire si vivement
-          <ref>(2)</ref> ! J'ai bien reconnu dans cette occasion votre extrême obligeance et l'amitié que vous
+          <ref target="#corresp1">(1)</ref> ! J'ai bien reconnu dans cette occasion votre extrême obligeance et l'amitié que vous
           avez la bonté d'avoir pour moi ; tout mon cœur y répond, et je désirerais que vous
           eussiez quelque chose à faire ici pour que je pusse vous montrer ma reconnaissance par mon
           zèle à exécuter vos commissions. Je regrette plus encore que vous, Monsieur et bien cher
@@ -173,40 +175,46 @@
           ce que je ferai incessamment pour la partie des sciences. Il y a un autre journal qui
           commence ici sous d'heureux auspices, ce sont les <title>Annales de Chimie et de Physique</title> faisant
           suite aux <title>Annales de Chimie</title>. Il paraît qu'il va publier une suite d'observations aussi
-          neuves qu'importantes sur la lumière <ref>(3)</ref>, on dit qu'il en résulte des preuves indubitables
+          neuves qu'importantes sur la lumière <ref target="#corresp2">(2)</ref>, on dit qu'il en résulte des preuves indubitables
           en faveur du système des vibrations de l'éther. Mais je ne sais pas encore tous les
           détails relatifs à cette nouvelle théorie, quoiqu'on en ait déjà discuté dans les séances
-          de l'<orgName>Institut</orgName>. Je n'y étais malheureusement pas quand on a lu le rapport à ce sujet <ref>(4)</ref>,
-          j'arrivai pendant la discussion au reste tout cela sera bientôt publié. Je vous prie de ne
+          de l'<orgName>Institut</orgName>. Je n'y étais malheureusement pas quand on a lu le rapport à ce sujet <ref target="#corresp3">(3)</ref>,
+          j'arrivai pendant la discussion au reste tout cela sera bientôt publié.</p>
+        <p xml:id="L1816-03-28-a-p2">Je vous prie de ne
           point m'oublier auprès de nos communs amis de <placeName>Genève</placeName>, asile des sciences où grâce à votre
           zèle et au leur elles fleuriront toujours de plus en plus. Permettez-moi de vous
           renouveler mes remerciements, et de vous prier d'agréer l'hommage de ma haute estime et de
-          la plus vive amitié. J'ai l'honneur d'être, Monsieur et très cher collègue votre très
-          humble et très obéissant serviteur, <persName>A. Ampère</persName>
+          la plus vive amitié.</p>
+        <p xml:id="L1816-03-28-a-p3">J'ai l'honneur d'être, Monsieur et très cher collègue votre très
+          humble et très obéissant serviteur,<lb/>
+          <persName>A. Ampère</persName>
         </p>
         <closer>à Monsieur le professeur <persName>Pictet</persName> de l'<orgName>Académie de <placeName>Genève</placeName>
           </orgName> et de l'<orgName>Institut Royal de
-          France</orgName>, rue des belles femmes <ref>(1)</ref> à <placeName>Genève</placeName>
+          France</orgName>, rue des belles femmes <ref target="#corresp4">(4)</ref> à <placeName>Genève</placeName>
         </closer>
       </div>
     </body>
     <back>
       <div xml:id="L1816-03-28-a-div2">
-        <note resp="#CGA" xml:id="corresp1">(1) En réalité rue des belles filles, aujourd'hui rue Étienne
-          Dumont. (2) Le tellure, que l'on trouve généralement associé à des minerais de bismuth, de
+      
+        <note resp="#CGA" xml:id="corresp1">(1) Le tellure, que l'on trouve généralement associé à des minerais de bismuth, de
           plomb, d'or ou d'argent ne se rencontrait guère que dans quelques localités de <placeName>Hongrie</placeName> et
-          de <placeName>Transylvanie</placeName>. (3) Il s'agit du <title>Mémoire sur la diffraction de la lumière</title> envoyé par
-          <persName>Fresnel</persName> à l'<orgName>Institut</orgName> en <date when-iso="1815-10">octobre 1815</date>. Ce mémoire expliquait notamment le phénomène des
-          interférences à partir de la théorie ondulatoire héritée de <persName>Huyghens</persName>, <persName>Euler</persName> et <persName>Young</persName>. (4)
-          Ce rapport, présenté par <persName>Arago</persName> et <persName>Poinsot</persName> le <date when="1816-03-27">27 mars 1816</date>, concluait de l'accord du calcul
-          avec l'expérience que l'hypothèse ondulatoire présentée par <persName>Fresnel</persName> «sans être
-          complètement garantie, mérite d'être étudiée», opinion qui fut combattue par <persName>Biot</persName> et
+          de <placeName>Transylvanie</placeName>.</note>
+        <note resp="#CGA" xml:id="corresp2">(2) Il s'agit du <title>Mémoire sur la diffraction de la lumière</title> envoyé par
+          <persName>Fresnel</persName> à l'<orgName>Institut</orgName> en <date when-iso="1815-10-00">octobre 1815</date>. Ce mémoire expliquait notamment le phénomène des
+          interférences à partir de la théorie ondulatoire héritée de <persName>Huyghens</persName>, <persName>Euler</persName> et <persName>Young</persName>.</note>
+        <note resp="#CGA" xml:id="corresp3">(3) Ce rapport, présenté par <persName>Arago</persName> et <persName>Poinsot</persName> le <date when="1816-03-27">27 mars 1816</date>, concluait de l'accord du calcul
+          avec l'expérience que l'hypothèse ondulatoire présentée par <persName>Fresnel</persName> <cit><quote>sans être
+          complètement garantie, mérite d'être étudiée</quote></cit>, opinion qui fut combattue par <persName>Biot</persName> et
           Laplace. C'est vraisemblablement pourquoi ce rapport ne fut pas publié dans les
           procès-verbaux des séances de l'<orgName>Institut</orgName>. Le mémoire de <persName>Fresnel</persName> sera néanmoins publié dans
-          les <title>Annales de Chimie et de Physique</title>, 1, <date when-iso="1816">1816</date>, mais ne sera couronné par l'<orgName>Institut</orgName> qu'en
+          les <title>Annales de Chimie et de Physique</title>, 1, <date when-iso="1816-00-00">1816</date>, mais ne sera couronné par l'<orgName>Institut</orgName> qu'en
           <date when-iso="1819">1819</date>. Il sera alors publié une nouvelle fois dans les <title>Annales de Chimie et de Physique</title> (t.
           11) avant d'être inséré dans le t. V des <title>Mémoires de l'<orgName>Académie</orgName>
-          </title> (<date when-iso="18126">1826</date>). </note>
+          </title> (<date when-iso="18126-00-00">1826</date>). </note>
+        <note resp="#CGA" xml:id="corresp4">(4) En réalité rue des belles filles, aujourd'hui rue <persName>Étienne
+          Dumont</persName>.</note>
       </div>
     </back>
   </text>

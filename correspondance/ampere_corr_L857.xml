@@ -1,4 +1,5 @@
-<?xml-model href="../../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -133,14 +134,13 @@
     <text type="correspondance" decls="#ampere_corr_L1822-06-05-a">
         <body>
             <div xml:id="L1822-06-05-a-div1">
-                <opener>
-                    <date when="1822-06-05">5 juin 1822</date>
+                <opener><placeName>Rhône</placeName>, <date when="1822-06-05">5 juin 1822</date>
                 </opener>
-                <p xml:id="L1822-06-05-a-p1">A Monsieur <persName>Bredin</persName>, directeur de
+                <opener>>A Monsieur <persName>Bredin</persName>, directeur de
                     l'<orgName>école Royale Vétérinaire à <placeName>Lyon</placeName>
-          </orgName>, <placeName>Rhône</placeName>
-                    <date when="1822-06-05">5 juin
-                    1822</date>. Cher ami, je te
+                    </orgName>.</opener>
+                <opener> Cher ami,</opener>
+                <p xml:id="L1822-06-05-a-p1"> je te
                     remercie de ta lettre. Elle a été un vrai bonheur pour moi. Je n'en ai plus
                     d'autres que de recevoir de tes nouvelles, d'entendre mon fils me dire des vers
                     et de voir <persName>Ballanche</persName>. Tu m'as bien fait plaisir en
@@ -159,22 +159,23 @@
                     extrémités à l'autre qu'en passant successivement par les deux parties, l'une
                     fixe et l'autre mobile de ce circuit qui doivent agir l'une sur l'autre. Je n'ai
                     pas le temps de t'écrire plus longuement préparant un mémoire que je dois lire
-                    lundi prochain à l'<orgName>Institut</orgName>. Et c'est aujourd'hui
+                    lundi prochain à l'<orgName>Institut</orgName>.</p>
+                <p xml:id="L1822-06-05-a-p2">Et c'est aujourd'hui
                     <date when="1822-06-07">vendredi 7 juin</date> que je reprends ma lettre
                     commencée avant-hier. <persName>Dupré</persName> est ici, il se porte bien ainsi
                     que <persName>Ballanche</persName>, <persName>Montbel</persName> et mon fils.
                     Nous t'aimons tous plus que tu ne peux l'imaginer. On voit à l'exposition de
                     cette année un tableau de la <placeName>vallée de Baunan</placeName> où est
-                    <placeName>Taffignon</placeName>. Hier <persName>Ampère</persName>,
-                    [<persName>Jean-Jacques</persName>, fils d'<persName>André-Marie</persName>] a
-                    lu à <persName>Ballanche</persName> à moi et à 3 ou 4 autres personnes ce qui
+                    <placeName>Taffignon</placeName>. Hier <persName>Ampère</persName> <ref target="#corresp1">(1)</ref>,
+                     a lu à <persName>Ballanche</persName> à moi et à 3 ou 4 autres personnes ce qui
                     est fait de sa pièce, ce sont 4 actes moins deux scènes laissées en arrière. Ne
                     parle pas toujours de cela mais parle librement de mon voyage à
                     <placeName>Lyon</placeName> où j'espère être au commencement d'août. Quel
-                    bonheur pour moi de te revoir. Tu sais combien tendrement ton ami t'embrasse.
+                    bonheur pour moi de te revoir. Tu sais combien tendrement ton ami t'embrasse.<lb/>
                     <persName>A. Ampère</persName>
                 </p>
             </div>
         </body>
+        <back><div><note resp="#CAK" xml:id="corresp1"><persName>Jean-Jacques</persName>, fils d'<persName>André-Marie</persName></note></div></back>
     </text>
 </TEI>

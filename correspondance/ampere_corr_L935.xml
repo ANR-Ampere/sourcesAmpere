@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -75,7 +76,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1829-04-15-a">
-               <monogr xmlns="">
+               <monogr>
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -95,11 +96,11 @@
                <witness xml:id="L935manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country xmlns="">France</country>
-                        <settlement xmlns="">Paris</settlement>
-                        <institution xmlns="">Archives de l'Académie des sciences</institution>
-                        <repository xmlns="">Fonds André-Marie Ampère</repository>
-                        <idno xmlns="">chemise 334</idno>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 334</idno>
                      </msIdentifier>
                   </msDesc>
           </witness>
@@ -152,10 +153,11 @@
       <body>
          <div xml:id="L1829-04-15-a-div1">
             <opener>
-          <date when="1829-04-15">15 avril 1829</date>
+               <pb n="375" facs="#ACAS_CRHST_AMP_24_334_0375_r.jpg"/> <placeName>Lyon</placeName>  <date when="1829-04-15">15 avril 1829</date>
         </opener>
-            <p xml:id="L1829-04-15-a-p1">Lundi j'ai pris la plume, ou plutôt le roseau, tout exprès pour te parler de <persName>Bonjour</persName>
-               et je l'ai oublié. Mais hier, j'ai rencontré à minuit cet excellent homme qui
+            <opener>Cher ami,</opener>
+            <p xml:id="L1829-04-15-a-p1"> <gap reason="lacune_CGA"/> Lundi j'ai pris la plume, ou plutôt le roseau, tout exprès pour te parler de <persName>Bonjour</persName>
+               et je l'ai oublié. <gap reason="lacune_CGA"/> Mais hier, j'ai rencontré à minuit cet excellent homme qui
                promenait sa rêverie sur le quai. J'étais avec ma femme et trois de mes enfants. Il
                est revenu avec nous. Il a été émerveillé d'entendre ma femme parler médecine et
                philosophie. Je n'ai pas besoin de te dire si, entre <persName>Bonjour</persName> et moi, il a été
@@ -163,8 +165,9 @@
                cher ami. Tu as déjà fait la demande que je t'ai dit. On n'a pu te la refuser. Le
                repos et l'air de la <placeName>Saône</placeName> te fortifieront et, l'hiver prochain, on imprimera ton
                cours. Nous irons voir <persName>Gasparin</persName>. Il y aura un paquebot à vapeur sur le <placeName>Rhône</placeName> qui, de
-               <placeName>Lyon</placeName>, ira coucher à <placeName>Arles</placeName> <gap xmlns="" reason="lacune_CGA"/>
+               <placeName>Lyon</placeName>, ira coucher à <placeName>Arles</placeName> <gap reason="lacune_CGA"/>
         </p>
+            <closer><pb n="376" facs="#ACAS_CRHST_AMP_24_334_0376_v.jpg"/> A monsieur <persName>Ampère</persName> de l'<orgName>Institut</orgName>, rue des fossés S<ex>ain</ex>t Victor n°19 à <placeName>Paris</placeName></closer>
          </div>
       </body>
    </text>

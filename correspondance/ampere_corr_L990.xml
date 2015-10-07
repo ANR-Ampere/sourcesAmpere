@@ -1,4 +1,5 @@
-<?xml-model href="../../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -135,7 +136,7 @@
     <text type="correspondance" decls="#ampere_corr_L1795-10-31-a">
         <body>
             <div xml:id="L1795-10-31-a-div1">
-                <opener>Le <date when="1795-10-31">samedi 31 8bre [1795]</date>
+                <opener><pb n="1" facs="#Institut_Ampere_L990_1.jpg"/> Le <date when="1795-10-31">samedi 31 <choice><abbr>8bre</abbr> <expan>octobre</expan></choice> [1795]</date>
         </opener>
                 <p xml:id="L1795-10-31-a-p1">Vous ne sauriez croire, Monsieur, le plaisir que m'a fait votre dernière lettre.
                     Depuis plus de huit jours, toutes les fois que je voyais arriver des lettres de
@@ -161,7 +162,7 @@
                     donner une idée de la bonne latinité. Et d'ailleurs, vous le savez mieux que
                     moi, on fait plus d'ouvrage en huit jours lorsqu'on s'adonne entièrement et par
                     goût à un travail quelconque, que si l'on y employait un mois, mais sans y
-                    mettre son application. Au reste vous savez que je ne suis pas plus constant que
+                    mettre son application. Au reste vous savez que je ne <pb n="2" facs="#Institut_Ampere_L990_2.jpg"/> suis pas plus constant que
                     vous. Les vers que vous avez la bonté de m'envoyer m'ont fait beaucoup de
                     plaisir. Outre que le sujet ne pouvait que m'être très agréable, je les ai très
                     fort goûtés. On voit bien que vous les faites sans travail, car ils sont on ne
@@ -178,15 +179,17 @@
                     satisfaction d'en recevoir de vous. Mais comme je sais que les muses ne sont pas
                     toujours à nos ordres, tout ce que je puis faire c'est de vous prier de profiter
                     des moments où la vôtre voudra bien vous inspirer. Je vous en aurais bien de
-                    l'obligation. D'après ce que vous m'avez dit sur la table des réfractions, je
+                    l'obligation.</p>
+                <p xml:id="L1795-10-31-a-p2">D'après ce que vous m'avez dit sur la table des réfractions, je
                     vois qu'on peut très facilement la prolonger et l'erreur sera absolument
                     insensible. Ainsi je compte la continuer et l'écrire sur mon cahier d'extraits,
                     parce qu'elle pourra m'être souvent utile. J'avais cru d'abord qu'elle ne
-                    pouvait point servir à remplacer la correction de M. <persName>[Deluc]</persName> <ref type="ouvrages_mentionnes" target="#ampere_ref_P385.xml">*</ref>, mais d'après ce que vous m'en dites je
+                    pouvait point servir à remplacer la correction de M. <persName>Deluc</persName> <ref type="ouvrages_mentionnes" target="#ampere_ref_P385.xml">*</ref>, mais d'après ce que vous m'en dites je
                     conçois que cela peut se faire bien facilement. J'ai trouvé seulement que la
-                    correction qui en résulte est un peu plus faible que celle de M. <persName>[Deluc]</persName>,
-                    n'étant guère que de 1/180, mais M. <persName>[de Saussure]</persName> <ref type="ouvrages_mentionnes" target="#ampere_ref_P384.xml">*</ref> observe aussi que la correction de M.
-                    <persName>[Deluc]</persName> est en général trop forte. Ce n'est point par la méthode des
+                    correction qui en résulte est un peu plus faible que celle de M. <persName>Deluc</persName>,
+                    n'étant guère que de 1/180, mais M. <persName>de Saussure</persName> <ref type="ouvrages_mentionnes" target="#ampere_ref_P384.xml">*</ref> observe aussi que la correction de M.
+                    <persName>Deluc</persName> est en général trop forte.</p>
+                <p xml:id="L1795-10-31-a-p3">><pb n="3" facs="#Institut_Ampere_L990_3.jpg"/>Ce n'est point par la méthode des
                     alignements, ni avec mon instrument, qui ne vient que d'être achevé, que j'ai
                     trouvé la position des étoiles que je connais. C'est uniquement en comparant
                     leurs ascensions droites et leurs déclinaisons. Je connaissais depuis longtemps
@@ -201,17 +204,19 @@
                     que j'aurais mise à profiter de vos leçons j'en serais infiniment plus avancé
                     que je ne suis. Vous avez bien de la bonté de vouloir m'aider au moins par écrit
                     dans cette recherche. Pour que vous puissiez le faire, il faut que je vous dise
-                    où j'en suis. Mon auteur <persName>Sigaud de la Fond</persName> <ref type="ouvrages_mentionnes" target="#ampere_ref_P386.xml">*</ref> donne le nom des 48 constellations anciennes, ensuite de 12 autres
-                    décrites par Bayer en <date when-iso="1677">1677</date> qui sont le Phénix, la Grue, le Paon, l'Indien,
+                    où j'en suis.
+                Mon auteur <persName>Sigaud de la Fond</persName> <ref type="ouvrages_mentionnes" target="#ampere_ref_P386.xml">*</ref> donne le nom des 48 constellations anciennes, ensuite de 12 autres
+                    décrites par Bayer en <date when-iso="1677-00-00">1677</date> qui sont le Phénix, la Grue, le Paon, l'Indien,
                     l'Oiseau de paradis, le Triangle austral, l'Abeille, le Caméléon, le Poisson
                     volant, le Toucan, l'Hydre mâle et Xifias. Il dit qu'elles sont toutes
                     invisibles. Il en ajoute ensuite 14 de Lacaille, qu'il observa au cap de
                     Bonne-Espérance, 11 de Royer, qui sont la Girafe, le Fleuve du Jourdain, le
                     Fleuve du Tigre, le Sceptre, la Fleur de Lys, la Colombe, la Licorne, le Grand
                     et le Petit Nuage, la Croix et le Rhomboïde ; 3 de Hevelius savoir : le Lévrier,
-                    le Lynx et Cerbère, et enfin [Messier] de Lalande. Dans tout cela je connais de
+                    le Lynx et Cerbère, et enfin Messier de Lalande.</p>
+                <p xml:id="L1795-10-31-a-p4">Dans tout cela je connais de
                     la Grande Ourse les 7 étoiles formant le Chariot, dans la Petite Ourse de même,
-                    dans le Bouvier Arcturus, dans Hercule une à la tête de seconde grandeur, dans
+                    dans le Bouvier Arcturus, dans Hercule une à la tête de seconde grandeur, <pb n="4" facs="#Institut_Ampere_L990_4.jpg"/> dans
                     la Lyre Brinek, dans le Cygne une sur la queue, dans Cassiopée 5, dans Persée
                     une à la tête et l'autre à la Tête de Méduse, dans Andromède 3 ou 4, dans le
                     Cocher la Chèvre, dans Pégase 3, mais dont je ne suis pas bien sûr, dans l'Aigle
@@ -236,7 +241,7 @@
                     le Vaisseau 4 étoiles de 3ème grandeur formant un losange. Je crois connaître
                     aussi, sans en être sûr, une étoile que mon auteur appelle la Mâchoire de la
                     Baleine et qui me paraît tout au plus de la 3ème grandeur. Je vois aussi une
-                    étoile à peu près de la même grandeur que celle-là près de Rigel que je
+                    étoile à peu près de la même grandeur que celle-là près <pb n="5" facs="#Institut_Ampere_L990_5.jpg"/> de Rigel que je
                     soupçonne être le commencement de l'Eridan. Je vois sous les pieds d'Orion un
                     assemblage d'étoiles qui me paraît être le Lièvre. Je crois voir de même entre
                     la Lyre, le Cygne, l'Aigle et le Dauphin quelques traces du Fleuve du Tigre. Il
@@ -248,24 +253,27 @@
                     si longtemps. Il se trouve que ce n'est qu'une étoile de la 5ème grandeur. Il y
                     a une étoile que je ne trouve point dans mon auteur, qui me paraît cependant de
                     la 2ème grandeur. Elle passe par le méridien au 1er 9bre environ à 8 heures
-                    &amp;frac34;, n'étant élevée sur l'horizon que de 15 degrés environ. J'aurais
+                    3/4, n'étant élevée sur l'horizon que de 15 degrés environ. J'aurais
                     peut-être appris à connaître bien d'autres étoiles, si j'avais pu les voir de
                     grand matin avant le jour, mais toutes les fois que j'ai voulu me lever pour
-                    cela, le temps s'est trouvé couvert. Je vous ai sans doute bien ennuyé par tous
+                    cela, le temps s'est trouvé couvert.</p>
+                <p xml:id="L1795-10-31-a-p5">Je vous ai sans doute bien ennuyé par tous
                     ces détails dont vous n'aviez pas besoin. Mais il me semble que je ne puis rien
                     voir sans que je ne désire vous en parler, et j'espère que cela vous engagera à
                     faire de même ; car je désire avec encore plus d'empressement savoir les plus
                     petits détails des choses qui vous occupent, de sorte que je puisse vous suivre
                     comme si j'étais auprès de vous. Ainsi permettez que je continue sur le même
-                    ton. Je me suis occupé à calculer par approximation la position des planètes. Je
-                    me suis servi pour cela d'un almanach de 1789 qui marque seulement leur position
+                    ton.</p>
+                <p xml:id="L1795-10-31-a-p6">Je me suis occupé à calculer par approximation la position des planètes. Je
+                    me suis servi pour cela d'un almanach de <date when-iso="1789-00-00">1789</date> qui marque seulement leur position
                     par rapport à la Terre, Et de mon auteur de physique qui marque leur moyen
                     mouvement autour du Soleil. Traçant ensuite des cercles qui fussent dans le
-                    rapport des distances de ces planètes au Soleil, je suis venu à bout de
+                    rapport des distances de ces planètes <pb n="6" facs="#Institut_Ampere_L990_6.jpg"/> au Soleil, je suis venu à bout de
                     déterminer la position des planètes mais avec bien peu d'exactitude. Voici mes
-                    résultats pour le 1er novembre, le Soleil ayant 7s [signes] 9° de longitude.
+                    résultats pour le 1er novembre, le Soleil ayant 7s 9° de longitude.
                     Mercure : 7s longitude 29° Vénus : 7s 11° Mars : 5s 5° Jupiter : 10s longitude
-                    9° Saturne : 2s 8° Herschel [Uranus] : dans le signe de la Vierge. Je n'ai vu
+                    9° Saturne : 2s 8° Herschel : dans le signe de la Vierge.</p>
+                <p xml:id="L1795-10-31-a-p7">Je n'ai vu
                     encore que Jupiter et Saturne. Mais je n'ai point pu vérifier leur position,
                     parce que mon instrument n'est pas fini. Ce qui m'a fait douter longtemps si
                     c'était vraiment Saturne que je voyais dans la constellation du Taureau, c'est
@@ -285,11 +293,13 @@
                     apercevoir que Jupiter aux mêmes heures parce qu'il est du côté du crépuscule.
                     J'ai voulu savoir si cette difficulté à l'apercevoir ne venait point de son peu
                     de lumière. Pour cela j'ai considéré que la lumière que les planètes nous
-                    renvoient doit être proportionnelle aux carrés de leurs diamètres divisées par
+                    renvoient doit être <pb n="7" facs="#Institut_Ampere_L990_7.jpg"/> proportionnelle aux carrés de leurs diamètres divisées par
                     les carrés de leur distance au Soleil et de leur distance à la Terre. Après
-                    avoir fait ces calculs, j'ai eu les résultats suivants. Rapport de l'intensité
+                    avoir fait ces calculs, j'ai eu les résultats suivants.</p>
+                <p xml:id="L1795-10-31-a-p8">Rapport de l'intensité
                     de la lumière des planètes : Mercure : 950 Vénus : 1477 Mars : 582 Jupiter : 229
-                    Saturne : 12 &amp;frac12; Herschel [Uranus] : 0,014 J'ai pris dans cette table
+                    Saturne : 12 1/2 Herschel : 0,014</p>
+                <p xml:id="L1795-10-31-a-p9">J'ai pris dans cette table
                     les planètes supérieures dans leur opposition et les inférieures dans leur
                     quadrature. Il faudrait prendre tout au plus la moitié du nombre qui exprime
                     l'intensité de la lumière des planètes inférieures, parce qu'outre que nous ne
@@ -302,37 +312,40 @@
                     de Vénus, Vénus ne sera guère plus brillant que Mars. Or il me semble que ces
                     planètes ne peuvent pas se comparer pour l'éclat. D'ailleurs j'avais toujours
                     cru que Jupiter était plus brillant que Mars et cette table donne un résultat
-                    contraire. Pour Herschel [Uranus], l'auteur de l'almanach dit qu'elle ne paraît
+                    contraire. Pour Herschel, l'auteur de l'almanach dit qu'elle ne paraît
                     que comme une étoile de la 6ème grandeur. Vous me feriez plaisir de me marquer
-                    ce que dit M. <persName>de Lalande</persName> <ref type="ouvrages_mentionnes" target="#ampere_ref_P22.xml">*</ref> là-dessus. La
+                    ce que dit M. <persName>de Lalande</persName> <ref type="ouvrages_mentionnes" target="#ampere_ref_P22.xml">*</ref> là-dessus.</p>
+                <p xml:id="L1795-10-31-a-p10">La
                     lumière dont je vous ai parlé est bien une véritable aurore boréale. C'était une
                     lumière blanche en forme de segment d'un très grand cercle du côté de nord
-                    nord-ouest, ne s'élevant pas au-dessus de 15° sur l'horizon sans aucune de ces
+                    nord-ouest, ne <pb n="8" facs="#Institut_Ampere_L990_8.jpg"/> s'élevant pas au-dessus de 15° sur l'horizon sans aucune de ces
                     couleurs qui accompagnent ordinairement les aurores boréales. C'[était] le
-                    <date when="1795-10-14                         ">mercredi 14 8bre</date>. J'en observai encore une le <date when="1795-10-17">samedi 17 8bre</date>. Elle commença à 7
+                    <date when="1795-10-14">mercredi 14 <choice><abbr>8bre</abbr> <expan>octobre</expan></choice></date>. J'en observai encore une le <date when="1795-10-17">samedi 17 <choice><abbr>8bre</abbr> <expan>octobre</expan></choice></date>. Elle commença à 7
                     heures et demie du côté de nord nord-est par une clarté sans couleur. J'étais si
                     étonné d'en voir deux à des distances de temps si petites que je ne voulais pas
                     en croire mes yeux. Je l'attribuais au crépuscule ou à la Lune qui était alors
                     très jeune. D'autant mieux qu'elle s'élevait encore moins et que la clarté était
-                    très peu considérable -- habituellement [sic] mais de temps à autre on voyait
+                    très peu considérable -- habituellement mais de temps à autre on voyait
                     s'élever sur les montagnes une petite nuée qui paraissait très éclairée et qui
                     disparaissait 2 minutes après. J'observai ce phénomène trois fois avant huit
                     heures et demie. Après 9 heures la lumière alla toujours en diminuant. Ce qui
                     fait que je ne doute plus de la vérité de mes observations, c'est que je trouvai
-                    hier cet article dans le <title>Journal des Français</title> du <date when="1795-10-21">mercredi 21 8br</date>e : <cit>
+                    hier cet article dans le <title>Journal des Français</title> du <date when="1795-10-21">mercredi 21 <choice><abbr>8bre</abbr> <expan>octobre</expan></choice></date> : <cit>
             <quote>Le <date when="1795-10-17" calendar="revolutionary">25
-                    vendémiaire (17 8bre)</date> sur les 7 heures, nous observâmes un commencement d'aurore
+                    vendémiaire (17 <choice><abbr>8bre</abbr> <expan>octobre</expan></choice>)</date> sur les 7 heures, nous observâmes un commencement d'aurore
                     boréale en forme de segment de cercle très blanc, très lumineux, au nord-est
                     surtout, mais sans jets de lumière, sans rayons sous cette couronne brillante
                     qui se forme ordinairement vers le zénith, etc.</quote>
-          </cit>" L'auteur finit par donner une
+          </cit></p>
+                <p xml:id="L1795-10-31-a-p11">L'auteur finit par donner une
                     idée des différents systèmes qui ont paru sur la nature des aurores boréales. Il
                     ne parle que de celui de M. <persName>de Mairan</persName> et de celui dans lequel on les attribue à
                     des exhalaisons. Je n'ai point compris ce qu'il a voulu dire par ces derniers
                     mots que j'ai souligné sous cette couronne etc. à moins qu'il n'ait voulu mettre
-                    sans au lieu de sous. Il a remarqué comme moi qu'il n'y avait ni rayons, ni jets
+                    sans au lieu de sous. <pb n="9" facs="Institut_Ampere_L990_9.jpg"/> Il a remarqué comme moi qu'il n'y avait ni rayons, ni jets
                     de lumière et en effet je n'ai jamais vu d'aurore boréale qui ne fût pas rouge
-                    et qui fût aussi [unie] que celle-là. J'aurais bien été empressé à vous faire
+                    et qui fût aussi unie que celle-là.</p>
+                <p xml:id="L1795-10-31-a-p12">J'aurais bien été empressé à vous faire
                     part du livre que j'ai demandé à <placeName>Paris</placeName> sur le moyen d'écrire aussi vite que la
                     parole. Mais depuis plus d'un mois que j'ai envoyé des assignats à <placeName>Paris</placeName> pour
                     l'avoir, je n'en ai point eu de nouvelles. Je crains bien qu'ils ne soient
@@ -341,7 +354,8 @@
                     <persName>Rusand</persName>. J'ai aussi fait demander des cartes célestes, il y a 8 jours. J'espère
                     cependant avoir une occasion pour les faire retirer à la fin de la semaine
                     prochaine. Cela me facilitera bien l'étude des astres, mais d'un autre côté la
-                    Lune y met grand obstacle pour une huitaine de jours. Votre auteur a bien raison
+                    Lune y met grand obstacle pour une huitaine de jours.</p>
+                <p xml:id="L1795-10-31-a-p13">Votre auteur a bien raison
                     de faire tant de cas de la clavaria coralloides. Il est estimé de tout le monde.
                     Je n'en ai mangé qu'une fois en marinade. Je trouvai seulement que cela n'avait
                     pas beaucoup de goût. L'on en trouve dans les bois mais il n'y est pas bien
@@ -350,7 +364,7 @@
                     autres espèces beaucoup plus communes. Surtout dans ce temps-ci, vous en
                     trouverez dans les champs qui n'ont pas été travaillés depuis quelques années,
                     surtout ceux où il y a de grands genêts, une espèce qui est d'un blanc un peu
-                    roux dessus et dessous. La peau de dessus est parsemée de petites taches rondes
+                    roux dessus et dessous. La peau de dessus est <pb n="10" facs="#Institut_Ampere_L990_10.jpg"/> parsemée de petites taches rondes
                     un peu proéminentes et brunes. Le milieu du chapeau est même tout à fait brun.
                     Les feuillets dessous sont bien détachés. Ils sont larges de quatre pouces. Ils
                     ont le pied assez mince et entouré vers le haut d'un petit anneau blanc fort
@@ -371,7 +385,7 @@
                     champignon n'est pas aussi sèche que l'autre, et elle est sujette à se couvrir
                     d'une eau gluante. Il y en a une autre espèce plus commune encore dans les bois.
                     Ils sont d'une vilaine couleur. Car ils sont d'un brun sale par-dessus. C'est la
-                    plus grande espèce. Dessous ils sont blancs lorsqu'ils sont bien jeunes et au
+                    plus grande espèce. Dessous ils sont blancs lorsqu'ils <pb n="11" facs="#Institut_Ampere_L990_11.jpg"/> sont bien jeunes et au
                     lieu d'être feuilletés, ils sont entièrement composés d'une matière spongieuse,
                     mais très ferme quand ils ne sont pas pourris. Au reste il n'y a point de
                     champignons qui ne gâte aussi vite. Ils commencent par devenir verdâtres dessous
@@ -382,7 +396,8 @@
                     leur donne un air qui répugne. Au reste l'attention qu'il faut avoir quand on
                     ramasse toute espèce de champignons, mais surtout celle-là, c'est de ne les
                     prendre que quand ils sont très frais et qu'ils n'annoncent aucun germe de
-                    corruption, autrement ils sont tous malsains. Il y a une autre espèce de
+                    corruption, autrement ils sont tous malsains.</p>
+                <p xml:id="L1795-10-31-a-p14">Il y a une autre espèce de
                     champignons que vous connaissez sans doute car on les mange en beaucoup
                     d'endroits, ce sont ceux des prés. Ils sont blancs dessus et roses dessous. Ils
                     peuvent avoir 2 pouces de large. Je ne vous parlerai pas des mousserons, qui
@@ -392,11 +407,12 @@
                     manière d'apprêter tous les champignons, il faut les faire cuire à l'eau, pour
                     les débarrasser de leur eau gluante, des venins que les insectes peuvent y avoir
                     laissés et les apprêter ensuite à la sauce blanche ou les faire fricasser au
-                    beurre avec du persil. Je ne sais pourquoi, Monsieur, je vous ai entretenu si
+                    beurre avec du persil. Je ne sais <pb n="12" facs="Institut_Ampere_L990_12.jpg"/> pourquoi, Monsieur, je vous ai entretenu si
                     longtemps d'un objet dont la connaissance n'est d'aucune utilité et n'est guère
                     digne d'un naturaliste. Mais comme nous approchons de l'hiver, j'ai pensé que si
                     vous vouliez profiter de la saison où l'on ne trouve pas autre chose, il n'y
-                    avait pas de temps à perdre. Je suis enchanté de votre découverte sur les
+                    avait pas de temps à perdre.</p>
+                <p xml:id="L1795-10-31-a-p15">Je suis enchanté de votre découverte sur les
                     cerfs-volants. J'avais cru jusqu'à présent avoir porté leur gloire aussi haut
                     qu'il était possible. Mais je vois que j'en étais bien loin. Car par votre
                     méthode ils peuvent aller infiniment plus haut qu'on ne les a portés jusqu'à
@@ -412,27 +428,29 @@
                     que le cerf-volant inférieur aurait dû donner des secousses au supérieur. Vous
                     me ferez grand plaisir de me marquer en détail toutes vos expériences en ce
                     genre. Je désirerais bien savoir aussi comment vous faites vos cerfs-volants, de
-                    quelle grandeur ils sont et de quelle ficelle vous vous servez pour les
-                    attacher. Je pense comme vous, Monsieur, sur la prononciation des Romains de la
+                    quelle grandeur ils sont et de quelle ficelle <pb n="13" facs="#Institut_Ampere_L990_13.jpg"/> vous vous servez pour les
+                    attacher.</p>
+                <p xml:id="L1795-10-31-a-p16">Je pense comme vous, Monsieur, sur la prononciation des Romains de la
                     syllabe finale um, et je suis étonné que l'auteur de l'<title>Encyclopédie</title> <ref type="ouvrages_mentionnes" target="#ampere_ref_P360.xml">*</ref> ait cru qu'on le prononçait on. Car
                     l'opinion générale des Italiens est que les Romains prononçaient comme eux,
-                    c'est-à-dire oum et cela s'accorderait assez bien avec le passage cité [de
-                    l'<title>Encyclopédie</title>], où il est dit qu'on ne pouvait prononcer <cit xml:lang="lat">
+                    c'est-à-dire oum et cela s'accorderait assez bien avec le passage cité , où il est dit qu'on ne pouvait prononcer <cit xml:lang="lat">
             <quote>nisi labiis
                     coeuntibus</quote>
-          </cit>. Voici enfin le vent du nord, qui s'est fixé. Cela me fait beaucoup
+          </cit>.</p>
+                <p xml:id="L1795-10-31-a-p17">Voici enfin le vent du nord, qui s'est fixé. Cela me fait beaucoup
                     de plaisir, parce que le ciel se prêtera mieux à mes observations. Car depuis un
                     mois le vent de midi n'a pas cessé de régner au moins dans la moyenne région de
                     l'air et cela a fait que, malgré le beau temps, il y a presque toujours eu dans
                     l'air des vapeurs blanches et légères semées irrégulièrement, qu'on appelle
-                    queues de vaches, et ces vapeurs suffisent pour cacher les étoiles. Je vous
+                    queues de vaches, et ces vapeurs suffisent pour cacher les étoiles.</p>
+                <p xml:id="L1795-10-31-a-p18">Je vous
                     avais marqué dans ma dernière lettre que je passais une partie de ma vie dans un
                     bosquet, mais les choses ont bien changé. Je ne peux presque pas y mettre les
                     pieds et ce qui m'en empêche c'est que je n'y serais pas seul. Il n'y en a pas
                     d'autres raisons et ce qui vous étonnera encore plus, c'est que quand les
                     feuilles seront tombées, ce qui nous menace de près, je ne pourrai pas seulement
                     mettre le pied dehors. Ce n'est pas cependant le soleil que je crains, mais
-                    c'est sa lumière. Tout au plus puis-je supporter celle de la Lune. Mais quand je
+                    c'est sa lumière. Tout au plus puis-je supporter <pb n="14" facs="#Institut_Ampere_L990_14.jpg"/> celle de la Lune. Mais quand je
                     me trouve seul avec les étoiles et les planètes, j'irais jusqu'au bout du monde.
                     Mais si je ne puis pas sortir, je ferai comme les femmes âgées qui ne peuvent
                     plus paraître dans le monde. Je ne ferai plus que jouer aux cartes. Déjà je
@@ -446,14 +464,15 @@
                     que je vous raconte comment cela m'est arrivé. Il y a quelque temps j'annonçai
                     qu'il ferait un beau jour le lendemain, quoique le baromètre promît le
                     contraire. Tous ceux qui entendirent ma prédiction, prirent une grande confiance
-                    en moi, et depuis ce temps l'on ne cesse de me demander le temps du lendemain.
+                    en moi, et depuis ce temps l'on ne cesse de me demander le temps du lendemain.</p>
+                <p xml:id="L1795-10-31-a-p19">
                     Quelquefois je me trompe, mais cela n'empêche pas que l'on n'ait une certaine
                     foi à mes oracles. Et quoique souvent je n'y connaisse rien, cela n'empêche pas
                     qu'on me fasse parler comme <persName>César</persName> fit à la <persName>Pythie</persName>. A propos d'oracles, je serais
                     curieux de savoir ce que vous pensez de ceux qui sont fondés sur la Lune. Quelle
                     influence croyez-vous qu'elle puisse avoir sur la végétation ? Quelques
                     physiciens peu connus prétendent qu'elle peut agir par sa lumière. Pour moi il
-                    me semble que ses effets doivent être bien peu sensibles. La seule influence que
+                    me semble que ses effets doivent être bien peu sensibles. La seule influence <pb n="15" facs="#Institut_Ampere_L990_15.jpg"/> que
                     je crois bien sensible, c'est celle qu'elle a sur les écrevisses. Beaucoup de
                     gens vous disent qu'elles sont plus grasses dans la pleine lune ou dans son
                     décours. Cela me paraît fort possible, parce que les écrevisses ne mangent que
@@ -466,19 +485,21 @@
                     rappelle pas bien, mais qui est à ce que je crois la période lunaire de 18 ans
                     ou le nombre d'or. Je ne sais si je ne me suis point trompé sur le nombre des
                     années et s'il ne faut point 19 au lieu de 18. Quoiqu'il en soit, vous savez que
-                    c'est le terme où les mouvements de la Lune recommencent à [concourir] avec ceux
+                    c'est le terme où les mouvements de la Lune recommencent à concourir avec ceux
                     du Soleil. Or il y a des physiciens qui prétendent qu'au bout de ce terme les
                     saisons recommencent dans le même ordre, c'est-à-dire par exemple que si la
                     saison a été pluvieuse cette année, elle le sera de même dans 18 ou 19 ans, et
                     par conséquent les récoltes seront à peu près les mêmes dans la 19ème année que
-                    dans celle-ci. J'ai vu ce système dans l'<persName>abbé Rozier</persName> [<ref type="ouvrages_mentionnes" target="#ampere_ref_P147.xml">*</ref>?] qui prétendait que l'expérience
+                    dans celle-ci.</p>
+                <p xml:id="L1795-10-31-a-p20">J'ai vu ce système dans l'<persName>abbé Rozier</persName> <ref type="ouvrages_mentionnes" target="#ampere_ref_P147.xml">*</ref> qui prétendait que l'expérience
                     l'avait en partie confirmée et qui citait un auteur à l'appui de son opinion. Je
                     n'ai jamais vu la lumière zodiacale dont vous me parlez. Il y a apparence que
-                    c'est un phénomène bien rare dans ces climats, car je n'en ai jamais ouï parler
+                    c'est un phénomène bien <pb n="16" facs="#Institut_Ampere_L990_16.jpg"/> rare dans ces climats, car je n'en ai jamais ouï parler
                     à des gens âgés qui, vivant toujours à la campagne, sont assez habitués à
                     observer le ciel la nuit. Mais au reste il y a bien d'autres phénomènes que nous
-                    ne voyons jamais comme la parhélie et la parasélène, je ne [les]'ai jamais vues
-                    que dans les livres. Vous voyez, Monsieur, que je vous fais bien part de tout ce
+                    ne voyons jamais comme la parhélie et la parasélène, je ne les ai jamais vues
+                    que dans les livres.</p>
+                <p xml:id="L1795-10-31-a-p21">Vous voyez, Monsieur, que je vous fais bien part de tout ce
                     qui peut m'occuper un moment. Outre les plaisirs que j'y trouve, c'est que
                     j'espère que vous me rendrez la pareille. Car je puis bien vous dire que vous
                     êtes bien loin de cela. Je ne sais presque pas ce que vous faites : si vous
@@ -495,7 +516,7 @@
                     commencer. Mais vous savez qu'il s'en faut de beaucoup que j'aie la même
                     facilité que vous à écrire et que ma solitude, qui me présente toujours les
                     mêmes objets, ne se prête guère à cela. D'ailleurs quand vous auriez commencé,
-                    cela me donnera plus de facilité à faire comme vous. Au reste pour que vous
+                    cela me donnera plus de facilité à faire comme vous. Au reste <pb n="17" facs="#Institut_Ampere_L990_17.jpg"/> pour que vous
                     n'envoyiez pas inutilement vos lettres à la poste les jours où elles ne
                     pourraient pas partir, je vous dirai que celles que l'on met à la poste à <placeName>Lyon</placeName>
                     le lundi me parviennent ici le mardi ou le mercredi au plus tard, et celles que
@@ -504,10 +525,11 @@
                     dans une transe jusqu'à ce que je sache mon sort. Je souhaiterais que vous en
                     fussiez témoin, pour vous engager à me procurer plus souvent le plaisir de
                     recevoir de vos lettres et à ne pas m'épargner les ports de lettres. Je voudrais
-                    en avoir toutes les semaines pour plus de six francs. Pour que vous ne puissiez
+                    en avoir toutes les semaines pour plus de six francs.</p>
+                <p xml:id="L1795-10-31-a-p22">Pour que vous ne puissiez
                     pas me dire que je ne vous parle pas de tout, je vais encore vous parler de
-                    l'instrument que je viens de faire exécuter. Il est composé d'une planche
-                    circulaire aa [voir figure sur le fac-similé] que vous voyez dans la figure [de]
+                    l'instrument que je viens de faire exécuter. Il est composé <figure/> d'une planche
+                    circulaire aa que vous voyez dans la figure <gap reason="illisible"/>
                     côté. Elle se met dans la position de l'équateur en l'inclinant comme vous voyez
                     sur un autre bout de planche ee qui lui sert de pied et qu'on place
                     horizontalement. Au centre de la planche ronde est un trou dans lequel passe la
@@ -515,15 +537,18 @@
                     la première et y marquer le degré sur l'équateur où elle est parce que la
                     planche ronde est divisée en 360°. La planche f porte une alidade gg mobile
                     autour d'un point que vous voyez marqué sur la figure, et il y a sur la même
-                    planche f un arc de cercle ii qui sert à faire connaître la déclinaison. Vous
+                    planche f un arc de cercle ii qui sert à faire connaître la déclinaison.</p>
+                <p xml:id="L1795-10-31-a-p23"><pb n="18" facs="#Institut_Ampere_L990_18.jpg"/> Vous
                     concevez que si cet instrument est bien placé, il pourra faire connaître la
                     déclinaison et l'ascension droite pourvu qu'on sache l'heure qu'il est. Je
-                    compte faire planter dans l'endroit le plus commode du jardin un piquet sur
+                    compte faire <figure/> planter dans l'endroit le plus commode du jardin un piquet sur
                     lequel j'attacherai une planche bien horizontalement en y marquant la ligne
                     méridienne pour y mettre mon instrument. Mais je pense enfin que je vous en ai
                     assez dit. Il ne me reste plus qu'à vous assurer de mon attachement, dont vous
                     êtes sûrement toujours bien persuadé. Mes respects, s'il vous plaît, à Mad<ex>am</ex>e
-                    votre mère. [en plus petits caractères :] le mercredi 4 9bre Comme si notre
+                    votre mère.</p>
+                <p xml:id="L1795-10-31-a-p24">le mercredi 4 <choice><abbr>9bre</abbr> <expan>novembre</expan></choice><lb/>
+                    Comme si notre
                     correspondance n'était pas déjà assez lente, voici encore de nouveaux encombres.
                     Ma lettre, qui devait partir ce samedi passé ou au plus tard dimanche, ne
                     partira que demain jeudi.</p>

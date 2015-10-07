@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -76,7 +77,7 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct xml:id="ampere_corr_L1825-11-17-a">
-                    <monogr xmlns="">
+                    <monogr>
                         <editor>
                             <surname>James</surname>
                             <forename>Frank A. J. L.</forename>
@@ -99,11 +100,11 @@
                     <witness xml:id="L942manuscrit">
             <msDesc type="original_manuscrit">
                             <msIdentifier>
-                                <country xmlns="">États-Unies</country>
-                                <settlement xmlns="">Washington</settlement>
-                                <institution xmlns="">Smithsonian Institution Library</institution>
-                                <repository xmlns="">Dibner Collection</repository>
-                                <idno xmlns="">MS 554A [note de Franck JAMES]</idno>
+                                <country>États-Unies</country>
+                                <settlement>Washington</settlement>
+                                <institution>Smithsonian Institution Library</institution>
+                                <repository>Dibner Collection</repository>
+                                <idno>MS 554A [note de Franck JAMES]</idno>
                             </msIdentifier>
                         </msDesc>
           </witness>
@@ -155,10 +156,11 @@
         <body>
             <div xml:id="L1825-11-17-a-div1">
                 <opener>
-          <date when="1825-11-17">17 November 1825</date>
+        <foreign xml:lang="eng"><orgName>Royal Institution</orgName>, <date when="1825-11-17">17 November 1825</date></foreign>
         </opener>
+                <opener><foreign xml:lang="eng">My dear Sir,</foreign></opener>
                 <p xml:id="L1825-11-17-a-p1">
-          <foreign xml:lang="eng">My dear Sir I have had great pleasure at different times lately by the receipt of
+          <foreign xml:lang="eng">I have had great pleasure at different times lately by the receipt of
                     your kind letters sent by our mutual friends M. <persName>de la Rive</persName>, Mr. <persName>South</persName> and Mr.
                     <persName>Underwood</persName> though it has so happened that by my absence from town &amp;c. none
                     but that by Mr. <persName>South</persName> reached me in due time. I beg at this opportunity to
@@ -171,14 +173,17 @@
                     engaged and I cannot wish it otherwise knowing how well your time is spent. Much
                     of mine is unfortunately occupied in very common place employment and this I may
                     offer as an excuse (for want of a better) for the little I do in original
-                    research. I am sorry to find by one of your letters that you experience an
+                    research.</foreign>
+                    </p>
+                <p xml:id="L1825-11-17-a-p2"><foreign xml:lang="eng">I am sorry to find by one of your letters that you experience an
                     unworthy opposition to the fair &amp; high claim you have to the approbation and
                     thanks of your fellow Philosophers. This however you can hardly wonder at. I do
                     not know what it is or by whom exerted in your case but I never yet even in my
                     short time knew a man to do anything eminent or become worthy of distinction
                     without becoming at the same time obnoxious to the cavils and rude encounters of
                     envious men. Little as I have done, I have experienced it and that too where I
-                    least expected it. I think however and hope that you are somewhat mistaken in
+                    least expected it.</foreign></p>
+                <p xml:id="L1825-11-17-a-p3"><foreign xml:lang="eng">I think however and hope that you are somewhat mistaken in
                     your opinion of the feeling here. It is true that some of your views were at
                     first received here with great reserve but I think now that all your facts are
                     admitted and are all properly attributed to you. With regard to your theory it
@@ -189,13 +194,15 @@
                     Laboratory, do not go much among scientific men and am in some sort an anchorite
                     in the Scientific world. Hence I have neither time nor opportunity for
                     scientific conversation and am frequently surprised at information which is new
-                    to me when old to every one else. Be assured however that whenever the
+                    to me when old to every one else.</foreign></p>
+                <p xml:id="L1825-11-17-a-p4"><foreign xml:lang="eng">Be assured however that whenever the
                     opportunity occurs I do full justice to your important investigations for as far
-                    I can go with them, I am convinced their accuracy &amp; great value. Many thanks
+                    I can go with them, I am convinced their accuracy &amp; great value.</foreign></p>
+                <p xml:id="L1825-11-17-a-p5"><foreign xml:lang="eng">Many thanks
                     to you for M. <persName>Demonferrand</persName>'s book. I had it only a day or two ago - and though I
                     have not yet read it, have looked over the table &amp; agree with you in its
-                    accuracy. I am My dear Sir Your Very Obliged &amp; faithful friend M.
-                    <persName>Faraday</persName>
+                    accuracy. I am My dear Sir Your Very Obliged &amp; faithful friend <lb/>
+                    M. <persName>Faraday</persName>
           </foreign>
         </p>
                 <closer> M. <persName>Ampère</persName>, &amp;c &amp;c </closer>

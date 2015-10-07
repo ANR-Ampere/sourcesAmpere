@@ -1,4 +1,5 @@
-<?xml-model href="../../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -116,7 +117,7 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -136,11 +137,16 @@
     <text type="correspondance" decls="#ampere_corr_L1823-05-13-a">
         <body>
             <div xml:id="L1823-05-13-a-div1">
-                <opener>le <date when="1823-05-13">13 mai [1823]</date> [année indiquée au crayon
-                    par une autre main]</opener>
-                <p xml:id="L1823-05-13-a-p1">Monsieur, C'est avec la plus grande reconnaissance que j'ai reçu votre bonne et
+                <opener><pb n="87" facs="#ACAS_CRHST_AMP_09_182_0087_r.jpg"/> <placeName>Presinge</placeName> le <date when="1823-05-13">13 mai [1823]</date></opener>
+                <opener>Monsieur,</opener>
+                <p xml:id="L1823-05-13-a-p1"><add> J'ai oublié, Monsieur, de vous dire que vos anciens exemplaires doivent
+                    être arrivés avec le ballot de la <title>Bibl<ex>iothèque</ex>
+                        Univ<ex>ersitaire</ex></title>
+                    chez <persName>Bossange père</persName>. Ils sont à votre adresse.</add></p>
+                <p xml:id="L1823-05-13-a-p2">
+                    C'est avec la plus grande reconnaissance que j'ai reçu votre bonne et
                     aimable lettre de la fin de mars. J'y aurais répondu plus promptement, si
-                    j'avais eu des choses intéressantes à vous communiquer. La longueur [sic] des
+                    j'avais eu des choses intéressantes à vous communiquer. La longueur des
                     ouvriers à faire quelques appareils dont j'avais besoin pour les expériences
                     dont je vous ai parlé en ont retardé l'exécution. J'espère pouvoir incessamment
                     arriver cependant à quelque résultat qui puisse vous intéresser. Puisque nous en
@@ -170,7 +176,7 @@
                     limaille de fer en attire une assez grande quantité ; cette limaille se
                     disposant extérieurement autour des parois du cylindre, comme les rayons de
                     cercles dont le centre se soit trouvé sur l'axe idéal du cylindre, mais aucune
-                    portion de limaille [ne se fixait] contre les parois du cylindre. Il semblerait
+                    portion de limaille ne se fixait <pb n="88" facs="#ACAS_CRHST_AMP_09_182_0088_v.jpg"/> contre les parois du cylindre. Il semblerait
                     donc qu'il y a sur l'axe près de l'extrémité de l'aimant, un point attractif qui
                     serait le pôle. D'un autre côté, si l'on présente ce même aimant par son
                     extrémité au pôle d'un autre aimant, celui-ci sera attiré, si les pôles sont de
@@ -189,8 +195,8 @@
                     dans ce dernier cas, le diamètre de l'ouverture intérieure étant plus grand, la
                     cause que l'on peut rapporter produire l'arrangement de la limaille quand il
                     s'agit du tube d'acier, ne produit pas son effet. Car en rapportant que la
-                    figure [cf. figure sur le manuscrit] représente la coupe transversale de
-                    l'aimant creux près de son pôle N, [on] a un cercle qui peut être regardé comme
+                    figure <figure/> représente la coupe transversale de
+                    l'aimant creux près de son pôle N,<supplied> on</supplied> a un cercle qui peut être regardé comme
                     le lieu de tous les pôles N des petits aimants dont le faisceau forme l'aimant
                     total. Alors les molécules de limaille de fer attirées se polarisent, mais
                     intérieurement tous leurs pôles S se trouvant sur la circonférence du cercle,
@@ -201,19 +207,20 @@
                     voit point intérieurement en soulevant l'aimant après l'avoir plongé dans un
                     amas de limaille de fer. La même cause ne peut agir sur les molécules de fer
                     attirées extérieurement dont les pôles N <gap reason="illisible"/> au contraire
-                    les uns des autres, c'est ce qui fait qu'elles restent attirées. Ce même effet
+                    les uns des autres, c'est ce qui fait qu'elles restent attirées.</p>
+                <p xml:id="L1823-05-13-a-p3">Ce même effet
                     se voit encore mieux en promenant sous un morceau de papier ou de verre
                     horizontal saupoudré de limaille de fer, un aimant plein ou un aimant creux
-                    tenus verticalement. Le premier laisse sur son passage une trace de limaille de
+                    tenus <pb n="89" facs="#ACAS_CRHST_AMP_09_182_0089_r.jpg"/> verticalement. Le premier laisse sur son passage une trace de limaille de
                     fer qui suit absolument la ligne que décrit l'axe de l'aimant qu'on promène
                     parallèlement à lui-même, l'aimant creux au contraire laisse une trace blanche
                         <gap reason="illisible"/> privée de limaille de fer de la largeur à peu près
                     du diamètre de son ouverture. On voit la limaille s'écarter à droite et à gauche
-                    de son passage quand on le promène au-dessous. Mille pardons, Monsieur, de vous
+                    de son passage quand on le promène au-dessous.</p>
+                <p xml:id="L1823-05-13-a-p4">Mille pardons, Monsieur, de vous
                     avoir ennuyé de ces détails, mais vos bons conseils me sont si utiles que je les
                     réclame en cette occasion. Quelle est votre idée sur l'aimantation par
-                    l'électricité et jusqu'à quel point est-elle plus faible après une forte trempe
-                    ? Quelle est votre idée sur la constitution des aimants creux et leur différence
+                    l'électricité et jusqu'à quel point est-elle plus faible après une forte trempe ? Quelle est votre idée sur la constitution des aimants creux et leur différence
                     d'avec les aimants pleins ? Ont-ils un point unique d'attraction ou de répulsion
                     à chaque extrémité ? La soustraction d'une portion intérieure du métal peut-elle
                     être regardée comme devant diminuer l'effet de l'aimantation ? Enfin quelle
@@ -223,10 +230,11 @@
                     théorie peut prévoir, que des expériences multipliées et bien choisies peuvent
                     résoudre. C'est surtout sur la manière dont vous concevez leur résultat, sur le
                     choix de ces expériences que je requiers et votre bonté précieuse et votre
-                    pénétration si juste. Je vous remercie, Monsieur, de l'envoi de votre exposé
+                    pénétration si juste.</p>
+                <p xml:id="L1823-05-13-a-p5">Je vous remercie, Monsieur, de l'envoi de votre exposé
                     méthodique qui est si intéressant. Vous aurez vu dans la
-                    <title>Bibl.
-                    Univ.</title> de ce mois votre résumé sur les
+                    <title>Bibl<ex>iothèque</ex>
+                    Univ<ex>ersitaire</ex></title> de ce mois votre résumé sur les
                     mémoires de M.M. <persName>Savary</persName> et
                     <persName>Demonferrand</persName>. Il doit vous être bien agréable de voir le
                     calcul rigoureux prouver d'une manière aussi précise la justesse de votre
@@ -238,7 +246,8 @@
                     Avant de terminer je vous prie, Monsieur, de conserver une portion de votre
                     indulgence pour moi, pour un petit travail que j'ai fait avec mon ami
                     <persName>Marcet</persName> et dont nous avons eu l'honneur de vous envoyer un
-                    exemplaire. Cette partie de la physique offre aussi bien des choses
+                    exemplaire.</p>
+                <p xml:id="L1823-05-13-a-p6"><pb n="90" facs="#ACAS_CRHST_AMP_09_182_0090_v.jpg"/> Cette partie de la physique offre aussi bien des choses
                     intéressantes et tout ce qui tient à la chaleur et à sa manière d'agir avec les
                     gaz n'est pas encore connu d'une manière tout à fait satisfaisante. Je requiers
                     donc votre bonté accoutumée pour cet essai, espérant que vous voudrez bien la
@@ -252,11 +261,7 @@
                     lettre aussi peu intéressante, vouloir bien me continuer votre précieuse amitié
                     et croire aux sentiments sincères de respect et d'attachement de votre dévoué
                     <persName>Aug. de La Rive</persName> (Pardonnez à une mauvaise plume et à la
-                    poste qui presse ma mauvaise écriture). [post-scriptum ajouté en haut du premier
-                    folio :] J'ai oublié, Monsieur, de vous dire que vos anciens exemplaires doivent
-                    être arrivés avec le ballot de la <title>Bibl.
-                    Univ.</title>
-                    chez <persName>Bossange père</persName>. Ils sont à votre adresse.</p>
+                    poste qui presse ma mauvaise écriture).</p> 
                 <closer>Monsieur <persName>Ampère</persName>, Membre de
                     l'<orgName>Académie des sciences</orgName>, rue des Fossés-Saint-Victor,
                     <placeName>Paris</placeName>

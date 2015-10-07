@@ -1,4 +1,6 @@
-<?xml-model href="../../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE ENTITY_MathML SYSTEM "../../Documents/Sch%C3%A9mas/ENTITY_MathML.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -140,64 +142,89 @@
     <text type="correspondance" decls="#ampere_corr_L1815-05-22-a">
         <body>
             <div xml:id="L1815-05-22-a-div1">
-                <opener>le <date when="1815-05-22">22 mai 1815</date>
+                <opener><pb n="1" facs="#ACAS_CRHST_AMP_02_036_0001_r.jpg"/> <placeName>Paris</placeName> le <date when="1815-05-22">22 mai 1815</date>
         </opener>
-                <p xml:id="L1815-05-22-a-p1">Monsieur<note>Les Procès-verbaux des séances de l'<orgName>Académie des sciences</orgName>
-                        mentionnent, à la séance du <date when="1815-04-10">10 avril 1815</date>, la réception d'un mémoire de M.
-                        <persName>Clément</persName>, major d'artillerie sur la Résolution générale des
-                    équations.</note>, M. <persName>Poisson</persName> et moi avons été chargés par la première classe de
-                    l'<orgName>Institut</orgName> de lui faire un rapport sur le mémoire que vous lui avez présenté et
+                <opener>Monsieur,</opener>
+                <p xml:id="L1815-05-22-a-p1"> M. <persName>Poisson</persName> et moi avons été chargés par la première classe de
+                    l'<orgName>Institut</orgName> de lui faire un rapport sur le mémoire que vous lui avez présenté <ref target="#corresp1">(1)</ref> et
                     qui a été lu dans sa séance ordinaire du <date when="1815-04-10">10 avril 1815</date>. Nous avons en
                     conséquence examiné ensemble ce mémoire, et nous avons cru, avant de faire le
-                    rapport, devoir vous communiquer les observations suivantes. La méthode que vous
+                    rapport, devoir vous communiquer les observations suivantes.</p>
+                <p xml:id="L1815-05-22-a-p2">La méthode que vous
                     proposez pour résoudre les équations algébriques de tous les degrés consiste 1°
-                    à exprimer l'inconnue d'une équation du degré n par la somme de n-1 séries, en
+                    à exprimer l'inconnue d'une équation du degré n par la somme de<formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>n</mi><mo>&minus;</mo><mn>1</mn></mrow></math>
+                    </formula> séries, en
                     sorte qu'en représentant l'inconnue par x et ces différentes séries par z, z',
-                    z'', z''' &amp;c., vous trouvez x = z + z' + z'' + z''' &amp;c. Comme on sait
-                    exprimer la même valeur par une seule série, les formules que vous obtenez ne
+                    z'', z''' &amp;c., vous trouvez <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>x</mi><mo>=</mo><mi>z</mi><mo>+</mo><mi>z'</mi><mo>+</mo><mi>z''</mi><mo>+</mo><mi>z'''</mi><mo>+</mo><mtext>&amp;c.</mtext></mrow></math>
+                    </formula></p>
+                <p xml:id="L1815-05-22-a-p3">Comme on sait
+                    exprimer la <pb n="2" facs="#ACAS_CRHST_AMP_02_036_0002_v.jpg"/> même valeur par une seule série, les formules que vous obtenez ne
                     pourraient être préférées aux méthodes d'approximation déjà connues qu'autant
                     qu'on pourrait former ces séries. C'est bien aussi ce que vous vous proposez de
                     faire, mais il nous a paru qu'il était aisé de démontrer qu'on ne pouvait y
-                    parvenir par les moyens que vous indiquez comme propres à atteindre ce but. En
+                    parvenir par les moyens que vous indiquez comme propres à atteindre ce but.</p>
+                <p xml:id="L1815-05-22-a-p4">En
                     effet, vous déduisez ces moyens de ce que vous pensez que z dépendra d'une
                     équation qui ne pourra pas s'élever au dessus du degré (m), sans quoi dites-vous
                     il y aurait plus de valeurs pour x. Or voilà ce qui est absolument contraire à
                     la théorie de la résolution des équations algébriques, théorie bien établie à
                     cet égard par les travaux des mathématiciens qui ont examiné cette question, et
-                    complétée par ceux de M. <persName>de Lagrange</persName>. Il ne peut plus aujourd'hui rester aucun
+                    complétée par ceux de M. <pb n="3" facs="#ACAS_CRHST_AMP_02_036_0003_r.jpg"/> <persName>de Lagrange</persName>. Il ne peut plus aujourd'hui rester aucun
                     doute sur le degré de l'équation en z. Il est bien démontré, lorsque x est la
-                    racine d'une équation du degré (m), qu'on fait x = z + z' + z'' + z''' + &amp;c.
-                    le nombre des quantités z, z', z'', z''' &amp;c. étant (m-1), que l'équation en
+                    racine d'une équation du degré (m), qu'on fait <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>x</mi><mo>=</mo><mi>z</mi><mo>+</mo><mi>z'</mi><mo>+</mo><mi>z''</mi><mo>+</mo><mi>z'''</mi><mo>+</mo><mtext>&amp;c.</mtext></mrow></math>
+                    </formula>
+                    le nombre des quantités z, z', z'', z''' &amp;c. étant <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mo>(</mo><mi>m</mi><mo>&minus;</mo><mn>1</mn><mo>)</mo></mrow></math>
+                    </formula>, que l'équation en
                     z monte en général au degré marqué par le produit 1.2.3.4......(m), de tous les
                     termes de la suite naturelle des nombres jusqu'à (m), et que ce produit est le
                     nombre des valeurs dont z est susceptible au moyen d'une autre transformation.
-                    Vous changez ensuite, Monsieur, cette valeur de x en x = m&amp;radic;y +
-                    m&amp;radic;y' + m&amp;radic;y'' + m&amp;radic;y''' + &amp;c. et vous dites que
+                    Vous changez ensuite, Monsieur, cette valeur de x en <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>x</mi><mo>=</mo><mroot><mi>y</mi><mi>m</mi></mroot><mo>+</mo><mroot><mi>y'</mi><mi>m</mi></mroot><mo>+</mo><mroot><mi>y''</mi><mi>m</mi></mroot><mo>+</mo><mroot><mi>y'''</mi><mi>m</mi></mroot><mo>+</mo><mtext>&amp;c.</mtext></mrow></math>
+                    </formula> et vous dites que
                     y ne sera susceptible que d'une valeur, tandis qu'il est rigoureusement démontré
-                    par la même théorie que le nombre des valeurs de y est alors 1.2.3.4...(m-1). Si
-                    x est par exemple la racine d'une équation du 5ème degré, et que l'on ait x = z
-                    + z' + z'' + z''', et x = 5&amp;radic;y + 5&amp;radic;y' + 5&amp;radic;y'' +
-                    5&amp;radic;y''', z sera susceptible de 120 valeurs, et y de 24. L'équation en z
-                    sera du 120ème degré, et celle en y du 24ème. Il s'en suit que quand en formant
+                    par la même théorie que le nombre des valeurs de y est alors 1.2.3.4...<formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mo>(</mo><mi>m</mi><mo>&minus;</mo><mn>1</mn><mo>)</mo></mrow></math>
+                    </formula>.</p>
+                <p xml:id="L1815-05-22-a-p5"><pb n="4" facs="#ACAS_CRHST_AMP_02_036_0003_r.jpg"/> Si
+                    x est par exemple la racine d'une équation du 5ème degré, et que l'on ait <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>x</mi><mo>=</mo><mi>z</mi><mo>+</mo><mi>z'</mi><mo>+</mo><mi>z''</mi><mo>+</mo><mi>z'''</mi></mrow></math>
+                    </formula>, et <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>x</mi><mo>=</mo><mroot><mi>y</mi><mn>5</mn></mroot><mo>+</mo><mroot><mi>y'</mi><mn>5</mn></mroot><mo>+</mo><mroot><mi>y''</mi><mn>5</mn></mroot><mo>+</mo><mroot><mi>y'''</mi><mn>5</mn></mroot></mrow></math>
+                    </formula>, z sera susceptible de 120 valeurs, et y de 24. L'équation en z
+                    sera du 120ème degré, et celle en y du 24ème.</p>
+                <p xml:id="L1815-05-22-a-p6">Il s'en suit que quand en formant
                     l'équation en y par une suite de multiplications, vous dites qu'il faut arrêter
-                    ces multiplications quand cette équation contient la puissance ym-1, et que vous
+                    ces multiplications quand cette équation contient la puissance <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mi>y</mi><mrow><mi>m</mi><mo>&minus;</mo><mn>1</mn></mrow></msup></mrow></math>
+                    </formula>, et que vous
                     en concluez que certains termes doivent disparaître d'eux-mêmes, pour que cette
                     équation ait lieu, cette conclusion est absolument inadmissible, car ce ne
-                    serait qu'après que les multiplications successives auraient élevé l'équation en
-                    y au degré 1.2.3.4...(m-1), auquel elle doit monter d'après la théorie, que les
+                    serait qu'après que les multiplications successives auraient élevé <pb n="5" facs="#ACAS_CRHST_AMP_02_036_0005_r.jpg"/> l'équation en
+                    y au degré 1.2.3.4...<formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mo>(</mo><mi>m</mi><mo>&minus;</mo><mn>1</mn><mo>)</mo></mrow></math>
+                    </formula>, auquel elle doit monter d'après la théorie, que les
                     termes dont il s'agit devraient s'évanouir. Il est bien certain qu'ils
                     disparaîtraient en effet dans ce cas, mais cela ne conduirait qu'à l'équation du
-                    degré 1.2.3.4...(m-1), à laquelle on a été constamment ramené dans toutes les
+                    degré 1.2.3.4...<formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mo>(</mo><mi>m</mi><mo>&minus;</mo><mn>1</mn><mo>)</mo></mrow></math>
+                    </formula>, à laquelle on a été constamment ramené dans toutes les
                     recherches sur la solution générale des équations algébriques, et qui ne peut
                     conduire à cette solution puisqu'elle est plus élevée que la proposée pour tous
-                    les degrés supérieurs au troisième. J'ai l'honneur d'être, &amp;c.</p>
+                    les degrés supérieurs au troisième.</p>
+                <p xml:id="L1815-05-22-a-p7">J'ai l'honneur d'être, &amp;c.</p>
             </div>
         </body>
         <back>
             <div xml:id="L1815-05-22-a-div2">
-                <note resp="CAK">Le compte-rendu de la séance de l'<orgName>Académie des sciences</orgName> du <date when="1815-04-10">10 avril
-                    1815</date> mentionne : "M. <persName>Clément</persName>, Major d'artillerie, adresse un Mémoire sur la
-                    Résolution générale des équations. M.M. <persName>Ampère</persName> et <persName>Poisson</persName>, Commissaires."</note>
+                
+                <note resp="#CAK" xml:id="corresp1">Les Procès-verbaux des séances de l'<orgName>Académie des sciences</orgName>
+                    mentionnent, à la séance du <date when="1815-04-10">10 avril 1815</date>, la réception d'un mémoire de M.
+                    <persName>Clément</persName>, major d'artillerie sur la Résolution générale des
+                    équations.</note>
             </div>
         </back>
     </text>

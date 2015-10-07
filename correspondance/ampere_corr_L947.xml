@@ -1,4 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -76,7 +77,7 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct xml:id="ampere_corr_L1833-05-04-a">
-                    <monogr xmlns="">
+                    <monogr>
                         <editor>
                             <surname>James</surname>
                             <forename>Frank A. J. L.</forename>
@@ -97,11 +98,11 @@
                     <witness xml:id="L947manuscrit">
             <msDesc type="original_manuscrit">
                             <msIdentifier>
-                                <country xmlns="">Angleterre</country>
-                                <settlement xmlns="">Londres</settlement>
-                                <institution xmlns="">Institution of Electrical Engineers
+                                <country>Angleterre</country>
+                                <settlement>Londres</settlement>
+                                <institution>Institution of Electrical Engineers
                                     Manuscript</institution>
-                                <repository xmlns="">Special Collection 3 [note de Franck
+                                <repository>Special Collection 3 [note de Franck
                                     JAMES]</repository>
                             </msIdentifier>
                         </msDesc>
@@ -154,20 +155,22 @@
         <body>
             <div xml:id="L1833-05-04-a-div1">
                 <opener>
-          <date when="1833-05-04">4 mai 1833</date>
+         <orgName>Royal Institution</orgName> <date when="1833-05-04">4 mai 1833</date>
         </opener>
+                <opener>My dear Sir,</opener>
                 <p xml:id="L1833-05-04-a-p1">
-          <foreign xml:lang="eng">My dear Sir It gives me very great pleasure at all times to have the honor of a
+          <foreign xml:lang="eng"> It gives me very great pleasure at all times to have the honor of a
                     letter or even a verbal message from you but that pleasure was on the occasion
                     of your last letter mixed with pain that I should inadvertently have grieved
                     you. I am extremely indebted to you for your kindness in putting me right and as
                     I had a paper in the press I instantly stopped the printer's progress and
                     applied to the President His Royal Highness the Duke of <placeName>Sussex</placeName> and obtained
-                    leave to attach a note to the paper amending my error <ref>(1)</ref>. I have also urged the
+                    leave to attach a note to the paper amending my error <ref target="#corresp1">(1)</ref>. I have also urged the
                     printer forward that I might procure a copy of the note which I now send to you
                     and I hope you will find it every thing that you wished for. I am exceedingly
                     sorry for my mistake but when you have read the note I am sure you will not be
-                    surprised at it. Occupation presses on me to such a degree that I have barely
+                    surprised at it.</foreign></p>
+                <p xml:id="L1833-05-04-a-p2"><foreign xml:lang="eng">Occupation presses on me to such a degree that I have barely
                     time now to write these few words and I think I may therefore assume that the
                     note will answer the greater part of your letter. I am delighted to find that
                     you are experimenting on the subject and shall be quite anxious to read your
@@ -175,12 +178,14 @@
                     are altogether new but shall scrupulously refrain from making the experiments or
                     even thinking on the matter until I see your results. I am still at work and
                     shall send you papers as they come out. I have just sent in one - (my fourth
-                    series of experimental researches) on a new law of Electric conduction <ref>(2)</ref> to
+                    series of experimental researches) on a new law of Electric conduction <ref target="#corresp2">(2)</ref> to
                     the <orgName>Royal Society</orgName> but it has not yet been read. I have another in hand but the
-                    experiments are incomplete <ref>(3)</ref>. Wishing you full recovery of health &amp;
+                    experiments are incomplete <ref target="#corresp3">(3)</ref>.</foreign></p>
+                <p xml:id="L1833-05-04-a-p3"><foreign xml:lang="eng">Wishing you full recovery of health &amp;
                     spirits that you may still vigorously &amp; successfully pursue what I know
                     gives you such delight and is to you a source of so much honor I am My Very dear
-                    Sir Yours Most faithfully M. <persName>Faraday</persName>
+                    Sir Yours Most faithfully 
+                    <lb/> M. <persName>Faraday</persName>
           </foreign>
         </p>
                 <closer> M. <persName>Ampère</persName>, &amp;c &amp;c &amp;c </closer>
@@ -191,10 +196,12 @@
                 <note resp="#CGA" xml:id="corresp1">(1) <persName>FARADAY, Michael</persName>. <title>Experimental Researches in
                     Electricity. Third Series. Identity of Electricities derived from different
                     sources. Relation by measure of common and voltaic Electricity</title>, Philosophical
-                    Translations of the <orgName>Royal Society</orgName>, <date when-iso="1833">1833</date>, 123, p. 23-54. (2) <persName>FARADAY, Michael</persName>.
+                    Translations of the <orgName>Royal Society</orgName>, <date when-iso="1833">1833</date>, 123, p. 23-54.</note>
+                <note resp="#CGA" xml:id="corresp2">(2) <persName>FARADAY, Michael</persName>.
                     <title>Experimental Researches in Electricity. Fourth Series. On a new Law of Electric
                     Conduction. On Conducting Power Generally</title>, Philosophical Translations of the
-                    <orgName>Royal Society</orgName>, <date when-iso="1833">1833</date>, 123, p. 507-522. (3) <persName>FARADAY, Michael</persName>. <title>Experimental
+                    <orgName>Royal Society</orgName>, <date when-iso="1833">1833</date>, 123, p. 507-522.</note>
+                <note resp="#CGA" xml:id="corresp3">(3) <persName>FARADAY, Michael</persName>. <title>Experimental
                     Researches in Electricity. Fifth Series. On Electro-Chemical Decomposition</title>,
                     Translations of the <orgName>Royal Society</orgName>, <date when-iso="1833">1833</date>, 123, p. 675-710.</note>
             </div>
