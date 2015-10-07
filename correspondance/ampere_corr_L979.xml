@@ -1,5 +1,4 @@
-
-<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -133,7 +132,7 @@
     <text type="correspondance" decls="#ampere_corr_L1793-05-02-a">
         <body>
             <div xml:id="L1793-05-02-a-div1">
-                <opener><pb n="55" facs="#ACAS_CRHST_AMP_24_333_0055_r.jpg"/> à <placeName>Lyon</placeName>le<date when="1793-05-02"> 2 mai 1793.</date>
+                <opener>le<date when="1793-05-02"> 2 mai 1793.</date>
                 </opener>
                 <p xml:id="L1793-05-02-a-p1">Je ne sais, Monsieur, comment vous avez pu répondre à ma lettre aussi promptement
                     que vous l'avez fait. J'aurais bien souhaité correspondre à votre exactitude,
@@ -152,11 +151,10 @@
                     les puissances des termes à différentier simplifie bien le travail dans le cas
                     où il s'y trouve des racines. Elle m'aurait bien aidé dans la solution de
                     quelques problèmes dont je ne suis pas venu à bout, faute de cette idée, et elle
-                    me sera désormais d'une grande utilité.</p>
-                <p xml:id="L1793-05-02-a-p2">Quant au problème du vase de la plus
+                    me sera désormais d'une grande utilité. Quant au problème du vase de la plus
                     grande contenance, sans examiner encore quelle en doit être la solution, je
                     crois pouvoir vous démontrer que ce n'est pas le vase sphérique qui remplit cet
-                    objet, comme vous l'aviez d'abord imaginé. En effet <pb n="56" facs="#ACAS_CRHST_AMP_24_333_0056_v.jpg"/> <figure/>
+                    objet, comme vous l'aviez d'abord imaginé. En effet [voir figure sur fac-similé]
                     soit le vase abef, et supposons pour un moment qu'à la place de la calotte
                     sphérique aeb, nous substituions la partie de cylindre acbd, qui a la même
                     hauteur que la calotte, c'est-à-dire le rayon de la sphère. Nous aurons alors
@@ -175,34 +173,19 @@
                     démontré que votre solution n'était pas juste, il y a cependant une supposition
                     qui la rendrait telle : c'est celle où l'on voudrait envelopper entièrement la
                     matière contenue. Quant au problème du vase cylindrique, je n'ai pas pu le
-                    résoudre et je vais vous montrer pourquoi. Appelant <figure/> a la solidité [le volume],
+                    résoudre et je vais vous montrer pourquoi. Appelant a la solidité [le volume],
                     il faudra diviser a par la surface de la base pour avoir la hauteur du côté. Le
-                    diamètre de la base étant supposé égal à x, sa surface sera <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mi>b</mi><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></math>
-                    </formula> en
+                    diamètre de la base étant supposé égal à x, sa surface sera bx&amp;sup2;/4 en
                     appelant b la quantité par laquelle il faut multiplier le diamètre pour avoir la
-                    circonférence. Divisant donc a par <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mi>b</mi><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></math>
-                    </formula> , nous aurons <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mn>4</mn><mi>a</mi></mrow><mrow><mi>b</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>
-                    </formula>
+                    circonférence. Divisant donc a par bx&amp;sup2;/4 , nous aurons 4a/bx&amp;sup2;
                     pour expression du côté c, c'est-à-dire de la hauteur du cylindre. Il faut
                     multiplier ce même côté par bx, circonférence de la base, afin d'avoir la
-                    surface latérale qui est <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mn>4</mn><mi>a</mi><mi>b</mi><mi>x</mi></mrow><mrow><mi>b</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>
-                    </formula>. Y ajoutant <pb n="57" facs="#ACAS_CRHST_AMP_24_333_0057_r.jpg"/> la surface de la base que
-                    nous avons trouvée <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"></math>
-                    </formula>, nous aurions <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mi>4</mi><mi>a</mi><mi>b</mi><mi>x</mi></mrow><mrow><mi>b</mi><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>+</mo><mfrac><mrow><mi>b</mi><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><mn>4</mn></mrow></mfrac></mrow></math>
-                    </formula> ou bien <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mrow><mn>4</mn><mi>a</mi></mrow><mrow><mi>x</mi></mrow></mfrac><mo>+</mo><mfrac><mrow><mi>b</mi><msup><mi>x</mi><mn>2</mn></msup></mrow>
-                        <mrow><mn>4</mn></mrow></mfrac></mrow></math>
-                    </formula> qui doit être un minimum. Mais il se trouve dans l'expression de
+                    surface latérale qui est 4abx/bx&amp;sup2;. Y ajoutant la surface de la base que
+                    nous avons trouvée bx&amp;sup2;, nous aurions 4abx/bx&amp;sup2; +
+                    bx&amp;sup2;/4, qui doit être un minimum. Mais il se trouve dans l'expression de
                     cette quantité, un b qui exprime le rapport du rayon à la circonférence. Ce
                     rapport étant indéterminable, je n'ai pu différentier. La même difficulté m'a
-                    empêché de résoudre le problème du vase conique.</p>
-                <p xml:id="L1793-05-02-a-p3">Pour ce qui regarde le
+                    empêché de résoudre le problème du vase conique. Pour ce qui regarde le
                     cerf-volant, je vous avouerai qu'en lisant votre lettre je n'ai pas d'abord été
                     convaincu de ce que vous me disiez que le cerf-volant ne pouvait s'élever
                     lorsque ses centres de figure et de gravité étant confondus, on attachait la
@@ -223,7 +206,7 @@
                     faute de l'avoir examinée, que je n'y ai pas vu la solution du cas où l'angle
                     est déterminé et où l'on ne considère qu'un point de l'aile. Effarouché par ces
                     différentielles que je ne connaissais pas encore, je n'avais fait attention
-                    qu'aux résultats. Ce qui <pb n="58" facs="#ACAS_CRHST_AMP_24_333_0058_v.jpg"/> m'a induit en erreur dans la fausse solution que je
+                    qu'aux résultats. Ce qui m'a induit en erreur dans la fausse solution que je
                     vous ai envoyée, c'est que sans l'avoir approfondi, je supposais qu'il fallait
                     toujours pour le maximum que la vitesse du vent pour choquer fût les deux tiers
                     de sa vitesse totale. Cela n'a lieu que lorsque le choc est direct et non point
@@ -248,14 +231,13 @@
                     Il est déterminé par le poids de cet arbre et des ailes, et par la grosseur même
                     des tourillons. Ainsi il faut donc nécessairement supposer une petite partie de
                     la résistance déterminée et le reste variable. Cela produira alors une nouvelle
-                    théorie, que je vous prie <pb n="59" facs="#ACAS_CRHST_AMP_24_333_0059_r.jpg"/> d'examiner, mais je ne la regarde pas encore comme
-                    bien certaine.</p>
-                <p xml:id="L1793-05-02-a-p4">Monsieur votre père s'est donné lui-même la peine de m'apporter
+                    théorie, que je vous prie d'examiner, mais je ne la regarde pas encore comme
+                    bien certaine. Monsieur votre père s'est donné lui-même la peine de m'apporter
                     votre lettre et, en me la remettant, il me demanda un échantillon de ficelle
                     pour un cerf-volant. Je lui en remis un mais je crains bien de l'avoir induit en
                     erreur, parce que je ne fis pas attention que c'était pour entrelacer avec des
                     fils de métal, et pour ce cas-là il fallait simplement un certain nombre de fils
-                    ronds ; 6 ou 8 peuvent suffire pour un cerf-volant de dix pieds de surface,
+                    [?ronds] ; 6 ou 8 peuvent suffire pour un cerf-volant de dix pieds de surface,
                     car j'en ai élevé un d'un pied de surface à une très grande hauteur avec un seul
                     fil et il avait de la force de reste lorsqu'il n'était pas usé. Quant aux
                     expériences que vous comptez faire avec ce cerf-volant, je les crois un peu
@@ -267,29 +249,27 @@
                     faisaient le bruit d'un coup de pistolet. D'après cette expérience il me paraît
                     qu'il est bien difficile de se garantir de ces feux et qu'il serait prudent de
                     n'élever jamais le cerf-volant quand il tonne ou que le ciel est bien chargé de
-                    nuages.</p>
-                <p xml:id="L1793-05-02-a-p5">Je me rappelle que dans votre première lettre vous me citiez un auteur
+                    nuages. Je me rappelle que dans votre première lettre vous me citiez un auteur
                     qui prétendait qu'une queue plate ajoutée à un cerf-volant le faisait élever
                     plus haut. Il m'est venu depuis une idée qui m'a convaincu du contraire. En
-                    effet s'il tendait à élever le cerf-volant, ce serait ou en lui
+                    effet si [cette queue] tendait à élever le cerf-volant, ce serait ou en lui
                     procurant un angle plus favorable, ou bien par l'impulsion qu'elle reçoit du
                     vent. Or ce ne peut pas être en faisant l'angle car, pourvu que le centre de
                     gravité soit au-dessous de celui d'impulsion, le cerf-volant pendra toujours
-                    l'angle le plus <pb n="60" facs="#ACAS_CRHST_AMP_24_333_0060_v.jpg"/> favorable, donc en premier lieu etc. En second lieu ce n'est pas
+                    l'angle le plus favorable, donc en premier lieu etc. En second lieu ce n'est pas
                     directement par l'impulsion qu'elle reçoit du vent, car cet auteur supposant que
                     c'est une simple bande de toile rectangulaire, son centre de gravité est
                     confondu avec le centre d'impulsion et comme elle est attachée par un point
                     autour duquel elle est supposée pouvoir tourner, elle est précisément dans le
                     cas du cerf-volant. Donc le vent, par son impulsion, ne tend point à la faire
                     élever, donc en second lieu etc. Il doit arriver au contraire qu'elle [fasse] un
-                    petit obstacle à l'élévation du cerf-volant par son poids.</p>
-                <p xml:id="L1793-05-02-a-p6">Ce n'est pas que je
+                    petit obstacle à l'élévation du cerf-volant par son poids. Ce n'est pas que je
                     ne crois une queue nécessaire à un cerf-volant, surtout lorsque le vent est
                     violent, pour les empêcher de culbuter, mais c'est une queue faite comme on les
                     fait ordinairement et qui empêche le cerf-volant de culbuter seulement. Car au
-                    lieu de l'élever, elle tend à l'abaisser, <figure/> car les petits flocons de papier qui
+                    lieu de l'élever, elle tend à l'abaisser, car les petits flocons de papier qui
                     la composent présentant des surfaces dans tous les sens font l'effet d'une
-                    surface verticale. Par conséquent l'effort du vent
+                    surface verticale. [voir figure sur fac-similé]. Par conséquent l'effort du vent
                     qui les choque tire le cerf-volant dans la direction horizontale df qui, faisant
                     un angle avec la direction cd de la ficelle, ne peut qu'abaisser le cerf-volant.
                     Je souhaiterais bien, Monsieur, pouvoir vous envoyer quelque problème bien
@@ -300,7 +280,7 @@
                     je comptais pour cela ne contient pas même les éléments du calcul intégral qui
                     n'était pas connu de son temps. Ainsi je vous prie de vouloir bien m'excuser et
                     de n'en être pas moins persuadé du sincère attachement avec lequel j'ai
-                    l'honneur d'être, Monsieur, Votre très humble et très obéissant serviteur,<lb/>
+                    l'honneur d'être, Monsieur, Votre très humble et très obéissant serviteur,
                     <persName>Couppier</persName>.</p>
             </div>
         </body>

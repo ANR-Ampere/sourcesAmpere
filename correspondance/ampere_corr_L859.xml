@@ -1,6 +1,4 @@
-
-<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!DOCTYPE ENTITY_MathML SYSTEM "../../Documents/Sch%C3%A9mas/ENTITY_MathML.dtd">
+<?xml-model href="../../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -133,9 +131,10 @@
     </teiHeader>
     <text type="correspondance" decls="#ampere_corr_L1823-06-04-a">
         <body>
-            <div xml:id="L1823-06-04-a-div1"> <opener><pb n="16" facs="#ACAS_CRHST_AMP_09_172_0016_r.jpg"/> <placeName>Provins</placeName>,le <date when="1823-06-04">4 juin 1823</date>
+            <div xml:id="L1823-06-04-a-div1">
+                <opener>le <date when="1823-06-04">4 juin 1823</date>
                 </opener>
-                <p xml:id="L1823-06-04-a-p1">Monsieur et cher Professeur, J'ai sans cesse de nouveaux remerciements à vous faire,
+                <p xml:id="L1823-06-04-a-p1">Monsieur le Professeur, J'ai sans cesse de nouveaux remerciements à vous faire,
                     et quand je pense à la peine que vous donnent ces malheureuses épreuves, je
                     regrette bien d'en être la cause et de n'avoir pu vous l'éviter. Je vois de plus
                     en plus, ce dont j'étais bien convaincu, combien il manque de développements à
@@ -157,62 +156,25 @@
                     vérification. C'est du reste une addition, et il ne se trouve rien de cette
                     erreur dans ce qui a été remis à l'<orgName>Institut</orgName>. Cela me prouve
                     seulement combien je vous ai d'obligations et combien peu je suis capable de la
-                    moindre chose sérieuse. Ce sera bien pis encore pour l'avenir.</p>
-                <p xml:id="L1823-06-04-a-p2">Je passe de suite
+                    moindre chose sérieuse. Ce sera bien pis encore pour l'avenir. Je passe de suite
                     à l'article qui termine votre lettre et qui est relatif à la somme des moments M
-                    dans l'action mutuelle de deux cylindres, vous avez eu la bonté de vérifier l'expression <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow>
-                            <mi>M</mi><mo>=</mo> <mo>&int;</mo><mfrac><mrow><msup><mi>h</mi><mn>2</mn></msup><mi>a'</mi><mi> cos</mi><mi>&omega;</mi><mi> d</mi><mi>&omega;</mi></mrow><mrow><msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac> <mo>+</mo>
-                            <mo>&int;</mo><mfrac><mrow><mo>(</mo><mi>c</mi><mi>cos</mi><mi>&omega;</mi><mo>&minus;</mo><mi>a'</mi><mo>)</mo> 
-                                <mo>(</mo><mi>c</mi><mo>&minus;</mo><mi>a'</mi><mi>cos</mi><mi>&omega;</mi><mo>)</mo><mi>a'</mi><mi>d</mi><mi>&omega;</mi></mrow><mrow><msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac>
-                        </mrow></math>
-                    </formula> qui me semble se déduire simplement de ce
+                    dans l'action mutuelle de deux cylindres, l'expression M = ∫h² a' cosω dω / r3 +
+                    ∫(c cosω -a') (c- a' cosω) a' dω / r3 qui me semble se déduire simplement de ce
                     qui précède. Les deux termes s'ajoutent car les deux composantes tendent à faire
-                    tourner dans le même sens. On doit négliger dans le second terme <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow>
-                            <mo>&int;</mo>
-                        <mfrac><mrow><msup><mi>a'</mi><mn>3</mn></msup><mi>cos</mi><mi>&omega;</mi><mi>d</mi><mi>&omega;</mi></mrow><mrow><msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac></mrow></math>
-                    </formula>. Quant aux autres, je mets séparément leur valeur
-                    déduite de ce que <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>r</mi><mo>=</mo><msqrt><msup><mi>h</mi><mn>2</mn></msup><mo>+</mo><msup><mi>c</mi><mn>2</mn></msup><mi>+</mi><msup><mi>a'</mi><mn>2</mn></msup><mo>&minus;</mo><mn>2</mn><mi>c</mi><mi>a'</mi><mi>cos</mi><mi>&omega;</mi></msqrt></mrow></math>
-                    </formula>
-                   <formula>
-                       <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow> <msup><mi>h</mi><mn>2</mn></msup><mi>a'</mi><mo>&int;</mo><mfrac><mrow><mi>cos</mi><mi>&omega;</mi><mi>d</mi><mi>&omega;</mi></mrow><mrow><msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac><mo>=</mo>
-                          <mfrac><mrow><mn>3</mn><msup><mi>a'</mi><mn>2</mn></msup><msup><mi>h</mi><mn>2</mn></msup><mi>c</mi></mrow><mrow><msup><mi>r</mi><mn>5</mn></msup></mrow></mfrac></mrow></math>
-                   </formula> ; <formula>
-                       <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>a'</mi><mo>&int;</mo> <mfrac><mrow><msup><mi>c</mi><mn>2</mn></msup><mi>cos</mi><mi>&omega;</mi><mi>d</mi><mi>&omega;</mi></mrow><mrow><msup><mi>r</mi><mn>3</mn></msup> </mrow></mfrac><mo>=</mo> <mfrac><mrow><mn>3</mn><msup><mi>a'</mi><mn>2</mn></msup> <msup><mi>c</mi><mn>3</mn></msup></mrow><mrow> <msup><mi>r</mi><mn>5</mn></msup></mrow></mfrac></mrow></math></formula>
-                    <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow> <mo>&minus;</mo><msup><mi>a'</mi><mn>2</mn></msup><mi>c</mi> <mo>&int;</mo> <mfrac><mrow><msup><mi>cos</mi><mn>2</mn></msup><mi>&omega;</mi><mi>d</mi><mi>&omega;</mi></mrow><mrow><msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac><mo>=</mo><mo>&minus;</mo>
-                           <mfrac><mrow><msup><mi>a'</mi><mn>2</mn></msup><mi>c</mi></mrow><mrow> <msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac></mrow></math>
-                    </formula> ; <formula><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>-</mi><msup><mi>a'</mi><mn>2</mn></msup><mi>c</mi><mo>&int;</mo><mfrac><mrow><mi>d</mi><mi>&omega;</mi></mrow><mrow><msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac><mo>=</mo><mo>-</mo><mfrac><mrow><mn>2</mn><msup><mi>a'</mi><mn>2</mn></msup><mi>c</mi></mrow><mrow><msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac></mrow></math></formula> la somme des trois est bien - 3
-                    <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow>
-                            <mfrac><mrow><mo>&minus;</mo><mn>3</mn><msup><mi>a'</mi><mn>2</mn></msup><mi>c</mi><mo>(</mo><msup><mi>r</mi><mn>2</mn></msup><mo>&minus;</mo><msup><mi>c</mi><mn>2</mn></msup><mo>)</mo></mrow><mrow><msup><mi>r</mi><mn>5</mn></msup></mrow></mfrac> <mo>=</mo> <mfrac><mrow><mo>&minus;</mo><mn>3</mn> <msup><mi>a'</mi><mn>2</mn></msup><msup><mi>h</mi><mn>2</mn></msup><mi>c</mi></mrow><mrow><msup><mi>r</mi><mn>5</mn></msup></mrow></mfrac>
-                        </mrow></math>
-                    </formula> car après l'intégration, <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><msup><mi>h</mi><mn>2</mn></msup> <mo>+</mo> <msup><mi>c</mi><mn>2</mn></msup></mrow></math>
-                    </formula>.
+                    tourner dans le même sens. Quant aux autres, je mets séparément leur valeur
+                    déduite de ce que r² = [h² + c² + a'² - 2c a' cosω]1/2 h² a' ∫ cosω dω / r3 =
+                    3a'² h² c / r5 ; a'∫ c² cosω dω / r3 = 3a'² c3 / r5 - a'² c ∫ cos²ω dω / r3 = -
+                    a'² c / r3 ; -a'² c ∫ dω / r²=- 2a'² h² dω / r3 la somme des trois est bien - 3
+                    a'² c ( r²- c²)/ r5 = -3 a'² ² c / r5 car après l'intégration, r² = h² + c².
                     Cette somme est donc égale et de signe contraire à la valeur du 1er terme. Donc
-                    <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>M</mi><mo>=</mo><mn>0</mn></mrow></math>
-                    </formula>. Je présume que vous faites <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mo>&int;</mo> <mfrac><mrow><mi>d</mi><mi>&omega;</mi></mrow><mrow><msup><mi>r</mi><mn>3</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn></mrow>
-                            <mrow><msup><mn>r</mn><mn>3</mn></msup></mrow></mfrac></mrow></math>
-                    </formula> mais 
-                    <pb n="17" facs="#ACAS_CRHST_AMP_09_172_0017_v.jpg"/> les intégrales sont
-                    prises <add>depuis <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>&omega;</mi><mo>=</mo><mn>0</mn></mrow></math>
-                    </formula> </add>jusqu'à <formula>
-                        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>&omega;</mi><mo>=</mo><mn>2</mn><mi>&pi;</mi></mrow></math>
-                    </formula>. Je crois donc qu'il n'y a pas d'erreur dans
-                    le résultat.</p>
-                <p xml:id="L1823-06-04-a-p3">D'après l'inquiétude que vous voulez bien me témoigner pour mon
+                    M = 0 . Je présume que vous faites ∫ dω /r3 = 1 /r3 mais les intégrales sont
+                    prises depuis ω = 0 jusqu'à ω= 2π. Je crois donc qu'il n'y a pas d'erreur dans
+                    le résultat. D'après l'inquiétude que vous voulez bien me témoigner pour mon
                     propre intérêt, je suis désolé du retard qu'éprouve ma réponse. Car je vois
                     votre lettre datée du <date when="1823-06-01">1er juin</date> et nous sommes au
                     4 du mois. Je n'ai rien à vous reprocher ; il n'y a que quelques heures que M.
                     <persName>Dupré</persName> a eu la bonté de me faire passer votre lettre  ; la
-                    mienne est prête, elle partira ce soir et vous la recevrez demain matin.</p>
-                <p xml:id="L1823-06-04-a-p4">Je ne
+                    mienne est prête, elle partira ce soir et vous la recevrez demain matin. Je ne
                     perdrai point cette occasion de vous témoigner mes remerciements pour la
                     bienveillance que témoigne M. <persName>Dupré</persName>, à moi et à mes
                     camarades. Il nous a présenté tous les moyens possibles d'alléger notre fardeau.
@@ -224,8 +186,7 @@
                     moi, le reproche de ne pas m'occuper d'études qui me sont si nécessaires pour
                     mériter cette bienveillance. J'ai le chagrin d'oublier, de ne pas acquérir et,
                     ce qui est pis encore, de perdre l'habitude d'un travail qui exige quelque
-                    attention.</p>
-                <p xml:id="L1823-06-04-a-p5">Quelque chose qui arrive, veuillez croire que je n'oublierai jamais
+                    attention. Quelque chose qui arrive, veuillez croire que je n'oublierai jamais
                     toutes les obligations que je vous dois, depuis le temps que je suivais vos
                     leçons à l’<orgName>École</orgName> jusqu'à celui où vous voulez bien corriger
                     pour moi et le travail si imparfait et les épreuves qui, par ce que j'en ai sous
@@ -237,10 +198,11 @@
                     <persName>Mme Hachette</persName> mes hommages respectueux. Veuillez encore, je
                     vous prie, faire agréer mes respects à Mme votre sœur et me rappeler au souvenir
                     de M. votre fils et croire vous-même à l'attachement sincère et au dévouement de
-                    votre ancien élève,<lb/>
-                    <persName>F. Savary</persName>
+                    votre ancien élève, <persName>F. Savary</persName>
                 </p>
-                
+                <closer>De <persName>Savary Félix</persName>, à
+                    <persName>Ampère, André-Marie</persName>
+                </closer>
             </div>
         </body>
     </text>

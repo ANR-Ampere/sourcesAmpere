@@ -1,5 +1,4 @@
-
-<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -76,7 +75,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1810-12-20-a">
-               <monogr>
+               <monogr xmlns="">
                   <author>
                      <surname>Pictet</surname>
                      <forename>Marc-Auguste</forename>
@@ -101,11 +100,11 @@
                <witness xml:id="L881manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country>France</country>
-                        <settlement>Paris</settlement>
-                        <institution>Archives de l'Académie des sciences</institution>
-                        <repository>Fonds André-Marie Ampère</repository>
-                        <idno>chemise 351</idno>
+                        <country xmlns="">France</country>
+                        <settlement xmlns="">Paris</settlement>
+                        <institution xmlns="">Archives de l'Académie des sciences</institution>
+                        <repository xmlns="">Fonds André-Marie Ampère</repository>
+                        <idno xmlns="">chemise 351</idno>
                      </msIdentifier>
                   </msDesc>
           </witness>
@@ -157,9 +156,10 @@
    <text type="correspondance" decls="#ampere_corr_L1810-12-20-a">
       <body>
          <div xml:id="L1810-12-20-a-div1">
-            <opener><pb n="16" facs="#ACAS_CRHST_AMP_24_351_0016_r.jpg"/> <placeName>Genève</placeName>, <date when="1810-12-20">20 décembre 1810</date>
+            <opener>
+          <date when="1810-12-20">20 décembre 1810</date>
         </opener>
-            <p xml:id="L1810-12-20-a-p1">J'eus l'honneur de vous écrire Monsieur et très honoré Collègue le <date when="1810-11-30">30</date> du mois dernier
+            <p xml:id="L1810-12-20-a-p1">J'eus l'honneur de vous écrire Monsieur et très honoré Collègue le 30 du mois dernier
                en vous envoyant la peau d'un ours ; c'était un mode de répartition proposé, pour le
                reversement supposé en faveur de l'académie de <placeName>Genève</placeName>. Je sais trop bien par
                expérience, avec quelle lenteur notre grande machine universitaire tourne, pour
@@ -169,69 +169,61 @@
                Valaisans désirent fort qu'à cette occasion <placeName>Genève</placeName> devienne siège d'une Cour
                d'appel ; leurs députés le demanderont à l'Empereur ; notre ville vient de faire la
                même demande et a nommé, pour la porter aux pieds du trône, une députation dont M.
-               <persName>Boissier</persName> notre Recteur <ref target="#corresp1">(1)</ref> est l'un des trois membres et quoique le Moniteur ait
-               annoncé l'adjonction du <placeName>Simplon</placeName> à la Cour d'appel de <placeName>Lyon</placeName>, nous ne nous tenons pas
+               <persName>Boissier</persName> notre Recteur <ref>(1)</ref> est l'un des trois membres et quoique le Moniteur ait
+               annoncé l'adjonction du Simplon à la Cour d'appel de <placeName>Lyon</placeName>, nous ne nous tenons pas
                pour battus et <placeName>Lyon</placeName> qui a déjà quatre départements dans son ressort, ne souffrirait
                pas beaucoup en nous en cédant un, et resterait ainsi dans la moyenne de la très
-               grande pluralité des Cours d'appel de l'Empire <ref target="#corresp2">(2)</ref>.</p>
-            <p xml:id="L1810-12-20-a-p2">Mais quelle que soit l'issue de
-               cette demande, il nous semble <pb n="17" facs="#ACAS_CRHST_AMP_24_351_0017_v.jpg"/> que sous le rapport de l'Instruction, on ne peut <choice>
+               grande pluralité des Cours d'appel de l'Empire <ref>(2)</ref>. Mais quelle que soit l'issue de
+               cette demande, il nous semble que sous le rapport de l'Instruction, on ne peut <choice>
             <sic>guères</sic> <corr>guère</corr>
           </choice>
                faire ressortir d'une autre académie ; que celle de <placeName>Genève</placeName> le nouveau Département
-               <ref target="#corresp3">(3)</ref>. La demande en est adressée en forme par notre Recteur à S<ex>on</ex> E<ex>xcellence</ex>
+               <ref>(3)</ref>. La demande en est adressée en forme par notre Recteur à S. E. [Son Excellence]
                le Grand Maître par le courrier d'aujourd'hui, et c'est pour vous en prévenir, mon
                très honoré collègue, et vous demander votre appui et celui de notre respectable abbé
                Roman en faveur de cette demande, que je vous écris aujourd'hui. Les convenances
                locales y existent au plus haut degré. D'anciens rapports nous lient avec le
-               ci-devant <placeName>Valais</placeName>, et la différence des religions est si peu un obstacle que notre
+               ci-devant Valais, et la différence des religions est si peu un obstacle que notre
                Curé vous dira quand vous voudrez, que sous le rapport de l'inspection et de la
                protection de son école il ne voudrait changer notre Recteur contre aucun autre.
                Cette école est en grande partie votre ouvrage et celui de votre excellent Collègue,
-               et elle mérite tout votre intérêt.</p>
-            <p xml:id="L1810-12-20-a-p3">L'idée de faire voyager l'Inspecteur de <placeName>Lyon</placeName>
-               jusqu'aux Sources du <placeName>Rhône</placeName> serait assez étrange, et pour celui de <placeName>Genève</placeName> <ref target="#corresp4">(4)</ref> elle est
+               et elle mérite tout votre intérêt. L'idée de faire voyager l'Inspecteur de Lyon
+               jusqu'aux Sources du Rhône serait assez étrange, et pour celui de <placeName>Genève</placeName> <ref>(4)</ref> elle est
                tout naturelle. Notre Académie, en acquérant ainsi un ressort plus étendu, y
                gagnerait plus de consistance et plus de moyens. Alors peut-être on nous disputerait
                moins la conservation de notre école préparatoire de Droit et de celle de Médecine,
-               que nous serions désolés de perdre après en avoir joui si longtemps <ref target="#corresp5">(5)</ref>. Veuillez
+               que nous serions désolés de perdre après en avoir joui si longtemps <ref>(5)</ref>. Veuillez
                donc mon très cher collègue, si vous y êtes appelés l'un ou l'autre et si nous avons
                le bonheur que vous partagiez notre opinion, prêcher sur ce texte dans l'occasion, et
                même la faire naître au besoin. Si notre députation est acceptée, ce qui
                malheureusement est encore fort douteux, mon ami <persName>Boissier</persName>, et mon parent<persName> Pictet
-               Diodati</persName> <ref target="#corresp6">(6)</ref> qui la présidera, auront l'honneur de vous voir, et prendront langue
+               Diodati</persName> <ref>(6)</ref> qui la présidera, auront l'honneur de vous voir, et prendront langue
                auprès de vous. Avez-vous eu le temps de parcourir le mémoire sur l'attraction
                capillaire de M. <persName>Sarthou</persName> ? Veuillez-une fois m'en dire votre avis. Adieu Monsieur et
                très honoré collègue. J'espère que mes lettres vous parviennent franches sous le
-               couvert de S<ex>on</ex> E<ex>xcellence</ex>  sans quoi je me ferai grand scrupule de vous écrire
+               couvert de S. E. [Son Excellence] sans quoi je me ferai grand scrupule de vous écrire
                si souvent. Agréez tout mon dévouement et veuillez ne pas m'oublier auprès de votre
-               digne compagnon de voyage.<lb/>
-               M. <persName>A. Pictet</persName>
+               digne compagnon de voyage. M. <persName>A. Pictet</persName>
         </p>
          </div>
       </body>
       <back>
          <div xml:id="L1810-12-20-a-div2">
-            <note resp="#CGA" xml:id="corresp1">(1) <persName>Henri Boissier</persName> (<date from-iso="1762-00-00" to-iso="1845-00-00">1762-1845</date>) était depuis <date when-iso="1800-00-00">1800</date> recteur de
-               l'Académie de <placeName>Genève</placeName>.</note>
-            <note resp="#CGA" xml:id="corresp2">(2) Aux yeux de <persName>Pictet</persName>, le véritable enjeu de cette affaire
+            <note resp="#CGA" xml:id="corresp1">(1) <persName>Henri Boissier</persName> (<date from-iso="1762" to-iso="1845">1762-1845</date>) était depuis 1800 recteur de
+               l'Académie de <placeName>Genève</placeName>. (2) Aux yeux de <persName>Pictet</persName>, le véritable enjeu de cette affaire
                était le maintien de l'<orgName>Académie de <placeName>Genève</placeName>
           </orgName>, la loi sur l'Université ne prévoyant de
-               facultés que pour les villes dotées d'une Cour d'appel.</note>
-            <note resp="#CGA" xml:id="corresp3">(3) Jusque là, le ressort de
+               facultés que pour les villes dotées d'une Cour d'appel. (3) Jusque là, le ressort de
                l'<orgName>Académie de <placeName>Genève</placeName>
           </orgName>, maintenue par une clause du traité de réunion de <date when-iso="1798">1798</date>, ne
                s'étendait guère au-delà de l'ancien territoire de la Ville, et ne couvrait donc pas
-               même, et de loin, l'ensemble du département du <placeName>Léman</placeName>.</note>
-            <note resp="#CGA" xml:id="corresp4">(4) En l'occurrence le pasteur
-               <persName>Jacques-Louis Peschier</persName> (<date from-iso="1759-00-00" to-iso="1831-00-00">1759-1831</date>), dit <persName>Peschier-Fontanes</persName>, qui était depuis <date when-iso="1809-00-00">1809</date>
+               même, et de loin, l'ensemble du département du <placeName>Léman</placeName>. (4) En l'occurrence le pasteur
+               <persName>Jacques-Louis Peschier</persName> (<date from-iso="1759" to-iso="1831">1759-1831</date>), dit <persName>Peschier-Fontanes</persName>, qui était depuis 1809
                professeur honoraire de morale évangélique et professeur adjoint de mathématiques
                élémentaires, après avoir été suppléant à la chaire de physique expérimentale de
-               M. <persName>A. Pictet</persName>.</note>
-            <note resp="#CGA" xml:id="corresp5">(5) L'Auditoire de Droit existait en effet depuis le début du XVIIIe
+               M.-<persName>A. Pictet</persName> (5) L'Auditoire de Droit existait en effet depuis le début du XVIIIe
                siècle ; en revanche, l'<orgName>École de Médecine</orgName> n'avait été instaurée, très timidement,
-               qu'en <date when-iso="1802">1802</date>.</note>
-            <note resp="#CGA" xml:id="corresp6">(6) L'avocat <persName>Jean Marc Jules Pictet-Diodati</persName> (<date from-iso="1768-00-00" to-iso="1828-00-00">1768-1828</date>) était député du
+               qu'en <date when-iso="1802">1802</date>. (6) L'avocat <persName>Jean Marc Jules Pictet-Diodati</persName> (1768-1828) était député du
                département du <placeName>Léman</placeName> au Corps Législatif depuis <date when-iso="1799">1799</date>. Il venait d'accéder à la
                dignité de chevalier d'Empire.</note>
          </div>

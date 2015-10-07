@@ -1,5 +1,4 @@
-
-<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -76,7 +75,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1820-03-28-a">
-               <monogr>
+               <monogr xmlns="">
                   <author>
                      <surname>De Launay</surname>
                      <forename>Louis</forename>
@@ -96,11 +95,11 @@
                <witness xml:id="L925manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country>France</country>
-                        <settlement>Paris</settlement>
-                        <institution>Archives de l'Académie des sciences</institution>
-                        <repository>Fonds André-Marie Ampère</repository>
-                        <idno>chemise 334</idno>
+                        <country xmlns="">France</country>
+                        <settlement xmlns="">Paris</settlement>
+                        <institution xmlns="">Archives de l'Académie des sciences</institution>
+                        <repository xmlns="">Fonds André-Marie Ampère</repository>
+                        <idno xmlns="">chemise 334</idno>
                      </msIdentifier>
                   </msDesc>
           </witness>
@@ -153,29 +152,25 @@
       <body>
          <div xml:id="L1820-03-28-a-div1">
             <opener>
-               <pb n="131" facs="#ACAS_CRHST_AMP_24_334_0131_r.jpg"/> <date when="1820-03-28">28 mars 1820</date>
+          <date when="1820-03-28">28 mars 1820</date>
         </opener>
             <p xml:id="L1820-03-28-a-p1">
-          <gap reason="lacune_CGA"/> Je viens de lire le discours de notre très cher
+          <gap xmlns="" reason="lacune_CGA"/> Je viens de lire le discours de notre très cher
                <persName>Camille</persName>. J'en suis profondément affecté. J'ai admiré ces beaux sentiments, cette
                élévation de pensée. J'ai eu du plaisir à reconnaître ce noble caractère d'un des
-               hommes qui honorent l'humanité. Mais ces adieux<pb n="132" facs="#ACAS_CRHST_AMP_24_334_0132_v.jpg"/> sont bien tristes ; dis-lui que je
-               l'aime bien tendrement ; mais il le sait. <ref target="#corresp1">(1)</ref> <gap reason="lacune_CGA"/>
-               <persName>Ballanche</persName> ne sait pas combien je l'aime. S'il le savait, il m'écrirait quelquefois. Et <persName>Dugas</persName>, et <persName>Dupuis</persName>, donne-moi de leurs nouvelles <lb/>
-               Adieu</p>
-            <p xml:id="L1820-03-28-a-p2">
+               hommes qui honorent l'humanité. Mais ces adieux sont bien tristes ; dis-lui que je
+               l'aime bien tendrement ; mais il le sait. <ref>(1)</ref> <gap xmlns="" reason="lacune_CGA"/>
+               <persName>Ballanche</persName> ne sait pas combien je l'aime. S'il le savait, il m'écrirait quelquefois.
                Mon ami, la vie me devient de plus en plus sombre. Mais aussi le temps me devient de
                plus en plus court. Je deviens chaque jour plus incapable de quoi que ce soit. Tout
                m'accable ; tout me martyrise ; tout est grave pour moi. Je ne peux plus me décider à
-               rien.<lb/>
-               Adieu, ton ami <lb/>
-           <persName>C-J Bredin</persName> </p>
+               rien. Adieu.</p>
          </div>
       </body>
       <back>
          <div xml:id="L1820-03-28-a-div2">
             <note resp="#CGA" xml:id="corresp1">(1) <persName>Camille Jordan</persName> souffrait depuis deux ans d'un cancer à
-               l'estomac, qui allait bientôt l'emporter, en <date when-iso="1821-05-00">mai 1821</date>. </note>
+               l'estomac, qui allait bientôt l'emporter, en <date when-iso="1821-05">mai 1821</date>. </note>
          </div>
       </back>
    </text>

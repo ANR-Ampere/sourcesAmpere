@@ -1,5 +1,4 @@
-
-<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -79,7 +78,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1814-12-11-a">
-               <monogr>
+               <monogr xmlns="">
                   <author>
                      <surname>Pictet</surname>
                      <forename>Marc-Auguste</forename>
@@ -104,11 +103,11 @@
                <witness xml:id="L895manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country>Suisse</country>
-                        <settlement>Genève</settlement>
-                        <institution>Archives de la Fondation F. Rilliet</institution>
-                        <repository>Fonds Pictet</repository>
-                        <idno>K4 [note de René SIGRIST]</idno>
+                        <country xmlns="">Suisse</country>
+                        <settlement xmlns="">Genève</settlement>
+                        <institution xmlns="">Archives de la Fondation F. Rilliet</institution>
+                        <repository xmlns="">Fonds Pictet</repository>
+                        <idno xmlns="">K4 [note de René SIGRIST]</idno>
                      </msIdentifier>
                   </msDesc>
           </witness>
@@ -160,10 +159,9 @@
       <body>
          <div xml:id="L1814-12-11-a-div1">
             <opener>
-         <placeName>Paris</placeName> <date when="1814-12-11">11 décembre 1814</date>
+          <date when="1814-12-11">11 décembre 1814</date>
         </opener>
-            <opener>Mon cher collègue et très honorable ami,</opener>
-            <p xml:id="L1814-12-11-a-p1"> En vous témoignant toute ma reconnaissance
+            <p xml:id="L1814-12-11-a-p1">Mon cher collègue et très honorable ami, En vous témoignant toute ma reconnaissance
                de l'intérêt que vous avez mis à me voir admis parmi les membres de la savante
                réunion des hommes les plus distingués de votre ville, cette noble pépinière de
                personnes dévouées aux sciences qui éclairent l'intelligence et aux sentiments qui
@@ -173,28 +171,25 @@
                <persName>Prevost</persName>, votre président, pour qu'il soit auprès de la <orgName>Société</orgName> qui m'a fait l'honneur
                de m'admettre dans son sein l'interprète de ces sentiments. Je me reproche vivement
                de ne l'avoir pas fait plus tôt, mais je n'ai reçu mon diplôme que depuis peu de
-               jours, et ma nomination à l'<orgName>Institut</orgName> <ref target="#corresp1">(1)</ref> en remplacement de M. <persName>Bossut</persName> <ref target="#corresp2">(2)</ref> me
+               jours, et ma nomination à l'<orgName>Institut</orgName> <ref>(1)</ref> en remplacement de M. <persName>Bossut</persName> <ref>(2)</ref> me
                prescrivant des devoirs qui se trouvaient en concurrence avec mille autres
-               occupations, ne me laissait pas un instant dont je pusse disposer.</p>
-            <p xml:id="L1814-12-11-a-p2">Celui qui m'a
-               remis le diplôme <ref target="#corresp3">(3)</ref> m'a dit qu'il aurait probablement une occasion prompte et sûre
+               occupations, ne me laissait pas un instant dont je pusse disposer. Celui qui m'a
+               remis le diplôme <ref>(3)</ref> m'a dit qu'il aurait probablement une occasion prompte et sûre
                pour vous faire passer un petit flacon d'iode. Il m'a promis de me donner une réponse
-               à ce sujet, mais je n'en ai point eu de nouvelles depuis <ref target="#corresp4">(4)</ref> ; j'attendrai encore
+               à ce sujet, mais je n'en ai point eu de nouvelles depuis <ref>(4)</ref> ; j'attendrai encore
                quelques jours ; si son silence continue j'emploierai la voie que vous m'indiquez
                pour vous l'envoyer, pourvu que M. <persName>Marignié</persName> puisse se procurer une bonne occasion. Je
                n'ai comme vous, cher et excellent ami, aucune donnée sur ce qu'il conviendrait que
                vous fissiez relativement au projet d'un petit voyage à <placeName>Paris</placeName>, et je craindrais que
                l'envie de vous voir et de vous embrasser ne me portât à vous donner un conseil
-               indiscret.</p>
-            <p xml:id="L1814-12-11-a-p3">Je ne m'étonne pas que M. <persName>Capelle</persName> conserve avec délices le souvenir du
+               indiscret. Je ne m'étonne pas que M. <persName>Capelle</persName> conserve avec délices le souvenir du
                temps qu'il a passé parmi vous, puisque j'éprouve ce sentiment avec tant de vivacité
-               moi qui n'ai pu jouir que quelques jours de la société de mes nouve[aux] collègues.</p>
-            <p xml:id="L1814-12-11-a-p4">
+               moi qui n'ai pu jouir que quelques jours de la société de mes nouve[aux] collègues.
                M. <persName>Degérando</persName> me parle souvent de vous ; c'est un grand bonheur pour moi de pouvoir
                cultiver son amitié, et de ne pas être du moins à cent lieues de tous ceux avec qui
                je voudrais passer ma vie. Recevez, cher et excellent ami, l'hommage de mon entier
-               dévouement et de mon éternel attachement. Je vous embrasse de toute mon âme.<lb/>
-               <persName>A. Ampère</persName>
+               dévouement et de mon éternel attachement. Je vous embrasse de toute mon âme. <persName>A.
+               Ampère</persName>
         </p>
             <closer>à Monsieur <persName>Pictet</persName>, inspecteur de l'<orgName>Université Royale de France</orgName>, à
                <placeName>Genève</placeName>
@@ -204,14 +199,11 @@
       <back>
          <div xml:id="L1814-12-11-a-div2">
             <note resp="#CGA" xml:id="corresp1">(1) <persName>Ampère</persName> a été élu membre de l'<orgName>Institut</orgName>, section de géométrie,
-               le <date when="1814-11-28">28 novembre 1814</date>.</note>
-            <note resp="#CGA" xml:id="corresp2">(2) Le mathématicien <persName>Charles Bossut</persName> (<date from-iso="1730-00-00" to-iso="1814-00-00">1730-1814</date>) était mort le <date when="1814-01-14">14
-               janvier</date>. Membre de la section de mathématiques depuis <date when-iso="1795-00-00">1795</date>, il était déjà
-               pensionnaire de l'<orgName>Académie</orgName> sous l'Ancien Régime.</note>
-            <note resp="#CGA" xml:id="corresp3">(3) Il s'agit de <persName>Louis-André Gosse</persName>
-               (<date from-iso="1791-00-00" to-iso="1873-00-00">1791-1873</date>), fils du pharmacien genevois <persName>Henri-Albert Gosse</persName>. Il étudiait alors la
-               médecine à <placeName>Paris</placeName>.</note>
-            <note resp="#CGA" xml:id="corresp4">(4) <persName>Gosse fils</persName> était momentanément alité : l'iode parviendra à
+               le <date when="1814-11-28">28 novembre 1814</date>. (2) Le mathématicien <persName>Charles Bossut</persName> (<date from-iso="1730" to-iso="1814">1730-1814</date>) était mort le <date when="1814-01-14">14
+               janvier</date>. Membre de la section de mathématiques depuis <date when-iso="1795">1795</date>, il était déjà
+               pensionnaire de l'<orgName>Académie</orgName> sous l'Ancien Régime. (3) Il s'agit de <persName>Louis-André Gosse</persName>
+               (<date from-iso="1791" to-iso="1873">1791-1873</date>), fils du pharmacien genevois <persName>Henri-Albert Gosse</persName>. Il étudiait alors la
+               médecine à <placeName>Paris</placeName>. (4) <persName>Gosse fils</persName> était momentanément alité : l'iode parviendra à
                <persName>Pictet</persName> fin janvier (voir la lettre de <persName>Henri-Albert Gosse</persName> du <date when="1815-01-21">21 janv. 1815</date>, au tome
                I). </note>
          </div>

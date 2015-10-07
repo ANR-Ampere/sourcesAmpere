@@ -1,5 +1,4 @@
-
-<?xml-model href="ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -76,7 +75,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1834-01-06-a">
-               <monogr>
+               <monogr xmlns="">
                   <editor>
                      <surname>James</surname>
                      <forename>Frank A. J. L.</forename>
@@ -95,9 +94,9 @@
                <witness xml:id="L939manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country>Russie</country>
-                        <settlement>Saint-Petersbourg</settlement>
-                        <institution>Archives de l'Académie [note de Franck
+                        <country xmlns="">Russie</country>
+                        <settlement xmlns="">Saint-Petersbourg</settlement>
+                        <institution xmlns="">Archives de l'Académie [note de Franck
                            JAMES]</institution>
                      </msIdentifier>
                   </msDesc>
@@ -132,7 +131,6 @@
         <correspAction type="received">
           <persName type="adressee">Ampère, André-Marie</persName>
         </correspAction>
-         <note><ref target="#corresp1">(1)</ref></note>
       </correspDesc>
          <creation>
         <date when="2014-07">juillet 2014</date>
@@ -152,17 +150,15 @@
       <body>
          <div xml:id="L1834-01-06-a-div1">
             <opener>
-       <foreign xml:lang="eng"><orgName>Royal Institution</orgName>, <date when="1834-01-06">6 Jan<ex>uar</ex>y 1834</date></foreign>
+          <date when="1834-01-06">6 Jan<ex>uar</ex>y 1834</date>
         </opener>
-            <opener><foreign xml:lang="eng">My dear Sir,</foreign></opener>
             <p xml:id="L1834-01-06-a-p1">
-          <foreign xml:lang="eng"> I take a moment to remind you of an old friend one very much your debtor
+          <foreign xml:lang="eng">My dear Sir I take a moment to remind you of an old friend one very much your debtor
                and who wishes to know how you are in health at this waiting period of the year. I
-               also introduce to you Mr. <persName>Smith</persName> and certain inventions of his in which I think you
+               also introduce to you Mr. Smith and certain inventions of his in which I think you
                will take an interest. My friend Mr <persName>Lewis</persName> speaks highly of Mr <persName>Smith</persName>'s inventions but
                I have not seen enough of them myself to form any opinion upon their final
-               application. I am, My dear Sir, Most Truly Yours,<lb/>
-             M. <persName>Faraday</persName>
+               application. I am, My dear Sir, Most Truly Yours, M. <persName>Faraday</persName>
           </foreign>
         </p>
             <closer> M. <persName>Ampère</persName>, &amp;c &amp;c &amp;c </closer>
@@ -170,7 +166,7 @@
       </body>
       <back>
          <div xml:id="L1834-01-06-a-div2">
-            <note resp="CAK_commentaire" xml:id="corresp1">Lettre communiquée par <persName>Franck A. J. L. JAMES</persName>.</note>
+            <note resp="CAK_commentaire">Lettre communiquée par <persName>Franck A. J. L. JAMES</persName>.</note>
          </div>
       </back>
    </text>

@@ -1,5 +1,4 @@
-
-<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -79,7 +78,7 @@
       </publicationStmt>
       <sourceDesc>
         <biblStruct xml:id="ampere_corr_L1816-05-31-a">
-          <monogr>
+          <monogr xmlns="">
             <author>
               <surname>Pictet</surname>
               <forename>Marc-Auguste</forename>
@@ -103,11 +102,11 @@
           <witness xml:id="L898manuscrit">
             <msDesc type="original_manuscrit">
               <msIdentifier>
-                <country>Suisse</country>
-                <settlement>Genève</settlement>
-                <institution>Archives de la Fondation F. Rilliet</institution>
-                <repository>Fonds Pictet</repository>
-                <idno>K4 [note de René SIGRIST]</idno>
+                <country xmlns="">Suisse</country>
+                <settlement xmlns="">Genève</settlement>
+                <institution xmlns="">Archives de la Fondation F. Rilliet</institution>
+                <repository xmlns="">Fonds Pictet</repository>
+                <idno xmlns="">K4 [note de René SIGRIST]</idno>
               </msIdentifier>
             </msDesc>
           </witness>
@@ -159,10 +158,9 @@
     <body>
       <div xml:id="L1816-05-31-a-div1">
         <opener>
-          <placeName>Paris</placeName>, <date when="1816-05-31">31 mai 1816</date>
+          <date when="1816-05-31">31 mai 1816</date>
         </opener>
-        <opener>Mon cher collègue et excellent ami,</opener>
-        <p xml:id="L1816-05-31-a-p1"> J'aurais dû vous écrire plus tôt pour vous témoigner
+        <p xml:id="L1816-05-31-a-p1">Mon cher collègue et excellent ami, J'aurais dû vous écrire plus tôt pour vous témoigner
           toute ma reconnaissance de l'entier succès des démarches que vous avez eu la bonté de
           faire auprès de Monsieur le docteur <persName>de Carro</persName>, pour me procurer les échantillons de
           minerais que vous savez. Ils sont arrivés, mes désirs sont parfaitement remplis à cet
@@ -174,16 +172,15 @@
           chimie que je désirais le plus. Je n'en dis rien pour que d'autres ne se hâtent de faire
           des recherches sur le même sujet avant que les miennes soient achevées. J'ai écrit à M. le
           docteur <placeName>de Carro</placeName> pour le remercier. L'envoi était accompagné d'une lettre de M. <placeName>de Jacquin</placeName>
-          fils <ref target="#corresp1">(1)</ref>, pleine de bons renseignements sur la manière d'opérer ; je suis infiniment
+          fils <ref>(1)</ref>, pleine de bons renseignements sur la manière d'opérer ; je suis infiniment
           reconnaissant de cette lettre, et si je n'y ai pas encore répondu pour l'en remercier
           ainsi que de la peine qu'il a bien voulu se donner pour me procurer ces morceaux de
           minerais, c'est qu'il m'invite à le tenir au courant de mes expériences, et que j'espère
-          avoir dans quelques jours des résultats à lui écrire par la même occasion.</p>
-        <p xml:id="L1816-05-31-a-p2">Il ne me reste,
+          avoir dans quelques jours des résultats à lui écrire par la même occasion. Il ne me reste,
           Monsieur et excellent ami, qu'à vous exprimer ma reconnaissance de ce service auquel
           j'attache le plus grand prix, et le désir que j'aurais de vous en porter l'hommage de vive
           voix, mais je vois avec chagrin que je ne dois guère espérer de vous voir de longtemps à
-          moins que vous n'eussiez l'occasion de faire un petit voyage à <placeName>Paris</placeName>, où beaucoup de
+          moins que vous n'eussiez l'occasion de faire un petit voyage à Paris, où beaucoup de
           personnes se feraient un plaisir de vous voir. Je suis un de ceux qui le désirerait, et
           qui regrette plus vivement nos anciennes conversations. Je serais bien heureux de vous
           aller voir, mais cela n'est pas possible à présent de longtemps. Si vous voyez M. <placeName>Prevost</placeName>
@@ -196,13 +193,11 @@
           celle de M. <placeName>Prevost</placeName>. C'est une chose à refaire qui suppose quelques méditations auxquelles
           je n'ai pas le temps de me livrer parce que tous mes moments sont pris par la rédaction
           d'un mémoire qui doit paraître dans les mêmes <title>Annales</title>, et dont le commencement y a même
-          déjà paru <ref target="#corresp2">(2)</ref>. Il s'agit de l'achever à temps pour que la fin soit imprimée avant une
+          déjà paru <ref>(2)</ref>. Il s'agit de l'achever à temps pour que la fin soit imprimée avant une
           tournée que je vais faire bientôt dans les académies de <placeName>Bordeaux</placeName>, <placeName>Toulouse</placeName>, <placeName>Limoges</placeName> et
-          <placeName>Cahors</placeName>. Daignez donc vous charger, excellent ami, de mes excuses pour M. <placeName>Prevost</placeName>.</p>
-        <p xml:id="L1816-05-31-a-p3">Recevez
+          <placeName>Cahors</placeName>. Daignez donc vous charger, excellent ami, de mes excuses pour M. <placeName>Prevost</placeName>. Recevez
           je vous prie l'assurance de la plus tendre amitié et du plus entier dévouement. Je suis,
-          Monsieur et bien cher collègue, votre très humble et très obéissant serviteur, <lb/>
-          <placeName>A.
+          Monsieur et bien cher collègue, votre très humble et très obéissant serviteur, <placeName>A.
           Ampère</placeName>
         </p>
         <closer>à Monsieur le professeur <placeName>Pictet</placeName> de l'<orgName>Académie de <placeName>Genève</placeName>
@@ -214,13 +209,12 @@
     <back>
       <div xml:id="L1816-05-31-a-div2">
         <note resp="#CGA" xml:id="corresp1">(1) Le médecin et naturaliste <persName>Joseph-François de Jacquin</persName>
-          (<date from-iso="1766-00-00" to-iso="1839-00-00">1766-1839</date>), fils du botaniste <persName>Nicolas-Joseph de Jacquin </persName>(<date from-iso="1727-00-00" to-iso="1817-00-00">1727-1817</date>), lui succéda en <date when-iso="1802-00-00">1802</date>
+          (<date from-iso="1766" to-iso="1839">1766-1839</date>), fils du botaniste <persName>Nicolas-Joseph de Jacquin </persName>(1727-1817), lui succéda en 1802
           comme professeur de botanique et de chimie à l'<orgName>Université de <placeName>Vienne</placeName>
           </orgName>. Il travailla
-          notamment à une pharmacopée autrichienne.</note>
-        <note resp="#CGA" xml:id="corresp2">(2) Il s'agit de l'<title>Essai d'une classification
+          notamment à une pharmacopée autrichienne. (2) Il s'agit de l<title>'Essai d'une classification
           naturelle pour les corps simples</title>, publié in <title>Annales de Chimie et de Physique</title> t 1 et 2
-          (<date when-iso="1816-00-00">1816</date>).</note>
+          (<date when-iso="1816">1816</date>).</note>
       </div>
     </back>
   </text>

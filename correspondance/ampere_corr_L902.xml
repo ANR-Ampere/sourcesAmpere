@@ -1,5 +1,4 @@
-
-<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -79,7 +78,7 @@
          </publicationStmt>
          <sourceDesc>
             <biblStruct xml:id="ampere_corr_L1825-01-16-a">
-               <monogr>
+               <monogr xmlns="">
                   <author>
                      <surname>Pictet</surname>
                      <forename>Marc-Auguste</forename>
@@ -106,11 +105,11 @@
                <witness xml:id="L902manuscrit">
             <msDesc type="original_manuscrit">
                      <msIdentifier>
-                        <country>Suisse</country>
-                        <settlement>Genève</settlement>
-                        <institution>Archives de la Fondation F. Rilliet</institution>
-                        <repository>Fonds Pictet</repository>
-                        <idno>K4 [note de René SIGRIST]</idno>
+                        <country xmlns="">Suisse</country>
+                        <settlement xmlns="">Genève</settlement>
+                        <institution xmlns="">Archives de la Fondation F. Rilliet</institution>
+                        <repository xmlns="">Fonds Pictet</repository>
+                        <idno xmlns="">K4 [note de René SIGRIST]</idno>
                      </msIdentifier>
                   </msDesc>
           </witness>
@@ -162,12 +161,11 @@
       <body>
          <div xml:id="L1825-01-16-a-div1">
             <opener>
-         <placeName>Paris</placeName>, <date when="1825-01-16">16 janvier 1825</date>
+          <date when="1825-01-16">16 janvier 1825</date>
         </opener>
-            <opener>Monsieur très cher et très honoré confrère,</opener>
-            <p xml:id="L1825-01-16-a-p1"> J'ai lu avec une vive satisfaction
-               l'article du cahier de <date when-iso="1824-11-00">novembre</date> de la <title>Bibliothèque Universelle</title> <ref type="ouvrages_mentionnes" target="#ampere_ref_P349.xml">*</ref> qui est relatif aux deux petits ouvrages que
-               j'ai publiés l'année dernière <ref target="#corresp1">(1)</ref>. Je vous prie d'en agréer tous mes remerciements.
+            <p xml:id="L1825-01-16-a-p1">Monsieur très cher et très honoré confrère, J'ai lu avec une vive satisfaction
+               l'article du cahier de <date when-iso="1824-11">novembre</date> de la <title>Bibliothèque Universelle</title> <ref type="ouvrages_mentionnes" target="#ampere_ref_P349.xml">*</ref> qui est relatif aux deux petits ouvrages que
+               j'ai publiés l'année dernière <ref>(1)</ref>. Je vous prie d'en agréer tous mes remerciements.
                Il m'a fait d'autant plus de plaisir qu'en présentant un aperçu exact des quatre
                principaux résultats de mes expériences et de mes calculs, l'action entre deux fils
                conducteurs, celle de la terre sur un de ces fils, la formule qui représente l'action
@@ -175,23 +173,19 @@
                réduction de tous les phénomènes magnétiques aux lois de l'action électro-dynamique
                et l'application de la même formule à ces phénomènes, vous en donnez une idée
                suffisante pour que les personnes qui s'occupent de ces matières soient portées à
-               examiner les questions que j'ai résolues, examen qui est le seul objet de mes désirs.</p>
-            <p xml:id="L1825-01-16-a-p2">
+               examiner les questions que j'ai résolues, examen qui est le seul objet de mes désirs.
                Je n'ai pas été moins flatté de ce que vous dites au sujet de l'instrument que j'ai
                imaginé pour rendre facile toutes les expériences nécessaires pour constater les
                faits et établir les lois sur lesquelles repose ma formule ; ce n'est en effet qu'à
                mesure que l'usage de cet instrument deviendra habituel, et qu'on en aura dans tous
                les cabinets de physique, que l'on pourra apprécier l'exactitude des uns et des
-               autres.</p>
-            <p xml:id="L1825-01-16-a-p3">Je vous prie, Monsieur et très cher confrère, de me rappeler au souvenir de
+               autres. Je vous prie, Monsieur et très cher confrère, de me rappeler au souvenir de
                nos amis communs, MM. <persName>de la Rive</persName>, <persName>Prevost</persName>, de <persName>Candolle</persName>, et de plusieurs autres
                membres de la <orgName>Société de Physique et d'Histoire [naturelle]</orgName>, dont j'ai reçu pendant
                mon trop court séjour tant de témoignages d'amitié et de bienveillance dont je
                conserverai toute ma vie le plus précieux souvenir. J'ai l'honneur d'être avec
                respect et reconnaissance, Monsieur et très cher confrère, votre très humble et très
-               obéissant serviteur.<lb/>
-               <persName>A. Ampère</persName></p>
-            <p xml:id="L1825-01-16-a-p4">P.S. : Si vous avez l'occasion de voir M. <persName>de la Rive</persName>
+               obéissant serviteur. <persName>A. Ampère</persName> P.S. : Si vous avez l'occasion de voir M. <persName>de la Rive</persName>
                le fils je vous prie de le remercier particulièrement des lettres qu'il m'écrit
                quelquefois et qui en me donnant des nouvelles de ses travaux dans les sciences et
                des savants de <placeName>Genève</placeName> me font toujours le plus grand plaisir.</p>
@@ -204,8 +198,8 @@
       </body>
       <back>
          <div xml:id="L1825-01-16-a-div2">
-            <note resp="#CGA" xml:id="corresp1">(1) L’extrait de ces deux brochures paraîtra dans <title>Bibl<ex>iothèque</ex> Univ<ex>erselle</ex></title> de
-               <date when-iso="1824-11-00">novembre 1824</date> (t. 27, pp. 192-198).</note>
+            <note resp="#CGA" xml:id="corresp1">(1) L’extrait de ces deux brochures paraîtra dans <title>Bibl. Univ.</title>de
+               <date when-iso="1824-11">novembre 1824</date> (t.27, pp. 192-198).</note>
          </div>
       </back>
    </text>

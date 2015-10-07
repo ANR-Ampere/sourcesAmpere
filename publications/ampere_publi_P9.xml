@@ -1,5 +1,4 @@
-
-<?xml-model href="../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Schémas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:m="http://www.w3.org/1998/Math/MathML" xml:lang="fr">
         <teiHeader>
                 <fileDesc>
@@ -82,7 +81,7 @@
                                                 </author>
                                         </analytic>
                                         <monogr>
-                                                <title level="j">Journal de l’École Polytechnique</title>
+                                                <title level="j">Journal de l'Ecole Polytechnique</title>
                                                 <imprint>
                                                   <biblScope type="pp">p. 159-181</biblScope>
                                                   <biblScope type="vol">7</biblScope>
@@ -91,7 +90,7 @@
                                                 </imprint>
                                         </monogr>
                                         <idno type="issn">0368-2013</idno>
-                                        <idno type="url_pdf">http://www.ampere.cnrs.fr/bibliographies/pdf/1808-P009.pdf</idno>
+                                        <idno type="url_pdf">1808-P009.pdf</idno>
                                         <idno type="url_gallica">http://gallica.bnf.fr/ark:/12148/bpt6k433670m.image.r=journal+de+l'école+polytechnique.f160.langFR </idno>
                                         <idno type="old">P9</idno>
                                 </biblStruct>
@@ -126,12 +125,12 @@
                                 </titlePart>
                         </docTitle>
                         <docEdition>QUATORZIÈME CAHIER. <lb/> TOME VII </docEdition>
-                        <docImprint>A PARIS, <lb/> DE L'IMPRIMERIE IMPÉRIALE.</docImprint><lb/>
+                        <docImprint>A PARIS, <lb/> DE L'IMPRIMERIE IMPÉRIALE.</docImprint>
                         <docDate>Avril 1808</docDate>
                 </front>
                 <body>
                         <pb n="159"/>
-                        <div>
+                        <div xml:id="P1808-a-div1">
                                 <head>
                                         <title>MÉMOIRE<lb/>
       <hi rend="it">Sur les avantages qu'on peut retirer, dans la théorie des Courbes,<lb/> de la
@@ -142,14 +141,14 @@
                                         <lb/>Envoyé à l'<orgName>Institut</orgName> en
                                         <date calendar="revolutionary" when-iso="1803-12">frimaire an 12 [décembre
      1803]</date> ;</head>
-                                <p>Par <persName>A. M. AMPERE</persName>, alors <roleName>Professeur
+                                <p xml:id="P1808-a-p1">Par <persName>A. M. AMPERE</persName>, alors <roleName>Professeur
                                                 de mathématiques</roleName> au
                                         <orgName>Lycée<lb/> de <placeName>Lyon</placeName>
           </orgName>,
                                         actuellement <roleName>Répétiteur de
                                                 mathématiques</roleName> à
                                         l'<orgName>École<lb/> polytechnique</orgName>.</p>
-                                <p>
+                                <p xml:id="P1808-a-p2">
                                         <hi rend="sc">Il</hi> y a <choice>
                                                 <sic>long-temps</sic>
                                                 <corr>longtemps</corr>
@@ -161,7 +160,7 @@
                                         les arcs<lb/> comptés depuis un point fixe, les tangentes,
                                         normales, <choice>
                                                 <sic>sous-tan<lb rend="hyphen"/>gentes</sic>
-                                                <corr>sous tan<lb rend="hyphen"/>gentes</corr>
+                                                <corr>sous tangentes</corr>
                                         </choice>, <choice>
                                                 <sic>sous-normales</sic>
                                                 <corr>sous normales</corr>
@@ -193,7 +192,7 @@
                                         exa<lb rend="hyphen"/>miner quelles sont, parmi ces lignes
                                         et ces courbes, celles qui présentent<lb/> le plus
                                         d'avantage. </p>
-                                <p>On distinguait autrefois les diverses espèces de contacts qui
+                                <p xml:id="P1808-a-p3">On distinguait autrefois les diverses espèces de contacts qui
                                         peuvent<lb/> exister entre les courbes, par le nombre des
                                         points infiniment proches<lb/> qu'on supposait communs aux
                                         deux courbes tangentes ; on ne pouvait<lb/> douter cependant
@@ -203,17 +202,17 @@
                                         inexactes, comme toutes les autres difficultés<lb/> que
                                         présentaient l'analyse transcendante et son application à la
                                         théorie<lb/> des courbes.</p>
-                                <p>Nous considérerons donc uniquement les contacts comme
+                                <p xml:id="P1808-a-p4">Nous considérerons donc uniquement les contacts comme
                                         différant<lb/> entre eux par le nombre des fonctions
                                         dérivées de l'ordonnée qui ont<lb/> les mêmes valeurs dans
                                         les deux courbes, pour les mêmes coordonnées.</p>
-                                <p>Ainsi, dans le contact du premier ordre, <hi rend="it">y'</hi>
+                                <p xml:id="P1808-a-p5">Ainsi, dans le contact du premier ordre, <hi rend="it">y'</hi>
                                         aura la même valeur<lb/> dans les deux courbes en même temps
                                         que <hi rend="it">x </hi>et <hi rend="it">y</hi> ; pour le
                                         contact<lb/> du second ordre, ce seront
                                         <hi rend="it">y'</hi> et <hi rend="it">y'', </hi>et ainsi de
                                         suite.</p>
-                                <p>La possibilité de satisfaire aux conditions du contact dépend,
+                                <p xml:id="P1808-a-p6">La possibilité de satisfaire aux conditions du contact dépend,
                                         comme<lb/> on sait, du nombre des constantes indépendantes
                                         que contient l'équation<lb/> de la courbe osculatrice sous
                                         la forme la plus générale dont elle soit<lb/> susceptible.
@@ -226,7 +225,7 @@
                                         la forme<lb/> de toutes la moins générale : tels sont le
                                         rayon dans le cercle, les<lb/> deux axes dans l'ellipse ou
                                         l'hyperbole, &amp;c.</p>
-                                <p>Il y a des courbes qui ne dépendent que d'une seule constante
+                                <p xml:id="P1808-a-p7">Il y a des courbes qui ne dépendent que d'une seule constante
                                         de<lb/> cette sorte ; d'autres de deux, de trois, &amp;c. Ce
                                         qui pourrait servir à<pb n="161"/> les distribuer en
                                         diverses classes selon le nombre de ces constantes, le<lb/>
@@ -250,7 +249,7 @@
                                         </formula>,<lb/> où il n'en reste qu'une en évidence, parce
                                         que l'autre est l'angle qu'il<lb/> faut supposer entre les
                                         deux lignes qu'on prend alors pour axes. </p>
-                                <p>Pour prévenir l'embarras que nous causeraient ces constantes,
+                                <p xml:id="P1808-a-p8">Pour prévenir l'embarras que nous causeraient ces constantes,
                                         pour<lb/> ainsi dire, <choice>
                                                 <sic>sous-entendues</sic>
                                                 <corr>sous entendues</corr>
@@ -662,7 +661,7 @@
                                         valeurs trouvées<lb/> dans ce cas pour
                                         <hi rend="it">a, b, m, </hi>ne déterminant que la position
                                         que doit<lb/> alors avoir la courbe. </p>
-                                <p>Il n'y a point de différence, à cet égard, entre les cercles et
+                                <p xml:id="P1808-a-p9">Il n'y a point de différence, à cet égard, entre les cercles et
                                         les<lb/> autres courbes, malgré l'exception qu'on remarque
                                         dans son équation<lb/> générale, ainsi que nous l'avons fait
                                         observer ; et il est aisé de voir <pb n="163"/>qu'en prenant
@@ -740,7 +739,7 @@
                                         <hi rend="it">a,
       b, m.</hi>
                                 </p>
-                                <p>Passons à l'examen du contact du second ordre. Il présente
+                                <p xml:id="P1808-a-p10">Passons à l'examen du contact du second ordre. Il présente
                                         une<lb/> équation de plus que celui du premier, et on peut
                                         par conséquent,<lb/> après avoir éliminé
                                         <hi rend="it">a, b, m,
@@ -775,7 +774,7 @@
                                                 <corr> longtemps</corr>
                                         </choice>, cette valeur étant<lb/> celle de ce qu'on appelle
                                         le rayon de courbure.</p>
-                                <p>Enfin dans le cas d'un contact du troisième ordre, qui ne peut
+                                <p xml:id="P1808-a-p11">Enfin dans le cas d'un contact du troisième ordre, qui ne peut
                                                 avoir<pb n="164"/>lieu à l'égard du cercle,
                                         puisqu'il exige quatre constantes arbitraires<lb/> dans
                                         l'équation de la courbe osculatrice, il restera deux
@@ -797,7 +796,7 @@
                                         <hi rend="it">t </hi>et du paramètre donnent immédiatement
                                         celle de <hi rend="it">u.</hi>
                                 </p>
-                                <p>L'uniformité de la courbure du cercle s'opposant à ce qu'il
+                                <p xml:id="P1808-a-p12">L'uniformité de la courbure du cercle s'opposant à ce qu'il
                                         puisse être<lb/> employé à cet usage, il faut choisir parmi
                                         les autres courbes à un seul<lb/> paramètre, celle dont
                                         l'équation promet plus de simplicité dans le calcul<lb/> et
@@ -808,7 +807,7 @@
                                         arbitraires, par l'équation qui existe à chacun de ces
                                         points<lb/> entre les coordonnées naturelles de la parabole,
                                         qui se confond avec<lb/> elle en ce point.</p>
-                                <p>On pourrait craindre que la parabole osculatrice ne fût double
+                                <p xml:id="P1808-a-p13">On pourrait craindre que la parabole osculatrice ne fût double
                                         à<lb/> chaque point, puisqu'on sait qu'on peut, en général,
                                         faire passer deux<lb/> paraboles par quatre points, et que
                                         l'un des cinq <choice>
@@ -826,7 +825,7 @@
                                         quelconque, une d'elles ayant<lb/> un paramètre nul, ses
                                         deux branches se réuniraient en une seule ligne<lb/> droite,
                                         et se confondraient avec la tangente.</p>
-                                <p>En substituant à <hi rend="it">t </hi>et
+                                <p xml:id="P1808-a-p14">En substituant à <hi rend="it">t </hi>et
                                         à<hi rend="it"> u </hi>leurs valeurs dans l'équation de la
                                                 parabole<pb n="165"/>
                                         <formula>
@@ -2168,7 +2167,7 @@
                                                 </math>
                                         </formula>;<lb/> telle est la valeur du paramètre de la
                                         parabole osculatrice. </p>
-                                <p>Pour avoir celle des coordonnées <hi rend="it">t</hi> et
+                                <p xml:id="P1808-a-p15">Pour avoir celle des coordonnées <hi rend="it">t</hi> et
                                         <hi rend="it">u, </hi>on se rappellera d'abord<lb/> que <formula>
                                                 <math xmlns="http://www.w3.org/1998/Math/MathML">
                                                   <mi>u</mi>
@@ -3680,7 +3679,7 @@
                                         </formula>;<lb/> et il sera aisé de voir que les mêmes
                                         réductions ne peuvent avoir lieu à<lb/> l'égard d'aucune
                                         autre forme de fonctions différentielles. </p>
-                                <p>Pour y ramener les valeurs des lignes qui dépendent des
+                                <p xml:id="P1808-a-p16">Pour y ramener les valeurs des lignes qui dépendent des
                                         courbes<lb/> osculatrices, il suffit d'observer qu'on a<lb/>
                                         <formula>
                                                 <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -5171,7 +5170,7 @@
                                         ces fonctions, que ces quantités ne<lb/> sont susceptibles
                                         d'aucune variation, lorsqu'on emploie de nouvelles<lb/>
                                         coordonnées ζ et γ. </p>
-                                <p>On voit qu'on peut former à volonté des fonctions qui jouissent
+                                <p xml:id="P1808-a-p17">On voit qu'on peut former à volonté des fonctions qui jouissent
                                         de<lb/> cette propriété, de ne point changer de valeur
                                         lorsqu'on transforme les<lb/> axes, puisqu'il ne s'agit pour
                                         cela que de les composer de termes d'une<lb/> de ces deux
@@ -5224,7 +5223,7 @@
                                                   <mi>y</mi>
                                                 </math>
                                         </formula>.</p>
-                                <p>Parmi ces fonctions, l'expression du rayon de courbure est
+                                <p xml:id="P1808-a-p18">Parmi ces fonctions, l'expression du rayon de courbure est
                                         remar<lb rend="hyphen"/>quable par sa simplicité ; car elle
                                         est formée des deux fonctions <formula>
                                                 <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -5345,7 +5344,7 @@
                                         </formula> dans la<lb/> valeur du rayon de courbure, il est
                                         nécessaire pour rendre homogènes<lb/> le numérateur et le
                                         dénominateur de cette valeur.</p>
-                                <p>Il n'en est pas de même des valeurs de <hi rend="it">t </hi>et de
+                                <p xml:id="P1808-a-p19">Il n'en est pas de même des valeurs de <hi rend="it">t </hi>et de
                                         <hi rend="it">u ;
      </hi>elles sont assez<lb/>
                                         compliquées pour rendre pénible en général le calcul de
@@ -5353,8 +5352,7 @@
                                         <hi rend="it">u, </hi>qu'on doit obtenir, en éliminant
                                         <hi rend="it">x </hi>des valeurs de ces<lb/> deux variables
                                         en fonction de <hi rend="it">x</hi> : on peut le simplifier
-                                        un peu en<lb/>
-                                  faisant cette élimination entre <formula>
+                                        un peu en faisant cette élimination entre <formula>
                                                 <math xmlns="http://www.w3.org/1998/Math/MathML">
                                                   <mrow>
                                                   <mfrac>
@@ -7553,7 +7551,7 @@
                                                   </mfrac>
                                                 </math>
                                         </formula>; </p>
-                                <p>Si l'on décompose le second terme
+                                <p xml:id="P1808-a-p20">Si l'on décompose le second terme
                                         <hi rend="it">a<hi rend="sup">2 </hi>c<hi rend="sup">4</hi>
        x<hi rend="sup">2</hi>
      </hi>du
@@ -7664,7 +7662,7 @@
                                                   </mfrac>
                                                 </math>
                                         </formula>.</p>
-                                <p>Quant au paramètre du diamètre de l'ellipse, comme ce
+                                <p xml:id="P1808-a-p21">Quant au paramètre du diamètre de l'ellipse, comme ce
                                         diamètre<lb/> est égal à<lb/>
                                         <formula>
                                                 <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -7876,7 +7874,7 @@
                                                   </mfrac>
                                                 </math>
                                         </formula>.</p>
-                                <p>La valeur générale que nous avons trouvée pour la tangente
+                                <p xml:id="P1808-a-p22">La valeur générale que nous avons trouvée pour la tangente
                                         trigono<lb rend="hyphen"/>métrique <formula>
                                                 <math xmlns="http://www.w3.org/1998/Math/MathML">
                                                   <mfrac>
@@ -8172,7 +8170,7 @@
                                         jamais d'autres<lb/> constantes que les paramètres de la
                                         courbe, qui entrent nécessairement<lb/> dans toutes les
                                         équations qui peuvent la représenter. </p>
-                                <p>Il y a même des courbes dont l'équation, transcendante lorsqu'on
+                                <p xml:id="P1808-a-p23">Il y a même des courbes dont l'équation, transcendante lorsqu'on
                                         la<lb/> rapporte aux axes ordinaires, devient algébrique par
                                         rapport aux coor<lb rend="hyphen"/>données paraboliques ;
                                         c'est ce qui arrive à l'égard de la cycloïde; telle <lb/>
@@ -8186,7 +8184,7 @@
                                         rayon de courbure, et entre les coordonnées
                                         paraboliques.</p>
                                 <pb n="174"/>
-                                <p>Avant d'entreprendre cette recherche, voyons d'abord s'il n'y a
+                                <p xml:id="P1808-a-p24">Avant d'entreprendre cette recherche, voyons d'abord s'il n'y a
                                         point<lb/> d'autres fonctions de <hi rend="it">u </hi>et de
                                         <hi rend="it">t</hi>, que les deux que nous avons
                                         employées<lb/> à la recherche de l'équation parabolique de
@@ -8919,7 +8917,7 @@
                                                 </math>
                                         </formula>
                                         <lb/> à la place de <hi rend="it">p</hi>.</p>
-                                <p>Revenons à la développante du cercle. Il est évident que
+                                <p xml:id="P1808-a-p25">Revenons à la développante du cercle. Il est évident que
                                         l'accrois<lb rend="hyphen"/>sement de son arc est à celui de
                                         son rayon de courbure, comme ce<lb/> rayon est à celui du
                                         cercle qui lui sert de développée ; on aura donc,<lb/> en
@@ -8957,7 +8955,7 @@
                                                 </math>
                                         </formula>,<lb/> dont la simplicité est singulièrement
                                         remarquable. </p>
-                                <p>Pour avoir l'équation entre les coordonnées paraboliques, on
+                                <p xml:id="P1808-a-p26">Pour avoir l'équation entre les coordonnées paraboliques, on
                                         substi<lb rend="hyphen"/>tuera dans l'équation <formula>
                                                 <math xmlns="http://www.w3.org/1998/Math/MathML">
                                                   <mfrac>
@@ -9228,7 +9226,7 @@
                                                 </math>
                                         </formula>, sur laquelle il ne s'agit plus<lb/> que
                                         d'exécuter les opérations que nous venons d'indiquer.</p>
-                                <p>Il n'en est pas des paraboles osculatrices comme des cercles
+                                <p xml:id="P1808-a-p27">Il n'en est pas des paraboles osculatrices comme des cercles
                                         oscula<lb rend="hyphen"/>teurs, qui coupent la courbe en la
                                         touchant ; les paraboles la laissent <pb n="176"/>en général
                                         toute d'un même côté : cela dépend de la théorie
@@ -9372,7 +9370,7 @@
                                         dans les points singuliers où le contact<lb/> peut être d'un
                                         ordre supérieur à celui que comporte la nature de ces<lb/>
                                         courbes. </p>
-                                <p>La règle générale pour déterminer ces points, est d'égaler les
+                                <p xml:id="P1808-a-p28">La règle générale pour déterminer ces points, est d'égaler les
                                         valeurs<lb/> qu'a, dans les deux lignes qui se touchent, la
                                         fonction dérivée de l'or<lb rend="hyphen"/>donnée qui suit
                                         immédiatement celles qu'on a égalées, pour en déduire<lb/>
@@ -9465,7 +9463,7 @@
                                         troisième ordre, comme<lb/> elle doit l'avoir dans les cas
                                         que nous examinons avec le cercle
                                         oscu<lb rend="hyphen"/>lateur de la courbe qu'elle touche. </p>
-                                <p>La parabole osculatrice d'une courbe quelconque devant avoir,
+                                <p xml:id="P1808-a-p29">La parabole osculatrice d'une courbe quelconque devant avoir,
                                         au<lb/> point de contact, le même rayon de courbure que
                                         cette courbe, et celui<lb/> d'une parabole à son sommet
                                         étant toujours égal à la moitié du
@@ -9743,7 +9741,7 @@
                                                   <mi>r</mi>
                                                 </math>
                                         </formula>.</p>
-                                <p>Pour déterminer les points où le cours d'une courbe se rapproche
+                                <p xml:id="P1808-a-p30">Pour déterminer les points où le cours d'une courbe se rapproche
                                         le<lb/> plus de celui de sa parabole osculatrice, il faut
                                         comparer les fonctions<lb/> dérivées de l'ordonnée du
                                         quatrième ordre dans les deux courbes ; celle<lb/> de la
@@ -10884,7 +10882,7 @@
                                                   </msup>
                                                 </math>
                                         </formula>, qui représente évidemment la<lb/> même courbe. </p>
-                                <p>Le contraire aura lieu lorsque les deux facteurs <formula>
+                                <p xml:id="P1808-a-p31">Le contraire aura lieu lorsque les deux facteurs <formula>
                                                 <math xmlns="http://www.w3.org/1998/Math/MathML">
                                                   <mrow>
                                                   <mo>(</mo>
@@ -11054,7 +11052,7 @@
                                         </formula>,<lb/> quantité toujours positive, d'où il suit
                                         que ces courbes ne peuvent être<lb/> touchées qu'en dedans
                                         par leurs paraboles osculatrices.</p>
-                                <p>La propriété d'être touchée en dedans ou en dehors, étant
+                                <p xml:id="P1808-a-p32">La propriété d'être touchée en dedans ou en dehors, étant
                                         indépen<lb rend="hyphen"/>dante de la transformation des
                                         axes, il s'ensuit que si la fonction<lb/>
                                         <formula>
@@ -12156,7 +12154,7 @@
                         </div>
                 </body>
                 <back>
-                        <div>
+                        <div xml:id="P1808-a-div2">
                                 <note xml:id="P009-1808_AMA1" target="note-P009-1808_AMA1">(*)Il en
                                         serait la somme si l'on avait pris positivement les deux
                                         angles, et par consé<lb rend="hyphen"/>quent les valeurs de

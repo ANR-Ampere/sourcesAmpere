@@ -1,5 +1,4 @@
-
-<?xml-model href="ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -77,7 +76,7 @@
             </publicationStmt>
             <sourceDesc>
                 <biblStruct xml:id="ampere_corr_L1832-04-05-a">
-                    <monogr>
+                    <monogr xmlns="">
                         <editor>
                             <surname>James</surname>
                             <forename>Frank A. J. L.</forename>
@@ -98,11 +97,11 @@
                     <witness xml:id="L946manuscrit">
             <msDesc type="original_manuscrit">
                             <msIdentifier>
-                                <country>France</country>
-                                <settlement>Paris</settlement>
-                                <institution>Bibliothèque Nationale de France</institution>
-                                <repository>N.A.F.</repository>
-                                <idno>ms 1304, f.8 [note de Franck JAMES]</idno>
+                                <country xmlns="">France</country>
+                                <settlement xmlns="">Paris</settlement>
+                                <institution xmlns="">Bibliothèque Nationale de France</institution>
+                                <repository xmlns="">N.A.F.</repository>
+                                <idno xmlns="">ms 1304, f.8 [note de Franck JAMES]</idno>
                             </msIdentifier>
                         </msDesc>
           </witness>
@@ -154,40 +153,34 @@
         <body>
             <div xml:id="L1832-04-05-a-div1">
                 <opener>
-         <orgName>Royal Institution</orgName> <date when="1832-04-05">5 avril 1832</date>
+          <date when="1832-04-05">5 avril 1832</date>
         </opener>
-                <opener><foreign xml:lang="eng">My dear Sir,</foreign></opener>
-                <p xml:id="L1832-04-05-a-p1"><foreign xml:lang="eng">On writing to you at present it is merely to announce that I shall be
-                    able to send you a copy of my recent papers on Electricity <ref target="#corresp1">(1)</ref> &amp;c &amp;c in
+                <p xml:id="L1832-04-05-a-p1">My dear Sir On writing to you at present it is merely to announce that I shall be
+                    able to send you a copy of my recent papers on Electricity <ref>(1)</ref> &amp;c &amp;c in
                     the course of a week provided I find means of conveyance. I thought of writing
                     to you immediately after I had written to M. <persName>Hachette</persName> some time ago, but the
                     experiments delayed me at first and then I found I could tell you so little in a
                     letter, and that little as in the case of my letter to M. <persName>Hachette</persName> was so liable
                     from my bad writing perhaps to be misunderstood that I thought it better to wait
-                    'till the paper was printed.</foreign></p>
-                <p xml:id="L1832-04-05-a-p2"><foreign xml:lang="eng">The time between the reading &amp; the printing has
+                    'till the paper was printed. The time between the reading &amp; the printing has
                     been however sadly prolonged in consequence of new regulations at our <orgName>Royal
                     Society</orgName> and has far exceeded what I thought would be required. I hope that when
                     you receive the papers you will think them worth having : I have felt great
                     pleasure in carrying on the investigation and think it is an important step; but
-                    no man is well fitted to judge his own works.</foreign></p>
-                <p xml:id="L1832-04-05-a-p3"><foreign xml:lang="eng">I have heard in some way that you
+                    no man is well fitted to judge his own works. I have heard in some way that you
                     have not received a copy of my paper on the arrangements of particles on
-                    vibrating surfaces <ref target="#corresp2">(2)</ref> &amp;c &amp;c which I sent to you with several others to
+                    vibrating surfaces <ref>(2)</ref> &amp;c &amp;c which I sent to you with several others to
                     MM. <persName>Gay-Lussac</persName>, <persName>Arago</persName>, <persName>D'Arcet</persName>, <persName>Berthier</persName>, <persName>Hachette</persName>, <persName>Despretz</persName>, <persName>Sérullas</persName>,
-                    <persName>Becquerel</persName> and the <orgName>Academy of Sciences</orgName> &amp; <orgName>Philomatic Society</orgName>. I sent them by
-                    the means of our Assistant Secretary <ref target="#corresp3">(3)</ref> to the <orgName>Academy of Sciences</orgName> with the
+                    <persName>Becquerel</persName> and the <orgName>Academy of Sciences</orgName> &amp; Philomatic Society. I sent them by
+                    the means of our Assistant Secretary (3) to the <orgName>Academy of Sciences</orgName> with the
                     <orgName>Royal Society</orgName> Box being assured they would be given to those friends to whom
-                    they were addressed.</foreign></p>
-                <p xml:id="L1832-04-05-a-p4"><foreign xml:lang="eng">If you really have not received it, I must send you another
+                    they were addressed. If you really have not received it, I must send you another
                     copy but I hope you will, when you write me again, tell me how I shall send. I
                     am afraid my other friends have not received their copies. I am still hard at
-                    work on Magnetism &amp;c &amp;c &amp; hope yet to get new results.</foreign></p>
-                <p xml:id="L1832-04-05-a-p5"><foreign xml:lang="eng">I am My dear
-                    Sir Your very Obliged &amp; faithful Servant<lb/>
-                    M. <persName>Faraday</persName></foreign>
+                    work on Magnetism &amp;c &amp;c &amp; hope yet to get new results. I am My dear
+                    Sir Your very Obliged &amp; faithful Servant M. <persName>Faraday</persName>
         </p>
-                <closer> M. <persName>Ampère</persName>, &amp;c &amp;c, à <placeName>Paris</placeName> </closer>
+                <closer> M. <persName>Ampère</persName>, &amp;c &amp;c, à Paris </closer>
             </div>
         </body>
         <back>
@@ -195,18 +188,16 @@
                 <note resp="#CGA" xml:id="corresp1">(1) <persName>FARADAY, Michael</persName>. <title>Experimental Researches in
                     Electricity. On the Induction of Electric Currents. On the Evolution of
                     Electricity from Magnetism. On a new Electrical Condition of Matter. On <persName>Arago</persName>’s
-                    Magnetic Phenomena</title>, Philosophical Translations of the <orgName>Royal Society</orgName>, <date when-iso="1832-00-00">1832</date>, 122,
+                    Magnetic Phenomena</title>, Philosophical Translations of the <orgName>Royal Society</orgName>, <date when-iso="1832">1832</date>, 122,
                     p. 125-162. <persName>FARADAY, Michael</persName>. <title>The Bakerian Lecture. Experimental Researches in
                     Electricity. – Second Series. Terrestrial Magneto-electric Induction. Force and
                     Direction of Magneto-electric Induction generally</title>, Philosophical Translations
-                    of the <orgName>Royal Society</orgName>, <date when-iso="1832-00-00">1832</date>, 122, p. 163-194.</note>
-                <note resp="#CGA" xml:id="corresp2">(2) <persName>FARADAY, Michael</persName>.<title> On a
+                    of the <orgName>Royal Society</orgName>, <date when-iso="1832">1832</date>, 122, p. 163-194. (2) <persName>FARADAY, Michael</persName>.<title> On a
                     peculiar class of Acoustical Figures; and on certain Forms assumed by groups of
                     particles upon vibrating elastic Surfaces</title>, Philosophical Translations of the
-                    <orgName>Royal Society</orgName>, <date when-iso="1831-00-00">1831</date>, 121, p. 299-318. <persName>FARADAY, Michael</persName>. <title>Apendix. On the Forms
+                    <orgName>Royal Society</orgName>, <date when-iso="1832">1831</date>, 121, p. 299-318. <persName>FARADAY, Michael</persName>. <title>Apendix. On the Forms
                     and States assumed by Fluids in contact with vibrating elastic surfaces</title>,
-                    Philosophical Translations of the <orgName>Royal Society</orgName>, <date when-iso="1831-00-00">1831</date>, 121, p. 319-340.</note>
-                <note xml:id="corresp3">(3)
+                    Philosophical Translations of the <orgName>Royal Society</orgName>, <date when-iso="1831">1831</date>, 121, p. 319-340. (3)
                     <persName>James Huston</persName>. </note>
             </div>
         </back>
