@@ -1,0 +1,377 @@
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE ENTITY_MathML SYSTEM "../../Documents/Sch%C3%A9mas/ENTITY_MathML.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 1183</title>
+                <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)"
+                    ref="http://www.idref.fr/028694171">
+                    <forename>André-Marie</forename>
+                    <surname>Ampère</surname>
+                </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+                    </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                            sciences</affiliation>
+                    </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Mathilde Dutertre, </name>
+                    <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré :
+                        élaboration du schéma XML TEI et encodage</resp>
+                </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+                    <name>Centre de calcul de l'IN2P3</name>
+                    <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+                </distributor>
+                <availability>
+                    <p>Ce texte est protégé par la licence <ref
+                            target="http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+                            >Creative Commons</ref> dont le contenu est disponible sous Creative
+                        Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+                </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="original_manuscrit">
+                    <msIdentifier xml:id="ampere_corr_L1795-10-21-a">
+                        <country>USA</country>
+                        <settlement>Ithaca (NY)</settlement>
+                        <institution>Cornell University Library</institution>
+                        <repository>Ampère collection</repository>
+
+                    </msIdentifier>
+
+                    <physDesc>
+                        <handDesc>
+                            <handNote corresp="#AMA">
+                                <name type="person" key="Ampère, André-Marie (1775-1836)">
+                                    <forename>André-Marie</forename>
+                                    <surname>Ampère</surname>
+                                </name>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName type="sender" ref="#pers_A366">
+                        <surname>Ampère</surname>
+                        <forename>André-Marie</forename>
+                    </persName>
+                    <date when-iso="1795-10-21">21 octobre 1795</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName type="adressee" ref="#pers_C162">
+                        <surname>Couppier</surname>
+                        <forename>Jean-Stanislas, dit Couppier Viry</forename>
+                    </persName>
+                </correspAction>
+            </correspDesc>
+            <creation>
+                <date when="2015-01">janvier 2015</date>
+                <name>Aude Coustumer</name>
+            </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <name>Aude Coustumer</name>
+                <date when="2015-04">avril 2015</date>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="images_L1795-10-21-a" corresp="#ampere_corr_L1795-10-21-a">
+        <graphic url="Cornell_Ampere_L1183_01.jpg"/>
+        <graphic url="Cornell_Ampere_L1183_02.jpg"/>
+        <graphic url="Cornell_Ampere_L1183_03.jpg"/>
+        <graphic url="Cornell_Ampere_L1183_04.jpg"/>
+        <graphic url="Cornell_Ampere_L1183_05.jpg"/>
+        <graphic url="Cornell_Ampere_L1183_06.jpg"/>
+        <graphic url="Cornell_Ampere_L1183_07.jpg"/>
+    </facsimile>
+    <text decls="#ampere_corr_L1795-10-21-a" type="correspondance">
+        <body>
+            <div xml:id="L1795-10-21-a-div1">
+                <opener><pb n="1" facs="#Cornell_Ampere_L1183_01.jpg"/> A
+                        <placeName>Poleymieux</placeName>
+                    <date when="1795-10-21"> 21 <choice>
+                            <abbr>8bre</abbr>
+                            <expan>octobre</expan>
+                        </choice> 1795</date>
+                    <ref target="#L1183_CAK1">*</ref>
+                </opener>
+                <p xml:id="L1795-10-21-a-p1">Je viens, Monsieur, d'avoir le plaisir de recevoir une
+                    de vos lettres qui m'en a d'autant plus fait que quoique vous parliez toujours
+                    de paresse, elle m'apprend tout ce qui m'intéresse le plus, c'est-à-dire toutes
+                    vos occupations. Vous les traitez bien mal à propos de petites bêtises. C'est
+                    plutôt ce que vous appelez par ironie mes grandes entreprises qui sont de
+                    véritables bêtises, puisque j'entreprends si souvent des choses infiniment
+                    au-dessus de mes forces qu'il faut ensuite laisser à moitié faites. Comme si je
+                    n'avais pas assez d'ouvrages commencés, j'en entreprends tous les jours de
+                    nouveaux. L'autre jour ayant trouvé dans un livre de chansons une traduction
+                    d'une ode d'<persName>Horace</persName>, que je trouvais assez mal traduite, j'en fis une autre
+                    traduction, ce qui me donna l'idée d'en traduire d'autres, et puis toutes celles
+                    qui sont dans l'<persName>Horace</persName> des classes. Ce projet, le plus extravagant de tous,
+                    s'est borné à en commencer 3 ou 4 et à n'en finir aucune. Quand il a été
+                    abandonné, je suis revenu à ma langue<supplied> universelle</supplied>, autre entreprise
+                    inexécutable à un seul homme, et surtout à quelqu'un qui court sans cesse
+                    d'extravagance en extravagance.</p>
+                <p xml:id="L1795-10-21-a-p2"><lg><l>Semblable à l'animal qu'un aveugle caprice</l>
+                    <l>
+                    Promène à tous moments sur le sommet des monts,</l>
+                    <l>Qui se plaît à marcher au bord
+                    du précipice,</l>
+                    <l>Dans des lieux hérissés d'épines et de buissons,</l>
+                    <l><pb n="2"
+                        facs="#Cornell_Ampere_L1183_02.jpg"/> Tandis que la brebis dans un gras
+                    pâturage</l>
+                    <l>Goûte loin des dangers les charmes du repos,</l>
+                    <l>Au bord d'un clair
+                    ruisseau, sous un léger feuillage,</l>
+                    <l>Dont les zéphyrs naissants font trembler les
+                    rameaux ;</l>
+                    <l>Comme on vous voit souvent dans votre heureux bocage</l>
+                    <l>Chercher un doux
+                    repos sous ses arbres épais.</l>
+                    <l>Que ne puis-je avec vous errant sous son ombrage !</l>
+                    <l>
+                    Fouler l'herbe fleurie et respirer le frais.</l></lg></p>
+                <p xml:id="L1795-10-21-a-p3">Voilà Monsieur, ce que votre
+                    bosquet <ref target="#L1183_CAK2">*</ref> m'inspire quand mon imagination m'y place auprès de vous, mais il faut
+                    bientôt voir évanouir une si douce erreur pour se retrouver à dix lieues de
+                    votre demeure. Il ne reste plus alors que le plaisir de vous écrire, il faut se
+                    contenter de ce qu'on a.</p>
+                <p xml:id="L1795-10-21-a-p4">Je suis bien fâché que la table de M. <persName>de Lalande</persName> qui
+                    sert à multiplier les réfractions <ref target="#L1183_CAK3">*</ref> ne s'étende pas au-dessous de 26P6L, mais
+                    vous pourrez d'autant plus aisément y suppléer que toutes les colonnes de cette
+                    table renferment presque les mêmes nombres et ne diffèrent que par la position,
+                    à une unité près. En sorte qu'en baissant de deux degrés la colonne de 26P6L, on
+                    a celle de 26P3L en diminuant les premiers nombres d'une unité. Par ce moyen on
+                    peut avoir toutes les colonnes qu'on veut, à une ou deux unités près, ces unités
+                    n'étant que des millièmes de la réfraction. Quand je vous avais écrit que cette
+                    table suppléerait à toutes les corrections, j'avais supposé que la hauteur du
+                    thermomètre qui est marquée à gauche n'y est que pour suppléer à la correction
+                    de M. <persName>Deluc</persName>, qui ne servait je crois qu'à corriger les hauteurs prises avec le
+                    baromètre de l'erreur qui occasionnait la différente densité de l'air que cette
+                    table donne exactement. En effet j'ai vu <pb n="3"
+                        facs="#Cornell_Ampere_L1183_03.jpg"/> que dans chaque colonne, les nombres
+                    augmentent à très peu près de 1/215 pour chaque degré du thermomètre. Quant à ce
+                    que j'avais dit par rapport à la dilatation du mercure, j'avais parlé sans
+                    réflexion, et je ne vois point d'autre moyen de la connaître que l'expérience de
+                    l'<title>Encyclopédie</title>.</p>
+                <p xml:id="L1795-10-21-a-p5">Puisque le ballon élevé près de <placeName>Mayence</placeName> <ref target="#L1183_CAK4">*</ref> n'était point retenu
+                    par une corde, il faut qu'on n'en fasse monter que les jours où le vent est
+                    insensible, car il me semble impossible d'y résister par aucune machine pour peu
+                    qu'il soit fort.</p>
+                <p xml:id="L1795-10-21-a-p6">Puisque vous observez les étoiles sans globe céleste, je pense
+                    que vous ne pouvez guère les reconnaître qu'au moyen du petit instrument dont
+                    vous me parlez, ce qui doit être assez ennuyeux, ou par la méthode des
+                    alignements du premier livre de M. <persName>de Lalande</persName> qui part du carré de Pégase et
+                    d'Orion pour faire connaître presque toutes les autres constellations par des
+                    lignes tirées de proche en proche. Mais tout cela a l'inconvénient de ne pouvoir
+                    jamais faire connaître toutes les étoiles. C'est pourquoi je pense que le
+                    meilleur moyen, c'est d'avoir un globe ou des cartes célestes. Cependant si vous
+                    voulez employer d'autres méthodes, je tâcherai, si vous voulez, de vous écrire
+                    quelques positions et quelques alignements que je pourrai tirer de <title>l'Astronomie</title>
+                    de M. <persName>de Lalande</persName>. Mais je sens bien que je ne pourrai pas vous être aussi utile
+                    dans cette partie que je le souhaiterais. Quant aux planètes, je ne sais si vous
+                    êtes devin mais vous avez deviné très juste les deux seules qui paraissent le
+                    soir. Mars doit être auprès du point équinoxial d'automne qui ne se lève qu'à
+                        <pb n="4" facs="#Cornell_Ampere_L1183_04.jpg"/> minuit et demie ou une
+                    heure. Vénus paraissait le matin, je crois qu'elle s'est déjà fort rapprochée du
+                    soleil et qu'on la reverra le soir dans quelques mois. Je n'ai jamais vu
+                    Mercure, et je ne sais point du tout où il est, mais seulement que la proximité
+                    du soleil le rend toujours très difficile à voir.</p>
+                <p xml:id="L1795-10-21-a-p7">Vous me dites que vous n'avez
+                    pas reconnu l'œil du Taureau ou Aldébaran que vous n'avez pas reconnu l'œil du
+                    Taureau ou Aldébaran <ref target="#L1183_CAK5">*</ref>. C'est que vous l'avez confondu avec les Hyades qui
+                    l'entourent de cette manière, fig. 1. <figure/> Votre aurore boréale aurait bien l'air
+                    d'être la lumière zodiacale que j'ai cherché vainement à voir.
+                    fig. 2 D'après les idées qu'en donne M. <persName>de Lalande</persName>, c'est une traînée de lumière <figure/>
+                    telle que vous la voyez ici. On l'aperçoit dès la fin du crépuscule, et elle
+                    dure quelque temps après lui. Elle est en forme de fuseau et dans le plan de
+                    l'équateur solaire, inclinée seulement de 7 degrés sur l'écliptique, en sorte
+                    que la lumière zodiacale s'éloigne peu de ce cercle. La seule difficulté qu'il y
+                    ait à cette explication, c'est que vous l'avez vue au nord. Si c'est précisément
+                    dans cette partie du ciel, cela ne peut être comme vous dites qu'une aurore
+                    boréale. M. <persName>de Mairan</persName>, dont M. <persName>de Lalande</persName> donne les explications sans y adhérer
+                    beaucoup, prétendait que c'était l'atmosphère du soleil aplatie par la force
+                    centrifuge, et que <figure/> nous ne pouvons voir que de côté. La difficulté de cette
+                    explication est dans l'étendue jusqu'à l'orbe de Mercure qu'il faudrait supposer
+                    dans cette atmosphère, <pb n="5" facs="#Cornell_Ampere_L1183_05.jpg"/> ce qui
+                    devrait gêner le mouvement de cette planète. M. <persName>de Mairan</persName> qui n'y pensait pas,
+                    ou qui croyait que le mouvement pouvait subsister dans le plein, prolongeait
+                    cette atmosphère solaire jusqu'à la Terre, et attribuait à ses particules
+                    tombées dans l'atmosphère terrestre les aurores boréales, explication qui me
+                    semble bien hasardée, pour ne rien dire de plus.</p>
+                <p xml:id="L1795-10-21-a-p8">Continuez, Monsieur, je vous
+                    prie, à me faire part de tout ce que vous apercevez dans le ciel. Quel plaisir
+                    si vous pouviez découvrir une vraie comète. Les événements actuels devraient, je
+                    crois, en voir briller plus que la mort du premier des Césars, mais nous ne
+                    sommes plus au bon temps <lg><l>où la comète en feu vient éclairer le monde</l>
+                    <l>Pour
+                    prédire aux mortels les tragiques fureurs</l>
+                    <l>Qui couvent sourdement dans l'<choice><sic>abyme</sic> <corr>abîme</corr></choice>
+                    des cœurs</l></lg>. J'ai mis ici ces vers du traducteur des <title>Géorgiques</title> et du chantre des
+                    jardins, pour vous faire oublier ceux que ma faible voix essaya d'entonner,
+                    probablement très mal à propos <ref target="#L1183_CAK6">*</ref>.</p>
+                <p xml:id="L1795-10-21-a-p9">Je vous prie, Monsieur, si cela est assez bref
+                    pour ne pas vous ennuyer en l'écrivant, de me faire part du moyen d'écrire aussi
+                    vite que la parole, quand vous aurez reçu le livre qui l'enseigne <ref target="#L1183_CAK7">*</ref>. Je pourrai
+                    la comparer à une méthode qui nous avait été donnée pour le même but par le
+                    malheureux journaliste <persName>Fain</persName> <ref target="#L1183_CAK8">*</ref>, mais dont je ne conçois pas trop bien la rapidité
+                    à moins de s'y être exercé pendant très longtemps. Je n'ai jamais vu l'étoile
+                    Apus, elle n'est point sur mon globe <ref target="#L1183_CAK9"></ref>. Il n'y a même pas l'Oiseau de paradis, ce
+                    qui est d'autant plus singulier que cette constellation se trouve sur des cartes
+                    célestes que j'ai vues autrefois.</p>
+                <p xml:id="L1795-10-21-a-p10"> <pb n="6" facs="#Cornell_Ampere_L1183_06.jpg"
+                    /> Je suis bien aise que votre expérience ait lavé un si grand nombre de
+                    champignons de la calomnie des préjugés <ref target="#L1183_CAK10">*</ref>. Je ne sais pas si vous avez mangé de
+                    la clavaria coraloïdes <ref target="#L1183_CAK11">*</ref>, dont le nom n'est bon qu'à écorcher les oreilles, mais
+                    dont la forme agréable, et semblable à celle des bois du cerf, la couleur d'un
+                    jaune tendre, et la bonté mise par mon livre de botanique au-dessus de toutes
+                    les autres espèces de champignons, méritent une considération particulière.</p>
+                <p xml:id="L1795-10-21-a-p11">Dans
+                    les vers que je me suis avisé de vous écrire, j'avais mis d'abord hérissés
+                    d'épines et de chardons, mais ma sœur quand je lui les ai lus, a voulu que je
+                    misse d'épines et de buissons. J'ai souscrit à sa critique, cependant je
+                    regrette un peu les chardons dont je trouve le nom plus sonore. Je sais bien que
+                    montrer ainsi mon goût pour les chardons, c'est laisser échapper le petit bout
+                    d'oreille <ref target="#L1183_CAK12">*</ref>, mais quoi qu'il en soit je vous prie bien de m'écrire lequel vous
+                    préférez de ces deux mots, sur lesquels je n'ose rien décider.</p>
+                <p xml:id="L1795-10-21-a-p12"><figure/> J'ai imaginé de
+                    porter le conducteur de la foudre porté par un cerf-volant beaucoup plus haut
+                    que par aucune autre méthode. C'est d'attacher des cerfs-volants comme vous
+                    voyez en A, B, C, fig. 4. Cela prévient l'inconvénient qui
+                    résulte de la courbure de la corde dont l'excès empêche qu'on ne puisse l'élever
+                    davantage dès que sa partie inférieure devient horizontale. Pour vérifier cette
+                    idée, je me suis avisé de faire un jour deux petits qui, attachés de cette
+                    manière, ont surpassé mes espérances. Il m'a même semblé que cette <pb n="6"
+                        facs="#Cornell_Ampere_L1183_06.jpg"/> union leur donnait une stabilité
+                    particulière et les empêchait de tourner comme ils faisaient quelquefois en les
+                    essayant en particulier, avant de les unir.</p>
+                <p xml:id="L1795-10-21-a-p13">Afin que vous me fassiez part de
+                    tout ce qui peut vous passez par la tête, je vais aussi vous dire tout ce qui
+                    m'y passe. L'autre jour je voyais que l'<title>Encyclopédie</title>, à l'article<supplied> sur la
+                    lettre</supplied> M , prétendait que les Romains prononçaient <foreign xml:lang="lat">dominum</foreign> comme nous
+                    prononçons la finale de mouton. Et elle s'appuyait sur un passage où il est dit
+                    que <foreign xml:lang="lat">cum</foreign>, et cun se prononçaient de même, d'où il croyait pouvoir conclure
+                    <supplied>qu'ils </supplied>se prononçaient tous deux con. Mais l'auteur de cet article ne faisait
+                    pas attention que, dans le passage cité, il était dit qu'on ne pouvait prononcer
+                    ce <foreign xml:lang="lat">cum</foreign>, <cit><quote xml:lang="lat">nisi labris coeuntibus</quote></cit> <ref target="#L1183_CAK13">*</ref>. Or il me semble qu'on prononce très bien
+                    mouton sans fermer la bouche, et qu'il n'y a que le son naturel de l'm, qui
+                    oblige à joindre les lèvres, d'où je conclus que cette lettre le gardait à la
+                    fin des mots. Et d'ailleurs il suffit pour expliquer le passage, à ce qu'il me
+                    semble, de supposer que cette lettre se prononçait assez vite pour se confondre
+                    avec l'articulation <gap reason="lacune"/> qui y ressemble tant quand elle en était suivie.</p>
+                <p xml:id="L1795-10-21-a-p14">
+                    Vous avouerez bien que c'est une vraie bêtise de penser à de pareilles minuties,
+                    et que je ressemble fort à M. <persName>Jourdain</persName> quand il disait A..A..E..I..E..I.., que
+                    cela est beau ! Mais aussi, j'espère en récompense que vous me ferez part de
+                    tout ce qui vous <gap reason="lacune"/>, de tout ce que vous pensez des livres que vous lisez,
+                    etc. En attendant je vous prie d'être bien sûr que mon amitié s'accroîtrait tous
+                    les jours si elle pouvait encore augmenter, et que la première place de mon cœur
+                    sera toujours pour vous.</p>
+                
+                <p xml:id="L1795-10-21-a-p15"><add>Je vous prie bien aussi de faire
+                    agréer mes respects à Monsieur votre père et à Madame votre mère. </add></p>
+                <signed><persName>A. Ampère</persName></signed>
+                 <closer>Au
+                    Citoyen le Citoyen <persName>Couppier</persName> père à <placeName>Claveisolles</placeName> # par <placeName>Beaujeu en
+                    Beaujolais</placeName> </closer>
+            </div>
+        </body>
+        <back>
+            <div xml:id="L1795-10-21-div2">
+                <note n="1" resp="CAK" xml:id="L1183_CAK1">Cette lettre répond à celle de
+                        <persName>Couppier</persName> du <date when="1795-10-16">16 octobre
+                        1795</date>.</note>                
+                <note n="1" resp="CAK" xml:id="L1183_CAK2">cf. la lettre de <persName>Couppier</persName> du <date when="1795-10-16">16 octobre 1795</date>, p. 8</note>
+                <note n="1" resp="CAK" xml:id="L1183_CAK3">cf. la lettre de <persName>Couppier</persName> du <date when="1795-10-16">16 octobre 1795</date>, p. 3</note>
+                <note n="1" resp="CAK" xml:id="L1183_CAK4">cf. la lettre de <persName>Couppier</persName> du <date when="1795-10-16">16 octobre 1795</date>, p. 4- 5</note>
+                <note n="1" resp="CAK" xml:id="L1183_CAK5">cf. la lettre de <persName>Couppier</persName> du <date when="1795-10-16">16 octobre 1795</date>, p. 6-7</note>
+                <note n="1" resp="CAK" xml:id="L1183_CAK6"><persName>Virgile</persName>, <title>Les Géorgiques</title>.</note>
+                <note n="1" resp="CAK" xml:id="L1183_CAK7">cf. la lettre de <persName>Couppier</persName> du <date when="1795-10-16">16 octobre 1795</date>, p. 8.</note>
+                <note n="1" resp="CAK" xml:id="L1183_CAK8">Sans doute <title>Système universel et complet de sténographie...</title> inventé par <persName>Samuel Taylor</persName>,... adapté à la langue française par <persName>Théodore-Pierre Bertin</persName>, ... <date when-iso="1794">1794</date>, réédité en <date when-iso="1795">1795</date>.</note>
+                <note n="1" resp="CAK" xml:id="L1183_CAK9">cf. la lettre de <persName>Couppier</persName> du <date when="1795-10-16">16 octobre 1795</date>, p. 8. Apus est le nom latin de l'étoile la plus brillante de la constellation Oiseau de paradis.</note>
+                <note n="1" resp="CAK" xml:id="L1183_CAK10">cf. la lettre de <persName>Couppier</persName> du <date when="1795-10-16">16 octobre 1795</date>, p. 9.</note>
+                <note n="1" resp="CAK" xml:id="L1183_CAK11">clavaire corail.</note>
+                <note n="1" resp="CAK" xml:id="L1183_CAK12">Le chardon est le symbole de l'austérité et de la vertu protégée par ses piquants.</note>
+                <note n="1" resp="CAK" xml:id="L1183_CAK13"><cit><quote xml:lang="lat">Nisi labris coeuntibus</quote></cit> : sans réunir les lèvres.</note>
+                           
+            </div>
+        </back>
+    </text>
+</TEI>

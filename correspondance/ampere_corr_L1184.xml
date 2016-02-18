@@ -1,0 +1,245 @@
+
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE ENTITY_MathML SYSTEM "../../Documents/Sch%C3%A9mas/ENTITY_MathML.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 1184</title>
+                <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)"
+                    ref="http://www.idref.fr/028694171">
+                    <forename>André-Marie</forename>
+                    <surname>Ampère</surname>
+                </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+                    </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                            sciences</affiliation>
+                    </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Mathilde Dutertre, </name>
+                    <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré :
+                        élaboration du schéma XML TEI et encodage</resp>
+                </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+                    <name>Centre de calcul de l'IN2P3</name>
+                    <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+                </distributor>
+                <availability>
+                    <p>Ce texte est protégé par la licence <ref
+                            target="http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+                            >Creative Commons</ref> dont le contenu est disponible sous Creative
+                        Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+                </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="original_manuscrit">
+                    <msIdentifier xml:id="ampere_corr_L1795-11-10-a">
+                        <country>USA</country>
+                        <settlement>Ithaca (NY)</settlement>
+                        <institution>Cornell University Library</institution>
+                        <repository>Ampère collection</repository>
+
+                    </msIdentifier>
+
+                    <physDesc>
+                        <handDesc>
+                            <handNote corresp="#AMA">
+                                <name type="person" key="Ampère, André-Marie (1775-1836)">
+                                    <forename>André-Marie</forename>
+                                    <surname>Ampère</surname>
+                                </name>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName type="sender" ref="#pers_A366">
+                        <surname>Ampère</surname>
+                        <forename>André-Marie</forename>
+                    </persName>
+                    <date when-iso="1795-11-10">10 novembre 1795</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName type="adressee" ref="#pers_C162">
+                        <surname>Couppier</surname>
+                        <forename>Jean-Stanislas, dit Couppier Viry</forename>
+                    </persName>
+                </correspAction>
+            </correspDesc>
+            <creation>
+                <date when="2015-01">janvier 2015</date>
+                <name>Aude Coustumer</name>
+            </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <name>Aude Coustumer</name>
+                <date when="2015-04">avril 2015</date>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="images_L1795-11-10-a" corresp="#ampere_corr_L1795-11-10-a">
+        <graphic url="Cornell_Ampere_L1184_01.jpg"/>
+        <graphic url="Cornell_Ampere_L1184_02.jpg"/>
+        <graphic url="Cornell_Ampere_L1184_03.jpg"/>
+    </facsimile>
+    <text decls="#ampere_corr_L1795-11-10-a" type="correspondance">
+        <body>
+            <div xml:id="L1795-11-10-a-div1">
+                <opener><pb n="1" facs="#Cornell_Ampere_L1184_01.jpg"/> A
+                        <placeName>Poleymieux</placeName>
+                    <date when="1795-11-10"> 10 <choice>
+                            <abbr>9bre</abbr>
+                            <expan>novembre</expan>
+                        </choice> 1795</date>
+                    <ref target="#L1184_CAK1">*</ref>
+                </opener>
+                <p xml:id="L1795-11-10-a-p1">Comme j'ai peur, Monsieur, que ma dernière lettre ne se
+                    soit perdue en chemin et que j'aime mieux être indiscret que de vous paraître
+                    négligent, je ne veux pas rester sans vous écrire, quoique je n'aie rien
+                    d'intéressant pour vous à vous marquer. Je n'y trouve pas moins de plaisir et il
+                    y a un siècle, c'est-à-dire plus de quinze jours, que je n'ai point reçu de vos
+                    nouvelles. Je ne pense pas sans chagrin qu'il faut encore attendre aussi
+                    longtemps avant d'en avoir. Il s'y mêle encore la crainte d'être soupçonné de
+                    vous avoir oublié si, comme je le crains, ma dernière lettre ne vous est pas
+                    parvenue. Mais je me console en pensant que vous connaissez trop bien mon amitié
+                    pour avoir pu l'accuser.</p>
+                <p xml:id="L1795-11-10-a-p2">Nous sommes dans une saison qui va bientôt nous
+                    interdire la promenade et votre bosquet doit avoir perdu presque tous ses
+                    attraits. Quand le froid et la neige achèveront de nous renfermer dans la
+                    maison, nous en aurons d'autant plus besoin de quelque occupation amusante. Et
+                    comme je n'en connais point qui le soit davantage que celle de vous écrire et
+                    que, d'après vos lettres, dont mon amitié s'empresse de prendre toutes les
+                    expressions au pied de la lettre, vous n'avez pas de regret au temps que vous
+                    employez à me donner la satisfaction de recevoir de vos nouvelles, je me flatte
+                    toujours que nous pourrons nous aider réciproquement à passer sans ennui <pb
+                        n="2" facs="#Cornell_Ampere_L1184_02.jpg"/> la mauvaise saison. Et dès que
+                    les calculs ne vous paraissent plus qu'effrayants, il faudra que nous
+                    choisissions quelque autre matière. Je vous en laisse le choix. Voyez de toutes
+                    vos connaissances celles dont vous parleriez plus volontiers. Si c'est une
+                    matière sur laquelle vous soyez mon maître, je deviendrai votre écolier avec
+                    bien du plaisir.</p>
+                <p xml:id="L1795-11-10-a-p3">Dans la foule de mes entreprises, je ne sais à laquelle
+                    m'attacher et, dans cette incertitude, j'en fais tous les jours de nouvelles.
+                    Chaque extravagance dans ce genre est suivie d'une autre encore plus grande. Je
+                    me suis mis depuis quelque temps à apprendre la grammaire grecque dans
+                    l'espérance d'apprendre cette langue. Mais quoique mon principal but fut de lire
+                    tant de beaux ouvrages, j'y ai été un peu encouragé par le rapport que j'ai
+                    trouvé avec mon plan de langue universelle dans le nombre des cas et leur usage,
+                    et encore plus par celui des voix. Vous savez que toutes nos langues n'ont que
+                    l'active et la passive. J'en avais inventé dans ma langue une troisième, je l'ai
+                    trouvée en grec sous le nom de voix moyenne, Enfin ce qui m'a donné plus de
+                    courage, c'est que l'auteur ne demande qu'un mois d'études à l'esprit le plus
+                    borné pour savoir la grammaire et se mettre à la lecture des ouvrages de cette
+                    langue. En effet je sais presque toute cette grammaire et il ne me reste plus
+                    qu'à tâcher de me procurer des ouvrages. Je ne sais pas si j'en trouverai
+                    facilement à <placeName>Lyon</placeName> à cause du petit nombre d'amateurs de cette langue.</p>
+                <p xml:id="L1795-11-10-a-p4">J'attends
+                    avec bien de l'impatience, au cas que mon projet soit de votre goût, quelle
+                    science vous <pb n="3" facs="#Cornell_Ampere_L1184_03.jpg"/> jugerez à propos de
+                    choisir pour le sujet de notre correspondance. Au reste je ne crois pas que nous
+                    nous bornions à aucune en particulier et nous pourrons comme l'abeille courir de
+                    fleurs en fleurs. Nos lettres deviendront bientôt une petite encyclopédie.
+                    J'espère que cette idée sera d'autant plus dans vos vues que vous me disiez un
+                    jour que vous aviez essayé de toutes les sciences pour éviter les préjugés de
+                    ceux qui mettent au premier rang la seule dont ils se soient occupés, comme le
+                    logicien de <placeName>St <choice><sic>Maximieux</sic> <corr>Meximieux</corr></choice></placeName> <ref target="#L1184_CAK2">*</ref>. Quant à moi elle me donnerait le plaisir de vous
+                    écrire de longues lettres et d'en recevoir de vous, ce qui comme vous le savez
+                    bien est le plus grand plaisir que je puisse goûter. Ce n'est qu'alors que je
+                    pourrai me dédommager de la précision de celle-ci que je me vois à mon grand
+                    regret obligé de terminer à la troisième page. Ce n'est pas que je n'en puisse
+                    remplir une douzaine de tous les sentiments de mon amitié, mais la certitude où
+                    je suis que vous n'en douterez jamais, m'empêche de me livrer à l'envie que j'ai
+                    de vous les détailler. Je finis donc en vous demandant la permission de vous
+                    embrasser du plus profond de mon cœur et de vous prier de faire agréer mes
+                    respects à tous vos parents.  </p>
+                <signed><persName>A. Ampère</persName></signed>
+                <closer>au citoyen le citoyen <persName>Couppier</persName> père à <placeName>Claivesolles</placeName> # par<placeName> Beaujeu en
+                    Beaujolais</placeName> </closer>
+            </div>
+        </body>
+        <back>
+            <div xml:id="L1795-11-10-div2">
+                <note n="1" resp="CAK" xml:id="L1184_CAK1">Cette lettre ne répond à aucune lettre en particulier, <persName>Ampère</persName> y reprend divers
+                    sujets déjà évoqués. La <ref type="correspondance" target="#ampere_corr_L1795-10-16-a">dernière lettre qu'il a reçue de <persName>Couppier</persName> date du <date when="1795-10-16">16
+                        octobre 1795</date></ref>, il n'a pas encore reçu <ref type="correspondance" target="#ampere_corr_L1795-10-31-a">celle du <date when="1795-10-31">31 octobre</date></ref>, qui est partie après
+                    le <date when="1795-11-04">4 novembre 1795</date>.</note>
+                <note n="2" resp="CAK" xml:id="L1184_CAK2">Sans doute le grammairien <persName>Vaugelas</persName> (<date from-iso="1585" to-iso="1650">1585-1650</date>), né à <placeName>Meximieux</placeName> (<placeName>Ain</placeName>).</note>
+            </div>
+        </back>
+    </text>
+</TEI>

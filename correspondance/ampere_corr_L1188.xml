@@ -1,0 +1,456 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE ENTITY_MathML SYSTEM "../../Documents/Sch%C3%A9mas/ENTITY_MathML.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 1188</title>
+                <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+                    <forename>André-Marie</forename>
+                    <surname>Ampère</surname>
+                </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+                    </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                        sciences</affiliation>
+                    </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Mathilde Dutertre, </name>
+                    <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+                </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+                    <name>Centre de calcul de l'IN2P3</name>
+                    <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+                </distributor>
+                <availability>
+                    <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+                </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="original_manuscrit">
+                    <msIdentifier xml:id="ampere_corr_L">
+                        <country>USA</country>
+                        <settlement>Ithaca (NY)</settlement>
+                        <institution>Cornell University Library</institution>
+                        <repository>Ampère collection</repository>
+                        <altIdentifier>
+                            <idno type="old">L1188</idno>
+                            <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+                        </altIdentifier>
+                    </msIdentifier>
+                    
+                    <physDesc>
+                        <handDesc>
+                            <handNote corresp="#AMA">
+                                <name type="person" key="Ampère, André-Marie (1775-1836)">
+                                    <forename>André-Marie</forename>
+                                    <surname>Ampère</surname>
+                                </name>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName type="sender" ref="#pers_A366">
+                        <surname>Ampère</surname>
+                        <forename>André-Marie</forename>
+                    </persName>
+                    <date when-iso="1795-12-11">11 décembre 1795</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName type="adressee" ref="#pers_C162">
+                        <surname>Couppier</surname>
+                        <forename>Jean-Stanislas, dit Couppier Viry</forename>
+                    </persName>
+                </correspAction>
+            </correspDesc>
+            <creation>
+                <date when="2015-01">janvier 2015</date>
+                <name>Philippe Pons</name>
+            </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <name>Philippe Pons</name>
+                <date when="2015-04">avril 2015</date>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="images_L1795-12-11-a" corresp="#ampere_corr_L1795-12-11-a">
+        <graphic url="Cornell_Ampere_L1188_01.jpg"/>
+        <graphic url="Cornell_Ampere_L1188_02.jpg"/>
+        <graphic url="Cornell_Ampere_L1188_03.jpg"/>
+        <graphic url="Cornell_Ampere_L1188_04.jpg"/>
+        <graphic url="Cornell_Ampere_L1188_05.jpg"/>
+        <graphic url="Cornell_Ampere_L1188_06.jpg"/>
+        <graphic url="Cornell_Ampere_L1188_07.jpg"/>
+        <graphic url="Cornell_Ampere_L1188_08.jpg"/></facsimile>
+    <text decls="#ampere_corr_L1795-12-11-a" type="correspondance">
+        <body>
+            <div xml:id="L1795-12-11-a-div1">
+                <opener>
+                    <pb n="1" facs="#Cornell_Ampere_L1188_01.jpg"/>Ce vendredi <date when="1795-12-11">11 <choice><abbr>Xbre</abbr> <expan>décembre</expan></choice> <supplied>1795</supplied></date>
+                </opener>
+                <p xml:id="L1795-12-11-a-p1">Vous voyez, Monsieur, que je m'y prends<lb/>
+                    un peu d'avance afin de pouvoir profiter<lb/>
+                    de quelqu'occasion d'ici à lundi. Comme<lb/>
+                    je n'en ai pas quand je veux, je fais chercher<lb/>
+                    dans le village s'il n'y a personne qui aille<lb/>
+                    à <placeName>Lyon</placeName>, car notre fille de basse-cour n'y va<lb/>
+                    que dans le courant de la semaine prochaine.<lb/>
+                    Je me ressouviens que quand je commençai<lb/>
+                    à étudier l'astronomie, je brûlais du désir de<lb/>
+                    faire moi-même des observations. Mais je<lb/>
+                    ne <choice><sic>put</sic> <corr>pus</corr></choice> pas le contenter faute d'une pendule.<lb/>
+                    Comme je crois que vous m'avez dit que<lb/>
+                    vous en aviez à votre disposition, vous<lb/>
+                    pourriez au moyen d'un instrument de bois<lb/>
+                    fort simple et aisé à faire, <supplied>faire</supplied> des observations<lb/>
+                    aussi justes que M. <persName>de Lalande</persName> à l'Observatoire<lb/>
+                    de <placeName>Paris</placeName>. Je pense donc que vous ne serez pas<lb/>
+                    fâché que je vous en donne la description dans<lb/>
+                    le cas où vous auriez la facilité de le faire<lb/>
+                    exécuter par le moindre charpentier. Je me<lb/>
+                    chargerais volontiers des calculs trigonométriques,<lb/>
+                    parce que je pense que vous aurez bien assez<lb/>
+                    de celui des observations. Ce serait un grand<lb/>
+                    plaisir que de pouvoir servir en s'amusant<lb/>
+                    aux progrès de l'<choice><sic>astromie</sic> <corr>astronomie</corr></choice>, et je regarde même<lb/>
+                    ce moyen comme le seul qui puisse nous<lb/>
+                    procurer toute la satisfaction que peut procurer<lb/>
+                    l'étude de l'astronomie. Car je trouve qu'on<pb n="2" facs="#Cornell_Ampere_L1188_02.jpg"/>
+                    doit bientôt se lasser de reconnaître les étoiles<lb/>
+                    et les planètes quand on ne peut pas suivre leurs<lb/>
+                    <choice><sic>mouvemens</sic> <corr>mouvements</corr></choice>.</p>
+                <p xml:id="L1795-12-11-a-p2">C'est surtout les planètes qui sont intéressantes, et<lb/>
+                    qui fournissent un amusement continuel quand<lb/>
+                    on suit tous leurs <choice><sic>mouvemens</sic> <corr>mouvements</corr></choice>, et qu'au lieu<lb/>
+                    de prendre dans les livres les dimensions de<lb/>
+                    leurs orbites, leurs nœuds, leurs distances etc, on<lb/>
+                    les tire de ses propres observations.</p>
+                <p xml:id="L1795-12-11-a-p3">Mon premier but, en cherchant de quel<lb/>
+                    <choice><sic>instrument</sic> <corr>instrument</corr></choice> d'astronomie nous pourrions nous<lb/>
+                    servir, a été de le pouvoir exécuter en bois,<lb/>
+                    et de n'y admettre aucune sorte de division,<lb/>
+                    puisque nous n'avons aucun moyen d'en faire<lb/>
+                    d'exactes à la minute, et que je voulais au<lb/>
+                    moins cette exactitude. Le second a été de<lb/>
+                    pouvoir vérifier l'instrument dans le ciel<lb/>
+                    et par nos propres observations, en sorte<lb/>
+                    qu'il soit tout aussi juste, quelque grossièrement<lb/>
+                    qu'il fût fait. Le troisième auquel je ne<lb/>
+                    pensais pas d'abord, et qui semblait impossible,<lb/>
+                    c'est de n'avoir aucun calcul à faire pour<lb/>
+                    la réfraction. En effet vous verrez que, par<lb/>
+                    ma manière d'observer, elle ne peut avoir<lb/>
+                    aucune influence sur le résultat, et qu'on<lb/>
+                    peut en faire totalement abstraction. </p>
+                <p xml:id="L1795-12-11-a-p4">Elle consiste à observer le passage de l'astre<lb/>
+                    par le méridien et par un autre vertical<lb/>
+                    quelconque, ce qui suffit pour avoir la décl.<lb/>
+                    et l'asc<ex>ension</ex> droite de l'astre, et par cons<ex>équent </ex>sa position.<lb/>
+                    Vous savez que l'effet de la réfraction se fait<lb/>
+                    nécessairement dans un vertical, et que dès<lb/>
+                    qu'on y voit un astre on est sûr qu'il y<pb n="3" facs="#Cornell_Ampere_L1188_03.jpg"/>
+                    est réellement. Il est donc inutile d'y avoir<lb/>
+                    égard dans de semblables observations, ne fut-ce<lb/>
+                    qu'à cause de ses variations continuelles. Je<lb/>
+                    trouve cet avantage <choice><sic>inapréciable</sic> <corr>inappréciable</corr></choice>. Mais il est<lb/>
+                    <choice><sic>tems</sic> <corr>temps</corr></choice> de venir à mon instrument qui n'est<lb/>
+                    qu'une simplification de la lunette méridienne<lb/>
+                    de M. <persName>de Lalande</persName>.</p>
+                <p xml:id="L1795-12-11-a-p5"><add>fig.1 </add>On fait une croix ABEF de deux <figure/><lb/>
+                    fortes lattes de bois, qu'on fortifie<lb/>
+                    s'il est nécessaire d'arcs-<choice><sic>boutans</sic><corr>boutants</corr></choice><lb/>
+                    L, M, N, O, pour rendre l'angle<lb/>
+                    des deux lattes absolument fixe.<lb/>
+                    Peu importe qu'il soit exactement<lb/>
+                    droit. La latte EF doit être<lb/>
+                    terminée par deux tourillons E, F, qui s'<choice><sic>appuyent</sic> <corr>appuient</corr></choice><lb/>
+                    sur les supports G, H, dont l'un est mobile, avec<lb/>
+                    une vis s'<choice><sic>il</sic> <corr>ils</corr></choice> <choice><sic>est</sic> <corr>sont</corr></choice> de bois, et avec des cales s'<choice><sic>il</sic> <corr>ils</corr></choice><lb/>
+                    sont de pierre, ce que je croirais bien préférable<lb/>
+                    parce qu'on peut rentrer la lunette et la croix<lb/>
+                    dans la maison après l'observation, au lieu<lb/>
+                    que ces <choice><sic>suports</sic> <corr>supports</corr></choice> doivent rester <choice><sic>immobile</sic> <corr>immobiles</corr></choice> dans<lb/>
+                    un lieu découvert de tous côtés, et exposé<lb/>
+                    aux injures de l'air qui gâteraient bientôt des<lb/>
+                    <choice><sic>suports</sic> <corr>supports</corr></choice> de bois ou les feraient jeter. Les tourillons<lb/>
+                    doivent être exactement tournés, mais la forme<lb/>
+                    des creux qui les reçoivent est fort indifférente<lb/>
+                    pourvu qu'il n'y ait aucun ballottement, et que<lb/>
+                    le poids de la croix leur fassent serrer<lb/>
+                    latéralement les tourillons comme un coin.<lb/>
+                    Sur l'autre latte AB on fixe la lunette CI, de<lb/>
+                    manière qu'au <choice><sic>moye</sic> <corr>moyen</corr></choice> d'une petite vis D on<lb/>
+                    puisse la faire aller à droite ou à gauche, pour<lb/>
+                    mettre son axe dans une direction perpendiculaire<lb/>
+                    à celle des tourillons. </p>
+                <p xml:id="L1795-12-11-a-p6"><pb n="4" facs="#Cornell_Ampere_L1188_04.jpg"/>
+                    L'instrument ainsi fait on le vérifie de la<lb/>
+                    manière suivante.<lb/>
+                  <list><item n="1">°. Il faut que les <choice><sic>suports</sic> <corr>supports</corr></choice> soutiennent l'axe<lb/>
+                      des tourillons bien horizontalement, et comme<lb/>
+                      on n'est jamais sûr de l'égalité parfaite des <choice><sic>suports</sic> <corr>supports</corr></choice><lb/>
+                      et des tourillons, il faut se servir de la croix<lb/>
+                      pour cette vérification. On attachera un aplomb<lb/>
+                      en A et on marquera le point où il répond en<lb/>
+                      B. Ensuite on retournera l'instrument en portant<lb/>
+                      le tourillon E sur le <choice><sic>suport</sic> <corr>support</corr></choice> H et vice-versa. Et<lb/>
+                      l'on verra si l'aplomb qu'on n'a point dérangé<lb/>
+                      tombe au même point en B. Si cela n'est pas, on<lb/>
+                      <choice><sic>ellevera</sic> <corr>élèvera</corr></choice> ou on baissera le <choice><sic>suport</sic> <corr>support</corr></choice> mobile jusqu'à<lb/>
+                      ce qu'il soit de niveau avec l'autre et que<lb/>
+                      l'aplomb tombe au même point en B dans les<lb/>
+                      deux positions.</item><lb/>
+                   <item n="2">°. Il faut que l'axe de la lunette soit bien<lb/>
+                       perpendiculaire à celui des tourillons, pour cela<lb/>
+                       on regarde par la lunette un objet quelconque<lb/>
+                       sur la terre, mais le plus éloigné qu'on peut et<lb/>
+                       on retourne l'instrument de même que ci-devant.<lb/>
+                       On voit si le fil du foyer de la lunette tombe<lb/>
+                       sur le même objet. S'il tombe à côté on fait<lb/>
+                       tourner la vis D qui, en changeant la direction<lb/>
+                       de la lunette, fera venir son axe au milieu<lb/>
+                       de l'intervalle, et retourner encore l'instrument dans<lb/>
+                       sa première position pour s'assurer parfaitement de<lb/>
+                       la direction de l'axe de la lunette, qui cette fois<lb/>ci doit tomber juste au même point.<lb/>
+                       Il serait bon d'avoir un aide dans un champ<lb/>
+                       assez éloigné qui mît des objets aux endroits<lb/>
+                       qu'il faudrait.
+                   </item><lb/><item n="3">°. Au moyen de ces deux vérifications on sera<lb/>
+                       sûr que l'axe de la lunette décrit un grand<lb/>
+                    cercle de la sphère dont l'axe EF est horizontal,<lb/>
+                       ce cercle sera donc un vertical. Mais il faudra<pb n="5" facs="#Cornell_Ampere_L1188_05.jpg"/>
+                    un angle qu'on démontre être double, en sorte<lb/>
+                       qu'on n'a qu'à prendre le double de l'angle de<lb/>
+                       l'alidade et du côté KH, pour avoir la distance<lb/>
+                       des deux astres.</item></list>
+                </p>
+                <p xml:id="L1795-12-11-a-p7">Voilà comme j'ai compris l'octant, ce qui <choice><sic>supose</sic> <corr>suppose</corr></choice><lb/>
+                    que la glace GH soit presque aussi large que l'octant.<lb/>
+                    Je n'ai pu le vérifier parce que j'ai laissé trois<lb/>
+                    volumes de <title>l'Encyclopédie</title> à <placeName>Lyon</placeName> pour avoir quelque<lb/>
+                    chose à lire quand j'y vais, et l'octant s'y trouve.<lb/>
+                    Je me ressouviens seulement qu'il dit qu'on ôte<lb/>
+                    l'étamure de la moitié de la glace pour faire<lb/>
+                    passer le rayon direct, et que l'autre rayon se réfléchit<lb/>
+                    sur le bord de l'étamure.</p>
+                <p xml:id="L1795-12-11-a-p8">Je vous <choice><sic>écrirez</sic> <corr>écrirai</corr></choice> dans ma <choice><sic>première</sic> <corr>prochaine</corr></choice> lettre la<lb/>
+                    méthode des latitudes et longitudes par l'Astronomie,<lb/>
+                    ce qui est d'un très grand détail. Mais pour<lb/>
+                    ce qui est des pilotes peu instruits, je vois par<lb/>
+                    M. <persName>de Lalande</persName> qu'ils ont des tables où ils trouvent<lb/>
+                    tous leurs calculs faits, principalement dans un<lb/>
+                    livre intitulé <title>Nautical almanach</title>, imprimé<lb/>
+                    toutes les années à <placeName>Londres</placeName>.</p>
+                <p xml:id="L1795-12-11-a-P9">Quant à ce que vous me demandez sur l'héliomètre <lb/>
+                    que vous croyez ne pouvoir mesurer de très<lb/>
+                    petits arcs, faute de pouvoir rapprocher les verres,<lb/>
+                    <figure n="6"/> je vois dans M. d<persName>e Lalande</persName> que<lb/>
+                    cet inconvénient n'avait lieu<lb/>
+                    que dans la première invention.<lb/>
+                    Aujourd'hui l'on coupe un seul<lb/>
+                    verre en deux parties égales,<lb/>
+                    qu'on place en E, F, fig. 6 . Sur deux lames AB, CD,<lb/>
+                    dont l'une ne peut se mouvoir d'un côté <supplied>sans</supplied> que<lb/>
+                    l'autre n'aille de l'autre, l'angle que mesure l'héliomètre<lb/>
+                    peut diminuer jusqu'à zéro quand les deux moitiés<lb/>
+                    E, F, se trouvent vis-à-vis, comme si elles n'en<lb/>
+                    formaient qu'un.</p>
+                <p xml:id="L1795-12-11-a-p10">Je suis bien fâché d'<choice><sic>aprendre</sic> <corr>apprendre</corr></choice> que vous ayez si peu<lb/>
+                    d'amusement, et que vous soyez plongé dans une<lb/>
+                    pareille solitude. Je me mets d'ici en colère contre<lb/>
+                    ce reversi qui s'avise de vous persécuter<pb n="6" facs="#Cornell_Ampere_L1188_06.jpg"/>
+                    mais je serais d'avis que vous essayiez de nouveau<lb/>
+                    de braver la fortune. Peut-être que vous pourriez<lb/>
+                    obtenir ses faveurs par votre persévérance, car<lb/>
+                    vous savez que c'est suivant les poètes la plus<lb/>
+                    capricieuse de toutes les déesses.<lb/>
+                    <cit><quote xml:lang="lat">Ludit, et in solidum rursus Fortuna locavit</quote></cit></p>
+                <p xml:id="L1795-12-11-a-p11">Je vous <choice><sic>direz</sic> <corr>dirais</corr></choice> que les dimanches au soir que<lb/>
+                    l'ouvrage des dames est fermé dans un sac, et<lb/>
+                    <choice><sic>laissent</sic> <corr>laisse</corr></choice> leurs mains dans l'inaction, il m'<choice><sic>arive</sic> <corr>arrive</corr></choice><lb/>
+                    assez souvent de jouer en famille à <choice><sic>différens</sic> <corr>différents</corr></choice><lb/>
+                    petits <choice><sic>jeu</sic> <corr>jeux</corr></choice> de cartes. J'ai d'abord perdu avec une<lb/>
+                    grande rapidité tous mes paniers de fiches, mais<lb/>
+                    je ne me suis <supplied>pas </supplied>dégoûté si vite que vous, et<lb/>
+                    maintenant je ne gagne ni ne perds, et mon<lb/>
+                    panier sans avoir augmenté est aussi plein<lb/>
+                    qu'il y a six mois. Peut-être que vous n'auriez<lb/>
+                    pas plus de malheur que moi si vous vouliez<lb/>
+                    en courir les dangers, et vous <choice><sic>apliquer</sic> <corr>appliquer</corr></choice> davantage<lb/>
+                    à votre jeu, quand vous en essayez.</p>
+                <p xml:id="L1795-12-11-a-p12">Vous me demandez s'il y a quelque société ici, la<lb/>
+                    réponse est aisée : je ne vois absolument personne.<lb/>
+                    Il y a avait dans nos environs un monsieur qui avait<lb/>
+                    retiré chez lui un prêtre autrefois déporté et<lb/>
+                    rentré depuis la mort du <persName>Cromwell</persName> français, mille<lb/>
+                    fois plus scélérat que l'anglais. Nous y allions tous<lb/>
+                    les dimanches, et l'on parlait quelquefois de politique,<lb/>
+                    ou des <choice><sic>événemens</sic> <corr>événements</corr></choice> actuels. Quoique je m'occupe<lb/>
+                    bien moins de cette partie que de mathématiques,<lb/>
+                    je ne laissais pas de profiter de la conversation et<lb/>
+                    de m'y mêler un peu. Mais ce monsieur est retourné<lb/>
+                    à <placeName>Lyon</placeName>, et je crois que celui à qui il donnait un<lb/>
+                    <choice><sic>azile</sic> <corr>asile</corr></choice> en a été cherché un où il fut moins connu,<lb/>
+                    en sorte que je ne peux voir absolument personne.<lb/>
+                    Mais cela m'est assez indifférent, je suis accoutumé<lb/>
+                    à la vie solitaire et casanière, qui ne m'est point<lb/>
+                    à charge, et pourvu que vous continuiez à égayer<lb/>
+                    ma solitude par vos lettres, elle me plaira bien plus<pb n="7" facs="#Cornell_Ampere_L1188_07"/>
+                    que toute société où vous ne seriez pas.</p>
+                <p xml:id="L1795-12-11-a-p13">Vous me demandez ensuite, Monsieur, la description<lb/>
+                    d'Hercule. Cette constellation s'étend depuis la tête<lb/>
+                    que vous connaissez jusqu'au pied qui est un tas de<lb/>
+                    très petites étoiles placées tout près de la tête du Dragon<lb/>
+                    qui est un <choice><sic>lozange</sic> <corr>losange</corr></choice>, qu'on voit sur la ligne qui va<lb/>
+                    de la <choice><sic>Lire</sic> <corr>Lyre</corr></choice> aux Gardes &beta;, &gamma;, de la Petite Ourse. On trouve<lb/>
+                    aussi ce pied en prolongeant la ligne du Dauphin par la<lb/>
+                    <choice><sic>Lire</sic> <corr>Lyre</corr></choice>. L'autre pied d'Hercule est près de la tête du Bouvier<lb/>
+                    sur la ligne qui vient de la tête du Serpentaire qui<lb/>
+                    est à côté de celle d'Hercule, à la dernière étoile &eta; de<lb/>
+                    la Grande Ourse, la plus loin du carré. Toutes les étoiles<lb/>
+                    comprises dans l'<choice><sic>intervale</sic> <corr>intervalle</corr></choice> de la tête d'Hercule et<lb/>
+                    de ses deux pieds lui <choice><sic>apartiennent</sic> <corr>appartiennent</corr></choice>. Mais pour la<lb/>
+                    comète je ne crois pas que vous puissiez la voir,<lb/>
+                    parce que les comètes ont pour l'ordinaire un mouvement<lb/>
+                    propre très rapide, et qu'il y a je crois plus d'un mois<lb/>
+                    qu'on l'a vue. En conséquence je pense que si elle<lb/>
+                    s'<choice><sic>aprochait</sic> <corr>approchait</corr></choice> alors du soleil, elle doit l'avoir traversé<lb/>
+                    et paraître maintenant ce matin, mais si elle<lb/>
+                    allait en s'écartant du soleil, elle peut très bien<lb/>
+                    et même très probablement s'être éloigné de nous<lb/>
+                    hors de la portée de nos yeux. Je crois que ces paroles<lb/>
+                    <hi rend="underline">elle est très petite</hi> signifient qu'elle n'est visible qu'avec<lb/>
+                    de bonnes lunettes. Je ne sais si elle peut devenir<lb/>
+                    plus visible après avoir traversé le soleil, cela dépend<lb/>
+                    de la situation de son orbite. Mais quoiqu'il n'y ait<lb/>
+                    rien de sûr, il ne faut pas perdre l'espérance, et peut<lb/>être que nous la verrions si nous la cherchions le<lb/>
+                    matin. Je n'ose cependant vous y exhorter, car je<lb/>
+                    sens bien que j'aurai grande peine à quitter mon lit<lb/>
+                    pour m'aller geler dehors avant la pointe du jour,<lb/>
+                    c'est bien assez de prévenir le lever du soleil.</p>
+                <p xml:id="L1795-12-11-a-p14">Au reste je n'ai pu faire aucune observation astronomique,<lb/>
+                    car je n'ai eu qu'un seul jour un <choice><sic>tems</sic> <corr>temps</corr></choice> découvert. J'ai<lb/>
+                    seulement vérifié ce que vous me dites de la direction<lb/>
+                    des deux cornes du Bélier vers la Chèvre, elle est<lb/>
+                    très exacte et vous ne vous êtes point trompé à<pb n="8" facs="#Cornell_Ampere_L1188_08.jpg"/>
+                    ce sujet. J'ai aussi regardé Saturne à la lunette,<lb/>
+                    sans avoir pu voir son anneau, et cherché la comète<lb/>
+                    et à voir les nébuleuses, mais je n'ai réussi à aucun<lb/>
+                    de ces projets. Je me suis donc contenté de regarder<lb/>
+                    à la lunette les <choice><sic>Pleyades</sic> <corr>Pléiades</corr></choice> que je n'ai jamais <choice><sic>vu</sic> <corr>vues</corr></choice> que<lb/>
+                    comme une grande tâche brillante, mais la lunette<lb/>
+                    les a séparées, et j'en ai vu distinctement 7 grosses<lb/>
+                    et 4 ou 5 petites.</p>
+                <p xml:id="L1795-12-11-a-p15">Parlons un peu des abeilles. Je les ai toujours aimées<lb/>
+                        mais surtout depuis que j'ai lu <persName>Virgile</persName>, qui sait les rendre<lb/>
+                        si intéressantes. Mais nous n'avions que trois ruches que<lb/>
+                        l'<choice><sic>hyver</sic> <corr>hiver</corr></choice> passé a <choice><sic>détruit</sic> <corr>détruites</corr></choice>. Je voudrais bien que vous<lb/>
+                        vous attachiez à celles qui vous restent, et que vous<lb/>
+                        ne fassiez aucune expérience avant de les avoir<lb/>
+                        <choice><sic>multiplier</sic> <corr>multipliées</corr></choice> assez pour ne plus craindre de les perdre.<lb/>
+                        Car je suis bien tenté de croire que la nature en<lb/>
+                        sait plus que tous les économistes, et que toutes leurs<lb/>
+                        méthodes si brillantes dans la spéculation ne servent<lb/>
+                        qu'à la contrarier. Je voudrais aussi savoir ce que<lb/>
+                        vous entendez par des essaims artificiels. Je ne connais<lb/>
+                        que ceux qui sortent naturellement toutes les<lb/>
+                        années. Le vrai moyen d'en avoir, c'est de n'ôter<lb/>
+                        ni cire, ni miel, des ruches-mères au printemps. Si<lb/>
+                        vous m'en croyez, vous les confierez1 entièrement<lb/>
+                        elles-mêmes, vous ne ravagerez point leurs provisions,<lb/>
+                        et je vous réponds que si l'hiver est doux et<lb/>
+                        les ruches en bon état, vous en aurez huit l'année<lb/>
+                        prochaine, c.à.d. trois nouvelles de chacune.<lb/>
+                        Vous pourrez alors faire des expériences, mais seulement<lb/>
+                        sur une ou deux ruches. Vous cherchiez une matière<lb/>
+                        où vous pouviez être mon maître : en voilà une<lb/>
+                        toute trouvée. Mais je vous en prie : ayez de la prudence,<lb/>
+                        car vous ne sauriez croire combien je m'y intéresse et<lb/>
+                        combien je suis fâché de n'en plus avoir. Mais de penser<lb/>
+                        que vous vous en occupez me fera presque autant de<lb/>
+                        plaisir que d'en avoir moi-même, pourvu que vous m'écriviez<lb/>
+                        tous les détails qui les touchent. Me voici <choice><sic>arivé</sic> <corr>arrivé</corr></choice> au lundi tout en<lb/>
+                        écrivant. Ma lettre part demain matin et je n'ai plus que la place de vous<lb/>
+                        dire adieu.              
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

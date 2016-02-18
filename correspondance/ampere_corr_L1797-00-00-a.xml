@@ -1,0 +1,217 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 18</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1797-00-00-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1943">1943</date>
+                     <biblScope type="tome">III.</biblScope>
+                     <biblScope type="pp">p. 831-832</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L18</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L18manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Lyon</settlement>
+                        <institution>Musée Gadagne (Musée historique du vieux
+                           Lyon)</institution>
+                        <repository>dossier Michon-Saint-Didier. [note de Louis DE
+                           LAUNAY]</repository>
+                     </msIdentifier>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_A366">Ampère, André-Marie</persName>
+          <date when-iso="1797-00-00">1797</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_H304">Hubert de Saint-Didier, Balthazar</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1797-00-00-a">
+      <body>
+         <div xml:id="L1797-00-00-a-div1">
+            <opener>
+          <date from="1796-04-10" to="1797-04-10">10 avril [1796 ou 1797]</date>
+        </opener>
+            <p xml:id="L1797-00-00-a-p1">Qu'il y a longtemps, mon cher <persName ref="#pers_H304">Saint-Didier</persName>, que je me propose de jour en jour de vous
+               écrire ; mais vous me pardonneriez mon silence si vous saviez la manière dont mes
+               moments sont employés. Tous mes élèves sont séparés et il leur faut à chacun une
+               heure. Je voulais vous prévenir cette fois-ci, et une jolie lettre est arrivée tout
+               exprès, il y a deux ou trois jours pour me priver de ce plaisir en m'en donnant un
+               plus grand. J'ai fait votre commission auprès de Mme <persName ref="#pers_C124">Carron</persName>, mais non pas auprès de
+               sa sœur, pour plusieurs bonnes raisons, comme disait <cit>
+            <quote>
+              <persName>Scarron</persName>
+            </quote>
+          </cit>, dont la première
+               est que je ne l'ai pas vue parce qu'elle est à <placeName>Collonges</placeName>. Elle va partir pour <placeName>Paris</placeName>
+               avec sa sœur et ce départ est très prochain.</p>
+            <p xml:id="L1797-00-00-a-p2">Mme <persName ref="#pers_C124">Carron</persName> m'a chargé de vous dire
+               mille choses honnêtes de sa part ; elle est fâchée que l'adieu qu'elle vous a fait à
+               votre dernier voyage soit un adieu de si longue absence. J'espère d'après votre
+               lettre que la vôtre ne sera pas d'aussi longue durée. Quant à ce que vous me dites
+               des mathématiques, je crois que vous les négligez beaucoup ; et je vous assure que
+               vous avez tort. M. <persName ref="#pers_R501">Roux</persName> me parlait, l'autre jour, de ceux qu'il avait observés avoir
+               des dispositions naturelles pour cette étude et il me demandait si vous continuiez de
+               vous y livrer. Il était aussi persuadé que moi des progrès qu'un peu d'application
+               vous y ferait faire. Pour moi, je n'ai plus le temps de m'occuper de mes beaux
+               projets de réforme et de simplification dans la théorie des mathématiques. Je n'ai
+               pas ouvert un livre qui en traite depuis votre départ, si ce n'est ceux que,
+               malheureusement, je feuillette ou je vois feuilleter toute la journée. J'ai pris
+               plusieurs élèves après l'application de l'algèbre à la géométrie de <persName ref="#pers_L335">Lacroix</persName> <ref type="ouvrages_mentionnes" target="#ampere_ref_P54.xml">*</ref> qui n'éprouvent pas d'aussi grandes
+               difficultés que ceux à qui je l'ai d'abord enseigné. Cet ouvrage a surtout besoin
+               d'être expliqué par quelqu'un qui le sache par cœur.</p>
+            <p xml:id="L1797-00-00-a-p3">Vous voyez que malgré l'envie
+               que j'aurais de vous parler de quelque chose de plus intéressant, j'en reviens
+               toujours à mes moutons. Que voulez-vous ? Cette continuelle répétition des mêmes
+               proportions me dessèche l'esprit et je ne sais où trouver d'autres idées.</p>
+            <p xml:id="L1797-00-00-a-p4">Pour vous,
+               vous n'êtes plus à plaindre, car vous voilà avec la belle saison qui vous tient
+               compagnie ; faute d'autre elle n'est pas à dédaigner, mais il vaut encore mieux
+               revenir à <placeName>Lyon</placeName>. Revenez donc vite dans cette ville ou tout le monde sera bien aise de
+               vous revoir. Adieu. Je vous embrasse et vous attend avec un égal empressement. <persName ref="#pers_A366">A.
+               AMPÈRE</persName>
+        </p>
+            <closer>Au citoyen <persName ref="#pers_H304">Saint-Didier</persName>, chez le Citoyen <persName>Michon</persName>, à <placeName>Priay</placeName> par <placeName>Pont d'Ain</placeName>,
+               département de l'<placeName>Ain</placeName>. </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1797-00-00-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Musée historique du vieux <placeName>Lyon</placeName>, dossier <persName>Michon-Saint-Didier</persName>.
+               Communiqué par M. <persName>Claudius Roux</persName>. <persName ref="#pers_H304">Hubert de Saint-Didier</persName> avait été l'élève d'<persName ref="#pers_A366">Ampère</persName>.
+               Né à <placeName>Lyon</placeName> le <date when="1779-02-19">19 février 1779</date>, il est mort à <placeName>Neuville-sur-Ain</placeName>, le <date when="1863-09-16">16 septembre 1863</date>.
+               La lettre est antérieure au mariage d'<persName ref="#pers_A366">Ampère</persName> et au temps où il donnait des leçons à
+               <placeName>Lyon</placeName>, ce qui donne la date approximative. </note>
+         </div>
+      </back>
+   </text>
+</TEI>
