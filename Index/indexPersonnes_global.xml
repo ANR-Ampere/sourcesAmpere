@@ -1,4 +1,4 @@
-<?xml-model href="../Schémas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--<?xml-model href="../Schémas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -7869,7 +7869,6 @@
           </ab>
         </person>
         <person xml:id="pers_B34">
-          <!-- Attention: doublon avec B1006? -->
           <ab type="name">
             <persName>
               <surname>Barbier</surname>
@@ -7888,17 +7887,6 @@
               <name>Barbier</name>
               <ref target="#ampere_corr_L1805-08-14-a"/>
             </addName>
-          </ab>
-        </person>
-        <person xml:id="pers_B1006">
-          <!-- Attention: doublon avec B34? -->
-          <ab type="name">
-            <persName>
-              <surname>Barbier</surname>
-            </persName>
-          </ab>
-
-          <ab type="occurrences">
             <addName>
               <name>Barbier</name>
               <ref target="#ampere_corr_L1803-03-10-b"/>
@@ -7990,7 +7978,9 @@
           <ab type="relation">
             <affiliation>savants</affiliation>
           </ab>
-
+          <ab type="referential">
+            <idno type="wikipedia">https://fr.wikipedia.org/wiki/Peter_Barlow</idno>
+          </ab>
           <ab type="occurrences">
             <addName>
               <name>Barlow</name>
@@ -8070,14 +8060,16 @@
           <ab type="name">
             <persName>
               <surname>Barret</surname>
-              <forename>Clément (?)</forename>
+              <forename>Clément-François</forename>
             </persName>
           </ab>
           <ab type="biography">Ami lyonnais d'Ampère, devenu prêtre</ab>
           <ab type="relation">
             <affiliation>amis lyonnais</affiliation>
           </ab>
-
+          <ab type="referential">
+            <idno type="data.BNF">data.bnf.fr/16587433/clement-francois_barret/</idno>
+          </ab>
           <ab type="occurrences">
             <addName>
               <name>Barret</name>
@@ -8299,7 +8291,9 @@
           <ab type="relation">
             <affiliation>savants</affiliation>
           </ab>
-
+          <ab type="referential">
+            <idno type="wikipedia">https://fr.wikipedia.org/wiki/Jean-Pierre_Barruel</idno>
+          </ab>
           <ab type="occurrences">
             <addName>
               <name>Barruel</name>
@@ -8388,7 +8382,10 @@
               <forename>Charles</forename>
             </persName>
           </ab>
-
+          <ab type="biography">Officier de marine français</ab>
+          <ab type="referential">
+            <idno type="wikipedia">https://fr.wikipedia.org/wiki/Charles_Baudin</idno>
+          </ab>
           <ab type="occurrences">
             <addName>
               <name>Charles Baudin</name>
@@ -8461,7 +8458,6 @@
           </ab>
         </person>
         <person xml:id="pers_B42">
-          <!-- Attention: doublon avec B1021? -->
           <ab type="name">
             <persName>
               <surname>Beauregard</surname>
@@ -8574,17 +8570,6 @@
               <name>Beauregard</name>
               <ref target="#ampere_corr_L1802-03-04-a"/>
             </addName>
-          </ab>
-        </person>
-        <person xml:id="pers_B1021">
-          <!-- Attention: doublon avec B42? -->
-          <ab type="name">
-            <persName>
-              <surname>Beauregard</surname>
-            </persName>
-          </ab>
-
-          <ab type="occurrences">
             <addName>
               <name>Beauregard</name>
               <ref target="#ampere_corr_L1802-04-25-a"/>
@@ -8718,14 +8703,18 @@
         <person xml:id="pers_B43">
           <ab type="name">
             <persName>
-              <surname>Beautin (?)</surname>
+              <surname>Bautain</surname>
+              <forename>Louis</forename>
             </persName>
+            <date from="1796" to="1867">1796-1867</date>
           </ab>
           <ab type="biography">Professeur de philosophie à la faculté de Strasbourg</ab>
           <ab type="relation">
             <affiliation>relations professionnelles</affiliation>
           </ab>
-
+          <ab type="referential">
+            <idno type="wikipedia">https://fr.wikipedia.org/wiki/Louis_Eug%C3%A8ne_Marie_Bautain</idno>
+          </ab>
           <ab type="occurrences">
             <addName>
               <name>Beautin</name>
@@ -8793,7 +8782,9 @@
           <ab type="relation">
             <affiliation>savants</affiliation>
           </ab>
-
+          <ab type="referential">
+            <idno type="wikipedia">https://fr.wikipedia.org/wiki/Antoine_Becquerel</idno>
+          </ab>
           <ab type="occurrences">
             <addName>
               <name>Becquerel</name>
@@ -9023,15 +9014,6 @@
               <ref target="#ampere_publi_P1885-i"/>
             </addName>
           </ab>
-        </person>
-        <person xml:id="pers_B46">
-          <ab type="name">
-            <persName>
-              <surname>Belgrand</surname>
-              <forename>Miguel</forename>
-            </persName>
-          </ab>
-          <ab type="occurrences"/>
         </person>
         <person xml:id="pers_B1558">
           <ab type="name">
