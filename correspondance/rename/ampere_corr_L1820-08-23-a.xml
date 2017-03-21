@@ -1,0 +1,277 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 575</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1820-08-23-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 556-557-558</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L575</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L575manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 379</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Six pages in-4°.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1820-08-23">23 août
+                        1820</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_A10" type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1820-08-23-a">
+      <body>
+         <div xml:id="L1820-08-23-a-div1">
+            <opener>
+          <pb n="558" facs="#ACAS_CRHST_AMP_25_379_0558_r.jpg"/>
+          <date when="1820-08-23">23 août 1820</date>
+        </opener>
+            <p xml:id="L1820-08-23-a-p1">Un des plus grands chagrins que j'aie éprouvés depuis longtemps, mon cher fils, c'est
+               de t'avoir si peu écrit. J'ai reçu quatre lettres de toi dont j'ai fait un cahier de
+               journal comme tu me le dis <ref target="#corresp2">(2)</ref> ; la dernière vient d'arriver, elle est de <placeName>Berne</placeName>, du
+               <date when="1820-08-23">16 août</date> ; je ne croyais pas que tu y arrivasses aussi tôt, car M. <persName ref="#pers_S548">Stapfer</persName> m'avait
+               parlé du temps qu'il fallait pour s'y rendre de <placeName>Vevey</placeName> comme devant absorber au moins
+               trois jours. Accablé de cent mille choses dont je n'ai pu faire que la moindre
+               partie, je différai d'abord de t'écrire, pensant que ma lettre attendrait à <placeName>Berne</placeName>. M.
+               <persName ref="#pers_P459">Poisson</persName>, devenu membre de la <orgName>Commission de l'Instruction publique</orgName>, m'avait demandé
+               des notes sur l'enseignement des sciences, afin de le défendre contre l'attaque
+               dirigée en ce moment contre lui qui va tout<pb n="559" facs="#ACAS_CRHST_AMP_25_379_0559_v.jpg"/> droit à l'anéantir <ref target="#corresp3">(3)</ref>. Eh bien, ces
+               notes, je n'ai pu encore les achever, et ne pourrai le faire que demain ou
+               après-demain. <persName>Ballanche</persName> et <persName ref="#pers_B94">Bredin</persName> doivent me croire mort. Touché de ce que tu m'as
+               dit des attentions de la famille <persName ref="#pers_P443">Périsse</persName> pour toi, j'ai commencé tout à l'heure une
+               lettre à ton oncle <persName ref="#pers_P443">Périsse</persName> ; je viens de l'interrompre pour commencer celle-ci dans
+               la crainte qu'elle ne puisse pas partir aujourd'hui pour la <placeName>Suisse</placeName> : ce qui la
+               remettrait à vendredi, vu que M. <persName ref="#pers_S548">Stapfer</persName> a dit à ma sœur, un jour que je n'étais
+               malheureusement pas chez moi, que c'était les mercredis et les vendredis qu'il
+               fallait faire partir les lettres pour <placeName>Berne</placeName>.</p>
+            <p xml:id="L1820-08-23-a-p2">Tu m'avais d'abord écrit que tu te
+               proposais de voir à <placeName>Genève</placeName>, <persName ref="#pers_R502">Roux</persName> et M. <persName ref="#pers_C119">de Candolle</persName>. Je pense que tu n'en auras pas eu
+               le temps, puisque tes lettres subséquentes ne m'en parlent pas ; mais, comme je crois
+               que tu passeras au retour à <placeName>Genève</placeName>, tâche alors de les voir, ainsi que M. <persName ref="#pers_P450">Pictet</persName> et
+               M. <persName ref="#pers_B77">Bonstetten</persName> dont t'avait parlé M. <persName ref="#pers_S548">Stapfer</persName>. Ce sont certes des hommes à voir quand
+               on passe à <placeName>Genève</placeName>.</p>
+            <p xml:id="L1820-08-23-a-p3">
+          <pb n="560" facs="#ACAS_CRHST_AMP_25_379_0560_r.jpg"/>J'ai tant de chagrin de tout ce qui arrive que la vie m'est
+               insupportable. Ton journal est le seul plaisir que je sois encore susceptible de
+               goûter. Quel malheur ce serait pour moi si la privation, où une suite de
+               circonstances t'ont tenu de mes lettres, te portait à les rendre plus rares ; ma vie
+               actuelle en serait bien plus triste, et ton journal, que tu aimeras sans doute à
+               conserver comme un monument de ton voyage, se trouverait incomplet. Que je n'oublie
+               pas de te dire qu'il y aura, le <date when="1820-09-07">7 septembre</date> prochain, une éclipse de soleil presque
+               totale et comme il n'y en a pas eu en <placeName>France</placeName> depuis <date when-iso="1764">1764</date>, ni n'en aura de ce siècle.
+               Je crois qu'elle commence le <date when="1820-09-07">7 septembre</date> à midi, à peu près. C'est donc une chose
+               unique pour toi comme pour moi à observer avec soin. Il faut, pour cela, que tu
+               achètes des morceaux de verre colorés propres à voir à travers le soleil faible comme
+               la lune ; il y en a sûrement chez les opticiens de toute ville où l'on connaît les
+               sciences, du moins de nom. Vois donc à <placeName>Zurich</placeName> ou à <placeName>Berne</placeName> s'il y en a, ou si, en
+               parlant à<pb n="561" facs="#ACAS_CRHST_AMP_25_379_0561_v.jpg"/> <placeName>Berne</placeName>, on en ferait venir de <placeName>Genève</placeName>, où cela ne peut manquer de se trouver,
+               pour l'observation que tout le monde doit être curieux de faire le <date when="1820-09-07">7 septembre</date>
+               prochain.</p>
+            <p xml:id="L1820-08-23-a-p4">Au reste, à défaut de verre, on prend un morceau de vitre ordinaire et on
+               le noircit à la fumée d'une lampe, jusqu'à ce que la flamme de cette lampe, vue au
+               travers, paraisse très obscure. Seulement, il ne faut faire cette opération que la
+               veille de l'éclipse, <date when="1820-09-06">6 septembre</date>, et poser ces morceaux de vitre de manière que rien
+               ne touche au côté noirci ; car le moindre attouchement sur la partie à travers
+               laquelle on veut regarder le soleil, raye le noir de fumée qui s'y est déposé, et les
+               rayons du soleil, passant ensuite à travers ces raies, blessent l’œil et rendent
+               l'observation impossible. Tâche de t'arranger pour être dans une ville les <date when="1820-09-06">6</date> et <date when="1820-09-07">7</date>
+               septembre afin d'y pouvoir préparer des verres noircis, si tu n'as pu te procurer des
+               morceaux de verre colorés !</p>
+            <p xml:id="L1820-08-23-a-p5">
+          <pb n="562" facs="#ACAS_CRHST_AMP_25_379_0562_r.jpg"/>
+          <date when="1820-08-25">25 août 1820</date> <ref target="#corresp4">(4)</ref> Le frère de M. <persName ref="#pers_C140">de Champagny</persName>, l'ancien
+               ministre qui a été longtemps recteur à <placeName>Lyon</placeName>, me vint voir avant-hier comme j'écrivais
+               cette lettre et m'empêcha de la terminer ; elle partira aujourd'hui vendredi, et j'ai
+               à ajouter deux choses à ce qui me restait à te dire : <list>
+            <item n="1"> Ta tante <persName ref="#pers_C128">Carron<ref xml:id="pers_C128"/>
+              </persName>, toujours
+               plus mal à son aise, s'est décidée à se faire magnétiser par le docteur Bertrand,
+               celui qui a guéri au printemps mon mal de gorge par le magnétisme. Il a commencé
+               avant-hier, et les deux séances dont je connais le résultat lui ont procuré un grand
+               soulagement ; </item>
+            <item n="2"> Il y a eu hier une séance publique de l'<orgName>Académie française</orgName>. On y a
+               publié le bulletin ci-joint des sujets de prix proposés pour <date when-iso="1821">1821</date> ; je te l'envoie
+               parce que je pense que tu pourrais bien concourir pour l'un de ces prix. Celui de
+               prose me paraît très remarquable. Génie poétique, ils ne savent guère ce que c'est :
+               mais, quand l'<orgName>Académie de <placeName>Dijon</placeName>
+              </orgName> proposa son fameux prix, L'influence des sciences et
+               des arts, les académiciens s'attendaient<pb n="563" facs="#ACAS_CRHST_AMP_25_379_0563_v.jpg"/> qu'on la montrerait sous un rapport tout
+               opposé à celui que développa <persName ref="#pers_R1477">Rousseau<ref xml:id="pers_R1477"/>
+              </persName>, et ils ne laissèrent pas de le couronner. Les
+               trois pièces couronnées dans la séance d'hier sur les anciens sujets : l'éloquence de
+               la tribune comparée à celle du barreau, l'institution du jury en <placeName>France</placeName> et
+               l'enseignement mutuel, étaient pleines de grandes pensées, en général fort libérales.</item>
+          </list>
+        </p>
+            <p xml:id="L1820-08-23-a-p6">
+               A l'exception de ta tante <persName ref="#pers_C128">Carron<ref xml:id="pers_C128"/>
+          </persName>, dont cependant les maux ne sont que nerveux et, par
+               conséquent, sans danger, tous tes parents et amis de <placeName>Paris</placeName> se portent bien. <persName ref="#pers_S520">Sautelet<ref xml:id="pers_S520"/>
+          </persName>
+               a été bien malade, mais il va bien mieux, et l'on ne se porte pas mal à mon gré quand
+               on est convalescent. J'espère qu'<persName>Adrien</persName> <ref target="#corresp5">(5)</ref> te rejoindra à <placeName>Bâle</placeName> à ton second
+               passage. Toute la famille <persName>Jussieu</persName> et la famille <persName ref="#pers_C128">Carron<ref xml:id="pers_C128"/>
+          </persName> te font mille amitiés, ma
+               cousine aussi. Adieu, cher ami, ton papa t'aime et t'embrasse mille fois de toute son
+               âme. <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1820-08-23-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4°, continuées par la lettre du 25 août.
+               Quelques lignes ont été publiées par Mme <persName ref="#pers_C1171">Cheuvreux<ref xml:id="pers_C1171"/>
+          </persName>, p. 175.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) Ce journal de voyage
+               en <placeName>Suisse</placeName>, formé des lettres cousues, existe encore.</note>
+            <note resp="#CGA" xml:id="corresp3">(3) Un rapport sur
+               l'enseignement des sciences existe en brouillon dans les Archives de l'<orgName>Académie des
+               Sciences</orgName>.</note>
+            <note resp="#CGA" xml:id="corresp4">(4) <persName>Ampère</persName> a écrit <date when-iso="1720">1720</date> ! Cette seconde partie de la lettre (deux pages
+               in-4°) a été publiée en partie par Mme <persName ref="#pers_C1171">Cheuvreux<ref xml:id="pers_C1171"/>
+          </persName>, p. 177.</note>
+            <note resp="#CGA" xml:id="corresp5">(5) <persName>de Jussieu</persName>
+        </note>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,205 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 436</title>
+            <author>Bredin, Claude-Julien</author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1813-03-03-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 429-430</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L436</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L436manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 334</idno>
+                     </msIdentifier>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender">Bredin, Claude-Julien</persName>
+          <date when-iso="1813-03-03">3 mars
+                        1813</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_A366" type="adressee">Ampère, André-Marie</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1813-03-03-a">
+      <body>
+         <div xml:id="L1813-03-03-a-div1">
+            <opener>
+          <pb n="285" facs="#ACAS_CRHST_AMP_24_334_0285_r.jpg"/>
+          <date when="1813-03-03">3 mars 1813</date>
+        </opener>
+            <p xml:id="L1813-03-03-a-p1">Cher ami, tu ne viens pas ! J'aurais cependant grand besoin de consolation. Il est
+               vrai que nous n'aurions guère le temps de nous voir ; il est vrai que je ne pourrais,
+               pas plus qu'à l'ordinaire, suivre tes élans psychologiques. Je suis si triste ! Oh,
+               mon ami, qu'est-ce que la vie ? Qu'est-ce que cette misérable course à travers la
+               vallée des larmes ? Et il y a des gens qui l'aiment ! Les conçois-tu, toi ?</p>
+            <p xml:id="L1813-03-03-a-p2">Le
+               spectacle déchirant est là sous mes yeux pendant que je t'écris. Mon père, ce tendre
+               père, cet ami de toute la vie, tout est changé, il n'a plus rien de ce qui me donnait
+               encore un peu d'espoir de le conserver il y a peu de jours. Si tu savais comme sa vie
+               s'affaiblit, comme sa voix devient lente et cassée, comme tout mouvement de joie a
+               cessé en lui.<gap reason="lacune_CGA"/> Il est si faible, si maigre ! Si tu le connaissais, si tu savais
+               combien je l'aime, tu te ferais une idée des tourments que j'endure ; mais tu ne le
+               connais pas, il n'y a que moi qui le connaît ! Mon ami, il me parle à chaque moment,
+               parler est devenu un<pb n="286" facs="#ACAS_CRHST_AMP_24_334_0286_v.jpg"/> travail pour lui. Il sait que c'est à toi que j'écris. Il ne te
+               connaît pas ; les hommes passent souvent bien des heures ensemble sans se connaître ;
+               mais mon père t'aime bien parce que je t'aime.<gap reason="lacune_CGA"/> Mon ami, je suis familiarisé avec la
+               douleur ; mais elle a des moyens magiques pour être toujours neuve ! <gap reason="lacune_CGA"/> <pb n="287" facs="#ACAS_CRHST_AMP_24_334_0287_r.jpg"/>
+          <gap reason="lacune_CGA"/>
+               </p>
+            <p xml:id="L1813-03-03-a-p3">Je ne veux plus parler de cela. Mon ami, fais attention à
+               toi ! Les retards de ton voyage ne viennent pas de <persName>Mlle Ampère</persName>, mais de son frère qui
+               ne prend pas le temps de faire ses affaires.<gap reason="lacune_CGA"/>
+        </p>
+            <p xml:id="L1813-03-03-a-p4">L'autre soir, mon père allait mieux.
+               <persName ref="#pers_D220">Dupré<ref xml:id="pers_D220"/>
+          </persName>, le bon <persName ref="#pers_D220">Dupré<ref xml:id="pers_D220"/>
+          </persName>, m'a conduit dans une soirée où était le <persName ref="#pers_C134">cardinal Cavali</persName>. Je l'ai
+               bien admiré : un homme vrai, calme, bon enfant tout à fait. Une jolie figure m'est
+               apparue, quel contraste ! La physionomie était plus belle en soi ; mais la vilaine
+               empreinte du monde l'avait gâtée. Si j'avais le temps de comparer l'homme du monde et
+               celui qui est encore l'homme de la nature <gap reason="lacune_CGA"/>
+          <pb n="288" facs="#ACAS_CRHST_AMP_24_334_0288_v.jpg"/>
+          <gap reason="lacune_CGA"/>
+        </p>
+           
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1813-03-03-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Huit pages in-4°, adresse sur la dernière. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

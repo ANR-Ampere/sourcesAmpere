@@ -1,0 +1,243 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 742</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1830-03-31-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 711-712</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L742</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L742manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 393 quarto</idno>
+                     </msIdentifier>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1830-03-31">31 mars 1830</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_B33" type="adressee">Ballanche, Pierre-Simon</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1830-03-31-a">
+      <body>
+         <div xml:id="L1830-03-31-a-div1">
+            <opener>
+          <pb n="949" facs="#ACAS_CRHST_AMP_26_393_quarto_0221_r.jpg"/>
+          <placeName>Marseille</placeName>
+          <date when="1830-03-31">Mercredi 31 mars 1830</date>
+        </opener>
+            <p xml:id="L1830-03-31-a-p1">Cher bon ami, je suis auprès de mon fils depuis avant-hier au soir ; hier je
+               l'entendis professer pour la première fois, et tu sens quel plaisir j'eus à le voir
+               applaudir par 600 auditeurs. Je fus bien content de sa leçon. Je l'entendrai encore
+               vendredi, samedi et mardi ; puis nous irons ensemble à <placeName>Orange</placeName>,
+               et ensuite moi seul à <placeName>Lyon</placeName>. Je me trompe, ce n'est pas lui que
+               j'entendrai samedi ; ce sera toi, cher ami, par sa bouche. Je remercie d'avance : de
+               tout le plaisir que fera et à moi et aux auditeurs de mon fils,
+               <title>le Mont Sacré</title> et <title>les derniers accents de Virginie</title>.</p>
+            <p xml:id="L1830-03-31-a-p2">Bon
+               ami, j'ai reçu 500 francs outre les 750 précédents et, quand tout a été payé à
+               <placeName>Hyères</placeName>, je me suis trouvé avec 150 francs de reste pour tout
+               potage. C'est pourquoi, pensant que, si ma fille t'a remis 1000 francs comme elle me
+               l'avait d'abord promis, tu as 500 francs à moi ; que, si elle ne t'en a remis que
+               800, tu en as du moins 300, j'ai emprunté à M. <persName ref="#pers_D184">Denis<ref xml:id="pers_D184"/>
+          </persName> en quittant
+               <placeName>Hyères</placeName> une somme de 500 francs, pour laquelle je lui ai donné
+               un billet de même valeur payable par toi le 10 mai prochain
+               <placeName>rue du
+               Cherche-Midi, n° 23</placeName>. J'ai mis cette date
+               assez éloignée<pb n="950" facs="#ACAS_CRHST_AMP_26_393_quarto_0222_v.jpg"/> afin que, si ma fille ne t'a pas remis les 1000 francs ou ne t'en a
+               remis qu'une partie, ma sœur, qui reçoit tous mes appointements, puisse te les
+               compléter avant le 10 mai. Je lui écris à ce sujet par le même courrier. Dès lors,
+               dès que, soit de ma fille, soit de ma sœur, tu auras reçu les 1000 francs et que tu
+               auras ensuite payé le billet de 500 francs fait à M. <persName ref="#pers_D184">Denis<ref xml:id="pers_D184"/>
+          </persName>, nous
+               serons quittes. D'un autre côté, la route d'<placeName>Hyères</placeName> ici payée,
+               il me reste 600 francs pour mes séjours ici, à <placeName>Orange</placeName> et à
+               <placeName>Lyon</placeName> et le chemin que j'ai à faire pour m'y rendre. Il est
+               inutile que tu fasses passer de l'argent à <persName ref="#pers_G265">Gasparin</persName> ; si j'en ai
+               besoin à <placeName>Lyon</placeName>, je dirai à ma sœur de te remettre en outre 300
+               francs par exemple, que tu m'y ferais passer chez <persName ref="#pers_B94">Bredin</persName>. Cela
+               sera nécessaire si je retourne à <placeName>Paris</placeName> avant la tournée que je
+               me flatte de faire cette année ; cela peut l'être aussi dans le cas contraire. Ainsi,
+               je vais écrire à ma sœur de s'arranger pour te remettre 300 francs de plus, que tu me
+               garderas jusqu'à nouvel ordre.</p>
+            <p xml:id="L1830-03-31-a-p3">Maintenant il me reste deux prières à te faire : la
+               première que, si tu sors le I0 mai avant qu'on t'ait présenté mon billet pour M.
+               <persName ref="#pers_D184">Denis<ref xml:id="pers_D184"/>
+          </persName>, de laisser en sortant 500 francs à ton portier pour<pb n="951" facs="#ACAS_CRHST_AMP_26_393_quarto_0223_r.jpg"/> le
+               payer et te le remettre acquitté  ; la deuxième, à laquelle j'attache plus
+               d'importance encore, c'est, je t'en supplie, de m'écrire chez M.
+               <persName ref="#pers_G265">Adrien de Gasparin</persName> à <placeName>Orange</placeName>, département
+               de <placeName>Vaucluse</placeName> où je serai dans huit jours, parce que mon fils
+               profitera de la vacance avant et après <date>Pâques</date> pour pouvoir y aller avec
+               moi : de m'écrire, dis-je, si ma fille t'a remis l'argent suivant ce qu'elle m'a
+               promis et si c'est 1000 francs ou 800 francs. Maintenant, mon cher ami, j'attends des
+               nouvelles de <placeName>Paris</placeName> pour savoir si je serai près de toi avant
+               six semaines où si j'attendrai à <placeName>Lyon</placeName> un collègue de tournée à
+               faire dans le <placeName>Midi</placeName>, suivant la bonne idée inspirée à M.
+               <persName ref="#pers_G288">de
+               Mussy</persName> par son amitié pour moi.</p>
+            <p xml:id="L1830-03-31-a-p4">Je voudrais
+               bien que tu dises à ceux de mes amis que tu serais dans le cas de voir, qu'à partir
+               du jour où tu recevras cette lettre, mon adresse ne sera plus ici, mais à
+               <placeName>Orange</placeName> chez <persName ref="#pers_G265">Gasparin</persName>. Des circonstances
+               que j'aurai soin d'éviter une autre fois m'ont exposé aux changements de température
+               les plus faits pour me réenrhumer, sans qu'il en soit rien résulté ; la moindre toux
+               n'a pas même fait semblant de revenir ; cela seul démontre combien ma guérison est<pb n="952" facs="#ACAS_CRHST_AMP_26_393_quarto_0224_v.jpg"/>
+               radicale et complète. Il n'en avait pas tant fallu à <placeName>Caen</placeName> pour
+               me mettre à deux doigts de la mort. Mon fils et moi nous t'embrassons mille fois de
+               toute notre âme. Je te prie de combler d'amitiés ceux de nos amis que tu auras
+               l'occasion de voir. Dis-leur combien je suis complètement guéri. Mille fois à toi.<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+            <closer>
+          <placeName>A monsieur <persName>Ballanche</persName> rue du Cherche-Midi, n° 23</placeName>,
+               <placeName>faubourg Saint-Germain</placeName>, à <placeName>Paris</placeName>
+            </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1830-03-31-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages 19,5 x 25,5, adresse sur la quatrième. Le début
+               et quelques lignes de la fin ont été publiés par <persName ref="#pers_C1171">Mme Cheuvreux</persName>,
+               t. 2, p. 15.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

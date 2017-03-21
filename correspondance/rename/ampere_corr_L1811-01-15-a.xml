@@ -1,0 +1,261 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Correspondance d'André-Marie Ampère - Lettre 883</title>
+        <author xml:id="AMA" key="Ampère, André-Marie                                                 (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+        <editor>Christine Blondel</editor>
+        <editor>Marco Segala</editor>
+        <funder>ANR Corpus 2012</funder>
+        <respStmt>
+          <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+          <resp>Responsable du projet, édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+          <resp>Responsable du projet, édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+          <resp>Gestion de bases de données</resp>
+        </respStmt>
+        <respStmt>
+          <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+          <resp>Relecture et encodage en XML/TEI P5</resp>
+        </respStmt>
+        <respStmt>
+          <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+          <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+        </respStmt>
+        <respStmt>
+          <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+          <resp>Édition web</resp>
+        </respStmt>
+        <respStmt>
+          <name>Florence Greffe, <affiliation>Archives de l'Académie des
+            sciences</affiliation>
+          </name>
+          <resp>Mise en place de la numérisation</resp>
+        </respStmt>
+        <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+      </titleStmt>
+      <extent/>
+      <publicationStmt>
+        <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+        <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+        <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+        <distributor>
+          <name>Centre de calcul de
+          l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+        <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+        <date/>
+        <idno/>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct xml:id="ampere_corr_L1811-01-15-a">
+          <monogr>
+            <author>
+              <surname>Pictet</surname>
+              <forename>Marc-Auguste</forename>
+            </author>
+            <editor>
+              <surname>Sigrist</surname>
+              <forename>René</forename>
+            </editor>
+            <title>Correspondance. Sciences et techniques, t. II Les correspondants français</title>
+            <imprint>
+              <pubPlace>Genève</pubPlace>
+              <publisher>Slatkine</publisher>
+              <date when="1998">1998</date>
+              <biblScope type="pp">p. 20-21</biblScope>
+            </imprint>
+          </monogr>
+          
+        <idno type="old">L883</idno>
+        </biblStruct>
+        <listWit>
+          <witness xml:id="L883manuscrit">
+            <msDesc type="original_manuscrit">
+              <msIdentifier>
+                <country>Suisse</country>
+                <settlement>Genève</settlement>
+                <institution>Archives de la Fondation F. Rilliet</institution>
+                <repository>Fonds Pictet</repository>
+                <idno>K4 [note de René SIGRIST]</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <editorialDecl>
+        <correction>
+          <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+        </correction>
+        <hyphenation>
+          <p>Les retours à la ligne des documents originaux sont respectés.</p>
+        </hyphenation>
+        <normalization>
+          <p>L'orthographe et la ponctuation ont été normalisées.</p>
+          <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+        </normalization>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1811-01-15">15 janvier 1811</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_P450" type="adressee">Pictet, Marc-Auguste</persName>
+        </correspAction>
+      </correspDesc>
+      <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+          Coustumer</name>
+      </creation>
+      <langUsage>
+        <language ident="fra">Français</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <text type="correspondance" decls="#ampere_corr_L1811-01-15-a">
+    <body>
+      <div xml:id="L1811-01-15-a-div1">
+        <opener>
+          <placeName>Paris</placeName> <date when="18811-01-15">15 janvier 1811</date>
+        </opener>
+        <opener>Très cher et très honoré collègue,</opener>
+        <p xml:id="L1811-01-15-a-p1"> Je puis enfin vous annoncer que d'après ce que m'a dit
+          ce matin M. <persName ref="#pers_D844">Dumouchel</persName>, le rapport des bureaux sur les demandes de l'<orgName>Académie de <placeName>Genève</placeName>
+          </orgName> est
+          actuellement sous les yeux de son Excellence, et sera probablement bientôt discuté au
+          conseil de l'<orgName>Université</orgName>. J'en parlerai à ceux des conseillers que je connais assez
+          particulièrement pour cela. M. <persName ref="#pers_R498">Roman</persName> ne manquera pas de m'aider ; vous savez quel souvenir
+          il a emporté de <placeName>Genève</placeName>. J'ai à vous prier de me pardonner un oubli : je n'ai pas songé en
+          vous écrivant dernièrement à la hâte à m'acquitter de ses commissions pour vous. Il
+          m'avait chargé de vous offrir de sa part mille témoignages d'estime et d'amitié aussi
+          vives que sincères, et de vous prier de le rappeler au souvenir de M. <persName ref="#pers_B70">de Boissier</persName> et des
+          autres membres de votre académie. Je voulais vous prier de la même chose pour mon propre
+          compte, et si je ne l'ai pas fait je vous serai infiniment obligé de vouloir bien réparer
+          un oubli que je me reproche bien vivement. Je regretterai toute ma vie le séjour trop
+          court que j'ai fait à <placeName>Genève</placeName>, et l'impossibilité où je suis de cultiver comme je le
+          désirerais la connaissance que j'ai eu l'avantage de faire avec les membres de votre
+          académie.</p>
+        <p xml:id="L1811-01-15-a-p2">Cher et respectable collègue, je vous prie de m'excuser si je ne vous ai pas
+          écrit plus souvent au sujet de cette affaire ; j'attendais toujours de savoir quelque
+          chose qui pût vous montrer que je n'avais rien négligé pour la faire réussir, mais vous
+          savez quelles lenteurs ! Enfin voici un premier pas fait, et les motifs en faveur de
+          l'<orgName>Académie de <placeName>Genève</placeName>
+          </orgName> me paraissent, ainsi qu'à M. <persName ref="#pers_R498">Roman</persName>, si puissants que je ne vois pas
+          ce qui pourrait vous empêcher de réussir.</p>
+        <p xml:id="L1811-01-15-a-p3">L'ouvrage de MM. <persName ref="#pers_G269">Gay-Lussac</persName> et <persName ref="#pers_T561">Thénard</persName> est prêt
+          à paraître <ref>(1)</ref> <ref type="ouvrages_mentionnes" target="#ampere_ref_P89.xml">*</ref> ; on tire dans ce moment les
+          dernières feuilles. Tout y est assez bon, excepté le morceau sur l'acide oxymuriatique, où
+          l'on trouve des objections dénuées de fondement contre le dernier mémoire de M. <persName ref="#pers_D174">Davy</persName> <ref target="#corresp2">(2)</ref>
+            <ref type="ouvrages_mentionnes" target="#ampere_ref_P393.xml">*</ref> ; elles sont au reste en très petit nombre, et
+          il me semble même que dans l'une d'elles on suppose que M. <persName ref="#pers_D174">Davy</persName> a avancé une chose dont je
+          ne crois pas qu'il ait parlé, pour en prendre occasion de le combattre <ref target="#corresp3">(3)</ref>. Il y a
+          d'ailleurs des choses excellentes dans cet ouvrage <ref target="#corresp4">(4)</ref>, beaucoup d'expériences de détail
+          qui n'ont pas encore paru, et qui avec les recherches sur la pile de <persName ref="#pers_V583">Volta</persName> <ref target="#corresp5">(5)</ref> et les
+          analyses de substances végétales et animales forment un bel ensemble de faits nouveaux
+          <ref target="#corresp6">(6)</ref>.</p>
+        <p xml:id="L1811-01-15-a-p4">Je vous prie, mon très cher et très honoré collègue, de présenter à <persName ref="#pers_P1533">Madame Pictet</persName>
+          l'hommage de mon profond respect, et à Messieurs vos frères <ref target="#corresp7">(7)</ref>, ainsi qu'à Messieurs de
+          <persName ref="#pers_B70">Boissier</persName>, <persName ref="#pers_P468">Prevost</persName> et <persName ref="#pers_P446">Peschier</persName> celui de ma haute estime et de ma sincère amitié. Pour vous
+          mon respectable collègue vous savez trop bien quels sentiments je vous ai voués pour la
+          vie, pour que j'aie à vous les rappeler. Si vous me conservez votre amitié, tous mes vœux
+          seront comblés. Agréez l'assurance de ces sentiments et tous les vœux que je forme pour
+          votre bonheur et le succès de tout ce qui peut vous être agréable.<lb/>
+          <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+      </div>
+    </body>
+    <back>
+      <div xml:id="L1811-01-15-a-div2">
+        <note resp="#CGA" xml:id="corresp1">(1) Il s'agit des <title>Recherches physico-chimiques</title> (<placeName>Paris</placeName>, <date when-iso="1811">1811</date>, 2
+          vol.), qui résument les expériences électro-chimiques menées par ces deux savants depuis
+          <date when-iso="1808">1808</date>.</note>
+        <note resp="#CGA" xml:id="corresp2">(2) Soit <cit xml:lang="eng">
+            <quote>On the oxymuriatic acid, its nature and combinations, and on the elements
+          of the muriatic acid, with some experiments on Sulphur and Phosphorus</quote>
+          </cit> (<title>Philos. Trans.</title>,
+          <date when-iso="1810">1810</date>), dans lequel <persName ref="#pers_D174">Davy</persName> démontre qu'aucune réaction chimique ne peut extraire de l'oxygène
+          du gaz oxymuriatique, qu'il établit ainsi comme une substance simple, baptisée chlore
+          ("chlorine"). <persName ref="#pers_G269">Gay-Lussac</persName> et <persName ref="#pers_T561">Thénard</persName> avaient eux-mêmes été tout près d'affirmer la nature
+          élémentaire de ce gaz dans leur mémoire «Sur la décomposition du gaz muriatique oxygéné et
+          des muriates» lu devant l'<orgName>Institut</orgName> le <date when="1809-02-27">27 févr. de 1809</date>. Mais influencés par <persName ref="#pers_B52">Berthollet</persName>,
+          auquel ils avaient soumis leur travail la veille à <placeName>Arcueil</placeName>, ils avaient finalement décidé
+          de ne considérer cette élémentarité que comme une possibilité. Mieux : dans une
+          communication à l'<orgName>Institut</orgName> du <date when="1810-03-19">19 mars 1810</date>, ils annoncèrent être parvenus à dégager
+          l'oxygène du gaz muriatique oxygéné et à obtenir du muriate de chaux ou du muriate de
+          magnésie en faisant passer ce gaz sec dans un tube de porcelaine "rouge de feu" contenant
+          de la chaux ou de la magnésie bien sèche !</note>
+        <note resp="#CGA" xml:id="corresp3">(3) En démontrant, dans le cas de l'acide
+          muriatique (notre HC1) et de l'acide oxymuriatique (notre Cl), que l'oxygène n'était pas
+          un constituant de tous les acides, <persName ref="#pers_D174">Davy</persName> semblait en effet menacer la théorie des acides de
+          Lavoisier, et les derniers tenants du phlogistiques, sentant la faille, ne tardèrent pas à
+          en profiter pour porter de nouvelles attaques contre le fondateur de la chimie moderne.
+          <persName ref="#pers_D174">Davy</persName> pouvait ainsi redouter d'être assimilé aux défenseurs de ces positions rétrogrades.
+          <persName>Ampère</persName> fut l'un des tout premiers à rendre justice à <persName ref="#pers_D174">Davy</persName>, qui était alors combattu sur ce
+          point par la plupart des chimistes, y compris <persName ref="#pers_D169">Dalton</persName>, <persName ref="#pers_W589">Wollaston</persName> et <persName ref="#pers_B56">Berzelius</persName>. Sa position
+          était d'autant plus méritoire que le débat n'était pas dénué d'arrière-pensées
+          nationalistes.</note>
+        <note resp="#CGA" xml:id="corresp4">(4) On y trouve en particulier la description du <cit>
+            <quote>Nouveau procédé pour
+          obtenir le sodium et le potassium</quote>
+          </cit>, qui permettait d'obtenir ces deux métaux en quantités
+          nettement plus importantes que l'électrolyse. Ce procédé avait été présenté devant
+          l'Institut le <date when="1808-03-07">7 mars 1808</date>.</note>
+        <note resp="#CGA" xml:id="corresp5">(5) L'origine de ces recherches électrolytiques résidait dans
+          la volonté de <persName ref="#pers_B73">Napoléon</persName> de répondre à la découverte du potassium et du sodium par <persName ref="#pers_D174">Davy</persName>
+          (<date when-iso="1807-11">nov. 1807</date>). L'empereur mit ainsi à disposition de l'<orgName>École polytechnique</orgName> les fonds
+          nécessaires à la construction d'une très grande pile, dont <persName ref="#pers_G269">Gay-Lussac</persName> et <persName ref="#pers_T561">Thénard</persName> furent
+          chargés d'étudier les effets. C'est ainsi qu'ils parvinrent à isoler le bore, en privant
+          l'acide boracique de son oxygène (<date when-iso="1808-11">nov. 1808</date>), puis travaillèrent sur l'acide fluorique et
+          "l'acide oxymuriatique".</note>
+        <note resp="#CGA" xml:id="corresp6">(6) Ces analyses étaient présentées dans la 4e partie des
+          Recherches physico-chimiques (<title>Nouvelle méthode pour déterminer la proportion des
+          principes qui constituent les substances végétales et animales</title>).</note>
+        <note resp="#CGA" xml:id="corresp7">(7) <persName ref="#pers_P450">Marc-Auguste Pictet</persName>
+          n'avait en réalité qu'un seul frère, l'agronome et futur diplomate <persName ref="#pers_R1156">Charles Pictet de
+          Rochemont</persName>.</note>
+      </div>
+    </back>
+  </text>
+</TEI>

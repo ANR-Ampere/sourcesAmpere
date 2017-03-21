@@ -1,0 +1,224 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 588</title>
+                <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre
+                        Koyré</affiliation>
+          </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                            sciences</affiliation>
+          </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+          <name>Centre de calcul de
+                    l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:id="ampere_corr_L1820-08-06-a">
+                    <monogr>
+                        <author>
+                            <surname>De Launay</surname>
+                            <forename>Louis</forename>
+            </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gauthier-Villars</publisher>
+                            <date when="1936">1936</date>
+                            <biblScope type="tome">II.</biblScope>
+                            <biblScope type="pp">p. 555</biblScope>
+                        </imprint>
+                    </monogr>
+                    
+                <idno type="old">L588</idno>
+        </biblStruct>
+                <listWit>
+                    <witness xml:id="L588manuscrit">
+            <msDesc type="original_manuscrit">
+                            <msIdentifier>
+                                <country>France</country>
+                                <settlement>Paris</settlement>
+                                <institution>Archives de l'Académie des
+                                    sciences</institution>
+                                <repository>Fonds André-Marie Ampère</repository>
+                                <idno>chemise 360</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>Quatre pages 18,5 x 21,2, adresse incomplète sur la dernière.</p>
+                            </physDesc>
+                        </msDesc>
+          </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1820-08-06">6 août 1820</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_A10" type="adressee">Ampère, Jean-Jacques (fils
+                                d'Ampère)</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+            <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+                    Coustumer</name>
+      </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="correspondance" decls="#ampere_corr_L1820-08-06-a">
+        <body>
+            <div xml:id="L1820-08-06-a-div1">
+                <opener>
+          <pb n="13" facs="#ACAS_CRHST_AMP_24_360_0013_r.jpg"/>
+          <placeName>Paris</placeName>
+          <date when="1820-08-06">6 août 1820</date>
+        </opener>
+                <p xml:id="L1820-08-06-a-p1">Je t'écris, mon cher ami, de chez <persName ref="#pers_S1573">Mme Stapfer</persName>, qui vient de me donner des
+                    nouvelles des voyageurs. J'ai su que son fils et M. <persName ref="#pers_C163">Cousin<ref xml:id="pers_C163"/>
+          </persName> étaient avec toi et
+                    que vous vous disposiez à partir incessamment d'après un nouveau plan que je
+                    trouve bien préférable au précédent en ce que vous verriez d'abord la <placeName>Suisse</placeName> et
+                    dans son plus beau moment pour les sites, les cataractes ; ensuite que, si le
+                    voyage de <placeName>Lombardie</placeName> reste, vous le ferez dans une saison moins chaude et à une
+                    époque où l'on saura que quoi compter relativement à l'<placeName>Italie</placeName>, car je t'avoue
+                    que je trouvais bien imprudent d'y aller dans cet instant. S'il allait y éclater
+                    des troubles ! Vois si, dans ce cas, la prudence n'exigerait point de se borner
+                    cette année à bien<pb n="14" facs="#ACAS_CRHST_AMP_24_360_0014_v.jpg"/> voir la <placeName>Suisse</placeName> et à remettre le reste du voyage à l'année
+                    prochaine ?</p>
+                <p xml:id="L1820-08-06-a-p2">Tu comprends bien que c'est avec tes compagnons de voyage que cela
+                    doit être décidé ; je ne puis que vous offrir des observations, et puis vous
+                    laisser décider. Des voyageurs ont déjà bien du mal dans un pays en guerre
+                    réglée, où tout le monde risque d'être arrêté sur les conjectures les plus
+                    futiles, où tous les moyens de communications sont sans cesse <supplied>interrompus </supplied>;
+                    mais c'est bien pire dans le soulèvement d'un pays, si ce malheur arrivait où
+                    vous vous trouveriez. On peut se trouver tout à coup dans une ville assiégée,
+                    bombardée, ou tomber dans un corps de fuyards, sur des routes où des fugitifs
+                    deviennent ce qu'on appelait en <placeName>France</placeName> des chouans. Je t'en prie en grâce,
+                    écris-moi sans cesse à <placeName>Paris</placeName>, que<pb n="15" facs="#ACAS_CRHST_AMP_24_360_0015_r.jpg"/> je ne quitterai plus. Donne-moi sans cesse de
+                    vos nouvelles à tous trois ! Je serai trop inquiet quand il me faudra passer
+                    plusieurs jours sans en avoir. Mon cher fils, ne me mets pas dans une peine si
+                    cruelle quand tu pourras l'éviter ! Donne-moi la description de tout ce que tu
+                    verras ! Donne-moi aussi ton itinéraire le plus détaillé que tu pourras, et
+                    l'indication de tous les lieux où, à chaque époque, je pourrai t'écrire et des
+                    adresses à mettre sur mes lettres.</p>
+                    <p xml:id="L1820-08-06-a-p3">J'ai reçu ta dernière lettre à <placeName>Amiens</placeName> comme
+                    je venais de faire partir la mienne. <persName ref="#pers_B94">Bredin</persName> ni <persName>Ballanche</persName> ne m'ont écrit. Je n'y
+                    comprends rien. Mais j'espère que tu m'auras écrit avant de quitter <placeName>Lyon</placeName>.
+                    Puissé-je recevoir demain une lettre de toi, où je trouve plus de détails sur le
+                    nouveau plan de voyage que dans la <pb n="16" facs="#ACAS_CRHST_AMP_24_360_0016_v.jpg"/>lettre d'<persName>Albert</persName> à sa mère qui est bien
+                    obscure.</p>
+                <p xml:id="L1820-08-06-a-p4">Tous ceux que tu aimes ici se portent bien et t'embrassent de tout leur
+                    cœur. Nous ne parlons que de toi depuis mon retour. Je t'en prie, fais à MM.
+                    <persName ref="#pers_C163">Cousin<ref xml:id="pers_C163"/>
+          </persName> et <persName ref="#pers_S548">Stapfer</persName> les plus tendres amitiés de ma part. Les mêmes vœux de mon
+                    cœur vous accompagnent tous trois dans le voyage. Ton père t'aime et t'embrasse
+                    de toute son âme. Bien des détails, je t'en prie, sur ton itinéraire !</p>
+                <closer>A monsieur <persName>J.J Ampère</persName>
+        </closer>
+            </div>
+        </body>
+        <back>
+            <div xml:id="L1820-08-06-a-div2">
+                <note resp="#CGA" xml:id="corresp1">(1) Quatre pages 18,5 x 21,2, adresse incomplète sur la
+                    dernière. Du <date from="1820-08-02" to="1820-10-09">2 août au 9 octobre 1820</date>, <persName>J.-J. Ampère</persName> a fait un voyage en <placeName>Suisse</placeName>
+                    avec <persName ref="#pers_S549">Albert Stapfer</persName>, puis <persName ref="#pers_J324">Adrien de Jussieu</persName>.</note>
+               
+            </div>
+        </back>
+    </text>
+</TEI>

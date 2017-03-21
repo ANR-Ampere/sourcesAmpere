@@ -1,0 +1,208 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 763</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1831-04-10-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 730-731</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L763</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L763manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>Angleterre</country>
+                        <settlement>Londres</settlement>
+                        <institution>Institution of Electrical Engineers [note de Louis DE
+                           LAUNAY]</institution>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Deux pages in-4°, 19 x 25. [note de Louis DE LAUNAY]</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1831-04-10">10 avril 1831</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Faraday, Michael</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1831-04-10-a">
+      <body>
+         <div xml:id="L1831-04-10-a-div1">
+            <opener>
+          <date when="1831-04-10">10 avril 1831</date>
+        </opener>
+            <opener>Monsieur et très cher confrère,</opener>
+            <p xml:id="L1831-04-10-a-p1"> J'ai reçu avec un grand [plaisir] la lettre que vous
+               m'avez fait dernièrement l'honneur de m'écrire. Rien ne peut être plus agréable pour
+               moi que la correspondance d'un savant aussi distingué par des travaux et des
+               découvertes que l'<placeName>Europe</placeName> entière a su apprécier. Je voulais moi-même vous prévenir en
+               vous écrivant le premier ; mais j'aurais voulu avoir à vous communiquer quelques
+               nouveaux résultats de recherches que j'ai entreprises depuis que je suis rétabli
+               d'une affection de poitrine qui m'a tenu plus d'un an entre la vie et la mort, et les
+               occupations qui me sont survenues ne m'ont permis de rien achever. Le travail qui
+               m'est imposé ne peut que me détourner des recherches scientifiques auxquelles je
+               voudrais pouvoir donner tout mon temps, tandis que les travaux dont vous êtes chargé
+               tournent, par la manière dont vous les exécutez, au profit des sciences. Telles sont
+               vos recherches sur la fabrication des verres pour les instruments d'astronomie dont
+               les résultats intéressent si vivement tous ceux qui les cultivent, tandis que
+               d'autres expériences qu'elles vous doivent également, ont jeté un nouveau jour sur
+               différentes branches des sciences physiques.</p>
+            <p xml:id="L1831-04-10-a-p2">Je profite pour vous écrire du départ
+               pour l'<placeName>Angleterre</placeName> de notre ami commun, M. <persName ref="#pers_U571">Underwood</persName> dont vous connaissez tout le
+               mérite. Il vous dira combien j'ai été sensible à votre souvenir en recevant votre
+               dernière lettre. Ici, il ne se fait guère, dans ce moment, de travaux importants sur
+               les sciences. Ceux de M. <persName ref="#pers_E229">élie de Beaumont</persName> sur les époques de l'élévation des diverses
+               chaînes, ainsi que sur la position relative de celles qui ont été formées en même
+               [temps], et des découvertes importantes en médecine, surtout celles qui sont
+               relatives aux propriétés médicales de l'iode contre les maladies scrofuleuses me
+               semblent les principales exceptions à ce vide de nouveaux résultats scientifiques
+               qu'on éprouve en <placeName>France</placeName> depuis quelque temps. Les passions politiques semblent faire
+               oublier qu'il y a toujours à découvrir dans les sciences.</p>
+            <p xml:id="L1831-04-10-a-p3">Je vous prie, Monsieur,
+               d'agréer l'assurance des sentiments que m'ont inspirés depuis longtemps l'amitié que
+               vous avez bien voulu me témoigner et les progrès que vous doivent les sciences dont
+               je me suis occupé plus particulièrement. Je suis, avec la plus haute considération,
+               Monsieur, votre très humble et très obéissant serviteur.<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1831-04-10-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) <orgName>Institution of Electrical Engineers</orgName>. Deux pages in-4°, 19 x
+               25.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

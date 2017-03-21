@@ -1,0 +1,200 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 577</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1819-05-25-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 548-549</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L577</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L577manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 393 quarto</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Deux pages in-4°.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1819-05-25">25 mai
+                        1819</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_R502" type="adressee">Roux-Bordier, Jacques</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1819-05-25-a">
+      <body>
+         <div xml:id="L1819-05-25-a-div1">
+            <opener>
+          <pb n="857" facs="#ACAS_CRHST_AMP_26_393_quarto_0129_r.jpg"/>
+          <date when="1819-05-25">25 mai 1819</date>
+        </opener>
+            <p xml:id="L1819-05-25-a-p1">Mon cher et excellent ami, je suis le plus grand misérable du monde de n'avoir pas
+               répondu à vos différentes lettres : elles m'ont pourtant fait un extrême plaisir. On
+               ne peut défendre avec plus d'esprit les plus mauvaises causes, à mon avis ; mais,
+               comme je ne prétends pas, sur la psychologie et la politique, que mes opinions soient
+               les meilleures, je me plais beaucoup à voir ce qu'on peut dire contre elles. Il est
+               assez singulier qu'il se rencontre entre nous une opposition presque complète sur ces
+               deux sujets, tandis que je partage en grande partie votre manière de voir sur
+               d'autres sujets : par exemple, sur les questions traitées dans le livre de <persName>Ballanche</persName>
+                  <ref target="#ampere_ref_P261.xml">*</ref>. A chaque lettre que vous
+               m'avez écrite, j'ai composé dans ma tête une longue réponse qui établissait en
+               général précisément tout le contraire de ce que cette lettre contenait.<pb n="858" facs="#ACAS_CRHST_AMP_26_393_quarto_0130_v.jpg"/> Je me
+               proposais de l'écrire incessamment ; mais, comme c'était une grande entreprise, le
+               temps passait d'une occupation à une autre. Je recherchais mes idées pour les écrire
+               enfin, et il en allait comme la première fois. Ainsi accablé d'occupations, j'ai
+               laissé passer le temps. Prêt à partir pour une inspection des collèges royaux de
+               <placeName>Lyon</placeName>, <placeName>Nîmes</placeName>, <placeName>Marseille</placeName> et <placeName>Grenoble</placeName>, serai-je assez heureux pour vous voir dans ce
+               voyage ? Vous ne sauriez comprendre combien je le désire.</p>
+            <p xml:id="L1819-05-25-a-p2">A <placeName>Lyon</placeName> surtout, où je
+               passerai quelques jours du <date when="1819-06-04">4</date> au <date when="1819-06-07">7 juin</date>, et du <date when="1819-08-20">20</date> au <date when="1819-08-25">25 août</date> en revenant. Si je ne
+               puis à <placeName>Lyon</placeName>, du moins au <placeName>Molleron</placeName> ou à <placeName>Orange</placeName> chez <persName ref="#pers_G265">Gasparin</persName>, quoique je ne puisse que
+               passer comme l'éclair dans ces deux endroits et que nous ayons des montagnes de
+               choses <gap reason="lacune_CGA"/> [fin de la lettre conservée à <placeName>Genève</placeName>, voir
+               <ref target="#ampere_corr_L1819-05-25-b.xml">ampere_corr_L1819-05-25-b</ref>]</p>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1819-05-25-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Lettre de deux pages in-4° inachevée, faisant double emploi
+               avec la lettre précédente.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

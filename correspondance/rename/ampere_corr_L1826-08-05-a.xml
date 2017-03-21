@@ -1,0 +1,220 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 698</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1826-08-05-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 685-686</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L698</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L698manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>Suisse</country>
+                        <settlement>Genève</settlement>
+                        <institution>Bibliothèque de Genève</institution>
+                        <idno>Ms 2314</idno>
+                     </msIdentifier>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1826-08-05">5 août 1826</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_L333" type="adressee">La Rive, Auguste de</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1826-08-05-a">
+      <body>
+         <div xml:id="L1826-08-05-a-div1">
+            <opener>
+          <date when="1826-08-05">[5 août 1826]</date>
+        </opener>
+            <opener>Mon cher et excellent ami,</opener>
+            <p xml:id="L1826-08-05-a-p1"> J'ai reçu avec un grand plaisir la lettre où vous
+               m'annoncez un événement si heureux pour vous que votre mariage avec une personne qui
+               réunit tout ce que vos amis pouvaient désirer pour assurer votre bonheur. Les détails
+               où vous entrez à cet égard, et où j'ai vu une nouvelle preuve de votre amitié pour
+               moi, m'ont intéressé on ne peut davantage. Il me tarde maintenant de vous voir
+               bientôt à <placeName>Paris</placeName> ainsi que <persName ref="#pers_L1368">Mme de La Rive</persName>, à qui je vous prie de présenter tous mes
+               hommages, en attendant que je puisse les lui offrir moi-même quand vous l'amènerez à
+               <placeName>Paris</placeName> ; j'espère d'après votre lettre que ce sera bientôt.</p>
+            <p xml:id="L1826-08-05-a-p2">Je vous prie aussi
+               d'offrir mille compliments et respects de ma part à Monsieur votre père et à Madame
+               votre mère. Ne m'oubliez pas non plus, je vous prie, auprès de ceux de vos
+               compatriotes qui veulent bien me conserver leur amitié, et surtout à M. <persName ref="#pers_M383">Maurice</persName>. A
+               l'égard de ce que vous me demandez relativement à l'instrument que j'ai imaginé pour
+               les expériences électro-dynamiques, je puis vous assurer que, tel qu'il est construit
+               actuellement par M. <persName ref="#pers_P455">Pixii</persName>, il réunit tous les avantages qu'on peut désirer pour les
+               expériences, soit de démonstrations, soit de recherches, et que je n'y ferai
+               certainement plus aucune sorte de changement. Ainsi, je serai charmé que vous
+               profitiez de l'occasion pour le procurer au cabinet de physique de <placeName>Genève</placeName>, vu que
+               l'on ne peut guère se faire une idée parfaitement nette de tous les phénomènes que
+               présente l'électricité en mouvement.</p>
+            <p xml:id="L1826-08-05-a-p3">Je vois souvent ici deux Genevois que leur zèle
+               pour les sciences et leurs succès en ce genre rendent très recommandables, MM.
+               <persName ref="#pers_C152">Colladon</persName> et <persName ref="#pers_S700">Sturm</persName>. Je pense que le premier lira lundi prochain à l'<orgName>Académie des
+               Sciences</orgName> un petit mémoire sur quelques faits très intéressants qu'il vient de
+               découvrir. Tandis que vous agrandissez par vos recherches le domaine de la physique,
+               on s'efforce ici de ne pas rester en arrière, et, à la séance de lundi dernier, M.
+               <persName ref="#pers_S522">Savary</persName> a lu un mémoire sur des phénomènes très singuliers qui ont lieu lors de
+               l'aimantation des aiguilles d'acier par le courant électrique. Vous avez pu en voir
+               un résumé très bien fait dans le Globe du <date when="1826-08-03">jeudi 3 août dernier</date> ; cette espèce de
+               journal contient en général un excellent précis de chaque séance de l'<orgName>Académie des
+               Sciences</orgName>.</p>
+            <p xml:id="L1826-08-05-a-p4">Ces nouveaux faits, joints à ceux que vous avez découverts relativement aux
+               analogies du courant électrique et de la lumière, et sur la propriété d'en produire
+               un nouveau que manifestent les fils qui ont servi de conducteur à un courant, et à
+               l'action des disques en mouvement qu'a trouvée M. <persName ref="#pers_A20">Arago</persName>, semblent annoncer qu'on
+               connaîtra bientôt la vraie cause de tous ces phénomènes et qu'on la trouvera dans les
+               mouvements imprimés au fluide qui remplit l'espace, formé par l'union des deux
+               électricités, et dont les vibrations ou une suite de combinaisons et de
+               décompositions de ces deux éléments constituent la lumière.</p>
+            <p xml:id="L1826-08-05-a-p5">Je suis, avec la plus
+               parfaite considération, Monsieur et bien cher ami, votre très humble et très
+               obéissant serviteur.<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+            <closer>A Monsieur <persName ref="#pers_L333">Auguste de La Rive</persName>, professeur à l'<orgName>Académie de <placeName>Genève</placeName>
+          </orgName>, <placeName>rue de
+               l'Hôtel-de-Ville</placeName> à <placeName>Genève</placeName>, Confédération helvétique </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1826-08-05-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) <orgName>Bibliothèque publique et universitaire de <placeName>Genève</placeName>
+          </orgName>. Publié en
+               partie par <persName>L. SORET</persName>, <persName ref="#pers_L333">Auguste de La Rive</persName>, p. 260.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

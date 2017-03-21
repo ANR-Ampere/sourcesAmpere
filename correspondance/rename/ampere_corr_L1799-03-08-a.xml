@@ -1,0 +1,429 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 22</title>
+            <author>Carron-Ampère, Julie (1ère femme d'Ampère)</author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1799-03-08-a">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                  <idno>chemise 332</idno>
+               <altIdentifier>
+              <idno type="old">L22</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+          
+               <physDesc>
+                  <p>Lettre de quatre pages, dont les deux premières par Julie sans signature,
+                     la troisième par Mme Carron, la quatrième portant l'adresse. </p>
+               </physDesc>
+            </msDesc>            
+            <listWit>
+               <witness xml:id="L22CGA">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 036-037</biblScope>
+                        </imprint>
+                     </monogr>
+                     
+                  </biblStruct>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_C129">Carron-Ampère, Julie (1ère femme
+                        d'Ampère)</persName>
+          <date when-iso="1799-03-08">8 mars 1799</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_A366">Ampère,
+                           André-Marie</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1799-03-08-a">
+      <body>
+         <div xml:id="L1799-03-08-a-div1">
+            
+           <opener>
+          <pb n="72" facs="#ACAS_CRHST_AMP_24_332_0072_r.jpg"/> du <date when="1799-03-08">Vendredi matin</date>
+          <lb/>
+             <add>
+               De <persName ref="#pers_C129">Julie</persName>
+             </add>
+        </opener>
+            <p xml:id="L1799-03-08-a-p1">
+          <handShift new="Julie"/>Nous voyons avec plaisir, Monsieur, que votre maladie<lb/>
+               ne fait pas errer votre
+               imagination sur des objets<lb/>
+               tristes. Le talisman composé avec le plus de soin<lb/>
+               ne <choice>
+            <sic>pouroit</sic> <corr>pourrait</corr>
+          </choice> rien ajouter à la magie qui vous<lb/>
+               environne ; tout paraît animé autour de
+               vous ; le <choice>
+            <sic>coins</sic> <corr>coin</corr>
+          </choice>
+          <lb/>
+               de la cheminée, qui d'ordinaire pour un malade est un<lb/>
+               endroit fort
+               <choice>
+            <sic>mossade</sic> <corr>maussade</corr>
+          </choice>, vous fait rêver agréablement.<lb/>
+               Continuez, M<ex>onsieu</ex>r, à faire des <choice>
+            <sic>chataux</sic> <corr>châteaux</corr>
+          </choice>
+               agréables et, en <choice>
+            <sic>suivent</sic> <corr>suivant</corr>
+          </choice>
+          <lb/>
+               les conseils de prudence que vos amis vous donnent,<lb/>
+               vous <choice>
+            <sic>pourez</sic> <corr>pourrez</corr>
+          </choice> vraisemblablement jouir dans <choice>
+            <sic>peus</sic> <corr>peu</corr>
+          </choice> du<lb/>
+               plaisir de la campagne. Mais vous savez que mon<lb/>
+               refrain est : trop de <choice>
+            <sic>prescipitation</sic> <corr>précipitation</corr>
+          </choice> <choice>
+            <sic>gatte</sic> <corr>gâte</corr>
+          </choice> <choice>
+            <sic>tous</sic> <corr>tout</corr>
+          </choice>.<lb/>
+               C'est ce qui arriverait si
+               vous n'<choice>
+            <sic>atendier</sic>
+            <corr>attendiez</corr>
+          </choice> pas pour<lb/>
+               venir la libre sanction de la maman ; car vous<lb/>
+               <choice>
+            <sic>ete</sic> <corr>êtes</corr>
+          </choice> sûr qu'ici chacun vous <choice>
+            <sic>ferais</sic> <corr>ferait</corr>
+          </choice> une grosse<lb/>
+               querelle, et surtout <persName ref="#pers_C129">Julie</persName>.</p>
+           <p xml:id="L1799-03-08-a-p2">
+               <del type="bloc">Dans l'instant où j'étais
+               après vous écrire est arrivée<lb/>
+                  la domestique de la maman qui nous a <choice>
+              <sic>aportés</sic>
+              <corr>apporté</corr>
+            </choice>
+            <lb/>
+                  un gros paquet.</del> Vous avez <choice>
+            <sic>soufêrt</sic> <corr>souffert</corr>
+          </choice> des dents
+               <pb n="73" facs="#ACAS_CRHST_AMP_24_332_0073_v.jpg"/>et vous écrivez des volumes ; c'est vouloir
+               éterniser<lb/>
+               ses maux. Ce n'est pas moi qui vous <choice>
+            <sic>empaicherai</sic> <corr>empêcherai</corr>
+          </choice>
+          <lb/>
+               de venir ; mais, si vous <choice>
+            <sic>faite</sic> <corr>faites</corr>
+          </choice> tout ce qui peut vous<lb/>
+               <subst>
+            <del>faire mal</del> <add>rendre malade</add>
+          </subst>, vous <choice>
+            <sic>serais</sic> <corr>serez</corr>
+          </choice> retenu malgré<del>z</del> vous ; ce <choice>
+            <sic>cerait</sic> <corr>serait</corr>
+          </choice>
+          <lb/>
+               une
+               folie sans exemple de <choice>
+            <sic>pencer</sic> <corr>penser</corr>
+          </choice> à voyager par un<lb/>
+               temps <choice>
+            <sic>ausi</sic> <corr>aussi</corr>
+          </choice> froid. Lorsqu'il fera<del>t</del> beau
+               et que vous<lb/>
+               aurez repris <del>toute</del> votre santé, alors <del>je <choice>
+              <sic>pence</sic> <corr>pense</corr>
+            </choice> que</del> je<lb/> n'<choice>
+            <sic>orais</sic> <corr>aurai</corr>
+          </choice> plus à
+               <choice>
+            <sic>crindre</sic>
+            <corr>craindre</corr>
+          </choice> la <choice>
+            <sic>roujole</sic> <corr>rougeole</corr>
+          </choice>. C'est au docteur<lb/>
+               à <choice>
+            <sic>déssider</sic> <corr>décider</corr>
+          </choice> du jour ;<del> et comment <choice>
+              <sic>pourai</sic> <corr>pourrais</corr>
+            </choice>-je le
+               faire,<lb/>
+                  moi qui ne <choice>
+              <sic>cai</sic> <corr>sais</corr>
+            </choice> ni le temps qu'il <choice>
+              <sic>feras</sic> <corr>fera</corr>
+            </choice> ni comment<lb/>
+                  vous vous <choice>
+              <sic>trouverais</sic> <corr>trouverez</corr>
+            </choice> ? C'est</del>
+               à Mademoiselle votre<lb/>
+               tante, c'est à ma sœur à qui il faut vous en<lb/>
+               <choice>
+            <sic>raporter</sic> <corr>rapporter</corr>
+          </choice>. Ce que
+               ces dames auront décidé <choice>
+            <sic>cera</sic> <corr>sera</corr>
+          </choice>
+          <lb/>
+               <choice>
+            <sic>aprouvé<del>s</del> </sic>
+            <corr>approuvé</corr>
+          </choice> par les <choice>
+            <sic>abitents</sic> <corr>habitants</corr>
+          </choice>
+          <hi rend="underline"> de la petite maison<lb/>
+                  blanche.</hi>
+               Mais, si vous n'êtes pas soumis à tous<lb/>
+               leurs avis, docile à tous leurs conseils, vous
+               ne<lb/>
+               <choice>
+            <sic>cerais</sic>
+            <corr>serez</corr>
+          </choice> pas excusable et les talismans ne vous <choice>
+            <sic>aiderons</sic> <corr>aideront</corr>
+          </choice>
+          <lb/>
+               plus à prendre <choice>
+            <sic>pasience</sic> <corr>patience</corr>
+          </choice>.</p>
+           <p xml:id="L1799-03-08-a-p3">
+               Vous voudrez bien, M<ex>onsieu</ex>r, me <choice>
+            <sic>rapeler</sic> <corr>rappeler</corr>
+          </choice>, <choice>
+            <sic>insi</sic> <corr>ainsi</corr>
+          </choice> que ma sœur,<lb/>
+               au souvenir de
+               Mademoiselle votre tante en lui <choice>
+            <sic>presentent</sic>
+            <corr>présentant</corr>
+          </choice>
+          <lb/>
+               nos respects.</p>
+            <signed>
+          <persName ref="#pers_C129">Julie</persName>
+        </signed>
+      </div>
+         <div xml:id="L1799-03-08-a-div2">
+               <p xml:id="L1799-03-08-a-p4">
+           Monsieur,
+               lorsque mes enfants <choice>
+            <sic>étoit</sic> <corr>étaient</corr>
+          </choice> <choice>
+            <sic>petit</sic> <corr>petits</corr>
+          </choice> et<lb/>
+                  <choice>
+            <sic>malade</sic> <corr>malades</corr>
+          </choice>, pour les <choice>
+            <sic>angager</sic> <corr>engager</corr>
+          </choice> à garder la chambre,<lb/>
+               je leur <choice>
+            <sic>prometoit</sic> <corr>promettais</corr>
+          </choice> des joujoux ou des <choice>
+            <sic>bonbon</sic> <corr>bonbons</corr>
+          </choice>.</p>
+           <p xml:id="L1799-03-08-a-p5">
+                  <choice>
+            <sic>Mes</sic> <corr>Mais</corr>
+          </choice> pour le grand M<ex>onsieu</ex>r <persName ref="#pers_A366">Ampère</persName>, il
+               lui faut<lb/> un <choice>
+            <sic>talismant</sic> <corr>talisman</corr>
+          </choice> <choice>
+            <sic>ci</sic> <corr>si</corr>
+          </choice> l'on ne veut pas le voir franchir<lb/>
+                  toutes les <choice>
+            <sic>montagne</sic> <corr>montagnes</corr>
+          </choice> du
+               <placeName>Mont d'Or</placeName>. Vous ne <choice>
+            <sic>savé</sic> <corr>savez</corr>
+          </choice>
+          <lb/>
+                  donc pas que je suis la fée <choice>
+            <sic>transsie</sic> <corr>transie</corr>
+          </choice> et que ma<lb/>
+                  puissance n'a
+               point le <choice>
+            <sic>feux</sic> <corr>feu</corr>
+          </choice> ni l'<choice>
+            <sic>étandue</sic> <corr>étendue</corr>
+          </choice> de votre<lb/>
+                  <choice>
+            <sic>imagination</sic> <corr>imagination</corr>
+          </choice>. Mes <choice>
+            <sic>tallismans</sic> <corr>talismans</corr>
+          </choice> sont broyés avec<lb/>
+                  une
+               infusion de <choice>
+            <sic>passiance</sic> <corr>patience</corr>
+          </choice>, quelques grains de calme,<lb/>
+                  un peu<del>t</del> de plaisir et <choice>
+            <sic>baucoup</sic> <corr>beaucoup</corr>
+          </choice> de
+               modération.<lb/>
+                  Vous diviserez toutes ces <choice>
+            <sic>partie</sic> <corr>parties</corr>
+          </choice>, cela vous<lb/>
+                  <subst>
+            <del type="illisible"/> <add>prendra</add>
+          </subst> a<add>s</add>sez de temps pour
+               ne point fatiguer<lb/>
+                  vos yeux à l'écriture, ce qui <choice>
+            <sic>pouret</sic> <corr>pourrait</corr>
+          </choice> vous faire <choice>
+            <sic>baucoup</sic> <corr>beaucoup</corr>
+          </choice>
+          <lb/>
+                  de mal.
+               A la suite de la maladie que vous avez,<lb/>
+                  il faut éviter l'<choice>
+            <sic>aplication</sic> <corr>application</corr>
+          </choice> et les
+               impressions de l'<del>h</del>air.<lb/>
+                  Je suis avec considération.
+               Bien des choses pour moi à M<ex>ada</ex>me<lb/>
+                  votre mère, <subst>
+            <del type="illisible"/> <add>ainsi</add>
+          </subst> qu'à la chère tante.<lb/>
+                  <persName ref="#pers_B69">Antoinette BOYRON, Veuve Carron</persName>
+        </p>
+            <closer>A Monsieur <persName ref="#pers_A366">Ampère</persName> dans la <placeName>rue de Grolée</placeName>, du côté de la <placeName>place des Cordeliers</placeName> à
+               <placeName>Lyon</placeName>. </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1799-03-08-a-div3">
+            <note resp="#CGA" xml:id="corresp1">(1) Lettre de quatre pages, dont les deux premières par <persName ref="#pers_C129">Julie</persName>
+               sans signature, la troisième par Mme <persName ref="#pers_B69">Carron</persName>, la quatrième portant l'adresse. Publié
+               avec des coupures par Mme <persName ref="#pers_C1171">Cheuvreux</persName>, p. 116. C'est cette lettre qu'<persName ref="#pers_A366">Ampère</persName> appelait le
+               Talisman.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

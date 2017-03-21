@@ -1,0 +1,260 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Correspondance d'André-Marie Ampère - Lettre 891</title>
+        <author xml:id="AMA" key="Ampère, André-Marie                                                 (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+        <editor>Christine Blondel</editor>
+        <editor>Marco Segala</editor>
+        <funder>ANR Corpus 2012</funder>
+        <respStmt>
+          <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+          <resp>Responsable du projet, édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+          <resp>Responsable du projet, édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+          <resp>Gestion de bases de données</resp>
+        </respStmt>
+        <respStmt>
+          <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+          <resp>Relecture et encodage en XML/TEI P5</resp>
+        </respStmt>
+        <respStmt>
+          <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+          <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+        </respStmt>
+        <respStmt>
+          <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+          <resp>Édition web</resp>
+        </respStmt>
+        <respStmt>
+          <name>Florence Greffe, <affiliation>Archives de l'Académie des
+            sciences</affiliation>
+          </name>
+          <resp>Mise en place de la numérisation</resp>
+        </respStmt>
+        <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+      </titleStmt>
+      <extent/>
+      <publicationStmt>
+        <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+        <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+        <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+        <distributor>
+          <name>Centre de calcul de
+          l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+        <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+        <date/>
+        <idno/>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct xml:id="ampere_corr_L1814-09-19-a">
+          <monogr>
+            <author>
+              <surname>Pictet</surname>
+              <forename>Marc-Auguste</forename>
+            </author>
+            <editor>
+              <surname>Sigrist</surname>
+              <forename>René</forename>
+            </editor>
+            <title>Correspondance. Sciences et techniques, t. II Les correspondants français</title>
+            <imprint>
+              <pubPlace>Genève</pubPlace>
+              <publisher>Slatkine</publisher>
+              <date when="1998">1998</date>
+              <biblScope type="pp">p. 34-36</biblScope>
+            </imprint>
+          </monogr>
+          
+        <idno type="old">L891</idno>
+        </biblStruct>
+        <listWit>
+          <witness xml:id="L891manuscrit">
+            <msDesc type="original_manuscrit">
+              <msIdentifier>
+                <country>Suisse</country>
+                <settlement>Genève</settlement>
+                <institution>Archives de la Fondation F. Rilliet</institution>
+                <repository>Fonds Pictet</repository>
+                <idno>K4</idno>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <editorialDecl>
+        <correction>
+          <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+        </correction>
+        <hyphenation>
+          <p>Les retours à la ligne des documents originaux sont respectés.</p>
+        </hyphenation>
+        <normalization>
+          <p>L'orthographe et la ponctuation ont été normalisées.</p>
+          <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+        </normalization>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1814-09-19">19 septembre 1814</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_P450" type="adressee">Pictet, Marc-Auguste</persName>
+        </correspAction>
+      </correspDesc>
+      <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+          Coustumer</name>
+      </creation>
+      <langUsage>
+        <language ident="fra">Français</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <text type="correspondance" decls="#ampere_corr_L1814-09-19-a">
+    <body>
+      <div xml:id="L1814-09-19-a-div1">
+        <opener>
+          <date when="1814-09-19">19 septembre 1814</date>
+        </opener>
+        <opener>Mon cher collègue et très honorable ami,</opener>
+        <p xml:id="L1814-09-19-a-p1"> Votre lettre m'a fait éprouver une bien vive
+          satisfaction, en me donnant de vos nouvelles, en me montrant que vous me conservez cette
+          amitié qui m'est si précieuse, et dont celle que je vous ai vouée me rend digne, enfin en
+          m'apprenant que l'illustre chimiste [<persName ref="#pers_D174">Davy</persName>] que nous avons possédé si peu de temps à <placeName>Paris</placeName>,
+          et que je croyais, d'après ce qu'on m'avait dit, ne devoir faire aussi qu'un court séjour
+          à <placeName>Genève</placeName>, est encore auprès de vous. Le plaisir que m'a fait cette dernière nouvelle est
+          un peu altérée par ce que vous me dites des distractions qui se présentent à lui en foule
+          dans la charmante retraite qu'il a choisie. Comme il est malheureux que les hommes qui ont
+          la mission d'éclairer leurs semblables, et de faire faire de nouveaux pas à l'esprit
+          humain, se laissent entraîner par des amusements du moment, et y sacrifient une partie de
+          la gloire qui les attend dans les siècles à venir.</p>
+        <p xml:id="L1814-09-19-a-p2">Au sujet de mes observations sur le
+          danger d'une double nomenclature en français, j'ai été peut-être un peu trop vite dans ma
+          manière de m'expliquer ; je m'en rapporterai volontiers à M. <persName ref="#pers_L1266">De la Rive</persName> sur ce point, et
+          s'il me condamne je serai bien sûr d'avoir tort. En attendant je pense que la lecture du
+          mémoire qu'a lu pendant le mois de juillet M. <persName ref="#pers_G269">Gay-Lussac</persName> à l'<orgName>Institut</orgName>, et qui, déjà
+          imprimé, se trouve malheureusement retardé par le changement d'imprimeur des <title>Annales de
+          Chimie</title>, et des difficultés survenues avec l'ancien imprimeur, convaincra tous les
+          chimistes que le soufre, l'azote, et peut-être d'autres corps qu'on range à présent parmi
+          les métaux, le tellure par exemple, appartiennent à la même famille de substances simples
+          que le chlore, l'oxygène et l'iode. La division des corps simples en 4 ou 5 familles
+          naturelles est la seule chose qui reste à faire en chimie. La famille de l'oxygène, du
+          chlore, de l'azote, de l'iode et du soufre est parfaitement déterminée ; d'autres ne le
+          sont pas moins bien. Il faut s'en tenir à la règle de <persName ref="#pers_L349">Lavoisier</persName> de mettre au masculin les
+          noms de tous les corps simples ; car outre qu'il est impossible de féminiser les mots
+          soufre et oxygène, il serait contraire à toute analogie que de plusieurs familles de corps
+          dont la division est également tranchée, il y en eût une seule au féminin et toutes les
+          autres au masculin. Le genre féminin doit continuer à n'être donné en chimie, comme il ne
+          l'est depuis <persName ref="#pers_L349">Lavoisier</persName>, qu'à des substances composées. Voilà du moins ce qui me paraît
+          nécessaire pour conserver à la nomenclature cette régularité et cette simplicité si
+          précieuses, et qu'elle risquait de perdre à l'époque où la science prend un accroissement
+          si considérable et si inattendu. La nomenclature de Lavoisier modifiée en quelques points
+          seulement comme elle l'est dans le mémoire de M. <persName ref="#pers_G269">Gay-Lussac</persName>, me paraît la seule qui puisse
+          avoir cet avantage. Au reste ce mémoire n'établit pas seulement l'analogie du soufre et de
+          l'azote avec l'oxygène, le chlore et l'iode sur de simples convenances, mais sur un
+          ensemble de faits qui ne peut laisser aucun doute.</p>
+        <p xml:id="L1814-09-19-a-p3">J'ai un service à vous demander, cher
+          collègue et excellent ami, c'est de présenter à la <orgName>Société de Physique et d'Histoire
+          naturelle de <placeName>Genève</placeName>
+          </orgName> un exemplaire de la petite brochure que vous avez bien voulu accepter
+          <ref target="#corresp1">(1)</ref>. Je désirerais bien vivement avoir quelque travail plus important à lui présenter, car
+          ce serait pour moi une faveur inestimable s'il m'était permis d'aspirer un jour à ce
+          qu'elle daignât m'admettre au nombre de ses correspondants. J'ignore les conditions
+          nécessaires, j'ignore si je peux y prétendre, mais la séparation des pays que nous
+          habitons m'a laissé concitoyen de cœur de tous vos compatriotes <ref target="#corresp2">(2)</ref>.</p>
+        <p xml:id="L1814-09-19-a-p4">Le dernier article
+          de votre lettre m'a fait beaucoup réfléchir, mon cher et respectable ami <ref target="#corresp3">(3)</ref>. Je ne crois
+          pas que la question dont vous me parlez se soit élevée. Le chef et tous les membres du
+          corps dont nous faisons partie ont trop d'estime et d'attachement pour celui d'entre eux
+          qui réunit peut-être le plus de titres à ces sentiments. Nul ne les éprouve, soyez-en bien
+          sûr plus vivement que moi, et c'est ce qui me presse de vous parler avec une entière
+          franchise ; ce que je vous écris doit rester absolument entre nous, et ne pourrait que me
+          compromettre s'il venait à la connaissance de quelqu'autre, même des collègues qui nous
+          aiment et que nous aimons le mieux. Il existe un projet de réduction dont je ne connais
+          pas les détails, mais dont je crois l'adoption très prochaine, et qui me donne de vives
+          craintes pour moi-même. Je craindrais bien davantage si je ne me trouvais pas actuellement
+          à <placeName>Paris</placeName>, parce que je sais combien les sollicitations des présents l'emportent souvent sur
+          le mérite et les titres des absents. Je n'aurai pas pour me défendre ceux qui crient en
+          votre faveur, mais enfin dans l'état présent des choses, si j'ose vous dire toute ma
+          pensée, je suis inquiet autant pour vous que pour l'intérêt des sciences, et la
+          conservation d'une partie du moins du bien qu'a pu faire l'Université, de penser que vous
+          serez loin de <placeName>Paris</placeName> quand ces réductions se feront, et que les absents ont tort, dit le
+          proverbe. Je ne vous dirai pas venez à <placeName>Paris</placeName> pour empêcher une injustice à votre égard,
+          personne n'y songe, et il faut surtout éviter qu'un voyage à <placeName>Paris</placeName> paraisse motivé par la
+          crainte qu'on élève une question qu'on n'a point élevée. Mais des affaires, des relations
+          scientifiques, un voyage d'agrément, d'occasion peuvent vous amener à <placeName>Paris</placeName> aux yeux de
+          tout le monde. Arrivé à <placeName>Paris</placeName>, vous allez voir le grand-maître, vous occupez votre place
+          au conseil, surtout vous vous trouvez là... Je donnerais tout au monde pour que vous y
+          fussiez, car je ne sais si je n'aimerais pas mieux être victime de quelques mesures de ce
+          genre que de les voir dirigées contre vous.</p>
+        <p xml:id="L1814-09-19-a-p5">Vous concevrez du reste, cher et excellent
+          ami, qu'il faut pour nous deux également que nos plus intimes amis ignorent ce que je vous
+          écris avec l'abandon de la plus entière confiance. Quel bonheur ce serait pour moi d'avoir
+          pu être de quelqu'utilité, par cette franche communication de toute ma pensée sur ce
+          sujet, à l'un des hommes que j'aime et révère le plus. Agréez, cher et excellent ami,
+          l'assurance de ces sentiments que je vous ai voués pour toute ma vie ; il m'est doux
+          aujourd'hui de vous en renouveler l'hommage. Adieu, recevez tous mes vœux. Je vous
+          embrasse de toute mon âme. <lb/>
+          <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+        <closer>à Monsieur le professeur <persName ref="#pers_P450">Pictet</persName>, de la <orgName>société académique de <placeName>Genève</placeName>
+          </orgName>, correspondant
+          de l'<orgName>Institut de France </orgName>inspecteur général de l'université à <placeName>Genève</placeName>
+        </closer>
+      </div>
+    </body>
+    <back>
+      <div xml:id="L1814-09-19-a-div2">
+        <note resp="#CGA" xml:id="corresp1">(1) Cette présentation aura lieu le <date when="1814-10-20">20 octobre</date>.</note>
+        <note resp="#CGA" xml:id="corresp2">(2) <persName>Ampère</persName> sera élu
+          membre honoraire de la <orgName>SPHN</orgName> le <date when="1814-11-24">24 novembre 1814</date>.</note>
+        <note resp="#CGA" xml:id="corresp3">(3) Il s’agit du maintien de <persName ref="#pers_P450">Pictet</persName> dans
+          ses fonctions d’inspecteur général de l’<orgName>Université française</orgName>.</note>
+      </div>
+    </back>
+  </text>
+</TEI>

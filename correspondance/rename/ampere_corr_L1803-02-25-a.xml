@@ -1,0 +1,264 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 222</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1803-02-25-a">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                  <idno>chemise 393 quarto</idno>
+               <altIdentifier>
+              <idno type="old">L222</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+          
+               <physDesc>
+                  <p>Quatre pages 16,5 x 22 ; adresse a la fin. Timbre de Bourg sans date.</p>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness xml:id="L222CGA">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 240-241</biblScope>
+                        </imprint>
+                     </monogr>
+                     
+                  </biblStruct>
+                  
+                 </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_A366">Ampère, André-Marie</persName>
+          <date when-iso="1803-02-25">25 février 1803</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
+        </correspAction>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1803-02-25-a">
+      <body>
+         <div xml:id="L1803-02-25-a-div1">
+            <opener>
+          <pb n="1390" facs="#ACAS_CRHST_AMP_26_393_quarto_0662_r.jpg"/>Du <date when="1803-02-25">Vendredi soir [25 février 1803]</date>
+        </opener>
+            <p xml:id="L1803-02-25-a-p1">Il m'a été impossible de t'écrire<lb/>
+               dans la journée, ma bonne<lb/>
+               amie. J'ai tout mis en
+               ordre<lb/>
+               pour que mon absence ne<lb/>
+               nuisît pas à mes cours et<lb/>
+               j'espère que cela ira bien.<lb/>
+               J'attends de tes nouvelles, je m'inquiète<lb/>
+               de ta santé, je regrette le <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice>
+          <lb/>
+               que j'ai passé à <placeName>Lyon</placeName> loin de<lb/>
+               toi. Est-il possible que nous<lb/>
+               ayons été si peu ensemble<lb/>
+               pendant trois jours <del>que j'ai<lb/>
+                  passés en entier à <placeName>Lyon</placeName>
+          </del> ? Je<lb/>
+               conserve pourtant bien des<lb/>
+               doux souvenirs, de doux baisers,<lb/>
+               de douces confidences de tes<lb/>
+               projets, de tes ennuis ;
+               mais<lb/>
+               <subst>
+            <del>j'en conserve un qui pèse</del> <add>une pensée m'obsède</add>
+               </subst>
+          <pb n="1391" facs="#ACAS_CRHST_AMP_26_393_quarto_0663_v.jpg"/> bien à mon cœur. Je me<lb/>
+               souviens que tu as pleuré la<lb/>
+               veille de mon départ. <del>Je<lb/>
+               me ressouviens que </del>j'ai presque<lb/>
+               <subst>
+            <del>entièrement</del> <add>complètement perdu</add>
+          </subst> cette
+               dernière<lb/>
+               soirée qui me devait procurer<lb/>
+               de si doux <choice>
+            <sic>momens</sic> <corr>moments</corr>
+          </choice>. Hélas !<lb/>
+               Jusqu'au premier
+               germinal,<lb/>
+               il ne me restera plus que<lb/>
+               ceux que je puis employer<lb/>
+               à t'écrire ! M. le Préfet<lb/>
+               fait la visite de l'école<lb/>
+               de MM. <persName ref="#pers_D219">Dupras</persName> et<lb/>
+               <persName ref="#pers_O425">Olivier</persName> ; je l'ai d'abord<lb/>
+               accompagné, mais
+               je l'ai<lb/>
+               bientôt quitté pour venir<lb/>
+               <del>t'écrire. Voilà qu'il sort
+               <pb n="1392" facs="#ACAS_CRHST_AMP_26_393_quarto_0664_r.jpg"/>
+               et qu'il faut que
+               j'aille<lb/>
+                  donner ma leçon.</del> Je te<lb/>
+               quitte sans savoir si tu<lb/>
+               vas un peu mieux, si tu<lb/>
+               as pu dormir cette nuit<lb/>
+               pour te dédommager un<lb/>
+               peu de celle où je t'ai<lb/>
+               réveillée. J'attends de tes<lb/>
+               nouvelles aujourd'hui.</p>
+            <p xml:id="L1803-02-25-a-p2">
+               Ne m'écris plus<add> si cela te fatigue ;</add> mais dis
+               à<lb/>
+               <persName ref="#pers_C125">élise</persName> que je la prie de<lb/>
+               me donner de tes nouv<supplied>elle</supplied>s,<lb/>
+               que <del>c'est tout pour moi.<lb/>
+                  Ah,</del> sans en savoir, il ne<lb/>
+               peut y avoir ni paix ni<lb/>
+               repos pour moi ! Adieu,<pb n="1393" facs="#ACAS_CRHST_AMP_26_393_quarto_0665_v.jpg"/>
+               ma charmante
+               amie, je<lb/>
+               t'embrasse comme tu<lb/>
+               m'embrassas à mon arrivée.<lb/>
+               Oh, quand pourrai-je te le<lb/>
+               rendre <del>ce si doux baiser</del>
+          <lb/>
+               de plus près et te voir<lb/>
+               <del>mieux portante que je ne<lb/> t'ai
+               laissée !</del> Adieu, ma <persName ref="#pers_C129">Julie</persName> !</p>
+            <closer>A <choice>
+            <sic>Madame Madame</sic> <corr>Madame</corr> </choice>
+          <persName ref="#pers_C129">Ampère</persName>,<lb/>
+               chez Mme <persName ref="#pers_B69">Carron</persName>,<lb/>
+               <placeName>rue du Griffon</placeName>, vis<lb rend="hyphen"/>à-vis la <placeName>rue Terraille</placeName>,<lb/>
+               à <placeName>Lyon</placeName>.</closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1803-02-25-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages 16,5 x 22 ; adresse a la fin. Timbre de <placeName>Bourg</placeName>
+               sans date. Cette lettre succède à un voyage à <placeName>Lyon</placeName> du <date from="1803-02-20" to="1803-02-23">20 au 23 février</date>. Mme <persName ref="#pers_C1171">Cheuvreux</persName>
+               en a publié quelques lignes, p. 308.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,323 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 66</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1801-07-00-b">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                  <idno>chemise 393 quarto</idno>
+               <altIdentifier>
+              <idno type="old">L66</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+          
+               <physDesc>
+                  <p>Six pages in-8° et adresse au bas de la sixième.</p>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness xml:id="L66CGA">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 075-076</biblScope>
+                        </imprint>
+                     </monogr>
+                     
+                  </biblStruct>
+                 </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_A366">Ampère, André-Marie</persName>
+          <date when-iso="1801-07-00"> juillet 1801</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
+        </correspAction>
+        <note type="noteDelaunay">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1801-07-00-b">
+      <body>
+         <div xml:id="L1801-07-00-b-div1">
+            <opener>
+          <pb n="1309" facs="#ACAS_CRHST_AMP_26_393_quarto_0581_r.jpg"/> Du <date when-iso="1801-07">Vendredi [début juillet 1801]</date>
+        </opener>
+            <p xml:id="L1801-07-00-b-p1">Ma bonne amie, je t'avais<lb/>
+               promis une lettre bien détaillée,<lb/>
+               et voilà mes élèves dont<lb/>
+               je ne puis me défaire un<lb/>
+               seul instant, vu le <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice>
+          <lb/>
+               que j'ai pris sur leurs leçons<lb/>
+               pour aller chez M. <persName ref="#pers_P447">Petetin</persName> <ref>(2)</ref>.<lb/>
+               Le bateau des meuniers de<lb/>
+               <placeName>Couzon</placeName> <ref>(3)</ref> partira
+               probablement<lb/>
+               samedi à 6 h du matin ; mais<lb/>
+               on ne m'a point donné<lb/>
+               de réponse décisive. <persName>Pierrette</persName>
+          <lb/>
+               s'en informera et te le<lb/>
+               saura dire au juste. Je<lb/>
+               passai chez Mme <persName ref="#pers_C128">Campredon</persName>
+          <lb/>
+               où je la vis avec Mlle <persName ref="#pers_C118">Jenny</persName>,<lb/>
+               qui <add>vous</add> ira voir <add>à <placeName>Saint-Germain</placeName>
+          </add> avec son<lb/>
+               frère qu'on attend de moment<lb/>
+               en moment.<pb n="1310" facs="#ACAS_CRHST_AMP_26_393_quarto_0582_v.jpg"/> M. <persName ref="#pers_P447">Petetin</persName>, plus
+               raisonnable<lb/>
+               le matin qu'après dîner,<lb/>
+               a jugé ton voyage très<lb/>
+               nécessaire. Il viendra te<lb/>
+               voir dès que je l'aurai<lb/>
+               averti et tout est, comme<lb/>
+               tu le vois, arrangé pour le<lb/>
+               mieux. Les <choice>
+            <sic>batteaux</sic> <corr>bateaux</corr>
+          </choice> qui<lb/>
+               vont à <placeName>Lyon</placeName> ne manquent<lb/>
+               jamais de revenir le même<lb/>
+               jour. Ils partent de <placeName>Lyon</placeName>
+          <lb/>
+          <lb/>
+               à 3 h et tu peux être<lb/>
+               à <placeName>S<ex>ain</ex>t-Germain</placeName> à 6 h. 1/2 ou 7 h<lb/>
+               pour donner
+               à téter au<lb/>
+               petit. <del>Si le bateau de<lb/>
+                  <placeName>Couzon</placeName> ne partait pas,<lb/>
+                  ce ne serait point<lb/>
+                  un obstacle ; car celui<pb n="1311" facs="#ACAS_CRHST_AMP_26_393_quarto_0583_r.jpg"/> de <placeName>Fontaines</placeName> <ref>(4)</ref> fait tous<lb/>
+               les jours le voyage<lb/>
+               régulièrement, aux mêmes<lb/>
+               heures.</del> Il ne s'agit que<lb/>
+               de traverser la <placeName>Saône</placeName> ; il<lb/>
+               n'y a pas après pour<lb/>
+               un quart d'heure de<lb/>
+               marche. Mais cette<lb/>
+               circonstance t'obligerait<lb/>
+               toujours à partir une<lb/>
+               demi-heure plus tôt,<lb/>
+               et c'est pourquoi je chargerai <persName>Pierrette</persName> de savoir te dire au
+               juste ce qui en est à l'égard du bateau<lb/>
+               de <placeName>Couzon</placeName>.</p>
+            <p xml:id="L1801-07-00-b-p2">M. <persName ref="#pers_P447">Petetin</persName> approuve beaucoup<lb/>
+               cette manière de voyager,<pb n="1312" facs="#ACAS_CRHST_AMP_26_393_quarto_0584_v.jpg"/>
+               très convenable et préférable<lb/>
+               aux <choice>
+            <sic>cahotement</sic> <corr>cahotements</corr>
+          </choice> de la<lb/>
+               carriole. Il dit que le voyage<lb/>
+               et la retenue du lait ne<lb/>
+               peuvent te faire aucun<lb/>
+               mal relativement au sujet<lb/>
+               de la <choice>
+            <sic>constultation</sic> <corr>consultation</corr>
+          </choice> que nous<lb/>
+               lui demandons, que cela<lb/>
+               ne l'empêchera point d'en<lb/>
+               juger, etc. <del>Enfin, ma bonne<lb/>
+                  amie, tout est pour ton<lb/>
+                  voyage, et je vois que le<lb/>
+                  <choice>
+              <sic>tems</sic> <corr>temps</corr>
+            </choice> se prépare au beau.<lb/>
+                  Je désirerais seulement<lb/>
+                  qu'il se couvrit pour que<lb/>
+                  tu eusses plus frais.<lb/>
+                  Je t'en prie en grâce,<lb/>
+                  qu'aucune raison ne<lb/>
+                  diffère ton voyage ! J'irais <lb/>
+                  t'en parler ce soir et<lb/>
+                  reviendrais de suite si</del>
+          <pb n="1313" facs="#ACAS_CRHST_AMP_26_393_quarto_0585_r.jpg"/>
+               je croyais cela nécessaire<lb/>
+               pour te décider. Oui, jamais<lb/>
+               je n'aurais éprouvé un<lb/>
+               plus grand chagrin ; ma<lb/>
+               tranquillité et celle de
+               tous ceux qui t'aiment<lb/>
+               dépend de ta décision. Toi<lb/>
+               qui as tant fait de sacrifices<lb/>
+               pour moi, tu feras encore<lb/>
+               celui-là. Tu ne manqueras<lb/>
+               pas à la promesse que tu<lb/>
+               m'as faite. Tu ne m'obligeras<lb/>
+               <supplied>pas</supplied> à manquer à celle que<lb/>
+               j'ai faite à M. <persName ref="#pers_P447">Petetin</persName>
+          <lb/>
+               de l'aller chercher d<supplied>ès</supplied>
+          <lb/>
+               que tu serais arrivée. <supplied>Il</supplied>
+          <lb/>
+               m'a promis qu'il atten<supplied>drai</supplied>t<lb/>
+               chez lui jusqu'à onze<lb/>
+               heures. Tu te <choice>
+            <sic>mettra</sic> <corr>mettras</corr>
+          </choice>
+          <lb/>
+               sur ton lit, ou du moins<pb n=""/> tu t’assiéras commodément<lb/>
+               et je l'irai chercher.<lb/>
+               Adieu, ma bonne amie. M.<lb/>
+               <persName ref="#pers_G1444">Grangier</persName> m'attend depuis<lb/>
+               une demi-heure. Il faut<lb/>
+               <del>que je te quitte sans t'embrasser<lb/>
+                  comme tu sais que je le<lb/>
+                  fais d'ordinaire, tu me l'as<lb/>
+                  <choice>
+              <sic>deffendu</sic> <corr>défendu</corr>
+            </choice>. J'en serais bien<lb/>
+                  dédommagé si tu devinais<lb/>
+                  sans t'en fâcher le secret<lb/>
+               que te cache un endroit<lb/>
+                  <del>de ma lettre</del>.</del> Adieu, ma bien-aimée !</p>
+            <closer>A <persName ref="#pers_C129">
+            <choice>
+              <sic>Madame<lb/>
+               Madame</sic> <corr>Madame</corr>
+            </choice> Ampère</persName>
+          <lb/>
+               chez Mme <persName ref="#pers_B69">Carron</persName>,<lb/>
+               à <placeName>S<ex>ain</ex>t-Germain</placeName>.</closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1801-07-00-b-div2">
+            <note resp="#CGA" xml:id="corresp1"> Six pages in-8° et adresse au bas de la sixième.</note>
+           <note resp="#CGA">Docteur
+              <persName ref="#pers_P447">Petetin</persName> qu'on voulait consulter pour <persName ref="#pers_C129">Julie</persName>.</note>
+           <note resp="#CGA">Il s'agit d'aller en bateau de <placeName>Couzon</placeName>
+               vers <placeName>Lyon</placeName> par la <placeName>Saône</placeName>. </note>
+            <note resp="#CGA"> <placeName>Fontaines</placeName> est sur la <placeName>Saône</placeName>, en aval de <placeName>Couzon</placeName>. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

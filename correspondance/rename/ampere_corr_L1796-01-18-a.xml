@@ -1,0 +1,786 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 1206</title>
+                <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+                    <forename>André-Marie</forename>
+                    <surname>Ampère</surname>
+                </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+                    </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                            sciences</affiliation>
+                    </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Mathilde Dutertre, </name>
+                    <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré :
+                        élaboration du schéma XML TEI et encodage</resp>
+                </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+                    <name>Centre de calcul de l'IN2P3</name>
+                    <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+                </distributor>
+                <availability>
+                    <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative
+                        Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+                </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="original_manuscrit">
+                    <msIdentifier xml:id="ampere_corr_L1796-01-18-a">
+                        <country>USA</country>
+                        <settlement>Ithaca (NY)</settlement>
+                        <institution>Cornell University Library</institution>
+                        <repository>Ampère collection</repository>
+                        <altIdentifier>
+                            <idno type="old">L1206</idno>
+                            <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+                        </altIdentifier>
+                    </msIdentifier>
+
+                    <physDesc>
+                        <handDesc>
+                            <handNote corresp="#AMA">
+                                <name type="person" key="Ampère, André-Marie (1775-1836)">
+                                    <forename>André-Marie</forename>
+                                    <surname>Ampère</surname>
+                                </name>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName type="sender" ref="#pers_A366">
+                        <surname>Ampère</surname>
+                        <forename>André-Marie</forename>
+                    </persName>
+                    <date when-iso="1796-01-18">18 janvier 1796</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName type="adressee" ref="#pers_C162">
+                        <surname>Couppier</surname>
+                        <forename>Jean-Stanislas, dit Couppier Viry</forename>
+                    </persName>
+                </correspAction>
+            </correspDesc>
+            <creation>
+                <date when="2015-01">janvier 2015</date>
+                <name>Aude Coustumer</name>
+            </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <name>Aude Coustumer</name>
+                <date when="2015-04">avril 2015</date>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="images_L1796-01-18-a" corresp="#ampere_corr_L1796-01-18-a">
+        <graphic url="Cornell_Ampere_L1206_01.jpg"/>
+        <graphic url="Cornell_Ampere_L1206_02.jpg"/>
+        <graphic url="Cornell_Ampere_L1206_03.jpg"/>
+        <graphic url="Cornell_Ampere_L1206_04.jpg"/>
+        <graphic url="Cornell_Ampere_L1206_05.jpg"/>
+        <graphic url="Cornell_Ampere_L1206_06.jpg"/>
+        <graphic url="Cornell_Ampere_L1206_07.jpg"/>
+        <graphic url="Cornell_Ampere_L1206_08.jpg"/>
+        <graphic url="Cornell_Ampere_L1206_09.jpg"/>
+        <graphic url="Cornell_Ampere_L1206_10.jpg"/>
+        <graphic url="Cornell_Ampere_L1206_11.jpg"/>
+        <graphic url="Cornell_Ampere_L1206_12.jpg"/>
+        <graphic url="Cornell_Ampere_L1206_13.jpg"/>
+        <graphic url="Cornell_Ampere_L1206_14.jpg"/>
+        <graphic url="Cornell_Ampere_L1206_15.jpg"/>
+        <graphic url="Cornell_Ampere_L1206_16.jpg"/>
+        <graphic url="Cornell_Ampere_L1206_17.jpg"/>
+        <graphic url="Cornell_Ampere_L1206_18.jpg"/>
+        <graphic url="Cornell_Ampere_L1206_19.jpg"/>
+        <graphic url="Cornell_Ampere_L1206_20.jpg"/>
+        <graphic url="Cornell_Ampere_L1206_21.jpg"/>
+        <graphic url="Cornell_Ampere_L1206_22.jpg"/>
+    </facsimile>
+    <text decls="#ampere_corr_L1796-01-18-a" type="correspondance">
+        <body>
+            <div xml:id="L1796-01-18-a-div1">
+                <opener>
+                    <pb n="1" facs="#Cornell_Ampere_L1206_01.jpg"/> Ce <date when="1796-01-18">18
+                            janv<ex>ier</ex>
+                        <supplied>1796</supplied>
+                    </date>
+                </opener>
+                <p xml:id="L1796-01-18-a-p1">Vous savez bien, Monsieur, quelle est pour ainsi dire
+                    ma pensée habituelle. Aussi vous ne devez point être étonné de me voir reprendre
+                    la plume pour vous écrire aussitôt que je l'ai quittée. D'ailleurs il y a encore
+                    plusieurs choses sur lesquelles je vous ai promis des éclaircissements, qu'il
+                    faut me dépêcher d'écrire avant d'avoir reçu une de vos lettres, sans quoi je ne
+                    pourrais plus penser qu'à elle et tout le reste serait abandonné. Je dois
+                    d'abord vous donner la liste de toutes les étoiles douteuses pour vous servir à
+                    connaître les limites de leurs grandeurs. Vous avez déjà celles de la 1ère à la
+                    2de grandeur, voici donc les autres, d'après M. <persName>de Lalande</persName>. Entre la 2de et la
+                    3ème : α Petite Ourse, α de l'Hydre femelle, κ genou d'Orion, β du Cocher, ζ et
+                    β du Grand Chien, γ et β des ♊, δ du ♌, α et
+                    <supplied>β</supplied> de la ♎, α de la Couronne boréale, α du Serpent sur la
+                    ligne du pied de derrière ξ de la Grande Ourse prolongée par Arcturus de 25°,
+                    les têtes α et α d'Hercule et d'Ophiucus (cette dernière me semble bien plus
+                    brillante que l'autre), β de la Lyre et β de Cassiopée. Entre la 3ème et la 4ème
+                    : η et θ de la Baleine, α du Triangle austral, β ♈ corne
+                    occidentale (elle me semble bien augmentée), α du Fourneau, δ ♉, la plus boréale des deux plus brillantes de la Levrette, autrefois
+                    la 53ème, β, γ, δ du Lièvre, μ ♊ sur la ligne de γ ♊ à la Chèvre, ξ et ρ du Vaisseau (elles me semblent plus
+                    rapprochées de la 3ème grandeur), ε, ζ, θ de l'Aigle, β et γ de Céphée, ο Chaîne
+                    d'Andromède.</p>
+                <p xml:id="L1796-01-18-a-p2">Plus je relis ce que vous me dites des essaims artificiels, et plus
+                    je vous suis obligé de m'avoir fait connaître un phénomène aussi singulier. La
+                    métamorphose des abeilles ouvrières en reines l'est d'autant plus qu'on a
+                    toujours cru que l'œuf d'un animal devait le contenir <pb n="2" facs="#Cornell_Ampere_L1206_02.jpg"/> avec tous ses organes, en sorte qu'il
+                    ne restât plus qu'à les développer ; tandis que cette étonnante métamorphose
+                    fait dépendre du hasard le sexe des abeilles, et porte non seulement un coup
+                    terrible à l'opinion des germes préexistants (qui est une des plus suivies),
+                    mais contredit toutes les idées les plus vraisemblables, et avouées dans tous
+                    les systèmes. A moins qu'on ne s'avisât de dire que les ouvrières sont toutes
+                    des reines complètes dans l'œuf, mais que leurs organes ne peuvent se développer
+                    dans les petites cellules, apparemment faute de place, ce qui aurait peut-être
+                    encore bien des difficultés. Mais comme il y a apparence que nous ne pénétrerons
+                    jamais dans un tel secret, que par de vaines conjectures, il vaut mieux
+                    retourner à l'astronomie où l'on trouve quelque chose de plus certain.</p>
+                <p xml:id="L1796-01-18-a-p3">En
+                    observant l'entrée et la sortie d'un astre dans la lunette, on peut le comparer
+                    à un autre aussi bien qu'avec un réticule. Mais avant de vous en expliquer la
+                    méthode, il faut que je vous explique mieux ce que je ne vous ai dit qu'en
+                    passant, qu'on ne devait mettre l'intervalle de temps observé entre les fils en
+                    degrés qu'en les comparant au temps total employé à traverser la lunette, dès
+                    qu'il s'agissait de déclinaison. En voici une explication détaillée. <figure/> Si E est un astre dont la décl<ex>inaison</ex> est AE, il est clair que
+                    plus elle sera grande, plus l'arc EF qu'il décrit en même temps que le point A
+                    décrit AB, sera plus petit que cet arc et cela dans le rapport de leurs rayons
+                    AC, DE, ou du rayon au cosAE, ce qu'on exprime en faisant EF = ABcosAE, parce
+                    qu'on suppose toujours le rayon qui devrait diviser cette quantité = 1. Il est
+                    donc clair que l'astre allant plus lentement en E restera plus longtemps à
+                    décrire <pb n="3" facs="#Cornell_Ampere_L1206_03.jpg"/> un même nombre de
+                    degrés, par ex. le champ d'une lunette, et cela dans le même rapport du rayon à
+                    cosAE, c.à.d. qu'il faudra toujours multiplier par cette dernière quantité le
+                    temps employé à décrire un astre avant de le réduire en degrés (à raison de 15°
+                    par heure), pour avoir sa mesure exacte et en conclure une distance quelconque
+                    dans la région où l'on observe telle qu'est la diff<ex>érence</ex> de décl<ex>inaison</ex> de deux astres.
+                    Mais il faut bien se garder de le faire pour la dif<ex>érence</ex>. d'asc<ex>ension</ex> dr<ex>oite</ex> parce qu'elle
+                    ne se mesure pas dans la région de l'astre, mais sur l'équateur, où il faudrait
+                    augmenter la distance EF si elle était mesurée en degrés, comme il arrive au
+                    diamètre des astres mesuré avec le micromètre, dans le même rapport que l'on a
+                    diminué le temps employé à la traverser cet intervalle pour l'avoir en degrés.
+                    Ce qui fait qu'on n'y a aucun changement à faire quand on l'a mesuré en temps.</p>
+                <p xml:id="L1796-01-18-a-p4">
+                    Vous voyez en même temps par là que, quand on a observé le passage par le
+                    méridien du bord du ☉ ou de la ☽, et qu'on veut
+                    avoir l'instant du passage de leurs centres, ce qui est d'un usage habituel,
+                    après avoir pris ce diamètre en degrés dans les tables et l'avoir réduit en
+                    temps, il faut encore l'augmenter à proportion que l'astre va plus lentement,
+                    c.à.d. le diviser par le cos<ex>inus</ex> de sa décl<ex>inaison</ex> pour avoir le temps que ce diamètre met
+                    à traverser le méridien, dont la moitié doit être ajoutée ou retranchée de
+                    l'instant où le bord a passé par le méridien pour avoir celui du passage du
+                    centre. Maintenant vous comprendrez facilement qu'au moyen de l'intervalle des
+                    passages réduit en degrés, à raison de 15° par heure et multiplié par le
+                    cosdecl. à peu près connu, on aura dans le cercle ABCD, fig. 2, la longueur des cordes AB, CD décrites par les deux
+                    astres. Et en ôtant le carré de leurs moitiés <pb n="4" facs="#Cornell_Ampere_L1206_04.jpg"/> <figure/> AE, CF, du carré du rayon et tirant la
+                    racine des restes, on aura les distances GE, GF, au centre G de la lunette, dont
+                    la somme ou la diff<ex>érence</ex> sera égale à la diff<ex>érence</ex> de décl<ex>inaison</ex>. C'est de cette manière que
+                    j'ai calculé l'observation d'Herschel <ref target="#L1206_CAK1">*</ref> et j'en ai conclu la position
+                    de ce que nous prenons pour cette planète à 156°4'36'' d'asc<ex>ension</ex> dr<ex>oite</ex> et à 9°38'46''
+                    de décl<ex>inaison</ex> bor<ex>éale</ex>. Mais cette détermination est peu sûre parce que ρ passait
+                    si près du centre que sa corde s'est trouvée égale au diamètre que j'avais
+                    mesuré hier. J'ai donc été obligé de supposer qu'elle avait passé par le centre,
+                    mais à cause que les arcs Aa, Bb sont dans une direction parallèle à GF, elle en
+                    aurait pu passer peut-être à plus d'une minute sans que je m'en aperçusse. C'est
+                    là l'inconvénient de cette méthode, préférable sans cela au réticule. Le seul
+                    moyen de le prévenir est de n'observer des passages qu'au bord de la lunette
+                    parce qu'alors un très petit changement sur la distance GE en fait un très
+                    sensible sur la corde AB.</p>
+                <p xml:id="L1796-01-18-a-p5">Vous me disiez en riant dans une de vos lettres que
+                    nous devrions faire un petit voyage pour voir Canopus. Il ne faudrait pour cela
+                    aller qu'à <placeName>Cadix</placeName> ou même à <placeName>Séville</placeName>. Peut-être que des événements inattendus
+                    pourraient nous procurer quelques jours le plaisir de la voir. Pour Achernar il
+                    faudrait faire un peu plus de chemin, du moins à présent, car elle s'approche de
+                    notre horizon d'une lieue tous les dix ans, et y sera par cons. visible dans 4
+                    ou 5000 ans. Il n'en est pas de même de Canopus, qui n'y peut jamais paraître,
+                    et qui commence déjà à s'en éloigner. Vous pouvez vérifier tout cela sur votre
+                    globe, en supposant que le pôle austral se meuve sur le petit cercle qui y est
+                    tracé autour du pôle de l'écliptique <pb n="5" facs="#Cornell_Ampere_L1206_05.jpg"/> en
+                    s'éloignant de l'Hydre mâle pour s'approcher du Vaisseau de 8'23''4/10 tous les
+                    dix ans. S'il n'y a point de faute sur mon globe, il y a encore une étoile qui a
+                    disparu, et une étoile qu'il marque de 2de grandeur dans le Petit Lion, placé
+                    par <persName>Hevelius</persName> près du grand<supplied> Lion</supplied>. Je ne l'ai point vue, et j'en ai vu d'autres
+                    qu'il marque bien plus petites dans la même constellation, <supplied>entre </supplied>autres celles
+                    qui semblent faire un losange tout auprès. Pour mieux me faire entendre, en
+                    voici la figure (fig. 3) <figure/>.</p>
+                <p xml:id="L1796-01-18-a-p6">Le dernier instrument de mon
+                    invention dont je vous ai donné la description, quoique plus commode que l'autre
+                    a un désavantage qui consiste à ne point donner comme l'autre la décl<ex>inaison</ex> des
+                    astres indépendamment de celle d'une étoile qui est déjà connue, ce qui est
+                    cause que son usage exige des observations déjà faites. Il est vrai que nous
+                    pouvons nous servir de celles que nous ont laissées tant d'astronomes. Mais j'ai
+                    fait le projet de tracer une route aux observateurs par laquelle ils pussent
+                    établir tous les fondements de l'astronomie par leurs propres observations, et
+                    sans avoir besoin d'autres instruments que les miens, à quoi je n'ai pu parvenir
+                    qu'avec mon premier. C'est donc de lui que je vous parlerai toujours dans
+                    l'histoire que je compte vous faire de toute l'astronomie, en vous expliquant en
+                    même temps les méthodes dont on s'est réellement servi.</p>
+                <p xml:id="L1796-01-18-a-p7">
+          <pb n="6" facs="#Cornell_Ampere_L1206_06.jpg"/> Mais après vous avoir décrit les
+                    instruments modernes, presque tous fondés sur l'invention du pendule, je dois
+                    vous parler de ceux qui ont précédé une découverte si heureuse pour
+                    l'astronomie, et celle des lunettes, ce qui vous en montrera d'autant mieux
+                    l'excellence que vous verrez combien ils étaient peu susceptibles d'exactitude.
+                    fig.4 Les anciens astronomes n'observaient guère le Soleil
+                    qu'au gnomon, c.à.d. une plaque de métal AB percée d'un trou C par où passait un
+                    rayon solaire dont on observait la rencontre avec un plan horizontal, c.à.d. la
+                    distance du point lumineux à l'aplomb D que pendait du trou C et qu'il faut
+                    supposer dans ma figure derrière l'obélisque P. On en concluait facilement la
+                    hauteur du ☉ sur l'horizon dont cette distance était la
+                    cotangente pour un rayon = CD <figure/>.</p>
+                <p xml:id="L1796-01-18-a-p8">Cet instrument eût été assez exact à cause de sa
+                    grandeur si l'ombre d'un corps opaque exposé au Soleil n'était pas d'autant plus
+                    mal terminée qu'elle est plus longue. Mais il n'en était pas de même de celui
+                    dont ils se servaient pour les autres astres. C'était comme une grande sphère
+                    armillaire <figure/> (fig. 5) dont les cercles de cuivre et garnis de
+                    pinnules étaient divisés dans les meilleurs instruments tout au plus de 10' en
+                    10'. Le méridien fixe APBQ portait le méridien mobile PHQG, celui-ci l'équateur
+                    EHFG, et un demi-cercle LRV, entre lequel et le méridien mobile on renfermait
+                    les astres dont on voulait avoir la différence d'asc<ex>ension</ex> dr<ex>oite</ex> tandis que les
+                    déclinaisons se voyaient sur ces deux cercles. On finit même par y ajouter un
+                    Zodiaque et un cercle de latitude pour mesurer immédiatement les long. et lat.
+                    et on les mettait comme on pouvait dans la situation qu'ils devaient avoir.
+                    Quant à l'heure de l'observation, on ne la déterminait qu'en dirigeant le
+                    méridien mobile vers un astre connu de position et en observant sur l'équateur
+                    sans <supplied>sa </supplied>distance en asc<ex>ension</ex> dr<ex>oite</ex> au méridien fixe toujours d'accord <pb n="7" facs="#Cornell_Ampere_L1206_07.jpg"/> avec celui du lieu de l'observation,
+                    et en réduisant cette distance en temps. Maintenant, pour suivre une démarche
+                    aussi méthodique qu'il est possible, je ne considère que quatre choses
+                    principales dans chaque mouvement qui déterminent tout le reste. C'est
+                    l'inclinaison du plan où il se fait sur un plan connu, le point de leur
+                    intersection, le temps de la révolution, et les inégalités du mouvement qu'on
+                    veut connaître. En voici le détail pour chacun de ceux dont je vous ai parlé.</p>
+                <p xml:id="L1796-01-18-a-p9">Du
+                    mouvement diurne.<lb/>
+                    C'est l'équateur qui doit être considéré comme le plan de ce
+                    mouvement, et c'est à l'horizon qu'on regarde d'abord <choice>
+            <sic>que</sic> <corr/>
+          </choice> le cercle fixe (c.à.d.
+                    qui semble l'être) où l'on doit tout rapporter. Ainsi pour l'uniformité on
+                    devrait déterminer la position de l'équateur en marquant sur cet horizon le
+                    point de son intersection, et en cherchant à connaître son inclinaison. Mais
+                    pour me conformer à l'usage, je mets pour premier problème de tracer la ligne
+                    méridienne qui, étant toujours à 90° du point d'intersection, ne peut être
+                    déterminée sans lui, et pareillement je regarderai comme la même chose de
+                    déterminer la hauteur du pôle ou l'inclinaison de l'équateur, qui est toujours
+                    son complément. Pour tracer la méridienne, les Anciens qui avaient observé que
+                    le Soleil suivait le même mouvement diurne que tous les astres, se servaient du
+                    gnomon en mesurant des ombres égales le matin et le soir, et en en coupant
+                    l'angle en deux parties égales. Car vous comprenez qu'en général si un astre se
+                    meut sur le cercle AMNB qui coupe ADB en A et en B, <figure/> et qu'on l'observe en M et N à deux hauteurs égales MP, NQ, les
+                    triangles sphériques rectangles APM, BQN où les angles A, P sont égaux à B, Q,
+                    seront égaux en tout. Ce qui donne ACP = BCQ, et par cons. CD perpendiculaire à
+                    AB, dès qu'elle coupe PCQ en deux p<ex>arties</ex> é<ex>gales</ex>. Pour employer mon
+                    instrument au même usage, et tracer la méridienne encore plus exactement, on
+                    n'aura qu'à prendre une lunette portée sur un axe horizontal, et vérifiée de
+                    manière <pb n="8" facs="#Cornell_Ampere_L1206_08.jpg"/> qu'on soit sûr qu'elle
+                    soit dans un vertical pour y faire la dernière vérification de la lunette
+                    méridienne qui, comme je vous l'ai déjà expliqué, consiste à observer les
+                    passages des étoiles circump<ex>ôlaires</ex> dont les intervalles doivent être
+                    parfaitement égaux. On sera certain alors que la lunette est dans le méridien.
+                    En la pointant à l'horizon, on aura le point où l'on doit tirer la méridienne,
+                    qui sera d'autant plus juste que ce point sera fort loin. La même lunette
+                    donnera aussi le temps de la révolution diurne, d'après l'échelle quelconque de
+                    temps que marquera l'horloge. Si c'est par ex. le temps solaire moyen, on
+                    trouvera 23h 56' 4''.<formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mfrac>
+                  <mrow>
+                    <mn>98</mn>
+                  </mrow>
+                  <mrow>
+                    <mn>1000</mn>
+                  </mrow>
+                </mfrac>
+              </mrow>
+            </math>
+                    </formula>. En général le mouvement de l'horloge est assez
+                    indifférent pourvu qu'il soit uniforme. On aura dans tous les cas le temps total
+                    de la révolution diurne : 360° :: <ref target="#L1206_CAK2">*</ref> un intervalle quelconque de temps est à l'arc
+                    correspondant qu'on voulait déterminer. Quant aux inégalités, on convient
+                    généralement qu'il n'y en a point dans le mouvement diurne. Il ne nous reste
+                    donc plus pour le connaître parfaitement qu'à déterminer l'inclinaison de son
+                    orbite, qui est l'équateur. Mais ce sera pour la <supplied>prochaine </supplied>fois, car je reçois
+                    une lettre de vous et il n'y a rien qui puisse m'empêcher de tout quitter pour
+                    la lire et y répondre.</p>
+                <p xml:id="L1796-01-18-a-p10">Je vous ai donné à ce que je crois dans une de mes
+                    dernières lettres la position d'Herschel, que vous feriez pourtant bien
+                    de vérifier en la comparant par la méthode des entrées et des sorties à ρ ♌, dont l'asc<ex>ension</ex> dr<ex>oite</ex> est de 155°31'39'' et la décl<ex>inaison</ex> de 10°21'17''.
+                    Au reste, il ne faut pas vous effrayer si elle ne change pas de place parce
+                    qu'elle ne doit rétrograder que près de l'opposition, après avoir été
+                    stationnaire à quelque distance. Ce n'est pas que <supplied>je </supplied>ne croie qu'elle a déjà
+                    commencé à rétrograder, mais <pb n="9" facs="#Cornell_Ampere_L1206_09.jpg"/> ce
+                    doit être encore avec peu de vitesse. Je ne sais comment je vous ai dit que je
+                    voyais ο de la Baleine. Je l'avais apparemment prise pour une autre, c.à.d. une
+                    autre pour elle, car elle ne paraît point du tout. Je crois cependant l'avoir
+                    vue il y a 3 ans, mais peut-être que c'était aussi par erreur. C'est l'étoile de
+                    3ème grandeur qui est ε de la Baleine ; les deux autres sont ρ et σ, ρ <supplied>est </supplied>la
+                    plus boréale. τ me paraît aussi brillant qu'à vous, mais je vois tant de
+                    différence entre l'ordre des lettres et celui des grandeurs que je me persuade
+                    toujours de plus en plus que la plupart des lettres ont été placées un peu au
+                    hasard. Pour θ d'Andromède, mon globe ne met auprès que deux étoiles de 5ème
+                    grandeur, ρ boréale et σ australe, toutes deux sur le même méridien à l'orient
+                    de θ, et cette dernière ainsi que ρ est aussi sur la ligne de β à ο d'Andromède.
+                    L'étoile dont vous me parlez ensuite est en effet la queue du Renard. Pour les
+                    étoiles dont vous me parlez et que votre globe marque sur la ligne de ζ de
+                    Pégase à β du Cygne, je n'en vois sur le mien que le cou de Pégase, et une
+                    étoile fort proche de la queue du Renard et qui est sparsile. On fait toujours
+                    sortir la tête du Petit Cheval d'un nuage qui est une partie de cette
+                    constellation, mais il ne s'étend point sur mon globe au-dessous du nez de
+                    Pégase. Il y a aussi ε du Cocher que votre auteur compte, probablement avec
+                    raison, au nombre des Chevreaux, et que je vous ai indiquée comme la queue de la
+                    Chèvre, mais c'est la faute de mon globe qui l'a placée de cette manière.</p>
+                <p xml:id="L1796-01-18-a-p11">Quand
+                    je vous ai marqué deux ou trois étoiles sur une certaine ligne, je n'ai pas
+                    toujours entendu qu'elles étaient dans la direction de cette ligne, mais
+                    seulement très proches. Pour ce que je vous ai dit d'après mes observations,
+                    vous ne devez pas en faire grand cas, parce que je ne fais souvent qu'apercevoir
+                    des étoiles que je mets vite à la 2de grandeur quand <pb n="10" facs="#Cornell_Ampere_L1206_10.jpg"/> il y en a de petites autour, dont je
+                    leur attribue l'éclat faute de bien les distinguer <ref target="#L1206_CAK3">*</ref>. Je vous ai écrit
+                    entre autre tout plein de bêtises sur la 53ème et la 54ème. Mais depuis qu'elles
+                    ne sont plus sparsiles, j'attends la disparition de la prochaine lune pour
+                    examiner attentivement cette nouvelle constellation. Je suppose que vous en
+                    ferez de même, et que vous m'enverrez une description aussi détaillée de la
+                    Levrette que celle que je viens de recevoir du Chat, dont j'ai mille
+                    remerciements à vous faire. Pour tâcher de m'acquitter de la complaisance que
+                    vous avez eue de tant vous en occuper à cause de moi, je pense que je n'aurai
+                    pas de meilleur moyen que de travailler à copier toutes les constellations, et à
+                    vous envoyer toutes leurs étoiles et les lettres qui les désignent. C'est un
+                    travail auquel je compte me livrer. Mais comme je ne sais point dessiner, ce
+                    sera à vous à tracer les figures ou, si vous vous défiez trop de votre adresse,
+                    vous pourriez vous en servir toujours comme cela. Pour ce qui est de la manière
+                    de les placer, vous savez bien que les cordes prises avec le compas sur le globe
+                    et portées sur un plan, laisseraient une étrange incertitude et donneraient une
+                    place différente pour la même étoile, suivant qu'on voudrait la déterminer avec
+                    une de celles qu'on eût déjà placée, ou avec une autre. On est donc obligé de
+                    recourir aux projections, en imaginant un plan tangent VT, et en rapportant les
+                    astres S, R aux points V, T où vont le rencontrer les rayons OV, OT, tirés d'un
+                    point fixe O (fig. 7) <figure/>. Si le point O était infiniment loin, et
+                    que ces rayons devenus parallèles fussent perp<ex>endiculaires</ex> au plan tangent, la projection
+                    serait orthographique, dont l'inconvénient est de rendre trop petites les
+                    figures qui sont sur le bord de la carte.</p>
+                <p xml:id="L1796-01-18-a-p12">
+          <pb n="11" facs="#Cornell_Ampere_L1206_11.jpg"/> <figure/> Si le point O est à l'extrémité du
+                    diam<ex>ètre</ex> ACO perpendiculaire au plan tangent TV (fig. 8), on a la
+                    projection stéréographique dont l'usage est le plus ordinaire à cause de
+                    l'admirable propriété qu'elle a de rendre par des cercles tous ceux qui sont
+                    tracés sur la surface sphérique, et de conserver la grandeur des angles qu'ils
+                    forment, tandis que les cercles des autres projections deviennent des ellipses
+                    ou des hyperboles qui se coupent sous des angles différents. Cela seul doit
+                    faire rejeter une autre projection proposée, je crois, par M. <persName>de La Hire</persName>, qui
+                    consistait à placer le point O à la distance OB = AC sin45° <figure/> (fig. 9) parce qu'alors AV = VT quand AS et SR sont de 45°, parce que cette
+                    projection n'a d'ailleurs aucun autre avantage. Mais je ne sais si elle est
+                    suffisante pour faire rejeter une projection que j'inventai l'autre jour pour
+                    conserver la ligne droite à tous les alignements célestes. C'est de placer le
+                    point O au centre de la sphère comme est notre œil, ce qui change en ligne
+                    droite tous ces grands cercles, de même qu'ils nous paraissent, ce qui pourrait
+                    peut-être se trouver plus commode pour reconnaître les astres et faire oublier
+                    que cette projection défigure un peu plus les constellations et donne
+                    nécessairement des ellipses ou des hyperboles pour tous les petits cercles dont
+                    les plans ne sont pas parallèles à celui de la projection. Puisque vous avez
+                    reconnu la constellation des Poissons sans pouvoir en connaître les lettres, je
+                    me reproche de ne jamais vous en avoir rien dit, et je tâche de réparer cet
+                    oubli dans la fig. 10 <figure/>.</p>
+                <p xml:id="L1796-01-18-a-p13">
+          <pb n="12" facs="#Cornell_Ampere_L1206_12.jpg"/> Quant aux verres enfumés, M. <persName>de
+                    Lalande</persName> dit aussi de les mettre sur l'œil, parce que la lunette en grossirait
+                    beaucoup les difformités. J'ai essayé <supplied>les </supplied>deux méthodes, sans succès. Mais du
+                    temps que je pouvais voir les astres avec le télescope dont je vous ai parlé, je
+                    voyais parfaitement le Soleil à travers un petit morceau de corne qu'on y
+                    adaptait à vis. Je l'ai attaché aussi quelquefois avec de la cire à ma lunette,
+                    et de l'une et de l'autre façon j'ai distingué également les taches du Soleil.
+                    M. <persName>de Lalande</persName> parle de l'effet de la rosée et dit que pour le prévenir, il
+                    suffit d'envelopper le bout de la lunette de papier <choice>
+            <sic>brouillard</sic> <corr>buvard</corr>
+          </choice>, qui
+                    doit le dépasser <supplied>d'un </supplied>demi pied. Il attire et boit toute l'humidité pourvu
+                    qu'on ait soin de le changer quand il est trempé, ce qui arrive quelquefois,
+                    mais rarement plusieurs fois par heure. La lettre dont vous me parlez comme
+                    ayant été rendue à <placeName>Lyon</placeName> le mardi n'y arriva réellement, d'après ce que dit
+                    <persName>Manin</persName>, que le vendredi ; non pas par la poste, mais par une dame qu'il ne
+                    connaissait point. Il manqua ensuite d'occasions pour me l'envoyer jusqu'au
+                    dimanche, et je ne la reçus, comme je crois vous l'avoir dit, que le lundi
+                    matin. J'avais déjà vu à la vue simple que la pauvre Souris que mon globe
+                    marquait comme la plus brillante n'était guère que la 3ème. J'ai ajouté des
+                    lettres grecques à toutes les étoiles que vous m'avez marquées, mais j'ai été
+                    obligé d'après vos propres déterminations de mettre ε à la place de ζ pour
+                    pousser celle-ci au bout de la queue, et remplacer ε par κ et λ <figure/>. Quoique  j'aie
+                    suivi de mon mieux ce que vous dites de ces étoiles, j'ai bien peur de m'y être
+                    grossièrement trompé et je vous prie de corriger mes erreurs. C'est pourquoi <pb n="13" facs="#Cornell_Ampere_L1206_13.jpg"/>
+                    j'ai fait la fig. 11. Pour les étoiles
+                    où je n'ai point mis de lettre, je pense qu'elles sont si petites qu'elles n'en
+                    méritent que de l'alphabet italique dont on se sert pour les petites étoiles.
+                    C'est sur vous que je me remets de leur distribution. Il me semble que ces
+                    nouvelles étoiles s'accordent parfaitement avec la figure que je supposais à mon
+                    Chat. Il faudra seulement lui faire faire le gros dos pour renfermer les étoiles
+                    ι et π. Je crois aussi qu'on ne perdrait rien à négliger l'invention de la
+                    Souris. Je vous prie, Monsieur, de ne plus tant regarder à la lunette, puisque
+                    vous poussez cette occupation jusqu'à vous faire mal aux yeux. Je serais bien
+                    fâché de contribuer à augmenter votre dévouement à l'astronomie s'il allait
+                    jusqu'à vous faire négliger la conservation de votre vue.</p>
+                <p xml:id="L1796-01-18-a-p14">Vos observations sur
+                    la méthode des latitudes en mer me semblent très justes. Mais dix ou douze
+                    lieues que le vaisseau peut faire pendant l'intervalle des deux observations ne
+                    me paraissent pas capables de jeter dans une bien grande erreur, parce que l'on
+                    connaît toujours à peu près le mouvement du vaisseau et qu'on en peut tenir
+                    compte en calculant quelle aurait été la hauteur observée en A si elle l'avait
+                    été en B comme l'autre (fig. 12) <figure/>. Car en supposant BE et BZ parallèles à AC, AX,
+                    c.à.d. répondant au même point du ciel à cause de la petitesse de notre globe,
+                    on aura dans le triangle EZY, le côté EZ égal à 90°, la hauteur observée en A,
+                    l'arc YZ égal au chemin qu'on a fait de A en B, et l'angle Z que fait le
+                    vertical de l'astre avec le méridien. On aura donc aisément l'arc YE, complément
+                    de la hauteur qu'on eût observée en B au moment où on l'a observée en A. Il ne
+                    restera plus qu'à comparer cette hauteur avec l'autre pour avoir la latitude. M.
+                    <persName>de Lalande</persName> avoue aussi que pour la long. on ne doit l'espérer qu'à 30' près à
+                    cause de la lenteur du mouvement de la Lune.</p>
+                <p xml:id="L1796-01-18-a-p15">
+          <pb n="14" facs="#Cornell_Ampere_L1206_14.jpg"/> Je ne sais point du tout comme font
+                    les pilotes qui ne connaissent rien aux astres pour rectifier leur boussole. Il
+                    est vrai que tant qu'ils savent où ils sont, ils peuvent savoir les déclinaisons
+                    de l'aiguille par les observations de ceux qui ont traversé les mêmes mers avec
+                    une meilleure cargaison de connaissances astronomiques. Encore cette méthode
+                    doit-elle être d'autant moins juste que la direction de l'aimant n'est nullement
+                    constante. Vous avez sûrement bien connu par vos observations, et ensuite par
+                    mes lettres, que vos figures vous avaient bien trompé au sujet de l'élongation
+                    de ♀ , et que l'astre dont vous me parlez à la fin de votre
+                    lettre est certainement cette planète. Vous avez bien raison de blâmer la
+                    tenaille de M. <persName>de La Hire</persName>. Elle était pourtant peut-être bien préférable à tout
+                    ce qui l'avait précédée pour la mesure des astres. Je ne sais si c'est avec
+                    raison qu'il se vante de l'application des lunettes aux quarts de cercle, car M.
+                    <persName>de Lalande</persName> en fait l'honneur à <persName>Picard</persName> <ref target="#L1206_CAK4">*</ref> et <persName>Auzout</persName> <ref target="#L1206_CAK5">*</ref> qui vivaient, je crois, quelque
+                    temps avant lui. Si je vous ai si peu parlé des observations du 18ème <supplied>siècle </supplied>cela vient, je crois, un peu de la paresse de nos astronomes qui dédaignent, du
+                    haut de leur gloire, les constellations, les étoiles changeantes, etc. M. <persName>de
+                    Lacaille</persName> leur avait donné un bel exemple par son fameux catalogue des étoiles
+                    australes, mais il ne paraît pas qu'ils l'aient suivi, et M. <persName>de Lalande</persName> ne parle
+                    d'eux que pour les observations des planètes, des comètes, des satellites de
+                    Jupiter et de la Lune dont les mouvements, aussi variés que compliqués, offrent
+                    un vaste champ aux observations et aux calculs de leurs inégalités, dont la
+                    forme, donnée par la théorie de l'attraction, doit être déterminée, quant aux
+                    coefficients, par la comparaison d'un grand nombre d'observations.</p>
+                <p xml:id="L1796-01-18-a-p16">
+          <pb n="15" facs="#Cornell_Ampere_L1206_15.jpg"/> Le quart de cercle mobile de
+                    l'<orgName>Observatoire de <placeName>Lyon</placeName>
+          </orgName>, et j'imagine que tous les autres sont de même, n'est
+                    divisé que par la méthode des transversales, et vous avez très bien compris
+                    l'impossibilité d'y appliquer le vernier. Vous traitez cette division de
+                    défectueuse. Elle l'est en effet dans la rigueur mathématique, mais non pas pour
+                    l'astronome qui ne parle jamais que d'approximation par décimales, et qui
+                    regarde une division pour parfaite dès que l'erreur ne passe pas un <formula>
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+                <mfrac>
+                  <mrow>
+                    <mn>1</mn>
+                    <mn>100</mn>
+                  </mrow>
+                </mfrac>
+              </mrow>
+            </math>
+                    </formula>'',
+                    comme il arrive dans ce cas. Au reste cette division n'est qu'une superfluité
+                    puisque le fil mobile du micromètre y peut toujours suppléer. Il y a apparence
+                    que la Mouche est en effet une const<ex>atation</ex> d'<persName>Hevelius</persName>, mais avec l'autorité de M. <persName>de
+                    Lalande</persName>, je défendrai le Lys contre lui jusqu'à ce qu'il me donne quelque bonne
+                    raison pour conserver la Mouche. Mais je doute qu'il y en ait, et le nom
+                    d'Abeille à la Mouche australe ne lève pas trop la difficulté puisque tant de
+                    livres déjà imprimés l'ont appelée la Mouche, et qu'on pourrait aisément s'y
+                    laisser tromper en les lisant. Quant à la longueur des lunettes et des
+                    télescopes, <persName>Hevelius</persName> en avait à deux verres de 120 et 140 pieds de longueur,
+                    mais elles étaient très imparfaites et on n'en fait plus de si longues depuis
+                    l'invention du télescope. C'est cependant avant elles qu'on a découvert les
+                    satellites de ♄ et ♃, et l'anneau de ♄. La plus grande lunette de l'<orgName>Observatoire de <placeName>Paris</placeName>
+          </orgName>, dont
+                    parle M. <persName>de Lalande</persName>, est de 34 pieds ; c'est celle qui a servi à M. <persName>Cassini</persName>. Le
+                    plus grand télescope qu'on eût fait jusqu'au temps où il écrivait, c.à.d. en
+                    <date when-iso="1770-00-00">1770</date>, était celui de 12 pieds de Short. J'ai entendu dire que Herschel l'avait
+                    bien surpassé mais je n'en sais rien de particulier.</p>
+                <p xml:id="L1796-01-18-a-p17">Vous me demandiez
+                    précédemment comment on pouvait observer les distances en mer avec l'octant. M.
+                    <persName>de Lalande</persName> l'explique en disant qu'on connaît toujours à peu près <pb n="16" facs="#Cornell_Ampere_L1206_16.jpg"/> la distance qu'on veut mesurer et
+                    qu'ainsi on peut mettre l'alidade qui porte le miroir sur le degré qui y
+                    <sic>convient</sic> qu'alors on met le plan de l'instrument dans celui des deux
+                    astres, et qu'en le balançant légèrement on voit les deux astres dans le champ
+                    de la lunette, en sorte qu'il n'y a plus qu'à les faire coïncider. En dernière
+                    analyse, il dit que d'après l'expérience et en répétant l'observation deux ou
+                    trois fois, on peut en ¾ d'heure connaître la long. en mer à moins d'un degré
+                    près. Les lunettes astronomiques n'ont que deux verres convexes et renversent
+                    les objets. Elles sont plus claires que celles qui en ont quatre. Les télescopes
+                    ne le sont jamais autant quoiqu'ils grossissent bien plus. Ils durent aussi
+                    beaucoup moins, et je ne sais pas si l'on ne pourrait pas faire des lunettes
+                    achromatiques qui les égalassent du côté du grossissement, et qui seraient
+                    préférables à tous autres égards. C'était l'avis de M. <persName>de Buffon</persName> qui dit dans un
+                    mémoire sur les miroirs ardents que ces lunettes l'emportent autant sur les
+                    télescopes que ceux-ci sur les lunettes simples, ce qui me paraît pourtant
+                    exagéré.</p>
+                <p xml:id="L1796-01-18-a-p18">Je ne sais pas si l'établissement de mes abeilles est si merveilleux
+                    que vous le dites mais voici comme la chose s'est passée. La ruche était
+                    parfaitement vide depuis l'hiver. J'en avais vu ôter les cadavres, et j'y avais
+                    regardé plusieurs fois, quand, au mois de juillet, ma Tatan vit voltiger des
+                    abeilles à l'entour, qui probablement venaient reconnaître les lieux. Cela dura
+                    trois ou quatre jours, au bout desquels maman en sortant vit un essaim qui
+                    traversait les airs sur notre terrasse. Elle nous appela, et comme on ne se
+                    doutait de rien on se mit à faire le bruit de chaudrons dont on prétend se
+                    servir pour les arrêter. Je ne crois pas qu'il y ait fait grand'chose <pb n="17" facs="#Cornell_Ampere_L1206_17.jpg"/> car les abeilles vinrent tout droit à
+                    la ruche, la couvrirent ainsi que la pierre sur laquelle elle était posée, et y
+                    entrèrent avec tant d'empressement qu'il n'y en avait presque plus dehors en
+                    moins d'un quart d'heure. Elles sont encore vivantes, mais elles n'ont plus de
+                    provisions parce que le temps a manqué à leur moisson. Nous sommes obligés de
+                    les nourrir d'un peu de miel tiré des autres, et cela diminue beaucoup l'espoir
+                    que je pourrais avoir de les conserver jusqu'à la belle saison. Quoiqu'il en
+                    soit ce sera toujours un fait curieux, s'il est vrai qu'il soit si rare, et dont
+                    j'ai suivi toutes les circonstances que je viens de raconter. Vous voulez en
+                    vain m'engager à renouer commerce avec Apollon. Je ne sais si le retour de la
+                    belle saison ranimera ma veine mais rien n'est plus ridicule que ses productions
+                    d'hiver, telles que celles dont j'ai rempli ma dernière lettre, et que j'ai
+                    faites au courant de la plume, la tête pleine de combinaisons astronomiques, et
+                    seulement pour vous montrer mon empressement à remplir la tâche que vous m'aviez
+                    donnée.</p>
+                <p xml:id="L1796-01-18-a-p19">M. <persName>de Lalande</persName> attribue l'aplatissement de l'atmosphère du Soleil à sa
+                    rotation. Je ne sais si elle est bien suffisante pour cela. Mais quoiqu'il en
+                    soit, il assure que la lumière zodiacale paraît tantôt au-dessus et tantôt un
+                    peu au-dessous du Zodiaque suivant la disposition de l'équateur solaire qui est
+                    très bien connue par le mouvement des taches, que cette lumière paraît bien plus
+                    étroite quand la Terre est dans les nœuds de l'éq<ex>uateur</ex> solaire et qu'on n'en voit
+                    que la tranche que quand elle est à 90° de là, etc. etc. Cependant j'ai toujours
+                    quelques doutes qui viennent principalement de l'immensité qu'il faudrait
+                    supposer à cette atmosphère, car il faut qu'elle vienne jusqu'à l'orbite
+                    terrestre pour paraître aussi longue que l'on voit la lumière zodiacale. Comment
+                    ne s'opposerait-elle pas au mouvement des planètes inférieures ? Du reste il dit
+                    que la lumière zodiacale paraît aussi bien le matin que le soir.</p>
+                <p xml:id="L1796-01-18-a-p20">
+          <pb n="18" facs="#Cornell_Ampere_L1206_18.jpg"/> <title>L'Abrégé d'astronomie</title> de M. <persName>de Lalande</persName>
+                    est, je crois, très propre à vous mettre au fait de cette science, mais il <supplied>est </supplied>bien élémentaire. Je ne connais de <persName>Cassini</persName> que sa grande réputation, qui est
+                    bien capable de prévenir en sa faveur pour les catalogues. Je crois que vous n'y
+                    trouverez que des chiffres comme dans votre table d'asc<ex>ensions</ex> dr<ex>oites</ex> et de decl<ex>inaisons</ex> de M.
+                    <persName>de La Hire</persName>, cependant je n'en sais rien. Si j'avais su que vous eussiez tant
+                    d'envie de livres astronomiques, j'aurais pu vous offrir les Leçons de M. <persName>de
+                    Lacaille</persName>, qu'on m'avait achetées avant <persName>Lalande</persName>. Mais sa manie de vous placer
+                    d'abord dans le Soleil, la brièveté de ses explications et de ses calculs
+                    souvent très compliqués, m'en ayant dégoûté dans le temps, je n'ai pas cru qu'il
+                    pût vous plaire. Mais si vous en aviez envie, vous n'auriez qu'à chercher
+                    quelque occasion de le faire prendre chez <persName>Manin</persName>. Au reste, il ne fait que nommer
+                    les constellations et emploie tout le reste de son temps à calculer les
+                    mouvements planétaires. C'est pourquoi il ne pourra guère vous intéresser que
+                    quand j'aurai avancé ma prétendue histoire de l'astronomie. Vous voyez que je
+                    l'ai déjà commencée sans attendre que vous le désiriez. Je l'aurais fait plus
+                    tôt sans la crainte de vous ennuyer, mais au cas que cela n'arrive pas, je la
+                    continuerai dans mes lettres suivantes, et je vous garantis que vous en saurez
+                    autant que moi avant la fin de la mauvaise saison.</p>
+                <p xml:id="L1796-01-18-a-p21">Vous avez très bien déterminé
+                    sur votre globe α et β du ♋. M. <persName>de Lalande</persName> parle de la
+                    nébuleuse que votre globe marque sur le collier du Grand Chien. Mais il dit que
+                    ce n'est qu'un amas de petites étoiles comme celle du ♋, et il
+                    en place deux pareilles au-dessus de β ♉. Il dit qu'il y en
+                    a une véritable mais petite au bout de la queue du Cygne, une plus belle sur la
+                    ligne de Sirius à Procyon, et une autre dans Hercule à égale distance des
+                    étoiles ζ et η, un peu plus près de ζ sur mon globe, et sur la ligne <pb n="19" facs="#Cornell_Ampere_L1206_19.jpg"/> du Cœur de Charles deux par la tête β
+                    du Bouvier. Enfin il y a une nébuleuse visible à la vue simple auprès de la tête
+                    du ♐ et une autre entre sa flèche et le talon d'Ophiucus.
+                    Mais nous ne les verrons de longtemps. Il y a aussi une petite nébuleuse dans
+                    Andromède à un degré 10' au midi de la grande<supplied> Ourse</supplied>, peut-être que vous
+                    pourriez la voir. Quant à la Voie lactée, depuis que vous m'avez dit qu'elle
+                    n'était point continue, ce que j'ignorais entièrement, je vois bien qu'elle
+                    n'est qu'un assemblage de grandes et de petites nébuleuses, rangées à la suite
+                    et à côté les unes des autres. Mais je n'en suis pas plus avancé sur sa nature
+                    puisque celle des nébuleuses me paraît un mystère impénétrable.</p>
+                <p xml:id="L1796-01-18-a-p22">Vous avez
+                    parfaitement bien déterminé sur votre globe les étoiles de Cassiopée. Vous me
+                    dites que β y manque. Il est cependant aussi apparent qu'aucune autre, excepté
+                    γ, dans le ciel. Peut-être est-il réellement composé de nombre de petites
+                    étoiles. C'est ce que je vous prie de vérifier à la lunette. J'ai retrouvé un
+                    ancien globe brisé mais qui m'a été utile à reconnaître la position des deux
+                    nuages qui manquaient sur le mien. Il appelle également l'α de Cassiopée
+                    Schedir.</p>
+                <p xml:id="L1796-01-18-a-p23">J'ai observé la même chose que vous sur les étoiles de la Grande Ourse.
+                    Pour les trois dont vous me demandez les noms, celle qui est au nord-est de θ,
+                    s'appelle φ, celle qui est au midi de γ, χ, celle qui est au milieu de la ligne
+                    de β à ν, ψ. Il faut que le Petit Lion dont je vous ai déjà parlé ait changé de
+                    temps à autre. J'y vois maintenant les quatre du Losange. Celle dont je vous
+                    avais indiqué sur la ligne de ν à α ♊ qui est la plus près
+                    de ν, et dont votre globe a armé la griffe de la Grande Ourse, me paraît de 3ème
+                    grandeur et les 3 autres de 4ème comme votre globe le marque. Mais celle qui est
+                    sur la ligne de ν à γ ♋, que votre globe marque de 4ème
+                    grandeur et le mien de 2de, me semble entièrement disparue comme je vous l'ai
+                    déjà dit. <pb n="20" facs="#Cornell_Ampere_L1206_20.jpg"/> Je vois, par ce que
+                    vous me dites, que le Jourdain qui est, dit-on, si petit sur la Terre, était
+                    d'une belle taille dans le ciel. Ce qui est, je crois, une nouvelle raison de
+                    lui donner l'exclusion, car je ne trouve rien de si gauche que les
+                    constellations étroites et très longues, comme le Dragon, l'Hydre et l'Eridan.
+                    Cela embarrasse beaucoup sur les cartes, et est bien contraire à l'idée commune
+                    qu'on a des constellations, c.à.d. un assemblage d'étoiles assez près les unes
+                    des autres. M. <persName>de Lalande</persName> a probablement tracé le Chêne de <persName ref="#pers_C1157">Charles 2</persName>, par
+                    déférence pour <persName>Halley</persName> <ref target="#L1206_CAK6">*</ref>, car je le vois approuver la critique de <persName>Lacaille</persName>, et
+                    conseiller d'après l'avis de ce dernier (dans le cas où l'on voudrait le
+                    conserver), de le diminuer et de le placer sur un Rocher où l'on attache le
+                    Vaisseau. Pour mon globe, il renferme tout dans cette constellation, et ne
+                    marque pas plus de Rocher que de Chêne. Pour moi, si j'en étais le maître, je
+                    conserverais le Chêne et le Rocher, ne fût-ce que pour diminuer une
+                    constellation trop étendue.</p>
+                <p xml:id="L1796-01-18-a-p24">La voisine de l'étoile polaire est, comme vous
+                    l'avez remarqué, bien plus loin qu'elle du pôle. Je la vois comme vous de 4ème
+                    grandeur. Mon globe ne la marque que de 6ème et sparsile, parce que la tête de
+                    la Girafe est de l'autre côté du pôle. Pour ce qui est de trouver des étoiles
+                    plus près de ce point que α de la Petite Ourse, il ne serait peut-être pas bien
+                    difficile d'y réussir à l'aide de la lunette.</p>
+                <p xml:id="L1796-01-18-a-p25">Je vous ai déjà écrit ce que je
+                    pensais de votre astre du couchant. Son éclat suffit pour apprendre son nom à
+                    tous ceux qui le voient, et leur montrer que Pâris eut bien raison de lui
+                    adjuger la pomme. Pour les Pléiades, j'attends la fin de la pleine lune pour en
+                    observer le nombre, mais je vois bien que vous aurez raison. Je tâcherai <pb n="21" facs="#Cornell_Ampere_L1206_21.jpg"/> d'en faire en même temps une
+                    figure exacte en déterminant les différences d'asc<ex>ensions</ex> dr<ex>oites</ex> et de décl<ex>inaisons</ex> par les
+                    entrées et les sorties de chaque étoile dans la lunette. Au reste, votre figure
+                    m'a paru peu différente de celle de mon globe que je vous avais envoyée. Il
+                    suffit pour les faire accorder de substituer une étoile à cinq rayons au pochon
+                    que j'ai marqué 7 dans la copie <figure/> (fig. 13) de votre figure,
+                    pour répondre à l'étoile 7 de la copie <figure/> (fig. 14) de celle de
+                    mon globe. Quant aux noms d'Alcyone, d'Electre et d'Atlas, il n'y en a aucune
+                    qui me semble bien placée depuis que je me suis aperçu que pour faire accorder
+                    ces deux figures, il fallait peindre celle du globe comme elle y était peinte,
+                    c.à.d. à rebours, et que si votre figure n'y est pas, il n'y a plus aucun
+                    rapport entre elles. Mon globe est ce que dit M. <persName>de Lalande</persName> de ces trois étoiles
+                    puisque la plus orientale, Atlas, doit être la plus <sic>méridionale</sic>. Voici une
+                    nouvelle figure de ces étoiles que je voudrais bien que vous compariez à vos
+                    observations <figure/> (fig. 15). Si par hasard votre figure était
+                    renversée, les choses s'accorderaient bien mieux et votre Alcyone (n° 2 fig. 13)
+                    serait la véritable, mais votre Atlas n° 1 serait Electra, que vous mettez au n°
+                    3, et le n° 4 serait Atlas.</p>
+                <p xml:id="L1796-01-18-a-p26">Quant à ce que vous me demandez des Éphémérides de
+                    M. <persName>de Lalande</persName>, c'était un volume d'une grosseur ordinaire, autant que je puis
+                    m'en rappeler pour l'avoir vu à l'Observatoire, il y a trois ans ; mais je ne
+                    sais pas si on l'imprime toujours. Dans tous les cas ce serait de l'argent
+                    perdu, à moins qu'on eût un observatoire en règle pour en profiter, mais comme
+                    on achète ni plus ni moins des almanachs, je donnais la préférence au <persName>Colombat</persName>
+                    où l'on trouvait les positions des planètes de 15 en 15 jours. Je ne sais pas
+                    non plus si on l'imprime toujours, mais rien n'était plus aisé à se procurer
+                    puisque je l'achetai il y a quatre ans du premier colporteur que je rencontrais
+                    dans la rue.</p>
+                <p xml:id="L1796-01-18-a-p27">
+          <pb n="22" facs="#Cornell_Ampere_L1206_22.jpg"/> Je crois avoir
+                    répondu à toutes vos questions, ce que j'avais bien peur de ne pouvoir faire,
+                    parce que j'ai reçu votre lettre très tard hier, que je n'y ai pu répondre que
+                    ce matin vendredi, et qu'elle doit partir demain avant le jour. Il a donc fallu
+                    me dépêcher de mon mieux, pour écrire ce volume en un seul jour. Mais
+                    heureusement que je prévoyais que je n'aurais pas du temps de reste, et que je me suis levé en conséquence <cit>
+            <quote xml:lang="lat">Cum vix prima novo spargebat lumine terras
+                    Humentemque aurora polo dimoverat umbram</quote>
+          </cit> ou, si vous l'aimez mieux, <cit>
+            <quote xml:lang="grc">ημος
+                    δ'ηριγενεια φανη ροδοδακτυλος ηος</quote>
+          </cit> c.à.d lorsque la fille du matin parut aux
+                    doigts de rose l'aurore. Vous voyez que ne pouvant vous offrir des fruits
+                    nouveaux d'une veine entièrement séchée, du moins jusqu'à nouvel ordre, je vous
+                    donne à choisir, ce qui vaut bien mieux, entre les deux plus grands poètes du
+                    monde. Vous admirerez sûrement dans le dernier la richesse de la langue grecque
+                    en adjectifs. Je crois que cette abondance d'épithètes est une des raisons qui
+                    me la fait mettre au-dessus de toutes les autres, et particulièrement du latin,
+                    qui pourrait bien ne lui céder qu'en cette partie.</p>
+                <p xml:id="L1796-01-18-a-p28">Mais n'admirez-vous pas mon
+                    inconséquence de vous écrire des vers grecs. Cela ressemble peut-être bien à ces
+                    maîtres de collèges qui ne s'abaissaient, dit-on, jamais à parler pour être
+                    entendus. Mais je vous prie de ne voir dans cela que l'envie de vous faire part
+                    de tout ce qui m'occupe. Vous savez assez que je ne sais pas un mot de grec,
+                    mais cela ne m'a pas empêché de trouver ce vers joli, et le plus harmonieux que
+                    j'ai rencontré, ce qui m'a engagé à vous l'écrire quand j'ai vu que vous me
+                    faisiez vos adieux avec des caractères grecs, afin, disiez-vous, de vous
+                    familiariser avec eux, ce qui n'est pas trop nécessaire puisque vous y avez si
+                    bien réussi. Pour moi qui ne sais point d'autres caractères, je me borne au
+                    français pour vous embrasser de tout mon cœur. <supplied>Ampère</supplied>
+                      </p>
+            </div>
+        </body>
+        <back>
+            <div xml:id="L1796-01-18-a-div2">
+                <note n="1" resp="CAK" xml:id="L1206_CAK1">La découverte de la planète Uranus fut annoncée le <date when="1781-03-13">13 mars 1781</date> par <persName ref="#pers_H757">William Herschel</persName>. Elle ne fut communément appelée Uranus qu'après <date when-iso="1850-00-00">1850</date>.</note>
+                <note n="2" resp="CAK" xml:id="L1206_CAK2">Le symbole :: signifie proportionnel.</note>
+                <note n="3" resp="CAK" xml:id="L1206_CAK3">En raison de sa myopie.</note>
+                <note n="4" resp="CAK" xml:id="L1206_CAK4">
+          <persName>Picard Jean-Félix</persName> ; 1620-1682 ; astronome français.</note>
+                <note n="5" resp="CAK" xml:id="L1206_CAK5">
+          <persName>Auzout Adrien</persName> ; 1622-1691 ; astronome et physicien français</note>
+                <note n="6" resp="CAK" xml:id="L1206_CAK6">Le chêne de Charles était une constellation créée par l'astronome anglais <persName>Sir Edmund Halley</persName> en <date when-iso="1679-00-00">1679</date>. Le nom fait référence au chêne où <persName ref="#pers_C1157">Charles II</persName> se serait caché des troupes d'<persName>Oliver Cromwell</persName> après la Bataille de Worcester. Elle était située entre les constellations de la Croix du Sud et de la Carène. Elle ne fut jamais populaire et est devenue obsolète</note>
+            </div>
+        </back>
+    </text>
+    
+</TEI>

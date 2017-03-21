@@ -1,0 +1,339 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 1157</title>
+            <author>Maine de Biran, Pierre</author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+               <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des sciences</affiliation>
+               </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+               <name>Centre de calcul de l'IN2P3</name>
+               <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+            </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1807-08-05-a">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <idno>chemise 261</idno>
+                  <altIdentifier>
+                     <idno type="old">L1157</idno>
+                     <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+                  </altIdentifier>
+               </msIdentifier>
+               
+               <physDesc>
+                  <handDesc>
+                     <p>
+                        <persName type="sender" ref="#pers_M1173">Maine de Biran, Pierre</persName>
+                        <persName type="adressee" ref="#pers_A366">Ampère, André-Marie</persName>
+                     </p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness xml:id="L1157edition">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>Maine de Biran</surname>
+                           <forename>Pierre</forename>
+                        </author>
+                        <author role="dir">
+                           <surname>Robinet</surname>
+                           <forename>André</forename>
+                        </author>
+                        <title>Oeuvres, XIII-1 : Correspondance philosophique avec Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>J. Vrin</publisher>
+                           <date when="1993">1993</date>
+                           <biblScope type="pp">p. 58-60</biblScope>
+                        </imprint>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_M1173" type="sender">Maine de Biran, Pierre</persName>
+          <date when-iso="1807-08-05">5 août 1807</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_A366" type="adressee">Ampère, André-Marie</persName>
+        </correspAction>
+      </correspDesc>
+         <creation>
+            <date when="2014-07">juillet 2014</date>
+            <name>Philippe Pons</name>
+            <name>Aude Coustumer</name>
+         </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1807-08-05-a">
+      <body>
+         <div xml:id="L1807-08-05-a-div1">
+            <opener>
+               <pb n="1869" facs="#ACAS_CRHST_AMP_15_261_bis_1403_r.jpg"/>
+               <placeName>Bergerac</placeName>, le <date when="1807-08-05">5 août 1807</date>
+            </opener>
+            <opener>Le sous-préfet de l'Arrondissement<lb/> de <placeName>Bergerac</placeName>,<lb/>
+               A monsieur <persName ref="#pers_A366">Ampère</persName> membre du bureau
+               consultatif<lb/> des arts au ministère de l'intérieur.</opener>
+            <p xml:id="L1807-08-05-a-p1"> Mon cher et bon ami, j'ai reçu votre lettre du
+               <date when-iso="1807-07-23">23<lb/>
+               juillet</date> avec une bien douce
+               satisfaction. Elle me fournit<lb/> la preuve que vous êtes entièrement rendu à
+               vous-même<lb/> et que l'activité de votre esprit, <subst>
+                  <del type="illisible"/>
+                  <add>l'énergie de votre</add>
+               </subst>
+               <lb/> volonté ont repris l'empire sur une passion malheureuse<lb/> qui avait absorbé
+               et comme paralysé toutes vos<lb/> facultés intellectuelles et morales. Au caractère
+               de<lb/> votre style et aux saines idées métaphysiques que je<lb/> trouve établies en
+               résultats dans cette bonne lettre,<lb/> je reconnais mon ami, mon compagnon d'études de<lb/>
+               <date when-iso="1805">1805</date>... La science, la vérité, l'amitié l'ont<lb/>
+               reconquis pour toujours je l'espère, et s'applaudissent<lb/> de cette utile
+               conquête.</p>
+            <p xml:id="L1807-08-05-a-p2">Nous sommes d'accord, je crois, sur le fond des choses<lb/> que vous m'<choice>
+                  <sic>exprimés</sic>
+                  <corr>exprimez</corr>
+               </choice> en peu de mots : la nature<lb/> du jugement d'existence personnelle ou
+                  étrangère,<pb n="1870" facs="#ACAS_CRHST_AMP_15_261_bis_1404_v.jpg"/> la
+               différence entre un premier état que j'appelle<lb/>
+               <hi rend="underline">intuition passive</hi>, où l'animal sans conscience de
+               lui-même<lb/> et par conséquent sans réminiscence ne fait que sentir,<lb/>
+               <add>
+                  <foreign xml:lang="lat">intueri</foreign>
+               </add>, ou imagine les objets des sensations extérieures avec lesquelles<lb/> il est
+               comme identifié ; et cet autre état supérieur où<lb/> l'homme acquiert la
+               connaissance réelle du <hi rend="underline">moi</hi> séparé<lb/> de ce qui ne l'est
+               pas, <del>en cela</del> en tant qu'il a la<lb/> conscience que certaines actions
+               dépendent de lui comme<lb/> effets ou résultats de l'effort qu'il crée. Car c'est
+                  <del type="illisible"/>
+               <lb/> jusque là qu'il faut remonter pour concevoir le phénomène<lb/> propre de la
+               conscience, distinct de la sensation, et<lb/> la nature de la volonté ou de l'action
+               volontaire,<lb/> si obscurcie ou méconnue par les métaphysiciens, surtout<lb/> par
+               ceux de nos jours. Sur toutes ces idées fondamentales<lb/> je crois comme vous, mon
+               cher ami, que nous sommes<lb/> très rapprochés et peut être même plus que deux
+               penseurs<lb/> ne l'<choice>
+                  <sic>ayent</sic>
+                  <corr>aient</corr>
+               </choice> été jusqu'à ce jour. Nous ne pouvons différer<lb/> encore que dans
+               l'expression ou l'<choice>
+                  <sic>employ</sic>
+                  <corr>emploi</corr>
+               </choice> et la valeur<lb/> des hypothèses <hi rend="underline">explicatives</hi>,
+               etc... J'aurais bien désiré<lb/> de pouvoir satisfaire au désir que vous m'<choice>
+                  <sic>avés</sic>
+                  <corr>avez</corr>
+               </choice>
+               <lb/> manifesté depuis <choice>
+                  <sic>long tems</sic>
+                  <corr>longtemps</corr>
+               </choice> d'avoir, avec mon Mémoire<lb/> de <placeName>Berlin</placeName>, les notes
+               que j'avais commencées sur le<lb/> système <add>de métaphysique </add>que vous me
+               communiquâtes dans le <choice>
+                  <sic>tems</sic>
+                  <corr>temps</corr>
+               </choice>.<lb/> Mais en vérité, il m'est impossible, tant que je<pb n="1871" facs="#/ACAS_CRHST_AMP_15_261_bis_1405_r.jpg"/> suis dans ma sous-préfecture
+               d'avoir quelques moments à moi<lb/> dans la journée pour m'occuper à tête reposée de
+               ces matières<lb/> abstraites, qui exigent une réflexion concentrée. Les tracasseries,
+               les<lb/> affaires pullulent autour de moi, aucune d'elle n'exige en<lb/> particulier
+               une attention forte et soutenue, mais leur succession<lb/> rapide et continuelle
+               entraîne ma pensée, et absorbe tout mon<lb/>
+               <choice>
+                  <sic>tems</sic>
+                  <corr>temps</corr>
+               </choice> Je ne puis régler l'<choice>
+                  <sic>emploi</sic>
+                  <corr>employ</corr>
+               </choice> de ce <choice>
+                  <sic>tems</sic>
+                  <corr>temps</corr>
+               </choice>, parce que je<lb/> ne sais jamais dans un instant ce qui doit survenir
+               l'instant<lb/> d'après : aussi puis-je vous dire avec vérité que jamais je<lb/> ne
+               fus en même <choice>
+                  <sic>tems</sic>
+                  <corr>temps</corr>
+               </choice> ni si <choice>
+                  <sic>occuppé</sic>
+                  <corr>occupé</corr>
+               </choice> ni si inappliqué.<lb/> Ce genre de vie qui use mes facultés sans leur
+               donner<lb/> l'exercice convenable, me fatigue et me contrarie singulièrement.<lb/>
+               Aussi suis-je bien déterminé à saisir les premières occasions de<lb/> la changer. Je
+               compte pouvoir aller incessamment passer<lb/> quelques jours à ma campagne, comme je
+               le fis, quand je<lb/> composai mon Mémoire de <placeName>Berlin</placeName>. C'est là
+               où je le reverrai<lb/> et en ferai faire la seconde copie que je vous destine<lb/>
+               pour être mise <add>ensuite </add>à l'impression. <del type="illisible"/> Cela ne
+               peut guère<lb/> être fait avant la fin de septembre. Pourrai-je vous<lb/> l'envoyer à
+               <placeName>Lyon</placeName> à l'adresse que vous m'<choice>
+                  <sic>indiqués</sic>
+                  <corr>indiquez</corr>
+               </choice>,<lb/> ou sous le couvert du ministre de l'Intérieur à
+               <placeName>Paris</placeName> ?<lb/> Vous me <choice>
+                  <sic>parlés</sic>
+                  <corr>parlez</corr>
+               </choice> bien de l'époque de votre départ<lb/> du 10 au 15 courant, mais vous ne me
+               dites rien<lb/> sur celle de votre retour à <placeName>Paris</placeName>. J'aurais
+               pourtant<lb/> besoin de le savoir positivement, et j'espère que vous<lb/> m'en <choice>
+                  <sic>dirés</sic>
+                  <corr>direz</corr>
+               </choice> un mot dans votre première.</p>
+            <p xml:id="L1807-08-05-a-p3">
+               <pb n="1872" facs="#ACAS_CRHST_AMP_15_261_bis_1406_v.jpg"/> Je vous <choice>
+                  <sic>envoye</sic>
+                  <corr>envoie</corr>
+               </choice>
+               <subst>
+                  <del>toujours </del>
+                  <add>en attendant </add>
+               </subst>le croquis des notes que je fis en<lb/> lisant la lettre <del>que</del> où
+               vous me <choice>
+                  <sic>développiés</sic>
+                  <corr>développiez</corr>
+               </choice> votre système.<lb/> J'avais toujours pensé à retranscrire ces notes en leur donnant<lb/>
+               <add>la suite et </add>les développements nécessaires, mais puisque vous êtes bien
+               aise<lb/> de les voir <add>de suite, </add>et que d'ailleurs il m'est impossible de
+               m'en<lb/> occuper en ce moment, je prends le parti de vous les<lb/> adresser dans
+               l'état où elles sont, doutant si vous<lb/>
+               <choice>
+                  <sic>pourrés</sic>
+                  <corr>pourrez</corr>
+               </choice> lire ces chiffons ou deviner ma pensée qui ne<lb/> s'y trouve qu'indiquée.
+               J'aurais rempli pourtant une partie<lb/> de mon but si je pouvais vous rappeler
+               encore à ces idées<lb/> si propres à faire diversion aux passions qui agitent
+               l'âme<lb/> et à y ramener l'équilibre.</p>
+            <p xml:id="L1807-08-05-a-p4">Je ne sais si notre bon ami <persName ref="#pers_D272" rend="#pers_D272">Degérando<ref xml:id="pers_D272"/>
+          </persName> vous
+               aura communiqué<lb/> le prospectus que je lui ai adressé d'un nouvel
+               établissement<lb/> d'instruction que je me <choice>
+                  <sic>proppose</sic>
+                  <corr>propose</corr>
+               </choice> de fonder à <placeName>Bergerac</placeName>.<lb/> J'ai déjà une
+               souscription assez nombreuse. Mais je crains<lb/> qu'il ne me manque des instituteurs
+               capables soit<lb/> pour les mathématiques, soit pour le latin. Dans le cas<lb/> où
+               vous <choice>
+                  <sic>connoitriés</sic>
+                  <corr>connaîtriez</corr>
+               </choice> quelque sujet qui voudrait venir ici<lb/> jouir d'un traitement assez
+               avantageux, et d'un sort assez<lb/> doux, dans un beau climat, vous me feriez bien
+               plaisir<lb/> de me l'<choice>
+                  <sic>addresser</sic>
+                  <corr>adresser</corr>
+               </choice>. Je me chargerais des frais du<lb/> voyage. Adieu mon cher et bon ami, <choice>
+                  <sic>donnés</sic>
+                  <corr>donnez</corr>
+               </choice>-moi<lb/> de vos nouvelles au plus tôt. J'espère en recevoir avant<lb/> que
+               vous n'<choice>
+                  <sic>ayés</sic>
+                  <corr>ayez</corr>
+               </choice> quitté <placeName>Paris</placeName>, vous <choice>
+                  <sic>répondrés</sic>
+                  <corr>répondrez</corr>
+               </choice> sans doute<lb/> à deux articles que je prenais la liberté de vous<lb/>
+               recommander dans ma dernière lettre. Vous <choice>
+                  <sic>connoissés</sic>
+                  <corr>connaissez</corr>
+               </choice>
+               <lb/> tous mes sentiments pour vous : ils dureront autant que ma vie.<lb/>
+               <persName ref="#pers_M1173" rend="#pers_M372">M. BIRAN</persName>
+               <lb/>
+               <choice>
+                  <sic>Rappelés</sic>
+                  <corr>Rappelez</corr>
+               </choice>-moi au souvenir de notre bon ami
+               <persName ref="#pers_D272" rend="#pers_D272">Degérando<ref xml:id="pers_D272"/>
+          </persName>. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

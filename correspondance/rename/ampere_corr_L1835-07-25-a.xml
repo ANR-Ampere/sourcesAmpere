@@ -1,0 +1,221 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 820</title>
+            <author xml:id="AMA" key="Ampère, André-Marie                                                 (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1835-07-25-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 791-792</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L820</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L820manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 379</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Deux pages in-4°, adresse sur la quatrième.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1835-07-25">25 juillet
+                        1835</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_A10" type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1835-07-25-a">
+      <body>
+         <div xml:id="L1835-07-25-a-div1">
+            <opener>
+          <pb n="425" facs="#ACAS_CRHST_AMP_25_379_0425_r.jpg"/>
+          <placeName>Périgueux</placeName>
+          <date when="1835-07-25">25 juillet [1835]</date>
+        </opener>
+            <p xml:id="L1835-07-25-a-p1">Mon cher fils, je n'ai pu encore répondre à ta lettre que j'ai [reçue] à <placeName>Auch</placeName>. Je te
+               remercie mille fois de toutes les peines que tu t'es données pour nous sauver de M.
+               <persName ref="#pers_R491">Ride</persName> et de la lettre par laquelle tu m'apprends l'issue favorable du conseil de
+               famille. C'est un premier succès ; mais il ne peut y avoir de sûreté pour nos vies à
+               tous, et pour lui-même, que quand l'interdiction sera prononcée. Je pense que tu as
+               chargé quelqu'un de suivre cette affaire ; mais, comme tu ne me disais rien des
+               mesures que tu avais pu prendre, j'ai écrit à M. <persName ref="#pers_L357">Lenoir</persName>, dont tu m'as écrit la
+               participation au conseil de famille, pour le prier de faire tout ce qu'il
+               conviendrait pour les formalités à remplir afin de parvenir au jugement définitif ;
+               jusqu'à ce qu'il soit rendu, je ne serai pas tranquille. Comme tu m'avais demandé une
+               déclaration de mon assentiment à tout ce qui se ferait dans ce sens, et que j'avais
+               mis cet assentiment dans une lettre qui ne sera arrivée à <placeName>Paris</placeName> qu'après ton départ,
+               j'ai mis les mêmes phrases d'adhésion à la demande en interdiction qui était dans ma
+               lettre d'<placeName>Auch</placeName> qui ne te sera parvenue qu'à <placeName>Dieppe</placeName>.</p>
+            <p xml:id="L1835-07-25-a-p2">
+               Peut-être entendais-tu qu'il
+               fallait que cette adhésion fût constatée par un acte que j'aurais fait par devant
+               notaire. Mais, comme tu ne me le marquais pas, je n'en ai rien fait. Au reste, je
+               serai à <placeName>Paris</placeName> vers le 15 août ; ce sera une grande joie pour moi, après une si longue
+               absence, si je t'y trouve de retour et bien portant, fraîchement arrivé des rivages
+               où j'ai vu la mer pour la<pb n="426" facs="#ACAS_CRHST_AMP_25_379_0426_v.jpg"/> première fois.</p>
+            <p xml:id="L1835-07-25-a-p3">Offre à tes compagnons de voyage toutes
+               sortes de respectueux hommages pour les dames et les grandeurs littéraires, d'amitiés
+               pour ceux qui en ont pour moi ; donne-moi de leurs nouvelles et des tiennes.
+               Raconte-moi ton voyage, ton arrivée, comment tu es à <placeName>Dieppe</placeName>, et ce que tu vois dans
+               cette ville où j'ai passé quelques jours avec tant de plaisir, il y a 26 ans.</p>
+            <p xml:id="L1835-07-25-a-p4">
+          <date when="1835-07-26">26
+               juillet</date> -<lb/>
+               II était dit que <placeName>Périgueux</placeName>, où j'avais <supplied>[trouvé]</supplied> de si bonnes choses il y a
+               deux ans pour ma classification, y verrait mettre la dernière main. J'y ai enfin
+               trouvé le véritable ordre des sciences politiques cherché depuis si longtemps. Par
+               quelle sorte d'éblouissement ne l'ai [je] vu que si tard ? Déjà tous les vers
+               relatifs à l'ordre actuel ont été arrangés. A <placeName>Paris</placeName> pour t'en donner les détails !</p>
+            <p xml:id="L1835-07-25-a-p5">Il
+               faut fermer ma lettre pour ne pas manquer le courrier ; adresse le plus tôt que tu
+               pourras, ta réponse à <placeName>Guéret</placeName>, département de la <placeName>Creuse</placeName>, toujours chez le principal du
+               Collège communal. Mille fois tout à toi, ton tendre père,<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+            <closer>
+          <pb n="427" facs="#ACAS_CRHST_AMP_25_379_0427_v.jpg"/>Monsieur <persName>J-J Ampère</persName>, professeur au <orgName>Collège de France</orgName>, bureau restant à <placeName>Dieppe</placeName>, département de la <placeName>Seine-Inférieure</placeName>
+        </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1835-07-25-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Deux pages in-4°, adresse sur la quatrième. L'année est
+               donnée par le timbre de la poste.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

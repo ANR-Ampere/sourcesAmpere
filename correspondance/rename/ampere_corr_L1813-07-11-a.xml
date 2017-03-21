@@ -1,0 +1,240 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 453</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1813-07-11-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 449-450</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L453</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L453manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 340</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Quatre pages in-4°, adresse à la fin. De Launay a écrit six pages par
+                           erreur.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1813-07-11">11
+                        juillet 1813</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Bredin, Claude-Julien</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1813-07-11-a">
+      <body>
+         <div xml:id="L1813-07-11-a-div1">
+            <opener>
+          <pb n="117" facs="#ACAS_CRHST_AMP_24_340_0117_r.jpg"/>
+          <date when="1813-07-11">11 juillet 1813</date>
+        </opener>
+            <p xml:id="L1813-07-11-a-p1">Mon ami, je suis bien triste. Je t'écris. Ma sœur part dans deux heures pour la
+               <placeName>Franche-Comté</placeName>. Elle est sortie apparemment pour des choses relatives à son départ. Je
+               viens de recopier mon tableau. Je t'enverrai cette copie avec ma lettre. Après-demain
+               il y aura juste dix ans que j'ai perdu ce que j'ai plus aimé de ma vie.</p>
+            <p xml:id="L1813-07-11-a-p2">Depuis ces dix
+               ans, une seule chose heureuse, c'est de t'avoir connu. Tout ce que j'ai cru du
+               bonheur n'a fait qu'empoisonner mon existence. Je vais accompagner ma sœur et ma
+               petite à la voiture, et puis je serai seul, seul jusqu'à leur retour ! Je rentrerai
+               aussitôt pour attendre <persName ref="#pers_C166">Frédéric Cuvier<ref xml:id="pers_C166"/>
+          </persName>, qui m'a fait promettre de dîner avec lui <ref target="#corresp2">(2)</ref>.
+               Il n'y a que lui ici qui comprenne mes peines. Lui aussi a perdu ce qu'il aimait
+               uniquement. Lui aussi a conservé l'enfant de son mariage si tôt brisé par la mort.
+               Mais, plus sensé et plus heureux que moi, il n'a jamais pensé à croire pouvoir
+               retrouver le bonheur, et sa vie a coulé dans le tranquille repos de la tristesse.
+               Mélancolique comme nous deux, ayant senti <persName ref="#pers_K328">Kant</persName> comme tu l'avais<pb n="118" facs="#ACAS_CRHST_AMP_24_340_0118_v.jpg"/> senti, il y a tant de
+               ressemblance entre nos pensées, nos situations, que, depuis quelques mois seulement
+               que nous nous voyons à cœur ouvert, je me sens toujours davantage attiré vers lui.</p>
+            <p xml:id="L1813-07-11-a-p3">
+               Pour comprendre quelque chose au tableau ci-joint, tu recourras à celui que je t'ai
+               laissé dernièrement. Tu verras que le seul changement important est d'avoir abandonné
+               que le moi naissait avec la relation de causalité ; <persName ref="#pers_M1173">
+            <choice>
+              <sic>Maine Biran</sic> <corr>Maine de Biran</corr>
+            </choice>
+          </persName> me
+               l'avait persuadé, mais on ne peut apercevoir qu'on est cause que quand on exécute ce
+               qu'on a pensé d'avance. Il faut donc d'abord agir spontanément sans aucune notion de
+               ce qui en résultera ; cela suffit pour savoir qu'on fait attention qu'on perçoit un
+               phénomène, soit adventif, soit qu'il ait été produit par nous-mêmes à notre insu ;
+               pour que le Moi s'y associe par l'association de perception. La suite des
+               perceptions, enchaînée par l'élément commun permanent du Moi, suffit pour donner le
+               temps, en tant qu'il n'est que notre propre existence<pb n="115" facs="#ACAS_CRHST_AMP_24_340_0115_r.jpg" type="deplacement"/> continuée. C'est là le premier
+               pas de la réflexion qui sépare l'homme de l'animal, qui lui donne ce pivot auquel
+               tout vient se rattacher. Dès lors, il peut observer les changements qui se passent
+               dans ses représentations et autres modifications. Il en résulte le second système du
+               tableau, dont j'ai été si longtemps à me faire une idée nette et, parmi les
+               changements dont il se compose, l'être réfléchissant distingue ceux qu'il a produits
+               après les avoir pensés. Alors seulement sa propre causalité lui est connue, et il
+               peut concevoir les causes extérieures, qui donnent naissance au troisième système.</p>
+            <p xml:id="L1813-07-11-a-p4">
+               Pendant longtemps, j'avais mis, en tête de chaque système, les éléments dont il se
+               compose. Mais ces éléments y sont confondus d'abord dans les groupes qu'ils forment.
+               La réflexion seule les y distingue. On ne doit donc les mettre qu'après les groupes
+               correspondants. Ce dernier changement est un des plus heureux que j'aie faits à mon
+               tableau, mais fait d'aujourd'hui seulement ; il y aura bien à changer à cet égard. Tu
+               comprendras bien, cher ami, que<pb n="116" facs="#ACAS_CRHST_AMP_24_340_0116_v.jpg"/> l'intellection consiste à reconnaître, soit par la
+               similitude de leurs actions et des nôtres, soit par les signes naturels ou de
+               convention, ce qui se passe dans la pensée de nos semblables.</p>
+            <p xml:id="L1813-07-11-a-p5">Devine toute ma
+               psychologie dans ce tableau  ! Aime-moi toujours du moins, puisque tu restes seul à
+               m'aimer !</p>
+            <p xml:id="L1813-07-11-a-p6">Parle-moi de ta famille, de nos amis, de <persName ref="#pers_D220">Dupré</persName>, de <persName ref="#pers_B74">Bonjour</persName>, de <persName ref="#pers_C145">Chatelain</persName>,
+               de <persName ref="#pers_B36">Barret</persName> (est-il auprès de toi ?), de tout ce qui t'intéresse. Dis-moi toutes tes
+               peines, tes pensées sur ce qui te tourmente à présent, où tu en es, ce que l'on te
+               conseille. Adieu, <persName ref="#pers_B94">Bredin</persName>, je t'embrasse comme je t'aime. Cherche un moyen de me faire
+               passer la romance de M. <persName ref="#pers_A7">d'Ambérieux</persName>, ou bien envoie-la moi dans une lettre sur le
+               papier le moins pesant où elle pourra être notée ! écris à ce bon ami pour moi,
+               remercie-le de son souvenir ! Je ne le peux à présent.</p>
+            <closer>A monsieur <persName ref="#pers_B94">Bredin</persName> Directeur de l'<orgName>École impériale vétérinaire</orgName>, à <placeName>Lyon</placeName> </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1813-07-11-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Six pages in-4°, adresse à la fin.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) Par une lettre du <date when="1813-10-08">8
+               octobre 1813</date>, <persName>Ampère</persName> invite <persName ref="#pers_C166">Frédéric Cuvier<ref xml:id="pers_C166"/>
+          </persName> à dîner au moment de partir pour <placeName>Nogent</placeName>.
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

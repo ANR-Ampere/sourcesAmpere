@@ -1,0 +1,279 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 596</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1821-02-21-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 565-566-567</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L596</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L596manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 393 quarto</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Huit pages in-4°, adresse sur la dernière.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1821-02-21">21 février
+                        1821</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_R502" type="adressee">Roux-Bordier, Jacques</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1821-02-21-a">
+      <body>
+         <div xml:id="L1821-02-21-a-div1">
+            <opener>
+          <pb n="791" facs="#ACAS_CRHST_AMP_26_393_quarto_0063_r.jpg"/>
+          <placeName>Paris</placeName>
+          <date when="1821-02-21">21 février 1821</date>
+        </opener>
+            <p xml:id="L1821-02-21-a-p1">J'ai reçu vos deux lettres, mon bien cher ami, et je me reproche vivement de n'y
+               avoir pas encore répondu. Il faudrait, pour que vous m'excusassiez, qu'il vous fût
+               possible de savoir à quel point tous mes moments sont comptés et combien j'ai été
+               parfois obligé de veiller très avant dans la nuit, chargé de deux cours et ne voulant
+               pas cependant laisser là absolument mes travaux sur les conducteurs voltaïques et les
+               aimants.Tout est dans ce seul mot : il y a, je crois, deux mois que je n'ai pas
+               écrit à <persName ref="#pers_B94">Bredin</persName> et j'attends toujours un instant de liberté pour lui répondre. Je
+               commence par vous, et cela doit me justifier un peu à votre égard en me rendant
+               encore plus coupable envers lui.</p>
+            <p xml:id="L1821-02-21-a-p2"> Je suis enchanté que vous ayez eu de votre côté
+               l'idée qu'il y avait des courants électriques dirigés de l'Est à l'Ouest dans le
+               globe de la terre ; cela me fait espérer que les bons esprits ne répugneront pas à en
+               admettre l'existence, surtout à présent qu'elle est appuyée sur la combinaison des
+               expériences de M. <persName ref="#pers_O423">Œrsted</persName> avec les miennes. Je regrette beaucoup que vous ne m'ayez
+               pas envoyé vos idées sur la réforme de<pb n="792" facs="#ACAS_CRHST_AMP_26_393_quarto_0064_v.jpg"/> la logique chimique ; je n'aurais point eu
+               probablement le temps d'y répondre, mais j'aurais eu tant de plaisir à les lire.
+               C'est un bonheur pour moi quand je puis recevoir une de vos lettres, je les lis et
+               relis et, si je n'y réponds pas exactement, c'est faute de temps, et par suite de ma
+               paresse qui est bien pire que celle dont vous vous accusez. Comme vous seriez aimable
+               de vaincre la vôtre et de m'écrire bien souvent.</p>
+            <p xml:id="L1821-02-21-a-p3">Vous dites qu'il n'y a pas de mal que
+               les choses marchent avec une certaine lenteur  ; ce n'est pas mon avis quand ce sont
+               de bonnes choses ; je voudrais de tout mon cœur que vous publiassiez bien des idées
+               et que vous n'attendissiez pas que d'autres les retrouvent. J'ai une envie démesurée
+               de voir le travail que vous faites avec <persName ref="#pers_G265">Gasparin</persName> sur les races. Comment
+               établirez-vous que je suis scandinave ? Je pensais, d'après une de vos anciennes
+               lettres, qu'il fallait, pour cela, être au moins bon gentilhomme, mais qu'un vil
+               savant, un obscur honnête homme, n'était qu'un Celte, un Arabe, etc.<pb n="793" facs="#ACAS_CRHST_AMP_26_393_quarto_0065_r.jpg"/> Est-ce parce que
+               j'ai des yeux gris que je serais de cette race que vous aimez tant ?</p>
+            <p xml:id="L1821-02-21-a-p4">Je tâcherai de
+               me souvenir de dire à <persName ref="#pers_A4">Aimé-Martin</persName> ce que vous pensez de sa vie de <persName ref="#pers_B1032">Bernardin de
+               Saint-Pierre</persName> ; elle m'a plu aussi, à certains passages près. Vous avez bien raison de
+               dire qu'il est inconcevable qu'on n'ait pas essayé, il y a vingt ans, l'action de la
+               pile voltaïque sur l'aimant. Cependant, je crois qu'on peut en assigner la cause :
+               elle est dans l'hypothèse de <persName ref="#pers_C772">Coulomb</persName> sur la nature de l'action magnétique ; on
+               croyait à cette hypothèse comme à un fait ; elle écartait absolument toute idée
+               d'action entre l'électricité et les prétendus fils magnétiques ; la prévention en
+               était au point que, quand M. <persName ref="#pers_A20">Arago</persName> parla de ces nouveaux phénomènes à l'<orgName>Institut</orgName>, on
+               rejeta cela comme on avait rejeté les pierres tombées du ciel, quand M. <persName ref="#pers_P450">Pictet</persName> vint,
+               dans le temps, lire un mémoire à l'<orgName>Institut</orgName> sur ces pierres. Ils<pb n="794" facs="#ACAS_CRHST_AMP_26_393_quarto_0066_v.jpg"/> décidaient tous que
+               c'était impossible. C'est la même prévention qui empêche à présent d'admettre
+               l'identité des fluides électriques et magnétiques, et l'existence des courants
+               électriques dans le globe terrestre et dans les aimants, comme elle a, pendant
+               quelques années, empêché d'admettre que le chlore fut un corps simple. On résiste
+               tant qu'on peut à changer les idées auxquelles on s'est accoutumé. C'est drôle à voir
+               que les efforts que font certains esprits pour tâcher de faire accorder, avec les
+               nouveaux faits, l'hypothèse gratuite de deux fluides magnétiques différents des
+               fluides électriques, uniquement parce qu'on y a accoutumé son esprit.</p>
+            <p xml:id="L1821-02-21-a-p5">Je sais bien
+               que mon mémoire n'est pas rédigé assez clairement ; cela vient de ce que je l'ai
+               écrit avec une hâte extrême et par morceaux détachés que j'ai ensuite<pb n="795" facs="#ACAS_CRHST_AMP_26_393_quarto_0067_r.jpg"/> réunis comme
+               j'ai pu. A l'égard de ce que j'ai dit des deux états d'un circuit voltaïque suivant
+               qu'il est interrompu ou qu'on en rétablit la continuité, j'ai seulement énoncé les
+               faits : que, dans le premier cas, les deux extrémités se constituent dans l'état de
+               tension et produisent des attractions et répulsions ordinaires ; que, dans le second,
+               la tension électrique disparaît ainsi que les attractions et répulsions ordinaires,
+               mais que, dans le nouvel état qui s'établit et que j'ai appelé courant électrique
+               comme d'autres physiciens, il se manifeste de nouvelles attractions et répulsions
+               toutes différentes des premières, lesquelles cessent aussitôt qu'on interrompt de
+               nouveau le circuit, et que les autres attractions et répulsions, celles de la
+               tension, reparaissent aux deux extrémités du fil interrompu.</p>
+            <p xml:id="L1821-02-21-a-p6">Je n'ai point donné de
+               théorie de l'état de tension ; je l'ai laissée comme elle était ; mon<pb n="796" facs="#ACAS_CRHST_AMP_26_393_quarto_0068_v.jpg"/> mémoire n'en
+               parle que pour la rappeler afin de mettre les phénomènes connus de l'état de tension
+               en opposition avec les nouveaux phénomènes qui ont lieu dans l'autre état nommé
+               courant électrique.</p>
+            <p xml:id="L1821-02-21-a-p7">A quel propos aurais-je parlé des deux fluides électriques, de la
+               répartition de ces fluides seulement sur les surfaces des corps, puisque je n'avais
+               pour le moment rien à changer à ce qu'on en lit dans tous les livres de physique ?</p>
+        <p xml:id="L1821-02-21-a-p8">Si
+               je n'ai pas cité M. <persName ref="#pers_B56">Berzélius</persName> ni ce qu'on avait dit sur ce que la chaleur et la
+               lumière du soleil étaient dues à des courants semblables à ceux d'un circuit
+               voltaïque, c'est que je n'ai parlé de cela que comme d'une conjecture très accessoire
+               à mon affaire ; que, dans l'ouvrage de M. <persName ref="#pers_O423">Œrsted</persName> <ref target="#ampere_ref_P376.xml">*</ref> dont la traduction en français par M. <persName ref="#pers_S531">Marcel
+                  de Serres</persName> a paru il y a plus de quinze ans,<pb n="797" facs="#ACAS_CRHST_AMP_26_393_quarto_0069_r.jpg"/> on trouve déjà que toute chaleur et toute
+               lumière résultent, comme il dit, du conflit électrique, que je crois qu'on avait dit
+               quelque chose de semblable en <placeName>Angleterre</placeName> et qu'ainsi je ne savais qui citer sur un
+               sujet dont j'ai parlé comme d'une chose déjà connue.</p>
+            <p xml:id="L1821-02-21-a-p9">Dans ce que vous m'avez écrit
+               sur la raison suffisante des planètes, vous avez supposé que les courants électriques
+               de même sens se repoussent : mes expériences prouvent qu'ils s'attirent. Au reste, ma
+               première idée sur les courants électriques de la terre est que, s'étant établis dans
+               le globe de l'Est à l'Ouest par l'action galvanique des matières qui le constituent,
+               le globe s'est mis, par réaction, à tourner de l'Ouest à l'Est, comme le canon recule
+               à mesure qu'il chasse le boulet en avant ; mais je me suis bien gardé d'imprimer
+               cette conjecture et cent mille autres qui m'ont passé par la tête. D'ailleurs,
+               pourquoi tous les corps planétaires tourneraient-ils de l'Ouest à l'Est si c'était là
+               la<pb n="798" facs="#ACAS_CRHST_AMP_26_393_quarto_0070_v.jpg"/> cause de leur rotation ?</p>
+            <p xml:id="L1821-02-21-a-p10">M. <persName ref="#pers_G275">Gillet de Laumont<ref xml:id="pers_G275"/>
+          </persName> ayant fait un petit précis sur les
+               travaux relatifs à ces deux phénomènes, j'y ai joint deux notes sur mes derniers
+               mémoires qui ne sont point encore publiés. Ces notes paraîtront incessamment dans le
+               <title>Journal des Mines</title>, pour qui M. <persName ref="#pers_G275">Gillet de Laumont<ref xml:id="pers_G275"/>
+          </persName> avait fait cette note. C'est là
+               qu'on peut trouver quelque chose de ces mémoires. <persName ref="#pers_B33">Ballanche</persName> reviendra incessamment de
+               la campagne, demain ou après-demain. Son adresse est <placeName>rue du Cherche-Midi, n° 23</placeName>,
+               <placeName>faubourg Saint-Germain</placeName>. Je vous aime et vous embrasse de tout mon cœur.<lb/>
+               <persName ref="#pers_A366">A.
+               Ampère</persName>
+        </p>
+            <closer>A monsieur <persName ref="#pers_R502">Roux-Bordier l'aîné</persName> à <placeName>Genève</placeName> (<placeName>Suisse</placeName>), Confédération helvétique </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1821-02-21-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Huit pages in-4°, adresse sur la dernière. Quelques passages
+               ont été publiés par Mme <persName ref="#pers_C1171">Cheuvreux</persName>, p. 185 et 186.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

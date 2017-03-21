@@ -1,0 +1,604 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 1185</title>
+                <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+                    <forename>André-Marie</forename>
+                    <surname>Ampère</surname>
+                </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+                    </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                            sciences</affiliation>
+                    </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Mathilde Dutertre, </name>
+                    <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré :
+                        élaboration du schéma XML TEI et encodage</resp>
+                </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+                    <name>Centre de calcul de l'IN2P3</name>
+                    <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+                </distributor>
+                <availability>
+                    <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative
+                        Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+                </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="original_manuscrit">
+                    <msIdentifier xml:id="ampere_corr_L1795-11-15-a">
+                        <country>USA</country>
+                        <settlement>Ithaca (NY)</settlement>
+                        <institution>Cornell University Library</institution>
+                        <repository>Ampère collection</repository>
+
+                    </msIdentifier>
+
+                    <physDesc>
+                        <handDesc>
+                            <handNote corresp="#AMA">
+                                <name type="person" key="Ampère, André-Marie (1775-1836)">
+                                    <forename>André-Marie</forename>
+                                    <surname>Ampère</surname>
+                                </name>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName type="sender" ref="#pers_A366">
+                        <surname>Ampère</surname>
+                        <forename>André-Marie</forename>
+                    </persName>
+                    <date when-iso="1795-11-15">15 novembre 1795</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName type="adressee" ref="#pers_C162">
+                        <surname>Couppier</surname>
+                        <forename>Jean-Stanislas, dit Couppier Viry</forename>
+                    </persName>
+                </correspAction>
+            </correspDesc>
+            <creation>
+                <date when="2015-01">janvier 2015</date>
+                <name>Aude Coustumer</name>
+            </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <name>Aude Coustumer</name>
+                <date when="2015-04">avril 2015</date>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="images_L1795-11-15-a" corresp="#ampere_corr_L1795-11-15-a">
+        <graphic url="Cornell_Ampere_L1185_01.jpg"/>
+        <graphic url="Cornell_Ampere_L1185_02.jpg"/>
+        <graphic url="Cornell_Ampere_L1185_03.jpg"/>
+        <graphic url="Cornell_Ampere_L1185_04.jpg"/>
+        <graphic url="Cornell_Ampere_L1185_05.jpg"/>
+        <graphic url="Cornell_Ampere_L1185_06.jpg"/>
+        <graphic url="Cornell_Ampere_L1185_07.jpg"/>
+        <graphic url="Cornell_Ampere_L1185_08.jpg"/>
+        <graphic url="Cornell_Ampere_L1185_09.jpg"/>
+        <graphic url="Cornell_Ampere_L1185_10.jpg"/>
+        <graphic url="Cornell_Ampere_L1185_11.jpg"/>
+        <graphic url="Cornell_Ampere_L1185_12.jpg"/>
+        <graphic url="Cornell_Ampere_L1185_13.jpg"/>
+    </facsimile>
+    <text decls="#ampere_corr_L1795-11-15-a" type="correspondance">
+        <body>
+            <div xml:id="L1795-11-15-div1">
+                <opener>
+          <pb n="1" facs="#Cornell_Ampere_L1185_01.jpg"/>A
+                        <placeName>
+            <choice>
+              <sic> Poleimieux</sic> <corr>Poleymieux</corr>
+            </choice>
+          </placeName> ce <date when="1795-11-15"> 15
+                            novembre<supplied> 1795</supplied>
+          </date>
+                    <ref target="#L1185_CAK1">*</ref>
+                </opener>
+                <p xml:id="L1795-11-15-a-p1">Je n'ai reçu qu'hier <date when="1795-11-14">14 <choice>
+              <abbr>9bre</abbr> <expan>novembre</expan>
+            </choice>
+          </date> votre lettre du <date when="1795-10-31">31 <choice>
+              <abbr>8bre</abbr> <expan>octobre</expan>
+            </choice>
+          </date>.
+                    Vous ne pouvez vous imaginer dans quelles angoisses j'ai été jusqu'à ce moment.
+                    Car je compte tous les jours où j'espère de recevoir vos lettres et il ne va
+                    personne de ce pays-ci à <placeName>Lyon</placeName> ces jours-là que je n'en attende le retour avec la
+                    plus vive impatience. C'est ce que j'avais fait le <date when="1795-11-09">9 <choice>
+              <abbr>9bre</abbr> <expan>novembre</expan>
+            </choice>
+          </date> que notre fille de
+                    basse-cour y avait été, quand je vis qu'elle ne me rapportait rien de ce que
+                    j'espérais, ma tête se monta, et je ne pouvais plus m'occuper d'autre chose.
+                    Tantôt je craignais que vous n'eussiez changé d'asile, tantôt que mes lettres
+                    s'étaient perdues. Je vous écrivis enfin une petite lettre <ref target="#L1185_CAK2">*</ref> et je n'espérais que
+                    bien faiblement de recevoir de vos nouvelles, avant qu'elle vous fût parvenue.
+                    Jugez de ma joie de voir arriver hier la lettre que vous m'aviez écrite, mais
+                    que quelques circonstances ont probablement retardée. Vous m'y proposez d'abord
+                    de doubler notre correspondance <ref target="#L1185_CAK3">*</ref>. Vous comprenez bien que c'est ce qui pouvait
+                    m'être le plus agréable. Puisque vous le voulez bien, je ne laisserai plus
+                    passer une semaine sans prendre le plaisir de vous écrire. Et vous me donnerez,
+                    je vous en prie en récompense, le plaisir de recevoir de vos lettres plus
+                    souvent que tous les quinze jours, ou toutes les trois semaines.</p>
+                <p xml:id="L1795-11-15-a-p2">
+          <pb n="2" facs="#Cornell_Ampere_L1185_02.jpg"/> Cette traduction d'odes dont je vous
+                    avais parlé <ref target="#L1185_CAK4">*</ref>, c'est en vers français que je l'essayais, et voilà pourquoi je
+                    comptais cette entreprise parmi mes extravagances. Quoiqu'il n'y ait que deux
+                    ans que je me sois mis à lire <persName ref="#pers_H824">Horace</persName> et <persName>Virgile</persName>, je les sais presque par cœur
+                    parce qu'ils n'ont pas quitté ma poche de tout l'été et que je les lisais
+                    toujours en me promenant. Je commençai donc un jour à mettre en vers français
+                    celles de ces odes que j'aimais le mieux. Ce travail abandonné sur le champ a
+                    été remplacé par celui d'une grammaire grecque <ref target="#L1185_CAK5">*</ref>. Vous me demandez mes
+                    occupations. La principale est à présent de faire des tables de conjugaisons qui
+                    sont plus difficiles que dans aucune autre langue dont j'aie entendu parler.
+                    Elle renferme 82 temps différents, et 17 participes. Heureusement qu'il y a une
+                    marche assez méthodique dans leurs formations, en les rangeant dans l'ordre que
+                    j'ai imaginé et que je trouve plus analogique que celle de la grammaire. En
+                    outre, je fais quelquefois de mauvais vers, mais c'est sans suite puisque vous
+                    voulez bien dire d'eux plus de bien qu'ils n'en méritent. Je tâcherai d'en
+                    mettre quelquefois dans mes lettres, je serais trop heureux s'ils pouvaient vous
+                    faire plaisir. Voici quelques observations sur les constellations dont vous me
+                    parlez <ref target="#L1185_CAK6">*</ref>.</p>
+                <p xml:id="L1795-11-15-a-p3">
+          <list>
+            <item n="1">°. Vous ne paraissez pas sûr de Pégase. Cependant il forme un carré
+                    presque parfait de trois de ses étoiles et de la tête d'Andromède. La diagonale
+                    de ce carré qui passe par cette tête et l'angle opposé nommé Markab, se prolonge
+                    du côté de la tête sur le milieu d'Andromède jusqu'à la Chèvre. Elle passe
+                    d'abord sur la ceinture et ensuite sur le <pb n="3" facs="#Cornell_Ampere_L1185_03.jpg"/> pied, et traversant entre la Claire de
+                    <persName>Persée</persName> et la tête de <persName>Méduse</persName>, Algol, va joindre la Chèvre. De l'autre
+                    côté du carré après avoir passé sur Markab, elle passe sur le cou de Pégase et
+                    de là sur son œil. La ligne qui va de cet œil au Dauphin passe sur le bout du
+                    nez de Pégase qui est la dernière étoile de cette constellation.</item>
+                    <item n="2">°. Les deux
+                    autres angles du carré de Pégase s'appellent, le plus septentrional Sheat,
+                    l'autre Algenib. La ligne de celui-ci par Markab va passer sur l'Aigle, étoile
+                    de la seconde grandeur mais très brillante et prête à se coucher quand Orion se
+                    lève. Elle est si remarquable que je crois que vous la reconnaîtrez bien vite.</item>
+                    <item n="3">°. Vous verrez sous l'Aigle un losange horizontal dans ce moment et dont voici
+                    la figure <figure/>.</item>
+                    <item n="4">°. Quand vous aurez reconnu la queue
+                    de l'Aigle qui est la plus boréale de ce carré, vous n'aurez qu'à y tirer une
+                    ligne de la queue du Cygne, Deneb, elle passera d'abord sur la changeante du
+                    Cygne et, de là, sur son bec qui est la base d'une croix assez bien faite,
+                    nommée la Croix du Cygne, dont la queue est le sommet et que vous reconnaîtrez
+                    facilement. Les deux bouts de la traverse sont les deux ailes du Cygne, et son
+                    milieu la changeante dont je vous ai déjà parlé.</item> <item n="5">°. Les deux étoiles du Bélier
+                    dont vous me parlez sont sans doute les deux cornes. Vous vous en assurerez en
+                    tirant une ligne de la tête d'Andromède à Rigel, elle doit passer juste entre
+                    ces deux cornes.</item> <item n="6">°. La bouche de la Baleine est sur la ligne prolongée passant
+                    entre les deux têtes des gémeaux et sur Aldébaran. <pb n="4" facs="#Cornell_Ampere_L1185_04.jpg"/> Cette bouche est à angle droit d'un
+                    triangle rectangle et isocèle dont les angles sont Aldébaran et la plus belle
+                    des cornes du Bélier.</item> <item n="7">°. Les deux ânes du Cancer sont sur les deux lignes qui
+                    vont du cœur du Lion, Regulus, aux deux cornes du Taureau. L’Étable ne se voit
+                    qu'avec de bons yeux et jamais je n'ai pu la distinguer.</item> <item n="8">°. L'étoile qui passe
+                    au méridien à huit ou neuf heures, à 15° de hauteur, est comptée parmi celles de
+                    la p<ex>remiè</ex>re grandeur. Elle s'appelle Fomalhaut ou la Bouche du Poisson
+                    austral. Ce poisson, très différent de ceux du Zodiaque, avale par cette bouche
+                    l'eau du Verseau.</item>
+          </list>
+        </p>
+                <p xml:id="L1795-11-15-a-p4">Toutes vos conjectures me paraissent exactes autant que j'en
+                    peux juger d'ici, et il est temps de finir ce verbiage qui a bien dû vous
+                    ennuyer. Votre méthode pour les planètes est bien suffisante pour les
+                    reconnaître, mais l'expérience est trop contraire à vos rapports de lumière pour
+                    les adopter. M. <persName>de Lalande</persName> les suppose simplement comme les carrés des diamètres
+                    apparents ou les carrés des vrais diamètres divisés par les carrés des distances
+                    à la terre. Je trouve comme vous qu'il faudrait encore diviser par les carrés de
+                    la distance au soleil afin d'avoir égard à la diminution de la lumière du
+                    soleil, mais il faut apparemment que l'expérience en ait décidé autrement.</p>
+                <p xml:id="L1795-11-15-a-p5">Quant
+                    à Vénus, elle n'est guère plus brillante que <persName>Jupiter</persName> quand elle est en
+                    quadrature. Elle l'est beaucoup plus dans un certain point qui est celui de la
+                    plus grande clarté déterminée par les formules de maximum. Elle est alors loin
+                    de la Terre de 43/100 la distance du soleil.</p>
+                <p xml:id="L1795-11-15-a-p6">
+          <pb n="5" facs="#Cornell_Ampere_L1185_05.jpg"/> M. <persName>de Lalande</persName> ne parle point
+                    d'Herschel qui n'a été découverte qu'en <date when-iso="1781">1781</date>, après l'impression de mon
+                    édition. Je ne sais si il en parle dans les éditions subséquentes. Il est clair
+                    que votre journaliste <ref target="#L1185_CAK7">*</ref> a voulu dire sans et non pas sous, suivant votre
+                    conjecture. Il paraît que l'imprimeur gardera vos 22 F <ref target="#L1185_CAK8">*</ref> et que vous
+                    n'entendrez jamais parler de lui. Je trouve son procédé bien malhonnête, mais
+                    c'est ainsi qu'on est fait aujourd'hui, et la Révolution, au lieu de régénérer
+                    la <placeName>France</placeName>, a achevé de la corrompre.</p>
+                <p xml:id="L1795-11-15-a-p7">Je suis bien aise que vous ayez bientôt des
+                    cartes célestes. Vous y verrez toutes les étoiles marquées dans chaque
+                    constellation par les lettres α, β, γ, δ, ε, etc.. suivant leur grandeur. Cette
+                    dénomination est aujourd'hui la plus usitée. Au lieu de Regulus on dit α du
+                    Lion, au lieu des Ânes γ et δ du Cancer, etc.</p>
+                <p xml:id="L1795-11-15-a-p8">Je ne vous ai parlé de la clavaria
+                    coraloïdes <ref target="#L1185_CAK9">*</ref> qu'après l'avoir vue très souvent. Il n'est point rare ici, mais
+                    maman regarde tous les champignons comme des poisons. Une paysanne lui ayant dit
+                    l'autre jour qu'elle en avait mangé et que rien n'était meilleur, elle lui en
+                    offrit. Mais maman dit qu'elle n'en mangerait ni n'en laisserait manger à ceux
+                    qu'elle aime pour tout au monde, ainsi que de tout autre champignon. Le
+                    champignon qui est sans lames et plein d'une substance spongieuse est d'un autre
+                    genre que ceux qui sont feuilletés. Ceux-ci sont des agarics et l'autre un
+                    bolet. Je me suis promené l'autre jour et je trouvai beaucoup de ces bolets avec
+                    beaucoup d'autres champignons, dont il y en a un jaune plein d'un suc couleur de
+                    brique. Il devient vert en pourrissant et mon livre de botanique dit qu'il est
+                    bon à manger. Je me ressouviens d'avoir déterminé, il y a trois ans, une
+                    vingtaine d'espèces de champignons. Mais je ne m'en ressouviens guère, et je
+                    n'ose plus me promener car j'en rapporte ordinairement, quand il gèle, de
+                    violents maux de dents qui durent ensuite plusieurs jours.</p>
+                <p xml:id="L1795-11-15-a-p9">
+          <pb n="6" facs="#Cornell_Ampere_L1185_06.jpg"/> Le terrain est très fort<supplied> calcaire</supplied> à
+                    <placeName>Poleymieux</placeName> et l'on n'y voit point de genêts. C'est peut-être pourquoi je n'y ai
+                    jamais vu de champignon couleur de feu autre que celui à suc couleur de brique
+                    qui n'est pas blanc dessous. Je ne connais pas non plus les mousserons <ref target="#L1185_CAK10">*</ref> faute
+                    de les distinguer car il y en a plusieurs ici qui viennent en bouquet, comme
+                    vous m'avez dit qu'ils <gap reason="illisible"/> pour les trois autres, je les ai reconnus et
+                    <persName>Linné</persName> les appelle agaricus cantharellus, boletus bovista, et agaricus campestre
+                    celui des prés. Au reste les champignons m'intéressent comme botaniste, mais je
+                    ne peux faire aucun usage des connaissances que me fournit la botanique à ce
+                    sujet à cause du préjugé de maman contre les cryptogames du quatrième ordre.
+                    Quoique je ne le partage pas, je ne veux pas <choice>
+            <sic>le</sic> <corr>la</corr>
+          </choice> contredire.</p>
+                <p xml:id="L1795-11-15-a-p10">Vous me
+                    demandez l'histoire détaillée de défunts mes cerfs-volants. Vous en attendez des
+                    exploits dignes d'<title>Hector</title> ou d'<title>Achille</title> et ils n'ont jamais été que des Dons
+                    Quichottes, dont les aventures merveilleuses ne sont dignes que de moquerie. Je
+                    n'en avais pas fait depuis trois ou quatre ans lorsque j'inventai la disposition
+                    que je vous ai communiquée <ref target="#L1185_CAK11">*</ref>. Je voulus l'essayer et je fis deux petits
+                    cerfs-volants : l'un de quatre pieds de long, l'autre de près de trois. Le
+                    premier qui était le plus grand ne pouvait pas porter quatre cents pieds de
+                    corde jusqu'à son maximum de hauteur, qui n'était guère qu'à cent pieds. Mais
+                    quand j'y enjoins l'autre à 60 ou 70 pieds de distance il s’éleva beaucoup <pb n="7" facs="#Cornell_Ampere_L1185_07.jpg"/> mieux et aurait tiré plus de
+                    corde, mais je n'en avais pas davantage. Comme ce n'était que pour m'assurer de
+                    l'expérience, je fis un troisième cerf-volant et je les mis tous trois en l'air
+                    <figure/>. Ils allaient d'abord assez bien, mais les coups
+                    de vent un peu trop forts accrochèrent les queues des cerfs-volants inférieurs
+                    aux cordes des autres, ce qui les fit tomber. Comme je les abandonnais dans les
+                    airs après<supplied> les</supplied> avoir élevés, en les attachant à un arbre, le supérieur tomba
+                    sur un noyer et fut mis en pièces par le vent devenu très violent. J'ai fait
+                    monter les deux autres quelques jours après et comme le vent était resté sans
+                    tourbillons ils se sont soutenus plus de quatre heures. Mais la queue de
+                    l'inférieur s'est enfin accrochée et ils sont tombés. C'est le grand
+                    inconvénient de ma méthode. Il faudrait, pour y remédier, inventer une autre
+                    sorte de queue et c'est un problème que je vous propose, car il y a apparence
+                    que je ne m'en occuperai plus. Je n'ai jamais réussi à l'élever assez haut pour
+                    l'électricité et d'ailleurs maman me croirait mort si je disposais de la foudre.
+                    Pour la température des couches de l'air <ref target="#L1185_CAK12">*</ref>, je suis trop paresseux pour la suivre
+                    quelque temps comme il serait nécessaire. Et d'ailleurs il faudrait autant de
+                    thermomètres que de cerfs-volants, et je n'en ai qu'un dont le bois est trop
+                    lourd. Je ne travaillerai donc plus de longtemps à cette matière et il ne me
+                    reste plus pour finir l'histoire de mes héros qu'à décrire leur trépas. Je les
+                    élevai encore une fois par un vent trop fort et la corde coula si vite dans mes
+                    mains qu'elle m'échappa. Elle traîna d'abord dans des vignes et ensuite qui
+                    l'arrêtait de temps en temps ce qui les soutenait et les empêchait de
+                    tomber en sorte qu'ils ont été si loin que tout l'appareil a été perdu.</p>
+                <p xml:id="L1795-11-15-a-p11">Vous me
+                    demandez les matières que j'employais mais <pb n="8" facs="#Cornell_Ampere_L1185_08.jpg"/> elles n'ont rien de remarquable : du
+                    papier, des roseaux fendus, et une corde composée de tous les vieux morceaux de
+                    ficelle que j'avais pu ramasser, les uns gros les autres fins, et tous vieux et
+                    usés, joints à un morceau que j'avais fabriqué avec quatre fils que j'avais
+                    voulu tordre et qui ne faisaient pas deux tours par pouce parce que je ne suis
+                    pas plus habile cordier que ramoneur.</p>
+                <p xml:id="L1795-11-15-a-p12">Quant aux secousses dont vous me parlez,
+                    je n'en ai rien aperçu, et si les queues ne s'accrochaient pas, ma méthode
+                    aiderait réellement à la stabilité. Quant à ce que vous me dites de la
+                    prononciation de l'um romain <ref target="#L1185_CAK13">*</ref>, je vous avouerai qu'on m'a si bien appris à
+                    prononcer comme en français un homme que je ne peux m'accoutumer à le dire
+                    autrement. Cependant je vois bien que les Romains prononçaient leur u : ou.
+                    Depuis que j'essaie du grec j'en voie une nouvelle preuve : c'est que les
+                    Romains, dans les mots empruntés à cette langue, substituaient leur u à la
+                    diphtongue grecque ου qu'on écrivait aussi <figure/>, tandis qu'ils substituaient y à l'υ grec. D'où il me semble
+                    résulter que les Grecs prononçaient υ comme nous u, et ου comme nous ou, ou les
+                    Romains u. Vous me direz que d'exprimer ce dernier son par une diphtongue
+                    composée de ces deux-ci, o et u, est une chose arbitraire et qui n'est d'usage
+                    qu'en français. Mais je répondrai que cet usage aurait bien pu commencer chez
+                    les Grecs dont nous l'aurions tiré, puisque nous ne savons pas d'où viennent
+                    toutes les règles de notre orthographe. Reste à savoir si les Romains
+                    prononçaient y comme u ou υ, ou bien comme notre i, ce qui viendrait de ce que
+                    leurs organes n'auraient jamais pu se prêter au son de l'υ grec.</p>
+                <p xml:id="L1795-11-15-a-p13">Tout cela se
+                    borne à des conjectures et je voudrais bien qu'un voyageur qui aurait longtemps
+                    resté en <placeName>Grèce</placeName> et qui aurait trouvé dans le grec moderne la vraie prononciation
+                    de l'ancien voulût bien m'en instruire. <pb n="9" facs="#Cornell_Ampere_L1185_09.jpg"/> Je vous félicite, Monsieur, d'être
+                    devenu prophète dans l'opinion publique <ref target="#L1185_CAK14">*</ref>. Elle vaut presque la réalité, et peu
+                    importe que vous vous trompiez pourvu qu'on vous croie toujours. Pour la Lune,
+                    l'expérience seule peut décider jusqu'à quel point sa lumière peut influer sur
+                    la végétation <ref target="#L1185_CAK15"/>. Son action est probablement très petite. Mais elle doit influer
+                    sur les vents puisque son attraction ne peut manquer d'exciter un flux et un
+                    reflux dans la masse de l'air, comme dans celle de la mer, et qui doit comme ce
+                    dernier être plus grand dans les <choice>
+            <sic>sizigies</sic> <corr>syzygies</corr>
+          </choice> que dans les quadratures. M.
+                    <persName>d'Alembert</persName> en faisait même la cause générale et c'est visiblement celle des
+                    vents d'Est qui règnent entre les tropiques. Je crois qu'il faut, sur ses
+                    influences, se défier d'un doute trop général, mais rejeter tout ce
+                    qui est évidemment superstitieux, comme par exemple de semer certaines fleurs
+                    pendant les éclipses de soleil. Je ne sais pas de quel côté nous rangerons la
+                    période de l'<persName ref="#pers_R505">Abbé Rozier</persName> <ref target="#L1185_CAK16"/>. Je pencherais volontiers pour la mettre dans la
+                    classe de tant d'autres rêveries, à moins qu'on ne l'eut suivie exactement
+                    pendant deux ou trois fois dix-neuf ans et qu'elle n'eut jamais manqué.</p>
+                <p xml:id="L1795-11-15-a-p14">Dans ce
+                    moment je reçois une seconde lettre de vous, écrite de La Terrière <ref target="#L1185_CAK17"/>. C'est
+                    avec le plus grand plaisir que je vois que vous pensez à moi, même dans les
+                    embarras de vos voyages. Puisque vous voulez savoir tout ce que je fais, je vous
+                    dirais que tout en faisant cette lettre, il m'est revenu dans la tête une ode
+                    d'<persName ref="#pers_H824">Horace</persName> et je l'ai presque toute traduite. Comme vous me demandez des vers,
+                    j'ai été tenté de la mettre ici, mais j'ai depuis réfléchi qu'elle <pb n="10" facs="#Cornell_Ampere_L1185_10.jpg"/> n'en était guère digne <ref target="#L1185_CAK18"/>.
+                    D'ailleurs je n'ai pu la finir, et il y manque encore une stance, c'est celle
+                    qui commence ainsi : <cit>
+            <quote xml:lang="lat">ne forte credas interitura quae</quote>
+          </cit> <ref target="#L1185_CAK19">*</ref>, etc. au commencement du
+                    4ème livre, la 8ème ou 9ème. Elle traite de l'immortalité des beaux vers, et de
+                    celle qu'ils donnent aux grandes actions, et tout à coup du bonheur de la
+                    médiocrité. Vous savez qu'il n'en fait jamais d'autre, et que ses pensées sont
+                    très peu liées. On ne s'aperçoit pas beaucoup de ce défaut en latin, mais dès
+                    qu'on les met en français, il en résulte un effet si singulier que ce beau
+                    désordre que <persName>Boileau</persName> appelle un effet de l'art devient un chaos où ni le début
+                    ni la fin ne répondent au milieu. C'est là qu'on trouve cette stance charmante
+                    dont le second verbe a une harmonie imitative que je crois impossible à rendre
+                    en français : <cit>
+            <quote xml:lang="lat">
+              <lg>
+                <l>nec siquid olim lusit <persName>Anacreon</persName>
+                </l>
+                        <l>delevit aetas, spirat adhuc amor,</l>
+                        <l>
+                    vivunt que commissi calores</l>
+                        <l>Aeoliae fidibus puellae</l>
+              </lg>
+            </quote>
+          </cit> <ref target="#L1185_CAK20">*</ref>.</p>
+                <p xml:id="L1795-11-15-a-p15">Quand je lis du latin et
+                    que je tombe sur ces morceaux imitatifs, je ne cesse de regretter que notre
+                    langue en soit si peu susceptible. Je crois que c'est dans les fables de <persName>La
+                    Fontaine</persName> où il y en a le plus, comme dans ce vers incomparable : <cit>
+            <quote>
+              <lg>
+                <l>Rien ne trouble
+                    sa fin : c'est le soir d'un beau jour</l>
+              </lg>
+            </quote>
+          </cit> <ref target="#L1185_CAK21">*</ref>. Mais je ne sais ce que je fais de vous
+                    parler de poésie. Vous devez dédaigner tout ce qui tient à la terre depuis que
+                    vous parcourez les régions célestes. Au reste c'est la poésie qui les a peuplées
+                    de constellations. Je vois dans votre dernière lettre <ref target="#L1185_CAK22">*</ref> que vous avez cherché
+                    inutilement l'origine fabuleuse de plusieurs constellations.</p>
+                <p xml:id="L1795-11-15-a-p16">Voici ce qu'en dit
+                    M. <persName>de Lalande</persName>. <pb n="11" facs="#Cornell_Ampere_L1185_11.jpg"/> <list>
+            <item n="1">°. Le Dragon
+                    est celui du jardin des Hespérides qui en gardait les pommes d'or, et fut tué
+                    par <persName ref="#pers_H831">Hercule</persName>. <persName>Apollonius</persName> l'appelle Ladon, nom commun à un certain fleuve, ce qui
+                    indique que ce dragon signifiait les fleuves ou les bras de mer qui défendaient
+                    ce jardin. Il est d'ailleurs le symbole de la vigilance.</item> <item n="2">°. Le Petit Cheval est
+                    Cyllare que <persName>Mercure</persName> donna à <persName>Castor</persName>, ou celui dont <persName>Saturne</persName> prit la forme, sur
+                    quoi il cite le 3ème livre des <title>Géorgiques</title> : <cit>
+                <quote xml:lang="lat">
+                  <lg>
+                    <l>talis Amyclaei domitus Pollucis
+                    habenis</l>
+                        <l>Cyllarus ……………</l>
+                        <l>talis et ipse jubam cervice effudit éq.uina</l>
+                        <l>conjugis
+                    adventu pernix Saturnus et altum</l>
+                        <l>pelion hinnitu fugiens implevit acuto</l>
+                  </lg>
+                </quote>
+              </cit> <ref target="#L1185_CAK23">*</ref>
+            </item> <item n="3">°. Le
+                    Triangle boréal. Les poètes disent que c'est la figure de la <placeName>Sicil<supplied>e</supplied>
+              </placeName> mise au
+                    ciel par <persName>Jupiter</persName> à la prière de <persName>Cérès</persName>, d'autres prétendent qu'il signifiait les
+                    trois parties de la terre connue.</item> <item n="4">°. Le Cocher est <persName>Erichton</persName>, roi d'<placeName>Athènes</placeName>
+                    déifié pour avoir inventé plusieurs arts utiles et surtout celui des chars.
+                    <cit>
+                <quote xml:lang="lat">
+                  <lg>
+                    <l>primus Erichtonius currus et quatuor aussus</l>
+                        <l>jungere éq.uos, rapidisque rotis
+                    insistere victor</l>
+                  </lg>
+                </quote>
+              </cit> <ref target="#L1185_CAK24">*</ref>. id. ibid. Dans <persName>Théon [d'Alexandrie]</persName>, commentateur d'Aratus,
+                    c'est Bellophoron, suivant d'autres, <choice>
+                <sic>Myrtile</sic> <corr>Myrtilos</corr>
+              </choice>, Cyllantus, <choice>
+                <sic>Oenomaüs</sic>
+                    <corr>Oenomaos</corr>
+              </choice>, ou Orus.</item> <item n="5">°. La couronne boréale est celle que <persName>Vulcain</persName> donna à
+                    <persName>Vénus</persName>, <persName>Vénus</persName> à <persName>Ariane</persName> et que <persName>Bacchus</persName> jeta au ciel quand il la trouva abandonnée
+                    dans l'île de <placeName>Naxos</placeName> … <cit>
+                <quote xml:lang="lat">
+                  <lg>
+                    <l>utque perenni</l>
+                        <l>sidere clara foret <choice>
+                        <sic>suptam</sic> <corr>sumptam</corr>
+                      </choice> de
+                    fronte coronam</l>
+                        <l>immisit coelo ; tenues volat illa per auras</l>
+                        <l>dumque volat gemmae
+                    nitidos vertuntur in ignes</l>
+                  </lg>
+                </quote>
+              </cit> <ref target="#L1185_CAK25"/> <pb n="12" facs="#Cornell_Ampere_L1185_12.jpg"/>
+            </item> <item n="6">°. La couronne australe fut placée dans le ciel par Bacchus en l'honneur de
+                    sa mère <persName>Sémélé</persName>, d'autres disent que c'est celle qu'on déféra à <persName>Corinne de
+                    <placeName>Thèbes</placeName>
+              </persName>, fille d'<persName>Archélodore</persName>, qui remporta cinq fois la victoire sur <persName>Pindare</persName>.</item>
+                    <item n="7">°. L'Aigle est celui de <persName>Jupiter</persName> qui lui porta du miel dans son berceau, caché
+                    en <placeName>Crète</placeName>, et ses armes le jour du combat des Titans. D'autres disent que c'est
+                    l'aigle, fils de <persName>Tryphon</persName>, qui serrait le cœur de <persName>Prométhée</persName> et qui fut tué par
+                    <persName>Mercure</persName>.</item> <item n="8">°. La Flèche est celle de l'amour, ou celle dont <persName ref="#pers_H831">Hercule</persName> blessa <persName>Junon</persName>
+                    et <persName>Pluton</persName>, ou celle dont il tua le vautour de Prométhée.</item> <item n="9">°. La Lyre de <persName>Mercure</persName>,
+                    d'<persName>Aucion</persName>, d'<persName>Apollon</persName> ou d'<persName>Amphion</persName>.</item> <item n="10">°. Le Cygne est <persName>Jupiter</persName> aimé de <persName>Leda</persName>, ou
+                    suivant d'autres c'est <persName>Orphée</persName> changé en cygne après sa mort.</item> <item n="11">°. Le Dauphin :
+                    il a sauvé <persName>Télémaque</persName> et <persName>Arion</persName>, découvert <persName>Amphitrite</persName> qui s'était cachée quand on
+                    voulut la marier à <persName>Neptune</persName>. D'autres disent que <persName>Triton</persName> servit les dieux dans la
+                    guerre des géants avec une trompette de son invention dont le son était
+                    terrible, et qu'en récompense il fut changé en dauphin et placé dans le ciel.</item>
+          </list>
+        </p>
+                <p xml:id="L1795-11-15-a-p17">
+                    Voilà à peu près tout ce que mon <title>Astronomie</title> dit de ces constellations. Quant à
+                    ce que vous me demandez de mes promenades, je n'en fais presque point et je n'ai
+                    pas été à <placeName>Lyon</placeName> depuis votre départ. Mlle <persName ref="#pers_M405">Morandy</persName> dont vous me demandez des
+                    nouvelles est venue passer quelques jours ici. Elle m'avait dit de vous
+                    faire ses compliments, je lui ai bien fait les vôtres, mais soit que la place
+                    m'ait manqué ou que je l'ai oublié, je n'ai pas eu la même exactitude à son
+                    égard. Je vous parlais dans ma dernière<supplied> lettre</supplied> de lettres encyclopédiques <ref target="#L1185_CAK26">*</ref>.
+                    Celle-ci en est bien une, du moins pour le volume, je pense qu'il est temps de
+                    la finir et de garder des matières pour la semaine prochaine. Je n'ai plus que
+                    la place de vous embrasser et de vous prier de faire agréer mes respects à vos
+                    parents. </p>
+                <p xml:id="L1795-11-15-a-p18">
+          <pb n="13" facs="#Cornell_Ampere_L1185_13.jpg"/>
+                    Je me suis ressouvenu Monsieur, après avoir cacheté ma lettre,
+                    que vous me demandez ce que c'est que la tête et la queue du Dragon. Ce sont les
+                    deux nœuds de la Lune où son orbite coupe l'écliptique, quand la Lune passe de
+                    l'hémisphère austral dans le boréal. C'est le nœud ascendant ou tête du Dragon  ; l'autre nœud s'appelle le nœud descendant ou la
+                    queue du dragon . Je suis bien aise de cet oubli
+                    puisqu'il me fournit encore l'occasion de vous embrasser de tout mon cœur. </p>
+                <signed>
+          <persName ref="#pers_A366">A. Ampère</persName>
+        </signed>
+            </div>
+        </body>
+        <back>
+            <div xml:id="L1795-11-15-div2">
+                <note n="1" resp="CAK" xml:id="L1185_CAK1">Cette lettre répond à <ref type="correspondance" target="#ampere_corr_L1795-10-31-a">celle de <persName ref="#pers_C162">Couppier</persName>
+                    du <date when="1795-10-31">31 octobre 1795</date>
+          </ref>. En cours de rédaction, <persName>Ampère</persName> reçoit <ref type="correspondance" target="#ampere_corr_L1795-11-12-a">celle du <date when="1795-11-12">12 novembre</date>
+          </ref>, à
+                    laquelle il répond également.</note>
+                <note n="2" resp="CAK" xml:id="L1185_CAK2">il s'agit de la <ref type="correspondance" target="#ampere_corr_L1795-11-10-a">lettre d'<persName>Ampère</persName> du <date when="1795-11-10">10 novembre 1795</date>
+          </ref>
+        </note>
+                <note n="3" resp="CAK" xml:id="L1185_CAK3">cf. la <ref type="correspondance" target="#ampere_corr_L1795-10-31-a">lettre de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-10-31">31 octobre 1795</date>, p. 16</ref>
+        </note>
+                <note n="4" resp="CAK" xml:id="L1185_CAK4">cf. la <ref type="correspondance" target="#ampere_corr_L1795-10-21-a">lettre d'<persName>Ampère</persName> du <date when="1795-10-21">21 octobre 1795</date>, p. 1</ref>
+        </note>
+                <note n="5" resp="CAK" xml:id="L1185_CAK5">
+          <persName>Ampère</persName> a déjà annoncé qu'il s'était mis à l'étude du grec dans sa <ref type="correspondance" target="#ampere_corr_L1795-11-10-a">lettre du <date when="1795-11-10">10 novembre 1795</date>
+          </ref>.</note>
+                <note n="6" resp="CAK" xml:id="L1185_CAK6">cf. la <ref type="correspondance" target="#ampere_corr_L1795-10-31-a">lettre de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-10-31">31 octobre 1795</date>, p. 3 et suivantes</ref>
+        </note>
+                <note n="7" resp="CAK" xml:id="L1185_CAK7">cf. la <ref type="correspondance" target="#ampere_corr_L1795-10-31-a">lettre de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-10-31">31 octobre 1795</date>, p. 8</ref>
+        </note>
+                <note n="8" resp="CAK" xml:id="L1185_CAK8">Sans doute les 22 francs envoyés par <persName ref="#pers_C162">Couppier</persName> à un éditeur parisien pour recevoir le livre de sténographie (cf. la <ref type="correspondance" target="#ampere_corr_L1795-10-31-a">lettre de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-10-31">31 octobre 1795</date>, p. 9</ref>)</note>
+                <note n="9" resp="CAK" xml:id="L1185_CAK9">clavaire corail (cf. la <ref type="correspondance" target="#ampere_corr_L1795-10-31-a">lettre de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-10-31">31 octobre 1795</date>, p. 9</ref>)</note>
+                <note n="10" resp="CAK" xml:id="L1185_CAK10">cf. la <ref type="correspondance" target="#ampere_corr_L1795-10-31-a">lettre de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-10-31">31 octobre 1795</date>, p. 11</ref>
+        </note>
+                <note n="11" resp="CAK" xml:id="L1185_CAK11">cf. la <ref type="correspondance" target="#ampere_corr_L1795-10-21-a">lettre d'<persName>Ampère</persName> du <date when="1795-10-21">21 octobre 1795</date>, p. 6</ref>
+        </note>
+                <note n="12" resp="CAK" xml:id="L1185_CAK12">cf. la <ref type="correspondance" target="#ampere_corr_L1795-10-31-a">lettre de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-10-31">31 octobre 1795</date>, p. 12</ref>
+        </note>
+                <note n="13" resp="CAK" xml:id="L1185_CAK13">cf. la <ref type="correspondance" target="#ampere_corr_L1795-10-31-a">lettre de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-10-31">31 octobre 1795</date>, p. 13</ref>
+        </note>
+                <note n="14" resp="CAK" xml:id="L1185_CAK14">Ceci concerne la météorologie (cf. la <ref type="correspondance" target="#ampere_corr_L1795-10-31-a">lettre de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-10-31">31 octobre 1795</date>, p. 14</ref>).</note>
+                <note n="15" resp="CAK" xml:id="L1185_CAK15">cf. la <ref type="correspondance" target="#ampere_corr_L1795-10-31-a">lettre de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-10-31">31 octobre 1795</date>, p. 14</ref>
+        </note>
+                <note n="16" resp="CAK" xml:id="L1185_CAK16">Période de dix-neuf ans environ au terme de laquelle les phases de la Lune se reproduisent aux mêmes dates (cf. la <ref type="correspondance" target="#ampere_corr_L1795-10-31-a">lettre de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-10-31">31 octobre 1795</date>, p. 15</ref>).</note>
+                <note n="17" resp="CAK" xml:id="L1185_CAK17">Il s'agit de la <ref type="correspondance" target="#ampere_corr_L1795-11-12-a">lettre de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-11-12">12 novembre 1795</date>
+          </ref>.</note>
+                <note n="18" resp="CAK" xml:id="L1185_CAK18">
+          <persName>Ampère</persName> donne cette traduction dans sa lettre suivante (cf. <ref type="correspondance" target="#ampere_corr_L1795-11-23-a">lettre d'<persName>Ampère</persName> du <date when="1795-11-23">23 novembre 1795</date>, p. 7-9</ref>).</note>
+                <note n="19" resp="CAK" xml:id="L1185_CAK19">
+          <persName ref="#pers_H824">Horace</persName>, <title>Odes</title>, IV, 9, 1</note>
+                <note n="20" resp="CAK" xml:id="L1185_CAK20">
+          <persName ref="#pers_H824">Horace</persName>, <title>Odes</title>, IV, 9, 9-12</note>
+                <note n="21" resp="CAK" xml:id="L1185_CAK21">
+          <persName>La Fontaine</persName>, <title>Fables</title>, livre XII, <persName>Philémon</persName> et <persName>Baucis</persName>.</note>
+                <note n="22" resp="CAK" xml:id="L1185_CAK22">cf. la <ref type="correspondance" target="#ampere_corr_L1795-11-12-a">lettre de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-11-12">12 novembre 1795</date>, p. 2-3</ref>
+        </note>
+                <note n="23" resp="CAK" xml:id="L1185_CAK23">
+          <persName>Virgile</persName>, <title>Géorgiques</title> III, 89-94</note>
+                <note n="24" resp="CAK" xml:id="L1185_CAK24">
+          <persName>Virgile</persName>, <title>Géorgiques</title> III, 113-114</note>
+                <note n="25" resp="CAK" xml:id="L1185_CAK25">
+          <persName>Ovide</persName>, <title>Métamorphoses</title>, VIII, 169-182</note>
+                <note n="26" resp="CAK" xml:id="L1185_CAK26">
+          <cit>
+            <quote>Nos lettres deviendront bientôt une petite encyclopédie.</quote>
+          </cit> (cf. <ref type="correspondance" target="#ampere_corr_L1795-11-10-a">lettre d'<persName>Ampère</persName> du <date when="1795-11-10">10 novembre 1795</date>, p. 3</ref>) </note>
+             
+            </div>
+        </back>
+    </text>
+</TEI>

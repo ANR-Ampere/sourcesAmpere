@@ -1,0 +1,1672 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Correspondance d'André-Marie Ampère - Lettre 513</title>
+        <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+        <editor>Christine Blondel</editor>
+        <editor>Marco Segala</editor>
+        <funder>ANR Corpus 2012</funder>
+        <respStmt>
+          <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+          <resp>Responsable du projet, édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+          <resp>Responsable du projet, édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+          <resp>Informatique</resp>
+        </respStmt>
+        <respStmt>
+          <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+          <resp>Édition web</resp>
+        </respStmt>
+        <respStmt>
+          <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+          <resp>Édition web</resp>
+        </respStmt>
+        <respStmt>
+          <name>Marie-Hélène Wronecki <affiliation>CRHST</affiliation>
+          </name>
+          <resp>Édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Florence Greffe, <affiliation>Archives de l'Académie des sciences</affiliation>
+          </name>
+          <resp>Mise en place de la numérisation</resp>
+        </respStmt>
+        <respStmt>
+          <name>Mathilde Dutertre, <affiliation>École nationale des chartes</affiliation>
+          </name>
+          <resp>Stagiaire au Centre Alexandre Koyré : élaboration du schéma XML TEI et
+            encodage</resp>
+        </respStmt>
+      </titleStmt>
+      <extent/>
+      <publicationStmt>
+        <authority>Centre Nationale de la Recherche Scientifique (CNRS)</authority>
+        <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+        <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+        <distributor>
+          <name>Centre de calcul de l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+        <availability status="restricted">
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by/3.0/deed.fr"/>Creative Commons dont le
+            contenu est disponible sous Creative Commons Attribution - Non commercial - No
+            Derivative Works 3.0 France</p>
+        </availability>
+        <date/>
+        <idno/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc type="original_manuscrit">
+          <msIdentifier xml:id="ampere_corr_L1815-06-05-a">
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque nationale de France</institution>
+            <repository>N.A.F.</repository>
+            <idno>ms. 14605, f° 134-154 [note d'André ROBINET]</idno>
+          </msIdentifier>
+          <altIdentifier>
+            <idno type="old">L513</idno>
+            <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+          </altIdentifier>
+        </msDesc>        
+        <listWit>
+          <witness xml:id="L1815-06-05-aedition">
+            <biblStruct>
+              <monogr>
+                <author>
+                  <surname>Maine de Biran</surname>
+                  <forename>Pierre</forename>
+                </author>
+                <author role="dir">
+                  <surname>Robinet</surname>
+                  <forename>André</forename>
+                </author>
+                <title>Oeuvres, XIII-1 : Correspondance philosophique avec Ampère</title>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>J. Vrin</publisher>
+                  <date when="1993">1993</date>
+                  <biblScope type="pp">p. 413-427</biblScope>
+                </imprint>
+              </monogr>
+            </biblStruct>
+          </witness>
+          <witness xml:id="L1815-06-05-aedition2">
+            <biblStruct>
+              <monogr>
+                <author>
+                  <surname>De Launay</surname>
+                  <forename>Louis</forename>
+                </author>
+                <title>Correspondance du Grand Ampère</title>
+                <imprint>
+                  <pubPlace>Paris</pubPlace>
+                  <publisher>Gauthier-Villars</publisher>
+                  <date when="1936">1936</date>
+                  <biblScope type="tome">II.</biblScope>
+                  <biblScope type="pp">p. 498</biblScope>
+                </imprint>
+              </monogr>             
+            </biblStruct>
+          </witness>
+          <witness xml:id="L1815-06-05-amanuscrit2">
+            <msDesc type="copie">
+              <msIdentifier>
+                <country>France</country>
+                <settlement>Paris</settlement>
+                <institution>Bibliothèque Victor Cousin</institution>
+                <idno>ms. 9, f° 27-39 [note d'André ROBINET]</idno>
+              </msIdentifier>
+              <physDesc>
+                <p>Copie du secrétaire d'Ampère avec corrections de la main d'Ampère [note d'André
+                  ROBINET]</p>
+              </physDesc>
+            </msDesc>
+          </witness>
+          <witness xml:id="L1815-06-05-amanuscrit3">
+            <msDesc type="copie">
+              <msIdentifier>
+                <country>France</country>
+                <settlement>Paris</settlement>
+                <institution>Archives de l'Académie des sciences</institution>
+                <repository>Fonds André-Marie Ampère</repository>
+                <idno>chemise 261</idno>
+              </msIdentifier>
+              <physDesc>
+                <p>Copie Naville</p>
+              </physDesc>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <editorialDecl>
+        <correction>
+          <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+        </correction>
+        <hyphenation>
+          <p>Les retours à la ligne des documents originaux sont respectés.</p>
+        </hyphenation>
+        <normalization>
+          <p>L'orthographe et la ponctuation ont été normalisés.</p>
+          <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+        </normalization>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1815-06-05">Autour du 5 juin 1815</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_M1173" type="adressee">Maine de Biran, Pierre</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+      <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude Coustumer</name>
+      </creation>
+      <langUsage>
+        <language ident="fra">Français</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <text type="correspondance" decls="#ampere_corr_L1815-06-05-a">
+    <body>
+      <div xml:id="L1815-06-05-a-div1">
+        <opener>[autour du 5 juin 1815]</opener>
+        <p xml:id="L1815-06-05-a-p1">
+          <pb n="244"/>Mon bien cher ami, j'ai eu un bien<lb/>
+          grand plaisir en recevant votre<lb/>
+          dernière lettre, en y
+          lisant que<lb/>
+          vous <del type="illisible"/>n'êtes plus tourmenté<lb/>
+          d'autant d'inquiétudes sur la santé<lb/>
+          des personnes
+          qui vous sont le plus<lb/>
+          chères. J'espère que vous pourrez,<lb/>
+          en attendant mieux, retrouver<lb/>
+          du
+          moins assez de <choice>
+            <sic>tranquillité</sic> <corr>tranquillité</corr>
+          </choice> pour<lb/>
+          rédiger enfin cet ouvrage auquel<lb/>
+          je regarde comme attaché
+          le sort<lb/>
+          des sciences <choice>
+            <sic>psycologiques</sic> <corr>psychologiques</corr>
+          </choice>. Ce dont<lb/>
+          je ne doute point, et dont<lb/>
+          je voudrais que
+          vous eussiez la<lb/>
+          même conviction, c'est que le<lb/>
+          succès qu'il obtiendra <del>dans</del> tant<lb/>
+          en <placeName>France</placeName> que
+          dans l'étranger,<lb/>
+          dépend uniquement du parti<lb/>
+          que vous prendrez sur cette<lb/>
+          question
+          fondamentale : y a-t-il<lb/>
+          quelque chose de primitif qui<lb/>
+          puisse être considéré comme<lb/>
+          <del type="illisible"/> donnant
+          immédiatement<pb n="245"/>
+          une connaissance nouménique ?<lb/>
+          Si vous l'admettez vous n'ajoutez<lb/>
+          rien à ce
+          que d'autres ont déjà fait,<lb/>
+          il vous devient impossible de réfuter<lb/>
+          le kantisme, et
+          d'établir sur un<lb/>
+          fondement solide la distinction<lb/>
+          des qualités premières et des qualités<lb/>
+          secondes. En effet que l'on<lb/>
+          emploie comme <persName>Reid</persName> les mots<lb/>
+          de sensation et de perception<lb/>
+          pour
+          désigner cette distinction<lb/>
+          supposée primitive, ou qu'on se<lb/>
+          serve de tout autre mot, il<lb/>
+          n'importe. Comme l'esprit humain<lb/>
+          est nécessité, soit par les <choice>
+            <sic>cathégories</sic> <corr>catégories</corr>
+          </choice>
+          <lb/>
+          de l'entendement
+          comme dirait <lb/>
+          <persName>Kant</persName>, soit par une de ses lois,<lb/>
+          soit enfin par les habitudes de<lb/>
+          toute sa vie,
+          à finir par chercher<lb/>
+          ce qui se passe nouménalement<lb/>
+          dans le point de vue objectif,<lb/>
+          entre
+          les substances, il faudra<lb/>
+          nécessairement en venir à<lb/>
+          considérer l'âme et la matière<lb/>
+          comme
+          deux noumènes distincts,<pb n="246"/>
+          à regarder l'âme comme douée de<lb/>
+          la double faculté de recevoir des<lb/>
+          modifications de la part de la matière<lb/>
+          et d'en créer d'autres en elle-même,<lb/>
+          <hi rend="underline">vi insitâ</hi>.
+          Soit que le concours<lb/>
+          de l'organisation soit nécessaire<lb/>
+          dans ce dernier cas, comme vous<lb/>
+          l'établissez, soit que <del type="illisible"/>
+          <lb/>
+          l'âme n'en ait pas besoin, comme<lb/>
+          le disent d'autres <choice>
+            <sic>psycologiste</sic> <corr>psycologistes</corr>
+          </choice>
+          qui<lb/>
+          admettent la pensée et la<lb/>
+          personnalité sans que l'âme<lb/>
+          agisse sur la matière, par une<lb/>
+          sorte d'action sur elle-même<lb/>
+          à la manière de <persName>Fichte</persName>. Dans l'un<lb/>
+          <del type="illisible"/> <add>et l'autre cas, la
+          perception comme la sensation,<lb/>
+          est une modification produite par une cause<lb/>
+            extérieure,
+          mais dans l'âme substance, en sorte qu'elle<lb/>
+            est soumise comme la sensation aux formes<lb/>
+          subjectives de l'entendement, et l'émesthèse est le produit<lb/>
+            de l'activité de l'âme.</add> Ce
+          produit est un<lb/>
+          de ses modes, mais un mode<lb/>
+          qu'elle ne reçoit point d'une<lb/>
+          cause étrangère,
+          l'émesthèse<lb/>
+          n'est pas plus l'âme substance<pb n="247"/>
+          que l'intuition du <del type="illisible"/> bleu n'est la substance
+          d'indigo qui<lb/>
+          donne lieu à cette intuition.<lb/>
+          De même que <persName>Descartes</persName> a fait<lb/>
+          un grand pas,
+          confirmé par<lb/>
+          tout ce qu'on a dit depuis lui,<lb/>
+          en distinguant deux choses,<lb/>
+          savoir : l'intuition et la matière de l'indigo,<lb/>
+          <choice>
+            <sic>longtems</sic> <corr>longtemps</corr>
+          </choice> confondues parce que<lb/>
+          l'usage les nommait
+          également<lb/>
+          <hi rend="underline">couleur bleue</hi>, de même, et<lb/>
+          c'est là <del type="illisible"/> une de vos plus<lb/>
+          importantes découvertes,
+          vous<lb/>
+          avez distingué deux choses :<lb/>
+          l'émesthèse et l'âme substance,<lb/>
+          qu'on avait confondu
+          jusqu'à<lb/>
+          vous, parce que l'usage est de<lb/>
+          les <del type="illisible"/> désigner l'une<lb/>
+          et l'autre sous le nom de<lb/>
+          moi ou
+          Je, comme vous<lb/>
+          l'avez si bien fait voir en<lb/>
+          analysant le fameux <cit>
+            <quote>je pense<pb n="248"/>
+            donc j'existe</quote>
+          </cit> de
+          <persName>Descartes</persName>. L'émesthèse<lb/>
+          certes n'est pas la substance, mais<lb/>
+          un mode de la substance de
+          l'âme.<lb/>
+          C'est ce que j'ai toujours entendu<lb/>
+          en l'appelant <hi rend="underline">un phénomène</hi>,<lb/>
+          en disant qu'il
+          existait deux<lb/>
+          sortes de <hi rend="underline">phénomènes</hi> de nature<lb/>
+          opposée, les sensations d'une<lb/>
+          part et
+          l'émesthèse de l'autre.<lb/>
+          Ce mot de <hi rend="underline">phénomène</hi> ne<lb/>
+          fait rien à la chose, mais il<lb/>
+          l'exprime
+          nécessairement<lb/>
+          dès qu'on <choice>
+            <sic>appèle</sic> <corr>appelle</corr>
+          </choice> phénomène<lb/>
+          tout ce qui n'est pas noumène,<lb/>
+          tout ce <del type="illisible"/>
+          qui est
+          senti ou <choice>
+            <sic>apperçu</sic> <corr>aperçu</corr>
+          </choice> de<lb/>
+          quelque manière que ce soit.<lb/>
+          Autrement vous diriez comme<lb/>
+          M. <persName ref="#pers_R503">Royer-Collard</persName> que tout est<lb/>
+          perdu, excepté le <hi rend="underline">moi</hi>. Ce qui<lb/>
+          ne peut se dire avec un sens<lb/>
+          qu'autant qu'on nomme <hi rend="underline">moi</hi> l'âme<lb/>
+          substance.</p>
+        <p xml:id="L1815-06-05-a-p2">
+          <pb n="249"/>Maintenant vous me dites :<lb/>
+          <cit>
+            <quote>Enfin on pourrait
+          dire que comme<lb/>
+            l'âme (force absolue) se manifeste<lb/>
+            à elle-même dans le 1<hi rend="sup">r</hi> effort<lb/>
+          librement déterminé, qui pose un<lb/>
+            moi, la substance passive<lb/>
+            (l'absolu de la matière), se
+          manifeste<lb/>
+            à l'esprit dès la première résistance<lb/>
+            à cet effort qui constitue le non<lb/>
+            moi</quote>
+          </cit>.</p>
+        <p xml:id="L1815-06-05-a-p3">
+          Ici nous sommes parfaitement<lb/>
+          d'accord ou tout à fait <choice>
+            <sic>discordans</sic> <corr>discordants</corr>
+          </choice>,<lb/>
+          suivant le sens que vous
+          donnez<lb/>
+          au mot : <hi rend="underline">manifester</hi>. Je dis moi<lb/>même que la cloche ou les vibrations<lb/>
+          de l'air, par
+          exemple, se manifestent<lb/>
+          à nous par la sensation <hi rend="underline">son</hi>,<lb/>
+          car <choice>
+            <sic>ils</sic> <corr>elles</corr>
+          </choice> produisent ce <hi rend="underline">son</hi>, et<lb/>
+          tout
+          <hi rend="underline">noumène</hi> suivant mon<lb/>
+          langage se manifeste à nous<lb/>
+          par le phénomène qu'il produit.<lb/>
+          Mais
+          j'entends par là que le<lb/>
+          phénomène est seul perçu ou<lb/>
+          senti, sans que l'on ait<pb n="250"/>
+          pour cela la
+          moindre notion<lb/>
+          de rien autre que le phénomène<lb/>
+          et sa cause inconnue ; <del type="illisible"/> et dans<lb/>
+          1'être
+          absolument passif, où il<lb/>
+          n'y a pas lieu à cette notion d'une<lb/>
+          cause inconnue, quand le
+          noumène<lb/>
+          se manifeste par un phénomène,<lb/>
+          il n'y a que celui-ci de perçu ou<lb/>
+          senti. Ainsi le
+          <hi rend="underline">son</hi>, quand ce sont<lb/>
+          les vibrations de l'air, l'émesthèse<lb/>
+          quand c'est l'âme qui se
+          manifeste,<lb/>
+          enfin la <del type="illisible"/> sensation<lb/>
+          musculaire quand c'est la substance<lb/>
+          du muscle ; mais cette
+          substance<lb/>
+          ne peut être comme pour toute<lb/>
+          autre sensation qu'une causel<lb/>
+          inconnue, et cette
+          cause est<lb/>
+          la dernière qu'on conçoit<lb/>
+          nouméniquement, parce que la<lb/>
+          sensation musculaire a<lb/>
+          subjectivement une autre<lb/>
+          cause, savoir : l'émesthèse.<lb/>
+          Aussi M. <persName>F. Cuvier</persName> avec qui<lb/>
+          j'ai
+          beaucoup parlé de tout cela<pb n="251"/>
+          m'a-t-il souvent répété avec<lb/>
+          la plus entière conviction que<lb/>
+          la
+          sensation d'effort, comme<lb/>
+          il l'<choice>
+            <sic>appèle</sic> <corr>appelle</corr>
+          </choice>, était la moins propre<lb/>
+          de toutes à nous donner ce
+          que<lb/>
+          M. <persName ref="#pers_R503">Royer-Collard</persName> <choice>
+            <sic>appèle</sic> <corr>appelle</corr>
+          </choice>, comme<lb/>
+          <persName>Reid</persName>, une perception immédiate.<lb/>
+          La sensation
+          musculaire est<lb/>
+          en effet de toutes les sensations<lb/>
+          celle qui est le moins hors du<lb/>
+          moi ; j'admets bien que l'émesthèse<lb/>
+          en la produisant la perçoit<lb/>
+          hors d'elle comme toutes les<lb/>
+          autres sensations, mais moins<lb/>
+          en dehors que toutes les autres,<lb/>
+          parce qu'elle lui est unie<lb/>
+          intimement par la relation<lb/>
+          de causalité.</p>
+        <p xml:id="L1815-06-05-a-p4">L'effort ne peut évidemment<lb/>
+          fournir que deux
+          <choice>
+            <sic>élémens</sic> <corr>éléments</corr>
+          </choice>
+          <lb/>
+          tous deux phénoméniques,<lb/>
+          l'émesthèse (cause) et la sensation<lb/>
+          musculaire (effet).<pb n="252"/>
+          Quand on a mis ensuite des<lb/>
+          substances sous les intuitions,<lb/>
+          et c'est là seulement qu'on en
+          peut<lb/>
+          mettre primitivement, dans le<lb/>
+          cas où le mouvement voulu<lb/>
+          d'une intuition mobile comme,
+          par<lb/>
+          exemple, celle de la main, est<lb/>
+          arrêté par un obstacle, on est<lb/>
+          amené <del type="illisible"/> à en mettre sous<lb/>
+          toutes les sensations, puis enfin<lb/>
+          sous l'émesthèse, cette substance<lb/>
+          est l'âme, et sous la
+          sensation<lb/>
+          musculaire, cette substance est<lb/>
+          la matière du muscle, mais tout<lb/>
+          cela est très
+          postérieur et<lb/>
+          dérivé de loin.</p>
+        <p xml:id="L1815-06-05-a-p5">
+          Vous dites que <cit>
+            <quote>la sensation<lb/>
+            musculaire suspendue ou
+          arrêtée<lb/>
+            par quelque cause accidentelle<lb/>
+            propre à notre corps, diffère<lb/>
+            essentiellement de
+          celle qui est<lb/>
+            contrainte ou arrêtée par une<lb/>
+            résistance étrangère</quote>
+          </cit>.</p>
+          <p xml:id="L1815-06-05-a-p6">&gt;
+          Je le veux bien, cela
+          est vrai,<lb/>
+          mais qu'est-ce que cela fait à la<pb n="253"/>
+          question ? Que ces deux sortes de<lb/>
+          sensations
+          diffèrent si vous voulez<lb/>
+          autant qu'un son d'une couleur,<lb/>
+          qu'importe ? Il faudrait avoir
+          quelque<lb/>
+          raison qui dise pourquoi l'une serait<lb/>
+          <choice>
+            <sic>plus tôt</sic> <corr>plutôt</corr>
+          </choice> que l'autre accompagnée,<lb/>
+          dans le sens
+          de <persName>Reid</persName>
+          <lb/>
+          d'une <hi rend="underline">perception immédiate</hi>, si tant<lb/>
+          est qu'on puisse admettre la possibilité<lb/>
+          d'une
+          perception immédiate qui<lb/>
+          soit autre chose qu'une modification<lb/>
+          subjective, ce <choice>
+            <sic>que</sic> <corr>qui</corr>
+          </choice> sera
+          toujours<lb/>
+          absurde aux yeux de ceux qui<lb/>
+          auront lu et compris <persName>Kant</persName>.</p>
+        <p xml:id="L1815-06-05-a-p7">
+          Vous me direz que des
+          <choice>
+            <sic>psycologistes</sic> <corr>psychologistes</corr>
+          </choice>
+          <lb/>
+          fameux les ont adoptées. Mais<lb/>
+          lisez-les, parlez-leur, vous verrez<lb/>
+          que cela
+          a été pour eux une<lb/>
+          ressource désespérée pour éviter<lb/>
+          l'idéalisme qu'ils croyaient suivre<lb/>
+          de
+          ce qu'ils appelaient la théorie<lb/>
+          des idées. Mais nous avons le<lb/>
+          moyen d'éviter cet
+          inconvénient<lb/>
+            par la théorie que nous<lb/>
+          soutenions en commun à<lb/>
+          la <orgName>Société philosophique</orgName>, sur<pb n="254"/>
+          la nouménalité de l'obstacle<lb/>
+          rencontré dans un mouvement<lb/>
+          volontaire perçu dans l'étendue<lb/>
+          phénoménale. Cette théorie une<lb/>
+          fois <choice>
+            <sic>jettée</sic> <corr>jetée</corr>
+          </choice> de ce monde pourra<lb/>
+          être plus ou moins bien
+          expliquée,<lb/>
+          modifiée, commentée, mais que<lb/>
+          vous y renonciez ou non, elle<lb/>
+          sera
+          infailliblement un jour<lb/>
+          universellement adoptée. Seule<lb/>
+          elle détruit tout idéalisme.</p>
+        <p xml:id="L1815-06-05-a-p8">
+          Vous
+          me direz encore : mais<lb/>
+          ma conscience me dit que<lb/>
+          j'ai cette perception immédiate.<lb/>
+          <persName>Reid</persName> en
+          dit autant de toutes<lb/>
+          les sensations. Il le dit au<lb/>
+          moins avec autant de raison.<lb/>
+          Pour le
+          combattre vous<lb/>
+          lui direz que pour les autres<lb/>
+          sensations ce sont des<lb/>
+          concrétions
+          d'habitudes, ce qui<lb/>
+          est évident, mais <del type="illisible"/> sur<lb/>
+          quelle raison, même supposée,<pb n="255"/>
+          pourrez-vous
+          établir qu'il y<lb/>
+          a autre chose qu'une concrétion<lb/>
+          d'habitude dans le cas de la sensation<lb/>
+          musculaire, où certes la prétendue<lb/>
+          perception immédiate est<lb/>
+          plus obscure et presque<lb/>
+          inobservable ?</p>
+        <p xml:id="L1815-06-05-a-p9">Vous savez bien que tous nos<lb/>
+          collègues de la <orgName>petite Société</orgName> se<lb/>
+          sont
+          unanimement opposés<lb/>
+          à ce que la sensation<lb/>
+          musculaire eût aucun privilège<lb/>
+          sur les autres.
+          Ils se trompent<lb/>
+          en cela, elle a de plus son<lb/>
+          union intime par causalité<lb/>
+          avec l'émesthèse.
+          On en voit<lb/>
+          bien la raison. Mais qu'elle ait<lb/>
+          encore la propriété <del type="illisible"/>
+          <lb/>
+          de conduire seule à une<lb/>
+          prétendue perception<lb/>
+          immédiate nouménique, si<lb/>
+          jamais vous parvenez à faire<lb/>
+          admettre une
+          pareille idée à personne,<lb/>
+          je veux bien perdre tout ce que vous voudrez.<pb n="256"/>
+          Comment, mon cher
+          ami,<lb/>
+          pouvez-vous renoncer à des<lb/>
+          vérités incontestables que vous<lb/>
+          avez défendues à la
+          <orgName>Société<lb/>
+          philosophique</orgName>, pour hésiter à<lb/>
+          adopter ce que vous avancez<lb/>
+          dans votre lettre, et
+          chercher<lb/>
+          à faire un système exposé<lb/>
+          à toutes les difficultés qui<lb/>
+          pulvérisent celui de <persName>Reid</persName>
+          dont<lb/>
+          le vôtre ne serait alors qu'une<lb/>
+          copie mal déguisée.</p>
+        <p xml:id="L1815-06-05-a-p10">Je ne réfuterai pas ce que vous<lb/>
+          me dites sur ce que la résistance<lb/>
+          est une <hi rend="underline">non-cause</hi>.<lb/>
+          Comment une <hi rend="underline">non-cause</hi>
+          <lb/>
+          détruirait,
+          suspendrait, l'effet<lb/>
+          d'une <hi rend="underline">cause</hi> ? Comme si la<lb/>
+          première idée de la mécanique<lb/>
+          n'était pas
+          qu'une force égale<lb/>
+          peut seule détruire ou suspendre<lb/>
+          l'effet d'une autre force. Que<lb/>
+          pour
+          arrêter un corps en<pb n="257"/>
+          mouvement, il faut une<lb/>
+          force égale à celle qui l'a mu.<lb/>
+          La résistance
+          est une force<lb/>
+          comme l'attraction, l'élasticité,<lb/>
+          etc... Je sais bien qu'elle n'est<lb/>
+          d'abord
+          connue que comme<lb/>
+          obstacle. Mais qu'importe ?<lb/>
+          Être arrêté sans qu'une<lb/>
+          <hi rend="underline">cause</hi> nous arrête,
+          est un<lb/>
+          phénomène sans cause, une<lb/>
+          contradiction. Il est inutile<lb/>
+          d'insister là-dessus,
+          puisque,<lb/>
+          dans le passage de votre<lb/>
+          lettre que je viens de citer<lb/>
+          vous dites : <cit>
+            <quote>La sensation
+          musculaire<lb/>
+            suspendue ou arrêtée par<lb/>
+            <hi rend="underline">une <hi rend="underline">cause</hi> accidentelle propre<lb/>
+              à notre corps, etc.</hi>
+            </quote>
+          </cit>.
+          Vous voyez<lb/>
+          bien que l'emploi du mot<lb/>
+          de <hi rend="underline">cause</hi> pour ce qui suspend<lb/>
+          ou arrête le mouvement<lb/>
+          est tellement nécessaire,<pb n="258"/>
+          que vous n'avez pu l'éviter,<lb/>
+          lorsque vous me blâmiez<lb/>
+          de ce que
+          vous faites dans<lb/>
+          la même page. Cet argument<lb/>
+          <foreign xml:lang="lat">ad hominem</foreign> doit suffire<lb/>
+          là-dessus.</p>
+        <p xml:id="L1815-06-05-a-p11">Je ne dis
+          point que la notion<lb/>
+          de la particule matérielle (résistance),<lb/>
+          soit faite à l'<hi rend="underline">instar de
+          l'émesthèse</hi>,<lb/>
+          ce sont là deux notions opposées,<lb/>
+          l'une est la cause productrice,<lb/>
+          l'autre la
+          cause destructrice ;<lb/>
+          l'émesthèse est un phénomène,<lb/>
+          cette notion de cause prohibitive est<lb/>
+          le 1<hi rend="sup">r</hi>, noumène connu. Mais il est<lb/>
+          évident que tout effet exigeant<lb/>
+          une cause, s'il faut
+          une cause<lb/>
+          pour produire, il en faut une<lb/>
+          aussi pour détruire, et que conformément<lb/>
+          à votre
+          propre langage dans le<lb/>
+          passage cité, ce premier noumène<lb/>
+          doit être appelé cause, dans ce
+          sens<lb/>
+          de la cause qui détruit ou suspend<pb n="259"/>
+          l'effet produit par l'autre<lb/>
+          espèce de cause,
+          l'émesthèse.<lb/>
+          Il faut maintenant que cet<lb/>
+          effet soit perçu, il ne peut<lb/>
+          l'être de manière que
+          la cause<lb/>
+          prohibitive soit localisée, puis<lb/>
+          juxtaposée, configurée, qu'autant<lb/>
+          que cet effet
+          est un déplacement<lb/>
+          observé dans une étendue<lb/>
+          nécessairement, purement<lb/>
+          phénoménique, à cette
+          époque<lb/>
+          où il s'agit d'expliquer l'origine<lb/>
+          de la première notion nouménique.<lb/>
+          Le mouvement
+          phénoménal,<lb/>
+          une intuition parcourant un<lb/>
+          cadre fixe d'autres intuitions, est<lb/>
+          la condition
+          <foreign xml:lang="lat">sine qua non</foreign> de<lb/>
+          la résistance, car le mot :<lb/>
+          <hi rend="underline">résistance</hi> n'a de sens qu'autant<lb/>
+          qu'une chose
+          déjà faite et<lb/>
+          voulue de nouveau se trouve<pb n="260"/>
+          arrêtée par un obstacle. Le mouvement<lb/>
+          phénoménal
+          commence par<lb/>
+          l'émesthèse, qui le produit<lb/>
+          et finit par la résistance<lb/>
+          qui le termine. C'est
+          lui qui<lb/>
+          met ces deux termes en<lb/>
+          opposition, et les éloigne<lb/>
+          de tout l'espace parcouru.<lb/>
+          Jamais d'étendue sans intuition,<lb/>
+          c'est contre ce qu'a écrit<lb/>
+          sur ce sujet M. <persName>de Tracy</persName> ; une<lb/>
+          vérité dont rien ne peut<lb/>
+          obscurcir l'évidence.</p>
+        <p xml:id="L1815-06-05-a-p12">J'avoue que l'endroit de votre lettre<lb/>
+          où
+          vous me dites que j'ai négligé<lb/>
+          en partie les différences entre les<lb/>
+          intuitions et les
+          sensations,<lb/>
+          celui que je conçois le moins,<lb/>
+          <del type="illisible"/> une partie de vos assertions<lb/>
+          à cet égard sont
+          parfaitement<lb/>
+          conformes à ma manière de<lb/>
+          voir. Mais les autres sont<lb/>
+          tellement gratuites et
+          contraires<pb n="261"/>
+          aux faits qu'il faut que je ne<lb/>
+          vous aie pas compris.</p>
+        <p xml:id="L1815-06-05-a-p13">J'ai remarqué dans ma
+          dernière<lb/>
+          lettre deux différences capitales.<lb/>
+          Voyons si j'en ai oublié qui<lb/>
+          <choice>
+            <sic>existe</sic> <corr>existent</corr>
+          </choice>
+          réellement, ou qui ne<lb/>
+          soient pas une suite nécessaire<lb/>
+          des deux que j'ai signalées.<lb/>
+         <list>
+            <item n="1">°. Les
+          intuitions nous sont données<lb/>
+           toujours en nombre indéfini,<lb/>
+           unies entre elles par cette<lb/>
+          juxtaposition continue, dont<lb/>
+           nous découvrons ensuite par<lb/>
+           l'ensemble de nos connaissances,<lb/>
+          <del type="illisible"/> la raison explicative<lb/>
+           dans la juxtaposition des points<lb/>
+           de la rétine impressionnés. Car<lb/>
+           si
+          l'on ne trouvait pas ainsi la<lb/>
+           raison explicative d'une différence<lb/>
+           observée entre deux
+          phénomènes,<lb/>
+           il faudrait l'examiner de nouveau,<lb/>
+           et tâcher de la ramener à quelque<lb/>
+           autre
+          différence dont la raison<lb/>
+           fût connue.</item>
+            <lb/>
+           <item n="2">°. Les résistances ne pouvant<pb n="262"/>
+             se trouver que sous
+          des intuitions,<lb/>
+             comme j'ai déjà dit, elles se<lb/>
+             combinent intimement avec ces<lb/>
+             <del>mêmes</del> intuitions,
+          dont elles empruntent<lb/>
+             l'étendue, en les modifiant à leur<lb/>
+             tour, puisque c'est par cette
+          union<lb/>
+             <del type="illisible"/> avec des résistances que les<lb/>
+             intuitions d'abord <supplied>reçues </supplied>comme planes<lb/>
+             deviennent
+          susceptibles de<lb/>
+             représenter des saillies et des<lb/>
+             <choice>
+                <sic>enfoncemens</sic> <corr>enfoncements</corr>
+              </choice>.</item>
+          </list>
+        </p>
+        <p xml:id="L1815-06-05-a-p14">Il est aisé de montrer que
+          ces deux<add> différences</add>
+          <lb/>
+          rendent raison de toutes celles<lb/>
+          que vous énumérez, lesquelles n'en<lb/>
+          sont qu'une autre expression, ou<lb/>
+          une conséquence nécessaire. Vous me<lb/>
+          dites, mon cher ami,<lb/>
+          <list>
+            <item n="1">°. Que l'intuition est donnée primitivement<lb/>
+            hors du moi. Mais vous êtes convenu<lb/>
+            mille
+          fois que toutes les sensations<lb/>
+            l'étaient aussi, c'est l'expérience<lb/>
+            faite et répétée au
+          concert dont<lb/>
+            je vous ai parlé mille fois. <del type="illisible"/>
+              <lb/>
+            Si l'intuition nous paraît à plus<lb/>
+            de distance,
+          vous savez bien que<lb/>
+            cette distance <del>à </del>laquelle se place<pb n="263"/>
+          l'intuition vient de sa combinaison<lb/>
+          avec les résistances trouvées à<lb/>
+          cette distance-là dans le mouvement<lb/>
+            volontaire.<lb/>
+          <del>  Vous qui
+          aimez à citer des expériences<lb/>
+            décisives, il y en a une à ce sujet<lb/>
+            qui ne laisse rien à
+          répliquer.<lb/>
+            C'est celle de l'aveugle de <persName>Cheselden</persName>,<lb/>
+            il vit d'abord les couleurs dans ses<lb/>
+          yeux<add>, et cependant également étendues</add> comme on entend le son<lb/>
+            dans les oreilles. Encore
+          c'était dans<lb/>
+            ses yeux parce qu'il les connaissait<lb/>
+            d'avance par le tact. Ne suit<lb/>il pas
+          évidemment de cette<lb/>
+            expérience que <del type="illisible"/> les intuitions<lb/>
+            seraient senties dans l'organisation,<lb/>
+          mais toujours hors du moi, précisément<lb/>
+            comme les autres sensations,<lb/>
+            pour l'être qui
+          n'aurait que<lb/>
+            l'activité contractile interne<lb/>
+            sans locomobilité dans l'étendue<lb/>
+            visible ou
+          tangible.</del>
+            </item>
+            <lb/>
+            <item n="2">°. Vous dites qu'on n'attribue pas<lb/>
+              de cause séparée <del type="illisible"/> aux intuitions<pb n="264"/>
+              qui paraissent et disparaissent<lb/>
+              comme aux sensations qui<lb/>
+              commencent et finissent.<lb/>
+              Vous voyez
+          bien que cela vient<lb/>
+              précisément de leur combinaison<lb/>
+              avec des résistances. Celles-ci comme<lb/>
+          causes ne peuvent être conçues<lb/>
+              ni créées ni anéanties. Quelle est<lb/>
+              au reste la grande
+          différence<lb/>
+              entre ces deux cas ? Je sens tout<lb/>
+              à coup une odeur, j'en attribue<lb/>
+              le commencement à une cause,<lb/>
+              <subst>
+                <del type="illisible"/> <add>quelque <choice>
+                    <sic>tems</sic> <corr>temps</corr>
+                  </choice> après elle cesse, donc une</add>
+              </subst> autre cause l'a<lb/>
+              fait
+          cesser. Quand je serai plus<lb/>
+              avancé en connaissance, je saurai<lb/>
+              que cette dernière cause est<lb/>
+          un homme, par exemple, qui a<lb/>
+              emporté loin de moi le corps<lb/>
+              odorant. Je vois, de même<lb/>
+              tout à
+          coup un cercle bleu,<lb/>
+              <del type="illisible"/> j'attribue infailliblement<lb/>
+              cette apparition à une cause.<lb/>
+              Elle
+          disparaît quelque <choice>
+                <sic>tems</sic> <corr>temps</corr>
+              </choice> après,<lb/>
+              donc une autre cause l'a fait<pb n="265"/>
+              disparaître. Je saurai par la<lb/>
+          suite que cette dernière cause<lb/>
+              est un homme qui a de même<lb/>
+              emporté le disque peint avec<lb/>
+              de l'indigo. La parité est<lb/>
+              exacte tant que les intuitions<lb/>
+              ne sont <del type="illisible"/> <add>que les phénomènes produits<lb/>
+          par des impressions faites sur des points<lb/>
+                contigus d'un organe étendu. Mais</add>
+              <lb/>
+              il n'en est
+          plus de même quand<lb/>
+              il y a des résistances qui viennent<lb/>
+              se combiner aux couleurs ; si les<lb/>
+          deux cas deviennent <choice>
+                <sic>différens</sic> <corr>différents</corr>
+              </choice>
+              <lb/>
+              on voit en quoi et pourquoi.<lb/>
+              En effet nous ne pouvons pas<lb/>
+          mouvoir dans une odeur qui<lb/>
+              n'est pas étendue une autre odeur<lb/>
+              pour y trouver de la
+          résistance,<lb/>
+              nous mouvons l'intuition<lb/>
+              de la main parmi un cadre<lb/>
+              d'intuitions fixes, nous
+          trouvons<lb/>
+              des résistances, une là, une autre<lb/>
+              là, une autre là, etc. puis<lb/>
+              <choice>
+                <sic>continuement</sic> <corr>continûment</corr>
+              </choice>,
+          depuis là jusque<lb/>là, etc... Voilà<lb/>
+              des résistances réunies par ce que<pb n="266"/>
+              j'<choice>
+                <sic>appèle</sic> <corr>appelle</corr>
+              </choice>
+          configuration. J'éprouve<lb/>
+              que ces résistances subsistent,<lb/>
+              quoique je ferme les yeux ;<lb/>
+          d'ailleurs elles arrêtent l'effet<lb/>
+              d'une cause, elles sont donc<lb/>
+              des causes pouvant
+          équilibrer<lb/>
+              la première et toute cause est<lb/>
+              nécessairement conçue comme<lb/>
+              permanente
+          indéfiniment.<lb/>
+              Voilà ce qui répond à <del type="illisible"/>
+              <lb/>
+              une autre objection, vous me<lb/>
+              dites :</item>
+            <lb/>
+            <item n="3">°. Que quand
+          l'intuition<lb/>
+              change le fond étendu reste.<lb/>
+              Je n'ai pas bien compris ce<lb/>
+              que cela veut dire.
+          Car quand<lb/>
+              je ferme les yeux il ne reste<lb/>
+              certes rien du tout des intuitions<lb/>
+              de couleurs que la
+          connaissance<lb/>
+              que j'ai comme je viens de<lb/>
+              l'expliquer, de cet assemblage<lb/>
+              de résistances avec
+          lesquelles<lb/>
+              ces couleurs s'étaient combinées<lb/>
+              par substration. C'est cette<pb n="267"/>
+              configuration de
+          résistances<lb/>
+              qu'on sait être là, <del>mais enc</del>
+              <lb/>
+              c'est ce que vous appelez le <choice>
+                <sic>fond</sic> <corr>fonds</corr>
+              </choice>
+              <lb/>
+              étendu qui reste, elle
+          était combinée<lb/>
+              avec les intuitions, celles-ci<lb/>
+              s'en vont et elle reste. Or<lb/>
+              quoiqu'à présent
+          combinée avec<lb/>
+              les intuitions, cette <add>configuration </add>n'en faisait<lb/>
+              pas partie primitivement ;
+          elle<lb/>
+              <choice>
+                <sic>si</sic> <corr>s'y</corr>
+              </choice> est unie à mesure qu'on<lb/>
+              trouvait les résistances dont<lb/>
+              elle se compose en
+          parcourant<lb/>
+              l'intuition. Il est donc bien<lb/>
+              évident que tout ce qu'il y a<lb/>
+              de primitif dans
+          celle-ci<lb/>
+              est purement phénoménique,<lb/>
+              et s'<choice>
+                <sic>annéantit</sic> <corr>anéantit</corr>
+              </choice>, s'il s'agit d'une<lb/>
+              intuition visuelle
+          dès qu'on<lb/>
+              ferme les yeux, comme une<lb/>
+              odeur, dès qu'on se bouche le<lb/>
+              nez.<del> Les intuitions de
+          l'aveugle<lb/>
+                de <persName>Cheselden</persName> étaient dans leur<lb/>
+                état primitif lorsqu'elles lui<lb/>
+                semblaient dans
+          les yeux; à cette<pb n="268"/>
+                époque quand il les fermait, pensez<lb/>vous qu'il lui restât <hi rend="underline">un fond<lb/>
+          étendu</hi> ?</del>
+              <lb/>
+              J'insiste toujours là-dessus, parce que<lb/>
+              s'il y a une chose évidente, c'est<lb/>
+              qu'il
+          est absolument impossible<lb/>
+              d'échapper à l'idéalisme de <persName>Kant</persName>,<lb/>
+              dès qu'on veut admettre
+          quelque<lb/>
+              chose de <del type="illisible"/> nouménique qui<lb/>
+              soit primitif. Enfin vous me dites :</item>
+            <lb/>
+            <item n="4">°. Que les
+          sensations sont inhérentes<lb/>
+              <del type="illisible"/>
+              <lb/>
+              à l'organisation, au corps propre,<lb/>
+              que le moi s'en distingue à
+          la<lb/>
+              vérité, mais sans pouvoir s'en<lb/>
+              séparer comme il se sépare des<lb/>
+              intuitions. <del>J'ai déjà
+          répondu à<lb/>
+                cela par ce qui arriva à l'aveugle<lb/>
+                de <persName>Cheselden</persName> au commencement<lb/>
+                et avant la
+          combinaison des<lb/>
+                résistances avec les couleurs, celles-ci<lb/>
+                étaient dans ses yeux, il ne s'en<lb/>
+          séparait pas plus que d'une sensation<lb/>
+                de chaud ou de froid <del type="illisible"/>
+                <lb/>
+                rapportée au pied ou à la main.</del>
+            </item>
+          </list>
+          <pb n="269"/>
+          Pour voir si les intuitions diffèrent<lb/>
+          primitivement des autres sensations<lb/>
+          à cet égard, il
+          faut éviter de les<lb/>
+          comparer aux sensations très affectives,<lb/>
+          qui vont troubler le moi
+          jusque<lb/>
+          dans le sanctuaire de son activité<lb/>
+          en ébranlant toute l'organisation ;<lb/>
+          mais
+          comparez-les, par exemple,<lb/>
+          <del type="illisible"/>
+          <lb/>
+          aux sons articulés qui ne sont<lb/>
+          pas affectifs, et dont
+          l'habitude<lb/>
+          a fait aussi des signes des distances<lb/>
+          et des positions des corps d'où ils<lb/>
+          viennent, avec toute l'infériorité<lb/>
+          que leur donne à cet égard sur<lb/>
+          les couleurs de ce
+          qu'ils n'ont<lb/>
+          pas d'étendue phénoménale. Soyez<lb/>
+          <del type="illisible"/> sans prévention<lb/>
+          sur ce qui se passe alors en
+          vous,<lb/>
+          vous conviendrez que vous<lb/>
+          entendez les sons comme étant<lb/>
+          hors de vous, hors de votre<lb/>
+          corps, vous les entendez dans<lb/>
+          la voûte qui les réfléchit, dans<pb n="270"/>
+          le lit du torrent qui
+          gronde,<lb/>
+          dans les feuilles de l'arbre agité.<lb/>
+          Cette extériorité, apparente comme<lb/>
+          celle des
+          intuitions, est d'abord sentie<lb/>
+          à peu près de même, car elle résulte<lb/>
+          de même des
+          concrétions d'habitudes.<lb/>
+          La réflexion la réduit plus aisément<lb/>
+          à sa juste valeur parce que
+          ces<lb/>
+          habitudes sont moins invétérées,<lb/>
+          qu'elles n'ont pas été répétées à tous les<lb/>
+          <choice>
+            <sic>instans</sic> <corr>instants</corr>
+          </choice>
+          de notre vie, et surtout<lb/>
+          parce que suivant ma théorie<lb/>
+          les couleurs sont <subst>
+            <del type="illisible"/> <add>intimement</add>
+          </subst>
+          combinées avec les <subst>
+            <del>couleurs</del> <add>résistances</add>
+          </subst> et<lb/>
+          que les sons leur sont seulement<lb/>
+          associés. <del>Je voudrais
+          pouvoir<lb/>
+            vous écrire tous les détails de cette<lb/>
+            théorie fondée sur la distinction<lb/>
+            que j'ai
+          établie depuis votre départ<lb/>
+            entre les diverses combinaisons,<lb/>
+            et les diverses associations,
+          il ne<lb/>
+            resterait aucun doute dans votre<lb/>
+            esprit sur tout cela</del>.</p>
+        <p xml:id="L1815-06-05-a-p15">Je ne sais si je vous avais
+          écrit<lb/>
+          qu'il y a eu il y a trois semaines une<pb n="271"/>
+          séance de la première classe de l'<orgName>Institut</orgName>,<lb/>
+          remplie à moitié par une discussion<lb/>
+          <choice>
+            <sic>psycologique</sic> <corr>psychologique</corr>
+          </choice> entre M. <persName>de Laplace</persName> et<lb/>
+          M. <persName>Hallé</persName>, au
+          sujet d'un rapport fait<lb/>
+          par ce dernier sur un mémoire où<lb/>
+          l'on expliquait les causes des
+          illusions<lb/>
+          produites par les ventriloques, et les<lb/>
+          moyens qu'ils emploient. Différant<lb/>
+          sur
+          d'autres points, ni l'un ni l'autre<lb/>
+          ne pensaient à douter que ces causes<lb/>
+          ne fussent toutes
+          semblables à celles<lb/>
+          des illusions de la vue, c'est en<lb/>
+          effet toujours le résultat des<lb/>
+          concrétions d'habitude, qui sont<lb/>
+          seulement plus complètes etc. quand<lb/>
+          elles viennent d'une
+          combinaison<lb/>
+          que quand elles viennent d'une<lb/>
+          association. Si vous aviez entendu<lb/>
+          tous les
+          <choice>
+            <sic>rapprochemens</sic> <corr>rapprochements</corr>
+          </choice> ingénieux<lb/>
+          faits par M. <persName>Hallé</persName>, entre les effets<lb/>
+          que se proposent de produire
+          le<lb/>
+          ventriloque et le peintre de<lb/>
+          panorama, je craindrais que<lb/>
+          passant tout à coup au delà de<lb/>
+          ma manière de voir vous doutiez<lb/>
+          tout à coup même des deux différences<lb/>
+          qui existent
+          réellement entre<lb/>
+          les intuitions et les sensations.</p>
+        <p xml:id="L1815-06-05-a-p16">
+          <pb n="272"/>En relisant votre lettre, j'y trouve<lb/>
+          que nous n'attribuons pas aux intuitions<lb/>
+          des causes, qualités secondes des<lb/>
+          corps, comme
+          aux autres sensations.<lb/>
+          Cela m'a fait craindre que nous<lb/>
+          n'appelions pas <hi rend="underline">intuition</hi>, la même<lb/>
+          chose, que vous ne donniez ce<lb/>
+          nom à la totalité de la concrétion<lb/>
+          d'habitude qui a lieu
+          quand nous<lb/>
+          regardons un corps, et qui se<lb/>
+          compose de ce que je nomme<lb/>
+          <hi rend="underline">intuition</hi>, savoir une
+          combinaison<lb/>
+          d'un nombre indéfini de sensations<lb/>
+          visuelles coordonnées par juxtaposition,<lb/>
+          et
+          une combinaison de résistances<lb/>
+          connues par des expériences habituelles<lb/>
+          de toute la vie, et
+          concrété ainsi<lb/>
+          avec ces couleurs. Si cela était<lb/>
+          ainsi, une partie de ce que je viens<lb/>
+          de
+          combattre dans votre lettre<lb/>
+          serait vrai mais ce groupe total<lb/>
+          n'est pas un phénomène
+          primitif.<lb/>
+          Cela crève les yeux. La seule<lb/>
+          chose primitive c'est ce que<lb/>
+          donnait la vue à
+          l'aveugle de<lb/>
+          <persName>Cheselden</persName> avant qu'il eût joint<pb n="273"/>
+          des résistances.</p>
+        <p xml:id="L1815-06-05-a-p17">Oui, mon cher ami, j'y ai
+          réfléchi<lb/>
+          après avoir été interrompu à<lb/>
+          cet endroit de ma lettre. Le<lb/>
+          vice commun à toutes
+          les <choice>
+            <sic>psycologies</sic> <corr>psychologies</corr>
+          </choice>
+          <lb/>
+          modernes, excepté la vôtre<lb/>
+          telle que vous l'expliquiez à<lb/>
+          la <orgName>Société
+          philosophique</orgName> l'année<lb/>
+          dernière, consiste à donner<lb/>
+          un nom aux diverses concrétions<lb/>
+          d'habitudes qui accompagnent<lb/>
+          aujourd'hui <del type="illisible"/>
+          <lb/>
+          les phénomènes de la sensibilité<lb/>
+          avec d'autant plus
+          de force<lb/>
+          que l'habitude qui les a formées<lb/>
+          est plus ancienne, à considérer<lb/>
+          ensuite ces
+          concrétions d'habitude<lb/>
+          avec les sensations qu'elles<lb/>
+          accompagnent comme des<lb/>
+          phénomènes
+          primitifs qu'il<lb/>
+          ne faut point expliquer, tandis que<lb/>
+          si l'on pouvait séparer par<lb/>
+          la
+          méditation ce qu'il y a dans<lb/>
+          ces groupes de vraiment<lb/>
+          primitif, on trouverait<pb n="274"/>
+          qu'avant le
+          déploiement de<lb/>
+          l'activité volontaire il n'y avait<lb/>
+          que des phénomènes purement<lb/>
+          sensitifs,
+          soit des sensations<lb/>
+          simples, soit ces sensations<lb/>
+          composées avec la forme<lb/>
+          d'étendue que
+          nous appelons<lb/>
+          tous deux intuitions. Que les<lb/>
+          premiers <choice>
+            <sic>développemens</sic> <corr>développements</corr>
+          </choice> de<lb/>
+          l'activité joignent
+          à ces phénomènes<lb/>
+          celui de l'émesthèse hors de<lb/>
+          laquelle ils sont tous plus ou<lb/>
+          moins, mais
+          que l'exercice<lb/>
+          de cette activité contrariée<lb/>
+          par des obstacles nous apprend<lb/>
+          <del type="illisible"/> à connaître des
+          résistances<lb/>
+          qui sont les premiers noumènes.<lb/>
+          Que les phénomènes, et en<lb/>
+          général tous les
+          <choice>
+            <sic>changemens</sic>
+            <corr>changements</corr>
+          </choice>
+          <lb/>
+          de phénomènes de quelque espèce<lb/>
+          qu'ils soient, nous <choice>
+            <sic>apprend</sic> <corr>apprennent</corr>
+          </choice>
+          <lb/>
+          l'existence
+          d'autres causes actives<lb/>
+          que la nôtre. Qu'alors les phénomènes<pb n="275"/>
+          deviennent des signes qui
+          nous<lb/>
+          avertissent et de la présence<lb/>
+          des résistances et de celles des<lb/>
+          causes actives, le
+          rugissement<lb/>
+          du lion nous l'annonce ainsi,<lb/>
+          les intuitions indiquent les<lb/>
+          causes actives
+          comme les autres<lb/>
+          sensations, quand on voit le<lb/>
+          lion, par exemple, au lieu de<lb/>
+          l'entendre.
+          Peu à peu ces signes<lb/>
+          se combinent si bien avec les<lb/>
+          choses signifiées, que ces choses<lb/>
+          en
+          deviennent inséparables, qu'elles<lb/>
+          modifient ou plutôt changent<lb/>
+          entièrement les sensations<lb/>
+          ou intuitions signes que la<lb/>
+          concrétion totale nous<lb/>
+          semble donnée à la fois. Que<lb/>
+          nous la
+          regardons comme un<lb/>
+          fait primitif, ou le résultat<lb/>
+          d'une loi de notre entendement.<lb/>
+          C'est
+          ainsi qu'un paysan<lb/>
+          croit que le mot <hi rend="underline">fer</hi> désigne<lb/>
+          nécessairement ce métal. S'il n'y<pb n="276"/>
+          avait
+          qu'une langue au monde<lb/>
+          combien de philosophes penseraient<lb/>
+          ainsi ? <persName>Reid</persName> a nommé <hi rend="underline">perception</hi>
+          <lb/>
+          la concrétion d'une sensation<lb/>
+          et de sa cause, qualité seconde<lb/>
+          d'un corps, vous n'avez pas<lb/>
+          été séduit par une illusion<lb/>
+          si grossière, mais comme la<lb/>
+          concrétion des couleurs et<lb/>
+          des
+          résistances est beaucoup<lb/>
+          plus intime, pour les raisons<lb/>
+          que j'ai déjà développées, et<lb/>
+          qui
+          expliquent si bien pourquoi<lb/>
+          elle est douée de cette <del type="illisible"/>
+          <lb/>
+          plus grande intimité, vous tendez<lb/>
+          à
+          admettre cette concrétion<lb/>
+          d'habitude sous le nom<lb/>
+          d'intuition pour un phénomène<lb/>
+          primitif,
+          au lieu de n'appeler<lb/>
+          <del type="illisible"/> intuition que le<lb/>
+          groupe étendu phénoménalement<lb/>
+          des sensations
+          visuelles et<lb/>
+          de chercher comment les<pb n="277"/>
+          résistances se sont combinées<lb/>
+          avec lui, à mesure que
+          notre<lb/>
+          activité y a trouvé des limites,<lb/>
+          limites qui sont la matière.<lb/>
+          J'avoue que cette
+          concrétion<lb/>
+          est tellement forte qu'il faut<lb/>
+          une profonde méditation pour<lb/>
+          la rompre, et se
+          figurer les<lb/>
+          intuitions comme en avait<lb/>
+          d'abord <persName>Cheselden</persName>. Mais celui<lb/>
+          qui en analysant
+          l'effort y a<lb/>
+          découvert les deux termes<lb/>
+          de l'émesthèse (cause) et de<lb/>
+          la sensation
+          musculaire<lb/>
+          (effet) ne doit pas trouver<lb/>
+          de difficulté à analyser<lb/>
+          l'intuition, et à
+          distinguer<lb/>
+          la partie primitive qui n'est<lb/>
+          que la couleur sentie de tout<lb/>
+          ce qu'y adjoint le
+          déploiement<lb/>
+          de l'activité.</p>
+        <p xml:id="L1815-06-05-a-p18">Si vous saviez combien <supplied>était évidente </supplied>l'explication<lb/>
+          que
+          donnait M <persName>de Laplace</persName> dans<pb n="278"/>
+          la séance de l'<orgName>Institut</orgName> dont je vous<lb/>
+          ai parlé, <del type="illisible"/> explication
+          incontestable<lb/>
+          et la seule qui s'accorde avec tous<lb/>
+          les phénomènes, vous <choice>
+            <sic>veriez</sic> <corr>verriez</corr>
+          </choice> de quelle<lb/>
+          manière irréfragable il prouve à<lb/>
+          quel point les habitudes acquises<lb/>
+          modifient les
+          intuitions et joignent<lb/>
+          de nouveaux <choice>
+            <sic>élémens</sic> <corr>éléments</corr>
+          </choice> à ceux qui<lb/>
+          en font primitivement partie.<lb/>
+          <choice>
+            <sic>Élémens</sic> <corr>Éléments</corr>
+          </choice> introduits par ces habitudes<lb/>
+          et qu'on est bien exposé à prendre<lb/>
+          pour primitifs.</p>
+        <p xml:id="L1815-06-05-a-p19">
+          En relisant votre lettre j'y ai<lb/>
+          trouvé un passage où vous êtes<lb/>
+          en contradiction complète
+          avec<lb/>
+          <persName>Reid</persName> sur un point où je trouve<lb/>
+          qu'il a évidemment raison. C'est<lb/>
+          celui où vous me
+          dites qu'il y a encore<lb/>
+          cette différence entre les sensations<lb/>
+          et les intuitions, que nous
+          donnons<lb/>
+          naturellement des causes aux<lb/>
+          premières et non aux secondes.<lb/>
+          S'il était question de
+          donner une<lb/>
+          cause à l'apparition et à la disparition<lb/>
+          des unes et des autres, tel que<lb/>
+          l'homme dont j'ai déjà parlé,<pb n="279"/>
+          qui apporte et emporte alternativement<lb/>
+          le corps coloré ou le
+          corps odorant,<lb/>
+          il est clair qu'il y aurait au contraire<lb/>
+          une parfaite similitude. J'ai donc<lb/>
+          pensé que vous entendiez ici parler<lb/>
+          des qualités <del type="illisible"/> secondes des corps,<lb/>
+          qui sont en effet les
+          causes des<lb/>
+          intuitions et des sensations qu'ils<lb/>
+          nous font éprouver. Mais s'il<lb/>
+          y avait à cet
+          égard de la différence<lb/>
+          entre ces deux sortes de phénomènes,<lb/>
+          comment <persName>Reid</persName> aurait-il pris<lb/>
+          précisément les couleurs pour<lb/>
+          exemple du double sens qu'il<lb/>
+          observe avec raison avoir lieu<lb/>
+          dans les noms donnés aux sensations<lb/>
+          en disant que le mot <hi rend="underline">rougeur</hi>,<lb/>
+          par exemple, désigne à
+          la fois et<lb/>
+          la sensation de rouge, et la<lb/>
+          qualité seconde du corps en vertu<lb/>
+          de laquelle il
+          nous affecte de cette<lb/>
+          sensation. Il ajoute même<lb/>
+          que dans le langage vulgaire<lb/>
+          c'est cette
+          qualité seconde<pb n="280"/>
+          qui est désignée principalement<lb/>
+          par les noms des différentes<lb/>
+          couleurs, et
+          qu'ainsi les expressions<lb/>
+          <hi rend="underline">ce corps est rouge, ce corps est<lb/>
+            
+            bleu</hi>, etc., sont exactes, et
+          point<lb/>
+          métaphoriques comme le disent<lb/>
+          certains auteurs <add>anglais </add>qui prétendaient<lb/>
+          qu'on devait
+          dire <hi rend="underline">ce corps est<lb/>
+            rubrifique</hi>, etc. pour exprimer<lb/>
+          que la qualité du corps n'était pas<lb/>
+          d'être rouge, <choice>
+            <sic>mai</sic> <corr>mais</corr>
+          </choice> de produire<lb/>
+          le rouge en nous. Je vous demande<lb/>
+          comment vous arrangerez<lb/>
+          cette
+          observation très vraie que<lb/>
+          les noms des couleurs désignent<lb/>
+          réellement, dans le langage<lb/>
+          ordinaire, les qualités secondes<lb/>
+          des corps causes des couleurs,<lb/>
+          avec la prétention que
+          nous<lb/>
+          ne supposons pas aussi naturellement<lb/>
+          d'après nos habitudes acquises,<lb/>
+          des causes de
+          cette sorte aux<lb/>
+          intuitions qu'aux sensations.</p>
+        <p xml:id="L1815-06-05-a-p20">
+          <pb n="281"/>Si l'autorité de quelqu'un qui
+          ne<lb/>
+          partage pas d'ailleurs en plusieurs points<lb/>
+          ma manière de voir, je vous <choice>
+            <sic>direz</sic> <corr>dirai</corr>
+          </choice>
+          <lb/>
+          que M.
+          <persName>Fréd<ex>éric</ex>. Cuvier</persName> à qui j'ai<lb/>
+          communiqué une partie de ce que<lb/>
+          vous me dites, pense qu'il n'y a<lb/>
+          aucune sorte de doute sur<lb/>
+          l'identité parfaite entre les intuitions,<lb/>
+          et les sensations,
+          relativement<lb/>
+          à la manière dont nous<lb/>
+          <subst>
+            <del type="illisible"/> <add>admettons</add> </subst>dans les corps des<lb/>
+          qualités secondes qui en
+          sont<lb/>
+          causes, et dont nous concluons<lb/>
+          la présence des corps des<lb/> sensations ou intuitions<lb/>
+          correspondantes, il allait jusqu'à<lb/>
+          dire que les odeurs font pour<lb/>
+          le chien presque tout ce
+          que<lb/>
+          les couleurs font pour nous,<lb/>
+          et sur la distinction que j'ai<lb/>
+          faite relativement à ce
+          que les<lb/>
+          couleurs sont signes de la<lb/>
+          forme et non les autres<lb/>
+          sensations, à cause que les<lb/>
+          couleurs ont seules l'étendue<lb/>
+          phénoménale, il a admis cette différence,<pb n="282"/> parce qu'on en
+          rend raison par la<lb/>
+          disposition des parties de l’œil, propre<lb/>
+          à cet organe dont je vous ai
+          parlé<lb/>
+          tant de fois, et a absolument<lb/>
+          rejeté toute autre différence, surtout<lb/>
+          relativement
+          aux causes considérées<lb/>
+          comme les qualités secondes des<lb/>
+          corps, parce que d'une part tout<lb/>
+          le
+          monde regarde les couleurs<lb/>
+          comme des qualités secondes des<lb/>
+          corps, précisément comme les<lb/>
+          odeurs, et que de l'autre nous<lb/>
+          savons bien que ces qualités<lb/>
+          secondes consistent également,<lb/>
+          dans la réalité objective, l'une<lb/>
+          à envoyer des molécules lumineuses<lb/>
+          à nos yeux, l'autre
+          des molécules<lb/>
+          odorantes à notre nez.</p>
+        <p xml:id="L1815-06-05-a-p21">Je ne comprends rien, mon cher<lb/>
+          ami, à l'étendue que
+          cette lettre<lb/>
+          a prise successivement, je l'ai fait<lb/>
+          recopier pour qu'elle fût un<lb/>
+          peu moins
+          volumineuse. Je<lb/>
+          n'oserais point cependant vous<lb/>
+          envoyer un si gros paquet, si vous<lb/>
+          ne me
+          disiez que vous allez écrire<pb n="283"/>
+          sur la psychologie, et qu'il est<lb/>
+          évident que la manière dont<lb/>
+          votre ouvrage sera reçu, et par<lb/>
+          suite la position où va se trouver<lb/> la science dépend de la
+          manière<lb/> dont vous traiterez cette question.</p>
+        <p xml:id="L1815-06-05-a-p22">On peut différer dans quelques<lb/>
+          détails, mais
+          voici les points qui<lb/>
+          seront généralement admis dès<lb/>
+          qu'on les développera convenablement<lb/>
+          par écrit, que vous avez <choice>
+            <sic>professé</sic> <corr>professés</corr>
+          </choice>
+          <lb/>
+          à la <orgName>Société philosophique</orgName> et sur<lb/>
+          lesquels nous
+          étions alors absolument<lb/>
+          d'accord.<lb/>
+          <list>
+            <item n="1">°. Dans un être dépourvu d'activité,<lb/>
+            il peut bien y
+          avoir des sensations<lb/>
+            et des intuitions, mais sans<hi rend="underline"> moi,<lb/>
+            sans causalité, sans durée aperçue</hi>,<lb/>
+          et par conséquent sans notion<lb/>
+            quelconque des causes extérieures.</item>
+            <lb/>
+            <item n="2">°. Dans un être actif
+          qui n'aurait<lb/>
+              jamais d'autres modifications<lb/>
+              que celles qu'il produirait lui<lb/>même,
+          l'émesthèse serait la seule cause<lb/>
+              dont il pût avoir connaissance.</item>
+            <item n="3">°. Dans un être qui
+          aurait<lb/> à la fois ces deux sortes de<pb n="284"/> modifications, celles qui viendraient<lb/>
+              sans qu'il les
+          eût produites seraient<lb/>
+              attribuées à des causes inconnues,<lb/>
+              actives et inétendues, lors même<lb/>
+          que le phénomène produit ainsi<lb/>
+              serait une intuition étendue. De là<lb/>
+              une première sorte de
+          noumènes,<lb/>
+              les causes extérieures actives.</item>
+            <lb/>
+            <item n="4">°. Pour le noumène étendu, la<lb/>
+              matière, il faut
+          autre chose<lb/>
+              que tout cela. Il faut que des<lb/>
+              mouvements prédéterminés dans<lb/>
+              l'étendue
+          phénoménale soient<lb/>
+              arrêtés en certains points,<lb/>
+              libres en d'autres, et que ces<lb/>
+              <choice>
+                <sic>mouvemens</sic> <corr>mouvements</corr>
+              </choice>
+          fassent peu à peu<lb/>
+              reconnaître les limites du champ<lb/>
+              de l'activité, car l'idée fondamentale<lb/>
+          de la matière est l'impénétrabilité,<lb/>
+              cela est avoué de tout <choice>
+                <sic>les</sic> <corr>le</corr>
+              </choice> monde,<lb/>
+              et il ne peut y
+          avoir d'impénétrabilité<lb/>
+              qu'après que le déplacement<lb/>
+              qu'elle arrête est connu et<lb/>
+              voulu à
+          l'aide de la mémoire,<lb/>
+              et de l'étendue phénoménale.</item>
+          </list>
+        </p>
+        <p xml:id="L1815-06-05-a-p23">
+          <pb n="285"/>Il m'est au reste fort égal que<lb/>
+          vous
+          n'admettiez pas l'épithète de<lb/>
+          <hi rend="underline">causes prohibitives</hi> pour les résistances,<lb/>
+          j'aimerais même mieux
+          celle de<lb/>
+          <hi rend="underline">limites</hi> de l'activité qui indique<lb/>
+          mieux comment ce qui arrête<lb/>
+          les <choice>
+            <sic>mouvemens</sic> <corr>mouvements</corr>
+          </choice>
+          produits par<lb/>
+          l'émesthèse, est comme vous<lb/>
+          le dites avec raison, l'antithèse<lb/>
+          de l'émesthèse,
+          de la cause<lb/>
+          productrice.</p>
+        <p xml:id="L1815-06-05-a-p24">Si vous avez quelque amitié pour<lb/>
+          moi, je vous le demande en
+          grâce, ne prenez un parti<lb/>
+          définitif sur tout cela qu'après avoir<lb/>
+          médité et relu plusieurs
+          fois cette<lb/>
+          lettre. Rappelez-vous aussi que, depuis<lb/>
+          6 ans, vous avez plusieurs fois<lb/> changé
+          d'opinion sur l'origine de la<lb/>
+          connaissance des corps, vous avez en<lb/>
+          quelque sorte épuisé
+          toutes les tentatives<lb/> qu'on peut faire pour l'expliquer<lb/> autrement que comme l'ensemble<lb/>
+          des
+          résistances qui circonscrivent<lb/> le champ de l'activité. Avez-vous jamais<lb/>
+          pu vous satisfaire
+          vous-même ? et<lb/>
+          peut-on voir une explication plus<lb/>
+          simple que celle que vous adoptiez comme<lb/>
+          moi, l'hiver passé ?</p>
+      </div>
+    </body>
+    <back>
+      <div xml:id="L1815-06-05-a-div2">
+        <note resp="#CGA" xml:id="corresp1">(1) Cette lettre, attribuée par <persName>J.-J. Ampère</persName> à <date when-iso="1812">1812</date>, peut être datée
+          de <date when-iso="1815-06">juin 1815</date>. Le rapport de M. <persName>Hallé</persName> sur un mémoire de M. <persName ref="#pers_M401">de Montègre</persName> relatif aux
+          ventriloques a été, en effet, lu et discuté dans la séance du <date when="1815-05-15">15 mai 1815</date>. [Bibliothèque
+          Nationale, N.A.F. ms 14605, f. 134-154].</note>
+       
+      </div>
+    </back>
+  </text>
+</TEI>

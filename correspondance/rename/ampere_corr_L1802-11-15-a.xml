@@ -1,0 +1,299 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 169</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1802-11-15-a">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                  <idno>chemise 393 quarto</idno>
+               <altIdentifier>
+              <idno type="old">L169</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+          
+               <physDesc>
+                  <p>Quatre pages 17 X 21,5 de papier bleuâtre ; adresse à la fin.</p>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness xml:id="L169CGA">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 193-194</biblScope>
+                        </imprint>
+                     </monogr>
+                     
+                  </biblStruct>                 
+                  </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_A366">Ampère, André-Marie</persName>
+          <date when-iso="1802-11-15">15 novembre 1802</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1802-11-15-a">
+      <body>
+         <div xml:id="L1802-11-15-a-div1">
+            <opener>
+          <pb n="953" facs="#ACAS_CRHST_AMP_26_393_quarto_0225_r.jpg"/>
+          <date when="1802-11-15">Lundi [15 novembre 1802]</date>
+        </opener>
+            <p xml:id="L1802-11-15-a-p1">C'est avec plaisir que<lb/>
+               tu as pris la plume pour<lb/>
+               me donner de bonnes nouvelles<lb/>
+               de ton
+               amie. Quel plus grand<lb/>
+               plaisir, ma trop bonne <persName ref="#pers_C129">Julie</persName>,<lb/>
+               j'ai eu en recevant ta lettre<lb/>
+               ce
+               matin, en apprenant<lb/>
+               que tu te <choice>
+            <sic>trouve</sic> <corr>trouves</corr>
+          </choice> mieux<lb/>
+               et que tu n'es plus tourmentée<lb/>
+               de ces
+               affreuses pincées ! Après<lb/>
+               t'avoir quittée, je trouvai<lb/>
+               MM. <persName ref="#pers_P447">Petetin</persName> et <persName ref="#pers_P1643">Petit</persName>
+          <lb/>
+               qui venaient de voir<lb/>
+               conjointement <supplied>celui</supplied> pour qui<lb/>
+               ils avaient fait consultation<lb/>
+               il y a
+               <choice>
+            <sic>6 six</sic> <corr>six</corr>
+          </choice> semaines. Le<lb/>
+               premier me promit de<lb/>
+               t'aller voir le soir ; dis-moi,<lb/>
+               je t'en prie,
+               s'il a tenu parole !<pb n="954" facs="#ACAS_CRHST_AMP_26_393_quarto_0226_v.jpg"/>
+               Le second me <choice>
+            <sic>racconta</sic> <corr>raconta</corr>
+          </choice>
+          <lb/>
+               que le malade qu'ils venaient<lb/>
+               de voir avait il
+               y a<lb/>
+               six semaines le ventre<lb/>
+               plus gros et plus plein<lb/>
+               de duretés que n'a jamais<lb/>
+               été le
+               tien. On lui a<lb/>
+               fait prendre le petit-lait<lb/>
+               avec le cerfeuil, les cloportes<lb/>
+               et une tisane qu'il nomme<lb/>
+               d'araville ; cet homme est<lb/>
+               si bien guéri qu'il ne reste<lb/>
+               aucune trace de sa maladie.</p>
+            <p xml:id="L1802-11-15-a-p2">Du <date when="1802-11-16">mardi</date>
+          <lb/>
+               Tu me diras qu'un homme<lb/>
+               n'a pas de dépôt de lait.
+               Quoi qu'il<lb/>
+               en soit, M. <persName ref="#pers_P1643">Petit</persName> croit que,<lb/>
+               si tu pouvais reprendre le petit<supplied>-lait</supplied>
+          <lb/>
+               de cerfeuil, tu <choice>
+            <sic>serait</sic> <corr>serais</corr>
+          </choice> bientôt<lb/>
+               guérie. Je l'ai engagé à t'aller<pb n="955" facs="#ACAS_CRHST_AMP_26_393_quarto_0227_r.jpg"/>
+               voir pour te donner un
+               nouveau<lb/>
+               régime ; je voudrais bien que<lb/>
+               tu <choice>
+            <sic>pus</sic> <corr>pusses</corr>
+          </choice> le suivre. Dis à <persName ref="#pers_C125">élise</persName>
+          <lb/>
+               tout ce que tu
+               pourras de<lb/>
+               plus joli pour moi. Je ne<lb/>
+               lui dis pas adieu tout haut<lb/>
+               parce que je ne
+               voulais pas<lb/>
+               que tu susses que je partais<lb/>
+               tout de bon. Mais je lui<lb/>
+               disais tout bas : <cit>
+            <quote>Adieu, ma chère<lb/>
+                  et bonne sœur, sois bien<lb/>
+                  heureuse en rendant<lb/>
+                  heureuse ma <persName ref="#pers_C129">Julie</persName>,
+               dont<lb/>
+                  tu vas être la seule ressource<lb/>
+                  loin de sa maman et de<lb/>
+                  son mari !</quote>
+          </cit> Je ne sais pas<lb/>
+               pourquoi tu crois que ma<lb/>
+               <persName ref="#pers_C129">Julie</persName> me parle quelquefois<lb/>
+               avec humeur. Quand elle<lb/>
+               me gronde, elle a toujours<lb/>
+               trop de raison de le faire<pb n="956" facs="#ACAS_CRHST_AMP_26_393_quarto_0228_v.jpg"/>
+               et elle est trop bonne de ne<lb/>
+               me
+               pas gronder davantage.<lb/>
+               Baise bien mon petit de la<lb/>
+               part de son papa de <placeName>Bourg</placeName> !<lb/>
+               J'attends de ses nouvelles et<lb/>
+               des tiennes avec toute l'impatience<lb/>
+               possible. Je
+               t'écrirai de plus longs<lb/>
+               détails par <persName ref="#pers_P457">Pochon</persName>. J'ai fait tout<lb/>
+               mon voyage en voiture. Je suis<lb/>
+               ici logé <choice>
+            <sic>en</sic> <corr>et</corr>
+          </choice> nourri en prince<lb/>
+               pour rien. J'ai reçu 11 louis ce<lb/>
+               matin ; <persName ref="#pers_P457">Pochon</persName>
+               t'en portera 10. <lb/>
+               Je t'embrasse mille et mille fois. <persName ref="#pers_A366">A. AMPÈRE</persName>.</p>
+            <closer>A <choice>
+            <sic>monsieur<lb/>
+               monsieur</sic> <corr>monsieur</corr>
+          </choice> <persName>Richard</persName>
+          <lb/>
+               chez les frères <persName ref="#pers_P443">Périsse</persName>
+          <lb/>
+               libraire <placeName> rue<lb/>
+                  Mercière, n° 15</placeName>,<lb/>
+               p<ex>ou</ex>r remettre s<ex>'il</ex> l<ex>ui</ex> p<ex>lait</ex> à Madame <persName ref="#pers_C129">Ampère-Carron</persName>,<lb/>
+               à <placeName>Lyon</placeName>.</closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1802-11-15-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages 17 x 21,5cm de papier bleuâtre ; adresse à la
+               fin. Cette lettre, qui répond à celle de <persName ref="#pers_C129">Julie</persName> du <date when="1802-11-13">13 novembre</date>, a été écrite au retour
+               des vacances. Mme <persName ref="#pers_C1171">Cheuvreux</persName> en a publié quatre lignes, p. 258.</note> 
+         </div>
+      </back>
+   </text>
+</TEI>

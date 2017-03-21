@@ -1,0 +1,238 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 569</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1818-10-16-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 543-544</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L569</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L569manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 379</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Quatre pages in-4° sans adresse.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1818-10-16">16 octobre
+                        1818</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_A10" type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1818-10-16-a">
+      <body>
+         <div xml:id="L1818-10-16-a-div1">
+            <opener>
+          <pb n="267" facs="#ACAS_CRHST_AMP_25_379_0267_r.jpg"/>
+          Ce <date when="1818-10-16">16 <choice>
+              <abbr>8bre</abbr> <expan>octobre</expan>
+            </choice> [1818]</date>
+        </opener>
+            <opener>Mon bon ami,</opener>
+            <p xml:id="L1818-10-16-a-p1"> je suis bien contente que tu t'amuses et que tu
+               profites du beau temps ; tu sais bien que je te l'avais annoncé lorsque tu passas ici
+               quelques jours et qu'il pleuvait ; je te dis que cela ne durerait pas. J'ai parlé à
+               ton papa du livre de M. <persName ref="#pers_J323">de Jussieu</persName> et il l'achètera.</p>
+            <p xml:id="L1818-10-16-a-p2">Quant au piano, il n'y a rien de
+               décidé et même il paraît que l'on sera obligé d'en louer un, parce qu'il serait
+               difficile d'en acheter un dans ce moment à cause des réparations de la maison et des
+               dépenses qu'elle entraîne.</p>
+            <p xml:id="L1818-10-16-a-p3">Ta chambre est entièrement achevée. J'ai été, il y a
+               quelques jours, chez ta tante  passer une partie de la journée et je suis
+               revenue dîner avec <persName ref="#pers_C1128">élisa</persName> et<pb n="268" facs="#ACAS_CRHST_AMP_25_379_0268_v.jpg"/> ton oncle ; ta tante n'est pas venue à cause de l'odeur
+               de la peinture. Nous avons beaucoup parlé de toi ; <persName ref="#pers_C1128">élisa</persName> a dû t'écrire.</p>
+            <p xml:id="L1818-10-16-a-p4">Tu parles de
+               la moitié de l'entresol ; mais, depuis, l'autre moitié est louée à M. <persName ref="#pers_D190">Despretz</persName> que tu
+               as vu à la maison, qui s'occupe de chimie ; il y entrera au mois de janvier.</p>
+            <p xml:id="L1818-10-16-a-p5">Adieu,
+               mon ami, je t'embrasse de tout mon cœur. <lb/>
+               <persName>J. Ampère</persName>.</p>
+      </div>
+         <div xml:id="L1818-10-16-a-div2">
+            <p xml:id="L1818-10-16-a-p6">Mon bon ami, j'ai reçu tes trois
+               lettres et, si je n'y ai pas répondu encore aussi au long que je l'aurais voulu,
+               c'est que je suis, entre beaucoup d'autres occupations indispensables, chargé de
+               faire pour demain lundi un rapport sur les cours d'analyse et de mécanique que <persName ref="#pers_C132">Cauchy</persName>
+               et moi faisons à l'<orgName>école Polytechnique</orgName> : rapport qui n'est pas achevé et qui est
+               d'autant plus important qu'il s'agit de justifier et de faire adopter par le <orgName>Conseil
+                  de perfectionnement</orgName> ces changements<pb n="269" facs="#ACAS_CRHST_AMP_25_379_0269_r.jpg"/> que nous avons proposé de concert de faire au
+               programme de ces cours, surtout à celui du cours de mécanique.</p>
+            <p xml:id="L1818-10-16-a-p7">Dès que je serai
+               quitte de la rédaction de ce rapport et de la correction des dernières feuilles de
+               mon mémoire qu'on imprime actuellement et où il ne reste pas beaucoup à faire, je
+               t'écrirai la longue lettre que j'ai voulu t'écrire plusieurs fois, sans trouver le
+               temps nécessaire seulement pour en écrire une partie.</p>
+            <p xml:id="L1818-10-16-a-p8">J'ai été en masse tout à fait
+               content de ce que tu m'écris dans ces trois lettres ; mais, dans les détails,
+               j'aurais bien des observations à te faire. Ce n'est pas dans une lettre qu'on peut
+               les développer ; nous ne parlerons, si tu veux, que de cela d'abord à ton retour. Il
+               est très vrai que le but de l'homme n'est<pb n="270" facs="#ACAS_CRHST_AMP_25_379_0270_v.jpg"/> pas cette vie ; ses plus nobles facultés se
+               rapportent à une autre existence ; elles seraient de vrais contresens dans l'être
+               borné à une durée si bornée, elles qui s'élèvent à l'infini et saisissent
+               l'éternité ; il n'y a point des contresens pareils possibles. Je voudrais pouvoir te
+               développer cette idée qui m'avait tant frappé à ton âge ; mais il faut retourner au
+               rapport. Tu sais tout ce dont je te charge pour les personnes de la famille <persName ref="#pers_J323">de
+               Jussieu</persName>. Je suis charmé d'apprendre l'existence du père, l'ami dont <persName ref="#pers_J323">de Jussieu</persName> ne
+               m'avait point parlé. Ta chambre est entièrement prête, toute repeinte il y a déjà
+               plusieurs jours ; elle t'attend, ou plutôt c'est moi qui t'attends avec l'impatience
+               de la plus tendre amitié. Marque-moi l'époque où je pourrai t'embrasser !</p>
+            <p xml:id="L1818-10-16-a-p9">Ma cousine est venue se plaindre de ce que ma sœur ne t'avait pas parlé d'elle ; elle m'a
+               chargé de réparer cette faute en te faisant mille amitiés de sa part. Je t'embrasse
+               un million de fois. Ton tendre père <ref target="#corresp2">(2)</ref>. <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+            <closer>chez M. <persName ref="#pers_J323">de Jussieu</persName> à <placeName>Vanteuil</placeName> </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1818-10-16-a-div3">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4° sans adresse. Quelques lignes ont été
+               publiées par Mme <persName ref="#pers_C1171">Cheuvreux</persName>, p. 143.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) La correspondance de <persName ref="#pers_B94">Bredin<ref xml:id="pers_B94"/>
+          </persName> mentionne trois
+               lettres d'<persName>Ampère</persName> à <persName ref="#pers_B94">Bredin<ref xml:id="pers_B94"/>
+          </persName> le <date when="1818-10-23">23 octobre 1818</date>, le <date when="1818-12-01">1er décembre</date> et le <date when="1818-12-25">25 décembre</date>, qui
+               nous manquent, sauf le fragment 335 rapporté hypothétiquement au <date when="1818-12-01">1er décembre</date>.
+            </note>
+         </div>
+      </back>
+   </text>
+</TEI>

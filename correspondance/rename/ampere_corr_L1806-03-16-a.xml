@@ -1,0 +1,318 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 289</title>
+            <author>Ballanche, Pierre-Simon</author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1806-03-16-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">I.</biblScope>
+                     <biblScope type="pp">p. 299-300-301-302-303</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L289</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L289manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 332</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Dix pages in-4° ; la dernière déchirée en haut.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_B33" type="sender">Ballanche, Pierre-Simon</persName>
+          <date when-iso="1806-03-16">16 mars 1806</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_A366" type="adressee">Ampère, André-Marie</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1806-03-16-a">
+      <body>
+         <div xml:id="L1806-03-16-a-div1">
+            <opener>
+          <pb n="10" facs="#ACAS_CRHST_AMP_24_332_0010_r.jpg"/>
+          <date>Lyon</date> le <date when="1806-03-16">16 mars [1806]</date>
+        </opener>
+            <p xml:id="L1806-03-16-a-p1">J'ai reçu, mon cher ami, votre énorme lettre du 10 ; elle m'a horriblement fatigué.
+               Le pis de tout cela, c'est que je n'ai absolument rien à vous dire, aucun conseil à
+               vous donner. Nous sommes deux misérables créatures, à qui les inconséquences ne
+               coûtent rien. Un brasier est dans votre cœur <ref target="#corresp2">(2)</ref>, le néant s'est logé dans le mien.
+               Vous tenez beaucoup trop à la vie et j'y tiens trop peu. Vous êtes trop passionné et
+               j'ai trop d'indifférence. Mon pauvre ami, nous sommes tous les deux bien à plaindre.
+               Vous avez été ces jours-ci l'objet de toutes mes pensées et voilà ce que je crois à
+               votre sujet.</p>
+            <p xml:id="L1806-03-16-a-p2">Il faut que vous quittiez <placeName>Paris</placeName>, que vous renonciez aux projets que vous
+               aviez formés en y allant, parce que vous ne pourrez jamais trouver, je ne dis pas le
+               bonheur, mais au moins le repos, dans cette solitude de tout ce qui tient à vos
+               affections. L'air natal vous vaudra encore mieux ; il sera peut-être un baume pour
+               votre mal. <persName ref="#pers_J318">Camille Jordan</persName> part pour <placeName>Paris</placeName>. Il a le projet de former à <placeName>Lyon</placeName> un salon
+               des Arts qui serait organisé à peu près comme les<orgName> Athénées de <placeName>Paris</placeName>
+               </orgName>. Il y aurait<pb n="11" facs="#ACAS_CRHST_AMP_24_332_0011_v.jpg"/>
+               différents cours. <persName ref="#pers_J318">Camille<ref xml:id="pers_J318"/>
+          </persName> m'a consulté sur les professeurs dont on pourrait faire
+               choix. Je lui ai parlé de vous ; je lui ai dit que vous aviez le plan d'une espèce de
+               cours qui serait bien fait pour réussir ; ce serait d'embrasser toutes les sciences
+               et d'en enseigner ce qui serait suffisant pour ne pas y être étranger, d'en saisir
+               les faits généraux, d'en faire apercevoir les points de contact et de donner ce qu'on
+               pourrait appeler la philosophie ou la génération de toutes les connaissances
+               humaines. Je m'explique sans doute mal ; mais vous savez ce que je veux dire.</p>
+            <p xml:id="L1806-03-16-a-p3">
+          <persName ref="#pers_J318">Camille<ref xml:id="pers_J318"/>
+          </persName>
+               m'a dit qu'il vous consulterait à ce sujet. Il croit que vous seriez un homme très
+               utile dans l'établissement qu'il projette, à cause de la variété de vos
+               connaissances. Il croit aussi qu'il serait intéressant pour la ville de ramener un
+               homme tel que vous dans ses murs. Il vous aime et vous estime beaucoup. Je n'ai pas
+               l'adresse de <persName ref="#pers_J318">Camille<ref xml:id="pers_J318"/>
+          </persName> ; il ne m'en a pas donné d'autre que celle de <persName ref="#pers_D272">Degérando</persName>. Tâchez
+               de le voir ; de son côté il cherchera aussi à vous voir. Vous devez par conséquent
+               bien venir<pb n="12" facs="#ACAS_CRHST_AMP_24_332_0012_r.jpg"/> à bout de vous rencontrer. II y a seulement une circonstance qui doit vous
+               engager à faire de sorte que ce soit le plus tôt possible. Le maire de notre ville
+               est dans ce moment à <placeName>Paris</placeName> ; <persName ref="#pers_J318">Camille<ref xml:id="pers_J318"/>
+          </persName> l'y trouvera encore et pourra lui parler de vous
+               selon ce que vous aurez dit. Voilà donc le projet auquel je vous conseille de vous
+               arrêter, c'est de profiter du moment où le maire et <persName ref="#pers_J318">Camille<ref xml:id="pers_J318"/>
+          </persName> sont tous les deux à
+               <placeName>Paris</placeName> pour tâcher d'arranger avec ce dernier quelque chose qui vous soit agréable
+               d'abord et utile ensuite. Il est sûr qu'outre le cours du Salon des Arts, vous
+               pourriez avoir, comme autrefois, des cours particuliers, ou travailler à quelque
+               ouvrage. Vous seriez ici avec vos amis ; vous éviteriez les abîmes de la solitude ;
+               vous vous retrouveriez peut-être. Si une fois vous pouviez compter sur une existence
+               agréable et honorable, vous pourriez vous associer une femme de votre choix et qui
+               parviendrait peut-être à combler le vide qu'a laissé dans votre cœur la perte de vos
+               anciennes affections. Je sais, mon pauvre et cher ami, tout ce que vous pouvez me
+               répondre ; je sais qu'un second mariage dans cette ville vous répugnerait ;<pb n="13" facs="#ACAS_CRHST_AMP_24_332_0013_v.jpg"/> mais, de
+               bonne foi, cette répugnance n'est-elle pas un enfantillage ? Eh, mon Dieu, dans ce
+               monde où tous les sentiments s'affaiblissent, où toutes les douleurs morales
+               finissent, on trouvera très naturel votre second mariage. On croira qu'il est le
+               fruit de l'inconstance de nos affections et de l'instabilité de nos sentiments, même
+               les plus vifs et les plus profonds ; mais ceux qui connaissent mieux le coeur humain,
+               ceux qui auront étudié un peu le vôtre, ceux enfin dont l'opinion et l'amitié peuvent
+               être quelque chose pour vous sauront bien que votre âme expansive a besoin d'une
+               autre âme qui réponde à chaque instant à la vôtre. Ainsi, dans tous les cas, vous
+               serez justifié ; les indifférents, comme vos connaissances et vos amis, trouveront
+               cela très naturel. Voyez, mon cher ami, à quoi vous êtes exposé ; voyez les folies,
+               permettez-moi ce mot, auxquelles vous pouvez vous livrer ! La solitude ne vous vaut
+               rien non plus qu'à moi. Revenez au milieu de vos amis et mariez-vous dans votre
+               patrie !</p>
+            <p xml:id="L1806-03-16-a-p4"> Je dois cependant vous prévenir que tout ce que je viens de vous dire est
+               très subordonné aux circonstances. Voyez donc, avant de vous arrêter à mon projet, ce
+               que vous dira <persName ref="#pers_J318">Camille<ref xml:id="pers_J318"/>
+          </persName>. Je désire beaucoup que ce projet<pb n="14" facs="#ACAS_CRHST_AMP_24_332_0014_r.jpg"/> réussisse ; je le désire pour
+               vous et pour moi.</p>
+            <p xml:id="L1806-03-16-a-p5">Mon cher ami, tâchez, en attendant, de vous préserver de ces
+               affections que vous formez ainsi en courant. On dirait que vous cherchez à vous
+               débarrasser de votre cœur, vous le jetez à qui se trouve là. Il n'y aurait pas
+               d'inconvénient si l'objet de cette affection passagère était d'une condition égale ou
+               au-dessus de la vôtre ; mais vous savez bien, mon cher, que, dans l'état actuel de la
+               société, vous ne pouvez pas prétendre à une femme d'une grande fortune ou d'un grand
+               nom. Si donc vous avez le malheur, - et cela peut vous arriver très souvent puisque
+               c'est la chose dont vous vous inquiétez le moins et qu'un mariage de convenance est à
+               vos yeux une monstruosité - si donc, vous dis-je, vous avez le malheur d'être séduit
+               par une personne avec qui vous ne puissiez pas vous marier, qu'arrivera-t-il ? Ne
+               venez pas me dire que cela ne dépend pas de vous ! Au risque de vous fâcher, je dois
+               vous dire ici la vérité. Vous êtes trop peu accoutumé à vous modérer ; vous ne savez
+               pas encore ce que c'est que de résister à vos penchants, et c'est ainsi que vous vous
+               exposez à les faire devenir de véritables passions. Croyez-vous donc que tout aille
+               dans le monde au<pb n="15" facs="#ACAS_CRHST_AMP_24_332_0015_v.jpg"/> gré de chacun ? Comptez-vous donc pour rien cette grande vassalité
+               qui nous soumet et nous entraîne à chaque instant ? étudiez votre cœur, descendez
+               dans votre âme et, lorsque vous apercevrez un sentiment nouveau, cherchez à voir s'il
+               est raisonnable. N'attendez pas, pour éteindre un feu de cheminée, que ce soit devenu
+               un grand incendie. Il y a des malheurs sans remède, il faut nous consoler ; il y a
+               des malheurs que notre faute a occasionnés ou inspirés, il faut nous corriger. Les
+               plus petites choses vous agitent, que doit-ce être des plus grandes ? Vous prenez
+               quelque intérêt à une jeune personne et de suite vous vous imaginez que c'est de
+               l'amour. Vous caressez cette illusion sans vous informer si la personne est libre ou
+               non, si elle peut être à vous ou non ; et, lorsque vous êtes désabusé, vous êtes tout
+               à fait amoureux.</p>
+            <p xml:id="L1806-03-16-a-p6">Je vous en conjure, commencez un apprentissage nouveau ;
+               modérez-vous sur les choses importantes ! N'attachez pas du prix à des niaiseries et
+               vous parviendrez à bien apprécier les objets graves.<pb n="16" facs="#ACAS_CRHST_AMP_24_332_0016_r.jpg"/> Je ne vous parlerai que peu de
+               moi parce que vous me grondez de prendre un parti sur lequel je vous consultais. J'ai
+               encore ici reconnu votre caractère indomptable. Ce n'était point des emportements que
+               je vous demandais, c'était des avis. Je sais que, dans le moment où vous m'avez
+               répondu, vous n'étiez pas assez raisonnable pour me donner des avis ; mais j'espère
+               que vous serez plus calme cette fois-ci et que vous me parlerez un langage dégagé de
+               passion. Vous motiverez les raisons qui vous font me détourner de mon projet ; je
+               vous ferai les objections que je croirai devoir faire ; vous les combattrez à votre
+               tour ; et peut-être que nous parviendrons à nous éclairer mutuellement.</p>
+            <p xml:id="L1806-03-16-a-p7">En attendant,
+               mon cher ami, je vous prie de prendre quelques informations qui peuvent m'être utiles ; mais je voudrais que vous le fissiez sans me compromettre et sans vous compromettre
+               vous-même. Comme mon projet est bien loin d'être arrêté, il faut que j'examine bien,
+               avant de me déclarer, pour ne pas m'exposer à passer pour un fou. Mais, en attendant,
+               il est bon que je me mette en mesure. Sachez donc quelle vie on mène au séminaire de
+               <placeName>Paris</placeName>, quel en est à peu près le régime intérieur, non pas pour<pb n="17" facs="#ACAS_CRHST_AMP_24_332_0017_v.jpg"/> le boire et le
+               manger, car cela m'est absolument égal. Je voudrais seulement savoir quelle somme
+               d'exercices de piété on exige dans la journée, quelle somme de temps on a pour être
+               seul avec soi-même, quelles sont les études qu'on y fait, à part la théologie et la
+               philosophie, etc. Je voudrais savoir encore si l'on ne peut pas mêler à tout cela
+               quelque étude étrangère, comme par exemple le grec et l'hébreu. Il me passe par la
+               tête d'étudier les preuves de la Religion dans les sources mêmes ; je ne puis le
+               faire qu'en m'y livrant entièrement et exclusivement. Il faut donc que je quitte le
+               monde et que j'embrasse l'état ecclésiastique. Croyez-moi, mon cher, je pourrais
+               faire quelque bien dans cet état-là ; et c'est une considération qui ne peut pas être
+               indifférente. Que savez-vous, je pourrais trouver la lumière. Dieu exige peut-être
+               que j'emploie toutes mes facultés à cette recherche importante. Il donne la foi aux
+               simples ; mais, comme j'ai le malheur d'être, au contraire, très peu simple,
+               c'est-à-dire d'être très mauvais, il veut peut-être ne m'accorder ce don qu'autant
+               que je lui dévouerai toutes mes facultés. Si une fois je venais à être convaincu, je
+               pourrais en convaincre bien d'autres ; car ensuite il<pb n="18" facs="#ACAS_CRHST_AMP_24_332_0018_r.jpg"/> y a une inspiration qui tient à
+               la conviction intime ; cette inspiration produit une éloquence entraînante et pour
+               ainsi dire contagieuse, celle de missionnaires. Voilà toute mon hypocrisie, mon cher ; dites-moi si vous la condamnez. Mais mettez-vous bien dans la tête que, si je
+               continue à faire comme je fais, je serai toute ma vie un misérable hypocrite qui
+               n'aura pas assez de force pour avouer ses véritables sentiments et qui aura même
+               l'impardonnable faiblesse de détester de tout son cœur ceux qui les avoueront.</p>
+            <p xml:id="L1806-03-16-a-p8">Ceux
+               qui nous connaîtraient bien comprendraient la raison des inconséquences de <persName ref="#pers_R1477">J.-J. Rousseau</persName>.</p>
+            <p xml:id="L1806-03-16-a-p9">Mon cher, j'ai brûlé toutes vos lettres ; je vous prie d'agir de même à
+               l'égard des miennes.</p>
+            <p xml:id="L1806-03-16-a-p10">Adieu, mon cher <persName>Ampère</persName>, croyez à toute mon amitié et écrivez-moi
+               le plus souvent que vous pourrez. Votre meilleur ami, <persName>SIMON</persName>.</p>
+            <closer>
+          <pb n="19" facs="#ACAS_CRHST_AMP_24_332_0019_v.jpg"/>A Monsieur <persName ref="#pers_A366">AMPÈRE</persName>, répétiteur d'analyse à l'<orgName>École polytechnique</orgName>, à <placeName>Paris</placeName>.
+            </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1806-03-16-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Dix pages in-4° ;
+               la dernière déchirée dans le bas. La
+               lettre est très nettement datée par le timbre de la poste, <persName ref="#pers_C1171">Cheuvreux</persName> l'a coupée
+               arbitrairement en deux, laissant le début à sa date réelle, page 29 et attribuant la
+               fin à <date when-iso="1805-07">juillet 1805</date>, p. 19.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) <persName>Ampère</persName> est en pleine passion pour <persName ref="#pers_A16">Mlle Potot<ref xml:id="pers_A16"/>
+          </persName> qu'il
+               finira par épouser. Il a dû y faire allusion en écrivant à <persName>Ballanche</persName> qui s'en
+               inquiète. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

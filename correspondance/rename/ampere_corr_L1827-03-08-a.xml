@@ -1,0 +1,216 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 705</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1827-03-08-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1943">1943</date>
+                     <biblScope type="tome">III.</biblScope>
+                     <biblScope type="pp">p. 944-945</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L705</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L705manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <repository>Collection particulière (héritiers du destinataire)
+                           [note de Louis DE LAUNAY]</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Deux pages in-4°, adresse sur la quatrième. [note de Louis DE LAUNAY]</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1827-03-08">8 mars 1827</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Quételet, Adolphe</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1827-03-08-a">
+      <body>
+         <div xml:id="L1827-03-08-a-div1">
+            <opener>
+          <placeName>Paris</placeName>
+          <date when="1827-03-08">8 mars 1827</date>
+        </opener>
+            <p xml:id="L1827-03-08-a-p1">Monsieur et très cher ami, je suis vraiment honteux de n'avoir pas répondu plus tôt à
+               la dernière lettre que vous m'avez fait l'honneur de m'écrire. Je vous remercie
+               d'avoir bien voulu présenter à l'<orgName>Académie de <placeName>Bruxelles</placeName>
+          </orgName> l'exemplaire de mon dernier
+               Ouvrage que je vous avais prié de lui remettre. Je désirerais, quand on imprimera
+               dans ses Mémoires, celui que je vous donnai pour elle à votre premier voyage ici,
+               qu'on m'en tirât cent exemplaires au prix que vous me marquez et qui a été fixé par
+               l'<orgName>Académie de <placeName>Bruxelles</placeName>
+          </orgName> d'une manière propre à encourager les auteurs et remarquable
+               par le sentiment vraiment libéral qui a dicté cette mesure. Cela me fera cent douze
+               exemplaires qui me suffiront pour en donner à tous ceux à qui je puis désirer d'en
+               offrir. Je vous prierai, quand on vous les remettra pour me les faire passer, d'en
+               garder une demi-douzaine, dont un pour vous, Monsieur, et les autres que vous me
+               feriez le plaisir de faire parvenir de ma part à vos savants compatriotes, MM.
+               <persName>Garnier</persName>, <persName ref="#pers_V1802">Van der Heyden</persName>, <persName ref="#pers_B45">Van Beek</persName>, <persName>
+            <choice>
+              <sic>Molle</sic> <corr>Moll</corr>
+            </choice>
+          </persName>, <persName>de Néflizz</persName> et, pour le cinquième,
+               celui à qui vous jugerez que cela pût être agréable.</p>
+            <p xml:id="L1827-03-08-a-p2">Je vous dois encore, Monsieur,
+               un reste de compte pour des avances que vous avez faites pour moi, relativement aux
+               exemplaires que vous m'avez fait parvenir par la poste. J'ai prié M. <persName ref="#pers_H827">Hubert</persName> de vous
+               demander dans une lettre qu'il me dit devoir vous écrire de suite, le montant de
+               cette dette, afin que je le lui remette. S'il a oublié de vous le demander,
+               faites-moi le plaisir de l'écrire ou à lui, ou mieux encore à moi, j'irai sur le
+               champ chez lui m'acquitter, car c'est un chagrin pour moi de ne l'avoir pas encore
+               fait.</p>
+            <p xml:id="L1827-03-08-a-p3">Je n'ai pas reçu l'exemplaire de votre Traité d'astronomie <ref target="#ampere_ref_P411.xml">*</ref>. Je me fais un grand plaisir de le lire et je
+               vous en remercie d'avance. Je pense que votre éditeur, dont je ne sais ni le nom ni
+               l'adresse, me le fera parvenir puisque vous avez eu la bonté de l'en charger.</p>
+            <p xml:id="L1827-03-08-a-p4">Ma sœur
+               a été bien sensible au souvenir de <persName>Mme Quetelet</persName> ; elle vous prie ainsi que moi, de
+               vouloir bien lui offrir l'hommage de nos respects.</p>
+            <p xml:id="L1827-03-08-a-p5">Je vous prie aussi, Monsieur et
+               bien cher ami, d'agréer celui de ma sincère amitié et de mon entier dévouement. Tout
+               à vous.<lb/> <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+            <closer>à M. <persName ref="#pers_Q473">Quetelet</persName>, professeur de mathématiques et de physique à l'<orgName>Athénée de
+               <placeName>Bruxelles</placeName>
+          </orgName>, professeur d'astronomie, membre de plusieurs Sociétés savantes, etc., à
+               <placeName>Bruxelles</placeName>, royaume des <placeName>Pays-Bas</placeName> </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1827-03-08-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Deux pages in-4°, adresse sur la quatrième. Communiqué par
+               M. <persName>G. Quetelet</persName>.</note>
+          
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,195 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 777</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1832-04-00-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1943">1943</date>
+                     <biblScope type="tome">III.</biblScope>
+                     <biblScope type="pp">p. 959</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L777</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L777manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <repository>Collection Noël Bodin [note de Louis DE
+                           LAUNAY]</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Deux pages 14 x 21, adresse sur la quatrième. Le papier porte un en-tête
+                           : Imprimerie de Auguste Mie et Henri Rivail, rue Jocquelet, n° 9, place
+                           de la Bourse. [note de Louis DE LAUNAY]</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1832-04-00">avril 1832</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_R496" type="adressee">Rivail, Henri (neveu d'Ampère)</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1832-04-00-a">
+      <body>
+         <div xml:id="L1832-04-00-a-div1">
+            <opener>
+          <date when-iso="1832-04">[Avril 1832]</date>
+        </opener>
+            <p xml:id="L1832-04-00-a-p1">[Le papier porte un en-tête : Imprimerie de <persName>Auguste Mie</persName> et <persName ref="#pers_R496">Henri Rivail</persName>, <placeName>rue
+               Jocquelet, n° 9</placeName>, <placeName>place de la Bourse</placeName>.]
+               Mon bien cher neveu. Je suis venu vous voir
+               pour savoir des nouvelles de notre bien aimée <persName ref="#pers_C1128">éliza</persName>. On me dit qu'elle va de mieux en
+               mieux et c'est avec un vif bonheur que je l'entends. Oh, que de soins à avoir pour
+               que bientôt elle soit aussi bien portante qu'avant ce terrible accident ! Je voulais
+               aussi vous parler de la note que nous écrivîmes hier pour <title>la Tribune</title>. Je suis assez
+               mécontent du souvenir qui m'en reste pour la tournure. Combien mon fils aurait mieux
+               dit cela que je n'ai pu le dire. Si elle n'est pas déjà au journal, que vous seriez
+               aimable, si vous étiez si bon que de la lui communiquer pour qu'il l'arrangeât. Mille
+               et mille remerciements.</p>
+            <p xml:id="L1832-04-00-a-p2">Si vous pouviez retrouver la note de M. <persName ref="#pers_M379">Martin</persName> sur la
+               guérison d'un cholérique <ref target="#corresp2">(2)</ref> que je vous avais remise sur la promesse que vous
+               m'aviez faite de me la renvoyer, je vous prie de la mettre à la poste sous une
+               enveloppe à mon adresse. Je n'en ai point de copie et j'aurais besoin d'en faire
+               faire quelques-unes pour les emporter avec moi et les donner sur ma route dans les
+               villes où viendrait à se manifester le choléra. Tout à vous, très cher et excellent
+               Henri.<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName> Vendredi matin.</p>
+            <closer>Monsieur <persName ref="#pers_R496">Rivail</persName>, imprimeur, <placeName>rue Jocquelet</placeName>, <placeName>Paris</placeName>.</closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1832-04-00-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Coll. <persName ref="#pers_B1055">Bodin</persName>. Deux pages 14 x 21, adresse sur la quatrième. </note>
+            <note resp="#CGA" xml:id="corresp2">(2) Voir Lettre <ref type="correspondance" target="#ampere_corr_L1832-04-10-a">L1832-04-10-a</ref>. </note>
+            
+         </div>
+      </back>
+   </text>
+</TEI>

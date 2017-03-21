@@ -1,0 +1,398 @@
+<?xml-model href="../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 105</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1802-04-08-a">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                  <idno>chemises 392 et 393 quarto</idno>
+               <altIdentifier>
+              <idno type="old">L105</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+          
+               <physDesc>
+                  <p>Huit pages in-4° de 19,5 X 22,5 ; adresse sur la dernière.</p>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness xml:id="L105CGA">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 127-128</biblScope>
+                        </imprint>
+                     </monogr>
+                     
+                  </biblStruct>
+                 </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_A366">Ampère, André-Marie</persName>
+          <date when-iso="1802-04-08">8 avril 1802</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1802-04-08-a">
+      <body>
+         <div xml:id="L1802-04-08-a-div1">
+            <opener>
+          <pb n="1275" facs="#ACAS_CRHST_AMP_26_393_quarto_0547_r.jpg"/> Le <date when="1802-04-08">Jeudi soir [8 avril 1802]</date>
+        </opener>
+            <p xml:id="L1802-04-08-a-p1">Jamais, ma bonne amie, je n'ai<lb/>
+               eu moins de <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice> à moi. J'examine<lb/>
+               devant M. <persName ref="#pers_A28">d'Avrieux</persName>, tous les<lb/>
+               élèves de M. <persName ref="#pers_C150">Clerc</persName> ; chacun<lb/>
+               reste <add>près</add> d'une heure chaque fois<lb/>
+               et passe 2 fois, dans la forme<lb/>
+               d'examen qu'on a adoptée.<lb/>
+               Heureusement qu'on <choice>
+            <sic>renvoye</sic> <corr>renvoie</corr>
+          </choice>
+          <lb/>
+               plutôt ceux qui sont très<lb/>
+               faibles ; car il y en a en tout, je<lb/>
+               crois, près de quarante. On ne<lb/>
+               s'interrompt que pour dîner<lb/>
+               depuis huit heures du matin<lb/>
+               jusqu'à la nuit. L'examen<lb/>
+               cessé, et la tête bien lardée<lb/>
+               de mathématiques, je vais faire<lb/>
+               un tour avec M. <persName ref="#pers_C150">Clerc</persName>, qui<lb/>
+               est à mon avis le phénix<lb/>
+               de <placeName>Bourg</placeName>. Et nous causons<pb n="1276" facs="#ACAS_CRHST_AMP_26_393_quarto_0548_v.jpg"/> de diverses choses qui me conduisent<lb/>
+               au souper. Je t'écris aujourd'hui<lb/>
+               avant de me coucher pour<lb/>
+               te raconter ma vie, et
+               décharger<lb/>
+               un peu mon cœur du poids<lb/>
+               de ses pensées. Depuis 2 jours<lb/>
+               qu'il ne t'en a rien communiqué,<lb/>
+               toutes ces pensées se bornent<lb/>
+               à des triangles, cercles,<lb/>
+               multiplications, règles de trois,<lb/>
+               etc. Mais l'image de ma <persName ref="#pers_C129">Julie</persName>
+          <lb/>
+               est toujours là avec
+               tout ce<lb/>
+               <choice>
+            <sic>fratras</sic> <corr>fatras</corr>
+          </choice>. Que mon <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice> aurait<lb/>
+               passé plus agréablement si<lb/>
+               tu avais été ici, car
+               je n'aurais<lb/>
+               pas paru à l'examen ! Je vois<lb/>
+               que plusieurs professeurs<lb/>
+               s'en dispensent. Mais à présent<lb/>
+               que j'ai commencé, M. <persName ref="#pers_C150">Clerc</persName>
+          <pb n="1277" facs="#ACAS_CRHST_AMP_26_393_quarto_0549_r.jpg"/>
+               me vient chercher lui-même<lb/>
+               et, comme je
+               n'ai point de<lb/>
+               bonnes raisons à donner,<lb/>
+               j'y vais d'autant plus<lb/>
+               volontiers que je sens combien<lb/>
+               il est à propos d'avoir pour<lb/>
+               ses élèves un interrogateur<lb/>
+               qui connaisse la
+               science et<lb/>
+               que M. <persName ref="#pers_C150">Clerc</persName> me rendra<lb/>
+               la pareille à l'examen de<lb/>
+               mes élèves de physique<lb/>
+               qui aura lieu à la fin de<lb/>
+               l'année. L'examen au reste finira samedi.<lb/>
+               Je t'enverrai
+               cette lettre par<lb/>
+               la <persName ref="#pers_P445">Perrin</persName> qui part samedi<lb/>
+               matin. Je t'écrirai encore<lb/>
+               demain en
+               attendant que je<lb/>
+               puisse t'embrasser. J'espère<lb/>
+               toujours te voir à <date>Pâques</date> ; mais<lb/>
+               j'ignore <subst>
+            <del type="illisible"/> <add>combien</add>
+          </subst> durera mon bonheur.<pb n="1278" facs="#ACAS_CRHST_AMP_26_393_quarto_0550_v.jpg"/>
+               Ah, si je pouvais t'amener<lb/>
+               avec moi, ne
+               fût-ce que pour<lb/>
+               un temps bien court ! Comme<lb/>
+               j'aimerais à passer près de toi<lb/>
+               ces jours
+               qui me sont si<lb/>
+               tristes à présent ! Je sais tous<lb/>
+               les obstacles ; mais il ne nous<lb/>
+               en coûterait rien, ma bonne<lb/>
+               amie, que tu <choice>
+            <sic>pris</sic> <corr>prisses</corr>
+          </choice>, avec la <persName ref="#pers_P445">Perrin</persName>,<lb/>
+               pendant qu'elle est à
+               <placeName>Lyon</placeName>,<lb/>
+               les <choice>
+            <sic>arrangemens</sic>
+            <corr>arrangements</corr>
+          </choice> nécessaires ;<lb/>
+               que tu <choice>
+            <sic>sus</sic> <corr>susses</corr>
+          </choice> si elle pourra<lb/>
+               nous procurer un pliant,<lb/>
+               des chaises, etc. ; comment<lb/>
+               tu t'arrangerais avec elle.<lb/>
+               Si tu envoyais aussi un<lb/>
+               matelas et les autres choses<lb/>
+               nécessaires, elles se trouveraient<lb/>
+               ici pour quand tu y
+               ferais<lb/>
+               un petit voyage, fût-ce<pb n="94" facs="#ACAS_CRHST_AMP_26_392_0094_r.jpg"/> dans bien <choice>
+            <sic>longtems</sic> <corr>longtemps</corr>
+          </choice> ; elles t'attendraient<lb/>
+               ici et j'aurais tant de plaisir<lb/>
+               à les y voir comme le gage<lb/>
+               du bonheur qu'elles me promettraient.<lb/>
+               Adieu, ma bonne, ma trop bonne,<lb/>
+               et bien aimée <persName ref="#pers_C129">Julie</persName>, j'embrasse<lb/>
+               de tout mon cœur les
+               2<lb/>
+               êtres qui le remplissent<lb/>
+               et j'espère qu'ils s'embrassent<lb/>
+               quelquefois à
+               l'intention du<lb/>
+               papa de <placeName>Bou<supplied>rg</supplied>
+          </placeName> ! J'espère que<lb/>
+               la petite joue va bien et<lb/>
+               ne <choice>
+            <sic>rappèle</sic> <corr>rappelle</corr>
+          </choice> plus
+               à ma <persName ref="#pers_C129">Julie</persName>
+          <lb/>
+               les sottises de son mari. Je<lb/>
+               vais me coucher avec les<lb/>
+               douces pensées que
+               m'<choice>
+            <sic>inspirent</sic> <corr>inspire</corr>
+          </choice>
+          <lb/>
+               l'attente de <date>Pâques</date>. Adieu, adieu,<lb/>
+               ma bonne amie, dors bien<lb/> cette nuit !</p>
+            <p xml:id="L1802-04-08-a-p2">Du <date when="1802-04-09">vendredi soir [9 avril 1802]</date>
+          <lb/>
+               Ce jour a passé à l'ordinaire,<lb/>
+               ma bonne amie et, quand<lb/>
+               je pense que mes leçons ne<lb/>
+               recommenceront que lundi,<lb/>
+               je me repens bien d'être<lb/>
+               si vite
+               revenu ! Voilà huit<lb/>
+               jours de bonheur dont<lb/>
+               j'aurais pu enrichir ma<lb/>
+               vie, et dont je
+               n'ai<lb/>
+               retiré que de me lier<lb/>
+               <choice>
+            <sic>d'avantage</sic> <corr>davantage</corr>
+          </choice> avec M. <persName ref="#pers_C150">Clerc</persName>
+          <lb/>
+               et de voir comme les<lb/>
+               examens se
+               font pour<lb/>
+               n'être pas neuf dans six<lb/>
+               mois à celui de mes élèves.<lb/>
+               Je me suis décidé,
+               pour qu'ils<lb/>
+               puissent y paraître forts, à<lb/>
+               bien faire des <choice>
+            <sic>changemens</sic> <corr>changements</corr>
+          </choice>
+          <lb/>
+               dans ma manière
+               d'enseigner<lb/>
+               dont cet examen m'a fait<pb n="95" facs="#ACAS_CRHST_AMP_26_392_0095_v.jpg"/>
+               voir les <choice>
+            <sic>inconveniens</sic> <corr>inconvénients</corr>
+          </choice> : surtout<lb/>
+               celui de parler
+               toujours et<lb/>
+               de ne faire presque jamais<lb/>
+               parler mes élèves.<lb/>
+               J'ai communiqué ce soir<lb/>
+               plusieurs de mes idées<lb/>
+               mathématiques à M. <persName ref="#pers_C150">Clerc</persName> <lb/>
+               et j'ai été satisfait de<lb/>
+               l'impression
+               qu'elles lui ont<lb/>
+               fait. C'est un homme qui<lb/>
+               laisse voir toutes ses pensées<lb/>
+               comme dans
+               un miroir.<lb/>
+               Quand pourrai-je te voir<lb/>
+               ma bonne amie, ma <persName ref="#pers_C129">Julie</persName> ?<lb/>
+               Qui m'aurait dit que
+               nous<lb/>
+               serions ainsi séparés après<lb/>
+               l'heureux instant où j'ai<lb/>
+               cru ne te quitter jamais.<lb/>
+               A <date>Pâques</date>, ma bien-aimée, à<lb/>
+               <date>Pâques</date> ! J'aurai 2 jours de bonheur<pb n="97" facs="#ACAS_CRHST_AMP_26_392_0097_v.jpg"/>
+               et peut-être
+               pourras-tu...<lb/>
+               Mais non, je ne l'espère pas, tu<lb/>
+               ne pourras pas ! Ah ! Ma<lb/>
+               bonne
+               amie, que je voudrais<lb/>
+               t'embrasser ce soir ! Adieu,<lb/>
+               je serre mon petit et sa<lb/>
+               maman sur
+               mon cœur ; mais<lb/>
+               c'est malheureusement de<lb/>
+               12 lieues de distance que je t'aime ! <persName ref="#pers_A366">A.
+               AMPÈRE</persName>.</p>
+            <closer>A <choice>
+            <sic>Madame<lb/> Madame</sic> <corr>Madame</corr>
+          </choice> <persName ref="#pers_C129">Ampère-Carron</persName>,<lb/>
+               <placeName>grande rue Mercière</placeName>,<lb/>
+               maison <persName ref="#pers_R1705">Rosset</persName>, n° 18,<lb/>
+               à <placeName>Lyon</placeName>.
+            </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1802-04-08-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Huit pages in-4° de 19,5 X 22,5 ; adresse sur la
+               dernière.</note>
+            <note resp="CAK_commentaire">Les pages du manuscrit sont dispersées dans plusieurs
+               chemises.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

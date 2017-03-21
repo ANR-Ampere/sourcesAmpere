@@ -1,0 +1,205 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 694</title>
+                <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre
+                        Koyré</affiliation>
+          </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                            sciences</affiliation>
+          </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+          <name>Centre de calcul de
+                    l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:id="ampere_corr_L1826-03-00-a">
+                    <monogr>
+                        <author>
+                            <surname>De Launay</surname>
+                            <forename>Louis</forename>
+            </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gauthier-Villars</publisher>
+                            <date when="1943">1943</date>
+                            <biblScope type="tome">III.</biblScope>
+                            <biblScope type="pp">p. 942</biblScope>
+                        </imprint>
+                    </monogr>
+                    
+                <idno type="old">L694</idno>
+        </biblStruct>
+                <listWit>
+                    <witness xml:id="L694manuscrit">
+            <msDesc type="original_manuscrit">
+                            <msIdentifier>
+                                <repository>Collection particulière (héritiers du
+                                    destinataire) [note de Louis DE LAUNAY]</repository>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>Trois pages in-4°, sans date. [note de Louis DE LAUNAY]</p>
+                            </physDesc>
+                        </msDesc>
+          </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1826-03-00">mars 1826</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Quételet, Adolphe</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+            <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+                    Coustumer</name>
+      </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="correspondance" decls="#ampere_corr_L1826-03-00-a">
+        <body>
+            <div xml:id="L1826-03-00-a-div1">
+                <opener>
+          <date when-iso="1826-03">[fin mars 1826]</date>
+        </opener>
+                <opener>Monsieur et très cher ami,</opener>
+                <p xml:id="L1826-03-00-a-p1"> j'ai mille remerciements à vous faire de l'envoi que
+                    vous avez la bonté de me faire de votre excellent ouvrage périodique <ref target="#ampere_ref_P407.xml">*</ref> sur les mathématiques et la
+                    physique. Je me reproche beaucoup de n'avoir pu, faute de temps, répondre à vos
+                    aimables lettres et d'être obligé de vous écrire d'abord pour ne vous les
+                    présenter que joints à quelques plaintes ; mais je m'y vois forcé par une
+                    circonstance dont je ne puis vous dissimuler tout le chagrin qu'elle m'a causé.
+                    Il s'agit des assurances réitérées que vous m'avez données de faire paraître
+                    dans votre journal l'extrait d'un Mémoire que je vous ai adressé, sur votre
+                    demande, il y a environ trois mois, pour qu'il parut le plus tôt possible. Lors
+                    du dernier numéro que je reçus, je ne doutais pas de l'y trouver, mais mon
+                    attente a été trompée. Cependant, vous comprenez bien que ce que désire surtout
+                    un auteur qui obtient des résultats nouveaux sur un sujet dont d'autres
+                    personnes peuvent s'occuper, c'est de voir ces résultats publiés à temps pour
+                    qu'il ne risque pas de perdre la priorité, et que, si je n'avais pas compté sur
+                    ce que vous m'aviez promis, cet extrait serait déjà publié dans quelque autre
+                    journal scientifique. J'avais voulu en réserver au vôtre la première publication
+                    et je m'en trouve puni.</p>
+                <p xml:id="L1826-03-00-a-p2">Pardonnez-moi, Monsieur et cher ami, de vous parler avec
+                    cette franchise, je crois la devoir à l'amitié dont vous m'avez donné des
+                    preuves dont je conserve le souvenir avec reconnaissance. Je vous prie d'être
+                    bien convaincu que le moment de chagrin que j'ai éprouvé en recevant le cahier
+                    de la correspondance mathématique et physique, où j'espérais trouver mon
+                    extrait, ne saurait rien changer aux sentiments de ma sincère amitié et de ma
+                    haute considération, je vous prie d'en agréer l'expression.<lb/>
+                    <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+                <closer>à M. <persName ref="#pers_Q473">Quetelet</persName>, professeur de mathématiques, de physique et d'astronomie à
+                    l'<orgName>Athénée de <placeName>Bruxelles</placeName>
+          </orgName>, membre de l'<orgName>Académie royale</orgName> de la même ville, à
+                    <placeName>Bruxelles</placeName>, royaume des <placeName>Pays-Bas</placeName>. </closer>
+            </div>
+        </body>
+        <back>
+            <div xml:id="L1826-03-00-a-div2">
+                <note resp="#CGA" xml:id="corresp1">(1) Trois pages in-4°, sans date. Communiqué par M. <persName>G.
+                    Quetelet</persName>.</note>
+               
+            </div>
+        </back>
+    </text>
+</TEI>

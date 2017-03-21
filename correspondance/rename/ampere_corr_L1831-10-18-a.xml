@@ -1,0 +1,234 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 770</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1831-10-18-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 736-737</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L770</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L770manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 379</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Quatre pages in-4°, adresse sur la quatrième.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1831-10-18">18 octobre
+                        1831</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_A10" type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1831-10-18-a">
+      <body>
+         <div xml:id="L1831-10-18-a-div1">
+            <opener>
+          <pb n="600" facs="#ACAS_CRHST_AMP_25_379_0600_r.jpg"/>
+          <placeName>Paris</placeName>
+          <date when="1831-10-18">18 <choice>
+              <abbr>8bre</abbr> <expan>octobre</expan>
+            </choice> 1831</date>
+        </opener>
+            <p xml:id="L1831-10-18-a-p1">Mon cher fils, depuis la lettre que tu m'as écrite de <placeName>Naples</placeName> au moment de t'embarquer
+               pour la <placeName>Sicile</placeName> et à laquelle j'ai répondu courrier par courrier une longue lettre
+               adressée à <placeName>Messine</placeName> comme tu me disais de le faire, je n'ai point eu de tes nouvelles,
+               ni ta sœur non plus. J'avais quelque espérance que tu lui écrirais, ce qui l'aurait
+               comblée de joie dans un moment où elle a eu tant à souffrir des alternatives d'espoir
+               et de crainte qui résultaient des changements de détermination de M. <persName ref="#pers_R491">Ride</persName>, tantôt
+               décidé à partir, tantôt y renonçant, tantôt désirant la séparation de biens, tantôt
+               disant que non et qu'il était prêt à passer cinq ans en Sainte-Pélagie avec les
+               débiteurs insolvables comme lui, etc. Ce sont ces terribles agitations qui l'ont
+               jusqu'à présent empêchée de t'écrire la première comme elle voulait le faire. Des
+               différentes lettres que je t'ai écrites, je suis sûr du moins que tu as reçu celle
+               que j'ai adressée poste restante à <placeName>Palerme</placeName>, car celle-là a dû y arriver bien avant
+               toi. Quant à celle que j'ai écrite ces jours-ci à <placeName>Messine</placeName>, j'ai peur que tu n'aies
+               quitté la <placeName>Sicile</placeName> avant qu'elle y arrive. J'attendais<pb n="601" facs="#ACAS_CRHST_AMP_25_379_0601_v.jpg"/> une lettre de toi qui marquât où
+               il convenait de t'écrire ; mais, comme le directeur de l'école Normale vient de t'en
+               écrire une pour t'annoncer que l'ouverture des cours aura lieu demain, je me hâte de
+               t'en donner avis et, comme je ne sais si tu ne t'embarqueras pas à <placeName>Naples</placeName> pour
+               revenir de suite à <placeName>Marseille</placeName> par le bateau à vapeur, c'est à <placeName>Naples</placeName> que je t'écris.
+               J'irai à l'<orgName>école Normale</orgName> en causer ; mais il me semble que cette circonstance doit
+               hâter ton retour.</p>
+            <p xml:id="L1831-10-18-a-p2">
+          <persName ref="#pers_A951">Albine</persName>, devenue plus tranquille parce que M. <persName ref="#pers_R491">Ride</persName> sent bien que la
+               séparation est dans son intérêt et qu'il faut pour le moment se mettre en sûreté
+               avant que les créanciers de son frère, pour qui il s'est engagé par des lettres de
+               change, puissent l'arrêter et l'enfermer à Sainte-Pélagie, <persName ref="#pers_A951">Albine</persName> t'écrira
+               incessamment. Elle se désolait aujourd'hui avec moi de ne pas encore l'avoir fait,
+               surtout avant que commençassent ces secousses qui l'ont tant tourmentée. Mais nous ne
+               savons si sa lettre doit être adressée à <placeName>Naples</placeName> ou à <placeName>Rome</placeName>. Ton rez-de-chaussée est
+               enfin loué à partir d'hier ; j'ai reçu pour ton compte 200 francs de M. <persName ref="#pers_D1358">Dufau</persName>,
+               locataire du second. <persName ref="#pers_A951">Albine</persName> paraît tout à fait remise de l'état inquiétant où elle
+               était quand<pb n="602" facs="#ACAS_CRHST_AMP_25_379_0602_r.jpg"/> tu es parti. Je ne me suis jamais mieux porté. Ma sœur est bien, le mal
+               d'yeux qui l'avait affectée n'ayant pas augmenté. Ma cousine est désolée parce que la
+               police a fait saisir l'onguent <persName ref="#pers_C1120">Canet</persName> chez M. <persName>Chrétien</persName> et que c'était là-dessus que
+               reposait à peu près toute son existence. Je ne sais ce qui en arrivera ; car les lois
+               sur les remèdes secrets sont d'une sévérité qui fait qu'on ne sait comment y
+               échapper.</p>
+            <p xml:id="L1831-10-18-a-p3">M. <persName ref="#pers_R491">Ride</persName> est décidément guéri de son amour des boissons fermentées et,
+               depuis quelque temps, se conduit tout à fait bien. Ta tante, ton oncle et <persName ref="#pers_C1128">Mme Rivail</persName>
+               <ref target="#corresp2">(2)</ref> sont venus dîner avec nous la semaine passée. Ils se portent bien et n'ont parlé
+               que de toi. Tout le monde t'attend avec la plus vive impatience. Les tableaux et les
+               vers latins <ref target="#corresp3">(3)</ref> sont tellement arrêtés que, déjà depuis longtemps, on ne pense plus à
+               y rien changer. Nous t'embrassons tous de notre cœur : ta sœur et moi surtout.
+               Reviens vite nous voir et je serai enfin heureux.<lb/>
+               Ton tendre père, <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+            <p xml:id="L1831-10-18-a-p4">J'ai
+               rencontré dimanche passé <persName ref="#pers_R477">Mme Récamier</persName> sur la place <placeName>Saint-Sulpice</placeName>, nous avons parlé de
+               toi. <persName>Ballanche</persName> et <persName ref="#pers_D207">Dugas</persName> se portent bien et t'aiment bien.</p>
+            <closer>
+          <pb n="603" facs="#ACAS_CRHST_AMP_25_379_0603_v.jpg"/>Monsieur <persName>J-J Ampère</persName> poste restante à <placeName>Naples</placeName>, royaume des <placeName>Deux-Siciles</placeName> </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1831-10-18-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4°, adresse sur la quatrième.</note>
+            <note xml:id="corresp2">(2) <persName>Élisa
+               Carron</persName>, cousine germaine de <persName ref="#pers_A10">Jean-Jacques</persName>, née le <date when="1798-10-31">31 octobre 1798</date>, mariée à M. <persName ref="#pers_R496">Rivail</persName>
+               en <date when-iso="1831-07">juillet 1831</date>.</note>
+            <note xml:id="corresp3">(3) L'explication des tableaux relatifs à la Classification des
+               Sciences a été faite par <persName>Ampère</persName> en vers latins. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,258 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 365</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+               <forename>André-Marie</forename>
+               <surname>Ampère</surname>
+            </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+               <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des sciences</affiliation>
+               </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+               <name>Centre de calcul de l'IN2P3</name>
+               <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+            </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1810-09-00-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+                  </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">I.</biblScope>
+                     <biblScope type="pp">p. 353-354-355</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L365</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L365manuscrit">
+                  <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Lyon</settlement>
+                        <institution>Bibliothèque municipale</institution>
+                        <repository>fonds Charavay</repository>
+                        <idno>Recueil A. 1, folios 84 et 85. [note de Louis DE LAUNAY]</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Quatre pages 25 x 20 sans souscription ni date. [note de Louis DE
+                           LAUNAY]</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1810-09-00">septembre 1810</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_D272" type="adressee">Degérando, Joseph-Marie</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+            <date when="2014-07">juillet 2014</date>
+            <name>Philippe Pons</name>
+            <name>Aude Coustumer</name>
+         </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1810-09-00-a">
+      <body>
+         <div xml:id="L1810-09-00-a-div1">
+            <opener>
+               <date when-iso="1810-09">[Septembre 1810]</date>
+            </opener>
+            <p xml:id="L1810-09-00-a-p1">Mon cher et respectable ami, Je ne vous ai point écrit depuis la lettre dont Monsieur
+               votre frère eut la bonté de se charger à <placeName>Gap</placeName>. Que de fois
+               depuis cette époque je me suis reproché mon silence ! Mais je craignais toujours
+               d'abuser d'un temps aussi précieux que le vôtre. Qu'avais-je à vous dire qu'à
+               chercher à vous peindre les sentiments de cette amitié si vive et si pure, de cette
+               reconnaissance dont mon cœur sera plein toute ma vie. Ah, je sais que vous les
+               connaissez, ces sentiments et que je ne puis qu'en affaiblir l'expression en
+               cherchant à les peindre sur le froid papier. En vous disant à quel point je désirais
+               votre retour, je ne pourrais que remettre devant vos yeux la longue durée qui devait
+               s'écouler avant que vous fussiez réuni à <persName ref="#pers_D1566">Mme Degérando</persName> et à vos
+               enfants. Avec quelle douce satisfaction j'ai vu le nouveau gage de votre bonheur à
+               venir caressé et nourri par sa mère !</p>
+            <p xml:id="L1810-09-00-a-p2">Enfin, le terme approche où vous serez rendu à
+               des objets si chers et aux tendres amis qui vous regrettent à
+               <placeName>Paris</placeName>. Parmi eux, nul ne désire plus que moi de vous revoir.
+               Nul ne fait des vœux plus ardents pour qu'à votre retour vous trouviez quelque
+               dédommagement des peines qu'a dû vous faire éprouver la séparation des personnes que
+               vous aimez le mieux et d'un fils qui vous est si cher. Vous le trouverez bien grandi
+               et ayant l'air de jouir d'une meilleure santé qu'à l'époque de votre départ.</p>
+            <p xml:id="L1810-09-00-a-p3">On m'a
+               fait espérer que vous seriez ici dans six semaines. Si j'en avais une entière
+               certitude, je serais trop heureux. La nomination de M.
+               <persName ref="#pers_M1173">
+            <choice>
+              <sic>Maine Biran</sic> <corr>Maine de Biran</corr>
+            </choice>
+          </persName>
+               au corps législatif m'a fait un bien grand plaisir. Après votre retour
+               à<placeName> Paris</placeName>, rien ne peut m'en faire davantage que de l'y voir
+               fixé. Pourquoi faut-il que, tous trois pleins d'amour pour un genre de recherches
+               malheureusement si peu suivi aujourd'hui, les circonstances nous tiennent depuis
+               plusieurs années si loin les uns des autres. Je m'en suis toujours occupé depuis de
+               ce sujet si chéri d'études et de travaux, dont on trouve tous les matériaux en
+               soi-même. J'ai vu plusieurs fois, et à <placeName>Genève</placeName> pendant ma
+               tournée <ref target="#corresp2">(2)</ref> et à <placeName>Lyon</placeName>, et ici où il n'a fait
+               malheureusement qu'un court séjour, M. <persName ref="#pers_P450">Pictet</persName> dont nous avons
+               parlé lorsque nous pensions à rendre plus utile une science trop livrée à la
+               spéculation. Je ne sais si M. <persName ref="#pers_J318">Camille</persName> vous a parlé
+               d'une réunion qu'il me procura à <placeName>Lyon</placeName> avec M.
+               <persName ref="#pers_P450">Pictet</persName>... Eh bien ! ces moments ont passé avec la même rapidité
+               que les autres, que toute la vie, et nous voilà aussi tous séparés les uns des
+               autres ! J'espère cependant que vous amènerez M. <persName ref="#pers_J318">Camille</persName> avec
+               vous passer quelque temps à<placeName> Paris</placeName>. Ce serait pour moi un grand
+               surcroît de jouissances. Nous avons laissé à moitié des discussions bien
+               intéressantes entamées à <placeName>Lyon</placeName>. J'ai aussi fait connaissance
+               avec un métaphysicien de <placeName>Grenoble</placeName> que M. Scipion
+               <persName ref="#pers_P440">Périer</persName> connaît beaucoup. J'ai rapporté de mes conversations avec
+               lui une haute idée de cet homme. C'est M. <persName ref="#pers_P1651">Planta</persName>, inspecteur de
+               cette <orgName>Académie</orgName>.</p>
+            <p xml:id="L1810-09-00-a-p4">La dernière fois que j'ai eu l'honneur de voir
+               <persName ref="#pers_D1566">Mme Degérando</persName>, elle était incommodée et souffrante. Depuis, on
+               m'a dit qu'elle se trouvait mieux et qu'elle était sortie quand je me suis présenté,
+               ce qui me fait espérer qu'elle est réellement mieux. M.M. <persName ref="#pers_M410">Mottet</persName>
+               <persName ref="#pers_D272">de
+               Gérando</persName>, <persName ref="#pers_P440">Périer</persName>,
+               <persName ref="#pers_B910">[Bodart]</persName> se portent très bien, ainsi que les autres personnes
+               que je connais parmi celles qui peuvent vous intéresser, ma sœur et mes enfants
+               aussi.</p>
+            <p xml:id="L1810-09-00-a-p5">Adieu, mon cher et respectable ami, gardez-moi toujours une place dans votre
+               cœur, car la pensée que vous me conservez toute l'amitié dont vous m'avez donné des
+               preuves si touchantes est la plus douce de toutes mes pensées, comme la plus tendre
+               reconnaissance, la plus vive amitié pour celui qui mérite de réunir tous les
+               sentiments que je puis éprouver sont au premier rang dans mon cœur. Mon cher ami,
+               lisez-en l'assurance avec ceux que vous m'avez toujours montrés. Je vous embrasse de
+               toute mon âme. J'attends l'instant qui doit vous ramener au milieu de tous vos amis.<lb/>
+               <persName ref="#pers_A366">A. AMPÈRE</persName>
+            </p>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1810-09-00-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages 25 x 20 sans suscription ni date. Manuscrit de
+               la
+               <orgName>Bibliothèque de la Ville de <placeName>Lyon</placeName>
+          </orgName>,
+               fonds <persName>Charavay</persName>. Recueil A. 1, folios 84 et 85. L'allusion à la
+               nomination de
+               <persName ref="#pers_M1173">
+            <choice>
+              <sic>Maine Biran</sic> <corr>Maine de Biran</corr>
+            </choice>
+          </persName>
+               date la lettre de <date when-iso="1810">1810</date> (voir Lettre 0366). Cette
+               année-là, en effet, la tournée d'<persName>Ampère</persName> le conduisit à
+               <placeName>Lyon</placeName>, <placeName>Genève</placeName>,
+               <placeName>Grenoble</placeName> et <placeName>Gap</placeName> (Lettre 0361).
+               <persName ref="#pers_D272">Degérando</persName> avait été nommé en <date when-iso="1808">1808</date> à
+               <placeName>Florence</placeName> conseiller de la Junte (Lettre 0391).
+               </note>
+            <note resp="#CGA" xml:id="corresp2">(2) Voir Lettre
+               0362. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,286 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 623</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1822-08-14-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 592-593-594</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L623</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L623manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 379</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Huit pages in-4°, avec adresse a la fin.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1822-08-14">14 août
+                        1822</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_A10" type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1822-08-14-a">
+      <body>
+         <div xml:id="L1822-08-14-a-div1">
+            <opener>
+          <pb n="291" facs="#ACAS_CRHST_AMP_25_379_0291_r.jpg"/>
+          <placeName>Lyon</placeName>
+          <date when="1822-08-14">14 août 1822</date>
+        </opener>
+            <p xml:id="L1822-08-14-a-p1">Je me reproche on ne peut davantage, mon bien cher fils, de ne pas t'avoir écrit plus
+               tôt ; il faudrait t'écrire beaucoup de détails pour t'expliquer comment, depuis 12
+               jours que je suis arrivé à <placeName>Lyon</placeName>, je n'ai pu trouver un moment pour écrire aucune
+               autre lettre que celle que ma sœur aura reçue quand celle-ci te parviendra, et où je
+               la charge de te prévenir que je te porterai des billets payables à <placeName>Paris</placeName> à la
+               Saint-Martin prochaine pour la somme de 15 000 francs, afin que tu penses avec
+               <persName>Ballanche</persName> et qui tu voudras à la manière dont tu pourras la placer avec plus
+               d'avantage et de sécurité. Il y a eu plusieurs lectures de <persName>Rosemonde</persName> à l'école
+               vétérinaire ; <persName ref="#pers_D207">Dugas<ref xml:id="pers_D207"/>
+          </persName> nous l'a lue, <persName ref="#pers_B94">Bredin<ref xml:id="pers_B94"/>
+          </persName> ne peut se lasser de la lire. Le tout se
+               borne à ce que cinq ou six personnes de nos plus intimes amis la connaissent ; mais
+               M. et Mme <persName ref="#pers_P443">Périsse</persName> m'ont prié de la lire à <placeName>Bellerive</placeName> dimanche prochain : ce que je lui
+               ai promis, n'y voyant aucun inconvénient. <persName ref="#pers_B94">Bredin<ref xml:id="pers_B94"/>
+          </persName>, qui était là quand je me suis mis à
+               t'écrire, m'a prié de<pb n="292" facs="#/ACAS_CRHST_AMP_25_379_0292_v.jpg"/> te remercier, comme du plus grand bien que tu lui aurais fait,
+               d'avoir conçu le rôle d'<quote>Himélide</quote>. Il admire ta pièce comme <persName ref="#pers_D207">Dugas<ref xml:id="pers_D207"/>
+          </persName> qui, après nous
+               l'avoir lue, disait à <persName ref="#pers_B94">Bredin<ref xml:id="pers_B94"/>
+          </persName> qu'il la sentait encore mieux qu'après la première
+               lecture qu'il en avait entendue à <placeName>Paris</placeName>. Un seul des auditeurs m'a fait ensuite une
+               observation qui n'est peut-être pas tout à fait sans fondement ; tu en jugeras si tu
+               l'admets ; il s'agirait d'ajouter un certain nombre de vers au rôle d'<persName>Almagis</persName> qui te
+               viendront peut-être aisément. L'observation est que son amour et ses remords, le
+               dominant tour à tour et à peu près également, devraient être moins inégalement
+               développés, les remords remplissant au contraire presque tout le rôle et l'amour
+               n'étant qu'indiqué par des traits, énergiques à la vérité, mais trop<pb n="293" facs="#ACAS_CRHST_AMP_25_379_0293_r.jpg"/> courts pour que
+               le parterre en soit remué de manière à concevoir dans <persName>Almagis</persName> cet amour forcené
+               qu'indiquent des traits, et qui est nécessaire pour qu'il ait pu se déterminer à
+               trancher la vie d'un chef admiré, mériter qu'on dise en le voyant : <cit>
+            <quote>c'est un traître, etc.</quote>
+          </cit> Ces passages sont admirables ; mais, pour que l'on conçoive comment
+               ces pensées ne le font pas reculer d'horreur et renoncer à son crime dès cette
+               première scène avec <persName>Rosemonde</persName>, ne serait-il pas bon qu'après lui avoir dit :<cit>
+            <quote> mais je connais mon crime, j'ai mesuré l'abîme</quote>
+          </cit>, il ajoutât quelque chose d'analogue mais
+               bien moins fort que ceci : <cit>
+            <quote>et ne sais-tu pas que, depuis que je t'ai vue, déjà
+               hélas engagée à <persName ref="#pers_A952">Alboin</persName>, je n'ai plus respiré que pour toi, que<pb n="294" facs="#ACAS_CRHST_AMP_25_379_0294_v.jpg"/> ton âme est devenue
+               la mienne, ta volonté ma volonté ; pourrais-tu craindre qu'<persName>Almagis</persName> te trahit en te
+               rappelant le charme que nos cœurs éprouvèrent à s'entendre dans ces entretiens dont
+               le secret exposait à tant de périls deux âmes que les destinées avaient faites l'une
+               pour l'autre, etc.</quote>
+          </cit>
+        </p>
+            <p xml:id="L1822-08-14-a-p2">Ce que je t'écris là tout froid et tout décoloré n'est que pour
+               t'indiquer ce que je conçois qu'il pourrait dire sans pouvoir exprimer précisément ce
+               que j'entrevois. J'ai vu que d'autres, qui n'en ont pas parlé, entraient
+               difficilement dans la situation d'<persName>Almagis</persName> se décidant au crime dont il peint si bien
+               l'horreur et avec les sentiments de vertu et de grandeur au fond du coeur qui peuvent
+               seuls motiver l'admirable scène de l'aveu à <persName ref="#pers_A952">Alboin</persName>.</p>
+            <p xml:id="L1822-08-14-a-p3">
+          <pb n="295" facs="#ACAS_CRHST_AMP_25_379_0295_r.jpg"/>
+          <persName ref="#pers_B94">Bredin<ref xml:id="pers_B94"/>
+          </persName> vient de venir voir si
+               j'écrivais toujours. Je lui ai dit ce que je venais de t'écrire et, quoiqu'il n'eût
+               pas d'abord pensé à ce développement de l'amour d'<persName>Almagis</persName>, il est tout à fait entré
+               dans l'idée qu'il serait on ne peut plus avantageux à l'ensemble de la pièce. Il m'a
+               dit que ce que je venais d'écrire comme je le sentais bien, était peut-être encore
+               insuffisant  ; qu'il faudrait y ajouter quelque chose qui montrât une sorte de
+               délire, qui indiquât qu'<persName>Almagis</persName> n'est plus maître de lui-même, que l'image de
+               <persName>Rosemonde</persName> le poursuit dans ses songes, qu'il y voit <persName ref="#pers_A952">Alboin</persName> l'arracher de ses bras :
+               par exemple, en un mot, quelque chose qui le peignît comme étant par moments dans une
+               sorte de désordre nerveux et montrât que ses déterminations ne conservent presque
+               plus de liberté, etc.</p>
+            <p xml:id="L1822-08-14-a-p4">Je pense, en effet, qu'un ou deux mots<pb n="296" facs="#ACAS_CRHST_AMP_25_379_0296_v.jpg"/> de ce genre dans la
+               première scène entre <persName>Almagis</persName> et <persName>Rosemonde</persName> seraient une source de beautés où <persName ref="#pers_T556">Talma</persName>
+               remuerait fortement le parterre comme il le remuait quand il jouait cette scène
+               <persName>d'Abufar</persName>, où <persName ref="#pers_F1406">Fharan</persName> peint si bien un de ces amours délirants qui font comprendre le
+               crime dans un homme dont le fond du cœur est vertueux.</p>
+            <p xml:id="L1822-08-14-a-p5">Ce serait un motif de plus à
+               <persName ref="#pers_T556">Talma</persName> de désirer jouer ce rôle ; car c'est à peindre cet état de l'âme qu'il réussit
+               le mieux. Ce serait un moyen de plus de faire entrer le parterre dans la situation où
+               il doit être pour sentir la force et la vérité du rôle d'<persName>Almagis</persName>.</p>
+            <p xml:id="L1822-08-14-a-p6">Tu verras ce qu'il
+               peut y avoir de vrai là-dedans ; car <persName ref="#pers_B94">Bredin<ref xml:id="pers_B94"/>
+          </persName> n'en admire pas moins la tragédie telle
+               qu'elle est, parce qu'il entre plus aisément que personne dans cette situation. Si
+               tous les futurs auditeurs étaient organisés comme lui, le besoin de ce développement<pb n="297" facs="#ACAS_CRHST_AMP_25_379_0297_r.jpg"/>
+               serait moindre ; mais, comme il ne s'agit que d'exprimer ce qui est sous-entendu dans
+               le rôle d'<persName>Almagis</persName>, ce serait toujours de beaux vers de plus. A propos, ayant dit par
+               hasard à <persName ref="#pers_B94">Bredin<ref xml:id="pers_B94"/>
+          </persName> que tu avais d'abord fait ainsi un vers du troisième acte :<cit>
+            <quote> Tu me
+               souris si belle en demandant sa mort</quote>
+          </cit>, il en a été frappé comme d'un des plus beaux
+               vers qu'il eût entendus ; il serait pour que tu le rétablisses à tout prix, fallût-il
+               en modifier un autre pour éviter une répétition ; je t'avoue qu'en y pensant je crois
+               qu'il a bien raison.</p>
+            <p xml:id="L1822-08-14-a-p7">Je suis bien impatient de savoir où tu en es et si c'est du
+               premier ou du cinquième acte que tu t'occupes. Que je serai content quand tout sera
+               fini ! </p>
+            <p xml:id="L1822-08-14-a-p8">Adieu, bon ami, je serai peut-être dans quinze jours auprès de toi ; mais,
+               dans aucun cas, mon absence de <placeName>Paris</placeName> ne dépassera trois semaines à compter
+               d'aujourd'hui. <persName ref="#pers_B94">Bredin<ref xml:id="pers_B94"/>
+          </persName> prend<pb n="298" facs="#ACAS_CRHST_AMP_25_379_0298_v.jpg"/> intérêt à toi comme à un de ses enfants. Toute la famille
+               m'a chargé des plus tendres amitiés pour toi. Tu as une nouvelle cousine qui est si
+               mince, si gracieuse, si délicate, qu'elle semble comme aérienne, n'ayant que sa voix
+               de rossignol <ref target="#corresp2">(2)</ref>. Embrasse bien tendrement pour moi ta tante et l'aimable petit chat,
+               M. et Mme <persName ref="#pers_C128">Carron<ref xml:id="pers_C128"/>
+          </persName>, <persName ref="#pers_C1128">élisa</persName> ; dis aussi mille choses de ma part à la famille <persName ref="#pers_J323">de Jussieu</persName>,
+               aux <persName ref="#pers_F256">Fresnel</persName> ; n'oublie pas surtout <persName>Ballanche</persName> et tous mes respects à l'Abbaye. Ton
+               papa t'aime et t'embrasse mille fois de toute son âme.<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName>.</p>
+            <closer>
+          <placeName>A monsieur <persName>Jean-Jacques Ampère</persName> rue des Fossés-Saint-Victor, n°19</placeName>, à <placeName>Paris</placeName> </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1822-08-14-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Huit pages in-4°, avec adresse a la fin. Presque toute la
+               première partie a été publiée par Mme <persName ref="#pers_C1171">Cheuvreux</persName>, p. 220 et 221.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) Femme de <persName>Nicolas
+               Carton</persName> (née le <date when="1796-02-29">29 février 1796</date>). </note>
+         </div>
+      </back>
+   </text>
+</TEI>

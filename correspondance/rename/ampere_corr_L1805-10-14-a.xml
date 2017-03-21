@@ -1,0 +1,402 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 278</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+               <forename>André-Marie</forename>
+               <surname>Ampère</surname>
+            </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+               <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des sciences</affiliation>
+               </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+               <name>Centre de calcul de l'IN2P3</name>
+               <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+            </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1805-10-14-a">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Bibliothèque nationale de France</institution>
+                  <repository>N.A.F.</repository>
+                  <idno>ms 14605, f. 20-23. [note d'André ROBINET]</idno>
+               <altIdentifier>
+              <idno type="old">L278</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+               
+            </msDesc>
+            <listWit>
+               <witness xml:id="L278edition">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                        </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 285-286-287</biblScope>
+                        </imprint>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness xml:id="L278edition2">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>Barthélémy-Saint-Hilaire</surname>
+                           <forename>Jules</forename>
+                        </author>
+                        <title>Philosophie des deux Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Didier et Cie</publisher>
+                           <date when="1866">1866</date>
+                        </imprint>
+                     </monogr>
+                     
+                  </biblStruct>
+               </witness>
+               <witness xml:id="L278edition3">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>Maine de Biran</surname>
+                           <forename>Pierre</forename>
+                        </author>
+                        <author role="dir">
+                           <surname>Robinet</surname>
+                           <forename>André</forename>
+                        </author>
+                        <title>Oeuvres, XIII-1 : Correspondance philosophique avec Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>J. Vrin</publisher>
+                           <date when="1993">1993</date>
+                           <biblScope type="pp">p. 4-7</biblScope>
+                        </imprint>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness xml:id="L278manuscrit2">
+                  <msDesc type="copie">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 261 [note d'André ROBINET]</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Copie Naville [note d'André ROBINET]</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+               <witness xml:id="L278manuscrit3">
+                  <msDesc type="copie">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 274 </idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Copie Jean-Jacques Ampère [note d'André ROBINET]. Copie par un
+                           secrétaire.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1805-10-14">14 octobre 1805</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_M1173" type="adressee">Maine de Biran, Pierre</persName>
+        </correspAction>
+        <note type="noteDelaunay">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+            <date when="2014-07">juillet 2014</date>
+            <name>Philippe Pons</name>
+            <name>Aude Coustumer</name>
+         </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1805-10-14-a">
+      <body>
+         <div xml:id="L1805-10-14-a-div1">
+            <opener>
+          <pb n="10"/>
+               <placeName ref="#pl_P5">Poleymieux</placeName> près de<lb/>
+               <placeName ref="#pl_L2">Lyon</placeName> le
+               <date when-iso="1805-10-14">14 <choice>
+              <abbr>8bre</abbr>
+              <expan>octobre</expan>
+            </choice> 1805</date>
+            </opener>
+            <lb/>
+            <p xml:id="L1805-10-14-a-p1">Mon adresse est<lb/> chez M.M. <persName ref="#pers_B33">Ballanche</persName>
+          <lb/>
+               imprimeurs, aux <placeName>halles<lb/>
+                  de la Grenette</placeName>,
+               à <placeName ref="#pl_L2">Lyon</placeName>.<lb/> Monsieur,<lb/> Depuis près d'un mois
+               que je passe<lb/> mon <choice>
+                  <sic>tems</sic>
+                  <corr>temps</corr>
+               </choice> en partie ici et en<lb/> partie à <placeName ref="#pl_L2">Lyon</placeName>,
+               plus occupé de<lb/> mathématiques et d'affaires particulières<lb/> que de toute autre
+               chose, je me<lb/> proposais tous les jours de vous écrire,<lb/> et je n'exécutais
+               point cette<lb/> résolution, faute de <choice>
+                  <sic>tems</sic>
+                  <corr>temps</corr>
+               </choice> et<lb/> de résultats métaphysiques dont<lb/> j'eusse à vous faire part.</p>
+            <p xml:id="L1805-10-14-a-p2"> J'attendais toujours d'en avoir quelques<lb/>uns qui valussent la peine de vous<lb/>
+               être communiqués ; je me détermine<lb/> enfin à vous écrire sans cela, <pb n="11"/>un plus
+               long silence me pèse trop.<lb/> Je voudrais <choice>
+                  <sic>d'ailleurs</sic>
+                  <corr>d'abord</corr>
+               </choice> savoir de vos<lb/> nouvelles, où vous<supplied> en</supplied> êtes de
+               votre<lb/> ouvrage <ref type="ouvrages_mentionnes" target="#ampere_ref_P266.xml">*</ref>, et quels <choice>
+                  <sic>changemens</sic>
+                  <corr>changements</corr>
+               </choice> ont<lb/> été produits dans votre théorie par les<lb/> réflexions qui ont dû
+               suivre la<lb/> conviction où je vous ai laissé<lb/> qu'un certain nombre
+               d'impressions<lb/> distinctes et associées, la connaissance<lb/> de ses membres et de
+               leur mobilité,<lb/> devaient nécessairement précéder<lb/> la volonté de mouvoir, et,
+               par<lb/> conséquent, la naissance de ce<lb/> que vous nommez le sentiment<lb/> du
+               Moi. Je m'en suis beaucoup<lb/> occupé, et j'ai discuté cette<lb/> question avec deux
+               Lyonnais, qui<lb/> se sont aussi beaucoup occupés de métaphysique.<lb/> Chacun de
+               nous voyait d'abord<lb/> la chose sous un point de vue<lb/> différent ; mais la
+               discussion<pb n="12"/> a produit des idées si précises que<lb/> nous avons fini par être
+               tous<lb/> d'accord :<lb/>
+               <list>
+                  <item n="1"> Que la distinction et l'association<lb/> des impressions par
+                     juxtaposition,<lb/> résultat immédiat de l'organisation<lb/> étendue de l’œil
+                     et de l'organe<lb/> du tact, étaient absolument indépendantes<lb/> du mouvement
+                     volontaire et<lb/> devaient nécessairement le précéder,<lb/> puisque la volonté
+                     même ne<lb/> peut naître que de cette connaissance ;</item>
+                  <lb/>
+                  <item n="2"> Que l'impression faite sur le<lb/> cerveau lorsque l'âme imprime<lb/>
+                     aux nerfs la détermination<lb/> nécessaire pour le mouvement<lb/> volontaire,
+                     se plaçait hors de<lb/> ces impressions, par la même raison<lb/> qui les avait
+                     déjà placées les unes<lb/> hors des autres ;</item>
+                  <lb/>
+                  <item n="3"> Que cette dernière impression,<lb/> bien distincte de celle de la
+                     contraction<lb/> musculaire rapportée par les<lb/>
+                     <choice>
+                        <sic>nerf</sic>
+                        <corr>nerfs</corr>
+                     </choice> du membre et dont elle est<lb/> la cause, se retrouvant dans
+                     toutes<pb n="13"/> nos actions qu'on nous <choice>
+                        <sic>apprends</sic>
+                        <corr>apprend</corr>
+                     </choice>
+              <lb/> à exprimer par des phrases qui<lb/> commencent par Je ou
+                     Moi,<lb/> s'associe nécessairement à<lb/> ce mot, et constitue ainsi un<lb/>
+                     Moi qu'on peut appeler phénoménal,<lb/> hors duquel se trouvent, d'après<lb/>
+                     sa génération même, nos diverses<lb/> impressions ;</item>
+                  <item n="4"> Mais, de même que ne connaissant<lb/> par leurs impressions que le
+                     monde<lb/> phénoménal où les couleurs<lb/> sont sur les objets, où le
+                     soleil<lb/> a un pied de diamètre, où<lb/> la terre est <choice>
+                        <sic>platte</sic>
+                        <corr>plate</corr>
+                     </choice>
+              <add> et immobile,</add> où les<lb/> planètes rétrogradent, etc.,
+                     les<lb/> physiciens et les astronomes<lb/> conçoivent un monde nouménal<lb/>
+                     hypothétique, où les couleurs<lb/> sont des sensations excitées<lb/> dans
+                     l'être sentant par certains<lb/> rayons et qui n'existent qu'en lui ;<pb n="14"/> où
+                     le soleil a 307 000 lieues de<lb/> diamètre ; où la terre est un sphéroïde<lb/>
+                     <choice>
+                        <sic>applati</sic>
+                        <corr>aplati</corr>
+                     </choice> qui tourne autour de lui ;<lb/> où les planètes se meuvent
+                     toujours<lb/> dans le même sens, etc. De même,<lb/> les métaphysiciens
+                     conçoivent un<lb/> Moi nouménal, dont le Moi<lb/> phénoménal n'est, ainsi
+                     que<lb/> toutes nos impressions ou idées, qu'une<lb/> simple modification, en
+                     sorte<lb/> que le vulgaire et les Cartésiens<lb/> ont
+                        égalem<supplied>e</supplied>nt raison de placer<lb/> les uns les couleurs
+                     hors du Moi,<lb/> les autres au dedans, parce qu'ils<lb/> parlent de deux
+                     choses différentes<lb/> qu'ils nomment également Moi :<lb/> les Cartésiens du
+                     Moi nouménal,<lb/> où les couleurs sont réellement ;<lb/> le vulgaire du Moi
+                     phénoménal,<lb/> hors duquel elles sont précisément<lb/> comme elles sont hors
+                     les unes<lb/> des autres ;</item>
+                  <lb/>
+                  <item n="5"> Ce Moi nouménal ne peut être<lb/> connu, comme le monde des
+                     physiciens<lb/> et des astronomes, que par les hypothèses<lb/> que nous faisons
+                     pour expliquer<pb n="15"/> les phénomènes du monde apparent<lb/> et de notre propre
+                     pensée. Mais<lb/> son existence est par là même<lb/> prouvée de la même
+                     manière<lb/> que celle des autres substances ; et,<lb/> c'est cette existence,
+                     base de<lb/> l'espérance d'une autre vie, qu'il<lb/> faut chercher à mettre
+                     hors de<lb/> doute ; car, pour le sentiment<lb/> que je viens d'appeler Moi
+                     phénoménal,<lb/> il n'a lieu que lors d'une action<lb/> sur un terme
+                     organique ; il<lb/> disparaît dans le sommeil et ne<lb/> peut par conséquent
+                     conduire<lb/> à aucune conséquence utile<lb/> à la morale.</item>
+               </list>
+        </p>
+            <p xml:id="L1805-10-14-a-p3">J'ai fait aussi de nouvelles réflexions<lb/> sur ce vice de raisonnement dans<lb/>
+               lequel les métaphysiciens sont si<lb/> sujets à tomber, lorsqu'une sensation<lb/> est
+               liée avec une idée abstraite.<lb/> Depuis les époques de notre enfance<lb/> dont nous
+               ne nous ressouvenons plus,<lb/> on est porté à attribuer faussement<lb/> cette idée
+               abstraite à cette sensation.<pb n="16"/> Ainsi l'idée du déplacement d'un<lb/> membre est
+               liée à la sensation<lb/> musculaire, dont M.
+               <persName ref="#pers_T568">de Tracy</persName> a<lb/> tant parlé ; mais, si l'on
+               n'avait<lb/> perçu ce déplacement dans l'étendue<lb/> perçue par un autre
+               organe,<lb/> on aurait eu beau sentir et produire<lb/> à volonté cette sensation, on
+               n'en<lb/> aurait jamais tiré l'idée de déplacement,<lb/> qui n'y est associée que par
+               une longue<lb/> habitude de les percevoir ensemble.<lb/> De même, la véritable idée
+               de résistance<lb/> est celle d'une cause qui s'oppose<lb/> au mouvement ; elle
+               suppose la<lb/> connaissance de l'étendue et du déplacement,<lb/> et qu'on ait vu que
+               ce déplacement continuerait<lb/> si le mobile ne rencontrait un<lb/> autre corps. On
+               a pris l'idée de ca<supplied>use</supplied>
+          <lb/> en soi pour l'associer dans ce
+                  ca<supplied>s ;</supplied>
+          <lb/> et, d'après cette hypothèse, on a
+                  di<supplied>t</supplied>
+          <lb/> qu'il résistait. Cette idée de la résistance<lb/>
+               s'est unie par une longue habitude<lb/> à la sensation de pression que<lb/> nous
+               éprouvons en appuyant sur<lb/> les corps qui résistent à nos<lb/>
+               <choice>
+                  <sic>mouvemens</sic>
+                  <corr>mouvements</corr>
+               </choice>. Mais, dans cette dernière<lb/> sensation, il n'y a rien
+               originellement<lb/> qui ait le moindre rapport avec l'idée<pb n="17"/> abstraite de
+               résistance ; la liaison<lb/> entre cette sensation et cette<lb/> idée vient
+               uniquement de ce que<lb/> les mêmes corps qui empêchaient<lb/> le déplacement de nos
+               membres, nous<lb/> faisaient éprouver la première.</p>
+            <p xml:id="L1805-10-14-a-p4">J'espérais vous écrire plus au long ;<lb/> mais je suis forcé de vous quitter.<lb/>
+               J'attends de vos nouvelles avec une<lb/> vive impatience, et je vous prie<lb/>
+               d'agréer l'hommage de ma haute<lb/> estime et de ma vive amitié.
+               <persName ref="#pers_A366">A. Ampère</persName>
+            </p>
+            <closer>A <choice>
+                  <sic>Monsieur<lb/> Monsieur</sic>
+                  <corr>Monsieur</corr>
+               </choice>
+               <persName ref="#pers_M1173">Maine de Biran</persName>,<lb/> Conseiller de
+               préfecture<lb/> du département de <placeName>Périgueux</placeName>.<lb/> Rue Mazarine
+               n°20.<lb/> A <placeName ref="#pl_P6">Paris</placeName>.<lb/> Précédemment à l'hôtel
+               de la<lb/> Réunion, rue S<ex>ain</ex>t Pierre,<lb/>
+               <placeName>Montmartre</placeName>.</closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1805-10-14-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) D'après la <title>Philosophie des deux Ampère</title>.
+               <persName>Didier</persName>, <date when-iso="1866">1866</date> (une seconde édition a
+               été publiée en <date when-custom="1870">1870</date> sur les mêmes formes, en format
+               plus petit). <persName ref="#pers_M1173">Maine Biran</persName>, philosophe
+               spiritualiste, né à <placeName>Bergerac</placeName> en
+               <date when-iso="1766">1766</date>, d'abord garde du corps, puis retiré à
+               <placeName>Bergerac</placeName> de
+               <date from-iso="1789" to-iso="1795">1789 à 1795</date>, marié en
+               <date when-iso="1795">1795</date>, membre des Cinq Cents en
+               <date when-iso="1797">1797</date>, à la fois sous-préfet et député de
+               <placeName>Bergerac</placeName> de
+               <date from-iso="1810" to-iso="1814">1810 à 1814</date> (voir Lettres 0365 et 0366),
+               réélu député et rentré à <placeName ref="#pl_P6">Paris</placeName> en 1815, mort à
+               <placeName ref="#pl_P6">Paris</placeName> en 1824. </note>
+            <note resp="CAK_commentaire">Pour consulter le fac-similé de cette copie, <ref type="archives" target="#ampere_arch_chem274.xml#2">cliquer ici</ref> et naviguer
+               dans le fonds virtuel à l'aide des flèches "page suivante".</note>
+         </div>
+      </back>
+   </text>
+</TEI>

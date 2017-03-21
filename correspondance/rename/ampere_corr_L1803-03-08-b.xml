@@ -1,0 +1,397 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 228</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1803-03-08-b">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                  <idno>chemise 393 quarto</idno>
+               <altIdentifier>
+              <idno type="old">L228</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+          
+               <physDesc>
+                  <p>Six pages 21 x 23,5 ; adresse à la fin.</p>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness xml:id="L228CGA">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 244-245</biblScope>
+                        </imprint>
+                     </monogr>
+                     
+                  </biblStruct>
+                  </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1803-03-08">8 mars 1803</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_C129" type="adressee">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1803-03-08-b">
+      <body>
+         <div xml:id="L1803-03-08-b-div1">
+            <opener>
+          <pb n="1079" facs="#ACAS_CRHST_AMP_26_393_quarto_0351_r.jpg"/> Du <date when="1803-03-08">Mardi soir 7 h<ex>eures</ex> [8 mars 1803]</date>
+        </opener>
+            <p xml:id="L1803-03-08-b-p1">Je n'ai pas eu un moment de liberté<lb/>
+               depuis samedi. Je vais te <choice>
+            <sic>racconter</sic> <corr>raconter</corr>
+          </choice>
+          <lb/>
+               tout ce qui s'est passé. MM. <persName ref="#pers_D177">Delambre<ref xml:id="pers_D177"/>
+          </persName>
+          <lb/>
+               et <persName ref="#pers_V1818">Villars</persName> arrivèrent samedi à 4 h. 1/2.<lb/>
+               M. <persName ref="#pers_C150">Clerc<ref xml:id="pers_C150"/>
+          </persName> vint
+               m'avertir que tous les<lb/>
+               professeurs y iraient en corps à 6 h. 1/2 ;<lb/>
+               nous n'y arrivâmes
+               qu'à 7 h<ex>eures</ex> ; ils n'avaient<lb/>
+               pas encore dîné et, les voyant<lb/>
+               prêts à se mettre à
+               table, nous<lb/>
+               ne nous assîmes seulement pas et<lb/>
+               sortîmes assez promptement. Je<lb/>
+               reçus
+               quelques honnêtetés de plus,<lb/>
+               ainsi que M. <persName ref="#pers_C150">Clerc<ref xml:id="pers_C150"/>
+          </persName>. M. <persName ref="#pers_V1818">Villars</persName> me<lb/>
+               suivit pour me prendre
+               la main.<lb/>
+               Dimanche j'écrivis la suite de mon<lb/>
+               mémoire et je fus ensuite <choice>
+            <sic>rangé</sic>
+            <corr>ranger</corr>
+          </choice>
+          <lb/>
+               le cabinet<add> et le laboratoire</add>. Ils dirent à MM. <persName ref="#pers_D219">Dupras<ref xml:id="pers_D219"/>
+          </persName>
+          <lb/>
+               et <persName ref="#pers_O425">Olivier<ref xml:id="pers_O425"/>
+          </persName>, qui furent les voir,
+               que,<lb/>
+               le lendemain lundi, ils visiteraient<pb n="1080" facs="#ACAS_CRHST_AMP_26_393_quarto_0352_v.jpg"/>
+               leur pension. L'examen des <del>leurs</del>
+          <lb/>
+               élèves a eu lieu
+               hier et aujourd'hui ;<lb/>
+               il ne finira que demain. Je fus<lb/>
+               faire une seconde visite à ces
+               MM.<lb/>
+               lundi matin à 9 h<ex>eures</ex> ; j'en sortis à 10 h<ex>eures</ex> ;<lb/>
+               <add>je reçus </add> un accueil
+               très distingué. L'un d'eux<lb/>
+               me dit si je ne serais pas bien avec<lb/>
+               M. <persName ref="#pers_M394">Mollet</persName> qui
+               semblait un bon<lb/>
+               enfant, comme pour s'excuser<lb/>
+               de le faire passer avant moi.<lb/>
+               L'autre <subst>
+            <del>me
+               dit</del> <add>ajouta</add>
+          </subst> que, s'il y avait des<lb/>
+               machines au cabinet de <placeName>Bourg</placeName> qui<lb/>
+               pussent m'être utiles au
+               <orgName>Lycée de<lb/>
+                  <placeName>Lyon</placeName>
+          </orgName>, il fallait que j<subst>
+            <del>e leur en</del> <add>'en</add>
+          </subst>
+          <lb/>
+               donnasse la liste<del> pour qu'ils les<lb/>
+                  fissent porter à <placeName>Lyon</placeName>
+          </del>, parce <subst>
+            <del>qu'ils<lb/>
+                     ont</del> <add>qu'on a</add>
+          </subst> droit de prendre, dans les<lb/>
+               dépôts de livres et
+               <choice>
+            <sic>instrumens</sic> <corr>instruments</corr>
+          </choice> des<lb/>
+               <orgName>écoles centrales</orgName>, les objets qui peuvent<lb/>
+               convenir aux <orgName>Lycées</orgName> ; <del>on
+                  donne le<pb n="1081" facs="#ACAS_CRHST_AMP_26_393_quarto_0353_r.jpg"/>
+                  reste aux villes où se trouvent ces<lb/>
+                  dépôts.</del> <del>On a examiné</del> les élèves <add>
+            <unclear>furent</unclear>
+          </add>
+          <lb/>
+               dans ma
+               chambre hier depuis<lb/>
+               10 h. 1/2 du matin jusqu'à 4 h<ex>eures</ex> ; aujourd'hui<lb/>
+               depuis 9 h. 1/2
+               jusqu'à 4h. 1/2. <del type="illisible"/> Je n'ai<lb/>
+               pas quitté, pendant <del>tout </del>ce <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice>,<lb/>
+               MM. <persName ref="#pers_D177">Delambre<ref xml:id="pers_D177"/>
+          </persName> et <persName ref="#pers_V1818">Villars</persName>.
+               Mes élèves<lb/>
+               n'ont pas mal répondu sur les<lb/>
+               mathématiques ; mais ils avaient trop<lb/>
+               peu de leçons pour être forts. Ils<lb/>
+               l'ont été extrêmement sur tout le<lb/>
+               reste et les
+               inspecteurs<lb/>
+               <del>ont<lb/>
+                  été si</del> enchantés <subst>
+            <del>qu'après l'</del> <add>après </add>
+          </subst>avoir<lb/>
+               témoigné de mille manières, <del>ils </del>ont<lb/>
+               fini par dire à MM. <persName ref="#pers_D219">Dupras<ref xml:id="pers_D219"/>
+          </persName> et <persName ref="#pers_O425">Olivier<ref xml:id="pers_O425"/>
+          </persName>
+          <lb/>
+               qu'ils n'avaient point encore trouvé<lb/>
+               de pension
+               qui valût la leur. J'ai<lb/>
+               causé aujourd'hui une bonne demi<lb rend="hyphen"/>heure avec M. <persName ref="#pers_D177">Delambre<ref xml:id="pers_D177"/>
+          </persName> dans<lb/>
+               un intervalle d'examen, à peu près<pb n="1082" facs="#ACAS_CRHST_AMP_26_393_quarto_0354_v.jpg"/>
+               autant en 2 ou 3 fois avec M. <persName ref="#pers_V1818">Villars</persName>. Juge<lb/>
+               comme je suis content de me voir sûr<lb/>
+               du <orgName>Lycée</orgName> et de savoir que tu te portes<lb/>
+               mieux.
+               Dans ta charmante lettre<lb/>
+               <subst>
+            <del>que j'ai reçue</del> <add>de</add>
+          </subst> dimanche soir avec<lb/>
+               mon pantalon, il y en
+               avait une<lb/>
+               d'<persName ref="#pers_C125">élise</persName>, jolie au possible, qui me<lb/>
+               donnait de bien doux détails sur<lb/>
+               ma <persName ref="#pers_C129">Julie</persName> et mon petit. Pauvre<lb/>
+               petit agneau comme elle l'<choice>
+            <sic>appèle</sic> <corr>appelle</corr>
+          </choice>,<lb/>
+               quand le reverrai-je ?...</p>
+            <p xml:id="L1803-03-08-b-p2">D'aujourd'hui<lb/>
+               en quinze, le <date when="1803-03-22">1er germinal</date>, je me<lb/>
+               retrouverai près de toi ! Dis à
+               <persName ref="#pers_C125">élise</persName> qu'elle<lb/>
+               me pardonne de ne lui faire réponse<lb/>
+               qu'après le départ de ces MM. ; pas<lb/>
+               un moment de temps ; voilà 2 soirs<lb/>
+               que je ne me couche qu'à minuit<lb/>
+               pour écrire mon mémoire. Il<lb/>
+               est bien avancé <del>et je le finirais<lb/>
+                  ce soir si je veillais
+               autant qu'hier ;<lb/>
+                  mais ce sera pour demain et<lb/>
+                  je me coucherai aujourd'hui dès que<pb n="1083" facs="#ACAS_CRHST_AMP_26_393_quarto_0355_r.jpg"/>
+               j'aurai soupé. Je ne pourrai pas<lb/>
+                  t'écrire</del> demain matin. Depuis<lb/>
+               l'instant de mon
+               <choice>
+            <sic>levé</sic> <corr>lever</corr>
+          </choice>, j'aurai des<lb/>
+               élèves à faire répéter jusqu'au<lb/>
+               moment où ces messieurs viendront.<lb/>
+               J'espère que mes élèves de physique<lb/>
+               répondront au moins aussi bien<lb/>
+               que ceux d'ici. <del> Aussi les fais-je repasser<lb/>
+                 avec tout le soin possible.</del> J'ai<lb/>
+               prolongé tous ces
+               jours-ci leurs<lb/>
+               leçons jusqu'à 7 h<ex>eures</ex>. Les inspecteurs généraux<lb/>
+               ne <choice>
+            <sic>ferons</sic> <corr>feront</corr>
+          </choice> sûrement
+               pas la visite avant<lb/>
+               vendredi ou samedi à l'école. Voilà une<lb/>
+               semaine qui passera comme
+               les autres<lb/>
+               et il ne m'en restera plus qu'une <supplied>à</supplied>
+          <lb/>
+               demeurer loin de tout ce que j'aime.<lb/>
+               <del>Je l'emploierai à faire mes<lb/>
+               paquets : ce sera pour moi une<lb/>
+                  bien douce occupation.</del> Tu
+               me dis que tu<lb/>
+               serais bien ennuyée si j'étais obligé de rester<lb/>
+               ici jusqu'à l'ouverture
+               du <orgName>Lycée</orgName>. Oh, tu ne te<lb/>
+               figures pas comme cette idée <choice>
+            <sic>empoisonnerais</sic> <corr>empoisonnerait</corr>
+          </choice>
+          <lb/>
+               tous les <choice>
+            <sic>momens</sic> <corr>moments</corr>
+          </choice>
+               de repos que je puis avoir.<pb n="1084" facs="#ch_393/ACAS_CRHST_AMP_26_393_quarto_0356_v.jpg"/>
+               Je sais que cela nous rendrait bien de<lb/>
+               l'argent ; mais
+               que deviendrais-je<lb/>
+               après m'être tant flatté d'atteindre enfin<lb/>
+               le <date when="1803-03-22" calendar="revolutionary">premier germinal</date> ? Au
+               reste, cela<lb/>
+               paraît de toute impossibilité, quoique<lb/>
+               le préfet ait présenté une
+               pétition<lb/>
+               pour obtenir la continuation complète<lb/>
+               de l'<orgName>école centrale</orgName> jusqu'à
+               l'établissement<lb/>
+               du <orgName>Lycée de <placeName>Lyon</placeName>
+          </orgName>. Cette dernière<lb/>
+               circonstance doit cependant nous<lb/>
+               empêcher de louer l'appartement dont<lb/>
+               tu me parles, qui d'ailleurs conviendrait<lb/>
+               fort de toute manière s'il n'était pas<lb/>
+               si cher. Tu sais bien qui j'embrasse de tout mon
+               cœur.</p>
+            <closer>A<choice>
+            <sic> Madame<lb/> Madame</sic> <corr>Madame</corr>
+          </choice> <persName ref="#pers_C129">Ampère</persName>,<lb/>
+               chez Mme <persName ref="#pers_B69">Carron</persName>,<lb/>
+               <placeName>rue du Griffon</placeName>, vis<lb rend="hyphen"/>à-vis la <placeName>rue Terraille</placeName>,<lb/>
+               à
+               <placeName>Lyon</placeName>.</closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1803-03-08-b-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Six pages 21 x 23,5 ; adresse à la fin. D'après le
+               certificat donné à l'école <persName ref="#pers_D219">Dupras<ref xml:id="pers_D219"/>
+          </persName> et <persName ref="#pers_O425">Olivier<ref xml:id="pers_O425"/>
+          </persName>, l'examen de ses élèves a eu lieu les <date from="1803-03-07" to="1803-03-09">7,
+               8 et 9 mars</date>. Tout le début de cette lettre a été publié par Mme <persName ref="#pers_C1171">Cheuvreux</persName>, p. 293 et
+               294.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

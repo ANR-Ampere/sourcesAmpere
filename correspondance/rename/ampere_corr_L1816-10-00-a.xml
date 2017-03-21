@@ -1,0 +1,228 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 536</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1816-10-00-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 516-517</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L536</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L536manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 393 quarto</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Lettre de quatre pages in-4° dont tout le coin droit supérieur est
+                           déchiré.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1816-10-00">Début octobre 1816 ?</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_B33" type="adressee">Ballanche, Pierre-Simon</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1816-10-00-a">
+      <body>
+         <div xml:id="L1816-10-00-a-div1">
+            <opener>
+          <date when-iso="1816-10">[Début octobre 1816 ?]</date>
+        </opener>
+            <p xml:id="L1816-10-00-a-p1">
+          <pb n="763" facs="#ACAS_CRHST_AMP_26_393_quarto_0035_r.jpg"/>Cher ami, combien j'ai [du chagrin sur ce que] tu me dis de l'état de ta so[eur].
+               C'est un bien grand chagrin [pour moi de] penser que tu souffres et que [nous sommes]
+               à cent lieues l'un de l'autre. [Que ne puis-je] être à <placeName>Lyon</placeName> pour partager [tes
+               inquiétudes] si je ne pouvais les soulager. [C'est une] chose bien triste que cette
+               [maladie] qui s'est emparée de ta sœur. Je [souhaite], si comme je l'espère, M.
+               [
+            <persName>Ballanche</persName>
+          ] se rétablit, que sa maladie aura interrompu cette disposition
+               mélancolique ; car, dans cet état, il faut absolument être agité ; il vaut mieux
+               l'être par de vives inquiétudes que de rester dans ce sombre repos de l'esprit où il
+               se dévore lui-même.</p>
+            <p xml:id="L1816-10-00-a-p2">Ma sœur a remis 600 francs à <persName>Beuchot</persName> afin que ces 600 francs,
+               avec 4000 de capital et 400 pour les intérêts des deux ans qui échoiront le 1er
+               janvier 1817, fassent 5000. Ainsi, si tu es si bon que d'envoyer à <persName>Beuchot</persName> un billet
+               de 5000 francs à telle échéance que tu voudras et des billets de 250 francs d'année
+               en année,<pb n="764" facs="#ACAS_CRHST_AMP_26_393_quarto_0036_v.jpg"/>
+          <gap reason="lacune_CGA"/> tout sera arrangé,<gap reason="lacune_CGA"/>.</p>
+            <p xml:id="L1816-10-00-a-p3">
+          [Si ton ]père va mieux, que ton [es]prit soit tranquille,
+               tu me feras bien plaisir d'arranger tout cela, parce que je sais que c'en sera un
+               pour ma sœur, à qui je viens de payer, du moins pour la plus grande partie, les
+               intérêts que j'avais laissé arriérer. Ma tournée m'a bien arrangé pour cela et je
+               pourrai me mettre à jour à son égard à la fin du mois.</p>
+            <p xml:id="L1816-10-00-a-p4">Je suis désolé que tu ne
+               puisses pas venir à <placeName>Paris</placeName>. Mais je sens quel obstacle y met la maladie de ton père.
+               J'espère que tu auras bientôt le plaisir de le voir guéri et qu'alors tu viendras
+               ici ; je suis sûr que tu y seras plus heureux, et pour moi<pb n="765" facs="#ACAS_CRHST_AMP_26_393_quarto_0037_r.jpg"/> quel bonheur ! Tu me dis :
+               <persName ref="#pers_D207">Dugas</persName> [est parti] hier. Quel [dommage] de n'avoir pas écrit [un mot] de plus pour
+               fixer mes [incertitudes] ! Tu m'a mis par là dans ce [doute] : <cit>
+            <quote>Est-ce une bonne
+               nouvelle [qu'il m']annonce ? Est-ce seulement une plainte qu'il fait de ce que son
+               ami est absent de <placeName>Lyon</placeName> ?</quote>
+          </cit> Dans l'impossibilité où un rhume épouvantable me met de
+               quitter ma chambre, j'ai écrit un mot à <persName ref="#pers_D207">Montbel</persName> <ref target="#corresp2">(2)</ref> à son ancien logement, qu'il a
+               peut-être changé ; je n'ai point encore de réponse, je suis dans une incertitude qui
+               me tourmente au plus haut degré.</p>
+            <p xml:id="L1816-10-00-a-p5">Je sens que l'inquiétude doit t'ôter dans ce moment
+               la faculté d'écrire ; mais l'orage ne dure pas toujours et, dès que ton âme sera
+               tranquille,<pb n="766" facs="#ACAS_CRHST_AMP_26_393_quarto_0038_v.jpg"/> [fais entendre] de nouveau ces chants !<gap reason="lacune_CGA"/> [Je n'ai pas besoin] cher ami,
+               de dire combien je suis affecté. Dis-le aussi à Mme [
+            <persName>Polingue</persName>
+          ], tout l'intérêt que je
+               [prends] à tout ce qui vous touche.</p>
+            <p xml:id="L1816-10-00-a-p6">Je t'embrasse de toute mon âme. Mon cœur fait
+               les vœux [les plus ardents] pour que tu sois bientôt [tiré d'inquiétudes] sur ton
+               père, que tu [jouisses] avec délices du bonheur de [le voir] se rétablir et jouir
+               d'une meilleure [santé]. A jamais ton ami. <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+            <closer>Imprimeur aux <placeName>Halles de la Grenette</placeName>, à <placeName>Lyon</placeName> </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1816-10-00-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Lettre de quatre pages in-4° dont tout le coin droit
+               supérieur est déchiré. Nous avons reconstitué entre crochets ce qui était imposé par
+               le sens et laissé le reste en blanc.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) <persName ref="#pers_D207">Dugas-Montbel</persName>. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

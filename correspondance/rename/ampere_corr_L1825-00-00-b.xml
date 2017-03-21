@@ -1,0 +1,203 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 681</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1825-00-00-b">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 675-676</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L681</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L681manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 393 quarto</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Trois pages in-4° sans adresse.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1825-00-00">1825</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">?</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">[destinataire non identifié]</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1825-00-00-b">
+      <body>
+         <div xml:id="L1825-00-00-b-div1">
+            <opener>
+          <date when-iso="1825">[1825 ?]</date>
+        </opener>
+            <opener>
+          <pb n="859" facs="#ACAS_CRHST_AMP_26_393_quarto_0131_r.jpg"/>Monsieur,</opener>
+            <p xml:id="L1825-00-00-b-p1"> en lisant avec le plus vif intérêt les additions dont vous venez d'enrichir
+               votre excellent <title>Traité de Géométrie élémentaire</title>, j'ai remarqué surtout la
+               démonstration contenue dans la note de la page 163 et qui a été trouvée par M.
+               <persName ref="#pers_F1416">Fournier</persName>. Cette découverte m'a paru d'autant plus importante qu'il restait auparavant
+               une lacune dans la série des démonstrations relatives à la mesure des volumes et
+               qu'on était forcé, ou d'accoutumer les commençants à se contenter de preuves vagues
+               et insuffisantes, ou de les engager dans<pb n="860" facs="#ACAS_CRHST_AMP_26_393_quarto_0132_v.jpg"/> la démonstration, presque inintelligible
+               pour eux, qu'on trouve dans les notes de la géométrie de <persName ref="#pers_L353">Legendre</persName>. Me serait-il
+               permis, Monsieur, de faire une réclamation, trop tardive à la vérité et qui ne
+               saurait d'ailleurs diminuer en aucune manière la gloire qu'a méritée celui qui vous a
+               communiqué cette démonstration ? Je l'avais trouvée depuis plusieurs années ; je
+               l'avais présentée en l'<date calendar="revolutionary" notBefore="1799-09-23" notAfter="1800-09-22">an VIII</date> à l'<orgName>Académie de <placeName>Lyon</placeName>
+          </orgName>, dans un mémoire que j'envoyai
+               peu de temps après à <placeName>Paris</placeName> par l'entremise de M. <persName ref="#pers_J841">Jantel</persName>, autrefois commissaire du
+               gouvernement auprès du département du <placeName>Rhône</placeName>, et aujourd'hui receveur des
+               contributions à <persName>Corbeil</persName>. Ce qu'il y a de singulier, c'est que M. <persName ref="#pers_J841">Jantel</persName> m'écrit qu'il
+               avait remis mon mémoire à M.<pb n="861" facs="#ACAS_CRHST_AMP_26_393_quarto_0133_r.jpg"/> <persName ref="#pers_G294">Guyton de Morveau</persName> qui s'était chargé de le faire passer
+               à M. <persName ref="#pers_L353">Legendre</persName> et qu'ayant fait prendre des renseignements à ce sujet auprès de ce
+               célèbre chimiste, j'ai su qu'il n'en avait jamais entendu parler.</p>
+            <p xml:id="L1825-00-00-b-p2">Ce mémoire ne
+               contenait pas seulement la démonstration de l'égalité de deux prismes triangulaires
+               inverses ou symétriques, mais encore celle de l'égalité de deux pyramides
+               triangulaires <gap reason="lacune_CGA"/> ou inverses et, par conséquent, de
+               deux polyèdres de quelqu'espèce que ce soit. Comme cette dernière démonstration <ref target="#corresp1">(1)</ref>
+                  <gap reason="lacune"/>
+        </p>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1825-00-00-b-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) La lettre de trois pages in-4° est inachevée et sans
+               adresse.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

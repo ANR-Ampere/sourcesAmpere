@@ -1,0 +1,233 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 506</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+               <forename>André-Marie</forename>
+               <surname>Ampère</surname>
+            </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+               <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des sciences</affiliation>
+               </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+               <name>Centre de calcul de l'IN2P3</name>
+               <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+            </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1815-02-00-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+                  </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 496-497</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L506</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L506manuscrit">
+                  <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Lyon</settlement>
+                        <institution>Bibliothèque municipale</institution>
+                        <repository>fonds Charavay</repository>
+                        <idno>Recueil A.1, folios 86, 87, 88. [note de Louis DE LAUNAY]</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1815-02-00">Fin février 1815 ?</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">?</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">[destinataire non identifié]</ref>
+        </note>
+      </correspDesc>
+         <creation>
+            <date when="2014-07">juillet 2014</date>
+            <name>Philippe Pons</name>
+            <name>Aude Coustumer</name>
+         </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1815-02-00-a">
+      <body>
+         <div xml:id="L1815-02-00-a-div1">
+            <opener>
+               <date when-iso="1815-02">[Fin février 1815 ?]</date>
+            </opener>
+            <p xml:id="L1815-02-00-a-p1">Mon cher ami, Je n'aurai pas le plaisir de vous voir aujourd'hui. Puissé-je l'avoir
+               demain ! J'ai vu ce matin M. <persName ref="#pers_R483">Rendu</persName>
+               <ref target="#corresp2">(2)</ref> qui regrettait beaucoup de n'avoir pu vous voir ce matin. Il en avait
+               été empêché par les affaires les plus pressantes. Il m'a dit qu'il se proposait de
+               vous voir demain samedi à 9 heures du matin. Peut-être aurai-je quelque inquiétude de
+               moins quand vous aurez examiné ensemble ce qui convient dans ma position. N'en
+               parlons pas ici ! M. <persName ref="#pers_V1820">Vincent</persName> m'a communiqué les notes que vous
+               avez fait sur le préambule. J'ai vu qu'il n'y en avait point sur l'exposition
+               même de l'ordre dans lequel se succèdent les premiers pas de l'intelligence. Ce sont
+               celles-là surtout que j'attends avec une grande impatience.</p>
+            <p xml:id="L1815-02-00-a-p2">Mais il faut d'abord que
+               je vous dise ce que j'appelle le moi ; car, sans cela, nous ne nous entendrons
+               jamais. Le moi dont j'ai parlé est toujours le moi que j'appelle phénoménal,
+               c'est-à-dire une certaine perception intérieure que l'âme a de son existence
+               distinctement de toutes ses modifications. Il est tout autre chose que l'âme
+               elle-même, le moi nouménal, la substance pensante, autant que la sensation de rouge
+               par exemple l'est du corps qui l'excite. Le moi comme je l'entends n'est pas l'âme,
+               mais une de ses pensées ou plutôt une de ses perceptions distincte de toutes les
+               autres.</p>
+            <p xml:id="L1815-02-00-a-p3">Une sensation est l'âme modifiée. Ce sera, si vous voulez, le moi nouménal
+               modifié, mais non pas le moi dont je parle qui est une autre modification de la même
+               âme. Le mot de moi dont se sert
+               <persName ref="#pers_M1173">
+            <choice>
+              <sic>Maine Biran</sic> <corr>Maine de Biran</corr>
+            </choice>
+          </persName>
+               peut être tout à fait mal choisi ; mais je changerai le mot pourvu que vous
+               reconnaissiez le fait de cette perception intérieure comme une des modifications de
+               l'âme par laquelle elle se manifeste, comme les corps par les sensations qu'ils
+               excitent.</p>
+            <p xml:id="L1815-02-00-a-p4">En changeant ce mot, vous ne trouverez plus étrange que j'admette que l'âme
+               peut éprouver d'autres modifications avant celle-là ; que je dise : <cit>
+                  <quote>L'âme, sans se sentir encore elle-même, comme elle ne voit pas l’œil par
+                     lequel elle voit tout, est modifiée en diverses sensations mêmes complexes et
+                     dont elle distingue mécaniquement les divers éléments dans ce dernier cas,
+                     avant de créer en elle cette nouvelle modification que je nomme moi par son
+                     action.</quote>
+               </cit>
+        </p>
+            <p xml:id="L1815-02-00-a-p5">Je n'emploie aussi l'épithète d'existence que quand la sensation est jugée
+               nous venir d'une chose existante par elle-même et tout à fait différente de cette
+               sensation. Aussi trouverez-vous, dans l'explication qui suit, qu'à l'instant où le
+               moi naît (j'ai voulu dire à l'instant où l'âme reçoit pour la première fois cette
+               modification que je nomme ainsi parce que c'est par elle qu'elle sent sa puissance et
+               se distingue de ses sensations, images, etc.), qu'à cet instant, dis-je, les
+               sensations, images, etc. préexistantes devenaient alors un non moi, mais non pas
+               existant indépendamment, non pas étant attribuées à des existences permanentes
+               extérieures, autrement dit des substances.</p>
+            <p xml:id="L1815-02-00-a-p6">En changeant à votre gré ces deux mots de
+               moi et d'existence, la suite de mes idées vous paraîtra peut-être moins paradoxale.
+               Mais c'est assez de verbiage et j'aurais bien mieux fait de remplir ces pages des
+               sentiments de mon cœur que des systèmes de mon esprit. Mais vous les sentez sans que
+               je les exprime, n'est-ce pas, mon ami ?</p>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1815-02-00-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Six pages 23 x 18,5, sans suscription ni date ni signature.
+               Manuscrit de la Bibliothèque de <placeName>Lyon</placeName>, fonds
+               <persName>Charavay</persName>. Recueil A.1, folios 86, 87, 88. Cette lettre que nous
+               datons très arbitrairement, pourrait avoir été écrite en
+               <date when-iso="1815-02">février 1815</date> quand <persName>Ampère</persName> était
+               très inquiet pour sa situation et, en même temps, très occupé de psychologie.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) M.
+               <persName ref="#pers_R483">Rendu</persName>, inspecteur général, compagnon
+               d'<persName>Ampère</persName> dans ses inspections, notamment en
+               <date when-iso="1816">1816</date>, où <persName>Ampère</persName> l'attendit à
+               <placeName>Bordeaux</placeName> en travaillant à sa psychologie, en
+               <date when-iso="1817">1817</date> et en <date when-iso="1818">1818</date>. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

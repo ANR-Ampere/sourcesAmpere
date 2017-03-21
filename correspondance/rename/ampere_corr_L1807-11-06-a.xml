@@ -1,0 +1,639 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 339</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+               <forename>André-Marie</forename>
+               <surname>Ampère</surname>
+            </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+               <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+               </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des sciences</affiliation>
+               </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+               <name>Mathilde Dutertre, </name>
+               <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré :
+                  élaboration du schéma XML TEI et encodage</resp>
+            </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+               <name>Centre de calcul de l'IN2P3</name>
+               <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+            </distributor>
+            <availability>
+               <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative
+                     Commons</ref> dont le contenu est disponible sous Creative Commons
+                  Attribution -Non commercial - No Derivative Works 4.0 France</p>
+            </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1807-11-06-a">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Bibliothèque nationale de France</institution>
+                  <repository>N.A.F.</repository>
+                  <idno>ms 14605, f. 44-45.</idno>
+                  <altIdentifier>
+                     <idno type="old">L339</idno>
+                     <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+                  </altIdentifier>
+               </msIdentifier>
+
+            </msDesc>
+            <listWit>
+               <witness xml:id="L339edition">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>Maine de Biran</surname>
+                           <forename>Pierre</forename>
+                        </author>
+                        <author role="dir">
+                           <surname>Robinet</surname>
+                           <forename>André</forename>
+                        </author>
+                        <title>Oeuvres, XIII-1 : Correspondance philosophique avec Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>J. Vrin</publisher>
+                           <date when="1993">1993</date>
+                           <biblScope type="pp">p. 75-83</biblScope>
+                        </imprint>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness xml:id="L339edition2">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                        </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 331-332</biblScope>
+                        </imprint>
+                     </monogr>
+
+                  </biblStruct>
+               </witness>
+               <witness xml:id="L339edition3">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>Barthélémy-Saint-Hilaire</surname>
+                           <forename>Jules</forename>
+                        </author>
+                        <title>Philosophie des deux Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Didier et Cie</publisher>
+                           <date when="1866">1866</date>
+                           <biblScope type="pp">p. 213</biblScope>
+                        </imprint>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+               <witness xml:id="L339manuscrit">
+                  <msDesc type="copie">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 261</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Copie (partielle) Naville</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+               <witness xml:id="L339manuscrit2">
+                  <msDesc type="copie">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 274</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Copie partielle par Jean-Jacques Ampère [note d'André ROBINET]. Copie de
+                           la main d'un secrétaire.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+               <date when-iso="1807-11-06">6
+                           novembre 1807</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#pers_M1173" type="adressee">Maine de Biran, Pierre</persName>
+            </correspAction>
+         </correspDesc>
+         <creation>
+            <date when="2014-07">juillet 2014</date>
+            <name>Philippe Pons</name>
+            <name>Aude Coustumer</name>
+         </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1807-11-06-a">
+      <body>
+         <div xml:id="L1807-11-06-a-div1">
+            <opener>
+               <pb n="60"/>Du
+               <date when="1807-11-06">6 <choice>
+              <abbr>9bre</abbr> <expan>novembre</expan>
+            </choice> 1807</date>
+            </opener>
+            <p xml:id="L1807-11-06-a-p1"> Comment vous peindre, mon cher<lb/> ami, toutes les inquiétudes que j'ai<lb/> eues
+               depuis que j'avais commencé<lb/> cette lettre, elle a été interrompue<lb/> plus de 8
+               jours pendant lesquels<lb/> je n'ai pas eu un seul moment<lb/> à y donner, j'y
+               reviens aujourd'hui<lb/> sans savoir si je pourrais l'achever,<lb/> ma tante a été si
+               malade<lb/> que nous avons cru que nous<lb/> ne devions plus espérer de la<lb/>
+               conserver, comment vous<lb/> peindre les angoisses de ma pauvre<lb/> mère, tous les <choice>
+                  <sic>momens</sic>
+                  <corr>moments</corr>
+               </choice> que je<lb/> pouvais rester à la maison, je<lb/> les passais auprès d'elle
+               pour<lb/> tâcher de la rassurer, de la<lb/> consoler. J'espère actuellement<lb/> une
+               issue moins funeste de cette<lb/> fièvre accompagnée de délire<lb/> ou de sommeil
+               continuel, il<lb/> y a du mieux, mais encore<pb n="61"/> bien du danger. Une autre
+               occupation<lb/> va m'empêcher de disposer de<lb/> mon <choice>
+                  <sic>tems</sic>
+                  <corr>temps</corr>
+               </choice> suivant les vœux<lb/> de mon cœur, soit pour<lb/> consoler ma mère,
+               soit<lb/> pour répondre <del type="illisible"/>
+               <lb/> à votre aimable lettre. Je<lb/> dois remplacer cette année<lb/> un professeur
+               de l'<orgName>école<lb/>
+                  polytechnique</orgName>, M.
+               <persName ref="#pers_L331">Labbey</persName> à<lb/> qui sa santé ne permet<lb/> pas de faire son
+               cours ; je<lb/> sens trop que de la manière<lb/> dont je m'en acquitterai<lb/> dépend
+               en grande partie<lb/> le sort de ma vie, et la<lb/> tranquillité de ce que j'ai
+               de<lb/> plus cher au monde, que<lb/> deviendraient ma mère et mon<lb/> enfant à
+               <placeName>Paris</placeName> si je perdais<lb/> l'espoir d'être moi-même<lb/>
+               professeur un jour ? Je n'ai<lb/> point encore pensé à ce<pb n="62"/> que je dirai dans
+               ce cours,<lb/> et il doit commencer dans<lb/> 4 jours. Pour achever de me<lb/> mettre
+               hors d'état de vous<lb/> répondre <choice>
+                  <sic>aussi tôt</sic>
+                  <corr>aussitôt</corr>
+               </choice> que je<lb/> le désirerais, quand j'ai voulu<lb/> reprendre la lettre où
+               j'avais<lb/> commencé de vous répondre,<lb/>
+               <add>il a fallu en déchirer 3 pages, parce que</add>
+               <lb/> je me suis <choice>
+                  <sic>apperçu</sic>
+                  <corr>aperçu</corr>
+               </choice> que je<lb/> n'avais pas saisi dans une lecture<lb/> rapide les objections
+               que vous<lb/> me faisiez, que vous êtes<lb/> beaucoup plus loin de mes<lb/> idées que
+               je ne le croyais, c'est<lb/> ce dont je me suis convaincu<lb/> en relisant ce que
+               vous<lb/> me dites de la distinction<lb/> que vous établissez entre ce<lb/> que vous
+               appelez les systèmes<lb/> affectif et intuitif.</p>
+            <p xml:id="L1807-11-06-a-p2">Je croyais que vous m'aviez laissé<pb n="63"/> le mot
+               <hi rend="underline">d'intuition</hi> pour désigner<lb/> un phénomène dont vous
+               avez<lb/> mille fois reconnu l'existence<lb/> dans nos conversations, je l'avais<lb/>
+               nommé d'abord perception, vous<lb/> m'avez ôté ce mot, je l'ai cédé<lb/> mais il faut
+               que j'en conserve<lb/> un. Cela me paraîtrait d'ailleurs<lb/> très conforme avec le
+               reste<lb/> de votre langage et de votre<lb/> système. Mais ce qui nous<lb/> empêche
+               de nous entendre,<lb/> c'est que dès que je place<lb/> deux phénomènes dans un<lb/>
+               même ordre <add>ou </add>dans un même<lb/> système vous vous figurez<lb/> que je les <choice>
+                  <sic>confond</sic>
+                  <corr>confonds</corr>
+               </choice> quoique<lb/> je leur donne des noms<lb/>
+               <choice>
+                  <sic>différens</sic>
+                  <corr>différents</corr>
+               </choice>. Je déclare donc<lb/> que par deux phénomènes<lb/> d'un même système
+                  j'entends<pb n="64"/> pour me servir de vos<lb/> expressions deux <choice>
+                  <sic>élémens</sic>
+                  <corr>éléments</corr>
+               </choice> simples,<lb/>
+               <foreign xml:lang="lat">sui generis</foreign>, qui peuvent naître<lb/> à la même
+               époque. Qu'en<lb/> conséquence tous les phénomènes<lb/> qui naissent <del type="illisible"/> ou peuvent<lb/> naître à une même époque<lb/> sont rangés par
+               moi dans<lb/> le système de cette époque<lb/> quelques <choice>
+                  <sic>différens</sic>
+                  <corr>différents</corr>
+               </choice> qu'ils soient<lb/> d'ailleurs, je ne les confonds<lb/> pas plus pour cela
+               qu'un<lb/> naturaliste ne confond un<lb/> lapin et un éléphant quand<lb/> il les
+               range tous deux<lb/> parmi les mammifères.<lb/> J'observe que plusieurs
+               phénomènes<lb/> bien distincts et <foreign xml:lang="lat">sui<lb/> generis</foreign>
+               précèdent la<lb/> naissance du moi ; qu'en<pb n="65"/> admettant avec vous,<lb/> comme
+               je le ferai dorénavant<lb/> d'après votre lettre, que la<lb/> force hyper-organique
+               ne<lb/> concourt pas ou du moins<lb/> pas essentiellement aux<lb/>
+               <choice>
+                  <sic>mouvemens</sic>
+                  <corr>mouvements</corr>
+               </choice> instinctifs, qu'il<lb/> ne naît qu'après que le<lb/> centre cérébral
+               meut<lb/> spontanément, en vertu<lb/>
+               <hi rend="underline">des déterminations qu'il<lb/>
+                  avait contractées pendant<lb/>
+                  ces <choice>
+              <sic>mouvemens</sic> <corr>mouvements</corr>
+            </choice>
+          </hi>.
+               Pour me<lb/> servir de vos expressions,<lb/> en admettant dis-je cette<lb/> manière
+               de voir qui me<lb/> paraît très plausible, il y<lb/> a deux époques et par<lb/>
+               conséquent deux systèmes<lb/> avant la naissance du moi,<pb n="66"/> qui avec les deux
+               qui la<lb/> suivent en font quatre.</p>
+            <p xml:id="L1807-11-06-a-p3">1ère époque. Impressions sur les<lb/> sens, les phénomènes qui en résultent<lb/>
+               forment un premier système.<lb/> 2me époque. Les <add>causes de ces
+               </add>impressions<lb/> cessent, mais tout n'est pas<lb/>
+               <choice>
+                  <sic>annéanti</sic>
+                  <corr>anéanti</corr>
+               </choice>, les phénomènes<lb/> qui restent sont comme les<lb/> traces de ceux qui
+               avaient<lb/> eu lieu pendant l'existence<lb/> de ces causes, ils appartiennent<lb/>
+               au 2d système.<lb/> 3me époque. Naissance du<lb/>
+               <hi rend="underline">moi</hi>, et de son corrélatif<lb/> le
+               <hi rend="underline">non-moi</hi>. Le <hi rend="underline">moi</hi> s'empare<lb/> en
+               quelque sorte de tout<lb/> ce qui meuble déjà son<lb/> cerveau, il le perçoit et<lb/>
+               s'en attribue une partie, une<lb/> autre aux <choice>
+                  <sic>être</sic>
+                  <corr>êtres</corr>
+               </choice> hors de lui,<lb/> de là naissent d'autres<lb/> phénomènes dont se
+               compose<lb/> un 3me système.<pb n="67"/> 4me époque. Ces phénomènes<lb/> supposent <choice>
+                  <sic>est</sic>
+                  <corr>et</corr>
+               </choice> une action<lb/> particulière du moi, et<lb/> souvent le concours de<lb/>
+               circonstances extérieures.<lb/> Cette action peut cesser, pou<supplied>r</supplied>
+               <lb/> passer à un autre objet, ces<lb/> circonstances extérieures<lb/> peuvent
+               disparaître, mais<lb/> tout n'est pas <choice>
+                  <sic>annéanti</sic>
+                  <corr>anéanti</corr>
+               </choice> pour<lb/> cela, il y a de nouveaux<lb/> phénomènes conservés de<lb/> ceux
+               du 3me système, comme<lb/> ceux du 2d de ceux du 1er.<lb/> J'en forme un 4me
+               système.<lb/> Maintenant je reconnais<lb/> 4 phénomènes <foreign xml:lang="lat">sui
+                  generis</foreign> dans<lb/> chaque système. On peut<lb/> les ranger dans l'ordre
+               qu'on<lb/> veut, parce qu'ils naissent<lb/> simultanément, et
+                  s'influen<supplied>cent</supplied>
+               <lb/> mutuellement, comme vous<pb n="68"/>me l'avez observé dans une lettre<lb/>
+               précédente, au sujet du <hi rend="underline">jugement</hi> et de
+               l'<hi rend="underline">émotion</hi> que vous m'avez<lb/>
+               <choice>
+                  <sic>montré</sic>
+                  <corr>montrés</corr>
+               </choice> s'influençant réciproquement,<lb/> au sujet d'un rêve où l'émotion<lb/>
+               produisait le jugement, tandis <choice>
+                  <sic>que<lb/> ordinairement</sic>
+                  <corr>qu'ordinairement</corr>
+               </choice> c'est le jugement<lb/> qui détermine l'émotion. C'était<lb/> un jugement
+               faux, mais ce n'en<lb/> était pas moins un, puisque<lb/> vous croyez à l'existence
+               des<lb/> êtres chimériques que vous offrait<lb/> alors votre imagination.</p>
+            <p xml:id="L1807-11-06-a-p4">Je commençais dans mon tableau de<lb/> cet <choice>
+                  <sic>hyver</sic>
+                  <corr>hiver</corr>
+               </choice> par les phénomènes qui<lb/> consistent en ce que nous sommes<lb/> heureux
+               ou malheureux, je crois<lb/> à présent que j'ai reconnu l'influence<lb/> mutuelle et
+               l'ordre arbitraire devoir<lb/> les ranger dans cet ordre.<lb/>
+               <list>
+                  <item n="1">. Ceux qui sont relatifs à la<lb/> connaissance en tant qu'ils
+                     lui<lb/> fournissent des <choice>
+                        <sic>élémens</sic>
+                        <corr>éléments</corr>
+                     </choice>.</item>
+                  <lb/>
+                  <item n="2">. Ceux encore relatifs à la connaissance<lb/> en tant qu'ils
+                     consistent dans des<pb n="69"/> coordinations de ces <choice>
+                        <sic>élémens</sic>
+                        <corr>éléments</corr>
+                     </choice>, pour<lb/> en former des groupes.</item>
+                  <lb/>
+                  <item n="3">. Ceux qui sont relatifs à la passibilité,<lb/> mot qu'on a laissé
+                     vieillir mais qui<lb/> me paraît très convenable pour<lb/> désigner <choice>
+                        <sic>ces</sic>
+                        <corr>cet</corr>
+                     </choice> ensemble de phénomènes<lb/> dont le caractère est de nous<lb/> rendre
+                     heureux ou malheureux.</item>
+                  <lb/>
+                  <item n="4">. Enfin ceux qui sont relatifs<lb/> à la motilité.</item>
+               </list>
+            </p>
+            <p xml:id="L1807-11-06-a-p5"> Vous convenez avec moi dans votre<lb/> lettre que la <add>vraie </add>volonté ne
+               nous<lb/> rendant ni heureux ni malheureux,<lb/> en tant qu'elle ne s'applique<lb/>
+               qu'à ce que nous jugeons dépendre<lb/> de nous, doit être séparée des<lb/> désirs,
+               craintes, espérances, qui appartiennent<lb/> au 3me ordre, et placée dans<lb/> le
+               4me.<lb/> Je sais que j'aurai beaucoup de<lb/> peine à vous faire entendre<lb/> ce
+               que j'entends par ces ordres<lb/> qui, prenant un phénomène<lb/> dans chaque système,
+                  rapprochent<pb n="70"/> par conséquent des phénomènes<lb/> absolument <choice>
+                  <sic>différens</sic>
+                  <corr>différents</corr>
+               </choice> dans<lb/> leurs causes, et leur nature,<lb/> et qui ne se ressemblent que
+               quant<lb/> à leurs effets <choice>
+                  <sic>apparens</sic>
+                  <corr>apparents</corr>
+               </choice>. Aussi ma<lb/> vraie division des phénomènes est<lb/> celle par systèmes ou
+               lignes<lb/> horizontales du tableau, qui réunissent<lb/> des phénomènes réellement
+               analogues,<lb/> et celle des ordres ou lignes<lb/> verticales est un
+               rapprochement<lb/> en quelque sorte artificiel, mais<lb/> très utile pour aider la
+               mémoire,<lb/> après qu'en expliquant ce qu'il<lb/> est on l'a réduit à sa juste<lb/>
+               valeur, pour prévenir l'erreur<lb/> où l'on pourrait tomber en<lb/> lui donnant trop
+               d'importance.<lb/> Je ne puis renoncer à cette<lb/> idée qu'on fait d'autant
+               mieux<lb/> connaître des phénomènes qu'on<lb/> les lie par plus de rapports
+                  croisés<pb n="71"/> en plus de sens.</p>
+            <p xml:id="L1807-11-06-a-p6"> Du <date when="1807-11-10">l0 <choice>
+              <abbr>9bre</abbr> 
+               <expan>novembre</expan>
+            </choice>
+          </date>
+               <lb/> Ce qui précède, mon cher ami,<lb/> a été écrit un peu à bâton<lb/> rompu à
+               travers mille embarra<supplied>s</supplied>
+               <lb/> et mille chagrins. Ma pauvre<lb/> tante a été à l'extrémité, et<lb/> voilà 2
+               jours que je n'ai pu<lb/> écrire une ligne, j'ai fait<lb/> hier ma première leçon
+               à<lb/> l'<orgName>école polytechnique</orgName>, j'en ferai<lb/> une demain, je
+               profite d'un<lb/> moment de liberté pour<lb/> continuer ma lettre. Il y a<lb/> moins
+               de fièvre aujourd'hui, c'est<lb/> ce qu'on appelle le bon jour,<lb/> mais il s'en
+               faut de beaucoup<lb/> que le danger soit passé. Cependa<supplied>nt</supplied>
+               <lb/> j'espère une heureuse issue.</p>
+            <p xml:id="L1807-11-06-a-p7"> 1er système. Phénomènes produits<lb/> indépendamment du
+               <hi rend="underline">moi</hi> par<lb/> des impressions sur les organes<pb n="72"/>
+               externes ou internes, car je ne<lb/> crois pas qu'avant le moi il y<lb/> ait aucune
+               distinction à faire<lb/> entre ces deux sortes de modifications.<lb/> Qu'importe
+               alors qu'elles soient<lb/> produites par des rayons<lb/> introduits dans l'œil, la
+               faim<lb/> ou la colique ?<lb/> Avant de faire l'énumération des<lb/> 4 phénomènes de
+               ce premier système<lb/> je vous <choice>
+                  <sic>rappelerez</sic>
+                  <corr>rappellerai</corr>
+               </choice> que vous les<lb/> avez tous admis avant le moi dans<lb/> nos conversations
+               il y a deux ans,<lb/> et que c'est la seule partie où je<lb/> n'aie jamais rien
+               changé tant je<lb/> suis convaincu de sa conformité avec<lb/> la nature de notre
+               organisation.<lb/> Prenons l'œil pour exemple.<lb/> Des rayons <del type="illisible"/> verts, jaunes et<lb/> rouges, tombent sur des points<lb/>
+               <choice>
+                  <sic>différens</sic>
+                  <corr>différents</corr>
+               </choice> de la rétine, placés dans<lb/> cet ordre. Il y a :<lb/>
+               <list>
+                  <item n="1">. 3 intuitions distinctes dans les<pb n="73" rend="hyphen"/>quelles
+                     l'existence absolue est<lb/> confondue, bien loin qu'elles<lb/> puissent être
+                     mises au dehors ;<lb/> il y a <hi rend="underline">vert</hi>,
+                     <hi rend="underline">jaune</hi>, <hi rend="underline">rouge</hi>
+                     <lb/> dans le cerveau, voilà tout.<lb/> (J'entends par existence absolue<lb/>
+                     celle que nous admettons par<lb/> hypothèse explicative dans<lb/> le cerveau,
+                     l'âme, les organes,<lb/> avant qu'elle soit connue de<lb/> l'être pensant,
+                     tandis qu'il<lb/> n'existe que comme substance<lb/> qui saura un jour
+                     qu'elle<lb/> existe mais ne le sait point encore.</item>
+                  <lb/>
+                  <item n="2">. Un ordre entre ces intuitions<lb/> que j'<choice>
+                        <sic>appèle</sic>
+                        <corr>appelle</corr>
+                     </choice> contuition, du<lb/> latin <foreign xml:lang="lat">contuitus</foreign>
+                     et qui<lb/> est tellement un phénomène à part,<lb/> faisant partie de la
+                     modification<lb/> qui résulte de l'admission de<lb/> ces rayons colorés dans
+                     l'œil, que<lb/> si le rouge tombait entre<lb/> le jaune et le vert, cette<pb n="74"/> modification totale serait différente<lb/> quoique composée de 3
+                     mêmes<lb/> intuitions.</item>
+                  <lb/>
+                  <item n="3">. Un autre phénomène résultant<lb/> également de cette admission<lb/>
+                     dans l'œil, est le plaisir ou<lb/> douleur qui en résulte. C'est<lb/> ce que j'<choice>
+                        <sic>appèle</sic>
+                        <corr>appelle</corr>
+                     </choice> affection.</item>
+                  <lb/>
+                  <item n="4">. Les affections ne sont point<lb/> comme les intuitions,
+                     susceptibles<lb/> de se coordonner en groupes<lb/> d'affections distinctes et
+                     simultanées ;<lb/> au contraire c'est le groupe<lb/> d'<choice>
+                        <sic>intuition</sic>
+                        <corr>intuitions</corr>
+                     </choice> qui ordinairement<lb/> est agréable ou pénible, ou une<lb/> seule des
+                     intuitions, mais de même<lb/> que l'état de l'organisation à l'instant<lb/> des
+                     intuitions, détermine leur<lb/> contuition, l'affection détermine<lb/> un autre
+                     phénomène la<lb/> réaction, <del>ou effort instinctif</del>
+                     <lb/> J'efface cette seconde dénomination<pb n="75"/> parce que je répugne à
+                     employer<lb/> le mot effort dans ce cas.<lb/> L'attention donnée
+                     instinctivement<lb/> aux impressions plus vives ou plus<lb/> agréables est une
+                     réaction, d'autres<lb/> réactions se propagent dans le<lb/> système musculaire,
+                     en cris, en<lb/>
+                     <choice>
+                        <sic>mouvemens</sic>
+                        <corr>mouvements</corr>
+                     </choice> instinctifs.</item>
+               </list>
+            </p>
+            <p xml:id="L1807-11-06-a-p8">Voilà donc les 4 phénomènes de<lb/> mon premier système, qui peuvent<lb/> tous se
+               trouver dans une seule<lb/> modification, comme une seule<lb/> émission de voix
+               présente une<lb/> voix, une articulation, un ton, un<lb/> timbre, etc. (Vous devez
+               vous rappeler<lb/> de cette vieille comparaison.)<lb/> Intuition. Contuition.
+               Affection. Réaction.<lb/> Une modification d'impression peut<lb/> les présenter tous
+               quatre, ou seulement<lb/> deux ou trois ; il n'y a point de contuition<lb/> si elle
+               ne donne qu'une intuition<lb/> unique, comme un seul rayon<pb n="76"/> entrant dans
+               l'œil, ou plusieurs<lb/> tombant sur le même <supplied>point </supplied>de la
+               rétine.<lb/> Il n'y a point d'affection si l'impression<lb/> est indifférente,
+               etc...</p>
+            <p xml:id="L1807-11-06-a-p9">2d système. Les causes modifiantes<lb/> venant à cesser, le cerveau<lb/> en vertu des
+               déterminations<lb/> qu'il en a reçues, conserve ou<lb/> reproduit des phénomènes
+               analogues,<lb/> qui composent ce système,<lb/> savoir : <list>
+                  <item n="1">. Les images des intuitions, simples<lb/> intuitions plus faibles, et
+                     différentes<lb/> des premières comme la pensée<lb/> du rouge de la sensation
+                     du<lb/> rouge. Sans réminiscence, ni<lb/> attribution à un objet absent.<lb/>
+                     Car point d'idée de temps, d'existence<lb/> extérieure avant le moi.</item>
+                  <lb/>
+                  <item n="2">. Ces images reparaissent comme<lb/> les intuitions qu'elles
+                        retracent<pb n="77"/> l'avaient été ; cette sorte de<lb/> coordination des
+                     images est<lb/> un phénomène général et<lb/> très remarquable de notre<lb/>
+                     mode d'existence; sans lui nous<lb/> ne nous retracerions aucun<lb/> groupe tel
+                     que nous l'avons<lb/> reçu, je le nomme commémoration,<lb/> dénomination dont
+                     je vous <choice>
+                        <sic>ferez</sic>
+                        <corr>ferai</corr>
+                     </choice>
+                     <lb/> voir tout à l'heure la convenance,<lb/> et qui n'est que le latin
+                        <foreign xml:lang="lat">commemoratio</foreign>.</item>
+                  <item n="3">. L'image d'une intuition ou<lb/> d'un groupe d'intuitions qui
+                     ont<lb/> été <choice>
+                        <sic>accompagné</sic>
+                        <corr>accompagnées</corr>
+                     </choice> d'une affection<lb/> agréable ou pénible, se trouve<lb/> accompagnée
+                     d'un attrait ou<lb/> répugnance qui nous porte vers<lb/> elle ou nous en
+                     repousse, qui<lb/> est à l'égard de l'affection<lb/> ce que l'image elle-même
+                     est<lb/> par rapport à l'intuition, une<lb/> sorte de trace. Ce n'est encore<pb n="78"/> ni désir, ni espérance, ni crainte,<lb/> puisque ni l'avenir ni le
+                     passé n'existent<lb/> point encore. Je vous prie de<lb/> choisir entre ces deux
+                     dénominations, <hi rend="underline">tendance</hi>,
+                     <hi rend="underline">inclination</hi>, et de<lb/> me faire part de votre
+                     choix.<lb/> Vous verrez bientôt que ce phénomène<lb/> est aussi par rapport aux<lb/>
+                     <hi rend="underline">déterminations</hi> nommées désirs,<lb/> craintes,
+                     espérances, ce que les<lb/> images sont aux <hi rend="underline">croyances</hi>
+                     <lb/> par <choice>
+                        <sic>lesquels</sic>
+                        <corr>lesquelles</corr>
+                     </choice> nous les attribuons<lb/> à tels ou tels êtres, et à telles ou<lb/>
+                     telles époques.</item>
+                  <lb/>
+                  <item n="4">. Enfin le cerveau se remettant<lb/> dans un état analogue à<lb/>
+                     celui où il était dans la réaction,<lb/> après la cessation des causes<lb/> qui
+                     ont déterminé cette<lb/> réaction, donne naissance<lb/> à ces <choice>
+                        <sic>mouvemens</sic>
+                        <corr>mouvements</corr>
+                     </choice> soit extérieurs,<lb/> soit bornés à l'intérieur du<pb n="79"/> cerveau,
+                     où la force hyper<lb/>organique prend part de plus<lb/> en plus et finit par
+                     produire<lb/> seule. Il précède le moi, mais<lb/> c'est de peu d'<choice>
+                        <sic>instant</sic>
+                        <corr>instants</corr>
+                     </choice> puisqu'il<lb/> est l'occasion prochaine de<lb/> sa naissance. C'est
+                     pour cela<lb/> que je le retiens encore dans<lb/> le système dont nous
+                     parlons<lb/> actuellement, et qu'il le<lb/> termine en annonçant en<lb/>
+                     quelque sorte ceux qui vont<lb/> suivre, et qui tous supposent<lb/> le moi
+                     formé. C'est là<lb/> l'effort proprement dit, spontané,<lb/> qui ne cesse plus
+                     dans l'état<lb/> de veille, et est l'objet continuel<lb/> de l'<choice>
+                        <sic>apperception</sic>
+                        <corr>aperception</corr>
+                     </choice> qui nous<lb/> constitue moi.</item>
+               </list>
+            </p>
+            <p xml:id="L1807-11-06-a-p10">Voici donc mon second<lb/> système :<pb n="80"/> Image. Commémoration. Tendance.
+               Effort.</p>
+            <p xml:id="L1807-11-06-a-p11">Du <date when="1807-11-13">13 novembre</date> Je n'eus pas un moment hier,<lb/>
+               n'ayant point encore été à<lb/>
+               <placeName>Auteuil</placeName> depuis mon retour à<lb/>
+               <placeName>Paris</placeName> et voyant que ma tante<lb/> allait un peu mieux, j'y
+               suis allé<lb/> ce matin, j'ai resté une heure<lb/> et demie avec M. <persName ref="#pers_T568">de Tracy</persName>
+               <lb/> qui est bien triste de la maladie<lb/> à peu près désespérée de Mme<lb/>
+               <persName ref="#pers_L1263">de La Fayette</persName> la mère, et de<lb/> l'état alarmant de <persName ref="#pers_C112">Cabanis</persName>
+               <lb/> qui conserve bien sa tête, mais<lb/> paraît toujours très fatigué de<lb/> la
+               moindre application, on craint<lb/> de nouveaux <choice>
+                  <sic>accidens</sic>
+                  <corr>accidents</corr>
+               </choice>, il est<lb/> à une douzaine de lieues de <placeName>Paris</placeName>
+               <lb/> près de <placeName>Meulan</placeName>. La famille<lb/> de M.
+               <persName ref="#pers_T568">de Tracy</persName> est d'ailleurs<lb/> en bonne santé. Il m'a beaucoup<pb n="81"/> parlé de vous, j'ai fait votre<lb/> commission pour lui. Il m'a<lb/> chargé
+               de lui écrire ce que<lb/> je pourrais savoir de l'époque<lb/> où le prix pour lequel
+               vous<lb/> avez concouru à <placeName>Berlin</placeName> sera<lb/> décerné. Mr.
+               <persName ref="#pers_D272">Degérando</persName> m'a<lb/> dit aujourd'hui qu'il ne l'était<lb/> point
+               encore, et qu'on ne<lb/> savait point quand il le<lb/> serait ; je lui ferai part
+               de<lb/> cette réponse, car il paraît<lb/> y prendre un vif intérêt.<lb/> Mr.
+               <persName ref="#pers_D272">Degérando</persName> m'a aussi beaucoup<lb/> parlé de vous, il est
+               désolé<lb/> que ses occupations, dont il<lb/> est véritablement accablé,<lb/> ne lui <choice>
+                  <sic>ai</sic>
+                  <corr>aient</corr>
+               </choice> pas laissé un moment<lb/> pour vous écrire, il m'a<lb/> chargé de ses
+               excuses, et<lb/> des témoignages de sa vive et<lb/> tendre amitié pour vous.<pb n="82"/> Il m'a donné en même <choice>
+                  <sic>tems</sic>
+                  <corr>temps</corr>
+               </choice>
+               <lb/> un petit travail extrêmement<lb/> pressé relatif au compte qu'il<lb/> doit
+               rendre pour
+               l'<orgName>Institut des<lb/>
+               progrès de
+               la philosophie</orgName> depuis<lb/>
+               <date when-iso="1789">1789</date>. Je ne sais quand je<lb/> pourrai finir cette
+               lettre.</p>
+            <p xml:id="L1807-11-06-a-p12">
+               <date when="1807-11-14">14
+               [novembre]</date>
+               <lb/> Mon cher ami, je me décide<lb/> à remettre la fin à un<lb/> autre jour, ma
+               tante a<lb/> eu une crise affreuse cette<lb/> nuit, maman est tremblante<lb/> et
+               désolée ; cependant le<lb/> médecin juge cet accident<lb/> très favorable, l'accès a
+               été suivi<lb/> d'une rémission presque<lb/>
+               <choice>
+                  <sic>complette</sic>
+                  <corr>complète</corr>
+               </choice>. Je n'ai pas même<lb/> le <choice>
+                  <sic>tems</sic>
+                  <corr>temps</corr>
+               </choice> de penser au travail<lb/> que m'a donné notre ami.<lb/> Vous n'auriez de
+               mes nouvelles<lb/> que 8 jours peut-être plus tard,<lb/> et j'ai tant d'envie
+               d'avoir<lb/> des vôtres. Écrivez-moi, je<pb n="83"/> vous en conjure le plus tôt<lb/>
+               que vous pourrez. Dès que<lb/> j'aurai le <choice>
+                  <sic>tems</sic>
+                  <corr>temps</corr>
+               </choice>, je vous<lb/> enverrai le reste de ma<lb/> classification. Je vous
+               embrasse<lb/> mille fois de toute mon âme.<lb/> Adieu mon ami.
+               <persName ref="#pers_A366">A. Ampère</persName>
+            </p>
+            <p xml:id="L1807-11-06-a-p13">Rue Cassette n° 22. en face de<lb/> la rue de Mezière.</p>
+            <p xml:id="L1807-11-06-a-p14">P. S. J'oubliais de vous <supplied>faire </supplied>observer<lb/> que si vous trouvez
+               que j'admets<lb/> trop de phénomènes avant<lb/> le moi, il y a une raison qui<lb/> y
+               porte puissamment : pour<lb/> pouvoir n'en point admettre<lb/> dans les bêtes, il
+               faut bien en<lb/> rendre <choice>
+                  <sic>indépendans</sic>
+                  <corr>indépendants</corr>
+               </choice> les phénomènes<lb/> sans lesquels leurs actions<lb/> seraient tout à fait
+               inexplicables.<lb/> D'ailleurs tous les phénomènes<lb/> de ces deux premiers
+               systèmes<lb/> ne présentent rien de trop relevé<lb/> pour n'être pas attribuables à
+               la<lb/> simple sensibilité. </p>
+         </div>
+      </body>
+     
+   </text>
+</TEI>

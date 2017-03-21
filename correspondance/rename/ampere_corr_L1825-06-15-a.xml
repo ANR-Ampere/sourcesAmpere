@@ -1,0 +1,222 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 683</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1825-06-15-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 676-677</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L683</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L683manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>Suisse</country>
+                        <settlement>Genève</settlement>
+                        <institution>Bibliothèque de Genève</institution>
+                        <idno>Ms 2314.</idno>
+                     </msIdentifier>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1825-06-15">15
+                        juin 1825</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_L333" type="adressee">La Rive, Auguste de</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1825-06-15-a">
+      <body>
+         <div xml:id="L1825-06-15-a-div1">
+            <opener>
+          <date when="1825-06-15">15 juin 1825</date>
+        </opener>
+            <opener>Monsieur et très cher ami,</opener>
+            <p xml:id="L1825-06-15-a-p1"> Je viens de recevoir deux diplômes de Membres
+               correspondants de la <orgName>Société Philomathique</orgName>, l'un pour vous, l'autre pour M. <persName ref="#pers_M376">Marcet</persName>, à
+               qui je vous prie d'offrir mille amitiés de ma part. Vous avez été nommés tous deux
+               dans la séance du <date when="1825-05-28">28 mai dernier</date> sur un bout de rapport que je fis à la <orgName>Société</orgName>.
+               J'aurais désiré des matériaux plus complets pour le faire, afin de ne rien oublier de
+               vos travaux à l'un et à l'autre, mais il y en avait de reste pour justifier une
+               nomination que nous désirions dans une partie seulement de vos recherches. Je
+               conserve ces deux diplômes pour vous les remettre à votre retour ici.</p>
+            <p xml:id="L1825-06-15-a-p2">Je vous ai
+               écrit peu de jours après votre départ de <placeName>Paris</placeName>. Ma lettre en contenait une pour M.
+               <persName ref="#pers_F239">Faraday<ref xml:id="pers_F239"/>
+          </persName>. J'espère que vous l'avez reçue et que vous avez remis à M. <persName ref="#pers_F239">Faraday<ref xml:id="pers_F239"/>
+          </persName> celle qui
+               lui était adressée. Je ne puis cependant me défendre d'une sorte d'inquiétude en me
+               rappelant que je vous priais bien instamment dans cette lettre de m'écrire dès que
+               vous auriez parlé au savant de <placeName>Londres</placeName>, il ne faut qu'un instant pour écrire un mot
+               d'avis et deux ou trois jours pour que la lettre parvienne, et que cependant je n'ai
+               point eu de vos nouvelles depuis votre départ.</p>
+            <p xml:id="L1825-06-15-a-p3">Il m'est venu en pensée que ma lettre
+               ne vous serait pas parvenue parce qu'au lieu de l'adresser à MM. <persName ref="#pers_M407">Moritz</persName> et <persName ref="#pers_P468">Prevost</persName> à
+               Londres pour remettre à M. <persName ref="#pers_L333">Auguste de La Rive</persName>, j'aurai peut-être mis sur l'adresse à
+               M. <persName ref="#pers_L333">Auguste de La Rive</persName> chez MM. <persName ref="#pers_M407">Moritz</persName> et <persName ref="#pers_P468">Prevost</persName> à <placeName>Londres</placeName>, ce qui aura peut-être
+               dérouté les distributeurs des lettres dans cette ville faute de lire l'adresse
+               jusqu'au bout. Comme j'espère que celle-ci, où l'adresse sera telle que vous me
+               l'avez donnée, vous parviendra exactement. Je vous prie d'abord de m'écrire pour me
+               donner de vos nouvelles et me communiquer ce que vous ont dit, surtout relativement à
+               moi, les personnes que vous avez vues en <placeName>Angleterre</placeName>. Je vous prie ensuite, par toute
+               votre amitié, si par hasard vous n'aviez pas reçu ma dernière lettre, de la faire
+               réclamer à la poste d'après l'adresse que je viens de vous envoyer, car ce serait un
+               grand chagrin pour moi qu'elle fût perdue.</p>
+            <p xml:id="L1825-06-15-a-p4">Comme rien n'est plus pénible que d'être
+               ainsi dans l'indécision de ce qui est arrivé relativement à une chose qu'on craint
+               perdue, je compte sur votre amitié pour être sûr que vous m'écrirez tout de suite ce
+               qui en est.</p>
+            <p xml:id="L1825-06-15-a-p5">Je vous prie de faire à M. <persName ref="#pers_M376">Marcet</persName> les plus empressés compliments de ma
+               part et de présenter toutes les expressions de l'admiration que j'ai pour leurs
+               travaux à <persName ref="#pers_D174">sir H. Davy</persName>, à MM. <persName ref="#pers_W589">Wollaston</persName> et <persName ref="#pers_F239">Faraday<ref xml:id="pers_F239"/>
+          </persName>. L'amitié que <persName>Sir H. Davy</persName> me
+              [témoigna] autrefois, celle de M. <persName ref="#pers_F239">Faraday<ref xml:id="pers_F239"/>
+          </persName> me sont si précieuses !</p>
+            <p xml:id="L1825-06-15-a-p6">Adieu, bien cher et
+               excellent ami, conservez-moi votre amitié, écrivez-moi, je vous prie, et revenez le
+               plus tôt que vous pourrez acquitter la promesse que vous m'avez faite avant de
+               partir ! Tout à vous,<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+            <closer>A Messieurs <persName ref="#pers_M407">Moritz</persName> et <persName ref="#pers_P468">Prévost</persName>, à <placeName>Londres</placeName> (<placeName>Angleterre</placeName>) pour remettre s.l.p. à M.
+               <persName ref="#pers_L333">Auguste de La Rive</persName>
+        </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1825-06-15-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) <orgName>Bibliothèque publique et universitaire de <placeName>Genève</placeName>
+          </orgName>.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

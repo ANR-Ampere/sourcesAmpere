@@ -1,0 +1,203 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 632</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1822-10-26-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 620-621</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L632</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L632manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>Suisse</country>
+                        <settlement>Genève</settlement>
+                        <institution>Bibliothèque de Genève</institution>
+                        <idno>Ms 2314 f. 61.</idno>
+                     </msIdentifier>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1822-10-26">26 octobre 1822</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_L333" type="adressee">La Rive, Auguste de</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1822-10-26-a">
+      <body>
+         <div xml:id="L1822-10-26-a-div1">
+            <opener>
+          <date when="1822-10-26">26 octobre [1822]</date>
+        </opener>
+            <p xml:id="L1822-10-26-a-p1">Monsieur et très cher ami, Voilà quinze jours que j'ai passés à faire cette lettre
+               sans m'occuper d'autre chose, à l'exception d'un calcul dont je vous parle dans cette
+               même lettre et de faire faire des changements à mon nouvel appareil pour toutes les
+               expériences relatives à l'action du conducteur rectiligne horizontal et à celle de la
+               terre sur les deux conducteurs mobiles, le vertical et l'horizontal : elles
+               réussissent bien, mais ce n'est que ces jours-ci que j'ai trouvé le moyen de donner à
+               cet instrument la perfection que je désirais. Ma lettre n'étant pas achevée, je vais
+               vous envoyer ce qui est fait, la fin vous sera adressée sous très peu de jours.</p>
+            <p xml:id="L1822-10-26-a-p2">
+               J'avais commencé une lettre pour M. <persName ref="#pers_M383">Maurice</persName> ; elle est restée là parce que toutes mes
+               idées étaient à celle que je vous écrivais et que je croyais chaque jour finir le
+               lendemain. Je pense qu'il est déjà parti pour l'<placeName>Italie</placeName>. Dites-moi, je vous prie, le
+               moyen que j'aurais pour lui écrire ! Faut-il envoyer ma lettre à son père ou à vous,
+               Monsieur, à <placeName>Genève</placeName>, ou faut-il lui écrire directement à <placeName>Rome</placeName> et alors à quelle
+               adresse ? Ce qui me désespère, c'est que M. <persName ref="#pers_B81">Bossange</persName> père m'a seulement envoyé les
+               300 exemplaires de votre mémoire, que je n'ai point reçu les 300 exemplaires de ma
+               lettre à Monsieur votre père, et que je ne puis compléter les exemplaires de mon
+               <title>Recueil</title>. Combien j'ai été malheureux de n'avoir pas emporté ces 300 exemplaires de ma
+               lettre quand je les ai vus à <placeName>Genève</placeName> ; mais on me faisait espérer qu'ils seraient
+               presque aussitôt que moi à <placeName>Paris</placeName>.</p>
+            <p xml:id="L1822-10-26-a-p3">Je vous prie d'offrir mes hommages à M. et Mme <persName ref="#pers_L333">de
+               La Rive</persName>. Recevez tous mes remerciements des peines que vous voulez bien prendre pour
+               me rendre service dans ces détails relatifs à mon <title>Recueil</title> et l'assurance de la bien
+               vive amitié et de l'entier dévouement de<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+            <p xml:id="L1822-10-26-a-p4">P.-S. - <persName>Rosemonde</persName> est finie, mais
+               bien loin d'être reçue, elle n'est pas encore présentée.</p>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1822-10-26-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) <orgName>Bibliothèque publique et universitaire de <placeName>Genève</placeName>
+          </orgName>. Cette
+               lettre ne porte pas mention de l’année où elle a été écrite ; mais les indications
+               relatives au séjour de <placeName>Genève</placeName> et à <persName>Rosemonde</persName> permettent de l’attribuer à <date when-iso="1822">1822</date>.
+               <persName>Rosemonde</persName> a été terminée une première fois le <date when="1822-10-12">12 octobre 1822</date>. En <date when-iso="1822-09">septembre 1822</date>,
+               <persName>Ampère</persName> avait fait un séjour à <persName>Genève</persName>.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,273 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 753</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1830-10-06-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 719-720-721</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L753</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L753manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 379</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Quatre pages in-4° sans adresse.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1830-10-06">6 octobre 1830</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_A10" type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1830-10-06-a">
+      <body>
+         <div xml:id="L1830-10-06-a-div1">
+            <opener>
+          <pb n="612" facs="#ACAS_CRHST_AMP_25_379_0612_r.jpg"/>
+          <date when="1830-10-06">Mercredi [6 octobre 1830]</date>
+        </opener>
+            <p xml:id="L1830-10-06-a-p1">Cher ami, j'ai reçu ce matin tes deux lettres avec une d'<persName ref="#pers_A951">Albine</persName>. Je suis désolé de ce
+               que je lui ai écrit dans ma mauvaise humeur de ne pas pouvoir obtenir depuis si
+               longtemps aucun renseignement, ni sur mes papiers, ni sur l'affaire du cheval. Je
+               sens combien j'ai dû ajouter à son chagrin ; mais je n'avais aucune idée que <persName ref="#pers_R491">Ride</persName> fût
+               retombé. Je le croyais bien comme quand il partit d'ici. Au reste, j'avais déjà tout
+               à fait renoncé à aller à la campagne cette année. Cela me serait même impossible dans
+               ce moment ; car le billet de M. <persName ref="#pers_G808">Guérin de Foncin</persName> échoit le 24 de ce mois, il faut
+               tout payer et je n'ai pas le sou. Je suis à chercher à emprunter ces 4000 francs ;
+               car, sans cela, je serais perdu. Avant de le savoir, j'ai payé, avec les 475 francs
+               de l'<orgName>Université</orgName> :<lb/>
+               Les intérêts de 5000 francs........................................125
+               A celui qui a peint les parquets au mois de juin .................100
+               A ton tailleur.....................................................250
+               Total............................................................. 475
+               </p>
+            <p xml:id="L1830-10-06-a-p2">
+               Ton tailleur
+               est content, mais je n'ai rien. Je n'aurai le <orgName>Collège de <placeName>France</placeName>
+          </orgName> que dans huit ou dix
+               jours. Sans cette peinture inutile des parquets, j'aurais envoyé les 100 francs
+               qu'elle m'a coûtés à <persName>Gabriel</persName>. J'ai changé ce matin deux de mes pauvres quatre pièces
+               de 20 francs pour<pb n="613" facs="#ACAS_CRHST_AMP_25_379_0613_v.jpg"/> le compte de ma nourriture dû au portier. Si je ne trouve pas à
+               emprunter 100 francs pour donner demain à <persName ref="#pers_J323">de Jussieu<ref xml:id="pers_J323"/>
+          </persName> qui doit, m'as-tu écrit, aller
+               après-demain à <placeName>Vanteuil</placeName>, il faudra que j'envoie à <persName ref="#pers_R491">Ride</persName> les deux pièces de 20 francs
+               qui me restent seules. Mais qu'est-ce que cela en comparaison de mon affreuse
+               position envers M. <persName ref="#pers_G808">Guérin de Foncin</persName> et, par suite, envers <persName ref="#pers_D207">Montbel</persName> qui l'a engagé à me
+               rendre ce service, dont je me vois exposé à le faire cruellement repentir ?</p>
+            <p xml:id="L1830-10-06-a-p3">M.
+               <persName ref="#pers_G1453">Guignault<ref xml:id="pers_G1453"/>
+          </persName> est à la campagne à ce qu'on m'a dit lorsque j'ai été chez lui ; la
+               domestique me dit qu'il viendrait peut-être jeudi soir ; jeudi c'est demain. J'irai
+               voir après-demain si je peux lui parler. Je ne sais donc rien de ton affaire. Mais
+               j'ai dit à plusieurs personnes de l'<orgName>Université</orgName> que tu étais allé chez M. <persName ref="#pers_J323">de Jussieu<ref xml:id="pers_J323"/>
+          </persName>
+               pour y finir ton livre. J'ai fait chercher partout aujourd'hui la petite malle de
+               <placeName>Marseille</placeName>, où mes papiers sont venus et que ma sœur a vue depuis mon départ avec M.
+               <persName ref="#pers_D167">Daburon</persName>. Il n'y a point de malle où il y ait des papiers ; mais le hasard m'a fait
+               trouver une partie de ceux que je cherchais dans le bas de mon armoire avec des
+               papiers peints pour tapisserie. Comment<pb n="614" facs="#ACAS_CRHST_AMP_25_379_0614_r.jpg"/> cela s'est-il fait ? Qui pourra jamais le
+               comprendre, ni pourquoi, depuis deux mois, je n'ai pu rien tirer d'<persName ref="#pers_A951">Albine</persName> ni de ma
+               sœur là-dessus ? Au reste, la partie retrouvée donne l'espoir de retrouver le reste.
+               Je n'ai pu encore m'assurer si tout y est, mais ce n'en a pas l'air. Je ne tousse
+               plus du tout et ne me suis jamais mieux porté.</p>
+            <p xml:id="L1830-10-06-a-p4">
+          <date when="1830-10-07">Jeudi 7 <choice>
+              <abbr>8bre</abbr> <expan>octobre</expan>
+            </choice>
+          </date> <lb/> 
+               J'ai vu M. <persName ref="#pers_G1453">Guignault<ref xml:id="pers_G1453"/>
+          </persName>
+               ce matin. Je lui ai dit que tu étais allé à la campagne pour achever ton ouvrage sur
+               le Nord. Il m'a dit que tu pouvais y rester jusqu'à l'organisation de l'<orgName>école
+               Normale</orgName>, que l'arrêté de la commission pour cela et les nominations des maîtres de
+               conférence ne paraîtraient pas avant le 15 de ce mois. Je lui ai rappelé tout
+               l'intérêt qu'il avait pour toi ; il m'a dit que tu avais toutes les chances possibles
+               d'être nommé. Il y a deux jours que j'ai reçu 50 francs pour toi du loyer du
+               rez-de-chaussée. Je les ai portés ce matin chez <persName ref="#pers_J1033">Bernard de Jussieu</persName> (ou Laurent, car
+               je ne sais lequel des deux) pour qu'il les remît à <persName>Gabriel</persName>, parce que, le 10, j'aurai
+               le <orgName>Collège de <placeName>France</placeName>
+          </orgName> pour te les rendre. Tu m'avais écrit qu'il n'irait à <placeName>Vanteuil</placeName>
+               que le jeudi ou le vendredi ; cette erreur m'a fait manquer l'occasion, car il est
+               parti hier, mercredi, avec sa femme et ses enfants. J'ai été voir au <orgName>Jardin des
+                  Plantes</orgName> s'il y avait<pb n="615" facs="#ACAS_CRHST_AMP_25_379_0615_v.jpg"/> quelqu'un chez M. <persName ref="#pers_J323">de Jussieu<ref xml:id="pers_J323"/>
+          </persName> qui pût les faire passer à <persName>Gabriel</persName>.
+               Il n'y a personne. Demande donc chez M. <persName ref="#pers_J323">de Jussieu<ref xml:id="pers_J323"/>
+          </persName>, ou à <persName ref="#pers_A951">Albine</persName>, à qui il faut que je
+               remette ici cet argent pour qu'il lui parvienne ! <date when="1830-10-08">Vendredi 8 octobre</date> — Je suis sauvé.
+               <persName ref="#pers_B1043">Beuchot la Varenne</persName> a trouvé pour moi 5000 francs à emprunter qui payeront M. <persName ref="#pers_G808">Guérin
+               de Foncin</persName>. Je les rembourserai en y consacrant tout ce que je reçois de l'<orgName>Université</orgName>
+               d'ici au mois d'octobre 1831, au moyen des billets faits de mois en mois. J'irai
+               mardi prochain à la <placeName>Ferté</placeName> par la voiture publique.</p>
+            <p xml:id="L1830-10-06-a-p5">Attends-moi chez Mme <persName ref="#pers_J323">de Jussieu<ref xml:id="pers_J323"/>
+          </persName> à
+               l'arrivée de la voiture qui part d'ici à 7 heures du matin et que je quitterai avant
+               la <placeName>Ferté</placeName> pour aller à <placeName>Vanteuil</placeName> te voir et toute la maison <persName ref="#pers_J323">de Jussieu<ref xml:id="pers_J323"/>
+          </persName>. Je te
+               ramènerais, si tu veux, à <placeName>Paris</placeName> six ou huit jours après, car c'est tout ce que je
+               resterai à la campagne. Quel bonheur d'avoir trouvé à emprunter dans un moment où
+               l'argent est si rare ! J'ai risqué de voir protester le billet de M. <persName ref="#pers_G808">Guérin de
+               Foncin</persName>, et c'en était fait de ma place d'inspecteur général si un pareil scandale
+               était arrivé. Ma calèche restera à <placeName>Paris</placeName> ; je louerai un âne pour me promener s'il le
+               faut. D'ailleurs, j'ai repris des jambes et il faut passer une année d'économies. Je
+               recevrai chaque mois, après avoir laissé l'<orgName>Université</orgName> pour m'acquitter :<lb/>
+               Du <orgName>Collège
+               de <placeName>France</placeName>
+          </orgName> ..............................415<lb/>
+               De l'<orgName>Institut</orgName> environ.................................110<lb/>
+               Total....................................................................525<lb/>
+               J'en donnerai............................................................175<lb/> et nous vivrons tous deux avec
+               350 francs par mois. De l'économie, tout ira bien et il pourra encore rester de
+               l'argent pour ce que tu auras de plus pressé. D'ailleurs, sans un arrangement de tous
+               les mois, je risquerais de me laisser aller à quelques dépenses et je ne parviendrais
+               peut-être jamais à m'acquitter. Mille choses aux <persName ref="#pers_J323">Jussieu</persName> ! Ton papa t'embrasse si
+               tendrement. <lb/>
+               <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+            <closer>[à <placeName>Vanteuil</placeName>]</closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1830-10-06-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4° sans adresse.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

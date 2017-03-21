@@ -1,0 +1,280 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 541</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1816-10-26-b">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 518-519-520</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L541</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L541manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 340</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Six pages sans adresse.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1816-10-26">26
+                        octobre 1816</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Bredin, Claude-Julien</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1816-10-26-b">
+      <body>
+         <div xml:id="L1816-10-26-b-div1">
+            <opener>
+          <pb n="215" facs="#ACAS_CRHST_AMP_24_340_0215_r.jpg"/>
+          <date when="1816-10-26">26 <choice>
+              <abbr>8bre</abbr> <expan>octobre</expan>
+            </choice> 1816</date>
+        </opener>
+            <p xml:id="L1816-10-26-b-p1">Cher ami, j'ai pris l'émétique ce matin, je suis bien à présent, je viens de dormir
+               après avoir mangé, mon esprit seul souffre actuellement. Je me relève en pensant que
+               j'ai laissé deux de tes lettres sans réponse. Je me le reproche vivement, mais j'en
+               serai plus puni encore par la privation que je redoute de toute lettre de toi d'ici à
+               six ou sept jours. Je mériterais cette punition ; me l'auras-tu infligée ?</p>
+            <p xml:id="L1816-10-26-b-p2">J'ai écrit
+               ce matin à <persName>Ballanche</persName> pour la première fois depuis que je sais la mort de son père. Je
+               la sais pourtant depuis avant-hier par celle de tes lettres à laquelle j'ai répondu
+               le même jour. Mais hier !... Hier, je fus chez M. <persName>de Biran</persName> avec deux
+               autres métaphysiciens. La journée fut donc anéantie.</p>
+            <p xml:id="L1816-10-26-b-p3">Ton n° 18, si je m'en conviens,
+               m'arriva le jour même où je t'avais écrit une lettre que tu auras dû numéroter 6. Je
+               crus pouvoir attendre deux jours pour te récrire. De là jusqu'à avant-hier que je
+               t'écrivis sous le n° 7, je ne pus jamais trouver un instant.</p>
+            <p xml:id="L1816-10-26-b-p4">Ce n° 18 étant dans une
+               lettre de <persName ref="#pers_T566">Touchon<ref xml:id="pers_T566"/>
+          </persName> <ref target="#corresp2">(2)</ref>, à laquelle j'ai voulu<pb n="216" facs="#ACAS_CRHST_AMP_24_340_0216_v.jpg"/> répondre, les efforts inutiles que j'ai
+               faits pour cela sont cause que j'ai été si longtemps sans t'écrire. Je lui répondrai
+               pourtant ; mais, de grâce, obtiens de lui quelque temps de répit. Je suis écrasé, et
+               où prendre le loisir nécessaire pour rassembler les idées qu'exigent les détails
+               nécessaires sur un tel sujet Dis-lui, à <persName ref="#pers_T566">Touchon<ref xml:id="pers_T566"/>
+          </persName>, combien je l'aime ; prie-le de me
+               pardonner ce retard !</p>
+            <p xml:id="L1816-10-26-b-p5">Ta lettre n° 18 m'a été bien pénible en m'apprenant combien tu
+               souffrais alors <supplied>de douleurs </supplied>physiques, en m'indiquant de plus affreuses douleurs
+               morales. J'espère que les premières sont dissipées ; mais écris-le moi pour que, du
+               moins, je sois tranquille à cet égard. Quant aux autres, je ne vois que trop qu'elles
+               vont toujours en augmentant. Mais, si je t'ai fait connaître toutes les peines de ma
+               vie, si tu en as recueilli les aveux dans ton cœur, comment me caches-tu encore ce
+               qui t'intéresse le plus au monde ? Je ne le vois que trop, tu le caches à ton ami.
+               Une âme se perd, une âme si chérie,<pb n="217" facs="#ACAS_CRHST_AMP_24_340_0217_r.jpg"/> en qui toutes tes espérances ; elle en
+               entraîne d'autres. Depuis douze ans, plus de douze ans, le chagrin te ronge, voilà ce
+               que je n'ai pu comprendre !</p>
+            <p xml:id="L1816-10-26-b-p6">Je vois bien qu'il est question de quelqu'un qui
+               t'intéresse beaucoup, mais comment ? Je ne te demande pas le nom, mais seulement les
+               circonstances : l'histoire de tes sentiments, comme je t'ai fait à <placeName>Lyon</placeName>, à mon
+               dernier voyage, celle des miens. A l'égard de <persName ref="#pers_T566">Touchon<ref xml:id="pers_T566"/>
+          </persName>, sur le raisonnement et le
+               sentiment, ma réponse en gros est que le premier, auquel on peut toujours se fier
+               quand il est juste, a une valeur objective, indépendante des formes et catégories ou
+               lois de notre esprit. Dis-le à <persName ref="#pers_T566">Touchon<ref xml:id="pers_T566"/>
+          </persName>, en ajoutant que <persName ref="#pers_C769">Clarke</persName> est tout raisonnement
+               et raisonnement invincible. Quant au sentiment, il ne peut avoir qu'une valeur
+               subjective dans la conscience ; mais il y est tout et irréfragable.</p>
+            <p xml:id="L1816-10-26-b-p7">Comment ne
+               m'as-tu pas encore<pb n="218" facs="#ACAS_CRHST_AMP_24_340_0218_v.jpg"/> donné l'adresse de M. <persName ref="#pers_O775">Oberlin</persName>, s'il est à <placeName>Paris</placeName>, comme je le
+               crois.</p>
+            <p xml:id="L1816-10-26-b-p8">Heureusement que les nouvelles que tu me donnes des élections de l'<placeName>Ain</placeName> ne sont
+               vraies que pour <persName ref="#pers_J318">Camille<ref xml:id="pers_J318"/>
+          </persName> et que <persName>Michaud</persName>.... Encore pourvu que celle de <persName ref="#pers_J318">Camille<ref xml:id="pers_J318"/>
+          </persName> ne soit
+               pas attaquée ! Donne-moi, je t'en prie, des nouvelles de cet excellent ami ; mais
+               donne-m'en surtout de <persName>Ballanche</persName> ! Donne-m'en dans le plus grand détail ! Il est si
+               malheureux dans ce moment ! Parle, parle-m'en !</p>
+            <p xml:id="L1816-10-26-b-p9">Ton n° 19 commence par me dire que ma
+               lettre du 9 octobre t'a rendu la vie. Voilà précisément, cher ami, ce que me font, et
+               plus encore, les tiennes. Ah, si tu savais le bien qu'elles me font, la joie qu'elles
+               versent dans mon âmes tu m'écrirais sans cesse ! J'ai déjà donné commission pour
+               qu'on m'achetât pour toi la triple vie et les 40 questions, que tu me demandes. Tu
+               les recevras aussitôt que je pourrai trouver une occasion leur te les envoyer.</p>
+            <p xml:id="L1816-10-26-b-p10">Je
+               comprends une partie de ce que tu me dis sur la nécessité de bander pour quelques
+               jours les yeux de ceux à qui on a levé la cataracte ; je l'admets<pb n="219" facs="#ACAS_CRHST_AMP_24_340_0219_r.jpg"/> bien pour quelques
+               jours, pour quelques années si tu veux. Mais à quoi leur servira l'opération si on
+               leur laisse le bandeau toute leur vie ?</p>
+            <p xml:id="L1816-10-26-b-p11">Au reste, je ne pourrai conseiller <persName ref="#pers_B67">J. B.
+               </persName> <ref target="#corresp3">(3)</ref> à personne. Parmi ceux que je connais, y en a-t-il un seul qui soit de l'eau
+               vive. La vérité même, l'<placeName>Amérique</placeName>, ils font passer avant elle les intérêts du moment !</p>
+            <p xml:id="L1816-10-26-b-p12">
+               Voici encore une phrase de ta lettre que je n'ai pas su interpréter. Si M. était au
+               désespoir des obscurités de <persName ref="#pers_B67">J- B.</persName> : probablement que, sans qu'il le dise, il avait
+               plus de chagrin de ce que les hommes ont besoin d'un tel livre. Est-ce seulement sous
+               le point de vue de ce que les vices des hommes tendent ces obscurités nécessaires, ou
+               celui des erreurs nécessaires qui se trouveraient dans ce livre ?</p>
+            <p xml:id="L1816-10-26-b-p13">Tu me promets, cher
+               ami, dans la même lettre que, sous huit ou dix jours, tu pourras me donner une idée
+               de la doctrine de <persName ref="#pers_B67">J. B.</persName> Souviens-toi de cette promesse ! Je vis dans cette attente.
+               Si tu savais combien j'ai besoin que tu le fasses !</p>
+            <p xml:id="L1816-10-26-b-p14">
+          <pb n="220" facs="#ACAS_CRHST_AMP_24_340_0220_v.jpg"/>Tu n'as pas vu <persName ref="#pers_B74">Bonjour</persName> ! il ne
+               t'a donc pas parlé d'un tableau de psychologie et d'une lettre détaillée dont je
+               l'avais prié de te communiquer une partie ! Tâche de le voir, cher ami, parle-lui de
+               moi et fais tout ce que tu pourras pour l'engager à me répondre. Tu sais bien qu'il
+               est pour moi l'objet d'une passion aussi constante que malheureuse. Tu m'as écrit une
+               dernière lettre, j'y ai déjà répondu ; je viens de la relire à la suite des autres.
+               Elle m'accable de tes chagrins. Oh, mon ami, comme il me semble qu'il est injuste que
+               tu sois ainsi malheureux ! <cit>
+            <quote>Il me le semble</quote>
+          </cit> n'est pas assez, je le sens et mon âme
+               se soulève. Je ne puis plus t'écrire. écris-moi longuement sur le sujet des chagrins
+               que te donne ce caractère si incompréhensible. N'y a-t-il donc plus à espérer de
+               changement ? Pauvre ami ? Je suis un misérable ! Ah, <persName ref="#pers_B94">Bredin<ref xml:id="pers_B94"/>
+          </persName> que je donnerais
+               volontiers le peu de bonheur qui me reste pour que tu souffrisses moins ! Mais, en
+               grâce, écris-moi ; écris tes chagrins à l'ami qui t'aime plus que lui-même, qui
+               t'embrasse du fond de son cœur, et attend une de tes lettres comme <placeName>Israël</placeName> attend le
+               Messie ! Adieu, cher ami.</p>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1816-10-26-b-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Six pages sans adresse. Quelques lignes ont été publiées par
+               Mme <persName ref="#pers_C1171">Cheuvreux</persName>, p. 101.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) Le <persName>pasteur Touchon</persName>, gendre de <persName ref="#pers_S1554">Me Schrimpf</persName>, correspondant
+               de <persName ref="#pers_B94">Bredin<ref xml:id="pers_B94"/>
+          </persName>.</note>
+            <note resp="#CGA" xml:id="corresp3">Boehme</note>
+         </div>
+      </back>
+   </text>
+</TEI>

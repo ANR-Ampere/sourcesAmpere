@@ -1,0 +1,410 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 1163</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1815-02-15-b">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Bibliothèque nationale de France</institution>
+                  <repository>N.A.F.</repository>
+                  <idno>ms 14605, f° 131-133 [note A. Robinet]</idno>
+                  <altIdentifier>
+                     <idno type="old">L1163</idno>
+                     <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+                  </altIdentifier>
+               </msIdentifier>    
+               
+               <physDesc>
+                  <handDesc>
+                     <handNote corresp="#AMA">
+                <name type="person" key="Ampère, André-Marie (1775-1836)">
+                  <forename>André-Marie</forename>
+                  <surname>Ampère</surname>
+                </name>
+              </handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness xml:id="L1163edition">
+            <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>Maine de Biran</surname>
+                           <forename>Pierre</forename>
+                        </author>
+                        <author role="dir">
+                           <surname>Robinet</surname>
+                           <forename>André</forename>
+                        </author>
+                        <title>Oeuvres, XIII-1 : Correspondance philosophique avec Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>J. Vrin</publisher>
+                           <date when="1993">1993</date>
+                           <biblScope type="pp">p. 401-403</biblScope>
+                        </imprint>
+                     </monogr>
+                  </biblStruct>
+          </witness>
+               <witness xml:id="L1163manuscrit">
+                  <msDesc type="copie">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <idno>chemise 261</idno>
+                     </msIdentifier>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when="1815-02-15">15 février 1815</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_M1173" type="adressee">Maine de Biran, Pierre</persName>
+        </correspAction>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1815-02-15-b">
+      <body>
+         <div xml:id="L1815-02-15-b-div1">
+            <opener>
+          <pb n="238"/>
+          <placeName>Paris</placeName> le <date when="1815-02-15">15 février 1814 [1815]</date>
+        </opener>
+            <p xml:id="L1815-02-15-b-p1">Cher ami ! vous devez m'en vouloir<lb/>
+               de mon silence, je me le reproche<lb/>
+               mille fois
+               plus vivement que vous ne<lb/>
+               pouvez me le reprocher. Mais si vous<lb/>
+               saviez comme mon
+               <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice>, a été<lb/>
+               absorbé vous me pardonneriez une<lb/>
+               chose tout à fait involontaire, mon<lb/>
+               <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice> était tellement pris que M.<lb/>
+               <persName ref="#pers_D174">Davy</persName> m'ayant écrit de <placeName>Rome</placeName> pour<lb/>
+               <choice>
+            <sic>différens</sic> <corr>différents</corr>
+          </choice>
+               <choice>
+            <sic>renseignemens</sic> <corr>renseignements</corr>
+          </choice> relatifs à la<lb/>
+               chimie, ma réponse commencée le<lb/>
+               <date when="1815-01-25">25 janvier</date> n'a pu être
+               finie et<lb/>
+               partir qu'hier. Vous savez que la<lb/>
+               fin de mon cours à l'<orgName>école Polytechnique</orgName>
+          <lb/>
+               s'est réunie pendant 15 jours<lb/>
+               aux fonctions de juré pour ne<lb/>
+               pas me laisser un
+               instant, et depuis<lb/>
+               que cela est fini, M. <persName ref="#pers_F247">de Fontanes<ref xml:id="pers_F247"/>
+          </persName>
+          <lb/>
+               m'a choisi avec trois
+               autres inspecteurs<lb/>
+               pour faire la visite des lycées de <placeName>Paris</placeName>,<lb/>
+               ce qui a été encore
+               mille fois plus<lb/>
+               assujettissant, et je crois bien inutile<lb/>
+               puisqu'on attend de jour en
+               jour la<lb/>
+               nouvelle organisation de l'université.<pb n="239"/>
+               Toutes ces occupations ne m'ont pas<lb/>
+               permis d'écrire un mot pour la <orgName>société<lb/>
+               psychologique</orgName> qui souffre beaucoup de votre
+               absence, M. <persName ref="#pers_D272">Degérando</persName> y a fait<lb/>
+               néanmoins à la dernière séance une<lb/>
+               lecture
+               intéressante contenant une<lb/>
+               espèce de tableau de la philosophie Grecque.<lb/>
+               Mais ce n'était qu'historique. Dans la<lb/>
+               séance précédente qui a eu lieu peu<lb/>
+               de <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice> après
+               votre départ il n'y eut<lb/>
+               qu'une conversation ou je fis un exposé<lb/>
+               de votre doctrine qui
+               réussit d'abord assez<lb/>
+               bien à ce qu'il m'a semblé, mais ensuite <lb/>
+                  M. <persName ref="#pers_R503">Royer-Collard</persName> fit
+               quelques objections<lb/>
+               d'une manière positive comme le<lb/>
+               prononcé d'un jugement, et cela
+               fit<lb/>
+               passer la conversation sur d'autres sujets<lb/>
+               en sorte que je ne pus répondre.<lb/>
+               Je
+               projette d'écrire pour la prochaine<lb/>
+               séance un morceau sur le sujet<lb/>
+               qui semble d'abord
+               lié à cette<lb/>
+               doctrine d'une manière assez<lb/>
+               indirecte, mais qui conduit néanmoins<lb/>
+               à établir des principes qui y conduisent<lb/>
+               nécessairement. Il serait intitulé :<lb/>
+               des sensations considérées <hi rend="underline">comme<lb/>
+               signes</hi>. De même que les autres<lb/>
+               psycologistes, je
+               distinguerai des signes<lb/>
+               naturels et des signes de convention,<pb n="240"/>
+               mais en établissant que
+               les premiers<lb/>
+               ne diffèrent des <del type="illisible"/> seconds qu'en<lb/>
+               ce que la simultanéité du signe et<lb/>
+               de la
+               chose signifiée résulte des lois<lb/>
+               ordinaires de la nature ou de<lb/>
+               celles de
+               l'organisation, mais que<lb/>
+               dans l'un et l'autre cas il n'y a<lb/>
+               que simultanéité, en sorte
+               que la<lb/>
+               sensation-signe, ne peut jamais,<lb/>
+               faire connaître la ;chose signifiée,<lb/>
+               comme
+               <persName ref="#pers_R479">Reid</persName> l'admet pour les<lb/>
+               signes naturels, mais seulement<lb/>
+               en faire
+               <hi rend="underline">reconnaître</hi> l'existence, quand<lb/>
+               elle a été connue <del type="illisible"/> au préalable<lb/>
+               d'une autre manière <del type="illisible"/> à
+               l'époque<lb/>
+               où l'association s'est faite. M. <persName ref="#pers_T568">de<lb/>
+                  Tracy</persName> offre ici un bon exemple<lb/>
+               à
+               discuter d'abord, quand il a admis<lb/>
+               qu'une sensation musculaire faisait<lb/>
+               primitivement
+               connaître le déplacement<lb/>
+               du membre, tandis qu'elle n'en est<lb/>
+               qu'un <hi rend="underline">signe naturel</hi> qui
+               suppose ce<lb/>
+               déplacement déjà connu, et son<lb/>
+               association avec lui par simple<lb/>
+               simultanéité.</p>
+            <p xml:id="L1815-02-15-b-p2">Je me suis proposé <choice>
+            <sic>tous les jours presque</sic> <corr>presque tous les jours</corr>
+          </choice>
+          <lb/>
+               depuis votre départ de voir
+               monsieur<pb n="241"/>
+               votre fils. Je vous ai dit quelles occupations<lb/>
+               <choice>
+            <sic>multipliées</sic> <corr>multiples</corr>
+          </choice> m'en <subst>
+            <del type="illisible"/> <add>on</add>
+          </subst> empêché
+               jusqu'à<lb/>
+               présent. J'espère m'en dédommager<lb/>
+               bientôt. C'est un grand malheur pour<lb/>
+               moi que
+               vous ne soyez pas ici à l'époque<lb/>
+               extrêmement prochaine où l'on<lb/>
+               fera tous les
+               <choice> <sic>changemens</sic> <corr>changements</corr>
+          </choice> dans l'<orgName>Université</orgName>.<lb/>
+               Je ne vous cache pas que malgré<lb/>
+               l'influence qu'auront
+               sûrement<lb/>
+               nos amis dans les nouveaux choix,<lb/>
+               j'ai les plus grandes craintes de n'être<lb/>
+               pas conservé, parce qu'on dit qu'on<lb/>
+               diminuera beaucoup le nombre des<lb/>
+               personnes
+               employées, et qu'on en<lb/>
+               nommera qui jusqu'à présent ont<lb/>
+               été étrangers à l'Université;
+               d'après<lb/>
+               ceux qu'on <subst>
+            <del type="illisible"/> <add>annonce devoir être choisis,</add>
+          </subst> je pense que<lb/>
+               vous auriez peut-être
+               été nommé<lb/>
+               conseiller si vous vous étiez<lb/>
+               trouvé ici lorsqu'on s'occupera<lb/>
+               définitivement des choix. Quel<lb/>
+               bonheur c'eut été pour la<lb/>
+               philosophie ! Mais il semble
+               que<lb/>
+               toutes les circonstances les plus<lb/>
+               accidentelles tournent contre elle.<lb/>
+               Si je sors,
+               personne dans l'<orgName>Université</orgName>
+          <lb/>
+               n'y prendra plus <del type="illisible"/> d'intérêt à<lb/>
+               moins que M. <persName ref="#pers_R503">Royer-Collard</persName>
+          <lb/>
+               ne
+               soit conseiller comme plusieurs<lb/>
+               personnes l'espèrent.<pb n="242"/>
+               Je n'ai au reste fait aucune
+               démarche<lb/>
+               pour rester, quoique bien d'autres<lb/>
+               en fassent, je me le reproche presque,<lb/>
+               mais les uns ne prennent aucun<lb/>
+               intérêt à moi, et je leur en<lb/>
+               parlerais inutilement, un
+               ou deux<lb/>
+               autres en prennent peut-être mais<lb/>
+               il me semble qu'en les allant voir<lb/>
+               à ce
+               sujet je ne ferais que leur<lb/>
+               dire que je me défie de ce qu'ils devraient<lb/>
+               naturellement
+               dire pour moi, comme<lb/>
+               le plus ancien des inspecteurs pour<lb/>
+               les sciences, et celui qui
+               peut<lb/>être chargé des choses relatives à<lb/>
+               un plus grand nombre des diverses
+               connaissances.</p>
+            <p xml:id="L1815-02-15-b-p3">Adieu cher ami, je vous aime<lb/>
+               et vous embrasse de toute mon<lb/>
+               âme, et
+               j'attends une lettre de<lb/>
+               vous avec une vive impatience,<lb/>
+               puisse-t-elle m'annoncer à peu<lb/>
+               près l'époque de votre retour à<lb/>
+               <placeName>Paris</placeName> ! Je vous prie d'offrir à<lb/>
+               <persName ref="#pers_M1532">Madame de Biran</persName> ;
+               l'hommage<lb/>
+               de mon profond respect, et de<lb/>
+               m'aimer toujours comme je vous aimerai<lb/>
+               toute ma vie. <persName ref="#pers_A366">A.AMPÈRE</persName> </p>
+         </div>
+         <closer>A <choice>
+          <sic>monsieur<lb/>
+         monsieur</sic> <corr>monsieur</corr>
+        </choice> le <persName ref="#pers_M1173">chevalier de Biran</persName>
+        <lb/>
+         questeur de la Chambre<lb/>
+            des députés.<lb/>
+         A <placeName>Périgueux</placeName>
+        <lb/>
+         Dép<ex>artemen</ex>t de la <placeName>Dordogne</placeName>.<lb/>
+         <placeName>Bergerac</placeName>
+        <lb/>
+         <date when="1815-02-23">23 février</date>
+      </closer>
+      </body>
+      
+   </text>
+</TEI>

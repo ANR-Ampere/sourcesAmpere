@@ -1,0 +1,566 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 1181</title>
+                <author>Ampère, André-Marie</author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+                    <affiliation>Università L'Aquila</affiliation>
+          </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                        sciences</affiliation>
+                    </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+                    <name>Centre de calcul de
+                        l'IN2P3</name>
+                    <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+                </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="original_manuscrit">
+                    <msIdentifier xml:id="ampere_corr_L1810-06-17-a">
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>N.A.F.</repository>
+                        <idno>ms 14605, f° 76-81 [note A. Robinet]</idno>
+                        <altIdentifier>
+                            <idno type="old">L1181</idno>
+                            <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+                        </altIdentifier>
+                    </msIdentifier>    
+                    
+                    <physDesc>
+                        <handDesc>
+                            <handNote corresp="#AMA">
+                                <name type="person" key="Ampère, André-Marie (1775-1836)">
+                                    <forename>André-Marie</forename>
+                                    <surname>Ampère</surname>
+                                </name>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <listWit>
+                    <witness xml:id="L1181">
+                        <biblStruct>                            
+                            <monogr>                              
+                                <author role="dir">
+                                    <surname>Robinet</surname>
+                                    <forename>André</forename>
+                                </author>
+                                <title>Œuvres, XIII-1 : Correspondance philosophique avec Ampère</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>J. Vrin</publisher>
+                                    <date when="1993">1993</date>
+                                    <biblScope type="pp">p. 196-200</biblScope>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                    </witness>                  
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when="1810-06-17">17 juin 1810</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_M1173" type="adressee">Maine de Biran, Pierre</persName>
+        </correspAction>
+      </correspDesc>
+            <creation>
+                <date when="2014-07">juillet 2014</date>
+                <name>Philippe Pons</name>
+                <name>Aude
+                    Coustumer</name>
+            </creation>
+            <langUsage>
+                <language ident="fra">Français</language> 
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="correspondance" decls="#ampere_corr_L1810-06-17-a">
+        <body>
+            <div xml:id="L1810-06-17-a-div1">  
+                <opener>
+          <placeName>Sisteron</placeName> <date when="1810-06-17">17 juin 1810</date>.</opener>
+                <p xml:id="L1810-06-17-a-p1">
+          <pb n="127"/>J'ai enfin un moment pour vous écrire,<lb/>
+                    mon cher ami, je le dois à ce qu'étant ici dans<lb/>
+                    la patrie de mon collègue, il a été voir des<lb/>
+                    amis et des <choice>
+            <sic>parens</sic> <corr>parents</corr>
+          </choice>, au lieu que dans<lb/>
+                    toutes les villes que nous avons inspectées<lb/>
+                    il a fallu que je fusse toujours avec<lb/>
+                    lui, soit pour les examens et l'inspection,<lb/>
+                    soit pour la rédaction des rapports.</p>
+                <p xml:id="L1810-06-17-a-p2">
+                    J'ai reçu votre lettre prêt à quitter<lb/>
+                    <placeName>Lyon</placeName> et M. <persName ref="#pers_R502">Roux-Bordier</persName> que j'ai eu le<lb/>
+                    plaisir d'y rencontrer. Voici une petite note<lb/>
+                    qu'il m'a donnée pour vous, quand je lui<lb/>
+                    eu dit que vous aviez goûté ses  recherches<lb/>
+                    sur le rappel des idées. Il s'y peint beaucoup<lb/>
+                    moins occupé de <choice>
+            <sic>psycologie</sic> <corr>psychologie</corr>
+          </choice> qu'il ne l'est<lb/>
+                    réellement</p>
+                <p xml:id="L1810-06-17-a-p3">Je voudrais bien pouvoir vous expliquer<lb/>
+                    dans une lettre la manière dont<lb/>
+                    je conçois la génération de nos<lb/>
+                    connaissances relativement à ce que<lb/>
+                    nous savons des êtres hors de nous<lb/>
+                    indépendamment de notre propre<lb/>
+                    existence, je vais essayer de vous en donner<pb n="128"/>
+                    une idée qui sera nécessairement bien<lb/>
+                    imparfaite, car autrement il faudrait<lb/>
+                    écrire un volume. Vous tacherez de<lb/>
+                    <choice>
+            <sic>supléer</sic> <corr>suppléer</corr>
+          </choice> à ce que je n'aurai pu exprimer.</p>
+                <p xml:id="L1810-06-17-a-p4">Vous savez qu'après avoir divisé tout ce<lb/>
+                    qui fournit des matériaux ou donne<lb/>
+                    naissance à nos connaissances en deux<lb/>
+                    systèmes, celui de la sensibilité, et celui<lb/>
+                    de la connaissance qui commence au<lb/>
+                    déploiement de l'activité <del type="illisible"/>, j'avais<lb/>
+                    divisé ce dernier, que je nomme<lb/>
+                    <hi rend="underline">système cognitif</hi>, en deux autres<lb/>
+                    <hi rend="underline">le système cognitif primitif</hi>, qui naît<lb/>
+                    <hi rend="underline">de l'autopsie</hi>, et le <hi rend="underline">système cognitif<lb/>
+                    dérivé</hi> qui résulte de la faculté<lb/>
+                    d'<choice>
+            <sic>appercevoir</sic> <corr>apercevoir</corr>
+          </choice> des rapports. Ce dernier<lb/>
+                    pourrait encore se partager en<lb/>
+                    deux autres, car nous <choice>
+            <sic>appercevons</sic> <corr>apercevons</corr>
+          </choice>
+          <lb/>
+                    deux sortes de rapports, d'une nature<lb/>
+                    entièrement différente, et qui donne<lb/>
+                    lieu à des phénomènes très divers.
+                </p>
+                <p xml:id="L1810-06-17-a-p5">C'est sur cette distinction des deux sortes<lb/>
+                de rapports que sont fondées toutes mes<lb/>
+                recherches à ce sujet. C'est elle qu'il s'agit<pb n="129"/>
+                de bien éclaircir.</p>
+                <p xml:id="L1810-06-17-a-p6">On <choice>
+            <sic>apperçoit</sic> <corr>aperçoit</corr>
+          </choice> entre les diverses modifications<lb/>
+                qu'on éprouve des rapports de ressemblance,<lb/>
+                de dissemblance, de contraste, qui dépendent<lb/>
+                de la nature des <hi rend="underline">modifications comparées<lb/>
+                et qui seraient <choice>
+              <sic>différens</sic> <corr>différents</corr>
+            </choice> si organisés<lb/>
+                différemment nous éprouvions<lb/>
+                d'autres modifications.</hi>
+        </p>
+                <p xml:id="L1810-06-17-a-p7">On <choice>
+            <sic>apperçoit</sic> <corr>aperçoit</corr>
+          </choice> entre les modifications<lb/>
+                qu'on éprouve d'autres rapports, qu'il<lb/>
+                vaudrait mieux nommer relations,<lb/>
+                en laissant exclusivement le nom de<lb/>
+                rapports à ceux dont je viens de<lb/>
+                parler. Ces relations dépendent<lb/>
+                uniquement des divers modes de<lb/>
+                <hi rend="underline">coordination</hi> établis entre les<lb/>
+                modifications comparées, et sont<lb/>
+                absolument indépendantes de la<lb/>
+                <hi rend="underline">nature même</hi> de ces <hi rend="underline">modifications</hi>.<lb/>
+                L'acte par lequel nous <choice>
+            <sic>appercevons</sic> <corr>apercevons</corr>
+          </choice>
+          <lb/>
+                    un <hi rend="underline">simple rapport</hi> laisse une trace<lb/>
+                    que j'<choice>
+            <sic>appèle</sic> <corr>appelle</corr>
+          </choice> exclusivement <hi rend="underline">idée</hi>, et<lb/>
+                    qu'on nomme ordinairement <hi rend="underline">idée<lb/>
+                    générale</hi>. Ainsi <hi rend="underline">l'idée de rouge</hi>,<pb n="130"/>
+                    en général, qu'il faut bien distinguer<lb/>
+                    de <hi rend="underline">l'image</hi>, toujours individuelle, d'un<lb/>
+                    rouge particulier, et la trace que<lb/>
+                    laisse en nous <hi rend="underline">l'acte</hi> par lequel nous<lb/>
+                    <choice>
+            <sic>appercevons</sic> <corr>apercevons</corr>
+          </choice> la <hi rend="underline">ressemblance</hi> entre<lb/>
+                    tous les <hi rend="underline">rouges</hi>, et qui ne se trouve pas entre<lb/>
+                    eux et d'autres <choice>
+            <sic>sensions</sic> <corr>sensations</corr>
+          </choice> visuelles ou autres.<lb/>
+                    De même <hi rend="underline">l'idée</hi> exprimée par le mot<lb/>
+                    <hi rend="underline">couleur</hi> est la trace de <hi rend="underline">l'acte</hi> par<lb/>
+                    lequel nous avons <choice>
+            <sic>apperçu</sic> <corr>aperçu</corr>
+          </choice> la<lb/>
+                    <hi rend="underline">ressemblance</hi> de toutes les <hi rend="underline">sensations<lb/>
+                    visuelles, l'idée plaisir</hi>, celle<lb/>
+                    de <hi rend="underline">l'acte</hi> par lequel nous avons <choice>
+            <sic>apperçu</sic> <corr>aperçu</corr>
+          </choice>
+          <lb/>
+                    une ressemblance entre toutes les<lb/>
+                    modifications qui nous ont été<lb/>
+                    agréables, etc. etc.
+                </p>
+                <p xml:id="L1810-06-17-a-p8">Les <hi rend="underline">idées</hi> ainsi définies dépendent comme<lb/>
+                les <hi rend="underline">images</hi> de la nature de nos<lb/>
+                <hi rend="underline">modifications</hi>, ou plutôt de notre<lb/>
+                propre nature, en cela elles sont<lb/>
+                <hi rend="underline">subjectives</hi>. Les relations au contraire<lb/>
+                sont indépendantes de la nature<lb/>
+                des modifications entre lesquelles<pb n="131"/>
+                    nous les <choice>
+            <sic>appercevons</sic> <corr>apercevons</corr>
+          </choice>. Les actes par<lb/>
+                    lesquels nous les <choice>
+            <sic>appercevons</sic> <corr>apercevons</corr>
+          </choice> ne nous<lb/>
+                    laissent pas des <hi rend="underline">idées</hi> proprement dites<lb/>
+                    mais des <hi rend="underline">notions</hi>. Telles sont les<lb/>
+                    <hi rend="underline">notions numériques</hi>, celles des diverses<lb/>
+                    relations de grandeurs, de formes et<lb/>
+                    de positions, la <hi rend="underline">notion</hi> de <hi rend="underline">succession</hi>
+          <lb/>
+                    et celle <hi rend="underline">de causalité</hi>.</p>
+                <p xml:id="L1810-06-17-a-p9">De quelque manière que nous fussions<lb/>
+                    organisés relativement à nos modes<lb/>
+                    de sensation, quand nous verrions<lb/>
+                    le rouge blanc, ou le jaune noir,<lb/>
+                    quand une odeur nous affecterait<lb/>
+                    comme un son nous affecte actuellement<lb/>
+                    il suffirait que nous puissions avoir<lb/>
+                    <del type="illisible"/> plusieurs sensations, ou images,<lb/>
+                    ou modifications quelconques présentes<lb/>
+                    à la fois <ref>*</ref> pour acquérir des notions<lb/>
+                    de nombres identiques à celles que<lb/>
+                    nous avons. Il suffirait que nous<lb/>
+                    <del type="illisible"/> eussions la faculté de coordonner<lb/>
+                    par juxtaposition et par succession,<pb n="132"/>
+                    pour avoir les mêmes <hi rend="underline">notions</hi> de<lb/>
+                    <hi rend="underline">grandeurs</hi>, de <hi rend="underline">formes</hi>, de <hi rend="underline">positions</hi>,<lb/>
+                    et la même <hi rend="underline">notion</hi> de <hi rend="underline">durée</hi>. Enfin<lb/>
+                    nous ne pourrions <hi rend="underline">agir</hi> avec la<lb/>
+                    <hi rend="underline">conscience</hi> de notre <hi rend="underline">action</hi>, sans<lb/>
+                    acquérir la même <hi rend="underline">notion</hi> de <hi rend="underline">causalité</hi>.</p>
+                <p xml:id="L1810-06-17-a-p10">Ainsi les <hi rend="underline">notions</hi> de <hi rend="underline">grandeurs</hi>, <hi rend="underline">formes</hi>
+          <lb/>
+                    et <hi rend="underline">positions</hi> que <persName ref="#pers_S1727">Saunderson</persName> avait<lb/>
+                    acquises en comparant des sensations<lb/>
+                    tactiles, étaient identiques à celles<lb/>
+                    que nos <choice>
+            <sic>gémètres</sic> <corr>géomètres</corr>
+          </choice> <subst>
+            <del type="illisible"/> <add>
+              <choice>
+                <sic>appercoivent</sic> <corr>aperçoivent</corr>
+              </choice> entre</add>
+          </subst>
+          <lb/>
+                    des <hi rend="underline">sensations visuelles figurées</hi>.</p>
+                <p xml:id="L1810-06-17-a-p11">Ce sont ces <hi rend="underline">notions</hi> que nous ne<lb/>
+                    pouvons <choice>
+            <sic>appercevoir</sic> <corr>apercevoir</corr>
+          </choice>, comme les<lb/>
+                    idées proprement dites, qu'entre<lb/>
+                    nos <hi rend="underline">modifications</hi>, mais qui <del type="illisible"/> sont<lb/>
+                    indépendantes de leur nature, tandis que<lb/>
+                    les <hi rend="underline">idées</hi> en dépendent immédiatement<lb/>
+                    et <choice>
+            <sic>essenciellement</sic> <corr>essentiellement</corr>
+          </choice>, que j'appelais<lb/>
+                    quand vous étiez à <placeName>Paris</placeName> des <hi rend="underline">idées<lb/>
+                    désubjectivées</hi>.</p>
+                <p xml:id="L1810-06-17-a-p12">Cela posé : il est évidemment absurde<pb n="133"/>
+                    d'attribuer aux noumènes <lb/>
+                    aucune de nos <hi rend="underline">modifications</hi>, aucunes de nos<lb/>
+                    idées, en tant qu'elles y existeraient<lb/>
+                    indépendamment de notre propre<lb/>
+                    existence, puisqu'elles dépendent également<lb/>
+                    de notre manière d'être particulière,<lb/>
+                    et qu'en cela elles sont nécessairement<lb/>
+                    subjectives. Mais il n'est pas <hi rend="underline">absurde</hi>
+          <lb/>
+                    <hi rend="underline">
+            <foreign xml:lang="lat">a priori</foreign>
+          </hi> de supposer que des <hi rend="underline">relations</hi>
+          <lb/>
+                        dont nous n'avons cependant les<lb/>
+                        <hi rend="underline">notions</hi> que parce que nous les<lb/>
+                    avons <choice>
+            <sic>apperçues</sic> <corr>aperçues</corr>
+          </choice> entre nos propres<lb/>
+                    <hi rend="underline">modifications</hi>, mais qui ne dépendent<lb/>
+                    nullement de la nature de ce<lb/>
+                    entre quoi elles existent, existent<lb/>
+                    entre les noumènes dont la nature<lb/>
+                    nous est absolument inconnue.<lb/>
+                    Il n'est pas exemple, pas <hi rend="underline">absurde<lb/>
+                    a priori</hi>, de supposer qu'il y a hors<lb/>
+                    de nous tel nombre de <hi rend="underline">noumènes</hi>.<lb/>
+                    Que des <hi rend="underline">noumènes</hi> sont <hi rend="underline">causes</hi> de<lb/>
+                    tels et tels effets, qu'ils sont plus ou<lb/>
+                    moins <hi rend="underline">étendus</hi>, et diversement <hi rend="underline">figurés</hi>.<pb n="134"/>
+                    Qu'après avoir <del type="illisible"/> acquis<lb/>
+                    la <hi rend="underline">notion</hi> d'être plus grand, en<lb/>
+                    voyant le <hi rend="underline">phénomène</hi> de la lune<lb/>
+                    plus grand que celui de <choice>
+            <sic>Juppiter</sic> <corr>Jupiter</corr>
+          </choice>, nous<lb/>
+                    ne supposions que le noumène<lb/>
+                    de <choice>
+            <sic>Juppiter</sic> <corr>Jupiter</corr>
+          </choice> est plus grand que le<lb/>
+                    noumène de la lune, etc.</p>
+                <p xml:id="L1810-06-17-a-p13">Par là nous concevons un monde<lb/>
+                    <hi rend="underline">nouménal-hypothétique</hi> entièremen<supplied>t</supplied>
+          <lb/>
+                    différent du monde <hi rend="underline">phénoménal</hi>
+          <lb/>
+                    ou <hi rend="underline">subjectif</hi>, et je le répète il n'y<lb/>
+                    a plus <hi rend="underline">d'absurdité a priori</hi> à suppos<supplied>er</supplied>
+          <lb/>
+                    que ce monde <hi rend="underline">nouménal hypothétique</hi>
+          <lb/>
+                    est <hi rend="underline">réel</hi> indépendamment de<lb/>
+                    notre propre existence, que les<lb/>
+                    mêmes <hi rend="underline">relations</hi> que nous y<lb/>
+                    admettons, y existassent avant<lb/>
+                    que nous en eussions les <hi rend="underline">notions</hi>,<lb/>
+                    avant que nous existassions ; mais<lb/>
+                    quoique <hi rend="underline">possible</hi> cette <hi rend="underline">hypothèse</hi> n'est<lb/>
+                    pas vraie pour cela. Ce peut n'être<pb n="135"/>
+                    comme les cieux de cristal des anciens<lb/>
+                    qu'un roman de notre imagination.<lb/>
+                    Il faut trouver un <hi rend="underline">
+            <foreign xml:lang="lat">criterium</foreign>
+          </hi> de<lb/>
+                    sa réalité. Ce <hi rend="underline">
+            <foreign xml:lang="lat">criterium</foreign>
+          </hi> se trouve<lb/>
+                    dans deux choses, la possibilité d'y<lb/>
+                    ajouter toujours de nouveaux degrés<lb/>
+                    de probabilité, la loi de notre<lb/>
+                    entendement qui veut qu'une certaine<lb/>
+                    somme de probabilités entraîne<lb/>
+                    pour nous un <hi rend="underline">assentiment</hi> de<lb/>
+                    certitude complète, et qu'après<lb/>
+                    avoir <subst>
+            <del type="illisible"/> <add>bien remarqué</add>
+          </subst> cette loi nous nous<lb/>
+                    y soumettions, après avoir reconnu<lb/>
+                    que dans notre <hi rend="underline">mode actuel<lb/>
+                    d'existence</hi>, il ne peut y avoir<lb/>
+                    pour nous d'autre <hi rend="underline">certitude</hi> sur<lb/>
+                    tout ce qui n'est pas <hi rend="underline">perception</hi>
+          <lb/>
+                    de nos <hi rend="underline">propres modifications</hi>
+          <lb/>
+                    relativement à nous.</p>
+                <p xml:id="L1810-06-17-a-p14">Mais comment obtenir des probabilités<lb/>
+                    en faveur d'une hypothèse sur le<lb/>
+                    monde <hi rend="underline">nouménal hypothétique</hi> ? Il faut<lb/>
+                    encore deux choses après s'être assuré<lb/>
+                    qu'il n'y a rien de nécessairement<pb n="136"/>
+                    subjectif dans l'hypothèse, ou ce qui<lb/>
+                    est la même chose qu'elle est<lb/>
+                    uniquement composée de <hi rend="underline">notions</hi>.</p>
+                <p xml:id="L1810-06-17-a-p15">
+          <list>
+            <item n="1">°. Il faut déduire de <subst>
+                <del type="illisible"/> <add>cette</add>
+              </subst> hypothèse, et<lb/>
+                des relations qu'elle suppose entre<lb/>
+                les <hi rend="underline">noumènes</hi>, hors de nous et indépendamment<lb/>
+                de nous, les relations qui doivent<lb/>
+                en résulter entre les <hi rend="underline">phénomènes</hi>
+              <lb/>
+               de notre monde <hi rend="underline">subjectif</hi>, telles que<lb/>
+                leur ordre de succession, leurs<lb/>
+                <choice>
+                <sic>changemens</sic> <corr>changements</corr>
+              </choice> <choice>
+                <sic>apparens</sic> <corr>apparents</corr>
+              </choice> de formes <ref>*</ref>, de<lb/>
+                grandeurs et de positions.</item>
+            <lb/>
+                <item n="2">°. IL faut s'assurer, ce qui est toujours<lb/>
+                facile, qu'à moins d'une <hi rend="underline">harmonie<lb/>
+                préétablie</hi> sans aucune raison<lb/>
+                ni motif, entre les <hi rend="underline">conceptions<lb/>
+                romanesques</hi> de notre imagination,<lb/>
+                et les phénomènes successifs de notre<pb n="137"/>
+                monde subjectif<add> sensitif</add>, la dépendance qui  tient<lb/>
+                les <hi rend="underline">relations supposées</hi> entre les<lb/>
+                <hi rend="underline">noumènes</hi>, et les <hi rend="underline">relations</hi> qu'on<lb/>
+                    en déduit devoir se présenter entre<lb/>
+                    les <hi rend="underline">phénomènes du monde subjectif</hi>,<lb/>
+                    que cette dépendance, dis-je, ne peut exister<lb/>
+                    qu'autant que les premières <subst>
+                <del type="illisible"/> <add>relations<lb/>
+                    existeraient réellement</add>
+              </subst> et indépendamment de<lb/>
+                    nous entre les <hi rend="underline">noumènes</hi>.
+                </item>
+          </list>
+                </p>
+                <p xml:id="L1810-06-17-a-p16">Ces deux choses étant faites, l'hypothèse<lb/>
+                des <hi rend="underline">relations</hi> entre les <hi rend="underline">noumènes</hi> devient<lb/>
+                d'autant plus probable que plus <choice>
+            <sic>des<lb/>
+                des</sic> <corr>des<lb/>
+            </corr>
+          </choice> <hi rend="underline">relations</hi> entre les <hi rend="underline">phénomènes</hi>
+          <lb/>
+                    qui en ont été déduites, se vérifient<lb/>
+                    par l'observation dans le monde<lb/>
+                    <hi rend="underline">subjectif</hi> ou <hi rend="underline">apparent</hi>.</p>
+                <p xml:id="L1810-06-17-a-p17">Ainsi se trouvent résolues ces quatre<lb/>
+                    questions fondamentales de toute<lb/>
+                    connaissance sur ce qui n'est pas<lb/>
+                    nous-mêmes :<lb/>
+                    <list>
+            <item n="1">°. Possibilité d'une telle connaissance.</item>
+            <lb/>
+                    <item n="2">°. Nature des notions qu'on peut sans<lb/>
+                    absurdité faire entrer dans l'hypothèse.</item>
+            <lb/>
+                    <item n="3">°. Sorte de certitude dont elle est<pb n="138"/>
+                        susceptible dans notre mode actuel<lb/>
+                        d'existence.
+                    </item>
+            <lb/>
+                        <item n="4">°. <foreign xml:lang="lat">Criterium</foreign> de la vérité d'une hypothèse
+                        </item>
+          </list>
+                </p>
+                <p xml:id="L1810-06-17-a-p18">Ne perdez pas de vue, mon cher<lb/>
+                ami, que tout ceci n'est que l'historique<lb/>
+                    de ce qui a été réellement fait lors<lb/>
+                    de la découverte de ce monde nouménal<lb/>
+                    admis par les astronomes, les physiciens, les<lb/>
+                    chimistes, etc. où le soleil qui parait un<lb/>
+                    disque plat, et un immense globe, la<lb/>
+                    voûte céleste, la couleur de l'air,la<lb/>
+                    lumière des molécules extrêmement<lb/>
+                    petites faisant 4,000,000 de lieues par<lb/>
+                    minute, etc. on a composé tout ce<lb/>
+                    monde de <hi rend="underline">notions</hi> désubjectivées,<lb/>
+                    quoiqu'<choice>
+            <sic>apperçues</sic> <corr>aperçues</corr>
+          </choice> d'abord entre des<lb/>
+                    <hi rend="underline">sensations</hi> ou des <hi rend="underline">images</hi> visuelles ou<lb/>
+                    tactiles, qu'on a ensuite prouvé la<lb/>
+                    vérité de ces hypothèses en accumul<supplied>ant</supplied>
+          <lb/>
+                    les probabilités qui résultent des effets<lb/>
+                    qu'on en déduit pour le <hi rend="underline">monde<lb/>
+                    phénoménal</hi> comparés à ce que nous<lb/>
+                    y observons réellement. Tout cela<lb/>
+                    est bien mal expliqué mais je ne<lb/>
+                    puis faire mieux à présent. Tachez<lb/>
+                    mon cher ami, de deviner ces choses<lb/>
+                    si bien liées et si claires dans mon<lb/>
+                    esprit et qui le sont si peu dans ce que je<lb/>
+                    viens d'écrire. Je vous embrasse de toute mon âme. <persName ref="#pers_A366" rend="#pers_A366">A. Ampère</persName>
+                </p>
+            </div>
+        </body>
+        
+        <back>
+      <div xml:id="L1810-06-17-a-div2">
+        <note resp="#CGA">Je dis à la fois parce que tout souvenir<lb/>
+        ou image d'une modification passée, est une<lb/>
+        modification actuelle ou présente.</note>
+        <note resp="#CGA">La sensation visuelle de la tour qui<lb/>
+        paraît tantôt ronde, et tantôt carrée,<lb/>
+        les phases de la lune, et de Vénus, etc.</note>
+      </div>
+    </back>
+    </text>
+</TEI>

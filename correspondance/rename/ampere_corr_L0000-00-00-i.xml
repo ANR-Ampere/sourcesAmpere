@@ -1,0 +1,180 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 11</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L0000-00-00-i">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 722-723</biblScope>
+                  </imprint>
+               </monogr>
+
+               
+            <idno type="old">L11</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L11manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère [note de Louis DE
+                           LAUNAY]</repository>
+                     </msIdentifier>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_A366">Ampère, André-Marie</persName>
+          <date when-iso="0000-00-00">s.d.</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_A10">Ampère, Jean-Jacques (fils
+                        d'Ampère)</persName>
+        </correspAction>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L0000-00-00-i">
+      <body>
+         <div xml:id="L0000-00-00-i-div1">
+            <opener>s.d</opener>
+            <p xml:id="L0000-00-00-i-p1">Tu vois par là pourquoi il n'est plus possible que j'aille à <placeName>Vanteuil</placeName>. Mais, comme il
+               faut que tu me rendes le service de signer avec moi les billets de <persName>Bouchot</persName>, je te
+               supplie de m'écrire si tu seras à <placeName>Paris</placeName> d'ici à huit jours ; car il faut qu'ils
+               soient signés de nous deux avant le 20. Ton travail sera-t-il fini à cette époque ?
+               Si tu reviens plus tôt, ce sera un vrai bonheur pour ta sœur et moi ; mais il n'y a
+               pas de nécessité comme pour les billets dans huit jours. C'est un bonheur extrême
+               d'avoir trouvé cet argent à emprunter dans un moment comme celui-là. Un billet à
+               ordre protesté contre moi, ma place à l'<orgName>Université</orgName> était perdue, quand même le
+               porteur de billet n'aurait pas profité du pouvoir qu'il aurait eu de me faire mettre
+               à <orgName>Sainte-Pélagie</orgName>. Je joins ici la copie de la quittance que tu exigeras de M. <persName ref="#pers_R491">Ride</persName> en
+               lui remettant les 260 francs. S'il ne recopie pas, il faut qu'il écrive au bas : <cit>
+            <quote>l'écriture approuvée</quote>
+          </cit> avant de signer. Adieu mille fois, cher fils. <persName ref="#pers_A366">A. AMPÈRE</persName>
+        </p>
+            <p xml:id="L0000-00-00-i-p2">Tu
+               recevras demain les 260 francs par la voiture de <persName ref="#pers_D1336">Dombas</persName>. Porte-les vite à <persName ref="#pers_R491">Gabriel
+               [Ride]</persName> pour qu'il ne fasse pas quelques coups de tête. Tout à toi.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

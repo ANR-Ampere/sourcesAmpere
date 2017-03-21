@@ -1,0 +1,239 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 540</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1816-10-26-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 517-518</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L540</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L540manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 393 quarto</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Quatre pages 18,5 x 24, adresse à la fin.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1816-10-26">26
+                        octobre 1816</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_B33" type="adressee">Ballanche, Pierre-Simon</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1816-10-26-a">
+      <body>
+         <div xml:id="L1816-10-26-a-div1">
+            <opener>
+          <pb n="927" facs="#ACAS_CRHST_AMP_26_393_quarto_0199_r.jpg"/>
+          <date when="1816-10-26">26 <choice>
+              <abbr>8bre</abbr>
+              <expan>octobre</expan>
+            </choice> 1816</date>
+        </opener>
+            <opener>Cher ami,</opener>
+            <p xml:id="L1816-10-26-a-p1">avec quelle douleur j'ai appris le malheur qui est venu fondre sur toi !
+               Combien le sort des hommes est triste sur la terre ! Je ne vois que souffrances, ou
+               satisfactions insensées plus tristes encore. Car elles sont la preuve que l'homme est
+               aussi insensé que malheureux. <persName ref="#pers_D207">Dugas<ref xml:id="pers_D207"/>
+          </persName> et <persName>Beuchot</persName> ont passé hier presque toute la
+               matinée ici, nous n'avons parlé que de toi. Nous pensons tous trois que, si tu venais
+               à <placeName>Paris</placeName>, tu y trouverais la paix, que tu chercheras en vain à <placeName>Lyon</placeName>. </p>
+            <p xml:id="L1816-10-26-a-p2">Tu viendrais
+               demeurer ici avec ta soeur ; vous demeureriez ensemble le plus près possible de chez
+               moi. <persName ref="#pers_D207">Dugas<ref xml:id="pers_D207"/>
+          </persName> loge à présent dans la cour de la <placeName>Sainte-Chapelle</placeName> ; c'est bien près ; je
+               te place dans une rue intermédiaire entre nous deux. Ta sœur ferait connaissance
+               avec la mienne, qui a l'esprit rempli des mêmes idées que le sien. J'ai une cousine
+               germaine qui demeure dans l'<placeName>île de la Cité</placeName> comme <persName ref="#pers_D207">Dugas<ref xml:id="pers_D207"/>
+          </persName>, et que les mêmes idées
+               occupent exclusivement. Elle passe sa vie à distribuer des secours aux pauvres,
+               qu'elle<pb n="928" facs="#ACAS_CRHST_AMP_26_393_quarto_0200_v.jpg"/> reçoit, pour suppléer à ce qu'elle ne peut faire elle-même, d'une société de
+               dames charitables. Elle connaît tous les pauvres qui habitent ces quartiers. Je suis
+               persuadé que cette sœur et cette cousine conviendraient beaucoup à <persName ref="#pers_P460">Mme Polingue</persName>, qui
+               sortirait de sa mélancolie en s'occupant aussi de ces bonnes œuvres ; peu à peu elle
+               oublierait ce qu'il peut y avoir d'exagéré dans ses idées ; elle deviendrait heureuse
+               et toi aussi, mon ami. Réalise ce projet qui me comblerait de joie, en nous mettant
+               dans le cas de nous voir incessamment ! J'ai pensé à divers moyens de multiplier le
+               temps que nous passerions ensemble et avec <persName ref="#pers_D207">Dugas<ref xml:id="pers_D207"/>
+          </persName>. Je suis sûr que tu serais plus
+               heureux ici.</p>
+            <p xml:id="L1816-10-26-a-p3">J'ai été bien frappé de ce que tu me dis du livre de <persName ref="#pers_F238">Fabre d'Olivet</persName> : Ne
+               s'occupera-t-on point de l'examen d'un livre de cette importance ? Si l'on ne s'en
+               occupe point, il faut désespérer du temps où nous vivons. Mon ami, tu t'en occuperas.
+               J'ai toujours entendu dire qu'il suffisait de travailler trois mois à l'étude de
+               l'hébreu pour le savoir et quels secours ne t'offre-t-il pas pour abréger encore ce
+               temps ?</p>
+            <p xml:id="L1816-10-26-a-p4">
+          <pb n="929" facs="#ACAS_CRHST_AMP_26_393_quarto_0201_r.jpg"/> Tout en effet se réduit à mettre dans sa mémoire les caractères, la
+               conjugaison, les racines, et un nombre de mots qui est très borné. Une chose
+               singulière, c'est que <persName ref="#pers_N979">Nolhac</persName>, qui le sait parfaitement, a dit à <persName ref="#pers_D207">Dugas<ref xml:id="pers_D207"/>
+          </persName> que cet ouvrage
+               était très profond, très savant, mais très mauvais. Tu comprends dans quel sens. Mais
+               rien arrive-t-il ici-bas que par l'ordre de la Providence et pense à quel moment ce
+               livre paraît, à quelle époque de l'histoire morale des sociétés il vient se
+               rattacher ! Il paraît qu'à bien d'autres époques les mêmes idées ont été connues de
+               personnes qui les ont enveloppées dans l'obscurité ; les temps n'étaient pas encore
+               venus. La liaison de tout, les livres de <persName ref="#pers_B67">Boehme</persName> ; d'après ce que m'en a écrit <persName ref="#pers_B94">Bredin</persName>,
+               ils se lient de si près à celui de <persName ref="#pers_F238">Fabre</persName> !</p>
+            <p xml:id="L1816-10-26-a-p5">J'ai pris ce matin l'ipecacuana en
+               émétique ; les vomissements m'ont horriblement fatigué, ils sont passés à présent.
+               J'en ai profité pour t'écrire, mais je n'en puis plus, il faut<pb n="930" facs="#ACAS_CRHST_AMP_26_393_quarto_0202_v.jpg"/> me remettre sur mon
+               lit. J'espère que ce remède fera passer le rhume qui me tourmente depuis plus de deux
+               mois.</p>
+            <p xml:id="L1816-10-26-a-p6">Adieu <persName>Ballanche</persName> ; adieu, cher ami ; aime-moi comme je t'aime ; cherche à
+               secouer la douleur, à te retirer dans ce sanctuaire de sa pensée où l'homme évalue le
+               peu qu'est cette vie ! Aime-moi du moins, aime-moi comme je t'aime ! Mon amitié
+               pourrait-elle t'être de quelque soulagement ? C'en serait un pour moi. écris-moi, je
+               t'en prie, quand cela te sera possible. Ton ami,<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+            <closer>A monsieur <persName>Ballanche</persName> Imprimeur aux <placeName>Halles de la Grenette</placeName>, à <placeName>Lyon</placeName> (Rhône) </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1816-10-26-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages 18,5 x 24, adresse à la fin. Le début et deux
+               autres fragments ont été publiés par Mme <persName ref="#pers_C1171">Cheuvreux</persName>, p. 99 et 100. <persName>Ballanche</persName> venait de
+               perdre son père.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

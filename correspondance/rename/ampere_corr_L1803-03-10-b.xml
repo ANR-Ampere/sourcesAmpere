@@ -1,0 +1,307 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 230</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1803-03-10-b">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                  <idno>chemise 393 quarto</idno>
+               <altIdentifier>
+              <idno type="old">L230</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+          
+               <physDesc>
+                  <p>Quatre pages 21 x 24, adresse à la fin.</p>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness xml:id="L230CGA">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 247-248</biblScope>
+                        </imprint>
+                     </monogr>
+                     
+                  </biblStruct>                  
+                  </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1803-03-10">10 mars 1803</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_C129" type="adressee">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1803-03-10-b">
+      <body>
+         <div xml:id="L1803-03-10-b-div1">
+            <opener>
+          <pb n="1071" facs="#ACAS_CRHST_AMP_26_393_quarto_0343_r.jpg"/>Du <date when="1803-03-10">jeudi soir [10 mars 1803]</date>
+        </opener>
+            <p xml:id="L1803-03-10-b-p1">Je ne sais pas, ma bonne <persName ref="#pers_C129">Julie</persName>,<lb/>
+               si cette lettre te parviendra avant<lb/>
+               ou après celle
+               que j'ai mise ce<lb/>
+               matin à la poste. Elle te sera<lb/>
+               remise par M. <persName>Pont</persName> qui m'a<lb/>
+               envoyé
+               avertir de son arrivée<lb/>
+               par M. <persName ref="#pers_V573">Valensot</persName>. J'ai été le voir<lb/>
+               à deux heures. Il m'a donné de<lb/>
+               bonnes nouvelles de ma bonne<lb/>
+               amie ; il m'a dit qu'<persName ref="#pers_E1379">Empaire</persName>
+          <lb/>
+               t'avait vue au moment de
+               son<lb/>
+               départ, que tu allais te lever<lb/>
+               et que tu étais gaie. J'espère que<lb/> ta jambe se
+               sera raffermie.</p>
+            <p xml:id="L1803-03-10-b-p2">
+               J'espère que, dans quinze jours,<lb/>
+               je n'aurai pas besoin d'attendre<lb/>
+               que les autres
+               m'apportent de<lb/>
+               tes nouvelles pour en savoir. Comme<lb/>
+               je vois arriver avec joie le
+               moment<lb/>
+               où je pourrai pour toujours<pb n="1072" facs="#ACAS_CRHST_AMP_26_393_quarto_0344_v.jpg"/>
+               dire adieu à <placeName>Bourg</placeName> ! Je crains<lb/>
+               bien que la lettre
+               de ce matin<lb/>
+               ne t'inquiète ; mais, plus j'y pense,<lb/>
+               plus je trouve que cet<lb/>
+               appartement
+               est une bonne<lb/>
+               affaire si le bail porte la dédite<lb/>
+               en question, et qu'autrement<lb/>
+               ce
+               serait un grand malheur<lb/>
+               de se trouver ainsi engagés pour<lb/>
+               six ans, lorsqu'on ne sait
+               rien<lb/>
+               sur la manière dont les choses<lb/>
+               tourneront. Je crois seulement<lb/>
+               qu'il sera à
+               propos, lorsqu'on<lb/>
+               fera le bail, de retenir, s'il<lb/>
+               veut que la dédite soit réciproque,<lb/>
+               d'exiger que le propriétaire<lb/>
+               rende les 5 louis d'étrenne<lb/>
+               si c'est lui qui donne la
+               dédite,<lb/>
+               tandis qu'il les gardera si c'est<pb n="1073" facs="#ACAS_CRHST_AMP_26_393_quarto_0345_r.jpg"/>
+               nous qui voulons quitter. L'avantage<lb/>
+               d'être
+               auprès de la maison<lb/>
+               <persName ref="#pers_P443">Périsse</persName> est inappréciable ; mais<lb/>
+               n'y aurait-il point eu, dans la<lb/>
+               <placeName>rue Mercière</placeName>, un appartement<lb/>
+               de 3 pièces et cabinet ; c'est<lb/>
+               tout ce qu'il nous
+               aurait fallu<lb/>
+               dans le cas très probable où, si<lb/>
+               j'ai des élèves chez moi, ce ne<lb/>
+               sera qu'un ou deux et pour<lb/>
+               ainsi dire en cachette. Si la chambre<lb/>
+               dont tu me parles était
+               tout<lb/>
+               à fait indépendante et qu'il<lb/>
+               en restât une plus jolie pour<lb/>
+               toi, il nous serait
+               bien avantageux<lb/>
+               de la sous-louer ; mais cela s<supplied>erait</supplied>
+          <lb/>
+               peut-être <choice>
+            <sic>diffile</sic> <corr>difficile</corr>
+          </choice> sans
+               commo<supplied>dité.</supplied>
+          <lb/>
+               Je te <choice>
+            <sic>racconte</sic> <corr>raconte</corr>
+          </choice> tout cela pour te<lb/>
+               dire toutes mes pensées. Je ne<lb/>
+               rêve depuis
+               hier qu'<choice>
+            <sic>appartemens</sic> <corr>appartement</corr>
+          </choice>.<lb/>
+               Je me <choice>
+            <sic>rappèle</sic> <corr>rappelle</corr>
+          </choice> de ceux dont nous<pb n="1074" facs="#ACAS_CRHST_AMP_26_393_quarto_0346_v.jpg"/>
+               n'avons point voulu dans le
+               <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice>
+          <lb/>
+               où il y en avait un si joli dans la <placeName>rue des Trois-Carreaux</placeName>, et<lb/>
+               où nous
+               cherchions une chambre<lb/>
+               pour mes élèves et une pour maman.</p>
+            <p xml:id="L1803-03-10-b-p3">
+               Je t'ai dit dans ma lettre
+               de ce matin<lb/>
+               ce que MM. <persName ref="#pers_D177">Delambre<ref xml:id="pers_D177"/>
+          </persName> et <persName ref="#pers_V1818">Villars</persName>
+          <lb/>
+               ont dit de moi au père de <persName ref="#pers_B34">Barbier</persName>.<lb/>
+               Je les
+               irai voir demain et je te<lb/>
+               dirai ce qui résultera de cette visite.<lb/>
+               Je vais travailler
+               à mon mémoire<lb/>
+               que j'achèverai décidément aujourd'hui<lb/>
+               avant de me coucher. Dors bien,<lb/>
+               ma bonne amie, et pense à celui<lb/>
+               qui ne vit que pour t'aimer.</p>
+            <p xml:id="L1803-03-10-b-p4">Du <date when="1803-03-11">vendredi [11 mars]</date>
+          <lb/>
+               M. <persName>Pont</persName> envoie chercher ma lettre.<lb/>
+               Je t'embrasse mille et mille fois. M. <persName ref="#pers_D177">Delambre<ref xml:id="pers_D177"/>
+          </persName>
+          <lb/>
+               m'a dit qu'il allait porter lui-même son travail<lb/>
+               à <placeName>Paris</placeName> et qu'il se chargeait de me
+               faire nommer.</p>
+            <closer>A <choice>
+            <sic>Madame<lb/> Madame</sic> <corr>Madame</corr>
+          </choice> <persName ref="#pers_C129">Ampère</persName>,<lb/>
+               chez Mme <persName ref="#pers_B69">Carron</persName>,<lb/>
+               <placeName>rue du Griffon</placeName>,<lb/>
+               à <placeName>Lyon</placeName>.</closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1803-03-10-b-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages 21 x 24, adresse à la fin.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

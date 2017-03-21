@@ -1,0 +1,244 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 386</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1811-08-18-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">I.</biblScope>
+                     <biblScope type="pp">p. 375-376-377</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L386</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L386manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 340</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Quatre pages in-4°, adresse sur la quatrième.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1811-08-18">18
+                        août 1811</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Bredin, Claude-Julien</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1811-08-18-a">
+      <body>
+         <div xml:id="L1811-08-18-a-div1">
+            <opener>
+          <date when="1811-08-18">[18 août 1811]</date>
+        </opener>
+            <p xml:id="L1811-08-18-a-p1">
+          <pb n="145" facs="#ch_340/ACAS_CRHST_AMP_24_340_0145_r.jpg"/>Cher ami, peut-être n'as-tu pas encore reçu de lettre de moi. II y a longtemps que
+               celle dont M. <persName ref="#pers_A18">Andrieux</persName> s'est chargé a été écrite. Il m'avait dit qu'il partirait tout
+               de suite ; je sais qu'il a différé son voyage puisqu'il est venu me voir depuis ;
+               j'ignore s'il est parti. En attendant, je profite d'un petit moment pour t'écrire. A
+               présent, j'ai mon fils auprès de moi ; sa présence, quand il est à la maison, fait un
+               certain changement dans la manière dont s'écoule ma vie <ref target="#corresp2">(2)</ref>. Cela durera le temps
+               ordinaire des vacances. Je vois plus rarement, depuis quelque temps, la personne dont
+               je t'ai tant parlé. Voilà même plusieurs jours passés sans en avoir des nouvelles. Au
+               reste, il n'y a rien de nouveau dans ce qui l'intéresse. Je me flatte beaucoup à
+               présent que tout restera encore longtemps dans la situation actuelle. Ce n'est
+               certainement pas par un sentiment qui se rapporte à moi que je le désire ; car cet
+               état de choses me laisse dans un calme qui m'est insupportable. Je ne sais vraiment
+               s'il n'est pas pire que des peines cuisantes mêlées à des agitations, des mouvements
+               à se donner, des précautions à prendre, l'attente d'un mieux ou d'un plus grand mal !
+               J'ai trop pris l'habitude<pb n="146" facs="#ACAS_CRHST_AMP_24_340_0146_v.jpg"/> d'être ainsi agité quand j'ai quelque sujet de chagrin.
+               Cela m'aide à le supporter ; mais repos d'esprit et chagrin, comment vivre clans
+               cette situation !</p>
+            <p xml:id="L1811-08-18-a-p2">Du <date when="1811-08-23">23 août</date> - Voilà plusieurs jours que cette lettre est commencée,
+               cher ami ; mille circonstances m'ont empêché de la continuer. L'anéantissement de ma
+               vie est une chose désolante ; depuis six semaines que je suis ici, qu'ai-je fait dont
+               il reste quelque chose pour l'avenir ? Qu'est-ce que c'est que cet avenir même où mon
+               esprit se porte continuellement et va chercher des peines et des plaisirs, qui ne
+               seront jamais ; cet avenir, il sera sitôt passé !...</p>
+            <p xml:id="L1811-08-18-a-p3">Bon ami, je ne puis te rendre ce
+               que je sens de cette fuite de temps ; en voulant l'exprimer, je la sens plus
+               douloureusement et voilà tout. Parlons d'autre chose ! D'abord d'un volume de
+               gravures au trait, format oblong, contenant des projets de tableaux qui n'ont jamais
+               été exécutés. Ces projets sont d'un sculpteur anglais dont j'ai oublié le nom <ref target="#corresp3">(3)</ref>,
+               ils représentent les principales scènes de l'enfer, du purgatoire et du paradis du
+               <persName ref="#pers_A1236">Dante</persName>. C'est, à ce qu'il me semble, d'une si grande et si terrible vérité, si bien
+               dans le genre de certains de tes dessins où j'ai senti bien vivement le même
+               caractère, que je voudrais bien savoir<pb n="147" facs="#ACAS_CRHST_AMP_24_340_0147_r.jpg"/> si tu connais ce recueil, et, dans le cas où
+               tu ne le connaîtrais pas, que tu le demandasses à la <orgName>bibliothèque publique de <placeName>Lyon</placeName>
+          </orgName>,
+               ou à quelqu'un de tes connaissances qui pût l'avoir. Comment M. <persName ref="#pers_A7">d'Ambérieux</persName> ne se
+               l'est-il pas procuré ? Comment <persName ref="#pers_C145">Chatelain</persName> ne le connaît-il pas ? Bon ami, il est une
+               autre chose dont j'ai à te parler, c'est de cette histoire si touchante dont tu m'as
+               parlé dans ta lettre. Puisque le chagrin fait mourir, comment ton ami 
+               encore en vie ? Cet homme est mort bien à plaindre ; à présent, sa femme et ses
+               enfants le sont. J'ai eu du plaisir à penser que tu n'avais plus d'inquiétude sur
+               celle de ses enfants dont tu fais une peinture aimable. Quel bonheur que sa mère se
+               soit adressée à toi ! Mais tu as beau dire, toi, toi seul pouvais la sauver ! Tu as
+               des motifs à offrir dont je n'ose plus parler <ref target="#corresp4">(4)</ref>. Pour toi, tu peux les faire valoir
+               sans te mentir à toi-même. Pourquoi ne le puis-je plus ?</p>
+            <p xml:id="L1811-08-18-a-p4">Réponds-moi, je t'en prie,
+               dès que tu auras reçu cette lettre ! Jamais ton ami n'eut plus besoin d'en recevoir
+               une de toi ; jamais son cœur ne fut plus oppressé. <persName>Ballanche</persName> m'avait donné sa parole
+               d'honneur de m'écrire le premier. J'en ai, jusqu'à présent, espéré
+               l'accomplissement ; je vois bien qu'il m'a entièrement oublié ; mon âme meurt ainsi
+               pièce à pièce, comme le corps d'un<pb n="148" facs="#ACAS_CRHST_AMP_24_340_0148_v.jpg"/> vieillard qui perd ses sens l'un après l'autre.
+               Donne-moi, je t'en prie, des nouvelles de ta femme et de tes enfants, de celles de
+               nos amis et reparle de la personne dont tu m'as tant parlé dans ton unique lettre
+               depuis six semaines ! Et <persName ref="#pers_B74">Bonjour</persName>... ? dis-moi si tu l'as vu, s'il t'a parlé de moi ?</p>
+            <p xml:id="L1811-08-18-a-p5">
+               Je voudrais être auprès de toi dans tes allées ou sous les arbres de <persName ref="#pers_S1554">Mme Schrimpf</persName>
+               <ref target="#corresp5">(5)</ref>. Si elle va en <placeName>Allemagne</placeName>, retiens pour moi les portraits de <persName ref="#pers_S524">Schiller</persName>, <persName ref="#pers_K329">Klopstock</persName>,
+               <persName ref="#pers_G277">Goethe</persName>, d'autres encore si elle peut ; qu'on en fasse un envoi à mon adresse, mais à
+               mon compte. Je dis à ton adresse pour que tu les voies, j'aurai assez de moyens de
+               les faire venir ici. Ton ami qui t'embrasse.</p>
+            <closer>A monsieur <persName>Bredin fils</persName> professeur d'anatomie à l'<orgName>École vétérinaire</orgName>, près des portes de <placeName>Vaise</placeName>, à <placeName>Lyon</placeName>
+               (<placeName>Rhône</placeName>) </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1811-08-18-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4°, adresse sur la quatrième.</note>
+            <note resp="#CGA" xml:id="corresp2">(2)
+               <persName>Jean-Jacques Ampère</persName> avait 11 ans.</note>
+            <note resp="#CGA" xml:id="corresp3">(3) Flaxman.</note>
+            <note resp="#CGA" xml:id="corresp4">(4) Consolations religieuses.</note>
+            <note resp="#CGA" xml:id="corresp5">(5) La
+               Correspondance de <persName ref="#pers_B94">Bredin</persName> renferme de nombreuses lettres adressées à <persName ref="#pers_S1554">Mme Schrimpf</persName>, à
+               sa fille et à son gendre, le <persName ref="#pers_T566">pasteur Touchon</persName>. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

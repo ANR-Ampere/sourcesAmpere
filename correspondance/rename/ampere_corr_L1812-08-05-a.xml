@@ -1,0 +1,1196 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 1153</title>
+                <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+                    <forename>André-Marie</forename>
+                    <surname>Ampère</surname>
+                </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+                    <affiliation>Università L'Aquila</affiliation>
+          </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                            sciences</affiliation>
+                    </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+                    <name>Centre de calcul de l'IN2P3</name>
+                    <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+                </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="original_manuscrit">
+                    <msIdentifier xml:id="ampere_corr_L1812-08-05-a">
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <idno>chemise 261</idno>
+                    <altIdentifier>
+              <idno type="old">L1153</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+                    
+                </msDesc>
+                <listWit>
+                    <witness xml:id="L1153edition">
+                        <biblStruct>
+                            <monogr>
+                                <author>
+                                    <surname>Maine de Biran</surname>
+                                    <forename>Pierre</forename>
+                                </author>
+                                <author role="dir">
+                                    <surname>Robinet</surname>
+                                    <forename>André</forename>
+                                </author>
+                                <title>Oeuvres, XIII-1 : Correspondance philosophique avec
+                                    Ampère</title>
+                                <imprint>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>J. Vrin</publisher>
+                                    <date when="1993">1993</date>
+                                    <biblScope type="pp">p. 304-314</biblScope>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                    </witness>
+                    <witness xml:id="L1153manuscrit">
+                        <msDesc type="copie">
+                            <msIdentifier>
+                                <country>France</country>
+                                <settlement>Paris</settlement>
+                                <institution>Archives de l'Académie des sciences</institution>
+                                <idno>chemise 264</idno>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1812-08-05">5 août 1812</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_M1173" type="adressee">Maine de Biran, Pierre</persName>
+        </correspAction>
+      </correspDesc>
+            <creation>
+                <date when="2014-07">juillet 2014</date>
+                <name>Philippe Pons</name>
+                <name>Aude Coustumer</name>
+            </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="correspondance" decls="#ampere_corr_L1812-08-05-a">
+        <body>
+            <div xml:id="L1812-08-05-a-div1">
+                <opener>
+                    <pb n="560" facs="#ACAS_CRHST_AMP_15_261_bis_0094_r.jpg"/>
+                    <placeName ref="#pl_P6">Paris</placeName> le
+                    <date when="1812-08-05">5 août 1812</date>
+                </opener>
+                <p xml:id="L1812-08-05-a-p1"> Vous avez vu, mon cher ami, par la lettre commencée<lb/> à
+                    <placeName ref="#pl_L2">Lyon</placeName>, que j'ai fait partir presque en
+                    arrivant<lb/> ici, comment il m'avait été impossible de<lb/> vous répondre plus
+                    tôt, ainsi je ne m'excuserai<lb/> pas sur ce délai dont vous me faites des<lb/>
+                    reproches pleins d'amitié dans celle que je reçus<lb/> hier de vous, mais qui
+                    n'en ont pas été moins<lb/> pénibles pour moi, en me forçant à me faire<lb/> à
+                    moi-même, ou plutôt à des circonstances<lb/> impérieuses, des reproches encore
+                    plus graves.<lb/> Nous voilà à présent bien d'accord sur le<lb/> langage sur le
+                    4ème système. Reste à l'être<lb/> sur la théorie de ce système, théorie
+                    dont<lb/> beaucoup de points nous sont communs,<lb/> mais sur laquelle nous
+                    différons encore à<lb/> quelques égards.<lb/>
+                    <list>
+                        <item n="1"> Vous voudriez définir
+                            l'intuition :<hi rend="underline"> la faculté<lb/>
+                        d'apercevoir dans les êtres simples, des relations<lb/>
+                        qui
+                    dérivent immédiatement de leur existence<lb/>
+                        ou qui ne sont que leur essence même.</hi>
+                            Or il me semble évident que, le plus souvent,<lb/> ce ne sont pas des
+                            <hi rend="underline">êtres</hi> entre lesquels l'<hi rend="underline">intuition</hi>
+                            <lb/> découvre de nouvelles <hi rend="underline">relations</hi>, mais des<lb/>
+                            <hi rend="underline">abstractions</hi> de notre esprit, comme les<lb/>
+                            lignes, les surfaces, et même les nombres, et<lb/> la dépendance des
+                            <hi rend="underline">espèces</hi> en général relativement<lb/> aux
+                            <hi rend="underline">genres</hi> qui les comprennent (voyez ce que<lb/>
+                            j'en dirai tout à l'heure). Ce n'est que quand<lb/>
+                            l'<hi rend="underline">intuition</hi> de <hi rend="underline">cause</hi>
+                            a lieu entre le moi<pb n="561" facs="#ACAS_CRHST_AMP_15_261_bis_0095_v.jpg"/> ou
+                            l'<hi rend="underline">effort</hi> et les
+                            <hi rend="underline">sensations</hi> musculaires qu'il<lb/> produit,
+                            qu'on pourrait se servir du mot<lb/>
+                            <hi rend="underline">être</hi> ; encore les
+                            <hi rend="underline">sensations</hi> ou <hi rend="underline">impressions</hi>
+                            <lb/> musculaires, qui font nécessairement partie<lb/> du
+                            <hi rend="underline">groupe</hi>, comme je disais autrefois, ou de la<lb/>
+                            <hi rend="underline">coordination</hi> comme je dis à présent, dans<lb/>
+                            laquelle se fait l'<hi rend="underline">intuition</hi>, ne sont pas des<lb/>
+                            <hi rend="underline">êtres</hi>.<lb/> Je ne saurais dire ni que la <hi rend="underline">ligne
+                    droite</hi>
+                            <lb/> est un <hi rend="underline">être</hi>, ni que ce soit quelque
+                            chose<lb/> de <hi rend="underline">simple</hi>, chacun de ses
+                            <hi rend="underline">points</hi> est un<lb/>
+                            <hi rend="underline">élément</hi>. La droite est la <hi rend="underline">coordination</hi>
+                            <lb/> de ces <choice>
+                                <sic>élémens</sic>
+                                <corr>éléments</corr>
+                            </choice>. Je disais le <hi rend="underline">groupe</hi> en<lb/> prenant
+                            ce mot dans une signification<lb/> que j'avoue à présent avoir été
+                            trop<lb/> générale. Je n'<choice>
+                                <sic>emploirai</sic>
+                                <corr>emploierai</corr>
+                            </choice> plus ce mot, et<lb/> je dirai
+                            <hi rend="underline">coordination</hi> pour toutes les<lb/> manières
+                            possibles dont les <choice>
+                                <sic>élémens</sic>
+                                <corr>éléments</corr>
+                            </choice>
+                            <lb/> peuvent être réunis ensemble.<lb/> Je n'admettrai jamais qu'il
+                            puisse y<lb/> avoir entre les <choice>
+                                <sic>élémens</sic>
+                                <corr>éléments</corr>
+                            </choice> d'autres<lb/>
+                            <hi rend="underline">relations</hi> que celles qu'établissent<lb/> les
+                            divers modes de <hi rend="underline">coordination</hi>. Car<lb/> si ces
+                            <hi rend="underline">êtres</hi> simples <choice>
+                                <sic>réelement</sic>
+                                <corr>réellement</corr>
+                            </choice> élémentaires<lb/> étaient absolument
+                            <hi rend="underline">identiques</hi> c'est<lb/> comme s'il n'y en avait
+                            qu'un, sinon<lb/> ils seront <choice>
+                                <sic>différens</sic>
+                                <corr>différents</corr>
+                            </choice> et n'ayant point de<lb/> parties, ils ne pourront avoir
+                            d'<hi rend="underline">identité<lb/>
+                        partielle</hi>.
+                            Tout au plus, pourraient-ils<pb n="562" facs="#ACAS_CRHST_AMP_15_261_bis_0096_r.jpg"/> avoir des
+                            <hi rend="underline">ressemblances</hi> ou
+                            <hi rend="underline">différences</hi>, mais<lb/> cela ne donnerait lieu
+                            qu'aux <hi rend="underline">phénomènes</hi>
+                            <lb/> du 3ème système.<lb/>
+                            <persName ref="#pers_D594">Descartes</persName> disait que la base de
+                            toute vérité<lb/> nécessaire était qu'on devait affirmer d'une<lb/>
+                            chose tout ce qui était compris dans l'idée<lb/> claire et distincte de
+                            cette chose. Il n'y a<lb/> évidemment rien de compris dans un<lb/>
+                            <hi rend="underline">élément</hi>. On ne peut donc rien<lb/> affirmer
+                            d'une idée ou <hi rend="underline">notion</hi> simple<lb/> tant qu'elle
+                            est <hi rend="underline">isolée</hi>. Il faut que le<lb/>
+                            <hi rend="underline">moi</hi> ou l'<hi rend="underline">effort</hi> soit
+                            joint à la
+                            <hi rend="underline">sensation<lb/>
+                            musculaire</hi>
+                            qu'il produit, en une<lb/>
+                            <hi rend="underline">coordination</hi> formée de ces deux <choice>
+                                <sic>élémens</sic>
+                                <corr>éléments</corr>
+                            </choice>,<lb/> pour qu'on puisse affirmer quelque chose,<lb/> par
+                            exemple qu'il est la <hi rend="underline">cause</hi> de cette<lb/>
+                            <hi rend="underline">sensation</hi>. Je vous ai expliqué dans<lb/> ma
+                            dernière lettre qu'il n'y a point de<lb/>
+                            <hi rend="underline">relation</hi> de grandeur entre une<lb/> droite et
+                            une courbe isolées l'une<lb/> de l'autre, puisque voilà une droite<lb/>
+                            AB plus longue que la courbe CED <figure/>
+                            <lb/> que j'ai placée au-dessus. Ce<lb/> n'est que quand elles sont
+                            réunies<lb/> en une seule <hi rend="underline">coordination</hi>,
+                            c'est-à-dire<lb/> en un seul <hi rend="underline">contour</hi> qui
+                                renferme<pb n="563" facs="#ACAS_CRHST_AMP_15_261_bis_0097_v.jpg"/>
+                            un espace de toutes parts, ainsi <figure/>
+                            <lb/> que cette sorte de <hi rend="underline">coordination</hi> entre
+                            tous<lb/> les points de ces deux lignes entraîne<lb/> la
+                            <hi rend="underline">relation nécessaire</hi> AB&lt;ACEDBE.<lb/> Aux
+                            <hi rend="underline">idées innées</hi> près, je <hi rend="underline">crois que <persName ref="#pers_D594">Descartes</persName>
+              </hi>
+                            <lb/> est un des métaphysiciens dont les<lb/> idées se rapprochent le
+                            plus des miennes.<lb/> Il y a un moyen bien simple de voir si<lb/> nous
+                            nous entendons bien, c'est que vous<lb/> lisiez attentivement le
+                            chapitre VIII du 4ème<lb/> livre de
+                            <persName ref="#pers_L363">Locke</persName>, dans le dernier tome de son<lb/>
+                            <title>Essai sur l'entendement humain</title>. C'est<lb/> précisément
+                            l'exposition de mes principes<lb/> contre la ridicule théorie de
+                            l'identité<lb/> de <persName ref="#pers_C663">Condillac</persName>. Je
+                            me charge en outre de<lb/> vous prouver quand vous voudrez, que<lb/>
+                            rien n'est plus faux que de dire que dans<lb/> le
+                            <hi rend="underline">raisonnement</hi>, les
+                            <hi rend="underline">signes</hi> changent<lb/> seuls, et que
+                            l'<hi rend="underline">idée</hi> reste constamment<lb/> la même sous des <hi rend="underline">signes</hi>
+                            <choice>
+                                <sic>différens</sic>
+                                <corr>différents</corr>
+                            </choice>. Il est<lb/> bien évident que dans la démonstration<lb/> de la
+                            fameuse propriété du triangle rectangle,<lb/> l'idée complète qu'on a de
+                            ce triangle<lb/> change à chaque opération en <choice>
+                                <sic>acquérrant</sic>
+                                <corr>acquérant</corr>
+                            </choice>
+                            <lb/> de nouveaux <choice>
+                                <sic>élémens</sic>
+                                <corr>éléments</corr>
+                            </choice>, elle va toujours en se<lb/> compliquant. Or voici ce que je
+                            me suis<lb/> dit : il est incontestable qu'il y a des vérités<lb/>
+                            nécessaires, évidentes par elles-mêmes ou<lb/> démontrées par des <choice>
+                                <sic>raisonnemens</sic>
+                                <corr>raisonnements</corr>
+                            </choice> dont<pb n="564" facs="#ACAS_CRHST_AMP_15_261_bis_0098_r.jpg"/>
+                            chaque passage successif est évident par<lb/> lui-même. Je suis
+                            complètement convaincu,<lb/> par le chapitre de
+                            <persName ref="#pers_L363">Locke</persName> cité tout à l'heure<lb/> et
+                            par mes propres réflexions, que<lb/> cette évidence n'est point fondée
+                            sur la<lb/> prétendue <hi rend="underline">identité</hi> des mêmes
+                            <hi rend="underline">idées</hi> sous<lb/> des <hi rend="underline">signes</hi>
+                            <choice>
+                                <sic>différens</sic>
+                                <corr>différents</corr>
+                            </choice>. Il y a donc un autre<lb/> fondement de
+                            l'<hi rend="underline">évidence</hi>, et ce fondement<lb/> auquel
+                            personne que je sache n'avait<lb/> encore pensé, j'ai eu le bonheur de
+                            le<lb/> découvrir et de le mettre hors de doute.<lb/> C'est que les
+                            divers <hi rend="underline">modes</hi> de <hi rend="underline">coordination</hi>
+                            <lb/> établissent entre les <choice>
+                                <sic>élémens</sic>
+                                <corr>éléments</corr>
+                            </choice>
+                            <hi rend="underline">coordonnés</hi>,<lb/> des relations
+                            <hi rend="underline">indépendantes</hi> de la nature de<lb/> ces <choice>
+                                <sic>élémens</sic>
+                                <corr>éléments</corr>
+                            </choice>. Ainsi <persName ref="#pers_S1727">Saunderson</persName> découvrait<lb/> entre
+                            des points, des lignes, et des surfaces<lb/> tactiles les mêmes
+                            relations que nous<lb/> découvrons entre des points, des lignes et<lb/>
+                            des surfaces visibles.<lb/> C'est là ce que doit faire
+                            l'<hi rend="underline">intuition</hi> que<lb/> je définirai ainsi :<lb/>
+                                l'acte<ref target="#corresp_1">*</ref>, par lequel nous voyons, dans une<lb/>
+                            <hi rend="underline">coordination</hi> préexistante, <hi rend="underline">indépendamment</hi>
+                            <lb/> de la nature des <choice>
+                                <sic>élémens</sic>
+                                <corr>éléments</corr>
+                            </choice> coordonnés, le<lb/> mode même de la
+                            <hi rend="underline">coordination</hi> et les <hi rend="underline">relations</hi>
+                            <pb n="565" facs="#ACAS_CRHST_AMP_15_261_bis_0099_v.jpg"/> qui en sont
+                            une suite nécessaire.</item>
+                        <lb/>
+                        <item n="2"> Vous me dites que vous ne distinguez pas<lb/>
+                            l'<hi rend="underline">intuition</hi> du jugement
+                            <hi rend="underline">intuitif</hi> parce que l'un<lb/> ne peut avoir
+                            lieu sans l'autre. Je pensais<lb/> d'abord comme vous que l'un ne
+                            pouvait<lb/> avoir lieu sans l'autre, et cependant<lb/> je plaçais dans
+                            mon tableau : l'<hi rend="underline">intuition</hi>
+                            <lb/> au rang des <choice>
+                                <sic>élémens</sic>
+                                <corr>éléments</corr>
+                            </choice>, et le <hi rend="underline">jugement intuitif</hi>
+                            <lb/> au rang des <hi rend="underline">coordinations</hi>, pour
+                            <hi rend="underline">coordination<lb/>immédiate</hi> du 4ème système.
+                            Ceci tient à<lb/> un de mes premiers principes en <choice>
+                                <sic>psycologie</sic>
+                                <corr>psychologie</corr>
+                            </choice>,<lb/> principe auquel j'attache la plus grande<lb/>
+                            importance. Le voici :<lb/> les <choice>
+                                <sic>élémens</sic>
+                                <corr>éléments</corr>
+                            </choice> de nos <hi rend="underline">connaissances</hi> ou de<lb/> nos
+                            <hi rend="underline">représentations</hi> ne <del type="illisible"/>
+                            sont point<lb/>
+                            <hi rend="underline">reçus</hi> ou <hi rend="underline">produits</hi>
+                            par nous <hi rend="underline">isolés</hi>, et<lb/> ensuite
+                            <hi rend="underline">coordonnés</hi>. Ils sont en général<lb/>
+                            <hi rend="underline">reçus</hi> ou <hi rend="underline">produits</hi> en <hi rend="underline">coordination</hi>
+                            <lb/> avec d'autres, en sorte que par une même<lb/> circonstance
+                            organique pour les <hi rend="underline">éléments</hi>
+                            <lb/> passifs, ou par un même <hi rend="underline">acte</hi> pour<lb/>
+                            les <choice>
+                                <sic>élémens</sic>
+                                <corr>éléments</corr>
+                            </choice> actifs, l'élément naît et<lb/> est
+                            <hi rend="underline">coordonné</hi> à la fois. De là les<lb/>
+                            <hi rend="underline">coordinations</hi> que j'<choice>
+                                <sic>appèle</sic>
+                                <corr>appelle</corr>
+                            </choice> immédiates,<lb/> et dont il y en a une dans chaque
+                            système.<lb/> Je les nommais dans mes dernières lettre :<lb/> Pour le
+                            1er système... contuition sensitive.<lb/> Pour le 2d
+                            système... contuition autoptique.<lb/> Pour le 3ème système... jugement
+                                comparatif.<pb n="566" facs="#ACAS_CRHST_AMP_15_261_bis_0100_r.jpg"/> dans le 4ème système... jugement intuitif.<lb/> La distinction de
+                            l'élément et de sa
+                            <hi rend="underline">coordination<lb/>
+                                immédiate</hi>
+                            est une <hi rend="underline">abstraction</hi>, car ce sont<lb/> deux
+                            choses nécessairement simultanées.<lb/> Mais sans cette distinction on
+                            ne saurait<lb/> rendre compte du phénomène qu'on analyse<lb/> d'une
+                            manière claire et précise. Suivons<lb/> cette analyse dans chaque
+                            système :<lb/> Dans le
+                            <hi rend="underline">système
+                    sensitif</hi> une
+                            <hi rend="underline">vision</hi> complexe,<lb/> par exemple, comme la
+                            vue du spectre<lb/> coloré, est composée d'autant d'<choice>
+                                <sic>élémens</sic>
+                                <corr>éléments</corr>
+                            </choice>
+                            <lb/> qu'il y a de <hi rend="underline">points visibles</hi>. Il est
+                            impossible de<lb/> voir un seul de ces points, on en voit<lb/> une
+                            <hi rend="underline">indéfinité</hi> à la fois, et par la<lb/> même
+                            opération organique par laquelle<lb/> l’œil nous les transmet, elles se
+                            trouvent<lb/> par cela même qu'on les reçoit, <hi rend="underline">coordonnées</hi>
+                            <lb/> par juxtaposition. Cette <hi rend="underline">coordination</hi>
+                            <lb/> est ma <hi rend="underline">contuition</hi> sensitive.<lb/> Dans
+                            le système <hi rend="underline">autoptique</hi>, par suite<lb/> de la
+                            même manière d'analyser, j'ai<lb/> vu de même que le
+                            <hi rend="underline">moi</hi> ou la
+                            <hi rend="underline">perception<lb/>
+                                d' effort</hi>,
+                            ne pouvait naître seule et<lb/>
+                            <hi rend="underline">isolée</hi>, mais qu'elle était produite dans<lb/>
+                            une <hi rend="underline">coordination</hi> formée de cette<lb/>
+                            <hi rend="underline">perception</hi> du <hi rend="underline">moi</hi> et
+                            de la
+                            <hi rend="underline">sensation<lb/>
+                                musculaire</hi>
+                            qui est l'<hi rend="underline">effet</hi> de
+                            l'<hi rend="underline">effort</hi>.<lb/> Dans le 3ème système, il est
+                                également<pb n="567" facs="#ACAS_CRHST_AMP_15_261_bis_0101_v.jpg"/>
+                            impossible, absurde même, que le <hi rend="underline">rapport</hi>
+                            <lb/>
+                            <choice>
+                                <sic>apperçu</sic>
+                                <corr>aperçu</corr>
+                            </choice> reste <hi rend="underline">isolé</hi>. Il n'est pas non
+                            plus<lb/> perçu et ensuite <hi rend="underline">coordonné</hi>, mais il
+                            nous<lb/> est <hi rend="underline">donné</hi> en
+                            <hi rend="underline">coordination</hi> avec les choses<lb/> qu'on a
+                            <hi rend="underline">comparées</hi>. Ainsi
+                            l'<hi rend="underline">acte</hi> par lequel<lb/> on <del type="illisible"/> voit un chêne et un roseau ;<lb/> sous le rapport
+                            de la grandeur, doit<lb/> s'analyser en y distinguant la <hi rend="underline">perception</hi>
+                            <lb/> des <hi rend="underline">rapports corrélatifs</hi> :
+                            <hi rend="underline">être plus grand,<lb/>
+                        être plus petit</hi>,
+                            c'est cette sorte de<lb/>
+                            <hi rend="underline">perception</hi> que je nomme
+                            <hi rend="underline">comparaison</hi>,<lb/> et
+                            l'<hi rend="underline">union</hi> qui se fait du premier<lb/> rapport
+                            avec les <hi rend="underline">images</hi> ou
+                            <hi rend="underline">idées</hi> déjà<lb/> renfermées sous le mot
+                            <hi rend="underline">chêne</hi>, et<lb/>
+                            <hi rend="underline">l'union</hi> du 2d rapport avec celles déjà<lb/>
+                            renfermées sous le mot <hi rend="underline">roseau</hi>.<lb/> La preuve
+                            qu'il est indispensable de<lb/> compter cette sorte
+                            d'<hi rend="underline">union</hi> que je<lb/> nommais <hi rend="underline">jugement comparatif</hi>
+                            <lb/> au nombre des
+                            <hi rend="underline">coordinations immédiates</hi>,<lb/> c'est qu'après
+                            qu'elle a eu lieu la somme<lb/> des <choice>
+                                <sic>élémens</sic>
+                                <corr>éléments</corr>
+                            </choice> compris sous le mot chêne<lb/> se trouve augmentée d'un nouvel élément :<lb/>
+                            <hi rend="underline">l'idée qu'il est plus grand que le roseau,<lb/>
+                                idée</hi>
+                            qui fait dorénavant partie du<pb n="572" facs="#ACAS_CRHST_AMP_15_261_bis_0106_r.jpg" type="deplacement"/>
+                            <hi rend="underline">groupe</hi> du <hi rend="underline">chêne</hi>. Or
+                            comment<lb/> méconnaître qu'il y a une nouvelle<lb/>
+                            <hi rend="underline">union</hi>, une nouvelle
+                            <hi rend="underline">coordination</hi> toutes<lb/> les fois qu'une somme
+                            d'<hi rend="underline">images</hi> ou<lb/>
+                            <hi rend="underline">d'idées</hi> est devenue plus
+                            <hi rend="underline">complexe</hi>, s'est<lb/>
+                            <hi rend="underline">enrichie</hi> ou
+                            <hi rend="underline">compliquée</hi> d'un nouvel
+                            <hi rend="underline">élément</hi> ?<lb/> Suivant la même marche dans le
+                            4ème<lb/> système, j'ai cru <choice>
+                                <sic>longtems</sic>
+                                <corr>longtemps</corr>
+                            </choice> que les
+                            <hi rend="underline">intuitions<lb/>
+                        s'unissaient</hi>
+                            ou se <hi rend="underline">coordonnaient</hi> (car ces<lb/> mots sont <choice>
+                                <sic>synonimes</sic>
+                                <corr>synonymes</corr>
+                            </choice> dès qu'on prend le<lb/> mot
+                            <hi rend="underline">coordination</hi> dans le sens plus général<lb/>
+                            que je lui donne toujours) dans tous les cas<lb/> avec les autres <choice>
+                                <sic>élémens</sic>
+                                <corr>éléments</corr>
+                            </choice> de la <hi rend="underline">coordination</hi> où
+                            l'<hi rend="underline">intuition</hi> avait lieu. Ce qui ne
+                            m'empêchait<lb/> pas, pour la même raison que dans<lb/> les autres
+                            systèmes, de distinguer par abstraction<lb/>
+                            <hi rend="underline">l'intuition</hi> qui consistait, par exemple,
+                            à<lb/> voir entre la ligne droite et la courbe,<lb/> jointes par leurs
+                            extrémités en un seul<lb/> contour, la relation
+                            <hi rend="underline">d'être plus courte</hi>.<lb/> Et
+                            le<hi rend="underline">jugement
+                    intuitif</hi> qui
+                            consistait<lb/> dans l'<hi rend="underline">union</hi> de cette
+                            <hi rend="underline">relation</hi> à ce qui<lb/> était déjà compris dans
+                            la <hi rend="underline">notion</hi> de<lb/> la ligne droite. Les
+                            réflexions que votre<lb/> lettre m'a suggérées m'ont conduit<pb n="573" facs="#ACAS_CRHST_AMP_15_261_bis_0107_v.jpg"/> à un résultat encore
+                            plus différent<lb/> de votre opinion sur la confusion de<lb/>
+                            l'<hi rend="underline">intuition</hi> avec le
+                            <hi rend="underline">jugement intuitif</hi>, c'est<lb/> qu'il arrive
+                            quelquefois que l'<hi rend="underline">intuition</hi> ne<lb/>
+                            <hi rend="underline">s'unit immédiatement</hi> à rien, et alors<lb/>
+                            point de <hi rend="underline">jugement intuitif</hi>. La <hi rend="underline">notion</hi>
+                            <lb/> de l'<hi rend="underline">étendue</hi>, par exemple, vient de <hi rend="underline">l'intuition</hi>
+                            <lb/> par laquelle nous voyons la <hi rend="underline">coordination</hi>
+                            <lb/> des
+                            <hi rend="underline">
+                <choice>
+                  <sic>élémens</sic> <corr>éléments</corr>
+                </choice> juxtaposés</hi>,
+                            indépendamment<lb/> de la nature de ces <choice>
+                                <sic>élémens</sic>
+                                <corr>éléments</corr>
+                            </choice>. Cette <hi rend="underline">notion</hi>
+                            <lb/> loin de s'unir à eux s'en sépare pour<lb/> rester à part. Aussi
+                            n'y a-t-il point<lb/> dans ce cas de <hi rend="underline">jugement</hi>
+                            qui en suive<lb/>
+                            <hi rend="underline">immédiatement</hi>, et indépendamment<lb/> de ces
+                            <hi rend="underline">
+                <choice>
+                  <sic>élémens</sic> <corr>éléments</corr>
+                </choice>
+              </hi>,
+                            ce qui serait nécessaire<lb/> pour qu'il y eût
+                            <hi rend="underline">jugement intuitif</hi>. Il en<lb/> est de même des
+                            <hi rend="underline">intuitions</hi> auxquelles<lb/> nous devons les
+                            <hi rend="underline">notions</hi> de divers<lb/> nombres, etc...<lb/>
+                            Voici le vrai principe des
+                            <hi rend="underline">
+                <choice>
+                  <sic>jugemens</sic> <corr>jugements</corr>
+                </choice>
+                <lb/>
+                        intuitifs</hi>.
+                            Comme ils ne peuvent lier ensemble<lb/> que des
+                            <hi rend="underline">notions</hi>, il faut qu'il puisse y<lb/> avoir
+                            plus d'une <hi rend="underline">intuition</hi>, génératrice<lb/>
+                            d'autant de <hi rend="underline">notions</hi>, savoir l'<hi rend="underline">intuition</hi>
+                            <lb/> totale de toute la <hi rend="underline">coordination</hi> et les<lb/>
+                            <hi rend="underline">intuitions
+                                partielles</hi>
+                            de ses diverses<pb n="574" facs="#ACAS_CRHST_AMP_15_261_bis_0108_r.jpg"/> parties. Alors le
+                            <hi rend="underline">jugement intuitif<lb/>
+                                    unit</hi>
+                            soit l'<hi rend="underline">intuition</hi> totale et une<lb/>
+                            <hi rend="underline">partielle</hi>, soit deux
+                            <hi rend="underline">intuitions partielles</hi>,<lb/> d'après les
+                            <hi rend="underline">relations</hi> qui existent<lb/> entre elles
+                            indépendamment des <choice>
+                                <sic>élémens</sic>
+                                <corr>éléments</corr>
+                            </choice>
+                            <lb/>
+                            <hi rend="underline">coordonnés</hi>, et le <hi rend="underline">système comparatif</hi>
+                            <lb/> se joint à l'<hi rend="underline">intuitif</hi>, quand le
+                            jugement<lb/> exige que les parties soient
+                            <hi rend="underline">comparées</hi>.<lb/> Comme dans le cas où dans un<lb/>
+                            <hi rend="underline">contour</hi> en partie
+                            <hi rend="underline">rectiligne</hi>, et en<lb/> partie curviligne, l'on
+                            a outre
+                            <hi rend="underline">l'intuition<lb/>
+                                totale</hi>
+                            de tout le <hi rend="underline">contour</hi>, les
+                            <hi rend="underline">intuitions<lb/>
+                        partielles</hi>
+                            de la droite et la courbe.<lb/> D'autre fois le <hi rend="underline">système comparatif</hi>
+                            <lb/> n'y est pour rien, ainsi dans le même<lb/> groupe de cinq objets,
+                            si on a<lb/> outre <hi rend="underline">l'intuition totale</hi> du
+                            <hi rend="underline">nombre<lb/>
+                                cinq</hi>,
+                            les <hi rend="underline">intuitions partielles</hi> des<lb/>
+                            <hi rend="underline">nombres</hi> 2 et 3, qui y sont compris,<lb/> il en
+                            résultera ce <hi rend="underline">jugement intuitif</hi>
+                            <lb/>
+                            <formula>
+                                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mn>5</mn>
+                                        <mo>=</mo>
+                                        <mn>2</mn>
+                                        <mo>+</mo>
+                                        <mn>3</mn>
+                                    </mrow>
+                                </math>
+                            </formula>.<lb/> De même <hi rend="underline">l'intuition totale</hi>
+                            d'une<lb/> portion de l'espace et les intuitions<lb/>
+                            <hi rend="underline">partielles</hi> de sa longueur, de sa <del type="illisible"/>
+                            <pb n="575" facs="#ACAS_CRHST_AMP_15_261_bis_0109_v.jpg"/> de sa largeur
+                            et de sa profondeur,<lb/> conduisent à ce <hi rend="underline">jugement intuitif</hi>
+                            <lb/> si remarquable :
+                            <hi rend="underline">l'espace a trois dimensions</hi>.<lb/> De même
+                            encore, pour vous donner<lb/> un exemple de l'application du 4me<lb/>
+                            système au 3me d'où résultent ces<lb/>
+                            <hi rend="underline">
+                <choice>
+                  <sic>jugemens</sic> <corr>jugements</corr>
+                </choice> intuitifs</hi>
+                            qui servent de<lb/> base à la théorie du syllogisme, car<lb/> sur quoi
+                            peuvent-elles reposer<lb/> si ce n'est comme toutes les autres<lb/>
+                            vérités nécessaires sur une chaîne<lb/>
+                            d'<hi rend="underline">intuitions</hi> et de
+                            <hi rend="underline">
+                <choice>
+                  <sic>jugemens</sic> <corr>jugements</corr>
+                </choice>
+                    intuitifs</hi>,<lb/>
+                            en considérant une <hi rend="underline">coordination</hi>
+                            <lb/> de <hi rend="underline">classification</hi> on a les <hi rend="underline">intuitions</hi>
+                            <lb/> auxquelles nous devons les <hi rend="underline">notions</hi>
+                            <lb/> de classe, de genre et d'espèce, et<lb/> nous voyons entre ces <hi rend="underline">notions</hi>
+                            <lb/> indépendamment de la nature<lb/> des choses classées, les <hi rend="underline">relations</hi>
+                            <lb/> exprimées par ces
+                            <hi rend="underline">
+                <choice>
+                  <sic>jugemens</sic> <corr>jugements</corr>
+                </choice> intuitifs</hi>.<lb/>
+                            L'espèce comprise dans un genre l'est<lb/> nécessairement dans la classe
+                            à laquelle<lb/> appartient ce genre, mais si on sait<lb/> seulement
+                            qu'elle est comprise dans la<lb/> classe, elle pourra être comprise dans
+                            le <pb n="568" facs="#ACAS_CRHST_AMP_15_261_bis_0102_r.jpg" type="deplacement"/>genre ou en être exclue, sans qu'on<lb/> puisse
+                            rien conclure à cet égard, de<lb/> ce qu'elle est dans la classe.
+                            Au<lb/> contraire exclue de la classe elle l'est<lb/> nécessairement du
+                            genre, et exclue<lb/> du genre, elle peut être indifféremment<lb/>
+                            exclue du genre ou y être contenue.<lb/> Dans
+                            <hi rend="underline">l'intuition totale</hi> d'une chose<lb/> qui a
+                            commencé, se trouvent les deux<lb/>
+                            <hi rend="underline">intuitions partielles</hi> du <choice>
+                                <sic>tems</sic>
+                                <corr>temps</corr>
+                            </choice> antérieur<lb/> à cette chose, et du <choice>
+                                <sic>tems</sic>
+                                <corr>temps</corr>
+                            </choice> pendant<lb/> lequel elle dure, de là le
+                            <hi rend="underline">jugement<lb/>
+                                intuitif</hi>
+                            qu'elle a la raison de son<lb/> commencement dans ce <choice>
+                                <sic>tems</sic>
+                                <corr>temps</corr>
+                            </choice>
+                            <lb/> antérieur, ou si vous voulez une<lb/> cause nécessairement préexistante.<lb/>
+                            <cit xml:lang="lat">
+                                <quote>Ex nihilo nihil</quote>
+                            </cit>, disaient avec cette<lb/> pleine conviction de tout ce qui
+                            est<lb/> vérité nécessaire, les philosophes de<lb/> l'antiquité.</item>
+                        <lb/>
+                        <item n="3"> Voici un passage de votre lettre,<lb/> mon cher ami, auquel je
+                            n'aurai<lb/> pas besoin de faire une aussi<lb/> longue réponse. J'avais
+                            dit que dans<lb/> un raisonnement, la dépendance<lb/> entre le principe
+                            et la conséquence<pb n="569" facs="#ACAS_CRHST_AMP_15_261_bis_0103_v.jpg"/> était moins
+                            <hi rend="underline">accessible</hi> que dans un<lb/>
+                            <hi rend="underline">jugement intuitif</hi>. J'entendais tout<lb/>
+                            bonnement par moins <hi rend="underline">accessible</hi>
+                            <lb/> qu'elle exigeait <add>dans le 1r cas </add>un travail de
+                            l'esprit<lb/> dont l'autre cas n'avait pas besoin.<lb/> J'ajoutais
+                            qu'elle était moins accessible<lb/> parce qu'on ne pouvait pas en avoir<lb/>
+                            <hi rend="underline">l'intuition, en un seul acte</hi>. Vous<lb/> me
+                            demandez <hi rend="underline">si l'on peut avoir</hi>
+                            <lb/> une <hi rend="underline">intuition</hi> en plusieurs
+                            <hi rend="underline">actes</hi>.<lb/> C'est une absurdité.
+                            <hi rend="underline">En un seul<lb/>
+                            acte</hi>
+                            était un pléonasme explicatif<lb/> pour élucider le sens des mots :<lb/>
+                            en avoir l'<hi rend="underline">intuition</hi>, comme si<lb/> j'avais
+                            dit :
+                            <hi rend="underline">il n' est pas en notre<lb/>
+                            pouvoir d' avoir <hi rend="underline">l'intuition de
+                    cette </hi>dépendance,<lb/>
+                            c'est-à-dire de l'<choice>
+                  <sic>appercevoir</sic> <corr>apercevoir</corr>
+                </choice> en<lb/>
+                            un seul acte</hi>.
+                            Il me semble que<lb/> le sens montrait assez qu'il fallait<lb/> rétablir
+                            les mots sous-entendus :<lb/>
+                            <hi rend="underline">c'est-à-dire de l'<choice>
+                  <sic>appercevoir</sic> <corr>apercevoir</corr>
+                </choice>
+              </hi>.<lb/>
+                            Ce passage d'ailleurs faisait allusion à<lb/> l'idée suivant moi très
+                            juste, que Dieu<lb/> voit <hi rend="underline">intuitivement</hi>,
+                            c'est-à-dire en<lb/>
+                            <supplied>un </supplied>seul <hi rend="underline">acte</hi>, toutes
+                                <add>les </add>
+                            <hi rend="underline">dépendances nécessaires</hi>,<lb/> même celles qui
+                            exigent pour nous<pb n="570" facs="#ACAS_CRHST_AMP_15_261_bis_0104_r.jpg"/> les plus longues
+                            déductions.</item>
+                        <lb/>
+                        <item n="4"> Voici où je ne vous comprends<lb/> plus du tout. Soit une suite
+                            de<lb/> vérités A, B, C, D, E, dérivant<lb/> toutes successivement et
+                            nécessairement<lb/> de A. Vous dites que le 1r passage<lb/> de A à B est
+                            seul <hi rend="underline">intuitif</hi>. Alors,<lb/> comment faites-vous
+                            celui de B à<lb/> C, celui de C à D, etc... Après qu'on<lb/> a rétabli
+                            dans le raisonnement<lb/> les termes intermédiaires sous-entendus,<lb/>
+                            dans le cas où il y en aurait, le<lb/> passage de chaque affirmation à
+                            la<lb/> suivante est <hi rend="underline">évident</hi> par
+                            lui-même ;<lb/> car s'il fallait démontrer ce<lb/> passage ce serait au
+                            moyen<lb/> d'autres <hi rend="underline">termes intermédiaires</hi>
+                            et<lb/> c'est précisément ces <hi rend="underline">termes</hi> que<lb/> j'<choice>
+                                <sic>appèle</sic>
+                                <corr>appelle</corr>
+                            </choice>
+                            <hi rend="underline">termes intermédiaires sous-entendus</hi>
+                            <lb/> et que je suppose qu'on a rétablis.<lb/> Or un
+                            <hi rend="underline">passage évident</hi> l'est, et<lb/> ne peut l'être,
+                            que par un
+                            <hi rend="underline">jugement<lb/>
+                                intuitif</hi>.
+                            Ou bien admettez-vous<lb/> un autre
+                            <hi rend="underline">principe d'évidence</hi> ? Si vous<lb/> l'admettez,
+                            quel est-il ? Je vous défie<pb n="571" facs="#ACAS_CRHST_AMP_15_261_bis_0105_v.jpg"/> de le dire. Vous me
+                            dites textuellement :<lb/>
+                            <cit>
+                                <quote>Pour apprécier la relation de D à<lb/> E, il faut que j'aie
+                                    présentes à l'esprit<lb/> toutes celles qui ont précédé</quote>
+                            </cit>". C'est ce<lb/> qui est absolument faux. Prenez,<lb/> par
+                            exemple, le raisonnement<lb/> qui conduit à la solution générale<lb/>
+                            des équations du troisième degré,<lb/> vous n'<choice>
+                                <sic>appercevez</sic>
+                                <corr>apercevez</corr>
+                            </choice> aucune
+                            <hi>relation<lb/>
+                        immédiate</hi> entre
+                            l'équation d'où<lb/> vous partez <formula>
+                                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>x</mi>
+                                        <mn>3</mn>
+                                        <mo>+</mo>
+                                        <mi>p</mi>
+                                        <mi>x</mi>
+                                        <mo>−</mo>
+                                        <mi>q</mi>
+                                    </mrow>
+                                </math>
+                            </formula>, et<lb/> celle où vous arrivez<lb/>
+                            <formula>
+                                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>x</mi>
+                                        <mo>=</mo>
+                                        <msup>
+                                            <msqrt>
+                                                <mfrac>
+                                                  <mrow>
+                                                  <mn>1</mn>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <mn>2</mn>
+                                                  </mrow>
+                                                </mfrac>
+                                                <mi>q</mi>
+                                                <mo>+</mo>
+                                                <msqrt>
+                                                  <mfrac>
+                                                  <mrow>
+                                                  <mn>1</mn>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <mn>4</mn>
+                                                  </mrow>
+                                                  </mfrac>
+                                                  <msup>
+                                                  <mi>q</mi>
+                                                  <mn>2</mn>
+                                                  </msup>
+                                                  <mo>+</mo>
+                                                  <mfrac>
+                                                  <mrow>
+                                                  <mn>1</mn>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <mn>2</mn>
+                                                  </mrow>
+                                                  </mfrac>
+                                                  <!--?-->
+                                                  <msup>
+                                                  <mi>p</mi>
+                                                  <mn>3</mn>
+                                                  </msup>
+                                                </msqrt>
+                                            </msqrt>
+                                            <mn>3</mn>
+                                        </msup>
+                                        <msqrt>
+                                            <mfrac>
+                                                <mrow>
+                                                  <mn>1</mn>
+                                                </mrow>
+                                                <mrow>
+                                                  <mn>2</mn>
+                                                </mrow>
+                                            </mfrac>
+                                            <mi>q</mi>
+                                            <mo>−</mo>
+                                            <msqrt>
+                                                <mfrac>
+                                                  <mrow>
+                                                  <mn>1</mn>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <mn>4</mn>
+                                                  </mrow>
+                                                </mfrac>
+                                                <msup>
+                                                  <mi>q</mi>
+                                                  <mn>2</mn>
+                                                </msup>
+                                                <mo>+</mo>
+                                                <mfrac>
+                                                  <mrow>
+                                                  <mn>1</mn>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <mn>2</mn>
+                                                  </mrow>
+                                                </mfrac>
+                                                <msup>
+                                                  <mi>p</mi>
+                                                  <mn>3</mn>
+                                                </msup>
+                                            </msqrt>
+                                        </msqrt>
+                                    </mrow>
+                                </math>
+                            </formula>.<lb/> Mais rétablissez toutes les équations<lb/>
+                            intermédiaires, et vous verrez que<lb/> le
+                            <hi rend="underline">passage</hi> de chacune à la suivante<lb/> est un
+                            véritable <hi rend="underline">jugement intuitif</hi> ; absolument
+                            indépendant des <hi rend="underline">passages</hi>
+                            <lb/> qui l'ont précédé. Ainsi quand<lb/> après avoir fait <formula>
+                                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi>x</mi>
+                                        <mo>=</mo>
+                                        <mi>a</mi>
+                                        <mo>−</mo>
+                                        <mi>b</mi>
+                                    </mrow>
+                                </math>
+                            </formula>, on est<lb/> arrivé à <formula>
+                                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <msup>
+                                            <mi>a</mi>
+                                            <mn>3</mn>
+                                        </msup>
+                                        <mo>+</mo>
+                                        <msup>
+                                            <mi>b</mi>
+                                            <mn>3</mn>
+                                        </msup>
+                                        <mo>=</mo>
+                                        <mi>q</mi>
+                                    </mrow>
+                                </math>
+                            </formula>, et que de<lb/>
+                            <formula>
+                                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <msup>
+                                            <mi>a</mi>
+                                            <mn>3</mn>
+                                        </msup>
+                                        <mo>+</mo>
+                                        <msup>
+                                            <mi>b</mi>
+                                            <mn>3</mn>
+                                        </msup>
+                                        <mo>=</mo>
+                                        <mi>q</mi>
+                                    </mrow>
+                                </math>
+                            </formula>, on conclut <formula>
+                                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <msup>
+                                            <mi>a</mi>
+                                            <mn>3</mn>
+                                        </msup>
+                                        <mo>=</mo>
+                                        <mi>q</mi>
+                                        <mo>−</mo>
+                                        <msup>
+                                            <mi>b</mi>
+                                            <mn>3</mn>
+                                        </msup>
+                                    </mrow>
+                                </math>
+                            </formula>,<lb/> ce <hi rend="underline">passage</hi> n'a que faire de
+                                tout<pb n="576" facs="#ACAS_CRHST_AMP_15_261_bis_0110_r.jpg"/> ce
+                            qui précède, et c'est un vrai
+                            <hi rend="underline">jugement<lb/>
+                    intuitif</hi> de
+                            dire : quand <formula>
+                                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <msup>
+                                            <mi>a</mi>
+                                            <mn>3</mn>
+                                        </msup>
+                                        <mo>+</mo>
+                                        <msup>
+                                            <mi>b</mi>
+                                            <mn>3</mn>
+                                        </msup>
+                                        <mo>=</mo>
+                                        <mi>q</mi>
+                                    </mrow>
+                                </math>
+                            </formula>, il faut<lb/> que <formula>
+                                <math xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <msup>
+                                            <mi>a</mi>
+                                            <mn>3</mn>
+                                        </msup>
+                                        <mo>=</mo>
+                                        <mi>q</mi>
+                                        <mo>−</mo>
+                                        <msup>
+                                            <mi>b</mi>
+                                            <mn>3</mn>
+                                        </msup>
+                                    </mrow>
+                                </math>
+                            </formula>. <hi rend="underline">Jugement</hi> qui résulte des<lb/>
+                            <hi rend="underline">intuitions</hi> mêmes, à qui nous devons les<lb/>
+                            <hi rend="underline">notions</hi> de somme et de
+                            <hi rend="underline">différence</hi>.</item>
+                    </list>
+                </p>
+                <p xml:id="L1812-08-05-a-p2">Ce n'est pas que je prétende que dans<lb/> chaque
+                    <hi rend="underline">passage</hi> d'une <hi rend="underline">notion</hi> à
+                    une<lb/> autre, il n'y ait jamais d'<hi rend="underline">intuition</hi>
+                    qu'entre<lb/> le <hi rend="underline">terme intermédiaire</hi> précédent et<lb/>
+                    le suivant. Une fois qu'il est bien<lb/> reconnu que le principe
+                    fondamental<lb/> de tout <hi rend="underline">jugement intuitif</hi>, et
+                    par<lb/> suite de toute vérité nécessaire, à la<lb rend="hyphen"/>quelle on ne
+                    peut arriver que par<lb/> une chaîne de ces sortes de <choice>
+                        <sic>jugemens</sic>
+                        <corr>jugements</corr>
+                    </choice>
+                    <lb/> formant un <hi rend="underline">raisonnement</hi>, est qu'il<lb/> ne peut
+                    y avoir de <hi rend="underline">jugement intuitif</hi>
+                    <lb/> que quand <add>il y a </add>dans le même <hi rend="underline">groupe</hi>
+                    (ou<lb/> puisque ce mot vous déplaît, pris dans<lb/> une signification aussi
+                    générale, dans la<lb/> même <hi rend="underline">coordination</hi>) plusieurs <hi rend="underline">intuitions</hi>
+                    <lb/> soit <choice>
+                        <sic>totale</sic>
+                        <corr>totales</corr>
+                    </choice>, soit <hi rend="underline">partielles</hi>, une fois dis-je que<lb/>
+                    ce <hi rend="underline">principe</hi> est reconnu, il est évident<lb/> que quand
+                    on a fait le <hi rend="underline">passage</hi> de A à<lb/> B, le
+                    <hi rend="underline">groupe</hi> ou la <hi rend="underline">coordination</hi> A
+                    a été<pb n="577" facs="#ACAS_CRHST_AMP_15_261_bis_0111_v.jpg"/> augmenté de
+                    nouveaux <choice>
+                        <sic>élémens</sic>
+                        <corr>éléments</corr>
+                    </choice>, il<lb/> est devenu une nouvelle <hi rend="underline">coordination</hi>
+                    <lb/>
+                    <add>AB, </add>qui dans sa totalité comprend A et<lb/> B et la
+                    <hi rend="underline">relation</hi> qui les lie. C'est<lb/> dans cette nouvelle
+                    <hi rend="underline">coordination</hi> qu'on<lb/> a
+                    <hi rend="underline">l'intuition</hi> qui conduit à C, souvent<lb/> il n'y a pas
+                    besoin de cette <hi rend="underline">totalité</hi>,<lb/> une
+                    <hi rend="underline">partie</hi> de la <hi rend="underline">coordination</hi>
+                    <lb/> AB suffit pour passer à C, et il<lb/> peut arriver que cette
+                    <hi rend="underline">partie</hi> nécessaire<lb/> pour passer à C, ne soit que B,
+                    ce qui<lb/> est le cas particulier que j'ai d'abord<lb/> examiné, où de B seul
+                    on passe<lb/> immédiatement à C. C'est celui de<lb/> la solution des équations
+                    du 3me degré,<lb/> cité tout à l'heure, et le plus<lb/> ordinaire en algèbre.
+                    Mais en géométrie<lb/> il faut souvent la <hi rend="underline">totalité</hi> AB,
+                    ou<lb/> une partie de cette <hi rend="underline">totalité</hi> différente<lb/>
+                    de B seul. Cela ne fait rien parce que<lb/> AB est devenue une seule <del type="illisible"/>
+                    <lb/>
+                    <hi rend="underline">coordination</hi> de <hi rend="underline">notion</hi> qu'on
+                    voit<lb/> en <hi rend="underline">masse</hi>, tout en en distinguant<lb/> les
+                    diverses parties.</p>
+                <p xml:id="L1812-08-05-a-p3">
+                    <pb n="578" facs="#ACAS_CRHST_AMP_15_261_bis_0112_r.jpg"/> Suivez, par exemple,
+                    le <hi rend="underline">raisonnement</hi>
+                    <lb/> par lequel on démontre que dans<lb/> un triangle rectangle le carré fait
+                    sur<lb/> l'hypoténuse a une surface égale à la<lb/> somme des surfaces des
+                    carrés des deux<lb/> côtés. On part d'une coordi<add>na</add>tion où se<lb/>
+                    trouve une <hi rend="underline">intuition</hi> totale de triangle,<lb/> et sept
+                    <hi rend="underline">intuitions</hi> partielles, 3 lignes<lb/> droites, 3
+                    angles, et l'égalité d'un des angles<lb/> et de son supplément, égalité qui
+                    est<lb/> la définition de l'angle appelé droit.<lb/> On commence à concevoir une
+                    perpendiculaire<lb/> de l'angle droit sur l'<choice>
+                        <sic>hypothénuse</sic>
+                        <corr>hypoténuse</corr>
+                    </choice>, voilà<lb/> deux nouveaux triangles qui donnent chacun<lb/> autant
+                    <hi rend="underline">d'intuitions</hi> que le grand, d'où<lb/> résulte un tout
+                    où il y a plus de vingt<lb/>
+                    <hi rend="underline">notions</hi>. Sans les avoir toutes présentes<lb/>
+                    <hi rend="underline">explicitement</hi>, on considère les angles<lb/> d'un des
+                    petits triangles et du triangle<lb/> total, et on voit que deux des angles<lb/>
+                    de l'un sont égaux à deux des<lb/> angles de l'autre.</p>
+                <p xml:id="L1812-08-05-a-p4">Or on a démontré précédemment<lb/> que l'égalité de deux angles entraîne<lb/> la
+                    proportionnalité des côtés. Si l'on<lb/> voulait que la démonstration de la<lb/>
+                    propriété du carré de l'<choice>
+                        <sic>hypothénuse</sic>
+                        <corr>hypoténuse</corr>
+                    </choice> fût<pb n="579" facs="#ACAS_CRHST_AMP_15_261_bis_0113_v.jpg"/> une
+                    seule chaîne de <choice>
+                        <sic>jugemens</sic>
+                        <corr>jugements</corr>
+                    </choice>
+                    <lb/>
+                    <hi rend="underline">intuitifs</hi>, il faudrait rétablir ici tous les<lb/>
+                    termes intermédiaires en faisant sur<lb/> les deux triangles de la figure
+                    toute<lb/> la démonstration de la proportionnalité<lb/> des côtés dans le cas de
+                    deux angles<lb/> égaux. Mais si elle a été faite<lb/> précédemment on
+                    l'<hi rend="underline">
+            <choice>
+              <sic>intercalle</sic> <corr>intercale</corr>
+            </choice>
+                    implicitement</hi>
+                    dans la chaîne, et<lb/> on conclut sur-le-champ que chaque<lb/> côté est moyen
+                    proportionnel entre<lb/> l'<choice>
+                        <sic>hypothénuse</sic>
+                        <corr>hypoténuse</corr>
+                    </choice> entière et le segment<lb/>
+                    <choice>
+                        <sic>adjacant</sic>
+                        <corr>adjacent</corr>
+                    </choice>
+                    <del type="illisible"/>. Alors dans le <hi rend="underline">passage</hi>
+                    <lb/> suivant on opère non sur le<lb/> triangle dont un angle <choice>
+                        <sic>et</sic>
+                        <corr>est</corr>
+                    </choice> droit,<lb/> mais sur le triangle dont chacun<lb/> de deux plus petits
+                    côtés est moyen<lb/> proportionnel entre le plus grand<lb/> des trois côtés et
+                    le segment <choice>
+                        <sic>adjacant</sic>
+                        <corr>adjacent</corr>
+                    </choice>.<lb/> Le <hi rend="underline">raisonnement</hi> se continue<lb/>
+                    toujours de la même manière,<lb/> soit en passant d'une
+                    <hi rend="underline">notion</hi> à la<lb/> suivante par un jugement
+                    <hi rend="underline">intuitif</hi>,<lb/> soit en
+                    <hi rend="underline">
+            <choice>
+              <sic>intercallant</sic> <corr>intercalant</corr>
+            </choice>
+          </hi>
+                    une chaîne<lb/> de <hi rend="underline">jugements intuitifs</hi>, qui, si elle
+                        était<pb n="580" facs="#ACAS_CRHST_AMP_15_261_bis_0114_r.jpg"/>
+                    <hi rend="underline">rétablie</hi> dans toute son intégrité, ferait<lb/> que
+                    tout le raisonnement ne serait<lb/> qu'une seule
+                    <hi rend="underline">chaîne</hi> de
+                    <hi rend="underline">
+            <choice>
+              <sic>jugemens</sic> <corr>jugements</corr>
+            </choice>
+                    intuitifs</hi>.<lb/>
+                    On voit qu'il y a deux manières de procéder dans<lb/> le
+                    <hi rend="underline">raisonnement</hi>, l'une est de rétablir<lb/> tous les
+                    <hi rend="underline">termes intermédiaires</hi>, en répétant<lb/> par exemple,
+                    sur le <hi rend="underline">triangle total</hi> et un<lb/> des
+                    <hi rend="underline">triangles partiels</hi> dont je viens de parler,<lb/> tout
+                    le <hi rend="underline">raisonnement</hi> qui prouve que<lb/> deux angles étant
+                    égaux tous les côtés sont<lb/> proportionnels, ou en se servant de<lb/> ce que
+                    cela a été démontré précédemment,<lb/> en faisant le
+                    <hi rend="underline">passage</hi> sur-le-champ, d'après<lb/> le
+                    <hi rend="underline">souvenir</hi> que l'on a de la vérité de<lb/> cette
+                    dépendance. C'est ce que j'ai appelé<lb/>
+                    <hi rend="underline">
+            <choice>
+              <sic>intercaller</sic> <corr>intercaler</corr>
+            </choice>
+          </hi>,
+                    ou <hi rend="underline">sous-entendre</hi> une partie<lb/> du raisonnement. Dans
+                    le premier cas<lb/> on <hi rend="underline">rétablit</hi> au contraire tous les
+                    passages<lb/> en détail, alors il n'y a plus dans le<lb/>
+                    <hi rend="underline">raisonnement</hi> qu'une chaîne de <choice>
+                        <sic>jugemens</sic>
+                        <corr>jugements</corr>
+                    </choice>
+                    <lb/> tous <hi rend="underline">intuitifs</hi>. Mais si on était toujours<lb/>
+                    obligé de le faire, les sciences de dépendances<lb/> nécessaires ne feraient
+                    aucun progrès<lb/> parce que les moindres démonstrations<lb/> deviendraient
+                    tellement longues<lb/> que notre intelligence n'y pourrait<lb/> suffire.</p>
+                <p xml:id="L1812-08-05-a-p5">Le syllogisme, suivant moi, bien loin<pb n="581" facs="#ACAS_CRHST_AMP_15_261_bis_0115_v.jpg"/> d'être la source des vérités
+                    nécessaires n'est<lb/> qu'un moyen, à la vérité très utile, d'abréger<lb/> les
+                    <hi rend="underline">
+            <choice>
+              <sic>raisonnemens</sic> <corr>raisonnements</corr>
+            </choice>
+          </hi>
+                    en se servant de <hi rend="underline">
+            <choice>
+              <sic>raisonnemens</sic> <corr>raisonnements</corr>
+            </choice>
+          </hi>
+                    <lb/> une fois faits pour les
+                    <hi rend="underline">
+            <choice>
+              <sic>intercaller</sic> <corr>intercaler</corr>
+            </choice>
+          </hi>
+                    dans la<lb/> chaîne sans se donner la peine de les répéter.<lb/> Ainsi pour ne
+                    pas sortir du même<lb/> exemple, on est dispensé dans la démonstration<lb/>
+                    relative au carré de l'<choice>
+                        <sic>hypothénuse</sic>
+                        <corr>hypoténuse</corr>
+                    </choice> de répéter<lb/> le <hi rend="underline">raisonnement</hi> sur la
+                    proportionnalité<lb/> des côtés des triangles qui ont deux angles<lb/> égaux, à
+                    l'aide de ce syllogisme :<lb/> deux triangles qui ont deux angles égaux<lb/> ont
+                    leurs côtés proportionnels,<lb/> or le triangle rectangle total et un des<lb/>
+                    triangles partiels, ont deux angles égaux,<lb/> donc leurs côtés sont
+                    proportionnels.<lb/> Le syllogisme est bon et utile toutes les<lb/> fois que la
+                    proposition générale qui en<lb/> fait la majeure a besoin d'être démontrée.<lb/>
+                    Sans lui il faudrait répéter toute cette<lb/> démonstration sur l'objet
+                    particulier<lb/> dont on s'occupe, et on n'en finirait<lb/> pas. Au moyen du
+                    syllogisme on <hi rend="underline">applique</hi>
+                    <lb/> cette proposition générale au cas<lb/> particulier sans avoir besoin
+                    d'en<lb/> répéter la démonstration, mais<lb/> c'est encore par un <hi rend="underline">jugement intuitif</hi>
+                    <lb/> qu'on voit que l'application est juste,<lb/> c'est-à-dire que le
+                    syllogisme est bon.<lb/> Le syllogisme est au contraire inutile,<pb n="582" facs="#ACAS_CRHST_AMP_15_261_bis_0116_r.jpg"/> et même ridicule, quand la
+                    majeure est<lb/> évidente d'elle-même, et consiste dans<lb/> un simple
+                    <hi rend="underline">jugement intuitif</hi> parce que la<lb/>
+                    <add>déduction </add>est aussi évidente dans le cas particulier que dans<lb/> le
+                    cas général. L'<choice>
+                        <sic>entymême</sic>
+                        <corr>enthymème</corr>
+                    </choice> est alors la seule<lb/> forme sous laquelle le
+                    <hi rend="underline">passage</hi> d'une <hi rend="underline">notion</hi> à
+                    l'autre doive être énoncé. Exemple :<lb/> on sait que B est à la fois plus
+                    grand<lb/> que A et plus petit que C, donc (dira-t<lb rend="hyphen"/>on par <choice>
+                        <sic>entymême</sic>
+                        <corr>enthymème</corr>
+                    </choice>) A est plus petit que<lb/> C. Voici comme<supplied>nt</supplied> le
+                    logicien aristotélique<lb/> renforcé, développerait cet <choice>
+                        <sic>entymême</sic>
+                        <corr>enthymème</corr>
+                    </choice> en<lb/> syllogisme : <figure/>
+                    <lb/> Toutes les fois qu'une grandeur en général<lb/> est plus grande qu'une
+                    autre et plus petite<lb/> qu'une troisième, cette autre est plus petite<lb/> que
+                    la troisième,<lb/> or dans le cas particulier que nous<lb/> examinons, B est à
+                    la fois plus grand que<lb/> A, et plus petit que C,<lb/> donc A est plus petit
+                    que C.<lb/> Qui ne voit que la proposition générale<lb/> n'ajoute rien à
+                    l'évidence de la <hi rend="underline">déduction</hi>
+                    <lb/> vue <hi rend="underline">intuitivement</hi> et dans le cas<lb/>
+                    particulier indépendamment du cas<lb/> général et dans le cas général<lb/>
+                    indépendamment du cas particulier ?<lb/> Les uns ont dit que le cas général<pb n="583" facs="#ACAS_CRHST_AMP_15_261_bis_0117_v.jpg"/> n'était vrai que
+                    parce que chacun de <choice>
+                        <sic>ses</sic>
+                        <corr>ces</corr>
+                    </choice> cas<lb/> particuliers l'étaient, ce qui est absurde<lb/> car on ne
+                    serait jamais sûr d'une vérité<lb/> générale, parce qu'il serait impossible d'en
+                    épuiser,<lb/> dans l'examen qu'on en ferait, tous les<lb/> cas particuliers.</p>
+                <p xml:id="L1812-08-05-a-p6">Les autres ont dit que le cas particulier<lb/> n'était vrai qu'à cause que le cas
+                    général<lb/> dont il est une des applications, était<lb/> vrai, ce qui est
+                    également absurde,<lb/> puisque dans le progrès successif de<lb/> notre
+                    intelligence, la vérité particulière<lb/> a été reconnue dans chacun des
+                    cas<lb/> où elle s'est offerte, avant qu'on<lb/> songeât ou même qu'on pût
+                    s'élever<lb/> à la vérité générale.</p>
+                <p xml:id="L1812-08-05-a-p7">Moi je dis que dans le cas général<lb/> et dans le cas particulier, il y a<lb/>
+                    indépendamment l'un de l'autre,<lb/> la même évidence, fruit d'une<lb/>
+                    <hi rend="underline">déduction également immédiate</hi>, due<lb/> à une
+                    <hi rend="underline">intuition</hi> de même nature<lb/> dans les deux cas.</p>
+                <p xml:id="L1812-08-05-a-p8">Je vous avais parlé d'une nouvelle logique<lb/> résultat de dix ans de
+                    méditations.<lb/> En voilà quelques <choice>
+                        <sic>fragmens</sic>
+                        <corr>fragments</corr>
+                    </choice>. Dites-moi<lb/> le plus tôt que vous pourrez si nous<lb/> nous
+                    entendons sur tout cela.<lb/> Adieu mon cher ami, je vous aime<lb/> et vous
+                    embrasse de toute mon âme.<lb/>
+                    <persName ref="#pers_A366">A. Ampère</persName>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div xml:id="L1812-08-05-a-div2">
+                <note resp="#CGA" xml:id="corresp_1">L'<hi rend="underline">intuition</hi> est
+                    l'<hi rend="underline">acte</hi> et non la <hi rend="underline">faculté</hi>, j'<choice>
+                        <sic>appele</sic>
+                        <corr>appelle</corr>
+                    </choice>
+                    <lb/>
+                    <hi rend="underline">réflexion</hi> la <hi rend="underline">faculté</hi> de voir
+                    par <hi rend="underline">intuition</hi> et mon<lb/> 4me système, système de la
+                    <hi rend="underline">réflexion</hi> aussi bien que<lb/> système intuitif.</note>
+            </div>
+        </back>
+    </text>
+</TEI>

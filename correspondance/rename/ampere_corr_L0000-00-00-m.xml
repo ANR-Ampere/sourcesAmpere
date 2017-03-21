@@ -1,0 +1,217 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 16</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L0000-00-00-m">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1943">1943</date>
+                     <biblScope type="tome">III.</biblScope>
+                     <biblScope type="pp">p. 892-893</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L16</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L16manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <repository>Collection Alfred Cornu [note de Louis DE
+                           LAUNAY]</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Quatre pages 18 x 23,7, sans commencement ni signature, adresse sur la
+                           quatrième page. [note de Louis DE LAUNAY] </p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_A366">Ampère, André-Marie</persName>
+          <date when-iso="0000-00-00">s.d.</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_B94">Bredin, Claude-Julien</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L0000-00-00-m">
+      <body>
+         <div xml:id="L0000-00-00-m-div1">
+            <opener>s.d</opener>
+            <p xml:id="L0000-00-00-m-p1">
+          <gap reason="lacune"/> J'ai maintenant à réclamer l'accomplissement
+               d'une ancienne promesse faite bien solennellement. Nous pariâmes, il y a trois ans,
+               ton portrait dessiné ; j'ai du reste gagné le pari, et tu le sais bien. En
+               conséquence, il faut que tu me l'apportes fait par <persName ref="#pers_P1663">Prial</persName> qui, justement, est dans ce
+               moment-ci à <placeName>Lyon</placeName>. C'est de sa main que je veux ce dessin, parce que je sais que
+               personne ne l'égale dans l'art de rendre les traits physionomiques et que (je) veux
+               surtout, s'il est possible, que sous ce rapport l'image représente tout l'original.
+               Tu sais que nous mettons tous deux la même importance à l'expression de ces traits
+               caractéristiques de l'âme. Ainsi que <persName ref="#pers_P1663">Prial</persName> te dessine, et que je puisse enfin avoir
+               une chose promise depuis si longtemps.</p>
+            <p xml:id="L0000-00-00-m-p2">J'ai eu l'autre jour une longue conversation
+               avec M. <persName ref="#pers_D272">Degérando</persName>. Nous avons parlé de toi et de beaucoup d'autres choses. Plusieurs
+               t'auraient fait plaisir, si tu avais été de cette conversation. Viens donc bien vite
+               partager de semblables entretiens.</p>
+            <p xml:id="L0000-00-00-m-p3">Croirais-tu, cher ami, qu'il y a eu une longue
+               discussion métaphysique à la dernière séance de la 1ère classe de l'<orgName>Institut</orgName>. En
+               faisant un rapport sur un Mémoire de <persName ref="#pers_M401">Montègre</persName> relatif à l'art de ventriloques, M.
+               <persName ref="#pers_H296">Hallé</persName> appela jugement, comme l'ont fait tant d'autres psychologistes, un phénomène
+               particulier qui n'en est point un, et sur lequel M. <persName ref="#pers_L343">de Laplace</persName> a un système qui lui
+               est propre, et qui est une chose excellente, un pas qu'il a fait dans la science de
+               l'entendement. Il voulut expliquer sa théorie, et parla très bien, mais peu de
+               personnes le comprirent. Il manquait de mots pour rendre sa pensée. Je le compris
+               très bien, moi à qui il a communiqué autrefois ces idées, et qui ai placé ce
+               phénomène dans mon dernier tableau sous le nom d'optoplérose. Ah ; s'il avait pu dire
+               optoplérose, comme tout le monde l'aurait bien entendu ; J'entends par tout le monde,
+               ceux qui auraient étudié mon tableau <foreign xml:lang="grc"/>, c'est la chose qu'on voit, et tu sais
+               qu'en psychologie on prend ce mot dans le sens général qui n'est pas borné à la vue
+               des yeux. <foreign xml:lang="grc"/> , c'est le complément, l'action de compléter. Au reste, c'est bien
+               dans le cas de la vision proprement dite que l'optoplérose se montre continuellement
+               et doit être considérée comme plus importante. Tu comprends bien que c'est par elle
+               qu'un tableau plat fait saillie, que le panorama présente une si vaste étendue où se
+               développent des formes si variées que les enfants prennent la voûte bleue pour un
+               firmament solide, etc., etc...</p>
+            <p xml:id="L0000-00-00-m-p4">C'est bien assez de psychologie pour cette fois. J'ai
+               retrouvé le cahier fait à <placeName>Lyon</placeName> il y a trois ans avec <persName ref="#pers_R502">Roux</persName>. Je le récris en le
+               modifiant et le commentant. Il m'est impossible de m'appliquer dans les inquiétudes
+               où je suis de quelque autre sujet que ce soit.</p>
+            <p xml:id="L0000-00-00-m-p5">Adieu, bien cher ami, je te prie
+               d'offrir mes hommages à Mme <persName ref="#pers_B96">Bredin</persName>, M. <persName ref="#pers_H306">Huzard</persName> m'a donné de ses nouvelles et de
+               l'enfant que je (ne) connais pas encore. Comment s'appelle-t-il ? ---- écris-moi
+               vite, mais surtout viens bien vite à <placeName>Paris</placeName>. Puisse ta première lettre m'annoncer le
+               jour de ton arrivée. Je t'aime et t'embrasse de toute mon âme.<lb/>
+               Ton ami.</p>
+            <closer>A M. <persName ref="#pers_B94">Bredin</persName>, directeur de l'<orgName>École impériale vétérinaire</orgName>, à <placeName>Lyon</placeName>, <placeName>Rhône</placeName>
+        </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L0000-00-00-m-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Coll. <persName ref="#pers_C158">A. Cornu</persName>. Quatre pages 18 x 23,7, sans commencement ni
+               signature, adresse sur la quatrième page.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,223 @@
+<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 678</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1824-11-30-a">
+               <monogr xmlns="">
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 672-673</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L678</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L678manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country xmlns="">France</country>
+                        <settlement xmlns="">Paris</settlement>
+                        <institution xmlns="">Archives de l'Académie des sciences</institution>
+                        <repository xmlns="">Fonds André-Marie Ampère</repository>
+                        <idno xmlns="">chemise 379</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Quatre pages in-4° dont le bas est déchiré.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1824-11-30">30 novembre 1824</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_A10" type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
+        </correspAction>
+        <note type="noteDelaunay">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1824-11-30-a">
+      <body>
+         <div xml:id="L1824-11-30-a-div1">
+            <opener>
+          <date when="1824-11-30">30 novembre 1824</date>
+        </opener>
+            <p xml:id="L1824-11-30-a-p1">Excellent fils, je ne sais comment t'exprimer combien j'ai été touché de la
+               résolution que tu as prise de revenir auprès de ton pauvre père. Je sens tout ce
+               qu'il y a là de tendresse pour moi. C'est une bien douce consolation du malheur qui
+               m'est arrivé ; sans lui, je ne saurais pas combien tu m'aimes. Sans lui non plus, je
+               n'aurais pas su à quel point la providence veille sur moi pour me retirer des abîmes
+               où je me précipite. Je vois bien que les âmes angéliques qui m'aimaient sur la terre
+               et qui sont maintenant au ciel, la prient pour moi. Il fallait que je souffrisse tout
+               ce que j'ai souffert pour me ramener à la vérité que j'avais si inconcevablement
+               abandonnée. Je t'écris aujourd'hui fête de Saint-André, mon patron ; tu sais que
+               c'est ce jour-là il y a huit ans que je <gap xmlns="" reason="lacune_CGA"/> de si
+               vives <gap xmlns="" reason="lacune_CGA"/> <persName ref="#pers_A951">Albine</persName> m'a joué hier une pièce de musique
+               pour accompagner les fleurs qu'on me donnait. Je crois qu'elle s'est bien
+               perfectionnée. <persName ref="#pers_A951">Albine</persName> et ma sœur sont pleines de tendresse pour toi. Nous parlons
+               sans cesse de ton prochain retour ; mais il y a, au fond de mon âme, une tristesse
+               indicible. J'ai commencé hier mon cours au <orgName>Collège de <placeName>France</placeName>
+          </orgName>, aujourd'hui à l'<orgName>école
+               Polytechnique</orgName>. Je ne sais rien de M. <persName ref="#pers_C164">C<supplied>[uvier]</supplied>
+          </persName> que ce qu'on voit dans les journaux.
+               Je désire extrêmement d'apprendre que ce malheur a cessé. J'en viens à la lettre que
+               tu crois de M. <persName ref="#pers_M406">Morel</persName>. D'après des règles de la poste que rien ne peut changer, il est
+               impossible qu'un tiers qui n'est pas porteur d'une procuration en forme, retire une
+               lettre adressée à un autre, à son fils comme à un étranger. D'ailleurs, à cause des
+               milliers de lettres qui vont et viennent chaque jour, il n'y a aucun moyen de
+               réclamer et de désigner telle lettre <gap xmlns="" reason="lacune_CGA"/> rapportant
+                  <gap xmlns="" reason="lacune_CGA"/> marque deviendra aussi facile qu'il est
+               impossible autrement. écris au Directeur général des Postes : <cit>
+            <quote>M. le Directeur
+               général, par un avis que j'ai reçu en date du <gap xmlns="" reason="lacune_CGA"/>
+               sous le n° <gap xmlns="" reason="lacune_CGA"/>, j'apprends qu'une lettre qui m'était
+               adressée en <placeName>Italie</placeName>, où j'étais alors, est restée au bureau de <placeName>Longjumeau</placeName>, faute
+               d'être affranchie. Comme j'arriverai incessamment à <placeName>Paris</placeName>, je vous prie de la faire
+               adresser à mon domicile dans cette ville, <placeName>rue des Fossés-Saint-Victor, n° 19</placeName>, à
+               <placeName>Paris</placeName> ; le port sera payé par le concierge que j'ai chargé de recevoir mes lettres.
+               J'ai l'honneur...</quote>
+          </cit> Au moyen de cette lettre, la tienne arrivera ici et, si tu n'es
+               pas encore de retour, je ferai ce que tu me diras de faire. N'oublie pas surtout de
+               signer et de dater ta lettre et de donner la date et le numéro de l'avis ! <gap xmlns="" reason="lacune_CGA"/> Je n'ai pas besoin <gap xmlns="" reason="lacune_CGA"/> des nouvelles. Je te prie instamment de voir <persName ref="#pers_B94">Bredin</persName> ; il est
+               abîmé de douleurs. L'autorité a voulu que sa femme cessât d'habiter à l'école
+               vétérinaire <ref>(2)</ref>. Vois-le au nom de son ami <persName>Ampère</persName> qui a eu à peine le temps de lui
+               écrire une lettre presque insignifiante ; j'étais si tourmenté ce jour-là ! Ah, mon
+               fils, mon véritable ami, que ta vue mettra de calme, je l'espère, dans mon âme si
+               agitée ! Je n'ai pas besoin de te dire tout ce que ma sœur et <persName ref="#pers_A951">Albine</persName> sentent pour
+               toi ; elles comprennent, comme moi, ce que tu fais dans ce moment pour nous. Ma
+               cousine aussi a été bien touchée de ce que tu m'as marqué pour elle. <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+            <closer>poste restante à <placeName>Lyon</placeName> </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1824-11-30-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4° dont le bas est déchiré. Ces lacunes sont
+               indiquées par des Quelques passages ont été publiées, par Mme <persName ref="#pers_C1171">Cheuvreux</persName>, p. 299 en
+               300. (2) Le dérangement cérébral de Mme <persName ref="#pers_B96">Bredin (Méla)</persName> avait pris des proportions
+               telles que sa présence à l'<orgName>École vétérinaire</orgName> était devenue impossible. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

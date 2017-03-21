@@ -1,0 +1,978 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 8</title>
+            <author>Ampère, Jeanne-Antoinette (mère d'Ampère)</author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+               <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des sciences</affiliation>
+               </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+               <name>Centre de calcul de l'IN2P3</name>
+               <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+            </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L0000-00-00-g">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                  <idno>chemise 332</idno>
+                  <altIdentifier>
+                     <idno type="old">L8</idno>
+                     <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+                  </altIdentifier>
+               </msIdentifier>
+               
+            </msDesc>
+            <listWit>
+               <witness>
+                  <biblStruct xml:id="L8CGA">
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                        </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 272-273</biblScope>
+                        </imprint>
+                     </monogr>
+
+                  </biblStruct>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_A12">Ampère, Jeanne-Antoinette (mère
+                        d'Ampère)</persName>
+          <date when-iso="0000-00-00">s.d.</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_A366">Ampère, André-Marie</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+            <date when="2014-07">juillet 2014</date>
+            <name>Philippe Pons</name>
+            <name>Aude Coustumer</name>
+         </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L0000-00-00-g">
+      <body>
+         <div xml:id="L0000-00-00-g-div1">
+            <opener>s.d.</opener>
+            <note>
+               <pb n="377" facs="#ACAS_CRHST_AMP_24_332_0377_r.jpg"/>Après la mort de
+               <persName ref="#pers_C129">Julie</persName>
+            </note>
+            <p xml:id="L0000-00-00-g-p1">Ne crois pas, mon bon <choice>
+                  <sic>amit</sic>
+                  <corr>ami</corr>
+               </choice>, que<lb/>
+               <supplied>ce</supplied>
+               <choice>
+                  <sic>soy</sic>
+                  <corr>soient</corr>
+               </choice> des <choice>
+                  <sic>conselle</sic>
+                  <corr>conseils</corr>
+               </choice> que je <choice>
+                  <sic>veulle</sic>
+                  <corr>veuille</corr>
+               </choice> te<lb/>
+               <choice>
+                  <sic>doner</sic>
+                  <corr>donner</corr>
+               </choice>. Je <choice>
+                  <sic>suy</sic>
+                  <corr>suis</corr>
+               </choice>
+               <choice>
+                  <sic>ausi<del>t</del>
+                  </sic>
+                  <corr>aussi</corr>
+               </choice>
+               <choice>
+                  <sic>endesisse</sic>
+                  <corr>indécise</corr>
+               </choice> que<lb/>
+               <choice>
+                  <sic>toy</sic>
+                  <corr>toi</corr>
+               </choice>. Je <choice>
+                  <sic>voudres</sic>
+                  <corr>voudrais</corr>
+               </choice> te voir heureux<lb/> et <choice>
+                  <sic>trenquille</sic>
+                  <corr>tranquille</corr>
+               </choice>, <choice>
+                  <sic>cet</sic>
+                  <corr>c'est</corr>
+               </choice>
+               <choice>
+                  <sic>tous</sic>
+                  <corr>tout</corr>
+               </choice> ce que je<lb/> désire. Je <choice>
+                  <sic>ves</sic>
+                  <corr>vais</corr>
+               </choice> te dire ce que mes<lb/>
+               <choice>
+                  <sic>réflection</sic>
+                  <corr>réflexions</corr>
+               </choice> me <choice>
+                  <sic>fon</sic>
+                  <corr>font</corr>
+               </choice>
+               <choice>
+                  <sic>crindre</sic>
+                  <corr>craindre</corr>
+               </choice>
+               <choice>
+                  <sic>den</sic>
+                  <corr>dans</corr>
+               </choice>
+               <lb/> tous tes <choice>
+                  <sic>proget</sic>
+                  <corr>projets</corr>
+               </choice>. Prendre un <choice>
+                  <sic>comers</sic>
+                  <corr>commerce</corr>
+               </choice>
+               <lb/>
+               <choice>
+                  <sic>seulle</sic>
+                  <corr>seul</corr>
+               </choice>, <choice>
+                  <sic>sen</sic>
+                  <corr>sans</corr>
+               </choice>
+               <choice>
+                  <sic>expériense</sic>
+                  <corr>expérience</corr>
+               </choice>, <choice>
+                  <sic>confien</sic>
+                  <corr>confiant</corr>
+               </choice>
+               <lb/> comme <choice>
+                  <sic>tus</sic>
+                  <corr>tu</corr>
+               </choice>
+               <choice>
+                  <sic>let</sic>
+                  <corr>l'es</corr>
+               </choice>, <choice>
+                  <sic>tus</sic>
+                  <corr>tu</corr>
+               </choice> seras <choice>
+                  <sic>tromper</sic>
+                  <corr>trompé</corr>
+               </choice>,<lb/>
+               <choice>
+                  <sic>tus</sic>
+                  <corr>tu</corr>
+               </choice> te ruineras. Pour avoir le<lb/> profit <choice>
+                  <sic>seulle</sic>
+                  <corr>seul</corr>
+               </choice>, <choice>
+                  <sic>tus</sic>
+                  <corr>tu</corr>
+               </choice> ne <choice>
+                  <sic>veus</sic>
+                  <corr>veux</corr>
+               </choice>
+               <choice>
+                  <sic>poin</sic>
+                  <corr>point</corr>
+               </choice>
+               <lb/>
+               <choice>
+                  <sic>dasosier</sic>
+                  <corr>d'associé</corr>
+               </choice> ; <choice>
+                  <sic>mes</sic>
+                  <corr>mais</corr>
+               </choice> ne <choice>
+                  <sic>vos tille</sic>
+                  <corr>vaut-il</corr>
+               </choice> pas mieux<lb/> gagner mille écus que d'en perdre<lb/>
+               <choice>
+                  <sic>vint</sic>
+                  <corr>vingt</corr>
+               </choice> ? Tu risques la fortune de ton<lb/>
+               <choice>
+                  <sic>enfent</sic>
+                  <corr>enfant</corr>
+               </choice>, la <choice>
+                  <sic>tiene</sic>
+                  <corr>tienne</corr>
+               </choice> et qui <choice>
+                  <sic>set</sic>
+                  <corr>sait</corr>
+               </choice> ?<lb/> Prendre <choice>
+                  <sic>un</sic>
+                  <corr>une</corr>
+               </choice> pension où il <choice>
+                  <sic>faudras</sic>
+                  <corr>faudra</corr>
+               </choice>
+               <lb/>
+               <choice>
+                  <sic>fere</sic>
+                  <corr>faire</corr>
+               </choice>
+               <choice>
+                  <sic>baucous</sic>
+                  <corr>beaucoup</corr>
+               </choice> d'<choice>
+                  <sic>avense</sic>
+                  <corr>avances</corr>
+               </choice>
+               <choice>
+                  <sic>sent</sic>
+                  <corr>sans</corr>
+               </choice>
+               <choice>
+                  <sic>aitre</sic>
+                  <corr>être</corr>
+               </choice>
+               <lb/> sûr d'avoir des <choice>
+                  <sic>élève</sic>
+                  <corr>élèves</corr>
+               </choice>, <choice>
+                  <sic>cet</sic>
+                  <corr>c'est</corr>
+               </choice> à peu près<lb/> la même chose. <choice>
+                  <sic>A ler</sic>
+                  <corr>Aller</corr>
+               </choice> à <placeName>Paris</placeName> pour<lb/>
+               <choice>
+                  <sic>douse cent</sic>
+                  <corr>douze cents</corr>
+               </choice>
+               <choice>
+                  <sic>livre</sic>
+                  <corr>livres</corr>
+               </choice>, <choice>
+                  <sic>tus</sic>
+                  <corr>tu</corr>
+               </choice> ne <choice>
+                  <sic>pouras</sic>
+                  <corr>pourras</corr>
+               </choice> pas<lb/> vivre. Si tu <choice>
+                  <sic>étes</sic>
+                  <corr>étais</corr>
+               </choice>
+               <choice>
+                  <sic>las</sic>
+                  <corr>là</corr>
+               </choice>, tu me <choice>
+                  <sic>fermeres</sic>
+                  <corr>fermerais</corr>
+               </choice>
+               <lb/> la bouche en me <choice>
+                  <sic>disent</sic>
+                  <corr>disant</corr>
+               </choice>
+               <choice>
+                  <sic>a veque</sic>
+                  <corr>avec</corr>
+               </choice>
+               <lb/> humeur ; <cit>
+                  <quote>
+                     <choice>
+                        <sic>mament</sic>
+                        <corr>Maman</corr>
+                     </choice>, que veux-<choice>
+                        <sic>tus</sic>
+                        <corr>tu</corr>
+                     </choice>
+                     <pb n="378" facs="#ACAS_CRHST_AMP_24_332_0378_v.jpg"/>
+                     <choice>
+                        <sic>don</sic>
+                        <corr>donc</corr>
+                     </choice> que je <choice>
+                        <sic>fase</sic>
+                        <corr>fasse</corr>
+                     </choice> ?</quote>
+               </cit>
+               <choice>
+                  <sic>elas</sic>
+                  <corr>Hélas</corr>
+               </choice>, mon bon <choice>
+                  <sic>a<lb rend="hyphen"/>mit</sic>
+                  <corr>a<lb rend="hyphen"/>mi</corr>
+               </choice>, je n'en <choice>
+                  <sic>set</sic>
+                  <corr>sais</corr>
+               </choice> rien. Je <choice>
+                  <sic>voudres</sic>
+                  <corr>voudrais</corr>
+               </choice>
+               <lb/>
+               <choice>
+                  <sic>aitre</sic>
+                  <corr>être</corr>
+               </choice>
+               <choice>
+                  <sic>aser</sic>
+                  <corr>assez</corr>
+               </choice> riche pour te dire :<lb/>
+               <cit>
+                  <quote>Voyage, <choice>
+                        <sic>disipe-toy</sic>
+                        <corr>dissipe-toi</corr>
+                     </choice> !</quote>
+               </cit>
+               <choice>
+                  <sic>met</sic>
+                  <corr>mais</corr>
+               </choice> ce <choice>
+                  <sic>net</sic>
+                  <corr>n'est</corr>
+               </choice>
+               <lb/> pas, hélas. Il faut <choice>
+                  <sic>travalier</sic>
+                  <corr>travailler</corr>
+               </choice>
+               <lb/> et prendre si bien des <choice>
+                  <sic>dimension</sic>
+                  <corr>dimensions</corr>
+               </choice>
+               <lb/> que tu ne <choice>
+                  <sic>perde</sic>
+                  <corr>perdes</corr>
+               </choice> pas le <choice>
+                  <sic>peux</sic>
+                  <corr>peu</corr>
+               </choice>
+               <lb/> que <choice>
+                  <sic>tus</sic>
+                  <corr>tu</corr>
+               </choice>
+               <choice>
+                  <sic>a</sic>
+                  <corr>as</corr>
+               </choice>. Il <choice>
+                  <sic>vot</sic>
+                  <corr>vaut</corr>
+               </choice> mieux ne pas<lb/> l'<choice>
+                  <sic>ogmenter</sic>
+                  <corr>augmenter</corr>
+               </choice> que de <choice>
+                  <sic>tous</sic>
+                  <corr>tout</corr>
+               </choice> perdre.</p>
+            <p xml:id="L0000-00-00-g-p2">
+               <choice>
+                  <sic>Tus</sic>
+                  <corr>Tu</corr>
+               </choice>
+               <choice>
+                  <sic>a</sic>
+                  <corr>as</corr>
+               </choice> l'esprit si <choice>
+                  <sic>boulent</sic>
+                  <corr>bouillant</corr>
+               </choice> que,<lb/>
+               <choice>
+                  <sic>quen</sic>
+                  <corr>quand</corr>
+               </choice>
+               <choice>
+                  <sic>tus</sic>
+                  <corr>tu</corr>
+               </choice>
+               <choice>
+                  <sic>a</sic>
+                  <corr>as</corr>
+               </choice>
+               <choice>
+                  <sic>un</sic>
+                  <corr>une</corr>
+               </choice>
+               <choice>
+                  <sic>ider</sic>
+                  <corr>idée</corr>
+               </choice>, tout <choice>
+                  <sic>et</sic>
+                  <corr>est</corr>
+               </choice>
+               <choice>
+                  <sic>baus</sic>
+                  <corr>beau</corr>
+               </choice>.<lb/>
+               <choice>
+                  <sic>Cet</sic>
+                  <corr>C'est</corr>
+               </choice> pour <add>
+                  <choice>
+                     <sic>ce las</sic>
+                     <corr>cela</corr>
+                  </choice>
+               </add> qu'il faut <choice>
+                  <sic>conssulter</sic>
+                  <corr>consulter</corr>
+               </choice>,<lb/> ne rien <choice>
+                  <sic>présipiter</sic>
+                  <corr>précipiter</corr>
+               </choice>, ne pas <choice>
+                  <sic>fere</sic>
+                  <corr>faire</corr>
+               </choice>
+               <lb/> comme <choice>
+                  <sic>tus</sic>
+                  <corr>tu</corr>
+               </choice>
+               <choice>
+                  <sic>fit</sic>
+                  <corr>fis</corr>
+               </choice> au <choice>
+                  <sic>melieur</sic>
+                  <corr>meilleur</corr>
+               </choice>
+               <choice>
+                  <sic>amit</sic>
+                  <corr>ami</corr>
+               </choice>
+               <lb/> que <choice>
+                  <sic>tus</sic>
+                  <corr>tu</corr>
+               </choice>
+               <choice>
+                  <sic>eyes</sic>
+                  <corr>aies</corr>
+               </choice>, ne pas répondre ;<lb/>
+               <cit>
+                  <quote>
+                     <choice>
+                        <sic>Cet</sic>
+                        <corr>C'est</corr>
+                     </choice>
+                     <choice>
+                        <sic>un</sic>
+                        <corr>une</corr>
+                     </choice> bêtise, ça n'a pas de bon<lb/>
+                     <choice>
+                        <sic>sent</sic>
+                        <corr>sens</corr>
+                     </choice>.</quote>
+               </cit> Crois-<choice>
+                  <sic>tus</sic>
+                  <corr>tu</corr>
+               </choice>, mon <choice>
+                  <sic>enfent</sic>
+                  <corr>enfant</corr>
+               </choice>, que<lb/> ce sont des propos que l'on ne<lb/> sente pas ! L'on finit par ne
+               plus<lb/> rien dire et l'on vous <choice>
+                  <sic>lese</sic>
+                  <corr>laisse</corr>
+               </choice>
+               <choice>
+                  <sic>fere</sic>
+                  <corr>faire</corr>
+               </choice>
+               <lb/> des <choice>
+                  <sic>sotise</sic>
+                  <corr>sottises</corr>
+               </choice>. Je <choice>
+                  <sic>taches</sic>
+                  <corr>tâchai</corr>
+               </choice> bien de <choice>
+                  <sic>racomoder</sic>
+                  <corr>raccommoder</corr>
+               </choice>
+               <lb/> ton <choice>
+                  <sic>en portement</sic>
+                  <corr>emportement</corr>
+               </choice> en <choice>
+                  <sic>je ten</sic>
+                  <corr>jetant</corr>
+               </choice>
+               <choice>
+                  <sic>celas</sic>
+                  <corr>cela</corr>
+               </choice>
+               <lb/> sur ta triste situation. Il m'en<lb/>
+               <choice>
+                  <sic>parus</sic>
+                  <corr>parut</corr>
+               </choice> plus <choice>
+                  <sic>touches</sic>
+                  <corr>touché</corr>
+               </choice> que de tes<lb/> propos. <choice>
+                  <sic>Et til</sic>
+                  <corr>Est-il</corr>
+               </choice>
+               <choice>
+                  <sic>posible</sic>
+                  <corr>possible</corr>
+               </choice>
+               <choice>
+                  <sic>qun</sic>
+                  <corr>qu'un</corr>
+               </choice> bon<cb/>
+               <choice>
+                  <sic>crétien</sic>
+                  <corr>chrétien</corr>
+               </choice>, un <choice>
+                  <sic>menbre</sic>
+                  <corr>membre</corr>
+               </choice> de <choice>
+                  <sic>jesucris</sic>
+                  <corr>
+                     <persName>Jésus-Christ</persName>
+                  </corr>
+               </choice>
+               <lb/> qui doit <choice>
+                  <sic>tous</sic>
+                  <corr>tout</corr>
+               </choice>
+               <choice>
+                  <sic>soufris</sic>
+                  <corr>souffrir</corr>
+               </choice>, les <choice>
+                  <sic>pene</sic>
+                  <corr>peines</corr>
+               </choice>,<lb/> les <choice>
+                  <sic>chagrin</sic>
+                  <corr>chagrins</corr>
+               </choice>, les ennuis <choice>
+                  <sic>aveque</sic>
+                  <corr>avec</corr>
+               </choice>
+               <choice>
+                  <sic>pasiense</sic>
+                  <corr>patience</corr>
+               </choice>, <choice>
+                  <sic>resination</sic>
+                  <corr>résignation</corr>
+               </choice> et <choice>
+                  <sic>douseur</sic>
+                  <corr>douceur</corr>
+               </choice> !<lb/> Il nous a <choice>
+                  <sic>montrer</sic>
+                  <corr>montré</corr>
+               </choice> l'<choice>
+                  <sic>exenple</sic>
+                  <corr>exemple</corr>
+               </choice>. <choice>
+                  <sic>jete<lb/>toy</sic>
+                  <corr>Jette-<lb/>toi</corr>
+               </choice> au <choice>
+                  <sic>pies</sic>
+                  <corr>pied</corr>
+               </choice>
+               <choice>
+                  <sic>dus</sic>
+                  <corr>du</corr>
+               </choice>
+               <choice>
+                  <sic>crusifit</sic>
+                  <corr>crucifix</corr>
+               </choice> et <choice>
+                  <sic>de<lb rend="hyphen"/>mende luy</sic>
+                  <corr>de<lb rend="hyphen"/>mande-lui</corr>
+               </choice>
+               <choice>
+                  <sic>aveque</sic>
+                  <corr>avec</corr>
+               </choice>
+               <choice>
+                  <sic>résination</sic>
+                  <corr>résignation</corr>
+               </choice>
+               <lb/> qu'il <choice>
+                  <sic>teclere</sic>
+                  <corr>t'éclaire</corr>
+               </choice> sur ce qu'il <choice>
+                  <sic>veux</sic>
+                  <corr>veut</corr>
+               </choice>
+               <choice>
+                  <sic>fere</sic>
+                  <corr>faire</corr>
+               </choice> de <choice>
+                  <sic>toy</sic>
+                  <corr>toi</corr>
+               </choice> ! Je <choice>
+                  <sic>prieres</sic>
+                  <corr>prierai</corr>
+               </choice> de mon<lb/>
+               <choice>
+                  <sic>cotes</sic>
+                  <corr>côté</corr>
+               </choice> la mère de tous les <choice>
+                  <sic>crétien</sic>
+                  <corr>chrétiens</corr>
+               </choice>
+               <lb/> qu'elle <choice>
+                  <sic>intersede</sic>
+                  <corr>intercède</corr>
+               </choice> pour <choice>
+                  <sic>toy</sic>
+                  <corr>toi</corr>
+               </choice> auprès<lb/> de <choice>
+                  <sic>dieux</sic>
+                  <corr>
+                     <persName>Dieu</persName>
+                  </corr>
+               </choice> pour <choice>
+                  <sic>radousir</sic>
+                  <corr>radoucir</corr>
+               </choice> ton caractère,<lb/> pour te rendre bon, <choice>
+                  <sic>dous</sic>
+                  <corr>doux</corr>
+               </choice> et <choice>
+                  <sic>heumint</sic>
+                  <corr>humain</corr>
+               </choice>
+               <lb/>
+               <choice>
+                  <sic>avecque</sic>
+                  <corr>avec</corr>
+               </choice> ceux que <choice>
+                  <sic>tus</sic>
+                  <corr>tu</corr>
+               </choice> seras <choice>
+                  <sic>aubliger</sic>
+                  <corr>obligé</corr>
+               </choice>
+               <lb/> de vivre. <choice>
+                  <sic>Ellas</sic>
+                  <corr>Hélas</corr>
+               </choice>, mon <choice>
+                  <sic>enfent</sic>
+                  <corr>enfant</corr>
+               </choice>, <choice>
+                  <sic>tus</sic>
+                  <corr>tu</corr>
+               </choice>
+               <choice>
+                  <sic>doit</sic>
+                  <corr>dois</corr>
+               </choice>
+               <lb/>
+               <choice>
+                  <sic>sentis</sic>
+                  <corr>sentir</corr>
+               </choice>
+               <choice>
+                  <sic>toy</sic>
+                  <corr>toi</corr>
+               </choice>-même que, si <choice>
+                  <sic>tus</sic>
+                  <corr>tu</corr>
+               </choice> te <choice>
+                  <sic>lese</sic>
+                  <corr>laisses</corr>
+               </choice>
+               <lb/>
+               <choice>
+                  <sic>aler</sic>
+                  <corr>aller</corr>
+               </choice> à tes <choice>
+                  <sic>enportement</sic>
+                  <corr>emportements</corr>
+               </choice>, <choice>
+                  <sic>celas</sic>
+                  <corr>cela</corr>
+               </choice>
+               <lb/> ne <choice>
+                  <sic>ferer</sic>
+                  <corr>ferait</corr>
+               </choice> qu'<choice>
+                  <sic>augementer</sic>
+                  <corr>augmenter</corr>
+               </choice> et <choice>
+                  <sic>tus</sic>
+                  <corr>tu</corr>
+               </choice> te<lb/>
+               <choice>
+                  <sic>feres</sic>
+                  <corr>ferais</corr>
+               </choice>
+               <choice>
+                  <sic>horeur</sic>
+                  <corr>horreur</corr>
+               </choice> à <choice>
+                  <sic>toy</sic>
+                  <corr>toi</corr>
+               </choice>-même. Tous les<lb/>
+               <choice>
+                  <sic>jour</sic>
+                  <corr>jours</corr>
+               </choice>, le matin, <choice>
+                  <sic>promet</sic>
+                  <corr>promets</corr>
+               </choice> à <choice>
+                  <sic>dieux</sic>
+                  <corr>
+                     <persName>Dieu</persName>
+                  </corr>
+               </choice>
+               <lb/> de devenir plus doux et <choice>
+                  <sic>pasian</sic>
+                  <corr>patient</corr>
+               </choice>
+               <lb/> et plus <choice>
+                  <sic>dosille</sic>
+                  <corr>docile</corr>
+               </choice> à sa volonté ! <choice>
+                  <sic>Tus</sic>
+                  <corr>Tu</corr>
+               </choice>
+               <lb/>
+               <choice>
+                  <sic>a</sic>
+                  <corr>as</corr>
+               </choice> M.
+               <persName ref="#pers_B92">
+            <choice>
+                     <sic>Braque</sic>
+                     <corr>Brac</corr>
+                  </choice>
+          </persName>,
+               M.
+               <persName ref="#pers_P443">
+            <choice>
+                     <sic>Perise</sic>
+                     <corr>Périsse</corr>
+                  </choice>
+          </persName>, M.<lb/>
+               <persName ref="#pers_B33">
+            <choice>
+                     <sic>Balensse</sic>
+                     <corr>Ballanche</corr>
+                  </choice>
+          </persName>,
+               M.
+               <persName ref="#pers_C162">
+            <choice>
+                     <sic>Coupier</sic>
+                     <corr>Couppier</corr>
+                  </choice>
+          </persName>
+               qui <choice>
+                  <sic>t'es</sic>
+                  <corr>t'est</corr>
+               </choice> bien <choice>
+                  <sic>atacher</sic>
+                  <corr>attaché</corr>
+               </choice>.<lb/> Consulte, <choice>
+                  <sic>demende</sic>
+                  <corr>demande</corr>
+               </choice>, ne <choice>
+                  <sic>fait</sic>
+                  <corr>fais</corr>
+               </choice> rien<lb/>
+               <choice>
+                  <sic>a veque</sic>
+                  <corr>avec</corr>
+               </choice>
+               <choice>
+                  <sic>presipitation</sic>
+                  <corr>précipitation</corr>
+               </choice> et <choice>
+                  <sic>pren</sic>
+                  <corr>prends</corr>
+               </choice> garde<lb/> à ne pas te <choice>
+                  <sic>leser</sic>
+                  <corr>laisser</corr>
+               </choice> tromper, si le <choice>
+                  <sic>comerse</sic>
+                  <corr>commerce</corr>
+               </choice>
+               <lb/>
+               <choice>
+                  <sic>vo</sic>
+                  <corr>vaut</corr>
+               </choice> ce que l'on te dit, si tous ces <choice>
+                  <sic>baux</sic>
+                  <corr>beaux</corr>
+               </choice>
+               <pb n="379" facs="#ACAS_CRHST_AMP_24_332_0379_r.jpg"/>
+               <choice>
+                  <sic>discour</sic>
+                  <corr>discours</corr>
+               </choice> ne sont pas pour se<lb/>
+               <choice>
+                  <sic>debaraser</sic>
+                  <corr>débarrasser</corr>
+               </choice> d'<choice>
+                  <sic>un</sic>
+                  <corr>une</corr>
+               </choice> entreprise qui<lb/>
+               <choice>
+                  <sic>peus</sic>
+                  <corr>peut</corr>
+               </choice> ruiner <choice>
+                  <sic>plutos</sic>
+                  <corr>plutôt</corr>
+               </choice> qu'enrichir.<lb/> Je te le répète, je ne <choice>
+                  <sic>peus</sic>
+                  <corr>peux</corr>
+               </choice> pas, <choice>
+                  <sic>den</sic>
+                  <corr>dans</corr>
+               </choice>
+               <lb/>
+               <choice>
+                  <sic>un</sic>
+                  <corr>une</corr>
+               </choice>
+               <choice>
+                  <sic>afere</sic>
+                  <corr>affaire</corr>
+               </choice> comme celle-<choice>
+                  <sic>las</sic>
+                  <corr>là</corr>
+               </choice>, te <choice>
+                  <sic>doner</sic>
+                  <corr>donner</corr>
+               </choice>
+               <lb/> des <choice>
+                  <sic>conselle</sic>
+                  <corr>conseils</corr>
+               </choice>, <choice>
+                  <sic>mes</sic>
+                  <corr>mais</corr>
+               </choice> t'inviter à suivre<lb/> ceux qui sont plus expérimentés<lb/> que <choice>
+                  <sic>moy</sic>
+                  <corr>moi</corr>
+               </choice>. <choice>
+                  <sic>a dieux</sic>
+                  <corr>Adieu</corr>
+               </choice>, mon <choice>
+                  <sic>bonne</sic>
+                  <corr>bon</corr>
+               </choice>
+               <choice>
+                  <sic>amit</sic>
+                  <corr>ami</corr>
+               </choice> ;<lb/> aime <choice>
+                  <sic>auten</sic>
+                  <corr>autant</corr>
+               </choice> ta bonne mère qu'elle<lb/> t'aime ! Ménage ta <choice>
+                  <sic>senter</sic>
+                  <corr>santé</corr>
+               </choice> pour elle,<lb/> pour notre <choice>
+                  <sic>petis</sic>
+                  <corr>petit</corr>
+               </choice> et pour ta sœur !<lb/> Nous <choice>
+                  <sic>avon</sic>
+                  <corr>avons</corr>
+               </choice> tous besoin de <choice>
+                  <sic>toy</sic>
+                  <corr>toi</corr>
+               </choice>. <persName ref="#pers_A12">V<ex>euv</ex>e AMPÈRE</persName>.</p>
+            <closer>À Monsieur<lb/>
+               <persName ref="#pers_A366">Ampère</persName>
+               <lb/> à <placeName>Lyon</placeName>
+            </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L0000-00-00-g-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Cette lettre a été publiée par Mme
+               <persName ref="#pers_C1171">Cheuvreux</persName>, p. 332 et 333, avec des retouches (Voir la
+               reproduction de cette lettre, planche 11).</note>
+         </div>
+      </back>
+   </text>
+</TEI>

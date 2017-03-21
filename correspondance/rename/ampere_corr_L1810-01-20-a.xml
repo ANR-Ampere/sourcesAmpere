@@ -1,0 +1,221 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 357</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1810-01-20-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">I.</biblScope>
+                     <biblScope type="pp">p. 346-347</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L357</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L357manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 340</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Quatre pages in-4°, adresse sur la dernière.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1810-01-20">20
+                        janvier 1810</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Bredin, Claude-Julien</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1810-01-20-a">
+      <body>
+         <div xml:id="L1810-01-20-a-div1">
+            <opener>
+          <date when="1810-01-20">[20 janvier 1810]</date>
+        </opener>
+            <p xml:id="L1810-01-20-a-p1">
+          <pb n="191" facs="#ACAS_CRHST_AMP_24_340_0191_r.jpg"/>Il y a si longtemps, bon ami, que nous ne nous sommes pas écrit, que je ne sais plus
+               qui de nous deux a écrit le dernier à l'autre ; je crois pourtant que c'est moi. Pour
+               celui des deux qui souffre davantage de ce silence, je sais bien que c'est moi. S'il
+               ne me reste un moment pour écrire à ceux à qui je désirerais le plus le faire, il
+               m'en reste assez, en marchant, en m'éveillant, etc., pour songer combien je suis loin
+               de toi, combien il y a longtemps que je n'ai rien lu écrit par ta main ! Je vais
+               avoir, à l'avenir, un peu plus de loisir ; pour m'en procurer, j'ai donné ma
+               démission de la place que j'avais au <orgName>Ministère de l'Intérieur</orgName> <ref target="#corresp2">(2)</ref>. Les uns me
+               regardent comme un sot, les autres m'approuvent.</p>
+            <p xml:id="L1810-01-20-a-p2">
+          <pb n="192" facs="#ACAS_CRHST_AMP_24_340_0192_v.jpg"/>Pour moi, je suis d'autant plus
+               content de l'avoir fait que le Ministre a choisi <persName ref="#pers_T561">Thénard</persName> pour me remplacer et que,
+               s'il y a des intervalles entre mon cours et mes tournées, je n'aurai alors aucune
+               occupation qui m'empêche d'aller passer quelques jours auprès de toi. Mais c'est à
+               une condition, savoir que tu établiras ta famille à <placeName>Poleymieux</placeName> dès que le retour du
+               printemps le permettra ; autrement, j'aurais beau aller à <placeName>Lyon</placeName>, tu ne m'aurais pas à
+               l'<orgName>école vétérinaire</orgName>. Au reste, quand je dis que j'aurai plus de temps, je n'en aurai
+               pas réellement davantage parce que je ne quitte cette place que pour travailler enfin
+               sérieusement à un mémoire de mathématiques. J'y mettrai tous mes moments, et j'ai
+               déjà fait des calculs dans cette vue. Je suis, depuis quelques<pb n="193" facs="#ACAS_CRHST_AMP_24_340_0193_r.jpg"/> jours, moins triste
+               que je ne l'étais habituellement. Apparemment, que je m'accoutume à la peine et
+               qu'ainsi je ne la sens plus ; d'ailleurs, quand je suis à calculer, j'ai retrouvé cet
+               oubli de tout le reste à qui j'ai dû le peu de repos que j'ai eu tout le temps que
+               j'ai passé chez M. <persName ref="#pers_P463">Potot</persName>.</p>
+            <p xml:id="L1810-01-20-a-p3">Ma sœur et mes enfants se portent bien, moi aussi ; je
+               n'ai que les ennemis que je me fais, et, si mon esprit n'allait pas chercher sans
+               cesse dans le passé des sujets de regrets, je pourrais être content de ma situation ;
+               mais c'est ce qui n'est pas possible après tant de vicissitudes et la perte de tout
+               ce qui enchantait ma vie ! Ton absence n'est pas une de mes moindres peines. Mon ami,
+               tu ne saurais concevoir combien je désire vivement te revoir ! combien je suis
+               souvent tourmenté d'être toujours si loin de toi ! Je te prie de me donner de tes<pb n="194" facs="#ACAS_CRHST_AMP_24_340_0194_v.jpg"/>
+               nouvelles, de celles de toute ta famille et de nos amis. Je voudrais bien que tu
+               visses quelquefois <persName ref="#pers_B33">Ballanche</persName>, qui est bien triste à en juger par ses lettres <ref target="#corresp3">(3)</ref>.
+               Adieu <persName ref="#pers_B94">Bredin</persName>, ton ami t'embrasse de toute son âme. <persName ref="#pers_A366">A. AMPÈRE</persName> Pendant que j'achevais
+               cette lettre, le bon <persName ref="#pers_L357">Lenoir</persName> vient me voir et m'a fait promettre de ne pas l'oublier
+               auprès de toi.</p>
+            <closer>A monsieur Bredin fils, professeur d'anatomie à l'<orgName>École vétérinaire</orgName>, près des portes de <placeName>Vaise</placeName>, à <placeName>Lyon</placeName>
+               (<placeName>Rhône</placeName>).</closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1810-01-20-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4°, adresse sur la dernière.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) Le <date when="1810-01-13">13
+               janvier 1810</date>, <persName>Ampère</persName> a donné sa démission du <orgName>Bureau Consultatif des Arts et
+               Manufactures</orgName>, en partie pour laisser la place à <persName ref="#pers_T561">Thenard</persName> et a été nommé membre
+               honoraire (voir Lettre 0358). Le <date when="1809-09-23">23 octobre 1809</date>, il avait été nommé « instituteur
+               d'analyse à l'<orgName>École Polytechnique</orgName> », en remplacement de <persName ref="#pers_L335">Lacroix</persName> nommé examinateur
+               permanent.</note>
+            <note resp="#CGA" xml:id="corresp3">(3) Triste de son mariage rompu. Voir Lettre 0353. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

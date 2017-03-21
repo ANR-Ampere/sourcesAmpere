@@ -1,0 +1,262 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 379</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1811-05-20-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">I.</biblScope>
+                     <biblScope type="pp">p. 364-365-366</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L379</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L379manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 340</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Quatre pages in-4°, adresse sur la quatrième.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1811-05-20">20 mai
+                        1811</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Bredin, Claude-Julien</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1811-05-20-a">
+      <body>
+         <div xml:id="L1811-05-20-a-div1">
+            <opener>
+          <pb n="119" facs="#ACAS_CRHST_AMP_24_340_0119_r.jpg"/>
+          <placeName>Aix</placeName> le
+          <date when="1811-05-20">Lundi 20 mai [1811]</date>
+        </opener>
+            <p xml:id="L1811-05-20-a-p1">Cher ami, après plus de quinze jours de bien vives inquiétudes, je suis, depuis
+               quelques heures, entièrement rassuré. Je t'avais promis de t'écrire dès que je le
+               serais et je m'en acquitte avec une bien douce satisfaction, puisque tout a réussi
+               précisément de la manière que je devais désirer. Je suis arrivé hier ici extrêmement
+               tard. Mon premier soin a été d'aller ce matin à la poste ; on m'a dit de repasser à 9
+               heures ; ce délai m'a beaucoup tourmenté à cause de ma mauvaise tête. A <placeName>Grenoble</placeName>, on
+               ouvre le bureau à 7 heures du matin. Ici, ce n'est qu'à 9. Enfin j'ai eu la lettre
+               que j'attendais avec tant d'impatience. J'étais déjà rassuré en partie par un petit
+               billet du professeur de <placeName>Marseille</placeName> chargé de ma lettre adressée à <persName>Mme Ampère</persName> ; ce
+               billet m'était arrivé à <placeName>Grenoble</placeName> <date when="1811-05-15">mercredi passé </date>. Mais j'avais besoin de la
+               lettre de ce matin pour être pleinement rassuré et voir que mon étourderie était à
+               peu près pardonnée. Au reste, une lettre qui n'indique pas de changement dans les
+               choses ! Beaucoup de confiance et d'amitié, mais beaucoup plus d'amour pour...</p>
+            <p xml:id="L1811-05-20-a-p2">
+               Heureusement un peu plus de défiance <ref target="#corresp2">(2)</ref>. Mais quelle folie, je le sens bien
+               moi-même, de se rassurer là-dessus ! Tu conçois que mon voyage est triste. Les
+               inquiétudes qui m'ont tant agité sont passées ; mais, comme tout ce qui se rapporte à
+               mes pensées habituelles m'offre une triste perspective ! J'ai eu tout le temps d'y
+               réfléchir pendant les trois jours que nous avons mis à venir de <placeName>Grenoble</placeName> ici. La
+               pluie n'a cessé de nous inonder pendant ces trois jours. Je les ai passés presque
+               constamment dans la voiture. Que n'aurais-je pas donné pour que le temps me permît de
+               faire à pied quelque partie de la route, tout à moi et pouvant m'entretenir avec ma
+               pensée ! Du mardi - Je tâcherai de voir le bas-relief relatif à la ferrure qui se
+               trouve ici dans le cabinet de M. <persName ref="#pers_F1289">de Saint-Vincent<ref xml:id="pers_F1289"/>
+          </persName>. Ce sera probablement difficile à
+               cause que M. <persName ref="#pers_F1289">de S<ex>ain</ex>t-Vincent<ref xml:id="pers_F1289"/>
+          </persName>,<pb n="120" facs="#ACAS_CRHST_AMP_24_340_0120_v.jpg"/> nominé membre au corps législatif, est parti pour
+               Paris, ainsi que je l'ai appris tout à l'heure. Au reste, j'ai vu à <placeName>Grenoble</placeName> une
+               gravure du bas-relief : elle prouve qu'il n'est nullement question de ferrure. Cette
+               gravure, copie du bas-relief et que tu peux voir dans le <title>Voyage de la <placeName>France</placeName>
+          </title> de M.
+               <persName ref="#pers_M900">Millin</persName> <ref type="ouvrages_mentionnes" target="#ampere_ref_P394.xml">*</ref>, que beaucoup de personnes
+               doivent avoir à <placeName>Lyon</placeName>, la bibliothèque, <persName>Ballanche</persName>, etc., représente deux chevaux et
+               deux hommes debout. L'un des hommes tient son cheval en arrêt ; l'autre vient de
+               saigner le sien, on voit le sang couler du cou ; la machine qu'on suppose destinée à
+               retenir le cheval pendant qu'on le ferre, peut être aussi bien <supplied>destinée</supplied> à le
+               retenir pendant qu'on le saigne ou qu'on lui administre quelque remède. Cette gravure
+               de l'ouvrage de M. <persName ref="#pers_M900">Millin</persName> doit se trouver dans l'endroit de son voyage où il parle de
+               la <placeName>Provence</placeName>, de la ville d'<placeName>Aix</placeName>, du cabinet de M. <persName ref="#pers_F1289">de S<ex>ain</ex>t-Vincent<ref xml:id="pers_F1289"/>
+          </persName>.</p>
+            <p xml:id="L1811-05-20-a-p3">J'avais prévenu
+               <persName ref="#pers_R502">Roux</persName> de mon passage à <placeName>Montbéliard</placeName>, nous y sommes restés une heure pour déjeuner au
+               moment marqué, mais il n'a point paru, et cela est tout simple, il faisait
+               abominable ; la pluie ne nous a pas quittés de <placeName>Grenoble</placeName> à <placeName>Aix</placeName>, pendant trois jours
+               nécessaires à cette route. Il fait très beau depuis que nous sommes ici, c'est-à-dire
+               hier et ce matin. Je n'en suis pas moins mélancolique. Depuis que je t'ai quitté, je
+               n'ai éprouvé que le seul mouvement de joie que j'ai senti en recevant la lettre dont
+               je viens de te parler. Tout le reste a été bien triste et bien pénible. J'en suis
+               encore à concevoir que nous ayons été un mois entier dans la même ville, et que cela
+               soit déjà évanoui. Mon ami, d'où vient que je désire si vivement d'être auprès de
+               toi ? Désirer d'être auprès de toi, désirer d'être à <placeName>Paris</placeName>, cette contradiction
+               subsiste à la fois en moi. Auprès de toi, des consolations ; à <placeName>Paris</placeName>, des sujets de
+               peine, voilà ce que je vais chercher avec un égal empressement !</p>
+            <p xml:id="L1811-05-20-a-p4">Mon ami, tu verras
+               <persName ref="#pers_B36">Barret</persName>, <persName ref="#pers_B74">Bonjour</persName>, <persName>Ballanche</persName>, <persName ref="#pers_C145">Chatelain</persName>, tu sais bien ce que tu leur diras pour<pb n="121" facs="#ACAS_CRHST_AMP_24_340_0121_r.jpg"/> moi, et
+               à ta femme et à toute la famille. Jamais je ne pourrai assez remercier <persName>Mme Bredin</persName> de
+               toutes les peines, de tous les soins, de tout l'embarras qu'elle s'est donnés pour
+               moi. N'est-ce pas, mon ami, que tu ne la grondes pas, ou du moins le moins que tu
+               peux, car je sais bien que tu n'es pas toujours maître de toi. Mais ressouviens-toi
+               de cette belle prière : <cit>
+            <quote>Ne demandons pas à l'être faible plus qu'il n'a reçu de sa
+               nature.</quote>
+          </cit>
+        </p>
+            <p xml:id="L1811-05-20-a-p5">Je te prie de me donner des nouvelles de ta santé et de la sienne. Comment
+               se trouve ton estomac et sa poitrine  ; et tes petits enfants, comment se
+               portent-ils ? Je te prie de présenter l'hommage de mon respect à ton père et à ta
+               mère, à M. et Mme <persName ref="#pers_H306">Huzard</persName>, s'ils sont encore à <placeName>Lyon</placeName>. Adieu, mon bon ami, je t'embrasse
+               de toute mon âme.<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+            <p xml:id="L1811-05-20-a-p6">Si tu m'écris dans les deux premiers jours où tu auras
+               reçu cette lettre, tu peux m'adresser la tienne à <placeName>Marseille</placeName> ; plus tard, tu
+               l'adresserais à <placeName>Montpellier</placeName>. Dans les deux cas, c'est toujours à M. <persName>Ampère</persName>,
+               inspecteur général de l'<orgName>Université</orgName>, <hi rend="underline">poste restante</hi>.</p>
+            <p xml:id="L1811-05-20-a-p7">Si tu savais le bien que me
+               ferait une lettre de toi ! Mon ami, dis aussi cette adresse à <persName>Ballanche</persName>, il serait
+               bien sage de m'écrire quelquefois.</p>
+            <closer>
+          <pb n="122" facs="#ACAS_CRHST_AMP_24_340_0122_v.jpg"/>A monsieur <persName>Bredin fils</persName> professeur d'anatomie à l'<orgName>École vétérinaire</orgName>, près des portes de <placeName>Vaise</placeName> à <placeName>Lyon</placeName>
+               (<placeName>Rhône</placeName>) </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1811-05-20-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4°, adresse sur la quatrième.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) Défiance
+               de La Constante Amitié pour l'homme au front ridé. Voir <persName ref="#pers_B94">Bredin</persName>, <date when="1811-01-07">7 janvier 1811</date>, <date when="1811-08-20">20
+               août 1811</date>, Lettre 0375, etc. Il semble qu'<persName>Ampère</persName> ait craint d'avoir confondu deux
+               lettres adressées à la fois, l'une à la Constante amitié, l'autre à sa femme. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

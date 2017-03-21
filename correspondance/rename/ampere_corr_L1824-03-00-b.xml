@@ -1,0 +1,308 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 655</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1824-03-00-b">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 645-646-647</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L655</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L655manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France
+                           (incertain)</institution>
+                     </msIdentifier>
+                  </msDesc>
+          </witness>
+               <witness xml:id="L655edition">
+            <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>Jovy</surname>
+                           <forename>Ernest</forename>
+                        </author>
+                        <title>Quelques lettres inédites d'André-Marie Ampère</title>
+                        <imprint>
+                           <pubPlace>Vitry-Le-François</pubPlace>
+                           <date when="1910">1910</date>
+                        </imprint>
+                     </monogr>
+                     
+                  </biblStruct>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1824-03-00">mars
+                        1824</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Beuchot, Adrien</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1824-03-00-b">
+      <body>
+         <div xml:id="L1824-03-00-b-div1">
+            <opener>
+          <date when-iso="1824-03-00">Mars [1824]</date>
+        </opener>
+            <p xml:id="L1824-03-00-b-p1">Mon bien cher ami, pardon, mille fois pardon de l'aventure du chapeau ! Mais comment
+               pouvais-je me douter que ce chapeau ne fût pas celui que j'avais en allant chez toi ?
+               J'y vis le nom du chapelier qui me les fournissait tous autrefois ; j'ai trois ou
+               quatre vieux chapeaux que je ne sais pas distinguer ; je te renvoie celui que j'ai
+               rapporté de chez toi, à ce que je crois.</p>
+            <p xml:id="L1824-03-00-b-p2">Quant à la note, je vais la joindre ici ;
+               mais il m'est revenu qu'on a trouvé mauvais que je me fusse mis sur les rangs pour
+               une place dont le titulaire avait été déplacé de la manière que tu sais <ref>(2)</ref>, qu'au
+               lieu de voir dans la démarche que je fis près de lui un hommage que je trouve dû à
+               ses travaux dans les sciences et au respect qu'inspire son caractère, lorsque
+               j'allais lui demander un conseil sur ce que je devais faire et s'il préférerait que
+               ce fût moi plutôt qu'un autre qui fût chargé des fonctions importantes, dans
+               l'intérêt des sciences, qu'on lui enlevait, il avait paru mécontent de ma démarche
+               auprès de lui. Je suis donc résolu à suspendre toute démarche jusqu'à nouvel ordre.</p>
+            <p xml:id="L1824-03-00-b-p3">
+               Attends donc que nous en avons causé de nouveau avant de faire aucune démarche ! Je
+               t'irai voir incessamment pour examiner ce qu'il y a à faire. Voici la note :<lb/>
+               On sut à
+               <placeName>Paris</placeName>, au mois de <date when-iso="1820-07">juillet 1820</date>, que M. <persName ref="#pers_O423">Œrsted</persName> avait observé en <placeName>Danemark</placeName> une action
+               ignorée jusqu'alors entre un conducteur voltaïque et un aimant. On ne put croire à ce
+               fait que quand on eut répété l'expérience, tant il était inattendu.</p>
+            <p xml:id="L1824-03-00-b-p4">Ce fait fut
+               l'occasion pour moi d'en découvrir plusieurs tout différents et au moins tout aussi
+               inattendus : <list>
+            <item n="1"> Deux conducteurs voltaïques s'attirent ou se repoussent suivant des
+               circonstances que j'ai déterminées par de nombreuses expériences.</item>
+            <lb/>
+                  <item n="2"> Cette attraction
+               mutuelle de deux conducteurs voltaïques est telle qu'on peut par son moyen produire,
+               dans un de ces conducteurs, un mouvement de rotation qui va toujours s'accélérant
+               jusqu'à ce que les frottements fassent équilibre à la force accélératrice. Ce
+               mouvement continue alors uniformément malgré les frottements. Il persiste ainsi tant
+               que l'électricité est en jeu dans les conducteurs voltaïques. J'ai montré ce fait
+               sans exemple en physique à tous ceux qui ont voulu le voir.</item>
+            <lb/>
+            <item n="3"> J'ai découvert
+               l'action qu'exerce le globe terrestre sur un conducteur voltaïque que nul n'avait vue
+               avant moi.</item>
+            <lb/>
+            <item n="4"> J'ai déterminé par une suite d'expériences précises la formule
+               mathématique qui représente la nouvelle force, jusqu'ici inconnue dans la nature, à
+               laquelle sont dus tous ces phénomènes.</item>
+            <lb/>
+                  <item n="5">La marche qui m'a conduit à cette formule
+               sera toujours un modèle de celle qu'on doit suivre pour arriver à de telles formules
+               par l'expérience seulement, et sans aucune supposition ; mais il existait trois
+               sortes d'actions dont l'une exercée par les aimants sur des aimants était réduite en
+               formule depuis longtemps, la seconde que j'y avais mis des conducteurs voltaïques les
+               uns sur les autres, la troisième découverte par M. <persName ref="#pers_O423">Œrsted</persName> n'avait été mise en formule
+               par M. <persName ref="#pers_B63">Biot</persName> qu'après que j'eus donné la mienne. Cette troisième action est celle qui
+               a lieu entre un conducteur et un aimant.</item>
+          </list>
+        </p>
+            <p xml:id="L1824-03-00-b-p5">Ces trois actions étaient représentées par
+               trois formules indépendantes les unes des autres, tout à fait discordantes ; mais, en
+               partant d'une conséquence que j'avais déduite d'autres expériences également de moi,
+               savoir qu'un aimant agit précisément dans tous les cas comme un assemblage de petits
+               circuits voltaïques, M. <persName ref="#pers_S522">Savary</persName> a démontré le premier et j'ai continué, par des
+               calculs qui me sont propres, que ma formule comprenait les deux autres qui en sont
+               des conséquences mathématiques nécessaires. Par là il a été démontré, autant qu'on
+               peut démontrer en physique, que telle est en effet la nature des aimants, ainsi que
+               je l'avais annoncé dès <date when-iso="1820">1820</date>, et que les phénomènes qu'ils présentent sont de purs
+               phénomènes électriques. La brochure ci-jointe donne une idée plus complète de tous
+               les résultats d'un travail de trois ans formant une branche entière de physique
+               absolument nouvelle.</p>
+            <p xml:id="L1824-03-00-b-p6">Il m'a valu d'être mis au nombre des membres : <list>
+            <item n="1"> De la<orgName> Société
+               royale d'<placeName>Édimbourg</placeName>
+              </orgName> ;</item>
+            <lb/>
+            <item n="2"> De la <orgName>Société helvétique</orgName> ;</item>
+            <lb/>
+            <item n="3"> De la <orgName>Société philosophique de
+               <placeName>Cambridge</placeName>
+              </orgName> ;</item>
+            <lb/>
+            <item n="4"> De la <orgName>Société de Physique et d'Histoire naturelle de <placeName>Genève</placeName>
+              </orgName>.</item>
+            <lb/>
+          </list>
+        </p>
+            <p xml:id="L1824-03-00-b-p7">Je
+               n'avais jamais songé à demander des distinctions si honorables qui montrent assez le
+               jugement qu'ont porté sur mes découvertes les savants étrangers. Tout ce qui a été
+               fait par d'autres physiciens sur le même sujet est venu confirmer les vues que
+               j'avais données. La brochure ci-jointe contient à la fin quelques pages que je
+               publiai en <date when-iso="1820">1820</date> sous le titre de Conclusions d'un mémoire sur..., lu à l'<orgName>Académie
+               royale des Sciences</orgName> le <date when="1820-09-25">25 septembre 1820</date>. On y trouve le germe de tout ce que j'ai
+               fait depuis. Il suffit de le comparer à l'exposé des résultats obtenus depuis et
+               consignés dans le reste de la brochure pour voir que j'avais comme prédit ceux-ci et
+               que toutes ces découvertes sont venues en quelque sorte seulement confirmer d'une
+               manière complète ce que j'avais d'abord annoncé.</p>
+            <p xml:id="L1824-03-00-b-p8">Voilà, mon cher ami, la matière de
+               la note ; mais tu sens bien qu'elle ne peut rester comme cela, quoiqu'elle ne
+               contienne que la pure vérité. Je me suis exprimé comme je l'aurais fait en parlant
+               d'un autre qui aurait inventé les mêmes choses. Si tu as pour moi toute l'amitié que
+               tu m'as toujours montrée, tu récriras ce qui est entre deux étoiles en y faisant tous
+               les changements que tu jugeras convenables et surtout en remplaçant la première
+               personne par M. <persName>Ampère</persName> a fait, a trouvé, et en abrégeant le tout, s'il se peut, en
+               conservant les faits.</p>
+            <p xml:id="L1824-03-00-b-p9">Adieu, cher, mille fois cher ami, quelle reconnaissance ne te
+               dois-je pas ? Mille respects, s'il te plaît, à <persName>Mme Beuchot</persName>. Ma sœur et ma petite se
+               joignent à moi pour lui adresser mille choses ainsi qu'à ton aimable fille.<lb/>
+               <persName ref="#pers_A366">A.
+               Ampère</persName>
+        </p>
+            <closer>
+          <placeName>rue de l'Abbaye, 6</placeName>, à <placeName>Paris</placeName> (1)</closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1824-03-00-b-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) D'après <persName ref="#pers_J835">E. JOVY</persName> (voir plus haut, p. 336).</note>
+            <note resp="#CGA" xml:id="corresp2">(2) C'est la
+               première mention de cette candidature au <orgName>Collège de France </orgName>qui, pendant près d'un an,
+               amena pour <persName>Ampère</persName> de tels chagrins. Le <date when="1823-12-30">30 décembre 1823</date> <persName ref="#pers_L352">Lefèvre Gineau</persName>, élu en <date when-iso="1820">1820</date>
+               et <date when-iso="1824">1824</date> député de l'opposition, avait été brutalement destitué pour des raisons
+               politiques et <persName>Ampère</persName> avait aussitôt posé sa candidature. Voir, page 656, une lettre
+               de <persName ref="#pers_S520">Sautelet</persName> à <persName>Jean-Jacques Ampère</persName> en date du <date when="1824-06-13">13 juin 1824</date> donnant l'impression d'un
+               tiers désintéressé dans cette aventure. </note>
+            <note resp="CAK_commentaire">D'après les notes de Louis DE LAUNAY, dans la <title>Correspondance du Grand <persName>Ampère</persName>
+          </title> (p. 336, tome I), cette lettre a
+               été publiée dans <persName ref="#pers_J835">JOVY, Ernest</persName>. <title>Quelques lettres inédites
+                  d'<persName ref="#pers_A366">André-Marie Ampère</persName>
+          </title>. Vitry-Le-François, <date when-iso="1910">1910</date> ; toujours d'après <persName ref="#pers_L856">Louis DE
+               LAUNAY</persName> le manuscrit se trouve à la <orgName>Bibliothèque nationale de France</orgName>.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

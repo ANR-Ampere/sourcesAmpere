@@ -1,0 +1,585 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 1178</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+               <forename>André-Marie</forename>
+               <surname>Ampère</surname>
+            </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+               <name>Centre de calcul de l'IN2P3</name>
+               <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+            </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1795-10-01-a">
+                  <country>USA</country>
+                  <settlement>Ithaca (NY)</settlement>
+                  <institution>Cornell University Library</institution>
+                  <repository>Ampère collection</repository>
+               <altIdentifier>
+              <idno type="old">L1178</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+               
+               <physDesc>
+                  <handDesc>
+                     <handNote corresp="#AMA">
+                        <name type="person" key="Ampère, André-Marie (1775-1836)">
+                           <forename>André-Marie</forename>
+                           <surname>Ampère</surname>
+                        </name>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_A366">
+                       <surname>Ampère</surname>
+                       <forename>André-Marie</forename>
+                     </persName>
+          <date when-iso="1795-10-01">1er octobre 1795</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_C162">
+                     <surname>Couppier</surname>
+                     <forename>Jean-Stanislas, dit Couppier Viry</forename>
+                     </persName>
+        </correspAction>
+      </correspDesc>
+         <creation>
+            <date when="2015-01">janvier 2015</date>
+            <name>Philippe Pons</name>
+         </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <name>Philippe Pons</name>
+            <date when="2015-02">février 2015</date>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="images_L1795-10-01-a" corresp="#ampere_corr_L1795-10-01-a">
+      <graphic url="Cornell_Ampere_L1178_1.jpg"/>
+      <graphic url="Cornell_Ampere_L1178_2.jpg"/>
+      <graphic url="Cornell_Ampere_L1178_3.jpg"/>
+      <graphic url="Cornell_Ampere_L1178_3bis.jpg"/>
+      <graphic url="Cornell_Ampere_L1178_3ter.jpg"/>
+      <graphic url="Cornell_Ampere_L1178_4.jpg"/>
+      <graphic url="Cornell_Ampere_L1178_5.jpg"/>
+      <graphic url="Cornell_Ampere_L1178_6.jpg"/>
+      <graphic url="Cornell_Ampere_L1178_7.jpg"/>
+      <graphic url="Cornell_Ampere_L1178_8.jpg"/>
+   </facsimile>
+   <text decls="#ampere_corr_L1795-10-01-a" type="correspondance">
+      <body>
+         <div xml:id="L1795-10-01-a-div1">
+            <opener>
+          <pb n="1" facs="#Cornell_Ampere_L1178_1.jpg"/> À
+               <placeName>Poleymieux</placeName>, ce <date when="1795-10-01">1er octobre
+                     <supplied>1795</supplied>
+          </date>
+          <ref target="#L1178_CAK1">*</ref> 
+        </opener>
+            <p xml:id="L1795-10-01-a-p1">Vous vous plaignez, Monsieur, de votre désœuvrement.<lb/> Mais je pense qu'il est à
+               propos de laisser<lb/> quelquefois prendre du repos à son esprit.<lb/> C'est ce que
+               je fais aussi presque malgré moi<lb/> depuis le même temps. Quelques petites<lb/>
+               occupations qui m'ont détourné de mon<lb/> ouvrage ordinaire m'ont laissé une
+               espèce<lb/> de paresse à le reprendre. Je n'ai pas<lb/> fait un vers depuis près d'un
+               mois, toujours<lb/> en faisant le projet de les reprendre sans<lb/> jamais
+               l'exécuter. Mais comme je compte<lb/> de le reprendre bientôt, j'espère que vous
+               en<lb/> ferez de même et que j'aurai le plaisir de<lb/> voir quelque jour votre
+               pot-pourri d'expériences,<lb/> comme vous l'ap<supplied>p</supplied>elez. Je
+               m'attends à un recueil<lb/> très curieux, mais je voudrais que vous ne laissiez<lb/>
+               passer aucune expérience sans en bien voir<lb/> la raison mathématique. Celles où
+               elle vous<lb/> parait obscure
+               doivent être éclaircies, et vous<lb/> savez que je serai toujours prêt à y
+               travailler<lb/> avec vous, et c'est ainsi que nous balayerons<lb/> chacun de notre
+               côté les erreurs que nous<lb/> croirons y apercevoir. Mais la critique de<lb/> l'un
+               de nous deux aura besoin de la sanction<lb/> de l'autre, pour que les auteurs n'aient
+               point<lb/> à se plaindre d'être condamnés par leurs<lb/> parties, et qu'ils trouvent
+               dans celui qui jugera<lb/> le procès que l'autre leur aura intenté, un<lb/> défenseur
+               officieux, en même temps qu'un juge.<lb/> Vous accusez votre présomption de n'avoir
+               pas<lb/> assez suivi vos auteurs et de n'en avoir pris<lb/> les principes qu'à la
+               volée. Mais ils sont bien <pb n="2" facs="#Cornell_Ampere_L1178_2.jpg"/>
+               <del>ce <date when="1795-10-01">1r <choice>
+                        <abbr>8bre</abbr>
+                        <expan>octobre</expan>
+                     </choice> 1795</date> de <placeName>Poleymieux</placeName>
+            <lb/>
+          </del> aussi
+               dans leur tort de vous avoir donné des<lb/> principes obscurs qui pouvaient vous
+               conduire à<lb/> l'erreur. Ceux qu'on a trouvé depuis ne peuvent<lb/> mener qu'à des
+               vérités, par leur marche simple et<lb/> uniforme. Je voudrais à cause de cela que
+               vous les préférassiez.<lb/> Vous avouerez à votre tour, Monsieur, que si<lb/> je juge
+               quelquefois un peu mieux des calculs, c'est<lb/> vous qui de nous deux jugez mieux
+               des expériences.<lb/> Comme vous l'aviez pensé<ref target="#L1178_CAK2">*</ref>, la
+               dent unique de<lb/> mon pignon n'a pu passer entre celles de ma<lb/> roue. Et comme
+               je ne veux pas perdre la<lb/> peine que j'ai prise à tailler le pignon, je<lb/> veux
+               essayer de mettre les dents de ma roue<lb/> sur deux plans <choice>
+                  <sic>différens</sic>
+                  <corr>différents</corr>
+               </choice>, qui agiront alternativement.<lb/> Je ne sais si cela pourra réussir car je
+               n'ai pas<lb/> encore eu le loisir de l'exécuter. <figure/>
+          <lb/> Quant à la raison
+               pour laquelle<lb/> le pignon s'arrête quand l'angle cab<lb/> est trop grand, il est
+               visible que le<lb/> frottement agit suivant<lb/> ae, avec une partie de la
+               pression,<lb/> à peu près <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mfrac>
+                        <mn>1</mn>
+                        <mn>3</mn>
+                     </mfrac>
+                  </math>
+               </formula>, tandis que celle-ci agit<lb/> suivant ad. Il est clair que quand<lb/> son
+               bras de levier bd &lt; <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mfrac>
+                        <mn>1</mn>
+                        <mn>3</mn>
+                     </mfrac>
+                  </math>
+               </formula> ad, bras de levier du<lb/> frottement, le moment de celui-ci sera
+               plus<lb/> grand que celui de la pression, et par conséquent<lb/> il sera impossible
+               que le pignon tourne, ce qui<lb/> commence dès que l'angle bad n'a pour tangente<lb/>
+               que le tiers du rayon c<ex>'est</ex>-à-d<ex>ire</ex> qu'il est de<lb/>
+               <gap reason="lacune"/> ou que cab = <gap reason="lacune"/>.<lb/> Pour le tube de Mr
+               <persName ref="#pers_P616">Pitot<ref xml:id="pers_P616"/>
+          </persName>, il me<lb/> semble que votre décomposition ne<lb/> peut
+               avoir lieu que dans le pr<ex>emier</ex>
+          <lb/> instant où l'eau monte dans le<lb/>
+               tube. Ensuite il faut regarder toute<lb/> la masse du tube et de l'entonnoir <pb n="3" facs="#Cornell_Ampere_L1178_3.jpg"/> comme en repos, et poussée par
+               l'ouverture<lb/> bd, avec une force exprimée par la hauteur<lb/> due à la vitesse du
+               courant + bm, c<ex>'est</ex>-à-d<ex>ire</ex>
+          <lb/> la profondeur du point m où l'on
+               prend cette<lb/> force, tandis que la masse d'eau du tube<lb/> résiste par son poids,
+               et que sa force au point<lb/> m est exprimée par ae + bm, ce qui fait<lb/> équilibre
+               pourvu que ae soit = à la hauteur<lb/> due à la vitesse du fluide, ce qui
+               suppose<lb/> toujours que dans une masse fluide en repos<lb/> comme acbd, l'impulsion
+               communiquée à un<lb/> point<lb/> quelconque agit sur tous les points<lb/> du vase
+               avec la même force quelque soit<lb/> sa figure, sauf la différence qui vient du<lb/>
+               poids des colonnes d'eau. Mais cette communication<lb/> des forces en tous sens dans
+               les fluides est<lb/> si incontestable qu'elle a servi jusqu'à Mr<lb/>
+               <persName ref="#pers_L338">de Lagrange</persName> de principe fondamental<lb/>
+               <note>
+            <pb n="3bis" facs="#Cornell_Ampere_L1178_3bis.jpg"/>
+            <ref target="#L1178_CAK3">*</ref>
+                  <supplied>A</supplied>près avoir cacheté ma lettre, j'y glisse<lb/> ce petit
+                  morceau de papier, pour vous dire<lb/> que je viens enfin de trouver l'équation de<lb/>
+                  <supplied>la</supplied> surface de la <placeName>Saône</placeName>. Elle n'a que
+                  trois étages<lb/>
+                  <supplied>de</supplied> radicaux et d'imaginaires, ceux-ci disparaîtront<lb/>
+                  <supplied>je</supplied> crois dans la suite du calcul. Mais il est<lb/>
+                  <supplied>si</supplied> compliqué que je ne sais comment m'y prendre<lb/>
+                  <supplied>et</supplied> que je n'en tirerai rien d'assez simple pour<lb/>
+                  <supplied>va</supplied>loir quelque chose. Ainsi je crois, Monsieur, que le<lb/>
+                  plus grand profit qui m'en reviendra sera<ref target="#L1178_CAK4">*</ref>
+                  <pb n="3ter" facs="#Cornell_Ampere_L1178_3ter.jpg"/> le plaisir de vous assurer
+                  encore une fois de<lb/> ma tendre amitié, assurance qui doit être inutile<lb/> à
+                  votre persuasion, si vous me connaissez aussi<lb/> bien que je l'espère, mais qui
+                  ne saurait l'être<lb/> à mon cœur. <persName ref="#pers_A366">A. Ampère</persName>
+          </note> à
+               l'hydrostatique, et qu'elle est aujourd'hui le<lb/> pr<ex>emier</ex> corollaire de
+               son principe universel de<lb/>
+               <choice>
+                  <sic>mechanique</sic>
+                  <corr>mécanique</corr>
+               </choice>.</p>
+            <p xml:id="L1795-10-01-a-p2">L'entreprise que je vous proposais est beaucoup<lb/> plus simple que vous ne
+                  croyez<ref target="#L1178_CAK5">*</ref>. Le principe<lb/> fondamental sert à
+               former une formule<lb/> générale qui renferme tous les cas possibles<lb/> de
+               l'équilibre. On l'ap<supplied>p</supplied>lique ensuite à quelques<lb/> exemples pour
+                  ap<supplied>p</supplied>rendre à en faire usage<lb/> et, sans entrer dans tous les
+               détails, on est<lb/> sûr de résoudre tous les problèmes qu'on peut<lb/> rencontrer,
+               quand même ils auraient été irrésolus<lb/> jusqu'à présent. La matière n'est vaste
+               que<lb/> dans les méthodes où les principes sont<lb/> nombreux, obscurs, et
+                  ap<supplied>p</supplied>uyés d'expériences.<lb/> Celles-ci ont été très
+               nécessaires dans les <pb n="4" facs="#Cornell_Ampere_L1178_4.jpg"/>
+               <choice>
+                  <sic>commencemens</sic>
+                  <corr>commencements</corr>
+               </choice> de la <choice>
+                  <sic>mechanique</sic>
+                  <corr>mécanique</corr>
+               </choice>. Aujourd'hui<lb/> qu'ils sont trouvés, on les a démontrés<lb/> d'une
+               manière qui en est indépendante, et qui<lb/> est même plus sûre que toutes les
+               expériences<lb/> possibles puisqu'elle part de l'évidence. Il serait<lb/> donc bien
+               inutile d'en faire pour les confirmer<lb/> et les expériences ne doivent plus
+               servir<lb/> qu'à évaluer le frottement et la raideur des<lb/> cordes, ou autres
+               choses pareilles dont la<lb/> mesure n'est pas assez bien déterminée.<lb/> Mais avant
+               de pouvoir en faire usage,<lb/> il me semble que l'on doit
+               con<supplied>n</supplied>aître<lb/> la théorie de la <choice>
+                  <sic>mechanique</sic>
+                  <corr>mécanique</corr>
+               </choice>, qui en est<lb/> le fondement. Mais je m'aperçois dans tous<lb/> ces <choice>
+                  <sic>raisonnemens</sic>
+                  <corr>raisonnements</corr>
+               </choice> que je ne fais que vérifier<lb/> le proverbe que chacun prêche son
+               saint,<lb/> puisque ma principale occupation <supplied>étant</supplied> de la<lb/>
+               théorie, je la mets au premier rang, tandis que<lb/> celui qui s'occupe de la
+               pratique ne manque<lb/> pas de lui l'adjuger <supplied>le premier rang</supplied>.
+               Comme le logicien<lb/> dont nous parlions un jour, je vois que<lb/> rien n'est plus
+               général <supplied>que</supplied> de préférer les<lb/> sciences où l'on est le plus
+               habile.</p>
+            <p xml:id="L1795-10-01-a-p3">Mais quand on est à la campagne et<lb/> qu'on peut tous les jours se promener
+               avec<lb/> sa famille, je conçois que les mathématiques<lb/> doivent rester de côté.
+               Vous m'avez parlé<lb/> dans votre autre lettre<ref target="#L1178_CAK6">*</ref> d'une
+               étude qui<lb/> convient mieux dans ces circonstances, c'est<lb/> celle des plantes.
+               Il suf<supplied>f</supplied>it en se promenant de ramasser un bouquet de tout ce
+               qu'on<lb/> ne connaît pas, et quand on est à la<lb/> maison, on le compare au livre.
+               Le moyen<lb/> de rendre cette étude encore plus intéressante<lb/> est d'avoir du
+               papier gris et d'y faire <pb n="5" facs="#Cornell_Ampere_L1178_5.jpg"/> sécher ses
+               plantes sous une planche chargée<lb/> de quelque<supplied>s</supplied> pierres. On
+               met le papier à double.<lb/> On le change la première fois dans les<lb/>
+                  vin<supplied>g</supplied>t-quatre heures, et ensuite seulement d'un<lb/> jour
+               l'un. Quel plaisir, quand on en a un<lb/> certain nombre, de dire : voilà mon
+               ouvrage.<lb/> D'ailleurs il faut souvent avoir les différentes<lb/> espèces d'un
+               genre pour les distinguer, l'on<lb/> en trouve une un jour, l'autre.<lb/> L'herbier
+               conserve la première sans nom<lb/> jusqu'à ce qu'un<supplied>e</supplied> autre en
+                  ap<supplied>p</supplied>renne le nom.<lb/> C'est ainsi que plusieurs plantes sont
+               restées<lb/> un an entier dans mon herbier, et je<lb/> n'en aurais jamais su les noms
+               sans son<lb/> secours. Le plus grand inconvénient de cette<lb/> agréable étude sont
+               les mots d'une langue<lb/> étrangère dont on se sert dans le livre<lb/> dont je me
+               suis servi<ref target="#L1178_CAK7">*</ref>. Depuis ma dernière<lb/> lettre, j'ai eu
+               l'occasion d'en voir un<lb/> qui me semble beaucoup plus commode pour<lb/> déterminer
+               les plantes, il est tout français<lb/> et se nomme
+               <title>Analyse de la flore française</title>
+          <lb/> du chevalier de
+                  <persName ref="#pers_L864">Lamarck</persName>
+          <ref target="#L1178_CAK8">*</ref>. Le nom latin<lb/>
+               est seulement indiqué à côté du français,<lb/> ce qui peut servir à le trouver
+               ensuite<lb/> dans le système de <persName ref="#pers_L870">Linné</persName> pour voir les<lb/>
+               caractères que la plante a dans ce<lb/> système, ce qui est d'autant plus utile
+               que<lb/> la flore française présentant tous les<lb/> caractères des plantes, ce qui
+               donne d'abord<lb/> plus de facilité, on ne peut y distinguer<lb/> le caractère
+               distinctif, le seul que donne<lb/>
+               <persName ref="#pers_L870">Linné</persName>, de ceux qui sont communs à<lb/> d'autres plantes ; et
+               qu'il faut cependant <pb n="6" facs="#Cornell_Ampere_L1178_6.jpg"/> tâcher de le
+                  con<supplied>n</supplied>aître pour le fixer dans<lb/> sa mémoire, et s'en servir
+               à recon<supplied>n</supplied>aître<lb/> toujours la plante ou du moins son genre.
+               C'est<lb/> pourquoi si vous vous procuriez cette <title>Analyse</title>
+          <lb/> qu'on
+               m'a prêtée la semaine passée et que j'ai<lb/> déjà rendue, je crois que vous feriez
+               bien<lb/> de profiter de mon livre pour les comparer.<lb/> Il y a très peu de noms
+               qui soient <choice>
+                  <sic>différens</sic>
+                  <corr>différents</corr>
+               </choice>
+          <lb/> dans ces deux ouvrages, mais on en trouve<lb/> quelques uns, ce qui
+               vient du chevalier de <persName ref="#pers_L864">La<lb rend="hyphen"/>marck</persName> qui a séparé
+               quelques genres de <persName ref="#pers_L870">Linné</persName>,<lb/> principalement ses chardons, mais
+               cette petite<lb/> difficulté ne vous embarrassera guère, et vous<lb/> pourrez vous
+               servir de la dénomination de<lb/>
+               <persName ref="#pers_L870">Linné</persName> ou de <persName ref="#pers_L864">Lamarck</persName> à votre choix.</p>
+            <p xml:id="L1795-10-01-a-p4">N'oubliez pas, je vous prie Monsieur, quand<lb/> vous aurez déterminé quelques
+               plantes, d'en écrire<lb/> la liste à la fin de vos lettres pour que nous<lb/> nous
+               communiquions nos lumières en botanique<lb/> comme en géométrie.</p>
+            <p xml:id="L1795-10-01-a-p5">
+          <ref target="#L1178_CAK9">*</ref> J'ai oublié de vous dire que si on
+                  sup<supplied>p</supplied>osait <figure/>
+          <lb/> l'angle acd de 180°, le point
+               tomberait<lb/> de l'autre côté de la verticale ae, ce<lb/> qui est contraire à la
+               supposition de<lb/> l'entonnoir qui exige tacitement que<lb/> la partie cd dépasse la
+               largeur du tube,<lb/> et qu'ainsi cd doit être d'autant plus grand que<lb/> l'angle
+               acd l'est.</p>
+            <p xml:id="L1795-10-01-a-p6">Ce que je vous avais proposé dans ma dernière<lb/> lettre n'était point nécessaire
+               aux calculs de<lb/> la <choice>
+                  <sic>mechanique</sic>
+                  <corr>mécanique</corr>
+               </choice> analytique, qui sont bien plus<lb/> simples que vous ne pouvez croire,
+               c'était<lb/> seulement pour vérifier le principe que<lb/> je vous engageais à
+                  l'ap<supplied>p</supplied>liquer aux machines<lb/> que vous connaissiez avant que
+               nous l'<choice>
+                  <sic>aplicassions</sic>
+                  <corr>appliquassions</corr>
+               </choice>
+               <pb n="7" facs="#Cornell_Ampere_L1178_7.jpg"/> à d'autres calculs. Il faut que vous
+               n'ayez<lb/> pas saisi ce principe que je me ressouviens d'avoir<lb/> expliqué trop
+               succinctement, sans cela vous auriez<lb/>
+               <figure/>
+               <figure/>
+          <lb/> vu par ex<ex>emple</ex> qu'il a lieu dans le levier AB puisque<lb/> si
+               on le met dans une position très proche<lb/> ab, Bb est la quantité dont il cède au
+               poids Q,<lb/> Aa est celle dont il cède au poids p, et le principe<lb/> donne <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>Q</mi>
+                     <mo/>
+                     <mi>B</mi>
+                     <mi>b</mi>
+                     <mo/>
+                     <mi>P</mi>
+                     <mo/>
+                     <mi>A</mi>
+                     <mi>a</mi>
+                     <mo>=</mo>
+                     <mn>0</mn>
+                  </math>
+               </formula>, ou <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>Q</mi>
+                     <mo/>
+                     <mi>B</mi>
+                     <mi>b</mi>
+                     <mo>=</mo>
+                     <mi>P</mi>
+                     <mo/>
+                     <mi>A</mi>
+                     <mi>a</mi>
+                  </math>
+               </formula>, et<lb/>
+               <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mfrac>
+                        <mi>Q</mi>
+                        <mi>P</mi>
+                     </mfrac>
+                     <mo>=</mo>
+                     <mfrac>
+                        <mrow>
+                           <mi>A</mi>
+                           <mi>a</mi>
+                        </mrow>
+                        <mrow>
+                           <mi>B</mi>
+                           <mi>b</mi>
+                        </mrow>
+                     </mfrac>
+                     <mo>=</mo>
+                     <mfrac>
+                        <mrow>
+                           <mi>C</mi>
+                           <mi>A</mi>
+                        </mrow>
+                        <mrow>
+                           <mi>C</mi>
+                           <mi>B</mi>
+                        </mrow>
+                     </mfrac>
+                  </math>
+               </formula>, qui montre que les poids<lb/> doivent être comme les bras de levier<lb/>
+               suivant la règle ordinaire. <figure/>
+          <lb/> Dans la poulie, en faisant un<lb/> peu
+               monter le poids, la quantité<lb/> dont sa force est contrariée est toujours<lb/>
+               égale à celle dont la corde cède à la puissance<lb/> puisque la corde est constante.
+               Ainsi si cette<lb/> petite ascension = Pp, on aura <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>Q</mi>
+                     <mi>q</mi>
+                     <mo>=</mo>
+                     <mi>P</mi>
+                     <mi>p</mi>
+                  </math>
+               </formula>, et<lb/>
+               <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>Q</mi>
+                     <mo/>
+                     <mi>Q</mi>
+                     <mi>q</mi>
+                     <mo/>
+                     <mi>P</mi>
+                     <mo/>
+                     <mi>P</mi>
+                     <mi>p</mi>
+                     <mo>=</mo>
+                     <mo>(</mo>
+                     <mi>Q</mi>
+                     <mo/>
+                     <mi>P</mi>
+                     <mo>)</mo>
+                     <mi>P</mi>
+                     <mi>p</mi>
+                     <mo>=</mo>
+                     <mn>0</mn>
+                  </math>
+               </formula>, donc <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>Q</mi>
+                     <mo>=</mo>
+                     <mi>P</mi>
+                  </math>
+               </formula>. La<lb/> puissance égale au poids dans la poulie fixe.<lb/> Vous trouverez
+               également que dans <figure/>
+          <lb/> la poulie mobile, le poids ne cède que<lb/> de la
+               moitié du chemin de la puissance<lb/> et c'est pourquoi il suffit qu'elle en
+               soit<lb/> la moitié.</p>
+            <p xml:id="L1795-10-01-a-p7">En général ce principe donne toutes les règles<lb/> démontrées dans la <choice>
+                  <sic>mechanique</sic>
+                  <corr>mécanique</corr>
+               </choice>, et bien d'autres<lb/> résultats qu'elle ne peut atteindre ; c'est
+               pourquoi<lb/> il est si à propos de bien le saisir. Chaque force <pb n="8" facs="#Cornell_Ampere_L1178_8.jpg"/> agit d'autant plus que le point où elle
+                  s'ap<supplied>p</supplied>lique<lb/> lui cède davantage, et qu'ainsi les deux
+               points<lb/> B et C étant liés par la mac<supplied>h</supplied>ine quelconque<lb/>
+               <figure/> A, en sorte que quand le point<lb/> B cède trois fois plus au poids Q <choice>
+                  <sic>que<lb/> que</sic>
+                  <corr>que</corr>
+               </choice> le point C ne contrarie la puissance<lb/> P, il faudra que cette puissance
+               =<lb/> 3Q, pour soutenir le poids Q et vice-versa.</p>
+            <p xml:id="L1795-10-01-a-p8">En général supposez que le système de corps fasse<lb/> un petit mouvement, et
+               multipliez chaque<lb/> force par la quantité dont le point où elle agit<lb/> lui cède
+               dans sa direction, et vous aurez son<lb/> effort, que vous prendrez négativement
+               quand<lb/> le petit mouvement contrariera la force. Et si<lb/> vous faites une somme
+               de tous ces efforts,<lb/> il faudra qu'elle soit = 0, pour que l'équilibre<lb/> ait
+               lieu.</p>
+            <p xml:id="L1795-10-01-a-p9">Je vous mets ce principe sous toutes les formes<lb/> parce que je serais charmé que
+               vous puissiez le<lb/> saisir assez pour vous en servir à démontrer<lb/> l'équilibre
+               du treuil et du plan incliné, que<lb/> j'ai omis à <choice>
+                  <sic>dessin</sic>
+                  <corr>dessein</corr>
+               </choice>, ou de quelqu'autre machine que<lb/> vous voudriez. Rien ne me ferait plus
+               de plaisir<lb/> qu'une petite démonstration de ce genre dans quelqu'une<lb/> de vos
+               prochaines lettres, après quoi je pourrais vous<lb/> ouvrir le sanctuaire de la <choice>
+                  <sic>mechanique</sic>
+                  <corr>mécanique</corr>
+               </choice>, où je vous<lb/> assure que vous trouveriez infiniment moins de<lb/>
+               difficultés que dans ses <choice>
+                  <sic>élémens</sic>
+                  <corr>éléments</corr>
+               </choice>, parce que dans<lb/> la méthode générale l'esprit se repose et la<lb/>
+               plume résout seule le problème.</p>
+            <p xml:id="L1795-10-01-a-p10">Je suis pourtant bien indiscret de vous parler<lb/> si longtemps de mathématiques
+               quand la promenade<lb/> vous ap<supplied>p</supplied>elle. Je conçois que ce n'est
+               pas maintenant le<lb/> cas des calculs, ainsi je vous conseille de cacher ma<lb/>
+               lettre dans un petit coin, et d'attendre pour l'étudier<lb/> que le mauvais <choice>
+                  <sic>tems</sic>
+                  <corr>temps</corr>
+               </choice> vous y engage. Je vous prie de<lb/> recevoir avec une amitié égale à la
+               mienne l'assurance<lb/> de tous mes <choice>
+                  <sic>sentimens</sic>
+                  <corr>sentiments</corr>
+               </choice> à votre égard.</p>
+            <p xml:id="L1795-10-01-a-p11">Je vous prie de faire agréer mes respects à tout ce qui<lb/> vous intéresse, il
+                  suf<supplied>f</supplied>it que vos <choice>
+                  <sic>parens</sic>
+                  <corr>parents</corr>
+               </choice> vous <choice>
+                  <sic>soyent</sic>
+                  <corr>soient</corr>
+               </choice> chers pour me le devenir.</p>
+            <signed> <persName ref="#pers_A366">A. Ampère</persName>
+        </signed>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1795-10-01-a-div2">
+            <note n="1" resp="CAK" xml:id="L1178_CAK1">Cette lettre répond à la <ref type="correspondance" target="#ampere_corr_L1795-09-24-a">lettre de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-09-24">24 septembre 1795</date>
+          </ref>,
+               <persName>Ampère</persName> n'a pas encore reçu celle du <date when="1795-09-28">28
+               septembre</date>.</note>
+            <note n="2" resp="CAK" xml:id="L1178_CAK2"> <cit>
+                  <quote>l'expérience est contre vous</quote>
+               </cit> écrit <persName ref="#pers_C162">Couppier</persName> dans sa <ref type="correspondance" target="#ampere_corr_L1795-09-24-a">lettre</ref> du <date when="1795-09-24">24
+               septembre 1795</date>, p. 2. </note>
+            <note n="3" resp="CAK" xml:id="L1178_CAK3">Bande de papier collée dans la marge de la
+               page 3.</note>
+            <note n="4" resp="CAK" xml:id="L1178_CAK4">Suite du texte de l'autre côté du
+               papier.</note>
+            <note n="5" resp="CAK" xml:id="L1178_CAK5">
+          <persName>Ampère</persName> répond à <persName ref="#pers_C162">Couppier</persName> qui pensait cela <cit>
+                  <quote>de beaucoup au-dessus de <supplied>ses</supplied> forces</quote>
+               </cit> (cf. <ref type="correspondance" target="#ampere_corr_L1795-09-24-a">la lettre</ref> de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-09-24">24
+               septembre 1795</date>, p. 3)</note>
+            <note n="6" resp="CAK" xml:id="L1178_CAK6">
+          <ref type="correspondance" target="#ampere_corr_L1795-09-14-a">Lettre</ref> de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-09-14">14 septembre 1795</date>, p. 8</note>
+            <note n="7" resp="CAK" xml:id="L1178_CAK7"> Flore en langue étrangère dans
+               l'inventaire de la bibliothèque d'<persName>Ampère</persName> ?</note>
+            <note n="8" resp="CAK" xml:id="L1178_CAK8">Ouvrage dont <persName>Ampère</persName> a envoyé le premier
+               volume à <persName ref="#pers_C162">Couppier</persName> (cf <ref type="correspondance" target="#ampere_corr_L1795-09-20-a">la lettre</ref> d'<persName>Ampère</persName> du <date when="1795-09-20">20
+               septembre 1795</date>).</note>
+            <note n="9" resp="CAK" xml:id="L1178_CAK9">À propos du tube de <persName ref="#pers_P616">Pitot<ref xml:id="pers_P616"/>
+          </persName>
+        </note>
+         </div>
+      </back>
+   </text>
+</TEI>

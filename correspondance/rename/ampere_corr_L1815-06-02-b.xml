@@ -1,0 +1,272 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 915</title>
+                <author>Bredin, Claude-Julien</author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre
+                        Koyré</affiliation>
+          </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                            sciences</affiliation>
+          </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+          <name>Centre de calcul de
+                    l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:id="ampere_corr_L1815-06-02-b">
+                    <monogr>
+                        <author>
+                            <surname>De Launay</surname>
+                            <forename>Louis</forename>
+            </author>
+                        <title>Lettres inédites de Claude-Julien Bredin</title>
+                        <imprint>
+                            <pubPlace>Lyon</pubPlace>
+                            <publisher>Académie des sciences, belles-lettres et arts</publisher>
+                            <date when="1936">1936</date>
+                            <biblScope type="pp">p. 95-98</biblScope>
+                        </imprint>
+                    </monogr>
+                    
+                <idno type="old">L915</idno>
+        </biblStruct>
+                <listWit>
+                    <witness xml:id="L915manuscrit">
+            <msDesc type="original_manuscrit">
+                            <msIdentifier>
+                                <country>France</country>
+                                <settlement>Paris</settlement>
+                                <institution>Archives de l'Académie des
+                                    sciences</institution>
+                                <repository>Fonds André-Marie Ampère</repository>
+                                <idno>chemise 334</idno>
+                            </msIdentifier>
+                        </msDesc>
+          </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender">Bredin, Claude-Julien</persName>
+          <date when-iso="1815-06-02">2 juin 1815</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_A366" type="adressee">Ampère, André-Marie</persName>
+        </correspAction>
+      </correspDesc>
+            <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+                    Coustumer</name>
+      </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="correspondance" decls="#ampere_corr_L1815-06-02-b">
+        <body>
+            <div xml:id="L1815-06-02-b-div1">
+                <opener>
+                    <pb n="322" facs="#ACAS_CRHST_AMP_24_334_0322_r.jpg"/> <date when="1815-06-02">2 juin 1815</date>
+        </opener>
+                <p xml:id="L1815-06-02-b-p1">C'est bien singulier ; ta lettre m'a fait rire deux fois ! D'abord ta belle
+                    dissertation sur les ports de lettres. J'espère que tu plaisantes et que tu as
+                    bien compris que je plaisantais aussi ! Ma mauvaise plaisanterie ne valait pas
+                    d'être relevée.</p>
+                <p xml:id="L1815-06-02-b-p2">J'ai encore été obligé de rire de voir jusqu'à quel point tu me
+                    fais poltron. Les craintes que tu t'imagines que j'ai à <placeName>Paris</placeName> et à <placeName>Lyon</placeName>, cette
+                    idée que je suis entre la peur de ma femme et la peur de M. <persName ref="#pers_H306">Huzard</persName> <ref target="#corresp1">(1)</ref> m'a un peu
+                    amusé. Mais un peu seulement : le chagrin est bientôt revenu. C'est, tu le sais,
+                    mon état habituel.</p>
+                <p xml:id="L1815-06-02-b-p3">Non, je ne suis point effrayé d'entendre dire ce qu'on pense
+                    de moi : à <placeName>Paris</placeName>, à <placeName>Lyon</placeName>. C'est fini. J'avais voulu un jour voir ce que ma femme
+                    penserait de ce projet ; je me suis ensuite repenti de lui avoir donné ce
+                    chagrin pour un projet que je n'avais déjà plus. Cette idée lui a été d'abord
+                    très douloureuse ; elle avait promis de s'y résoudre.</p>
+                <p xml:id="L1815-06-02-b-p4">Ce n'est pas sans
+                    étonnement que je te vois t'obstiner à voir de l'égoïsme dans ma détermination.
+                    C'est tout à fait inconcevable. Tu ne sens pas que je sacrifierais tout pour
+                    l'avantage bien reconnu de <persName ref="#pers_B98">Pauline</persName>. Tu oublies donc que je suis dégrisé du
+                    bonheur ; que j'ai, depuis quarante ans bientôt, l'habitude de renoncer à toutes
+                    les jouissances que j'ai cru pouvoir désirer et atteindre ? Si tu savais que je
+                    sens bien que, à l'exception des reproches que je me ferais si je mettais
+                    <persName ref="#pers_B98">Pauline</persName> à <placeName>Paris</placeName>, je serais plus heureux d'être séparé d'elle ! Une fois le
+                    sacrifice,<pb n="323" facs="#ACAS_CRHST_AMP_24_334_0323_v.jpg"/> j'aurais bien moins à souffrir. Mais, pour faire ce sacrifice, il
+                    faut que je le crois avantageux : réellement avantageux. Mon ami, tu es injuste
+                    envers moi ; M. et Mme <persName ref="#pers_H306">Huzard</persName> sont injustes envers moi. Je ne suis pas exempt
+                    d'égoïsme. Mais, si j'en avais dans une telle circonstance, quand il s'agit
+                    d'intérêts si chers, quel monstre serais-je ? Je puis me tromper, je le sais ;
+                    mais, tant que je verrai comme je vois, que je sentirai comme je sens, je ne
+                    pourrai vouloir que ce que je veux.</p>
+                <p xml:id="L1815-06-02-b-p5">Oui, bon ami, vous êtes injustes envers
+                    moi ! Je te le dis ; crois-moi. Mais je vous sais gré de votre injustice, j'en
+                    suis touché parce que je vois bien d'où elle vient. Je suis aussi étonné qu'il
+                    soit possible de l'être d'une partie des choses que tu m'allègues en faveur du
+                    projet. Tu crois que je vois bien au fond que ce projet est le plus avantageux à
+                    <persName ref="#pers_B98">Pauline</persName> ? Comment, je le vois ! et j'hésite ! Alors, je serais bien réellement
+                    l'égoïste que tu dis ! Cher ami, je t'assure que, si demain on me prouvait, ou
+                    si une nouvelle idée se développait en moi qui me fît sentir que c'est
+                    l'avantage réel de la petite, dans quatre jours je partirais. Non, mon cher
+                    <persName>Ampère</persName>, ton ami, quelque faible qu'il soit, n'est pas capable de balancer entre
+                    sa satisfaction et le bien réel et reconnu. Mais il a une pauvre tête qu'un rien
+                    agite et influence. Quoi, on dirait que tu mets l'esprit d'ordre, de règle et de
+                    méthode au premier rang ! J'en fais grand cas. Mais combien de qualités sont
+                    supérieures à celle-là. Mais je t'interprète mal ; tu veux dire que c'est ce
+                    dont <persName ref="#pers_B98">Pauline</persName> a le plus besoin.</p>
+                <p xml:id="L1815-06-02-b-p6">
+          <pb n="324" facs="#ACAS_CRHST_AMP_24_334_0324_r.jpg"/> Tu as raison. Je désire qu'elle l'acquière. Mais
+                    n'y a-t-il qu'une seule pension, n'est-ce qu'à <placeName>Paris</placeName> que cela s'acquiert ? Si tu
+                    me prouvais cela, il faudrait encore me prouver bien des choses pour me
+                    persuader. La méthode, qui donne l'habitude de l'ordre à l'une, en éloigne
+                    l'autre. Il y a des gens qui ne peuvent acquérir cette qualité que jusqu'à un
+                    degré très médiocre. Chacun a sa nature, il s'agit d'en tirer parti, mais ne
+                    peut la changer. Les efforts indiscrets que l'on fait pour cela gâtent tout,
+                    détruisent tout. Ici, c'est le même inconvénient ; mais je vois ma petite autant
+                    que je veux ; je suis là, c'est beaucoup. Je vaux mieux pour <persName ref="#pers_B98">Pauline</persName> que des
+                    gens qui auront infiniment plus de qualités que moi, mais qui ne seront pas moi,
+                    qui ne connaîtront pas <persName ref="#pers_B98">Pauline</persName> comme moi, en qui il est impossible qu'elle ait
+                    autant de confiance et de tendresse qu'en moi ! Veux-tu remplacer le ressort de
+                    l'amour par quoi que ce soit ? Des gens, qui vaudront mieux, mille et mille fois
+                    mieux que moi, ne pourront me remplacer. Je t'entends ; tu dis : <cit>
+            <quote>
+              <persName ref="#pers_B98">Pauline</persName> a sur
+                    toi un ascendant dont elle ne peut qu'abuser.</quote>
+          </cit> Ma femme le croit, toute la
+                    maison le croit, <persName ref="#pers_B98">Pauline</persName> elle-même le croit, et c'est, je l'avoue, un grand
+                    malheur qu'on le croie. Mais moi, je sais que ce qu'on appelle ma faiblesse pour
+                    <persName ref="#pers_B98">Pauline</persName> est une chose de sentiment et de raison tout à la fois. Je ne suis ni
+                    aveugle ni entraîné ; je le sais ; je le sens ; mais il m'est impossible de le
+                    prouver. Il faut me croire sur parole. — <cit>
+            <quote>Que ta femme et <persName ref="#pers_B98">Pauline</persName> te croient
+                    faible et mol, que tu le sois en effet ou non, c'est déjà un grand mal.</quote>
+          </cit> Oui,
+                    mais pourrais-je l'empêcher, et ne vois-tu pas que je me décide à mettre <persName ref="#pers_B98">Pauline</persName>
+                    en pension, et cependant je hais les pensions</p>
+                <p xml:id="L1815-06-02-b-p7">
+          <gap reason="lacune_CGA"/> <pb n="325" facs="#ACAS_CRHST_AMP_24_334_0325_v.jpg"/> Je déteste les pensions. Je vais cependant mettre ma <persName ref="#pers_B98">Pauline</persName> en pension, à
+                    <placeName>Paris</placeName> ou à <placeName>Lyon</placeName>. Mais, dans ce moment, je suis décidé pour <placeName>Lyon</placeName>. Si mal arrive à
+                    <placeName>Lyon</placeName>, j'aurai moins de reproches à me faire <gap reason="lacune_CGA"/>
+                    Je suis plus étonné, plus surpris de te voir partisan du projet de <placeName>Paris</placeName> que je
+                    ne puis te dire !</p>
+                <p xml:id="L1815-06-02-b-p8">Est-ce naturel que je sépare ce que je désirais unir de plus
+                    en plus ? Faut-il rompre ou au moins affaiblir les doux liens de la famille, que
+                    mes enfants deviennent étrangers les uns aux autres, ou du moins indifférents,
+                    tièdes ? Par quoi remplacera-t-on ces douces affections ? J'ai peu de bonheur
+                    sur la terre, tu le sais, mon ami ; mais j'en ai un grand, c'est l'amour que mes
+                    enfants ont les uns pour les autres. Quelquefois, souvent même, en éloignant les
+                    enfants, on resserre ces liens. C'est vrai, mais ce n'est pas ici le cas. Cela
+                    est plus pour moi que l'ordre et l'arrangement.</p>
+                <p xml:id="L1815-06-02-b-p9">Si, par malheur, le diable
+                    trouvait moyen de souffler parmi mes enfants l'esprit de discorde, ou même de
+                    tiédeur, je les séparerais en toute hâte ;<pb n="326" facs="#ACAS_CRHST_AMP_24_334_0326_r.jpg"/> mais leurs petites querelles, leurs
+                    discussions se terminent si heureusement ! <gap reason="lacune_CGA"/>Tu
+                    me demandes ce que j'ai à craindre et à espérer de <persName ref="#pers_B96">Méla</persName> ? Que n'ai-je le temps
+                    de te répondre ? Tu connais mon esprit observateur ; rien ne m'échappe de ces
+                    choses-là. <persName ref="#pers_B96">Méla</persName> a certainement fait de grandes fautes, des fautes énormes dans
+                    l'éducation de <persName ref="#pers_B98">Pauline</persName>. Je vois les siennes et les miennes. Mais elle fait aussi
+                    beaucoup de bien à la petite, tu peux m'en croire.</p>
+                <p xml:id="L1815-06-02-b-p10">Bon ami, l'éducation ne peut
+                    pas tout, mais elle peut beaucoup ; il y faut songer. Si le bonheur n'est pas le
+                    but de la vie, faut-il en faire le but de l'éducation ? Et le bonheur est une
+                    chose cependant à laquelle on peut songer. Mais faut-il l'appuyer sur les
+                    mauvaises bases des préjugés sociaux ? Sur ces bases abominables d'un égoïsme
+                    qui,<pb n="326" facs="#ACAS_CRHST_AMP_24_334_0327_v.jpg"/> pour être déguisé sous des formes aimables et gracieuses, n'en est pas
+                    moins une émanation de l'enfer ? <gap reason="lacune_CGA"/> <pb n="327" facs="#ACAS_CRHST_AMP_24_334_0327_v.jpg"/> <gap reason="lacune_CGA"/> <pb n="328" facs="#ACAS_CRHST_AMP_24_334_0328_r.jpg"/> <gap reason="lacune_CGA"/>
+        </p>
+            </div>
+        </body>
+        <back>
+            <div xml:id="L1815-06-02-b-div2">
+                <note resp="#CGA" xml:id="corresp1">(1) <persName ref="#pers_H306">Huzard</persName>, supérieur de <persName ref="#pers_B94">Bredin</persName>, très bienveillant, mais
+                    obligé pourtant parfois de gronder. Il s'agissait de mettre en pension <persName ref="#pers_B98">Pauline</persName>,
+                    pour laquelle sa mère avait conçu une sorte de haine.</note>
+            </div>
+        </back>
+    </text>
+</TEI>

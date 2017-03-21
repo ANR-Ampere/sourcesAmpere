@@ -1,0 +1,252 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 367</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+               <forename>André-Marie</forename>
+               <surname>Ampère</surname>
+            </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+               <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des sciences</affiliation>
+               </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+               <name>Centre de calcul de l'IN2P3</name>
+               <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+            </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1810-10-20-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+                  </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1943">1943</date>
+                     <biblScope type="tome">III.</biblScope>
+                     <biblScope type="pp">p. 874-875</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L367</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L367manuscrit">
+                  <msDesc type="copie">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Lyon</settlement>
+                        <institution>Bibliothèque municipale</institution>
+                        <idno>Ms 6205 (1)</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Photocopie du manuscrit original</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+               <witness xml:id="L367manuscrit2">
+                  <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <repository>Collection L. Pierce Williams</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Quatre pages in-4°, 18 x 23, adresse au bas de la quatrième. [note de
+                           Louis DE LAUNAY]</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1810-10-20">20
+                        octobre 1810</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_R502" type="adressee">Roux-Bordier, Jacques</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+            <date when="2014-07">juillet 2014</date>
+            <name>Philippe Pons</name>
+            <name>Aude Coustumer</name>
+         </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1810-10-20-a">
+      <body>
+         <div xml:id="L1810-10-20-a-div1">
+            <opener>
+               <date when="1810-09-20">20 octobre 1810</date>
+            </opener>
+            <p xml:id="L1810-10-20-a-p1">Je viens, mon cher <persName ref="#pers_R502">Roux</persName>, de recevoir votre seconde lettre, où
+               vous réclamez avec raison le Mémoire sur la charrue <ref target="#corresp2">(2)</ref>. Il est à
+               <placeName>Lyon</placeName> dans les mains de <persName>Ballanche</persName> qui
+               devait le remettre à <persName ref="#pers_B74">Bonjour<ref xml:id="pers_B74"/>
+          </persName> après m'en avoir envoyé une copie
+               sur laquelle je pusse faire les observations que je vous avais promises. J'avais
+               adopté ce mode pour que vous puissiez les avoir sans que l'original sortit des mains
+               de <persName>Ballanche</persName> et de <persName ref="#pers_B74">Bonjour<ref xml:id="pers_B74"/>
+          </persName> à qui vous
+               m'aviez chargé de le remettre. Il ne fallait que quelques jours pour tout cela ; je
+               devais avoir la copie en 8 jours et vous les observations en 15 jours. Voilà un mois
+               d'écoulé sans que j'en aie aucune nouvelle. J'en ai écrit à
+               <persName>Ballanche</persName> ; point de réponse. Je ne sais si vous avez reçu ma
+               lettre où je vous en parlais aussi et de plusieurs autres choses ; elle était
+               adressée à M. <persName ref="#pers_R502">Roux</persName> de <placeName>Moleron</placeName> à
+               <placeName>
+            <choice>
+              <sic>Montélimart</sic> <corr>Montélimar</corr>
+            </choice>
+          </placeName>
+               ou au <placeName>Moleron</placeName> près de
+               <placeName>
+            <choice>
+              <sic>Montélimart</sic> <corr>Montélimar</corr>
+            </choice>
+          </placeName>,
+               département de la <placeName>Drôme</placeName>
+               <ref target="#corresp3">(3)</ref>. Si elle ne vous est par parvenue, vous me feriez bien plaisir de la
+               faire réclamer à la poste de
+               <placeName>
+            <choice>
+              <sic>Montélimart</sic> <corr>Montélimar</corr>
+            </choice>
+          </placeName>.</p>
+            <p xml:id="L1810-10-20-a-p2">
+               Je suis toujours enchanté des rapides progrès de la chimie. Voilà toutes les terres
+               décomposées, de nouveaux métaux généralement reconnus pour tels ; M.
+               <persName ref="#pers_D174">Davy</persName> soutenant que le gaz oxy-muriatique est un corps simple, un
+               second oxygène qui acidifie l'hydrogène, le soufre, l'étain, le phosphore, etc. Par
+               contre, on cherche à décomposer l'azote que l'on soupçonne d'être un oxyde. Vous
+               savez qu'il y a déjà deux ans que je disputais pour soutenir ces deux dernières
+               opinions. Que le gaz oxy-muriatique soit simple ou non, on doit l'appeler simple
+               puisqu'il n'est décomposé dans aucun cas connu, d'après la définition du mot corps
+               simple dans la chimie moderne. C'est sa base fondamentale d'appeler ainsi tout corps
+               dont on ne peut en aucune manière séparer des éléments plus simples. Or il est bien
+               démontré qu'on ne retire jamais de l'oxygène de la combinaison du gaz oxy-muriatique
+               avec une autre substance qu'autant que celle-ci en contient : par exemple, en le
+               combinant avec l'hydrogène de l'eau, ou le métal d'un oxyde ou d'une terre, ce qui
+               est aujourd'hui la même chose.</p>
+            <p xml:id="L1810-10-20-a-p3">Pour la psychologie je n'ai pu y donner un seul moment
+               depuis ma dernière lettre. La pratique de la chimie va aussi bien que la théorie.
+               Voici qu'on vient de prendre un brevet d'invention pour un moyen de fabriquer l'acide
+               sulfurique et par conséquent la soude à six fois meilleur marché qu'auparavant. Le
+               succès est certain.</p>
+            <p xml:id="L1810-10-20-a-p4">Adieu, mon cher <persName ref="#pers_R502">Roux</persName>, portez-vous bien,
+               soyez bien heureux, aimez-moi toujours et écrivez-moi le plus que vous pourrez. Tout
+               à vous. <persName ref="#pers_A366">A. Ampère</persName>
+            </p>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1810-10-20-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4°, 18 x 23, adresse au bas de la quatrième.
+               Communiqué par M. <persName ref="#pers_C1629">Paul Chaponnière</persName>.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) Voir les lettres p.
+               309-310 et p. 859-860 où il est également question de cette charrue.</note>
+            <note resp="#CGA" xml:id="corresp3">(3) Voir la
+               lettre du <date when="1810-08-16">16 août 1810</date>, p.873-874. </note>
+            <note resp="CAK_commentaire">Dans la
+               <title>Correspondance du Grand
+                  <persName>Ampère</persName>
+          </title>,
+               <persName ref="#pers_L856">Louis DE LAUNAY</persName> précise, au sujet de cette lettre, que le
+               manuscrit lui en a été "communiqué par M.
+               <persName ref="#pers_C1629">Paul Chaponnière</persName>".</note>
+         </div>
+      </back>
+   </text>
+</TEI>

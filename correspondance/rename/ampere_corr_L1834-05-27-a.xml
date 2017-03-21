@@ -1,0 +1,258 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 809</title>
+            <author xml:id="AMA" key="Ampère, André-Marie                                                 (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1834-05-27-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 780-781-782</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L809</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L809manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 379</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Quatre pages in-4°, adresse au bas de la quatrième.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1834-05-27">27 mai
+                        1834</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_A10" type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1834-05-27-a">
+      <body>
+         <div xml:id="L1834-05-27-a-div1">
+            <opener>
+          <pb n="421" facs="#ACAS_CRHST_AMP_25_379_0421_r.jpg"/>
+          <placeName>Clermont</placeName> <date when="1834-05-27">Lundi [27 mai 1834]</date>
+        </opener>
+            <p xml:id="L1834-05-27-a-p1">Mon cher fils, en recevant, en arrivant ici, ta lettre qui m'y attendait chez M.
+               <persName ref="#pers_G279">Gonod</persName>, j'ai senti plus encore le tort que j'avais eu de ne pas donner de mes
+               nouvelles pendant mon séjour à <placeName>Nevers</placeName>. La mathésiologie en a profité. Heureusement
+               qu'en arrivant à <placeName>Moulins</placeName> j'ai écrit une longue lettre à <persName ref="#pers_A951">Albine</persName>, il y a aujourd'hui
+               huit jours, en sorte que vous aurez eu de mes nouvelles peu de jours après le départ
+               de ta lettre. Dans cette lettre, je lui expliquais que M. <persName ref="#pers_M381">Matter</persName> m'a quitté à <placeName>Moulins</placeName>
+               pour aller en <placeName>Alsace</placeName>, où il restera jusqu'à ce que les élections pour la <orgName>Chambre des
+               Députés</orgName> aient été faites ; c'est, je crois, pour le <date when="1834-06-21">21 juin</date>. Ainsi j'ai à peu près un
+               mois à rester ici, ne pensant qu'à mon livre, et à guérir mon rhume, car je toussais
+               beaucoup à <placeName>Moulins</placeName> ; mais ici M. et Mme <persName ref="#pers_G279">Gonod</persName> ont tant de soin pour moi, au lait
+               chaud sucré tous les matins, etc., que j'en serai bientôt quitte.</p>
+            <p xml:id="L1834-05-27-a-p2">N'est-ce pas une
+               chose miraculeuse que ce séjour d'un mois à <placeName>Clermont</placeName>, nécessité par le voyage de M.
+               Malter à <placeName>Strasbourg</placeName>, à l'instant où il s'agit d'achever mon premier volume <ref type="ouvrages_mentionnes" target="#ampere_ref_P415.xml">*</ref>? Deux autres circonstances, presque aussi
+               merveilleuses, m'ont procuré d'inappréciables améliorations. D'abord, j'avais
+               autorisé M. <persName ref="#pers_G279">Gonod</persName>, avant mon départ de <placeName>Paris</placeName>, à mettre le bon à tirer aux trois
+               premières feuilles de la préface. Il l'avait mis à la première et à la troisième.
+               Heureusement qu'un que oublié par le compositeur, lui avait rendu inintelligible une
+               des phrases de la deuxième et, sachant que j'allais [venir], il me l'avait gardée :
+               ce qui m'a été l'occasion d'y apercevoir<pb n="422" facs="#ACAS_CRHST_AMP_25_379_0422_v.jpg"/> et changer un long passage que je serais
+               désolé qui fût resté comme il était, ce qui a tenu à si peu de chose ! Dans la
+               nouvelle rédaction, j'ai dit à peu près le contraire de ce que j'avais dit dans la
+               précédente, car j'étais alors dans une grande erreur.</p>
+            <p xml:id="L1834-05-27-a-p3">L'autre circonstance est bien
+               plus singulière. M. <persName ref="#pers_T1776">Thibaud-Landriot</persName> m'avait envoyé, au mois de mars dernier, deux
+               feuilles d'épreuves par la poste, qui, heureusement, ne me sont jamais parvenues. Si,
+               malheureusement, je les avais reçues alors, j'y aurais mis de suite le bon à tirer.
+               Il ne comprenait pas pourquoi je ne les renvoyais pas ; moi, je les croyais tirées ;
+               la chose ne s'est éclaircie qu'à mon arrivée ici. Une chose dont je n'avais soupçonné
+               l'existence qu'à l'occasion de mes examens du mois d'avril à <placeName>Paris</placeName>, un récit que M.
+               <persName ref="#pers_G279">Gonod</persName> m'a fait d'une bêtise d'un ancien professeur de <placeName>Clermont</placeName> mort depuis une
+               douzaine d'années, ont tout à coup développé en moi une de ces séries d'idées qui
+               changent, jusqu'à un certain point, la face des choses. De là, deux additions des
+               plus précieuses à ces feuilles que la perte invraisemblable qui s'en est faite à la
+               poste a empêché de tirer dans le temps, et le transport, dans la dernière de ces deux
+               feuilles, de près de trois pages d'une ancienne addition qui y sont aussi bien
+               placées qu'elles l'étaient ridiculement là où je les avais mises, au milieu d'une
+               suite d'idées qu'elles interrompaient entièrement : précisément, parce que croyant
+               tirées les feuilles en question, je ne voyais de possibilité à les mettre où elles
+               devaient être.</p>
+            <p xml:id="L1834-05-27-a-p4">Ajoute à toutes ces heureuses circonstances<pb n="423" facs="#ACAS_CRHST_AMP_25_379_0423_r.jpg"/> la présence de M. <persName ref="#pers_G279">Gonod</persName>
+               pour écrire les idées à mesure qu'elles me venaient. Aussi tout cela est-il déjà
+               fait. Je suis à jour et l'impression de mon premier volume sera entièrement terminée
+               cette semaine. Je garde le tableau pour la fin, parce qu'il y a encore un vers,
+               charmant d'ailleurs, mais qui n'exprime pas du tout ma pensée sur l'objet de la
+               science qu'il désigne. M. <persName ref="#pers_G279">Gonod</persName> a tranché, sans qu'il y eût, suivant lui, le moindre
+               doute, la question relative aux deux vers du <foreign xml:lang="lat">proemium</foreign> que je changeais tous les deux
+               jours depuis deux mois <ref>(2)</ref>. Il y a quatre ou cinq jours qu'<persName ref="#pers_A951">Albine</persName> a dû recevoir ma
+               lettre de <placeName>Moulins</placeName>, où je lui disais de m'écrire à <placeName>Clermont-Ferrand </placeName>chez M. <persName ref="#pers_G279">Gonod</persName>,
+               place de <placeName>Jaude</placeName>, n° 52. Je commence à mon tour à m'inquiéter de ce qu'elle ne m'écrit
+               pas. Qu'elle ne cherche pas par là à me cacher quelque malheur ; il faudrait toujours
+               que je le susse tôt ou tard, et j'aurais de plus tous les tourments de l'imagination
+               qui se met à en supposer. Il n'y a sortes de craintes qui ne me soient venues l'autre
+               nuit sur un retour inattendu de M. <persName ref="#pers_R491">Ride</persName>. Je prie en grâce qu'on m'écrive à ce sujet,
+               si ma lettre écrite la veille de mon départ a bien été mise à la poste, et non pas
+               sottement confiée à l'occasion par laquelle <persName ref="#pers_A951">Albine</persName> doit lui écrire. Deux sûretés
+               valent mieux qu'une, surtout dans ces choses-là. Et, d'ailleurs, une occasion est
+               toujours exposée à des retards, à des négligences.</p>
+            <p xml:id="L1834-05-27-a-p5">Les nouvelles que tu me donnes de
+               vos santés à tous et celles de ton cours, m'ont fait [beaucoup] de plaisir. Il est
+               empoisonné par les malheurs d'<persName ref="#pers_R496">Henri</persName> ; je prie bien qu'on me tienne au courant,<pb n="424" facs="#ACAS_CRHST_AMP_25_379_0424_v.jpg"/> tantôt
+               toi, tantôt <persName ref="#pers_A951">Albine</persName>, de tout ce qui le touche, tant sous le rapport de sa délivrance,
+               que sous celui de l'arrangement heureux ou malheureux de ses affaires et celui de sa
+               santé. Tu me feras tant de plaisir de me tenir au courant de toutes tes leçons ;
+               <persName ref="#pers_A951">Albine</persName> devrait bien me rendre compte de toutes celles auxquelles elle pourra
+               assister.</p>
+            <p xml:id="L1834-05-27-a-p6">Je te raconterai, quand je te reverrai, une petite anecdote qui prouve
+               combien M. <persName ref="#pers_G279">Gonod</persName> t'aime et pense à toi. Lui et Mme <persName ref="#pers_G279">Gonod</persName> m'ont chargé de tant de
+               choses aimables pour toi, que je n'en finirais pas si je voulais les écrire. Embrasse
+               bien tendrement pour moi <persName ref="#pers_A951">Albine</persName> et ma sœur ! Mille compliments à ma cousine et à nos
+               amis ! Tout ce qu'il a de plus [sic] et de plus empressé pour toute la famille
+               <persName>Carron</persName> ! Tâche qu'ils ne m'en veuillent pas d'avoir été si longtemps sans donner de
+               mes nouvelles à <persName ref="#pers_A951">Albine</persName>, quoi qu'<persName ref="#pers_C125">élise</persName> m'eût fait promettre d'en écrire de Nevers. Tu
+               sais de quelle tendresse ton papa t'embrasse.<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+            <closer>
+          <placeName>rue de Grenelle-Saint-Germain, n° 52</placeName>, à <placeName>Paris</placeName> </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1834-05-27-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4°, adresse au bas de la quatrième.</note>
+            <note resp="#CGA" xml:id="corresp2">(2)
+               L'ouvrage d'<persName>Ampère</persName> porte en texte : <foreign xml:lang="lat">Optimo et carissimo filio carmen mnemonicum</foreign> ,
+               puis des divisions intitulées <foreign xml:lang="lat">Praemium</foreign>, <foreign xml:lang="lat">prolegomena</foreign>, Synopsis, avec description en
+               vers latins et des tableaux de classification. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

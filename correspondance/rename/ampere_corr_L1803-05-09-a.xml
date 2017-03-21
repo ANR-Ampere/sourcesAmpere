@@ -1,0 +1,178 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 839</title>
+                <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+                    <forename>André-Marie</forename>
+                    <surname>Ampère</surname>
+                </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+                    <affiliation>Università L'Aquila</affiliation>
+          </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                            sciences</affiliation>
+                    </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+                    <name>Centre de calcul de l'IN2P3</name>
+                    <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+                </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="original_manuscrit">
+                    <msIdentifier xml:id="ampere_corr_L1803-05-09-a">
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 1, f. 28-29A</idno>
+                    <altIdentifier>
+              <idno type="old">L839</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1803-05-09">9 mai 1803</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_J323" type="adressee">Jussieu, Antoine-Laurent de</persName>
+        </correspAction>
+      </correspDesc>
+            <creation>
+                <date when="2014-07">juillet 2014</date>
+                <name>Philippe Pons</name>
+                <name>Aude Coustumer</name>
+            </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="correspondance" decls="#ampere_corr_L1803-05-09-a">
+        <body>
+            <div xml:id="L1803-05-09-a-div1">
+                <opener>
+          <pb n="53" facs="#ACAS_CRHST_AMP_01_001_0053_r.jpg"/>
+          <placeName>Lyon</placeName> le <date when="1803-05-09" calendar="revolutionary">18 floréal an 11 [9 mai 1803]</date>
+                </opener>
+                <p xml:id="L1803-05-09-a-p1">Monsieur De nouvelles bontés de votre part me pressent de vous offrir de nouveau
+                    l'hommage d'une reconnaissance qui sera toujours un des plus doux sentiments de
+                    mon cœur. Vous avez vu par la lettre que j'ai eu l'honneur de vous écrire il y a
+                    environ un mois la position où se trouvaient nos affaires et les flatteuses
+                    espérances que m'avait données M. <persName ref="#pers_D177">Delambre<ref xml:id="pers_D177"/>
+          </persName>, espérances que
+                    je devais surtout à votre recommandation. J'ai eu depuis quelques inquiétudes
+                    causées par les retards qu'ont éprouvés à <placeName>Paris</placeName> les
+                    nominations aux<pb n="54" facs="#ACAS_CRHST_AMP_01_001_0054_v.jpg"/> places des Lycées. Je voulais vous écrire pour vous prier
+                    d'achever ce que vous avez fait en ma faveur mais je craignais qu'il y eût trop
+                    d'indiscrétion à vous demander encore de nouvelles demandes lorsque j'ai appris
+                    que votre bonté pour moi, ingénieuse à me rendre service, avait prévenu la
+                    demande que je n'osais vous faire. Monsieur <persName ref="#pers_D177">Delambre<ref xml:id="pers_D177"/>
+          </persName> a
+                    raconté à un de mes amis qui a eu l'occasion de le voir à
+                    <placeName>Paris</placeName>, avec quel intérêt vous aviez parlé en ma faveur à
+                    monsieur <persName ref="#pers_C141">Chaptal</persName>. Que de remerciements j'ai à vous faire de
+                    cette complaisance. C'est à vous, monsieur, que j'ai dû le choix que les
+                    inspecteurs généraux [ont fait], c'est à vous que j'espère
+                    devoir celui du gouvernement.</p>
+                <p xml:id="L1803-05-09-a-p2">
+          <pb n="55" facs="#ACAS_CRHST_AMP_01_001_0055_r.jpg"/>Comment pourrais-je m'en flatter sans votre appui
+                    lorsque je vois Mr <persName ref="#pers_R501">Roux</persName> lui-même avoir des craintes sur sa
+                    propre nomination, lui à qui tant de titres donnent droit à la première place.
+                    Je m'estimerai heureux d'être placé au rang que m'avaient assigné les
+                    inspecteurs généraux lorsque je vois les premières places données à des hommes
+                    d'un mérite aussi distingué.</p>
+                <p xml:id="L1803-05-09-a-p3">Permettez moi, Monsieur, de vous rappeler que vous
+                    avez laissé à <placeName>Lyon</placeName> un cœur pénétré de reconnaissance des
+                    bontés que vous lui avez témoignées et qui regarde comme un bonheur inestimable
+                    de leur devoir une place importante pour moi dans la position où je me trouve.<lb/>
+                    <persName ref="#pers_A366">A. Ampère</persName>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

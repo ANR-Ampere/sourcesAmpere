@@ -1,0 +1,225 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 382</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1811-06-23-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">I.</biblScope>
+                     <biblScope type="pp">p. 370-371</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L382</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L382manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 340</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Trois pages et adresse sur la quatrième ; timbre : 89, Avignon.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1811-06-23">23 juin
+                        1811</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Bredin, Claude-Julien</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1811-06-23-a">
+      <body>
+         <div xml:id="L1811-06-23-a-div1">
+            <opener>
+          <pb n="53" facs="#ACAS_CRHST_AMP_24_340_0053_r.jpg"/>
+          <placeName>Avignon</placeName> le
+          <date when="1811-06-23">dimanche 23 juin [1811]</date>
+        </opener>
+            <p xml:id="L1811-06-23-a-p1">Cher ami, notre tournée a été abrégée de plus de huit jours, par une lettre du grand
+               maître qui nous a dispensés d'aller à <placeName>Rodez</placeName>. Ma crainte est à présent que tu ne sois
+               pas à <placeName>Lyon</placeName> quand j'y passerai, l'indication que je t'avais donnée se trouvant fausse
+               à présent. Nous arriverons probablement à <placeName>Lyon</placeName> le <date when="1811-07-01">lundi 1er juillet</date> ; cependant je
+               n'ai jamais eu plus besoin de te voir, de causer avec toi  ; la vie m'est
+               insupportable sans que j'aie aucun sujet de chagrin autre que les anciennes
+               catastrophes de ma vie. Je ne sais ce que c'est que cette inquiétude vague qui me
+               tourmente. Il me tarde d'être à <placeName>Lyon</placeName>, d'être de retour à <placeName>Paris</placeName>, de voir couler le
+               temps : il est trop lent pour moi ! Je désire trop vivement de savoir ce qu'il doit
+               me révéler d'enseveli encore dans son sein.</p>
+            <p xml:id="L1811-06-23-a-p2">Les choses les plus disparates m'agitent
+               également : la chimie, le concile <ref target="#corresp2">(2)</ref> et autre chose encore ! A ce dernier égard, qui
+               est malheureusement toujours le principal pour moi, j'ai reçu à <placeName>Montpellier</placeName> une
+               lettre charmante, mais qui ne montre aucun changement dans la position de toutes
+               choses. Il y a seulement quelques jours que je l'ai reçue à mon second passage à
+               <placeName>Montpellier</placeName> où elle m'attendait. Près d'un mois sans nouvelles ! Tu conçois bien
+               quelle était mon impatience. Mais le plaisir de la voir finir n'a pas été<pb n="54" facs="#ACAS_CRHST_AMP_24_340_0054_v.jpg"/> tel qu'il
+               l'aurait été s'il avait trouvé mon âme dans une autre situation. J'étais dans la
+               profonde mélancolie où m'avaient mis des réflexions inspirées par l'événement le plus
+               singulier arrivé à un de mes deux compagnons de voyage. Il faut donc toujours que
+               j'apprenne à connaître le cœur humain pour avoir de plus vifs sujets d'inquiétudes
+               relativement à ce qui m'intéresse le plus ! Des choses comme cela m'atterrent. </p>
+            <p xml:id="L1811-06-23-a-p3">Mon
+               ami, je n'ai point eu de tes nouvelles depuis ma première arrivée à <placeName>Montpellier</placeName> ;
+               encore était-ce une vieille lettre ! As-tu reçu celle que je t'ai écrite ? As-tu fait
+               le voyage que tu projetais ? Sera-t-il utile à ta santé ? Consiste-t-il à aller à
+               <placeName>Vals</placeName> ou à <placeName>Vichy</placeName> ? Comment se porte toute ta famille et toi-même ? Voilà les questions
+               que je me fais tous les jours, que je te fais parce qu'elles sont dans ma pensée et
+               non pour que tu y répondes par écrit, car je ne pourrais guère recevoir ta lettre
+               avant d'être<pb n="55" facs="#ACAS_CRHST_AMP_24_340_0055_r.jpg"/> à <placeName>Lyon</placeName> ou du moins en route ; mais tu y répondras de vive voix, de
+               demain en huit.</p>
+            <p xml:id="L1811-06-23-a-p4">J'ai enfin fait un voyage dans une contrée où tout porte à
+               l'admiration. J'ai vu les <placeName>Pyrénées</placeName> et <placeName>Carcassonne</placeName> ; j'ai navigué deux jours entiers
+               sur ce <placeName>canal du Midi</placeName> que je regarde encore comme le plus bel ouvrage construit par
+               les hommes, si l'on songe au but et au succès. J'ai revu les arènes et le <placeName>pont du
+               Gard</placeName>... Croirais-tu que les courses et combats de taureaux, dont il n'y avait pas eu
+               d'exemple depuis fort longtemps, ont été rétablis dernièrement à <placeName>Nîmes</placeName>. Trois ou
+               quatre hommes tués et plus de quinze blessés !</p>
+            <p xml:id="L1811-06-23-a-p5">Adieu, mon bon ami, tu sais que, s'il
+               m'était possible de t'écrire plus longtemps, ton ami ne te quitterait pas si vite.<lb/> <persName ref="#pers_A366">A.
+               Ampère</persName>
+        </p>
+            <closer>
+          <pb n="56" facs="#ACAS_CRHST_AMP_24_340_0056_v.jpg"/>A monsieur <persName>Bredin fils</persName> professeur d'anatomie à l'<orgName>École vétérinaire</orgName>, près des portes de <placeName>Vaise</placeName>, à <placeName>Lyon</placeName>
+               (<placeName>Rhône</placeName>) </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1811-06-23-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Trois pages et adresse sur la quatrième ; timbre : 89,
+               <placeName>Avignon</placeName>.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) Il s'agit probablement du concile de <placeName>Paris</placeName> en <date when-iso="1811-00-00">1811</date>, présidé par le
+               <persName>cardinal Fesch</persName>. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

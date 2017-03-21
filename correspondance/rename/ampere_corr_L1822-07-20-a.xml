@@ -1,0 +1,400 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 621</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1822-07-20-a">
+               <monogr>
+                  <author>
+                     <surname>Pictet</surname>
+                     <forename>Marc-Auguste</forename>
+                  </author>
+                  <editor>
+                     <surname>Sigrist</surname>
+                     <forename>René</forename>
+                  </editor>
+                  <title>Correspondance. Sciences et techniques, t. II Les correspondants
+                     français</title>
+                  <imprint>
+                     <pubPlace>Genève</pubPlace>
+                     <publisher>Slatkine</publisher>
+                     <date when="1998">1998</date>
+                     <biblScope type="pp">p. 50-54</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L621</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L621edition">
+            <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">II.</biblScope>
+                           <biblScope type="pp">p. 583-586</biblScope>
+                        </imprint>
+                     </monogr>
+                  </biblStruct>
+          </witness>
+               <witness xml:id="L621manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>Suisse</country>
+                        <settlement>Genève</settlement>
+                        <institution>Archives de la Fondation F. Rilliet</institution>
+                        <repository>Fonds Pictet</repository>
+                        <idno>K4 [note de René SIGRIST]</idno>
+                     </msIdentifier>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1822-07-20">20 juillet 1822</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_P450" type="adressee">Pictet, Marc-Auguste</persName>
+        </correspAction>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1822-07-20-a">
+      <body>
+         <div xml:id="L1822-07-20-a-div1">
+            <opener>
+          <placeName>Paris</placeName>
+          <date when="1822-07-20">20 juillet 1822</date>
+        </opener>
+            <p xml:id="L1822-07-20-a-p1">Mon cher et illustre confrère, car j'ai été frappé combien vos longs et importants
+               travaux dans les sciences vous donnent plus de titres à ce nom que je n'en puis
+               encore avoir.</p>
+            <p xml:id="L1822-07-20-a-p2">J'ai reçu hier votre toute aimable lettre du <date when="1822-07-11">11 juillet</date> et je me hâte
+               d'y répondre. Tout ce que vous me dites dans cette lettre m'a fait le plus grand
+               plaisir, et je me préparais à vous expliquer à quel point tous vos arrangements me
+               convenaient lorsque j'ai reçu une lettre de M. <persName ref="#pers_L333">De la Rive<ref xml:id="pers_L333"/>
+          </persName> <ref>(1)</ref>, j'ai interrompu
+               d'écrire celle-ci pour lire la sienne. J'y ai vu sa nouvelle et très importante
+               expérience, qui ne semble pas en harmonie avec ma théorie <ref>(2)</ref> uniquement parce que je
+               n'ai jamais eu le temps de rédiger un petit mémoire sur l'action électro-dynamique de
+               la terre, dont j'avais fait le plan avant mes dernières recherches sur la formule qui
+               représente cette action entre deux portions infiniment petites de fils conducteurs,
+               recherches qui m'ont conduit à la détermination de la valeur du coefficient constant
+               K, dont j'ai parlé à M. <persName ref="#pers_L333">De la Rive<ref xml:id="pers_L333"/>
+          </persName> dans la lettre que je lui ai écrite le <date when="1822-06-12">12 juin</date>
+               dernier. Les calculs relatifs à cette formule ont absorbé le peu de temps que je puis
+               donner à mes recherches, et mon travail sur l'action de la terre est resté en canevas
+               jusqu'aujourd'hui. J'y examinais comment devait agir sous les trois points de vue de
+               l'attraction et répulsion, de la direction, et du mouvement de rotation continu
+               toujours dans le même sens, un courant allant de l'Est à l'Ouest dans l'équateur
+               magnétique du globe, sur une portion mobile de circuit voltaïque ; j'y expliquais les
+               mouvements que j'avais observés en 1820 dans mon premier appareil, qui me firent
+               découvrir l'action de la terre sur les conducteurs, et dont j'ai parlé sans détails à
+               la page 35, lignes 17, 18, 19 et 20. Si j'avais écrit et publié ce morceau, le
+               résultat si remarquable que vient d'obtenir M. <persName ref="#pers_L333">de La Rive</persName>, l'aurait frappé lui-même
+               comme une des preuves les plus directes de mon opinion, puisqu'elle en est une suite
+               aussi nécessaire que la rotation toujours dans le même sens d'un fil conducteur
+               autour d'un aimant due à M. <persName ref="#pers_F239">Faraday</persName> <ref>(3)</ref>.</p>
+            <p xml:id="L1822-07-20-a-p3">Je vais écrire tous ces détails à M. De la
+               Rive. Ce qui me désole, c'est le manque de temps, et mon départ sous très peu de
+               jours pour l'inspection des collèges royaux de <placeName>Moulins</placeName>, <placeName>Clermont</placeName> et <placeName>Lyon</placeName>. Ce départ
+               est si prochain que je vous prie, si vous aviez à m'écrire, d'adresser votre lettre à
+               M. <persName ref="#pers_B94">Bredin</persName>, directeur de l'<orgName>école royale vétérinaire de <placeName>Lyon</placeName>
+          </orgName>, pour remettre à M.
+               <persName>Ampère</persName>, à <placeName>Lyon</placeName>. Je serai probablement en route quand vous recevrez cette lettre.</p>
+            <p xml:id="L1822-07-20-a-p4">M. <persName ref="#pers_A20">Arago</persName> ne m'avait absolument rien dit de la communication que lui avait faite M. <persName ref="#pers_L333">De la
+               Rive<ref xml:id="pers_L333"/>
+          </persName> <ref>(4)</ref> ; je n'en ai eu vent que par un billet de M. <persName ref="#pers_M383">Maurice</persName>, et je n'ai su en quoi
+               elle consistait que par la lettre de M. <persName ref="#pers_L333">De la Rive<ref xml:id="pers_L333"/>
+          </persName> qui m'est arrivée hier.</p>
+            <p xml:id="L1822-07-20-a-p5">M. <persName ref="#pers_P455">Pixii</persName>
+               <ref>(5)</ref> construit dans ce moment un appareil électro-dynamique semblable à celui que vous
+               avez vu à votre dernier voyage à <placeName>Paris</placeName>, à l'exception des additions que j'y ai fait
+               faire pour imiter les trois principales circonstances de l'action terrestre, que j'ai
+               indiquées tout à l'heure. Deux de ces additions avaient déjà été faites après votre
+               départ de <placeName>Paris</placeName> à l'appareil que vous avez vu et que M. <persName ref="#pers_P465">Pouillet</persName> <ref>(6)</ref> a acheté pour
+               travailler aussi sur ce sujet.</p>
+            <p xml:id="L1822-07-20-a-p6">Au moyen de ces additions on réalise avec un
+               conducteur agissant sur un autre tout ce que le raisonnement déduit de ma théorie
+               relativement à l'action électrodynamique de la terre. Voilà une digression qui m'a
+               tout à fait écarté de ma réponse à votre lettre ; j'y reviens.</p>
+            <p xml:id="L1822-07-20-a-p7">Je suis tout à fait de
+               votre avis sur ce qu'il est à peu près inutile de donner dans la <title>Bibliothèque
+               Universelle</title> des extraits d'anciennes choses dont la substance reviendra, en bonne
+               partie, dans des morceaux où paraîtront de nouvelles recherches, mais comme alors je
+               ne pourrai m'acquitter avec les 1200 exemplaires de la planche 6 de mon recueil <ref target="#ampere_ref_P402.xml">*</ref> ce que je vous dois pour le papier
+               et le tirage de ce que vous avez tiré à part pour moi l'année dernière, je vous prie
+               de m'en envoyer le compte, ainsi que celui des 300 exemplaires de ma dernière lettre
+               à M. <persName ref="#pers_L333">De la Rive<ref xml:id="pers_L333"/>
+          </persName> <ref>(7)</ref> ; j'en remettrai le montant à M. <persName ref="#pers_P1627">Paschoud</persName> aussitôt mon retour
+               ici, à moins que je ne vous le porte moi-même à <placeName>Genève</placeName>. C'est une chose que je désire
+               vivement, mais sur laquelle j'hésite encore. Si je puis y aller de <placeName>Lyon</placeName> quand
+               l'inspection sera finie, je serai auprès de vous à la fin d'août <ref>(8)</ref>.</p>
+            <p xml:id="L1822-07-20-a-p8">Après que le
+               mémoire dont je vous ai envoyé une copie chargée de ratures a été tiré pour les
+               <title>Annales de Chimie</title>, j'en ai fait préparer les 300 exemplaires pour mon recueil. En
+               relisant alors une épreuve pour ces 300 exemplaires, j'y ai corrigé plusieurs fautes,
+               et remanié les explications relatives à la révolution et à la rotation de l'aimant
+               flottant verticalement sur le mercure. Je regrettais beaucoup que ces changements
+               fussent trop tardifs pour profiter aux <title>Annales de Chimie et de Physique</title>, puisque
+               c'était tiré pour cet ouvrage ; ils profiteront à la <title>Bibliothèque Universelle</title>.
+               L'imprimeur de ces <title>Annales</title> a dû tirer hier mes 300 exemplaires avec ces corrections
+               s'il l'a fait, je vous en enverrai un tout de suite ; c'est sur cet imprimé, que je
+               vous enverrai certainement sous deux jours, qu'il conviendra de faire composer pour
+               la <title>Bibliothèque Universelle</title>.</p>
+            <p xml:id="L1822-07-20-a-p9">Vous verrez que ces 300 exemplaires, pour mon recueil,
+               portant à la dernière page le chiffre 250, il faut que les 300 exemplaires de la
+               lettre à M. <persName ref="#pers_L333">De la Rive<ref xml:id="pers_L333"/>
+          </persName>, qui doit en faire la suite, portent à leur première page le
+               chiffre 251. Je crains de vous avoir mal donné ce chiffre dans ma dernière lettre.
+               Mais voici une chose bien importante pour moi : c'est ma planche 6 qui est dans mon
+               recueil ; j'ai fait tirer à 300 la planche 8 telle que je vous l'ai envoyée. Dans le
+               texte de ma lettre à M. <persName ref="#pers_L333">De la Rive<ref xml:id="pers_L333"/>
+          </persName> que vous publierez, les n° des figures 24, 25 et
+               19 seront remplacés par 14, 15 et 16 ; c'est une excellente idée. Mais après le
+               tirage pour la <title>Bibliothèque Universelle</title> et avant de faire le mien, il faudrait
+               nécessairement rétablir, ce qui est tout aisé, pl. VI, fig. 24 ; pl. VI, fig. 25 ;
+               pl. VI, fig. 19, entre les deux parenthèses comme dans le reste du recueil.</p>
+            <p xml:id="L1822-07-20-a-p10">Quelle
+               reconnaissance ne vous dois-je pas, mon cher et excellent ami, de ce que vous voulez
+               bien faire pour moi en tout ceci ! J'en dois beaucoup aussi à M. <persName ref="#pers_L333">De la Rive<ref xml:id="pers_L333"/>
+          </persName>. Je vous
+               prie de la lui exprimer de ma part en attendant la lettre que je vais lui écrire pour
+               lui expliquer comment je conçois l'action terrestre ; en y appliquant directement les
+               lois de l'action mutuelle de deux conducteurs voltaïques. Voici en deux mots ce qui
+               doit résulter de cette action  :</p>
+            <p xml:id="L1822-07-20-a-p11">
+          <list>
+            <item n="1">Conformément à mes expériences de <date when-iso="1820-00-00">1820</date>, page 35
+               de mon recueil, un courant mobile rectiligne horizontal allant de l'Est à l'Ouest est
+               attiré en masse vers le Midi par la partie supérieure BAC de l'équateur magnétique
+               la partie inférieure cab de cet équateur est pour nous du côté du Nord ;
+               elle repousse en masse le même courant, mais avec une force moindre à cause qu'elle
+               est beaucoup plus loin. Ces deux forces s'ajoutent pour porter le courant mobile au
+               Midi, où il se porte en effet.</item>
+            <lb/>
+            <item n="2"> La résultante passant
+               par le milieu de ce courant, si ce milieu repose sur un pivot, il ne peut y avoir
+               aucune action directrice de la terre sur le courant horizontal allant de l'Est à
+               l'Ouest et mobile autour de son milieu, la grande distance faisant que les actions
+               contraires sur ces deux moitiés sont égales.</item>
+            <lb/>
+            <item n="3"> Tout courant dans une branche
+               descendante tend à tourner en rétrogradant de l'Ouest à l'Est, comme on le voit dans
+               le dernier mémoire que je vous ai envoyé dans une branche ascendante à tourner de
+               l'Est à l'Ouest, sens du courant terrestre.</item>
+            <lb/>
+            <item n="4"> Cette action, à cause de la proximité
+               plus grande de BAC que de cab, est à son maximum quand la branche est au Midi de
+               l'axe de rotation, à son minimum quand elle est au Nord.</item>
+            <lb/>
+            <item n="5"> Les deux branches
+               verticales de l'appareil de M. <persName ref="#pers_L333">De la Rive<ref xml:id="pers_L333"/>
+              </persName> tendent évidemment à le faire tourner en
+               sens contraire il tourne avec la différence des deux moments ; c'est en effet le sens
+               où il tourne dans son expérience ; il ne peut s'arrêter que quand les deux moments
+               sont égaux, ce qui exige qu'une des branches étant à l'Est de l'axe de rotation,
+               l'autre soit à l'Ouest.</item>
+            <lb/>
+            <item n="6"> De là deux situations d'équilibre quand le plan du
+               rectangle est perpendiculaire au méridien magnétique. Dans l'une, l'équilibre est
+               stable, et le rectangle y reste immobile dans l'autre il est instable et le rectangle
+               tourne.</item>
+            <lb/>
+            <item n="7"> Pour les distinguer, déplaçons-le un peu de la situation d'équilibre. Si
+               le courant est ascendant à l'Est et descendant à l'Ouest, on voit sur le
+               champ que le Midi étant en avant du plan de la figure, quelque soit celle des deux
+               branches qui se sera avancée au Midi, son action deviendra prépondérante, et comme
+               elle est évidemment dans le sens du déplacement dans les deux cas, il croîtra
+               indéfiniment par cette prépondérance l'équilibre sera instable, en sorte que ce sera
+               pour nous comme s'il n'y avait pas équilibre, par l'impossibilité de le réaliser.</item>
+          </list>
+        </p>
+            <p xml:id="L1822-07-20-a-p12">Au contraire, si la branche est descendante à l'Est et
+               ascendante à l'Ouest, celle des deux qui, dans le déplacement, se sera
+               approchée du Midi tendra évidemment à retourner sur ses pas, et comme c'est son
+               action qui est prépondérante, l'appareil se remettra dans sa première position, où
+               il restera en équilibre stable ; or, pour que le courant monte à l'Ouest et descende
+               à l'Est, il faut bien qu'il aille de l'Ouest à l'Est dans la partie supérieure c'est
+               alors seulement que l'appareil de M. <persName ref="#pers_L333">De la Rive<ref xml:id="pers_L333"/>
+          </persName> reste en repos. Son expérience est
+               donc, dans toutes ces circonstances, une suite nécessaire de ma théorie, et pouvait
+               être prévue d'après cette théorie.</p>
+            <p xml:id="L1822-07-20-a-p13">Sans m'en apercevoir, j'ai écrit la substance de
+               la lettre que je me proposais de faire pour M. <persName ref="#pers_L333">De la Rive<ref xml:id="pers_L333"/>
+          </persName>. Comme la manière dont je
+               suis surchargé d'occupations, que je ne puis absolument laisser en arrière en
+               quittant <placeName>Paris</placeName>, ne me permettra point de lui écrire que de ma tournée, je vous prie
+               de lui communiquer ces observations en attendant que je lui en adresse le
+               développement.</p>
+            <p xml:id="L1822-07-20-a-p14">S'il le juge à propos, M. <persName ref="#pers_L333">De la Rive<ref xml:id="pers_L333"/>
+          </persName> peut faire tout ce qu'il voudra
+               de ces observations lorsqu'il publiera sa belle expérience. Recevez de nouveau,
+               Monsieur et très cher ami, l'hommage de la reconnaissance et de l'amitié à toute
+               épreuve de celui qui se flatte de mériter la vôtre par les sentiments qu'il vous a
+               voués, et qui est entièrement à vous.<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName> </p>
+            <closer>à Monsieur <persName ref="#pers_P450">Pictet</persName>, de l'<orgName>Institut de <placeName>France</placeName>
+          </orgName>, professeur de physique à l'<orgName>Académie
+               de <placeName>Genève</placeName>
+          </orgName>, l'un des rédacteurs de la <title>Bibliothèque Universelle</title> à <placeName>Genève</placeName>, Confédération
+               helvétique</closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1822-07-20-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Il s'agit d'une lettre non retrouvée, dont le contenu était
+               vraisemblablement analogue à la lettre de <persName ref="#pers_L1266">Gaspard De la Rive</persName> à <persName ref="#pers_A20">Arago</persName>, datée du <date when="1822-06-22">22
+               juin 1822</date>, à laquelle il est fait allusion ci-dessous. Elle était relative à
+               l'hypothèse des courants terrestres d'<persName>Ampère</persName> (courants électriques se mouvant d'est
+               en ouest à la surface du globe) et à sa découverte qu'un fil conducteur plié en
+               rectangle et qui peut se mouvoir librement autour d'un axe vertical se fixe toujours
+               dans une situation telle que son plan devienne perpendiculaire au méridien magnétique
+               et que son courant se meuve de l'est à l'ouest dans la partie inférieure de ce
+               rectangle.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) <persName ref="#pers_L1266">G. De la Rive</persName> supposait qu'en supprimant le barreau inférieur du
+               rectangle conducteur, l'action du courant terrestre sur le barreau supérieur, où le
+               courant circulait d'ouest en est, devait amener celui-ci à se retourner, ce que
+               l'expérience ne démontrait pas.</note>
+            <note resp="#CGA" xml:id="corresp3">(3) Allusion à la découverte, faite à l'automne <date when-iso="1821">1821</date>
+               par <persName ref="#pers_F239">Michael Faraday</persName>, de la rotation continue d'un aimant autour d'un courant, puis
+               d’un conducteur autour d’un pôle magnétique.</note>
+            <note resp="#CGA" xml:id="corresp4">(4) Dans sa lettre du <date when="1822-06-22">22 juin 1822</date>,
+               publiée dans les <title>Annales de Chimie et de Physique</title>, t. 20, pp. 269-275 (<date when-iso="1822-07">juil. 1822</date>).</note>
+            <note resp="#CGA" xml:id="corresp5">(5) <persName ref="#pers_P1604">Nicolas Constant Pixii</persName> (<date from-iso="1776" to-iso="1861">1776-1861</date>), neveu et successeur en <date when-iso="1815">1815</date> des frères
+               <persName ref="#pers_D215">
+            <choice>
+              <sic>Dumotiez</sic> <corr>[Dumotier]</corr>
+            </choice>
+          </persName>.</note>
+            <note resp="#CGA" xml:id="corresp6">(6) Le physicien <persName ref="#pers_P465">Claude-Servais Pouillet</persName> (1791-1868) publiera à
+               son tour un mémoire «Sur les phénomènes électromagnétiques» dans les <title>Annales de
+               Chimie et de Physique</title>, t. 21, <date when-iso="1822">1822</date>. En mettant au point des galvanomètres capables de
+               mesurer de faibles courants, il pourra vérifier la loi d'<persName>Ohm</persName> avec une grande
+               précision (<date when-iso="1839">1839</date>).</note>
+            <note resp="#CGA" xml:id="corresp7">(7) La lettre du <date when="1822-06-12">12 juin 1822</date>.</note>
+            <note resp="#CGA" xml:id="corresp8">(8) <persName>Ampère</persName> passera effectivement à
+               <placeName>Genève</placeName> dans les premiers jours de <date when-iso="1822-09">septembre 1822</date>, réalisant notamment trois
+               expériences électromagnétiques avec x<persName ref="#pers_L1266">Gaspard De la Rive</persName>, et surtout avec son fils
+               <persName ref="#pers_L333">Auguste</persName>. Ces trois expériences feront l'objet d'un mémoire présenté par <persName ref="#pers_L333">Auguste De la
+               Rive</persName> à la <orgName>Société de Physique</orgName> le <date when="1822-09-04">4 septembre 1822</date>.</note>
+            <note resp="CAK_commentaire">Cette édition laisse apparaître plusieurs coupures et une
+               date erronée.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

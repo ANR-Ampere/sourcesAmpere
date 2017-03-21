@@ -1,0 +1,231 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 402</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1811-12-10-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 393-394</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L402</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L402manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 340</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Quatre pages in-4°, adresse sur la quatrième.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1811-12-10">10
+                        décembre 1811</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Bredin, Claude-Julien</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1811-12-10-a">
+      <body>
+         <div xml:id="L1811-12-10-a-div1">
+            <opener>
+          <date when="1811-12-10">[Vers le 10 décembre 1811]</date>
+        </opener>
+            <p xml:id="L1811-12-10-a-p1">
+          <pb n="69" facs="#ACAS_CRHST_AMP_24_340_0069_r.jpg"/>Mon ami, je suis navré de chagrin. C'est à présent que la vie m'est tout à fait
+               insupportable. Je sens dans le corps les peines de mon âme. Je te le dirai parce que
+               c'est vrai, parce que, toi, tu le comprendras ; personne autre ne le concevrait : une
+               des choses qui m'oppressent le plus est de ne t'avoir pas écrit aussi souvent que
+               j'ai reçu de tes lettres. Au lieu de cela, j'en ai trois, trois auxquelles je n'ai
+               pas répondu ! Un autre que toi ne sentirait pas tout ce qu'il y a de peine dans mon
+               cœur pour expliquer mon silence.</p>
+            <p xml:id="L1811-12-10-a-p2">Il faut bien te le dire, c'est pour avoir voulu
+               t'écrire que je souffre indiciblement depuis huit jours. Je voulais te peindre toutes
+               mes pensées, toutes mes agitations ; tant de choses étaient à la fois présentes à mon
+               esprit, que tout m'était confus. Pas une expression pour rendre la moindre de mes
+               pensées ! Alors te le dirais-je ? Tout se bouleversa pour moi et me remit dans la
+               situation d'esprit où j'étais peu de temps avant de venir à <persName>Paris</persName>. J'ouvris un livre
+                  que j'ouvrais souvent alors.
+               Rien ne peut m'expliquer la singularité du passage sur lequel<pb n="70" facs="#ACAS_CRHST_AMP_24_340_0070_v.jpg"/> je tombai. Il se
+               rapportait tellement à tout ce qui s'était passé en moi depuis que mon existence est
+               ce qu'elle est actuellement, qu'il me fût impossible de n'y pas voir, dans le premier
+               moment, et même pendant plusieurs jours, quelque chose de surnaturel. Ce que je
+               souffris après avoir lu ce passage si étonnant ne peut se rendre. Quelque effort que
+               je fisse pour m'occuper uniquement de ce qui s'offrait alors à ma pensée et rester
+               chez moi, il me fut impossible de le faire. Ne sachant à qui m'adresser, je fus chez
+               <persName ref="#pers_L357">Lenoir</persName> ; il n'y était pas.</p>
+            <p xml:id="L1811-12-10-a-p3">Je voulus rentrer, reprendre ces réflexions. Qui sait
+               jusqu'où elles m'auraient entraîné dans la route où tu voudrais me voir ? Mais je
+               voulus d'abord respirer. Je fus sur le quai ; le hasard, la providence ou le démon
+               m'y fit rencontrer <persName ref="#pers_L357">Lenoir</persName>. Alors tout changea pour quelques moments, je lui parlais
+               de ce que je venais d'éprouver. L'impression s'affaiblit en la lui racontant. Nous
+               fûmes ensemble à la leçon que <persName ref="#pers_G259">Gall</persName> faisait ce soir-là à l'<orgName>Athénée de<pb n="71" facs="#ACAS_CRHST_AMP_24_340_0071_r.jpg"/> <placeName>Paris</placeName>
+          </orgName>. Depuis,
+               j'ai redouté tellement ces affreuses pensées que je n'ai même osé t'en écrire. Jamais
+               je n'ai passé une semaine plus triste. Je le fais aujourd'hui, il me semble que cela
+               diminue cette sorte d'angoisse qui me poursuit. Mais à quoi suis-je réservé ? Que
+               maudit soit à jamais le jour où j'ai quitté <persName ref="#pers_B94">Bredin</persName> et <placeName>Lyon</placeName> !</p>
+            <p xml:id="L1811-12-10-a-p4">Je ne puis répondre à
+               tout ce que tu me demandes. Je te récrirai bientôt. Ah, je l'espère du moins ;
+               écris-moi, je t'en prie. J'ai à te dire que <persName>Mme Duquet</persName> m'a remis : Pour ton
+               père......... 185. 10<lb/>
+               Pour toi .................. 333.00<lb/>
+               Total........................ 518.10</p>
+            <p xml:id="L1811-12-10-a-p5">Marque-moi combien je te reste devoir ! Ma sœur te
+               prie de mettre sa toile, si tu l'as comme on me l'a écrit, aux rouliers, après
+               l'avoir fait emballer d'une manière sûre. Tu me parles d'un calice pour lequel il
+               faut un reçu de moi ; fais-le faire par <persName>Ballanche</persName> en vertu d'une procuration générale
+               que je lui ai faite par devant notaire. Dispose de tout cela comme pour toi-même ; je
+               n'ai<pb n="72" facs="#ACAS_CRHST_AMP_24_340_0072_v.jpg"/> pas l'esprit assez libre pour m'occuper de tout cela. Viens au secours de ma
+               nullité ! Je te remercie bien d'avoir sauvé les tableaux. Adieu, mon bon ami. Tout ce
+               que tu feras pour moi, je l'approuve d'avance et t'en remercie. Parle donc de moi à
+               <persName ref="#pers_A7">d'Ambérieux</persName> et à <persName ref="#pers_J318">Camille</persName> ! Pensez un peu à moi  ! Dis à <persName>Ballanche</persName> pourquoi je ne puis
+               lui écrire ! De plus, mon cours à l'école m'absorbe tous mes moments et me fait
+               souvent passer les nuits à chercher des choses que je savais autrefois, et que je ne
+               puis plus retrouver. Tu sais si je t'embrasse.
+        </p>
+            <closer>A monsieur <persName>Bredin fils</persName>professeur à l'<orgName>École vétérinaire</orgName>, près des portes de <placeName>Vaise</placeName>, à <placeName>Lyon</placeName> (<placeName>Rhône</placeName>)
+            </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1811-12-10-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4°, adresse sur la quatrième. Le livre en
+               question doit être <title>l’Imitation</title>.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

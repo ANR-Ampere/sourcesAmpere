@@ -1,0 +1,1368 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 1176</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+               <forename>André-Marie</forename>
+               <surname>Ampère</surname>
+            </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1795-08-31-a">
+                  <country>USA</country>
+                  <settlement>Ithaca (NY)</settlement>
+                  <institution>Cornell University Library</institution>
+                  <repository>Ampère collection</repository>
+               <altIdentifier>
+              <idno type="old">L1176</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+               
+               <physDesc>
+                  <handDesc>
+                     <handNote corresp="#AMA">
+                        <name type="person" key="Ampère, André-Marie (1775-1836)">
+                           <forename>André-Marie</forename>
+                           <surname>Ampère</surname>
+                        </name>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_A366">
+                       <surname>Ampère</surname>
+                       <forename>André-Marie</forename>
+                     </persName>
+          <date when-iso="1795-08-31">31 août 1795</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_C162">
+                     <surname>Couppier</surname>
+                     <forename>Jean-Stanislas, dit Couppier Viry</forename>
+                     </persName>
+        </correspAction>
+      </correspDesc>
+         <creation>
+            <date when="2015-01">janvier 2015</date>
+            <name>Philippe Pons</name>
+         </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile xml:id="images_L1795-08-31-a" corresp="#ampere_corr_L1795-08-31-a">
+      <graphic url="Cornell_Ampere_L1176_1.jpg"/>
+      <graphic url="Cornell_Ampere_L1176_2.jpg"/>
+      <graphic url="Cornell_Ampere_L1176_3.jpg"/>
+      <graphic url="Cornell_Ampere_L1176_4.jpg"/>
+      <graphic url="Cornell_Ampere_L1176_5.jpg"/>
+      <graphic url="Cornell_Ampere_L1176_6.jpg"/>
+      <graphic url="Cornell_Ampere_L1176_7.jpg"/>
+      <graphic url="Cornell_Ampere_L1176_8.jpg"/>
+      <graphic url="Cornell_Ampere_L1176_9.jpg"/>
+      <graphic url="Cornell_Ampere_L1176_10.jpg"/>
+      <graphic url="Cornell_Ampere_L1176_11.jpg"/>
+      <graphic url="Cornell_Ampere_L1176_12.jpg"/>
+      <graphic url="Cornell_Ampere_L1176_13.jpg"/>
+      <graphic url="Cornell_Ampere_L1176_14.jpg"/>
+      <graphic url="Cornell_Ampere_L1176_15.jpg"/>
+      <graphic url="Cornell_Ampere_L1176_16.jpg"/>
+   </facsimile>
+   <text decls="#ampere_corr_L1795-08-31-a" type="correspondance">
+      <body>
+         <div xml:id="L1795-08-31-a-div1">
+            <opener>
+          <pb n="1" facs="#Cornell_Ampere_L1176_1.jpg"/> À
+               <placeName>Poleymieux</placeName>, ce
+               <date when="1795-08-31">lundi 31 août <supplied>1795</supplied>
+          </date>
+          <ref target="#L1176_CAK1">*</ref>
+        </opener>
+            <p xml:id="L1795-08-31-a-p1">Je ne sais pas, Monsieur, <supplied>ce</supplied> qui peut vous donner<lb/> la
+               crainte de m'assommer, comme vous dites.<lb/> Vous devez bien penser que c'est mon
+               plus<lb/> grand plaisir que de recevoir vos lettres et<lb/> que, plus vous me ferez
+               de questions, plus je<lb/> pourrai vous entretenir longtemps. Il y a bien<lb/> autant
+               à gagner pour moi que pour vous<lb/> dans cet agréable commerce. Votre modestie<lb/>
+               seule a pu vous faire oublier la théorie<lb/> du mouvement du vent dans
+               l'entonnoir,<lb/> celle du mouvement du moulin à
+               vent<ref target="#L1176_CAK2">*</ref>, et<lb/> tant d'autres où vous seul m'avez
+               remis<lb/> dans le bon chemin. Puisque nous nous<lb/> occupons des mêmes matières, la
+               gloire doit<lb/> en être partagée avec l'égalité qu'exige<lb/> l'amitié. Je pense que
+               la petite différence<lb/> dont vous faites tant de bruit ne vient<lb/> que du <choice>
+                  <sic>hazard</sic>
+                  <corr>hasard</corr>
+               </choice> qui a rempli votre<lb/> bibliothèque d'ouvrages, <choice>
+                  <sic>excellens</sic>
+                  <corr>excellents</corr>
+               </choice> certainement,<lb/> mais dont les auteurs étaient venus avant<lb/>
+               l'invention des méthodes générales trouvées<lb/> récemment par M.
+               <persName ref="#pers_D1222">d'Alembert</persName>, <persName ref="#pers_L338">Lagrange</persName>,<lb/> etc. que le
+               même <choice>
+                  <sic>hazard</sic>
+                  <corr>hasard</corr>
+               </choice> m'a fait connaître.<lb/> De là vient que je ne connais certainement<lb/>
+               pas si bien le détail des machines, dont<lb/> vous trouvez la pratique dans
+               <persName ref="#pers_B614">Bélidor</persName> et<lb/> les autres, expliquée bien plus amplement<lb/>
+               qu'elle ne peut l'être, dans les ouvrages destinés
+               <pb n="2" facs="#Cornell_Ampere_L1176_2.jpg"/> à la théorie. Continuons donc à nous
+               communiquer<lb/> nos connaissances et nos inventions, sans quoi<lb/> mes méthodes
+               trop éloignées de la pratique que<lb/> je n'aurais jamais connue, resteraient
+               inutiles,<lb/> et en me donnant l'occasion de m'en servir<lb/> vous me rendez bien le
+               secours dont je peux<lb/> vous être dans notre correspondance. Sans compter<lb/> que
+               la fausse <choice>
+                  <sic>aplication</sic>
+                  <corr>application</corr>
+               </choice> qu'il est si facile<lb/> d'en faire ne manque pas de trouver dans<lb/> vous
+               un censeur nécessaire et judicieux.<lb/> Il n'est pas étonnant que vous n'ayez
+               pas<lb/> compris le fondement de mes calculs que<lb/> je n'avais pas assez
+               éclairci<ref target="#L1176_CAK3">*</ref>. Quand je l'aurai<lb/> fait, je ne pense
+               pas qu'ils puissent vous<lb/> arrêter puisqu'ils ne disent rien autre<lb/> chose
+               sinon que <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>a</mi>
+                     <mi>x</mi>
+                     <mo/>
+                     <mi>x</mi>
+                     <mi>x</mi>
+                  </math>
+               </formula> est maximum<lb/> quand <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>x</mi>
+                     <mo>=</mo>
+                     <mfrac>
+                        <mi>a</mi>
+                        <mn>2</mn>
+                     </mfrac>
+                  </math>
+               </formula>, ce qui est si clair qu'on peut<lb/> très bien s'y passer du calcul
+               différentiel que<lb/> j'y ai introduit seulement pour abréger les<lb/>
+               <choice>
+                  <sic>raisonnemens</sic>
+                  <corr>raisonnements</corr>
+               </choice>. Ce fondement est que vous<lb/> supposez que tout le mouvement<lb/>
+               <figure/> passe du point b dans le corps q,<lb/> tandis que je pense qu'il n'en<lb/>
+               passe qu'une quantité plus petite<lb/> dans le rapport de cb à cq, ce<lb/> qui me
+               paraît le premier<lb/> principe du levier. Ainsi<lb/> quand vous dites que <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>b</mi>
+                     <mi>c</mi>
+                     <mo>=</mo>
+                  </math>
+               </formula>
+          <lb/>
+          <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mfrac>
+                        <mrow>
+                           <mi>a</mi>
+                           <mi>b</mi>
+                        </mrow>
+                        <mrow>
+                           <mn>1</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                        </mrow>
+                     </mfrac>
+                  </math>
+               </formula>, il est nécessaire que la vitesse que<lb/> q prend de plus que ce qu'il a
+               déjà, ne soit<lb/> que <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mfrac>
+                        <mrow>
+                           <mn>1</mn>
+                           <mn>6</mn>
+                        </mrow>
+                        <mrow>
+                           <mn>1</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                        </mrow>
+                     </mfrac>
+                  </math>
+               </formula>, en supposant la quantité de<lb/> mouvement appliquée en <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>b</mi>
+                     <mo>=</mo>
+                     <mn>1</mn>
+                     <mn>6</mn>
+                  </math>
+               </formula>. Voici <pb n="3" facs="#Cornell_Ampere_L1176_3.jpg"/> votre
+               phrase<ref target="#L1176_CAK3bis">*</ref> : la résistance au point b étant<lb/>
+               un million de fois plus grande qu'au point<lb/> q, c'est comme s'il y avait une force
+               d'un<lb/> million en b. Je ne sais pas quel auteur<lb/> vous a fourni une pareille
+               proposition<lb/> de <choice>
+                  <sic>mechanique</sic>
+                  <corr>mécanique</corr>
+               </choice>, mais son inexactitude saute<lb/> aux yeux. Qui est-ce qui ne voit pas<lb/>
+               que la pression du levier ab en b<lb/>
+               <figure n="2"/> ne fait que le même effort que<lb/> le poids <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>r</mi>
+                     <mo>=</mo>
+                     <mn>1</mn>
+                     <mn>6</mn>
+                  </math>
+               </formula>, de la fig. 2, qui<lb/> ne peut visiblement communiquer<lb/> au poids q
+               que <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mfrac>
+                        <mrow>
+                           <mn>1</mn>
+                        </mrow>
+                        <mrow>
+                           <mn>1</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                        </mrow>
+                     </mfrac>
+                  </math>
+               </formula> de sa force =<lb/>
+          <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mfrac>
+                        <mrow>
+                           <mn>1</mn>
+                           <mn>6</mn>
+                        </mrow>
+                        <mrow>
+                           <mn>1</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                        </mrow>
+                     </mfrac>
+                  </math>
+               </formula> comme je viens de dire.<lb/> Que si vous me demandez ce que deviennent<lb/>
+               <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mfrac>
+                        <mrow>
+                           <mn>9</mn>
+                           <mn>9</mn>
+                           <mn>9</mn>
+                           <mn>9</mn>
+                           <mn>8</mn>
+                           <mn>4</mn>
+                           <mo/>
+                           <mn>1</mn>
+                           <mn>6</mn>
+                        </mrow>
+                        <mrow>
+                           <mn>1</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn> 
+                        </mrow>
+                     </mfrac>
+                  </math>
+               </formula> de force perdue, je répondrai qu'elle<lb/> est détruite par l'obstacle
+               invincible c,<lb/> puisqu'après avoir pris <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>c</mi>
+                     <mi>m</mi>
+                     <mo>=</mo>
+                     <mn>1</mn>
+                     <mn>0</mn>
+                     <mn>0</mn>
+                     <mn>0</mn>
+                     <mn>0</mn>
+                     <mn>0</mn>
+                     <mn>0</mn>
+                  </math>
+               </formula>, <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>c</mi>
+                     <mi>b</mi>
+                     <mo>=</mo>
+                     <mi>c</mi>
+                     <mi>q</mi>
+                  </math>
+               </formula>, il faut<lb/> décomposer la force <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>b</mi>
+                     <mi>r</mi>
+                     <mo>=</mo>
+                     <mn>1</mn>
+                     <mn>6</mn>
+                  </math>
+               </formula> en deux autres<lb/>
+               <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>m</mi>
+                     <mi>n</mi>
+                     <mo>=</mo>
+                     <mfrac>
+                        <mrow>
+                           <mn>1</mn>
+                           <mn>6</mn>
+                        </mrow>
+                        <mrow>
+                           <mn>1</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                        </mrow>
+                     </mfrac>
+                  </math>
+               </formula> et <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>c</mi>
+                     <mi>s</mi>
+                     <mo>=</mo>
+                     <mfrac>
+                        <mrow>
+                           <mn>9</mn>
+                           <mn>9</mn>
+                           <mn>9</mn>
+                           <mn>9</mn>
+                           <mn>8</mn>
+                           <mn>4</mn>
+                           <mo/>
+                           <mn>1</mn>
+                           <mn>6</mn>
+                        </mrow>
+                        <mrow>
+                           <mn>1</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                           <mn>0</mn>
+                        </mrow>
+                     </mfrac>
+                  </math>
+               </formula>, celle-ci étant<lb/> détruite et la première passant seule dans q.<lb/>
+               Vous devez sentir maintenant que dans votre<lb/> bc infiniment petit, il n'y a aucun
+               mouvement<lb/> communiqué à q, il est tout détruit par<lb/> le point fixe c. En effet
+               ce cas est le<lb/> même que celui où l'extrémité b du<lb/> levier ab se poserait sur
+               ce point fixe, et<lb/> où tout mouvement est visiblement détruit.<lb/> Puisqu'il n'y
+               a point de mouvement communiqué<lb/> dans le cas de l'infiniment petit levier bc,
+               <pb n="4" facs="#Cornell_Ampere_L1176_4.jpg"/> il y a nécessairement un <choice>
+                  <sic>raport</sic>
+                  <corr>rapport</corr>
+               </choice> à lui donner<lb/> avec ab pour que q remonte le plus haut<lb/> possible.
+               C'est ce que j'ai déterminé dans l'autre<lb/> lettre dont je vais vous remettre le
+               calcul<lb/> sous les yeux avec de nouvelles explications.<lb/> J'y nomme a le gros
+               corps, b le petit, v <supplied>et</supplied> u<lb/> leurs vitesses après le choc
+               indépendamment des<lb/> leviers, x <supplied>et</supplied> y leurs vitesses après
+               l'action de ceux-<lb/>ci. C'est là aussi le rapport des leviers afin<lb/> qu'ils se
+               puissent toujours toucher en b, ce rapport<lb/> est l'objet de nos recherches, leur
+               grandeur<lb/> absolue étant indifférente. Il est clair alors<lb/> que le mouvement
+               perdu par le gros corps<lb/> est <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>a</mi>
+                     <mo>(</mo>
+                     <mi>v</mi>
+                     <mo/>
+                     <mi>x</mi>
+                     <mo>)</mo>
+                  </math>
+               </formula> et celui que gagne le petit <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mo>=</mo>
+                     <mi>b</mi>
+                     <mo>(</mo>
+                     <mi>y</mi>
+                     <mo/>
+                     <mi>u</mi>
+                     <mo>)</mo>
+                  </math>
+               </formula>.<lb/> Comme vous supposez que ce mouvement<lb/> se communique entièrement,
+               vous avez<lb/> supposé ces deux quantités égales, et vous avez<lb/> conclu que <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>x</mi>
+                     <mo>=</mo>
+                     <mn>0</mn>
+                  </math>
+               </formula>, quand y est à son maximum.<lb/> Mais je pense que ce mouvement ne se<lb/>
+               communiquant que dans le rapport des leviers<lb/>
+               <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>x</mi>
+                     <mo>:</mo>
+                     <mi>y</mi>
+                  </math>
+               </formula>, il faut multiplier chaque membre par<lb/> son bras de levier, ce qui
+               donne l'équation<lb/>
+               <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>a</mi>
+                     <mi>x</mi>
+                     <mo>(</mo>
+                     <mi>v</mi>
+                     <mo/>
+                     <mi>x</mi>
+                     <mo>)</mo>
+                     <mo>=</mo>
+                     <mi>b</mi>
+                     <mi>y</mi>
+                     <mo>(</mo>
+                     <mi>y</mi>
+                     <mo/>
+                     <mi>u</mi>
+                     <mo>)</mo>
+                  </math>
+               </formula> ou <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>a</mi>
+                     <mo>(</mo>
+                     <mi>v</mi>
+                     <mi>x</mi>
+                     <mo/>
+                     <msup>
+                        <mi>x</mi>
+                        <mn>2</mn>
+                     </msup>
+                     <mo>)</mo>
+                     <mo>=</mo>
+                     <mi>b</mi>
+                     <mo>(</mo>
+                     <msup>
+                        <mi>y</mi>
+                        <mn>2</mn>
+                     </msup>
+                     <mo/>
+                     <mi>u</mi>
+                     <mi>y</mi>
+                     <mo>)</mo>
+                  </math>
+               </formula>.<lb/> Pour que y soit un maximum, il faut<lb/> que le premier membre le
+               soit et qu'ainsi<lb/>
+               <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>x</mi>
+                     <mo>=</mo>
+                     <mfrac>
+                        <mi>v</mi>
+                        <mn>2</mn>
+                     </mfrac>
+                  </math>
+               </formula>, ce qui est le même résultat que<lb/> j'avais trouvé par le calcul
+               différentiel. On<lb/> en tire <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mfrac>
+                        <mrow>
+                           <mi>a</mi>
+                           <msup>
+                              <mi>v</mi>
+                              <mn>2</mn>
+                           </msup>
+                        </mrow>
+                        <mrow>
+                           <mn>4</mn>
+                        </mrow>
+                     </mfrac>
+                     <mo>=</mo>
+                     <mi>b</mi>
+                     <mo>(</mo>
+                     <msup>
+                        <mi>y</mi>
+                        <mn>2</mn>
+                     </msup>
+                     <mo/>
+                     <mi>u</mi>
+                     <mi>y</mi>
+                     <mo>)</mo>
+                  </math>
+               </formula>, éq<ex>uation</ex> qui donne la<lb/> valeur de y toujours plus petite que
+               la vitesse<lb/> initiale du petit corps. Je l'ai résolue avec<lb/> des applications
+               dans l'autre lettre, il est <pb n="5" facs="#Cornell_Ampere_L1176_5.jpg"/> inutile de
+               me répéter, vous y <choice>
+                  <sic>verrer</sic>
+                  <corr>verrez</corr>
+               </choice> en<lb/> la relisant maintenant que le corps q ne<lb/> reprend que la moitié
+               de la force qu'il<lb/> avait perdue dans le choc. Pour la lui<lb/> rendre toute
+               entière il faut supposer les<lb/> leviers élastiques mais alors le corps p est<lb/>
+               réduit au repos, et il n'y a aucun gain de<lb/> mouvement.</p>
+            <p xml:id="L1795-08-31-a-p2">Je n'ai pas compris comment<lb/>
+               <figure n="4"/> le frottement est infini quand<lb/>
+               <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>c</mi>
+                     <mi>a</mi>
+                     <mi>e</mi>
+                     <mo>=</mo>
+                     <mn>9</mn>
+                     <mn>0</mn>
+                  </math>
+               </formula>. Il est vrai que si<lb/> cette disposition se rencontrait<lb/> la machine
+               s'arrêterait. Mais<lb/> ce ne serait pas l'effet du<lb/> frottement, mais bien
+                  <supplied>celui</supplied> de la<lb/> décomposition des forces qui est nulle<lb/>
+               ici, toute la force étant butée contre<lb/>
+               <note>fig. 3</note> le point fixe c, il est clair que le<lb/> mouvement serait
+               également détruit san<supplied>s</supplied>
+          <lb/> frottement. Je vois d'ici une
+                  <del>foule de</del> question<del>s</del>
+          <lb/> qu'il faut prévenir : si cette
+               décomposition<lb/> détruit le mouvement, elle peut donc<lb/> le diminuer, et que
+               devient alors son uniformité.<lb/> À quoi je réponds que c'est l'affaire de<lb/>
+               l'épicycloïde. Elle ne donne un plus grand<lb/> levier en allongeant les dents du
+               pignon<lb/> avant le mouvement que pour la prévenir<lb/> et que votre position ne
+               peut se trouver<lb/> tant que la dent de la roue porte sur cette<lb/> courbe, ce
+               qu'elle cesse de faire si tôt qu'elle<lb/>
+               <note>fig. 4</note> touc<supplied>h</supplied>e le bout e autrement que dans la
+               tangente.<lb/> Et, en effet, au lieu de la direction er, il<lb/> faudrait prendre la
+               parallèle fs après avoir <pb n="6" facs="#Cornell_Ampere_L1176_6.jpg"/> prolongé
+               l'épicycloïde jusqu'en f, si on voulait<lb/> donc que l'angle ret fut droit
+               comme<lb/> dans la figure 3. Il faudrait que le point<lb/> f fut le sommet de
+               l'épicycloïde qui ne peut<lb/> tomber sur la ligne ae qu'au centre a<lb/> de la roue,
+               parce que le cercle générateur<lb/> de l'épicycloïde a un diamètre = au rayon<lb/> de
+               la roue. Dans ce cas, la dent du pignon<lb/> allant jusqu'au centre de la roue, la
+               force de<lb/> celle-ci aurait un bras de levier infini<lb/> et il pourrait en passer
+               une partie finie<lb/> dans le pignon, quoiqu'une partie infinie<lb/>
+               <choice>
+                  <sic>passa</sic>
+                  <corr>passât</corr>
+               </choice> dans le point fixe c où elle serait<lb/> détruite.</p>
+            <p xml:id="L1795-08-31-a-p3">Toutes ces observations m'ont porté à croire<lb/> que le frottement n'est pas plus
+               grand avant<lb/> la ligne des centres. Ce qui nous l'a fait<lb/> croire c'est
+               l'habitude de confondre son<lb/> effet, comme gênant le mouvement, avec<lb/> l'effet
+               de la décomposition des forces. En écrivant<lb/> ces derniers mots, je me suis aperçu
+               de leur<lb/> fausseté, mais ils m'ont conduit à la vraie<lb/> raison du plus grand
+               frottement en arc-<lb/>boutant. Il vient de la plus grande<lb/> pression. En effet
+               l'action se fait<lb/> suivant la normale eGm qui passe<lb/> toujours dans un certain
+               point fixe<lb/> G que vous connaissez à merveille,<lb/> et le bras de levier cm étant
+               plus<lb/> petit que CG, il s'en suit puisque<lb/> l'effort est constant, que cette
+               action<lb/> est plus grande dans ce <choice>
+                  <sic>raport</sic>
+                  <corr>rapport</corr>
+               </choice> de <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>C</mi>
+                     <mi>G</mi>
+                     <mi>c</mi>
+                     <mo>:</mo>
+                     <mi>c</mi>
+                     <mi>m</mi>
+                  </math>
+               </formula> ou<lb/> de <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>A</mi>
+                     <mi>G</mi>
+                     <mo>:</mo>
+                     <mi>A</mi>
+                     <mi>e</mi>
+                  </math>
+               </formula>, ce qui vient de ce que le bras <choice>
+                  <sic>de <pb n="7" facs="#Cornell_Ampere_L1176_7.jpg"/> de</sic>
+                  <corr>de</corr>
+               </choice> la puissance est plus court dans le même<lb/>
+               <choice>
+                  <sic>raport</sic>
+                  <corr>rapport</corr>
+               </choice>. Cette pression plus forte doit augmenter<lb/> le frottement de la seule
+               quantité qu'il puisse<lb/> l'être par l'arc-boutant. Je crois qu'à cause<lb/> de la
+               petitesse des dents, ce n'est jamais beaucoup<lb/> plus petit que aG, et qu'ainsi
+               cette différence<lb/> négligée dans mes calculs n'y peut pas apporter<lb/> une grande
+               erreur. Du reste l'effet que vous<lb/> aviez observé étant celui de la
+               décomposition<lb/> compensé par l'épicycloïde, ce serait faire<lb/> un double emploi
+               de le faire entrer dans le<lb/> calcul des résistances.</p>
+            <p xml:id="L1795-08-31-a-p4">
+          <figure/> Pour vous donner un exemple<lb/> d'engrenage jusqu'au centre<lb/> de la
+               roue, j'ai supposé une<lb/> roue à quatre<lb/> dents ab, ab,<lb/> ab, ah, menant un
+               pignon<lb/> à une seule dent hfge<lb/> où vous comprendrez que<lb/> la dent ab
+               commence à<lb/> mener celle du pignon<lb/> au point e au centre de<lb/> la roue et
+               lui fait faire un tour entier<lb/> en faisant le quart du sien,
+                  c<ex>'est</ex>-à-d<ex>ire</ex> en<lb/> prenant la place de la dent suivante<lb/>
+               ah. Ce n'est pas que je pense qu'un pareil<lb/> engrenage pût aller aussi bien qu'un
+               autre,<lb/> parce que pour peu que la dent du pignon fût<lb/> trop haute la machine
+               s'arrêterait, et que<lb/> quand même il serait à sa place, il y aurait<lb/> un effort
+               infini tendant à écarter les centres,<lb/> ce qui ne manquerait pas de faire un<lb/>
+               soubresaut dans l'engrenage.</p>
+            <p xml:id="L1795-08-31-a-p5">
+          <pb n="8" facs="#Cornell_Ampere_L1176_8.jpg"/> Pour faire réussir cet engrenage qui
+               ne<lb/> va qu'avant la ligne des centres, il faudrait<lb/> le faire aller en partie
+               après, en ajoutant<lb/> à la dent ah une épicycloïde hl pour agir<lb/> sur le rayon
+               ch, tandis qu'on <choice>
+                  <sic>suprimerait</sic>
+                  <corr>supprimerait</corr>
+               </choice>
+          <lb/> une partie telle que ge de l'autre épicycloïde.<lb/> L'avantage de cet
+               engrenage assez singulier<lb/> serait de démontrer par l'expérience<lb/> l'égalité du
+               mouvement du pignon épicycloïdal<lb/> mieux que tout autre engrenage.</p>
+            <p xml:id="L1795-08-31-a-p6">J'ai envie de l'essayer si je peux, d'autant plus<lb/> que l'épicycloïde sera
+               d'autant plus aisée à<lb/> construire exactement que le cercle roulant<lb/> étant
+               double du cercle roulé (voilà des mots<lb/> à la révolution), pour avoir des arcs du
+                  pr<ex>emier</ex> égaux<lb/> aux arcs roulés du 2<hi rend="sup">d</hi>, il suffit
+               de prendre<lb/> des moitiés d'arcs semblables. Et<lb/>
+               <figure/> quant à la roue, j'ai imaginé<lb/> une figure<lb/> de quatre<lb/> pièces de
+               bois emmortaisées<lb/> comme ici, où les faces qui<lb/> doivent conduire le
+               pignon<lb/> sont dirigées juste au centre<lb/> c, de manière qu'il y reste<lb/> en
+               même temps un trou<lb/> carré pour l'axe.</p>
+            <p xml:id="L1795-08-31-a-p7">Il me paraît aussi clair qu'à<lb/> vous que le frottement des lanternes est plus<lb/>
+               grand que celui des pignons.</p>
+            <p xml:id="L1795-08-31-a-p8">Votre machine me semble très bien inventée<lb/> mais si je m'avisais d'en chercher
+               les dimensions<lb/> je ressemblerais à <persName>Gros Jean</persName>, car comme
+               je<lb/> vous ai dit, vous êtes mon maître dans tout
+               <pb n="9" facs="#Cornell_Ampere_L1176_9.jpg"/> ce qui regarde la pratique. Vous avez
+               fait d'autres<lb/> machines, je n'en ai jamais fait qui <choice>
+                  <sic>ayent</sic>
+                  <corr>aient</corr>
+               </choice> réussi<lb/> et vous savez beaucoup mieux calculer que<lb/> moi toutes les
+               résistances, <choice>
+                  <sic>frottemens</sic>
+                  <corr>frottements</corr>
+               </choice> etc.</p>
+            <p xml:id="L1795-08-31-a-p9">Voyons vos questions : dans celle sur les <choice>
+                  <sic>volans</sic>
+                  <corr>volants</corr>
+               </choice>
+          <ref target="#L1176_CAK4">*</ref>,<lb/>
+               <figure/> si vous supposez que la vitesse<lb/> imprimée est la même dans<lb/> la
+               machine en général, il est<lb/> clair que la vitesse du <choice>
+                  <sic>volan</sic>
+                  <corr>volant</corr>
+               </choice> hh<lb/> est 1 000 fois plus petite que celle<lb/> de gg, mais sa masse
+               étant 1 000<lb/> fois plus grande, ce qui donne la<lb/> même quantité de mouvement à
+               communiquer<lb/> à la machine pour soutenir le sien. Mais il est<lb/> clair que cette
+               même quantité de mouvement<lb/> ne peut faire, étant appliquée en b, que la
+               millième<lb/> partie de ce qu'elle peut faire en a, puisque<lb/> vous savez à
+               merveille que pour communiquer<lb/> le même mouvement à la machine il en faut<lb/> 1
+               000 fois plus en b qu'en a. Il est donc clair<lb/> qu'il faudrait que le <choice>
+                  <sic>volan</sic>
+                  <corr>volant</corr>
+               </choice> hh fût 1 000 000<lb/> fois plus grand que gg afin que sa quantité<lb/> de
+               mouvement fût 1 000 fois plus grande et pût<lb/> faire le même effet dans une place 1
+               000 fois<lb/> plus défavorable.</p>
+            <p xml:id="L1795-08-31-a-p10">Nous voici dans la conservation des forces vives<lb/> puisque dans cette supposition
+               la force vive<lb/> est la même dans les deux <choice>
+                  <sic>volans</sic>
+                  <corr>volants</corr>
+               </choice>, ce qui confirme<lb/> encore ce que je vous ai dit qu'elle avait
+               toujours<lb/> lieu dans le mouvement communiqué ou perdu<lb/> insensiblement, ce qui
+               me donne l'occasion de vous<lb/> parler de cette théorie dont j'aurai besoin
+               dans<lb/> la question suivante.</p>
+            <p xml:id="L1795-08-31-a-p11">Du <choice>
+                  <sic>tems</sic>
+                  <corr>temps</corr>
+               </choice> de <persName ref="#pers_D615">Desaguillers<ref xml:id="pers_D615"/>
+          </persName> le<supplied>s</supplied>
+               <choice>
+                  <sic>méchaniciens</sic>
+                  <corr>mécaniciens</corr>
+               </choice> prenaient<lb/> parti sur cette question et voilà pourquoi il
+               <pb n="10" facs="#Cornell_Ampere_L1176_10.jpg"/> l'a traitée. Depuis que M.
+               <persName ref="#pers_D1222">d'Alembert</persName> a montré<lb/> que, de quelque manière qu'on comptât
+               la force,<lb/> on parvenait au même résultat pourvu qu'on<lb/> raisonnât
+               conséquemment à sa définition, les<lb/> géomètres n'ont plus traité cette question
+               que<lb/> d'une question de mots. Et ils sont tous convenus<lb/> que la somme des
+               masses par les carrés des<lb/> vitesses fait toujours une somme constante, dans
+               tous<lb/> les cas dont je vous ai parlé, qui renferment toutes<lb/> les machines <choice>
+                  <sic>immaginables</sic>
+                  <corr>imaginables</corr>
+               </choice>, les <choice>
+                  <sic>mouvemens</sic>
+                  <corr>mouvements</corr>
+               </choice> des fluides,<lb/> celui des planètes etc., ce qui ne peut pas
+               démontrer<lb/> que ce soit de cette manière qu'il faille mesurer<lb/> les forces,
+               puisque ce mot n'indique point que<lb/> sa quantité <choice>
+                  <sic>doivent</sic>
+                  <corr>doive</corr>
+               </choice> être constante, ce qui est<lb/> tout au plus une convenance <choice>
+                  <sic>metaphisique</sic>
+                  <corr>métaphysique</corr>
+               </choice>. Quand<lb/> la question est réduite à ce point, le <choice>
+                  <sic>metaphisicien</sic>
+                  <corr>métaphysicien</corr>
+               </choice>
+          <lb/> s'en saisit pour savoir ce qui est le plus convenable<lb/> d'exprimer
+               par le mot force. Je vais suivre ses<lb/> expériences et ses <choice>
+                  <sic>raisonnemens</sic>
+                  <corr>raisonnements</corr>
+               </choice> parce qu'ils peuvent<lb/> seuls répondre à votre seconde
+               question<ref target="#L1176_CAK5">*</ref>.</p>
+            <p xml:id="L1795-08-31-a-p12">
+          <figure/> Voici ceux dont <persName ref="#pers_L354">Leibnitz</persName> se servait<lb/> pour <choice>
+                  <sic>apuyer</sic>
+                  <corr>appuyer</corr>
+               </choice> sa thèse. Si le corps<lb/> A (fig. <gap reason="lacune"/>) venant <choice>
+                  <sic>fraper</sic>
+                  <corr>frapper</corr>
+               </choice> le ressort<lb/> B et le ferme d'une certaine<lb/> quantité, par
+                  ex<ex>emple</ex> un pouce, avant<lb/> de perdre sa force, le même corps<lb/>
+               venant avec une vitesse double en fermera<lb/> quatre C, D, E, F, chacun d'un pouce,
+               ce qui<lb/> fera un effet de quatre pouces et par conséquent<lb/> comme le carré de
+               la vitesse. La force des corps<lb/> en mouvement doit donc se mesurer par ce
+               carré.<lb/> Mais il faut observer 1° qu'il ne faut visiblement<lb/> pas plus de force
+               pour tenir les 4 ressorts pliés<lb/> chacun d'un <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mfrac>
+                        <mn>1</mn>
+                        <mn>2</mn>
+                     </mfrac>
+                  </math>
+               </formula>, d'un <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mfrac>
+                        <mn>1</mn>
+                        <mn>4</mn>
+                     </mfrac>
+                  </math>
+               </formula>, etc. de pouce que pour en tenir<lb/> un seul, la réaction étant la
+               même. D'où il suit <pb n="11" facs="#Cornell_Ampere_L1176_11.jpg"/> que le corps A ne
+               trouve pas plus de résistance,<lb/> à chaque instant de son mouvement, à plier<lb/>
+               un ressort ou 4, en prenant les <choice>
+                  <sic>instans</sic>
+                  <corr>instants</corr>
+               </choice>
+               <choice>
+                  <sic>correspondans</sic>
+                  <corr>correspondants</corr>
+               </choice>
+          <lb/> de flexion égale. Mais cette résistance dure plus<lb/> longtemps dans
+               le second cas et c'est pourquoi elle<lb/> détruit plus de mouvement. Cependant
+               comme<lb/> l'espace que le corps doit parcourir est quadruple,<lb/> et sa vitesse
+               double, et que par conséquent le<lb/> temps de fermer les quatre ressorts n'est
+               que<lb/> double, il est clair que la résistance totale<lb/> ne sera que double,
+               puisque c'est la même<lb/> résistance à chaque instant d'un temps double. On<lb/>
+               voit donc que quoiqu'il y ait quatre ressort<supplied>s</supplied>,<lb/> il ne font
+               qu'une double résistance, d'où la<lb/> question est réduite à savoir lequel est
+               le<lb/> plus convenable de mesurer la force par le<lb/> nombre des obstacles vaincus
+               ou seulement par<lb/> la résistance qu'ils opposent. Cela me semble<lb/> bientôt
+               décidé. Le nombre n'y fait rien, la<lb/> résistance vaincue par une force peut
+               seule<lb/> servir à la mesurer. Donc puisque quatre ressorts<lb/> ne font qu'une
+               double résistance quand la masse<lb/> est la même <choice>
+                  <sic>est</sic>
+                  <corr>et</corr>
+               </choice> la vitesse double, la quantité<lb/> de mouvement ne doit être
+                  compté<supplied>e</supplied> que double,<lb/> et la nouvelle mesure de la force ne
+               peut<lb/> qu'obscurcir la <choice>
+                  <sic>mechanique</sic>
+                  <corr>mécanique</corr>
+               </choice>. Mais tout en<lb/>
+               <choice>
+                  <sic>rejettant</sic>
+                  <corr>rejetant</corr>
+               </choice> cette mesure, il faut convenir de la<lb/> justesse de l'expérience de
+               <persName ref="#pers_L354">Leibnitz</persName> et de la vérité<lb/> de la conservation de la somme des
+               carrés des<lb/> vitesses multipliées par les masses.</p>
+            <p xml:id="L1795-08-31-a-p13">Reprenons maintenant la question de la terre<lb/>
+               <choice>
+                  <sic>glaize</sic>
+                  <corr>glaise</corr>
+               </choice> de <persName ref="#pers_D615">Desaguillers<ref xml:id="pers_D615"/>
+          </persName>. La terre <choice>
+                  <sic>glaize</sic>
+                  <corr>glaise</corr>
+               </choice> doit<lb/> résister par deux causes, par l'inertie et par<lb/> l'adhérence
+               de ses molécules. Si la première raison<lb/> était la seule, comme il semble que vous
+               l'avez <pb n="12" facs="#Cornell_Ampere_L1176_12.jpg"/> cru, votre expérience serait
+               ridicule, comme vous<lb/> l'avez très bien montré. Mais il en est autrement<lb/> par <choice>
+                  <sic>raport</sic>
+                  <corr>rapport</corr>
+               </choice> à l'adhérence. Supposons que AB entrant<lb/> dans la glaise ne fait que
+               ranger de chaque<lb/> côté ses molécules qui ne résistent que par leur<lb/>
+               <figure/> adhérence, et pas plus à une grande<lb/> vitesse qu'à une petite. Comme
+               le<lb/> frottement qui est indépendant de la<lb/>
+               vitesse<ref target="#L1176_CAK6">*</ref>, il est clair qu'il faudra d'autant
+               plus<lb/> de temps pour arrêter le corps avec cette résistance<lb/> constante qu'il a
+               plus de quantité de mouvement<lb/> c<ex>'est</ex>-à-d<ex>ire</ex> de vitesse, et que
+               pendant ce <choice>
+                  <sic>tems</sic>
+                  <corr>temps</corr>
+               </choice>, il<lb/> décrira un espace <choice>
+                  <sic>proportionel</sic>
+                  <corr>proportionnel</corr>
+               </choice> au carré de la<lb/> vitesse, comme le dit <persName ref="#pers_D615">Desaguillers<ref xml:id="pers_D615"/>
+          </persName>
+               et l'<title>Encyclopédie</title>,<lb/> ainsi que je le vis l'autre jour.</p>
+            <p xml:id="L1795-08-31-a-p14">Mais je ne puis vous assurer que cela réussisse<lb/> exactement à cause de l'inertie
+               des molécules, qui<lb/> à la vérité est très petite et d'autant plus<lb/> que le
+               corps AB est étroit et la terre dure,<lb/> et aussi parce qu'il n'est pas prouvé que
+               la<lb/> résistance, comme le frottement, soit indépendante<lb/> de la vitesse. Au
+               reste c'est de toutes les expériences<lb/> la plus facile à vérifier puisqu'il s'agit
+               de<lb/> laisser tomber une canne des fenêtres d'une<lb/> maison, tantôt au premier,
+               tantôt au grenier,<lb/> et d'examiner si ses trous sont <choice>
+                  <sic>proportionels</sic>
+                  <corr>proportionnels</corr>
+               </choice>
+          <lb/> aux hauteurs des chutes, qui sont elles-mêmes<lb/> comme les carrés
+               des vitesses.<lb/>
+               <figure/> Je ne sais pas ce qui vous porte<lb/> à croire que dans l'entonnoir<lb/> du
+               tube de M. <persName ref="#pers_P616">Pitot</persName> le fluide a<lb/> plus d'aisance à couler vers g
+               et h<lb/> que vers i<ref target="#L1176_CAK7">*</ref>. Il me semble que<lb/>
+               l'impulsion du fluide est la même<lb/> sur tous les points de l'ouverture gh,
+               excepté<lb/> qu'elle est un peu plus forte vers h que vers g,
+               <pb n="13" facs="#Cornell_Ampere_L1176_13.jpg"/> et même vers i à cause que l'eau y
+               est pressée<lb/> et accélérée par les colonnes supérieures. Mais<lb/> aussi la
+               colonne d'eau prise dans l'entonnoir<lb/> jusqu'à celle de l'eau du tube est plus
+               grande<lb/> précisément de la même quantité, ce qui ne peut<lb/> produire qu'un
+               équilibre parfait.</p>
+            <p xml:id="L1795-08-31-a-p15">Ce que dit <persName ref="#pers_D615">Desaguillers<ref xml:id="pers_D615"/>
+          </persName> du mouvement du<lb/> pendule dans un
+               fluide est entièrement<lb/> opposé à tous les principes de <choice>
+                  <sic>mechanique</sic>
+                  <corr>mécanique</corr>
+               </choice>
+          <ref target="#L1176_CAK8">*</ref>,<lb/> et j'ai vu aux leçons de
+               l'<orgName>Oratoire</orgName> que donnait<lb/> M<hi rend="sup">r</hi>.
+               <persName ref="#pers_M394">Mollet</persName>, le pendule simple se mouvoir<lb/> bien plus lentement
+               dans l'eau que dans l'air.<lb/> Votre comparaison n'est pas raison, pour parler<lb/>
+               par proverbes. Rien ne <supplied>se</supplied> ressemble moins qu'un<lb/>
+               mathématicien et une laveuse d'écuelles<ref target="#L1176_CAK9">*</ref>. Et il<lb/>
+               n'y en a <supplied>pas</supplied> moins de mérite à avoir si bien réussi<lb/> dans
+               une entreprise aussi délicate. J'ai réussi<lb/> dans une entreprise pareille mais
+               moins<lb/> merveilleuse. J'ai lavé dans l'eau à deux<lb/> reprises un petit livre
+               imprimé en <date when="1627">1627</date>, et qui grâce au temps était couvert
+               d'une<lb/> poussière jaunâtre attachée au papier. Tout<lb/> le monde se moqua de moi,
+               mais le livre<lb/> est sorti très blanc de cette opération<lb/> et le serait encore
+               plus si je l'avais lavé<lb/> une troisième <supplied>fois</supplied> comme j'en avais
+               envie. Vous<lb/> voyez que je charge ces lettres de bien<lb/> minutieux détails, mais
+               c'est pour que vous en<lb/> fassiez de même et que vous me donniez<lb/> des nouvelles
+               de vos deux nouveaux écoliers<lb/>
+               <choice>
+                  <sic>descendans</sic>
+                  <corr>descendants</corr>
+               </choice> de <persName ref="#pers_B1098">Bucéphale</persName>
+          <ref target="#L1176_CAK10">*</ref>.
+                  Il<supplied>s</supplied> m'intéressent depuis<lb/> qu'ils vous amusent.</p>
+            <p xml:id="L1795-08-31-a-p16">La seule résistance de l'air suffirait pour arrêter<lb/> l'horloge sans <choice>
+                  <sic>échapement</sic>
+                  <corr>échappement</corr>
+               </choice>, et même sans frottement,<lb/> dès qu'<choice>
+                  <sic>il</sic>
+                  <corr>elle</corr>
+               </choice> serait parvenu<supplied>e</supplied> à une certaine<lb/>
+               vitesse<ref target="#L1176_CAK11">1</ref>. Vous savez que les tourne-broches
+               <pb n="14" facs="#Cornell_Ampere_L1176_14.jpg"/> n'ont pas d'autres régulateurs.
+               Quant au meilleur<lb/>
+               <choice>
+                  <sic>echapement</sic>
+                  <corr>échappement</corr>
+               </choice>, je n'en sais pas plus que vous, la<lb/> pratique seule peut l'apprendre.
+               L'<title>Encyclopédie</title> qui nous a appris <choice>
+                  <sic>ceux</sic>
+                  <corr>ce</corr>
+               </choice> que nous connaissons<lb/> donne la préférence, pour les horloges, à celui
+               à<lb/> deux verges, <figure/> je <choice>
+                  <sic>supose</sic>
+                  <corr>suppose</corr>
+               </choice> que ce n'est pas<lb/> sans raison.</p>
+            <p xml:id="L1795-08-31-a-p17">J'ai lu ce que vous m'aviez écrit
+               énigmatiquement<ref target="#L1176_CAK12">*</ref>.<lb/> Tout venait de ma faute. En
+               le recopiant,<lb/> j'avais mis par inadvertance d pour h dans<lb/> oh. Cela seul
+               m'avait <choice>
+                  <sic>jetté</sic>
+                  <corr>jeté</corr>
+               </choice> dans l'<choice>
+                  <sic>embaras</sic>
+                  <corr>embarras</corr>
+               </choice>, j'en<lb/> suis sorti dès que je suis retourné à votre<lb/> lettre. Et le
+               peu de succès des tentatives de<lb/> certaines gens dans votre commune m'a fait<lb/>
+               grand plaisir.</p>
+            <p xml:id="L1795-08-31-a-p18">J'en aurai un bien plus grand quand les affaires<lb/> qui vous retiennent étant
+               terminées, vous pourrez<lb/> revenir à <placeName>Lyon</placeName>, et en passant
+               remplir l'espérance<lb/> que vous me faites concevoir de vous reposer<lb/> à
+               <placeName>Poleymieux</placeName>. L'amitié aura soin de vous y<lb/> offrir tout ce
+               qui pourra vous délasser des<lb/> fatigues du voyage, et vous y goûterez le
+               plaisir<lb/> de voir un cœur satisfait.</p>
+            <p xml:id="L1795-08-31-a-p19">Comme vous me dites que vous n'aurez plus<lb/> de livres de
+               mathématiques <ref target="#L1176_CAK13">*</ref>, j'ai pensé que mes<lb/> lettres,
+               en occupant votre loisir, pourrai<supplied>en</supplied>t un peu<lb/> y <choice>
+                  <sic>supléer</sic>
+                  <corr>suppléer</corr>
+               </choice>. C'est pour <supplied>cela que</supplied> je vais vous faire une<lb/>
+               proposition qui n'aura lieu qu'au cas qu'elle puisse<lb/> vous plaire, c'est de
+               prendre ensemble La <choice>
+                  <sic>mechanique</sic>
+                  <corr>
+              <title>Mécanique</title>
+            </corr>
+               </choice>
+          <lb/> que je regarde comme le
+               chef-d'œuvre des mathématiques<lb/> et d'en former ensemble un corps lié où nous<lb/>
+               éclaircirons tous nos doutes. Vous me communiquerez<lb/> les idées de tant de
+               machines dont je n'ai jamais<lb/> entendu parler, je vous ferai part en
+               récompense<lb/> des méthodes générales dont je me sers. Elles sont
+               <pb n="15" facs="#Cornell_Ampere_L1176_15.jpg"/> présentées dans leurs auteurs avec
+               des calculs souvent<lb/>
+               <choice>
+                  <sic>effrayans</sic>
+                  <corr>effrayants</corr>
+               </choice> par leur longueur, mais il est très<lb/> facile de les en débarrasser, et
+               je crois pouvoir<lb/> mettre les <choice>
+                  <sic>fondemens</sic>
+                  <corr>fondements</corr>
+               </choice> de la <choice>
+                  <sic>mechanique</sic>
+                  <corr>mécanique</corr>
+               </choice>
+               <choice>
+                  <sic>analitique</sic>
+                  <corr>analytique</corr>
+               </choice>,<lb/> qui est à mon avis une des plus belles inventions<lb/> de l'esprit
+               humain, à la portée de tout le monde.<lb/> En sorte qu'avec les premières notions du
+               calcul<lb/> différentiel seulement, on pourrait résoudre<lb/> en se jouant et par une
+               marche toujours<lb/> la même, tout ce qu'il y a de plus difficile<lb/> dans la
+               statique. Ne vous effrayez pas de cette<lb/> entreprise, elle est infiniment plus
+               facile que<lb/> toutes les questions dont nous nous sommes occupés<lb/> jusqu'à
+               présent. Voici la proposition fondamentale<lb/> de toute cette théorie.
+               <figure/>
+          <lb/> Si on <choice>
+                  <sic>supose</sic>
+                  <corr>suppose</corr>
+               </choice> un nombre<lb/> quelconque <supplied>de corps</supplied>
+                  lié<supplied>s</supplied> par des fils,<lb/> des verges dures ou élastiques,<lb/>
+               des attractions etc. comme les trois<lb/>
+               <supplied>corps</supplied> A, B, C, (fig.) soumis à des forces quelconques.<lb/> Si
+               on fait un petit changement à<lb/> leurs positions autour des points fixes s'il<lb/>
+               y en a, et en général d'une manière<lb/>
+               <choice>
+                  <sic>analogues</sic>
+                  <corr>analogue</corr>
+               </choice> aux conditions données, et qu'on multiplie<lb/> chaque force par la
+               quantité dont le point où<lb/> elle agit lui a cédé, en prenant négativement<lb/>
+               <choice>
+                  <sic>qu'en</sic>
+                  <corr>quand</corr>
+               </choice> au lieu de céder le point a été en sens<lb/> contraire, et qu'on fasse une
+               somme de tous<lb/> ces produits, elle sera toujours zéro dans l'équilibre,<lb/> ce
+               qui suffit pour en déterminer les conditions<lb/> dans tous les cas possibles.</p>
+            <p xml:id="L1795-08-31-a-p20">Comme les choses si générales sont difficiles à saisir,<lb/> vous n'en pourrez
+               connaître la fécondité<lb/> qu'après l'avoir d'abord <choice>
+                  <sic>apliquée</sic>
+                  <corr>appliquée</corr>
+               </choice> aux machines<lb/> que vous connaissez. Je voudrais donc bien, si<lb/> ce
+               projet vous était agréable, que vous voulussiez<lb/> l'<choice>
+                  <sic>apliquer</sic>
+                  <corr>appliquer</corr>
+               </choice> au levier droit et courbe, au plan<lb/> incliné et aux poulies fixes et
+               mobiles. Il vous <pb n="16" facs="#Cornell_Ampere_L1176_16.jpg"/> donnera dans
+               l'instant les mêmes règles que<lb/> vos livres. Pour vous montrer comme il faut<lb/>
+               s'y prendre, j'en vais faire l'<choice>
+                  <sic>aplication</sic>
+                  <corr>application</corr>
+               </choice> aux<lb/>
+               <figure/> cordes dont les nœuds sont une<lb/> vraie machine. Vous savez que<lb/> si
+               le poids P est<lb/> attaché en A et<lb/> soutenu par la<lb/> corde CAE, fixe<lb/> en
+               C, la puissance E sera<lb/> au poids <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>P</mi>
+                     <mo>::</mo>
+                     <mi>sin</mi>
+                     <mi>C</mi>
+                     <mi>A</mi>
+                     <mi>P</mi>
+                     <mo>:</mo>
+                     <mi>sin</mi>
+                  </math>
+               </formula> <ref target="#L1176_CAK14">*</ref>
+          <lb/>
+          <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>C</mi>
+                     <mi>A</mi>
+                     <mi>E</mi>
+                  </math>
+               </formula> (ce n'est que la règle<lb/> ordinaire du parallélogramme<lb/> d'où l'on
+               tire qu'en général<lb/> chaque puissance est comme<lb/> le sinus de l'angle <choice>
+                  <sic>oposé</sic>
+                  <corr>opposé</corr>
+               </choice>). Cette<lb/> proportion donne <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>E</mi>
+                     <mi>sin</mi>
+                     <mi>C</mi>
+                     <mi>A</mi>
+                     <mi>E</mi>
+                     <mo>=</mo>
+                     <mi>P</mi>
+                     <mi>sin</mi>
+                     <mi>C</mi>
+                     <mi>A</mi>
+                     <mi>P</mi>
+                  </math>
+               </formula>. Voyons<lb/> comme cette éq<ex>uation</ex> peut se tirer de la règle
+               générale.<lb/> Si l'on laisse descendre P en Q et le reste comme<lb/> dans la figure
+               et qu'on abaisse AM, AN, on aura<lb/> BN pour la quantité cédée à P, et <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mo/>
+                     <mi>B</mi>
+                     <mi>M</mi>
+                  </math>
+               </formula> pour<lb/> la quantité négative cédée à E. Ces quantités se<lb/> doivent
+               toujours prendre par des perpendiculaires.<lb/> Ainsi la proposition donne <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>P</mi>
+                     <mo/>
+                     <mi>B</mi>
+                     <mi>N</mi>
+                     <mo/>
+                     <mi>E</mi>
+                     <mo/>
+                     <mi>B</mi>
+                     <mi>M</mi>
+                     <mo>=</mo>
+                     <mn>0</mn>
+                  </math>
+               </formula>,<lb/> ou en prenant AB pour rayon, <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>P</mi>
+                     <mi>sin</mi>
+                     <mi>B</mi>
+                     <mi>A</mi>
+                     <mi>N</mi>
+                     <mo/>
+                     <mi>E</mi>
+                     <mo/>
+                  </math>
+               </formula>
+          <lb/>
+          <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>sin</mi>
+                     <mi>B</mi>
+                     <mi>A</mi>
+                     <mi>M</mi>
+                     <mo>=</mo>
+                     <mn>0</mn>
+                     <mo>=</mo>
+                     <mi>P</mi>
+                     <mi>sin</mi>
+                     <mi>N</mi>
+                     <mi>A</mi>
+                     <mi>R</mi>
+                     <mo/>
+                     <mi>E</mi>
+                     <mi>sin</mi>
+                     <mi>M</mi>
+                     <mi>A</mi>
+                     <mi>R</mi>
+                  </math>
+               </formula>, parce<lb/> que les sinus des <choice>
+                  <sic>suplemens</sic>
+                  <corr>suppléments</corr>
+               </choice> sont égaux. D'un autre<lb/> côté <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>N</mi>
+                     <mi>A</mi>
+                     <mi>R</mi>
+                     <mo>=</mo>
+                     <mn>9</mn>
+                     <mn>0</mn>
+                     <mtext>°</mtext>
+                     <mo>+</mo>
+                     <mi>N</mi>
+                     <mi>A</mi>
+                     <mi>C</mi>
+                     <mo>=</mo>
+                     <mi>C</mi>
+                     <mi>A</mi>
+                     <mi>P</mi>
+                  </math>
+               </formula>, et <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>M</mi>
+                     <mi>A</mi>
+                     <mi>R</mi>
+                     <mo>=</mo>
+                     <mi>C</mi>
+                     <mi>A</mi>
+                     <mi>E</mi>
+                  </math>
+               </formula>,<lb/> donc <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>P</mi>
+                     <mi>sin</mi>
+                     <mi>C</mi>
+                     <mi>A</mi>
+                     <mi>P</mi>
+                     <mo/>
+                     <mi>E</mi>
+                     <mi>sin</mi>
+                     <mi>C</mi>
+                     <mi>A</mi>
+                     <mi>E</mi>
+                     <mo>=</mo>
+                     <mn>0</mn>
+                  </math>
+               </formula>, ou <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>P</mi>
+                     <mi>sin</mi>
+                     <mi>C</mi>
+                     <mi>A</mi>
+                     <mi>P</mi>
+                     <mo>=</mo>
+                     <mi>E</mi>
+                     <mi>sin</mi>
+                  </math>
+               </formula>
+          <lb/>
+          <formula>
+                  <math xmlns="http://www.w3.org/1998/Math/MathML">
+                     <mi>C</mi>
+                     <mi>A</mi>
+                     <mi>E</mi>
+                  </math>
+               </formula>, c.q.f.d. Au reste ces calculs ne sont point<lb/> nécessaires à la méthode
+               que je vous propose.<lb/> Il<supplied>s</supplied> ne servent qu'à vous en montrer
+               l'accord<lb/> avec vos méthodes, et je puis vous assurer que<lb/> c'est ce qu'elle a
+               de plus difficile. Mais avec un<lb/> petit effort vous viendrez aisément à bout<lb/>
+               de ce que je vous propose, il n'y a que de petits<lb/> triangles rectangles à former.
+               Si vous m'envoyez<lb/> cette <choice>
+                  <sic>aplication</sic>
+                  <corr>application</corr>
+               </choice> aux leviers, poulies etc., je vous <choice>
+                  <sic>renvoye</sic>
+                  <corr>renvoie</corr>
+               </choice>
+          <lb/> mille belles choses dont vous ne vous doutez pas. Je n'ai<lb/> plus de
+               place pour vous marquer tous les <choice>
+                  <sic>sentimens</sic>
+                  <corr>sentiments</corr>
+               </choice>
+          <lb/> de mon amitié, mais je me flatte que vous n'en doutez pas. <note>Maman
+                  est bien sensible à votre souvenir, elle me charge<lb/> de vous faire mille <choice>
+                     <sic>complimens</sic>
+                     <corr>compliments</corr>
+                  </choice> et moi je suis à vous<lb/> pour jamais.</note>
+        </p>
+            <signed>
+          <persName ref="#pers_A366">A. Ampère</persName>
+        </signed>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1795-08-31-a-div2">
+            <note n="1" resp="CAK" xml:id="L1176_CAK1">
+               <p xml:id="L1795-08-31-a-p21">Cette lettre, envoyée à La Terrière, répond à
+                  <ref type="correspondance" target="#ampere_corr_L1795-08-23-a">celle de <persName ref="#pers_C162">Couppier</persName>, du <date when="1795-08-23">23 août
+                  1795</date>
+            </ref>.</p>
+            </note>
+            <note n="2" resp="CAK" xml:id="L1176_CAK2">
+               <p xml:id="L1795-08-31-a-p22">cf. les lettres de <persName ref="#pers_C162">Couppier</persName> d'<date from-iso="1793-04" to-iso="1793-05">avril-mai 1793</date>
+          </p>
+            </note>
+            <note n="3" resp="CAK" xml:id="L1176_CAK3">
+               <p xml:id="L1795-08-31-a-p23">cf. la
+                  <ref type="correspondance" target="#ampere_corr_L1795-08-23-a">lettre de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-08-23">23 août 1795</date>
+            </ref>, p.
+                  2</p>
+            </note>
+            <note n="3bis" resp="CAK" xml:id="L1176_CAK3bis">
+               <p xml:id="L1795-08-31-a-p24">cf. la
+                  <ref type="correspondance" target="#ampere_corr_L1795-08-23-a">lettre de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-08-23">23 août 1795</date>
+            </ref>, p.
+                  2</p>
+            </note>
+            <note n="4" resp="CAK" xml:id="L1176_CAK4">
+               <p xml:id="L1795-08-31-a-p25">cf. la
+                  <ref type="correspondance" target="#ampere_corr_L1795-08-23-a">lettre de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-08-23">23 août 1795</date>
+            </ref>, p. 6
+               </p>
+            </note>
+            <note n="5" resp="CAK" xml:id="L1176_CAK5">
+               <p xml:id="L1795-08-31-a-p26">cf. la
+                  <ref type="correspondance" target="#ampere_corr_L1795-08-23-a">lettre de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-08-23">23 août 1795</date>
+            </ref>, p.
+                  7</p>
+            </note>
+            <note n="6" resp="CAK" xml:id="L1176_CAK6">
+               <p xml:id="L1795-08-31-a-p27">Le mémoire de <persName>Charles-Augustin Coulomb</persName> sur les lois du frottement fut publié
+                  en <date when-iso="1785-00-00">1785</date>.</p>
+            </note>
+            <note n="7" resp="CAK" xml:id="L1176_CAK7">
+               <p xml:id="L1795-08-31-a-p28">cf. la
+                  <ref type="correspondance" target="#ampere_corr_L1795-08-23-a">lettre de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-08-23">23 août 1795</date>
+            </ref>, p.
+                  7</p>
+            </note>
+            <note n="8" resp="CAK" xml:id="L1176_CAK8">
+               <p xml:id="L1795-08-31-a-p29">cf. la
+                  <ref type="correspondance" target="#ampere_corr_L1795-08-23-a">lettre de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-08-23">23 août 1795</date>
+            </ref>, p.
+                  8</p>
+            </note>
+            <note n="9" resp="CAK" xml:id="L1176_CAK9">
+               <p xml:id="L1795-08-31-a-p30">
+            <persName>Ampère</persName> reprend un aveu de modestie de <persName ref="#pers_C162">Couppier</persName> : <cit>
+                     <quote>Je suis par rapport à un horloger à peu près ce qu'est une laveuse
+                        d'écuelles à une cuisinière</quote>
+                  </cit>. (cf. la
+                  <ref type="correspondance" target="#ampere_corr_L1795-08-23-a">lettre de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-08-23">23 août 1795</date>
+            </ref>, p.
+                  9)</p>
+            </note>
+            <note n="10" resp="CAK" xml:id="L1176_CAK10">
+               <p xml:id="L1795-08-31-a-p31">Il s'agit de deux jeunes chevaux que <persName ref="#pers_C162">Couppier</persName> veut dresser (cf.
+                  <ref type="correspondance" target="#ampere_corr_L1795-08-23-a">la lettre de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-08-23">23 août 1795</date>
+            </ref>,
+                  p. 8).</p>
+            </note>
+            <note n="11" resp="CAK" xml:id="L1176_CAK11">
+               <p xml:id="L1795-08-31-a-p32">Au XVIII<hi rend="sup">e</hi> siècle, le mot "horloge" est encore souvent du genre
+                  masculin.</p>
+            </note>
+            <note n="12" resp="CAK" xml:id="L1176_CAK12">
+               <p xml:id="L1795-08-31-a-p33">Allusion à une lettre antérieure et inconnue de <persName ref="#pers_C162">Couppier</persName>, peut-être la première
+                  de la série.</p>
+            </note>
+            <note n="13" resp="CAK" xml:id="L1176_CAK13">
+               <p xml:id="L1795-08-31-a-p34">A La Terrière, où <persName ref="#pers_C162">Couppier</persName> lui a dit devoir se rendre (cf. la
+                  <ref type="correspondance" target="#ampere_corr_L1795-08-23-a">lettre de <persName ref="#pers_C162">Couppier</persName> du <date when="1795-08-23">23 août 1795</date>
+            </ref>, p.
+                  8).</p>
+            </note>
+            <note n="14" resp="CAK" xml:id="L1176_CAK14">Le symbole :: signifie proportionnel.</note>
+         </div>
+      </back>
+   </text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</TEI>

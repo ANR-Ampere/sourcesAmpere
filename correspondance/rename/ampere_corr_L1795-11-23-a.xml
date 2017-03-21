@@ -1,0 +1,513 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 1186</title>
+                <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+                    <forename>André-Marie</forename>
+                    <surname>Ampère</surname>
+                </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+                    </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                            sciences</affiliation>
+                    </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Mathilde Dutertre, </name>
+                    <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré :
+                        élaboration du schéma XML TEI et encodage</resp>
+                </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+                    <name>Centre de calcul de l'IN2P3</name>
+                    <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+                </distributor>
+                <availability>
+                    <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative
+                        Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+                </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="original_manuscrit">
+                    <msIdentifier xml:id="ampere_corr_L1795-11-23-a">
+                        <country>USA</country>
+                        <settlement>Ithaca (NY)</settlement>
+                        <institution>Cornell University Library</institution>
+                        <repository>Ampère collection</repository>
+
+                    </msIdentifier>
+
+                    <physDesc>
+                        <handDesc>
+                            <handNote corresp="#AMA">
+                                <name type="person" key="Ampère, André-Marie (1775-1836)">
+                                    <forename>André-Marie</forename>
+                                    <surname>Ampère</surname>
+                                </name>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName type="sender" ref="#pers_A366">
+                        <surname>Ampère</surname>
+                        <forename>André-Marie</forename>
+                    </persName>
+                    <date when-iso="1795-11-23">23 novembre 1795</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName type="adressee" ref="#pers_C162">
+                        <surname>Couppier</surname>
+                        <forename>Jean-Stanislas, dit Couppier Viry</forename>
+                    </persName>
+                </correspAction>
+            </correspDesc>
+            <creation>
+                <date when="2015-01">janvier 2015</date>
+                <name>Aude Coustumer</name>
+            </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <name>Aude Coustumer</name>
+                <date when="2015-04">avril 2015</date>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile xml:id="images_L1795-11-23-a" corresp="#ampere_corr_L1795-11-23-a">
+        <graphic url="Cornell_Ampere_L1186_01.jpg"/>
+        <graphic url="Cornell_Ampere_L1186_02.jpg"/>
+        <graphic url="Cornell_Ampere_L1186_03.jpg"/>
+        <graphic url="Cornell_Ampere_L1186_04.jpg"/>
+        <graphic url="Cornell_Ampere_L1186_05.jpg"/>
+        <graphic url="Cornell_Ampere_L1186_06.jpg"/>
+        <graphic url="Cornell_Ampere_L1186_07.jpg"/>
+        <graphic url="Cornell_Ampere_L1186_08.jpg"/>
+        <graphic url="Cornell_Ampere_L1186_09.jpg"/>
+        <graphic url="Cornell_Ampere_L1186_10.jpg"/>
+        <graphic url="Cornell_Ampere_L1186_11.jpg"/>
+        <graphic url="Cornell_Ampere_L1186_12.jpg"/>
+    </facsimile>
+    <text decls="#ampere_corr_L1795-11-23-a" type="correspondance">
+        <body>
+            <div xml:id="L1795-11-23-a-div1">
+                <opener>
+          <pb n="1" facs="#Cornell_Ampere_L1186_01.jpg"/>Ce <date when="1795-11-23">lundi 23 novembre<supplied> 1795</supplied>
+          </date> <ref target="#L1186_CAK1">*</ref>
+                    </opener>
+                <p xml:id="L1795-11-23-a-p1"> Je vous ai promis, Monsieur, de vous écrire toutes les semaines dans l'espérance
+                    que vous voudriez bien me faire le plaisir de me payer en même monnaie. Il faut
+                    bien tenir sa parole surtout quand l'accomplissement est si agréable que
+                    l'obligation en devient inutile. J'entre en matière pour vous communiquer un
+                    instrument d'astronomie dont j'espère beaucoup et que j'ai inventé samedi passé.
+                    Mais comme je ne suis pas sûr du succès puisque dans les choses qui tiennent à
+                    la physique, l'expérience découvre souvent des obstacles aux résultats de la
+                    spéculation, et que vous êtes plus habile que moi dans cette partie (témoin
+                    l'engrenage dont le pignon ne devait avoir qu'une dent et dont vous découvrîtes
+                    sur le champ l'impossibilité), je vous prie de juger de cette nouvelle invention
+                    suivant la rigueur des lois.</p>
+                <p xml:id="L1795-11-23-a-p2">Vous savez, Monsieur, qu'il y a deux manières
+                    principales d'observer les astres, et d'en déterminer la position, ce qui est le
+                    fondement de l'astronomie : l'une en prenant deux distances de l'astre observé à
+                    deux autres connus de position, l'autre en ne le comparant qu'à une seule étoile
+                    en prenant leurs différences de déclinaison et d'ascension droite. Les deux
+                    observations de la première méthode se font en même temps, mais il faut dans la
+                    seconde attendre les passages de deux <pb n="2" facs="#Cornell_Ampere_L1186_02.jpg"/> astres par un même méridien, ce qui
+                    est fort assujettissant, exige qu'on veille souvent toute la nuit, et suppose
+                    une horloge à secondes très parfaite puisque 2'' d'erreur sur l'intervalle des
+                    passages en produit 30 de degré sur l'ascension droite. Ces inconvénients me
+                    feraient souvent préférer la première, qui d'ailleurs a l'avantage de servir
+                    toujours et dans tous les coins du ciel, ce que ne peut souvent faire la seconde
+                    méthode. Cependant elle est généralement adoptée à cause de la longueur des
+                    calculs de sinus qu'il faut faire pour trouver la longitude et la latitude de
+                    l'astre, qui est moindre quand on connaît l'ascension droite et la déclinaison
+                    que quand on connaît deux distances à deux astres connus.</p>
+                <p xml:id="L1795-11-23-a-p3">Mais pour moi qui
+                    aimerais mieux faire des observations à l'heure qui me serait le plus commode,
+                    et faire quelques additions de plus le lendemain, que de veiller toute la nuit,
+                    et d'attendre patiemment un passage, qu'il faut prendre au moment précis qui,
+                    échappé une fois, rendrait tout l'opération inutile, je préférerais la première
+                    méthode et c'est elle aussi que je crois avoir portée par ma nouvelle invention
+                    à un degré de perfection qui me paraît supérieur à l'exactitude de l'autre.</p>
+                <p xml:id="L1795-11-23-a-p4">
+                    L'instrument le plus simple pour mesurer des distances célestes est un secteur
+                    avec deux lunettes qu'on dirige aux deux astres, et dont il mesure l'angle qui
+                    est la distance cherchée, tel est l'instrument gravé dans mon <title>Astronomie</title> et dans
+                    <title>l'Encyclopédie</title> <pb n="3" facs="#Cornell_Ampere_L1186_03.jpg"/> sous le nom de
+                    secteur de <persName ref="#pers_F620">Flamsteed</persName> <ref target="#L1186_CAK2">*</ref>. Cet instrument a beaucoup d'inconvénients. Il faut être
+                    deux observateurs pour diriger les deux lunettes au même instant, sans quoi
+                    pendant qu'on va de l'une à l'autre, le mouvement diurne fait sortir les astres
+                    du champ. Et on a besoin d'un mouvement parallactique pour suivre le parallèle
+                    de l'astre, ce qui suppose un instrument fixe qui ne peut être déplacé. Il faut
+                    aussi éclairer les fils de la lunette qu'on<supplied> ne</supplied> voit pas dans la nuit. La
+                    lumière qu'on emploie embarrasse et empêche de voir les petites étoiles.</p>
+                <p xml:id="L1795-11-23-a-p5">On
+                    remédie à tous ces inconvénients par l'octant de réflexion. Je pense que vous en
+                    aurez vu la description dans <title>l'Encyclopédie</title>. C'est un secteur
+                    <figure/> GEF de 45° avec une lunette PQ. On voit un des astres par le rayon direct TQ, et
+                    l'autre par le rayon SRXQ, réfléchi sur les deux glaces AB, CD. On fait
+                    coïncider ces deux images dans la lunette, et quand on y a réussi on est sûr que
+                    les rayons TQ, XQ, se confondent et que, suivant la démonstration de
+                    l'Encyclopédie, l'angle des astres est double de celui des miroirs qui se trouve
+                    marqué sur l'arc EV, parce que l'alidade GV qui porte le miroir AB tombe en E
+                    quand les deux miroirs sont parallèles.</p>
+                <p xml:id="L1795-11-23-a-p6">Par ce moyen un seul observateur voit à
+                    la fois les deux étoiles et le point de comparaison de l'image de l'astre, au
+                    lieu d'être un fil invisible, est un autre astre aussi visible. Ces avantages
+                    sont si grands que, si j'avais voulu observer, je me serais servi de cet
+                    instrument. Mais cependant il a plusieurs défauts qui l'empêchent de donner les
+                    secondes au moins de <pb n="4" facs="#Cornell_Ampere_L1186_04.jpg"/> 15 en 15,
+                    comme on l'exige maintenant. Le principe est que le rayon TQ doit passer
+                    au-dessus du miroir qu'il ne peut pas traverser en X pour se confondre avec
+                    l'autre, ce qui empêche que la pratique s'accorde avec la théorie, et fait qu'on
+                    ne peut faire coïncider exactement les deux astres, ce qui exige un fil pour
+                    s'assurer qu'ils se répondent perpendiculairement.</p>
+                <p xml:id="L1795-11-23-a-p7">C'est pour parer à ces
+                    inconvénients que j'ai inventé mon instrument. Vous savez que
+                    si AB, CD, sont <figure/> deux verres objectifs dirigés vers deux astres, il s'en formera
+                    à leur foyer F une image en petit qu'on regarde par l'oculaire GH qui a le même
+                    foyer. Comme on regarde les petits objets au foyer de la loupe microscopique, si
+                    on dispose donc les deux objectifs dans deux tuyaux qui tournent autour du point
+                    F qui leur sert de foyer commun, les deux images se confondront et on n'en verra
+                    qu'une par l'oculaire dès que l'angle des lunettes sera égal à celui des astres.
+                    On ouvrira donc cet angle jusqu'à ce que les deux images coïncident, et il sera
+                    égal à la distance des deux astres. Jusque là mon instrument n'avait rien
+                    d'essentiellement différent de l'héliomètre qui n'est que la même machine avec
+                    les deux objectifs dans le même tuyau, ce qui n'a servi jusqu'à présent qu'à
+                    mesurer des arcs 1° comme les diamètres des astres, en mettant les deux verres
+                    dans le même tuyau. Il est vrai qu'en les séparant on pouvait en mesurer d'un
+                    peu plus grands, mais jamais d'aussi grands que j'aurais désiré, ce qui m'avait
+                    fait négliger cet instrument que je cherchai depuis en vain à perfectionner. La
+                    difficulté de mesurer de grands arcs venait de ce que <pb n="5" facs="#Cornell_Ampere_L1186_05.jpg"/> les deux rayons Fmr, Fns, devaient entrer à la fois dans l'œil, ce qui supposait que la corde
+                    de l'angle mFn égal à celui des astres, pour le rayon Fm, fût plus petite que
+                    l'ouverture de la prunelle. Il était vrai que ce rayon pouvait être fort petit
+                    mais non pas assez pour que l'angle mFn pût aller comme je voulais à une
+                    trentaine de degrés. Mon invention ne commence donc proprement que du moment où
+                    je m'aperçus qu'on pouvait réunir ces rayons de différentes manières. Je pensais
+                    d'abord à des miroirs hyperboliques elliptiques. Et je vis tout à coup qu'il
+                    suffisait d'un verre mn (fig. 2) de plus dont l'un des foyers <figure/> étant près de F,
+                    mais au-dessous, réunirait les rayons en un autre point f, où coïncideraient
+                    encore les deux images. On les regarderait alors par l'oculaire MN, et comme
+                    l'angle MfN sera bien plus petit que mFn, il sera facile de faire entrer les
+                    rayons Mr, Ns, dans la prunelle.</p>
+                <p xml:id="L1795-11-23-a-p8">Ce nouveau verre augmentera en même temps les
+                    images et leur intervalle, ce qui le rendra plus sensible, quelque petit qu'il
+                    soit. Mon instrument entier serait donc de trois tubes et quatre verres, comme
+                    dans <figure/> la figure 3. Je crois qu'en se servant de verres achromatiques, les tubes
+                    pourraient être très courts c.à.d. d'un demi-pied sans que cela empêchât
+                    d'estimer les secondes puisque le moindre petit changement de l'angle AFB
+                    empêcherait les images en F, et à plus forte raison en f, ce qu'on verrait sur
+                    le champ puisque cet intervalle serait encore grossi par l'oculaire.</p>
+                <p xml:id="L1795-11-23-a-p9">
+          <pb n="6" facs="#Cornell_Ampere_L1186_06.jpg"/> Vous demanderez comment je marquerai
+                    sur un cercle <choice>
+            <sic>de</sic> <corr>d'un</corr>
+          </choice> demi-pied de rayon les secondes que j'aurai rendues
+                    sensibles au foyer f. Je crois que le seul moyen d'y réussir sera d'y joindre
+                    un cadran avec quelques roues qui feront mouvoir deux aiguilles, une pour les
+                    minutes et l'autre pour les secondes, de même qu'on fait aux micromètres. Je
+                    trouve qu'il serait bien commode de porter dans un étui<supplied> d'un</supplied> demi-pied un
+                    instrument aussi exact qu'aucun autre, et principalement<supplied> pour</supplied> prendre les
+                    longitudes en mer plus exactement qu'avec l'octant de <persName ref="#pers_H622">Hadley</persName>, la méthode des
+                    distances étant la seule qu'on y peut employer.</p>
+                <p xml:id="L1795-11-23-a-p10">Je ne sais comment j'ai employé
+                    cinq pages à une pareille misère, mais c'est que j'ai fait comme Petit Jean qui
+                    commençait l'exorde de l'accusation de Citron <ref target="#L1186_CAK3">*</ref> ; avant le ciel, avant la
+                    naissance du monde, et que je vous ai expliqué toutes les idées qui m'ont
+                    conduit à cette invention. Cela m'a occupé quelques jours et vous me demandez de
+                    vous faire part de toutes mes idées. Pour achever de répondre à vos questions
+                    sur ce sujet, je vous dirais que je ne sors guère depuis qu'il gèle ; que je lis
+                    moins que je ne voudrais parce que je n'ai guère de livres que je n'aie lus
+                    vingt fois ; que pour avoir trop d'entreprises commencées, je ne travaille à
+                    aucune, si ce n'est, quelquefois, à la grammaire grecque ; que l'hiver a glacé
+                    mon esprit en même temps que la terre ; que pour ne pas oublier le calcul
+                    astronomique, je voulus l'autre jour calculer les éclipses de l'année <pb n="7" facs="#Cornell_Ampere_L1186_07.jpg"/> prochaine. Je commençai par celle du <date when="1795-01-09">9
+                    janvier</date> mais, après un calcul aussi long qu'ennuyeux, je vis que la conjonction
+                    vraie n'arrivait qu'à 5h presque et demie et que par conséquent elle serait
+                    invisible.</p>
+                <p xml:id="L1795-11-23-a-p11">Je n'ai pas été à <placeName>Lyon</placeName> depuis votre départ de cette ville ; mais je
+                    crois y aller demain avec maman et ma sœur. Je verrais sûrement <persName ref="#pers_M405">Mlle Morandy</persName> et
+                    je lui ferai part de votre empressement à me parler d'elle. Dans la nuit qui
+                    couvre mon esprit il brille quelquefois de petites bluettes, mais elles sont si
+                    sombres qu'elles ne valent pas la peine d'en parler. Cependant faute d'autre
+                    sujet plus intéressant pour vous, je vais allonger cette lettre de l'ode <foreign xml:lang="lat">ne
+                    forte credas interitura quae</foreign> <ref target="#L1186_CAK4">*</ref>, etc. Je n'y avais plus pensé depuis ma dernière
+                    lettre, mais elle m'est revenue en tête ce matin et je l'ai finie à la hâte.</p>
+                <p xml:id="L1795-11-23-a-p12">
+                   <lg>
+            <l> Quand au bord de l'<placeName>Aufide</placeName> où j'ai vu la lumière pour la première fois,</l>
+                       <l>De la
+                    Parque inflexible au bout de ma carrière j'aurais subi les lois.</l>
+                       <l>Ne crois pas
+                    que ma mort ravisse à mes ouvrages l'amour de l'univers,</l>
+                       <l>Non du temps à jamais
+                    la course et les ravages respecteront mes vers.</l>
+                       <l>
+              <persName ref="#pers_H822">Homère</persName> est le premier au temple
+                           de mémoire mais <persName>Pindare</persName> et <persName>Caeus</persName>
+            </l>
+                       <l> Sont assis à ses pieds et partagent la gloire
+                           du fameux <choice>
+                <sic>Alcoeus</sic> <corr>Alcée</corr>
+              </choice>.</l>
+                       <l> Les chants d'Anacréon et du berger d'Elore ne
+                    périront jamais,</l>
+                       <l>Et dans ceux de Sapho l'amour soupire encore sa perte et ses
+                    regrets.</l>
+                       <l>
+              <pb n="8" facs="#Cornell_Ampere_L1186_08.jpg"/> Sans doute avant Hélène
+                    un amour téméraire avait plus d'une fois</l>
+                       <l>Armé les nations, et conduit à la
+                    guerre les peuples et les rois.</l>
+                       <l>
+              <persName>Teucer</persName> le premier de ses flèches rapides n'a
+                    point fendu les airs.</l>
+                       <l>
+              <persName>Alcide</persName> avait pris <placeName>Troie</placeName> et ses peuples perfides avaient
+                    porté des fers.</l>
+                       <l>Ce ne fut point <persName>Hector</persName>, <persName>Priam</persName>, <persName>Idoménée</persName>, ou le fils de <persName>Thétis</persName>,</l>
+                       <l>
+                    Que pleura le premier sa veuve infortunée et ses malheureux fils.</l>
+                       <l>Avant
+                    <persName>Agamemnon</persName> que de héros volèrent du repos aux combats,</l>
+                       <l>Que de chefs généreux, que
+                    de rois y trouvèrent la gloire ou le trépas.</l>
+                       <l>Mais la gloire a caché sous ses
+                    voiles funèbres leurs noms et leurs travaux,</l>
+                       <l>Un <persName ref="#pers_H822">Homère</persName> eût pu seul dissiper les
+                    ténèbres qui couvrirent leurs tombeaux.</l>
+                       <l>Le courage ignoré, les vertus inconnues
+                    ont en vain éclaté</l>
+                       <l>Les tiennes cher ami ne seront point perdues pour la
+                    postérité.</l>
+                       <l>Je ne veux pas dans mes écrits éterniser leur gloire et vainqueur du
+                    trépas</l>
+                       <l>Te placer pour jamais au temple de mémoire auprès de <persName>Mécènas</persName>.</l>
+                       <l>Ta
+                    libéralité, tes exploits, ton courage et mille autres vertus</l>
+                       <l>Ont fait voler ton
+                    nom des bords féconds du <placeName>Tage</placeName> aux rives de l'<placeName>Indus</placeName>.</l>
+                       <l>Tu rejetas toujours pour
+                    suivre la justice les dons de criminels</l>
+                       <l>Et ta voix au Sénat découvrit l'artifice
+                    de leurs desseins cruels.</l>
+                       <l>
+              <pb n="9" facs="#Cornell_Ampere_L1186_09.jpg"/> Digne
+                    appui de nos lois, vengeur de l'innocence tu courus aux combats</l>
+                       <l>Et non moins que
+                    ton zèle et ta rare prudence tu signalas ton bras.</l>
+                       <l>Nous t'avons vu deux fois sur
+                    un char de victoire suivi de nos guerriers</l>
+                       <l>Aller au Capitole étonné de ta gloire
+                    attacher tes lauriers.</l>
+                       <l>Ce ne sont point les dons de l'aveugle fortune qui nous
+                    rendent heureux</l>
+                       <l>La richesse bientôt nous devient importune sans suffire à nos
+                    vœux.</l>
+                       <l>Mais heureux le mortel qui sait user en sage de ses dons passagers</l>
+                       <l>Et qui
+                    voit du même œil le trône et l'esclavage le calme et les dangers.</l>
+                       <l>Jamais
+                    l'ambition n'empoisonnera sa vie et content de son sort</l>
+                       <l>Pour servir ses amis,
+                    son maître ou sa patrie il ne craint point la mort.</l>
+          </lg>
+        </p>
+                <p xml:id="L1795-11-23-a-p13">Je ne sais comme j'ai fait
+                    de mettre sous vos yeux cet horrible verbiage de pensées décousues, estropiées,
+                    en vers détestables, mais je ne puis m'empêcher de vous communiquer tout ce qui
+                    m'occupe. Je vous demande seulement de ne pas mettre le premier de ces défauts
+                    sur mon compte. Je ne suis responsable que du second, et il fallait bien suivre
+                    les pensées du texte. Je vous prie de me dire quelles stances peuvent rester si
+                    je polissais ce morceau, et celles qu'il faut absolument changer. Je les
+                    entrevois bien mais ma paresse fait tous ses efforts pour me les cacher de peur
+                    que je n'y travaille encore.</p>
+                <p xml:id="L1795-11-23-a-p14">J'avais mis d'abord traînés à la guerre
+                    pour conduit à la guerre, j'ai été forcé à ce changement qui d'un vers passable
+                    en a fait un faible et burlesque, par la règle qui défend de mettre en
+                    concordance le participe qui précède le régime. Cependant j'aurais grande envie
+                    de sacrifier la grammaire à la poésie, d'autant mieux que <persName>Crébillon</persName> et
+                    <persName>Corneille</persName>, avec l'<choice>
+            <sic>aprobation</sic> <corr>approbation</corr>
+          </choice> de <persName>Wailly</persName>, ont manqué à la règle de la
+                    concordance dans le cas contraire qui me semble bien aussi importante <ref target="#L1186_CAK5">*</ref>.</p>
+                <p xml:id="L1795-11-23-a-p15">Voilà
+                    certainement la lettre la plus ennuyeuse que vous ayez reçue de moi. Je me
+                    promets bien de rendre la prochaine plus intéressante mais je ne sais si j'y
+                    parviendrai, à moins <pb n="10" facs="#Cornell_Ampere_L1186_10.jpg"/> que ce ne
+                    soit une réponse à quelqu'une de vos lettres. Elles sont la seule chose qui
+                    ranime mon esprit et le rend capable de quelque chose. Si vous avez un peu de
+                    charité vous ne le laisserez pas manquer de la nourriture qui le soutient. Sans
+                    métaphore, je suis devenu si paresseux depuis qu'il fait froid qu'il n' y a plus
+                    que le plaisir de vous écrire et de recevoir vos lettres qui m'empêche de rester
+                    tout à fait sans rien faire, hors les moments toujours trop courts où j'en suis
+                    occupé. Mes jours s'échappent presque sans que je m'en aperçoive, et je pourrais
+                    dire avec plus de fondement que <persName>La Fontaine</persName> :<lb/>
+                    <lg>
+            <l> Deux parts en fit dont il soulait
+                        passer</l>
+            <l> L'une à dormir et l'autre à ne rien faire.</l>
+          </lg> <ref target="#L1186_CAK6">*</ref> Puisque vous voulez savoir
+                    toutes mes occupations, je passe la soirée à apprendre l'orthographe à ma sœur,
+                    elle en sait déjà presque autant que moi. J'ai retranché tous les temps composés
+                    de ma conjugaison française quand je la lui ai montrée. Il me semble en effet
+                    qu'on ne peut mettre j'ai chanté dans la conjugaison sans y mettre aussi je dois
+                    et je vais manger. J'ai réduit par là mes temps à 4 pour l'indicatif, 2 pour le
+                    subjonctif, un pour le suppositif, etc. Ce qui simplifie beaucoup une matière
+                    déjà trop confuse grâce aux anomalies du français.</p>
+                <p xml:id="L1795-11-23-a-p16">A propos du suppositif, je
+                    vous prie de me dire ce que vous pensez de l'opinion de <title>l'Encyclopédie</title> sur ce
+                    que les Latins manquaient de ce mode puisque <foreign xml:lang="lat">cantarem</foreign> répond pour le moins aussi
+                    souvent à je chanterais qu'à que je chantasse, qui peut nous révéler qu'il
+                    n'avait jamais que le sens de celui-ci. On a beau dire qu'une langue ne peut
+                    exprimer constamment d'une manière si semblable des choses si différentes, il
+                    faudrait pour cela oublier les datifs et ablatifs, les nominatifs et accusatifs,
+                    et tant d'autres mots qui ont les mêmes articulations et des sens très
+                    distincts. Y a-t-il une langue où ce petit défaut soit absolument étranger et où
+                    les mots ne manquent pas aux idées ? Pour moi je n'en connais point. Et ce qui
+                    me force à rejeter l'opinion de <title>l'Encyclopédie</title>, c'est sa prétendue analyse des
+                    phrases conditionnelles qu'elle prétend elliptiques en latin et qu'elle remplit
+                    d'une manière si contraire au génie de cette langue qu'il faudrait surtout
+                    respecter dans une semblable matière. Je le reconnais dans cette phrase <foreign xml:lang="lat">si
+                    vellem cantarem</foreign>, mais quels gallicismes <pb n="11" facs="#Cornell_Ampere_L1186_11.jpg"/> ou plutôt quels solécismes dans cette
+                    phrase : <foreign xml:lang="lat">si res erat ut vellem cantare, res est ut cantarem</foreign>. Qui ne voit que le
+                    plus petit laquais de <persName>Rome</persName> qui aurait voulu prendre ce tour aurait dit <foreign xml:lang="lat">si res
+                    esset ut vellem cantare, res esset ut cantarem</foreign>. Mais alors, quelle ellipse
+                    expliquera cet <foreign xml:lang="lat">esset</foreign>. <title>L'Encyclopédie</title> ne veut pas que le suppositif ressemble au
+                    subjonctif. Pourquoi veut-elle donc qu'il ressemble à l'indicatif ? Le défaut
+                    est-il moindre, et cet <foreign xml:lang="lat">erat</foreign> qu'en dirons-nous ? Que l'auteur de l'article était
+                    français ? Que les irrégularités de cette langue lui paraissaient, faute de
+                    réflexion, les résultats de l'entendement universel ? Elle se sert de cette
+                    expression un peu bizarre : si je voulais je chanterais, donc il faut que cet
+                    imparfait de l'indicatif soit sous-entendu en latin. Que ne le sous-entendait-il
+                    dans toutes les langues dont j'ai entendu parler, qui toutes placent le même
+                    mode avant et après le si. L'espagnol et l'allemand, à ce que j'ai vu dans un
+                    rudiment, disent si je voudrais je chanterais, et le latin, l'italien <ref target="#L1186_AMA1">*</ref>, le grec,
+                    disent à ce que dit <title>l'Encyclopédie</title> si je pusse je chantasse, ce qui revient au
+                    même dans mes idées, pourquoi vouloir que le français l'emporte et fasse
+                    sous-entendre si j'étais au lieu de si je serais, <foreign xml:lang="lat">si erat</foreign> au lieu de <foreign xml:lang="lat">si esset</foreign>.</p>
+                <p xml:id="L1795-11-23-a-p17"> Mais il est bien temps de finir cette sotte dissertation dont je vais vous
+                    occuper si mal à propos. Il est vrai<supplied> que</supplied> vous m'avez demandé tout ce qui me
+                    passe par la tête, et que comme je voudrais bien savoir toutes vos idées, je ne
+                    veux vous cacher aucune des miennes. Ne faites-vous point de systèmes, de
+                    réflexions, de combinaisons, etc. qui valent <pb n="12" facs="#Cornell_Ampere_L1186_12.jpg"/> la peine d'être communiquées, et quand
+                    même elles ne la vaudrait pas à vos yeux, elles n'en seraient pas moins
+                    précieuses aux miens.</p>
+                <p xml:id="L1795-11-23-a-p18">Et si vous êtes revenu à <placeName>Claveisolles</placeName> et que vous ayez
+                    repris votre reversi, vous persécute-t-il toujours ou est-il devenu plus
+                    traitable <ref target="#L1186_CAK8">*</ref>. Si j'étais aussi habile que le berger que <persName>Virgile</persName> fait parler au nom
+                    de Gallus, je travaillerais par mes chants à adoucir sa colère contre les
+                    géomètres,<supplied> et</supplied> comme lui à fondre les neiges et les glaces des <placeName>Alpes</placeName> sous les
+                    pas de Lycoris. Mais pour avoir fait de mauvais vers, je ne mérite pas
+                    certainement qu'Apollon m'enseigne comme lui les versus chalcidios, avec
+                    lesquels ce berger disposait de toute la nature et il faut que je me borne à
+                    faire des vœux pour vous tant sur cet objet que sur vos succès dans toutes les
+                    entreprises que vous pourrez tenter. Croyez que, tout impuissants qu'ils sont,
+                    ils n'en sont pas moins sincères, et que l'amitié me fait partager votre ennui,
+                    et souffrir de tout ce qui vous fait de la peine dans ce moment, aussi vivement
+                    pour le moins que si c'était moi qui le ressentait. Mais il faut espérer que
+                    cela ne durera pas toujours, et les derniers événements amèneront peut-être une
+                    fin aux affaires qui sont cause de notre longue séparation. Je vous prie
+                    Monsieur d'être toujours persuadé de ma vive amitié, et de la partager aussi
+                    longtemps qu'elle durera, c.à.d. à jamais. Vous savez bien que c'est le moyen
+                    d'assurer mon bonheur. 
+                    </p>
+                <p xml:id="L1795-11-23-a-p19">
+                    Je vous prie de faire agréer mes respects à
+                    Monsieur votre père et à Madame votre mère. </p>
+                <signed>
+          <persName ref="#pers_A366">A. Ampère</persName>
+        </signed>
+            </div>
+        </body>
+        <back>
+            <div xml:id="L1795-11-23-div2">
+        <note n="1" resp="CAK" xml:id="L1186_CAK1">Cette lettre ne répond pas à une lettre en particulier.</note>
+                <note n="2" resp="CAK" xml:id="L1186_CAK2">
+          <persName ref="#pers_F620">John Flamsteed</persName> (<date from-iso="1646-00-00" to-iso="1719-00-00">1646-1719</date>), Astronome anglais</note>
+                <note n="3" resp="CAK" xml:id="L1186_CAK3">Allusion au chien Citron dans <title>Les Plaideurs</title> de <persName>Racine</persName>.</note>
+                <note n="4" resp="CAK" xml:id="L1186_CAK4">
+          <persName ref="#pers_H824">Horace</persName>, <title>Ode</title>, IV, 9, 1</note>
+                <note n="5" resp="CAK" xml:id="L1186_CAK5">
+          <persName>Prosper Crébillon</persName> (<date from-iso="1674-00-00" to-iso="1762-00-00">1674-1762</date>), poète dramatique ; <persName>François de Wailly</persName> (<date from-iso="1724-00-00" to-iso="1801-00-00">1724-1801</date>), grammairien et latiniste.</note>
+                <note n="6" resp="CAK" xml:id="L1186_CAK6">
+          <persName>Jean de La Fontaine</persName>. <title>Epitaphe d'un malheureux</title>. Le verbe "souloir" signifiait avoir l'habitude de.</note>
+                <note n="7" resp="AMA" xml:id="L1186_AMA1">l'italien suivant une vieille grammaire que j'ai dans les mains dit tantôt si je voulusse, tantôt si je voudrais.</note>
+                <note n="8" resp="CAK" xml:id="L1186_CAK8">Le reversi est un jeu de cartes.</note>
+            </div>
+        </back>
+    </text>
+</TEI>

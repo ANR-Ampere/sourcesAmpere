@@ -1,0 +1,410 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 191</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1802-12-17-b">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                  <idno>chemise 393 quarto</idno>
+               <altIdentifier>
+              <idno type="old">L191</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+          
+               <physDesc>
+                  <p>Huit pages 16,5 x 22 ; adresse à la fin, Timbre Bourg et date
+                     illisible.</p>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness xml:id="L191CGA">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 212-213</biblScope>
+                        </imprint>
+                     </monogr>
+                     
+                  </biblStruct>
+                </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_A366">Ampère, André-Marie</persName>
+          <date when-iso="1802-12-17">17 décembre 1802</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1802-12-17-b">
+      <body>
+         <div xml:id="L1802-12-17-b-div1">
+            <opener>
+          <pb n="1126" facs="#ACAS_CRHST_AMP_26_393_quarto_0398_r.jpg"/>Du <date when="1802-12-17">Vendredi soir [17 décembre 1802]</date>
+        </opener>
+            <p xml:id="L1802-12-17-b-p1">
+          <add>Ne t'inquiète pas si je n'arrive que le<lb/>
+               jour de <date>Noël</date>, ou si mon voyage
+               est dérangé ;<lb/>
+               il dépend des circonstances qui ne sont pas sûres.</add>
+          <lb/>
+               J'ai reçu cette après-<choice>
+            <sic>dînée</sic> <corr>dîner</corr>
+          </choice> la<lb/>
+               lettre que j'attendais avec tant<lb/>
+               d'impatience. Je ne
+               m'attendais<lb/>
+               <supplied>pas</supplied> aux nouvelles qu'elle devait<lb/>
+               m'annoncer. Tu ne te feras point<lb/>
+               d'idée du serrement de cœur que<lb/>
+               j'ai éprouvé en la lisant. Et<lb/>
+               l'endroit où tu me dis
+               que tu<lb/>
+               m'aimes bien m'a bien fait<lb/>
+               pleurer parce que je sentais<lb/>
+               que je ne le méritais pas.<lb/>
+               Tu ne me dis
+               pas tout le<lb/>
+               chagrin que t'a fait M. <persName ref="#pers_C160">Coste</persName>.<lb/>
+               Je l'ai assez deviné. Cependant<lb/>
+               tout ce
+               qu'il a pu te dire<lb/>
+               ne change rien à notre<lb/>
+               position. Maman seule est<lb/>
+               chargée de le
+               payer. Elle le<lb/>
+               sait, elle m'en a parlé mille<lb/>
+               fois et rien ne peut en<pb n="1127" facs="#ACAS_CRHST_AMP_26_393_quarto_0399_v.jpg"/>
+               faire retomber
+               sur moi la<lb/>
+               moindre partie. Oh, comment<lb/>
+               aurais-je pu supporter l'idée<lb/>
+               de ton chagrin
+               si je ne<lb/>
+               savais pas que, dans huit<lb/>
+               jours, je serai à <placeName>Lyon</placeName> et<lb/>
+               que tu auras les 2350 l<ex>ivre</ex>s ! Car<lb/>
+               l'engagement que M. <persName ref="#pers_C160">Coste</persName>
+          <lb/>
+               exige de moi n'est que pour<lb/>
+               le mettre en
+               sûreté dans<lb/>
+               le cas où maman, qui s'est<lb/>
+               seule engagée, viendrait à<lb/>
+               manquer. Il sait
+               bien que<lb/>
+               je lui ai laissé la jouissance<lb/>
+                  du domaine de <placeName>Poleymieux</placeName>
+          <lb/>
+               sans aucune
+               discussion pour<lb/>
+               qu'elle se chargeât de ces<lb/>
+               dettes. Je vérifierai à <placeName>Lyon</placeName>
+          <lb/>
+               les titres de M. <persName ref="#pers_C160">Coste</persName> et<lb/>
+               je m'engagerai, pour le cas<pb n="1128" facs="#ACAS_CRHST_AMP_26_393_quarto_0400_r.jpg"/>
+               où j'en deviendrais responsable,<lb/>
+               à proportion
+               de ce qui me<lb/>
+               reviendrait du domaine. Je<lb/>
+               sais bien que c'est la seule<lb/>
+               chose que désire
+               M. <persName ref="#pers_C160">Coste</persName> ;<lb/>
+               mais je trouve mal de sa<lb/>
+               part de profiter des circonstances<lb/>
+               pour me faire
+               la loi. Que<lb/>
+               je crains que tu ne regardes<lb/>
+               pas comme absolument<lb/>
+               <subst>
+            <del type="illisible"/> <add>indifférent à notre</add>
+          </subst>
+               position actuelle<lb/>
+               tout ce qu'il t'a pu dire !<lb/>
+               Rien n'est pourtant plus vrai,<lb/>
+               ma bonne et trop bonne<lb/>
+               amie, puisque tu m'aimes<lb/>
+               encore ! Qu'as-tu dans le<lb/>
+               cœur à présent à
+               mon égard,<lb/>
+               voilà ce que je ne saurai que<lb/>
+               dans huit jours ! Peut-être<lb/>
+               ne recevrai-je
+               plus de lettre<pb n="1129" facs="#ACAS_CRHST_AMP_26_393_quarto_0401_v.jpg"/>
+               de toi ? Je sens bien que de<lb/>
+               tant m'écrire te fatigue ; mais<lb/>
+               tes lettres sont mon seul bonheur<lb/>
+               sur la terre tant que je serai<lb/>
+               loin de toi ! Ta lettre
+               me dit<lb/>
+               encore que tu es malade. Le<lb/>
+               mauvais sang que t'aura fait<lb/>
+               M. <persName ref="#pers_C160">Coste</persName> y a
+               peut-être<lb/>
+               contribué. Je suis fâché que<lb/>
+               M. <persName ref="#pers_P1643">Petit</persName> soit payé. J'aurais<lb/>
+               voulu qu'il te
+               vît auparavant,<lb/>
+               examinât précisément ton<lb/>
+               état et te prescrivît un<lb/>
+               régime convenable,
+               en spécifiant <lb/>
+               plus précisément les remèdes<lb/>
+               qu'il regarde comme les<lb/>
+               plus propres à
+               hâter ta<lb/>
+               guérison. Tous les maux<lb/>
+               te viennent à la fois, ta<lb/>
+               tatan malade, mal <choice>
+            <sic>au</sic> <corr>aux</corr>
+          </choice>
+          <lb/>
+               dents, inquiétudes de toute<pb n="1130" facs="#ACAS_CRHST_AMP_26_393_quarto_0402_r.jpg"/>
+               espèce. Ah ! Que je sens bien<lb/>
+               tes maux, et que je m'en<lb/>
+               veux
+               de ne pouvoir les soulager !<lb/>
+               Du moins je travaille et ce<lb/>
+               que je gagne à présent<lb/>
+               te sera utile et à ceux qui<lb/>
+               ne méritent pas que tu les<lb/>
+               aimes. Je me trompe, il n'y<lb/>
+               en a
+               qu'un des deux qui ne<lb/>
+               t'ait fait que du mal. Le pauvre<lb/>
+               petit t'a fait quelquefois
+               plaisir.<lb/>
+               Je gage qu'à présent, quand<lb/>
+               il te voit triste, il va avec<lb/>
+               ses petites mains
+               pour embrasser<lb/>
+               sa maman. Tu me dis qu'il se<lb/>
+               porte toujours bien. C'est<lb/>
+               le seul
+               bonheur que tu aies,<lb/>
+               <del type="illisible"/> ma bonne amie ; tu en<lb/>
+               auras d'autres. Dans huit<lb/>
+               jours, rien ne
+               pourra<lb/>
+               m'empêcher de toucher l'argent<pb n="1131" facs="#hACAS_CRHST_AMP_26_393_quarto_0403_v.jpg"/>
+               qui est dans les mains de<lb/>
+               M. <persName ref="#pers_C160">Coste</persName> et, dans
+               trois mois,<lb/>
+               j'espère être du <orgName>lycée</orgName> ! Voilà<lb/>
+               la perspective dont je voudrais<lb/>
+               que tu
+               t'occupasses ! Depuis que<lb/>
+               tu me connais, je n'ai fait<lb/>
+               que te causer des inquiétudes.<lb/>
+               Au <orgName>Lycée</orgName>, mon travail<lb/>
+               contribuera à t'en ôter, voilà<lb/>
+               l'idée qui me reste pour<lb/>
+               m'aider à prendre patience<lb/>
+               jusqu'à cet heureux moment.<lb/>
+               Mais toi, ma bonne amie,<lb/>
+               tu n'<choice>
+            <sic>a</sic> <corr>as</corr>
+          </choice> pas comme moi un<lb/>
+               souvenir de bonheur à<lb/>
+               opposer aux chagrins qui<lb/>
+               te poursuivent ! Tu
+               souffres<lb/>
+               sans en être dédommagée<lb/>
+               par aucune jouissance, et<lb/>
+               les malheurs que tu as
+               éprouvés<lb/>
+               t'en font toujours craindre<lb/>
+               de nouveaux. Ma <persName ref="#pers_C129">Julie</persName>, ma<pb n="1132" facs="#ACAS_CRHST_AMP_26_393_quarto_0404_r.jpg"/>
+               bienfaitrice, c'est là
+               le nom<lb/>
+               que j'aime à te donner,<lb/>
+               tes jours ne couleront pas<lb/>
+               toujours dans la tristesse,
+               tu<lb/>
+               seras heureuse, oh bien heureuse !<lb/>
+               Un jour, j'en suis sûr, tu ne<lb/>
+               verras plus en
+               moi celui, qui<lb/>
+               t'a causé tant d'inquiétudes et<lb/>
+               de chagrins. Tu y verras le<lb/>
+               père de
+               l'enfant qui fera<lb/>
+               ton bonheur. Il faut que je te<lb/>
+               quitte, ma charmante amie ;<lb/>
+               il faut
+               que je pense à ma<lb/>
+               leçon de demain matin.<lb/>
+               J'ai veillé aujourd'hui : ce qu<supplied>e</supplied>
+          <lb/>
+               je ne fais
+               plus depuis q<supplied>ue</supplied>
+          <lb/>
+               je me lève matin. Au reste,<lb/>
+               je n'aurais rien avancé d'aller<lb/> 
+               à l'ordinaire me coucher<lb/>
+               en sortant de table ; aurais<lb rend="hyphen"/>je pu dormir avant de t'avoir<lb/>
+               dit
+               tout ce que je portais<pb n="1133" facs="#ACAS_CRHST_AMP_26_393_quarto_0405_v.jpg"/>
+               sur le cœur depuis que j'avais<lb/>
+               lu ta lettre ! J'allais
+               oublier<lb/>
+               de te parler d'une commission<lb/>
+               qu'on m'a donnée ; un bout<lb/>
+               de billet que m'a
+               remis M.<lb/>
+               <persName ref="#pers_C150">Clerc</persName> te mettra au fait. Je<lb/>
+               voudrais bien, si cela était<lb/>
+               possible, lui
+               rendre réponse<lb/>
+               avant de partir et je compte<lb/>
+               partir vendredi de grand matin,<lb/>
+               ou même
+               jeudi soir. Si cela te<lb/>
+               donne de l'embarras, il n'y faut<lb/>
+               pas songer. Tu sens comme je
+               t'embrasse.</p>
+            <closer>A <choice>
+            <sic>Madame<lb/> Madame</sic> <corr>Madame</corr>
+          </choice> <persName ref="#pers_C129">Ampère</persName>, chez Mme <persName ref="#pers_B69">Carron</persName>,<lb/>
+               maison <persName>Simon</persName>, <placeName>rue<lb/>
+                  du Griffon</placeName>, vis-à-vis<lb/>
+               de la
+               <placeName>rue Terraille</placeName>,<lb/>
+               à <placeName>Lyon</placeName>.</closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1802-12-17-b-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Huit pages 16,5 x 22 ; adresse à la fin, Timbre <placeName>Bourg</placeName> et
+               date illisible. Un long passage a été publié par Mme <persName ref="#pers_C1171">Cheuvreux</persName>, p. 277 et 278. La
+               lettre répond à la Lettre 0191.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

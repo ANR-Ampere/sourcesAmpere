@@ -1,0 +1,285 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 451</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1813-06-28-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 447-448-449</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L451</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L451manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 340</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Six pages in-4°, adresse sur la dernière.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1813-06-28">28 juin
+                        1813</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Bredin, Claude-Julien</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1813-06-28-a">
+      <body>
+         <div xml:id="L1813-06-28-a-div1">
+            <opener>
+          <pb n="320" facs="#ACAS_CRHST_AMP_24_340_0320_r.jpg"/>
+          <placeName>Paris</placeName>
+          <date when="1813-06-28">Lundi 28 juin 1813</date>
+        </opener>
+            <p xml:id="L1813-06-28-a-p1">Mon bon ami, j'ai reçu hier ta lettre où tu me dis que tu as reçu ma dernière lettre.
+               C'est la seule que je t'aie encore écrite depuis que je suis ici, et il y a trois
+               semaines.</p>
+            <p xml:id="L1813-06-28-a-p2">Comment ai-je pu m'y résoudre ? J'ai reçu, il y a quinze jours une lettre
+               de <persName ref="#pers_D174">Davy</persName>, où il me dit qu'il a adopté mon opinion sur la nature
+               de l'acide fluorique, considéré comme composé d'hydrogène et d'une troisième
+               substance analogue à l'oxygène et au chlorine : un troisième corps comburant en un
+               mot, qui faisait des acides avec l'hydrogène, le silicium et le bore ; savoir ceux
+               qu'on nomme fluorique, fluorique silicé, et fluoborique. Ma réponse commencée est
+               restée quinze jours sur ma table. Je l'ai récrite quatre ou cinq fois, et l'ai donnée
+               ce matin à copier ; bien bête, car je ne peux plus fixer mes idées sur ces
+               choses-là ! Elle m'ennuyait tant que, depuis quelque temps, pour me forcer à
+               l'achever, je m'étais prescrit de ne t'écrire que quand elle le serait. Je brûlais
+               d'envie de t'écrire alors ; je voulais t'expliquer tout le désespoir dont j'étais
+               saisi quand j'ai su l'événement arrivé en mon absence et que ma sœur ne m'avait pas
+               écrit <ref target="#corresp2">(2)</ref>. Mais comment te<pb n="321" facs="#ACAS_CRHST_AMP_24_340_0321_v.jpg"/> faire tout ce long détail : il faut pourtant
+               que tu en saches toutes les circonstances. Je les ai toutes racontées à
+                  <persName ref="#pers_D207">Dugas-Montbel</persName>. Il va à <placeName>Lyon</placeName>. Il s'est
+               chargé de te remettre <title>
+            <persName ref="#pers_Y592">Young</persName>
+          </title> et les mémoires de
+               Mlle <persName ref="#pers_C1182">Clairon</persName>. Il te racontera tout. Il n'y a plus de repos à
+               jamais pour ton ami depuis que je vois que le silence inconcevable de ma sœur a
+               empêché ma réunion certaine avec Mme <persName>Ampère</persName> ; cette réunion me
+               poursuit toujours comme le bonheur suprême. Je m'en peins toutes les circonstances
+               avec des regrets qui me mettent en fureur contre ma sœur et contre moi. Et puis
+               toujours cette pensée accablante : elle serait là, dans ce moment, avec son mari et
+               sa petite ! C'est par une fatalité inconcevable, ma sœur le désirait aussi, et, à
+               présent, l'occasion est manquée sans retour ! A présent, j'ai plus que jamais sujet
+               de lui en vouloir ; car <persName ref="#pers_D207">Dugas</persName> te dira comment, après avoir
+               désiré cette réunion avant mon départ de la fin d'avril, pour se soustraire aux
+               persécutions de son père, elle a su dernièrement par ma sœur, quand il n'était plus
+               temps,<pb n="322" facs="#ACAS_CRHST_AMP_24_340_0322_r.jpg"/> quand elle était sûre de pouvoir rester comme auparavant chez son père,
+               combien je la regrettais sans en être touchée, sans y répondre ! Cela a achevé de me
+               la faire connaître ; ce n'est pas elle aussi que je regrette, c'est l'illusion que
+               j'aurais eue, ce sont les émotions que j'aurais éprouvées, c'est le chagrin de
+               n'avoir pas vu changer toute mon existence, pour savoir du moins si cette nouvelle
+               manière d'être aurait été moins insupportable.</p>
+            <p xml:id="L1813-06-28-a-p3">Du <date when="1813-07-01">1er
+                  juillet</date>
+          <lb/>
+               Je ne sais pas du tout, bon ami, pourquoi cette lettre n'est pas
+               partie il y a trois jours. C'est seulement une preuve que je n'ai rien fait
+               absolument ces trois jours, que je ne me suis pas approché de mon bureau ; car je l'y
+               aurais vue, j'y aurais ajouté quelques lignes, et je l'aurais jetée à la poste ! Un
+               nouvel incident m'a encore plus bouleversé que tout le reste. Ma sœur, désolée de ce
+               qu'elle avait fait, troublée de l'état où elle me voyait, a profité de cette
+               circonstance pour me demander d'aller en <placeName>Franche-Comté</placeName>. Ce
+               dernier abandonnement de tous ceux qui pourraient me consoler et<pb n="323" facs="#ACAS_CRHST_AMP_24_340_0323_v.jpg"/> qui ne me montrent
+               que de l'indifférence, le peu de sensibilité que j'ai trouvé dans mon chagrin de la
+               part d'une autre personne dont j'en attendais davantage, tout cela m'a achevé, je me
+               suis décidé à quitter Paris pour quelque temps et, comme il faut que j'aille tous les
+               mardis à la <orgName>Commission des livres classiques</orgName>, qui est à
+                  l'<orgName>Université</orgName> au <placeName>Palais-Bourbon</placeName>, j'irai
+               demeurer au <placeName>village des Ternes</placeName> à côté de l'<placeName>Arc de
+                  Triomphe</placeName> de l'étoile, d'où je pourrai venir en me promenant à travers
+               les <placeName>Champs-Élysée</placeName>. Là je ne ferai que des calculs : un mémoire
+               de mathématiques si cela m'est possible. Je ne verrai personne, peut-être quelquefois
+                  <persName ref="#pers_C149">Clément</persName> qui y établit une manufacture avec le fils
+                  <persName ref="#pers_C141">Chaptal</persName> ; il fait d'admirables découvertes en chimie dont il
+               ne faut pas parler jusqu'à ce qu'elles paraissent. Sans la <orgName>Commission des
+                  livres classiques</orgName> et la nécessité de faire un mémoire puisque le grand
+               Maître m'a dispensé de petites tournées que je devais faire pour que j'y
+               travaillasse, ce n'est pas aux <unclear>
+            thermes
+          </unclear> que j'irais... ; mais il
+               ne doit<pb n="324" facs="#ACAS_CRHST_AMP_24_340_0324_r.jpg"/> plus y avoir de bonheur pour moi sur la terre !... écris-moi toujours à la
+               même adresse ! Je vais faire une récapitulation à l'<orgName>école
+                  Polytechnique</orgName> du <date from="1813-07-08" to="1813-07-18">8 au 18
+                  juillet</date>, qui me retiendra, pendant ce temps, ici. Mais surtout, écris-moi !
+               écris-moi, mon bon ami ! Dis mille amitiés pour moi à <persName ref="#pers_C145">Chatelain</persName>
+               dont le souvenir dans ta dernière lettre m'a fait bien plaisir. Il y en a donc encore
+               d'autres que toi qui pensent à moi ! Dis mille choses de moi au bon
+                  <persName ref="#pers_D220">Dupré<ref xml:id="pers_D220"/>
+          </persName>, ne m'oublie pas près de <persName ref="#pers_J318">Camille</persName>.
+               M. et Mme <persName ref="#pers_D272">Degérando<ref xml:id="pers_D272"/>
+          </persName> m'ont beaucoup demandé de tes nouvelles et
+               de celles de <persName ref="#pers_D220">Dupré<ref xml:id="pers_D220"/>
+          </persName>, ils t'aiment beaucoup.</p>
+            <p xml:id="L1813-06-28-a-p4">As-tu vu un article de
+                  <persName ref="#pers_G271">Geoffroy</persName> dans le fameux feuilleton ; il parle des deux
+                  <persName>Phèdres</persName> précisément comme ton <persName ref="#pers_S525">Schlegel</persName>.
+               Depuis que <persName ref="#pers_S525">Schlegel</persName> s'est trouvé accolé à
+                  <persName ref="#pers_K330">Kotzebue</persName>, tu sais bien, c'est un homme regardé comme mort
+               dont l'héritage est au pillage. <persName ref="#pers_G271">Geoffroy</persName> prend sa part. Que
+               dis-tu<pb n="325" facs="#ACAS_CRHST_AMP_24_340_0325_v_P.jpg"/> du nouveau <persName ref="#pers_T1782">Thrasybule</persName>, <persName ref="#pers_B1558">Miguel
+                  Belgrano</persName> ? Adieu, mon bon ami, tu sais comme je t'aime et comme je
+               t'embrasse ! Je te vois par ta lettre de nouvelles peines au sujet de ces tristes
+               affaires dont tu m'avais parlé à <placeName>Lyon</placeName> ; dis-moi, raconte-moi
+               tous tes ennuis, comme je te parle sans cesse des miens ! Adieu, bon ami. A.
+                  <persName>Ampère</persName> Ma sœur et mes enfants se portent bien. Comment se
+               portent tes enfants et leur tendre mère ? Mme <persName ref="#pers_D272">Degérando<ref xml:id="pers_D272"/>
+          </persName> m'a dit
+               qu'elle l'avait vue et qu'elle en avait été bien contente. Elle te juge heureux
+               d'avoir une femme comme elle.</p>
+            <p xml:id="L1813-06-28-a-p5">
+            <pb n="326" facs="#ACAS_CRHST_AMP_24_340_0326_v.jpg"/>As-tu lu le <title>Phédon</title> de
+               <persName ref="#pers_M385">Mendelssohn</persName>, traduit de l'allemand, la préface où se trouve
+               une lettre bien singulière à <persName ref="#pers_L348">Lavater</persName> ? Quelle diversité dans les
+               tètes humaines ! On me l'a prêté ; je le lis ; parle-m'en !
+        </p>
+            <closer>
+          <pb n="325" facs="#ACAS_CRHST_AMP_24_340_0325_v_P.jpg"/>A monsieur <persName>Bredin</persName> Directeur de l'<orgName>École impériale vétérinair</orgName>e, à
+                  <placeName>Lyon</placeName> (<placeName>Rhône</placeName>) </closer>
+           
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1813-06-28-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Six pages in-4°, adresse sur la dernière.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) La brouille du
+               ménage <persName ref="#pers_A16">Potot</persName> a eu lieu en <date when-iso="1813-03">mars
+                  1813</date>. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

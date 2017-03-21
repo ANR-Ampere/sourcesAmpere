@@ -1,0 +1,275 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 771</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1831-11-03-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 737-738-739-740</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L771</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L771manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>Suisse</country>
+                        <settlement>Genève</settlement>
+                        <institution>Bibliothèque de Genève</institution>
+                        <idno>Ms 2314.</idno>
+                     </msIdentifier>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1831-11-03">3
+                        novembre 1831</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_L333" type="adressee">La Rive, Auguste de</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1831-11-03-a">
+      <body>
+         <div xml:id="L1831-11-03-a-div1">
+            <opener>3 novembre 1831</opener>
+            <opener>Monsieur, très cher et excellent ami,</opener>
+            <p xml:id="L1831-11-03-a-p1"> Monsieur votre père a dû recevoir par mon
+               gendre une lettre que je lui ai écrite pour le prier de lui procurer pendant son
+               séjour à <placeName>Genève</placeName> les agréments que je désire qu'il y trouve pour prévenir des accès de
+               mélancolie qui égaraient ses pensées dès que le mauvais temps venait chaque hiver
+               l'assiéger à <placeName>Paris</placeName>, et contre lesquels il ne reste à essayer que le changement de
+               lieu et les distractions qui en peuvent résulter. J'ai eu, ces derniers hivers, à
+               craindre pour sa vie, et j'ai cependant sujet d'espérer que ces accidents ne se
+               renouvelleront pas cette année. D'ailleurs il a eu soin de prendre, dans le cas où
+               cet espoir serait trompé, et où le climat de <placeName>Genève</placeName> ne suffirait pas pour les
+               prévenir, un passeport pour telle partie de l'<placeName>Italie</placeName> que les médecins célèbres dont
+               <placeName>Genève</placeName> se glorifie, regarderaient comme nécessaire à sa santé. J'ai mille raisons de
+               désirer qu'il puisse, sans de trop grands inconvénients pour sa santé, passer l'hiver
+               à <placeName>Genève</placeName>. Ces raisons et celles qui m'ont porté à prier Monsieur votre père ou vous,
+               Monsieur, dans la lettre que je lui ai écrite, de me rendre le service de remettre à
+               mon gendre l'argent que j'aurai à lui faire passer seulement au fur et à mesure des
+               échéances et pour les sommes portées dans les reconnaissances que j'ai remises à mon
+               gendre, en ayant soin surtout de ne lui payer successivement ces petites sommes
+               qu'autant qu'il vous remettrait contre chacune la reconnaissance acquittée par lui,
+               afin que vous puissiez, ou Monsieur votre père, m'envoyer ces reconnaissances ainsi
+               acquittées dans une simple enveloppe jetée à la poste à mon adresse, rue des
+              Fossés-Saint-Victor, n° 19, à <placeName>Paris</placeName> (bien entendu que vous en ayez eu le
+               remboursement par moi, ce que j'aurai soin de faire d'avance) m'engagent à entrer
+               dans quelques détails que je confie à votre amitié pour moi ; car ils doivent rester
+               à jamais entre vous, Monsieur, Monsieur votre père et moi, après que vous aurez,
+               comme je vous en prie instamment, brûlé cette lettre.</p>
+            <p xml:id="L1831-11-03-a-p2">Vous concevez facilement que,
+               dans l'état de susceptibilité où ses malheurs ont mis cet excellent homme, mon gendre
+               pourrait être profondément blessé de ce que je vous aurais parlé de la conduite de
+               son frère à son égard, et je suis trop certain qu'il ne pourrait le cacher à ce frère
+               dont je me ferais ainsi un ennemi irréconciliable.
+               </p>
+            <p xml:id="L1831-11-03-a-p3">Quand M. <persName ref="#pers_R491">Ride</persName> a épousé ma fille,
+               il avait des propriétés en <placeName>Champagne</placeName> et une fort belle place dans sa carrière, l'état
+               militaire. Pendant l'hiver de 1829, que le délabrement de ma santé, causé par un
+               rhume négligé, m'a fait passer à <placeName>Hyères</placeName>, d'où je ne croyais pas revenir, l'aveugle
+               confiance de mon gendre pour son frère a été mise à profit par ce dernier, les
+               propriétés ont été vendues plus de moitié au-dessous de leur valeur, le frère s'est
+               chargé des recouvrements ; je n'en ai point vu les comptes, mais je sais qu'il n'en
+               reste absolument plus rien à mon gendre. Sur la fin de cet hiver, le dérangement de
+               sa santé le priva de sa place, avec un très modique traitement de réforme. Par égard
+               pour mon état de convalescence d'une maladie de poitrine qui n'avait laissé que bien
+               peu d'espérance aux médecins et dont je suis pourtant complètement guéri, on me cacha
+               ce malheur jusqu'au moment où je devais revenir à <placeName>Paris</placeName>. A mon arrivée je trouvai mon
+               gendre triste mais résigné. Vers le retour de l'hiver il fit un voyage en Champagne
+               pour réclamer de son frère le règlement des comptes des sommes que ce dernier avait
+               dû recevoir pour lui ; mais, au lieu de rapporter de l'argent, il revint après avoir
+               mis le sceau à sa ruine en s'engageant pour son frère beaucoup au delà du peu qui
+               pouvait lui rester : en sorte que, si ce frère, comme il est malheureusement bien
+               probable que cela va arriver, se trouve dans l'embarras, sa ruine rejaillira sur mon
+               gendre.</p>
+            <p xml:id="L1831-11-03-a-p4">Par suite de cette série d'imprudences où l'a plongé l'amour fraternel et
+               l'aveugle confiance qu'il avait dans son frère, il ne restait à mon gendre que son
+               traitement de réforme et la pension de 2000 francs par an, ou 166 fr. 66 [par mois],
+               que je lui dois d'après son contrat de mariage. C'est pour cela que je lui ai fait
+               les reconnaissances mensuelles de 166 fr. 66 qu'il vous remettra successivement.
+               Seulement, comme les circonstances où il s'est trouvé l'ont obligé de me prier de lui
+               faire des avances considérables sur cette pension et qu'il désire, comme moi, se
+               remettre peu à peu au courant, de manière à ce qu'il ne reçoive plus par la suite que
+               les mois échus, nous sommes convenus de porter les distances des échéances à six
+               semaines au lieu d'un mois : au moyen de quoi nous nous trouverons au courant, mon
+               gendre et moi, dans environ dix-huit mois.</p>
+            <p xml:id="L1831-11-03-a-p5">Il me reste à ajouter que, dans la
+               situation où sont les choses du côté de la famille de M. <persName ref="#pers_R491">Ride</persName>, je puis être dans le
+               cas de justifier juridiquement des payements que je lui ai faits, sous peine d'être
+               obligé de payer deux fois. C'est pourquoi il m'est absolument nécessaire d'avoir, à
+               mesure qu'elles seront soldées, les reconnaissances acquittées. Vu l'état de mon
+               gendre, la perte de mémoire du jour au lendemain qui est un des symptômes de sa
+               mélancolie quand elle est dans toute sa force, vous concevrez facilement que je n'ai
+               pu le charger de me renvoyer ces reconnaissances. Je me suis trouvé dans la nécessité
+               de recourir à vous, Monsieur, ou à Monsieur votre père pour les retirer à mesure
+               qu'il en recevra le montant.</p>
+            <p xml:id="L1831-11-03-a-p6">Il va sans dire au reste qu'il suffira de me renvoyer
+               ces reconnaissances après que vous aurez reçu de moi l'argent donné à mon gendre : ce
+               qui, excepté pour la première, aura toujours lieu d'avance ; car, dès que vous aurez
+               eu l'extrême bonté de m'indiquer votre correspondant de <placeName>Paris</placeName>, je lui porterai
+               d'abord sur-le-champ les 166 fr. 66 de la première reconnaissance. La seconde étant
+               payable le <date when="1831-12-15">15 décembre</date> prochain, je lui en porterai le montant le <date when="1831-12-01">premier jour de
+               décembre</date>, avec les frais pour le change et le transfert à <placeName>Genève</placeName>. Je ferai de même
+               pour les suivantes, en sorte que l'argent soit huit jours avant la prochaine échéance
+               chez votre correspondant.</p>
+            <p xml:id="L1831-11-03-a-p7">Combien je vous dois de remerciements d'avance dans la
+               confiance où je suis que vous ne me refuserez pas le service que je vous supplie de
+               me rendre ! Sans vous, je serais dans de continuelles inquiétudes et je craindrais à
+               chaque instant de voir ma tranquillité et celle de ma fille compr[om]ises par l'oubli
+               ou la négligence de mon gendre relativement au renvoi des reconnaissances acquittées.
+               J'espère d'aller chercher moi-même mon gendre le printemps prochain. Quel vrai
+               bonheur ce serait pour moi si cette circonstance me procurait le plaisir de vous
+               voir, Monsieur votre père et toute votre aimable famille et de renouveler
+               connaissance avec ceux de vos concitoyens qui m'ont honoré de leur amitié, de revoir
+               M. <persName ref="#pers_M383">Maurice</persName> et M. <persName ref="#pers_C119">de Candolle</persName> ! Je serai bien heureux si, en m'honorant d'un mot de
+               réponse, vous vouliez bien me mander que vous ni Monsieur votre père ne me regardez
+               pas comme trop indiscret dans une demande que je ne pouvais faire qu'à l'un de vous
+               deux et qui était pour moi d'une si grande importance, si vous me donnez en même
+              [temps] de vos nouvelles, de celles de votre famille, même de celles de mon gendre
+               que vous avez sûrement déjà [vu], mais dont je n'ai encore reçu aucune nouvelle
+               depuis son départ, enfin si vous me disiez quelque chose des progrès que vous ne
+               manquez pas, ainsi que les savants de <placeName>Genève</placeName>, de faire aux sciences, par vos travaux
+               et le zèle avec lequel vous défrichez les parties encore incultes.</p>
+            <p xml:id="L1831-11-03-a-p8">Daignez agréez,
+               pour vous, Monsieur, Monsieur votre père, Madame votre mère et <persName ref="#pers_L1368">Mme de La Rive</persName>, les
+               respectueux hommages de votre très humble et très obéissant serviteur.<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName>,<lb/> de
+               l'<orgName>Institut</orgName>
+        </p>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1831-11-03-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) <orgName>Bibliothèque publique et universitaire de <placeName>Genève</placeName>
+          </orgName>.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

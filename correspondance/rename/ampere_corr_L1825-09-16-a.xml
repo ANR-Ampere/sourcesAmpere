@@ -1,0 +1,197 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 686</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1825-09-16-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1943">1943</date>
+                     <biblScope type="tome">III.</biblScope>
+                     <biblScope type="pp">p. 940-941</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L686</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L686manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <repository>Collection Noël Bodin [note de Louis DE
+                           LAUNAY]</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Deux pages 19 x 25, adresse sur la quatrième. [note de Louis DE
+                           LAUNAY]</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1825-09-16">16 septembre 1825</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Carron, Antoinette (mère de Julie)</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1825-09-16-a">
+      <body>
+         <div xml:id="L1825-09-16-a-div1">
+            <opener>
+          <date when="1825-09-16">16 septembre 1825</date>
+        </opener>
+            <p xml:id="L1825-09-16-a-p1">Ma chère et excellente amie, que de reconnaissance ne vous dois-je pas de ce que vous
+               avez fait en faveur de mon cousin ! Il a reçu sa nomination de M. <persName ref="#pers_V1803">Van Devoorde</persName> et a
+               dû commencer aujourd'hui à travailler dans les préliminaires de l'entreprise. Il
+               recevra 50 francs par mois à compter d'hier, et en aura ensuite 1000 par an quand la
+               chose sera mise en activité.</p>
+            <p xml:id="L1825-09-16-a-p2">C'est un si grand bonheur pour lui, pour moi, que je ne
+               sais comment vous en remercier. Mon fils, qui est enchanté de cet événement, partage
+               bien toute ma reconnaissance et se joint à moi pour vous en remercier. Je suis seul à
+               présent avec lui, ma sœur étant à <placeName>Saint-Germain</placeName> avec <persName ref="#pers_A951">Albine</persName>, dans un petit
+               appartement loué par ma cousine.</p>
+            <p xml:id="L1825-09-16-a-p3">J'irai dans quelques jours passer avec mon fils une
+               huitaine à <persName>Vanteuil</persName> où j'emporterai du travail que j'expédierai mieux là qu'ici où le
+               <gap reason="lacune"/> m'empêche presque de travailler <gap reason="lacune"/> je le devrais. Du reste
+               nous <gap reason="lacune"/> tous très bien, et ce que je désire le plus au monde, c'est qu'il
+               en soit de même chez vous, que votre santé s'améliore, que celle de ma bien chère et
+               bien excellente <persName ref="#pers_C1128">éliza</persName> se rétablisse enfin tout à fait.</p>
+            <p xml:id="L1825-09-16-a-p4">Je vous prie de l'embrasser
+               bien tendrement pour moi et pour mon fils ainsi que mon frère. Vous savez avec quelle
+               tendresse nous vous embrassons tous deux. Adieu, adieu, la plus chère et la meilleure
+               des amies.<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+            <closer>A Madame <persName ref="#pers_C128">Carron</persName>, à <placeName>Nogent-les-Vierges</placeName>, par <placeName>Creil</placeName>, département de l'<placeName>Oise</placeName>.
+            </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1825-09-16-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Coll. <persName ref="#pers_B1055">Bodin</persName>. Deux pages 19 x 25, adresse sur la
+               quatrième.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

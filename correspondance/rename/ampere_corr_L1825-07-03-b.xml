@@ -1,0 +1,254 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 685</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1825-07-03-b">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 678-679</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L685</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L685manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>Angleterre</country>
+                        <settlement>Londres</settlement>
+                        <institution>Institution of Electrical Engineers [note de Louis DE
+                           LAUNAY]</institution>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Quatre pages in-4°, 19 x 24,5. [note de Louis DE LAUNAY]</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1825-07-03">3 juillet 1825</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Faraday, Michael</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1825-07-03-b">
+      <body>
+         <div xml:id="L1825-07-03-b-div1">
+            <opener>
+          <placeName>Paris</placeName>
+          <date when="1825-07-03">3 juillet 1825</date>
+        </opener>
+            <opener>Monsieur, </opener>
+            <p xml:id="L1825-07-03-b-p1">J'ignore si la lettre que j'ai eu l'honneur de vous écrire à l'époque du
+               voyage à <placeName>Londres</placeName> de M. <persName ref="#pers_L333">Auguste de La Rive</persName>, et que ce jeune mais déjà si habile et si
+               savant physicien devait vous remettre, vous est parvenue. Je profite aujourd'hui du
+               départ de mon savant et respectable ami M. <persName ref="#pers_U570">Underwood</persName> pour vous rappeler la sincère
+               amitié et la haute estime que m'ont inspirées vos grandes découvertes dans les
+               sciences et la bienveillance dont vous m'avez honoré.</p>
+            <p xml:id="L1825-07-03-b-p2">Occupé sans relâche des travaux
+               qu'exigent de moi les deux cours dont je suis chargé, je n'ai pu terminer quelques
+               expériences que j'avais entreprises et dont j'aurais un grand plaisir, si elles
+               l'étaient, à vous communiquer les résultats. M. <persName ref="#pers_U570">Underwood</persName> vous expliquera toutes les
+               tracasseries et les désagréments que j'ai éprouvés de la part de quelques personnes
+               qui, à <placeName>Paris</placeName>, ne me pardonnent pas d'avoir pu trouver tant de faits nouveaux en
+               physique et d'avoir obtenu la formule mathématique qui les représente tous et
+               démontré, par l'accord des résultats du calcul et de ceux de l'expérience, que
+               l'électricité en mouvement est en effet la cause des phénomènes magnétiques. Il me
+               semble que les mêmes personnes ont travaillé à me nuire à <placeName>Londres</placeName>  ; car, sans cela,
+               je ne concevrais pas trop pourquoi il y est si peu question de ce que j'ai fait. Par
+               exemple comment comprendre qu'ayant communiqué le <date when="1824-10-30">30 octobre</date> à l'<orgName>Académie des
+               Sciences</orgName> les expériences que je répétai si souvent à cette époque devant les
+               physiciens les plus distingués de <placeName>Paris</placeName>, par lesquelles j'avais constaté que l'action
+               de la terre amenait, par une action prompte et énergique, un conducteur circulaire
+               mobile autour d'un axe vertical dans un plan perpendiculaire au méridien magnétique,
+               et inclinait un autre conducteur mobile autour d'un axe horizontal, comment, dis-je,
+               comprendre que, près d'un an après, en <placeName>Angleterre</placeName>, cette expérience était mise en
+               doute, si ce n'était un effet produit dans l'origine par des personnes de <placeName>Paris</placeName> qui
+               agissaient contre moi à <placeName>Londres</placeName> ?</p>
+            <p xml:id="L1825-07-03-b-p3">Du moins je ne pense pas qu'on ait jamais attribué
+               à d'autres la découverte fondamentale de l'action de deux fils conducteurs, et celle
+               des propriétés des hélices ou solénoïdes électro-dynamiques.</p>
+            <p xml:id="L1825-07-03-b-p4">Vous savez assez,
+               Monsieur, quels sont les autres faits que j'ai vus le premier, pour pouvoir défendre
+               ma cause auprès des illustres physiciens dont s'enorgueillit l'<placeName>Angleterre</placeName> et dont,
+               grâce à vos découvertes, vous devriez vous trouver aujourd'hui l'égal en renommée. Je
+               ne sais pas si l'on connaît en <placeName>Angleterre</placeName> un ouvrage sur l'électricité dynamique <ref target="#ampere_ref_P405.xml">*</ref> de M. <persName>
+            <choice>
+              <sic>de Monferrand</sic> <corr>Demonferrand</corr>
+            </choice>
+          </persName>,
+               professeur de physique dans un collège royal : j'ai pensé que vous seriez peut-être
+               bien aise de le connaître. Il forme un traité assez complet de cette nouvelle branche
+               de physique. Seulement il faut y ajouter les calculs compris dans le <title>Précis de la
+               théorie des phénomènes électro-dynamiques</title> que j'ai publié depuis, et remplacer la
+               description de l'appareil dont il se servait alors par celle d'un appareil bien
+               préférable, auquel je me suis définitivement arrêté.</p>
+            <p xml:id="L1825-07-03-b-p5">Est-ce qu'il n'existe pas
+               d'appareils de ce genre en <placeName>Angleterre</placeName> ? Il est difficile sans son secours de répéter
+               toutes les expériences relatives aux lois de l'action mutuelle de deux courants
+               électriques qu'il est important d'étudier à part et indépendamment de l'autre espèce
+               d'action qui a lieu entre un aimant et un fil conducteur.</p>
+            <p xml:id="L1825-07-03-b-p6">J'avoue que j'éprouve un
+               bien vif désir qu'un instrument pareil à celui dont j'ai publié la description se
+               trouve à <placeName>Londres</placeName>, qu'on y fasse mes expériences. Ne pourriez-vous pas en procurer un
+               à l'<orgName>Institution royale</orgName> ?</p>
+            <p xml:id="L1825-07-03-b-p7">Je vous envoie, par mon excellent ami M. <persName ref="#pers_U570">Underwood</persName>,
+               l'ouvrage de M. <persName>
+            <choice>
+              <sic>de Monferrand</sic> <corr>Demonferrand</corr>
+            </choice>
+          </persName> et les deux miens. Si vous avez déjà ces
+               derniers, M. <persName ref="#pers_U570">Underwood</persName> pourra les remettre à un autre savant.</p>
+            <p xml:id="L1825-07-03-b-p8">Je vous prierais d'une
+               chose, si ce n'était peut-être abuser de l'amitié que vous m'avez témoignée, ce
+               serait de jeter les yeux sur la table de l'ouvrage de M. <persName>
+            <choice>
+              <sic>de Monferrand</sic>
+               <corr>Demonferrand</corr>
+            </choice>
+          </persName>, de voir par vous-même si elle n'est pas conforme à la plus exacte
+               justice dans les noms des savants qui ont contribué à la nouvelle branche de la
+               physique que j'ai nommée <cit>
+            <quote>électricité dynamique</quote>
+          </cit> et s'il n'en résulte pas que je ne
+               suis pas un des derniers parmi ceux qui l'ont créée.</p>
+            <p xml:id="L1825-07-03-b-p9">Je suis, avec la plus sincère
+               amitié et la plus haute considération, Monsieur, votre très humble et très obéissant
+               serviteur.<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1825-07-03-b-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) <orgName>Institution of Electrical Engineers</orgName>, à <placeName>Londres</placeName>. Quatre pages
+               in-4°, 19 x 24,5.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

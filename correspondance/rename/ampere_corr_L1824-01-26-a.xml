@@ -1,0 +1,301 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 651</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1824-01-26-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 640-641-642-643</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L651</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L651manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 379</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Huit pages in-4°.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1824-01-26">26 janvier 1824</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_A10" type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1824-01-26-a">
+      <body>
+         <div xml:id="L1824-01-26-a-div1">
+            <opener>
+          <pb n="564" facs="#ACAS_CRHST_AMP_25_379_0564_r.jpg"/>26 janv<ex>ie</ex>r 1824</opener>
+            <p xml:id="L1824-01-26-a-p1">Cher ami, que je me repens de ne t'avoir pas écrit plus tôt, depuis que j'ai reçu ta
+               dernière qui m'est arrivée le <date when="1824-01-21">21</date> ! Il y a trois jours que j'ai vu <persName ref="#pers_T556">Talma</persName> qui m'a dit
+               qu'il pensait pouvoir se charger du rôle d'<persName ref="#pers_A952">Alboin</persName>, ce qui était précisément l'objet
+               de tous mes vœux et de la visite que je lui faisais. Il s'est mis à causer avec moi
+               comme devant en effet le jouer. Je lui ai offert de lui remettre une nouvelle copie
+               que j'ai fait faire à <persName ref="#pers_C147">Chouly</persName> ; mais il m'a dit que, pour le moment, il n'avait pas le
+               temps, mais que, dès que tu serais de retour, il s'occuperait avec toi de tout ce qui
+               était relatif à ta pièce <ref target="#ampere_ref_P404.xml">*</ref>. Il parle
+               de toi comme d'une espérance de la scène française, dont elle attend beaucoup de
+               lustre. Il m'a dit qu'il y avait des auteurs qui faisaient de bonnes pièces à force
+               de travail sans être nés poètes, mais que tu l'étais et que tu étais inspiré par une
+               verve et un talent naturels. Il a joint à cela l'éloge complet de ton style, chose
+               sur<pb n="565" facs="#ACAS_CRHST_AMP_25_379_0565_v.jpg"/> laquelle ils sont tous d'accord. Il a reparlé de la nécessité de préparer les
+               scènes et les événements. Il trouve que tes dernières corrections sont très bien et
+               remplissent en grande partie cette condition, à laquelle il attache tant
+               d'importance.</p>
+            <p xml:id="L1824-01-26-a-p2">C'est donc à, ton retour que tu arrangeras tout avec <persName ref="#pers_T556">Talma</persName> pour obtenir
+               un tour de faveur, pour distribuer les rôles, etc. M. <persName ref="#pers_A18">Andrieux</persName>, que j'ai vu l'autre
+               jour, m'a chargé de tant de choses pour toi que je ne peux me les rappeler, mais tu y
+               suppléeras ; c'est aussi là un de tes admirateurs. Que diront-ils de <title>la Juive</title> quand
+               elle sera faite. Quand m'en enverras-tu quelque chose ? Mais surtout quand seras-tu
+               de retour ? Je n'ai jamais été si malheureux que je suis, si accablé d'ennuis et
+               surchargé de travail. Je n'ai plus de consolation et, sans le plaisir inexplicable
+               que j'éprouve à regarder mon jardin depuis que j'y ai pratiqué de nouveaux sentiers,
+               je ne sais pas ce que je serais devenu. Encore ce plaisir est bien empoisonné par
+               l'idée des journées que j'ai dépensées pour lui donner cette nouvelle forme.</p>
+            <p xml:id="L1824-01-26-a-p3">Je n'ai
+               rien acheté ; tout était là, ou m'a été donné gratis ; mais enfin j'ai<pb n="566" facs="#ACAS_CRHST_AMP_25_379_0566_r.jpg"/> dépensé plus
+               que je ne croyais en journées, et ensuite m'est survenu une catastrophe bien
+               inattendue, que je dois d'abord te raconter.</p>
+            <p xml:id="L1824-01-26-a-p4">Quand je faisais des tournées, je
+               prenais avant de partir une somme à l'<orgName>Université</orgName> ; au retour, on faisait le compte
+               des postes à 10 francs par poste et des jours de séjour à 12 francs par jour. A
+               toutes les autres tournées, il y avait un surplus dont on me tenait compte. Il y a
+               dix-huit mois que j'en avais fait une, pour laquelle j'avais reçu d'avance 2000
+               francs dont une partie y fut dépensée et le reste fut employé au voyage de <placeName>Genève</placeName>, où
+               je convertis à ma théorie électro-dynamique les physiciens de ce pays. A mon retour,
+               j'oubliai de faire régler mon compte ; on a voulu mettre tout en règle au
+               commencement de cette année et j'ai reçu une lettre de l'<orgName>Université</orgName> où l'on m'a
+               demandé mon compte des postes et des jours de séjour de ma tournée en <date when-iso="1822-00-00">1822</date>. J'ai fait
+               mon compte et, au lieu d'avoir un supplément à réclamer, il s'est trouvé que j'avais
+               reçu 352 francs<pb n="567" facs="#ACAS_CRHST_AMP_25_379_0567_v.jpg"/> de plus qu'on ne me devait d'après mon propre compte. Je finirai ce
+               récit à la page suivante parce que je cède un moment la plume au pauvre chat. </p>
+      </div>
+         <div xml:id="L1824-01-26-a-div2">
+            <opener>Mon cher frère</opener>
+            <p xml:id="L1824-01-26-a-p5">, j'ai été bien contente, lorsque papa m'a dit qu'il y
+               avait dans sa lettre une petite lettre pour moi. Je te remercie bien de la bonne
+               année que tu me souhaites ; je te la souhaite enfin de tout mon cœur, pour que tu te
+               portes bien et que tu t'amuses bien. Ma tante et ma cousine ont été bien sensibles
+               aux souhaits que tu formes pour elles. Elles en forment de bien sincères pour toi et
+               elles t'embrassent de tout leur cœur. Lorsque tu reviendras, tu ne pourras pas
+               reconnaître le jardin, tant il est changé ; mais tu le trouveras sûrement bien joli.
+               La promenade est augmentée, il y a beaucoup de petits sentiers qui n'y étaient pas.
+               Nous pensons à ton retour avec bien du plaisir, nous aurons bien du plaisir à
+               t'embrasser. Adieu, mon cher frère, je t'embrasse de tout mon cœur et suis avec
+               amitié Ta sœur<lb/>
+               <persName ref="#pers_A951">ALBINE A.</persName>
+        </p>
+            </div>
+         <div xml:id="L1824-01-26-a-div3">
+        <p xml:id="L1824-01-26-a-p6">
+          <handShift new="#AMA"/>
+          <pb n="568" facs="#ACAS_CRHST_AMP_25_379_0568_r.jpg"/> Je reprends le récit de ma
+               mésaventure. Là-dessus arrive une lettre de l'<orgName>Université</orgName> qui m'invite à verser cette
+               somme à sa caisse. Je ne sais ce que je serais devenu si je ne m'étais trouvé avoir
+               encore dans les mains presque tout ton argent, savoir :<lb/>
+            Reçu de M. <persName ref="#pers_M894">Marchoux</persName>
+               ...........................140 fr<lb/>
+            De M.
+               <persName ref="#pers_F256">Fresnel</persName>......................................175 <lb/>
+            Du locataire du
+               rez-de-chaussée..................40<lb/>
+            Total................................................355<lb/>
+            sur lesquels j'avais payé : Au
+               bottier............................................ 51, 50<lb/>
+            A ma sœur pour la chambre
+               du 4e...............15<lb/>
+            Total .................................................66,50</p>
+            <p xml:id="L1824-01-26-a-p7">
+               Il me restait dans les mains 288 fr. 50, dont tu destinais 100 francs à mon cousin
+               <ref target="#corresp2">(2)</ref>. J'allais t'envoyer une lettre de change, comme tu me le dis dans une précédente
+               lettre, d'environ 200 francs, quand cette lettre est venue de l'<orgName>Université</orgName>. J'ai
+               donné tout ce qui me restait, et j'ai été obligé d'emprunter 50 francs à <persName ref="#pers_F256">Fresnel</persName> pour
+               faire aller le ménage, qui est du reste d'une stricte économie depuis le départ de
+               mon cousin.</p>
+            <p xml:id="L1824-01-26-a-p8">Je me trouve ainsi forcé de ne t'envoyer de l'argent que sur mon mois<pb n="569" facs="#"/> de
+               février que je recevrai les premiers jours de mars ; car ma sœur, n'ayant pas reçu
+               grand'chose des mois de novembre et de décembre, tant à cause de ces malheureuses
+               journées d'ouvriers que d'un compte dû à M. <persName ref="#pers_P455">Pixii</persName> pour des instruments depuis près
+               d'un an, et de l'époque du jour de l'an, s'est endettée dans la maison envers Mme
+               <persName ref="#pers_G803">Guillemard</persName>, de sorte qu'elle demande comme nécessaire le mois de janvier que je
+               recevrai bientôt, promettant de me mettre ensuite au courant.</p>
+            <p xml:id="L1824-01-26-a-p9">Je ne savais quel
+               parti prendre quand j'ai reçu la lettre où tu me dis que <persName ref="#pers_M406">Morel</persName> t'a envoyé de
+               l'argent. Je suis un peu moins tourmenté depuis que je sais cela, espérant que tu
+               pourras ainsi attendre le mois de mars, où tu recevras les 200 francs. Il faut que je
+               t'explique les 15 francs donnés à ta sœur. C'est au lieu de 25 francs que tu lui
+               aurais dus pour la petite chambre du quatrième pendant les derniers trois mois. On
+               l'a louée à quelqu'un qui a donné 10 francs<pb n="570" facs="#ACAS_CRHST_AMP_25_379_0570_r.jpg"/>pour emménager trois semaines avant la
+               fin de ton dernier trimestre ; par là, au lieu de 25 francs, tu en as été quitte
+               moyennant 15 francs.</p>
+            <p xml:id="L1824-01-26-a-p10">Voilà des détails bien ennuyeux. Rien d'ailleurs de nouveau que
+               les tracasseries de l'<orgName>Institut</orgName>. M. <persName ref="#pers_H295">Hachette</persName> avait été nommé. Je crois que M. <persName ref="#pers_N1601">Navier</persName>
+               aurait dû l'être sous le rapport des titres scientifiques ; mais ce n'est pas pour
+               cela que sa nomination a été rejetée. M. <persName ref="#pers_N1601">Navier</persName> a été nommé aujourd'hui. C'est un
+               homme qui a fait de bonnes choses en mécanique et qui ne s'occupe que de cela. Mais
+               toutes ces circonstances m'ont à peu près brouillé avec M. <persName ref="#pers_H295">Hachette </persName>qui m'avait
+               offert de faire passer mes lettres et livres en <placeName>Angleterre</placeName> relativement à mes travaux
+               sur l'électricité. J'ai, néanmoins, beaucoup de crainte que ceux dont il s'était
+               chargé ne soient pas parvenus ; car je n'ai point eu de réponse des <orgName>Académies
+                  d'<placeName>Édimbourg</placeName> et de <placeName>Cambridge</placeName>
+          </orgName>, auxquelles j'avais, par son moyen, adressé mes ouvrages.</p>
+            <p xml:id="L1824-01-26-a-p11">
+               L'espoir qu'on montera la représentation de ta tragédie dès que tu seras de<pb n="571" facs="#ACAS_CRHST_AMP_25_379_0571_v.jpg"/> retour,
+               que <persName ref="#pers_T556">Talma</persName> y jouera et que le succès sera comme celui de l'école des vieillards, qui
+               fait toujours foule, me console de ces désagréments et de l'inquiétude relative à mon
+               cousin qui ne m'a plus donné signe de vie. Je sais seulement qu'il est toujours dans
+               le même hôtel garni.</p>
+            <p xml:id="L1824-01-26-a-p12">Voici une lettre de <persName>Ballanche</persName> que j'ai reçue du sous-préfet de
+               <placeName>Provins</placeName>, ce bon <persName ref="#pers_D220">Dupré</persName> qui est toujours le même ; il m'a aussi écrit et je n'ai pas
+               encore pu lui répondre. Nous t'embrassons tous bien tendrement. Embrasse pour moi
+               <persName>Ballanche</persName> et <persName ref="#pers_D207">Dugas</persName>. Tu sais si ton père t'aime.<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+            <closer>A monsieur <persName>J-J Ampère</persName> Bureau restant à <placeName>Rome</placeName>, état ecclésiastique </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1824-01-26-a-div4">
+            <note resp="#CGA" xml:id="corresp1">(1) Huit pages in-4°.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) Le cousin <persName>Sarcey de Sutières</persName> (voir A.
+               381). </note>
+         </div>
+      </back>
+   </text>
+</TEI>

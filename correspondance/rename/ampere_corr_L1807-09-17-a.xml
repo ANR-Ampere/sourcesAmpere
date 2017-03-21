@@ -1,0 +1,235 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 337</title>
+                <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre
+                        Koyré</affiliation>
+          </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                            sciences</affiliation>
+          </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+          <name>Centre de calcul de
+                    l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:id="ampere_corr_L1807-09-17-a">
+                    <monogr>
+                        <author>
+                            <surname>De Launay</surname>
+                            <forename>Louis</forename>
+            </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gauthier-Villars</publisher>
+                            <date when="1943">1943</date>
+                            <biblScope type="tome">III.</biblScope>
+                            <biblScope type="pp">p. 869-870</biblScope>
+                        </imprint>
+                    </monogr>
+                    
+                <idno type="old">L337</idno>
+        </biblStruct>
+                <listWit>
+                    <witness xml:id="L337manuscrit">
+            <msDesc type="original_manuscrit">
+                            <msIdentifier>
+                                <repository>Collection particulière [note de Louis DE
+                                    LAUNAY]</repository>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>Quatre pages in-4°. [note de Louis DE LAUNAY]</p>
+                            </physDesc>
+                        </msDesc>
+          </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1807-09-17">17
+                                septembre 1807</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_D272" type="adressee">Degérando, Joseph-Marie</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+            <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+                    Coustumer</name>
+      </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="correspondance" decls="#ampere_corr_L1807-09-17-a">
+        <body>
+            <div xml:id="L1807-09-17-a-div1">
+                <opener>
+          <date notBefore="1807-09-17" notAfter="1807-12-17">17 septembre [ou décembre] 1807</date>
+        </opener>
+                <p xml:id="L1807-09-17-a-p1">Mon cher ami, Je viens d'écrire à notre excellent ami <ref target="#corresp2">(2)</ref> pour lui témoigner
+                    toute la joie que j'ai de l'accessit que l'<orgName>Académie de <placeName>Berlin</placeName>
+          </orgName> a sûrement accordé
+                    à son Mémoire d'après la lettre que vous m'avez fait lire ce matin. Pendant que
+                    je lui écrivais, il m'est venu en pensée qu'une des plus belles et des plus
+                    importantes questions psychologiques, une de celles, peut-être, qui se lient le
+                    plus près à la morale, serait une question à peu près dans ce sens : Quelle est
+                    l'influence de l'activité propre de l'être sentant et pensant sur ses
+                    sensations, ses idées, ses jugements, ses déterminations et, en général, sur
+                    tous les phénomènes intellectuels et moraux qu'il présente ? Il me semble que
+                    c'est surtout en traitant une question semblable qu'on pourrait éclaircir les
+                    questions les plus importantes de la psychologie, soit sur la liberté
+                    métaphysique, sans paraître n'écrire que sur ce sujet qu'on regarde comme épuisé
+                    et qui est si loin de l'être, soit sur plusieurs autres points plus ou moins
+                    liés à celui-là et auxquels cette liaison donne un plus haut degré d'intérêt.
+                    J'ai pensé que, dans votre lettre à M. <persName ref="#pers_A17">Ancillon</persName>, vous pourriez peut-être lui
+                    parler de cette question par matière de conversation et comme pensant que ce
+                    serait une de celles qui présenteraient le plus d'intérêt.</p>
+                <p xml:id="L1807-09-17-a-p2">Trois motifs
+                    m'engagent à vous faire part de cette idée. L'<orgName>Académie de <placeName>Berlin</placeName>
+          </orgName> est la seule en
+                    <placeName>Europe</placeName> qui propose des questions psychologiques. Il serait bien à désirer
+                    qu'elles donnassent lieu à revenir sur un point si important. Dans une des
+                    leçons du <persName ref="#pers_G259">Dr Gall</persName>, j'ai vu un homme très respectable et dont le déisme (est)
+                    reconnu et la réputation d'une moralité dont personne ne doute, M. d. d. n.,
+                    répondre en ces propres mots à ce qu'avait dit le docteur s'appuyant sur
+                    l'autorité de <persName ref="#pers_B76">Bonnet</persName>, j'ai écrit sa phrase sur mon cahier de notes à mesure
+                    qu'il l'énonçait :<hi rend="it"> <cit>
+              <quote>Cela est vrai, on se décide d'après
+                        des motifs ; se déterminer contre les motifs ce serait absence de raison ;
+                        se déterminer contre les motifs serait folie.</quote>
+            </cit>
+          </hi> Opinion qui n'est pas
+                    tout à fait du fatalisme, mais qui y conduit par des conséquences que je crois
+                    rigoureuses, et qui est malheureusement adoptée aujourd'hui, je ne dirai pas par
+                    les idéologues, mais par beaucoup des plus gens de bien. Enfin, c'est mon
+                    troisième motif, il serait inutile de parler directement de la question sur la
+                    liberté ; c'est une question qu'on regarde comme usée, et plus scolastique que
+                    psychologique. L'<orgName>Académie de <placeName>Berlin</placeName>
+          </orgName> ne la proposerait certainement pas ; mais
+                    celle que je vous ai indiquée paraît nouvelle, et dans le genre de celles que
+                    cette <orgName>Académie</orgName> propose ordinairement. Si vous pensez à cet égard comme moi, vous
+                    saurez assez prendre, dans votre lettre à M. <persName ref="#pers_A17">Ancillon</persName>, le tour convenable pour
+                    le porter à suggérer cette question à l'<orgName>Académie de <placeName>Berlin</placeName>
+          </orgName>.</p>
+                <p xml:id="L1807-09-17-a-p3">En vous écrivant, je
+                    reçois une lettre de <persName ref="#pers_M1173">
+            <choice>
+              <sic>Maine-Biran</sic> <corr>Maine de Biran</corr>
+            </choice>
+          </persName>, où cette note qu'il me prie purement et
+                    simplement de faire insérer le plus tôt possible dans le <title>Moniteur</title> et dans les
+                    feuilles économiques de <persName>Courcier</persName>. Je crois bien qu'il y a certitude complète que
+                    c'est à lui qu'est décerné l'accessit. Moi, je ne ferai rien à cet égard sans
+                    votre avis. Adieu, mon cher ami, je vous embrasse de toute mon âme. <persName ref="#pers_A366">A. AMPÈRE</persName>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div xml:id="L1807-09-17-a-div2">
+                <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4°. Vente <persName>Gabriel Thomas</persName> du 22 mars
+                    1936 (Dans la <title>Correspondance du Grand
+                        <persName>Ampère</persName>
+                    </title>, <persName ref="#pers_L856">Louis DE LAUNAY</persName> précise, au sujet du manuscrit de cette
+                    lettre : ""Vente <persName>Gabriel Thomas</persName> du <date when="1936-03-22">22 mars 1936</date>" ). </note>
+                <note resp="#CGA" xml:id="corresp2">(2) <persName ref="#pers_M1173">Maine de Biran</persName>. </note>
+               
+            </div>
+        </back>
+    </text>
+</TEI>

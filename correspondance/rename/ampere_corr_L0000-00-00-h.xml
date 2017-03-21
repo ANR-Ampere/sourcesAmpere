@@ -1,0 +1,199 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 9</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+               <forename>André-Marie</forename>
+               <surname>Ampère</surname>
+            </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+                  <affiliation>Università L'Aquila</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+               </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des sciences</affiliation>
+               </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+               <name>Mathilde Dutertre, </name>
+               <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré :
+                  élaboration du schéma XML TEI et encodage</resp>
+            </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+               <name>Centre de calcul de l'IN2P3</name>
+               <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+            </distributor>
+            <availability>
+               <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative
+                     Commons</ref> dont le contenu est disponible sous Creative Commons
+                  Attribution -Non commercial - No Derivative Works 4.0 France</p>
+            </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L0000-00-00-h">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+                  </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 680-681</biblScope>
+                  </imprint>
+               </monogr>
+
+               <idno type="old">L9</idno>
+            </biblStruct>
+            <listWit>
+               <witness xml:id="L9manuscrit">
+                  <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque de l'Institut de France</institution>
+                        <repository>papiers Joseph Bertrand [note de Louis DE LAUNAY]</repository>
+                        <idno>2031.18</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Deux pages in-4° [note de Louis DE LAUNAY]</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName type="sender" ref="#pers_A366">Ampère, André-Marie</persName>
+               <date when-iso="0000-00-00">s.d.</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName type="adressee" ref="#pers_D208">Duhamel, Jean-Marie</persName>
+            </correspAction>
+            <note type="CGA">
+               <ref target="#corresp1">(1)</ref>
+            </note>
+         </correspDesc>
+         <creation>
+            <date when="2014-07">juillet 2014</date>
+            <name>Philippe Pons</name>
+            <name>Aude Coustumer</name>
+         </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L0000-00-00-h">
+      <body>
+         <div xml:id="L0000-00-00-h-div1">
+            <opener>s.d.</opener>
+            <p xml:id="L0000-00-00-h-p1">Je vous remercie de tout mon cœur, Monsieur et très cher
+               ami, de la peine que vous avez bien voulu prendre de faire le petit calcul dont vous
+               m'envoyez le résultat. Mais je me trouve dans un extrême embarras parce que je ne
+               sais plus de quel côté est l'erreur. Ma seule ressource serait que vous eussiez la
+               bonté de m'accorder une demi-heure pour examiner ensemble d'où elle peut provenir ;
+               le meilleur moyen serait de faire ensemble le calcul comme je l'avais d'abord fait ;
+               alors nous la trouverons peut-être là. Peut-être est-elle, non pas dans le calcul que
+               vous m'envoyez mais dans celui que nous avions fait d'abord. J'ai imaginé une autre
+               manière de le faire. Comme le circuit formé de l'arc et de deux rayons est fermé, on
+               peut faire abstraction du terme hors de l'intégrale et ne calculer que l'autre
+               [formule voir fac-similé].</p>
+            <p xml:id="L0000-00-00-h-p2">Le résultat devant nécessairement être le même et le calcul
+               tout différent, nous aurions un moyen sûr de savoir de quel côté est la vérité. Je
+               soupçonne qu'il y a peut-être erreur sur ce que je vous dis hier que les termes où
+               les cosinus et sinus sont à la première puissance s'en vont de l'addition des deux
+               sommes.</p>
+            <p xml:id="L0000-00-00-h-p3">En attendant, je suis obligé d'arrêter pour quelques heures
+               l'impression des <title>Annales de Chimie</title> ; mais cela ne peut durer. Par
+               toute l'amitié dont vous m'avez donné tant de preuves, tâchez que nous puissions nous
+               voir aujourd'hui, soit chez vous, soit chez moi ! écrivez-moi un mot pour me marquer
+               l'heure où nous pourrons le faire ! Je vous attendrai ou me rendrai chez vous très
+               exactement. Tout à vous, <lb/>
+               <persName ref="#pers_A366">A. AMPÈRE</persName>
+            </p>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L0000-00-00-h-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Bibliothèque de l'<orgName>institut</orgName>.
+               2031.18, papiers <persName>Joseph Bertrand</persName> (Six lettres d'<persName ref="#pers_A366">Ampère</persName> à M. <persName ref="#pers_D208">Duhamel</persName>, n° <ref type="correspondance" target="#ampere_corr_L1825-10-10-a">L1825-10-10-a</ref>, <ref type="correspondance" target="#ampere_corr_L0000-00-00-c">L0000-00-00-c</ref>,
+                  <ref type="correspondance" target="#ampere_corr_L1825-11-14-a">L1825-11-14-a</ref>, <ref type="correspondance" target="#ampere_corr_L1825-11-18-a">L1825-11-18-a</ref>, <ref type="correspondance" target="#ampere_corr_L0000-00-00-d">L0000-00-00-d</ref> et celle-ci). Deux pages
+               in-4°, destinataire sur la quatrième ; pas de date.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,397 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 216</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1803-02-08-b">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                  <idno>chemises 392 et 393 quarto</idno>
+               <altIdentifier>
+              <idno type="old">L216</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+          
+               <physDesc>
+                  <p>Huit pages en trois feuillets 16,5 x 22. Timbre : 24.</p>
+               </physDesc>
+            </msDesc>
+            <listWit>
+               <witness xml:id="L216CGA">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 235-236-237</biblScope>
+                        </imprint>
+                     </monogr>
+                     
+                  </biblStruct>
+                  </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_A366">Ampère, André-Marie</persName>
+          <date when-iso="1803-02-08">8 février 1803</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1803-02-08-b">
+      <body>
+         <div xml:id="L1803-02-08-b-div1">
+            <opener>
+          <pb n="78" facs="#ACAS_CRHST_AMP_26_392_0078_r.jpg"/> Le Jeudi soir <date when="1803-02-08">[8 février 1803?]</date>
+        </opener>
+            <p xml:id="L1803-02-08-b-p1">Je croyais t'écrire hier, ma<lb/>
+               bonne amie ; mais je<lb/>
+               n'achevai qu'à la nuit la<lb/>
+               copie que
+               je faisais de mon<lb/>
+               petit mémoire sur le<lb/>
+               calcul des variations. Maintenant<lb/>
+               que j'en ai
+               deux, je pourrai<lb/>
+               en garder un et remettre<lb/>
+               l'autre à MM. <persName ref="#pers_D177">Delambre</persName> et<lb/>
+               <persName ref="#pers_V580">Villars</persName> s'ils
+               viennent à <placeName>Bourg</placeName>
+          <lb/>
+               et si j'en trouve l'occasion.<lb/>
+               Quand j'eus fini, la main<lb/>
+               lasse d'écrire, je fus passer<lb/>
+               la soirée en visite pour la<lb/>
+                  première fois depuis que nous<lb/>
+               sommes en l'année <date when-iso="1803">1803</date>. Je<lb/>
+               fus rendre un livre (<title>La langue<lb/>
+                  des calculs</title> de <persName ref="#pers_C663">Condillac</persName>
+               <ref type="ouvrages_mentionnes" target="#ampere_ref_P104.xml">*</ref>) à M. <persName ref="#pers_M388">Michallet</persName> ;<pb n="79" facs="#ACAS_CRHST_AMP_26_392_0079_v.jpg"/>
+               je tombai sans le savoir sur<lb/>
+               une noce ; Mlle <persName ref="#pers_M1631">Pauline<lb/>
+                  Michallet</persName> avait épousé la<lb/>
+               veille M. <persName ref="#pers_B109">Bujet
+                  <placeName>de Pont de Vaux</placeName>
+          </persName>,<lb/>
+               où il va l'emmener. Pour la<lb/>
+               première nuit, je t'assure<lb/>
+               qu'elle en
+               avait eu son compte ;<lb/>
+               cela était écrit dans tous<lb/>
+               ses traits, et j'entendis <del>que</del>
+          <lb/>
+               sa mère dit à Mme <persName>Fontaine</persName>,<lb/>
+               sœur du nouveau marié, qu'elle<lb/>
+               avait tout le jour cherché<lb/>
+               à se cacher pour dormir.<lb/>
+               Ce qu'il y a de plus beau, c'est<lb/>
+               que, la conversation étant<lb/>
+               devenue générale et très<lb/>
+               intéressante, je m'y mêlai et<lb/>
+               que j'entendis cette même<lb/>
+               dame <persName>Fontaine</persName> qui disait<lb/>
+               à <persName>Mme Michallet</persName> que j'avais<lb/>
+               bien de l'esprit ; apparemment,<pb n="80" facs="#ACAS_CRHST_AMP_26_392_0080_r.jpg"/>
+               comme il arrive que, quand<lb/>
+               on a bien froid, on trouve<lb/>
+               chaud tout ce qu'on touche.</p>
+            <p xml:id="L1803-02-08-b-p2">
+               Quoi qu'il en soit de mon esprit<lb/>
+               d'hier, je m'<choice>
+            <sic>apperçois</sic> <corr>aperçois</corr>
+          </choice> qu'aujourd'hui<lb/>
+               je suis bien bête de
+               te <choice>
+            <sic>racconter</sic> <corr>raconter</corr>
+          </choice>
+          <lb/>
+               ces fadaises. En tout cas, c'est<lb/>
+               mon journal. Joins-y que,<lb/>
+               depuis ma
+               copie, j'ai voulu<lb/>
+               me bien divertir avant d'entreprendre<lb/>
+               un autre ouvrage qui me cloue<lb/>
+               de nouveau sur mes cahiers, et<lb/>
+               j'ai été aujourd'hui me promener<lb/>
+               tout seul du côté de
+               <placeName>Lyon</placeName>, depuis<lb/>
+               1 h<ex>eure</ex> environ jusqu'à 2 h 1/4. Je<lb/>
+               pensais avec plaisir que je me<lb/>
+               rapprochais de ma bienfaitrice.<lb/>
+               La promenade sur des tas de<lb/>
+               neige était jolie en
+               courant<lb/>
+               bien ; mais j'ai cru y laisser<pb n="81" facs="#ACAS_CRHST_AMP_26_392_0081_v.jpg"/>
+               mes mains, mon nez et mes<lb/>
+               oreilles, que le
+               vent du Nord<lb/>
+               mordait comme un chien.<lb/>
+               J'espérais à mon retour recevoir<lb/>
+               de tes
+               nouvelles. Ce ne sera donc<lb/>
+               que pour demain et il faut<lb/>
+               m'aller coucher sans savoir si<lb/>
+               tu n'es point plus fatiguée,<lb/>
+               surtout depuis que le froid est<lb/>
+               si excessif.</p>
+            <p xml:id="L1803-02-08-b-p3">Demain !
+               Demain !<lb/>
+               Viens vite m'apporter une lettre<lb/>
+               de ma bonne amie ! Bonsoir<lb/>
+               et bonne nuit,
+               ma <persName ref="#pers_C129">Julie</persName>, je<lb/>
+               t'embrasse mille fois.</p>
+            <p xml:id="L1803-02-08-b-p4">Du <date when="1803-02-09">mercredi [9 février]</date>
+          <lb/>
+               Je n'ai qu'un instant à
+               te donner,<lb/>
+               ma bonne amie ; c'est le seul<lb/>
+               doux moment de ma journée.<lb/>
+               Je vais commencer
+               un nouveau<lb/>
+               travail ; car c'est le moment<lb/>
+               d'étudier quand je suis loin<lb/>
+               de toi. J'ai
+               déjà rassemblé<pb n="1400" facs="#ACAS_CRHST_AMP_26_393_quarto_0672_r.jpg"/>
+               les papiers que j'ai conservés d'un<lb/>
+               certain travail entrepris un peu<lb/>
+               avant d'aller à <placeName>Bellerive</placeName> et<lb/>
+               que je faisais revoir à <persName ref="#pers_P1528">Périsse</persName> ;<lb/>
+               tu dois t'en
+               ressouvenir. Ce travail<lb/>
+               était bien fait pour me<lb/>
+               conduire un jour à la<lb/>
+               réputation et à
+               la fortune.<lb/>
+               Quand il ne me servirait<lb/>
+               jamais de rien, j'aurais<lb/>
+               toujours gagné les
+               connaissances<lb/>
+               que j'acquiérerais en y travaillant.<lb/>
+               J'attends de tes nouvelles
+               aujourd'hui.<lb/>
+               C'est avec une impatience<lb/>
+               dont tu ne te fais point<lb/>
+               d'idée... Enfin je
+               l'ai reçue<lb/>
+               cette lettre tant attendue ! <ref target="#corresp2">(2)</ref> Comment<lb/>
+               t'exprimer tout ce qu'elle m'a<lb/>
+               fait sentir ? Ce serait donc<lb/>
+               aussi un bonheur pour toi<pb n="1401" facs="#ACAS_CRHST_AMP_26_393_quarto_0673_v.jpg"/>
+               si nous étions réunis ! C'est<lb/>
+               moi à qui tu aimes à dire<lb/>
+               toutes tes pensées ! Voilà <del>tout</del>
+          <lb/>
+               ce que je puis désirer pour<lb/>
+               être le plus heureux des hommes.<lb/>
+               Tu trouves que nous sommes<lb/>
+               faits pour être ensemble !<lb/>
+               Je savais bien qu'il n'y avait<lb/>
+               de bonheur pour ton mari<lb/>
+               qu'auprès de toi ; mais je<lb/>
+               suis content quand<lb/>
+               tu me dis que je suis utile<lb/>
+               à ton bonheur. Que ce terrible<lb/>
+               froid doit te tourmenter !<lb/>
+               J'espère qu'il touche à sa<lb/>
+               fin, car le <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice> semble<lb/>
+               un peu plus
+               doux aujourd'hui.<lb/>
+               Je suis bien aise que le départ<lb/>
+               des commissaires soit retardé<lb/>
+               et
+               qu'ils ne viennent que<lb/>
+               dans quelque <choice>
+            <sic>tems</sic> <corr>temps</corr>
+          </choice>. Ils<pb n="1398" facs="#ACAS_CRHST_AMP_26_393_quarto_0670_r.jpg"/> trouveront mes élèves mieux<lb/>
+               instruits,
+               mon livre corrigé,<lb/>
+               etc. Je crois, comme toi, que<lb/>
+               le meilleur sera de prendre<lb/>
+               un
+               petit appartement<lb/>
+               à la <date>S<ex>ain</ex>t-Jean</date> ; mais je te<lb/>
+               dirai plus <choice>
+            <sic>aux</sic> <corr>au</corr>
+          </choice> long les raisons<lb/>
+               que je
+               trouve pour ou contre<lb/>
+               dans six semaines. Car,<lb/>
+               dans six semaines, je serai<lb/>
+               pour toujours à <placeName>Lyon</placeName>...<lb/>
+               Je crains aujourd'hui que le<lb/>
+               courrier parte avant<lb/>
+               que cette lettre soit à la<lb/>
+               poste et je ne t'ai pas encore<lb/>
+               remerciée de ces vers <choice>
+            <sic>charmans</sic> <corr>charmants</corr>
+          </choice>
+          <lb/>
+               dont
+               je me souviendrai toute<lb/>
+               ma vie et qui me <choice>
+            <sic>rappelerons</sic> <corr>rappelleront</corr>
+          </choice>
+          <lb/>
+               <del>tant</del> de si douces idées.<pb n="1399" facs="#ACAS_CRHST_AMP_26_393_quarto_0671_v.jpg"/>
+               Est-il
+               possible que tu aies<lb/>
+               été tentée de ne pas me les<lb/>
+               envoyer quand tu savais<lb/>
+               qu'ils me
+               feraient tant<lb/>
+               de plaisir ? J'espère que vos<lb/>
+               rhumes iront de mieux en<lb/>
+               <add>mieux</add>, que tu te
+               remettras bientôt.<lb/>
+               C'est tandis que tu es malade<lb/>
+               que tu m'écris de si jolies<lb/>
+               choses !
+               Oh, comme je t'embrasse !</p>
+            <closer>A <choice>
+            <sic>Madame<lb/> Madame</sic> <corr>Madame</corr>
+          </choice> <persName ref="#pers_C129">Ampère</persName>,<lb/>
+               chez Mme <persName ref="#pers_B69">Carron</persName>,<lb/>
+               <placeName>rue du Griffon</placeName>, vis<lb rend="hyphen"/>à-vis la <placeName>rue Terraille</placeName>,<lb/>
+               à
+               <placeName>Lyon</placeName>.</closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1803-02-08-b-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Huit pages en trois feuillets 16,5 x 22. Timbre : 24. Le <date when="1803-02-13" calendar="revolutionary">24
+               pluviôse</date> est le <date when="1803-02-13">dimanche 13 février 1803</date>. <persName ref="#pers_A366">Ampère</persName> a daté le début de sa lettre du
+               jeudi, la suite du mercredi. L'un des deux est donc inexact. Comme la Lettre 0214 de
+               <persName ref="#pers_C129">Julie</persName>, reçue le second jour, est datée du lundi soir, elle a dû plutôt arriver le
+               mercredi soir que le jeudi.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) Lettre 0214 du 7 février. </note>
+         
+         </div>
+      </back>
+   </text>
+</TEI>

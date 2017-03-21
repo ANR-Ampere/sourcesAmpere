@@ -1,0 +1,228 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 511</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1815-04-16-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1943">1943</date>
+                     <biblScope type="tome">III.</biblScope>
+                     <biblScope type="pp">p. 887-888-889</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L511</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L511manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <repository>Collection Alfred Cornu [note de Louis DE
+                           LAUNAY]</repository>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Quatre pages 18 x 24,2, adresse sur la quatrième. [note de Louis DE
+                           LAUNAY]</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1815-04-16">16
+                        avril 1815</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Bredin, Claude-Julien</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1815-04-16-a">
+      <body>
+         <div xml:id="L1815-04-16-a-div1">
+            <opener>
+          <date when="1815-04-16">16 avril 1815</date>
+        </opener>
+            <p xml:id="L1815-04-16-a-p1">Cher ami, tu jugeras par la lettre que je t'écrivis il y a peu de jours et qui s'est
+               croisée avec la tienne, combien il était nécessaire, je dirai presque à mon
+               existence, que tu écrivisses au pauvre <persName>Ampère</persName>. Ah ! oui, cette lettre a été pour moi
+               un soulagement dont mon cœur avait le plus grand besoin ; toi du moins, tu m'aimeras
+               toujours. Tu as compris que ce jour-là, où j'avais eu tant à souffrir d'ailleurs, on
+               m'avait persuadé qu'il n'y avait pas de ressource à la destruction de mon pays, à
+               celle de toute idée analogue aux miennes en <placeName>Europe</placeName>. J'avoue que ces assertions
+               devaient m'être suspectes, vu les personnes qui me les disaient. Mais enfin, j'étais
+               entraîné au point de voir sous mes yeux, et comme prochains, les événements qu'on me
+               peignait. Depuis lors, ma vie est aussi vide qu'agitée de mille mouvements divers,
+               les uns me rassurent, les autres me rendent cet effroi plus terrible pour moi qu'un
+               arrêt qui me condamnerait au dernier supplice. Toute ma vie a passé dans l'avenir, le
+               présent n'est plus rien pour moi, d'ailleurs que m'y reste-t-il ? Que des regrets
+               inutiles de ma vie passée et cette inconcevable ingratitude dont je t'ai parlé dans
+               ma dernière lettre. Je vois par la tienne que tes pensées doivent au fond s'accorder
+               avec les miennes. Mais cette violence avec laquelle tout mon être se porte à présent
+               vers cette seule idée que si la guerre se déclare elle tourne comme celle dont tu as
+               presque été témoin est une chose dont tu ne peux te faire une idée, et qu'ont
+               produite surtout tous les discours que j'entends tenir depuis près d'un mois à ceux
+               précisément qui désirent tout le contraire et se délectent dans la pensée de
+               l'extermination de la <placeName>France</placeName>.</p>
+            <p xml:id="L1815-04-16-a-p2">Je donnerais tout au monde pour être en ce moment près
+               de toi. Quelle réunion d'excellents amis chez toi ! Que vous êtes tous bons de penser
+               encore à moi, à moi qui ai en le malheur de vous quitter il y a maintenant dix ans,
+               combien je m'en suis repenti, combien n'ai-je pas encore à m'en repentir ? <persName ref="#pers_J318">Camille<ref xml:id="pers_J318"/>
+          </persName> du
+               moins conserve-t-il, comme il disait, le feu sacré ? Passe-t-il, pour le voir briller
+               de plus d'éclat, sur les inconvénients personnels à lui ? Je pense en écrivant cela
+               qu'il ne faut pas que tu fasses connaître ce que je peux t'écrire là-dessus à ceux de
+               nos amis qui pourraient en être blessés. Même à aucun, parce que l'on interpréterait
+               tout cela à rebours. Que je ne veux pour rien au monde que leur amitié se refroidisse
+               pour une divergence d'opinion : ce qui m'est déjà arrivé ici m'a donné à cet égard
+               une terrible leçon, ainsi toute réflexion faite, je t'en prie, cher ami, brûle cette
+               lettre, et ne leur en parle point. Au reste, si <persName ref="#pers_J318">Camille<ref xml:id="pers_J318"/>
+          </persName> pense comme l'excellent ami
+               qui n'a eu jusqu'à présent qu'une manière de voir avec lui, je n'aurais rien à
+               craindre, car je suis d'accord presque en tout point avec ce dernier. Tu sais qu'une
+               des choses qui me font différer avec tous les autres c'est que j'examine avec la même
+               passion, ce qui résultera de ce qui se passe sous mes yeux, dans cent ans, comme dans
+               quelques années.</p>
+            <p xml:id="L1815-04-16-a-p3">Je te félicite, bien cher ami, de la naissance de ton plus jeune
+               fils, quel est son nom ? Je t'en prie, embrasse-le pour moi, ainsi que ses frères et
+               sœurs. Je te prie aussi de présenter mes respects à <persName ref="#pers_B96">Mme Bredin</persName>, je juge par ta lettre
+               que cette couche a été heureuse, puisque tu me dis qu'elle marche déjà dans les
+               appartements. Pourquoi ne dates-tu pas tes lettres ; c'est bien fâcheux pour moi, je
+               n'ai pu savoir au juste le jour de la naissance de ce fils à cause de l'oubli que tu
+               avais fait de la date. Ma sœur et mes enfants, ainsi que notre excellent ami, M.
+               <persName ref="#pers_D272">Degérando</persName>, se portent à merveille. <persName ref="#pers_B36">Barret</persName> était à <placeName>Soissons</placeName>, je l'y crois toujours,
+               mais voilà bientôt deux mois que je n'ai eu aucune nouvelle de lui. Mille choses à
+               <persName ref="#pers_R502">Roux</persName>, à <persName ref="#pers_J318">Camille<ref xml:id="pers_J318"/>
+          </persName>, à MM. <persName ref="#pers_T566">Touchon</persName>, <persName ref="#pers_A7">d'Ambérieux</persName>, etc., etc.
+               Je t'embrasse de toute mon
+               âme et Chatelain.</p>
+            <closer>A M. <persName ref="#pers_B94">Bredin</persName>, directeur de l'<orgName>École impériale vétérinaire</orgName>, à <placeName>Lyon</placeName>, <placeName>Rhône</placeName>.</closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1815-04-16-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Coll. <persName ref="#pers_C158">A. Cornu</persName>. Quatre pages 18 x 24,2, adresse sur la
+               quatrième.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,240 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 732</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1829-08-00-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 704-705</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L732</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L732manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 379</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Quatre pages in-4° sans adresse.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1829-08-00">août
+                        1829</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_A10" type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1829-08-00-a">
+      <body>
+         <div>
+            <opener>
+          <date when="1829-08">[Août 1829]</date>
+        </opener>
+            <p>
+          <pb n="351" facs="#ACAS_CRHST_AMP_25_379_0351_r.jpg"/>Cher ami, excellent fils, ayant su qu'il y avait à la poste restante une lettre à ton
+               adresse, je l'ai retirée et je la mets dans celle-ci. J'allais t'écrire hier soir
+               lorsque ta lettre m'est arrivée, je t'en remercie mille fois. J'ai reconnu la
+               justesse de tes comptes, mais la nécessité d'emprunter encore 3000 francs me
+               tourmente beaucoup. Avec les 6000 de M. <persName ref="#pers_C1206">Constantin</persName> et les 4000 de M. <persName ref="#pers_G808">Guérin de
+               Foncin</persName>, je devrai, au mois d'avril prochain, 13 000 francs qui me coûteront chaque
+               année 650 francs d'intérêt ; encore pourvu que ces 3000 francs qu'il faut emprunter
+               ne soient qu'à 5 pour 100. Au reste, je te supplie de n'en pas emprunter davantage.
+               Je suis à <placeName>Lyon</placeName> au moins jusqu'au milieu d'octobre, la dépense est à peu près nulle
+               d'ici là ; mettons 200 francs outre les 250 qui me restent c'est bien plus qu'il ne
+               me faut, le voyage compris, et je ne serai au plus que cinq mois dans le <placeName>Midi</placeName>. A 200
+               francs par mois, ce serait 1000 francs. En tout 1200 francs. Comme je pourrai passer
+               au moins un mois à <placeName>Orange</placeName> pour rien en m'y arrêtant quinze jours à l'aller et quinze
+               jours au retour, ce<pb n="352" facs="#ACAS_CRHST_AMP_25_379_0352_v.jpg"/> mois serait pour la dépense du retour, en sorte qu'il suffirait
+               de grand reste que tu m'apportasses 1200 francs et, comme je n'en dois de déficit que
+               1600, tu m'en apporteras 1400 ; encore 200 francs pour les choses imprévues.</p>
+            <p>Si tu
+               empruntes tout de suite les 3000 francs, il n'y a, je crois, plus d'avantage à
+               obtenir la compensation avec l'<orgName>Université</orgName>. Ce ne serait que dans le cas où M.
+               <persName ref="#pers_R490">Alphonse<ref xml:id="pers_R490"/>
+          </persName> <ref target="#corresp2">(2)</ref> ne pourrait faire prêter que sur des billets à courte échéance qu'il y
+               aurait de l'avantage à l'obtenir. Alors il suffirait, je crois, de 1500 francs à
+               présent et la certitude d'en avoir 1500 autres au mois d'octobre prochain, pour payer
+               le billet de <placeName>Troyes</placeName> du 15 octobre montant à 1000 francs et celui du 15 novembre
+               montant à 500 francs, total 1500 francs.</p>
+            <p>Si M. <persName ref="#pers_R490">Alphonse<ref xml:id="pers_R490"/>
+          </persName> voulait deux billets de 1500
+               francs chacun à neuf mois de date, l'un du <date when="1829-08-31">31 août [1829]</date> au <date when="1830-05-31">31 mai 1830</date>, époque où
+               je recevrai l'avance de ma tournée de l'année prochaine,<pb n="353" facs="#ACAS_CRHST_AMP_25_379_0353_r.jpg"/> l'autre du <date when="1829-10-10">10 octobre 1829</date>
+               au <date when="1830-08-10">10 août 1830</date> : époque où les seuls appointements de l'<orgName>Université</orgName>, avec ceux de
+               l'<orgName>Institut</orgName> accumulés pendant trois mois de tournée, font plus de 1500 francs,
+               j'aurais le moyen de payer ces deux billets à ces époques et je serais hors d'affaire
+               pour le nouvel emprunt. Au lieu de deux billets de 1500 francs à neuf mois, on
+               pourrait en faire un à six mois et l'autre à un an ; les payements tomberaient aux
+               mêmes époques. Tu me ferais bien plaisir d'obtenir de ma sœur qu'elle me rendît un
+               service auquel j'attacherais beaucoup de prix. Je voudrais qu'elle rangeât par
+               ordre : <list>
+            <item n="1"> dans la bibliothèque du salon, la biographie ;</item> <item n="2"> dans celle de ma
+               chambre, le dictionnaire des sciences naturelles et qu'elle m'écrivit s'il ne manque
+               aucun volume de la biographie, quels sont ceux du dictionnaire qui n'y sont pas,
+               parce que j'en ai apporté ici plusieurs et, s'il ne manque à <placeName>Paris</placeName> que ceux-là, il
+               n'y en a point de perdus.</item>
+          </list> J'en serai sûr.</p>
+            <p>
+          <pb n="354" facs="#ACAS_CRHST_AMP_25_379_0354_v.jpg"/>Si tu trouves dans ma bibliothèque
+               quelqu'autre livre d'histoire naturelle ou de physique, apporte-les moi en venant !
+               Cherche, dans la ruelle de mon lit et dans le bas de ma bibliothèque, des brochures
+               que j'ai faites sur l'électricité dynamique et sur la lumière ; apporte-moi trois
+               exemplaires de chacune ! Prends chez <persName ref="#pers_B31">Bachelier</persName> trois exemplaires de la brochure
+               in-quarto intitulée <title>Mémoire sur l'action mutuelle d'un conducteur voltaïque et d'un
+               aimant</title> <ref target="#ampere_ref_P380.xml">*</ref> et apporte-les moi !</p>
+            <p>
+               Apporte-moi aussi un des deux chapeaux qui sont dans mon armoire ; l'un des deux que
+               j'ai ici ne peut plus servir de rien et il faut toujours en avoir deux. Dès que
+               j'aurai vu le sellier <persName>Merle</persName>, correspondant de M. <persName ref="#pers_C159">Cornuot</persName>, je t'écrirai à ce sujet.</p>
+            <p>
+               Vois MM. <persName ref="#pers_C164">Cuvier</persName>, <persName ref="#pers_P459">Poisson</persName>, <persName ref="#pers_G288">Mussy</persName>, les deux <persName ref="#pers_B725">Binet</persName>, <persName ref="#pers_R483">Rendu</persName>, etc. Donne-moi de leurs
+               nouvelles ! Je prends bien part à l'affreux malheur d'<persName ref="#pers_A20">Arago</persName>. Vois aussi M. <persName ref="#pers_S521">Savart</persName> !
+               Tu sais ce qu'il faut dire de ma part à toute notre famille, à nos amis. Ma santé
+               s'améliore. Je t'embrasse mille fois.<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+         </div>
+      </body>
+      <back>
+         <div>
+            <note xml:id="corresp1">(1) Quatre pages in-4° sans adresse.</note>
+            <note xml:id="corresp2">(2) <persName ref="#pers_R490">Alphonse Ride</persName>, frère de
+               son gendre, était receveur à <persName>Bar-sur-Seine</persName>. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

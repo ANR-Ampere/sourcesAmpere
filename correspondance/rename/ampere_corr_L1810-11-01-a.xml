@@ -1,0 +1,296 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 368</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1810-11-01-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">I.</biblScope>
+                     <biblScope type="pp">p. 355-356-357</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L368</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L368manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 182</idno>
+                     </msIdentifier>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1810-11-01">1er novembre 1810</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Davy, Humphry</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1810-11-01-a">
+      <body>
+         <div xml:id="L1810-11-01-a-div1">
+            <opener>
+          <pb n="244" facs="#ACAS_CRHST_AMP_09_182_0244_r.jpg"/>
+          <placeName>Paris</placeName>
+          <date when="1810-11-01">1er novembre 1810</date>
+        </opener>
+            <opener>Monsieur, </opener>
+            <p xml:id="L1810-11-01-a-p1">M. <persName ref="#pers_U570">Underwood</persName>, que j'ai eu l'honneur de voir ce matin, m'ayant autorisé à
+               être auprès de vous l'interprète de la reconnaissance que vous doivent tous ceux qui
+               s'intéressent aux progrès de la science qui vous en doit de si nombreux et de si
+               importants, j'ose sous ces auspices vous prier de me pardonner l'espèce
+               d'indiscrétion qu'il peut y avoir à vous adresser cette lettre sans être connu de
+               vous et ne pouvant, Monsieur, vous offrir pour tout titre à un peu de bienveillance
+               de votre part que mon admiration pour les brillantes découvertes par lesquelles vous
+               avez donné une si heureuse extension aux connaissances qu'on avait avant vous en
+               chimie, et au système général de cette science dont vous avez étendu et généralisé
+               les lois en faisant rentrer les terres et les alcalis dans la classe des autres
+               oxydes.</p>
+            <p xml:id="L1810-11-01-a-p2">A cette découverte capitale vous venez d'en joindre une nouvelle annoncée
+               dans votre lettre à mon respectable ami M. <persName ref="#pers_P450">Pictet</persName>, qu'il a publiée dans le dernier
+               numéro de la <title>Bibliothèque britannique</title>. Vous aviez augmenté le nombre des corps
+               combustibles, vous venez de joindre à l'oxygène un second corps comburant, le gaz
+               oxy-muriatique <ref target="#corresp2">(2)</ref>, qui formera désormais avec lui une classe de corps simples
+               distingués<pb n="245" facs="#ACAS_CRHST_AMP_09_182_0245_v.jpg"/> de tous les autres corps simples que nous nommons combustibles par la
+               tendance électrique opposée. Il m'a semblé évident que, pour refuser au gaz
+               oxy-muriatique le nom de corps simple, il faudrait renoncer à cet axiome de la chimie
+               moderne qu'on doit donner ce nom à tous les corps qu'on n'a point encore décomposés.
+               J'ai été également frappé de l'analogie des gaz oxygène et oxy-muriatique, celui-ci
+               formant, avec des corps combustibles comme l'hydrogène, le soufre, le phosphore,
+               l'étain, etc., des acides qu'on pourrait nommer : Acide hydromuriatique (acide
+               muriatique ordinaire) ; Acide sulfuro-muriatique (liqueur rouge de M. <persName ref="#pers_T1780">Thomson</persName>) ;
+               Acide phosphoro-muriatique (liqueur dont vous avez fait connaître la composition
+               ammoniacale) ; Acide stanno-muriatique (beurre d'étain), etc.</p>
+            <p xml:id="L1810-11-01-a-p3">Il suivrait de là que
+               la combinaison d'apparence terreuse formée d'acide phosphoromuriatique et
+               d'ammoniaque serait une sorte de sel insoluble qu'on pourrait nommer
+               phosphoro-muriate d'ammoniaque, que le sel ammoniac ordinaire serait un
+               hydro-muriate, ainsi que tous les sels où l'acide hydro-muriatique serait combiné
+               avec un oxyde métallique, tandis que ceux où l'hydrogène de l'acide s'en va, sous
+               forme d'eau, avec l'oxygène de l'oxyde et où il ne reste que le métal combiné avec le
+               gaz oxy-muriatique, seraient, à l'égard de ce gaz, ce que les oxydes ordinaires sont
+               à l'oxygène. Tout cela suppose que l'oxygène que l'on obtient<pb n="246" facs="#ACAS_CRHST_AMP_09_182_0246_r.jpg"/> en exposant l'acide
+               oxy-muriatique liquide à la lumière vient de l'eau décomposée et que l'oxyde noir de
+               manganèse donne naissance au gaz oxy-muriatique, parce que son oxygène enlève, pour
+               former de l'eau, l'hydrogène uni à ce gaz dans l'acide hydro-muriatique. Pardon,
+               Monsieur, si je prends la liberté de déduire aussi longuement, de votre lettre à M.
+               <persName ref="#pers_P450">Pictet</persName>, des conséquences qui me paraissent en découler aussi immédiatement. Sans ces
+               réflexions préliminaires, il m'eût été difficile d'expliquer l'opinion sur laquelle
+               je désire vous consulter. L'acide fluorique, tel qu'on le conçoit communément, ne
+               peut s'obtenir pur ; c'est un de ces êtres de raison dont vous avez fait justice
+               quand on a voulu imaginer des alcalis secs qu'on ne pouvait ni voir, ni obtenir, un
+               acide muriatique sec non moins chimérique, etc. La supposition que l'acide boracique
+               et l'oxyde de silicium sont dissous à l'état de gaz dans cet acide
+               problématique, n'est-elle pas contraire à toutes les analogies et ne serait-il pas
+               probable que ces phénomènes sont dus à un troisième corps comburant ? Permettez-moi
+               de donner à ce troisième corps comburant le nom d'oxyfluorique <ref target="#corresp3">(3)</ref> : il se trouverait
+               combiné avec le calcium dans ce qu'on appelle le fluate de chaux. Quand cette
+               dernière substance est chauffée dans un tube de plomb avec de l'acide sulfurique
+               concentré où il y a toujours de l'eau, l'oxygène de cette eau convertirait le calcium
+               en chaux pour donner naissance au sulfate de chaux qui se forme, et son hydrogène se
+               combinerait avec l'oxy-fluorique pour former cet acide hypofluorique <ref target="#corresp4">(4)</ref> sous forme
+               liquide, qui produit de si terribles effets sur les corps vivants. Celui-ci mis en
+               contact avec l'oxyde de silicium, il y aurait formation d'eau et le silicium uni à
+               l'oxy-fluorique donnerait ce gaz qu'on nomme acide fluorique silicé, que, dans cette
+               hypothèse, on devrait appeler acide silicio-fluorique <ref target="#corresp5">(5)</ref> et qui serait analogue aux
+               autres acides gazeux. De même, lorsqu'on chauffe le fluate de chaux avec l'acide
+               boracique, une partie de cet acide serait décomposée pour changer le calcium en chaux
+               et, le bore désoxydé se combinant avec l'oxy-fluorique, il en résulterait encore un
+               acide gazeux, celui qu'on obtient en effet dans cette circonstance, et qui devrait,
+               dans cette hypothèse, être appelé acide boro-fluorique. On découvrirait bientôt sans
+               doute les acides sulfo-fluorique, phosphofluorique, si l'on pouvait obtenir
+               l'oxy-fluorique ; ce dernier peut être bien difficile à obtenir, surtout s'il a plus
+               d'affinité pour l'hydrogène que n'en ont les gaz oxygène et oxy-muriatique <ref target="#corresp6">(6)</ref>. Reste
+               à savoir si l'électricité ne décomposerait pas l'acide hydro-fluorique sous sa forme
+               liquide, lorsqu'on aurait écarté l'eau le plus possible, en portant l'hydrogène d'un
+               côté et l'oxy-fluorique de l'autre, ainsi qu'il arrive aux deux autres corps
+               comburants, lorsque le même agent décompose l'eau et l'acide hydro-muriatique <ref target="#corresp7">(7)</ref>. Le
+               seul inconvénient à redouter dans cette expérience est la combinaison de
+               l'oxy-fluorique avec le conducteur avec lequel il se trouverait en contact à l'état
+               naissant. Peut-être aucun métal ne pourrait se refuser à cette combinaison. Mais, en
+               supposant que l'oxy-fluorique fut, comme l'oxymuriatique <ref target="#corresp8">(8)</ref>, incapable de se
+               combiner avec le charbon, ce dernier corps peut-être serait assez bon conducteur pour
+               être employé comme tel dans cette expérience. Vous trouverez sans doute, Monsieur,
+               ces dernières <supplied>hypothèses</supplied> bien hasardées, peut-être même dénuées de fondement ; je
+               n'ose vous les présenter qu'en tremblant, et d'après un assez grand nombre
+               d'analogies que je ne pourrais vous exposer sans entrer dans des détails encore plus
+               fastidieux que les précédents ; je n'ai déjà que trop abusé d'un temps dont les
+               sciences réclament tous les moments. Pardonnez-moi une trop longue lettre et
+               permettez que je m'applaudisse d'avoir trouvé cette heureuse occasion de vous offrir
+               l'hommage de mon profond respect et de l'admiration aussi vive que sincère que m'ont
+               inspirée vos immortelles découvertes <ref target="#corresp9">(9)</ref>.</p>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1810-11-01-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) La correspondance entre <persName>Ampère</persName> et <persName ref="#pers_D174">Humphry Davy</persName> a duré de
+               <date from-iso="1810" to-iso="1825">1810 à 1825</date>. Ils étaient à peu près du même âge : <persName>Ampère</persName> né en <date when-iso="1775">1775</date>, <persName ref="#pers_D174">Davy</persName> en <date when-iso="1778">1778</date>.
+               C'est en <date when-iso="1807">1807</date> que <persName ref="#pers_D174">Davy</persName> réussit à obtenir le potassium par la pile de <persName ref="#pers_V583">Volta</persName>. Ses
+               expériences, communiquées à l'<orgName>Institut</orgName> le <date when="1808-02-29">29 février 1808</date>, furent aussitôt répétées à
+               <placeName>Paris</placeName>. Mais on discutait pour savoir s'il s'agissait de véritables métaux ou
+               d'hydrures. <persName>Ampère</persName>, dans une note autographe, écrit : <cit>
+            <quote>La petite quantité de
+               potassium et de sodium produite par ce moyen (de <persName ref="#pers_D174">Davy</persName>) ne permettait pas de les
+               soumettre à toutes les expériences propres à décider la question. Peut-être même
+               serait-elle toujours restée indécise si nous n'avions trouvé le moyen de se procurer
+               les substances métalliques découvertes par M. <persName ref="#pers_D174">Davy</persName>, en telle quantité que l'on veut
+               par un moyen purement chimique</quote>
+          </cit>. Mais, comme beaucoup d'autres travaux d'<persName>Ampère</persName>,
+               celui-là est resté inédit et, officiellement, c'est <persName ref="#pers_G269">Gay-Lussac</persName> et <persName ref="#pers_T561">Thenard</persName> qui
+               obtinrent le potassium en grande quantité par l'action du fer sur la potasse (Rech.
+               physico-chimiques, I, 1811, p. 74. à 386).</note>
+            <note resp="#CGA" xml:id="corresp2">(2) Chlore.</note>
+            <note resp="#CGA" xml:id="corresp3">(3) Fluor.</note>
+            <note resp="#CGA" xml:id="corresp4">(4) Acide
+               fluorhydrique.</note>
+            <note resp="#CGA" xml:id="corresp5">(5) Acide hydrofluosilicique.</note>
+            <note resp="#CGA" xml:id="corresp6">(6) Chlore.</note>
+            <note resp="#CGA" xml:id="corresp7">(7) Expérience destinée à
+               isoler le fluor.</note>
+            <note resp="#CGA" xml:id="corresp8">(8) Fluor rapproché du chlore.</note>
+            <note resp="#CGA" xml:id="corresp9">(9) Voir la réponse de <persName ref="#pers_D174">Davy</persName> à la date
+               du <date when="1811-02-08">8 février 1811</date>. Sa première publication sur le fluor est du <date when="1813-07-08">8 juillet 1813</date> , trois
+               ans après la lettre d'<persName>Ampère</persName> (Bakenan Lecture for <date when-iso="1813-00-00">1813</date>). Voici ce qu'il y dit
+               d'<persName>Ampère</persName> :<cit xml:lang="eng">
+            <quote> During the period that i was engaged in these investigations, i received
+               two letters from M. <persName>Ampère</persName>, from <placeName>Paris</placeName>, containing many ingenious and original
+               arguments in favour of the analogy between the muriatic and fluoric compounds.</quote>
+          </cit>
+               <cit>
+            <quote>M.
+               <persName>Ampère</persName> communicated his views to me in the most liberal manner ; they were formed in
+               consequence of my ideas on chlorine, and supposed by reasonings drawn from
+               experiments of MM. <persName ref="#pers_G269">Gay-Lussac</persName> and <persName ref="#pers_T561">Thenard</persName>.</quote>
+          </cit> </note>
+         </div>
+      </back>
+   </text>
+</TEI>

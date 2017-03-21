@@ -1,0 +1,236 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 757</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1830-10-19-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 724-725</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L757</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L757manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 379</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Quatre pages in-4°, adresse au bas de la quatrième.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1830-10-19">19 octobre 1830</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_A10" type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1830-10-19-a">
+      <body>
+         <div xml:id="L1830-10-19-a-div1">
+            <opener>
+          <pb n="365" facs="#ACAS_CRHST_AMP_25_379_0365_r.jpg"/>
+          <date when="1830-10-19">Mardi 19 <choice>
+              <abbr>8bre</abbr>
+              <expan>octobre</expan>
+            </choice> [1830]</date>
+        </opener>
+            <p xml:id="L1830-10-19-a-p1">Cher ami, si j'avais eu le temps, je t'aurais expliqué, dans les lettres d'hier et
+               d'avant-hier, la manière dont les billets doivent être faits, pour que ce soit moi
+               qui doive directement au prêteur ; que M. <persName ref="#pers_B1043">Beuchot-la-Varenne</persName> réponde de moi vis-à-vis
+               de ce prêteur qui, ne me connaissant pas, ne peut prêter que sur la garantie de M.
+               <persName ref="#pers_B59">Beuchot<ref xml:id="pers_B59"/>
+          </persName> ; enfin que ce dernier ait recours sur la maison en cas que je vinsse à
+               mourir avant le mois de septembre prochain et que le prêteur prit M. <persName ref="#pers_B59">Beuchot<ref xml:id="pers_B59"/>
+          </persName> à partie
+               pour le faire payer à ma place.</p>
+            <p xml:id="L1830-10-19-a-p2">Pour cela, les billets seront faits comme si M.
+               <persName ref="#pers_B59">Beuchot<ref xml:id="pers_B59"/>
+          </persName> t'avait d'abord prêté, que j'eusse ensuite emprunté pour le rembourser ; il
+               me passera l'ordre de ces billets comme si je les lui avais payés et je le passerai
+               au prêteur comme m'ayant fourni de l'argent pour cela.</p>
+            <p xml:id="L1830-10-19-a-p3">
+          <pb n="366" facs="#ACAS_CRHST_AMP_25_379_0366_v.jpg"/>En conséquence, le prêteur n'a
+               d'abord action que contre moi ; mais, si je meurs insolvable ou m'enfuis, il a action
+               contre M. <persName ref="#pers_B59">Beuchot<ref xml:id="pers_B59"/>
+          </persName> pour lui faire rendre l'argent que je suis censé lui avoir remis
+               quand il m'a passé l'ordre. <persName ref="#pers_B59">Beuchot<ref xml:id="pers_B59"/>
+          </persName>, dans ce cas, est obligé de payer et il a recours
+               sur la maison, tant à l'égard de ton hypothèque que de la moitié du surplus de sa
+               valeur dont tu deviens propriétaire par héritage.</p>
+            <p xml:id="L1830-10-19-a-p4">Quant tout aura été fait et que
+               j'aurai reçu l'argent, celui qui le prête aura dans les mains des billets dont il
+               sera le porteur, dont M. <persName ref="#pers_B59">Beuchot<ref xml:id="pers_B59"/>
+          </persName> sera l'endosseur et dont tu seras le tireur ; le
+               porteur d'un billet doit être payé par le dernier endosseur qui est moi. Si je
+               manque, il s'adresse à l'endosseur précédent, M. <persName ref="#pers_B59">Beuchot<ref xml:id="pers_B59"/>
+          </persName> et ce n'est qu'en remontant
+               ainsi d'endosseur en endosseur, qu'on<pb n="367" facs="#ACAS_CRHST_AMP_25_379_0367_r.jpg"/> arrive à la dernière garantie, celle du tireur,
+               <persName>J.-J. Ampère</persName>. </p>
+            <p xml:id="L1830-10-19-a-p5">Cette petite explication, bien aisée à comprendre, te met au fait d'une
+               chose bonne à savoir en général pour les affaires que tu pourrais avoir par la suite.
+            </p>
+            <p xml:id="L1830-10-19-a-p6">
+               Il vient d'arriver une lettre de <persName ref="#pers_R491">Ride</persName> et de ma sœur qui sont enchantés. Il arrive ce
+               soir et prendra l'engagement demandé de me laisser toujours <persName ref="#pers_A951">Albine</persName>. Finis
+               tranquillement ton ouvrage à <placeName>Vanteuil</placeName> ; puis viens me voir le plus tôt possible pour
+               qu'on te montre le dernier tableau, encore augmenté d'un nouvel embranchement,
+               résultant de la division en trois sciences du premier ordre, la géographie politique,
+               l'histoire et la biologie, confondues auparavant sous le nom d'ethnologie, en une
+               seule science du premier ordre qui n'était que <foreign xml:lang="lat">rudis indigestaque moles</foreign>, tandis qu'à
+               présent c'est un charme comme tout va bien. Le nouvel embranchement est celui des
+               sciences historiques qui ne contient plus que cela. Si tu n'avais pas mis encore<pb n="368" facs="#ACAS_CRHST_AMP_25_379_0368_v.jpg"/> les
+               billets signés à la poste, ne perds pas un moment pour cela ; car c'est après-demain
+               que je dois les porter à <persName ref="#pers_B59">Beuchot<ref xml:id="pers_B59"/>
+          </persName> pour qu'il m'en passe l'ordre et que je touche
+               l'argent en passant mon ordre à celui qui doit le fournir. Tu as encore le temps au
+               reçu de cette lettre pour que je les aie ce jour-là.</p>
+            <p xml:id="L1830-10-19-a-p7">Adieu, cher ami, je n'ai pu voir
+               M. <persName ref="#pers_G1453">Guignault</persName>. Les ministres ont beaucoup de choses à penser avant l'école Normale.
+               Quoiqu'il y ait sujet de s'inquiéter, j'espère que tout tournera avec plus de peur
+               que de mal. Ton papa t'embrasse mille et mille fois.<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+            <closer>Monsieur <persName ref="#pers_A10">Ampère fils</persName> chez M. <persName>de Jussieu</persName>, membre de l'<orgName>Académie des Sciences</orgName>, etc., à <placeName>Vanteuil</placeName>, par la
+               <placeName>Ferté-sous-Jouarre</placeName> (<placeName>Seine-et-Marne</placeName>)</closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1830-10-19-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4°, adresse au bas de la quatrième.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

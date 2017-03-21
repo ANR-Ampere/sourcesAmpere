@@ -1,0 +1,454 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 341</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+               <forename>André-Marie</forename>
+               <surname>Ampère</surname>
+            </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+               <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des sciences</affiliation>
+               </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+               <name>Centre de calcul de l'IN2P3</name>
+               <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+            </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1808-04-15-a">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                  <idno>chemise 275</idno>
+               <altIdentifier>
+              <idno type="old">L341</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+               
+            </msDesc>
+            <listWit>
+               <witness xml:id="L341edition">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                        </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 339-340-341-342</biblScope>
+                        </imprint>
+                     </monogr>
+                     
+                  </biblStruct>
+               </witness>
+               <witness xml:id="L341edition2">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>Maine de Biran</surname>
+                           <forename>Pierre</forename>
+                        </author>
+                        <author role="dir">
+                           <surname>Robinet</surname>
+                           <forename>André</forename>
+                        </author>
+                        <title>Oeuvres, XIII-1 : Correspondance philosophique avec Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>J. Vrin</publisher>
+                           <date when="1993">1993</date>
+                           <biblScope type="pp">p. 93-99</biblScope>
+                        </imprint>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1808-04-15">15
+                        avril 1808</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_M1173" type="adressee">Maine de Biran, Pierre</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+            <date when="2014-07">juillet 2014</date>
+            <name>Philippe Pons</name>
+            <name>Aude Coustumer</name>
+         </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1808-04-15-a">
+      <body>
+         <div xml:id="L1808-04-15-a-div1">
+            <opener>[autour du <date when="1808-04-15">15 avril 1808</date>]</opener>
+            <p xml:id="L1808-04-15-a-p1">
+               <pb n="102" facs="#ACAS_CRHST_AMP_18_275_0102_r.jpg"/> Vous me demandez, mon cher
+               ami, à quoi<lb/> m'ont conduit les méditations que j'ai suivies<lb/> depuis que je
+               suis ici, c'est-à-dire depuis près de<lb/> six mois, sur l'objet dont nous nous
+               occupons<lb/> avec un égal intérêt, l'étude des phénomènes<lb/> intellectuels et
+               moraux que l'observation<lb/> et la réflexion nous découvrent en nous<lb/>mêmes. J'ai
+               tardé <choice>
+                  <sic>longtems</sic>
+                  <corr>longtemps</corr>
+               </choice> à vous communiquer<lb/> les résultats de ces recherches, parce que je<lb/>
+               voulais m'assurer auparavant que je n'aurais <lb/> plus rien à y changer. En effet,
+               ce que<lb/> je vais vous écrire, je vous l'aurais<lb/> écrit précisément de même il y
+               a<lb/> quatre mois, <subst>
+                  <del type="illisible"/>
+                  <add>à quelques dénominations près que j'ai changées<lb/> d'après des motifs que
+                     je vais vous dire. Mais je ne vous l'aurais</add>
+               </subst>
+               <lb/> pu exposer de la manière dont je vais<lb/> le faire, ni sous autant de faces,
+               car<lb/> ce qui me persuade le plus que ces<lb/> résultats sont la peinture exacte
+               de<lb/> notre être moral et intellectuel, tel qu'il<lb/> est réellement, c'est que
+               j'y suis parvenu<lb/> par différentes routes qui toutes m'ont<lb/> conduit aux mêmes
+               conclusions. Je<lb/> vais essayer de vous en retracer quelques<lb/>unes. Vous me
+               direz ensuite laquelle<lb/> vous préférez et l'impression que<lb/> vous aura fait
+               éprouver cet accord<lb/> parfait entre elles.</p>
+            <p xml:id="L1808-04-15-a-p2">
+               <pb n="103" facs="#ACAS_CRHST_AMP_18_275_0103_v.jpg"/> Voici d'abord quelques
+               propositions fondées<lb/> sur des réflexions bien simples, et auxquelles<lb/> je me
+               conformerai constamment, quelque<lb/> route que j'adopte :<lb/>
+               <list>
+                  <item n="1"> Je regarde comme une erreur la réunion<lb/> de ce que j'appelais
+                     autrefois du mot<lb/> générique <hi rend="underline">actions</hi> avec les
+                     phénomènes<lb/> dont nous voulons faire le tableau.<lb/> Ce que je nommais
+                     ainsi doit être exclu<lb/> de ce tableau. Ce n'était que des<lb/> effets de nos
+                     états intellectuels et<lb/> moraux et il ne s'agit que de ces états<lb/>
+                     eux-mêmes. Il est bon, en parlant<lb/> d'un état de mon être qui produit<lb/>
+                     un effet au dedans ou au dehors, de<lb/> remarquer qu'il produit cet effet.
+                     Mais<lb/> ce n'est pas une raison pour admettre<lb/> celui-ci dans le tableau.
+                     Je fixe mon<lb/> attention sur une idée, je meus mon<lb/> bras ; la volonté de
+                     fixer cette idée, de<lb/> mouvoir ce bras, est un phénomène qui<lb/> fait
+                     partie de ceux que nous devons<lb/> considérer ; l'effet suit cette
+                     cause ;<lb/> mais ce n'est pas là un phénomène du<lb/> même <choice>
+                        <sic>genrer</sic>
+                        <corr>genre</corr>
+                     </choice>, c'est une idée plus nette,<lb/> c'est un déplacement du bras, voilà
+                     tout.<lb/> D'après cette considération, il m'a fallu<pb n="104" facs="#ACAS_CRHST_AMP_18_275_0104_r.jpg"/> rejeter le mot de
+                     <hi rend="underline">réaction</hi> que<lb/> j'employais pour rendre raison de
+                     ce<lb/> phénomène par lequel nos affections nous<lb/> portent immédiatement à
+                     faire <choice>
+                        <sic>certain</sic>
+                        <corr>certains</corr>
+                     </choice>
+                     <lb/>
+                     <choice>
+                        <sic>mouvemens</sic>
+                        <corr>mouvements</corr>
+                     </choice>, sans dessein relatif<lb/> à ce qui en résultera. Par exemple<lb/> à
+                     crier quand on souffre. En effet<lb/> le mot <hi rend="underline">réaction</hi>
+                     semble indiquer<lb/> que le phénomène qu'on veut désigner<lb/> n'a lieu dans ce
+                     cas que quand on<lb/> crie effectivement. Mais ce mouvement<lb/> des organes
+                     vocaux n'est pas le phénomène<lb/> qu'il s'agit de désigner ; il a lieu
+                     dès<lb/> que la douleur nous porte à crier,<lb/> soit que cela ait lieu, soit
+                     que la<lb/> volonté, combattant cet état<lb/> intérieur, en empêche l'effet.
+                     Voilà<lb/> pourquoi j'ai adopté le mot <hi rend="underline">incitation</hi>
+                     pour désigner cette manière d'être par<lb/> laquelle la douleur nous
+                     <hi rend="underline">incite</hi> à crier,<lb/> avant qu'il y ait
+                     <hi rend="underline">volonté</hi> en nous.<lb/> Toute incitation est suivie de
+                     son<lb/> effet. Elle ne l'est plus ensuite quand<lb/> la
+                     <hi rend="underline">volonté</hi> s'oppose à elle, mais elle<lb/> n'en existe
+                     pas moins.</item>
+                  <pb n="105" facs="#ACAS_CRHST_AMP_18_275_0105_v.jpg"/>
+                  <item n="2"> Mon but principal est de rapporter<lb/> à la sensibilité et à la
+                     réflexion, ces<lb/> deux sources de tout ce qui est en nous,<lb/> les
+                     connaissances et les déterminations qui<lb/> se rapportent à chacune d'<choice>
+                        <sic>elle</sic>
+                        <corr>elles</corr>
+                     </choice> ; mais<lb/> je ne pense pas pour cela que certains<lb/> phénomènes
+                     appartiennent à l'une<lb/> de ces facultés et les autres à l'autre.<lb/> Au
+                     contraire, ils se trouvent tous<lb/> dans la première comme dans la<lb/>
+                     seconde. Ainsi la sensibilité, prise<lb/> dans le sens générique où elle
+                     désigne<lb/> tout ce qui nous est commun avec<lb/> les animaux, les conduit à
+                     certaines<lb/> idées, à certaines croyances, à certaines<lb/> affections, à
+                     certaines volontés, etc. La<lb/> réflexion qui nous est propre y<lb/> ajoute
+                     d'autres idées, d'autres croyances,<lb/> d'autres affections, d'autres
+                     volontés, etc.</item>
+                  <lb/>
+                  <item n="3"> Il en est de <del type="illisible"/> ce qu'on<lb/>
+                     <choice>
+                        <sic>appèle</sic>
+                        <corr>appelle</corr>
+                     </choice> communément mémoire<lb/> comme de la réflexion.<lb/> Cette faculté
+                     n'offre pas seulement<lb/> un ou deux phénomènes qui lui soient<lb/> propres ;
+                     mais elle <add>peut </add>conserver des traces<lb/> de tout ce que nous
+                     éprouvons, et<pb n="106" facs="#ACAS_CRHST_AMP_18_275_0106_r.jpg"/> comme il
+                     est nécessaire de distinguer<lb/> par des noms <choice>
+                        <sic>différens</sic>
+                        <corr>différents</corr>
+                     </choice>, et de considérer<lb/> ainsi comme des <del type="illisible"/>
+                     phénomènes<lb/> particuliers chacune de ces traces,<lb/> il s'ensuit que la
+                     faculté de les<lb/> conserver présente autant de<lb/> phénomènes à elle seule,
+                     que toutes les<lb/> autres facultés ensemble.</item>
+               </list>
+            </p>
+            <p xml:id="L1808-04-15-a-p3">Conservant toujours la distinction<lb/> des phénomènes <subst>
+                  <del type="illisible"/>
+                  <add>représentatifs ou<lb/> cognitifs, et des phénomènes</add>
+               </subst>
+               <lb/> déterminatifs, dont les premiers<lb/> se rapportent à la simple
+               connaissance,<lb/> et sont l'objet de la logique,<lb/> et les autres comprennent
+               tout<lb/> ce qui nous rend heureux ou<lb/> malheureux ou nous porte à agir,<lb/> et
+               sont l'objet de la morale,<lb/> distinction admise de tous <choice>
+                  <sic>tems</sic>
+                  <corr>temps</corr>
+               </choice> sous<lb/> les noms d'entendement et de<lb/> volonté, et dont M.
+               <persName ref="#pers_T568">de Tracy</persName> a<lb/> si bien tracé la
+               démarcation,<lb/> dans un passage du chapitre neuf<lb/> de sa <title>Logique</title>,
+               pag. 432, lig. 3 et suiv<ex>antes</ex>,<lb/> je distingue soit dans les
+               phénomènes<lb/> représentatifs, soit dans les autres, ceux<lb/> qui sont actuellement
+               produits dans<lb/> des circonstances appropriées à ce qu'ils<pb n="107" facs="#ACAS_CRHST_AMP_18_275_0107_v.jpg"/> le soient, ceux qui consistent
+               dans<lb/> les traces que laissent les premiers après<lb/> que ces circonstances ont
+               cessé.<lb/> Ainsi ces phénomènes se trouvent<lb/> disposés en quatre colonnes, la
+               1ère<lb/> pour les phénomènes cognitifs actuels,<lb/> la 2de pour les traces qu'ils
+               laissent<lb/> après eux, la troisième pour les<lb/> phénomènes déterminatifs actuels,
+               la<lb/> 4ème pour leurs traces.</p>
+            <p xml:id="L1808-04-15-a-p4">On peut trouver tous les phénomènes<lb/> en suivant dans chaque colonne<lb/> ceux qui
+               doivent y être placés ; cette<lb/> route conduit au but, mais il en<lb/> est deux
+               autres qui me paraissent<lb/> peut-être préférables et par lesquelles<lb/> je
+               commencerai. Dans l'une on fait<lb/> l'histoire de nos premiers <choice>
+                  <sic>instans</sic>
+                  <corr>instants</corr>
+               </choice>
+               <lb/> jusqu'à ce qu'on ait trouvé tout ce<lb/> qu'on veut obtenir. Dans l'autre
+               on<lb/> fait abstraction de tous les phénomènes<lb/> actuels, et se refermant
+               dans<lb/> sa seule mémoire on reconnaît dans<lb/> cette méditation tous les
+                  phénomènes<pb n="108" facs="#ACAS_CRHST_AMP_18_275_0108_r.jpg"/> qui lui
+               appartiennent, et remontant<lb/> ensuite à l'époque d'où on les tient,<lb/> on
+               retrouve tous les autres.</p>
+            <p xml:id="L1808-04-15-a-p5">Dès le premier instant de l'existence<lb/> les modifications qu'éprouve l'enfant
+               doivent<lb/> présenter les deux circonstances<lb/> qui se trouvent à des degrés <choice>
+                  <sic>différens</sic>
+                  <corr>différents</corr>
+               </choice>
+               <lb/> dans presque toutes nos impressions<lb/> sensitives. Du moins tant que
+               l'habitude<lb/> ne nous les a pas rendues indifférentes.<lb/> Ces deux circonstances
+               sont ce<lb/> que nous sommes convenus d'appeler<lb/>
+               <hi rend="underline">intuition</hi> et <hi rend="underline">affection</hi>.</p>
+            <p xml:id="L1808-04-15-a-p6">Là commence la distinction entre<lb/>
+               <del type="illisible"/>
+               <lb/> les phénomènes cognitifs parmi les<lb rend="hyphen"/>quels se trouve
+               l'<hi rend="underline">intuition</hi>, et les<lb/> phénomènes déterminatifs dont
+               le<lb/> premier est l'<hi rend="underline">affection</hi>.<lb/> Les
+               <hi rend="underline">intuitions</hi> laissent après elles des<lb/>
+               <hi rend="underline">images</hi>, et suivant qu'elles ont<lb/> été accompagnées
+               d'<hi rend="underline">affections</hi> agréables<lb/> ou pénibles, ces
+               <hi rend="underline">images</hi> le sont de<lb/>
+               <hi rend="underline">tendances</hi> qui nous portent vers elles<lb/> ou nous en
+               repoussent, et qu'on<pb n="109" facs="#ACAS_CRHST_AMP_18_275_0109_v.jpg"/> doit
+               regarder comme les traces des<lb/>
+               <hi rend="underline">affections</hi>, de même que les <hi rend="underline">images</hi>
+               <lb/> sont celles des <hi rend="underline">intuitions</hi>.</p>
+            <p xml:id="L1808-04-15-a-p7">Ce mot <hi rend="underline">traces</hi> rend bien mal mon<lb/> idée, mais vous la
+               comprenez, et<lb/> il mérite une périphrase.<lb/> Voilà donc quatre phénomènes
+               qui<lb/> sont comme les <add>premiers </add>
+               <choice>
+                  <sic>élémens</sic>
+                  <corr>éléments</corr>
+               </choice> de toutes<lb/>
+               <del type="illisible"/> nos manières d'être intellectuelles<lb/> et morales, et qui
+               se trouvent<lb/> en tête des quatre colonnes dont<lb/> je vous parlais tout à
+               l'heure.<lb/> Intuitions. Images. Affections, Tendances.<lb/> Ces <choice>
+                  <sic>élémens</sic>
+                  <corr>éléments</corr>
+               </choice> resteraient stériles<lb/> si les deux premiers ne s'associaient<lb/> pas en
+               groupes, si les deux derniers<lb/> ne nous portaient à nous mouvoir.<lb/> Je crois
+               vous avoir prouvé dans<lb/> une lettre précédente que les intuitions<lb/> visuelles,
+               par exemple, s'associaient <lb/> dans l’œil de l'animal comme dans<lb/> celui de
+               l'homme, que dans l'un<lb/> et dans l'autre les images de ces<lb/> intuitions se
+               retraçaient en leur<lb/> absence dans le même ordre<pb n="110" facs="#ACAS_CRHST_AMP_18_275_0110_r.jpg"/> d'association. <add>Ce qui donne
+                  naissance à ce que j'ai<lb/> nommé contuitions et commémorations. </add>Nous
+               sommes convenus<lb/> que les affections, dès qu'elles s'élèvent<lb/> à un certain
+               degré d'énergie,<lb/> excitent en nous cette manière<lb/> d'être qui nous porte à
+               nous<lb/> mouvoir, nous fait mouvoir<lb/> nécessairement avant que nous<lb/>
+               puissions avoir la volonté de lui<lb/> résister, et n'en existe pas moins<lb/>
+               lorsque nous lui résistons. Je vous<lb/> ai dit tout à l'heure pourquoi<lb/> je donne
+               à présent à ce phénomène<lb/> le nom d'<hi rend="underline">incitation</hi>. Enfin les<lb/>
+               <hi rend="underline">tendances</hi>, ces désirs sans connaissance<lb/> des moyens
+               d'arriver au but où<lb/> ils tendent <add>que
+                  <persName ref="#pers_C663">Condillac</persName> nomme besoins, </add>nous portent
+               aussi<lb/> au mouvement. Mais d'une tout<lb/> autre manière. C'est en nous<lb/>
+               mettant dans cet état bien<lb/> différent de l'<hi rend="underline">incitation</hi>,
+               quoique<lb/> tendant au mouvement comme<lb/> elle, que
+               <persName ref="#pers_L363">Locke</persName> et
+               <persName ref="#pers_C663">Condillac</persName> ont<lb/> bien décrit sous le nom
+               d'<hi rend="underline">inquiétude</hi>,<lb/> et dont la considération est<lb/>
+               d'autant plus importante que c'est<lb/> dans les <choice>
+                  <sic>mouvemens</sic>
+                  <corr>mouvements</corr>
+               </choice> qu'elle produit<pb n="111" facs="#ACAS_CRHST_AMP_18_275_0111_v.jpg"/> où
+               l'homme, aidé de la <hi rend="underline">réflexion</hi>
+               <lb/> c'est-à-dire de ce retour sur soi<lb/>même, de cette vue intérieure,<lb/> que
+               nous distinguons bien de ce qu'on<lb/> nomme communément réflexion,<lb/> où l'homme,
+               dis-je, sent sa propre action,<lb/> et acquiert la connaissance<lb/> de sa
+               personnalité et de la causalité.<lb/> En effet, deux causes s'opposent<lb/> à ce que
+               cela puisse avoir lieu<lb/> tant que nous ne nous mouvons<lb/> que par
+               <hi rend="underline">incitation</hi> : <list>
+                  <item n="1"> l'<hi rend="underline">affection</hi>
+                     <lb/> qui la produit nous absorbe trop<lb/> pour laisser place à la
+                     réflexion ;</item>
+                  <lb/>
+                  <item n="2"> et cette raison me paraît plus<lb/> forte encore, une <hi rend="underline">affection</hi>
+                     <lb/> vive nous <hi rend="underline">incite</hi> à nous mouvoir ;<lb/> l'effet
+                     de ce mouvement, ou n'y change<lb/> rien, ou nous fait éprouver une<lb/>
+                     modification nouvelle.</item>
+               </list> Dans le premier<lb/> cas, il ne saurait être remarqué ;<lb/> c'est le cas,
+               par exemple, de l'enfant<lb/> que les premières sensations, toujours<lb/>
+               douloureuses, qu'il éprouve font crier ;<lb/> dans le second cas, la nouvelle<pb n="112" facs="#ACAS_CRHST_AMP_18_275_0112_r.jpg"/> modification, attirant seule
+               l'attention,<lb/> empêche qu'on puisse la lier<lb/> comme effet à ce qui l'a
+               précédée.<lb/> Il en serait de même si, lorsqu'une<lb/>
+               <hi rend="underline">image</hi> présente à l'enfant est<lb/> accompagnée d'une
+               <hi rend="underline">tendance</hi> qui produit<lb/> en lui l'état dont je viens de
+                  <del type="illisible"/>
+               <lb/> parler, le mouvement qui est à son<lb/> tour une suite de cet état, ne<lb/>
+               produisait pas précisément la sensation<lb/> dont l'image était présente et vers<lb/>
+               laquelle était dirigée la tendance.<lb/> Car, le nouvel état n'ayant point<lb/> de
+               rapport à celui qui l'aurait précédé,<lb/> on ne pourrait remarquer <del type="illisible"/>
+               <lb/> de liaison, ni, par conséquent, de causalité<lb/> entre eux. Il est nécessaire
+               aussi que<lb/> la tendance ne soit pas tellement<lb/> violente que l'être sentant
+               n'en<lb/> soit pas entièrement absorbé.</p>
+            <p xml:id="L1808-04-15-a-p8">C'est ce phénomène si remarquable<lb/> par lequel nous sommes <choice>
+                  <sic>porté</sic>
+                  <corr>portés</corr>
+               </choice> à<lb/> nous mouvoir par la simple tendance<lb/> vers une chose absente sans
+               aucune<lb/> connaissance, ni de son existence, ni des<lb/> moyens de l'obtenir,
+               auquel j'ai le plus<lb/> souvent changé de nom, ainsi que vous<pb n="113" facs="#ACAS_CRHST_AMP_18_275_0113_v.jpg"/> l'avez pu voir dans mes lettres<lb/>
+               précédentes. C'est une sorte de trace<lb/> de l'<hi rend="underline">incitation</hi>,
+               puisqu'il paraît assez<lb/> évident que, s'il n'y a pas eu<lb/> de <choice>
+                  <sic>mouvemens</sic>
+                  <corr>mouvements</corr>
+               </choice> par <hi rend="underline">incitation</hi>, il n'aurait<lb/> pu s'établir la
+               liaison organique entre<lb/> le cerveau et le reste du système<lb/> nerveux et
+               musculaire nécessaire pour<lb/> ce phénomène ; mais cette dépendance<lb/> où il est
+               de l'<hi rend="underline">incitation</hi> n'est pas<lb/> aussi nette que pour tous
+               les autres<lb/> phénomènes. Cette circonstance, jointe à<lb/> ce <choice>
+                  <sic>que</sic>
+                  <corr/>
+               </choice> phénomène, a été peu remarqué<lb/> eu égard à son importance en rend<lb/>
+               la dénomination la mieux appropriée<lb/> très difficile à fixer.</p>
+            <p xml:id="L1808-04-15-a-p9">Je m'étais déterminé depuis mes dernières<lb/> lettres à le nommer simplement<lb/>
+               <hi rend="underline">inquiétude</hi> comme
+               <persName ref="#pers_L363">Locke</persName> et
+               <persName ref="#pers_C663">Condillac</persName> ;<lb/> mais ce mot a un autre
+               sens<lb/> très usité, mais il ne rend pas du tout<lb/> le caractère essentiel de
+               porter à se<lb/> mouvoir. J'ai trouvé que les Latins<lb/>
+               <choice>
+                  <sic>avait</sic>
+                  <corr>avaient</corr>
+               </choice> deux mots pour désigner<lb/>
+               <hi rend="underline">désir, envie
+               qu'on a d'une chose</hi>, <gap reason="lacune"/>
+            </p>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1808-04-15-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Le manuscrit (carton 16 [ch. 271] des Archives de
+               l'<orgName ref="#org_A15">Académie
+               des Sciences</orgName>) ne porte
+               pas d'adresse ni de date. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

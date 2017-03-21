@@ -1,0 +1,228 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 617</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1822-04-18-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1943">1943</date>
+                     <biblScope type="tome">III.</biblScope>
+                     <biblScope type="pp">p. 922-923-924</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L617</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L617manuscrit">
+            <msDesc type="brouillon_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 182</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Quatre pages 21 x 26.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1822-04-18">18 avril 1822</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Brewster, David</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1822-04-18-a">
+      <body>
+         <div xml:id="L1822-04-18-a-div1">
+            <opener>
+          <pb n="217" facs="#ACAS_CRHST_AMP_09_182_0217_r.jpg"/>
+          <placeName>Paris</placeName>
+          <date when="1822-04-18">18 avril 1822</date>
+        </opener>
+            <p xml:id="L1822-04-18-a-p1">Je sais tout le prix des moments que vous consacrez au progrès des Sciences, je crois
+               cependant pouvoir vous prier de m'en sacrifier quelques-uns. Deux motifs m'y
+               engagent. Le premier est l'inquiétude que j'ai conçue sur le sort de la lettre que je
+               vous écrivis en réponse à celle par laquelle vous m'annonciez la distinction
+               peut-être la plus flatteuse que j'ai reçue de ma vie, le choix qu'avait bien voulu
+               faire de moi, comme membre étranger, l'illustre <orgName>Société</orgName> dont vous êtes le Secrétaire.
+               Cette lettre partit de <placeName>Paris</placeName> peu de jours après que j'eus reçue la vôtre. M.
+               <persName ref="#pers_H295">Hachette</persName>, qui a une correspondance suivie avec l'<placeName>Angleterre</placeName> et par l'entremise duquel
+               j'avais écrit à M. <persName ref="#pers_F239">Faraday<ref xml:id="pers_F239"/>
+          </persName> et reçu deux lettres de ce savant m'ayant offert de vous
+               faire<pb n="218" facs="#ACAS_CRHST_AMP_09_182_0218_v.jpg"/> parvenir la mienne, je la lui remis dans cette vue et il s'assura qu'elle vous
+               parviendrait par la voie la plus sûre. Cette lettre contenait tous mes remerciements
+               à la <orgName>Société royale d'<placeName>Édimbourg</placeName>
+          </orgName> de l'honneur inespéré et si précieux pour moi qu'elle
+               venait de me faire, je vous adressais aussi tous ceux que je vous dois pour la part
+               que sans doute vous avez bien voulu y prendre, et d'autres détails encore que vous y
+               avez trouvés sans doute, car je me flatte qu'elle vous a été remise. Quelque temps
+               après, M. <persName ref="#pers_H295">Hachette</persName> me dit qu'il avait mis cette lettre dans le même paquet que celle
+               à M. <persName ref="#pers_F239">Faraday<ref xml:id="pers_F239"/>
+          </persName> dont il me donna en même temps une lettre qui contenait plusieurs choses
+               importantes sur le sujet de physique dont je m'occupe spécialement depuis 18 mois. M.
+               <persName ref="#pers_H295">Hachette</persName> ajouta que vous aviez sans doute reçu ma lettre quoique envoyée d'abord à
+               <placeName>Londres</placeName>, parce qu'il l'avait envoyée avec beaucoup de soin. Je craignis un instant<pb n="219" facs="#ACAS_CRHST_AMP_09_182_0219_r.jpg"/>
+               que cette voie ne fût pas aussi sûre qu'il me le disait, mais il me rassura.</p>
+            <p xml:id="L1822-04-18-a-p2">
+               Cependant, M. <persName ref="#pers_A597">d'Arblay</persName>, qui étudie à l'<orgName>Université de <placeName>Cambridge</placeName>
+          </orgName> et qui était alors à
+               <placeName>Paris</placeName> retournant à <placeName>Londres</placeName>, je lui donnai une lettre pour M. <persName ref="#pers_F239">Faraday<ref xml:id="pers_F239"/>
+          </persName> en le priant de
+               savoir si celle que je vous avais écrite dans le temps vous était en effet parvenue.</p>
+            <p xml:id="L1822-04-18-a-p3">
+               M. <persName ref="#pers_A597">d'Arblay</persName> me promit de m'écrire ce qu'il en saurait dès qu'il aurait vu M. <persName ref="#pers_F239">Faraday<ref xml:id="pers_F239"/>
+          </persName>.
+               Voilà un mois qu'il est parti et je n'en ai point de nouvelles. Voilà ce qui me rend
+               bien inquiet, car je regarderais comme un des plus grands malheurs de ma vie si ma
+               lettre s'était égarée et que la <orgName>Société</orgName> n'eût pas encore reçu l'hommage de ma
+               profonde reconnaissance. Si ce malheur m'était arrivé, je vous prierais de lui
+               présenter cet hommage et mes excuses d'un silence qui n'aurait pas dépendu de ma
+               volonté. Mais ce dont je vous supplie, dans tous les cas, c'est de me tirer de cette
+               inquiétude par un mot de réponse. Le second motif qui m'engage à vous le demander,
+               c'est qu'ayant<pb n="220" facs="#ACAS_CRHST_AMP_09_182_0220_v.jpg"/> quelques mémoires à présenter à la <orgName>Société royale</orgName>, vous me rendriez
+               un grand service en m'indiquant une voie sûre pour vous les faire parvenir.</p>
+            <p xml:id="L1822-04-18-a-p4">Je vous
+               prie, Monsieur, d'agréer l'hommage de mon respect et de tous les sentiments de haute
+               considération et de vive reconnaissance que vos nobles travaux dans les Sciences
+               inspirent à tous ceux qui s'intéressent à leurs progrès. J'ai l'honneur d'être,<lb/>
+               Monsieur, votre très humble et très obéissant serviteur.<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+            <closer>à M. <persName ref="#pers_B100">Brewster</persName>, secrétaire perpétuel de la <orgName>Société royale d'<placeName>Édimbourg</placeName>
+          </orgName>.</closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1822-04-18-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages 21 x 26 ; brouillon ou lettre non
+               envoyée.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

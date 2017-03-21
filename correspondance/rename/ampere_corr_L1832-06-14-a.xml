@@ -1,0 +1,255 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 781</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1832-06-14-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 748-749</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L781</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L781manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 379</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Quatre pages in-4°, adresse sur la dernière.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1832-06-14">14 juin
+                        1832</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_A10" type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1832-06-14-a">
+      <body>
+         <div xml:id="L1832-06-14-a-div1">
+            <opener>
+          <pb n="604" facs="#ACAS_CRHST_AMP_25_379_0604_r.jpg"/>
+          <placeName>Toulon</placeName> <date when="1832-06-14">Jeudi [14] juin 1832</date>
+        </opener>
+            <p xml:id="L1832-06-14-a-p1">Bon ami, me voici à <placeName>Toulon</placeName>, désirant beaucoup d'avoir de tes nouvelles et de celles
+               de ta sœur, après les événements qui viennent d'avoir lieu à <placeName>Paris</placeName> et qui ont dû lui
+               causer de mortelles terreurs. Et toi, mon fils bien-aimé, où étais-tu pendant qu'on
+               s'égorgeait ? <ref target="#corresp2">(2)</ref> Comment a-t-on pu commencer la guerre civile par un soulèvement qui
+               ne pouvait être utile qu'aux Vendéens ? Tu comprends combien j'ai souffert en
+               apprenant les nouvelles. Voilà le calme rétabli entièrement, disent les journaux ;
+               mais qu'il a coûté cher ! Que de malheurs ont résulté de ce mouvement insensé !</p>
+            <p xml:id="L1832-06-14-a-p2">Je
+               crois qu'en m'écrivant tout de suite à <placeName>Tournon</placeName>, ta lettre m'y trouverait encore ;
+               car, en partant d'ici, nous allons à <placeName>Nîmes</placeName> où nous resterons une huitaine de jours.
+               Pendant que nous étions à <placeName>Aix</placeName>, nous y avons vu le Prince qui nous a invités avec les
+               autorités et le recteur de l'<orgName>Académie</orgName>. Que j'étais loin de penser, en voyant tous ces
+               français empressés autour de lui, à l'exception de quelques carlistes, que, pendant
+               ce temps-là, on se battait à <placeName>Paris</placeName> !</p>
+            <p xml:id="L1832-06-14-a-p3">Hier matin, j'ai reçu à <placeName>Draguignan</placeName> la visite de
+               M. <persName ref="#pers_T563">Tholon</persName>, qui m'a beaucoup et beaucoup parlé de toi. Le soir, je priai tant M.
+               <persName ref="#pers_N417">Naudet</persName> qu'il consentit à aller coucher à <placeName>Hyères</placeName> que j'avais un désir indicible de
+               revoir et comme, le jeudi, il n'y a rien à faire dans les collèges, cela ne nuisait
+               pas réellement à ce que nous avions à faire ici. Ce matin, je l'ai emmené voir les
+               salines, le cabinet de coquilles de M. <persName ref="#pers_P434">Peillon</persName>, le jardin de M. <persName ref="#pers_F245">Fil</persName> où se trouvait le
+               casurina, des mécalenca en fleurs. J'ai vu MM. <persName ref="#pers_A6">Allègre</persName>. Je me suis assuré que la
+               bonne <persName>Marion</persName> avait fidèlement remis dans le temps ma lettre à M. <persName ref="#pers_A6">Allègre</persName>. Elle a su
+               par la domestique de celui-ci que j'étais à <placeName>Hyères</placeName>, et elle est venue tout courant.
+               Elle était si contente de me voir, comme elle disait,<pb n="605" facs="#ACAS_CRHST_AMP_25_379_0605_v.jpg"/> rajeuni de vingt ans, que j'ai
+               cru qu'elle allait me sauter au cou. Je lui ai donné cent sous, ce dont elle semblait
+               presque fâchée, disant qu'elle était assez contente de me voir bien portant. Je n'ai
+               pas besoin de te dire combien tout ce monde m'a parlé de toi, ainsi que M. <persName ref="#pers_R494">Riondet</persName>
+               que j'ai rencontré sur la place et, par dessus tous les autres, M. <persName ref="#pers_D184">Denis<ref xml:id="pers_D184"/>
+          </persName>. Il était à
+               <placeName>Toulon</placeName>. Mais, pendant que nous déjeunions à l'hôtel des Ambassadeurs, il est venu
+               nous trouver. Il m'a comblé d'amitiés et de choses pour toi, attendant avec une
+               extrême impatience ton ouvrage sur les Scandinaves.</p>
+            <p xml:id="L1832-06-14-a-p4">Cette journée fait une sorte
+               d'époque pour moi ; tant elle a été pleine de souvenirs pour moi, du temps où tu
+               avais tant de soin de ton papa. C'est ce même jour que j'ai fait dans la calèche, en
+               venant ici, une dernière, bien la dernière correction aux vers mnémoniques dans le
+               morceau de sciences historiques, le seul qui me satisfît pas, et où toi-même trouvais
+               un mutans qui ne pouvait rester.</p>
+            <p xml:id="L1832-06-14-a-p5">Mais cette journée a été empoisonnée par une
+               circonstance bien triste pour moi. M. <persName ref="#pers_N417">Naudet</persName>, hier, voulait se rendre de <placeName>Draguignan</placeName>
+               ici sans que je visse <placeName>Hyères</placeName>. Il n'avait consenti à y aller que parce que je lui
+               avais promis que nous serions aujourd'hui à <placeName>Toulon</placeName>. Ce n'est pas ma faute si tous les
+               chevaux de <persName>Camoin</persName> et <persName>Camoin</persName> lui-même étaient à <placeName>Cujes</placeName> pour le passage du Prince de
+               <placeName>Toulon</placeName> à <placeName>Nîmes</placeName>. Sans M. <persName ref="#pers_D184">Denis<ref xml:id="pers_D184"/>
+          </persName>, je ne sais ce que nous aurions pu faire. C'est lui qui
+               est enfin parvenu à nous trouver deux mulets pour<pb n="606" facs="#ACAS_CRHST_AMP_25_379_0606_r.jpg"/> amener la calèche à <placeName>Toulon</placeName> ; mais
+               il lui a fallu du temps pour les trouver ; en sorte qu'au lieu d'être arrivés à midi,
+               nous n'avons été ici qu'à 4 h. 1/2. De là une bouderie contre moi à un point
+               inexprimable. Il est parti en me disant de dîner quand je voudrais ; qu'il ne ferait
+               jamais de tournée avec moi, etc. Il me l'avait déjà dit à <placeName>Aix</placeName>, parce qu'obéissant
+               comme un enfant à tout ce qu'il voulait de <placeName>Paris</placeName> à <placeName>Marseille</placeName>, j'ai pourtant voulu que
+               le collège d'<placeName>Aix</placeName> fût inspecté et qu'il prétendait que nous pouvions nous en dispenser
+               pour regagner le temps perdu et ce temps avait été perdu par toutes les combinaisons
+               qu'il avais faites et qui avaient été suivies malgré toutes les bonnes raisons que je
+               lui avait soumises. C'est parce qu'il sent bien intérieurement que son idée de
+               descendre le <placeName>Rhône</placeName> par le bateau à vapeur, notre calèche sur un autre bateau, et
+               l'opiniâtreté qu'il mit à ne pas s'informer à notre premier passage à <placeName>Aix</placeName> si le
+               recteur y était, soutenant qu'il était sûr qu'il était à <placeName>Marseille</placeName>, en sorte que nous
+               ne fîmes que changer de chevaux à <placeName>Aix</placeName> et qu'il a fallu y retourner, que tout cela,
+               dis-je, nous a fait perdre quatre à cinq jours, qu'il est si en colère contre moi.</p>
+            <p xml:id="L1832-06-14-a-p6">
+          <pb n="607" facs="#ACAS_CRHST_AMP_25_379_0607_v.jpg"/>
+               Brûle cette lettre, à cause de ce que je viens de te confier sur cette inquiétude ;
+               car cela peut me nuire beaucoup dans l'avenir et, à cet inconcevable despotisme près,
+               c'était l'inspecteur avec lequel j'aurais été bien aise de faire toutes mes tournées.</p>
+            <p xml:id="L1832-06-14-a-p7">
+               Adieu, bon ami, en grâce de tes nouvelles et de celles de ta sœur et d'<persName ref="#pers_C1128">élisa</persName> dont
+               vous ne me dites rien ni l'un ni l'autre, ce qui m'inquiète extrêmement. Adieu, mon
+               fils, ton papa t'embrasse mille fois de toute son âme. M. <persName ref="#pers_D184">Denis<ref xml:id="pers_D184"/>
+          </persName> m'a chargé de tant de
+               choses pour toi, il t'a écrit et aurait tant envie d'une réponse !<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+            <closer>
+          <placeName>Monsieur <persName>J-J Ampère</persName>, maître de conférence à l'<orgName>école normale</orgName> rue du Bac, n° 100 bis</placeName>, <placeName>faubourg Saint-Germain</placeName>, à <placeName>Paris</placeName>
+        </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1832-06-14-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4°, adresse sur la dernière. Cette lettre a
+               été publiée en partie par <persName ref="#pers_C1171">Mme Cheuvreux</persName>, p. 40 à 42.</note>
+            <note resp="#CGA" xml:id="corresp2">(2) Il s'agit des journées de
+               juin. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

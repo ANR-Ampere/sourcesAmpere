@@ -1,0 +1,248 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 542</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1816-11-06-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 521-522</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L542</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L542manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 393 quarto</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Quatre pages 18,5 x 24, sans adresse.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1816-11-06">6 novembre
+                        1816</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_B33" type="adressee">Ballanche, Pierre-Simon</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1816-11-06-a">
+      <body>
+         <div xml:id="L1816-11-06-a-div1">
+            <opener>
+          <pb n="931" facs="#ACAS_CRHST_AMP_26_393_quarto_0203_r.jpg"/>
+          <placeName>Paris</placeName> le
+          <date when="1816-11-06">6 <choice>
+              <abbr>9bre</abbr> <expan>novembre</expan>
+            </choice> 1816</date>
+        </opener>
+            <p xml:id="L1816-11-06-a-p1">Cher ami, comment ne t'ai-je pas encore écrit depuis que j'ai tant souffert de ton
+               affreux malheur ? Il m'a frappé comme un coup de foudre parce que ta dernière lettre
+               m'avait rendu l'espérance. J'étais très malade des suites de ce rhume, de cet
+               émétique, de cette fièvre ; tout cela est à peu près passé à présent, excepté un
+               reste de toux.</p>
+            <p xml:id="L1816-11-06-a-p2">Que te dirai-je ? Je sais combien tous les secours sont vains lorsque
+               les malheurs nous accablent. Je sais quelle impression font, sur une âme souffrante,
+               ces raisonnements de résignation. <cit xml:lang="lat">
+            <quote>Non ignora mali</quote>
+          </cit>. Du moins tu as des amis qui
+               souffrent avec toi. Lenoir, <persName ref="#pers_D207">Dugas<ref xml:id="pers_D207"/>
+          </persName>, <persName ref="#pers_E234">Esparon</persName> et M. <persName ref="#pers_A597">d'Arblay</persName> doivent dîner demain ici.
+               Je regretterai <persName ref="#pers_B59">Beuchot<ref xml:id="pers_B59"/>
+          </persName> : le jour qui a convenu aux autres se trouvant un de ses
+               mauvais jours. Nous parlerons de toi, car tu nous es cher à tous et nous partageons
+               vivement tes chagrins.</p>
+            <p xml:id="L1816-11-06-a-p3">
+          <pb n="932" facs="#ACAS_CRHST_AMP_26_393_quarto_0204_v.jpg"/>Cher ami, voilà donc ce que c'est que la vie ! On devient trop
+               triste quand on y songe, à moins que ce sujet si triste ne devienne un sujet de joie
+               et de consolation comme cela est arrivé à <persName ref="#pers_B94">Bredin<ref xml:id="pers_B94"/>
+          </persName>. Ses lettres à cet égard sont si
+               remarquables, ô mon ami ! Tu devrais bien voir souvent cet homme admirable. Je sens,
+               en lisant ses lettres, que sa conversation calmerait les peines qui doivent
+               t'accabler en ce moment. Il m'a beaucoup écrit de toi ; il m'a dit que tu devais
+               aller à <placeName>Ambérieux</placeName> avec <persName ref="#pers_P460">Mme Polingue<ref xml:id="pers_P460"/>
+          </persName>. J'attends une lettre de toi ou de lui pour
+               savoir si ce voyage a eu lieu, s'il vous a fait du bien : j'entends à toi et à ta
+               sœur.</p>
+            <p xml:id="L1816-11-06-a-p4">Ce n'est pas à <placeName>Ambérieux</placeName> seulement que devrait être ce voyage, ni pour
+               quelques jours seulement. Mon ami, vous devriez venir tous deux à <placeName>Paris</placeName> vous loger
+               entre moi et <persName ref="#pers_D207">Dugas<ref xml:id="pers_D207"/>
+          </persName>. Il y a là de si jolis logements, tu serais près de deux si bons
+               amis ! Ta sœur se lierait avec la mienne et<pb n="933" facs="#ACAS_CRHST_AMP_26_393_quarto_0205_r.jpg"/> ma cousine <persName>Ampère</persName> ; il y aurait une
+               analogie d'idées de dévotion, qui ferait du bien à ta sœur. Cette cousine, qui ne
+               s'occupe que des pauvres, demeure dans la Cité comme <persName ref="#pers_D207">Dugas<ref xml:id="pers_D207"/>
+          </persName>.</p>
+            <p xml:id="L1816-11-06-a-p5">Sois-en sûr, mon
+               excellent ami, ce ne peut être qu'ici que tu retrouves la paix, le calme nécessaire
+               au développement de tes admirables talents : de ces talents dont tu dois compte à tes
+               semblables et à toi-même.</p>
+            <p xml:id="L1816-11-06-a-p6">N'enterre pas le talent que tu as reçu comme le méchant
+               serviteur de l'évangile ! Je sais que tu l'as déjà fait valoir et que tu en as retiré
+               cent pour cent ; mais ces deux cents en reproduiront quatre par un nouveau travail.
+               Mon ami, comment ton âme ne brûle-t-elle pas d'ardeur pour élever un autre monument
+               aux lettres, quand tu vois ce que tu peux par ce que tu as pu ! Pense que <persName>Phèdre</persName> doit
+               venir après <persName>Andromaque</persName> ; <title>
+            <persName>Antigone</persName>
+          </title> <ref target="#ampere_ref_P237.xml">*</ref>
+               est l'ouvrage le plus parfait qui ait<pb n="934" facs="#ACAS_CRHST_AMP_26_393_quarto_0206_v.jpg"/> paru depuis la Révolution, tu le sais bien.
+               Mais que ne ferais-tu pas en répandant les mêmes charmes sur un sujet relatif à
+               l'état actuel des sociétés ? Quel bien un tel ouvrage ferait s'il était écrit dans un
+               sens à faire du bien ! Ce qui, il faut en convenir, serait une bien grande
+               singularité dans ce moment !</p>
+            <p xml:id="L1816-11-06-a-p7">Adieu, mon cher ami, présente, je t'en prie, l'hommage
+               de mon respect et du chagrin que m'a fait éprouver un si grand malheur, à <persName ref="#pers_P460">Mme
+               Polingue<ref xml:id="pers_P460"/>
+          </persName>. Aime-moi toujours ; écris-moi s'il t'est possible, ce sera bonheur pour
+               moi. Je t'embrasse mille fois de toute mon âme.<lb/>
+               <persName ref="#pers_A366"> A. Ampère</persName>.</p>
+            <p xml:id="L1816-11-06-a-p8">J'oubliais de te dire que,
+               <persName ref="#pers_B94">Bredin<ref xml:id="pers_B94"/>
+          </persName> ayant été chargé par moi de quelques commissions, tu me rendrais un bien grand
+               service si tu étais si bon que de lui remettre de l'argent dans le cas où, comme je
+               le crains, il ne serait pas en fonds. Je ne sais pas au juste le montant ; je lui
+               envoie un billet où il est en blanc. Il le remplira avec toi et, sur le moindre avis,
+               je rembourserai tout sur-le-champ à <persName ref="#pers_B59">Beuchot<ref xml:id="pers_B59"/>
+          </persName> ou à telle autre personne que tu voudras
+               m'indiquer ici, ou sur une traite à vue, à ton choix.</p>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1816-11-06-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages 18,5 x 24, sans adresse. Lettre publiée en
+               partie par Mme Cheuvreux, p. 101 et 102.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

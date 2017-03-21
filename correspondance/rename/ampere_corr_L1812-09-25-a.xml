@@ -1,0 +1,165 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 848</title>
+                <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+                    <forename>André-Marie</forename>
+                    <surname>Ampère</surname>
+                </author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+                    <affiliation>Università L'Aquila</affiliation>
+          </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+                    </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                            sciences</affiliation>
+                    </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+                    <name>Centre de calcul de l'IN2P3</name>
+                    <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+                </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc type="original_manuscrit">
+                    <msIdentifier xml:id="ampere_corr_L1812-09-25-a">
+                        <country>France</country>
+                        <settlement>Palaiseau</settlement>
+                        <institution>Archives de l'Ecole polytechnique</institution>
+                    <altIdentifier>
+              <idno type="old">L848</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1812-09-25">25 septembre 1812</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_L336" type="adressee">Lacuée, Jean Girard, comte de Cessac</persName>
+        </correspAction>
+      </correspDesc>
+            <creation>
+                <date when="2014-07">juillet 2014</date>
+                <name>Philippe Pons</name>
+                <name>Aude Coustumer</name>
+            </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="correspondance" decls="#ampere_corr_L1812-09-25-a">
+        <body>
+            <div xml:id="L1812-09-25-a-div1">
+                <opener>
+          <placeName>Paris</placeName>, <date when="1812-09-25">25 septembre 1812</date>
+                </opener>
+                <opener>Monseigneur, </opener>
+                <p xml:id="L1812-09-25-a-p1">Vous me demandez dans la lettre dont votre Excellence a bien voulu
+                    m'honorer, quelle est mon opinion sur la manière dont les répétiteurs et les
+                    adjoints attachés aux cours d'analyse se sont acquittés des fonctions qui leur
+                    sont confiées, et sur les personnes qui pourraient remplir ces places de la
+                    manière la plus avantageuse aux progrès de l'instruction de l'école. Un
+                    répétiteur, Mr <persName ref="#pers_R1686">Reynaud</persName>, et un adjoint, Mr
+                    <persName ref="#pers_S1293">Destainville</persName>, ont seuls été attachés l'année dernière au
+                    cours d'analyse dont je suis chargé. Je n'ai qu'à me louer du zèle de ces
+                    messieurs, leurs connaissances et le talent qui les distingue sont connus, ainsi
+                    je ne puis, monseigneur, que désirer que vous daigniez les nommer aux mêmes
+                    places pour l'année prochaine, je ne crois pas qu'il y ait à
+                    <placeName>Paris</placeName> parmi les personnes étrangères à
+                    l'<orgName>école impériale</orgName>, aucun sujet qui puisse les remplir aussi
+                    bien.</p>
+                <p xml:id="L1812-09-25-a-p2">J'ai l'honneur d'être avec le plus profond respect, Monseigneur, de votre
+                    Excellence, le très humble et très obéissant serviteur.<lb/>
+                    <persName ref="#pers_A366">A.
+                    Ampère</persName>
+                </p>
+                <closer>A son Excellence Le <persName>comte de Cessac</persName>, gouverneur de
+                    l’<orgName>École impériale
+                    polytechnique</orgName>.</closer>
+            </div>
+        </body>
+    </text>
+</TEI>

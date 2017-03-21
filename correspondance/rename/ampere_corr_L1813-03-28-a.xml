@@ -1,0 +1,247 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 442</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1813-03-28-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 435-436</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L442</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L442manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives de l'Académie des sciences</institution>
+                        <repository>Fonds André-Marie Ampère</repository>
+                        <idno>chemise 340</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Quatre pages in-4°, adresse sur la dernière.</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1813-03-28">28
+                        mars 1813</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Bredin, Claude-Julien</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1813-03-28-a">
+      <body>
+         <div xml:id="L1813-03-28-a-div1">
+            <opener>
+          <pb n="297" facs="#ACAS_CRHST_AMP_24_340_0297_r.jpg"/>
+          <date when="1813-03-28">28 mars [1813]</date>
+        </opener>
+            <p xml:id="L1813-03-28-a-p1">Bon ami, toujours d'une chose à l'autre, je n'ai pu t'écrire plus tôt. Toujours j'ai
+               pensé à toi, j'espère que tu m'auras écrit malgré mon silence forcé, j'ai tant besoin
+               de te savoir moins souffrant ! J'avais tant de plaisir à t'écrire toutes mes peines
+               quand elles étaient vives. N'éprouves-tu pas la même consolation à m'écrire les
+               tiennes ? Que du moins je sois bon à cela sur la terre : à les adoucir en les
+               partageant ! Je regrette comme toi ton excellent <add>père</add>, qui me montrait encore
+               <add>tant</add> d'amitié à mon dernier voyage.</p>
+            <p xml:id="L1813-03-28-a-p2">Il te reste ta femme, tes charmants enfants et
+               ton ami, si je puis me compter parmi ce qui peut t'adoucir l'existence. Comme il
+               m'est pénible de ne pouvoir aller tout de suite à <placeName>Lyon</placeName> ! Du moins j'y serai les
+               premiers jours de mai. Mais le temps d'ici là me paraîtra bien long. Je n'ai plus que
+               toi et la psychologie au monde et, quoiqu'elle me fasse du bien en occupant ma tête,
+               tu sais bien que ce n'est pas elle qui peut remplir mon cœur. Je viens de relire
+               cette lettre où, dans les moments les plus pénibles, tu me parles de cette autre
+               métaphysique qui remplit le cœur encore plus que la tête. Hélas ! dans celle-là, je
+               n'aperçois çà et là que quelques clartés fugitives ! Il n'y en a, dans la nuit de la
+               vie, qu'autant qu'il en faut pour faire désirer le jour. Encore qui sait l'y
+               entrevoir ?</p>
+            <p xml:id="L1813-03-28-a-p3">
+          <pb n="298" facs="#ACAS_CRHST_AMP_24_340_0298_v.jpg"/>Toi, mon ami, toi plus que personne autre que je connaisse ! Ah, si
+               j'étais près de toi à présent, tu me montrerais la vérité. Moi seul je ne puis
+               l'atteindre. J'en suis toujours aux vérités.</p>
+            <p xml:id="L1813-03-28-a-p4">Sais-tu ce que j'ai lu il y a quelque
+               temps ? <title>Le Moine</title> ! <ref type="ouvrages_mentionnes" target="#ampere_ref_P373.xml">*</ref> Cela me faisait
+               une singulière impression. Je ne suis plus surpris que <persName ref="#pers_C145">Chatelain</persName> l'aime tant ; lui
+               surtout qui doit croire tout cela possible, qui m'a avoué qu'il le croyait tel !</p>
+            <p xml:id="L1813-03-28-a-p5">Il
+               m'est aisé de voir dans ta lettre le fond de tes pensées actuelles ; mais la forme,
+               je ne puis la deviner. Les détails... que je voudrais les savoir ! Je t'en prie,
+               explique-les-moi !</p>
+            <p xml:id="L1813-03-28-a-p6">écris-moi une longue lettre sur ce sujet ! Je voudrais aussi des
+               nouvelles de ta mère, de ta femme, de tes enfants. Tu recevras celle-ci par M. <persName ref="#pers_H306">Huzard</persName>
+               qui, plus heureux que moi, te verra dans quelques jours. Il te la remettra avec la
+               tragédie de <persName ref="#pers_W1829">Wallenstein</persName> de <persName ref="#pers_S524">Schiller</persName> <ref type="ouvrages_mentionnes" target="#ampere_ref_P253.xml">*</ref> que j'ai achetée, il y a deux ans, pour toi et que j'ai retrouvée parmi
+               d'autres livres. Il y a un caractère d'<persName>Alfred</persName> et une scène entre <persName ref="#pers_W1829">Wallenstein</persName> et
+               <persName ref="#pers_H813">Harald</persName> qui sont pour toi si beaux.</p>
+            <p xml:id="L1813-03-28-a-p7">Si j'ai le temps, j'écrirai demain une autre
+               lettre que je t'enverrai en droiture dans la crainte que, M. <persName ref="#pers_H306">Huzard</persName> retardant son
+               voyage, celle-ci ne t'arrive plus tard que par la poste. Néanmoins, comme je ne suis
+               pas sûr de le pouvoir, s'il me dit, quand je lui porterai mon paquet, qu'il est
+               encore pour quelques jours à <placeName>Paris</placeName>,<pb n="299" facs="#ACAS_CRHST_AMP_24_340_0299_r.jpg"/>je ne lui laisserai que le livre et ce sera
+               celle-ci que je mettrai à la poste.</p>
+            <p xml:id="L1813-03-28-a-p8">Je n'ai toujours que des espérances relativement
+               à la décision du Ministre. Mais elles sont plus probables que quand je t'ai écrit la
+               dernière fois depuis que j'ai vu le secrétaire général que je ne connaissais point.
+               C'est <persName ref="#pers_G290">Guidi</persName>, celui qui a été longtemps professeur de mathématiques au lycée de <placeName>Lyon</placeName>,
+               qui est ici pour solliciter de l'avancement dans l'Université, qui m'y a amené. Il le
+               connaît beaucoup, j'ai été bien aise de ce qu'il lui a dit de toi. Il avait suivi un
+               de tes cours d'anatomie. Ce n'est pas pour me gagner en sa faveur ; car il sait que,
+               depuis deux ans, j'ai fait tout ce qui dépendait de moi pour lui obtenir ce qu'il
+               désire, qui n'est que justice.</p>
+            <p xml:id="L1813-03-28-a-p9">Je voudrais causer avec toi. J'aurais tant de choses à
+               te dire sur le sujet actuel de tes méditations, sur les deux sources où tu sais que
+               tu trouveras exclusivement la vérité. L'une et l'autre est un don de <persName>Dieu</persName>. Il a mis
+               l'une sur la terre pour tous les hommes, ils sont tous également partagés à cet égard
+               dans les pays chrétiens quand ils savent lire.</p>
+            <p xml:id="L1813-03-28-a-p10">L'autre est aussi pour tous les
+               hommes ; mais, comme, à cet égard, tu as été plus favorisé que les autres ! Comme
+               j'aurais besoin de toi pour me connaître moi-même ! Ah, je n'aurai peut-être<pb n="300" facs="#ACAS_CRHST_AMP_24_340_0300_v.jpg"/> jamais
+               ce bonheur sans mille autres choses qui viennent s'interposer entre nos deux âmes.
+               Quelques moments bien vite passés ensemble, et des absences si longues !</p>
+            <p xml:id="L1813-03-28-a-p11"> Bon ami,
+               je suis aux trois quarts endormi ; mais, tandis que mes yeux se ferment, mon cœur
+               est tout entier à l'amitié. Je voudrais te savoir tranquille. être sûr que tu
+               dormiras bien cette nuit, que tu verras en songe ceux que tu aimes sans avoir besoin
+               de leur parler ce langage de la terre que tu appelles avec grand'raison <cit>
+            <quote>ces paroles
+               si froides</quote>
+          </cit> ! Mais hélas ! elles le sont bien moins encore que ces tristes paroles
+               écrites.</p>
+            <closer>A monsieur <persName>Bredin</persName> Professeur d'anatomie à l'<orgName>École vétérinaire</orgName>, à <placeName>Lyon</placeName> (Rhône) </closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1813-03-28-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4°, adresse sur la dernière.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

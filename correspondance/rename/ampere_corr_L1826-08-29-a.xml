@@ -1,0 +1,206 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 699</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1826-08-29-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 686</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L699</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L699manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France
+                           (incertain)</institution>
+                     </msIdentifier>
+                  </msDesc>
+          </witness>
+               <witness xml:id="L699edition">
+            <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>Jovy</surname>
+                           <forename>Ernest</forename>
+                        </author>
+                        <title>Quelques lettres inédites d'André-Marie Ampère</title>
+                        <imprint>
+                           <pubPlace>Vitry-Le-François</pubPlace>
+                           <date when="1910">1910</date>
+                        </imprint>
+                     </monogr>
+                     <note>[note de Louis DE LAUNAY]</note>
+                  </biblStruct>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1826-08-29">29 août
+                        1826</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Beuchot, Adrien</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1826-08-29-a">
+      <body>
+         <div xml:id="L1826-08-29-a-div1">
+            <opener>
+          <date when="1826-08-29">Dimanche 29 août [1826]</date>
+        </opener>
+            <p xml:id="L1826-08-29-a-p1">Le Ministre de l'Instruction publique <ref target="#corresp2">(2)</ref> m'ayant invité à venir dîner demain lundi à
+               l'occasion de la distribution des prix, notre réunion se trouve forcément différée.
+               <persName ref="#pers_D207">Dugas-Montbel</persName>, à qui je l'écris, en fixera le jour. C'est un grand contretemps pour
+               moi, mais il faut s'y résigner.</p>
+            <p xml:id="L1826-08-29-a-p2">Mille fois tout à toi, excellent ami.<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName>.</p>
+            <p xml:id="L1826-08-29-a-p3">
+               <persName>Ballanche</persName> recevra de <persName ref="#pers_D207">Dugas<ref xml:id="pers_D207"/>
+          </persName> la fixation du jour et la transmettra à l'excellent ami
+               <persName>Beuchot</persName> qui désolerait <persName>Ampère</persName> s'il ne venait pas le jour pris par <persName ref="#pers_D207">Dugas<ref xml:id="pers_D207"/>
+          </persName>.</p>
+            <closer>A Monsieur <persName>Beuchot</persName>, <placeName>rue de l'Abbaye, n° 6</placeName>, <placeName>faubourg Saint-Germain</placeName>, à
+               <placeName>Paris</placeName>.</closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1826-08-29-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) D'après <persName ref="#pers_J835">E. JOVY </persName>(voir p. 336). Le timbre de la poste porte
+               <date when="1826-08-29">août 29</date>, 1826. </note>
+            <note resp="#CGA" xml:id="corresp2">(2) Le ministre était<persName ref="#pers_F254"> Mgr Frayssinous</persName>, évêque d'<placeName>Hermapolis</placeName>, que
+               <persName ref="#pers_F247">Fontanes</persName> avait autrefois nommé en <date when-iso="1809">1809</date>, après l'interdiction de ses conférences à
+               <orgName>Saint-Sulpice</orgName>, inspecteur de l'<orgName>Académie de<placeName> Paris</placeName>
+          </orgName>. </note>
+           
+         </div>
+      </back>
+   </text>
+</TEI>

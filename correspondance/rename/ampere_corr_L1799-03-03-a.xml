@@ -1,0 +1,303 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 20</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1799-03-03-a">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                  <idno>chemise 393 quarto</idno>
+               <altIdentifier>
+              <idno type="old">L20</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+          
+            </msDesc>            
+            <listWit>
+               <witness xml:id="L20CGA">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>De Launay</surname>
+                           <forename>Louis</forename>
+                </author>
+                        <title>Correspondance du Grand Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>Gauthier-Villars</publisher>
+                           <date when="1936">1936</date>
+                           <biblScope type="tome">I.</biblScope>
+                           <biblScope type="pp">p. 033-034</biblScope>
+                        </imprint>
+                     </monogr>
+                     
+                  </biblStruct>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender" ref="#pers_A366">Ampère, André-Marie</persName>
+          <date when-iso="1799-03-03">3 mars 1799</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee" ref="#pers_C129">Carron-Ampère, Julie (1ère femme d'Ampère)</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1799-03-03-a">
+      <body>
+         <div xml:id="L1799-03-03-a-div1">
+            <opener>
+          <date when="1799-03-03">Dimanche, 3 mars 1799</date>
+        </opener>
+            <p xml:id="L1799-03-03-a-p1">
+          <handShift new="#AMA"/>
+          <pb n="1526" facs="#ACAS_CRHST_AMP_26_393_quarto_0798_r.jpg"/>Mademoiselle,<lb/>
+               Il m'est donc permis de vous écrire ! De me<lb/>
+               dédommager un peu de la privation que j'éprouve.<lb/>
+               Ce jour qui était destiné au bonheur de vous voir,<lb/>
+               il a fallu le passer à <placeName>Lyon</placeName>. Je peux du<lb/>
+               moins l'employer à vous répéter <subst>
+            <del>que</del> <add>
+              <del>qu'a</del>
+            </add>
+          </subst> <del>tous</del> <supplied>les jours</supplied>,<lb/>
+               toutes les heures, tous les <choice>
+            <sic>momens</sic> <corr>moments</corr>
+          </choice>, mon âme<lb/>
+               est <del>toujours</del> pleine de la même
+               idée. Du lundi.<lb/>
+               Je voudrais pouvoir exprimer mille <choice>
+            <sic>sentimens</sic> <corr>sentiments</corr>
+          </choice>
+          <lb/>
+               à la fois, l'excès de mon amour, celui de<lb/>
+               ma reconnaissance, les chagrins d'une absence<lb/>
+               si longue, les transports de joie avec lesquels<lb/>
+               j'ai reçu la charmante permission que votre<lb/>
+               maman, ou plutôt ma seconde mère, vient<lb/>
+               de m'accorder, les souvenirs <choice>
+            <sic>charmans</sic> <corr>charmants</corr>
+          </choice>, les<lb/>
+               images délicieuses qui m'ont consolé dans<lb/>
+               mon exil, tout se presse au bout de<lb/>
+               ma plume. Je n'en peux plus douter,
+               <pb n="1527" facs="#ACAS_CRHST_AMP_26_393_quarto_0799_v.jpg"/>j'étais né pour être le plus heureux de<lb/>
+               tous les hommes. Les
+               <choice>
+            <sic>sentimens</sic> <corr>sentiments</corr>
+          </choice> les plus<lb/>
+               purs, les plus doux, me guident à la<lb/>
+               véritable félicité que je
+               vois chaque jour<lb/>
+               s'approcher de moi. Cette chambre,<lb/>
+               aujourd'hui déserte, sera bientôt
+               habitée<lb/>
+               par une épouse adorée ; je <choice>
+            <sic>pourra</sic> <corr>pourrai</corr>
+          </choice> lui<lb/>
+               consacrer tous les <choice>
+            <sic>momens</sic> <corr>moments</corr>
+          </choice> de ma vie ;<lb/>
+               elle sera heureuse de mon bonheur<lb/>
+               comme je le serai du sien ; la<lb/>
+               confiance, l'amitié,
+               le pur amour<lb/>
+               se partageront tous nos <choice>
+            <sic>momens</sic> <corr>moments</corr>
+          </choice>.<lb/>
+               Ah non ! Ils ne se les partageront<lb/>
+               pas, ils régneront ensemble, mon<lb/>
+               cœur se presse à ces idées de paix<lb/>
+               et de bonheur dont je
+               suis environné,<lb/> je la verrai assise devant cette<lb/>
+               cheminée, auprès de cette table,
+               elle<lb/>
+               me dira qu'elle m'aime !...<lb/>
+               Mais je m'égare, Mademoiselle,<lb/>
+               j'oublie que vous
+               n'avez point fixé<lb/>
+               le terme de mes peines, que ma
+               <pb n="1528" facs="#ACAS_CRHST_AMP_26_393_quarto_0800_r.jpg"/>félicité est peut-être encore bien
+               éloignée ;<lb/>
+               cette idée serait trop pénible si votre<lb/>
+               bonté n'en adoucissait pas<lb/>
+               l'amertume. J'espère recevoir aussi un<lb/>
+               petit <choice>
+            <sic>thalisman</sic>
+                  <corr>talisman</corr>
+          </choice> qui a une merveilleuse<lb/>
+               vertu pour faire prendre patience<lb/>
+               aux cœurs partagés entre l'amour et<lb/>
+               l'espérance. On n'admet dans sa composition<lb/>
+               que de l'encre et du papier, mais il<lb/>
+               ne peut être fait
+               que par l'objet chéri<lb/>
+               <subst>
+            <del>du sentiment délicieux à qui je <gap reason="lacune"/>
+            </del> <add>à qui je dois</add>
+          </subst>
+          <lb/>
+               depuis trois ans, tous
+               les plaisirs et toutes<lb/>
+               les peines de ma vie. Ah, quand pourrai-<lb/>je voir se réaliser ce
+               charmant<lb/>
+               espoir ? Quand est-ce qu'un mot<lb/>
+               de réponse tracé de la main de<lb/>
+               <persName ref="#pers_C129">Julie</persName> viendra
+               mettre le comble à<lb/>
+               ma <del>félicité</del> ?<lb/>
+               Si j'en croyais mon amour, cette<lb/>
+               lettre ne finirait
+               jamais ; la crainte<lb/>
+               de vous ennuyer, en vous répétant<lb/>
+               ce que depuis <choice>
+            <sic>longtems</sic> <corr>longtemps</corr>
+          </choice> vous
+               savez<lb/>
+               aussi bien <add>que moi</add>, et l'envie d'offrir à Madame
+               <pb n="1529" facs="#ACAS_CRHST_AMP_26_393_quarto_0801_v.jpg"/>
+               votre mère l'hommage de la
+               reconnaissance<lb/> éternelle et de l'amour filial de son<lb/> cinquième enfant (1), me forcent
+               à y mettre<lb/>
+               des bornes. Daignez, Mademoiselle, recevoir,<lb/>
+               avec ce charmant sourire qui
+               m'a fait<lb/>
+               éprouver des sensations si délicieuses, l'assurance<lb/>
+               des plus tendres
+               <choice>
+            <sic>sentimens</sic> <corr>sentiments</corr>
+          </choice> que le respect,<lb/>
+               l'amour, la reconnaissance, peuvent<lb/>
+               inspirer au cœur le
+               plus passionné,<lb/>
+               au cœur de celui qui ne veut vivre<lb/>
+               que pour vous adorer et vous
+               rendre<lb/> heureuse. <persName ref="#pers_A366">A. AMPÈRE</persName>
+        </p>
+            <closer>A Mademoiselle<lb/>
+               Mademoiselle <persName ref="#pers_C129">Julie Caron</persName> à <placeName>S<ex>ain</ex>t-Germain</placeName>.</closer>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1799-03-03-a-div2">
+            <note resp="#CGA" xml:id="corresp1"> (1) <persName ref="#pers_A366">Ampère</persName>, au moment de ses fiançailles (<date when-iso="1799-03">mars 1799</date>), était
+               retenu à <placeName>Lyon</placeName> par la rougeole. Lettre publiée avec des coupures par Mme <persName ref="#pers_C1171">Cheuvreux</persName>, p. 113. </note>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,295 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 1150</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+               <forename>André-Marie</forename>
+               <surname>Ampère</surname>
+            </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+               <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+               </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des sciences</affiliation>
+               </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+               <name>Centre de calcul de l'IN2P3</name>
+               <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+            </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc type="original_manuscrit">
+               <msIdentifier xml:id="ampere_corr_L1808-06-25-a">
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                  <idno>chemises 275 et 261</idno>
+               <altIdentifier>
+              <idno type="old">L1150</idno>
+              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+            </altIdentifier>
+          </msIdentifier>
+               
+            </msDesc>
+            <listWit>
+               <witness xml:id="L1150edition">
+                  <biblStruct>
+                     <monogr>
+                        <author>
+                           <surname>Maine de Biran</surname>
+                           <forename>Pierre</forename>
+                        </author>
+                        <author role="dir">
+                           <surname>Robinet</surname>
+                           <forename>André</forename>
+                        </author>
+                        <title>Oeuvres, XIII-1 : Correspondance philosophique avec Ampère</title>
+                        <imprint>
+                           <pubPlace>Paris</pubPlace>
+                           <publisher>J. Vrin</publisher>
+                           <date when="1993">1993</date>
+                           <biblScope type="pp">p. 102-104</biblScope>
+                        </imprint>
+                     </monogr>
+                  </biblStruct>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1808-06-25">25 juin 1808</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_M1173" type="adressee">Maine de Biran, Pierre</persName>
+        </correspAction>
+      </correspDesc>
+         <creation>
+            <date when="2014-07">juillet 2014</date>
+            <name>Philippe Pons</name>
+            <name>Aude Coustumer</name>
+         </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1808-06-25-a">
+      <body>
+         <div xml:id="L1808-06-25-a-div1">
+            <opener>
+               <pb n="47" facs="#ACAS_CRHST_AMP_18_275_0047_r.jpg"/>
+               <placeName ref="#pl_P6">Paris</placeName>
+               <date when="1808-06-25">25 juin 1808</date>
+            </opener>
+            <p xml:id="L1808-06-25-a-p1"> Je vais essayer mon cher ami<lb/> de vous donner un précis<lb/> de mes idées et de
+               ma nomenclature<lb/> psychologique. Je les ai considérées<lb/> sous tant de points de
+               vue,<lb/> rectifiées <supplied>à </supplied>tant de reprises différentes,<lb/>
+               <add>et</add> examinées de nouveau tant<lb/> de fois depuis mon dernier<lb/> voyage à
+               <placeName ref="#pl_L2">Lyon</placeName> il y a neuf<lb/> mois, époque à laquelle
+               je<lb/> les ai fixées comme vous<lb/> l'allez voir, sans que j'aie<lb/> pu trouver à
+               y faire d'autres<lb/>
+               <choice>
+                  <sic>changemens</sic>
+                  <corr>changements</corr>
+               </choice> que quelques<lb/> noms à remplacer par des<lb/> expressions plus
+                  convenables<pb n="48" facs="#ACAS_CRHST_AMP_18_275_0048_v.jpg"/> que je suis, à ce
+               qu'il me<lb/> semble fondé à croire,<lb/> que c'est là où l'on doit<lb/> en rester.
+               Vous me direz<lb/> si c'est aussi votre opinion.<lb/> D'abord convenons <list>
+                  <item n="1"> de réduire<lb/> le plus possible notre<lb/> nomenclature, mais de
+                     ne<lb/> négliger aucun phénomène<lb/> bien évidemment d'une<lb/> nature
+                     différente des autres.</item>
+                  <lb/>
+                  <item n="2"> de ne point multiplier les<lb/> dénominations en en<lb/> donnant à
+                     des phénomènes<lb/> que nous supposerions<lb/> exister dans un <choice>
+                        <sic>tems</sic>
+                        <corr>temps</corr>
+                     </choice> dont<lb/> n'ayant plus aucune<lb/> trace, nous ne pouvons parler<lb/>
+                     que sur des conjectures <choice>
+                        <sic>hazardées</sic>
+                        <corr>hasardées</corr>
+                     </choice>.</item>
+                  <pb n="49" facs="#ACAS_CRHST_AMP_18_275_0049_r.jpg"/>
+                  <item n="3"> de ne point admettre<lb/> comme je ne l'ai fait que trop <choice>
+                        <sic>long<lb rend="hyphen"/>tems</sic>
+                        <corr>long<lb rend="hyphen"/>temps</corr>
+                     </choice> dans le tableau des phénomènes<lb/> intellectuels et moraux, les<lb/>
+                     <choice>
+                        <sic>mouvemens</sic>
+                        <corr>mouvements</corr>
+                     </choice> ou les actions,<lb/> mais seulement les états<lb/> de la sensibilité
+                     ou de la<lb/> pensée qui les produisent<lb/> ou nous portent à les
+                     exécuter.</item>
+                  <lb/>
+                  <item n="4"> de réunir sous les mêmes<lb/> noms en les distinguant par<lb/> des
+                     épithètes différentes les<lb/> phénomènes de même genre,<lb/> quoique de <choice>
+                        <sic>nature</sic>
+                        <corr>natures</corr>
+                     </choice> différentes,<lb/> dont les uns résultent du<lb/> premier
+                     développement de<lb/> nos facultés et les autres aux<lb/>
+                     <del type="illisible"/> divers degrés de perfection<lb/> qu'elles acquièrent
+                     successivement<lb/> depuis les perceptions que nous<lb/> recevons immédiatement
+                     des sens<pb n="50" facs="#ACAS_CRHST_AMP_18_275_0050_v.jpg"/> jusqu'à celles
+                     des rapports<lb/> mathématiques, depuis les<lb/>
+                     <hi rend="underline">volitions appétitives</hi> de l'enfant<lb/> jusqu'à ces
+                     <hi rend="underline">volitions</hi> que je<lb/> nomme
+                     <hi rend="underline">autonomiques</hi>, résultats<lb/> des réflexions de
+                     l'homme<lb/> raisonnable, et du jugement<lb/> porté précédemment sur la<lb/>
+                     liberté de sa faculté de vouloir.</item>
+               </list>
+               <lb/> Peut-être vaudrait-il mieux<lb/> avoir des noms <choice>
+                  <sic>différens</sic>
+                  <corr>différents</corr>
+               </choice>, une<lb/> double nomenclature. Mais<lb/> d'abord, cette distinction<lb/>
+               n'existe dans aucune langue,<lb/> on a dans toutes transporté<lb/> par une sorte de
+               métaphore,<lb/> d'ailleurs toute naturelle,<lb/> le nom du phénomène sensitif<lb/> ou
+               appétitif au phénomène<lb/> intellectuel ou volontaire<lb/> correspondant.
+                  Secondement<pb n="1873" facs="#ACAS_CRHST_AMP_15_261_bis_1407_r.jpg" type="deplacement"/> s'il était un jour possible<lb/> de suppléer à ce qui
+               manque<lb/> à nos langues à cet égard,<lb/> la nomenclature deviendrait<lb/> du
+               double plus compliquée, et<lb/> elle ne l'est déjà que trop.<lb/> Enfin la
+               distinction est aussi<lb/> bien marquée, pourvu qu'on<lb/> ait soin d'en prévenir, et
+               qu'on<lb/> insiste suffisamment là-dessus,<lb/> par la diversité des épithètes<lb/>
+               que par celle des noms ;<lb/> elle met même en quelque<lb/> sorte en opposition les
+               deux<lb/> phénomènes de même genre<lb/> dont l'un ne suppose que<lb/> le <choice>
+                  <sic>déploiment</sic>
+                  <corr>déploiement</corr>
+               </choice> de la faculté<lb/> sensitivo-motrice, et l'autre<lb/> un développement
+               ultérieur<lb/> de l'intelligence.</p>
+            <p xml:id="L1808-06-25-a-p2">
+               <pb n="1874" facs="#ACAS_CRHST_AMP_15_261_bis_1408_v.jpg"/>Comme les phénomènes
+               qui<lb/> sont dans ce dernier cas<lb/> ne peuvent guère se présenter<lb/> avant qu'il
+               y en ait eu<lb/> de presque tous les genres,<lb/> et qu'ainsi on n'en peut<lb/>
+               assigner l'ordre de génération,<lb/> c'est d'après les premiers dont<lb/> il est plus
+               aisé de reconnaître<lb/> l'ordre de succession, qu'il<lb/> convient de ranger
+               tout<lb/> le tableau des phénomènes.<lb/> J'ai trouvé plus de secours<lb/> dans la
+               langue au sujet de<lb/> la distinction de chaque<lb/> phénomène et de celui
+               qu'il<lb/> laisse après lui lorsque<lb/> les circonstances nécessaires<lb/> pour
+               qu'il ait lieu ont cessé.<lb/> J'ai cru que chaque phénomène,<pb n="1875" facs="#ACAS_CRHST_AMP_15_261_bis_1409_r.jpg"/> en laissant ainsi un<lb/> après
+               lui, il fallait le<lb/> distinguer de ce dernier en<lb/> assignant un nom à
+               chacun<lb/> d'eux ; d'ailleurs la plupart en<lb/>
+               <choice>
+                  <sic>on</sic>
+                  <corr>ont</corr>
+               </choice> déjà reçu dans notre<lb/> langue, et ceux qui n'en<lb/> ont pas d'usités
+               sont peut<lb rend="hyphen"/>être ceux à qui il est plus<lb/> indispensable d'en
+               donner.<lb/> Telle est la distinction entre<lb/> perception et idée, volition<lb/> et
+               intention, etc. Je perçois<lb/>
+               <del type="illisible"/>
+               <lb/> en présence d'un objet, je<lb/> conserve l'idée qui reste<lb/> après cette
+               perception, après<lb/> qu'il a disparu. Je veux<lb/> d'après certains motifs, je<lb/>
+               conserve l'intention qui reste<pb n="1876" facs="#ACAS_CRHST_AMP_15_261_bis_1410_v.jpg"/> après cette volition lors même<lb/>
+               <add>que </add>je cesse de penser à ces<lb/> motifs. Ce qu'on <choice>
+                  <sic>appèle</sic>
+                  <corr>appelle</corr>
+               </choice>
+               <lb/> communément mémoire,<lb/> en prenant ce mot dans<lb/> le sens le plus général,
+               se<lb/> trouve ainsi composé <del type="illisible"/>
+               <lb/> d'autant de phénomènes<lb/> que toutes les autres facultés<lb/> ensemble.</p>
+            <p xml:id="L1808-06-25-a-p3">Plus j'y ai réfléchi, plus j'ai<lb/> cru démontré par l'expérience qu'aucune<lb/>
+               modification de l'être sentant<lb/> et pensant ne pouvait exister<lb/> en lui sans
+               une action de<lb/> sa part. C'est l'opinion de<lb/> notre ami
+               <persName ref="#pers_D272">D<ex>e</ex>G<ex>érando</ex>
+          </persName>, de
+               plusieurs<lb/> autres métaphysiciens avec<lb/> lesquels j'ai examiné cette<pb n="1877" facs="#ACAS_CRHST_AMP_15_261_bis_1411_r.jpg"/> question, et en
+               particulier<lb/> d'un jeune médecin qui n'est<lb/> nullement étranger aux<lb/>
+               considérations psychologiques,<lb/> qui a fait un cours extrêmement<lb/> brillant sur
+               la physiologie<lb/> à l'<orgName>Athénée de Paris</orgName>, son<lb/> nom est
+               <persName ref="#pers_P431">Pariset</persName>, je le connais<lb/> depuis deux ans, et
+               ses excellentes<lb/> qualités rendent de plus en plus<lb/> intime ma liaison avec
+               lui.<lb/> Je pense qu'il sera un précieux<lb/> collaborateur dans le beau<lb/> projet
+               de <persName ref="#pers_D272">D<ex>e</ex>G<ex>érando</ex>
+          </persName> que
+               nous lui<lb/> avons communiqué ainsi qu'à<lb/> vous, mon cher ami, et à quelques<lb/>
+               autres personnes.</p>
+            <p xml:id="L1808-06-25-a-p4">Il n'y a point de modifications<lb/> purement passives, et comme<lb/> me dit un jour <persName ref="#pers_D272">D<ex>e</ex>G<ex>érando</ex>
+          </persName>
+               <hi rend="underline">souffrir<pb n="1878" facs="#ACAS_CRHST_AMP_15_261_bis_1412_v.jpg"/>
+               est une action</hi>.
+               Ce n'est<lb/> pas tout à fait ainsi que je<lb/> l'entends. Mais je remarque<lb/> que
+               si nous ne donnons<lb/> aucune attention à la cause<lb/> de la douleur, celle-ci<lb/>
+               est anéantie pour nous.<lb/> C'est ce qu'on voit toutes<lb/> les fois que l'attention
+               est<lb/> fortement appliquée ailleurs. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

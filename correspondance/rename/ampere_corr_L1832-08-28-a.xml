@@ -1,0 +1,244 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Correspondance d'André-Marie Ampère - Lettre 785</title>
+        <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+        <editor>Christine Blondel</editor>
+        <editor>Marco Segala</editor>
+        <funder>ANR Corpus 2012</funder>
+        <respStmt>
+          <name>Christine Blondel, <affiliation>Centre Alexandre
+                                        Koyré</affiliation>
+          </name>
+          <resp>Responsable du projet, édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Marco Segala, <affiliation>Centre Alexandre
+                                        Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+          <resp>Responsable du projet, édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Delphine Usal, <affiliation>Centre Alexandre
+                                        Koyré</affiliation>
+          </name>
+          <resp>Gestion de bases de données</resp>
+        </respStmt>
+        <respStmt>
+          <name>Aude Coustumer, <affiliation>Centre Alexandre
+                                        Koyré</affiliation>
+          </name>
+          <resp>Relecture et encodage en XML/TEI P5</resp>
+        </respStmt>
+        <respStmt>
+          <name>Philippe Pons, <affiliation>Centre Alexandre
+                                        Koyré</affiliation>
+          </name>
+          <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+        </respStmt>
+        <respStmt>
+          <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+          <resp>Édition web</resp>
+        </respStmt>
+        <respStmt>
+          <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                                        sciences</affiliation>
+          </name>
+          <resp>Mise en place de la numérisation</resp>
+        </respStmt>
+        <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+      </titleStmt>
+      <extent/>
+      <publicationStmt>
+        <authority>Centre National de la Recherche Scientifique
+                                (CNRS)</authority>
+        <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+        <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+        <distributor>
+          <name>Centre de calcul de l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+        <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+        <date/>
+        <idno/>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct xml:id="ampere_corr_L1832-08-28-a">
+                        <monogr>
+                           <author>
+                              <surname>De Launay</surname>
+                              <forename>Louis</forename>
+            </author>
+                           <title>Correspondance du Grand Ampère</title>
+                           <imprint>
+                              <pubPlace>Paris</pubPlace>
+                              <publisher>Gauthier-Villars</publisher>
+                              <date when="1936">1936</date>
+                              <biblScope type="tome">II.</biblScope>
+                              <biblScope type="pp">p. 755-756</biblScope>
+                           </imprint>
+                        </monogr>
+                     
+        <idno type="old">L785</idno>
+        </biblStruct>
+        <listWit>
+          <witness xml:id="L785manuscrit">
+            <msDesc type="original_manuscrit">
+              <msIdentifier>
+                <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Archives de l'Académie des sciences</institution>
+                  <repository>Fonds André-Marie Ampère</repository>
+                <idno>chemise 379</idno>
+              </msIdentifier>
+              <physDesc>
+                <p>Quatre pages in-4°, adresse sur la dernière.</p>
+              </physDesc>
+            </msDesc>
+          </witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p/>
+      </projectDesc>
+      <editorialDecl>
+        <correction>
+          <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+        </correction>
+        <hyphenation>
+          <p>Les retours à la ligne des documents originaux sont
+                                    respectés.</p>
+        </hyphenation>
+        <normalization>
+          <p>L'orthographe et la ponctuation ont été normalisées.</p>
+          <p>Les noms propres avec des graphies différentes ont été
+                                    normalisés.</p>
+        </normalization>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1832-08-28">28 août 1832</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_A10" type="adressee">Ampère, Jean-Jacques (fils d'Ampère)</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+      <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude Coustumer</name>
+      </creation>
+      <langUsage>
+        <language ident="fra">Français</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change/>
+    </revisionDesc>
+  </teiHeader>
+  <text type="correspondance" decls="#ampere_corr_L1832-08-28-a">
+    <body>
+      <div xml:id="L1832-08-28-a-div1">
+        <opener>
+          <pb n="393" facs="#ACAS_CRHST_AMP_25_379_0393_r.jpg"/>
+          <placeName>Clermont</placeName> <date when="1832-08-28">28 août 1832</date>
+        </opener>
+        <p xml:id="L1832-08-28-a-p1">Comment je n'ai pas répondu plus tôt à cette lettre de mon cher
+                et si bon fils qui m'a causé tant de joie en me promettant de venir me trouver en
+                <placeName>Auvergne</placeName> dès que tu auras fini ce fastidieux travail du jugement des copies ? La
+                raison de ce retard involontaire est dans la manière dont ma vie est remplie.
+                Pendant que M. <persName ref="#pers_G279">Gonod</persName> donne des leçons au <orgName>Collège royal</orgName>, un homme de confiance,
+                sous-bibliothécaire de cette bibliothèque publique dont M. <persName ref="#pers_G279">Gonod</persName> est bibliothécaire,
+                écrit des rapports pour l'Université sous ma dictée, à dix sous par heure. Dès que
+                M. <persName ref="#pers_G279">Gonod</persName> est libre, le sous-bibliothécaire s'en va, et c'est le premier qui a la
+                bonté d'écrire ce que je lui dicte sur la mathésionomie. Après en avoir ainsi écrit
+                les trois-quarts et avant de nous occuper du quart restant, pour bien savoir ce qui
+                est fait afin de ne pas tomber dans des redites, nous avons commencé hier à corriger
+                ce qui est fait, pour le mettre dans l'état où il doit être imprimé. II lit ce qui
+                est écrit et nous y faisons à mesure toutes les corrections et additions nécessaires
+                ; il m'en propose souvent d'excellentes ; par ce moyen, nous comptons qu'il pourra
+                être imprimé ici avant mon départ, par son frère imprimeur des Annales
+                scientifiques, littéraires<pb n="394" facs="#ACAS_CRHST_AMP_25_379_0394_v.jpg"/> et industrielles de l'<placeName>Auvergne</placeName>. Si l'on y insère mon
+                travail, comme le désire M. <persName ref="#pers_G279">Gonod</persName>, je n'aurais à payer que le papier et le tirage.</p>
+        <p xml:id="L1832-08-28-a-p2">
+                Puisque j'espère t'avoir bientôt ici, je ne commencerai l'impression que quand je
+                t'aurai soumis l'idée générale de mon livre et la distribution de ses parties. Au
+                reste, tu travaillerais ici tout comme tu pourrais le faire à Paris, avec une grande
+                pièce et toutes les commodités possibles, cette pièce étant encore plus indépendante
+                que la mienne. Il n'est pas bon que la circonstance que je dicte mes rapports sorte
+                d'entre toi et moi.</p>
+        <p xml:id="L1832-08-28-a-p3">J'attends avec impatience le joli présent que tu m'annonces pour
+                M. <persName ref="#pers_G279">Gonod</persName> et pour moi. Dès que le numéro de la <title>Revue des Deux Mondes</title> est arrivé il y
+                a quelques jours ici, il me l'apporta tout de suite et tout travail fut suspendu
+                jusqu'à ce que je l'eusse lu et relu. Viens vite pour que nous causions ensemble de
+                tout le plaisir qu'il m'a fait.</p>
+        <p xml:id="L1832-08-28-a-p4">Dis à <persName>Ballanche</persName> avec quelle peine j'ai appris qu'il
+                était souffrant ; j'espère qu'il ne l'est plus et je désire bien vivement que tu
+                m'en donnes l'assurance. Je n'ose le prier de m'écrire un petit mot, chez M. <persName ref="#pers_G279">Gonod</persName>,
+                place Jaude, n° 52. Je t'attends dès que tu auras terminé tes classements de copies
+                qui doivent être<pb n="395" facs="#ACAS_CRHST_AMP_25_379_0395_r.jpg"/> bientôt finis ; peut-être le sont-elles déjà. Je pense sans cesse
+                au bonheur que j'aurai de te voir ici ; M. <persName ref="#pers_G279">Gonod</persName> s'en fait une fête. Je n'ai été
+                jamais si bien soigné, si ce n'est peut-être quand je l'étais à Hyères par mon fils
+                et la bonne <persName>Marie</persName>. Enfin ces jours dont je conserve un si doux souvenir vont
+                renaître pour moi quand tu seras ici.</p>
+        <p xml:id="L1832-08-28-a-p5">Écris-moi le jour de ton arrivée, du moins à
+                peu près ! N'oublie pas de demander à <persName ref="#pers_A951">Albine</persName> le coussin du banc du devant de la
+                calèche pour l'apporter avec toi ! Demande aussi à ma sœur tout l'argent qu'elle
+                aura reçu au delà de ce qu'il sera possible qu'elle ne garde pas pour des billets à
+                ordre ; car j'ai déjà emprunté ici 100 francs au recteur et il m'en faut 250 de
+                frais de poste pour ramener la calèche à <placeName>Paris</placeName> (40 postes) : que l'on y soit un ou
+                deux voyageurs, c'est la même chose. M. <persName ref="#pers_G279">Gonod</persName> m'a dit qu'il me prêterait tout ce
+                dont je pourrais avoir besoin ; mais juge comme cela est désagréable, lorsque je lui
+                ai déjà de si grandes obligations ! Ma sœur, entre l'<orgName>Université</orgName> et le <orgName>Collège de
+                France</orgName>, doit recevoir, au commencement du mois de septembre, plus de 900 francs. Ne
+                peut-elle du moins m'en envoyer la moitié ? Ce que tu me racontes de ce que M. <persName>Cousin</persName>
+                a dit de ton cours chez M. <persName ref="#pers_G293">Guizot</persName> m'enchante.</p>
+        <p xml:id="L1832-08-28-a-p6">
+          <pb n="396" facs="#ACAS_CRHST_AMP_25_379_0396_v.jpg"/>Donne-moi des nouvelles de la manière
+                dont l'examen de tes élèves a réussi, ou plutôt, apporte-m'en toi même. Ne
+                pourrais-tu pas demander des nouvelles de la sœur de M. <persName>Naudet</persName> à la portière de la
+                maison où il demeure ; car, encore à présent, j'ignore s'il a eu le malheur de la
+                perdre, si elle est encore malade, ou si elle est guérie.</p>
+        <p xml:id="L1832-08-28-a-p7">Adieu, bon ami, je
+                t'embrasse mille fois de toute mon âme ; embrasse pour moi <persName ref="#pers_A951">Albine</persName> quand tu la
+                verras. Ton tendre père, <lb/>
+          <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+        <closer>Monsieur <persName>J-J Ampère</persName>, maître de conférence à l'<orgName>école normale</orgName> rue du Bac, n° 100 bis, faubourg Saint-Germain, à <placeName>Paris</placeName> </closer>
+      </div>
+    </body>
+    <back>
+      <div xml:id="L1832-08-28-a-div2">
+        <note resp="#CGA" xml:id="corresp1">(1) Quatre pages in-4°, adresse sur la dernière. Des extraits
+                de cette lettre ont été publiés par Mme <persName>Cheuvreux</persName>, p. 48.</note>
+      </div>
+    </back>
+  </text>
+</TEI>

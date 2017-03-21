@@ -1,0 +1,215 @@
+<?xml-model href="../../../../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondance d'André-Marie Ampère - Lettre 501</title>
+            <author xml:id="AMA" key="Ampère, André-Marie (1775-1836)" ref="http://www.idref.fr/028694171">
+          <forename>André-Marie</forename>
+          <surname>Ampère</surname>
+        </author>
+            <editor>Christine Blondel</editor>
+            <editor>Marco Segala</editor>
+            <funder>ANR Corpus 2012</funder>
+            <respStmt>
+               <name>Christine Blondel, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+               <resp>Responsable du projet, édition</resp>
+            </respStmt>
+            <respStmt>
+               <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Gestion de bases de données</resp>
+            </respStmt>
+            <respStmt>
+               <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+               <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+            </respStmt>
+            <respStmt>
+               <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+               <resp>Édition web</resp>
+            </respStmt>
+            <respStmt>
+               <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                  sciences</affiliation>
+          </name>
+               <resp>Mise en place de la numérisation</resp>
+            </respStmt>
+            <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+            <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+            <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+            <distributor>
+          <name>Centre de calcul de
+               l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+            <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+            <date/>
+            <idno/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct xml:id="ampere_corr_L1814-12-13-a">
+               <monogr>
+                  <author>
+                     <surname>De Launay</surname>
+                     <forename>Louis</forename>
+            </author>
+                  <title>Correspondance du Grand Ampère</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Gauthier-Villars</publisher>
+                     <date when="1936">1936</date>
+                     <biblScope type="tome">II.</biblScope>
+                     <biblScope type="pp">p. 491-492</biblScope>
+                  </imprint>
+               </monogr>
+               
+            <idno type="old">L501</idno>
+        </biblStruct>
+            <listWit>
+               <witness xml:id="L501manuscrit">
+            <msDesc type="original_manuscrit">
+                     <msIdentifier>
+                        <country>Suisse</country>
+                        <settlement>Genève</settlement>
+                        <institution>Bibliothèque de Genève</institution>
+                        <idno>Ms 1048, f. 10</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>La lettre n'a pas d'adresse. [note de Louis DE LAUNAY]</p>
+                     </physDesc>
+                  </msDesc>
+          </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+            </correction>
+            <hyphenation>
+               <p>Les retours à la ligne des documents originaux sont respectés.</p>
+            </hyphenation>
+            <normalization>
+               <p>L'orthographe et la ponctuation ont été normalisées.</p>
+               <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#pers_A366" type="sender">Ampère, André-Marie</persName>
+          <date when-iso="1814-12-13">13 décembre 1814</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName type="adressee">Prévost, Pierre</persName>
+        </correspAction>
+        <note type="CGA">
+          <ref target="#corresp1">(1)</ref>
+        </note>
+      </correspDesc>
+         <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+               Coustumer</name>
+      </creation>
+         <langUsage>
+            <language ident="fra">Français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="correspondance" decls="#ampere_corr_L1814-12-13-a">
+      <body>
+         <div xml:id="L1814-12-13-a-div1">
+            <opener>
+          <date when="1814-12-13">13 décembre 1814</date>
+        </opener>
+            <p xml:id="L1814-12-13-a-p1">Monsieur et très honorable ami, Je me suis vivement reproché de n'avoir pas répondu
+               sur-le-champ à la lettre que vous m'avez fait l'honneur de m'écrire et qui
+               m'annonçait le choix que la <orgName>Société de Physique et d'Histoire naturelle de <placeName>Genève</placeName>
+          </orgName> a
+               daigné faire de moi. A cette époque je n'avais pas un seul moment de liberté,
+               l'élection d'un membre de l'<orgName>Institut</orgName> approchait et cette circonstance ne me laissait
+               pas le temps de remplir comme je l'aurais dû les devoirs que m'imposait la place que
+               j'occupe à l'<orgName>école Polytechnique</orgName> et de satisfaire à d'autres occupations
+               indispensables. Je vous écrivais avant-hier pour vous en faire mes excuses et vous
+               prier de présenter à la <orgName>Société</orgName> que vous présidez l'hommage de [ma] reconnaissance.
+               Mais, comme la nomination relative à M. <persName ref="#pers_M383">Maurice</persName> devait avoir lieu le lendemain,
+               c'est-à-dire hier, je remis à aujourd'hui à faire partir ma lettre pour vous en
+               donner des nouvelles. Cette séance d'hier est la première où j'ai pu prendre place,
+               j'en ai profité pour lui donner ma voix. Mais, quoique j'en eusse parlé à quelques
+               autres membres, deux concurrents, le proto-médecin des armées russes et M. <persName ref="#pers_D1303">Delpèche</persName>
+               de <placeName>Montpellier</placeName>, portés chacun avec beaucoup d'ardeur par un grand nombre de membres,
+               en ont eu beaucoup plus que lui. Ils se les sont partagés presque également, ce qui a
+               fait renvoyer l'élection à la séance suivante. Il est infiniment probable que l'un
+               des deux sera nommé sans que j'y puisse rien.</p>
+            <p xml:id="L1814-12-13-a-p2">Je remets à une autre époque de vous
+               entretenir relativement à la manière dont je conçois que sont arrangées les molécules
+               des corps. Je me bornerai à remarquer que l'expression de la force moléculaire se
+               composant nécessairement, dans mon hypothèse, de deux termes de signes contraires,
+               dont l'un représente par conséquent une attraction et l'autre une répulsion, cessant
+               toutes deux d'être sensibles à une très petite distance, il suffit que la répulsion
+               décroisse plus rapidement que l'attraction pour que la permanence de l'arrangement
+               des molécules d'une même particule et l'agrégation des particules dans les corps
+               solides par des molécules communes à deux particules voisines, se trouve
+               naturellement expliquée.</p>
+            <p xml:id="L1814-12-13-a-p3">Je n'ai pas besoin d'ajouter que, dans cette manière de
+               voir, il n'y a pas plus de mouvement dans les liquides et les gaz que dans les
+               solides. Si je trouve une occasion favorable, j'aurai l'honneur de vous envoyer un
+               extrait du mémoire que j'ai lu sur ce sujet à l'<orgName>Institut</orgName> au mois de janvier dernier,
+               et où je parle de la manière dont je conçois l'état de liquide et de fluidité
+               élastique.</p>
+            <p xml:id="L1814-12-13-a-p4">Je vous prie d'agréer l'hommage de ma haute considération. J'ai l'honneur
+               d'être, Monsieur et très honorable ami, votre très humble et très obéissant
+               serviteur.<lb/>
+               <persName ref="#pers_A366">A. Ampère</persName>
+        </p>
+         </div>
+      </body>
+      <back>
+         <div xml:id="L1814-12-13-a-div2">
+            <note resp="#CGA" xml:id="corresp1">(1) <orgName>Bibliothèque publique de <placeName>Genève</placeName>
+          </orgName>. La lettre n'a pas
+               d'adresse.</note>
+         </div>
+      </back>
+   </text>
+</TEI>

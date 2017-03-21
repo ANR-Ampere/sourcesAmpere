@@ -1,0 +1,220 @@
+<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondance d'André-Marie Ampère - Lettre 908</title>
+                <author>Bredin, Claude-Julien</author>
+                <editor>Christine Blondel</editor>
+                <editor>Marco Segala</editor>
+                <funder>ANR Corpus 2012</funder>
+                <respStmt>
+                    <name>Christine Blondel, <affiliation>Centre Alexandre
+                        Koyré</affiliation>
+          </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
+          <affiliation>Università L'Aquila</affiliation>
+          </name>
+                    <resp>Responsable du projet, édition</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Delphine Usal, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Gestion de bases de données</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Aude Coustumer, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Philippe Pons, <affiliation>Centre Alexandre Koyré</affiliation>
+          </name>
+                    <resp>Responsable informatique, relecture et encodage en XML/TEI P5</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
+          </name>
+                    <resp>Édition web</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Florence Greffe, <affiliation>Archives de l'Académie des
+                            sciences</affiliation>
+          </name>
+                    <resp>Mise en place de la numérisation</resp>
+                </respStmt>
+                <respStmt>
+          <name>Mathilde Dutertre, </name>
+          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+        </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
+                <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
+                <address>
+          <addrLine>27 rue Damesme</addrLine>
+          <addrLine>75013 Paris</addrLine>
+        </address>
+                <distributor>
+          <name>Centre de calcul de
+                    l'IN2P3</name>
+          <address>
+            <addrLine>Domaine scientifique de la Doua</addrLine>
+            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+            <addrLine>69622 Villeurbanne Cedex</addrLine>
+          </address>
+        </distributor>
+                <availability>
+          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+        </availability>
+                <date/>
+                <idno/>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct xml:id="ampere_corr_L1812-02-08-a">
+                    <monogr>
+                        <author>
+                            <surname>De Launay</surname>
+                            <forename>Louis</forename>
+            </author>
+                        <title>Lettres inédites de Claude-Julien Bredin</title>
+                        <imprint>
+                            <pubPlace>Lyon</pubPlace>
+                            <publisher>Académie des sciences, belles-lettres et arts</publisher>
+                            <date when="1936">1936</date>
+                            <biblScope type="pp">p. 66-67</biblScope>
+                        </imprint>
+                    </monogr>
+                    
+                <idno type="old">L908</idno>
+        </biblStruct>
+                <listWit>
+                    <witness xml:id="L908manuscrit">
+            <msDesc type="original_manuscrit">
+                            <msIdentifier>
+                                <country>France</country>
+                                <settlement>Paris</settlement>
+                                <institution>Archives de l'Académie des
+                                    sciences</institution>
+                                <repository>Fonds André-Marie Ampère</repository>
+                                <idno>chemise 334</idno>
+                            </msIdentifier>
+                        </msDesc>
+          </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Les erreurs flagrantes de fond ou de forme ont été corrigées.</p>
+                </correction>
+                <hyphenation>
+                    <p>Les retours à la ligne des documents originaux sont respectés.</p>
+                </hyphenation>
+                <normalization>
+                    <p>L'orthographe et la ponctuation ont été normalisées.</p>
+                    <p>Les noms propres avec des graphies différentes ont été normalisés.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName type="sender">Bredin, Claude-Julien</persName>
+          <date when-iso="1812-02-08">8 février 1812</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#pers_A366" type="adressee">Ampère, André-Marie</persName>
+        </correspAction>
+      </correspDesc>
+            <creation>
+        <date when="2014-07">juillet 2014</date>
+        <name>Philippe Pons</name>
+        <name>Aude
+                    Coustumer</name>
+      </creation>
+            <langUsage>
+                <language ident="fra">Français</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text type="correspondance" decls="#ampere_corr_L1812-02-08-a">
+        <body>
+            <div xml:id="L1812-02-08-a-div1">
+                <opener>
+                    <pb n="12" facs="#ACAS_CRHST_AMP_24_334_0012_r.jpg"/> <date when="1812-02-08">8 février 1812</date>
+        </opener>
+                <p xml:id="L1812-02-08-a-p1">
+          <gap reason="lacune_CGA"/> J'ai eu deux enfants malades successivement.
+                    A cette heure, c'est mon père <gap reason="lacune_CGA"/> Tu n'as pas
+                    idée de la bonté de mon papa. On ne peut connaître son cœur que par une longue
+                    expérience. C'est un de ces hommes qui n'annoncent pas le quart de ce qu'ils
+                    ont. Tous les jours, je trouve que la veille je ne l'avais pas bien connu. Il ne
+                    vit pas en lui, il ne vit pas pour lui. Peu d'hommes ont autant vécu pour la
+                    douleur. Il est affaissé sous le poids des chagrins et des contrariétés. O mon
+                    ami, s'il fallait le perdre, s'il fallait supporter cette dure séparation ! <gap reason="lacune_CGA"/> <pb n="13" facs="#ACAS_CRHST_AMP_24_334_0013_v.jpg"/> <gap reason="lacune_CGA"/> </p>
+                <p xml:id="L1812-02-08-a-p2">Que de sentiments douloureux ! La santé de ma
+                    femme est dans le plus mauvais état possible. Je crains aussi que le bon Dieu ne
+                    me la laisse pas longtemps. Tu ne peux pas savoir tout ce que ces craintes ont
+                    d'amertume pour moi. Car tu ne sais pas encore, tu ne sauras jamais par
+                    expérience ce que c'est que de ne pouvoir plus réparer les torts qu'on a eus. Ne
+                    pouvoir plus dédommager ceux qu'on aime des souffrances qu'on leur a fait
+                    endurer par la brusquerie, par la raideur, par la maussaderie d'un détestable
+                    caractère comme le mien ! <gap reason="lacune_CGA"/>
+        </p>
+                <p xml:id="L1812-02-08-a-p3">Tu me parles du
+                    beau-frère de <persName ref="#pers_D220">Dupré<ref xml:id="pers_D220"/>
+          </persName>. Son affaire est finie ; il a renoncé à demander une place ;
+                    il a établi un commerce avec <persName ref="#pers_D220">Dupré<ref xml:id="pers_D220"/>
+          </persName>. Ce pauvre <persName ref="#pers_D220">Dupré<ref xml:id="pers_D220"/>
+          </persName>, il est tout à fait dépaysé.
+                    C'est un poisson hors de l'eau. Le voilà dans un magasin à vendre des soieries ;
+                    autant vaudrait pour lui une prison. Il a poussé la complaisance trop loin. Il
+                    n'était pas trop dans son élément dans un séminaire.</p>
+                <p xml:id="L1812-02-08-a-p4">Il y a des hommes qui
+                    semblent n'avoir point <pb n="14" facs="#ACAS_CRHST_AMP_24_334_0014_r.jpg"/> de destination sur la terre. Aucune place ne leur
+                    convient <gap reason="lacune_CGA"/> Si tu n'as pas encore acheté mon
+                    <persName ref="#pers_F246">Flaxman</persName>, tant mieux, car je suis bien pauvre ; ne l'achète que si c'est bien bon
+                    marché. Mais <title>Don Carlos</title>, si tu le trouves, à quelque prix que ce soit, je le
+                    veux. Tu sais bien que je ne l'ai pas même parmi les pièces de <persName ref="#pers_S524">Schiller</persName> que j'ai
+                    en allemand. Et, quand bien même je l'aurais, je ne sais pas encore cette belle
+                    langue.</p>
+                <p xml:id="L1812-02-08-a-p5">
+          <gap reason="lacune_CGA"/> <pb n="15" facs="#ACAS_CRHST_AMP_24_334_0015_v.jpg"/> <persName ref="#pers_R502">Roux</persName> m'a écrit qu'il t'avait
+                    conseillé de te faire quaker. Qu'en dis-tu ? Tu m'as proposé de me faire
+                    connaître ton système de métaphysique avec la nomenclature et la rédaction de M.
+                    <persName ref="#pers_M1173">Maine de Biran</persName> ; tu me feras plaisir.</p>
+                <p xml:id="L1812-02-08-a-p6">T'ai-je dit, dans le temps, que j'avais
+                    commencé aussi une rédaction ? Mais j'ai été arrêté dès les premiers pas. Les
+                    obstacles n'étaient pourtant pas insurmontables. J'espère m'occuper de cet
+                    agréable travail pour me remettre un peu des travaux anatomiques.</p>
+                <p xml:id="L1812-02-08-a-p7">Adieu, cher
+                    ami, écris moi donc je t'en prie. J'ai un peu lu cette nuit une tragédie
+                    allemande, <title>
+            <persName>Emilia Galotti</persName>
+          </title> <ref target="#corresp1">(1)</ref>. S'il n'en existe point de traduction française,
+                    je te la traduirai ce printemps. Il faut que tu la connaisses. Il y a de très
+                    belles choses. Beautés du premier ordre. Je ne comprends pas tout ; mais, avec
+                    un dictionnaire, j'en viendrai à bout. Tout à toi de cœur.<lb/> 
+                <persName>C-J B</persName>
+        </p>
+            </div>
+        </body>
+        <back>
+            <div xml:id="L1812-02-08-a-div2">
+                <note resp="#CGA" xml:id="corresp1">(1) De <persName ref="#pers_L867">Lessing</persName>.</note>
+            </div>
+        </back>
+    </text>
+</TEI>
