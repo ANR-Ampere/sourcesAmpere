@@ -1,5 +1,4 @@
-<?xml-model href="../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -78,7 +77,7 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc type="original_manuscrit">
-                    <msIdentifier xml:id="ampere_corr_L1795-12-05-a">
+                    <msIdentifier xml:id="ampere_corr_L">
                         <country>USA</country>
                         <settlement>Ithaca (NY)</settlement>
                         <institution>Cornell University Library</institution>
@@ -150,7 +149,7 @@
             </change>
         </revisionDesc>
     </teiHeader>
-    <facsimile xml:id="images_L1795-12-05-a" corresp=" #ampere_corr_L1795-12-05-a">
+    <facsimile xml:id="images_L1795-12-05-a" corresp="#ampere_corr_L1795-12-05-a">
         <graphic url="Cornell_Ampere_L1187_01.jpg"/>
         <graphic url="Cornell_Ampere_L1187_02.jpg"/>
         <graphic url="Cornell_Ampere_L1187_03.jpg"/>
@@ -164,7 +163,7 @@
         <graphic url="Cornell_Ampere_L1187_11.jpg"/>
         <graphic url="Cornell_Ampere_L1187_12.jpg"/>
     </facsimile>
-    <text type="correspondance" decls="#ampere_corr_L1795-12-05-a">
+    <text decls="#ampere_corr_L1795-12-05-a" type="correspondance">
         <body>
             <div xml:id="L1795-12-05-a-div1">
                 <opener>
@@ -317,7 +316,7 @@
                         <sic>Lire</sic>
                         <corr>Lyre</corr>
                     </choice> Vega, etc.</p>
-                <p xml:id="L1795-12-05-a-p7">Je vois encore dans M. <persName>de Lalande</persName>
+                <p xml:id="L1795-12-05-a-p7">Je vois encore dans M. <persName ref="#pers_L339">de Lalande</persName>
                     les noms des<lb/> trois <choice>
                         <sic>Pleyades</sic>
                         <corr>Pléiades</corr>
@@ -343,15 +342,15 @@
                         <corr>Alphara</corr>
                     </choice> le cœur de l'Hydre.<lb/> Voici l'ordre des étoiles de
                     p<ex>remiè</ex>re grandeur suivant<lb/> des vers latins cités dans M.
-                        <persName>de Lalande</persName>, mais<lb/> qui me paraît tout à contre sens
+                        <persName ref="#pers_L339">de Lalande</persName>, mais<lb/> qui me paraît tout à contre sens
                     :<lb/> Sirius, l'épaule α et le pied β d'<persName>Orion</persName>,
                     Aldébaran, la Chèvre,<lb/> Brinek, Arcturus, Antarès, l'Epi, Regulus, Fomalhaut.
-                    M. <persName>de Lalande</persName>
+                    M. <persName ref="#pers_L339">de Lalande</persName>
           <lb/> les donne ensuite ainsi : Sirius,
                     Brinek, la Chèvre,<lb/> Arcturus, Aldébaran, Almerzamo, Rigel, Regulus, l'Epi,
                     Procyon,<lb/> Antarès. </p>
                 <p xml:id="L1795-12-05-a-p8">Quant à la grandeur des autres, elle varie
-                    continuellement<lb/> dans un grand nombre . On trouve dans M. <persName>de
+                    continuellement<lb/> dans un grand nombre . On trouve dans M. <persName ref="#pers_L339">de
                         Lalande</persName>
           <lb/> un paragraphe curieux sur ces <choice>
                         <sic>changemens</sic>
@@ -374,7 +373,7 @@
                     nombre d'autres qui changent aussi. Mais il faut<lb/> reprendre le fil de vos
                     questions.</p>
                 <p xml:id="L1795-12-05-a-p9">Vous me demandez <ref target="#L1187_CAK3">*</ref> la
-                    liste des étoiles de seconde<lb/> grandeur. La voici suivant M. <persName>de
+                    liste des étoiles de seconde<lb/> grandeur. La voici suivant M. <persName ref="#pers_L339">de
                         Lalande</persName> :<lb/> γ de Pégase, β de la Baleine, β <choice>
                         <sic>cinture</sic>
                         <corr>ceinture</corr>
@@ -421,11 +420,11 @@
                     κ tout près dessous, σ du ♐ aussi loin de l'Aigle que
                     Deneb sur la même ligne, β de la Lyre près de Vega sur la ligne qui va à
                     l'Aigle, β de Cassiopée la plus occidentale. Voilà toutes les étoiles de
-                    2nde grandeur que donne M. <persName>de Lalande</persName>. Comme elles sont
+                    2nde grandeur que donne M. <persName ref="#pers_L339">de Lalande</persName>. Comme elles sont
                     prises dans son catalogue, elles sont rangées dans l'ordre des ascensions
                     droites ou des passages au méridien.</p>
                 <p xml:id="L1795-12-05-a-p10">Quant aux nébuleuses <ref target="#L1187_CAK4">*</ref>, mes mauvais yeux n'ont jamais pu les distinguer trop bien, mais voici
-                    ce qu'en dit M. <persName>de Lalande</persName>. Celle
+                    ce qu'en dit M. <persName ref="#pers_L339">de Lalande</persName>. Celle
                         d'<persName>Andromède</persName> est d'auprès de la petite étoile ν
                         d'<persName>Andromède</persName> sur la ligne de β
                         d'<persName>Andromède</persName> à β de Cassiopée, elle occupe environ
@@ -435,7 +434,7 @@
                 <p xml:id="L1795-12-05-a-p11">Celle d'<persName>Orion</persName> n'a que 6'
                     d'étendue mais sa blancheur très vive dans la lunette la rend bien plus
                     remarquable. On y voit 7 très petites étoiles ; en voici la fig. <figure/>
-                    donnée par M. <persName> de Lalande</persName>. Une autre nébuleuse est près de
+                    donnée par M. <persName ref="#pers_L339"> de Lalande</persName>. Une autre nébuleuse est près de
                     la tête du Sagittaire, une autre entre Sirius et Procyon, et une autre la seule
                     qui soit sur mon globe est entre ζ et η d'Hercule, sur le prolongement
                     de la ligne qui va du cœur de Charles deux à la tête β du Bouvier, qui est
@@ -460,11 +459,11 @@
                     l'Empirée. Il y en a cependant que l'usage a daigné consacrer comme cœur du
                     Lion, cœur de l'Hydre, puisqu'ils sont marqués sur mon globe. Peut-être même
                     qu'il faut mettre dans la même catégorie tous ceux qu'emploie habituellement M.
-                        <persName>de Lalande</persName> : la claire de <persName>Persée</persName>,
+                        <persName ref="#pers_L339">de Lalande</persName> : la claire de <persName>Persée</persName>,
                     la ceinture d'<persName>Andromède</persName>, la queue du Cygne etc.. Mais il
                         faudrait<supplied> être</supplied> à la fois académicien français et
                     astronome pour décider jusqu'où s'étend ce privilège.
-                        <persName>Antinoüs</persName> et la Chevelure avaient été oubliés parce
+                        <persName ref="#pers_A1413">Antinoüs</persName> et la Chevelure avaient été oubliés parce
                     qu'ils ne se trouvaient pas dans le catalogue de <persName>Ptolémée</persName>
                     sur lequel peut-être votre auteur s'était réglé. Mais depuis qu'ils ont été
                     rétablis par <persName>Tycho Brahé</persName>, ils ont acquis sous sa protection
@@ -479,7 +478,7 @@
                     conjecture sur l'anneau de Saturne est on ne peut pas mieux fondée. Il est en
                     effet dans ses plus grandes ouvertures ou peu s'en faut, puisque je vois en le
                     rapportant à peu près sur mon globe, au moyen de sa position près d'Aldébaran,
-                    qu'il a environ 2s10° de longitude.<supplied> Or</supplied> M. <persName>de
+                    qu'il a environ 2s10° de longitude.<supplied> Or</supplied> M. <persName ref="#pers_L339">de
                         Lalande</persName> dit que ses plus grandes phases<supplied> sont</supplied>
                     à 2s16° et à 8s16°. Je pense qu'il faudrait en profiter pour le regarder à la
                     lunette. Vous devez l'apercevoir d'autant plus facilement que je l'ai vu il y a
@@ -535,10 +534,10 @@
                             pria <persName>Jupiter</persName> de le placer au ciel.</item>
                         <lb/>
                         <item n="8">. L'Hydre, la Coupe et le Corbeau ont une origine commune.
-                                <persName>Apollon</persName>, voulant faire un sacrifice, envoya le
+                                <persName ref="#pers_A1414">Apollon</persName>, voulant faire un sacrifice, envoya le
                             corbeau chercher de l'eau dans la coupe. Il s'arrêta sur un figuier,
                             attendant la maturité du fruit. Ensuite, pour s'excuser, il accusa un
-                            serpent de l'avoir empêché de puiser, mais <persName>Apollon</persName>
+                            serpent de l'avoir empêché de puiser, mais <persName ref="#pers_A1414">Apollon</persName>
                             pour le punir les plaça tous trois au ciel, noircit le plumage blanc du
                             corbeau, et chargea le serpent de l'empêcher de jamais boire. D'autres
                             disent que c'est l'Hydre de Lerne et le corbeau qui accusa
