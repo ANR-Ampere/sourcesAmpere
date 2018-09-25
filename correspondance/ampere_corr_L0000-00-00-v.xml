@@ -1,5 +1,5 @@
-<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -111,7 +111,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName type="sender">inconnu</persName>
+                    <persName ref="no-index" type="sender">inconnu</persName>
                     <date when-iso="0000-00-00">s.d</date>
                 </correspAction>
                 <correspAction type="received">
@@ -190,7 +190,7 @@
                     multiplier les maîtres et de protéger l'instruction primaire ?</p>
                 <p xml:id="L0000-00-00-v-p8">Quant à l'orthographe, si elle est évidemment une superfluité dans certains mots,
                     elle est en général d'une nécessité absolue, notre langue fourmille d'équivoques
-                    qu'elle seule peut éclaircir  ; <persName>Figaro</persName> a gagné son procès
+                    qu'elle seule peut éclaircir  ; <persName ref="#pers_F1875">Figaro</persName> a gagné son procès
                     pour un accent omis sur la particule où ; et nos bons paysans n'ont pas besoin
                     d'apprendre la sténographie pour mettre l'orthographe à l'Index. La sténographie
                     ne peut donc jamais être autre chose que l'auxiliaire de l'écriture usuelle,
@@ -218,7 +218,7 @@
         <back>
             <div xml:id="L0000-00-00-v-div2">
                 <note resp="CAK" xml:id="corresp_1">Le dénommé <persName ref="#pers_P730">Painparé</persName> a écrit
-                    à <persName>Ampère</persName> au sujet de sa méthode d'écriture rapide <ref type="ouvrages_mentionnes" target="#ampere_ref_P31.xml">*</ref>, voir <ref type="correspondance" target="#ampere_corr_L1831-12-02-a">L1831-12-02-a</ref>.</note>
+                    à <persName ref="#pers_A366">Ampère</persName> au sujet de sa méthode d'écriture rapide <ref type="ouvrages_mentionnes" target="#ampere_ref_P31.xml">*</ref>, voir <ref type="correspondance" target="#ampere_corr_L1831-12-02-a">L1831-12-02-a</ref>.</note>
 
             </div>
         </back>
