@@ -1,4 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../Schémas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -133,7 +134,7 @@
           <date when-iso="1813-12-31">31 décembre 1813</date>
         </correspAction>
         <correspAction type="received">
-          <persName type="adressee">Maire du XIIème arrondissement de Paris</persName>
+          <persName type="adressee" ref="no-index">Maire du XIIème arrondissement de Paris</persName>
         </correspAction>
       </correspDesc>
       <creation>
@@ -172,10 +173,10 @@
     </body>
     <back>
       <div xml:id="L1813-12-31-a-div2">
-        <note resp="#CGA" xml:id="corresp1">Dans la lettre <ref target="#ampere_corr_L1814-04-18-a">L1814-04-18-a</ref> à <persName ref="#pers_B94">Bredin</persName>, <persName>Ampère</persName>
+        <note resp="#CGA" xml:id="corresp1">Dans la lettre <ref target="#ampere_corr_L1814-04-18-a">L1814-04-18-a</ref> à <persName ref="#pers_B94">Bredin</persName>, <persName ref="#pers_A366">Ampère</persName>
       parle de son bras estropié qui l'a fait réformer de ses obligations
       militaires.</note>
-        <note resp="CAK" xml:id="corresp2">En 1813, <persName>Ampère</persName> habite rue de l'Ancienne Comédie, alors dans le XIIème arrondissement.</note>
+        <note resp="CAK" xml:id="corresp2">En 1813, <persName ref="#pers_A366">Ampère</persName> habite rue de l'Ancienne Comédie, alors dans le XIIème arrondissement.</note>
       </div>
     </back>
   </text>

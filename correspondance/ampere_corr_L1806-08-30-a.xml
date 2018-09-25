@@ -1,4 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../Schémas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -149,7 +150,7 @@
         <opener>
           <pb n="6" facs="#ACAS_CRHST_AMP_24_332_0006_r.jpg"/>
           <placeName>Lyon</placeName>, ce <date when="1806-08-30">30 août</date> [cachet postal 1806]</opener>
-        <p xml:id="L1806-08-30-a-p1">Mon cher <persName>Ampère</persName>, j'ai passé quelques jours à <placeName>Givors</placeName> et je n'ai
+        <p xml:id="L1806-08-30-a-p1">Mon cher <persName ref="#pers_A366">Ampère</persName>, j'ai passé quelques jours à <placeName>Givors</placeName> et je n'ai
                 vu votre dernière lettre qu'à mon retour. Vous auriez évité le retard que vous
                 éprouvez pour vos 160 francs si vous vous fussiez adressé à <persName ref="#pers_B59">Beuchot</persName> qui
                 vraisemblablement aurait pu vous les compter. Je ne connais pas, il est vrai, l'état
@@ -171,7 +172,7 @@
                 privé de vous voir, et de voir l'aimable et bonne <persName ref="no-index">Mme Jenny</persName> que j'embrasse bien
                 tendrement avec votre permission. Mes respects à M. et <persName ref="#pers_P463">Mme Potot</persName>. J'ai lu dans votre
           lettre de <placeName>Milan</placeName> que j'ai reçue les jours derniers, une expression que le repentir
-                de votre plume vous a fait rayer. Mon cher <persName>Ampère</persName> vous êtes bien injuste quand vous
+          de votre plume vous a fait rayer. Mon cher <persName ref="#pers_A366">Ampère</persName> vous êtes bien injuste quand vous
                 dites que j'ai une âme de glace. Je n'ai pas comme vous certains sentiments exaltés,
                 mais je suis, ne vous en déplaise, beaucoup plus fait pour les affections douces.
                 J'aime bien profondément et bien longtemps, et je suis bien sûr, pour prendre
@@ -179,7 +180,7 @@
                 m'aimez. Vous ne savez pas ce que j'ai souffert à votre sujet, à mon départ pour
                 l'<placeName>Italie</placeName>. J'étais désolé, le mot n'est point trop fort, de partir sans savoir où
                 vous en étiez de vos affaires. J'ai cependant une grande preuve de votre amitié dans
-                l'accueil qu'à ma recommandation vous avez fait<pb n="8" facs="#ACAS_CRHST_AMP_24_332_0008_r.jpg"/> à M. <persName>d'Avèze</persName> <ref/>. Aussi vous porte-t-il aux nues. Il ne
+                l'accueil qu'à ma recommandation vous avez fait<pb n="8" facs="#ACAS_CRHST_AMP_24_332_0008_r.jpg"/> à M. <persName ref="#pers_M1229">d'Avèze</persName> <ref/>. Aussi vous porte-t-il aux nues. Il ne
                 sait comment exprimer sa reconnaissance à votre égard. Cet homme-là sent très
                 vivement, et vous l'avez charmé. Il ne s'attendait pas à cet empressement, dans la
                 circonstance où vous vous trouviez. Je vous en remercie beaucoup, il vous en a
@@ -189,17 +190,17 @@
                 allé à <placeName>Paris</placeName>, elle n'a point cessé d'habiter <placeName>Montpellier</placeName>. Mon père a reçu une lettre
                 d'elle pendant l'absence de son père et pendant la mienne.</p>
         <p xml:id="L1806-08-30-a-p3">Par un hasard singulier
-                <persName>Noël Jordan</persName>
-          <supplied> a</supplied> fait route avec M. <persName>d'Avèze</persName> de <placeName>Paris</placeName> à <placeName>Lyon</placeName>.<supplied> Il</supplied> a encore été
+          <persName ref="#pers_J1892">Noël Jordan</persName>
+          <supplied> a</supplied> fait route avec M. <persName ref="#pers_M1229">d'Avèze</persName> de <placeName>Paris</placeName> à <placeName>Lyon</placeName>.<supplied> Il</supplied> a encore été
                 beaucoup question de l'auteur du Sentiment. <ref target="#ampere_ref_P128.xml">*</ref>.</p>
         <p xml:id="L1806-08-30-a-p4">L'angustura paraît être en
                 bon train. Parlez-en encore à <persName ref="#pers_D272">Degérando</persName> sans cependant lui casser la tête de cette
                 écorce. Il ne faut pas désoler les gens. Mais vous pouvez très bien lui dire combien
-                M. <persName>d'Avèze</persName> aurait désiré lui exprimer sa reconnaissance pour tout ce qu'il a déjà eu
+                M. <persName ref="#pers_M1229">d'Avèze</persName> aurait désiré lui exprimer sa reconnaissance pour tout ce qu'il a déjà eu
                 la bonté de faire à cet égard. Je continue de vous recommander de bien garder pour
                 vous seul l'arrière-pensée que je puis avoir et l'espèce d'intérêt que je puis
                 attacher au succès de l'angustura.</p>
-        <p xml:id="L1806-08-30-a-p5">Adieu mon cher <persName>Ampère</persName>, je vous embrasse un
+        <p xml:id="L1806-08-30-a-p5">Adieu mon cher <persName ref="#pers_A366">Ampère</persName>, je vous embrasse un
                 million de fois malgré mon âme de glace,<lb/>
           Votre meilleur ami ;<lb/>
           <persName ref="no-index">Simon</persName>
@@ -210,7 +211,7 @@
                 C'était un bien excellent jeune homme, vertueux, modeste et vraiment religieux. Sa
                 mort m'a fait une peine infinie.</p>
         <closer>
-          <pb n="9" facs="#ACAS_CRHST_AMP_24_332_0009_v.jpg"/>A Monsieur <persName>Ampère</persName>, répétiteur d'analyse à l’<orgName>École
+          <pb n="9" facs="#ACAS_CRHST_AMP_24_332_0009_v.jpg"/>A Monsieur <persName ref="#pers_A366">Ampère</persName>, répétiteur d'analyse à l’<orgName>École
                 polytechnique</orgName>, secrétaire du <orgName>Bureau consultatif des arts</orgName> au <orgName>Ministère de
                 l'Intérieur</orgName>, rue du Faubourg-Poissonier n°10, à <placeName>Paris</placeName>
         </closer>
@@ -218,7 +219,7 @@
     </body>
     <back>
       <div xml:id="L1806-08-30-a-div2">
-        <note resp="#CGA" xml:id="corresp_1">Ce <persName>d'Avèze</persName>, montpellierain, s'était lancé en 1806 dans le commerce
+        <note resp="#CGA" xml:id="corresp_1">Ce <persName ref="#pers_M1229">d'Avèze</persName>, montpellierain, s'était lancé en 1806 dans le commerce
       d'angustura (ou angostora), une boisson à l'orange alcoolisée, qu'il tentait
       d'introduire à <placeName>Lyon</placeName>. Les imprimeries <persName ref="#pers_B33">Ballanche</persName> assuraient sa publicité. C'est de
       cette manière que P.-S. <persName ref="#pers_B33">Ballanche</persName> fit la connaissance de sa fille Bertille, dont

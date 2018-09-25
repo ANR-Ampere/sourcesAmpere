@@ -1,4 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../Schémas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -150,7 +151,7 @@
           <pb n="42" facs="#ACAS_CRHST_AMP_24_332_0042_r.jpg"/>
           <placeName>Montélimar</placeName> <date when-iso="0000-06-01">1er juin</date>
         </opener>
-        <p xml:id="L0000-06-01-a-p1">Je n'allais mon cher <persName>Ampère</persName> que le lundi à <placeName>Montélimar</placeName>. Là je
+        <p xml:id="L0000-06-01-a-p1">Je n'allais mon cher <persName ref="#A366">Ampère</persName> que le lundi à <placeName>Montélimar</placeName>. Là je
                 reçus votre lettre de <placeName>Grenoble</placeName> et j'appris à l'auberge que vous aviez passé le
                 samedi.</p>
         <p xml:id="L0000-06-01-a-p2">Jugez de mes regrets. La pluie ne m'aurait pas arrêté. J'y aurais été à
@@ -178,7 +179,7 @@
                 par <persName ref="#pers_C663">Condillac</persName>, intitulée <title>Cours d'étude</title>
           <ref target="#corresp_1">*</ref> ?
                 Avez-vous lu toute cette histoire moderne ? On a beaucoup crié contre <persName ref="#pers_V1825">Voltaire</persName> et
-                <persName>Diderot</persName>. Ce sont des écoliers à côté de lui.</p>
+          <persName ref="#pers_D1866">Diderot</persName>. Ce sont des écoliers à côté de lui.</p>
         <p xml:id="L0000-06-01-a-p6">Lisez-la par curiosité. Quel langage il
                 s'est permis de tenir. Il s'est permis ... !  J'écris à <persName ref="#pers_B74">Bonjour</persName> de la faire
                 lire à <persName ref="#pers_B94">Bredin</persName>. Ce pauvre <persName ref="#pers_B94">Bredin</persName> qui est si ignorant !</p>
@@ -206,7 +207,7 @@
                 de la vie domestique. Car pour <gap reason="illisible"/> fleurs de l'imagination elles sont
                 mortes, froissées, pourries.</p>
         <closer>
-          <pb n="45" facs="#ACAS_CRHST_AMP_24_332_0045_v.jpg"/>A Monsieur <persName>Ampère</persName>, Inspecteur général de l'<orgName>université</orgName>, à
+          <pb n="45" facs="#ACAS_CRHST_AMP_24_332_0045_v.jpg"/>A Monsieur <persName ref="#A366">Ampère</persName>, Inspecteur général de l'<orgName>université</orgName>, à
                 <placeName>Montpellier</placeName>, poste restante.</closer>
       </div>
     </body>
