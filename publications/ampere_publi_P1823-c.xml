@@ -1,4 +1,4 @@
-<?xml-model href="../../Schémas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../Schémas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>
@@ -74,11 +74,7 @@
                 <forename>André-Marie</forename>
               </persName>
                         </author>
-                        <author>
-                            <persName>
-                <surname>Roche</surname>
-              </persName>
-                        </author>
+                        <author><persName ref="#pers_R1921"><surname>Roche</surname></persName></author>
                     </analytic>
                     <monogr>
                         <title level="j">Bulletin général et universel des annonces et nouvelles
@@ -208,7 +204,7 @@
                     grand nombre de <choice>
                         <sic>savans</sic>
                         <corr>savants</corr>
-                    </choice> français et<lb/> étrangers. M. <persName>Ampère</persName>, à qui l’on
+                    </choice> français et<lb/> étrangers. M. <persName ref="#pers_A366">Ampère</persName>, à qui l’on
                     doit la découverte de tous ceux<lb/> de ces faits qui sont relatifs à l’action
                     mutuelle de deux conduc<lb rend="hyphen"/>teurs voltaïques, et à celle que le
                     globe terrestre exerce sur ces<lb/> conducteurs, en a déduit la nouvelle théorie

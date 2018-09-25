@@ -1,4 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../Schémas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -123,7 +124,7 @@
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName type="sender">Dujard</persName>
+          <persName type="sender" ref="no-index">Dujard</persName>
           <date when-iso="1824-05-02">2 mai 1824</date>
         </correspAction>
         <correspAction type="received">
@@ -155,11 +156,7 @@
         <pb n="330" facs="#ACAS_CRHST_AMP_26_393_ter_0018_v.jpg"/>
         <pb n="331" facs="#ACAS_CRHST_AMP_26_393_ter_0019_r.jpg"/>
         <closer>
-          <pb n="332" facs="#ACAS_CRHST_AMP_26_393_ter_0020_v.jpg"/>Monsieur <persName>
-            <choice>
-              <sic>Amper</sic> <corr>Ampère</corr>
-            </choice>
-          </persName>, membre de l’<orgName>Institut</orgName>, rue des
+          <pb n="332" facs="#ACAS_CRHST_AMP_26_393_ter_0020_v.jpg"/>Monsieur <persName ref="#pers_A366"><choice><sic>Amper</sic> <corr>Ampère</corr></choice></persName>, membre de l’<orgName>Institut</orgName>, rue des
                 Fossés-Saint-Victor, n° 19 à <placeName>Paris</placeName>
         </closer>
       </div>

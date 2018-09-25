@@ -1,5 +1,5 @@
-<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -124,7 +124,7 @@
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName type="sender">Lemaout</persName>
+          <persName type="sender" ref="no-index">Lemaout</persName>
           <date when-iso="1827-05-09">9 mai 1827</date>
         </correspAction>
         <correspAction type="received">
@@ -162,7 +162,7 @@
         <p xml:id="L1827-05-09-a-p3">Votre respectueux élève,<lb/>
           <persName ref="no-index">Lemaout</persName>.</p>
         <closer>
-          <pb n="306" facs="#ACAS_CRHST_AMP_21_311_0306_v.jpg"/>Monsieur <persName>Ampère</persName>, professeur de physique</closer>
+          <pb n="306" facs="#ACAS_CRHST_AMP_21_311_0306_v.jpg"/>Monsieur <persName ref="#pers_A366">Ampère</persName>, professeur de physique</closer>
       </div>
     </body>
   </text>

@@ -1,5 +1,5 @@
-<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -109,7 +109,7 @@
         <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName type="sender">Marchand</persName>
+            <persName ref="#pers_M377" type="sender">Marchand</persName>
           <date when-iso="1807-04-12">12 avril 1807</date>
         </correspAction>
         <correspAction type="received">
@@ -155,7 +155,7 @@
                 <p xml:id="L1807-04-12-a-p3">
           <persName ref="#pers_M377">Marchand</persName>.</p>
                 <closer>
-          <pb n="96" facs="#ACAS_CRHST_AMP_21_311_0096_v.jpg"/>Monsieur <persName>Ampère</persName>, professeur à
+                    <pb n="96" facs="#ACAS_CRHST_AMP_21_311_0096_v.jpg"/>Monsieur <persName ref="#pers_A366">Ampère</persName>, professeur à
                     l'<orgName>École polytechnique</orgName>, <placeName>Paris</placeName>
                 </closer>
             </div>

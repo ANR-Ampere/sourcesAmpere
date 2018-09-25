@@ -1,5 +1,5 @@
-<?xml-model href="../../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -142,7 +142,7 @@
         <correspAction type="received">
           <persName type="adressee" ref="#pers_A366">Ampère, André-Marie</persName>
         </correspAction>
-        <note type="noteDelaunay">
+        <note type="CGA">
           <ref target="#corresp1">(1)</ref>
         </note>
       </correspDesc>
@@ -249,10 +249,8 @@
           </choice> si tu la vue je<lb/>
                     <choice>
             <sic>verais</sic> <corr>verrai</corr>
-          </choice> ici M. <persName>Poulin</persName> ne te<lb/>
-                    tourmente pas je te le <choice>
-            <sic>repette</sic> <corr>répète</corr>
-          </choice>,<lb/>
+                    </choice> ici M. <persName ref="#pers_P1915">Poulin</persName> ne te<lb/>
+                    tourmente pas je te le <choice><sic>repette</sic> <corr>répète</corr></choice>,<lb/>
                     il est comme tu la vue mais<lb/>
                     c'est que ce <choice>
             <sic>devoyement</sic> <corr>devoiement</corr>

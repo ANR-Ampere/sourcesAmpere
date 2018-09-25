@@ -1,4 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../Schémas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -123,7 +124,7 @@
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName type="sender">[Boissel]</persName>
+          <persName type="sender" ref="#pers_B1851">[Boissel]</persName>
           <date when-iso="1832-08-31">31 août 1832</date>
         </correspAction>
         <correspAction type="received">
@@ -150,7 +151,7 @@
           <placeName>Paris</placeName> le <date when="1832-08-31">31 août 1832</date>
         </opener>
         <opener>Le maire du 12e arrondissement</opener>
-        <opener>à Monsieur <persName>Ampère</persName>, membre de l'<orgName>Académie</orgName>.</opener>
+        <opener>à Monsieur <persName ref="#pers_A366">Ampère</persName>, membre de l'<orgName>Académie</orgName>.</opener>
         <p xml:id="L1832-08-31-a-p1">Monsieur, J'ai
                 l'honneur de vous informer qu'un extrait de la liste des jurés appelés à faire le
                 service près de la Cour d'assises à <placeName>Paris</placeName>, pour la session qui s'ouvrira le dix-sept
@@ -162,9 +163,9 @@
                 où vous pourriez être de déférer à la sommation qui vous a été faite.</p>
         <p xml:id="L1832-08-31-a-p3">J'ai l'honneur
                 d'être avec une considération distinguée, Monsieur, votre très humble serviteur<lb/>
-                <persName>Boissel</persName>.</p>
+          <persName ref="#pers_B1851">Boissel</persName>.</p>
         <closer>
-          <pb n="322" facs="#ACAS_CRHST_AMP_21_311_0321_v.jpg"/>A Monsieur <persName>Ampère</persName>, membre de l'<orgName>Académie</orgName>, rue des
+          <pb n="322" facs="#ACAS_CRHST_AMP_21_311_0321_v.jpg"/>A Monsieur <persName ref="#pers_A366">Ampère</persName>, membre de l'<orgName>Académie</orgName>, rue des
                 Fossés-Saint-Victor n°19</closer>
       </div>
     </body>

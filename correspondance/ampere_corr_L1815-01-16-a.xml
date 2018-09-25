@@ -1,5 +1,5 @@
-<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -111,7 +111,7 @@
         <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName type="sender">[Ministère de l'Intérieur]</persName>
+          <persName type="sender" ref="no-index">[Ministère de l'Intérieur]</persName>
           <date when-iso="1815-01-16">16 janvier 1815</date>
         </correspAction>
         <correspAction type="received">
@@ -139,7 +139,7 @@
           <pb n="144" facs="#ACAS_CRHST_AMP_26_393_bis_0113_r.jpg"/>
           <placeName>Paris</placeName>, le <date when="1815-01-16">16 janvier 1815</date>
         </opener>
-                <opener>Le Ministre Secrétaire d’État de l'Intérieur, à Monsieur <persName>Ampère</persName>, Membre
+                <opener>Le Ministre Secrétaire d’État de l'Intérieur, à Monsieur <persName ref="#pers_A366">Ampère</persName>, Membre
                     honoraire du <orgName>Comité consultatif des Arts et Manufactures</orgName>.</opener>
                 <opener>Monsieur le Chevalier, </opener>
                 <p xml:id="L1815-01-16-a-p1">J'ai l'honneur de vous adresser un extrait de l'ordonnance
@@ -163,11 +163,11 @@
             promotion, sont conservés aux <orgName>Archives nationales</orgName> et font partie des
             documents numérisés par cette institution : consultez <ref target="http://www.culture.gouv.fr/documentation/leonore/leonore.htm">la
                 base Leonore</ref>.</note>
-            <note resp="#CGA" xml:id="corresp_2">Le fonds <persName>Ampère</persName> conserve d'autres
-                documents relatifs à la Légion d'honneur d'<persName>Ampère</persName> : cette <ref type="archives" target="#ampere_arch_chem393.xml">lettre</ref>, l'ampliation de l'ordonnance
+          <note resp="#CGA" xml:id="corresp_2">Le fonds <persName ref="#pers_A366">Ampère</persName> conserve d'autres
+              documents relatifs à la Légion d'honneur d'<persName ref="#pers_A366">Ampère</persName> : cette <ref type="archives" target="#ampere_arch_chem393.xml">lettre</ref>, l'ampliation de l'ordonnance
                 royale (<ref type="archives" target="#ampere_arch_chem393.xml">recto</ref>/<ref type="archives" target="#ampere_arch_chem393.xml">verso</ref>). En outre, on trouve dans la
                 chemise 205 un <ref type="archives" target="#ampere_arch_chem205.xml">accusé de réception</ref>
-                de brevet de Légion d'honneur, qui n'est ni signé, ni de la main d'<persName>Ampère</persName>,
+              de brevet de Légion d'honneur, qui n'est ni signé, ni de la main d'<persName ref="#pers_A366">Ampère</persName>,
                 mais daté du <date when="1815-01-27">27 janvier 1815</date>.</note>
       </div>
     </back>

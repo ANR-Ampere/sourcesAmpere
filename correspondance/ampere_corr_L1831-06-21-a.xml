@@ -1,5 +1,5 @@
-<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -109,7 +109,7 @@
         <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName type="sender">Proviseur du lycée d'Avignon (nom illisible)</persName>
+          <persName type="sender" ref="no-index">Proviseur du lycée d'Avignon (nom illisible)</persName>
           <date when-iso="1831-06-21">21 juin 1831</date>
         </correspAction>
         <correspAction type="received">
@@ -135,7 +135,7 @@
                 <opener>
           <pb n="127" facs="#ACAS_CRHST_AMP_15_260_0127_r.jpg"/> <placeName>Avignon</placeName>,<date when="1831-06-21">21 juin 1831</date>
                 </opener>
-                <opener>A monsieur <persName>Ampère</persName>, Inspecteur général de l'<orgName>Université</orgName> &amp;c.</opener>
+                <opener>A monsieur <persName ref="#pers_A366">Ampère</persName>, Inspecteur général de l'<orgName>Université</orgName> &amp;c.</opener>
                 <opener>Monsieur l'Inspecteur,</opener>
                 <p xml:id="L1831-06-21-a-p1"> Bien que depuis votre départ
                     d'<placeName>Avignon</placeName> j'ai été très occupé tant pour faire exécuter
@@ -252,7 +252,7 @@
             <div>
                 <opener>
           <pb n="133" facs="#ACAS_CRHST_AMP_15_260_0133_r.jpg"/> Notes pour une lettre
-                    à Monsieur <persName>Ampère</persName>, Inspecteur général de l'Université</opener>
+                    à Monsieur <persName ref="#pers_A366">Ampère</persName>, Inspecteur général de l'Université</opener>
                 <opener> Monsieur l'Inspecteur,</opener>
                 <p xml:id="L1831-06-21-a-p13">
                     J'admets comme vous que les sciences, les véritables
@@ -330,14 +330,14 @@
                     des arts.</p>
                 <closer>
           <pb n="132" facs="#ACAS_CRHST_AMP_15_260_0132_v.jpg"/> Monsieur le Proviseur du collège royal, pour remettre à Monsieur
-                    <persName>Ampère</persName>, Inspecteur général de l'université en tournée,
+                    <persName ref="#pers_A366">Ampère</persName>, Inspecteur général de l'université en tournée,
                     hôtel des Princes, <placeName>Aix</placeName>. "pressée"</closer>
             </div>
         </body>
         <back>
       <div>
         <note>ces notes répondent à la lettre
-            d'<persName>Ampère</persName> du <date when="1831-06-24">24 juin 1831</date>, voir <ref type="correspondance" target="#ampere_corr_L1831-06-24-a">L1831-06-24-a</ref>
+            d'<persName ref="#pers_A366">Ampère</persName> du <date when="1831-06-24">24 juin 1831</date>, voir <ref type="correspondance" target="#ampere_corr_L1831-06-24-a">L1831-06-24-a</ref>
         </note>
       </div>
     </back>

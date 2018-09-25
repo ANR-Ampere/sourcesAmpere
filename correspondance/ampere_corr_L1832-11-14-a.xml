@@ -1,4 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../Schémas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -123,7 +124,7 @@
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
-          <persName type="sender">Thillaye, Léon</persName>
+          <persName type="sender" ref="#pers_T1925">Thillaye, Léon</persName>
           <date when-iso="1832-11-14">14 novembre 1832</date>
         </correspAction>
         <correspAction type="received">
@@ -151,10 +152,10 @@
               <abbr>9bre</abbr> <expan>novembre</expan>
             </choice> 1832</date>
         </opener>
-        <opener>Monsieur <persName>Ampère</persName>,</opener>
+        <opener>Monsieur <persName ref="#pers_A366">Ampère</persName>,</opener>
         <p xml:id="L1832-11-14-a-p1"> Monsieur, n'étant connu de vous que pour avoir
                 assisté à vos expériences électrodynamiques, tant chez vous qu'à l'<orgName>école de médecine</orgName>
-                chez mon frère aîné M. <persName>Thillaye</persName>, je viens me recommander à vous dans le cas où l'on
+          chez mon frère aîné M. <persName ref="#pers_T1925">Thillaye</persName>, je viens me recommander à vous dans le cas où l'on
                 viendrait prendre des renseignements auprès de vous sur mon instruction en chimie,
                 et que je me propose de subir un examen en votre présence sur cette partie. Mon
                 frère aîné peut vous répondre de moi à cet égard. Car l'on me propose une place dans
@@ -167,12 +168,12 @@
         <p xml:id="L1832-11-14-a-p2">J'ose espérer que vous me serez
                 favorable dans cette circonstance et vous prie d'agréer l'assurance de ma parfaite
                 considération et estime,<lb/>
-          <persName ref="no-index">Léon Thillaye</persName>
+          <persName ref="#pers_T1925">Léon Thillaye</persName>
           <lb/>
           Chimiste, directeur de la fabrique de toiles
                 peintes d'<placeName>Essonne</placeName>.</p>
         <closer>
-          <pb n="308" facs="#ACAS_CRHST_AMP_21_311_0308_v.jpg"/>Monsieur <persName>Ampère</persName>, rue des Fossés-Saint-Victor n°19,
+          <pb n="308" facs="#ACAS_CRHST_AMP_21_311_0308_v.jpg"/>Monsieur <persName ref="#pers_A366">Ampère</persName>, rue des Fossés-Saint-Victor n°19,
                 <placeName>Paris</placeName>
         </closer>
       </div>

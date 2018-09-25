@@ -1,5 +1,5 @@
-<?xml-model href="../../Documents/Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -118,9 +118,7 @@
           <date when-iso="1815-05-22">22 mai 1815</date>
         </correspAction>
         <correspAction type="received">
-          <persName type="adressee">
-                <supplied>Clément</supplied>
-              </persName>
+            <persName type="adressee" ref="#pers_C149"><supplied>Clément</supplied></persName>
         </correspAction>
       </correspDesc>
             <creation>
@@ -363,8 +361,7 @@
                 
                 <note resp="#CAK" xml:id="corresp1">Les Procès-verbaux des séances de l'<orgName>Académie des sciences</orgName>
                     mentionnent, à la séance du <date when="1815-04-10">10 avril 1815</date>, la réception d'un mémoire de M.
-                    <persName ref="#pers_C149">Clément
-          </persName>, major d'artillerie sur la Résolution générale des
+                    <persName ref="#pers_C149">Clément</persName>, major d'artillerie sur la Résolution générale des
                     équations.</note>
             </div>
         </back>
