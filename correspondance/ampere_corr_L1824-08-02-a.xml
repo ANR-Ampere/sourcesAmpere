@@ -1,4 +1,4 @@
-<?xml-model href="../Sch%C3%A9mas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../Schémas/ampere.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -15,8 +15,8 @@
                 </respStmt>
                 <respStmt>
                     <name>Marco Segala, <affiliation>Centre Alexandre Koyré</affiliation>
-                    <affiliation>Università L'Aquila</affiliation>
-          </name>
+                        <affiliation>Università L'Aquila</affiliation>
+                    </name>
                     <resp>Responsable du projet, édition</resp>
                 </respStmt>
                 <respStmt>
@@ -36,39 +36,39 @@
                 </respStmt>
                 <respStmt>
                     <name>Marie-Hélène Wronecki, <affiliation>CRHST</affiliation>
-          </name>
+                    </name>
                     <resp>Édition web</resp>
                 </respStmt>
                 <respStmt>
                     <name>Florence Greffe, <affiliation>Archives de l'Académie des
-                            sciences</affiliation>
+                        sciences</affiliation>
                     </name>
                     <resp>Mise en place de la numérisation</resp>
                 </respStmt>
                 <respStmt>
-          <name>Mathilde Dutertre, </name>
-          <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
-        </respStmt>
+                    <name>Mathilde Dutertre, </name>
+                    <resp>Stagiaire ENC (École nationale des chartes) au Centre Alexandre Koyré : élaboration du schéma XML TEI et encodage</resp>
+                </respStmt>
             </titleStmt>
             <extent/>
             <publicationStmt>
                 <authority>Centre National de la Recherche Scientifique (CNRS)</authority>
                 <publisher>Centre Alexandre Koyré - CNRS (UMR 8560)</publisher>
                 <address>
-          <addrLine>27 rue Damesme</addrLine>
-          <addrLine>75013 Paris</addrLine>
-        </address>
+                    <addrLine>27 rue Damesme</addrLine>
+                    <addrLine>75013 Paris</addrLine>
+                </address>
                 <distributor>
                     <name>Centre de calcul de l'IN2P3</name>
                     <address>
-            <addrLine>Domaine scientifique de la Doua</addrLine>
-            <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
-            <addrLine>69622 Villeurbanne Cedex</addrLine>
-          </address>
+                        <addrLine>Domaine scientifique de la Doua</addrLine>
+                        <addrLine>43 boulevard du 11 Novembre 1918</addrLine>
+                        <addrLine>69622 Villeurbanne Cedex</addrLine>
+                    </address>
                 </distributor>
                 <availability>
-          <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
-        </availability>
+                    <p>Ce texte est protégé par la licence <ref target="http://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons</ref> dont le contenu est disponible sous Creative Commons Attribution -Non commercial - No Derivative Works 4.0 France</p>
+                </availability>
                 <date/>
                 <idno/>
             </publicationStmt>
@@ -80,11 +80,11 @@
                         <institution>Archives de l'Académie des sciences</institution>
                         <repository>Fonds André-Marie Ampère</repository>
                         <idno>chemise 183, f 40-41</idno>
-                    <altIdentifier>
-              <idno type="old">L1002</idno>
-              <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
-            </altIdentifier>
-          </msIdentifier>
+                        <altIdentifier>
+                            <idno type="old">L1002</idno>
+                            <note>Numéro de la lettre sur le premier site Ampère (2008)</note>
+                        </altIdentifier>
+                    </msIdentifier>
                     
                 </msDesc>
             </sourceDesc>
@@ -107,17 +107,17 @@
             </editorialDecl>
         </encodingDesc>
         <profileDesc>
-      <correspDesc>
-        <correspAction type="sent">
-          <persName ref="#pers_N420" type="sender">Nobili, Leopoldo</persName>
-          <date when-iso="1824-08-02">
-                <supplied>2 août 1824</supplied>
-              </date>
-        </correspAction>
-        <correspAction type="received">
-          <persName ref="#pers_A366" type="adressee">Ampère, André-Marie</persName>
-        </correspAction>
-      </correspDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#pers_N420" type="sender">Nobili, Leopoldo</persName>
+                    <date when-iso="1824-08-02">
+                        <supplied>2 août 1824</supplied>
+                    </date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#pers_A366" type="adressee">Ampère, André-Marie</persName>
+                </correspAction>
+            </correspDesc>
             <creation>
                 <date when="2014-07">juillet 2014</date>
                 <name>Philippe Pons</name>
@@ -131,24 +131,223 @@
             <change/>
         </revisionDesc>
     </teiHeader>
-    <text type="correspondance" decls="#ampere_corr_L1824-08-02-a">
+    <text type="correspondance" decls="#ampere_corr_L1824-08-02-a" xml:lang="it">
         <body>
             <div xml:id="L1824-08-02-a-div1">
                 <opener>
                     <date when="1824-08-02">[2 août 1824]</date>
                 </opener>
-                <p xml:id="L1824-08-02-a-p1"><pb n="73" facs="#ACAS_CRHST_AMP_09_183_0073_r.jpg"/> Chiarissimo Sig.<hi rend="sup">re</hi>,<lb/>
-                    Bisogna ben dire che la preg.ma sua lettera del 24 maggio p.p. sia stata lungo tempo in viaggio prima d'essere <w>con<lb rend="hyphen"/>segnata</w> a M. Plana. Egli non l'ebbe che pochi giorni sono; né tardò un solo momento a spedirmela per la posta. Io<lb/> l'ho ricevuta avant'ieri dentro un foglio del med. Plana, in cui mi avverte che ritiene presso di se la di lei opera<lb/> fintanto che gli si presenta un'occasione per rimettermela. Deggio molto a M. Plana per ogni sua premura<lb/> ma deggio molto più a lei per il prezioso dono che mi destina, e per l'usatami attenzione <w>d'accompagnar<lb rend="hyphen"/>la</w> con una sua lettera. Si assicuri che ascrivo a mia somma fortuna la combinazione che mi procura il vantaggio<lb/> di mettermi in diretta corrispondenza col <hi rend="underline">Volta del Magnetismo</hi>. Io non cercherò alcuna occassione particolare<lb/> né per questa mia lettera né per l'altre che la potranno seguire. Mi servirò a dirittura della posta, pregando Lei di<lb/> fare altrettanto per le sue risposte; onde non mi venga ritardato il piacere di scriverle con tutta la possibile sollecitudine.</p>
-                <p xml:id="L1824-08-02-a-p2">Posseggo già da un mese il <hi rend="underline">Manuale</hi> di Demonferrand. Se l'avessi veduto prima di pubblicare le mie<lb/> <hi rend="underline">Questioni</hi>, avrei per certo presentato l'analisi della di Lei dottrina in un modo ben diverso da quel che feci nella V<lb/> Questione, dove il mio scopo principale era di conciliare la nuova colle antiche attrazioni e ripulsioni elettriche.<lb/> Secondo quella conciliazione, le attrazioni e ripulsioni delle correnti voltaiche non sono che attrazioni e ripulsioni<lb/> apparenti, dipendenti in sostanza da un solo principio = <hi rend="underline">le correnti tendono a voltarsi dalla stessa parte e confondersi <w>in<lb rend="hyphen"/>sieme</w></hi> = Questo principio non meno semplice che facile a concepirsi sembrò e mi sembra tuttavia<lb/> espressione genuina delle prime sue scoperte; ma da esso non ne viene per certo che una corrente Pp<lb/> mobile d'intorno a P, debba girarsi d'intorno per l'azione d'un'altra corrente AB. Ella mi assicura<lb/> che questo giro ha effettivamente luogo, e che nel Manuale di Demonferrand si trova scritto il modo di conseguirlo. Io<lb/> Le confesserò ingenuamente la mia poca perspicacia col dirle che non trovo in quel libro né in altri alcun<lb/> giro della specie di cui parlo. Ho ogni motivo di credere ch'ella mi parli dell'esperimento del § 14; ma là non<lb/> si tratta dell'azione di due <hi rend="underline">sole</hi> correnti <subst><del>ma</del><add>rettilinee: si tratta</add></subst> d'una corrente rettilinea e d'un <hi rend="underline">circuito</hi> di correnti <hi rend="underline">abcd</hi>.<lb/> Vi ha per mio avviso un gran salto dall'influenza d'una sola corrente AB a quella di un sistema di correnti<lb/> che girano comunque d'intorno ad un centro.<lb/> agendo al di fuori secondo la legge generale dell'irraggiamento magnetico deve, giusto i miei stessi principi, <w>pro<lb rend="hyphen"/>durre</w> il giro di Pp, ora da una parte ed ora dall'altra secondo la direzione delle correnti. Ma non è così, dico io,<lb/> dell'azione d’una <hi rend="underline">sola</hi> corrente AB, che tende unicamente a strascinare l'altra nella stessa direzione. Per convincermi<lb/> del contrario, ho cercato più volte di conseguire il movimento retrogrado di Pp sopra AB, ma non sono mai riuscito ad averne il più piccolo indizio.</p> 
-                <p xml:id="L1824-08-02-a-p3">Desidererei inoltre di sapere, indipendentemente da qualunque calcolo, come due correnti perpendicolari Pp, AB<lb/> deggiano agire l'una su dell'altra se si attraggono dirette nel med.o senso e si respingono dirette nel senso contrario. Nella<lb/> posizione di mezzo, qual è la perpendicolare, non dovrebbe egli riscontrarsi necessariamente il <hi rend="underline">zero</hi> delle due forze<lb/> contrarie? So bene che vi è azione anche in quel caso; ma se vi è, non è questa <add>forse</add> una prova che le correnti <w>elet<lb rend="hyphen"/>triche</w> triche non agiscono per via d'attrazione e di repulsione?</p>
-                <p xml:id="L1824-08-02-a-p4">Dissi poi che desideravo una risposta <hi rend="underline">indipendente dal calcolo</hi>, perché non sono ancora troppo persuaso dal <w>meto<lb rend="hyphen"/>do</w> delle decomposizioini, né di certe esperienze che si riferiscono a conferme de' risultati analitici. Vuolsi p.e.<lb/> dal circuito del conduttore <hi rend="underline">pgn</hi> inferire che le parti d'una medesima corrente si respingono, e che una tale<lb/> repulsione sia quella indicata dalla sua formula. Ma perché una tale deduzione fosse necessaria, non <w>biso<lb rend="hyphen"/>gnerebbe</w> egli avere antecedentemente provato che la corrente che traversa il mercurio ne' due <w>compar<lb rend="hyphen"/>timenti</w>, è <hi rend="underline">precisamente</hi> a null'altro che la continuazione di quella che s'incanala dentro il conduttore mobile<lb/> pgn? Io credo invece d'essere in grado di mostrare che la corrente si propaghi nel mercurio, e che il luogo degli <pb n="74" facs="#ACAS_CRHST_AMP_09_183_0074_v.jpg"/> sparpagliamenti è un luogo dove le correnti per la resistenza che soffrono fanno nascere de' movimenti che non<lb/> nascerebbero senza la circostanza di quell'impedimento.</p>
-                <p xml:id="L1824-08-02-a-p5">Lo sparpagliamento si prova collo scandagliare la virtù elettro-magnetica presso alle<lb/> <w><supplied>pu</supplied>nte</w> di due fili Pp, nN coperti di seta e pescanti in una massa di mercurio che stabilisce la comunicazione metallica<lb/> fra le punte p, n. Lo scandaglio si può eseguire in vari modi, ma il più facile a un tempo e il più sicuro consiste<lb/> nel versar dell'acqua sopra il mercurio coll'intenzione di poterlo servire di sostegno ad un galleggiante magnetico<lb/> verticale. Col girare che fa quest'indice per un grand'arco d'intorno alle punte <hi rend="underline">p</hi>, <hi rend="underline">n</hi>, c'insegna esso che<lb/> la corrente si spande a raggio dinnanzi alla punta d'uscita p, e che si concentra ugualmente a raggi dinanzi alla punta
-                    <pb n="75" facs="#ACAS_CRHST_AMP_09_183_0075_r.jpg"/>
-        </p>
-                <closer>
-          <pb n="76" facs="#ACAS_CRHST_AMP_09_183_0076_v.jpg"/>M. <persName ref="#pers_A366">A. Ampère</persName>, de l'<orgName>Institut</orgName>,
-                    <placeName>Paris</placeName>
-                </closer>
+                <p xml:id="L1824-08-02-a-p1">
+                    <pb n="73" facs="#ACAS_CRHST_AMP_09_183_0073_r.jpg"/> 
+                    Chiarissimo Sig.<hi rend="sup">re</hi>,</p>
+                <p xml:id="L1824-08-02-a-p2">Bisogna ben dire che la preg.ma sua lettera del 24 maggio p.p. sia stata
+                    lungo tempo in viaggio prima d'essere con<lb rend="hyphen"/>segnata a M. Plana. Egli non l'ebbe che pochi giorni sono; né tardò un
+                    solo momento a spedirmela per la posta. Io<lb/>
+                    l'ho ricevuta avant'ieri dentro un foglio del med. Plana, in cui mi
+                    avverte che ritiene presso di se la di lei opera<lb/>
+                    fintanto che gli si presenta un'occasione per rimettermela. Deggio molto a M.
+                    Plana per ogni sua premura<lb/>
+                    ma deggio molto più a lei per il prezioso dono che mi destina, e per
+                    l'usatami attenzione d'accompagnar<lb rend="hyphen"/>la con una sua lettera. Si assicuri che ascrivo a mia somma fortuna la
+                    combinazione che mi procura il vantaggio<lb/>
+                    di mettermi in diretta corrispondenza col <hi rend="underline">Volta del
+                        Magnetismo</hi>. Io non cercherò alcuna occassione particolare<lb/>
+                    né per questa mia lettera né per l'altre che la potranno seguire. Mi
+                    servirò a dirittura della posta, pregando Lei di<lb/>
+                    fare altrettanto per le sue risposte; onde non mi venga ritardato il
+                    piacere di scriverle con tutta la possibile sollecitudine.</p>
+                <p xml:id="L1824-08-02-a-p3">Posseggo già da un mese il <hi rend="underline">Manuale</hi> di
+                    Demonferrand. Se l'avessi veduto prima di pubblicare le mie<lb/>
+                    <hi rend="underline">Questioni</hi>, avrei per certo presentato l'analisi
+                    della di Lei dottrina in un modo ben diverso da quel che feci nella V<lb/>
+                    Questione, dove il mio scopo principale era di conciliare la nuova colle
+                    antiche attrazioni e ripulsioni elettriche.<lb/>
+                    Secondo quella conciliazione, le attrazioni e ripulsioni delle correnti
+                    voltaiche non sono che attrazioni e ripulsioni<lb/>
+                    apparenti, dipendenti in sostanza da un solo principio = <hi rend="underline">le correnti tendono a voltarsi dalla stessa parte e confondersi
+                        in<lb rend="hyphen"/>sieme</hi> = Questo principio non meno semplice che
+                    facile a concepirsi sembrò e mi sembra tuttavia<lb/>
+                    espressione genuina delle prime sue scoperte; ma da esso non ne viene
+                    per certo che una corrente P<hi rend="it">p</hi> mobile d'intorno a P, debba
+                    girarsi d'intorno per l'azione d'un'altra corrente AB. Ella mi assicura<lb/>
+                    che questo giro ha effettivamente luogo, e che nel Manuale di
+                    Demonferrand si trova scritto il modo di conseguirlo. Io<lb/>
+                    Le confesserò ingenuamente la mia poca perspicacia col dirle che non
+                    trovo in quel libro né in altri alcun<lb/>
+                    giro della specie di cui parlo. Ho ogni motivo di credere ch'ella mi
+                    parli dell'esperimento del § 14; ma là non<lb/>
+                    si tratta dell'azione di due <hi rend="underline">sole</hi> correnti ma
+                    <hi rend="sup">rettilinee: si tratta</hi> d'una corrente rettilinea e d'un <hi rend="underline">circuito</hi> di correnti <hi rend="underline">abcd.</hi>
+                    <lb/>
+                    Vi ha per mio avviso un gran salto dall'influenza d'una sola corrente AB
+                    a quella di un sistema di correnti che girano comunque d'intorno ad un centro.
+                    Quest'ultimo è un sistema veramente magnetico, il quale<lb/>
+                    agendo al di fuori secondo la <hi rend="underline">legge</hi> generale
+                    dell'<hi rend="underline">irraggiamento magnetico</hi> deve, giusto i miei stessi
+                    principi, pro<lb rend="hyphen"/>durre il giro di P<hi rend="it">p</hi>, ora da una parte ed ora
+                    dall'altra secondo la direzione delle correnti. Ma non è così, dico io,<lb/>
+                    dell'azione d’una <hi rend="underline">sola</hi> corrente AB, che tende
+                    unicamente a strascinare l'altra nella stessa direzione. Per convincermi<lb/>
+                    del contrario, ho cercato più volte di conseguire il movimento
+                    retrogrado di P<hi rend="it">p</hi> sopra AB, ma non sono mai riuscito ad averne il
+                    più piccolo indizio.</p>
+                <p xml:id="L1824-08-02-a-p4">Desidererei inoltre di sapere, indipendentemente da qualunque calcolo,
+                    come due correnti perpendicolari P<hi rend="it">p</hi>, AB<lb/>
+                    deggiano agire l'una su dell'altra se si attraggono dirette nel med.o
+                    senso e si respingono dirette nel senso contrario. Nella<lb/>
+                    posizione di mezzo, qual è la perpendicolare, non dovrebbe egli
+                    riscontrarsi necessariamente il <hi rend="underline">zero</hi> delle due forze contrarie?
+                    So bene che vi è azione anche in quel caso; ma se vi è, non è questa <hi rend="sup">forse</hi> una prova che le correnti elet<lb rend="hyphen"/>triche non agiscono per via d'attrazione e di repulsione?</p>
+                <p xml:id="L1824-08-02-a-p5">Dissi poi che desideravo una risposta <hi rend="underline">indipendente dal
+                        calcolo</hi>, perché non sono ancora troppo persuaso dal meto<lb rend="hyphen"/>do delle decomposizioini, né di certe esperienze che si riferiscono a
+                    conferme de' risultati analitici. Vuolsi p.e.<lb/>
+                    dal circuito del conduttore <hi rend="underline">pgn</hi> inferire che le
+                    parti d'una medesima corrente si respingono, e che una tale<lb/>
+                    repulsione sia quella indicata dalla sua formula. Ma perché una tale
+                    deduzione fosse necessaria, non biso<lb rend="hyphen"/>gnerebbe egli avere antecedentemente provato che la corrente che
+                    traversa il mercurio ne' due compar<lb rend="hyphen"/>timenti, è <hi rend="underline">precisamente</hi> a null'altro che la
+                    continuazione di quella che s'incanala dentro il conduttore mobile<lb/>
+                    <hi rend="underline">pgn</hi>? Io credo invece d'essere in grado di
+                    mostrare che la corrente si propaghi nel mercurio, e che il luogo degli<lb/>
+                     <lb/>
+                    <pb n="74" facs="#ACAS_CRHST_AMP_09_183_0074_r.jpg"/> 
+                    sparpagliamenti è un luogo dove le correnti per la resistenza che soffrono
+                    fanno nascere de' movimenti che non<lb/>
+                    nascerebbero senza la circostanza di quell'impedimento.</p>
+                <p xml:id="L1824-08-02-a-p6">Lo sparpagliamento si prova collo scandagliare la virtù
+                    elettro-magnetica presso alle<lb/>
+                    [pu]nte di due fili P<hi rend="it">p</hi>, <hi rend="it">n</hi>N coperti di seta e pescanti in una massa di mercurio che stabilisce la
+                    comunicazione metallica<lb/>
+                    fra le punte <hi rend="it">p</hi>, <hi rend="it">n</hi>. Lo
+                    scandaglio si può eseguire in vari modi, ma il più facile a un tempo e il più sicuro
+                    consiste<lb/>
+                    nel versar dell'acqua sopra il mercurio coll'intenzione di poterlo
+                    servire di sostegno ad un galleggiante magnetico<lb/>
+                    verticale. Col girare che fa quest'indice per un grand'arco d'intorno
+                    alle punte <hi rend="it">
+                        <hi rend="underline">p</hi>
+                    </hi>, <hi rend="it">
+                        <hi rend="underline">n</hi>
+                    </hi>, c'insegna esso che<lb/>
+                    la corrente si spande a raggio dinnanzi alla punta d'uscita <hi rend="it">
+                        <hi rend="underline">p</hi>
+                    </hi>, e che si concentra ugualmente a raggi dinanzi alla punta<lb/>
+                    di ingresso <hi rend="it">
+                        <hi rend="underline">n</hi>
+                    </hi>.</p>
+                <p xml:id="L1824-08-02-a-p7">Per dimostrar poi la forza straordinaria che si manifesta nel luogo
+                    degl'irraggiamenti, comincio dal far<lb/>
+                    passare la scarica di due o tre boccie di Leida attraverso il circuito
+                    P<hi rend="it">pqn</hi>N. In questi passaggi il condut<lb rend="hyphen"/>tore <hi rend="it">
+                        <hi rend="underline">pqn</hi>
+                    </hi> salta fuori del piatto dal lato X. Non
+                    è questo che il suo fenomeno in grande, perché<lb/>
+                    prodotto da un'elletricità più potente. Perché? L'elettricità ordinaria
+                    non si presta punto all'<lb/>
+                    uffizio della attrazione e ripulsione elettro-dinamiche. Dunque se
+                    quest'ultimo fosse il principio<lb/>
+                    che fa vincolare il ferro da cavallo <hi rend="it">
+                        <hi rend="underline">pqn</hi>
+                    </hi>, non
+                    dovrebbe questo moversi in alcun modo, quando passa<lb/>
+                    per esso il torrente d’una scarica. Ma si muove, e si muove molto di più
+                    che non fa sotto l'azione delle correnti voltiane.<lb/>
+                    Dunque ecc. ecc.</p>
+                <p xml:id="L1824-08-02-a-p8">Giova inoltre avvertire che il conduttore <hi rend="it">
+                        <hi rend="underline">pqn</hi>
+                    </hi>
+                    vincola anche <hi rend="sup">quando</hi> è collocato sul piatto nella po<lb rend="hyphen"/>sizione rovescia <hi rend="it">
+                        <hi rend="underline">p'q'n'</hi>
+                    </hi>. Secondo il di lei modo
+                    di vedere l'origine delle correnti P<hi rend="it">p'</hi>, <hi rend="it">n'</hi>N su quella<lb/>
+                    del filo <hi rend="it">
+                        <hi rend="underline">p'q'n'</hi>
+                    </hi> sarbbe in totalità più ripulsiva
+                    che attrattiva tale cioè da spingere anhe in questo <hi rend="sup">caso</hi> il
+                    conduttore verso di X. Salta invece verso di Y, rinculando sempre dai luoghi d'i<hi rend="underline">mboccatura</hi> e di <hi rend="underline">sbocco</hi>
+                    <lb/>
+                    dove la corrente agisce in modo straordinario.</p>
+                <p xml:id="L1824-08-02-a-p9">Parmi infine che quando le cadrà in mente il pensiero di valutare in
+                    numeri la forza necessaria al rinculo<lb/>
+                    del filo conduttore <hi rend="underline">pqn</hi>, troverà questa così
+                    superiore alla forza ripulsiva che manifestano le correnti elettriche nelle circostanze
+                    le più favorevoli, da accorgersi subito che lo sviluppo di quella prima forza dipende da
+                    una cagione straor<lb rend="hyphen"/>dinaria. I <hi rend="underline">coni</hi> osservati da M. Davy nel suo
+                    grande fenomeno elettro-magnetico sono, per quanto mi sembra, una<lb/>
+                    novella prova della grandissima energia che sviluppano le correnti nel
+                    luogo di posti angusti. Ma ciò che merita<lb/>
+                    maggior attenzione nel fatto di Davy, sta il giro che fa la corrente
+                    elettrica dentro la vasca di mercurio ossia<lb/>
+                    di produrre sulla punta del filo negativo un cono consimile a quello che
+                    nasce sull'estremità del filo positivo.<lb/>
+                    La corrente giunge in <hi rend="it">
+                        <hi rend="underline">p</hi>
+                    </hi> sul mercurio che la
+                    sovrasta; di qui riunita, per la più gran parte, sul fondo d'un<lb/>
+                    vaso in <hi rend="it">
+                        <hi rend="underline">q</hi>
+                    </hi> dopo d'aver prodotto dinanzi a <hi rend="it">
+                        <hi rend="underline">p</hi>
+                    </hi> quella specie di percossa, che noi italiani<lb/>
+                    chiamiamo <hi rend="underline">botta</hi> nel corso de' fiumi, e che nel
+                    caso di cui si parla, si riceveva in<lb/>
+                    <hi rend="it">
+                        <hi rend="underline">n</hi>
+                    </hi>, dove la corrente è costretta ad eseguire una
+                    voltata ugualmente <hi rend="sup">brusca</hi> di quella che le tocca<lb/>
+                    di fare nell'uscire dalla punta <hi rend="it">
+                        <hi rend="underline">p</hi>
+                    </hi>. Nulla poi di
+                    più facile che l'assicurarsi del<lb/>
+                    cammino <hi rend="it">
+                        <hi rend="underline">pqn</hi>
+                    </hi> battuto dalla più gran parte della
+                    corrente. Basta per questo disporre orizzontalmente i due fili<lb/>
+                    P<hi rend="it">p</hi>, <hi rend="it">n</hi>N dentro uno strato
+                    di mercurio contenuto in una ampollina, e poscia scandagliare in più modi il corso che
+                    la<lb/>
+                    corrente tiene nel traversare la massa di mercurio.</p>
+                <p xml:id="L1824-08-02-a-p10">Nel ripetere l'esperimento di Davy coll'elettricità delle scariche
+                    ordinarie, si vede, invece di coni perma<lb rend="hyphen"/>nenti, guizza via il mercurio dal luogo della punta in forma di una
+                    piccola pioggia che giunge all'altezza<lb/>
+                    di parecchi pollici, e cade in parte fuori dal vaso. Questo fenomeno è
+                    potentemente lo stesso che quello del ferro da<lb/>
+                    <pb n="75" facs="#ACAS_CRHST_AMP_09_183_0075_r.jpg"/> 
+                    da cavallo che salta fuori dei piatti: non basta: sono pure della
+                    medesima natura e il giro della spirale<lb/>
+                    di Savary e l'antico giuoco del molinello elettrico. Tutti questi
+                    fenomeni dipendono dalla med.a cagione, e niuno<lb/>
+                    per quanto mi pare è da registrare nella classe di nuovi fatti. La loro
+                    esclusione è una conseguenza ben naturale<lb/>
+                    del metodo che seguito nelle mie Questioni. Questo metodo ha pure esso
+                    la sua formola generale: formola di<lb/>
+                    fatto che mi ha inspirato e mi ispira tuttora la più gran fiducia. Ella
+                    già vede che alludo alla disposizione<lb/>
+                    della limatura di ferro d'intorno ai sistemi magnetici; disposizione che
+                    io chiamo irraggiamento magnetico ed a cui<lb/>
+                    mi rivolgo per la spiegazione di tutte le vicende che nascono tra
+                    calamita e calamita, e tra calamita e conduttori voltiani. Ma non si parli per ora delle
+                    cose mie. Verrà tempo anche per loro, se ella m'occorrerà d'un<lb/>
+                    carteggio regolare. Frattanto io sono pieno di vera stima e vera
+                    considerazione</p>
+                <p xml:id="L1824-08-02-a-p11">Di Lei [illisible] Sig.<hi rend="sup">r</hi>
+                    <lb/>
+                    Reggio di Modena li 2 agosto 1824
+                       Dev.<hi rend="sup">mo</hi> ed obb.<hi rend="sup">mo</hi> servo<lb/>
+                    Leopoldo Nobili</p>
+                <p xml:id="L1824-08-02-a-p12">P.S. Ho scoperto ultimamente un fatto che mi sembra molto<lb/>
+                    curioso e degno dell'attenzione de' Fisici. Verso una grossa<lb/>
+                    goccia di mercurio dentro uno scodellino da caffè; la copro<lb/>
+                    tutta d'acido solforico e poi la tocco lateralmente<lb/>
+                    con un filo di ferro. Al momento del contatto la<lb/>
+                    goccia concepisce un movimento oscillatorio d'andata e<lb/>
+                    ritorno, che si direbbe una specie di <hi rend="underline">palpitazione</hi>, e che<lb/>
+                    dura lunghissimo tempo; non cessando che allorchè il<lb/>
+                    ferro è giunto a un certo grado d'ossidazione. Il fascicolo<lb/>
+                    di Giugno del Giornale scientifico di Firenze, l'<hi rend="underline">Antologia</hi>, dovreb<lb rend="hyphen"/>be contenere una breve notiza di questa mia scoperta del<lb/>
+                    tutto accidentale. Potrà consultarlo all'uopo. Sono di nuovo S<lb/>
+                    L. Nobili.
+                </p>
             </div>
         </body>
     </text>
